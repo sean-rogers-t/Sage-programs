@@ -1,8 +1,8 @@
 {
-  "library_version": "0.2.0",
-  "wheel": "sage_borel-0.2.0-py3-none-any.whl",
-  "wheel_bytes": 29277,
-  "wheel_sha256": "8b5a73eb1ac38b9344b824417d1ffd7a8e495985124828593ec0a6fd61b0fa96",
+  "library_version": "0.3.0",
+  "wheel": "sage_borel-0.3.0-py3-none-any.whl",
+  "wheel_bytes": 36151,
+  "wheel_sha256": "8039b5a8d74c87caefba0c9232a0c9b330a43287235b3e17aec7880a2b179b6a",
   "build": {
     "python_version": "3.12",
     "command": "python -m pip wheel --no-deps --no-build-isolation --wheel-dir dist .",
@@ -14,12 +14,13 @@
     "sage_version": "9.5",
     "python_version": "3.10.12",
     "installation": "isolated temporary target, without changing the system Sage installation",
-    "command": "PYTHONPATH=<isolated-target> sage -python examples/exceptional.py",
+    "command": "PYTHONPATH=<isolated-target> sage -python examples/image_relations.py",
     "checks": [
-      "F4/P1 generator discovery and e2 image",
-      "E6/P6 supplementary Euler input and image",
-      "E7/P7 generator discovery and psi5 image",
-      "E8 partial coverage metadata and P2 e4 image"
+      "Projective plane Hilbert function and cubic kernel relation",
+      "Two-step flag construction and weighted generator degrees",
+      "Exact mixed kernel relation in degree 4",
+      "Tail cubic relation and small-case image Hilbert polynomial",
+      "Computed image dimensions agree with the independent presentation"
     ],
     "passed": true
   },
@@ -27,21 +28,31 @@
     {
       "command": "PYTHONPATH=src sage -python -m unittest tests.test_library -v",
       "unit_tests": 17,
-      "seconds": 14.833,
+      "seconds": 13.226,
       "exhaustive_divisor_products": false,
       "passed": true
     },
     {
-      "command": "PYTHONPATH=src BOREL_EXCEPTIONAL_REPORT=exceptional-verification.json sage -python -m unittest tests.test_exceptional -v",
-      "unit_tests": 5,
-      "seconds": 35.108,
-      "catalogue_expansions": 128,
-      "reference_coefficients": 356,
-      "independent_input_polynomials": 128,
-      "levi_reflection_checks": 661,
-      "independent_chevalley_expansions": 8,
+      "command": "PYTHONPATH=src sage -python -m unittest tests.test_algebra -v",
+      "unit_tests": 9,
+      "seconds": 4.117,
+      "independent_groebner_rank_and_kernel_checks": 135,
+      "whole_presentation_ideal_components": 42,
       "passed": true
     }
   ],
+  "finite_experiment": {
+    "command": "PYTHONPATH=src sage -python experiments/two_step_symplectic.py",
+    "parameter_cases": 20,
+    "homogeneous_ranks": 180,
+    "presentation_relations_evaluated": 23,
+    "seconds": 106.965457,
+    "passed": true
+  },
+  "prior_exceptional_verification": {
+    "release": "0.2.0",
+    "record": "exceptional-verification.json",
+    "exceptional_runtime_and_catalogue_unchanged": true
+  },
   "historical_programs_preserved": 35
 }

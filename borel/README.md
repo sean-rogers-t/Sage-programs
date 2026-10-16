@@ -9,6 +9,11 @@ calculations such as `exceptional_image("F4", 1, "e2")`, with named polynomial
 inputs and computed Schubert images. It includes the corrected Part III inputs,
 the missing E6/P6 Euler generator, and the displayed E8 dissertation cases.
 
+The [image-and-relations calculator](IMAGE_RELATIONS.md) analyzes any chosen
+homogeneous Levi-invariant generators: exact graded image matrices, ranks,
+kernel relations and Hilbert-function prefixes. It includes a two-step
+symplectic family and reproducible experiments on joint Levi-factor images.
+
 It computes
 
 \[
@@ -37,6 +42,12 @@ The exceptional catalogue has its own example:
 
 ```bash
 PYTHONPATH=src sage -python examples/exceptional.py
+```
+
+For graded images and relations:
+
+```bash
+PYTHONPATH=src sage -python examples/image_relations.py
 ```
 
 Or install into your Sage environment and import from any directory:

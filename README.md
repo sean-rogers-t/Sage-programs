@@ -9,6 +9,10 @@ The original program files are preserved unchanged.
 The [exceptional catalogue](borel/EXCEPTIONAL.md) supplies named generator
 calculations for G2, F4, E6 and E7, plus the displayed E8 dissertation cases.
 
+The [graded image calculator](borel/IMAGE_RELATIONS.md) computes exact relations
+among chosen generator images, with two-step symplectic flag experiments and
+an invariant-theory derivation of their joint-image presentation.
+
 Research articles and the independently checked F4, E6 and E7 Springer-morphism
 note are indexed in [articles/README.md](articles/README.md).
 
