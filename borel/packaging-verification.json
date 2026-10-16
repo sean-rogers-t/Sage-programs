@@ -1,25 +1,47 @@
 {
-  "library_version": "0.1.0",
-  "wheel": "sage_borel-0.1.0-py3-none-any.whl",
-  "wheel_bytes": 16461,
-  "wheel_sha256": "000f9c1bb647c30dad24b02c89a6f764d0c776a88c9fd150730859eb6038e9fb",
+  "library_version": "0.2.0",
+  "wheel": "sage_borel-0.2.0-py3-none-any.whl",
+  "wheel_bytes": 29277,
+  "wheel_sha256": "8b5a73eb1ac38b9344b824417d1ffd7a8e495985124828593ec0a6fd61b0fa96",
   "build": {
     "python_version": "3.12",
     "command": "python -m pip wheel --no-deps --no-build-isolation --wheel-dir dist .",
-    "passed": true
+    "passed": true,
+    "runtime_catalogue_in_wheel": true,
+    "reference_schubert_fixture_excluded_from_wheel": true
   },
   "installed_package_check": {
     "sage_version": "9.5",
     "python_version": "3.10.12",
     "installation": "isolated temporary target, without changing the system Sage installation",
-    "command": "PYTHONPATH=<isolated-target> sage -python examples/basic.py",
+    "command": "PYTHONPATH=<isolated-target> sage -python examples/exceptional.py",
     "checks": [
-      "C12 tail expansion and six output terms",
-      "corrected D4 elementary and Euler images",
-      "A3 arbitrary parabolic and top index",
-      "E7 Chevalley divisor cube agrees with divided differences",
-      "D4 signed embedding"
+      "F4/P1 generator discovery and e2 image",
+      "E6/P6 supplementary Euler input and image",
+      "E7/P7 generator discovery and psi5 image",
+      "E8 partial coverage metadata and P2 e4 image"
     ],
     "passed": true
-  }
+  },
+  "test_runs": [
+    {
+      "command": "PYTHONPATH=src sage -python -m unittest tests.test_library -v",
+      "unit_tests": 17,
+      "seconds": 14.833,
+      "exhaustive_divisor_products": false,
+      "passed": true
+    },
+    {
+      "command": "PYTHONPATH=src BOREL_EXCEPTIONAL_REPORT=exceptional-verification.json sage -python -m unittest tests.test_exceptional -v",
+      "unit_tests": 5,
+      "seconds": 35.108,
+      "catalogue_expansions": 128,
+      "reference_coefficients": 356,
+      "independent_input_polynomials": 128,
+      "levi_reflection_checks": 661,
+      "independent_chevalley_expansions": 8,
+      "passed": true
+    }
+  ],
+  "historical_programs_preserved": 35
 }

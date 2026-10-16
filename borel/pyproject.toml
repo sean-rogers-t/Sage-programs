@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "sage-borel"
-version = "0.1.0"
-description = "Exact sparse Borel characteristic maps and classical generators for SageMath"
+version = "0.2.0"
+description = "Exact sparse Borel characteristic maps and classical and exceptional generators for SageMath"
 readme = "README.md"
 requires-python = ">=3.9"
 authors = [{name = "Sean Rogers"}]
@@ -20,3 +20,6 @@ Repository = "https://github.com/sean-rogers-t/Sage-programs"
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[tool.setuptools.package-data]
+sage_borel = ["data/*.json"]

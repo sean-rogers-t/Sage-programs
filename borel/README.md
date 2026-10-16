@@ -4,6 +4,11 @@ A small SageMath library for exact Borel characteristic maps in a Schubert basis
 The historical programs in the repository root are preserved. This package is a
 separate implementation incorporating the corrections found during their audit.
 
+The [exceptional generator catalogue](EXCEPTIONAL.md) adds three-parameter
+calculations such as `exceptional_image("F4", 1, "e2")`, with named polynomial
+inputs and computed Schubert images. It includes the corrected Part III inputs,
+the missing E6/P6 Euler generator, and the displayed E8 dissertation cases.
+
 It computes
 
 \[
@@ -13,9 +18,10 @@ It computes
 
 Here `i` is an omitted node; on the full flag variety every node is allowed.
 
-This is the characteristic-map stage of the research calculations. To compute a
-Springer-induced map, first form its polynomial pullback, then pass that polynomial
-to `expand`. The independent exceptional Springer calculations remain in
+This is the characteristic-map stage of the research calculations. For a
+representation-ring element written as the Springer pullback `q(Theta(t))`, pass
+the invariant polynomial `q(omega)` in fundamental-weight coordinates to `expand`.
+The independent exceptional Springer calculations remain in
 [`../articles/calculations`](../articles/calculations/).
 
 ## Run it
@@ -25,6 +31,12 @@ Run from this `borel/` directory without installing anything:
 
 ```bash
 PYTHONPATH=src sage -python examples/basic.py
+```
+
+The exceptional catalogue has its own example:
+
+```bash
+PYTHONPATH=src sage -python examples/exceptional.py
 ```
 
 Or install into your Sage environment and import from any directory:
@@ -109,6 +121,10 @@ sum zero; the GL(n) central character has zero characteristic-map image.
 | `b.longest_representative()` | Top Schubert index, without enumerating W |
 | `b.clear_cache()` | Release generated bases, words and per-class products |
 | `to_type_a(w)` | Structural signed-permutation embedding for B/C/D |
+| `exceptional_image(type, parabolic, generator)` | Compute a named exceptional generator image |
+| `exceptional_generators(type, parabolic)` | List names, degrees and source metadata |
+| `exceptional_polynomial(type, parabolic, generator)` | Inspect its fundamental-weight polynomial |
+| `exceptional_borel(type, parabolic)` | Reusable map with named generator methods |
 
 `tail_polynomial` and `tail_elementary` default to unsquared coordinates in A,
 squared coordinates in B/C/D; `squared=True/False` overrides this. Classical

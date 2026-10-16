@@ -34,6 +34,12 @@ The historical type A files supply parabolic and duality helpers rather than
 a complete elementary-image pipeline. The new package adds that pipeline:
 `classical_borel("A",n,k).tail_elementary(k,h)` computes the unsquared tail image.
 
+For the analogous exceptional workflow, use
+`exceptional_image("F4", parabolic=1, generator="e2")`. The three arguments
+select the group, omitted Dynkin node and named Levi-invariant polynomial.
+See the [exceptional guide](EXCEPTIONAL.md) for available generators and
+normalization conventions.
+
 ## Corrections included
 
 The type D elementary construction now includes every tail coordinate. The old
