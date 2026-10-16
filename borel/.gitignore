@@ -6,4 +6,5 @@ dist/
 .venv/
 verification.log
 exceptional-verification.log
+algebra-verification.log
 verification-*.json
