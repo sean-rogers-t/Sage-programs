@@ -50,6 +50,18 @@ orbits, checks multiplicities against irreducible characters, and verifies that
 the resulting morphisms vanish at the identity and have derivative equal to the
 identity. It imports no published coordinate formula or historical calculation.
 
+## Combinatorial proofs in types A, C, and D
+
+The [combinatorial proof note](combinatorial-proofs/README.md) includes the
+completed type C dissertation argument, type A and D extensions, the Euler
+generator, stable injectivity arguments, and a comparison with Parts II and
+III. The published classical main theorems already have proofs; this note
+provides alternative arguments and explicit Schubert refinements.
+
+- [LaTeX-generated PDF](combinatorial-proofs/Combinatorial_proofs_types_A_C_D.pdf)
+- [Editable LaTeX](combinatorial-proofs/Combinatorial_proofs_types_A_C_D.tex)
+- [Exact Sage checks and recorded results](combinatorial-proofs/verification/README.txt)
+
 [PROVENANCE.json](PROVENANCE.json) records source URLs, SHA-256 hashes and file
 sizes. The current PDF and Word note supersede the earlier local note filenames;
 only this final pair is included here.

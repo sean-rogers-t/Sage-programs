@@ -1,0 +1,658 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[margin=1in,headheight=14pt]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{xcolor}
+\usepackage{microtype,booktabs,array,enumitem,fancyhdr}
+\usepackage[colorlinks=true,linkcolor=blue!45!black,urlcolor=blue!45!black,citecolor=blue!45!black]{hyperref}
+\hypersetup{pdftitle={Combinatorial proofs for classical Springer-induced maps},pdfauthor={Prepared for Sean Rogers},pdfsubject={Completion of Rogers Theorem 5.5 and type A and D analogues}}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small Classical Springer-induced maps}
+\fancyhead[R]{\small Types A, C, and D}
+\fancyfoot[C]{\thepage}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt plus 1pt}
+\setlist[itemize]{leftmargin=1.5em,itemsep=3pt,topsep=4pt}
+\setlist[enumerate]{leftmargin=1.7em,itemsep=4pt,topsep=4pt}
+\allowdisplaybreaks[1]
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+\newcommand{\eps}{\varepsilon}
+\newcommand{\IG}{\operatorname{IG}}
+\newcommand{\OG}{\operatorname{OG}}
+\newcommand{\Gr}{\operatorname{Gr}}
+\newcommand{\Sym}{\operatorname{Sym}}
+\newcommand{\wtau}{\widehat{\tau}}
+\newcommand{\ellk}{\ell_k}
+\newcommand{\ind}{\mathbf{1}}
+\newcommand{\C}{\mathbb C}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\qpoly}[1]{q_{#1}(c)}
+\title{\vspace{-1.5em}Combinatorial proofs for classical\newline Springer-induced maps\\[5pt]
+\large Completing Rogers' Theorem 5.5, with type A and type D extensions}
+\author{Prepared for Sean Rogers}
+\date{October 16, 2026}
+\begin{document}
+\maketitle
+\vspace{-1.2em}
+\begin{abstract}
+The incomplete type C argument in Rogers' dissertation can be replaced by a uniform proof using coinvariants, divided differences, and the Giambelli formula already available there. This note gives that proof in every rank, including the one-row boundary, and proves corresponding statements in type A and in Xie's type D setting. Type A requires an explicit sign in the tail map. Type D requires split middle classes, factors of two, and an additional Euler generator. Separate specialization arguments establish the stable type C and D injectivity statements. Exact finite-rank calculations corroborate the proofs. Source corrections are collected at the end. The symmetric-function identities and Giambelli formulas used here are established tools; the contribution of the note is the completed arguments and the clarified conventions.
+\end{abstract}
+
+\section{Conventions and the common mechanism}
+\label{sec:setup}
+
+The main target is Rogers \cite{Rogers}, Theorem 5.5, printed pp.~70--74 (Drive PDF pp.~77--81). The comparisons are his type A results in Chapter 4 and Xie \cite{Xie}, Proposition 4.6 and Theorem 4.8. Printed and PDF page numbers are distinguished in Section~\ref{sec:sources}.
+
+Work over $\Q$, or over $\C$ after extension of scalars. Polynomial degree $d$ corresponds to cohomological degree $2d$. Initially, $\beta$ denotes the full-flag characteristic homomorphism
+\[
+ \beta:\Sym(\mathfrak t^*)\longrightarrow H^*(G/B;\Q),
+ \qquad \beta(\omega_j)=\eps_{s_j}.
+\]
+Positive-degree $W$-invariants are in its kernel. For $W_P$-invariant inputs, its image lies in the pullback of $H^*(G/P;\Q)$. This pullback is injective; we identify the image with the corresponding class on $G/P$. Thus the fundamental-weight convention is a convention on the full flag variety, not an assertion that every $\eps_{s_j}$ is a divisor on a fixed maximal-parabolic quotient.
+
+Use coordinate weights $x_1,\ldots,x_n$ and the Springer morphisms for the standard representations. The type A coordinates $t_j$ map to $x_j$. In types C and D, use the normalized coordinates
+\[
+ \bar t_j=\frac{t_j-t_j^{-1}}2,\qquad \bar t_j\longmapsto x_j.
+\]
+The formulas below therefore give the Springer-induced maps on their polynomial Levi subrings by replacing the input $x_j$ with $t_j$ or $\bar t_j$, respectively. The multiplicative torus characters and the additive coordinate weights are distinct objects.
+
+For an alphabet $A$, write $e_i(A)$, $h_i(A)$, and $s_\lambda(A)$ for elementary, complete, and Schur symmetric polynomials. Set $e_0=h_0=1$ and $e_i=h_i=0$ for $i<0$. A zero final part of a partition is omitted. Put
+\[
+ E_A(z)=\prod_{a\in A}(1+az),\qquad
+ H_A(z)=\prod_{a\in A}(1-az)^{-1}.
+\]
+All generating-function computations are formal and are applied coefficient by coefficient.
+
+For simple roots $\alpha_j$ and reflections $s_j$, let
+\[
+ \partial_j f=\frac{f-s_j f}{\alpha_j}.
+\]
+We use the BGG coefficient formula in the dissertation's convention: if $f$ is homogeneous of degree $d$, the coefficient of $\eps_w$ in $\beta(f)$ is $(\partial_w f)(0)$ for $\ell(w)=d$. A chronological sequence of operators $j_1,\ldots,j_d$ corresponds to the word $w=s_{j_d}\cdots s_{j_1}$. The divided differences satisfy the nil-Coxeter relations. Consequently a sequence acting nontrivially is reduced, and exhaustive enumeration of the nonzero operator paths computes every Schubert coefficient.
+
+\begin{lemma}[The squared-alphabet identity]\label{lem:squares}
+For every finite alphabet $A$ and integer $i\geq1$,
+\begin{align}
+ h_i(A^2)&=\sum_{q=0}^{i}(-1)^q s_{(2i-q,q)}(A),\label{eq:schuridentity}\\
+ (-1)^i h_i(A^2)
+ &=h_i(A)^2+2\sum_{j=1}^{i}(-1)^j h_{i+j}(A)h_{i-j}(A).
+ \label{eq:hidentity}
+\end{align}
+Here $A^2$ means the alphabet consisting of the squares of the elements of $A$.
+\end{lemma}
+\begin{proof}
+The generating functions satisfy
+\[
+ H_A(z)H_A(-z)=\prod_{a\in A}(1-a^2z^2)^{-1}.
+\]
+The coefficient of $z^{2i}$ is
+\[
+ h_i(A^2)=2\sum_{q=0}^{i-1}(-1)^q h_{2i-q}(A)h_q(A)
+              +(-1)^i h_i(A)^2.
+\]
+On the other hand, two-row Jacobi--Trudi gives
+\[
+ s_{(a,b)}(A)=h_a(A)h_b(A)-h_{a+1}(A)h_{b-1}(A).
+\]
+Summing these determinants with signs $(-1)^q$ for $(a,b)=(2i-q,q)$ yields the same expression by reindexing the second sum. This proves \eqref{eq:schuridentity}. Multiplication by $(-1)^i$ and the substitution $j=i-q$ give \eqref{eq:hidentity}.
+\end{proof}
+
+\begin{lemma}[The coinvariant reduction]\label{lem:coinvariant}
+Let $A=(x_1,\ldots,x_r)$ and $B=(x_{r+1},\ldots,x_n)$. In type A,
+\begin{equation}
+ \beta(e_i(B))=(-1)^i\beta(h_i(A)).\label{eq:Acoinvariant}
+\end{equation}
+In types C and D,
+\begin{equation}
+ \beta(e_i(B^2))=(-1)^i\beta(h_i(A^2)).\label{eq:CDcoinvariant}
+\end{equation}
+\end{lemma}
+\begin{proof}
+In type A every positive coefficient of $E_A(u)E_B(u)$ is a positive-degree $W$-invariant. Thus its image is 1, and $E_A(u)^{-1}=H_A(-u)$ proves \eqref{eq:Acoinvariant}.
+
+In types C and D every positive coefficient of
+\[
+ \prod_{a\in A}(1+a^2u)\prod_{b\in B}(1+b^2u)
+\]
+is again a $W$-invariant. The last coefficient in type D is included, since
+\[
+ e_n(x_1^2,\ldots,x_n^2)=(x_1\cdots x_n)^2.
+\]
+Invert the first product and compare coefficients to obtain \eqref{eq:CDcoinvariant}.
+\end{proof}
+
+The remainder of the proof consists of identifying $\beta(h_p(A))$ combinatorially and then using Giambelli to interpret the two-row determinants. No induction on $k$, and no classification of guessed preferred reduced words, is needed.
+
+\section{Type C: completion of Theorem 5.5}
+\label{sec:C}
+
+Let $n>k\geq1$, put $r=n-k$, and let $X=\IG(r,2n)$. Schubert classes $\eps_\lambda$ are indexed by $k$-strict partitions in the $r\times(n+k)$ rectangle. Set $c_0=1$, $c_p=\eps_{(p)}$ for $1\leq p\leq n+k$, and $c_p=0$ for $p<0$ or $p>n+k$. These are the usual $c_p(Q)$, but the following proof identifies them by divided differences. An out-of-rectangle partition represents zero.
+
+\begin{theorem}[Corrected type C formula]\label{thm:C}
+For $1\leq i\leq k$,
+\begin{equation}
+ \boxed{\displaystyle
+ \beta(e_i(B^2))
+ =\sum_{q=0}^{i}(-1)^{i+q}\eps_{(2i-q,q)}
+ =c_i^2+2\sum_{j=1}^{i}(-1)^j c_{i+j}c_{i-j}.}
+ \label{eq:Cmain}
+\end{equation}
+The head generators, for $1\leq j\leq r$, satisfy
+\begin{equation}
+ \beta(e_j(A))=\eps_{s_{r-j+1}\cdots s_r}=c_j(S^*).
+ \label{eq:Chead}
+\end{equation}
+For $k\geq1$ this head class has column partition $(1^j)$.
+\end{theorem}
+
+\subsection{All one-row coefficients by divided differences}
+In type C the simple roots and reflections are
+\[
+ \alpha_j=x_j-x_{j+1}\ (j<n),\qquad \alpha_n=2x_n;
+ \qquad s_n(x_n)=-x_n.
+\]
+The other simple reflections swap adjacent coordinates. Define
+\[
+ H_m(z)=\prod_{a=1}^{m}(1-x_a z)^{-1},\qquad
+ F_m(z)=H_m(z)\prod_{a=m+1}^{n}(1-x_a^2z^2)^{-1}.
+\]
+In particular $F_0(z)=\prod_{a=1}^n(1-x_a^2z^2)^{-1}$ is $W$-invariant.
+
+\begin{lemma}\label{lem:Crows}
+For every $p\geq0$, $\beta(h_p(A))=c_p$.
+\end{lemma}
+\begin{proof}
+Direct subtraction gives
+\begin{align}
+ \partial_mH_m&=zH_{m+1} &&(1\leq m<n),\nonumber\\
+ \partial_nH_n&=zF_{n-1},&\qquad&\nonumber\\
+ \partial_mF_m&=zF_{m-1} &&(1\leq m<n).
+ \label{eq:Cpaths}
+\end{align}
+At each displayed stage all other simple divided differences vanish: inside either block the generating function is symmetric, and a tail consisting of squared variables is invariant under the last sign change.
+
+Starting at $H_r$, the only possible nonzero chronological path is
+\begin{equation}
+ r,r+1,\ldots,n-1,n,n-1,n-2,\ldots,1.
+ \label{eq:Cpath}
+\end{equation}
+Its length is $n+k$. After the first $p$ steps, \eqref{eq:Cpaths} gives $z^p$ times a series with constant term 1. Applying those steps to $[z^p]H_r=h_p(A)$ therefore gives 1. Every other length-$p$ sequence gives zero. Once $F_0$ is reached, all further divided differences vanish.
+
+The reversed prefixes of \eqref{eq:Cpath} are the standard one-row representatives
+\begin{equation}
+ w_p=
+ \begin{cases}
+ s_{r+p-1}\cdots s_r,&1\leq p\leq k,\\[2pt]
+ s_{n+k-p+1}\cdots s_{n-1}s_ns_{n-1}\cdots s_r,
+       &k+1\leq p\leq n+k.
+ \end{cases}
+ \label{eq:Cwords}
+\end{equation}
+The initial increasing-index string in the second line is empty for $p=k+1$. Nonzero divided differences establish reducedness. The BGG coefficient formula now gives $\beta(h_p(A))=\eps_{w_p}=c_p$, with zero for $p>n+k$. Crucially, the path argument also proves that all other coefficients vanish.
+\end{proof}
+
+\subsection{The two-row expansion and its boundary}
+\begin{proof}[Proof of Theorem~\ref{thm:C}]
+Lemmas~\ref{lem:coinvariant} and \ref{lem:squares} give
+\[
+ \beta(e_i(B^2))
+ =\sum_{q=0}^{i}(-1)^{i+q}\beta(s_{(2i-q,q)}(A)).
+\]
+Set $a=2i-q$ and $b=q$. The partition $(a,b)$ is $k$-strict, since equal parts occur only when $a=b=i\leq k$. Its two parts satisfy
+\[
+ a+b=2i\leq2k<2k+1.
+\]
+In the type C raising-operator Giambelli formula \cite[Theorem 1]{BKTisotropic}, the extra inverse factor for a two-row partition occurs only when $a+b>2k+1$. It is absent here. Hence, for partitions that fit,
+\begin{equation}
+ \eps_{(a,b)}=c_a c_b-c_{a+1}c_{b-1}
+                =\beta(s_{(a,b)}(A)),
+ \label{eq:CJT}
+\end{equation}
+where the second equality is Lemma~\ref{lem:Crows} and Jacobi--Trudi.
+
+If $r\geq2$, every partition here fits: it has at most two rows and first part at most $2k\leq n+k$. If $r=1$, each term with $b>0$ is a two-row Schur polynomial in one variable and is zero. This agrees with the finite-Grassmannian zero convention. The $b=0$ term fits. Thus the alternating Schubert formula holds in every case, including $i=k$ and $r=1$.
+
+Substitution of the determinants in \eqref{eq:CJT}, or direct application of \eqref{eq:hidentity}, yields
+\[
+ \sum_{q=0}^{i}(-1)^{i+q}
+       (c_{2i-q}c_q-c_{2i-q+1}c_{q-1})
+ =c_i^2+2\sum_{j=1}^{i}(-1)^j c_{i+j}c_{i-j}.
+\]
+This proves the squared-tail statement.
+
+For the head, put $E_m(z)=\prod_{a\leq m}(1+x_a z)$. Its only nonzero simple divided difference is
+\[
+ \partial_mE_m=zE_{m-1}.
+\]
+This identity includes $m=n$ in type C, using the denominator $2x_n$. Starting at $E_r$, the unique path is $r,r-1,\ldots,r-j+1$, with scalar coefficient 1. Its reverse gives the word in \eqref{eq:Chead}. The class is $c_j(S^*)$ with the stated Borel convention.
+\end{proof}
+
+\begin{remark}[The Lagrangian head and a concrete sign check]
+For $k=0$ there is no tail. The head argument still applies with $r=n$ and gives the same word $s_{n-j+1}\cdots s_n$; in Lagrangian partition notation it is the one-row special class $(j)$, not $(1^j)$.
+
+For $i=2$ the corrected formula reads
+\[
+ \beta(e_2(B^2))=c_2^2-2c_3c_1+2c_4
+ =\eps_{(2,2)}-\eps_{(3,1)}+\eps_{(4)}.
+\]
+On $\IG(1,6)\cong\mathbb P^5$ ($n=3,k=2$), this equals $\eps_{(4)}$. Replacing every sign by $(-1)^i$ would give $5\eps_{(4)}$. Thus the printed sign error can change a result when read literally; it is not merely stylistic.
+\end{remark}
+
+\section{Type A: the same proof and the stable isomorphism}
+\label{sec:A}
+
+Let $n>d\geq1$, put $r=n-d$, and let $X=\Gr(r,n)$. Write $A=(x_1,\ldots,x_r)$ and $B=(x_{r+1},\ldots,x_n)$. Partitions for $X$ fit the $r\times d$ rectangle. Put $c_p=\eps_{(p)}=c_p(Q)$ for $0\leq p\leq d$, with $c_0=1$ and zero outside this range.
+
+\begin{theorem}[Type A images, including every Schur polynomial]\label{thm:A}
+For $1\leq i\leq d$ and $1\leq j\leq r$,
+\begin{align}
+ \beta(e_i(B))&=(-1)^i c_i=(-1)^i\eps_{(i)},\label{eq:Atail}\\
+ \beta(e_j(A))&=\eps_{(1^j)}=c_j(S^*).\label{eq:Ahead}
+\end{align}
+More generally, if $\ell(\lambda)\leq d$,
+\begin{equation}
+ \boxed{\beta(s_\lambda(B))=(-1)^{|\lambda|}\eps_{\lambda'}.}
+ \label{eq:ASchur}
+\end{equation}
+Here $\lambda'$ is the conjugate partition, and the right side is zero if $\lambda_1>r$.
+\end{theorem}
+\begin{proof}
+In type A, $\partial_j=(1-s_j)/(x_j-x_{j+1})$ for $1\leq j<n$. For $H_m(z)=\prod_{a\leq m}(1-x_a z)^{-1}$, direct subtraction gives
+\[
+ \partial_mH_m=zH_{m+1},\qquad \partial_jH_m=0\quad(j\ne m).
+\]
+Starting at $H_r$, the unique path for $h_i(A)$ is $r,r+1,\ldots,r+i-1$. It gives coefficient 1 for
+\[
+ w_i=s_{r+i-1}\cdots s_r\qquad(1\leq i\leq d).
+\]
+All other coefficients are zero, and after $H_n$ is reached every further operator vanishes. Thus $\beta(h_i(A))=c_i$ in every degree, with the stated zero convention. Equation~\eqref{eq:Acoinvariant} gives \eqref{eq:Atail}. The elementary generating function $E_m$ has $\partial_mE_m=zE_{m-1}$ and every other operator zero. Its reversed path gives $s_{r-j+1}\cdots s_r$, hence \eqref{eq:Ahead}.
+
+For \eqref{eq:ASchur}, dual Jacobi--Trudi gives
+\[
+ s_\lambda(B)=\det\bigl(e_{\lambda'_a-a+b}(B)\bigr).
+\]
+Applying \eqref{eq:Acoinvariant}, factor the signs from the rows and columns of the determinant. Their total is $(-1)^{|\lambda|}$, leaving
+\[
+ \beta(s_\lambda(B))=(-1)^{|\lambda|}\beta(s_{\lambda'}(A)).
+\]
+Ordinary Grassmannian Giambelli identifies the last class with $\eps_{\lambda'}$ when the partition fits. If $\lambda_1>r$, the partition $\lambda'$ has more than $r$ rows, and its Schur polynomial in $A$ is zero. The assumption $\ell(\lambda)\leq d$ ensures its first part is at most $d$.
+\end{proof}
+
+\begin{corollary}[The sign in Rogers' Theorem 4.4]\label{cor:Astable}
+For fixed $d$, the Springer-induced stable map is an algebra isomorphism
+\[
+ \C[B]^{S_d}\longrightarrow H^*(\Gr_d;\C),\qquad
+ e_i(B)\longmapsto(-1)^i c_i.
+\]
+The positive-generator isomorphism $e_i\mapsto c_i$ is obtained by precomposing with the automorphism $f(B)\mapsto f(-B)$.
+\end{corollary}
+\begin{proof}
+The stable Schubert basis consists of partitions $\mu$ with $\mu_1\leq d$. Transposition bijects the partitions $\lambda$ with $\ell(\lambda)\leq d$ onto this basis. Equation~\eqref{eq:ASchur} sends each Schur basis element to its transposed Schubert basis element with a nonzero sign. The map is therefore a vector-space bijection and an algebra homomorphism, hence an algebra isomorphism. The inverse limit is taken in graded rings, degree by degree; it gives $\C[c_1,\ldots,c_d]$, rather than a power-series completion.
+\end{proof}
+
+\section{Type D: the fork, the two-row formula, and Euler}
+\label{sec:D}
+
+Assume $n\geq4$, $2\leq k\leq n-1$, put $r=n-k$, and let $X=\OG(r,2n)$. Thus $r\leq n-2$; the different parabolic situation $k=1$ is outside Xie's proposition and the statements here. Use $A=(x_1,\ldots,x_r)$ and $B=(x_{r+1},\ldots,x_n)$. Write $\tau_\lambda,\tau_\lambda'$ for the two typed classes when a $k$-strict partition has a part equal to $k$, and define
+\[
+ \wtau_\lambda=
+ \begin{cases}
+ \tau_\lambda,&\lambda\text{ has no part equal to }k,\\
+ \tau_\lambda+\tau_\lambda',&\lambda\text{ has a part equal to }k.
+ \end{cases}
+\]
+The partition rectangle is $r\times(n+k-1)$. Set all out-of-rectangle classes to zero. The special Chern classes are
+\begin{equation}
+ c_p=c_p(Q)=
+ \begin{cases}
+ 1,&p=0,\\
+ \tau_p,&1\leq p<k,\\
+ \tau_k+\tau_k',&p=k,\\
+ 2\tau_p,&k<p\leq n+k-1,\\
+ 0,&p<0\text{ or }p\geq n+k.
+ \end{cases}
+ \label{eq:Dspecial}
+\end{equation}
+
+\begin{theorem}[A combinatorial proof of Xie's Proposition 4.6]\label{thm:D}
+For $1\leq i\leq k$,
+\begin{align}
+ \beta(e_i(B^2))
+ &=c_i^2+2\sum_{j=1}^{i}(-1)^j c_{i+j}c_{i-j},\label{eq:Dchern}\\
+ &=\sum_{q=0}^{i}(-1)^{i+q}
+       2^{\ind_{\{2i-q>k\}}}\wtau_{(2i-q,q)}.
+ \label{eq:Dtyped}
+\end{align}
+The head generators satisfy $\beta(e_j(A))=c_j(S^*)=\eps_{s_{r-j+1}\cdots s_r}$ for $1\leq j\leq r$.
+\end{theorem}
+
+\subsection{Divided differences at the fork}
+The type D roots are
+\[
+ \alpha_j=x_j-x_{j+1}\quad(j<n),\qquad
+ \alpha_n=x_{n-1}+x_n.
+\]
+For $j<n$, $s_j$ swaps adjacent coordinates; $s_n$ sends $(x_{n-1},x_n)$ to $(-x_n,-x_{n-1})$. Define $H_m$ and $F_m$ as in type C, and put
+\[
+ H_n^+(z)=\prod_{a\leq n}(1-x_a z)^{-1},\qquad
+ H_n^-(z)=\prod_{a<n}(1-x_a z)^{-1}(1+x_n z)^{-1}.
+\]
+Direct subtraction proves
+\begin{align}
+ \partial_mH_m&=zH_{m+1} &&(1\leq m\leq n-2),\nonumber\\
+ \partial_{n-1}H_{n-1}&=zH_n^+,
+ &\partial_nH_{n-1}&=zH_n^-,\nonumber\\
+ \partial_nH_n^+&=2zF_{n-2},
+ &\partial_{n-1}H_n^-&=2zF_{n-2},\nonumber\\
+ \partial_mF_m&=zF_{m-1} &&(1\leq m\leq n-2).
+ \label{eq:Dpaths}
+\end{align}
+Every unlisted simple operator at each stage vanishes.
+
+\begin{lemma}\label{lem:Drows}
+For every $p\geq0$, $\beta(h_p(A))=c_p$ with \eqref{eq:Dspecial}.
+\end{lemma}
+\begin{proof}
+Before the fork the unique path is $r,r+1,\ldots,n-2$, of length $k-1$. At degree $k$, it has two continuations, $n-1$ and $n$, with coefficient 1 each. At degree $k+1$, the paths meet: the fork reflections $s_{n-1}$ and $s_n$ commute. Thus both sequences represent the same Weyl element, and either reduced expression gives its coefficient 2. They are not two different elements whose coefficients should be added to give 4. The subsequent path $n-2,n-3,\ldots,1$ retains coefficient 2. After $F_0$ all operators vanish.
+
+For precision the words are
+\begin{align}
+ w_p&=s_{r+p-1}\cdots s_r &&(1\leq p<k),\nonumber\\
+ u&=s_{n-1}s_{n-2}\cdots s_r,
+ &v&=s_ns_{n-2}\cdots s_r,\label{eq:Dforkwords}\\
+ w_p&=s_{n+k-p}s_{n+k-p+1}\cdots s_{n-2}
+       s_ns_{n-1}s_{n-2}\cdots s_r
+       &&(k+1\leq p\leq n+k-1).
+ \nonumber
+\end{align}
+In the last line the initial string is empty for $p=k+1$. Coefficient extraction in \eqref{eq:Dpaths} and BGG give
+\[
+ \beta(h_p(A))=
+ \begin{cases}
+ \eps_{w_p},&1\leq p<k,\\
+ \eps_u+\eps_v,&p=k,\\
+ 2\eps_{w_p},&k<p\leq n+k-1,
+ \end{cases}
+\]
+and zero above that range. These are the standard one-row classes and their split middle pair, giving \eqref{eq:Dspecial}. The nonzero paths are reduced, and the operator vanishing proves exhaustiveness as in type C. The sum of the fork classes does not require a choice of which one is primed.
+\end{proof}
+
+\subsection{The weighted two-row expansion}
+\begin{proof}[Proof of Theorem~\ref{thm:D}]
+Lemmas~\ref{lem:coinvariant}, \ref{lem:squares}, and \ref{lem:Drows} immediately give \eqref{eq:Dchern}. To interpret its Schur expansion, the even orthogonal Giambelli formula \cite[Theorem 1]{BKTeven} reads, for the sum of the types,
+\[
+ \wtau_\lambda=2^{-\ellk(\lambda)}R^\lambda c_\lambda,
+ \qquad \ellk(\lambda)=\#\{a:\lambda_a>k\}.
+\]
+Its extra inverse raising factor for rows $a<b$ occurs when $\lambda_a+\lambda_b\geq2k+b-a$. For $\lambda=(2i-q,q)$, the sum is at most $2k$, so the two-row threshold $2k+1$ is not reached. Consequently
+\[
+ \beta(s_{(2i-q,q)}(A))
+ =c_{2i-q}c_q-c_{2i-q+1}c_{q-1}
+ =2^{\ind_{\{2i-q>k\}}}\wtau_{(2i-q,q)}.
+\]
+Here $q\leq i\leq k$, so at most the first part exceeds $k$. The partitions are $k$-strict for the same reason as in type C. If $r\geq2$ they fit the rectangle, since $2i\leq2k\leq n+k-1$. If $r=1$, each $q>0$ term vanishes as a two-row Schur polynomial in one variable, in agreement with the finite specialization of \cite[Theorem 4]{BKTeven}. Combining this identity with \eqref{eq:schuridentity} and \eqref{eq:CDcoinvariant} proves \eqref{eq:Dtyped}. The head proof is the elementary-generating-function path already used above, which does not reach the fork since $r\leq n-2$.
+\end{proof}
+
+\begin{remark}[Rank translation and examples]
+The ambient space in \cite{BKTeven} has dimension $2n_{\rm BKT}+2$. Our space has dimension $2n$, so $n_{\rm BKT}=n-1$, and the rectangle is $r\times(n+k-1)$.
+
+For $k=2$, the first two formulas are
+\begin{align*}
+ \beta(e_1(B^2))&=\tau_{(1,1)}-\tau_{(2)}-\tau_{(2)}',\\
+ \beta(e_2(B^2))&=2\tau_{(4)}-2\tau_{(3,1)}
+                        +\tau_{(2,2)}+\tau_{(2,2)}'.
+\end{align*}
+Out-of-rectangle terms are zero. For $r=1$, hence $k=n-1$, $X$ is the even quadric; the highest image is $\beta(e_k(B^2))=(-1)^k2[\mathrm{pt}]$. This tests both the sign and the factor of two at the boundary.
+\end{remark}
+
+\subsection{The extra Euler generator}
+The full polynomial invariant ring for the tail $D_k$ Weyl group is
+\begin{equation}
+ \C[B]^{W(D_k)}=\C[e_1(B^2),\ldots,e_{k-1}(B^2),P],
+ \qquad P=\prod_{b\in B}b,\quad P^2=e_k(B^2).
+ \label{eq:Dinvariants}
+\end{equation}
+Thus the squared generators alone do not specify the entire type D map.
+
+\begin{proposition}[The Euler image with no type-label ambiguity]\label{prop:Euler}
+With the explicit fork words $u,v$ from \eqref{eq:Dforkwords},
+\begin{equation}
+ \boxed{\beta(P)=(-1)^k\eps_u+(-1)^{k-1}\eps_v.}
+ \label{eq:Euler}
+\end{equation}
+In particular $\beta(e_k(B^2))=(\tau_k-\tau_k')^2$.
+\end{proposition}
+\begin{proof}
+The first divided difference is $\partial_rP=-x_{r+2}\cdots x_n$. Successive operators through $n-2$ leave $(-1)^{k-1}x_n$. At each of these stages only the current head-tail boundary can act: the remaining product is symmetric in its tail and is invariant under the even sign change at the fork. At the last step
+\[
+ \partial_{n-1}x_n=-1,\qquad \partial_nx_n=1.
+\]
+These are the only two nonzero length-$k$ paths, and their reversed words are $u$ and $v$. BGG gives \eqref{eq:Euler}. Since the two classes are $\tau_k$ and $\tau_k'$ in some order, the square of this image is their squared difference. Apply $P^2=e_k(B^2)$ and the homomorphism property of $\beta$.
+\end{proof}
+
+For example, choosing $\tau_k=\eps_v$ and $\tau_k'=\eps_u$ gives $\beta(P)=(-1)^{k-1}(\tau_k-\tau_k')$. Reversing the labels changes this displayed difference's sign; the explicit-word formula and all square formulas remain fixed.
+
+\section{Stable injectivity: a separate specialization argument}
+\label{sec:stable}
+
+The finite-rank image formulas do not by themselves prove stable injectivity. This section supplies that additional step. All limits here are in the category of graded rings. The Schubert classes stabilize in each degree. Define, with $c_0=1$ and $c_a=0$ for $a<0$,
+\[
+ q_m(c)=c_m^2+2\sum_{j=1}^{m}(-1)^j c_{m+j}c_{m-j}.
+\]
+
+\subsection{Type C}
+The standard stable presentation, used in Rogers' Section 5.2.3 and in \cite[eq.~(13)]{KumarRogers}, is
+\begin{equation}
+ H^*(\IG_k;\C)=\C[c_1,c_2,\ldots]/(q_m(c):m>k).
+ \label{eq:Cstablepres}
+\end{equation}
+Let $y=(y_1,\ldots,y_k)$ and define on the generators
+\[
+ \Phi_C(c_p)=e_p(y)\quad(p\leq k),\qquad
+ \Phi_C(c_p)=0\quad(p>k).
+\]
+The elementary generating function $E_y(z)$ satisfies
+\[
+ E_y(z)E_y(-z)=\prod_{a=1}^{k}(1-y_a^2z^2).
+\]
+Coefficient comparison gives $q_m(e(y))=e_m(y^2)$, with zero for $m>k$. Hence $\Phi_C$ is a well-defined algebra homomorphism from \eqref{eq:Cstablepres} to $\C[y]^{S_k}$.
+
+\begin{corollary}[Rogers' Theorem 5.6: stable type C injectivity]\label{cor:Cstable}
+The homomorphism
+\[
+ \xi_C:\C[e_1(B^2),\ldots,e_k(B^2)]\longrightarrow H^*(\IG_k;\C),
+ \qquad e_i(B^2)\longmapsto q_i(c),
+\]
+is injective.
+\end{corollary}
+\begin{proof}
+The composition $\Phi_C\circ\xi_C$ sends $e_i(B^2)$ to $e_i(y^2)$. These are algebraically independent: the substitution $\C[z_1,\ldots,z_k]\to\C[y_1,\ldots,y_k]$, $z_a\mapsto y_a^2$, is injective, as is its restriction to symmetric polynomials. Therefore the composition is injective and so is $\xi_C$.
+\end{proof}
+
+\subsection{Type D}
+Let $\mathcal H_k=H^*(\OG_k;\C)$, with $k>1$. Xie's Proposition 4.7 gives its stable presentation with generators
+\[
+ \tau_1,\ldots,\tau_{k-1},\tau_k,\tau_k',\tau_{k+1},\ldots
+\]
+and relations
+\begin{align}
+ \tau_m^2+\sum_{j=1}^{m}(-1)^j\tau_{m+j}c_{m-j}&=0\quad(m>k),
+ \label{eq:Dstablepres1}\\
+ \tau_k\tau_k'+\sum_{j=1}^{k}(-1)^j\tau_{k+j}\tau_{k-j}&=0.
+ \label{eq:Dstablepres2}
+\end{align}
+Here $\tau_0=c_0=1$, negative subscripts are zero, and $c_p$ is given by the stable version of \eqref{eq:Dspecial}, without an upper truncation. Define
+\begin{equation}
+ \Phi_D:\mathcal H_k\longrightarrow\C[y_1,\ldots,y_k]^{S_k},
+ \qquad
+ \Phi_D(\tau_p)=
+ \begin{cases}e_p(y),&p\leq k,\\0,&p>k,\end{cases}
+ \quad \Phi_D(\tau_k')=0.
+ \label{eq:Dspecialization}
+\end{equation}
+Every term in \eqref{eq:Dstablepres1} maps to zero, since its $\tau$ index is greater than $k$. In \eqref{eq:Dstablepres2}, the first term vanishes because $\tau_k'$ maps to zero, and every other term contains $\tau_{k+j}$ with $j>0$. Thus $\Phi_D$ is well defined. It sends $c_p$ to $e_p(y)$ for all $p$, so the same elementary generating-function identity gives
+\[
+ \Phi_D(q_i(c))=e_i(y^2).
+\]
+
+\begin{corollary}[Xie's Theorem 4.8: full stable type D injectivity]\label{cor:Dstable}
+The stable Springer-induced homomorphism
+\[
+ \xi_D:\C[z_1,\ldots,z_k]^{W(D_k)}\longrightarrow\mathcal H_k
+\]
+is injective on the entire type D invariant ring, including its Euler generator.
+\end{corollary}
+\begin{proof}
+Write $u_i=e_i(z_1^2,\ldots,z_k^2)$ and $P_z=z_1\cdots z_k$. Theorem~\ref{thm:D} gives $\xi_D(u_i)=q_i(c)$. The composition with \eqref{eq:Dspecialization} sends $u_i$ to $e_i(y^2)$, which are algebraically independent by the type C argument. Therefore the restriction
+\[
+ \eta_D:\C[u_1,\ldots,u_k]\longrightarrow\mathcal H_k
+\]
+is injective.
+
+The full source decomposes as a free module over its square-symmetric subring:
+\[
+ \C[z]^{W(D_k)}=\C[u_1,\ldots,u_k]\oplus
+        P_z\C[u_1,\ldots,u_k],\qquad P_z^2=u_k.
+\]
+Indeed the invariant ring is $\C[u_1,\ldots,u_{k-1},P_z]$, and separating even and odd powers of $P_z$ gives this unique decomposition. Suppose $\xi_D(f+P_zg)=0$. Squaring $\xi_D(f)=-\xi_D(P_z)\xi_D(g)$ and using $P_z^2=u_k$ gives
+\[
+ \eta_D(f^2-u_k g^2)=0,\qquad\text{hence}\qquad f^2=u_k g^2.
+\]
+If $g\ne0$, then $f\ne0$. In the polynomial ring $\C[u_1,\ldots,u_k]$, the exponent of the prime $u_k$ dividing $f^2$ is even, whereas its exponent dividing $u_k g^2$ is odd. This is impossible. Hence $g=0$ and then $f=0$, proving full injectivity.
+\end{proof}
+
+This argument is independent of the choice of labels for the two fork classes. Proposition~\ref{prop:Euler} additionally determines the Euler image explicitly. The presentations used here agree with the graded inverse limits degree by degree, since the integral Schubert groups have finite free bases in every degree. The proof works directly over $\C$; it requires neither an intermediate integral-subring presentation nor reduction modulo 2.
+
+\section{Source corrections and what they affect}
+\label{sec:corrections}
+
+\subsection{Rogers: type C, printed pp.\ 70--74}
+\begin{enumerate}
+ \item The promised induction after the $k=2$ calculation is absent. Theorem~\ref{thm:C} replaces that passage by a proof for every $i\leq k$, rather than assuming an unstated induction step.
+ \item The degree condition is $\ell(w)=2i$, not $i^2$: the input $e_i(B^2)$ has polynomial degree $2i$.
+ \item The final special-class formula must have $(-1)^j$ inside the $j$-sum, and upper bound $i$. The printed $(-1)^i$ and the mixed upper index involving an undefined $r$ should be replaced by \eqref{eq:Cmain}.
+ \item The pre-Giambelli discussion must include the case $\lambda_1+\lambda_2=2k$; a restriction to $<2k$ does not cover $i=k$. The exact raising-factor criterion proves that the needed boundary is valid.
+ \item The head Chern class is $c_j(S^*)$. Its word is $s_{r-j+1}\cdots s_r$; reversing the head index pattern changes the class. For $k=0$ its Lagrangian partition label also changes as described above.
+ \item The one-row boundary $r=1$ is included explicitly. Reduced-word expressions involving $s_0$ in a small-rank version of the original case analysis cannot be used there.
+\end{enumerate}
+The corrected squared-tail identity agrees with the $i=2$ worked calculation in the dissertation. The theorem is valid after these repairs; the printed proof was incomplete, and a literal use of the misprinted signs can give a false numerical result.
+
+In the following stable argument, printed p.~76, reduction modulo 2 would give $c_m^2=0$ for $m>k$, rather than the printed $c_m^2=1$, and the source generator maps to $c_i^2$, rather than $c_i$. Corollary~\ref{cor:Cstable} supplies a direct proof of Theorem 5.6 without that reduction.
+
+\subsection{Rogers: type A, printed pp.\ 54--57}
+\begin{enumerate}
+ \item A one-row degree-$i$ word ends at $s_{r+i-1}$, not $s_{r+i}$. The displayed statement of Lemma 4.1 has the right endpoint; portions of the proof and permutation explanation have an extra reflection.
+ \item For the tail calculation on printed p.~55, the nonzero boundary operator is $\partial_{j-1}e_i(x_j,\ldots,x_n)=-e_{i-1}(x_{j+1},\ldots,x_n)$. The printed $\partial_j$ vanishes by symmetry.
+ \item The column class is $c_j(S^*)$, not $c_j(S)$. The first image in Proposition 4.1 already uses $S^*$ correctly.
+ \item The tail image on printed p.~56 is $(-1)^i\eps_{(i)}=(-1)^ic_i(Q)$. The sign cannot be omitted before the Schubert class while retaining the fixed Borel convention.
+ \item The stable isomorphism in Theorem 4.4 exists. Its positive-generator description requires the explicit automorphism in Corollary~\ref{cor:Astable}; the original Springer-induced map retains the signs.
+\end{enumerate}
+
+\subsection{Xie: type D}
+Lemma 4.4, printed p.~34 (PDF p.~42), gives the coordinate sum for every simple Schubert divisor. At the fork it must instead use the type D fundamental weights:
+\[
+ \eps_{s_{n-1}}=\tfrac12\beta(x_1+\cdots+x_{n-1}-x_n),\qquad
+ \eps_{s_n}=\tfrac12\beta(x_1+\cdots+x_n).
+\]
+For $j\leq n-2$, $\eps_{s_j}=\beta(x_1+\cdots+x_j)$ is correct. The fork sentence does not invalidate Proposition 4.6: the coordinate characteristic map and the proof above use the actual coordinate weights and the correct reflections. Equations~\eqref{eq:Dchern} and \eqref{eq:Dtyped} include the top case $i=k$.
+
+The proof of Theorem 4.8, printed p.~38, says that $\C$ is a free $\Z$-module. This is false; the intended scalar-extension argument needs flatness, which $\C$ does have. The direct specialization argument in Section~\ref{sec:stable} avoids that step altogether.
+
+\section{Independent calculation checks}
+\label{sec:checks}
+
+The mathematical proofs above hold uniformly; the following exact computations are corroboration and convention checks. A fresh SageMath divided-difference implementation works in rational polynomial rings, constructs Weyl group reflections from the root data, and computes the full Schubert coefficient vector over all minimal right coset representatives of the relevant degree. It does not import the historical Springer-calculation routines.
+
+\begin{center}
+\small
+\begin{tabular}{@{}p{0.22\textwidth}p{0.58\textwidth}r@{}}
+\toprule
+Check & Range and content & Cases\\
+\midrule
+Type A generators & $2\leq n\leq8$, every proper nontrivial Grassmannian; head and tail elementary generators &168\\[3pt]
+Type A Schur images & $n\leq6$, degrees $0$--$6$; includes 145 out-of-rectangle zero cases &251\\[3pt]
+Type C formulas & $C_2$--$C_8$, every $k$, all head and squared-tail generators, including $k=0$ heads &203\\[3pt]
+Type D square formulas & $D_4$--$D_8$, every $2\leq k\leq n-1$ and every $1\leq i\leq k$ &75\\[3pt]
+Type D rows and Euler & $D_4$--$D_6$, every allowed $k$, all one-row degrees and the Euler generator &84\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+All cases passed with exact rational arithmetic. The C and D main formula checks compare 592 and 322 full-basis coefficients, respectively; the C total includes 313 head coefficients and 279 squared-tail coefficients. Additional checks verified 287 type C one-row words and their partition labels, 74 complete one-row expansions, and 378 coefficientwise generating-function identities through degree 6. These auxiliary counts overlap the mathematical cases and should not be added as a count of distinct theorems or ranks.
+
+For instance the independent $D_4$, $k=2$ output, in simple-reflection word notation, is
+\begin{align*}
+ \beta(e_1(B^2))&=\eps_{s_1s_2}-\eps_{s_3s_2}-\eps_{s_4s_2},\\
+ \beta(e_2(B^2))&=\eps_{s_2s_3s_1s_2}+\eps_{s_2s_4s_1s_2}
+       +2\eps_{s_2s_4s_3s_2}-2\eps_{s_4s_3s_1s_2}.
+\end{align*}
+It detects both the split pair and the doubled classes. For $D_4$, $k=3$, $r=1$, the top result is $-2\eps_{s_1s_2s_4s_3s_2s_1}$, agreeing with the even-quadric boundary in Section~\ref{sec:D}.
+
+The verification scripts and exact JSON outputs are archived in the accompanying \texttt{verification/} directory, with a README giving the Sage commands. They serve as reproducible evidence, while the generating-function, coinvariant, and Giambelli arguments establish the claims beyond the checked ranks.
+
+\section{Sources and provenance}
+\label{sec:sources}
+
+The dissertation locators below refer to the specific locally supplied PDFs, with one-based PDF pages. A differently paginated repository copy of Rogers' dissertation has the same target passage but different PDF page numbers.
+
+\begin{center}
+\small
+\begin{tabular}{@{}p{0.57\textwidth}cc@{}}
+\toprule
+Result & Printed pages & PDF pages\\
+\midrule
+Rogers, Lemma 4.1 &54--55&61--62\\
+Rogers, Proposition 4.1 &55--56&62--63\\
+Rogers, Theorem 4.4 &57&64\\
+Rogers, Theorem 5.5 statement &70--71&77--78\\
+Rogers, Theorem 5.5 proof &71--74&78--81\\
+Rogers, stable type C discussion &75--76&82--83\\
+Xie, Lemma 4.4 &34&42\\
+Xie, Proposition 4.6 &35&43\\
+Xie, Proposition 4.7 &36--37&44--45\\
+Xie, Theorem 4.8 statement and proof &37--39&45--47\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection*{Comparison with Parts II and III}
+This note completes the unfinished combinatorial passage in Rogers' dissertation and gives alternative proofs of results already proved in the published papers. Kumar--Rogers \cite[Proposition 11]{KumarRogers} proves the finite type C formula by a bundle argument credited there to L.~Mihalcea. Kumar--Xie \cite[Theorem 3.6]{KumarXie} gives the analogous type D bundle argument. The divided-difference paths and the two-row expansions here give explicit Schubert support, including the split types and multiplicities in type D.
+
+The published stable injectivity proofs in \cite[Theorem 16]{KumarRogers} and \cite[Theorem 3.8]{KumarXie} are already complete. The specialization here replaces their integral and reduction-modulo-2 stage. The final Euler-generator parity argument in type D is also present in \cite[Theorem 3.8]{KumarXie}; the prime-valuation formulation here restates that step. The published papers already use the correct type C modulo-2 squares and zero relations, and Part III already has the correct fork half-sum weights and the valid torsionfree scalar-extension statement. The dissertation errors discussed above should not be attributed to those published proofs.
+
+For the type labels used in Part III, $\tau_k=\eps_u$ in the notation of \eqref{eq:Dforkwords}, so \eqref{eq:Euler} becomes $\beta(P)=(-1)^k(\tau_k-\tau_k')$. The optional opposite labeling in Section~\ref{sec:D} gives the opposite displayed difference; the explicit Weyl-word formula is the same.
+
+The type C and D Giambelli theorems are used as established combinatorial inputs, as in the dissertations. The universal squared identity is also recorded in the even orthogonal eta-polynomial setting in \cite[eq.~(33)]{BKTeven}; it is not claimed as a new identity here. This note supplies a common proof with exhaustive divided-difference support, the correct type D multiplicities and Euler sign, and separate stable arguments.
+
+\clearpage
+\begin{thebibliography}{9}
+\bibitem{Rogers}
+Sean Rogers, \emph{The Springer Morphism, Polynomial Representation Rings, and the Cohomology Ring of Grassmannians}, Ph.D. dissertation, University of North Carolina at Chapel Hill, 2018. Supplied Drive copy.
+
+\bibitem{Xie}
+Jiale Xie, \emph{Polynomial Representation Ring versus Cohomology Ring of Flag Varieties for Classical and Exceptional Groups}, Ph.D. dissertation, University of North Carolina at Chapel Hill, 2022. Supplied dissertation copy.
+
+\bibitem{BKTisotropic}
+Anders S. Buch, Andrew Kresch, and Harry Tamvakis, \emph{A Giambelli formula for isotropic Grassmannians}, Selecta Mathematica (N.S.) \textbf{23} (2017), 869--914.
+\href{https://www.math.umd.edu/~harryt/papers/isogiamfinal.pdf}{Author preprint}; \href{https://doi.org/10.1007/s00029-016-0250-1}{doi:10.1007/s00029-016-0250-1}.
+
+\bibitem{BKTeven}
+Anders S. Buch, Andrew Kresch, and Harry Tamvakis, \emph{A Giambelli formula for even orthogonal Grassmannians}, Journal f\"ur die reine und angewandte Mathematik \textbf{708} (2015), 17--48.
+\href{https://www.math.umd.edu/~harryt/papers/oggiam.pdf}{Author preprint}; \href{https://arxiv.org/abs/1109.6669}{arXiv:1109.6669}.
+
+\bibitem{KumarRogers}
+Shrawan Kumar and Sean Rogers, \emph{Representation ring of Levi subgroups versus cohomology ring of flag varieties II}, Journal of Algebra \textbf{556} (2020), 340--362.
+\href{https://doi.org/10.1016/j.jalgebra.2020.02.029}{doi:10.1016/j.jalgebra.2020.02.029}.
+
+\bibitem{KumarXie}
+Shrawan Kumar and Jiale Xie, \emph{Representation ring of Levi subgroups versus cohomology ring of flag varieties III}, Journal of Pure and Applied Algebra \textbf{228} (2024), article 107539.
+\href{https://doi.org/10.1016/j.jpaa.2023.107539}{doi:10.1016/j.jpaa.2023.107539}.
+\end{thebibliography}
+\end{document}

@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "checks": {
+    "elementary_rows": 168,
+    "schur_rows": 251,
+    "outside_rectangle_rows": 145
+  }
+}

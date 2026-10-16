@@ -1,0 +1,590 @@
+[
+  {
+    "n": 4,
+    "k": 2,
+    "degree": 0,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 4,
+    "k": 2,
+    "degree": 1,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 4,
+    "k": 2,
+    "degree": 2,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 4,
+    "k": 2,
+    "degree": 3,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 4,
+    "k": 2,
+    "degree": 4,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 4,
+    "k": 2,
+    "degree": 5,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 4,
+    "k": 2,
+    "degree": 2,
+    "lemma": "Euler",
+    "passed": true
+  },
+  {
+    "n": 4,
+    "k": 3,
+    "degree": 0,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 4,
+    "k": 3,
+    "degree": 1,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 4,
+    "k": 3,
+    "degree": 2,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 4,
+    "k": 3,
+    "degree": 3,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 4,
+    "k": 3,
+    "degree": 4,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 4,
+    "k": 3,
+    "degree": 5,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 4,
+    "k": 3,
+    "degree": 6,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 4,
+    "k": 3,
+    "degree": 3,
+    "lemma": "Euler",
+    "passed": true
+  },
+  {
+    "n": 5,
+    "k": 2,
+    "degree": 0,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 5,
+    "k": 2,
+    "degree": 1,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 5,
+    "k": 2,
+    "degree": 2,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 5,
+    "k": 2,
+    "degree": 3,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 5,
+    "k": 2,
+    "degree": 4,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 5,
+    "k": 2,
+    "degree": 5,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 5,
+    "k": 2,
+    "degree": 6,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 5,
+    "k": 2,
+    "degree": 2,
+    "lemma": "Euler",
+    "passed": true
+  },
+  {
+    "n": 5,
+    "k": 3,
+    "degree": 0,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 5,
+    "k": 3,
+    "degree": 1,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 5,
+    "k": 3,
+    "degree": 2,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 5,
+    "k": 3,
+    "degree": 3,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 5,
+    "k": 3,
+    "degree": 4,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 5,
+    "k": 3,
+    "degree": 5,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 5,
+    "k": 3,
+    "degree": 6,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 5,
+    "k": 3,
+    "degree": 7,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 5,
+    "k": 3,
+    "degree": 3,
+    "lemma": "Euler",
+    "passed": true
+  },
+  {
+    "n": 5,
+    "k": 4,
+    "degree": 0,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 5,
+    "k": 4,
+    "degree": 1,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 5,
+    "k": 4,
+    "degree": 2,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 5,
+    "k": 4,
+    "degree": 3,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 5,
+    "k": 4,
+    "degree": 4,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 5,
+    "k": 4,
+    "degree": 5,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 5,
+    "k": 4,
+    "degree": 6,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 5,
+    "k": 4,
+    "degree": 7,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 5,
+    "k": 4,
+    "degree": 8,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 5,
+    "k": 4,
+    "degree": 4,
+    "lemma": "Euler",
+    "passed": true
+  },
+  {
+    "n": 6,
+    "k": 2,
+    "degree": 0,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 6,
+    "k": 2,
+    "degree": 1,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 6,
+    "k": 2,
+    "degree": 2,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 6,
+    "k": 2,
+    "degree": 3,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 6,
+    "k": 2,
+    "degree": 4,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 6,
+    "k": 2,
+    "degree": 5,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 6,
+    "k": 2,
+    "degree": 6,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 6,
+    "k": 2,
+    "degree": 7,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 6,
+    "k": 2,
+    "degree": 2,
+    "lemma": "Euler",
+    "passed": true
+  },
+  {
+    "n": 6,
+    "k": 3,
+    "degree": 0,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 6,
+    "k": 3,
+    "degree": 1,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 6,
+    "k": 3,
+    "degree": 2,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 6,
+    "k": 3,
+    "degree": 3,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 6,
+    "k": 3,
+    "degree": 4,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 6,
+    "k": 3,
+    "degree": 5,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 6,
+    "k": 3,
+    "degree": 6,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 6,
+    "k": 3,
+    "degree": 7,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 6,
+    "k": 3,
+    "degree": 8,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 6,
+    "k": 3,
+    "degree": 3,
+    "lemma": "Euler",
+    "passed": true
+  },
+  {
+    "n": 6,
+    "k": 4,
+    "degree": 0,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 6,
+    "k": 4,
+    "degree": 1,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 6,
+    "k": 4,
+    "degree": 2,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 6,
+    "k": 4,
+    "degree": 3,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 6,
+    "k": 4,
+    "degree": 4,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 6,
+    "k": 4,
+    "degree": 5,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 6,
+    "k": 4,
+    "degree": 6,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 6,
+    "k": 4,
+    "degree": 7,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 6,
+    "k": 4,
+    "degree": 8,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 6,
+    "k": 4,
+    "degree": 9,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 6,
+    "k": 4,
+    "degree": 4,
+    "lemma": "Euler",
+    "passed": true
+  },
+  {
+    "n": 6,
+    "k": 5,
+    "degree": 0,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 6,
+    "k": 5,
+    "degree": 1,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 6,
+    "k": 5,
+    "degree": 2,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 6,
+    "k": 5,
+    "degree": 3,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 6,
+    "k": 5,
+    "degree": 4,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 6,
+    "k": 5,
+    "degree": 5,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 6,
+    "k": 5,
+    "degree": 6,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 6,
+    "k": 5,
+    "degree": 7,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 6,
+    "k": 5,
+    "degree": 8,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 6,
+    "k": 5,
+    "degree": 9,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 6,
+    "k": 5,
+    "degree": 10,
+    "lemma": "special",
+    "passed": true
+  },
+  {
+    "n": 6,
+    "k": 5,
+    "degree": 5,
+    "lemma": "Euler",
+    "passed": true
+  }
+]

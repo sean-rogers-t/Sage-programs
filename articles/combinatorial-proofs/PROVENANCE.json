@@ -1,0 +1,115 @@
+{
+  "title": "Combinatorial proofs for classical Springer-induced maps",
+  "prepared_for": "Sean Rogers",
+  "date": "2026-10-16",
+  "status": "Research review and alternative proofs; not a published erratum",
+  "scope": "Completion of Rogers dissertation Theorem 5.5, type A/D extensions, stable injectivity, comparison with published Parts II and III",
+  "attribution": "Part II credits its shorter bundle proof to L. Mihalcea. The final type D Euler parity argument is already in Part III Theorem 3.8. Symmetric-function and BKT Giambelli identities are established inputs.",
+  "pdf": {
+    "pages": 14,
+    "engine": "Tectonic 0.17.0",
+    "editor_compilation": "success",
+    "rendered_pages_checked": true
+  },
+  "verification": {
+    "runtime": "SageMath 9.5, Ubuntu/WSL",
+    "arithmetic": "exact rational",
+    "main_scripts_rerun_from_repository": true,
+    "all_main_checks_passed": true,
+    "type_A_elementary": 168,
+    "type_A_Schur": 251,
+    "type_A_outside_rectangle": 145,
+    "type_C_main": 203,
+    "type_D_main": 75,
+    "type_D_rows_and_Euler": 84,
+    "counts_overlap": true
+  },
+  "source_articles": [
+    {
+      "path": "../Kumar_Rogers_Levi_subgroups_flag_varieties_II_JAlgebra_2020.pdf",
+      "doi": "10.1016/j.jalgebra.2020.02.029"
+    },
+    {
+      "path": "../Kumar_Xie_Levi_subgroups_flag_varieties_III_JPAA_2024.pdf",
+      "doi": "10.1016/j.jpaa.2023.107539"
+    }
+  ],
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 27,
+      "sha256": "07a2f41719cd55762e837e3598cd3ba067bc207a7ec63a46b2d86f609dc50acd"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 80,
+      "sha256": "81b021a388c71ae2f4701b2326931f347499c5c6924a79c9f1f437efe080bd26"
+    },
+    {
+      "path": "Combinatorial_proofs_types_A_C_D.pdf",
+      "bytes": 126949,
+      "sha256": "d656e2d5963a643eb2e6fa499d444c58c333e4ae4e2889fb678e366737ddd48b"
+    },
+    {
+      "path": "Combinatorial_proofs_types_A_C_D.tex",
+      "bytes": 38369,
+      "sha256": "f2ce8d7f5326d906b94c4680040aaedcb143f4dc8a49301a0b6ac6c1bc84a448"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6770,
+      "sha256": "f6a56b0ceaac06840323d9663bd2a81ac8f6db090521d748945295129e491226"
+    },
+    {
+      "path": "verification/papers/table_audit/recompute.py",
+      "bytes": 6231,
+      "sha256": "4975089ebb57075e598f3079e7cd8a25121f39d9b216a187b7f91779c1e16211"
+    },
+    {
+      "path": "verification/README.txt",
+      "bytes": 2112,
+      "sha256": "63611a028cbce61bc5dd25188d111e364fe64faf7b22f5d248e57ca228ec95d5"
+    },
+    {
+      "path": "verification/tmp/dissertation-proof-audit/check_theorem55.py",
+      "bytes": 3734,
+      "sha256": "c198a90780b8c289f4a7b2b4a8c5678a4bb4c93c66cc49fbdf4677b798bef01b"
+    },
+    {
+      "path": "verification/tmp/dissertation-proof-audit/theorem55_results.json",
+      "bytes": 36427,
+      "sha256": "93df39f5538d51370a5889af867a0e9b012cbdcd44d358a2d9c0a69685e51b6c"
+    },
+    {
+      "path": "verification/tmp/proof-acd-a/check_type_a.py",
+      "bytes": 3679,
+      "sha256": "69dd3f9b99db83b2322a6605cbdc84d81420c0bc967b7ba7ce477c138d409286"
+    },
+    {
+      "path": "verification/tmp/proof-acd-a/type_a_checks.json",
+      "bytes": 126,
+      "sha256": "751940e8339c4e71acbfa6759da9c4db702c519f214d43e0b595b5956ac10bdb"
+    },
+    {
+      "path": "verification/tmp/proof-acd-check/verification.json",
+      "bytes": 364748,
+      "sha256": "cec61ae4e06dddf0c12c2497c4f0f0653f753b78342eefc2691f8b7d707aa774"
+    },
+    {
+      "path": "verification/tmp/proof-acd-check/verify.py",
+      "bytes": 8512,
+      "sha256": "cd05dc7bc954a2004794ef62480f463f00f14fcc1d3da855369355a8f8b9be01"
+    },
+    {
+      "path": "verification/tmp/proof-acd-d/check_d.py",
+      "bytes": 2019,
+      "sha256": "ac90c193cf66870c6b441f820b1b5492143dc7da1a09dce754d38b3d1535a6e3"
+    },
+    {
+      "path": "verification/tmp/proof-acd-d/d_results.json",
+      "bytes": 7798,
+      "sha256": "630d0b0e13a524fba3bba0917a55d3bbd7113b28cad7666044da40529da49aab"
+    }
+  ],
+  "text_line_endings": "LF, enforced by the local .gitattributes; hashes match repository blobs"
+}
