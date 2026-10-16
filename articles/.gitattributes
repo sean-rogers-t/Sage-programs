@@ -1,0 +1,8 @@
+# Preserve source articles and the verification note byte for byte.
+*.pdf binary
+*.docx binary
+
+# Keep readable documentation and the exact calculation portable.
+*.md text eol=lf
+*.json text eol=lf
+calculations/*.py text eol=lf

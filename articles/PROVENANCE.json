@@ -1,0 +1,82 @@
+{
+  "prepared_date": "2026-10-16",
+  "source_article_policy": "Original source PDFs are unmodified byte-for-byte copies.",
+  "correction_status": "The local verification note proposes corrections; it is not a formal published erratum.",
+  "method_credit": "Sean Rogers, An explicit determination of the Springer morphism, Theorems 1 and 2.",
+  "validation_runtime": "SageMath 9.5",
+  "files": [
+    {
+      "path": "Rogers_Springer_morphism_PREPRINT_arXiv_1701.01538v1.pdf",
+      "kind": "original_preprint",
+      "source_urls": [
+        "https://arxiv.org/pdf/1701.01538v1"
+      ],
+      "bytes": 154683,
+      "sha256": "e2cfb849c0cafd0500b9667724b52ab3a3e0818d75cb3d99524c6405c2f54829",
+      "note": "arXiv:1701.01538v1, 6 January 2017; not the final journal PDF.",
+      "pages": 10
+    },
+    {
+      "path": "Kumar_Levi_subgroups_flag_varieties_I_MathAnn_2016.pdf",
+      "kind": "original_published_article",
+      "source_urls": [
+        "https://kumar.math.unc.edu/papers/kumar76.pdf",
+        "https://drive.google.com/file/d/1Tb6oRYDb9_XkQrakRG-tDEQWbKka1j59/view"
+      ],
+      "bytes": 525655,
+      "sha256": "3ea3abb89e8ee9d03261671bac6fc8401879da56393e1f937cc67bd5c61b597f",
+      "pages": 21
+    },
+    {
+      "path": "Kumar_Rogers_Levi_subgroups_flag_varieties_II_JAlgebra_2020.pdf",
+      "kind": "original_published_article",
+      "source_urls": [
+        "https://kumar.math.unc.edu/papers/kumar81.pdf",
+        "https://drive.google.com/file/d/1ztEMnKNpdblmjeI-K1obIK_U-VsitCE6/view"
+      ],
+      "bytes": 420469,
+      "sha256": "6cd1d4e06dc1c715165441fcd66958788752fc2c8ff0de5ff1e8228d2c8fe0b3",
+      "pages": 23
+    },
+    {
+      "path": "Kumar_Xie_Levi_subgroups_flag_varieties_III_JPAA_2024.pdf",
+      "kind": "original_published_article",
+      "source_urls": [
+        "https://kumar.math.unc.edu/papers/kumar86.pdf",
+        "https://drive.google.com/file/d/1IuU1XDPh2D331gZZ8Ddsy8ZIAKPoD5G_/view"
+      ],
+      "bytes": 566941,
+      "sha256": "973adeabbff3fef2be81daeb870d6ea33ba3aefa4187bd9ace91b786884645c6",
+      "pages": 30
+    },
+    {
+      "path": "Springer_morphisms_for_Shrawan.pdf",
+      "kind": "local_verification_note",
+      "source_urls": [
+        "https://drive.google.com/file/d/1sxtIN2PXOAt3zDO6B4j-mW8O97xWyVE3/view"
+      ],
+      "bytes": 461457,
+      "sha256": "135c0dc83f9f22b4ebf79dbc52c7c823311d643b9f4d1fcfb9578396f8e5e8a7",
+      "note": "Final local verification note; proposed corrections, not a formal published erratum.",
+      "pages": 9
+    },
+    {
+      "path": "Springer_morphisms_for_Shrawan.docx",
+      "kind": "editable_local_verification_note",
+      "source_urls": [
+        "https://docs.google.com/document/d/1_VLNE71kTONKKvXP7XZT1W3LkXDhQ7LM/edit"
+      ],
+      "bytes": 56242,
+      "sha256": "331732ece27635983c457c8e2d97280428458bec7db6a851c228b0df4c33b5ec",
+      "note": "Editable counterpart to the final local PDF verification note."
+    },
+    {
+      "path": "calculations/reproduce_springer.py",
+      "kind": "exact_calculation_script",
+      "source_urls": [],
+      "bytes": 2484,
+      "sha256": "5aa97bd0f495bf43aabc8495deda0afa81ecc1fd120e4b2aaf9d47eaeb6be6ae",
+      "note": "Sean Rogers Theorems 1 and 2 weight-matrix method; tested with SageMath 9.5."
+    }
+  ]
+}
