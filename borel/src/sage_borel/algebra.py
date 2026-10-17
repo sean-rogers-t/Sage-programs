@@ -1,7 +1,7 @@
-"""Exact, degreewise images and relations of chosen Borel generators.
+"""Exact images and relations of chosen Borel generators.
 
-These computations describe vector spaces in specified degrees.  A basis of
-the kernel in a few degrees is not a presentation of the complete kernel ideal.
+The degreewise reports describe vector spaces in specified degrees. The separate
+``presentation()`` method certifies the complete kernel ideal and image basis.
 All degrees here are polynomial degrees, half the cohomological degrees.
 """
 
@@ -169,6 +169,7 @@ class GeneratorAlgebra:
         self._image_cache = {}
         self._degree_cache = {}
         self._ambient_degree_cache = {}
+        self._presentation_cache = None
         self._generator_power_cache = [
             {0: self.borel_map.ring.one(), 1: polynomial}
             for polynomial in self.generator_polynomials
@@ -323,3 +324,17 @@ class GeneratorAlgebra:
             if self.degree(d).kernel_dimension:
                 return d
         return None
+
+    def presentation(self):
+        """Return a certified full kernel ideal, image basis and Hilbert series.
+
+        This finite staircase construction takes no guessed degree cutoff.
+        It uses exact Schubert images and checks border closure and basis
+        independence. Runtime depends on the selected image's dimension;
+        a full large flag ring can still be expensive. The immutable result
+        is cached until ``clear_cache()``.
+        """
+        if self._presentation_cache is None:
+            from .presentation import build_presentation
+            self._presentation_cache = build_presentation(self)
+        return self._presentation_cache

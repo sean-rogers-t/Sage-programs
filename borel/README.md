@@ -14,6 +14,11 @@ homogeneous Levi-invariant generators: exact graded image matrices, ranks,
 kernel relations and Hilbert-function prefixes. It includes a two-step
 symplectic family and reproducible experiments on joint Levi-factor images.
 
+The [complete-kernel calculator](PRESENTATIONS.md) adds `A.presentation()` for
+any chosen generator algebra. It returns the full defining ideal as a reduced
+Groebner basis, a quotient basis, the exact Hilbert series, and a finite
+completeness certificate. No guessed degree cutoff is required.
+
 It computes
 
 \[
@@ -48,6 +53,12 @@ For graded images and relations:
 
 ```bash
 PYTHONPATH=src sage -python examples/image_relations.py
+```
+
+For complete kernel presentations:
+
+```bash
+PYTHONPATH=src sage -python examples/kernel_presentations.py
 ```
 
 Or install into your Sage environment and import from any directory:

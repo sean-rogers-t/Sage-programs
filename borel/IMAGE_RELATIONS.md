@@ -5,6 +5,11 @@ Levi-invariant polynomials. It works with classical or exceptional Borel maps,
 including general partial flags. All degree arguments are polynomial degrees:
 degree `d` corresponds to cohomological degree `2*d`.
 
+Version 0.4 also adds [complete kernel presentations](PRESENTATIONS.md):
+`A.presentation()` computes a defining ideal, a standard monomial basis, and
+an exact Hilbert series, with a certificate of completeness. The bounded
+methods below remain useful when only a few degrees are needed.
+
 ## A first example
 
 ```python
@@ -79,6 +84,7 @@ analyze. Require `b,k >= 1` and `n >= b+k+1` for two genuine flag steps.
 | `A.through_degree(D)` | Reports from degree zero through a finite bound |
 | `A.hilbert_function(D)` | Image dimensions from zero through that bound |
 | `A.first_relation_degree(D)` | First relation degree found through the bound, or `None` |
+| `A.presentation()` | Certified complete kernel, quotient basis and Hilbert series |
 | `A.substitute(p)` | Replace formal variables by the chosen Cartan polynomials |
 | `A.evaluate(p)` | Compute the Schubert image of a formal polynomial |
 | `D.as_dict()` | JSON-safe matrix, labels, relations and exact rational coefficients |
@@ -107,6 +113,9 @@ $$
 This is a consequence of the rational Borel presentation and elimination, with
 no novelty claim. It provides a full ideal description for this specific family,
 separate from the generic calculator's degreewise output.
+
+The new generic `A.presentation()` independently recovers that full ideal by
+constructing the selected image's entire monomial basis and checking its border.
 
 `F.predicted_relations()` constructs these formal polynomials and
 `F.predicted_hilbert_prefix(D)` calculates their presentation's Hilbert coefficients,
