@@ -14,6 +14,7 @@ the mathematical guide for the Borel/Springer construction.
 | --- | --- |
 | What mathematical map does each method compute? | [Methods and worked examples](METHODS.md) |
 | Why do the Borel, BGG, Chevalley and coinvariant methods work? | [Mathematical framework and conventions](MATHEMATICS.md) |
+| How do I multiply Schubert classes or lift them to polynomials? | [Schubert multiplication and inverse Borel calculations](SCHUBERT_CALCULUS.md) |
 | Why is the returned kernel complete? How do backends and normal forms work? | [Complete presentations and proofs](PRESENTATIONS.md) |
 | What do a degree matrix, rank and homogeneous relation mean? | [Degreewise images and relations](IMAGE_RELATIONS.md) |
 | Which exceptional inputs and normalizations are available? | [Exceptional catalogue](EXCEPTIONAL.md) |
@@ -44,6 +45,14 @@ types A/B/C/D. This avoids Schubert expansion when computing kernel relations;
 The formerly slow C9/P8 tail example now completes with kernel `(q^9)` and
 dimension 9; [the benchmark](benchmarks/coinvariant-results.json) records setup,
 certification and a fresh certificate recheck.
+
+Version 0.6 adds arbitrary Schubert multiplication, cup powers, intersection
+numbers and inverse Borel calculations for full and partial flags in every
+supported type. Polynomial lifts use exact degreewise linear algebra or BGG
+divided differences; low-degree exceptional calculations avoid constructing
+the full positive-root discriminant. See the
+[guide](SCHUBERT_CALCULUS.md) and
+[executable example](examples/schubert_calculus.py).
 
 It computes
 
@@ -91,6 +100,12 @@ For the worked mathematical explanations:
 
 ```bash
 PYTHONPATH=src sage -python examples/mathematical_methods.py
+```
+
+For Schubert products, polynomial lifts and intersection numbers:
+
+```bash
+PYTHONPATH=src sage -python examples/schubert_calculus.py
 ```
 
 Or install into your Sage environment and import from any directory:
@@ -161,6 +176,13 @@ sum zero; the GL(n) central character has zero characteristic-map image.
 | `b.ring`, `b.weights`, `b.W` | Exact QQ polynomial ring, fundamental weights, Weyl group |
 | `b.expand(f)` | Full Schubert expansion, including zero, constants and mixed degrees |
 | `b.coefficient(f, word)` | One coefficient without generating other classes |
+| `b.schubert(word)` | One Schubert basis class; `[]` gives the unit |
+| `b.schubert_polynomial(word, method="auto")` | A homogeneous Levi-invariant polynomial lifting that class |
+| `b.lift(expansion, method="auto")` | A polynomial representative of any Schubert expansion |
+| `b.schubert_product(u, v)` | Product of two Schubert classes indexed by words |
+| `b.multiply(a, c)` or `a*c` | Cup product of two Schubert expansions |
+| `a**n` | Nonnegative integral cup power, including the unit for exponent zero |
+| `b.integrate(a)`, `b.intersection_number(*classes)` | Top-degree integral or integral of a product |
 | `b.reflect(f, i)`, `b.divided_difference(f, i)` | Simple reflection and exact BGG divided difference |
 | `b.chevalley(i, word)` | Multiply a Schubert class by the divisor `omega_i` |
 | `b.divisor_product(indices)` | Repeated divisor product, with empty product equal to 1 |
@@ -193,9 +215,11 @@ generic Borel operations also accept integer relabelings of Dynkin nodes.
 An `Expansion` is an immutable mapping from Weyl elements to rational
 coefficients. `answer[word]` returns zero for an absent valid word;
 `answer.as_dict()` returns a copy; `answer.to_terms()` serializes reduced words
-and rational numbers as strings. Addition and scalar multiplication are provided.
-General multiplication of two Schubert expansions is outside this small API;
-use `expand(f*g)` when polynomial representatives are available. Weyl elements
+and rational numbers as strings. Addition, rational scalar multiplication,
+arbitrary cup products and nonnegative integral powers are provided. To add a
+constant class, use `b.schubert([])` for the unit. Polynomial lifts are chosen
+representatives, not unique inverses; `b.expand(b.lift(answer)) == answer`.
+Weyl elements
 must have the map's parent; passing a list of Dynkin indices converts a word
 explicitly. Parabolic divisor operations require omitted nodes.
 
@@ -241,6 +265,13 @@ suite checks all **1,088** divisor products in B2, C2, B3, C3 and D4, plus
 classical generators, mixed degrees, parabolics, duality/intersection pairings,
 historical counterexamples, exceptional-type sanity checks, and rank-10 word
 handling. See [`verification.json`](verification.json) for counts and environment.
+
+The [Schubert-calculus tests](tests/test_products.py) independently check
+arbitrary products against Cartesian divided differences, Grassmannian
+Littlewood–Richardson tables and the middle intersections on a type D quadric.
+They also check both polynomial-lift methods, partial flags, relabeled nodes,
+mixed classes and low-degree exceptional inputs. The exact coverage and latest
+run are recorded in [products-verification.json](products-verification.json).
 
 ```bash
 PYTHONPATH=src sage -python -m unittest discover -s tests -v

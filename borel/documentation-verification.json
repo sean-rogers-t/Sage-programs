@@ -16,6 +16,10 @@
       "python_blocks_executed": 4
     },
     {
+      "file": "SCHUBERT_CALCULUS.md",
+      "python_blocks_executed": 3
+    },
+    {
       "file": "PRESENTATIONS.md",
       "python_blocks_executed": 3
     },
@@ -28,7 +32,7 @@
       "python_blocks_executed": 0
     }
   ],
-  "local_links_and_anchors_checked": 58,
-  "python_blocks_executed": 11,
+  "local_links_and_anchors_checked": 68,
+  "python_blocks_executed": 14,
   "scope": "Python fences executed in reading order in a fresh namespace per document; local links and anchors checked. Shell snippets and external URLs were not automatically executed or crawled."
 }

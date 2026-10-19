@@ -13,9 +13,11 @@ from sage.all import CartanType, PolynomialRing, QQ, RootSystem, WeylGroup, ZZ
 
 from .expansion import Expansion
 from .operations import OperationsMixin
+from .inverse import InverseMixin
+from .products import ProductsMixin
 
 
-class BorelMap(OperationsMixin):
+class BorelMap(OperationsMixin, InverseMixin, ProductsMixin):
     """The Borel map for a finite irreducible crystallographic root system.
 
     ``omitted_nodes=None`` means the full flag variety.  An integer means a
@@ -78,6 +80,7 @@ class BorelMap(OperationsMixin):
         self._parabolic_longest = None
         self._longest = None
         self.last_stats = {}
+        self._clear_inverse_caches()
 
     def _validate_node(self, node):
         if isinstance(node, bool):
@@ -284,8 +287,10 @@ class BorelMap(OperationsMixin):
         return self.poincare_dual(self.W.one())
 
     def clear_cache(self):
-        """Release generated bases, reduced words, and per-class product caches."""
+        """Release generated bases, polynomial lifts and product caches."""
         self._basis_levels = [(self.W.one(),)]
         self._word_cache = {self.W.one(): ()}
         self._clear_operation_caches()
+        self._clear_inverse_caches()
+        self._clear_product_caches()
         self.last_stats = {}

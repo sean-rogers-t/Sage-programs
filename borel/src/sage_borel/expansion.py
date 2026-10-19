@@ -1,11 +1,12 @@
 """Immutable, exact Schubert expansions.
 
 The keys are Sage Weyl-group elements in the parent used by a ``BorelMap``.
-Coefficients are rational numbers.  No polynomial representatives are hidden in
-this class: it records a linear combination of Schubert classes only.
+Coefficients are rational numbers.  The class stores Schubert coordinates;
+cup products delegate to its Borel map, where polynomial lifts are cached.
 """
 
 from collections.abc import Mapping
+from operator import index as integer_index
 from types import MappingProxyType
 
 from sage.all import QQ
@@ -129,7 +130,8 @@ class Expansion(Mapping):
 
     def __mul__(self, scalar):
         if isinstance(scalar, Expansion):
-            return NotImplemented
+            self._check_context(scalar)
+            return self._borel.multiply(self, scalar)
         try:
             value = QQ(scalar)
         except (TypeError, ValueError):
@@ -137,6 +139,28 @@ class Expansion(Mapping):
         return Expansion(self._borel, ((w, value * c) for w, c in self.items()))
 
     __rmul__ = __mul__
+
+    def __pow__(self, exponent, modulus=None):
+        """Return a nonnegative integral cup power by binary exponentiation."""
+        if modulus is not None:
+            raise TypeError("a modulus is not supported for Schubert powers")
+        if isinstance(exponent, bool):
+            raise TypeError("exponent must be a nonnegative integer, not a boolean")
+        try:
+            exponent = integer_index(exponent)
+        except (TypeError, ValueError) as error:
+            raise TypeError("exponent must be a nonnegative integer") from error
+        if exponent < 0:
+            raise ValueError("exponent must be nonnegative")
+        result = Expansion(self._borel, {self._borel.W.one(): QQ.one()})
+        factor = self
+        while exponent:
+            if exponent % 2:
+                result = result * factor
+            exponent //= 2
+            if exponent:
+                factor = factor * factor
+        return result
 
     def __repr__(self):
         if not self:

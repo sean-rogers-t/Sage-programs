@@ -308,6 +308,62 @@ normal forms; it does not assume this family formula. See the
 [benchmark record](benchmarks/README.md) and the separate
 [two-step derivation](experiments/TWO_STEP_DERIVATION.md).
 
+## 7. Polynomial lifts, arbitrary products and integration
+
+The Borel map is surjective but has a kernel. An inverse calculation therefore
+chooses a polynomial representative of a class, rather than a unique inverse.
+`b.schubert_polynomial(w)` chooses a homogeneous literal `W_P`-invariant
+polynomial `p_w` with `beta^P(p_w)=sigma_w`, and `b.lift(a)` extends this choice
+linearly. The section need not preserve multiplication in `S^{W_P}`.
+
+The degreewise method forms the kernels of all reflection constraints
+`(1-s_i)f=0` for retained nodes on `S_d`. The resulting basis spans
+`(S_d)^{W_P}`. Expanding that basis gives a surjective rational matrix onto
+`H^{2d}(G/P;QQ)`; solving against its Schubert coordinate vectors supplies exact
+homogeneous lifts. The implementation checks both invariance and the matrix
+right-inverse identity. Low-degree calculations in large exceptional groups
+can thus avoid polynomials of degree `|Phi^+|`.
+
+Alternatively, write `Delta=prod_(alpha>0) alpha` and `w_0` for the longest
+Weyl element. In the library's rightmost-first operator convention,
+
+$$
+p_w=\partial_{w^{-1}w_0}\left(\frac{\Delta}{|W|}\right).
+$$
+
+The normalized discriminant represents the full-flag top class, and the BGG
+recurrence gives the required class and degree. If `w` is a minimal right
+coset representative, each retained node is a right ascent of `w`. Hence it
+is a left descent of `w^{-1}w_0`, and the nil-Coxeter relation gives
+`partial_i(p_w)=0`. Consequently this lift is literally Levi-invariant; no
+averaging over `W_P` is needed. The
+[Schubert-calculus guide](SCHUBERT_CALCULUS.md) gives the detailed argument.
+
+For either section the cup product is
+
+$$
+\sigma_u\sigma_v=\beta^P(p_u p_v).
+$$
+
+Changing a lift by a kernel element leaves this result unchanged because the
+kernel is an ideal. `b.multiply(a,c)` and `a*c` extend this identity bilinearly
+to arbitrary rational classes. The implementation uses unit, degree-bound,
+Chevalley and complementary-degree shortcuts before constructing lifts.
+
+If `N=dim_C(G/P)` and `top=w_0*w_(0,P)`, the normalized integral is
+`integral(sigma_top)=1`. Thus `b.integrate(a)` reads its top coefficient.
+Poincare duality gives
+
+$$
+\int_{G/P}\sigma_u\sigma_v
+=\delta_{v,\,w_0u w_{0,P}},
+$$
+
+which computes two-factor intersection numbers directly from sparse
+coordinates. With more factors, `b.intersection_number` multiplies all but
+the last, then applies this pairing. Lower-degree components integrate to
+zero; on `G/G` the unit is already the top class.
+
 ## References and scope of verification
 
 These implement established characteristic-map, divided-difference, and
@@ -320,6 +376,12 @@ finite-dimensional algebra methods; no novelty is claimed for those results.
 * I. N. Bernstein, I. M. Gelfand and S. I. Gelfand, *Schubert cells and
   cohomology of the spaces G/P*, Russian Mathematical Surveys 28 (1973), 1-26.
   [Publisher and DOI](https://doi.org/10.1070/RM1973v028n03ABEH001557).
+* S. C. Billey, *Kostant polynomials and the cohomology ring for G/B*,
+  Duke Mathematical Journal 96 (1999), 205-224, Proposition 2.1 and Section 6.
+  [Author's full paper](https://sites.math.washington.edu/~billey/papers/kostant.polys.pdf).
+  Operator and sign conventions must be translated; this library uses those
+  specified above. The paper's orbit-value multiplication method is a related
+  alternative, not the algorithm implemented here.
 * S. Kumar, *Representation ring of Levi subgroups versus cohomology ring of
   flag varieties*, and S. Kumar--S. Rogers, Part II, for the Springer transport
   and its compatibility with flag projections.

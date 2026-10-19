@@ -5,6 +5,8 @@ Read [MATHEMATICS.md](MATHEMATICS.md) for the Borel/Springer framework and
 Schubert conventions, and [PRESENTATIONS.md](PRESENTATIONS.md) for the full
 coinvariant and completeness proofs. The executable companion is
 [examples/mathematical_methods.py](examples/mathematical_methods.py).
+For arbitrary products, intersection numbers and polynomial lifts, see
+[SCHUBERT_CALCULUS.md](SCHUBERT_CALCULUS.md).
 
 ## The map being studied
 
@@ -69,6 +71,14 @@ by minimal **right** coset representatives in `W/W_P`.
 | --- | --- |
 | `b.expand(f)` | Computes `beta^P(f)=sum_w a_w sigma_w`; checks Levi invariance |
 | `b.coefficient(f, word)` | Computes the single scalar `a_w` by divided differences |
+| `b.schubert(word)` | Returns the basis class `sigma_w`, with empty word giving 1 |
+| `b.schubert_polynomial(word,method="auto")` | Chooses a homogeneous polynomial `p_w` with `beta^P(p_w)=sigma_w` |
+| `b.lift(expansion,method="auto")` | Extends the chosen polynomial section linearly to arbitrary classes |
+| `b.schubert_product(u,v)` | Computes `sigma_u*sigma_v` from two indices |
+| `b.multiply(a,c)` or `a*c` | Computes the cup product of two Schubert expansions |
+| `a**n` | Computes a nonnegative integral cup power |
+| `b.integrate(a)` | Reads the top-class coefficient, normalized to integral 1 |
+| `b.intersection_number(*classes)` | Integrates their cup product, using duality for the final pairing |
 | `b.reflect(f,i)` | Applies the Weyl reflection `s_i` to a Cartan polynomial |
 | `b.divided_difference(f,i)` | Computes `(f-s_i(f))/alpha_i` by exact division |
 | `b.chevalley(i,word)` | Computes the product of `sigma_w` with the divisor `beta(omega_i)` |
@@ -85,11 +95,20 @@ a_w=(\partial_{i_1}\cdots\partial_{i_d}f)(0),\qquad
 \partial_i f=\frac{f-s_i(f)}{\alpha_i}.
 $$
 
-The rightmost operator acts first. `poincare_dual` returns an index; it does
-not itself return an intersection number. General multiplication of arbitrary
-Schubert expansions is outside this API. Polynomial representatives can be
-multiplied before `expand`, or formal representatives within a selected image
-can be multiplied and then reduced as below.
+The rightmost operator acts first. `poincare_dual` returns an index;
+`intersection_number(a,c)` computes the corresponding bilinear pairing.
+Arbitrary products use polynomial lifts and the ring identity
+`beta^P(p*q)=beta^P(p)*beta^P(q)`, with direct shortcuts for units, divisors,
+complementary degrees and terms above top degree. These operations accept
+inhomogeneous rational classes and enforce the flag-variety context.
+
+Inverse Borel calculations choose representatives, since the map has a kernel.
+`method="linear"` solves the homogeneous Borel equations on literal
+Levi-invariant polynomials. `method="bgg"` applies divided differences to the
+normalized positive-root discriminant. `"auto"` estimates polynomial-space
+sizes to choose between them. All return exact lifts; none promises a unique
+polynomial or an algebra-homomorphism section. The
+[Schubert guide](SCHUBERT_CALCULUS.md) gives both constructions and their proofs.
 
 The classical helpers construct specified symmetric polynomials: `tail_polynomial`
 and `head_polynomial` return literal inputs in `S`; their `...elementary`

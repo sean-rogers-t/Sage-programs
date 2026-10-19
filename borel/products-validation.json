@@ -1,0 +1,55 @@
+{
+  "library_version": "0.6.0",
+  "sage_version": "9.5",
+  "python_version": "3.10.12",
+  "full_regression": {
+    "command": "PYTHONPATH=src BOREL_PRODUCTS_REPORT=products-verification.json sage -python -m unittest discover -s tests -v",
+    "result": "passed",
+    "test_methods": 65,
+    "seconds": 55.204
+  },
+  "new_calculus_suite": {
+    "test_methods": 16,
+    "result": "passed",
+    "seconds": 8.857,
+    "report": "products-verification.json",
+    "independent_checks": [
+      "308 ordered full-flag rank-two products in A2/B2/C2/G2 against independently reflected Cartesian discriminants",
+      "144 ordered products on the two-step A3 flag",
+      "Complete 36-entry Gr(2,4) Littlewood-Richardson table, plus independent Cartesian quotient residues",
+      "Three nondivisor Gr(2,5) products below top degree; integral h^6=5",
+      "Type D4 quadric middle classes and Euler intersections",
+      "66 independently checked polynomial lifts, including relabeled B2; linear/BGG method comparisons",
+      "28 E7 full/partial-flag degree-two lifts with the discriminant branch forbidden",
+      "Poincare pairings, mixed rational classes, powers, contexts, invalid inputs and caches"
+    ],
+    "scope": "Independent calculations cover the recorded finite cases. This does not exhaust every rank, parabolic or exceptional product."
+  },
+  "documentation": {
+    "result": "passed",
+    "record": "documentation-verification.json",
+    "python_blocks_executed": 14,
+    "local_links_and_anchors_checked": 68,
+    "mathematical_guide": "SCHUBERT_CALCULUS.md",
+    "example": "examples/schubert_calculus.py"
+  },
+  "wheel": {
+    "filename": "sage_borel-0.6.0-py3-none-any.whl",
+    "bytes": 51405,
+    "sha256": "98adf7c5d5798daa712d4f86fe850fcd54dd40c3987c282a51cd8593846d92b7",
+    "isolated_import_verified": true,
+    "verified_import_path": "/tmp/sean-borel-060-isolated-20261019/sage_borel/__init__.py",
+    "import_check_tool": "tools/verify_wheel_import.py",
+    "installed_wheel_schubert_example": "passed"
+  },
+  "historical_programs": {
+    "command": "python verify_legacy.py --checkout-bytes",
+    "result": "passed",
+    "unchanged_files": 35
+  },
+  "limits": [
+    "Exact rational ordinary cohomology; integral image lattices, equivariant and quantum products are outside scope",
+    "Polynomial lifts are chosen linear sections, not unique polynomial inverses or multiplicative sections",
+    "Dense high-degree inverses and products can remain expensive; the auto method is a size heuristic"
+  ]
+}
