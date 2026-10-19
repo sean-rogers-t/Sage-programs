@@ -64,16 +64,18 @@ provides alternative arguments and explicit Schubert refinements.
 
 ## Integral image summary for Shrawan
 
-The [integral Springer–Borel image note](orthogonal-images-summary/README.md)
-connects the orthogonal Smith calculations to Parts II and III. It labels
-published inputs, deductions in the companion notes, and conjectures
-separately, with normalization conventions, proof sketches, references, and
-the integral comparison problem at its baseline. It makes no originality claim.
-Subsequent work supplies a [general type-B proof](../borel/TYPE_B_GENERAL_SMITH.md);
-the PDF remains the labeled earlier snapshot.
+The [integral Springer-Borel image note](orthogonal-images-summary/README.md)
+connects the orthogonal Smith calculations to Parts II and III. The updated
+note includes the general normalized type-B multiplicity formula and its
+integral proof after a fresh full dependency audit. It separates published
+counting/character formulas, the additional repository Smith deduction,
+and the remaining type-D questions. No originality or external-review
+claim is made.
 
-- [Five-page LaTeX PDF](orthogonal-images-summary/output/pdf/Springer_integral_images_for_Shrawan.pdf)
+- [Nine-page LaTeX PDF](orthogonal-images-summary/output/pdf/Springer_integral_images_for_Shrawan.pdf)
 - [Editable LaTeX source](orthogonal-images-summary/main.tex)
+- [Full general type-B proof](../borel/TYPE_B_GENERAL_SMITH.md)
+- [Fresh proof audit](../borel/TYPE_B_GENERAL_AUDIT.md)
 - [Full proof and source status](../borel/PROOF_STATUS.md)
 
 [PROVENANCE.json](PROVENANCE.json) records source URLs, SHA-256 hashes and file

@@ -35,6 +35,17 @@ all prefixes primitive with the required ranks. This is a complete
 repository derivation under the stated normalization and earlier prefix
 reduction, not a published or externally peer-reviewed theorem.
 
+A [fresh full-proof audit](TYPE_B_GENERAL_AUDIT.md) rechecked the complete
+dependency chain at baseline `5e71833`, including the earlier prefix
+reduction. No gap or mathematical correction was found. The
+[updated Shrawan PDF](../articles/orthogonal-images-summary/README.md)
+now includes the general result and its integral argument, with the
+remaining type-D questions still distinguished.
+The fresh audit also preserves an independent pure-Python larger-case
+check: 16,200,912 corner comparisons and 88 degreewise polynomial
+identities, with exact scope and hashes in its
+[report](experiments/type_b_general_audit_verification.json).
+
 The polynomial expression also has an existing Demazure-character
 interpretation: Chari--Schneider--Shereen--Wand, Theorem 3.3(ii)--(iii),
 [primary text](https://arxiv.org/pdf/1310.5191). That complex character

@@ -23,6 +23,7 @@ DOCUMENTS = ("README.md", "MATHEMATICS.md", "METHODS.md", "SCHUBERT_CALCULUS.md"
              "TYPE_B_THREE_ROW_UNITS.md", "TYPE_B_THREE_ROW_SMITH.md",
              "TYPE_B_HIGHEST_SMITH.md", "TYPE_B_UNIT_SMITH.md",
              "TYPE_B_CLOSED_CONJECTURE.md", "TYPE_B_GENERAL_SMITH.md",
+             "TYPE_B_GENERAL_AUDIT.md",
              "TYPE_B_HIGH_LAYERS.md", "TYPE_B_DEFECT_COMPARISON.md", "PROOF_STATUS.md",
              "experiments/TWO_STEP_DERIVATION.md")
 

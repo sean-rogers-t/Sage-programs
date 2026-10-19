@@ -1,32 +1,39 @@
-# Integral Springer–Borel images: note for Shrawan
+# Integral Springer-Borel images: note for Shrawan
 
-This five-page discussion note explains how the selected integral image problem
-refines the maps and stable injectivity in Kumar–Rogers, Part II, and Kumar–Xie,
-Part III. Published inputs, deductions in the companion notes, and conjectures
-are labeled separately. It makes no claim of originality or external review.
+This nine-page LaTeX note connects the selected integral image problem
+to Kumar-Rogers, Part II, and Kumar-Xie, Part III. It now includes the
+general normalized type-B Smith multiplicity formula and its integral
+argument, replacing the earlier snapshot's conjectural status.
+Published inputs, repository deductions, and remaining type-D questions
+are labeled separately. Originality and external expert review remain
+unestablished.
 
 - [PDF prepared for Shrawan](output/pdf/Springer_integral_images_for_Shrawan.pdf)
 - [Editable, standalone LaTeX](main.tex)
-- [Claim-by-claim proof and source audit](../../borel/PROOF_STATUS.md)
+- [Full general type-B proof](../../borel/TYPE_B_GENERAL_SMITH.md)
+- [Fresh dependency-by-dependency proof audit](../../borel/TYPE_B_GENERAL_AUDIT.md)
+- [Claim-by-claim source and proof status](../../borel/PROOF_STATUS.md)
 - [Articles and earlier verification notes](../README.md)
 
-The note covers the normalized lattices, finite and stable B/D deductions,
-the type-B unit and largest-factor formulas, the classical counting inputs,
-the type-D Euler sector and gluing, and the precise unresolved integral
-comparison behind the general multiplicity conjecture. Unit Smith factors
-are retained along with the finite cokernel. The literal SO/Sp character
-normalization is discussed separately from the normalized form.
+The note states the Gaussian and beta-number formulas, explains the
+integral Schur-prefix reduction, constructs Chow-envelope lifts of
+unbalanced incidence rows, proves a unit triangular minor, counts its
+pivots, and derives every Smith multiplicity by an integral rank squeeze.
+It also records the pre-existing counting and Demazure-character
+interpretations. The general type-D square-sector comparison and full
+partition classification remain unresolved; the proved B formula now
+determines the D Euler-sector factors via the earlier comparison.
 
-The PDF is a snapshot of the baseline below. Subsequent work now records
-a [general type-B proof](../../borel/TYPE_B_GENERAL_SMITH.md) closing the
-comparison labeled conjectural in that snapshot. The current
-[proof-status map](../../borel/PROOF_STATUS.md) distinguishes this
-unpublished deduction from published inputs and the remaining type-D question.
+The fresh audit found no mathematical gap or correction in the general
+proof or its earlier prefix reduction. It explicitly distinguishes the
+topological quaternionic construction and its Leray-Hirsch basis from
+the cited algebraic analogue. Finite checks corroborate the formulas;
+they do not replace the arbitrary-rank proof.
 
-Prepared on 19 October 2026 against research baseline
-`0adbc65288539d5aef59b3dfeeb905b2420ce051`. The PDF is a summary with proof
-sketches; the linked companion notes contain the full arguments and exact
-finite verification records. The original articles are preserved separately.
+Updated on 19 October 2026 against the audited mathematical baseline
+`5e718334a0f8ed9b31166aa3bf42185a60d05c34`. Its full-proof link is immutable;
+the PDF also links the current audit and status map on the research
+branch. The original articles and historical Sage programs are preserved.
 
 ## Build and verification
 
@@ -39,8 +46,8 @@ tectonic --outdir output/pdf main.tex
 Move-Item -Force output/pdf/main.pdf output/pdf/Springer_integral_images_for_Shrawan.pdf
 ```
 
-The delivered PDF was built with Tectonic 0.17.0. The source also compiled
-successfully in the Codex LaTeX editor. All five pages were rendered with
-Poppler and visually inspected; extracted glyph bounds, bibliography
-references, and the TeX log were checked. No library code changed for this
-document, and finite computations are distinguished from uniform proofs.
+The delivered PDF was built with Tectonic 0.17.0 and also compiled
+successfully in the desktop LaTeX editor. All nine final pages were
+rendered with Poppler and visually inspected. Glyph bounds, bibliography
+references, external link annotations, and the TeX log were checked.
+No library runtime code or API changed for this document.
