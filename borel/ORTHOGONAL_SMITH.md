@@ -1,15 +1,20 @@
 # Orthogonal Springer images: formulas, proofs, and the remaining question
 
-We can prove several uniform statements for the normalized type B and D tail
-generators. The unrestricted finite-rank partition classification is not
-yet fully proved. Complete type B formulas are now proved
-when one block has size at most three; its unit and largest-factor
-multiplicities are known in every rank. A single
+**Status: audited repository deductions (2026-10-19), with a separate
+general conjecture.** [PROOF_STATUS.md](PROOF_STATUS.md) identifies the
+published inputs and the arguments checked here. This audit does not
+establish novelty or constitute external mathematical review.
+
+The notes derive several uniform statements for the normalized type B and D
+tail generators. Complete type B formulas are derived when one block has
+size at most three; unit and largest-factor multiplicities are derived in
+every rank. The unrestricted finite-rank partition classification remains
+unproved. A single
 [closed partition candidate](TYPE_B_CLOSED_CONJECTURE.md) now describes all
 layers, with intermediate layers still conjectural in larger blocks.
-This note distinguishes the proved formulas
-from that remaining question. These deductions use the existing integral
-Schubert presentations; no claim of novelty is made.
+The unit counting polynomial is already classical Birkhoff/Hall enumeration.
+Its identification with the chosen Smith units is an additional argument
+here, rather than a theorem attributed to Birkhoff.
 
 ## Conventions and results
 

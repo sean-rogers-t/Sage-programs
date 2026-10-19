@@ -1,5 +1,13 @@
 # A closed formula for type-B unit factors when one block has size three
 
+**Status: Audited deduction (2026-10-19).** The formula and graph proof
+below are deductions in this repository from the cited Frobenius
+comparison and classical SXP rule. The audit found no gap in this argument
+under the stated conventions; it does not establish novelty or provide
+external mathematical certification. The resulting multiplicity formula
+is not attributed to those sources as a published theorem. See
+[PROOF_STATUS.md](PROOF_STATUS.md) for the claim-by-claim assessment.
+
 This note determines the multiplicity of the Smith factor **1**, uniformly
 when one block has size three. Together with two other integral prefix
 calculations, it now gives the complete multiplicities of 1, 2, 4, and 8
@@ -7,7 +15,7 @@ in [TYPE_B_THREE_ROW_SMITH.md](TYPE_B_THREE_ROW_SMITH.md). The complete two-row 
 [TYPE_B_TWO_ROW_SMITH.md](TYPE_B_TWO_ROW_SMITH.md), and the general setup is
 in [TYPE_B_SMITH.md](TYPE_B_SMITH.md). No novelty claim is made.
 
-## Formula
+## Formula established by the deduction
 
 By integral block duality, put the block sizes in the form \((A,3)\), with
 \(A\geq1\). Use the normalized elementary squared-tail inputs. Write

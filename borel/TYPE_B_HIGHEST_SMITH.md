@@ -1,5 +1,10 @@
 # The largest type-B Smith factor: a closed formula in every rank
 
+**Audited deduction (2026-10-19).** This is a repository derivation from
+cited published inputs, not a published Smith classification. Novelty is
+unestablished. See [PROOF_STATUS.md](PROOF_STATUS.md) for the audited scope
+and dependencies.
+
 This note determines the multiplicity of the largest possible normalized
 factor `2^min(a,k)`. It also proves an integral statement about a filtered
 symplectic coefficient lattice. It does not assume that every intermediate
@@ -147,11 +152,15 @@ Its projection to `P(L_0)=CP^(n-1)` has fiber
 `P(Sigma cap L_0)`.
 
 The pullback `f^*:H^*(Z;Z)->H^*(Y;Z)` is a primitive injection. Here is
-an integral proof, which avoids assuming this from birationality. On
-each Schubert cell of `Z`, choose the first positive pivot vector in
-its canonical row echelon representative. Its span is a regular choice
-of line in `Sigma cap L_0`, and so gives a section of `f` over that
-cell. The closure of this section in `Y` maps with degree one onto the
+an integral proof, which avoids assuming this from birationality.
+Parametrize a Schubert cell by its standard root-group coordinates
+$z\longmapsto g(z)\Sigma_w$, with $g(z)$ in the Borel preserving
+$L_0$. At the coordinate plane $\Sigma_w$, fix a line
+$L_w\subseteq\Sigma_w\cap L_0$, for example a positive coordinate
+pivot. The assignment $g(z)\Sigma_w\longmapsto g(z)L_w$ is regular
+in these cell coordinates and lies in $g(z)\Sigma_w\cap L_0$.
+It gives a section of `f` over the cell. The closure of its graph in
+`Y` maps with degree one onto the
 corresponding Schubert cell closure. Consequently `f_*` is surjective
 on integral homology, since those closures form a homology basis of
 `Z`. The even-cell decompositions give free integral homology, and the
@@ -179,6 +188,9 @@ There is a continuous fiber-bundle map `Y -> Q`: remove `L` from
 `Sigma` orthogonally and take the quaternionic span of the residual
 isotropic `(ell-1)`-plane. Its fiber is the complex Lagrangian
 Grassmannian `LG(ell-1,2ell-2)` in that quaternionic span.
+This is the fiberwise form of the topological fibration in
+[Pragacz--Ratajski, Appendix A, Section 10.5](https://www.impan.pl/~pragacz/download/comp3868.pdf),
+applied to the symplectic complement of `H(L)`.
 
 The quaternionic Grassmann bundle `Q` is simply connected, and base and
 fiber have free integral cohomology in even degrees only. The integral
@@ -195,11 +207,14 @@ x^j s_\mu(U),\qquad
 \tag{5}
 $$
 
-The quaternionic Grassmann Schur basis and its integral presentation are
+The integral topological Schur basis is given in
+[Pragacz--Ratajski, Appendix A, Section 10.3](https://www.impan.pl/~pragacz/download/comp3868.pdf).
+The characteristic-class presentation and bundle version are also
 recorded in
-[Panin--Walter, Theorem 11.2, equations (11.7)--(11.8), PDF pp.33--34](https://arxiv.org/pdf/1011.0649).
-Apply the usual bundle version of Leray--Hirsch using these globally
-defined characteristic classes. The case `ell=1` means `Q=CP^(n-1)`
+[Panin--Walter, Theorems 11.2--11.3, equations (11.7)--(11.9), PDF pp.33--34](https://arxiv.org/pdf/1011.0649).
+The globally defined classes `s_mu(U)` restrict to this integral basis
+on every fiber, so the ordinary topological Leray--Hirsch theorem gives
+(5). The case `ell=1` means `Q=CP^(n-1)`
 and `mu` is the empty partition.
 
 The quaternionic span of `Sigma` splits on `Y` as `H(L) direct-sum U`.

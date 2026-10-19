@@ -1,10 +1,15 @@
 # A closed partition candidate for all type-B Smith multiplicities
 
-This note gives a positive partition formula for every normalized type-B
-multiplicity. The unit factors and largest possible factors have proofs
-in every rank. Every factor is proved through three-row families.
-The unrestricted assertion for intermediate factors remains a conjecture.
-The finite evidence below does not close that gap.
+**Status: general conjecture, with audited special-case deductions.**
+See [PROOF_STATUS.md](PROOF_STATUS.md) for the published inputs, checked
+arguments, and literature limits. Novelty has not been established.
+
+This note proposes a positive partition formula for every normalized type-B
+multiplicity. The endpoint cases and all three-row multiplicities have
+derivations audited in the companion notes. The unrestricted assertion for
+intermediate factors remains a conjecture; finite evidence does not prove it.
+The polynomial $U_{n,l}$ is a classical Birkhoff/Hall counting polynomial.
+The additional Smith interpretation requires the arguments cited below.
 
 ## The formula
 
@@ -68,7 +73,7 @@ $$
 This requires partition counting, without Schubert matrices, Smith
 reduction, or a rank calculation.
 
-## What is proved
+## Audited deductions and the remaining conjecture
 
 * **$e=0$, all ranks:** (1) is the unit multiplicity polynomial.
   [TYPE_B_UNIT_SMITH.md](TYPE_B_UNIT_SMITH.md) proves this integrally
@@ -89,12 +94,21 @@ reduction, or a rank calculation.
   Schur-product row lattice. Its rank increments give Smith
   multiplicities if all these row lattices are primitive.
 
-The remaining claim in (2)--(3) is the unrestricted interpretation of the
-intermediate layers as Smith multiplicities. The geometry below proves
+The bullets describe deductions in these notes, not exact Smith theorems
+located in the cited literature. The remaining claim in (2)--(3) is the
+unrestricted interpretation of the intermediate layers as Smith
+multiplicities. The geometry below proves
 that these polynomials count natural strata. An integral comparison with
 the selected Springer image still needs proof. No novelty claim is made.
 
 ## Why these polynomials arise geometrically
+
+This is part of the existing subspace-profile counting framework:
+for $N^2=0$, defect $e$ is profile $(l,e)$ in
+[Ram, Definition 1.1 and Theorem 5.2](https://www.mat.univie.ac.at/~slc/wpapers/FPSAC2025/115.pdf).
+That source gives a general finite-field count. The elementary Gaussian
+specialization below and its compact-support interpretation are explained
+here; neither is a proof of the additional integral Smith identification.
 
 Let $V$ have complex dimension $n$ and choose a square-zero endomorphism
 $N$ of maximal rank $r$. Put $I=\operatorname{im}N$ and $K=\ker N$,

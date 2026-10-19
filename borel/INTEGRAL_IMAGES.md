@@ -151,6 +151,9 @@ notes. Type B is now complete when one block has size at most three;
 the unit and largest-factor multiplicities are proved in every rank.
 The [closed all-rank partition candidate](TYPE_B_CLOSED_CONJECTURE.md)
 states the remaining conjecture and its exact integral proof gap.
+These are deductions in the notes, not an attribution of the exact Smith
+formulas to the cited papers or a claim of originality. The
+[claim-by-claim proof/source audit](PROOF_STATUS.md) records the distinctions.
 
 The method computes one exact degree at a time. A list of bounded reports is not a proof of a uniform formula or a complete integral ring presentation. `A.presentation()` continues to compute the complete kernel over QQ; its Groebner basis must not be relabeled an integral kernel certificate. Integral image calculations currently require Schubert-coordinate matrices rather than the rational coinvariant backend, whose coordinates need not form an integral Schubert lattice.
 

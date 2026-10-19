@@ -76,11 +76,15 @@
       "python_blocks_executed": 0
     },
     {
+      "file": "PROOF_STATUS.md",
+      "python_blocks_executed": 1
+    },
+    {
       "file": "experiments/TWO_STEP_DERIVATION.md",
       "python_blocks_executed": 0
     }
   ],
-  "local_links_and_anchors_checked": 183,
-  "python_blocks_executed": 18,
+  "local_links_and_anchors_checked": 215,
+  "python_blocks_executed": 19,
   "scope": "Python fences executed in reading order in a fresh namespace per document; local links and anchors checked. Shell snippets and external URLs were not automatically executed or crawled."
 }

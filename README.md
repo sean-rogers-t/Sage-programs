@@ -13,13 +13,17 @@ The [graded image calculator](borel/IMAGE_RELATIONS.md) computes exact relations
 among chosen generator images, with two-step symplectic flag experiments and
 an invariant-theory derivation of their joint-image presentation.
 
-The [orthogonal Smith-factor notes](borel/ORTHOGONAL_SMITH.md) prove general
-type B/D restrictions, stable primitivity, quadric formulas and an integral
-gluing rule, with reproducible finite checks and explicit remaining questions.
-For type B they also include complete closed partition multiplicities through
-three-row families, plus unit and largest-factor multiplicities in every rank.
+The [proof and literature status](borel/PROOF_STATUS.md) separates published
+inputs, deductions checked in this repository, finite evidence and conjectures.
+The audit does not establish originality or replace external mathematical review.
+The [orthogonal Smith-factor notes](borel/ORTHOGONAL_SMITH.md) record audited
+deductions for type B/D restrictions, stable primitivity, quadric formulas and
+an integral gluing rule. Type B deductions include complete partition formulas
+through three-row families, plus unit and largest-factor counts in every rank.
 The [closed all-rank partition candidate](borel/TYPE_B_CLOSED_CONJECTURE.md)
-records the remaining conjecture and its independent finite checks.
+records the remaining conjecture and its independent finite checks. The unit
+counting polynomial itself is classical Birkhoff/Hall enumeration; its Smith
+interpretation is a separate derivation.
 
 Research articles and the independently checked F4, E6 and E7 Springer-morphism
 note are indexed in [articles/README.md](articles/README.md).

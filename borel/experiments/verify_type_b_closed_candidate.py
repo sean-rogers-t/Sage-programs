@@ -1,6 +1,7 @@
 """Finite exact checks of a proposed all-rank type-B multiplicity formula.
 
-The unit-factor formula is proved and is evaluated by a positive Gaussian
+The unit-factor formula is an audited repository deduction from published
+inputs (novelty unestablished) and is evaluated by a positive Gaussian
 sum, independently checked against its alternating expression.  The full
 Gaussian expression for intermediate factors is still a candidate.  No
 Borel engine or Weyl group is imported.
@@ -53,7 +54,8 @@ def main():
     started = perf_counter()
     here = Path(__file__).resolve().parent
     report = {"suite_result": "running",
-              "status_of_formula": {"unit_factors_e_zero": "proved all-rank positive unit formula; positive/alternating identity checked independently",
+              "status_of_formula": {"unit_factors_e_zero": "audited deduction in TYPE_B_UNIT_SMITH.md from published inputs; novelty not established",
+                                    "counting_polynomial": "classical Birkhoff/Hall enumeration; see PROOF_STATUS.md",
                                     "general_intermediate_factors": "candidate Gaussian formula; finite verification is not a proof"},
               "generated_utc": datetime.now(timezone.utc).isoformat(),
               "Borel_or_Weyl_engine_imported": False,

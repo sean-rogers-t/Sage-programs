@@ -1,5 +1,14 @@
 # Type D integral tail images: general results and a quadric formula
 
+**Status: Audited deduction (2026-10-19).** The statements and proofs
+below are deductions in this repository from the identified published
+eta, Schubert, characteristic-map, and quadric results. The audit found
+no gap in these arguments under their stated hypotheses; it does not
+establish novelty or provide external mathematical certification.
+The selected-image conclusions are not attributed to those sources as
+published Smith theorems. See [PROOF_STATUS.md](PROOF_STATUS.md) for the
+claim-by-claim assessment.
+
 This note proves stable integral primitivity, an explicit finite stable range,
 and the absence of odd-prime Smith factors in every rank. It also gives a
 complete formula for the one-dimensional-head family. It does **not** claim
@@ -36,7 +45,7 @@ Only positive nonzero Smith factors are listed, including 1. An empty list
 means rank zero. Saturation in the rational image is distinct from spanning
 all the ambient cohomology.
 
-## General theorem: stable primitivity and a finite stable range
+## General deduction: stable primitivity and a finite stable range
 
 Fix \(k\geq2\). The normalized map
 
@@ -134,7 +143,7 @@ In our notation specialization retains precisely the typed partitions in the
 degree, and the finite statement follows. Counting the free weighted
 monomials of \(A_k\) gives the stated coefficient formula.
 
-## General theorem: every finite Smith factor is a power of 2
+## General deduction: every finite Smith factor is a power of 2
 
 For every \(a\geq1\), \(k\geq2\), and every degree, all positive normalized Smith
 factors belong to \(\{1,2,4,8,\ldots\}\). The same assertion holds for
@@ -159,9 +168,17 @@ prime is
 H^*(\operatorname{OG}(a,2n);R)=P/(I\cap P).
 \]
 
-The standard complete-flag result is the additive case of
-[Calmes--Petrov--Zainoulline, Theorems 6.4 and 6.9](https://arxiv.org/pdf/0905.1341).
-The only torsion prime is 2; see also
+The complete-flag presentation follows from the additive specialization of
+[Calmes--Petrov--Zainoulline, Theorems 6.4 and 6.9,
+Sections 13.3 and 13.6--13.7](https://arxiv.org/pdf/0905.1341).
+The latter sections identify the abstract characteristic-map model with
+the Chow ring: Section 13.3 verifies the required Schubert-basis hypothesis,
+and Sections 13.6--13.7 give geometric surjectivity and the invariant
+kernel. Over the complex numbers the cycle map identifies this cellular
+Chow ring with integral even cohomology, and hence with its localization
+over `R`. Here the torsion index is invertible and `R` has no 2-torsion,
+as required by the cited results.
+No odd torsion prime occurs; see also
 [Totaro, *The torsion index of the spin groups*, Theorem 3.2](https://www.math.ucla.edu/~totaro/papers/public_html/spin.pdf)
 for the special orthogonal torsion indices. Here is an explicit justification
 of the parabolic step. Let \(\pi:G/B\to G/P\), and choose a polynomial
@@ -270,7 +287,7 @@ a statement about the Euler sector on its own; when the square and Euler
 sectors occur in the same degree their combined saturation can introduce
 additional index-two gluing.
 
-## Theorem for \(a=1\)
+## Quadric deduction for \(a=1\)
 
 In this case \(n=k+1\) and \(X=Q^{2k}\) is the smooth even-dimensional
 quadric. For \(k\geq2\), its normalized tail Smith-factor list in degree
@@ -386,7 +403,7 @@ weighted degree \(d\) therefore has the common factor \(2^d\), giving
 L_d^{\mathrm{literal}}=2^d L_d^{\mathrm{normalized}}.
 \]
 
-Multiply every nonzero factor in the theorem by \(2^d\) to obtain the
+Multiply every nonzero factor in the quadric table by \(2^d\) to obtain the
 literal Smith factors. This scaling identity also holds for arbitrary
 \(a\), independently of whether an explicit normalized Smith-factor
 formula is known. It refers to the fixed defining/vector Springer map,

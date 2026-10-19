@@ -1,5 +1,10 @@
 # Type B multiplicities and a Schur-product filtration
 
+**Audited deduction (2026-10-19).** This is a repository derivation from
+cited published inputs, not a published Smith classification. Novelty is
+unestablished. See [PROOF_STATUS.md](PROOF_STATUS.md) for the audited scope
+and dependencies.
+
 The weighted-minor formula in [TYPE_B_SMITH.md](TYPE_B_SMITH.md) can be
 reduced to a filtration of ordinary Grassmannian Schur spaces. This note
 proves that reduction. It also identifies the remaining integral issue in
@@ -88,9 +93,14 @@ $$
 
 Its incidence resolution chooses $S\subseteq\Sigma\cap L_0$ of dimension
 $b$. It is a bundle over $\operatorname{Gr}(b,n)$ with fiber
-$\operatorname{IG}(t,2(n-b))$. Over every Schubert cell of $Z_t$,
-row-echelon pivot vectors supply a regular choice of such $S$.
-The closure of this section pushes a cycle forward with degree one onto
+$\operatorname{IG}(t,2(n-b))$. To give a section over a Schubert cell
+explicitly, use its standard root-group coordinates
+$z\longmapsto g(z)\Sigma_w$, with $g(z)$ in the Borel preserving $L_0$
+and $\Sigma_w$ the coordinate isotropic plane. Choose a fixed
+$b$-plane $S_w\subseteq\Sigma_w\cap L_0$, using any $b$ positive
+coordinate pivots. Then $g(z)S_w\subseteq g(z)\Sigma_w\cap L_0$ varies
+regularly and gives the required section.
+The closure of its graph pushes a cycle forward with degree one onto
 the corresponding Schubert closure. Homology pushforward is therefore
 surjective. Since the Schubert union has free even homology, universal
 coefficients show that pullback to the resolution is a primitive
@@ -101,6 +111,10 @@ spans a quaternionic rank-$b$ bundle $S\oplus JS$. Forgetting the complex
 Lagrangian in the remaining quaternionic rank-$t$ tautological bundle
 maps the resolution onto a quaternionic Grassmannian bundle $Q$ over
 $\operatorname{Gr}(b,n)$. Its fiber is $\operatorname{LG}(t,2t)$.
+The topological construction on each fiber is
+[Pragacz--Ratajski, Appendix A, Section 10.5](https://www.impan.pl/~pragacz/download/comp3868.pdf);
+applying it to the symplectic complement of $S\oplus JS$ gives this
+bundle version. Their Section 10.3 gives the integral quaternionic Schur basis.
 The Grassmannian bundle $Q$ is simply connected and has free even
 cohomology, as do its base and quaternionic Grassmannian fiber.
 Thus there is no local-coefficient issue for the Lagrangian fiber.
@@ -109,8 +123,12 @@ primitive as well. The incidence resolution itself has free even
 cohomology by its isotropic-Grassmannian bundle over the ordinary base.
 
 The classes $s_\mu(U)$, $\mu\subseteq A^t$, form a global integral
-Leray--Hirsch basis for $Q$ over the complex Grassmannian. If $x$ are the
-Chern roots of $S^*$, Schur branching gives the source pullback
+Leray--Hirsch basis for $Q$ over the complex Grassmannian: they restrict
+to the integral Schur basis on every quaternionic Grassmannian fiber.
+For the characteristic-class formulation and its relative version, see
+[Panin--Walter, Theorems 11.2--11.3](https://arxiv.org/pdf/1011.0649).
+If $x$ are the Chern roots of $S^*$, Schur branching gives the source
+pullback
 
 $$
 s_\lambda(x^2+U)
@@ -292,9 +310,22 @@ c=\left\lceil\frac{A+4}{2}\right\rceil,
 \qquad r=\left\lfloor\frac{A+4}{2}\right\rfloor.
 $$
 
-Since every prefix is primitive, the number of exponents at least three
-in each degree is the rank deficit of $P_2$. Its generating polynomial
-counts partitions in $A^4$ outside $(A,A,U,V)$. We claim this is
+Only the primitivity of $P_2$ is needed to count exponents at least
+three; no assertion about $P_0$ or $P_1$ is needed here. Let $M_m$ be
+the degree-$m$ source coefficient lattice and $R\subseteq M_m$ the
+weighted type-B row lattice. Choose
+$M_m=P_2\oplus Q_2$, which is possible by the coordinate
+description above. The rows of weights $\nu\leq2$ lie in $P_2$, and
+their lattice contains $4P_2$. Every row of weight $\nu\geq3$ is
+divisible by eight in $M_m$. Its $P_2$ component therefore
+lies in $8P_2\subseteq R$ and can be subtracted integrally. Consequently
+$R$ splits as a lattice in $P_2$, with factors dividing four, and a
+lattice in $Q_2$, with all factors divisible by eight. The latter has
+full rank in $Q_2$, since $16M_m\subseteq R$.
+
+Thus the number of exponents at least three in each degree is the rank
+deficit of $P_2$. Its generating polynomial counts partitions in $A^4$
+outside $(A,A,U,V)$. We claim this is
 
 $$
 q^{3c}{r\brack3}_q[c-3]
@@ -343,7 +374,9 @@ and $[r-2]=[r-3]+q^{r-3}$. Their sum becomes exactly the displayed
 rank deficit, since $r=c-1$.
 
 Thus the compact general conjecture is proved for the factor eight
-when the smaller block is four. This does not separate the factor-two
+when the smaller block is four, using the audited $P_2$ and
+largest-factor deductions independently of the all-rank unit argument.
+This does not separate the factor-two
 and factor-four multiplicities in that family; their closed count
 still requires the missing $P_1$ rank calculation.
 

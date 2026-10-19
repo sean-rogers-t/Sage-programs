@@ -1,5 +1,14 @@
 # A closed formula for all type-B Smith factors when the smaller block is three
 
+**Status: Audited deduction (2026-10-19).** The statement and proof below
+are deductions in this repository from the cited integral Schubert
+presentations, incidence geometry, and symmetric-function identities.
+The audit found no gap in this argument under the stated conventions;
+it does not establish novelty or provide external mathematical
+certification. The Smith formula is not attributed to the cited papers
+as a published theorem. See [PROOF_STATUS.md](PROOF_STATUS.md) for the
+claim-by-claim assessment and its dependencies.
+
 This note determines every normalized Smith multiplicity when
 `min(a,k)=3`. The formulas count bounded partitions and do not require
 divided differences, a coefficient matrix, or Smith reduction. They follow
@@ -11,7 +20,7 @@ The general normalization and block duality are proved in
 sizes one and two are there and in
 [TYPE_B_TWO_ROW_SMITH.md](TYPE_B_TWO_ROW_SMITH.md), respectively.
 
-## Formula
+## Formula established by the deduction
 
 Put the two block sizes in the form `(A,3)`, where `A>=3`. Write `d=2m`
 for polynomial degree, so the corresponding cohomological degree is `4m`.

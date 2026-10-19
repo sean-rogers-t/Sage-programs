@@ -1,5 +1,11 @@
 # Smith factors for normalized type-B tail images
 
+**Status: audited repository deductions (2026-10-19).** The cited
+Schubert and quaternionic facts are published inputs; the selected-lattice
+consequences are derived here. The
+[proof/source audit](PROOF_STATUS.md) gives dependencies and limitations.
+No originality, priority, or independent external certification is claimed.
+
 This note gives proofs for the natural normalized tail generators. It proves
 the possible primes and an exponent bound, a duality in the two block sizes,
 stable saturation, a complete answer when one block has size one, and an

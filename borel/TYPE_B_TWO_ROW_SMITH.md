@@ -1,11 +1,19 @@
 # Closed type-B Smith multiplicities when one block has size two
 
+**Status: Audited deduction (2026-10-19).** The statement and proof below
+are deductions in this repository from the cited published Giambelli
+formulas and comparison maps. The audit found no gap in this argument
+under the stated conventions; it does not establish novelty or provide
+external mathematical certification. The displayed Smith formula is not
+attributed to the cited papers as a published theorem. See
+[PROOF_STATUS.md](PROOF_STATUS.md) for the claim-by-claim assessment.
+
 This note completes the multiplicity calculation for `min(a,k)=2` in the
 normalization of [TYPE_B_SMITH.md](TYPE_B_SMITH.md). It is a deduction from
 the classical two-row theta Giambelli formula and the type-B/type-C
-comparison. No claim of a new theorem in the literature is made.
+comparison.
 
-## Statement
+## Statement of the deduction
 
 Let `a,k >= 1`, `n=a+k`, and use the normalized tail generators
 
@@ -268,5 +276,8 @@ The [verification script](experiments/verify_type_b_two_row.py) checks the
 two-variable identities symbolically and compares (1) with both recorded
 finite Smith datasets, including either orientation of the two blocks.
 The proof above applies to all `A>=2`; the data are a check of its
-implementation and conventions. The general case `min(a,k)>=3` still
-requires a higher-row multiplicity argument.
+implementation and conventions. The separate
+[three-row deduction](TYPE_B_THREE_ROW_SMITH.md) treats `min(a,k)=3`.
+The unrestricted formula for intermediate multiplicities in larger
+blocks remains conjectural; see
+[TYPE_B_CLOSED_CONJECTURE.md](TYPE_B_CLOSED_CONJECTURE.md).

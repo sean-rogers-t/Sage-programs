@@ -17,6 +17,7 @@ the mathematical guide for the Borel/Springer construction.
 | How do I multiply Schubert classes or lift them to polynomials? | [Schubert multiplication and inverse Borel calculations](SCHUBERT_CALCULUS.md) |
 | Which integer classes do fixed generators produce? | [Integral images and Smith factors](INTEGRAL_IMAGES.md) |
 | What is already known about integral Springer images? | [Literature and normalization audit](INTEGRAL_LITERATURE.md) |
+| Which claims are published, deductions here, or conjectures? | [Proof and literature status](PROOF_STATUS.md) |
 | What general Smith-factor formulas can be proved in types B and D? | [Orthogonal formulas and proofs](ORTHOGONAL_SMITH.md) |
 | Why is the returned kernel complete? How do backends and normal forms work? | [Complete presentations and proofs](PRESENTATIONS.md) |
 | What do a degree matrix, rank and homogeneous relation mean? | [Degreewise images and relations](IMAGE_RELATIONS.md) |
@@ -65,7 +66,7 @@ generators from literal integral polynomial characters; the
 [literature audit](INTEGRAL_LITERATURE.md) explains the classical type C
 saturation result and the scope of the orthogonal and exceptional questions.
 
-The [orthogonal research note](ORTHOGONAL_SMITH.md) proves that normalized
+The [orthogonal research note](ORTHOGONAL_SMITH.md) records deductions that normalized
 type B/D factors are powers of two and that the stable images are saturated.
 It includes a type B exponent bound and block symmetry, closed quadric
 formulas, and an exact type D integral gluing rule. The
@@ -75,7 +76,10 @@ when one block has size at most three, and the
 [largest-factor multiplicity](TYPE_B_HIGHEST_SMITH.md) in every rank.
 The [closed all-rank partition candidate](TYPE_B_CLOSED_CONJECTURE.md)
 matches every recorded Smith list. Intermediate multiplicities for larger
-blocks remain conjectural.
+blocks remain conjectural. The [proof/source audit](PROOF_STATUS.md)
+identifies published ingredients and checked repository arguments separately.
+The unit counting polynomial is classical Birkhoff/Hall theory; novelty of
+the Smith interpretations and other deductions has not been established.
 
 It computes
 
