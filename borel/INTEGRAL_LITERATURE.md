@@ -395,8 +395,15 @@ The expanded review also includes Birkhoff/Hall counting, invariant-subspace
 and affine Schubert models, and full tautological Chern subrings as above.
 It still does not establish novelty of any exact Smith deduction here.
 
-A remaining mathematical question is whether the exact orthogonal matrix
-and gluing formulas in the proof notes can be simplified to partition
-statistics. A second is to identify and compare natural integral
+Subsequent repository deductions now give the
+[general B multiplicities](TYPE_B_GENERAL_SMITH.md) and
+[all normalized D unit multiplicities](TYPE_D_FROBENIUS.md).
+The latter uses the published BKT, Littlewood/SXP and integral
+affine-Grassmann Chern inputs; their additional Springer-image
+interpretation is proved in the linked note and is not attributed to
+those sources as a published Smith theorem.
+The [full D partition formula](TYPE_D_CANDIDATE.md) remains a
+conjecture in its higher Smith layers, with the exact remaining
+square-sector and saturated-gluing hypotheses stated explicitly. A second is to identify and compare natural integral
 forms of the exceptional polynomial representation subalgebras. Any claim
 about representation rings must specify that form explicitly.

@@ -19,6 +19,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DOCUMENTS = ("README.md", "MATHEMATICS.md", "METHODS.md", "SCHUBERT_CALCULUS.md", "PRESENTATIONS.md",
              "IMAGE_RELATIONS.md", "INTEGRAL_IMAGES.md", "INTEGRAL_LITERATURE.md",
              "ORTHOGONAL_SMITH.md", "TYPE_B_SMITH.md", "TYPE_D_SMITH.md",
+             "TYPE_D_FROBENIUS.md", "TYPE_D_SQUARE_COMPARISON.md", "TYPE_D_CANDIDATE.md",
              "TYPE_B_FILTRATION.md", "TYPE_B_TWO_ROW_SMITH.md",
              "TYPE_B_THREE_ROW_UNITS.md", "TYPE_B_THREE_ROW_SMITH.md",
              "TYPE_B_HIGHEST_SMITH.md", "TYPE_B_UNIT_SMITH.md",

@@ -50,7 +50,7 @@ can be smaller than the full cohomology group.
 | Stable image, with $k$ fixed | Saturated in every degree | Saturated in every degree |
 | Sufficient finite range for all factors $1$ | $d\leq\max(a,k)$ | $d\leq a$ |
 | Complete closed families | Every pair $a,k$ | $a=1$ |
-| Other uniform information | Block symmetry, rank formula, closed unit and largest-factor multiplicities, weighted-minor formula for every factor | Euler-sector comparison and the integral gluing formula below |
+| Other uniform information | Block symmetry, rank formula, closed unit and largest-factor multiplicities, weighted-minor formula for every factor | Closed unit multiplicities, square block symmetry/bounds, Euler comparison, and the integral gluing formula below |
 | Remaining classification | None for these normalized B generators | Closed partition multiplicities, including the integral gluing |
 
 The detailed proofs are in [TYPE_B_SMITH.md](TYPE_B_SMITH.md) and
@@ -150,6 +150,34 @@ description to a closed formula. The
 by one partition sum. The [general integral proof](TYPE_B_GENERAL_SMITH.md)
 now establishes every layer, and [the high-layer note](TYPE_B_HIGH_LAYERS.md)
 provides an independent elementary argument for the largest three.
+
+## Type D: the complete unit layer
+
+The [unit theorem](TYPE_D_FROBENIUS.md) now proves every normalized
+type-D unit multiplicity. Write \(\mathcal U_{a,k}\) for the B unit
+polynomial, with \(\mathcal U_{0,k}=1\). For odd \(k\),
+\[
+\sum_d u_D(a,k;d)z^d
+=\mathcal U_{a,k}(z^2)+z^k\mathcal U_{a-1,k}(z^2).
+\]
+For \(k=2h\), \(u=\lceil a/2\rceil,v=\lfloor a/2\rfloor\),
+\[
+\sum_m u_D(a,2h;2m)q^m
+=\mathcal U_{a,2h}(q)+q^h\mathcal U_{a-1,2h}(q)
+-q^{h(v+1)}{h+u-1\brack h}_q.
+\]
+The Gaussian subtraction is the exact overlap of the two original
+image reductions modulo 2. It is proved by explicit intersection
+classes and a matching derivation/incidence upper bound. It is not
+assumed to exhaust all gluing of the saturated sector lattices.
+
+The [square comparison note](TYPE_D_SQUARE_COMPARISON.md) proves
+common kernels, block symmetry, a sufficient primitive range
+\(d\le\max(a,k)\), and a termwise B lower bound.
+The [full-D candidate](TYPE_D_CANDIDATE.md) gives a closed proposed
+answer for every higher factor, separates its two unproved integral
+hypotheses, and records all 84 exact full-list comparisons.
+The unit theorem does not settle those higher layers.
 
 ## Type D: an exact integral gluing formula
 

@@ -11,7 +11,13 @@ claim-by-claim assessment.
 
 This note proves stable integral primitivity, an explicit finite stable range,
 and the absence of odd-prime Smith factors in every rank. It also gives a
-complete formula for the one-dimensional-head family. It does **not** claim
+complete formula for the one-dimensional-head family.
+The subsequent [unit theorem](TYPE_D_FROBENIUS.md) determines every
+normalized unit multiplicity in every rank. The
+[square comparison](TYPE_D_SQUARE_COMPARISON.md) adds block duality,
+an improved square-only stable range and a one-sided B bound. The
+[full closed formula](TYPE_D_CANDIDATE.md) remains conjectural in its
+higher Smith layers. It does **not** claim
 an explicit partition formula for all finite head dimensions. All degrees
 below are polynomial degrees, half the cohomological degrees.
 

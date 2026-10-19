@@ -1,0 +1,5778 @@
+{
+  "schema_version": 1,
+  "generated_utc": "2026-10-19T18:51:15.080440+00:00",
+  "sage_version": "9.5",
+  "degree_convention": "polynomial degree d is cohomological degree 2d",
+  "scope": "Finite exact corroboration. Gaussian intersections and unit-only integral gluing are not inferred as general theorems from this experiment.",
+  "arguments": {
+    "max_a": 7,
+    "max_h": 3,
+    "seconds_per_degree": 45,
+    "skip_fresh_bgg": false,
+    "output": "/mnt/c/Users/Sean/OneDrive/Documents/ChatGPT/Career/research-review/Sage-programs-articles/borel/experiments/type_d_frobenius_search_results.json"
+  },
+  "source_hashes": [
+    {
+      "file": "type_d_frobenius_search.py",
+      "sha256": "1f681690b5cb5a7692714b108a6e684cc6254e8d049a2ab80ac33a5a42503ec3"
+    },
+    {
+      "file": "orthogonal_sector_search_results.json",
+      "sha256": "30d242135e9701f0d7cace3fbfb1976b78597b5131d0945618907c05a454e2bc"
+    },
+    {
+      "file": "orthogonal_gluing_flags.py",
+      "sha256": "525df8af3de17a082eb1e0d168f16938466521f00810c6a3b6ea539c2cf3945c"
+    },
+    {
+      "file": "orthogonal_sector_search.py",
+      "sha256": "e7e7ab03d34f8041912f0eda28064481b669e0b0911a4c7f64559606c9c6f8f9"
+    },
+    {
+      "file": "orthogonal_smith_search.py",
+      "sha256": "a2075abcc1a6694f22d14e87f2193550695d29ddf53f5124afc9e17af947211a"
+    }
+  ],
+  "grassmannian_checks": [
+    {
+      "a": 1,
+      "k": 2,
+      "polynomial_degree": 0,
+      "square_rank": 1,
+      "euler_rank": 0,
+      "full_unit_rank": 1,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 1,
+      "k": 2,
+      "polynomial_degree": 2,
+      "square_rank": 1,
+      "euler_rank": 1,
+      "full_unit_rank": 1,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            1
+          ],
+          "euler_preimage": [],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 1
+    },
+    {
+      "a": 1,
+      "k": 4,
+      "polynomial_degree": 0,
+      "square_rank": 1,
+      "euler_rank": 0,
+      "full_unit_rank": 1,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 1,
+      "k": 4,
+      "polynomial_degree": 2,
+      "square_rank": 1,
+      "euler_rank": 0,
+      "full_unit_rank": 1,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 1,
+      "k": 4,
+      "polynomial_degree": 4,
+      "square_rank": 1,
+      "euler_rank": 1,
+      "full_unit_rank": 1,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            1,
+            1
+          ],
+          "euler_preimage": [],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 1
+    },
+    {
+      "a": 1,
+      "k": 6,
+      "polynomial_degree": 0,
+      "square_rank": 1,
+      "euler_rank": 0,
+      "full_unit_rank": 1,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 1,
+      "k": 6,
+      "polynomial_degree": 2,
+      "square_rank": 1,
+      "euler_rank": 0,
+      "full_unit_rank": 1,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 1,
+      "k": 6,
+      "polynomial_degree": 4,
+      "square_rank": 1,
+      "euler_rank": 0,
+      "full_unit_rank": 1,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 1,
+      "k": 6,
+      "polynomial_degree": 6,
+      "square_rank": 1,
+      "euler_rank": 1,
+      "full_unit_rank": 1,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            1,
+            1,
+            1
+          ],
+          "euler_preimage": [],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 1
+    },
+    {
+      "a": 2,
+      "k": 2,
+      "polynomial_degree": 0,
+      "square_rank": 1,
+      "euler_rank": 0,
+      "full_unit_rank": 1,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 2,
+      "k": 2,
+      "polynomial_degree": 2,
+      "square_rank": 1,
+      "euler_rank": 1,
+      "full_unit_rank": 2,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 2,
+      "k": 2,
+      "polynomial_degree": 4,
+      "square_rank": 1,
+      "euler_rank": 1,
+      "full_unit_rank": 1,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            2
+          ],
+          "euler_preimage": [
+            1
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 1
+    },
+    {
+      "a": 2,
+      "k": 4,
+      "polynomial_degree": 0,
+      "square_rank": 1,
+      "euler_rank": 0,
+      "full_unit_rank": 1,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 2,
+      "k": 4,
+      "polynomial_degree": 2,
+      "square_rank": 1,
+      "euler_rank": 0,
+      "full_unit_rank": 1,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 2,
+      "k": 4,
+      "polynomial_degree": 4,
+      "square_rank": 2,
+      "euler_rank": 1,
+      "full_unit_rank": 3,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 2,
+      "k": 4,
+      "polynomial_degree": 6,
+      "square_rank": 1,
+      "euler_rank": 1,
+      "full_unit_rank": 2,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 2,
+      "k": 4,
+      "polynomial_degree": 8,
+      "square_rank": 1,
+      "euler_rank": 1,
+      "full_unit_rank": 1,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            2,
+            2
+          ],
+          "euler_preimage": [
+            1,
+            1
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 1
+    },
+    {
+      "a": 2,
+      "k": 6,
+      "polynomial_degree": 0,
+      "square_rank": 1,
+      "euler_rank": 0,
+      "full_unit_rank": 1,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 2,
+      "k": 6,
+      "polynomial_degree": 2,
+      "square_rank": 1,
+      "euler_rank": 0,
+      "full_unit_rank": 1,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 2,
+      "k": 6,
+      "polynomial_degree": 4,
+      "square_rank": 2,
+      "euler_rank": 0,
+      "full_unit_rank": 2,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 2,
+      "k": 6,
+      "polynomial_degree": 6,
+      "square_rank": 2,
+      "euler_rank": 1,
+      "full_unit_rank": 3,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 2,
+      "k": 6,
+      "polynomial_degree": 8,
+      "square_rank": 2,
+      "euler_rank": 1,
+      "full_unit_rank": 3,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 2,
+      "k": 6,
+      "polynomial_degree": 10,
+      "square_rank": 1,
+      "euler_rank": 1,
+      "full_unit_rank": 2,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 2,
+      "k": 6,
+      "polynomial_degree": 12,
+      "square_rank": 1,
+      "euler_rank": 1,
+      "full_unit_rank": 1,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            2,
+            2,
+            2
+          ],
+          "euler_preimage": [
+            1,
+            1,
+            1
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 1
+    },
+    {
+      "a": 3,
+      "k": 2,
+      "polynomial_degree": 0,
+      "square_rank": 1,
+      "euler_rank": 0,
+      "full_unit_rank": 1,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 3,
+      "k": 2,
+      "polynomial_degree": 2,
+      "square_rank": 1,
+      "euler_rank": 1,
+      "full_unit_rank": 2,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 3,
+      "k": 2,
+      "polynomial_degree": 4,
+      "square_rank": 2,
+      "euler_rank": 1,
+      "full_unit_rank": 2,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            2
+          ],
+          "euler_preimage": [
+            1
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 1
+    },
+    {
+      "a": 3,
+      "k": 2,
+      "polynomial_degree": 6,
+      "square_rank": 1,
+      "euler_rank": 1,
+      "full_unit_rank": 1,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            3
+          ],
+          "euler_preimage": [
+            2
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 1
+    },
+    {
+      "a": 3,
+      "k": 4,
+      "polynomial_degree": 0,
+      "square_rank": 1,
+      "euler_rank": 0,
+      "full_unit_rank": 1,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 3,
+      "k": 4,
+      "polynomial_degree": 2,
+      "square_rank": 1,
+      "euler_rank": 0,
+      "full_unit_rank": 1,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 3,
+      "k": 4,
+      "polynomial_degree": 4,
+      "square_rank": 2,
+      "euler_rank": 1,
+      "full_unit_rank": 3,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 3,
+      "k": 4,
+      "polynomial_degree": 6,
+      "square_rank": 3,
+      "euler_rank": 1,
+      "full_unit_rank": 4,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 3,
+      "k": 4,
+      "polynomial_degree": 8,
+      "square_rank": 3,
+      "euler_rank": 2,
+      "full_unit_rank": 4,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            2,
+            2
+          ],
+          "euler_preimage": [
+            1,
+            1
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 1
+    },
+    {
+      "a": 3,
+      "k": 4,
+      "polynomial_degree": 10,
+      "square_rank": 2,
+      "euler_rank": 1,
+      "full_unit_rank": 2,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            3,
+            2
+          ],
+          "euler_preimage": [
+            2,
+            1
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 1
+    },
+    {
+      "a": 3,
+      "k": 4,
+      "polynomial_degree": 12,
+      "square_rank": 1,
+      "euler_rank": 1,
+      "full_unit_rank": 1,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            3,
+            3
+          ],
+          "euler_preimage": [
+            2,
+            2
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 1
+    },
+    {
+      "a": 3,
+      "k": 6,
+      "polynomial_degree": 0,
+      "square_rank": 1,
+      "euler_rank": 0,
+      "full_unit_rank": 1,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 3,
+      "k": 6,
+      "polynomial_degree": 2,
+      "square_rank": 1,
+      "euler_rank": 0,
+      "full_unit_rank": 1,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 3,
+      "k": 6,
+      "polynomial_degree": 4,
+      "square_rank": 2,
+      "euler_rank": 0,
+      "full_unit_rank": 2,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 3,
+      "k": 6,
+      "polynomial_degree": 6,
+      "square_rank": 3,
+      "euler_rank": 1,
+      "full_unit_rank": 4,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 3,
+      "k": 6,
+      "polynomial_degree": 8,
+      "square_rank": 4,
+      "euler_rank": 1,
+      "full_unit_rank": 5,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 3,
+      "k": 6,
+      "polynomial_degree": 10,
+      "square_rank": 4,
+      "euler_rank": 2,
+      "full_unit_rank": 6,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 3,
+      "k": 6,
+      "polynomial_degree": 12,
+      "square_rank": 5,
+      "euler_rank": 2,
+      "full_unit_rank": 6,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            2,
+            2,
+            2
+          ],
+          "euler_preimage": [
+            1,
+            1,
+            1
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 1
+    },
+    {
+      "a": 3,
+      "k": 6,
+      "polynomial_degree": 14,
+      "square_rank": 3,
+      "euler_rank": 2,
+      "full_unit_rank": 4,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            3,
+            2,
+            2
+          ],
+          "euler_preimage": [
+            2,
+            1,
+            1
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 1
+    },
+    {
+      "a": 3,
+      "k": 6,
+      "polynomial_degree": 16,
+      "square_rank": 2,
+      "euler_rank": 1,
+      "full_unit_rank": 2,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            3,
+            3,
+            2
+          ],
+          "euler_preimage": [
+            2,
+            2,
+            1
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 1
+    },
+    {
+      "a": 3,
+      "k": 6,
+      "polynomial_degree": 18,
+      "square_rank": 1,
+      "euler_rank": 1,
+      "full_unit_rank": 1,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            3,
+            3,
+            3
+          ],
+          "euler_preimage": [
+            2,
+            2,
+            2
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 1
+    },
+    {
+      "a": 4,
+      "k": 2,
+      "polynomial_degree": 0,
+      "square_rank": 1,
+      "euler_rank": 0,
+      "full_unit_rank": 1,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 4,
+      "k": 2,
+      "polynomial_degree": 2,
+      "square_rank": 1,
+      "euler_rank": 1,
+      "full_unit_rank": 2,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 4,
+      "k": 2,
+      "polynomial_degree": 4,
+      "square_rank": 2,
+      "euler_rank": 1,
+      "full_unit_rank": 3,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 4,
+      "k": 2,
+      "polynomial_degree": 6,
+      "square_rank": 1,
+      "euler_rank": 2,
+      "full_unit_rank": 2,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            3
+          ],
+          "euler_preimage": [
+            2
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 1
+    },
+    {
+      "a": 4,
+      "k": 2,
+      "polynomial_degree": 8,
+      "square_rank": 1,
+      "euler_rank": 1,
+      "full_unit_rank": 1,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            4
+          ],
+          "euler_preimage": [
+            3
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 1
+    },
+    {
+      "a": 4,
+      "k": 4,
+      "polynomial_degree": 0,
+      "square_rank": 1,
+      "euler_rank": 0,
+      "full_unit_rank": 1,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 4,
+      "k": 4,
+      "polynomial_degree": 2,
+      "square_rank": 1,
+      "euler_rank": 0,
+      "full_unit_rank": 1,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 4,
+      "k": 4,
+      "polynomial_degree": 4,
+      "square_rank": 2,
+      "euler_rank": 1,
+      "full_unit_rank": 3,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 4,
+      "k": 4,
+      "polynomial_degree": 6,
+      "square_rank": 3,
+      "euler_rank": 1,
+      "full_unit_rank": 4,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 4,
+      "k": 4,
+      "polynomial_degree": 8,
+      "square_rank": 4,
+      "euler_rank": 2,
+      "full_unit_rank": 6,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 4,
+      "k": 4,
+      "polynomial_degree": 10,
+      "square_rank": 3,
+      "euler_rank": 3,
+      "full_unit_rank": 6,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 4,
+      "k": 4,
+      "polynomial_degree": 12,
+      "square_rank": 3,
+      "euler_rank": 3,
+      "full_unit_rank": 5,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            3,
+            3
+          ],
+          "euler_preimage": [
+            2,
+            2
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 1
+    },
+    {
+      "a": 4,
+      "k": 4,
+      "polynomial_degree": 14,
+      "square_rank": 1,
+      "euler_rank": 2,
+      "full_unit_rank": 2,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            4,
+            3
+          ],
+          "euler_preimage": [
+            3,
+            2
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 1
+    },
+    {
+      "a": 4,
+      "k": 4,
+      "polynomial_degree": 16,
+      "square_rank": 1,
+      "euler_rank": 1,
+      "full_unit_rank": 1,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            4,
+            4
+          ],
+          "euler_preimage": [
+            3,
+            3
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 1
+    },
+    {
+      "a": 4,
+      "k": 6,
+      "polynomial_degree": 0,
+      "square_rank": 1,
+      "euler_rank": 0,
+      "full_unit_rank": 1,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 4,
+      "k": 6,
+      "polynomial_degree": 2,
+      "square_rank": 1,
+      "euler_rank": 0,
+      "full_unit_rank": 1,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 4,
+      "k": 6,
+      "polynomial_degree": 4,
+      "square_rank": 2,
+      "euler_rank": 0,
+      "full_unit_rank": 2,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 4,
+      "k": 6,
+      "polynomial_degree": 6,
+      "square_rank": 3,
+      "euler_rank": 1,
+      "full_unit_rank": 4,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 4,
+      "k": 6,
+      "polynomial_degree": 8,
+      "square_rank": 5,
+      "euler_rank": 1,
+      "full_unit_rank": 6,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 4,
+      "k": 6,
+      "polynomial_degree": 10,
+      "square_rank": 5,
+      "euler_rank": 2,
+      "full_unit_rank": 7,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 4,
+      "k": 6,
+      "polynomial_degree": 12,
+      "square_rank": 7,
+      "euler_rank": 3,
+      "full_unit_rank": 10,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 4,
+      "k": 6,
+      "polynomial_degree": 14,
+      "square_rank": 6,
+      "euler_rank": 4,
+      "full_unit_rank": 10,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 4,
+      "k": 6,
+      "polynomial_degree": 16,
+      "square_rank": 6,
+      "euler_rank": 4,
+      "full_unit_rank": 10,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 4,
+      "k": 6,
+      "polynomial_degree": 18,
+      "square_rank": 4,
+      "euler_rank": 5,
+      "full_unit_rank": 8,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            3,
+            3,
+            3
+          ],
+          "euler_preimage": [
+            2,
+            2,
+            2
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 1
+    },
+    {
+      "a": 4,
+      "k": 6,
+      "polynomial_degree": 20,
+      "square_rank": 3,
+      "euler_rank": 3,
+      "full_unit_rank": 5,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            4,
+            3,
+            3
+          ],
+          "euler_preimage": [
+            3,
+            2,
+            2
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 1
+    },
+    {
+      "a": 4,
+      "k": 6,
+      "polynomial_degree": 22,
+      "square_rank": 1,
+      "euler_rank": 2,
+      "full_unit_rank": 2,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            4,
+            4,
+            3
+          ],
+          "euler_preimage": [
+            3,
+            3,
+            2
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 1
+    },
+    {
+      "a": 4,
+      "k": 6,
+      "polynomial_degree": 24,
+      "square_rank": 1,
+      "euler_rank": 1,
+      "full_unit_rank": 1,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            4,
+            4,
+            4
+          ],
+          "euler_preimage": [
+            3,
+            3,
+            3
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 1
+    },
+    {
+      "a": 5,
+      "k": 2,
+      "polynomial_degree": 0,
+      "square_rank": 1,
+      "euler_rank": 0,
+      "full_unit_rank": 1,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 5,
+      "k": 2,
+      "polynomial_degree": 2,
+      "square_rank": 1,
+      "euler_rank": 1,
+      "full_unit_rank": 2,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 5,
+      "k": 2,
+      "polynomial_degree": 4,
+      "square_rank": 2,
+      "euler_rank": 1,
+      "full_unit_rank": 3,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 5,
+      "k": 2,
+      "polynomial_degree": 6,
+      "square_rank": 2,
+      "euler_rank": 2,
+      "full_unit_rank": 3,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            3
+          ],
+          "euler_preimage": [
+            2
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 1
+    },
+    {
+      "a": 5,
+      "k": 2,
+      "polynomial_degree": 8,
+      "square_rank": 2,
+      "euler_rank": 1,
+      "full_unit_rank": 2,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            4
+          ],
+          "euler_preimage": [
+            3
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 1
+    },
+    {
+      "a": 5,
+      "k": 2,
+      "polynomial_degree": 10,
+      "square_rank": 1,
+      "euler_rank": 1,
+      "full_unit_rank": 1,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            5
+          ],
+          "euler_preimage": [
+            4
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 1
+    },
+    {
+      "a": 5,
+      "k": 4,
+      "polynomial_degree": 0,
+      "square_rank": 1,
+      "euler_rank": 0,
+      "full_unit_rank": 1,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 5,
+      "k": 4,
+      "polynomial_degree": 2,
+      "square_rank": 1,
+      "euler_rank": 0,
+      "full_unit_rank": 1,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 5,
+      "k": 4,
+      "polynomial_degree": 4,
+      "square_rank": 2,
+      "euler_rank": 1,
+      "full_unit_rank": 3,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 5,
+      "k": 4,
+      "polynomial_degree": 6,
+      "square_rank": 3,
+      "euler_rank": 1,
+      "full_unit_rank": 4,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 5,
+      "k": 4,
+      "polynomial_degree": 8,
+      "square_rank": 5,
+      "euler_rank": 2,
+      "full_unit_rank": 7,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 5,
+      "k": 4,
+      "polynomial_degree": 10,
+      "square_rank": 5,
+      "euler_rank": 3,
+      "full_unit_rank": 8,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 5,
+      "k": 4,
+      "polynomial_degree": 12,
+      "square_rank": 6,
+      "euler_rank": 4,
+      "full_unit_rank": 9,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            3,
+            3
+          ],
+          "euler_preimage": [
+            2,
+            2
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 1
+    },
+    {
+      "a": 5,
+      "k": 4,
+      "polynomial_degree": 14,
+      "square_rank": 5,
+      "euler_rank": 3,
+      "full_unit_rank": 7,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            4,
+            3
+          ],
+          "euler_preimage": [
+            3,
+            2
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 1
+    },
+    {
+      "a": 5,
+      "k": 4,
+      "polynomial_degree": 16,
+      "square_rank": 4,
+      "euler_rank": 3,
+      "full_unit_rank": 5,
+      "intersection_rank": 2,
+      "gaussian_intersection_rank": 2,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            5,
+            3
+          ],
+          "euler_preimage": [
+            4,
+            2
+          ],
+          "exact_identity_matches": true
+        },
+        {
+          "mu": [
+            4,
+            4
+          ],
+          "euler_preimage": [
+            3,
+            3
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 2
+    },
+    {
+      "a": 5,
+      "k": 4,
+      "polynomial_degree": 18,
+      "square_rank": 2,
+      "euler_rank": 1,
+      "full_unit_rank": 2,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            5,
+            4
+          ],
+          "euler_preimage": [
+            4,
+            3
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 1
+    },
+    {
+      "a": 5,
+      "k": 4,
+      "polynomial_degree": 20,
+      "square_rank": 1,
+      "euler_rank": 1,
+      "full_unit_rank": 1,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            5,
+            5
+          ],
+          "euler_preimage": [
+            4,
+            4
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 1
+    },
+    {
+      "a": 5,
+      "k": 6,
+      "polynomial_degree": 0,
+      "square_rank": 1,
+      "euler_rank": 0,
+      "full_unit_rank": 1,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 5,
+      "k": 6,
+      "polynomial_degree": 2,
+      "square_rank": 1,
+      "euler_rank": 0,
+      "full_unit_rank": 1,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 5,
+      "k": 6,
+      "polynomial_degree": 4,
+      "square_rank": 2,
+      "euler_rank": 0,
+      "full_unit_rank": 2,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 5,
+      "k": 6,
+      "polynomial_degree": 6,
+      "square_rank": 3,
+      "euler_rank": 1,
+      "full_unit_rank": 4,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 5,
+      "k": 6,
+      "polynomial_degree": 8,
+      "square_rank": 5,
+      "euler_rank": 1,
+      "full_unit_rank": 6,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 5,
+      "k": 6,
+      "polynomial_degree": 10,
+      "square_rank": 7,
+      "euler_rank": 2,
+      "full_unit_rank": 9,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 5,
+      "k": 6,
+      "polynomial_degree": 12,
+      "square_rank": 9,
+      "euler_rank": 3,
+      "full_unit_rank": 12,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 5,
+      "k": 6,
+      "polynomial_degree": 14,
+      "square_rank": 10,
+      "euler_rank": 5,
+      "full_unit_rank": 15,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 5,
+      "k": 6,
+      "polynomial_degree": 16,
+      "square_rank": 12,
+      "euler_rank": 5,
+      "full_unit_rank": 17,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 5,
+      "k": 6,
+      "polynomial_degree": 18,
+      "square_rank": 12,
+      "euler_rank": 7,
+      "full_unit_rank": 18,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            3,
+            3,
+            3
+          ],
+          "euler_preimage": [
+            2,
+            2,
+            2
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 1
+    },
+    {
+      "a": 5,
+      "k": 6,
+      "polynomial_degree": 20,
+      "square_rank": 11,
+      "euler_rank": 6,
+      "full_unit_rank": 16,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            4,
+            3,
+            3
+          ],
+          "euler_preimage": [
+            3,
+            2,
+            2
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 1
+    },
+    {
+      "a": 5,
+      "k": 6,
+      "polynomial_degree": 22,
+      "square_rank": 9,
+      "euler_rank": 6,
+      "full_unit_rank": 13,
+      "intersection_rank": 2,
+      "gaussian_intersection_rank": 2,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            5,
+            3,
+            3
+          ],
+          "euler_preimage": [
+            4,
+            2,
+            2
+          ],
+          "exact_identity_matches": true
+        },
+        {
+          "mu": [
+            4,
+            4,
+            3
+          ],
+          "euler_preimage": [
+            3,
+            3,
+            2
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 2
+    },
+    {
+      "a": 5,
+      "k": 6,
+      "polynomial_degree": 24,
+      "square_rank": 7,
+      "euler_rank": 4,
+      "full_unit_rank": 9,
+      "intersection_rank": 2,
+      "gaussian_intersection_rank": 2,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            5,
+            4,
+            3
+          ],
+          "euler_preimage": [
+            4,
+            3,
+            2
+          ],
+          "exact_identity_matches": true
+        },
+        {
+          "mu": [
+            4,
+            4,
+            4
+          ],
+          "euler_preimage": [
+            3,
+            3,
+            3
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 2
+    },
+    {
+      "a": 5,
+      "k": 6,
+      "polynomial_degree": 26,
+      "square_rank": 4,
+      "euler_rank": 3,
+      "full_unit_rank": 5,
+      "intersection_rank": 2,
+      "gaussian_intersection_rank": 2,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            5,
+            5,
+            3
+          ],
+          "euler_preimage": [
+            4,
+            4,
+            2
+          ],
+          "exact_identity_matches": true
+        },
+        {
+          "mu": [
+            5,
+            4,
+            4
+          ],
+          "euler_preimage": [
+            4,
+            3,
+            3
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 2
+    },
+    {
+      "a": 5,
+      "k": 6,
+      "polynomial_degree": 28,
+      "square_rank": 2,
+      "euler_rank": 1,
+      "full_unit_rank": 2,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            5,
+            5,
+            4
+          ],
+          "euler_preimage": [
+            4,
+            4,
+            3
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 1
+    },
+    {
+      "a": 5,
+      "k": 6,
+      "polynomial_degree": 30,
+      "square_rank": 1,
+      "euler_rank": 1,
+      "full_unit_rank": 1,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            5,
+            5,
+            5
+          ],
+          "euler_preimage": [
+            4,
+            4,
+            4
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 1
+    },
+    {
+      "a": 6,
+      "k": 2,
+      "polynomial_degree": 0,
+      "square_rank": 1,
+      "euler_rank": 0,
+      "full_unit_rank": 1,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 6,
+      "k": 2,
+      "polynomial_degree": 2,
+      "square_rank": 1,
+      "euler_rank": 1,
+      "full_unit_rank": 2,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 6,
+      "k": 2,
+      "polynomial_degree": 4,
+      "square_rank": 2,
+      "euler_rank": 1,
+      "full_unit_rank": 3,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 6,
+      "k": 2,
+      "polynomial_degree": 6,
+      "square_rank": 2,
+      "euler_rank": 2,
+      "full_unit_rank": 4,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 6,
+      "k": 2,
+      "polynomial_degree": 8,
+      "square_rank": 2,
+      "euler_rank": 2,
+      "full_unit_rank": 3,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            4
+          ],
+          "euler_preimage": [
+            3
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 1
+    },
+    {
+      "a": 6,
+      "k": 2,
+      "polynomial_degree": 10,
+      "square_rank": 1,
+      "euler_rank": 2,
+      "full_unit_rank": 2,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            5
+          ],
+          "euler_preimage": [
+            4
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 1
+    },
+    {
+      "a": 6,
+      "k": 2,
+      "polynomial_degree": 12,
+      "square_rank": 1,
+      "euler_rank": 1,
+      "full_unit_rank": 1,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            6
+          ],
+          "euler_preimage": [
+            5
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 1
+    },
+    {
+      "a": 6,
+      "k": 4,
+      "polynomial_degree": 0,
+      "square_rank": 1,
+      "euler_rank": 0,
+      "full_unit_rank": 1,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 6,
+      "k": 4,
+      "polynomial_degree": 2,
+      "square_rank": 1,
+      "euler_rank": 0,
+      "full_unit_rank": 1,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 6,
+      "k": 4,
+      "polynomial_degree": 4,
+      "square_rank": 2,
+      "euler_rank": 1,
+      "full_unit_rank": 3,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 6,
+      "k": 4,
+      "polynomial_degree": 6,
+      "square_rank": 3,
+      "euler_rank": 1,
+      "full_unit_rank": 4,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 6,
+      "k": 4,
+      "polynomial_degree": 8,
+      "square_rank": 5,
+      "euler_rank": 2,
+      "full_unit_rank": 7,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 6,
+      "k": 4,
+      "polynomial_degree": 10,
+      "square_rank": 5,
+      "euler_rank": 3,
+      "full_unit_rank": 8,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 6,
+      "k": 4,
+      "polynomial_degree": 12,
+      "square_rank": 7,
+      "euler_rank": 5,
+      "full_unit_rank": 12,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 6,
+      "k": 4,
+      "polynomial_degree": 14,
+      "square_rank": 6,
+      "euler_rank": 5,
+      "full_unit_rank": 11,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 6,
+      "k": 4,
+      "polynomial_degree": 16,
+      "square_rank": 6,
+      "euler_rank": 6,
+      "full_unit_rank": 11,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            4,
+            4
+          ],
+          "euler_preimage": [
+            3,
+            3
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 1
+    },
+    {
+      "a": 6,
+      "k": 4,
+      "polynomial_degree": 18,
+      "square_rank": 4,
+      "euler_rank": 5,
+      "full_unit_rank": 8,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            5,
+            4
+          ],
+          "euler_preimage": [
+            4,
+            3
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 1
+    },
+    {
+      "a": 6,
+      "k": 4,
+      "polynomial_degree": 20,
+      "square_rank": 3,
+      "euler_rank": 4,
+      "full_unit_rank": 5,
+      "intersection_rank": 2,
+      "gaussian_intersection_rank": 2,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            6,
+            4
+          ],
+          "euler_preimage": [
+            5,
+            3
+          ],
+          "exact_identity_matches": true
+        },
+        {
+          "mu": [
+            5,
+            5
+          ],
+          "euler_preimage": [
+            4,
+            4
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 2
+    },
+    {
+      "a": 6,
+      "k": 4,
+      "polynomial_degree": 22,
+      "square_rank": 1,
+      "euler_rank": 2,
+      "full_unit_rank": 2,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            6,
+            5
+          ],
+          "euler_preimage": [
+            5,
+            4
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 1
+    },
+    {
+      "a": 6,
+      "k": 4,
+      "polynomial_degree": 24,
+      "square_rank": 1,
+      "euler_rank": 1,
+      "full_unit_rank": 1,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            6,
+            6
+          ],
+          "euler_preimage": [
+            5,
+            5
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 1
+    },
+    {
+      "a": 6,
+      "k": 6,
+      "polynomial_degree": 0,
+      "square_rank": 1,
+      "euler_rank": 0,
+      "full_unit_rank": 1,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 6,
+      "k": 6,
+      "polynomial_degree": 2,
+      "square_rank": 1,
+      "euler_rank": 0,
+      "full_unit_rank": 1,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 6,
+      "k": 6,
+      "polynomial_degree": 4,
+      "square_rank": 2,
+      "euler_rank": 0,
+      "full_unit_rank": 2,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 6,
+      "k": 6,
+      "polynomial_degree": 6,
+      "square_rank": 3,
+      "euler_rank": 1,
+      "full_unit_rank": 4,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 6,
+      "k": 6,
+      "polynomial_degree": 8,
+      "square_rank": 5,
+      "euler_rank": 1,
+      "full_unit_rank": 6,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 6,
+      "k": 6,
+      "polynomial_degree": 10,
+      "square_rank": 7,
+      "euler_rank": 2,
+      "full_unit_rank": 9,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 6,
+      "k": 6,
+      "polynomial_degree": 12,
+      "square_rank": 10,
+      "euler_rank": 3,
+      "full_unit_rank": 13,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 6,
+      "k": 6,
+      "polynomial_degree": 14,
+      "square_rank": 11,
+      "euler_rank": 5,
+      "full_unit_rank": 16,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 6,
+      "k": 6,
+      "polynomial_degree": 16,
+      "square_rank": 14,
+      "euler_rank": 7,
+      "full_unit_rank": 21,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 6,
+      "k": 6,
+      "polynomial_degree": 18,
+      "square_rank": 15,
+      "euler_rank": 9,
+      "full_unit_rank": 24,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 6,
+      "k": 6,
+      "polynomial_degree": 20,
+      "square_rank": 16,
+      "euler_rank": 10,
+      "full_unit_rank": 26,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 6,
+      "k": 6,
+      "polynomial_degree": 22,
+      "square_rank": 14,
+      "euler_rank": 12,
+      "full_unit_rank": 26,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 6,
+      "k": 6,
+      "polynomial_degree": 24,
+      "square_rank": 14,
+      "euler_rank": 12,
+      "full_unit_rank": 25,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            4,
+            4,
+            4
+          ],
+          "euler_preimage": [
+            3,
+            3,
+            3
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 1
+    },
+    {
+      "a": 6,
+      "k": 6,
+      "polynomial_degree": 26,
+      "square_rank": 10,
+      "euler_rank": 11,
+      "full_unit_rank": 20,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            5,
+            4,
+            4
+          ],
+          "euler_preimage": [
+            4,
+            3,
+            3
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 1
+    },
+    {
+      "a": 6,
+      "k": 6,
+      "polynomial_degree": 28,
+      "square_rank": 8,
+      "euler_rank": 9,
+      "full_unit_rank": 15,
+      "intersection_rank": 2,
+      "gaussian_intersection_rank": 2,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            6,
+            4,
+            4
+          ],
+          "euler_preimage": [
+            5,
+            3,
+            3
+          ],
+          "exact_identity_matches": true
+        },
+        {
+          "mu": [
+            5,
+            5,
+            4
+          ],
+          "euler_preimage": [
+            4,
+            4,
+            3
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 2
+    },
+    {
+      "a": 6,
+      "k": 6,
+      "polynomial_degree": 30,
+      "square_rank": 5,
+      "euler_rank": 7,
+      "full_unit_rank": 10,
+      "intersection_rank": 2,
+      "gaussian_intersection_rank": 2,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            6,
+            5,
+            4
+          ],
+          "euler_preimage": [
+            5,
+            4,
+            3
+          ],
+          "exact_identity_matches": true
+        },
+        {
+          "mu": [
+            5,
+            5,
+            5
+          ],
+          "euler_preimage": [
+            4,
+            4,
+            4
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 2
+    },
+    {
+      "a": 6,
+      "k": 6,
+      "polynomial_degree": 32,
+      "square_rank": 3,
+      "euler_rank": 4,
+      "full_unit_rank": 5,
+      "intersection_rank": 2,
+      "gaussian_intersection_rank": 2,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            6,
+            6,
+            4
+          ],
+          "euler_preimage": [
+            5,
+            5,
+            3
+          ],
+          "exact_identity_matches": true
+        },
+        {
+          "mu": [
+            6,
+            5,
+            5
+          ],
+          "euler_preimage": [
+            5,
+            4,
+            4
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 2
+    },
+    {
+      "a": 6,
+      "k": 6,
+      "polynomial_degree": 34,
+      "square_rank": 1,
+      "euler_rank": 2,
+      "full_unit_rank": 2,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            6,
+            6,
+            5
+          ],
+          "euler_preimage": [
+            5,
+            5,
+            4
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 1
+    },
+    {
+      "a": 6,
+      "k": 6,
+      "polynomial_degree": 36,
+      "square_rank": 1,
+      "euler_rank": 1,
+      "full_unit_rank": 1,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            6,
+            6,
+            6
+          ],
+          "euler_preimage": [
+            5,
+            5,
+            5
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 1
+    },
+    {
+      "a": 7,
+      "k": 2,
+      "polynomial_degree": 0,
+      "square_rank": 1,
+      "euler_rank": 0,
+      "full_unit_rank": 1,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 7,
+      "k": 2,
+      "polynomial_degree": 2,
+      "square_rank": 1,
+      "euler_rank": 1,
+      "full_unit_rank": 2,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 7,
+      "k": 2,
+      "polynomial_degree": 4,
+      "square_rank": 2,
+      "euler_rank": 1,
+      "full_unit_rank": 3,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 7,
+      "k": 2,
+      "polynomial_degree": 6,
+      "square_rank": 2,
+      "euler_rank": 2,
+      "full_unit_rank": 4,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 7,
+      "k": 2,
+      "polynomial_degree": 8,
+      "square_rank": 3,
+      "euler_rank": 2,
+      "full_unit_rank": 4,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            4
+          ],
+          "euler_preimage": [
+            3
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 1
+    },
+    {
+      "a": 7,
+      "k": 2,
+      "polynomial_degree": 10,
+      "square_rank": 2,
+      "euler_rank": 2,
+      "full_unit_rank": 3,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            5
+          ],
+          "euler_preimage": [
+            4
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 1
+    },
+    {
+      "a": 7,
+      "k": 2,
+      "polynomial_degree": 12,
+      "square_rank": 2,
+      "euler_rank": 1,
+      "full_unit_rank": 2,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            6
+          ],
+          "euler_preimage": [
+            5
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 1
+    },
+    {
+      "a": 7,
+      "k": 2,
+      "polynomial_degree": 14,
+      "square_rank": 1,
+      "euler_rank": 1,
+      "full_unit_rank": 1,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            7
+          ],
+          "euler_preimage": [
+            6
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 1
+    },
+    {
+      "a": 7,
+      "k": 4,
+      "polynomial_degree": 0,
+      "square_rank": 1,
+      "euler_rank": 0,
+      "full_unit_rank": 1,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 7,
+      "k": 4,
+      "polynomial_degree": 2,
+      "square_rank": 1,
+      "euler_rank": 0,
+      "full_unit_rank": 1,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 7,
+      "k": 4,
+      "polynomial_degree": 4,
+      "square_rank": 2,
+      "euler_rank": 1,
+      "full_unit_rank": 3,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 7,
+      "k": 4,
+      "polynomial_degree": 6,
+      "square_rank": 3,
+      "euler_rank": 1,
+      "full_unit_rank": 4,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 7,
+      "k": 4,
+      "polynomial_degree": 8,
+      "square_rank": 5,
+      "euler_rank": 2,
+      "full_unit_rank": 7,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 7,
+      "k": 4,
+      "polynomial_degree": 10,
+      "square_rank": 6,
+      "euler_rank": 3,
+      "full_unit_rank": 9,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 7,
+      "k": 4,
+      "polynomial_degree": 12,
+      "square_rank": 8,
+      "euler_rank": 5,
+      "full_unit_rank": 13,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 7,
+      "k": 4,
+      "polynomial_degree": 14,
+      "square_rank": 9,
+      "euler_rank": 5,
+      "full_unit_rank": 14,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 7,
+      "k": 4,
+      "polynomial_degree": 16,
+      "square_rank": 10,
+      "euler_rank": 7,
+      "full_unit_rank": 16,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            4,
+            4
+          ],
+          "euler_preimage": [
+            3,
+            3
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 1
+    },
+    {
+      "a": 7,
+      "k": 4,
+      "polynomial_degree": 18,
+      "square_rank": 9,
+      "euler_rank": 6,
+      "full_unit_rank": 14,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            5,
+            4
+          ],
+          "euler_preimage": [
+            4,
+            3
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 1
+    },
+    {
+      "a": 7,
+      "k": 4,
+      "polynomial_degree": 20,
+      "square_rank": 8,
+      "euler_rank": 6,
+      "full_unit_rank": 12,
+      "intersection_rank": 2,
+      "gaussian_intersection_rank": 2,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            6,
+            4
+          ],
+          "euler_preimage": [
+            5,
+            3
+          ],
+          "exact_identity_matches": true
+        },
+        {
+          "mu": [
+            5,
+            5
+          ],
+          "euler_preimage": [
+            4,
+            4
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 2
+    },
+    {
+      "a": 7,
+      "k": 4,
+      "polynomial_degree": 22,
+      "square_rank": 6,
+      "euler_rank": 4,
+      "full_unit_rank": 8,
+      "intersection_rank": 2,
+      "gaussian_intersection_rank": 2,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            7,
+            4
+          ],
+          "euler_preimage": [
+            6,
+            3
+          ],
+          "exact_identity_matches": true
+        },
+        {
+          "mu": [
+            6,
+            5
+          ],
+          "euler_preimage": [
+            5,
+            4
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 2
+    },
+    {
+      "a": 7,
+      "k": 4,
+      "polynomial_degree": 24,
+      "square_rank": 4,
+      "euler_rank": 3,
+      "full_unit_rank": 5,
+      "intersection_rank": 2,
+      "gaussian_intersection_rank": 2,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            7,
+            5
+          ],
+          "euler_preimage": [
+            6,
+            4
+          ],
+          "exact_identity_matches": true
+        },
+        {
+          "mu": [
+            6,
+            6
+          ],
+          "euler_preimage": [
+            5,
+            5
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 2
+    },
+    {
+      "a": 7,
+      "k": 4,
+      "polynomial_degree": 26,
+      "square_rank": 2,
+      "euler_rank": 1,
+      "full_unit_rank": 2,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            7,
+            6
+          ],
+          "euler_preimage": [
+            6,
+            5
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 1
+    },
+    {
+      "a": 7,
+      "k": 4,
+      "polynomial_degree": 28,
+      "square_rank": 1,
+      "euler_rank": 1,
+      "full_unit_rank": 1,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            7,
+            7
+          ],
+          "euler_preimage": [
+            6,
+            6
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 1
+    },
+    {
+      "a": 7,
+      "k": 6,
+      "polynomial_degree": 0,
+      "square_rank": 1,
+      "euler_rank": 0,
+      "full_unit_rank": 1,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 7,
+      "k": 6,
+      "polynomial_degree": 2,
+      "square_rank": 1,
+      "euler_rank": 0,
+      "full_unit_rank": 1,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 7,
+      "k": 6,
+      "polynomial_degree": 4,
+      "square_rank": 2,
+      "euler_rank": 0,
+      "full_unit_rank": 2,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 7,
+      "k": 6,
+      "polynomial_degree": 6,
+      "square_rank": 3,
+      "euler_rank": 1,
+      "full_unit_rank": 4,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 7,
+      "k": 6,
+      "polynomial_degree": 8,
+      "square_rank": 5,
+      "euler_rank": 1,
+      "full_unit_rank": 6,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 7,
+      "k": 6,
+      "polynomial_degree": 10,
+      "square_rank": 7,
+      "euler_rank": 2,
+      "full_unit_rank": 9,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 7,
+      "k": 6,
+      "polynomial_degree": 12,
+      "square_rank": 11,
+      "euler_rank": 3,
+      "full_unit_rank": 14,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 7,
+      "k": 6,
+      "polynomial_degree": 14,
+      "square_rank": 13,
+      "euler_rank": 5,
+      "full_unit_rank": 18,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 7,
+      "k": 6,
+      "polynomial_degree": 16,
+      "square_rank": 17,
+      "euler_rank": 7,
+      "full_unit_rank": 24,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 7,
+      "k": 6,
+      "polynomial_degree": 18,
+      "square_rank": 20,
+      "euler_rank": 10,
+      "full_unit_rank": 30,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 7,
+      "k": 6,
+      "polynomial_degree": 20,
+      "square_rank": 24,
+      "euler_rank": 11,
+      "full_unit_rank": 35,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 7,
+      "k": 6,
+      "polynomial_degree": 22,
+      "square_rank": 25,
+      "euler_rank": 14,
+      "full_unit_rank": 39,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [],
+      "explicit_basis_rank": 0
+    },
+    {
+      "a": 7,
+      "k": 6,
+      "polynomial_degree": 24,
+      "square_rank": 27,
+      "euler_rank": 15,
+      "full_unit_rank": 41,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            4,
+            4,
+            4
+          ],
+          "euler_preimage": [
+            3,
+            3,
+            3
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 1
+    },
+    {
+      "a": 7,
+      "k": 6,
+      "polynomial_degree": 26,
+      "square_rank": 25,
+      "euler_rank": 16,
+      "full_unit_rank": 40,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            5,
+            4,
+            4
+          ],
+          "euler_preimage": [
+            4,
+            3,
+            3
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 1
+    },
+    {
+      "a": 7,
+      "k": 6,
+      "polynomial_degree": 28,
+      "square_rank": 24,
+      "euler_rank": 14,
+      "full_unit_rank": 36,
+      "intersection_rank": 2,
+      "gaussian_intersection_rank": 2,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            6,
+            4,
+            4
+          ],
+          "euler_preimage": [
+            5,
+            3,
+            3
+          ],
+          "exact_identity_matches": true
+        },
+        {
+          "mu": [
+            5,
+            5,
+            4
+          ],
+          "euler_preimage": [
+            4,
+            4,
+            3
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 2
+    },
+    {
+      "a": 7,
+      "k": 6,
+      "polynomial_degree": 30,
+      "square_rank": 20,
+      "euler_rank": 14,
+      "full_unit_rank": 31,
+      "intersection_rank": 3,
+      "gaussian_intersection_rank": 3,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            7,
+            4,
+            4
+          ],
+          "euler_preimage": [
+            6,
+            3,
+            3
+          ],
+          "exact_identity_matches": true
+        },
+        {
+          "mu": [
+            6,
+            5,
+            4
+          ],
+          "euler_preimage": [
+            5,
+            4,
+            3
+          ],
+          "exact_identity_matches": true
+        },
+        {
+          "mu": [
+            5,
+            5,
+            5
+          ],
+          "euler_preimage": [
+            4,
+            4,
+            4
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 3
+    },
+    {
+      "a": 7,
+      "k": 6,
+      "polynomial_degree": 32,
+      "square_rank": 16,
+      "euler_rank": 10,
+      "full_unit_rank": 23,
+      "intersection_rank": 3,
+      "gaussian_intersection_rank": 3,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            7,
+            5,
+            4
+          ],
+          "euler_preimage": [
+            6,
+            4,
+            3
+          ],
+          "exact_identity_matches": true
+        },
+        {
+          "mu": [
+            6,
+            6,
+            4
+          ],
+          "euler_preimage": [
+            5,
+            5,
+            3
+          ],
+          "exact_identity_matches": true
+        },
+        {
+          "mu": [
+            6,
+            5,
+            5
+          ],
+          "euler_preimage": [
+            5,
+            4,
+            4
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 3
+    },
+    {
+      "a": 7,
+      "k": 6,
+      "polynomial_degree": 34,
+      "square_rank": 11,
+      "euler_rank": 8,
+      "full_unit_rank": 16,
+      "intersection_rank": 3,
+      "gaussian_intersection_rank": 3,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            7,
+            6,
+            4
+          ],
+          "euler_preimage": [
+            6,
+            5,
+            3
+          ],
+          "exact_identity_matches": true
+        },
+        {
+          "mu": [
+            7,
+            5,
+            5
+          ],
+          "euler_preimage": [
+            6,
+            4,
+            4
+          ],
+          "exact_identity_matches": true
+        },
+        {
+          "mu": [
+            6,
+            6,
+            5
+          ],
+          "euler_preimage": [
+            5,
+            5,
+            4
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 3
+    },
+    {
+      "a": 7,
+      "k": 6,
+      "polynomial_degree": 36,
+      "square_rank": 8,
+      "euler_rank": 5,
+      "full_unit_rank": 10,
+      "intersection_rank": 3,
+      "gaussian_intersection_rank": 3,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            7,
+            7,
+            4
+          ],
+          "euler_preimage": [
+            6,
+            6,
+            3
+          ],
+          "exact_identity_matches": true
+        },
+        {
+          "mu": [
+            7,
+            6,
+            5
+          ],
+          "euler_preimage": [
+            6,
+            5,
+            4
+          ],
+          "exact_identity_matches": true
+        },
+        {
+          "mu": [
+            6,
+            6,
+            6
+          ],
+          "euler_preimage": [
+            5,
+            5,
+            5
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 3
+    },
+    {
+      "a": 7,
+      "k": 6,
+      "polynomial_degree": 38,
+      "square_rank": 4,
+      "euler_rank": 3,
+      "full_unit_rank": 5,
+      "intersection_rank": 2,
+      "gaussian_intersection_rank": 2,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            7,
+            7,
+            5
+          ],
+          "euler_preimage": [
+            6,
+            6,
+            4
+          ],
+          "exact_identity_matches": true
+        },
+        {
+          "mu": [
+            7,
+            6,
+            6
+          ],
+          "euler_preimage": [
+            6,
+            5,
+            5
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 2
+    },
+    {
+      "a": 7,
+      "k": 6,
+      "polynomial_degree": 40,
+      "square_rank": 2,
+      "euler_rank": 1,
+      "full_unit_rank": 2,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            7,
+            7,
+            6
+          ],
+          "euler_preimage": [
+            6,
+            6,
+            5
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 1
+    },
+    {
+      "a": 7,
+      "k": 6,
+      "polynomial_degree": 42,
+      "square_rank": 1,
+      "euler_rank": 1,
+      "full_unit_rank": 1,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "explicit_intersection_basis": [
+        {
+          "mu": [
+            7,
+            7,
+            7
+          ],
+          "euler_preimage": [
+            6,
+            6,
+            6
+          ],
+          "exact_identity_matches": true
+        }
+      ],
+      "explicit_basis_rank": 1
+    }
+  ],
+  "recorded_D_checks": [
+    {
+      "a": 2,
+      "k": 2,
+      "polynomial_degree": 0,
+      "square_rank": 1,
+      "euler_rank": 0,
+      "full_unit_rank": 1,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "n": 4,
+      "actual_full_unit_rank": 1,
+      "actual_square_unit_rank": 1,
+      "actual_euler_unit_rank": 0,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 2,
+      "k": 2,
+      "polynomial_degree": 2,
+      "square_rank": 1,
+      "euler_rank": 1,
+      "full_unit_rank": 2,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "n": 4,
+      "actual_full_unit_rank": 2,
+      "actual_square_unit_rank": 1,
+      "actual_euler_unit_rank": 1,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 2,
+      "k": 2,
+      "polynomial_degree": 4,
+      "square_rank": 1,
+      "euler_rank": 1,
+      "full_unit_rank": 1,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "n": 4,
+      "actual_full_unit_rank": 1,
+      "actual_square_unit_rank": 1,
+      "actual_euler_unit_rank": 1,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 2,
+      "k": 2,
+      "polynomial_degree": 6,
+      "square_rank": 0,
+      "euler_rank": 0,
+      "full_unit_rank": 0,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "n": 4,
+      "actual_full_unit_rank": 0,
+      "actual_square_unit_rank": 0,
+      "actual_euler_unit_rank": 0,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 2,
+      "k": 2,
+      "polynomial_degree": 8,
+      "square_rank": 0,
+      "euler_rank": 0,
+      "full_unit_rank": 0,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "n": 4,
+      "actual_full_unit_rank": 0,
+      "actual_square_unit_rank": 0,
+      "actual_euler_unit_rank": 0,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 1,
+      "k": 3,
+      "polynomial_degree": 0,
+      "square_rank": 1,
+      "euler_rank": 0,
+      "full_unit_rank": 1,
+      "intersection_rank": 0,
+      "n": 4,
+      "actual_full_unit_rank": 1,
+      "actual_square_unit_rank": 1,
+      "actual_euler_unit_rank": 0,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 1,
+      "k": 3,
+      "polynomial_degree": 2,
+      "square_rank": 1,
+      "euler_rank": 0,
+      "full_unit_rank": 1,
+      "intersection_rank": 0,
+      "n": 4,
+      "actual_full_unit_rank": 1,
+      "actual_square_unit_rank": 1,
+      "actual_euler_unit_rank": 0,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 1,
+      "k": 3,
+      "polynomial_degree": 3,
+      "square_rank": 0,
+      "euler_rank": 1,
+      "full_unit_rank": 1,
+      "intersection_rank": 0,
+      "n": 4,
+      "actual_full_unit_rank": 1,
+      "actual_square_unit_rank": 0,
+      "actual_euler_unit_rank": 1,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 1,
+      "k": 3,
+      "polynomial_degree": 4,
+      "square_rank": 0,
+      "euler_rank": 0,
+      "full_unit_rank": 0,
+      "intersection_rank": 0,
+      "n": 4,
+      "actual_full_unit_rank": 0,
+      "actual_square_unit_rank": 0,
+      "actual_euler_unit_rank": 0,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 1,
+      "k": 3,
+      "polynomial_degree": 5,
+      "square_rank": 0,
+      "euler_rank": 0,
+      "full_unit_rank": 0,
+      "intersection_rank": 0,
+      "n": 4,
+      "actual_full_unit_rank": 0,
+      "actual_square_unit_rank": 0,
+      "actual_euler_unit_rank": 0,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 1,
+      "k": 3,
+      "polynomial_degree": 6,
+      "square_rank": 0,
+      "euler_rank": 0,
+      "full_unit_rank": 0,
+      "intersection_rank": 0,
+      "n": 4,
+      "actual_full_unit_rank": 0,
+      "actual_square_unit_rank": 0,
+      "actual_euler_unit_rank": 0,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 3,
+      "k": 2,
+      "polynomial_degree": 0,
+      "square_rank": 1,
+      "euler_rank": 0,
+      "full_unit_rank": 1,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "n": 5,
+      "actual_full_unit_rank": 1,
+      "actual_square_unit_rank": 1,
+      "actual_euler_unit_rank": 0,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 3,
+      "k": 2,
+      "polynomial_degree": 2,
+      "square_rank": 1,
+      "euler_rank": 1,
+      "full_unit_rank": 2,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "n": 5,
+      "actual_full_unit_rank": 2,
+      "actual_square_unit_rank": 1,
+      "actual_euler_unit_rank": 1,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 3,
+      "k": 2,
+      "polynomial_degree": 4,
+      "square_rank": 2,
+      "euler_rank": 1,
+      "full_unit_rank": 2,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "n": 5,
+      "actual_full_unit_rank": 2,
+      "actual_square_unit_rank": 2,
+      "actual_euler_unit_rank": 1,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 3,
+      "k": 2,
+      "polynomial_degree": 6,
+      "square_rank": 1,
+      "euler_rank": 1,
+      "full_unit_rank": 1,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "n": 5,
+      "actual_full_unit_rank": 1,
+      "actual_square_unit_rank": 1,
+      "actual_euler_unit_rank": 1,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 3,
+      "k": 2,
+      "polynomial_degree": 8,
+      "square_rank": 0,
+      "euler_rank": 0,
+      "full_unit_rank": 0,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "n": 5,
+      "actual_full_unit_rank": 0,
+      "actual_square_unit_rank": 0,
+      "actual_euler_unit_rank": 0,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 3,
+      "k": 2,
+      "polynomial_degree": 10,
+      "square_rank": 0,
+      "euler_rank": 0,
+      "full_unit_rank": 0,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "n": 5,
+      "actual_full_unit_rank": 0,
+      "actual_square_unit_rank": 0,
+      "actual_euler_unit_rank": 0,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 3,
+      "k": 2,
+      "polynomial_degree": 12,
+      "square_rank": 0,
+      "euler_rank": 0,
+      "full_unit_rank": 0,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "n": 5,
+      "actual_full_unit_rank": 0,
+      "actual_square_unit_rank": 0,
+      "actual_euler_unit_rank": 0,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 2,
+      "k": 3,
+      "polynomial_degree": 0,
+      "square_rank": 1,
+      "euler_rank": 0,
+      "full_unit_rank": 1,
+      "intersection_rank": 0,
+      "n": 5,
+      "actual_full_unit_rank": 1,
+      "actual_square_unit_rank": 1,
+      "actual_euler_unit_rank": 0,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 2,
+      "k": 3,
+      "polynomial_degree": 2,
+      "square_rank": 1,
+      "euler_rank": 0,
+      "full_unit_rank": 1,
+      "intersection_rank": 0,
+      "n": 5,
+      "actual_full_unit_rank": 1,
+      "actual_square_unit_rank": 1,
+      "actual_euler_unit_rank": 0,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 2,
+      "k": 3,
+      "polynomial_degree": 3,
+      "square_rank": 0,
+      "euler_rank": 1,
+      "full_unit_rank": 1,
+      "intersection_rank": 0,
+      "n": 5,
+      "actual_full_unit_rank": 1,
+      "actual_square_unit_rank": 0,
+      "actual_euler_unit_rank": 1,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 2,
+      "k": 3,
+      "polynomial_degree": 4,
+      "square_rank": 2,
+      "euler_rank": 0,
+      "full_unit_rank": 2,
+      "intersection_rank": 0,
+      "n": 5,
+      "actual_full_unit_rank": 2,
+      "actual_square_unit_rank": 2,
+      "actual_euler_unit_rank": 0,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 2,
+      "k": 3,
+      "polynomial_degree": 5,
+      "square_rank": 0,
+      "euler_rank": 1,
+      "full_unit_rank": 1,
+      "intersection_rank": 0,
+      "n": 5,
+      "actual_full_unit_rank": 1,
+      "actual_square_unit_rank": 0,
+      "actual_euler_unit_rank": 1,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 2,
+      "k": 3,
+      "polynomial_degree": 6,
+      "square_rank": 1,
+      "euler_rank": 0,
+      "full_unit_rank": 1,
+      "intersection_rank": 0,
+      "n": 5,
+      "actual_full_unit_rank": 1,
+      "actual_square_unit_rank": 1,
+      "actual_euler_unit_rank": 0,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 2,
+      "k": 3,
+      "polynomial_degree": 7,
+      "square_rank": 0,
+      "euler_rank": 0,
+      "full_unit_rank": 0,
+      "intersection_rank": 0,
+      "n": 5,
+      "actual_full_unit_rank": 0,
+      "actual_square_unit_rank": 0,
+      "actual_euler_unit_rank": 0,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 2,
+      "k": 3,
+      "polynomial_degree": 8,
+      "square_rank": 0,
+      "euler_rank": 0,
+      "full_unit_rank": 0,
+      "intersection_rank": 0,
+      "n": 5,
+      "actual_full_unit_rank": 0,
+      "actual_square_unit_rank": 0,
+      "actual_euler_unit_rank": 0,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 2,
+      "k": 3,
+      "polynomial_degree": 9,
+      "square_rank": 0,
+      "euler_rank": 0,
+      "full_unit_rank": 0,
+      "intersection_rank": 0,
+      "n": 5,
+      "actual_full_unit_rank": 0,
+      "actual_square_unit_rank": 0,
+      "actual_euler_unit_rank": 0,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 2,
+      "k": 3,
+      "polynomial_degree": 10,
+      "square_rank": 0,
+      "euler_rank": 0,
+      "full_unit_rank": 0,
+      "intersection_rank": 0,
+      "n": 5,
+      "actual_full_unit_rank": 0,
+      "actual_square_unit_rank": 0,
+      "actual_euler_unit_rank": 0,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 2,
+      "k": 3,
+      "polynomial_degree": 11,
+      "square_rank": 0,
+      "euler_rank": 0,
+      "full_unit_rank": 0,
+      "intersection_rank": 0,
+      "n": 5,
+      "actual_full_unit_rank": 0,
+      "actual_square_unit_rank": 0,
+      "actual_euler_unit_rank": 0,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 2,
+      "k": 3,
+      "polynomial_degree": 12,
+      "square_rank": 0,
+      "euler_rank": 0,
+      "full_unit_rank": 0,
+      "intersection_rank": 0,
+      "n": 5,
+      "actual_full_unit_rank": 0,
+      "actual_square_unit_rank": 0,
+      "actual_euler_unit_rank": 0,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 1,
+      "k": 4,
+      "polynomial_degree": 0,
+      "square_rank": 1,
+      "euler_rank": 0,
+      "full_unit_rank": 1,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "n": 5,
+      "actual_full_unit_rank": 1,
+      "actual_square_unit_rank": 1,
+      "actual_euler_unit_rank": 0,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 1,
+      "k": 4,
+      "polynomial_degree": 2,
+      "square_rank": 1,
+      "euler_rank": 0,
+      "full_unit_rank": 1,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "n": 5,
+      "actual_full_unit_rank": 1,
+      "actual_square_unit_rank": 1,
+      "actual_euler_unit_rank": 0,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 1,
+      "k": 4,
+      "polynomial_degree": 4,
+      "square_rank": 1,
+      "euler_rank": 1,
+      "full_unit_rank": 1,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "n": 5,
+      "actual_full_unit_rank": 1,
+      "actual_square_unit_rank": 1,
+      "actual_euler_unit_rank": 1,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 1,
+      "k": 4,
+      "polynomial_degree": 6,
+      "square_rank": 0,
+      "euler_rank": 0,
+      "full_unit_rank": 0,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "n": 5,
+      "actual_full_unit_rank": 0,
+      "actual_square_unit_rank": 0,
+      "actual_euler_unit_rank": 0,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 1,
+      "k": 4,
+      "polynomial_degree": 8,
+      "square_rank": 0,
+      "euler_rank": 0,
+      "full_unit_rank": 0,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "n": 5,
+      "actual_full_unit_rank": 0,
+      "actual_square_unit_rank": 0,
+      "actual_euler_unit_rank": 0,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 4,
+      "k": 2,
+      "polynomial_degree": 0,
+      "square_rank": 1,
+      "euler_rank": 0,
+      "full_unit_rank": 1,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "n": 6,
+      "actual_full_unit_rank": 1,
+      "actual_square_unit_rank": 1,
+      "actual_euler_unit_rank": 0,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 4,
+      "k": 2,
+      "polynomial_degree": 2,
+      "square_rank": 1,
+      "euler_rank": 1,
+      "full_unit_rank": 2,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "n": 6,
+      "actual_full_unit_rank": 2,
+      "actual_square_unit_rank": 1,
+      "actual_euler_unit_rank": 1,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 4,
+      "k": 2,
+      "polynomial_degree": 4,
+      "square_rank": 2,
+      "euler_rank": 1,
+      "full_unit_rank": 3,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "n": 6,
+      "actual_full_unit_rank": 3,
+      "actual_square_unit_rank": 2,
+      "actual_euler_unit_rank": 1,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 4,
+      "k": 2,
+      "polynomial_degree": 6,
+      "square_rank": 1,
+      "euler_rank": 2,
+      "full_unit_rank": 2,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "n": 6,
+      "actual_full_unit_rank": 2,
+      "actual_square_unit_rank": 1,
+      "actual_euler_unit_rank": 2,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 4,
+      "k": 2,
+      "polynomial_degree": 8,
+      "square_rank": 1,
+      "euler_rank": 1,
+      "full_unit_rank": 1,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "n": 6,
+      "actual_full_unit_rank": 1,
+      "actual_square_unit_rank": 1,
+      "actual_euler_unit_rank": 1,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 4,
+      "k": 2,
+      "polynomial_degree": 10,
+      "square_rank": 0,
+      "euler_rank": 0,
+      "full_unit_rank": 0,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "n": 6,
+      "actual_full_unit_rank": 0,
+      "actual_square_unit_rank": 0,
+      "actual_euler_unit_rank": 0,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 4,
+      "k": 2,
+      "polynomial_degree": 12,
+      "square_rank": 0,
+      "euler_rank": 0,
+      "full_unit_rank": 0,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "n": 6,
+      "actual_full_unit_rank": 0,
+      "actual_square_unit_rank": 0,
+      "actual_euler_unit_rank": 0,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 3,
+      "k": 3,
+      "polynomial_degree": 0,
+      "square_rank": 1,
+      "euler_rank": 0,
+      "full_unit_rank": 1,
+      "intersection_rank": 0,
+      "n": 6,
+      "actual_full_unit_rank": 1,
+      "actual_square_unit_rank": 1,
+      "actual_euler_unit_rank": 0,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 3,
+      "k": 3,
+      "polynomial_degree": 2,
+      "square_rank": 1,
+      "euler_rank": 0,
+      "full_unit_rank": 1,
+      "intersection_rank": 0,
+      "n": 6,
+      "actual_full_unit_rank": 1,
+      "actual_square_unit_rank": 1,
+      "actual_euler_unit_rank": 0,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 3,
+      "k": 3,
+      "polynomial_degree": 3,
+      "square_rank": 0,
+      "euler_rank": 1,
+      "full_unit_rank": 1,
+      "intersection_rank": 0,
+      "n": 6,
+      "actual_full_unit_rank": 1,
+      "actual_square_unit_rank": 0,
+      "actual_euler_unit_rank": 1,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 3,
+      "k": 3,
+      "polynomial_degree": 4,
+      "square_rank": 2,
+      "euler_rank": 0,
+      "full_unit_rank": 2,
+      "intersection_rank": 0,
+      "n": 6,
+      "actual_full_unit_rank": 2,
+      "actual_square_unit_rank": 2,
+      "actual_euler_unit_rank": 0,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 3,
+      "k": 3,
+      "polynomial_degree": 5,
+      "square_rank": 0,
+      "euler_rank": 1,
+      "full_unit_rank": 1,
+      "intersection_rank": 0,
+      "n": 6,
+      "actual_full_unit_rank": 1,
+      "actual_square_unit_rank": 0,
+      "actual_euler_unit_rank": 1,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 3,
+      "k": 3,
+      "polynomial_degree": 6,
+      "square_rank": 2,
+      "euler_rank": 0,
+      "full_unit_rank": 2,
+      "intersection_rank": 0,
+      "n": 6,
+      "actual_full_unit_rank": 2,
+      "actual_square_unit_rank": 2,
+      "actual_euler_unit_rank": 0,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 3,
+      "k": 3,
+      "polynomial_degree": 7,
+      "square_rank": 0,
+      "euler_rank": 2,
+      "full_unit_rank": 2,
+      "intersection_rank": 0,
+      "n": 6,
+      "actual_full_unit_rank": 2,
+      "actual_square_unit_rank": 0,
+      "actual_euler_unit_rank": 2,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 3,
+      "k": 3,
+      "polynomial_degree": 8,
+      "square_rank": 1,
+      "euler_rank": 0,
+      "full_unit_rank": 1,
+      "intersection_rank": 0,
+      "n": 6,
+      "actual_full_unit_rank": 1,
+      "actual_square_unit_rank": 1,
+      "actual_euler_unit_rank": 0,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 3,
+      "k": 3,
+      "polynomial_degree": 9,
+      "square_rank": 0,
+      "euler_rank": 1,
+      "full_unit_rank": 1,
+      "intersection_rank": 0,
+      "n": 6,
+      "actual_full_unit_rank": 1,
+      "actual_square_unit_rank": 0,
+      "actual_euler_unit_rank": 1,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 3,
+      "k": 3,
+      "polynomial_degree": 10,
+      "square_rank": 0,
+      "euler_rank": 0,
+      "full_unit_rank": 0,
+      "intersection_rank": 0,
+      "n": 6,
+      "actual_full_unit_rank": 0,
+      "actual_square_unit_rank": 0,
+      "actual_euler_unit_rank": 0,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 3,
+      "k": 3,
+      "polynomial_degree": 11,
+      "square_rank": 0,
+      "euler_rank": 0,
+      "full_unit_rank": 0,
+      "intersection_rank": 0,
+      "n": 6,
+      "actual_full_unit_rank": 0,
+      "actual_square_unit_rank": 0,
+      "actual_euler_unit_rank": 0,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 3,
+      "k": 3,
+      "polynomial_degree": 12,
+      "square_rank": 0,
+      "euler_rank": 0,
+      "full_unit_rank": 0,
+      "intersection_rank": 0,
+      "n": 6,
+      "actual_full_unit_rank": 0,
+      "actual_square_unit_rank": 0,
+      "actual_euler_unit_rank": 0,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 2,
+      "k": 4,
+      "polynomial_degree": 0,
+      "square_rank": 1,
+      "euler_rank": 0,
+      "full_unit_rank": 1,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "n": 6,
+      "actual_full_unit_rank": 1,
+      "actual_square_unit_rank": 1,
+      "actual_euler_unit_rank": 0,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 2,
+      "k": 4,
+      "polynomial_degree": 2,
+      "square_rank": 1,
+      "euler_rank": 0,
+      "full_unit_rank": 1,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "n": 6,
+      "actual_full_unit_rank": 1,
+      "actual_square_unit_rank": 1,
+      "actual_euler_unit_rank": 0,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 2,
+      "k": 4,
+      "polynomial_degree": 4,
+      "square_rank": 2,
+      "euler_rank": 1,
+      "full_unit_rank": 3,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "n": 6,
+      "actual_full_unit_rank": 3,
+      "actual_square_unit_rank": 2,
+      "actual_euler_unit_rank": 1,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 2,
+      "k": 4,
+      "polynomial_degree": 6,
+      "square_rank": 1,
+      "euler_rank": 1,
+      "full_unit_rank": 2,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "n": 6,
+      "actual_full_unit_rank": 2,
+      "actual_square_unit_rank": 1,
+      "actual_euler_unit_rank": 1,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 2,
+      "k": 4,
+      "polynomial_degree": 8,
+      "square_rank": 1,
+      "euler_rank": 1,
+      "full_unit_rank": 1,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "n": 6,
+      "actual_full_unit_rank": 1,
+      "actual_square_unit_rank": 1,
+      "actual_euler_unit_rank": 1,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 2,
+      "k": 4,
+      "polynomial_degree": 10,
+      "square_rank": 0,
+      "euler_rank": 0,
+      "full_unit_rank": 0,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "n": 6,
+      "actual_full_unit_rank": 0,
+      "actual_square_unit_rank": 0,
+      "actual_euler_unit_rank": 0,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 2,
+      "k": 4,
+      "polynomial_degree": 12,
+      "square_rank": 0,
+      "euler_rank": 0,
+      "full_unit_rank": 0,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "n": 6,
+      "actual_full_unit_rank": 0,
+      "actual_square_unit_rank": 0,
+      "actual_euler_unit_rank": 0,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 1,
+      "k": 5,
+      "polynomial_degree": 0,
+      "square_rank": 1,
+      "euler_rank": 0,
+      "full_unit_rank": 1,
+      "intersection_rank": 0,
+      "n": 6,
+      "actual_full_unit_rank": 1,
+      "actual_square_unit_rank": 1,
+      "actual_euler_unit_rank": 0,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 1,
+      "k": 5,
+      "polynomial_degree": 2,
+      "square_rank": 1,
+      "euler_rank": 0,
+      "full_unit_rank": 1,
+      "intersection_rank": 0,
+      "n": 6,
+      "actual_full_unit_rank": 1,
+      "actual_square_unit_rank": 1,
+      "actual_euler_unit_rank": 0,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 1,
+      "k": 5,
+      "polynomial_degree": 4,
+      "square_rank": 1,
+      "euler_rank": 0,
+      "full_unit_rank": 1,
+      "intersection_rank": 0,
+      "n": 6,
+      "actual_full_unit_rank": 1,
+      "actual_square_unit_rank": 1,
+      "actual_euler_unit_rank": 0,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 1,
+      "k": 5,
+      "polynomial_degree": 5,
+      "square_rank": 0,
+      "euler_rank": 1,
+      "full_unit_rank": 1,
+      "intersection_rank": 0,
+      "n": 6,
+      "actual_full_unit_rank": 1,
+      "actual_square_unit_rank": 0,
+      "actual_euler_unit_rank": 1,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 1,
+      "k": 5,
+      "polynomial_degree": 6,
+      "square_rank": 0,
+      "euler_rank": 0,
+      "full_unit_rank": 0,
+      "intersection_rank": 0,
+      "n": 6,
+      "actual_full_unit_rank": 0,
+      "actual_square_unit_rank": 0,
+      "actual_euler_unit_rank": 0,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 1,
+      "k": 5,
+      "polynomial_degree": 7,
+      "square_rank": 0,
+      "euler_rank": 0,
+      "full_unit_rank": 0,
+      "intersection_rank": 0,
+      "n": 6,
+      "actual_full_unit_rank": 0,
+      "actual_square_unit_rank": 0,
+      "actual_euler_unit_rank": 0,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 1,
+      "k": 5,
+      "polynomial_degree": 8,
+      "square_rank": 0,
+      "euler_rank": 0,
+      "full_unit_rank": 0,
+      "intersection_rank": 0,
+      "n": 6,
+      "actual_full_unit_rank": 0,
+      "actual_square_unit_rank": 0,
+      "actual_euler_unit_rank": 0,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 1,
+      "k": 5,
+      "polynomial_degree": 9,
+      "square_rank": 0,
+      "euler_rank": 0,
+      "full_unit_rank": 0,
+      "intersection_rank": 0,
+      "n": 6,
+      "actual_full_unit_rank": 0,
+      "actual_square_unit_rank": 0,
+      "actual_euler_unit_rank": 0,
+      "all_unit_ranks_match": true
+    },
+    {
+      "a": 1,
+      "k": 5,
+      "polynomial_degree": 10,
+      "square_rank": 0,
+      "euler_rank": 0,
+      "full_unit_rank": 0,
+      "intersection_rank": 0,
+      "n": 6,
+      "actual_full_unit_rank": 0,
+      "actual_square_unit_rank": 0,
+      "actual_euler_unit_rank": 0,
+      "all_unit_ranks_match": true
+    }
+  ],
+  "fresh_D_checks": [
+    {
+      "a": 5,
+      "k": 2,
+      "polynomial_degree": 6,
+      "square_rank": 2,
+      "euler_rank": 2,
+      "full_unit_rank": 3,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "status": "computed",
+      "n": 7,
+      "plus_exponents": [
+        0,
+        0
+      ],
+      "minus_exponents": [
+        0,
+        0
+      ],
+      "actual_combined_exponents": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "predicted_combined_exponents": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "matches": true,
+      "gluing_dimension": 1,
+      "gluing_index": "2",
+      "mixed_flag_pairs": [
+        {
+          "plus_exponent": 0,
+          "minus_exponent": 0,
+          "multiplicity": 1
+        }
+      ],
+      "flag_intersection_dimensions": [
+        {
+          "i": 0,
+          "j": 0,
+          "dimension": 1
+        }
+      ],
+      "all_unit_ranks_match": true,
+      "unit_only_gluing_observed": true,
+      "gaussian_matches_full_gluing_dimension": true,
+      "seconds": 0.313699
+    },
+    {
+      "a": 5,
+      "k": 2,
+      "polynomial_degree": 8,
+      "square_rank": 2,
+      "euler_rank": 1,
+      "full_unit_rank": 2,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "status": "computed",
+      "n": 7,
+      "plus_exponents": [
+        0,
+        0,
+        1
+      ],
+      "minus_exponents": [
+        0,
+        1
+      ],
+      "actual_combined_exponents": [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "predicted_combined_exponents": [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "matches": true,
+      "gluing_dimension": 1,
+      "gluing_index": "2",
+      "mixed_flag_pairs": [
+        {
+          "plus_exponent": 0,
+          "minus_exponent": 0,
+          "multiplicity": 1
+        }
+      ],
+      "flag_intersection_dimensions": [
+        {
+          "i": 0,
+          "j": 0,
+          "dimension": 1
+        },
+        {
+          "i": 0,
+          "j": 1,
+          "dimension": 1
+        },
+        {
+          "i": 1,
+          "j": 0,
+          "dimension": 1
+        },
+        {
+          "i": 1,
+          "j": 1,
+          "dimension": 1
+        }
+      ],
+      "all_unit_ranks_match": true,
+      "unit_only_gluing_observed": true,
+      "gaussian_matches_full_gluing_dimension": true,
+      "seconds": 0.905697
+    },
+    {
+      "a": 5,
+      "k": 2,
+      "polynomial_degree": 10,
+      "square_rank": 1,
+      "euler_rank": 1,
+      "full_unit_rank": 1,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "status": "computed",
+      "n": 7,
+      "plus_exponents": [
+        0,
+        1,
+        1
+      ],
+      "minus_exponents": [
+        0,
+        1,
+        1
+      ],
+      "actual_combined_exponents": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "predicted_combined_exponents": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "matches": true,
+      "gluing_dimension": 1,
+      "gluing_index": "2",
+      "mixed_flag_pairs": [
+        {
+          "plus_exponent": 0,
+          "minus_exponent": 0,
+          "multiplicity": 1
+        }
+      ],
+      "flag_intersection_dimensions": [
+        {
+          "i": 0,
+          "j": 0,
+          "dimension": 1
+        },
+        {
+          "i": 0,
+          "j": 1,
+          "dimension": 1
+        },
+        {
+          "i": 1,
+          "j": 0,
+          "dimension": 1
+        },
+        {
+          "i": 1,
+          "j": 1,
+          "dimension": 1
+        }
+      ],
+      "all_unit_ranks_match": true,
+      "unit_only_gluing_observed": true,
+      "gaussian_matches_full_gluing_dimension": true,
+      "seconds": 1.640478
+    },
+    {
+      "a": 5,
+      "k": 2,
+      "polynomial_degree": 12,
+      "square_rank": 0,
+      "euler_rank": 0,
+      "full_unit_rank": 0,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "status": "computed",
+      "n": 7,
+      "plus_exponents": [
+        1,
+        1,
+        1
+      ],
+      "minus_exponents": [
+        1,
+        1
+      ],
+      "actual_combined_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "predicted_combined_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "matches": true,
+      "gluing_dimension": 0,
+      "gluing_index": "1",
+      "mixed_flag_pairs": [],
+      "flag_intersection_dimensions": [
+        {
+          "i": 0,
+          "j": 0,
+          "dimension": 0
+        },
+        {
+          "i": 0,
+          "j": 1,
+          "dimension": 0
+        },
+        {
+          "i": 1,
+          "j": 0,
+          "dimension": 0
+        },
+        {
+          "i": 1,
+          "j": 1,
+          "dimension": 0
+        }
+      ],
+      "all_unit_ranks_match": true,
+      "unit_only_gluing_observed": true,
+      "gaussian_matches_full_gluing_dimension": true,
+      "seconds": 3.672179
+    },
+    {
+      "a": 5,
+      "k": 2,
+      "polynomial_degree": 14,
+      "square_rank": 0,
+      "euler_rank": 0,
+      "full_unit_rank": 0,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "status": "computed",
+      "n": 7,
+      "plus_exponents": [
+        1,
+        1
+      ],
+      "minus_exponents": [
+        1,
+        2
+      ],
+      "actual_combined_exponents": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "predicted_combined_exponents": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "matches": true,
+      "gluing_dimension": 0,
+      "gluing_index": "1",
+      "mixed_flag_pairs": [],
+      "flag_intersection_dimensions": [
+        {
+          "i": 0,
+          "j": 0,
+          "dimension": 0
+        },
+        {
+          "i": 0,
+          "j": 1,
+          "dimension": 0
+        },
+        {
+          "i": 0,
+          "j": 2,
+          "dimension": 0
+        },
+        {
+          "i": 1,
+          "j": 0,
+          "dimension": 0
+        },
+        {
+          "i": 1,
+          "j": 1,
+          "dimension": 0
+        },
+        {
+          "i": 1,
+          "j": 2,
+          "dimension": 0
+        }
+      ],
+      "all_unit_ranks_match": true,
+      "unit_only_gluing_observed": true,
+      "gaussian_matches_full_gluing_dimension": true,
+      "seconds": 7.12159
+    },
+    {
+      "a": 5,
+      "k": 2,
+      "polynomial_degree": 16,
+      "square_rank": 0,
+      "euler_rank": 0,
+      "full_unit_rank": 0,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "status": "computed",
+      "n": 7,
+      "plus_exponents": [
+        1,
+        2
+      ],
+      "minus_exponents": [
+        2
+      ],
+      "actual_combined_exponents": [
+        1,
+        2,
+        2
+      ],
+      "predicted_combined_exponents": [
+        1,
+        2,
+        2
+      ],
+      "matches": true,
+      "gluing_dimension": 0,
+      "gluing_index": "1",
+      "mixed_flag_pairs": [],
+      "flag_intersection_dimensions": [
+        {
+          "i": 0,
+          "j": 0,
+          "dimension": 0
+        },
+        {
+          "i": 0,
+          "j": 1,
+          "dimension": 0
+        },
+        {
+          "i": 0,
+          "j": 2,
+          "dimension": 0
+        },
+        {
+          "i": 1,
+          "j": 0,
+          "dimension": 0
+        },
+        {
+          "i": 1,
+          "j": 1,
+          "dimension": 0
+        },
+        {
+          "i": 1,
+          "j": 2,
+          "dimension": 0
+        },
+        {
+          "i": 2,
+          "j": 0,
+          "dimension": 0
+        },
+        {
+          "i": 2,
+          "j": 1,
+          "dimension": 0
+        },
+        {
+          "i": 2,
+          "j": 2,
+          "dimension": 0
+        }
+      ],
+      "all_unit_ranks_match": true,
+      "unit_only_gluing_observed": true,
+      "gaussian_matches_full_gluing_dimension": true,
+      "seconds": 36.394581
+    },
+    {
+      "a": 3,
+      "k": 4,
+      "polynomial_degree": 6,
+      "square_rank": 3,
+      "euler_rank": 1,
+      "full_unit_rank": 4,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "status": "computed",
+      "n": 7,
+      "plus_exponents": [
+        0,
+        0,
+        0
+      ],
+      "minus_exponents": [
+        0
+      ],
+      "actual_combined_exponents": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "predicted_combined_exponents": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "matches": true,
+      "gluing_dimension": 0,
+      "gluing_index": "1",
+      "mixed_flag_pairs": [],
+      "flag_intersection_dimensions": [
+        {
+          "i": 0,
+          "j": 0,
+          "dimension": 0
+        }
+      ],
+      "all_unit_ranks_match": true,
+      "unit_only_gluing_observed": true,
+      "gaussian_matches_full_gluing_dimension": true,
+      "seconds": 0.258588
+    },
+    {
+      "a": 3,
+      "k": 4,
+      "polynomial_degree": 8,
+      "square_rank": 3,
+      "euler_rank": 2,
+      "full_unit_rank": 4,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "status": "computed",
+      "n": 7,
+      "plus_exponents": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "minus_exponents": [
+        0,
+        0
+      ],
+      "actual_combined_exponents": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "predicted_combined_exponents": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "matches": true,
+      "gluing_dimension": 1,
+      "gluing_index": "2",
+      "mixed_flag_pairs": [
+        {
+          "plus_exponent": 0,
+          "minus_exponent": 0,
+          "multiplicity": 1
+        }
+      ],
+      "flag_intersection_dimensions": [
+        {
+          "i": 0,
+          "j": 0,
+          "dimension": 1
+        },
+        {
+          "i": 1,
+          "j": 0,
+          "dimension": 1
+        }
+      ],
+      "all_unit_ranks_match": true,
+      "unit_only_gluing_observed": true,
+      "gaussian_matches_full_gluing_dimension": true,
+      "seconds": 0.945893
+    },
+    {
+      "a": 3,
+      "k": 4,
+      "polynomial_degree": 10,
+      "square_rank": 2,
+      "euler_rank": 1,
+      "full_unit_rank": 2,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "status": "computed",
+      "n": 7,
+      "plus_exponents": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "minus_exponents": [
+        0,
+        1
+      ],
+      "actual_combined_exponents": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "predicted_combined_exponents": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "matches": true,
+      "gluing_dimension": 1,
+      "gluing_index": "2",
+      "mixed_flag_pairs": [
+        {
+          "plus_exponent": 0,
+          "minus_exponent": 0,
+          "multiplicity": 1
+        }
+      ],
+      "flag_intersection_dimensions": [
+        {
+          "i": 0,
+          "j": 0,
+          "dimension": 1
+        },
+        {
+          "i": 0,
+          "j": 1,
+          "dimension": 1
+        },
+        {
+          "i": 1,
+          "j": 0,
+          "dimension": 1
+        },
+        {
+          "i": 1,
+          "j": 1,
+          "dimension": 1
+        }
+      ],
+      "all_unit_ranks_match": true,
+      "unit_only_gluing_observed": true,
+      "gaussian_matches_full_gluing_dimension": true,
+      "seconds": 1.895685
+    },
+    {
+      "a": 3,
+      "k": 4,
+      "polynomial_degree": 12,
+      "square_rank": 1,
+      "euler_rank": 1,
+      "full_unit_rank": 1,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "status": "computed",
+      "n": 7,
+      "plus_exponents": [
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "minus_exponents": [
+        0,
+        1,
+        1
+      ],
+      "actual_combined_exponents": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "predicted_combined_exponents": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "matches": true,
+      "gluing_dimension": 1,
+      "gluing_index": "2",
+      "mixed_flag_pairs": [
+        {
+          "plus_exponent": 0,
+          "minus_exponent": 0,
+          "multiplicity": 1
+        }
+      ],
+      "flag_intersection_dimensions": [
+        {
+          "i": 0,
+          "j": 0,
+          "dimension": 1
+        },
+        {
+          "i": 0,
+          "j": 1,
+          "dimension": 1
+        },
+        {
+          "i": 1,
+          "j": 0,
+          "dimension": 1
+        },
+        {
+          "i": 1,
+          "j": 1,
+          "dimension": 1
+        }
+      ],
+      "all_unit_ranks_match": true,
+      "unit_only_gluing_observed": true,
+      "gaussian_matches_full_gluing_dimension": true,
+      "seconds": 5.971713
+    },
+    {
+      "a": 4,
+      "k": 4,
+      "polynomial_degree": 8,
+      "square_rank": 4,
+      "euler_rank": 2,
+      "full_unit_rank": 6,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "status": "computed",
+      "n": 8,
+      "plus_exponents": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "minus_exponents": [
+        0,
+        0
+      ],
+      "actual_combined_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "predicted_combined_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "matches": true,
+      "gluing_dimension": 0,
+      "gluing_index": "1",
+      "mixed_flag_pairs": [],
+      "flag_intersection_dimensions": [
+        {
+          "i": 0,
+          "j": 0,
+          "dimension": 0
+        },
+        {
+          "i": 1,
+          "j": 0,
+          "dimension": 0
+        }
+      ],
+      "all_unit_ranks_match": true,
+      "unit_only_gluing_observed": true,
+      "gaussian_matches_full_gluing_dimension": true,
+      "seconds": 1.308862
+    },
+    {
+      "a": 4,
+      "k": 4,
+      "polynomial_degree": 10,
+      "square_rank": 3,
+      "euler_rank": 3,
+      "full_unit_rank": 6,
+      "intersection_rank": 0,
+      "gaussian_intersection_rank": 0,
+      "gaussian_matches": true,
+      "status": "computed",
+      "n": 8,
+      "plus_exponents": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "minus_exponents": [
+        0,
+        0,
+        0
+      ],
+      "actual_combined_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "predicted_combined_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "matches": true,
+      "gluing_dimension": 0,
+      "gluing_index": "1",
+      "mixed_flag_pairs": [],
+      "flag_intersection_dimensions": [
+        {
+          "i": 0,
+          "j": 0,
+          "dimension": 0
+        },
+        {
+          "i": 1,
+          "j": 0,
+          "dimension": 0
+        }
+      ],
+      "all_unit_ranks_match": true,
+      "unit_only_gluing_observed": true,
+      "gaussian_matches_full_gluing_dimension": true,
+      "seconds": 3.164904
+    },
+    {
+      "a": 4,
+      "k": 4,
+      "polynomial_degree": 12,
+      "square_rank": 3,
+      "euler_rank": 3,
+      "full_unit_rank": 5,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "status": "computed",
+      "n": 8,
+      "plus_exponents": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "minus_exponents": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "actual_combined_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "predicted_combined_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "matches": true,
+      "gluing_dimension": 1,
+      "gluing_index": "2",
+      "mixed_flag_pairs": [
+        {
+          "plus_exponent": 0,
+          "minus_exponent": 0,
+          "multiplicity": 1
+        }
+      ],
+      "flag_intersection_dimensions": [
+        {
+          "i": 0,
+          "j": 0,
+          "dimension": 1
+        },
+        {
+          "i": 0,
+          "j": 1,
+          "dimension": 1
+        },
+        {
+          "i": 1,
+          "j": 0,
+          "dimension": 1
+        },
+        {
+          "i": 1,
+          "j": 1,
+          "dimension": 1
+        }
+      ],
+      "all_unit_ranks_match": true,
+      "unit_only_gluing_observed": true,
+      "gaussian_matches_full_gluing_dimension": true,
+      "seconds": 11.595918
+    },
+    {
+      "a": 5,
+      "k": 4,
+      "polynomial_degree": 12,
+      "square_rank": 6,
+      "euler_rank": 4,
+      "full_unit_rank": 9,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "status": "computed",
+      "n": 9,
+      "plus_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "minus_exponents": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "actual_combined_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "predicted_combined_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "matches": true,
+      "gluing_dimension": 1,
+      "gluing_index": "2",
+      "mixed_flag_pairs": [
+        {
+          "plus_exponent": 0,
+          "minus_exponent": 0,
+          "multiplicity": 1
+        }
+      ],
+      "flag_intersection_dimensions": [
+        {
+          "i": 0,
+          "j": 0,
+          "dimension": 1
+        },
+        {
+          "i": 0,
+          "j": 1,
+          "dimension": 1
+        },
+        {
+          "i": 1,
+          "j": 0,
+          "dimension": 1
+        },
+        {
+          "i": 1,
+          "j": 1,
+          "dimension": 1
+        }
+      ],
+      "all_unit_ranks_match": true,
+      "unit_only_gluing_observed": true,
+      "gaussian_matches_full_gluing_dimension": true,
+      "seconds": 16.486957
+    },
+    {
+      "a": 5,
+      "k": 4,
+      "polynomial_degree": 14,
+      "square_rank": 5,
+      "euler_rank": 3,
+      "full_unit_rank": 7,
+      "intersection_rank": 1,
+      "gaussian_intersection_rank": 1,
+      "gaussian_matches": true,
+      "n": 9,
+      "status": "timeout",
+      "seconds_per_degree": 45,
+      "seconds": 45.080457
+    },
+    {
+      "a": 5,
+      "k": 4,
+      "polynomial_degree": 16,
+      "square_rank": 4,
+      "euler_rank": 3,
+      "full_unit_rank": 5,
+      "intersection_rank": 2,
+      "gaussian_intersection_rank": 2,
+      "gaussian_matches": true,
+      "n": 9,
+      "status": "timeout",
+      "seconds_per_degree": 45,
+      "seconds": 45.814281
+    }
+  ],
+  "seconds": 208.917318,
+  "summary": {
+    "grassmannian_degree_checks": 189,
+    "explicit_schur_square_identities": 96,
+    "recorded_D_unit_rank_comparisons": 70,
+    "fresh_D_computed": 14,
+    "fresh_D_timeouts": 2,
+    "fresh_nonunit_gluing_observed": 0,
+    "all_assertions_passed": true
+  }
+}

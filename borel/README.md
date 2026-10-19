@@ -80,6 +80,17 @@ identifies published ingredients and checked repository arguments separately.
 The unit counting polynomial is classical Birkhoff/Hall theory; novelty of
 the Smith interpretations and other deductions has not been established.
 
+For type D, the [unit-layer proof](TYPE_D_FROBENIUS.md) now gives a
+closed formula for every normalized factor equal to one, including the
+exact Gaussian overlap for even tails. A separate
+[square comparison](TYPE_D_SQUARE_COMPARISON.md) proves block symmetry,
+a sufficient primitive range and a termwise B bound.
+The [full D formula](TYPE_D_CANDIDATE.md) is an explicit conjecture in
+its higher layers; its two remaining integral hypotheses are stated
+separately from the proved unit layer. The exact candidate check matches
+84 recorded full Smith lists and excludes two timed-out calculations.
+These research additions do not change the runtime library API.
+
 It computes
 
 \[
