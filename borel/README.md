@@ -15,6 +15,8 @@ the mathematical guide for the Borel/Springer construction.
 | What mathematical map does each method compute? | [Methods and worked examples](METHODS.md) |
 | Why do the Borel, BGG, Chevalley and coinvariant methods work? | [Mathematical framework and conventions](MATHEMATICS.md) |
 | How do I multiply Schubert classes or lift them to polynomials? | [Schubert multiplication and inverse Borel calculations](SCHUBERT_CALCULUS.md) |
+| Which integer classes do fixed generators produce? | [Integral images and Smith factors](INTEGRAL_IMAGES.md) |
+| What is already known about integral Springer images? | [Literature and normalization audit](INTEGRAL_LITERATURE.md) |
 | Why is the returned kernel complete? How do backends and normal forms work? | [Complete presentations and proofs](PRESENTATIONS.md) |
 | What do a degree matrix, rank and homogeneous relation mean? | [Degreewise images and relations](IMAGE_RELATIONS.md) |
 | Which exceptional inputs and normalizations are available? | [Exceptional catalogue](EXCEPTIONAL.md) |
@@ -53,6 +55,14 @@ divided differences; low-degree exceptional calculations avoid constructing
 the full positive-root discriminant. See the
 [guide](SCHUBERT_CALCULUS.md) and
 [executable example](examples/schubert_calculus.py).
+
+Version 0.7 adds `A.integral_degree(d)`: exact integer image lattices, Smith
+factors, saturation indices, membership tests and integer polynomial preimages.
+It checks the fixed generator images without silently clearing denominators.
+The [integral guide](INTEGRAL_IMAGES.md) distinguishes normalized Springer
+generators from literal integral polynomial characters; the
+[literature audit](INTEGRAL_LITERATURE.md) explains the classical type C
+saturation result and the scope of the orthogonal and exceptional questions.
 
 It computes
 
@@ -106,6 +116,12 @@ For Schubert products, polynomial lifts and intersection numbers:
 
 ```bash
 PYTHONPATH=src sage -python examples/schubert_calculus.py
+```
+
+For integral images and normalization comparisons:
+
+```bash
+PYTHONPATH=src sage -python examples/integral_images.py
 ```
 
 Or install into your Sage environment and import from any directory:
@@ -203,6 +219,8 @@ sum zero; the GL(n) central character has zero characteristic-map image.
 | `exceptional_borel(type, parabolic)` | Reusable map with named generator methods |
 | `A = GeneratorAlgebra(b, generators)` | The graded map from named formal variables to the chosen classes |
 | `A.degree(d)` | Exact degree-d image matrix and homogeneous kernel space |
+| `D = A.integral_degree(d, include_ambient=False)` | Integer image lattice, Smith factors and saturation data for fixed generators |
+| `D.contains(a)`, `D.preimage(a)` | Integer membership and an integer-coefficient formal preimage |
 | `K = A.presentation(backend="auto")` | Full kernel ideal, quotient basis, Hilbert series and completeness certificate |
 | `K.reduce(p)` | Canonical representative of a formal expression in the selected image |
 | `K.verify(backend=None)` | Recheck completeness with the original or an explicitly selected backend |
@@ -272,6 +290,12 @@ Littlewood–Richardson tables and the middle intersections on a type D quadric.
 They also check both polynomial-lift methods, partial flags, relabeled nodes,
 mixed classes and low-degree exceptional inputs. The exact coverage and latest
 run are recorded in [products-verification.json](products-verification.json).
+
+The [integral tests](tests/test_integral.py) independently check Smith factors
+by determinantal divisors and classical coefficient matrices by Cartesian BGG.
+The [integral verification record](integral-verification.json) and
+[bounded Springer-image experiment](experiments/integral-springer-results.json)
+record the exact cases, generator normalizations and integer preimage witnesses.
 
 ```bash
 PYTHONPATH=src sage -python -m unittest discover -s tests -v

@@ -7,7 +7,9 @@ examples. [PRESENTATIONS.md](PRESENTATIONS.md) gives the full kernel algorithm
 and the proof behind its completeness certificate.
 
 The implementation supports finite irreducible crystallographic root systems.
-All calculations here use rational coefficients. Polynomial degree `d` means
+The characteristic-map and kernel calculations use rational coefficients;
+the integral-image layer below additionally records exact integer lattices.
+Polynomial degree `d` means
 cohomological degree `2*d`. A polynomial in squared coordinate weights of
 elementary index `i` therefore lies in cohomological degree `4*i`.
 
@@ -363,6 +365,34 @@ which computes two-factor intersection numbers directly from sparse
 coordinates. With more factors, `b.intersection_number` multiplies all but
 the last, then applies this pairing. Lower-degree components integrate to
 zero; on `G/G` the unit is already the top class.
+
+## 8. Integral lattices inside a rational image
+
+Fix the actual generator polynomials `f_j`, without rescaling them, and require
+their Schubert images to be integral. The integer span of weighted degree-`d`
+monomial images is a lattice `L_d` in `H^{2d}(G/P;Z)`. Rational linear
+independence does not determine this lattice. Nor does a QQ Groebner kernel
+certify an integral presentation.
+
+For the integer image matrix, write `U*M_d*V=D` with unimodular integer
+matrices and positive nonzero Smith factors `s_1 | ... | s_r`. Then
+
+$$
+\operatorname{sat}(L_d)/L_d\cong\bigoplus_i\mathbb Z/s_i\mathbb Z,
+\qquad \operatorname{sat}(L_d)=(L_d\otimes\mathbb Q)\cap H^{2d}(G/P;\mathbb Z).
+$$
+
+The product of the Smith factors is the index in this saturation. It is an
+index in all ambient cohomology only if the rational ranks agree. The
+remaining ambient rank gives the free part of the cokernel. These quotient
+torsion factors do not mean that the flag variety has torsion cohomology.
+
+`A.integral_degree(d)` implements this construction and provides exact integer
+membership tests and polynomial preimages. The
+[integral guide](INTEGRAL_IMAGES.md) proves the change-of-basis formulas. The
+[literature audit](INTEGRAL_LITERATURE.md) fixes the Springer normalizations,
+derives normalized type C saturation from quaternionic Grassmannians, and
+distinguishes the chosen polynomial Z-form from literal integral characters.
 
 ## References and scope of verification
 

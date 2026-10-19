@@ -106,6 +106,15 @@ These remain proposed local corrections, rather than a published erratum.
 
 ## Sources and verification
 
+For integral questions, keep each catalogue normalization explicit. Some
+complex-algebra generators have fractional Schubert images: the G2/P1
+quadratic, for example, maps to `-3/4*sigma_(2,1)`. Such a form is rejected by
+`GeneratorAlgebra.integral_degree`, even though its rational Borel expansion is
+valid. Rescaling defines a different chosen Z-form. See the
+[integral guide](INTEGRAL_IMAGES.md) and
+[literature audit](INTEGRAL_LITERATURE.md); no automatic identification of
+exceptional integral polynomial-character intersections is implemented.
+
 The polynomial inputs come from the previously audited journal and dissertation
 data. Source identifiers, source hashes, normalization choices and corrections
 are packaged with each catalogue entry. Source publications are

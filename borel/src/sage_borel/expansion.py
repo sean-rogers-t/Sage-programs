@@ -28,6 +28,12 @@ class Expansion(Mapping):
         object.__setattr__(self, name, value)
 
     def __init__(self, borel_map, coefficients=()):
+        # Sage's scalar coercion may try constructing this Python class from
+        # a scalar. Reject that attempt before it creates an invalid context;
+        # Python can then dispatch to our rational scalar multiplication.
+        from .core import BorelMap
+        if not isinstance(borel_map, BorelMap):
+            raise TypeError("borel_map must be a BorelMap")
         data = {}
         items = coefficients.items() if isinstance(coefficients, Mapping) else coefficients
         for word, coefficient in items:

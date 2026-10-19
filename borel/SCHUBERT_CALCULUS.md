@@ -308,4 +308,7 @@ objects until they are cleared.
 All coefficients and linear equations use exact rational arithmetic.
 Integral Schubert structure constants can emerge from rational polynomial
 lifts; denominators in a lift do not themselves indicate an error. This API
-does not certify an integral image lattice or identify torsion primes.
+does not by itself certify an integral image lattice or identify torsion primes.
+For that separate calculation use
+[`GeneratorAlgebra.integral_degree`](INTEGRAL_IMAGES.md), after fixing the
+input generators and checking their integral Schubert images.

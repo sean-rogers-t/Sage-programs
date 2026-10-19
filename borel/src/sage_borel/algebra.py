@@ -13,6 +13,7 @@ from operator import index as integer_index
 from sage.all import PolynomialRing, QQ, matrix
 
 from .core import BorelMap
+from .integral import IntegralMixin
 
 
 def _degree(value):
@@ -98,7 +99,7 @@ class DegreeAnalysis:
         }
 
 
-class GeneratorAlgebra:
+class GeneratorAlgebra(IntegralMixin):
     """Map a weighted polynomial algebra to the cohomology of a flag variety.
 
     ``generators`` is a nonempty ordered mapping from distinct variable names
@@ -170,6 +171,8 @@ class GeneratorAlgebra:
         self._degree_cache = {}
         self._ambient_degree_cache = {}
         self._presentation_cache = {}
+        self._integral_degree_cache = {}
+        self._integral_generator_images = None
         self._generator_power_cache = [
             {0: self.borel_map.ring.one(), 1: polynomial}
             for polynomial in self.generator_polynomials

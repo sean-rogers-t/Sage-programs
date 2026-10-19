@@ -28,11 +28,19 @@
       "python_blocks_executed": 2
     },
     {
+      "file": "INTEGRAL_IMAGES.md",
+      "python_blocks_executed": 4
+    },
+    {
+      "file": "INTEGRAL_LITERATURE.md",
+      "python_blocks_executed": 0
+    },
+    {
       "file": "experiments/TWO_STEP_DERIVATION.md",
       "python_blocks_executed": 0
     }
   ],
-  "local_links_and_anchors_checked": 68,
-  "python_blocks_executed": 14,
+  "local_links_and_anchors_checked": 86,
+  "python_blocks_executed": 18,
   "scope": "Python fences executed in reading order in a fresh namespace per document; local links and anchors checked. Shell snippets and external URLs were not automatically executed or crawled."
 }
