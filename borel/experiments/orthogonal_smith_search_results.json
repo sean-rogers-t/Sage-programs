@@ -1,0 +1,4657 @@
+{
+  "schema_version": 1,
+  "generated_utc": "2026-10-19T16:07:55.346749+00:00",
+  "sage_version": "9.5",
+  "arithmetic": "ZZ matrices in the integral Schubert basis; exact Smith forms",
+  "degree_convention": "polynomial degree d is cohomological degree 2d",
+  "scope": "Finite calculations; no general Smith formula or novelty claim follows.",
+  "ambient_basis_enumerated": false,
+  "runs": [
+    {
+      "started_utc": "2026-10-19T16:07:55.346764+00:00",
+      "arguments": {
+        "families": [
+          "B",
+          "D"
+        ],
+        "min_rank": 2,
+        "max_rank": 4,
+        "max_degree": 12,
+        "complete_through_rank": 4,
+        "seconds_per_degree": 45,
+        "resume": false,
+        "output": "/mnt/c/Users/Sean/OneDrive/Documents/ChatGPT/Career/research-review/Sage-programs-articles/borel/experiments/orthogonal_smith_search_results.json"
+      }
+    },
+    {
+      "started_utc": "2026-10-19T16:08:12.992285+00:00",
+      "arguments": {
+        "families": [
+          "B",
+          "D"
+        ],
+        "min_rank": 5,
+        "max_rank": 6,
+        "max_degree": 12,
+        "complete_through_rank": 4,
+        "seconds_per_degree": 45,
+        "resume": true,
+        "output": "/mnt/c/Users/Sean/OneDrive/Documents/ChatGPT/Career/research-review/Sage-programs-articles/borel/experiments/orthogonal_smith_search_results.json"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "family": "B",
+      "n": 2,
+      "k": 1,
+      "a": 1,
+      "omitted_node": 1,
+      "ambient_top_polynomial_degree": 3,
+      "maximum_polynomial_degree": 2,
+      "requested_degrees": [
+        0,
+        2
+      ],
+      "generator_names": [
+        "q1"
+      ],
+      "generator_degrees": [
+        2
+      ],
+      "normalization": "unscaled e_i(tail^2), with Euler(tail) additionally in D",
+      "ambient_basis_enumerated": false,
+      "degrees": [
+        {
+          "polynomial_degree": 0,
+          "cohomological_degree": 0,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 1,
+          "schubert_support_size": 1,
+          "saturation_index": "1",
+          "seconds": 0.015434,
+          "smith_factors": [
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ],
+          "one_head_quadric_prediction": [
+            "1"
+          ],
+          "one_head_quadric_prediction_matches": true
+        },
+        {
+          "polynomial_degree": 2,
+          "cohomological_degree": 4,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 1,
+          "schubert_support_size": 1,
+          "saturation_index": "2",
+          "seconds": 0.003217,
+          "smith_factors": [
+            "2"
+          ],
+          "power_of_two_exponents": [
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "1": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ],
+          "one_head_quadric_prediction": [
+            "2"
+          ],
+          "one_head_quadric_prediction_matches": true
+        }
+      ],
+      "complete": true,
+      "total_seconds": 0.172973
+    },
+    {
+      "family": "B",
+      "n": 3,
+      "k": 1,
+      "a": 2,
+      "omitted_node": 2,
+      "ambient_top_polynomial_degree": 7,
+      "maximum_polynomial_degree": 4,
+      "requested_degrees": [
+        0,
+        2,
+        4
+      ],
+      "generator_names": [
+        "q1"
+      ],
+      "generator_degrees": [
+        2
+      ],
+      "normalization": "unscaled e_i(tail^2), with Euler(tail) additionally in D",
+      "ambient_basis_enumerated": false,
+      "degrees": [
+        {
+          "polynomial_degree": 0,
+          "cohomological_degree": 0,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 1,
+          "schubert_support_size": 1,
+          "saturation_index": "1",
+          "seconds": 0.004355,
+          "smith_factors": [
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 2,
+          "cohomological_degree": 4,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 1,
+          "schubert_support_size": 2,
+          "saturation_index": "1",
+          "seconds": 0.011842,
+          "smith_factors": [
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 4,
+          "cohomological_degree": 8,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 1,
+          "schubert_support_size": 1,
+          "saturation_index": "2",
+          "seconds": 0.006189,
+          "smith_factors": [
+            "2"
+          ],
+          "power_of_two_exponents": [
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "1": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ]
+        }
+      ],
+      "complete": true,
+      "total_seconds": 0.059053
+    },
+    {
+      "family": "B",
+      "n": 3,
+      "k": 2,
+      "a": 1,
+      "omitted_node": 1,
+      "ambient_top_polynomial_degree": 5,
+      "maximum_polynomial_degree": 4,
+      "requested_degrees": [
+        0,
+        2,
+        4
+      ],
+      "generator_names": [
+        "q1",
+        "q2"
+      ],
+      "generator_degrees": [
+        2,
+        4
+      ],
+      "normalization": "unscaled e_i(tail^2), with Euler(tail) additionally in D",
+      "ambient_basis_enumerated": false,
+      "degrees": [
+        {
+          "polynomial_degree": 0,
+          "cohomological_degree": 0,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 1,
+          "schubert_support_size": 1,
+          "saturation_index": "1",
+          "seconds": 0.005146,
+          "smith_factors": [
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ],
+          "one_head_quadric_prediction": [
+            "1"
+          ],
+          "one_head_quadric_prediction_matches": true
+        },
+        {
+          "polynomial_degree": 2,
+          "cohomological_degree": 4,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 1,
+          "schubert_support_size": 1,
+          "saturation_index": "1",
+          "seconds": 0.002931,
+          "smith_factors": [
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ],
+          "one_head_quadric_prediction": [
+            "1"
+          ],
+          "one_head_quadric_prediction_matches": true
+        },
+        {
+          "polynomial_degree": 4,
+          "cohomological_degree": 8,
+          "status": "computed",
+          "domain_dimension": 2,
+          "rank": 1,
+          "schubert_support_size": 1,
+          "saturation_index": "2",
+          "seconds": 0.011928,
+          "smith_factors": [
+            "2"
+          ],
+          "power_of_two_exponents": [
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "1": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ],
+          "one_head_quadric_prediction": [
+            "2"
+          ],
+          "one_head_quadric_prediction_matches": true
+        }
+      ],
+      "complete": true,
+      "total_seconds": 0.048895
+    },
+    {
+      "family": "B",
+      "n": 4,
+      "k": 1,
+      "a": 3,
+      "omitted_node": 3,
+      "ambient_top_polynomial_degree": 12,
+      "maximum_polynomial_degree": 6,
+      "requested_degrees": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "generator_names": [
+        "q1"
+      ],
+      "generator_degrees": [
+        2
+      ],
+      "normalization": "unscaled e_i(tail^2), with Euler(tail) additionally in D",
+      "ambient_basis_enumerated": false,
+      "degrees": [
+        {
+          "polynomial_degree": 0,
+          "cohomological_degree": 0,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 1,
+          "schubert_support_size": 1,
+          "saturation_index": "1",
+          "seconds": 0.005475,
+          "smith_factors": [
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 2,
+          "cohomological_degree": 4,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 1,
+          "schubert_support_size": 2,
+          "saturation_index": "1",
+          "seconds": 0.006148,
+          "smith_factors": [
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 4,
+          "cohomological_degree": 8,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 1,
+          "schubert_support_size": 2,
+          "saturation_index": "2",
+          "seconds": 0.011238,
+          "smith_factors": [
+            "2"
+          ],
+          "power_of_two_exponents": [
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "1": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 6,
+          "cohomological_degree": 12,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 1,
+          "schubert_support_size": 1,
+          "saturation_index": "2",
+          "seconds": 0.010156,
+          "smith_factors": [
+            "2"
+          ],
+          "power_of_two_exponents": [
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "1": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ]
+        }
+      ],
+      "complete": true,
+      "total_seconds": 0.079464
+    },
+    {
+      "family": "B",
+      "n": 4,
+      "k": 2,
+      "a": 2,
+      "omitted_node": 2,
+      "ambient_top_polynomial_degree": 11,
+      "maximum_polynomial_degree": 8,
+      "requested_degrees": [
+        0,
+        2,
+        4,
+        6,
+        8
+      ],
+      "generator_names": [
+        "q1",
+        "q2"
+      ],
+      "generator_degrees": [
+        2,
+        4
+      ],
+      "normalization": "unscaled e_i(tail^2), with Euler(tail) additionally in D",
+      "ambient_basis_enumerated": false,
+      "degrees": [
+        {
+          "polynomial_degree": 0,
+          "cohomological_degree": 0,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 1,
+          "schubert_support_size": 1,
+          "saturation_index": "1",
+          "seconds": 0.011589,
+          "smith_factors": [
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 2,
+          "cohomological_degree": 4,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 1,
+          "schubert_support_size": 2,
+          "saturation_index": "1",
+          "seconds": 0.004711,
+          "smith_factors": [
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 4,
+          "cohomological_degree": 8,
+          "status": "computed",
+          "domain_dimension": 2,
+          "rank": 2,
+          "schubert_support_size": 3,
+          "saturation_index": "2",
+          "seconds": 0.019344,
+          "smith_factors": [
+            "1",
+            "2"
+          ],
+          "power_of_two_exponents": [
+            0,
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1,
+            "1": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1,
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 6,
+          "cohomological_degree": 12,
+          "status": "computed",
+          "domain_dimension": 2,
+          "rank": 1,
+          "schubert_support_size": 1,
+          "saturation_index": "2",
+          "seconds": 0.015561,
+          "smith_factors": [
+            "2"
+          ],
+          "power_of_two_exponents": [
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "1": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 8,
+          "cohomological_degree": 16,
+          "status": "computed",
+          "domain_dimension": 3,
+          "rank": 1,
+          "schubert_support_size": 1,
+          "saturation_index": "4",
+          "seconds": 0.053426,
+          "smith_factors": [
+            "4"
+          ],
+          "power_of_two_exponents": [
+            2
+          ],
+          "power_of_two_multiplicities": {
+            "2": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ]
+        }
+      ],
+      "complete": true,
+      "total_seconds": 0.155802
+    },
+    {
+      "family": "B",
+      "n": 4,
+      "k": 3,
+      "a": 1,
+      "omitted_node": 1,
+      "ambient_top_polynomial_degree": 7,
+      "maximum_polynomial_degree": 6,
+      "requested_degrees": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "generator_names": [
+        "q1",
+        "q2",
+        "q3"
+      ],
+      "generator_degrees": [
+        2,
+        4,
+        6
+      ],
+      "normalization": "unscaled e_i(tail^2), with Euler(tail) additionally in D",
+      "ambient_basis_enumerated": false,
+      "degrees": [
+        {
+          "polynomial_degree": 0,
+          "cohomological_degree": 0,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 1,
+          "schubert_support_size": 1,
+          "saturation_index": "1",
+          "seconds": 0.026621,
+          "smith_factors": [
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ],
+          "one_head_quadric_prediction": [
+            "1"
+          ],
+          "one_head_quadric_prediction_matches": true
+        },
+        {
+          "polynomial_degree": 2,
+          "cohomological_degree": 4,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 1,
+          "schubert_support_size": 1,
+          "saturation_index": "1",
+          "seconds": 0.006028,
+          "smith_factors": [
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ],
+          "one_head_quadric_prediction": [
+            "1"
+          ],
+          "one_head_quadric_prediction_matches": true
+        },
+        {
+          "polynomial_degree": 4,
+          "cohomological_degree": 8,
+          "status": "computed",
+          "domain_dimension": 2,
+          "rank": 1,
+          "schubert_support_size": 1,
+          "saturation_index": "2",
+          "seconds": 0.013098,
+          "smith_factors": [
+            "2"
+          ],
+          "power_of_two_exponents": [
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "1": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ],
+          "one_head_quadric_prediction": [
+            "2"
+          ],
+          "one_head_quadric_prediction_matches": true
+        },
+        {
+          "polynomial_degree": 6,
+          "cohomological_degree": 12,
+          "status": "computed",
+          "domain_dimension": 3,
+          "rank": 1,
+          "schubert_support_size": 1,
+          "saturation_index": "2",
+          "seconds": 0.023636,
+          "smith_factors": [
+            "2"
+          ],
+          "power_of_two_exponents": [
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "1": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ],
+          "one_head_quadric_prediction": [
+            "2"
+          ],
+          "one_head_quadric_prediction_matches": true
+        }
+      ],
+      "complete": true,
+      "total_seconds": 0.148229
+    },
+    {
+      "family": "D",
+      "n": 4,
+      "k": 2,
+      "a": 2,
+      "omitted_node": 2,
+      "ambient_top_polynomial_degree": 9,
+      "maximum_polynomial_degree": 9,
+      "requested_degrees": [
+        0,
+        2,
+        4,
+        6,
+        8
+      ],
+      "generator_names": [
+        "q1",
+        "q2",
+        "euler"
+      ],
+      "generator_degrees": [
+        2,
+        4,
+        2
+      ],
+      "normalization": "unscaled e_i(tail^2), with Euler(tail) additionally in D",
+      "ambient_basis_enumerated": false,
+      "degrees": [
+        {
+          "polynomial_degree": 0,
+          "cohomological_degree": 0,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 1,
+          "schubert_support_size": 1,
+          "saturation_index": "1",
+          "seconds": 0.020819,
+          "smith_factors": [
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 2,
+          "cohomological_degree": 4,
+          "status": "computed",
+          "domain_dimension": 2,
+          "rank": 2,
+          "schubert_support_size": 3,
+          "saturation_index": "1",
+          "seconds": 0.009587,
+          "smith_factors": [
+            "1",
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0,
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 2
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1,
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 4,
+          "cohomological_degree": 8,
+          "status": "computed",
+          "domain_dimension": 4,
+          "rank": 3,
+          "schubert_support_size": 4,
+          "saturation_index": "4",
+          "seconds": 0.051095,
+          "smith_factors": [
+            "1",
+            "2",
+            "2"
+          ],
+          "power_of_two_exponents": [
+            0,
+            1,
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1,
+            "1": 2
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 6,
+          "cohomological_degree": 12,
+          "status": "computed",
+          "domain_dimension": 6,
+          "rank": 2,
+          "schubert_support_size": 3,
+          "saturation_index": "4",
+          "seconds": 0.064645,
+          "smith_factors": [
+            "2",
+            "2"
+          ],
+          "power_of_two_exponents": [
+            1,
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "1": 2
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1,
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 8,
+          "cohomological_degree": 16,
+          "status": "computed",
+          "domain_dimension": 9,
+          "rank": 1,
+          "schubert_support_size": 1,
+          "saturation_index": "4",
+          "seconds": 0.12387,
+          "smith_factors": [
+            "4"
+          ],
+          "power_of_two_exponents": [
+            2
+          ],
+          "power_of_two_multiplicities": {
+            "2": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ]
+        }
+      ],
+      "complete": true,
+      "total_seconds": 0.340253
+    },
+    {
+      "family": "D",
+      "n": 4,
+      "k": 3,
+      "a": 1,
+      "omitted_node": 1,
+      "ambient_top_polynomial_degree": 6,
+      "maximum_polynomial_degree": 6,
+      "requested_degrees": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "generator_names": [
+        "q1",
+        "q2",
+        "q3",
+        "euler"
+      ],
+      "generator_degrees": [
+        2,
+        4,
+        6,
+        3
+      ],
+      "normalization": "unscaled e_i(tail^2), with Euler(tail) additionally in D",
+      "ambient_basis_enumerated": false,
+      "degrees": [
+        {
+          "polynomial_degree": 0,
+          "cohomological_degree": 0,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 1,
+          "schubert_support_size": 1,
+          "saturation_index": "1",
+          "seconds": 0.015307,
+          "smith_factors": [
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ],
+          "one_head_quadric_prediction": [
+            "1"
+          ],
+          "one_head_quadric_prediction_matches": true
+        },
+        {
+          "polynomial_degree": 2,
+          "cohomological_degree": 4,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 1,
+          "schubert_support_size": 1,
+          "saturation_index": "1",
+          "seconds": 0.004589,
+          "smith_factors": [
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ],
+          "one_head_quadric_prediction": [
+            "1"
+          ],
+          "one_head_quadric_prediction_matches": true
+        },
+        {
+          "polynomial_degree": 3,
+          "cohomological_degree": 6,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 1,
+          "schubert_support_size": 2,
+          "saturation_index": "1",
+          "seconds": 0.007213,
+          "smith_factors": [
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ],
+          "one_head_quadric_prediction": [
+            "1"
+          ],
+          "one_head_quadric_prediction_matches": true
+        },
+        {
+          "polynomial_degree": 4,
+          "cohomological_degree": 8,
+          "status": "computed",
+          "domain_dimension": 2,
+          "rank": 1,
+          "schubert_support_size": 1,
+          "saturation_index": "2",
+          "seconds": 0.011839,
+          "smith_factors": [
+            "2"
+          ],
+          "power_of_two_exponents": [
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "1": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ],
+          "one_head_quadric_prediction": [
+            "2"
+          ],
+          "one_head_quadric_prediction_matches": true
+        },
+        {
+          "polynomial_degree": 5,
+          "cohomological_degree": 10,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 0,
+          "schubert_support_size": 0,
+          "saturation_index": "1",
+          "seconds": 0.010196,
+          "smith_factors": [],
+          "power_of_two_exponents": [],
+          "power_of_two_multiplicities": {},
+          "odd_factor_present": false,
+          "odd_parts": [],
+          "one_head_quadric_prediction": [],
+          "one_head_quadric_prediction_matches": true
+        },
+        {
+          "polynomial_degree": 6,
+          "cohomological_degree": 12,
+          "status": "computed",
+          "domain_dimension": 4,
+          "rank": 1,
+          "schubert_support_size": 1,
+          "saturation_index": "2",
+          "seconds": 0.031294,
+          "smith_factors": [
+            "2"
+          ],
+          "power_of_two_exponents": [
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "1": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ],
+          "one_head_quadric_prediction": [
+            "2"
+          ],
+          "one_head_quadric_prediction_matches": true
+        }
+      ],
+      "complete": true,
+      "total_seconds": 0.145544
+    },
+    {
+      "family": "B",
+      "n": 5,
+      "k": 1,
+      "a": 4,
+      "omitted_node": 4,
+      "ambient_top_polynomial_degree": 18,
+      "maximum_polynomial_degree": 8,
+      "requested_degrees": [
+        0,
+        2,
+        4,
+        6,
+        8
+      ],
+      "generator_names": [
+        "q1"
+      ],
+      "generator_degrees": [
+        2
+      ],
+      "normalization": "unscaled e_i(tail^2), with Euler(tail) additionally in D",
+      "ambient_basis_enumerated": false,
+      "degrees": [
+        {
+          "polynomial_degree": 0,
+          "cohomological_degree": 0,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 1,
+          "schubert_support_size": 1,
+          "saturation_index": "1",
+          "seconds": 0.019035,
+          "smith_factors": [
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 2,
+          "cohomological_degree": 4,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 1,
+          "schubert_support_size": 2,
+          "saturation_index": "1",
+          "seconds": 0.013056,
+          "smith_factors": [
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 4,
+          "cohomological_degree": 8,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 1,
+          "schubert_support_size": 3,
+          "saturation_index": "1",
+          "seconds": 0.015132,
+          "smith_factors": [
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 6,
+          "cohomological_degree": 12,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 1,
+          "schubert_support_size": 2,
+          "saturation_index": "2",
+          "seconds": 0.015074,
+          "smith_factors": [
+            "2"
+          ],
+          "power_of_two_exponents": [
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "1": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 8,
+          "cohomological_degree": 16,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 1,
+          "schubert_support_size": 1,
+          "saturation_index": "2",
+          "seconds": 0.014055,
+          "smith_factors": [
+            "2"
+          ],
+          "power_of_two_exponents": [
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "1": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ]
+        }
+      ],
+      "complete": true,
+      "total_seconds": 0.2544
+    },
+    {
+      "family": "B",
+      "n": 5,
+      "k": 2,
+      "a": 3,
+      "omitted_node": 3,
+      "ambient_top_polynomial_degree": 18,
+      "maximum_polynomial_degree": 12,
+      "requested_degrees": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12
+      ],
+      "generator_names": [
+        "q1",
+        "q2"
+      ],
+      "generator_degrees": [
+        2,
+        4
+      ],
+      "normalization": "unscaled e_i(tail^2), with Euler(tail) additionally in D",
+      "ambient_basis_enumerated": false,
+      "degrees": [
+        {
+          "polynomial_degree": 0,
+          "cohomological_degree": 0,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 1,
+          "schubert_support_size": 1,
+          "saturation_index": "1",
+          "seconds": 0.01349,
+          "smith_factors": [
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 2,
+          "cohomological_degree": 4,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 1,
+          "schubert_support_size": 2,
+          "saturation_index": "1",
+          "seconds": 0.005907,
+          "smith_factors": [
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 4,
+          "cohomological_degree": 8,
+          "status": "computed",
+          "domain_dimension": 2,
+          "rank": 2,
+          "schubert_support_size": 4,
+          "saturation_index": "1",
+          "seconds": 0.026726,
+          "smith_factors": [
+            "1",
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0,
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 2
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1,
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 6,
+          "cohomological_degree": 12,
+          "status": "computed",
+          "domain_dimension": 2,
+          "rank": 2,
+          "schubert_support_size": 3,
+          "saturation_index": "2",
+          "seconds": 0.035462,
+          "smith_factors": [
+            "1",
+            "2"
+          ],
+          "power_of_two_exponents": [
+            0,
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1,
+            "1": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1,
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 8,
+          "cohomological_degree": 16,
+          "status": "computed",
+          "domain_dimension": 3,
+          "rank": 2,
+          "schubert_support_size": 5,
+          "saturation_index": "4",
+          "seconds": 0.103801,
+          "smith_factors": [
+            "2",
+            "2"
+          ],
+          "power_of_two_exponents": [
+            1,
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "1": 2
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1,
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 10,
+          "cohomological_degree": 20,
+          "status": "computed",
+          "domain_dimension": 3,
+          "rank": 1,
+          "schubert_support_size": 2,
+          "saturation_index": "2",
+          "seconds": 0.09915,
+          "smith_factors": [
+            "2"
+          ],
+          "power_of_two_exponents": [
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "1": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 12,
+          "cohomological_degree": 24,
+          "status": "computed",
+          "domain_dimension": 4,
+          "rank": 1,
+          "schubert_support_size": 1,
+          "saturation_index": "4",
+          "seconds": 0.165928,
+          "smith_factors": [
+            "4"
+          ],
+          "power_of_two_exponents": [
+            2
+          ],
+          "power_of_two_multiplicities": {
+            "2": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ]
+        }
+      ],
+      "complete": true,
+      "total_seconds": 0.518243
+    },
+    {
+      "family": "B",
+      "n": 5,
+      "k": 3,
+      "a": 2,
+      "omitted_node": 2,
+      "ambient_top_polynomial_degree": 15,
+      "maximum_polynomial_degree": 12,
+      "requested_degrees": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12
+      ],
+      "generator_names": [
+        "q1",
+        "q2",
+        "q3"
+      ],
+      "generator_degrees": [
+        2,
+        4,
+        6
+      ],
+      "normalization": "unscaled e_i(tail^2), with Euler(tail) additionally in D",
+      "ambient_basis_enumerated": false,
+      "degrees": [
+        {
+          "polynomial_degree": 0,
+          "cohomological_degree": 0,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 1,
+          "schubert_support_size": 1,
+          "saturation_index": "1",
+          "seconds": 0.031327,
+          "smith_factors": [
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 2,
+          "cohomological_degree": 4,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 1,
+          "schubert_support_size": 2,
+          "saturation_index": "1",
+          "seconds": 0.006071,
+          "smith_factors": [
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 4,
+          "cohomological_degree": 8,
+          "status": "computed",
+          "domain_dimension": 2,
+          "rank": 2,
+          "schubert_support_size": 3,
+          "saturation_index": "1",
+          "seconds": 0.018306,
+          "smith_factors": [
+            "1",
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0,
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 2
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1,
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 6,
+          "cohomological_degree": 12,
+          "status": "computed",
+          "domain_dimension": 3,
+          "rank": 2,
+          "schubert_support_size": 4,
+          "saturation_index": "2",
+          "seconds": 0.058909,
+          "smith_factors": [
+            "1",
+            "2"
+          ],
+          "power_of_two_exponents": [
+            0,
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1,
+            "1": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1,
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 8,
+          "cohomological_degree": 16,
+          "status": "computed",
+          "domain_dimension": 4,
+          "rank": 2,
+          "schubert_support_size": 2,
+          "saturation_index": "4",
+          "seconds": 0.071377,
+          "smith_factors": [
+            "2",
+            "2"
+          ],
+          "power_of_two_exponents": [
+            1,
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "1": 2
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1,
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 10,
+          "cohomological_degree": 20,
+          "status": "computed",
+          "domain_dimension": 5,
+          "rank": 1,
+          "schubert_support_size": 1,
+          "saturation_index": "2",
+          "seconds": 0.146614,
+          "smith_factors": [
+            "2"
+          ],
+          "power_of_two_exponents": [
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "1": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 12,
+          "cohomological_degree": 24,
+          "status": "computed",
+          "domain_dimension": 7,
+          "rank": 1,
+          "schubert_support_size": 1,
+          "saturation_index": "4",
+          "seconds": 0.304165,
+          "smith_factors": [
+            "4"
+          ],
+          "power_of_two_exponents": [
+            2
+          ],
+          "power_of_two_multiplicities": {
+            "2": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ]
+        }
+      ],
+      "complete": true,
+      "total_seconds": 0.708877
+    },
+    {
+      "family": "B",
+      "n": 5,
+      "k": 4,
+      "a": 1,
+      "omitted_node": 1,
+      "ambient_top_polynomial_degree": 9,
+      "maximum_polynomial_degree": 8,
+      "requested_degrees": [
+        0,
+        2,
+        4,
+        6,
+        8
+      ],
+      "generator_names": [
+        "q1",
+        "q2",
+        "q3",
+        "q4"
+      ],
+      "generator_degrees": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "normalization": "unscaled e_i(tail^2), with Euler(tail) additionally in D",
+      "ambient_basis_enumerated": false,
+      "degrees": [
+        {
+          "polynomial_degree": 0,
+          "cohomological_degree": 0,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 1,
+          "schubert_support_size": 1,
+          "saturation_index": "1",
+          "seconds": 0.022088,
+          "smith_factors": [
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ],
+          "one_head_quadric_prediction": [
+            "1"
+          ],
+          "one_head_quadric_prediction_matches": true
+        },
+        {
+          "polynomial_degree": 2,
+          "cohomological_degree": 4,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 1,
+          "schubert_support_size": 1,
+          "saturation_index": "1",
+          "seconds": 0.00508,
+          "smith_factors": [
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ],
+          "one_head_quadric_prediction": [
+            "1"
+          ],
+          "one_head_quadric_prediction_matches": true
+        },
+        {
+          "polynomial_degree": 4,
+          "cohomological_degree": 8,
+          "status": "computed",
+          "domain_dimension": 2,
+          "rank": 1,
+          "schubert_support_size": 1,
+          "saturation_index": "1",
+          "seconds": 0.011237,
+          "smith_factors": [
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ],
+          "one_head_quadric_prediction": [
+            "1"
+          ],
+          "one_head_quadric_prediction_matches": true
+        },
+        {
+          "polynomial_degree": 6,
+          "cohomological_degree": 12,
+          "status": "computed",
+          "domain_dimension": 3,
+          "rank": 1,
+          "schubert_support_size": 1,
+          "saturation_index": "2",
+          "seconds": 0.021591,
+          "smith_factors": [
+            "2"
+          ],
+          "power_of_two_exponents": [
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "1": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ],
+          "one_head_quadric_prediction": [
+            "2"
+          ],
+          "one_head_quadric_prediction_matches": true
+        },
+        {
+          "polynomial_degree": 8,
+          "cohomological_degree": 16,
+          "status": "computed",
+          "domain_dimension": 5,
+          "rank": 1,
+          "schubert_support_size": 1,
+          "saturation_index": "2",
+          "seconds": 0.053344,
+          "smith_factors": [
+            "2"
+          ],
+          "power_of_two_exponents": [
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "1": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ],
+          "one_head_quadric_prediction": [
+            "2"
+          ],
+          "one_head_quadric_prediction_matches": true
+        }
+      ],
+      "complete": true,
+      "total_seconds": 0.174988
+    },
+    {
+      "family": "D",
+      "n": 5,
+      "k": 2,
+      "a": 3,
+      "omitted_node": 3,
+      "ambient_top_polynomial_degree": 15,
+      "maximum_polynomial_degree": 12,
+      "requested_degrees": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12
+      ],
+      "generator_names": [
+        "q1",
+        "q2",
+        "euler"
+      ],
+      "generator_degrees": [
+        2,
+        4,
+        2
+      ],
+      "normalization": "unscaled e_i(tail^2), with Euler(tail) additionally in D",
+      "ambient_basis_enumerated": false,
+      "degrees": [
+        {
+          "polynomial_degree": 0,
+          "cohomological_degree": 0,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 1,
+          "schubert_support_size": 1,
+          "saturation_index": "1",
+          "seconds": 0.024738,
+          "smith_factors": [
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 2,
+          "cohomological_degree": 4,
+          "status": "computed",
+          "domain_dimension": 2,
+          "rank": 2,
+          "schubert_support_size": 3,
+          "saturation_index": "1",
+          "seconds": 0.012935,
+          "smith_factors": [
+            "1",
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0,
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 2
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1,
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 4,
+          "cohomological_degree": 8,
+          "status": "computed",
+          "domain_dimension": 4,
+          "rank": 3,
+          "schubert_support_size": 6,
+          "saturation_index": "2",
+          "seconds": 0.055167,
+          "smith_factors": [
+            "1",
+            "1",
+            "2"
+          ],
+          "power_of_two_exponents": [
+            0,
+            0,
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "0": 2,
+            "1": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 6,
+          "cohomological_degree": 12,
+          "status": "computed",
+          "domain_dimension": 6,
+          "rank": 4,
+          "schubert_support_size": 9,
+          "saturation_index": "8",
+          "seconds": 0.185544,
+          "smith_factors": [
+            "1",
+            "2",
+            "2",
+            "2"
+          ],
+          "power_of_two_exponents": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1,
+            "1": 3
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 8,
+          "cohomological_degree": 16,
+          "status": "computed",
+          "domain_dimension": 9,
+          "rank": 3,
+          "schubert_support_size": 9,
+          "saturation_index": "8",
+          "seconds": 0.350885,
+          "smith_factors": [
+            "2",
+            "2",
+            "2"
+          ],
+          "power_of_two_exponents": [
+            1,
+            1,
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "1": 3
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 10,
+          "cohomological_degree": 20,
+          "status": "computed",
+          "domain_dimension": 12,
+          "rank": 2,
+          "schubert_support_size": 5,
+          "saturation_index": "8",
+          "seconds": 0.51205,
+          "smith_factors": [
+            "2",
+            "4"
+          ],
+          "power_of_two_exponents": [
+            1,
+            2
+          ],
+          "power_of_two_multiplicities": {
+            "1": 1,
+            "2": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1,
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 12,
+          "cohomological_degree": 24,
+          "status": "computed",
+          "domain_dimension": 16,
+          "rank": 1,
+          "schubert_support_size": 2,
+          "saturation_index": "4",
+          "seconds": 0.952639,
+          "smith_factors": [
+            "4"
+          ],
+          "power_of_two_exponents": [
+            2
+          ],
+          "power_of_two_multiplicities": {
+            "2": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ]
+        }
+      ],
+      "complete": true,
+      "total_seconds": 2.179899
+    },
+    {
+      "family": "D",
+      "n": 5,
+      "k": 3,
+      "a": 2,
+      "omitted_node": 2,
+      "ambient_top_polynomial_degree": 13,
+      "maximum_polynomial_degree": 12,
+      "requested_degrees": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "generator_names": [
+        "q1",
+        "q2",
+        "q3",
+        "euler"
+      ],
+      "generator_degrees": [
+        2,
+        4,
+        6,
+        3
+      ],
+      "normalization": "unscaled e_i(tail^2), with Euler(tail) additionally in D",
+      "ambient_basis_enumerated": false,
+      "degrees": [
+        {
+          "polynomial_degree": 0,
+          "cohomological_degree": 0,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 1,
+          "schubert_support_size": 1,
+          "saturation_index": "1",
+          "seconds": 0.042636,
+          "smith_factors": [
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 2,
+          "cohomological_degree": 4,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 1,
+          "schubert_support_size": 2,
+          "saturation_index": "1",
+          "seconds": 0.007478,
+          "smith_factors": [
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 3,
+          "cohomological_degree": 6,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 1,
+          "schubert_support_size": 2,
+          "saturation_index": "1",
+          "seconds": 0.009674,
+          "smith_factors": [
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 4,
+          "cohomological_degree": 8,
+          "status": "computed",
+          "domain_dimension": 2,
+          "rank": 2,
+          "schubert_support_size": 4,
+          "saturation_index": "1",
+          "seconds": 0.026169,
+          "smith_factors": [
+            "1",
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0,
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 2
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1,
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 5,
+          "cohomological_degree": 10,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 1,
+          "schubert_support_size": 2,
+          "saturation_index": "1",
+          "seconds": 0.014721,
+          "smith_factors": [
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 6,
+          "cohomological_degree": 12,
+          "status": "computed",
+          "domain_dimension": 4,
+          "rank": 2,
+          "schubert_support_size": 5,
+          "saturation_index": "2",
+          "seconds": 0.082941,
+          "smith_factors": [
+            "1",
+            "2"
+          ],
+          "power_of_two_exponents": [
+            0,
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1,
+            "1": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1,
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 7,
+          "cohomological_degree": 14,
+          "status": "computed",
+          "domain_dimension": 2,
+          "rank": 1,
+          "schubert_support_size": 2,
+          "saturation_index": "2",
+          "seconds": 0.030538,
+          "smith_factors": [
+            "2"
+          ],
+          "power_of_two_exponents": [
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "1": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 8,
+          "cohomological_degree": 16,
+          "status": "computed",
+          "domain_dimension": 5,
+          "rank": 2,
+          "schubert_support_size": 3,
+          "saturation_index": "4",
+          "seconds": 0.113801,
+          "smith_factors": [
+            "2",
+            "2"
+          ],
+          "power_of_two_exponents": [
+            1,
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "1": 2
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1,
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 9,
+          "cohomological_degree": 18,
+          "status": "computed",
+          "domain_dimension": 4,
+          "rank": 1,
+          "schubert_support_size": 2,
+          "saturation_index": "2",
+          "seconds": 0.09682,
+          "smith_factors": [
+            "2"
+          ],
+          "power_of_two_exponents": [
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "1": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 10,
+          "cohomological_degree": 20,
+          "status": "computed",
+          "domain_dimension": 7,
+          "rank": 1,
+          "schubert_support_size": 2,
+          "saturation_index": "2",
+          "seconds": 0.224242,
+          "smith_factors": [
+            "2"
+          ],
+          "power_of_two_exponents": [
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "1": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 11,
+          "cohomological_degree": 22,
+          "status": "computed",
+          "domain_dimension": 5,
+          "rank": 0,
+          "schubert_support_size": 0,
+          "saturation_index": "1",
+          "seconds": 0.136178,
+          "smith_factors": [],
+          "power_of_two_exponents": [],
+          "power_of_two_multiplicities": {},
+          "odd_factor_present": false,
+          "odd_parts": []
+        },
+        {
+          "polynomial_degree": 12,
+          "cohomological_degree": 24,
+          "status": "computed",
+          "domain_dimension": 11,
+          "rank": 1,
+          "schubert_support_size": 1,
+          "saturation_index": "4",
+          "seconds": 0.563618,
+          "smith_factors": [
+            "4"
+          ],
+          "power_of_two_exponents": [
+            2
+          ],
+          "power_of_two_multiplicities": {
+            "2": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ]
+        }
+      ],
+      "complete": true,
+      "total_seconds": 1.468868
+    },
+    {
+      "family": "D",
+      "n": 5,
+      "k": 4,
+      "a": 1,
+      "omitted_node": 1,
+      "ambient_top_polynomial_degree": 8,
+      "maximum_polynomial_degree": 8,
+      "requested_degrees": [
+        0,
+        2,
+        4,
+        6,
+        8
+      ],
+      "generator_names": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "euler"
+      ],
+      "generator_degrees": [
+        2,
+        4,
+        6,
+        8,
+        4
+      ],
+      "normalization": "unscaled e_i(tail^2), with Euler(tail) additionally in D",
+      "ambient_basis_enumerated": false,
+      "degrees": [
+        {
+          "polynomial_degree": 0,
+          "cohomological_degree": 0,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 1,
+          "schubert_support_size": 1,
+          "saturation_index": "1",
+          "seconds": 0.027712,
+          "smith_factors": [
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ],
+          "one_head_quadric_prediction": [
+            "1"
+          ],
+          "one_head_quadric_prediction_matches": true
+        },
+        {
+          "polynomial_degree": 2,
+          "cohomological_degree": 4,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 1,
+          "schubert_support_size": 1,
+          "saturation_index": "1",
+          "seconds": 0.005098,
+          "smith_factors": [
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ],
+          "one_head_quadric_prediction": [
+            "1"
+          ],
+          "one_head_quadric_prediction_matches": true
+        },
+        {
+          "polynomial_degree": 4,
+          "cohomological_degree": 8,
+          "status": "computed",
+          "domain_dimension": 3,
+          "rank": 2,
+          "schubert_support_size": 2,
+          "saturation_index": "2",
+          "seconds": 0.021031,
+          "smith_factors": [
+            "1",
+            "2"
+          ],
+          "power_of_two_exponents": [
+            0,
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1,
+            "1": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1,
+            1
+          ],
+          "one_head_quadric_prediction": [
+            "1",
+            "2"
+          ],
+          "one_head_quadric_prediction_matches": true
+        },
+        {
+          "polynomial_degree": 6,
+          "cohomological_degree": 12,
+          "status": "computed",
+          "domain_dimension": 4,
+          "rank": 1,
+          "schubert_support_size": 1,
+          "saturation_index": "2",
+          "seconds": 0.029644,
+          "smith_factors": [
+            "2"
+          ],
+          "power_of_two_exponents": [
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "1": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ],
+          "one_head_quadric_prediction": [
+            "2"
+          ],
+          "one_head_quadric_prediction_matches": true
+        },
+        {
+          "polynomial_degree": 8,
+          "cohomological_degree": 16,
+          "status": "computed",
+          "domain_dimension": 8,
+          "rank": 1,
+          "schubert_support_size": 1,
+          "saturation_index": "2",
+          "seconds": 0.071773,
+          "smith_factors": [
+            "2"
+          ],
+          "power_of_two_exponents": [
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "1": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ],
+          "one_head_quadric_prediction": [
+            "2"
+          ],
+          "one_head_quadric_prediction_matches": true
+        }
+      ],
+      "complete": true,
+      "total_seconds": 0.21822
+    },
+    {
+      "family": "B",
+      "n": 6,
+      "k": 1,
+      "a": 5,
+      "omitted_node": 5,
+      "ambient_top_polynomial_degree": 25,
+      "maximum_polynomial_degree": 10,
+      "requested_degrees": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10
+      ],
+      "generator_names": [
+        "q1"
+      ],
+      "generator_degrees": [
+        2
+      ],
+      "normalization": "unscaled e_i(tail^2), with Euler(tail) additionally in D",
+      "ambient_basis_enumerated": false,
+      "degrees": [
+        {
+          "polynomial_degree": 0,
+          "cohomological_degree": 0,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 1,
+          "schubert_support_size": 1,
+          "saturation_index": "1",
+          "seconds": 0.007244,
+          "smith_factors": [
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 2,
+          "cohomological_degree": 4,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 1,
+          "schubert_support_size": 2,
+          "saturation_index": "1",
+          "seconds": 0.008512,
+          "smith_factors": [
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 4,
+          "cohomological_degree": 8,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 1,
+          "schubert_support_size": 3,
+          "saturation_index": "1",
+          "seconds": 0.018259,
+          "smith_factors": [
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 6,
+          "cohomological_degree": 12,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 1,
+          "schubert_support_size": 3,
+          "saturation_index": "2",
+          "seconds": 0.021801,
+          "smith_factors": [
+            "2"
+          ],
+          "power_of_two_exponents": [
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "1": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 8,
+          "cohomological_degree": 16,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 1,
+          "schubert_support_size": 2,
+          "saturation_index": "2",
+          "seconds": 0.027911,
+          "smith_factors": [
+            "2"
+          ],
+          "power_of_two_exponents": [
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "1": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 10,
+          "cohomological_degree": 20,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 1,
+          "schubert_support_size": 1,
+          "saturation_index": "2",
+          "seconds": 0.030525,
+          "smith_factors": [
+            "2"
+          ],
+          "power_of_two_exponents": [
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "1": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ]
+        }
+      ],
+      "complete": true,
+      "total_seconds": 0.211282
+    },
+    {
+      "family": "B",
+      "n": 6,
+      "k": 2,
+      "a": 4,
+      "omitted_node": 4,
+      "ambient_top_polynomial_degree": 26,
+      "maximum_polynomial_degree": 12,
+      "requested_degrees": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12
+      ],
+      "generator_names": [
+        "q1",
+        "q2"
+      ],
+      "generator_degrees": [
+        2,
+        4
+      ],
+      "normalization": "unscaled e_i(tail^2), with Euler(tail) additionally in D",
+      "ambient_basis_enumerated": false,
+      "degrees": [
+        {
+          "polynomial_degree": 0,
+          "cohomological_degree": 0,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 1,
+          "schubert_support_size": 1,
+          "saturation_index": "1",
+          "seconds": 0.017322,
+          "smith_factors": [
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 2,
+          "cohomological_degree": 4,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 1,
+          "schubert_support_size": 2,
+          "saturation_index": "1",
+          "seconds": 0.007348,
+          "smith_factors": [
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 4,
+          "cohomological_degree": 8,
+          "status": "computed",
+          "domain_dimension": 2,
+          "rank": 2,
+          "schubert_support_size": 5,
+          "saturation_index": "1",
+          "seconds": 0.032543,
+          "smith_factors": [
+            "1",
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0,
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 2
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1,
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 6,
+          "cohomological_degree": 12,
+          "status": "computed",
+          "domain_dimension": 2,
+          "rank": 2,
+          "schubert_support_size": 5,
+          "saturation_index": "2",
+          "seconds": 0.058252,
+          "smith_factors": [
+            "1",
+            "2"
+          ],
+          "power_of_two_exponents": [
+            0,
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1,
+            "1": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1,
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 8,
+          "cohomological_degree": 16,
+          "status": "computed",
+          "domain_dimension": 3,
+          "rank": 3,
+          "schubert_support_size": 9,
+          "saturation_index": "4",
+          "seconds": 0.182125,
+          "smith_factors": [
+            "1",
+            "2",
+            "2"
+          ],
+          "power_of_two_exponents": [
+            0,
+            1,
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1,
+            "1": 2
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 10,
+          "cohomological_degree": 20,
+          "status": "computed",
+          "domain_dimension": 3,
+          "rank": 2,
+          "schubert_support_size": 5,
+          "saturation_index": "4",
+          "seconds": 0.192335,
+          "smith_factors": [
+            "2",
+            "2"
+          ],
+          "power_of_two_exponents": [
+            1,
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "1": 2
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1,
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 12,
+          "cohomological_degree": 24,
+          "status": "computed",
+          "domain_dimension": 4,
+          "rank": 2,
+          "schubert_support_size": 6,
+          "saturation_index": "8",
+          "seconds": 0.463599,
+          "smith_factors": [
+            "2",
+            "4"
+          ],
+          "power_of_two_exponents": [
+            1,
+            2
+          ],
+          "power_of_two_multiplicities": {
+            "1": 1,
+            "2": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1,
+            1
+          ]
+        }
+      ],
+      "complete": true,
+      "total_seconds": 1.042679
+    },
+    {
+      "family": "B",
+      "n": 6,
+      "k": 3,
+      "a": 3,
+      "omitted_node": 3,
+      "ambient_top_polynomial_degree": 24,
+      "maximum_polynomial_degree": 12,
+      "requested_degrees": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12
+      ],
+      "generator_names": [
+        "q1",
+        "q2",
+        "q3"
+      ],
+      "generator_degrees": [
+        2,
+        4,
+        6
+      ],
+      "normalization": "unscaled e_i(tail^2), with Euler(tail) additionally in D",
+      "ambient_basis_enumerated": false,
+      "degrees": [
+        {
+          "polynomial_degree": 0,
+          "cohomological_degree": 0,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 1,
+          "schubert_support_size": 1,
+          "saturation_index": "1",
+          "seconds": 0.03783,
+          "smith_factors": [
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 2,
+          "cohomological_degree": 4,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 1,
+          "schubert_support_size": 2,
+          "saturation_index": "1",
+          "seconds": 0.008162,
+          "smith_factors": [
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 4,
+          "cohomological_degree": 8,
+          "status": "computed",
+          "domain_dimension": 2,
+          "rank": 2,
+          "schubert_support_size": 4,
+          "saturation_index": "1",
+          "seconds": 0.028909,
+          "smith_factors": [
+            "1",
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0,
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 2
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1,
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 6,
+          "cohomological_degree": 12,
+          "status": "computed",
+          "domain_dimension": 3,
+          "rank": 3,
+          "schubert_support_size": 6,
+          "saturation_index": "2",
+          "seconds": 0.084889,
+          "smith_factors": [
+            "1",
+            "1",
+            "2"
+          ],
+          "power_of_two_exponents": [
+            0,
+            0,
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "0": 2,
+            "1": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 8,
+          "cohomological_degree": 16,
+          "status": "computed",
+          "domain_dimension": 4,
+          "rank": 3,
+          "schubert_support_size": 6,
+          "saturation_index": "4",
+          "seconds": 0.176276,
+          "smith_factors": [
+            "1",
+            "2",
+            "2"
+          ],
+          "power_of_two_exponents": [
+            0,
+            1,
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1,
+            "1": 2
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 10,
+          "cohomological_degree": 20,
+          "status": "computed",
+          "domain_dimension": 5,
+          "rank": 3,
+          "schubert_support_size": 7,
+          "saturation_index": "8",
+          "seconds": 0.403704,
+          "smith_factors": [
+            "2",
+            "2",
+            "2"
+          ],
+          "power_of_two_exponents": [
+            1,
+            1,
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "1": 3
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 12,
+          "cohomological_degree": 24,
+          "status": "computed",
+          "domain_dimension": 7,
+          "rank": 3,
+          "schubert_support_size": 7,
+          "saturation_index": "16",
+          "seconds": 0.906514,
+          "smith_factors": [
+            "2",
+            "2",
+            "4"
+          ],
+          "power_of_two_exponents": [
+            1,
+            1,
+            2
+          ],
+          "power_of_two_multiplicities": {
+            "1": 2,
+            "2": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "complete": true,
+      "total_seconds": 1.738125
+    },
+    {
+      "family": "B",
+      "n": 6,
+      "k": 4,
+      "a": 2,
+      "omitted_node": 2,
+      "ambient_top_polynomial_degree": 19,
+      "maximum_polynomial_degree": 12,
+      "requested_degrees": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12
+      ],
+      "generator_names": [
+        "q1",
+        "q2",
+        "q3",
+        "q4"
+      ],
+      "generator_degrees": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "normalization": "unscaled e_i(tail^2), with Euler(tail) additionally in D",
+      "ambient_basis_enumerated": false,
+      "degrees": [
+        {
+          "polynomial_degree": 0,
+          "cohomological_degree": 0,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 1,
+          "schubert_support_size": 1,
+          "saturation_index": "1",
+          "seconds": 0.073793,
+          "smith_factors": [
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 2,
+          "cohomological_degree": 4,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 1,
+          "schubert_support_size": 2,
+          "saturation_index": "1",
+          "seconds": 0.007599,
+          "smith_factors": [
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 4,
+          "cohomological_degree": 8,
+          "status": "computed",
+          "domain_dimension": 2,
+          "rank": 2,
+          "schubert_support_size": 3,
+          "saturation_index": "1",
+          "seconds": 0.030447,
+          "smith_factors": [
+            "1",
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0,
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 2
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1,
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 6,
+          "cohomological_degree": 12,
+          "status": "computed",
+          "domain_dimension": 3,
+          "rank": 2,
+          "schubert_support_size": 4,
+          "saturation_index": "2",
+          "seconds": 0.07728,
+          "smith_factors": [
+            "1",
+            "2"
+          ],
+          "power_of_two_exponents": [
+            0,
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1,
+            "1": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1,
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 8,
+          "cohomological_degree": 16,
+          "status": "computed",
+          "domain_dimension": 5,
+          "rank": 3,
+          "schubert_support_size": 5,
+          "saturation_index": "4",
+          "seconds": 0.190574,
+          "smith_factors": [
+            "1",
+            "2",
+            "2"
+          ],
+          "power_of_two_exponents": [
+            0,
+            1,
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1,
+            "1": 2
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 10,
+          "cohomological_degree": 20,
+          "status": "computed",
+          "domain_dimension": 6,
+          "rank": 2,
+          "schubert_support_size": 2,
+          "saturation_index": "4",
+          "seconds": 0.288197,
+          "smith_factors": [
+            "2",
+            "2"
+          ],
+          "power_of_two_exponents": [
+            1,
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "1": 2
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1,
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 12,
+          "cohomological_degree": 24,
+          "status": "computed",
+          "domain_dimension": 9,
+          "rank": 2,
+          "schubert_support_size": 2,
+          "saturation_index": "8",
+          "seconds": 1.114817,
+          "smith_factors": [
+            "2",
+            "4"
+          ],
+          "power_of_two_exponents": [
+            1,
+            2
+          ],
+          "power_of_two_multiplicities": {
+            "1": 1,
+            "2": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1,
+            1
+          ]
+        }
+      ],
+      "complete": true,
+      "total_seconds": 1.879426
+    },
+    {
+      "family": "B",
+      "n": 6,
+      "k": 5,
+      "a": 1,
+      "omitted_node": 1,
+      "ambient_top_polynomial_degree": 11,
+      "maximum_polynomial_degree": 10,
+      "requested_degrees": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10
+      ],
+      "generator_names": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5"
+      ],
+      "generator_degrees": [
+        2,
+        4,
+        6,
+        8,
+        10
+      ],
+      "normalization": "unscaled e_i(tail^2), with Euler(tail) additionally in D",
+      "ambient_basis_enumerated": false,
+      "degrees": [
+        {
+          "polynomial_degree": 0,
+          "cohomological_degree": 0,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 1,
+          "schubert_support_size": 1,
+          "saturation_index": "1",
+          "seconds": 0.043783,
+          "smith_factors": [
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ],
+          "one_head_quadric_prediction": [
+            "1"
+          ],
+          "one_head_quadric_prediction_matches": true
+        },
+        {
+          "polynomial_degree": 2,
+          "cohomological_degree": 4,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 1,
+          "schubert_support_size": 1,
+          "saturation_index": "1",
+          "seconds": 0.004392,
+          "smith_factors": [
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ],
+          "one_head_quadric_prediction": [
+            "1"
+          ],
+          "one_head_quadric_prediction_matches": true
+        },
+        {
+          "polynomial_degree": 4,
+          "cohomological_degree": 8,
+          "status": "computed",
+          "domain_dimension": 2,
+          "rank": 1,
+          "schubert_support_size": 1,
+          "saturation_index": "1",
+          "seconds": 0.011541,
+          "smith_factors": [
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ],
+          "one_head_quadric_prediction": [
+            "1"
+          ],
+          "one_head_quadric_prediction_matches": true
+        },
+        {
+          "polynomial_degree": 6,
+          "cohomological_degree": 12,
+          "status": "computed",
+          "domain_dimension": 3,
+          "rank": 1,
+          "schubert_support_size": 1,
+          "saturation_index": "2",
+          "seconds": 0.027893,
+          "smith_factors": [
+            "2"
+          ],
+          "power_of_two_exponents": [
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "1": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ],
+          "one_head_quadric_prediction": [
+            "2"
+          ],
+          "one_head_quadric_prediction_matches": true
+        },
+        {
+          "polynomial_degree": 8,
+          "cohomological_degree": 16,
+          "status": "computed",
+          "domain_dimension": 5,
+          "rank": 1,
+          "schubert_support_size": 1,
+          "saturation_index": "2",
+          "seconds": 0.093324,
+          "smith_factors": [
+            "2"
+          ],
+          "power_of_two_exponents": [
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "1": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ],
+          "one_head_quadric_prediction": [
+            "2"
+          ],
+          "one_head_quadric_prediction_matches": true
+        },
+        {
+          "polynomial_degree": 10,
+          "cohomological_degree": 20,
+          "status": "computed",
+          "domain_dimension": 7,
+          "rank": 1,
+          "schubert_support_size": 1,
+          "saturation_index": "2",
+          "seconds": 0.298258,
+          "smith_factors": [
+            "2"
+          ],
+          "power_of_two_exponents": [
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "1": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ],
+          "one_head_quadric_prediction": [
+            "2"
+          ],
+          "one_head_quadric_prediction_matches": true
+        }
+      ],
+      "complete": true,
+      "total_seconds": 0.567116
+    },
+    {
+      "family": "D",
+      "n": 6,
+      "k": 2,
+      "a": 4,
+      "omitted_node": 4,
+      "ambient_top_polynomial_degree": 22,
+      "maximum_polynomial_degree": 12,
+      "requested_degrees": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12
+      ],
+      "generator_names": [
+        "q1",
+        "q2",
+        "euler"
+      ],
+      "generator_degrees": [
+        2,
+        4,
+        2
+      ],
+      "normalization": "unscaled e_i(tail^2), with Euler(tail) additionally in D",
+      "ambient_basis_enumerated": false,
+      "degrees": [
+        {
+          "polynomial_degree": 0,
+          "cohomological_degree": 0,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 1,
+          "schubert_support_size": 1,
+          "saturation_index": "1",
+          "seconds": 0.02533,
+          "smith_factors": [
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 2,
+          "cohomological_degree": 4,
+          "status": "computed",
+          "domain_dimension": 2,
+          "rank": 2,
+          "schubert_support_size": 3,
+          "saturation_index": "1",
+          "seconds": 0.014358,
+          "smith_factors": [
+            "1",
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0,
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 2
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1,
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 4,
+          "cohomological_degree": 8,
+          "status": "computed",
+          "domain_dimension": 4,
+          "rank": 3,
+          "schubert_support_size": 7,
+          "saturation_index": "1",
+          "seconds": 0.070286,
+          "smith_factors": [
+            "1",
+            "1",
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0,
+            0,
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 3
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 6,
+          "cohomological_degree": 12,
+          "status": "computed",
+          "domain_dimension": 6,
+          "rank": 4,
+          "schubert_support_size": 12,
+          "saturation_index": "4",
+          "seconds": 0.225769,
+          "smith_factors": [
+            "1",
+            "1",
+            "2",
+            "2"
+          ],
+          "power_of_two_exponents": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "0": 2,
+            "1": 2
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 8,
+          "cohomological_degree": 16,
+          "status": "computed",
+          "domain_dimension": 9,
+          "rank": 5,
+          "schubert_support_size": 17,
+          "saturation_index": "16",
+          "seconds": 0.702585,
+          "smith_factors": [
+            "1",
+            "2",
+            "2",
+            "2",
+            "2"
+          ],
+          "power_of_two_exponents": [
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1,
+            "1": 4
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 10,
+          "cohomological_degree": 20,
+          "status": "computed",
+          "domain_dimension": 12,
+          "rank": 4,
+          "schubert_support_size": 16,
+          "saturation_index": "16",
+          "seconds": 1.270987,
+          "smith_factors": [
+            "2",
+            "2",
+            "2",
+            "2"
+          ],
+          "power_of_two_exponents": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "1": 4
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 12,
+          "cohomological_degree": 24,
+          "status": "computed",
+          "domain_dimension": 16,
+          "rank": 3,
+          "schubert_support_size": 16,
+          "saturation_index": "16",
+          "seconds": 2.661757,
+          "smith_factors": [
+            "2",
+            "2",
+            "4"
+          ],
+          "power_of_two_exponents": [
+            1,
+            1,
+            2
+          ],
+          "power_of_two_multiplicities": {
+            "1": 2,
+            "2": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "complete": true,
+      "total_seconds": 5.075666
+    },
+    {
+      "family": "D",
+      "n": 6,
+      "k": 3,
+      "a": 3,
+      "omitted_node": 3,
+      "ambient_top_polynomial_degree": 21,
+      "maximum_polynomial_degree": 12,
+      "requested_degrees": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "generator_names": [
+        "q1",
+        "q2",
+        "q3",
+        "euler"
+      ],
+      "generator_degrees": [
+        2,
+        4,
+        6,
+        3
+      ],
+      "normalization": "unscaled e_i(tail^2), with Euler(tail) additionally in D",
+      "ambient_basis_enumerated": false,
+      "degrees": [
+        {
+          "polynomial_degree": 0,
+          "cohomological_degree": 0,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 1,
+          "schubert_support_size": 1,
+          "saturation_index": "1",
+          "seconds": 0.043897,
+          "smith_factors": [
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 2,
+          "cohomological_degree": 4,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 1,
+          "schubert_support_size": 2,
+          "saturation_index": "1",
+          "seconds": 0.006409,
+          "smith_factors": [
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 3,
+          "cohomological_degree": 6,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 1,
+          "schubert_support_size": 2,
+          "saturation_index": "1",
+          "seconds": 0.007602,
+          "smith_factors": [
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 4,
+          "cohomological_degree": 8,
+          "status": "computed",
+          "domain_dimension": 2,
+          "rank": 2,
+          "schubert_support_size": 5,
+          "saturation_index": "1",
+          "seconds": 0.036193,
+          "smith_factors": [
+            "1",
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0,
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 2
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1,
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 5,
+          "cohomological_degree": 10,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 1,
+          "schubert_support_size": 4,
+          "saturation_index": "1",
+          "seconds": 0.026812,
+          "smith_factors": [
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 6,
+          "cohomological_degree": 12,
+          "status": "computed",
+          "domain_dimension": 4,
+          "rank": 3,
+          "schubert_support_size": 7,
+          "saturation_index": "2",
+          "seconds": 0.123191,
+          "smith_factors": [
+            "1",
+            "1",
+            "2"
+          ],
+          "power_of_two_exponents": [
+            0,
+            0,
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "0": 2,
+            "1": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 7,
+          "cohomological_degree": 14,
+          "status": "computed",
+          "domain_dimension": 2,
+          "rank": 2,
+          "schubert_support_size": 6,
+          "saturation_index": "1",
+          "seconds": 0.072847,
+          "smith_factors": [
+            "1",
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0,
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 2
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1,
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 8,
+          "cohomological_degree": 16,
+          "status": "computed",
+          "domain_dimension": 5,
+          "rank": 3,
+          "schubert_support_size": 11,
+          "saturation_index": "4",
+          "seconds": 0.323296,
+          "smith_factors": [
+            "1",
+            "2",
+            "2"
+          ],
+          "power_of_two_exponents": [
+            0,
+            1,
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1,
+            "1": 2
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 9,
+          "cohomological_degree": 18,
+          "status": "computed",
+          "domain_dimension": 4,
+          "rank": 2,
+          "schubert_support_size": 8,
+          "saturation_index": "2",
+          "seconds": 0.276027,
+          "smith_factors": [
+            "1",
+            "2"
+          ],
+          "power_of_two_exponents": [
+            0,
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1,
+            "1": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1,
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 10,
+          "cohomological_degree": 20,
+          "status": "computed",
+          "domain_dimension": 7,
+          "rank": 3,
+          "schubert_support_size": 11,
+          "saturation_index": "8",
+          "seconds": 0.732972,
+          "smith_factors": [
+            "2",
+            "2",
+            "2"
+          ],
+          "power_of_two_exponents": [
+            1,
+            1,
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "1": 3
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 11,
+          "cohomological_degree": 22,
+          "status": "computed",
+          "domain_dimension": 5,
+          "rank": 2,
+          "schubert_support_size": 4,
+          "saturation_index": "4",
+          "seconds": 0.41176,
+          "smith_factors": [
+            "2",
+            "2"
+          ],
+          "power_of_two_exponents": [
+            1,
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "1": 2
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1,
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 12,
+          "cohomological_degree": 24,
+          "status": "computed",
+          "domain_dimension": 11,
+          "rank": 3,
+          "schubert_support_size": 9,
+          "saturation_index": "16",
+          "seconds": 1.829515,
+          "smith_factors": [
+            "2",
+            "2",
+            "4"
+          ],
+          "power_of_two_exponents": [
+            1,
+            1,
+            2
+          ],
+          "power_of_two_multiplicities": {
+            "1": 2,
+            "2": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "complete": true,
+      "total_seconds": 4.026334
+    },
+    {
+      "family": "D",
+      "n": 6,
+      "k": 4,
+      "a": 2,
+      "omitted_node": 2,
+      "ambient_top_polynomial_degree": 17,
+      "maximum_polynomial_degree": 12,
+      "requested_degrees": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12
+      ],
+      "generator_names": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "euler"
+      ],
+      "generator_degrees": [
+        2,
+        4,
+        6,
+        8,
+        4
+      ],
+      "normalization": "unscaled e_i(tail^2), with Euler(tail) additionally in D",
+      "ambient_basis_enumerated": false,
+      "degrees": [
+        {
+          "polynomial_degree": 0,
+          "cohomological_degree": 0,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 1,
+          "schubert_support_size": 1,
+          "saturation_index": "1",
+          "seconds": 0.080878,
+          "smith_factors": [
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 2,
+          "cohomological_degree": 4,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 1,
+          "schubert_support_size": 2,
+          "saturation_index": "1",
+          "seconds": 0.005805,
+          "smith_factors": [
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 4,
+          "cohomological_degree": 8,
+          "status": "computed",
+          "domain_dimension": 3,
+          "rank": 3,
+          "schubert_support_size": 4,
+          "saturation_index": "1",
+          "seconds": 0.037768,
+          "smith_factors": [
+            "1",
+            "1",
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0,
+            0,
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 3
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 6,
+          "cohomological_degree": 12,
+          "status": "computed",
+          "domain_dimension": 4,
+          "rank": 3,
+          "schubert_support_size": 5,
+          "saturation_index": "2",
+          "seconds": 0.093853,
+          "smith_factors": [
+            "1",
+            "1",
+            "2"
+          ],
+          "power_of_two_exponents": [
+            0,
+            0,
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "0": 2,
+            "1": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 8,
+          "cohomological_degree": 16,
+          "status": "computed",
+          "domain_dimension": 8,
+          "rank": 4,
+          "schubert_support_size": 6,
+          "saturation_index": "8",
+          "seconds": 0.34244,
+          "smith_factors": [
+            "1",
+            "2",
+            "2",
+            "2"
+          ],
+          "power_of_two_exponents": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1,
+            "1": 3
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 10,
+          "cohomological_degree": 20,
+          "status": "computed",
+          "domain_dimension": 10,
+          "rank": 3,
+          "schubert_support_size": 4,
+          "saturation_index": "8",
+          "seconds": 0.529515,
+          "smith_factors": [
+            "2",
+            "2",
+            "2"
+          ],
+          "power_of_two_exponents": [
+            1,
+            1,
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "1": 3
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "polynomial_degree": 12,
+          "cohomological_degree": 24,
+          "status": "computed",
+          "domain_dimension": 17,
+          "rank": 3,
+          "schubert_support_size": 4,
+          "saturation_index": "16",
+          "seconds": 1.996933,
+          "smith_factors": [
+            "2",
+            "2",
+            "4"
+          ],
+          "power_of_two_exponents": [
+            1,
+            1,
+            2
+          ],
+          "power_of_two_multiplicities": {
+            "1": 2,
+            "2": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "complete": true,
+      "total_seconds": 3.176778
+    },
+    {
+      "family": "D",
+      "n": 6,
+      "k": 5,
+      "a": 1,
+      "omitted_node": 1,
+      "ambient_top_polynomial_degree": 10,
+      "maximum_polynomial_degree": 10,
+      "requested_degrees": [
+        0,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "generator_names": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5",
+        "euler"
+      ],
+      "generator_degrees": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        5
+      ],
+      "normalization": "unscaled e_i(tail^2), with Euler(tail) additionally in D",
+      "ambient_basis_enumerated": false,
+      "degrees": [
+        {
+          "polynomial_degree": 0,
+          "cohomological_degree": 0,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 1,
+          "schubert_support_size": 1,
+          "saturation_index": "1",
+          "seconds": 0.049035,
+          "smith_factors": [
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ],
+          "one_head_quadric_prediction": [
+            "1"
+          ],
+          "one_head_quadric_prediction_matches": true
+        },
+        {
+          "polynomial_degree": 2,
+          "cohomological_degree": 4,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 1,
+          "schubert_support_size": 1,
+          "saturation_index": "1",
+          "seconds": 0.004033,
+          "smith_factors": [
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ],
+          "one_head_quadric_prediction": [
+            "1"
+          ],
+          "one_head_quadric_prediction_matches": true
+        },
+        {
+          "polynomial_degree": 4,
+          "cohomological_degree": 8,
+          "status": "computed",
+          "domain_dimension": 2,
+          "rank": 1,
+          "schubert_support_size": 1,
+          "saturation_index": "1",
+          "seconds": 0.012662,
+          "smith_factors": [
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ],
+          "one_head_quadric_prediction": [
+            "1"
+          ],
+          "one_head_quadric_prediction_matches": true
+        },
+        {
+          "polynomial_degree": 5,
+          "cohomological_degree": 10,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 1,
+          "schubert_support_size": 2,
+          "saturation_index": "1",
+          "seconds": 0.0121,
+          "smith_factors": [
+            "1"
+          ],
+          "power_of_two_exponents": [
+            0
+          ],
+          "power_of_two_multiplicities": {
+            "0": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ],
+          "one_head_quadric_prediction": [
+            "1"
+          ],
+          "one_head_quadric_prediction_matches": true
+        },
+        {
+          "polynomial_degree": 6,
+          "cohomological_degree": 12,
+          "status": "computed",
+          "domain_dimension": 3,
+          "rank": 1,
+          "schubert_support_size": 1,
+          "saturation_index": "2",
+          "seconds": 0.030444,
+          "smith_factors": [
+            "2"
+          ],
+          "power_of_two_exponents": [
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "1": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ],
+          "one_head_quadric_prediction": [
+            "2"
+          ],
+          "one_head_quadric_prediction_matches": true
+        },
+        {
+          "polynomial_degree": 7,
+          "cohomological_degree": 14,
+          "status": "computed",
+          "domain_dimension": 1,
+          "rank": 0,
+          "schubert_support_size": 0,
+          "saturation_index": "1",
+          "seconds": 0.010193,
+          "smith_factors": [],
+          "power_of_two_exponents": [],
+          "power_of_two_multiplicities": {},
+          "odd_factor_present": false,
+          "odd_parts": [],
+          "one_head_quadric_prediction": [],
+          "one_head_quadric_prediction_matches": true
+        },
+        {
+          "polynomial_degree": 8,
+          "cohomological_degree": 16,
+          "status": "computed",
+          "domain_dimension": 5,
+          "rank": 1,
+          "schubert_support_size": 1,
+          "saturation_index": "2",
+          "seconds": 0.093305,
+          "smith_factors": [
+            "2"
+          ],
+          "power_of_two_exponents": [
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "1": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ],
+          "one_head_quadric_prediction": [
+            "2"
+          ],
+          "one_head_quadric_prediction_matches": true
+        },
+        {
+          "polynomial_degree": 9,
+          "cohomological_degree": 18,
+          "status": "computed",
+          "domain_dimension": 2,
+          "rank": 0,
+          "schubert_support_size": 0,
+          "saturation_index": "1",
+          "seconds": 0.026302,
+          "smith_factors": [],
+          "power_of_two_exponents": [],
+          "power_of_two_multiplicities": {},
+          "odd_factor_present": false,
+          "odd_parts": [],
+          "one_head_quadric_prediction": [],
+          "one_head_quadric_prediction_matches": true
+        },
+        {
+          "polynomial_degree": 10,
+          "cohomological_degree": 20,
+          "status": "computed",
+          "domain_dimension": 8,
+          "rank": 1,
+          "schubert_support_size": 1,
+          "saturation_index": "2",
+          "seconds": 0.327917,
+          "smith_factors": [
+            "2"
+          ],
+          "power_of_two_exponents": [
+            1
+          ],
+          "power_of_two_multiplicities": {
+            "1": 1
+          },
+          "odd_factor_present": false,
+          "odd_parts": [
+            1
+          ],
+          "one_head_quadric_prediction": [
+            "2"
+          ],
+          "one_head_quadric_prediction_matches": true
+        }
+      ],
+      "complete": true,
+      "total_seconds": 0.676978
+    }
+  ],
+  "total_seconds": 25.068092,
+  "updated_utc": "2026-10-19T16:08:37.053659+00:00",
+  "summary": {
+    "cases_recorded": 24,
+    "cases_complete": 24,
+    "degrees_computed": 148,
+    "timeouts": 0,
+    "odd_factors_observed": false,
+    "one_head_prediction_mismatches": 0
+  },
+  "last_run_seconds": 24.064326,
+  "total_seconds_basis": "sum of case elapsed times across resumed runs; excludes process imports"
+}

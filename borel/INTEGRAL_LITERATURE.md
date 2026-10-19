@@ -242,11 +242,18 @@ selected tail-generator matrices.
 
 The last observation is relevant to the measured B/D factors of two. It is
 background for deriving them, not by itself a formula for every selected
-Pontryagin/Euler image. No uniform finite or stable Smith-factor formula for
+Pontryagin/Euler image. No closed finite-rank partition classification for
 the exact B/D selected families was located in the sources reviewed here.
 Since their full rings and products are already known, a new claim would
 require identifying what additional arithmetic statement is obtained from
 those presentations.
+
+The subsequent [orthogonal proof notes](ORTHOGONAL_SMITH.md) give deductions
+from this background: stable primitivity, finite powers-of-two restrictions,
+a type B exponent bound and block symmetry, complete quadric formulas,
+and exact matrix and gluing formulas. They explicitly distinguish these
+proved statements from a closed finite partition classification and make
+no novelty claim.
 
 ## Ambient torsion-index theory has a different scope
 
@@ -300,8 +307,8 @@ between the normalized and literal representation forms for Sp and SO
 described above. The latter comparisons depend on the stated character
 lattices and do not automatically apply to Spin.
 
-**Not located in this targeted audit:** a systematic formula for all Smith
-factors of the selected finite/stable B/D Pontryagin-and-Euler images, or a
+**Not located in this targeted audit:** a closed partition formula for all
+finite Smith multiplicities of the selected B/D Pontryagin-and-Euler images, or a
 classification for the exact exceptional catalogue Z-forms. This means a
 matching theorem was not found in the reviewed primary sources, not that
 these statements are new. The reviewed scope includes Parts I--III, the
@@ -309,8 +316,8 @@ theta/eta and quaternionic references above, ambient torsion-index theory,
 exceptional integral presentations, and searches combining the Springer-map
 and selected-image terminology with integral/saturation/Smith descriptions.
 
-A useful next mathematical question is whether the orthogonal factors of
-two admit a uniform description from the known eta and Chern-monomial bases,
-followed by a proof. A second is to identify and compare natural integral
+A remaining mathematical question is whether the exact orthogonal matrix
+and gluing formulas in the proof notes can be simplified to partition
+statistics. A second is to identify and compare natural integral
 forms of the exceptional polynomial representation subalgebras. Any claim
 about representation rings must specify that form explicitly.

@@ -1,0 +1,22 @@
+{
+  "suite_result": "passed",
+  "generated_utc": "2026-10-19T16:18:43.867869+00:00",
+  "sage_version": "9.5",
+  "input_file": "orthogonal_smith_search_results.json",
+  "input_sha256": "bbb2080a2c668b177008db2085962d76d23456e2ad1b5b4fbac9e136253645f7",
+  "input_bytes": 110765,
+  "source_script_sha256": "8c8010936df1ca5ea1582377dc5600abeba497ff88fa5fa8cd36532a2e95973a",
+  "type_B_cases": 15,
+  "maximum_rank": 6,
+  "maximum_polynomial_degree": 12,
+  "checks": {
+    "rectangle_rank_checks": 78,
+    "frobenius_unit_count_checks": 78,
+    "power_of_two_and_exponent_bound_checks": 78,
+    "stable_range_checks": 35,
+    "block_duality_checks": 46
+  },
+  "independent_expected_values": "Schur Littlewood--Richardson products over GF(2), restricted to the ordinary complex Grassmannian rectangle; no Borel engine used",
+  "scope": "Finite verification of proved consequences; does not classify all higher two-adic multiplicities or establish novelty",
+  "seconds": 0.131811
+}

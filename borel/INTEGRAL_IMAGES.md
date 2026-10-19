@@ -142,6 +142,13 @@ For a target coordinate vector `a`, membership is equivalent to: its coordinates
 
 ## Scope, cost and reproducibility
 
+For uniform mathematical results beyond the bounded calculations, see
+[Orthogonal Springer images](ORTHOGONAL_SMITH.md). The accompanying proofs
+give powers-of-two restrictions, stable saturation, complete quadric cases,
+the type B weighted-minor formula and a type D integral gluing rule. A closed
+partition classification of all finite-rank multiplicities remains open in
+these notes.
+
 The method computes one exact degree at a time. A list of bounded reports is not a proof of a uniform formula or a complete integral ring presentation. `A.presentation()` continues to compute the complete kernel over QQ; its Groebner basis must not be relabeled an integral kernel certificate. Integral image calculations currently require Schubert-coordinate matrices rather than the rational coinvariant backend, whose coordinates need not form an integral Schubert lattice.
 
 `A.clear_cache()` clears integral reports and generator integrality checks alongside the existing caches. Smith transformations and integer preimages can grow large even when the invariant factors are short. The default avoids ambient-basis generation; it does not promise fast high-rank dense expansions.

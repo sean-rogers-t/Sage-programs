@@ -13,6 +13,10 @@ The [graded image calculator](borel/IMAGE_RELATIONS.md) computes exact relations
 among chosen generator images, with two-step symplectic flag experiments and
 an invariant-theory derivation of their joint-image presentation.
 
+The [orthogonal Smith-factor notes](borel/ORTHOGONAL_SMITH.md) prove general
+type B/D restrictions, stable primitivity, quadric formulas and an integral
+gluing rule, with reproducible finite checks and explicit remaining questions.
+
 Research articles and the independently checked F4, E6 and E7 Springer-morphism
 note are indexed in [articles/README.md](articles/README.md).
 
