@@ -68,8 +68,14 @@ saturation result and the scope of the orthogonal and exceptional questions.
 The [orthogonal research note](ORTHOGONAL_SMITH.md) proves that normalized
 type B/D factors are powers of two and that the stable images are saturated.
 It includes a type B exponent bound and block symmetry, closed quadric
-formulas, and an exact type D integral gluing rule. It distinguishes these
-results from the remaining closed finite-rank partition classification.
+formulas, and an exact type D integral gluing rule. The
+[type B partition formulas](TYPE_B_SMITH.md) now give complete multiplicities
+when one block has size at most three, and the
+[unit multiplicity](TYPE_B_UNIT_SMITH.md) and
+[largest-factor multiplicity](TYPE_B_HIGHEST_SMITH.md) in every rank.
+The [closed all-rank partition candidate](TYPE_B_CLOSED_CONJECTURE.md)
+matches every recorded Smith list. Intermediate multiplicities for larger
+blocks remain conjectural.
 
 It computes
 

@@ -16,6 +16,10 @@ an invariant-theory derivation of their joint-image presentation.
 The [orthogonal Smith-factor notes](borel/ORTHOGONAL_SMITH.md) prove general
 type B/D restrictions, stable primitivity, quadric formulas and an integral
 gluing rule, with reproducible finite checks and explicit remaining questions.
+For type B they also include complete closed partition multiplicities through
+three-row families, plus unit and largest-factor multiplicities in every rank.
+The [closed all-rank partition candidate](borel/TYPE_B_CLOSED_CONJECTURE.md)
+records the remaining conjecture and its independent finite checks.
 
 Research articles and the independently checked F4, E6 and E7 Springer-morphism
 note are indexed in [articles/README.md](articles/README.md).

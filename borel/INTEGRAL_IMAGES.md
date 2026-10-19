@@ -146,8 +146,11 @@ For uniform mathematical results beyond the bounded calculations, see
 [Orthogonal Springer images](ORTHOGONAL_SMITH.md). The accompanying proofs
 give powers-of-two restrictions, stable saturation, complete quadric cases,
 the type B weighted-minor formula and a type D integral gluing rule. A closed
-partition classification of all finite-rank multiplicities remains open in
-these notes.
+partition classification at arbitrary block sizes remains open in these
+notes. Type B is now complete when one block has size at most three;
+the unit and largest-factor multiplicities are proved in every rank.
+The [closed all-rank partition candidate](TYPE_B_CLOSED_CONJECTURE.md)
+states the remaining conjecture and its exact integral proof gap.
 
 The method computes one exact degree at a time. A list of bounded reports is not a proof of a uniform formula or a complete integral ring presentation. `A.presentation()` continues to compute the complete kernel over QQ; its Groebner basis must not be relabeled an integral kernel certificate. Integral image calculations currently require Schubert-coordinate matrices rather than the rational coinvariant backend, whose coordinates need not form an integral Schubert lattice.
 

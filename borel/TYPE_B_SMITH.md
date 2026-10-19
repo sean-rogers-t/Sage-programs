@@ -3,8 +3,12 @@
 This note gives proofs for the natural normalized tail generators. It proves
 the possible primes and an exponent bound, a duality in the two block sizes,
 stable saturation, a complete answer when one block has size one, and an
-exact finite determinantal formula. It does **not** give a closed partition
-statistic for the multiplicities of all finite-rank powers of two.
+exact finite determinantal formula. It does **not** prove a closed partition
+statistic for arbitrary block sizes. Subsequent notes give complete closed
+formulas when one block has size at most three, and closed formulas for
+both unit factors and the largest possible factor in every rank.
+The [all-rank partition candidate](TYPE_B_CLOSED_CONJECTURE.md) gives a
+single conjectural formula for the remaining intermediate multiplicities.
 
 The arguments assemble classical characteristic-map, quaternionic and
 Grassmannian facts. No novelty claim is made. The character-lattice
@@ -47,6 +51,31 @@ The following statements hold for the normalized inputs:
    $$
 
    The case `k=1` follows by interchanging the blocks.
+6. If `min(a,k)=2`, every multiplicity is given by a two-row partition
+   statistic in [TYPE_B_TWO_ROW_SMITH.md](TYPE_B_TWO_ROW_SMITH.md).
+   If `min(a,k)=3`, the complete multiplicities are the closed partition
+   counts in [TYPE_B_THREE_ROW_SMITH.md](TYPE_B_THREE_ROW_SMITH.md).
+7. For arbitrary `l=min(a,k)`, `A=max(a,k)`, and
+   `T=floor((A+l-1)/2)`, the multiplicity of the largest factor `2^l`
+   is the number of size-`m` partitions in `A^l` whose last part exceeds
+   `T`. The [general proof](TYPE_B_HIGHEST_SMITH.md) uses an integral
+   incidence resolution and Pieri straightening.
+8. The [unit-factor theorem](TYPE_B_UNIT_SMITH.md) gives, in every rank,
+   the positive closed polynomial
+
+   $$
+   \sum_{j=0}^{\lfloor l/2\rfloor}
+   q^{j(c-l+j)}{r\brack j}_q{c-j\brack l-2j}_q,
+   \qquad r=\lfloor n/2\rfloor,\quad c=\lceil n/2\rceil.
+   $$
+
+   Its coefficient of $q^m$ is the number of unit factors. The proof
+   also establishes primitivity of the zero-negative-entry prefix.
+9. For $l=4$, all prefixes are primitive, and the factor-eight
+   multiplicity polynomial is $q^{3c}{r\brack3}_q[c-3]$, where
+   $[v]=1+q+\cdots+q^{v-1}$. The
+   [four-row appendix](TYPE_B_FILTRATION.md) proves these additional
+   partial results. The factor-two/factor-four split remains open here.
 
 The index always means the index in the saturation of the rational image.
 The selected image usually has smaller rank than the full cohomology group.
@@ -367,6 +396,10 @@ recorded grid. Its [verification report](experiments/type_b_frobenius_verificati
 binds the input dataset by SHA-256. Reproduce it from `borel/` with
 `sage -python experiments/verify_type_b_frobenius.py`.
 
-The unresolved simplification is a closed combinatorial rule for how many
-times each exponent between zero and `min(a,k)` occurs, avoiding (4)'s
-determinants. No such rule is proved in this note.
+The [Schur-product filtration](TYPE_B_FILTRATION.md) explains the subsequent
+closed formulas and reduces the general problem to explicitly bounded
+ordinary Schur-product spaces. The
+[closed partition candidate](TYPE_B_CLOSED_CONJECTURE.md) now proposes a
+rule for every factor. Its unit and highest layers are proved in every
+rank. The remaining issue is proving its intermediate layers when
+`min(a,k)>=4`, including the required integral prefix comparisons.

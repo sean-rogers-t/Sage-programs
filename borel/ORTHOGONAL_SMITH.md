@@ -1,8 +1,13 @@
 # Orthogonal Springer images: formulas, proofs, and the remaining question
 
 We can prove several uniform statements for the normalized type B and D tail
-generators. The unrestricted finite-rank multiplicities are not yet given by
-a closed partition statistic. This note distinguishes the proved formulas
+generators. The unrestricted finite-rank partition classification is not
+yet fully proved. Complete type B formulas are now proved
+when one block has size at most three; its unit and largest-factor
+multiplicities are known in every rank. A single
+[closed partition candidate](TYPE_B_CLOSED_CONJECTURE.md) now describes all
+layers, with intermediate layers still conjectural in larger blocks.
+This note distinguishes the proved formulas
 from that remaining question. These deductions use the existing integral
 Schubert presentations; no claim of novelty is made.
 
@@ -40,9 +45,9 @@ can be smaller than the full cohomology group.
 | Possible normalized factors | $2^e$, $0\leq e\leq\min(a,k)$ | Powers of $2$ |
 | Stable image, with $k$ fixed | Saturated in every degree | Saturated in every degree |
 | Sufficient finite range for all factors $1$ | $d\leq\max(a,k)$ | $d\leq a$ |
-| Complete closed families | $a=1$ or $k=1$ | $a=1$ |
-| Other uniform information | Block symmetry, rank formula, Frobenius formula for the unit factors, weighted-minor formula for every factor | Euler-sector comparison and the integral gluing formula below |
-| Remaining classification | Closed partition multiplicities of $2,4,\ldots$ at arbitrary finite rank | Closed partition multiplicities, including the integral gluing |
+| Complete closed families | $\min(a,k)\leq3$ | $a=1$ |
+| Other uniform information | Block symmetry, rank formula, closed unit and largest-factor multiplicities, weighted-minor formula for every factor | Euler-sector comparison and the integral gluing formula below |
+| Remaining classification | Intermediate multiplicities for $\min(a,k)\geq4$ | Closed partition multiplicities, including the integral gluing |
 
 The detailed proofs are in [TYPE_B_SMITH.md](TYPE_B_SMITH.md) and
 [TYPE_D_SMITH.md](TYPE_D_SMITH.md). The stable assertions strengthen
@@ -99,6 +104,47 @@ H^{4m}(\operatorname{Gr}(k,n);\mathbb F_2)\right).
 It is verified independently using ordinary Schur multiplication in
 [verify_type_b_frobenius.py](experiments/verify_type_b_frobenius.py), rather
 than the library's BGG implementation.
+
+### Closed type B partition formulas
+
+The [two-row theorem](TYPE_B_TWO_ROW_SMITH.md) gives every factor when
+$\min(a,k)=2$. For $A=\max(a,k)$, $u=\lceil A/2\rceil$,
+$v=\lfloor A/2\rfloor$, attach to each partition $(r,s)\subseteq A^2$
+the exponent
+
+\[
+e(r,s)=
+\begin{cases}
+0&r\leq u,\ s\leq v,\\
+2&s>u,\\
+1&\text{otherwise}.
+\end{cases}
+\]
+
+In polynomial degree $2m$, take $2^{e(r,s)}$ for the pairs with $r+s=m$.
+The [three-row theorem](TYPE_B_THREE_ROW_SMITH.md) gives all four
+multiplicities when $\min(a,k)=3$, using closed Gaussian polynomials and
+bounded three-part partition counts.
+
+For every $l=\min(a,k)$, the [largest-factor theorem](TYPE_B_HIGHEST_SMITH.md)
+gives the multiplicity of $2^l$ in every degree:
+
+\[
+\sum_m M_l(m)q^m
+=q^{l(T+1)}{A-T-1+l\brack l}_q,\qquad
+T=\left\lfloor\frac{A+l-1}{2}\right\rfloor.
+\]
+
+The [incidence and Schur-product filtration](TYPE_B_FILTRATION.md)
+proves the common reduction and identifies the remaining question for
+larger blocks.
+
+The [unit-factor theorem](TYPE_B_UNIT_SMITH.md) supplies a positive
+Gaussian-polynomial count in all ranks, strengthening the Frobenius-rank
+description to a closed formula. The
+[complete candidate](TYPE_B_CLOSED_CONJECTURE.md) organizes every factor
+by one partition sum; its intermediate larger-block layers remain
+conjectural.
 
 ## Type D: an exact integral gluing formula
 
@@ -297,7 +343,9 @@ PYTHONPATH=src sage -python experiments/orthogonal_sector_search.py
 PYTHONPATH=src sage -python experiments/orthogonal_gluing_flags.py
 ```
 
-The most specific remaining goal is to replace the type B weighted minors
-and the type D flag-intersection data by explicit statistics on partitions.
+The remaining type B goal is a proof of the proposed closed rule for
+intermediate multiplicities when $\min(a,k)\geq4$.
+For type D, the goal is to replace the
+flag-intersection data by explicit statistics on partitions.
 The established formulas constrain that search and rule out the naive union
 of the two type D sector Smith lists.

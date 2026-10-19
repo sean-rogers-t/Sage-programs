@@ -252,8 +252,23 @@ The subsequent [orthogonal proof notes](ORTHOGONAL_SMITH.md) give deductions
 from this background: stable primitivity, finite powers-of-two restrictions,
 a type B exponent bound and block symmetry, complete quadric formulas,
 and exact matrix and gluing formulas. They explicitly distinguish these
-proved statements from a closed finite partition classification and make
-no novelty claim.
+proved statements from an unrestricted finite partition classification.
+The later [type B closed formulas](TYPE_B_SMITH.md) cover every
+multiplicity when one block has size at most three, and the unit and
+largest factors in every rank. The proofs are deductions using the cited integral
+Schubert structure; their possible novelty has not been established.
+
+The [all-rank unit proof](TYPE_B_UNIT_SMITH.md) additionally uses
+[David Anderson, *Integral equivariant cohomology of affine Grassmannians*](https://doi.org/10.4153/S0008439524000122),
+the main theorem on journal p.728 and ordinary specialization on p.729.
+It applies integral Chern generation to a bounded affine Schubert union
+parametrizing invariant subspaces of a maximal-rank square-zero operator.
+This is a preserved-subspace variety; partial Springer flag varieties
+defined by annihilation of successive quotients have different incidence
+conditions. A rational invariant-theory comparison alone would not prove
+the integral Smith statement. The
+[full partition candidate](TYPE_B_CLOSED_CONJECTURE.md) distinguishes this
+proved unit layer from the unproved intermediate layers.
 
 ## Ambient torsion-index theory has a different scope
 

@@ -48,11 +48,39 @@
       "python_blocks_executed": 0
     },
     {
+      "file": "TYPE_B_FILTRATION.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "TYPE_B_TWO_ROW_SMITH.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "TYPE_B_THREE_ROW_UNITS.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "TYPE_B_THREE_ROW_SMITH.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "TYPE_B_HIGHEST_SMITH.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "TYPE_B_UNIT_SMITH.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "TYPE_B_CLOSED_CONJECTURE.md",
+      "python_blocks_executed": 0
+    },
+    {
       "file": "experiments/TWO_STEP_DERIVATION.md",
       "python_blocks_executed": 0
     }
   ],
-  "local_links_and_anchors_checked": 109,
+  "local_links_and_anchors_checked": 183,
   "python_blocks_executed": 18,
   "scope": "Python fences executed in reading order in a fresh namespace per document; local links and anchors checked. Shell snippets and external URLs were not automatically executed or crawled."
 }
