@@ -1,13 +1,15 @@
-# A closed partition candidate for all type-B Smith multiplicities
+# The closed partition formula for all type-B Smith multiplicities
 
-**Status: general conjecture, with audited special-case deductions.**
+**Status: complete repository derivation, 19 October 2026.**
+The [general proof](TYPE_B_GENERAL_SMITH.md) now supplies the integral
+comparison missing from the original candidate. The filename is retained
+for existing links and experiment commands.
 See [PROOF_STATUS.md](PROOF_STATUS.md) for the published inputs, checked
 arguments, and literature limits. Novelty has not been established.
 
-This note proposes a positive partition formula for every normalized type-B
-multiplicity. The endpoint cases and all three-row multiplicities have
-derivations audited in the companion notes. The unrestricted assertion for
-intermediate factors remains a conjecture; finite evidence does not prove it.
+This note records the positive partition formula for every normalized type-B
+multiplicity and its geometric motivation. The general argument is an
+unpublished repository deduction without external expert review.
 The polynomial $U_{n,l}$ is a classical Birkhoff/Hall counting polynomial.
 The additional Smith interpretation requires the arguments cited below.
 
@@ -35,7 +37,7 @@ q^{j(c-l+j)}{r\brack j}_q{c-j\brack l-2j}_q.
 \tag{1}
 $$
 
-The proposed complete answer is
+The complete answer under the stated normalization is
 
 $$
 \boxed{E_{n,l,e}(q)=q^{ec}{r\brack e}_q U_{n-2e,l-e}(q).}
@@ -55,7 +57,7 @@ q^{ec+j(c-l+j)}
 \tag{3}
 $$
 
-Thus the candidate multiplicity counts tuples $(j,\lambda,\alpha,\beta)$
+Thus the multiplicity counts tuples $(j,\lambda,\alpha,\beta)$
 with
 
 $$
@@ -73,7 +75,7 @@ $$
 This requires partition counting, without Schubert matrices, Smith
 reduction, or a rank calculation.
 
-## Audited deductions and the remaining conjecture
+## Deductions and the general comparison
 
 * **$e=0$, all ranks:** (1) is the unit multiplicity polynomial.
   [TYPE_B_UNIT_SMITH.md](TYPE_B_UNIT_SMITH.md) proves this integrally
@@ -84,22 +86,22 @@ reduction, or a rank calculation.
   [two-row](TYPE_B_TWO_ROW_SMITH.md) and
   [three-row](TYPE_B_THREE_ROW_SMITH.md) notes prove these multiplicities
   by integral Schur straightening and primitive filtrations.
-* **$l=4,e=3$:** the appendix of
-  [TYPE_B_FILTRATION.md](TYPE_B_FILTRATION.md) gives the closed
-  polynomial $q^{3c}{r\brack3}_q[c-3]$. All four-row prefixes are
-  primitive; a closed first-prefix rank is still needed to separate
-  the factor-two and factor-four multiplicities.
+* **Three highest layers, all ranks:** the independent elementary
+  [high-layer proof](TYPE_B_HIGH_LAYERS.md) gives $e=l-2,l-1,l$
+  through coordinate and graph lattices. Together with the unit result,
+  this already settles every $l\le4$.
+* **Every $l,e$:** [TYPE_B_GENERAL_SMITH.md](TYPE_B_GENERAL_SMITH.md)
+  proves all prefixes primitive with the exact cumulative ranks, using
+  integral Chow-envelope rows, a unit triangular minor and a Betti bound.
 * **General integral reduction:** [TYPE_B_FILTRATION.md](TYPE_B_FILTRATION.md)
   identifies every weighted Schubert prefix with a specified
   Schur-product row lattice. Its rank increments give Smith
   multiplicities if all these row lattices are primitive.
 
 The bullets describe deductions in these notes, not exact Smith theorems
-located in the cited literature. The remaining claim in (2)--(3) is the
-unrestricted interpretation of the intermediate layers as Smith
-multiplicities. The geometry below proves
-that these polynomials count natural strata. An integral comparison with
-the selected Springer image still needs proof. No novelty claim is made.
+located in the cited literature. The geometry below counts natural strata;
+the general proof now supplies the additional integral Springer-image
+comparison. Counting alone remains insufficient. No novelty claim is made.
 
 ## Why these polynomials arise geometrically
 
@@ -178,10 +180,10 @@ power of $q$ is used. For $n=8,l=4$ the candidate
 counts over all degrees are $19,28,18,4,1$ for the factors
 $1,2,4,8,16$. Their sum is ${8\choose4}=70$.
 
-## The exact missing comparison
+## The formerly missing comparison and its resolution
 
 For the integral prefix row lattices $P_t$ in
-[TYPE_B_FILTRATION.md](TYPE_B_FILTRATION.md), the desired bridge is
+[TYPE_B_FILTRATION.md](TYPE_B_FILTRATION.md), the required bridge is
 
 $$
 P_t\text{ primitive},\qquad
@@ -196,13 +198,18 @@ $U$, together with the balanced auxiliary subspace used to resolve that
 invariant Grassmannian. Its iterated Grassmannian bundles reproduce
 the Schur-product rows for $P_t$.
 
-However, Chern classes generating the resolution cohomology do not alone
-prove that the combined tautological Chern classes generate
-$H^*(W_t;\mathbb Z)$. Primitivity of the resolution pullback also needs
-an integral argument. For $t=0$ the affine Grassmannian proof supplies
-both. For $t>0$, $U$ need not be $N$-invariant, so its inverse image is
-not a lattice over $\mathbb C[[z]]$. The same proof cannot simply be
-reused. A rational comparison would leave the Smith problem unresolved.
+Chern generation on the resolution alone does not prove (6).
+For $t>0$, $U$ need not be invariant, so the $t=0$ affine-lattice
+argument cannot simply be reused.
+
+The [defect comparison](TYPE_B_DEFECT_COMPARISON.md) proves the balanced
+incidence map is a Chow envelope over function fields. The
+[general proof](TYPE_B_GENERAL_SMITH.md) uses it to lift cycles from
+unbalanced incidence bundles. Their rows contain a primitive triangular
+family indexed by a union of partition shapes. Its beta-number count
+equals the Betti bound of $W_t$, forcing equality with $P_t$.
+This proves (6) integrally, and hence (2)--(3). Ambient integral Chern
+generation follows as a consequence.
 
 ## Reproducible evidence
 

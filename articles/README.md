@@ -68,7 +68,9 @@ The [integral Springer–Borel image note](orthogonal-images-summary/README.md)
 connects the orthogonal Smith calculations to Parts II and III. It labels
 published inputs, deductions in the companion notes, and conjectures
 separately, with normalization conventions, proof sketches, references, and
-the remaining integral comparison problem. It makes no originality claim.
+the integral comparison problem at its baseline. It makes no originality claim.
+Subsequent work supplies a [general type-B proof](../borel/TYPE_B_GENERAL_SMITH.md);
+the PDF remains the labeled earlier snapshot.
 
 - [Five-page LaTeX PDF](orthogonal-images-summary/output/pdf/Springer_integral_images_for_Shrawan.pdf)
 - [Editable LaTeX source](orthogonal-images-summary/main.tex)

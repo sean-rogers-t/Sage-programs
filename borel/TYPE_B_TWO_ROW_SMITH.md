@@ -278,6 +278,6 @@ finite Smith datasets, including either orientation of the two blocks.
 The proof above applies to all `A>=2`; the data are a check of its
 implementation and conventions. The separate
 [three-row deduction](TYPE_B_THREE_ROW_SMITH.md) treats `min(a,k)=3`.
-The unrestricted formula for intermediate multiplicities in larger
-blocks remains conjectural; see
-[TYPE_B_CLOSED_CONJECTURE.md](TYPE_B_CLOSED_CONJECTURE.md).
+The separate [general proof](TYPE_B_GENERAL_SMITH.md) now covers every
+larger block; its [formula](TYPE_B_CLOSED_CONJECTURE.md) specializes to
+the independent two-row argument here.

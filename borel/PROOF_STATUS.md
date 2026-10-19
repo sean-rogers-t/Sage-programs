@@ -24,6 +24,22 @@ The conclusions below are based on the displayed arguments and checked
 source statements. External expert review and any claim of priority remain
 separate work.
 
+## General type-B comparison completed in these notes
+
+The subsequent [general proof](TYPE_B_GENERAL_SMITH.md) supplies the
+formerly missing comparison in every rank. A balanced incidence map is a
+Chow envelope over function fields. It imports unbalanced-incidence rows
+integrally; their Jacobi--Trudi leading terms give a unit triangular
+minor. A beta-number count matches the defect-locus Betti bound, forcing
+all prefixes primitive with the required ranks. This is a complete
+repository derivation under the stated normalization and earlier prefix
+reduction, not a published or externally peer-reviewed theorem.
+
+The polynomial expression also has an existing Demazure-character
+interpretation: Chari--Schneider--Shereen--Wand, Theorem 3.3(ii)--(iii),
+[primary text](https://arxiv.org/pdf/1310.5191). That complex character
+identity does not itself prove the integral Springer comparison.
+
 ## Current mathematical status
 
 Throughout, $q_i=e_i(x_{\rm tail}^2)$ are the fixed normalized inputs,
@@ -40,11 +56,11 @@ selected rational image. They need not be indices in all cohomology.
 | All-rank type-B unit Smith multiplicities equal $U_{n,\ell}$; primitivity of $P_0$ | Audited deduction | [Unit note](TYPE_B_UNIT_SMITH.md): 2-quotient rows, bounded affine Schubert union, integral Chern generation, and primitive resolution pullback. This Smith interpretation is an additional argument, not the assertion of Birkhoff's theorem. |
 | Type-B rank, exponent bound $0\le e\le\min(a,k)$, block duality, stable primitivity, finite sufficient range | Audited deductions | [Structural note](TYPE_B_SMITH.md). Integrality of pullbacks and source changes is essential. |
 | The general Schur-product description of each $P_t$ | Audited deduction | [Filtration note](TYPE_B_FILTRATION.md). Cell sections and both primitive pullbacks preserve the entire integer row lattice. |
-| Smith multiplicities are successive ranks of $P_t$ | Conditional lattice lemma | Requires every prefix to be primitive; without that hypothesis ranks alone do not determine Smith factors. |
-| Every type-B multiplicity for $\ell=\min(a,k)\le3$ | Audited deductions | [Two-row](TYPE_B_TWO_ROW_SMITH.md) and [three-row](TYPE_B_THREE_ROW_SMITH.md) arguments give integral reductions, beyond fitting finite data. |
+| Smith multiplicities are successive ranks of $P_t$ | Lattice lemma, now applicable in every rank | [General proof](TYPE_B_GENERAL_SMITH.md) establishes the required primitivity for all prefixes; ranks alone without that hypothesis would be insufficient. |
+| Every type-B multiplicity in every rank | Complete repository deduction | [General proof](TYPE_B_GENERAL_SMITH.md): Chow-envelope containment, unit triangular minor, exact beta-number count, and matching Betti bound. No external expert review or novelty claim. |
 | Largest possible factor $2^\ell$ in every rank | Audited deduction | [Highest-factor note](TYPE_B_HIGHEST_SMITH.md). A Pieri coordinate-lattice proof determines this without all-prefix primitivity. |
-| All prefixes primitive for $\ell=4$; closed factor-eight multiplicity | Audited deductions | [Four-row appendix](TYPE_B_FILTRATION.md): graph incidence and an explicit complete-symmetric coordinate lattice. A closed first-prefix rank is still missing for the factor-two/factor-four split. |
-| Full positive type-B partition formula for arbitrary $\ell,e$ | Conjecture outside the proved cases | [Candidate note](TYPE_B_CLOSED_CONJECTURE.md). Defect-stratum counting does not by itself identify the integral Springer image. |
+| Three highest multiplicities in every rank; all $\ell\le4$ | Independent repository deduction | [High-layer note](TYPE_B_HIGH_LAYERS.md): complete-symmetric spectators, a coordinate prefix and graph components. This gives an alternative proof of those layers. |
+| Full positive type-B partition formula for arbitrary $\ell,e$ | Complete repository deduction; formerly conjectural | [Formula](TYPE_B_CLOSED_CONJECTURE.md) and [integral proof](TYPE_B_GENERAL_SMITH.md). Defect-stratum counting is combined with the integral triangular squeeze. |
 | Type-D stable primitivity, sufficient finite range, only powers of two, Euler-sector B comparison, quadric table | Audited deductions | [Type-D note](TYPE_D_SMITH.md), with integral eta specialization, localized Reynolds projection, and the explicit BKT difference basis. |
 | Type-D two-flag gluing rule | Audited elementary lattice lemma | [Orthogonal note](ORTHOGONAL_SMITH.md). It needs sector exponents and flag-intersection data; it is not a closed partition classification. |
 | Type-D square-sector equality with B in general; full D partition formula | Conjectural/open in these notes | The finite data and rational comparisons do not prove the necessary integral saturation statement. |
@@ -62,6 +78,13 @@ characteristic-map citation in D, a source-rank notation collision in the
 four-row lattice split, and an obsolete two-row scope sentence.
 The factor-eight argument now states its narrower dependency on $P_2$
 and the largest-factor deduction, rather than all prefix results.
+
+The new [general verification report](experiments/type_b_general_smith_verification.json)
+records 585,243 direct beta-number/corner comparisons in 72 parameter cases,
+and 21 fresh exact integer LR module comparisons with the constructed
+unit triangular rows, through smaller-block size eight. The [high-layer report](experiments/type_b_high_layers_verification.json)
+records 495 full-graph degree components and 56 exact LR module equalities.
+These finite checks support the written proofs and are not proofs by themselves.
 
 ## The unit polynomial is already classical
 
@@ -195,7 +218,7 @@ form”, “Schur Smith plethysm”, and “Grassmannian Frobenius image
 cohomology characteristic two”.
 
 The reviewed sources supply substantial existing structure. No exact
-published theorem matching the remaining all-rank selected-image Smith
+published theorem matching the all-rank selected-image Smith
 classification was located. Nor was an exact published Smith-unit
 identification located in the sources read. Neither statement proves that
 such a result is absent from the literature. Before describing any

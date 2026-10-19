@@ -76,6 +76,18 @@
       "python_blocks_executed": 0
     },
     {
+      "file": "TYPE_B_GENERAL_SMITH.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "TYPE_B_HIGH_LAYERS.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "TYPE_B_DEFECT_COMPARISON.md",
+      "python_blocks_executed": 0
+    },
+    {
       "file": "PROOF_STATUS.md",
       "python_blocks_executed": 1
     },
@@ -84,7 +96,7 @@
       "python_blocks_executed": 0
     }
   ],
-  "local_links_and_anchors_checked": 215,
+  "local_links_and_anchors_checked": 264,
   "python_blocks_executed": 19,
   "scope": "Python fences executed in reading order in a fresh namespace per document; local links and anchors checked. Shell snippets and external URLs were not automatically executed or crawled."
 }

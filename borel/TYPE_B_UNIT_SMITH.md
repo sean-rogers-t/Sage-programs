@@ -13,8 +13,9 @@ results, audited deductions, finite computations, and conjectures.
 This note derives a closed formula, in every rank and degree, for the number
 of Smith factors equal to **1** in the normalized type-B Springer image. It
 also derives that the zero-negative-entry symplectic comparison matrix has
-a primitive integral image. The complete formula for all powers of 2 remains
-a separate conjecture outside the cases justified in the companion notes.
+a primitive integral image. The complete formula for all powers of 2 is now established separately
+in [TYPE_B_GENERAL_SMITH.md](TYPE_B_GENERAL_SMITH.md); this note retains
+its independent unit-layer argument.
 
 The argument identifies that matrix with restriction to the variety of invariant
 subspaces of a square-zero operator of largest possible rank. An embedding of
@@ -421,18 +422,18 @@ unit multiplicities and the multiplicities of the largest possible factor
 [TYPE_B_TWO_ROW_SMITH.md](TYPE_B_TWO_ROW_SMITH.md) and
 [TYPE_B_THREE_ROW_SMITH.md](TYPE_B_THREE_ROW_SMITH.md).
 
-The proposed unrestricted formula for every factor is
+The unrestricted formula, now proved separately, is
 
 \[
 \sum_m M_e(m)q^m
-\stackrel{?}{=}
+=
 q^{ec}{r\brack e}_q U_{n-2e,\ell-e}(q).
 \]
 
 The present deduction proves its \(e=0\) case. It does not establish integral
 Chern generation for the larger defect loci, nor primitivity of all the
-intermediate lattices \(P_t\). Those remain necessary additional steps for
-a general proof of the complete Smith formula.
+intermediate lattices \(P_t\). The [general proof](TYPE_B_GENERAL_SMITH.md)
+supplies those comparisons by a different integral triangular argument.
 
 The affine-Grassmannian input is a published theorem. Its application to the
 specific lattice (3), the primitive-section argument, and the resulting
@@ -446,5 +447,5 @@ by exact integer Littlewood--Richardson matrices: every nonzero prefix
 Smith factor is one, and every rank agrees with (1). Reproduce it from
 the package directory with
 `sage -python experiments/probe_type_b_qtrinomial.py --unit-frontier`.
-These checks support the proof; the unrestricted intermediate-layer
-claim in that probe remains conjectural.
+These checks support the unit proof; the unrestricted intermediate-layer
+statement is now derived in the separate general proof.

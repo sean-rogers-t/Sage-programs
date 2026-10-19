@@ -1,4 +1,4 @@
-"""A conjectural q-trinomial multiplicity probe; no proof is asserted."""
+"""A finite q-trinomial probe; the general proof is TYPE_B_GENERAL_SMITH.md."""
 
 import json
 from hashlib import sha256
@@ -50,7 +50,7 @@ def main():
                               if key != "degree_reports"}), flush=True)
         here = Path(__file__).resolve().parent
         result = {"unit_frontier_result": "passed", "cases": reports,
-                  "scope": "Independent exact ZZ Littlewood--Richardson P0 Smith forms in all degrees; no Borel or Weyl engine. The full multiplicity formula remains conjectural outside proved cases.",
+                  "scope": "Independent exact ZZ Littlewood--Richardson P0 Smith forms in all degrees; no Borel or Weyl engine. The general multiplicity formula is derived separately in TYPE_B_GENERAL_SMITH.md; this computation is finite corroboration.",
                   "source_sha256": sha256(Path(__file__).read_bytes()).hexdigest(),
                   "helper_sha256": sha256(here.joinpath("verify_type_b_filtration.py").read_bytes()).hexdigest(),
                   "seconds": perf_counter()-started}

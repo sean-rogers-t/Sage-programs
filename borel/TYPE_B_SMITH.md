@@ -11,10 +11,10 @@ the possible primes and an exponent bound, a duality in the two block sizes,
 stable saturation, a complete answer when one block has size one, and an
 exact finite determinantal formula. It does **not** prove a closed partition
 statistic for arbitrary block sizes. Subsequent notes give complete closed
-formulas when one block has size at most three, and closed formulas for
-both unit factors and the largest possible factor in every rank.
-The [all-rank partition candidate](TYPE_B_CLOSED_CONJECTURE.md) gives a
-single conjectural formula for the remaining intermediate multiplicities.
+formulas in every rank in [TYPE_B_GENERAL_SMITH.md](TYPE_B_GENERAL_SMITH.md).
+Its integral triangular squeeze resolves the earlier intermediate-layer
+gap. The [formula note](TYPE_B_CLOSED_CONJECTURE.md) retains the original
+candidate filename for compatibility.
 
 The arguments assemble classical characteristic-map, quaternionic and
 Grassmannian facts. No novelty claim is made. The character-lattice
@@ -77,11 +77,11 @@ The following statements hold for the normalized inputs:
 
    Its coefficient of $q^m$ is the number of unit factors. The proof
    also establishes primitivity of the zero-negative-entry prefix.
-9. For $l=4$, all prefixes are primitive, and the factor-eight
-   multiplicity polynomial is $q^{3c}{r\brack3}_q[c-3]$, where
-   $[v]=1+q+\cdots+q^{v-1}$. The
-   [four-row appendix](TYPE_B_FILTRATION.md) proves these additional
-   partial results. The factor-two/factor-four split remains open here.
+9. The [general proof](TYPE_B_GENERAL_SMITH.md) establishes every
+   multiplicity $E_e=q^{ec}{r\brack e}_qU_{n-2e,l-e}$.
+   The [high-layer note](TYPE_B_HIGH_LAYERS.md) independently gives
+   the three highest exponents in every rank, through graph and
+   coordinate lattices, and hence settles all $l\le4$ as well.
 
 The index always means the index in the saturation of the rational image.
 The selected image usually has smaller rank than the full cohomology group.
@@ -406,6 +406,7 @@ The [Schur-product filtration](TYPE_B_FILTRATION.md) explains the subsequent
 closed formulas and reduces the general problem to explicitly bounded
 ordinary Schur-product spaces. The
 [closed partition candidate](TYPE_B_CLOSED_CONJECTURE.md) now proposes a
-rule for every factor. Its unit and highest layers are proved in every
-rank. The remaining issue is proving its intermediate layers when
-`min(a,k)>=4`, including the required integral prefix comparisons.
+rule for every factor. The [general proof](TYPE_B_GENERAL_SMITH.md)
+now supplies all integral prefix comparisons and rank counts.
+The statement is an unpublished repository deduction; originality and
+external expert review remain separate questions.

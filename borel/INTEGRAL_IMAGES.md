@@ -145,12 +145,11 @@ For a target coordinate vector `a`, membership is equivalent to: its coordinates
 For uniform mathematical results beyond the bounded calculations, see
 [Orthogonal Springer images](ORTHOGONAL_SMITH.md). The accompanying proofs
 give powers-of-two restrictions, stable saturation, complete quadric cases,
-the type B weighted-minor formula and a type D integral gluing rule. A closed
-partition classification at arbitrary block sizes remains open in these
-notes. Type B is now complete when one block has size at most three;
-the unit and largest-factor multiplicities are proved in every rank.
-The [closed all-rank partition candidate](TYPE_B_CLOSED_CONJECTURE.md)
-states the remaining conjecture and its exact integral proof gap.
+the type B weighted-minor formula and a type D integral gluing rule.
+The [general type B proof](TYPE_B_GENERAL_SMITH.md) now establishes the
+closed [all-rank formula](TYPE_B_CLOSED_CONJECTURE.md), including the
+formerly missing integral comparison. The general type-D partition
+classification remains open.
 These are deductions in the notes, not an attribution of the exact Smith
 formulas to the cited papers or a claim of originality. The
 [claim-by-claim proof/source audit](PROOF_STATUS.md) records the distinctions.

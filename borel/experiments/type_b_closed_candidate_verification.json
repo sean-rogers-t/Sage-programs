@@ -3,11 +3,11 @@
   "status_of_formula": {
     "unit_factors_e_zero": "audited deduction in TYPE_B_UNIT_SMITH.md from published inputs; novelty not established",
     "counting_polynomial": "classical Birkhoff/Hall enumeration; see PROOF_STATUS.md",
-    "general_intermediate_factors": "candidate Gaussian formula; finite verification is not a proof"
+    "general_intermediate_factors": "complete repository derivation in TYPE_B_GENERAL_SMITH.md; finite verification is not a proof"
   },
-  "generated_utc": "2026-10-19T17:36:41.799613+00:00",
+  "generated_utc": "2026-10-19T18:20:45.642642+00:00",
   "Borel_or_Weyl_engine_imported": false,
-  "source_script_sha256": "82e10c13f68a345f9c693db332ed48bc56baed1df2de8d0d65128b4480b7aa10",
+  "source_script_sha256": "d63521939f537cc1b6ef71b72723329ba7e6366438bcf672e11261efdae63281",
   "inputs": [
     {
       "filename": "orthogonal_smith_search_results.json",
@@ -8727,5 +8727,5 @@
     "positive_vs_alternating_unit_identities": 131,
     "counterexamples": 0
   },
-  "seconds": 0.04421
+  "seconds": 0.048686
 }

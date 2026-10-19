@@ -254,10 +254,9 @@ The subsequent [orthogonal proof notes](ORTHOGONAL_SMITH.md) give deductions
 from this background: stable primitivity, finite powers-of-two restrictions,
 a type B exponent bound and block symmetry, complete quadric formulas,
 and exact matrix and gluing formulas. They explicitly distinguish these
-proved statements from an unrestricted finite partition classification.
-The later [type B closed formulas](TYPE_B_SMITH.md) cover every
-multiplicity when one block has size at most three, and the unit and
-largest factors in every rank. The proofs are deductions using the cited integral
+deductions from the separate type-D partition question.
+The later [general type B proof](TYPE_B_GENERAL_SMITH.md) covers every
+normalized multiplicity in every rank, by an integral triangular squeeze. The proofs are deductions using the cited integral
 Schubert structure; their possible novelty has not been established.
 
 The [all-rank unit proof](TYPE_B_UNIT_SMITH.md) additionally uses
@@ -269,8 +268,16 @@ This is a preserved-subspace variety; partial Springer flag varieties
 defined by annihilation of successive quotients have different incidence
 conditions. A rational invariant-theory comparison alone would not prove
 the integral Smith statement. The
-[full partition candidate](TYPE_B_CLOSED_CONJECTURE.md) distinguishes this
-proved unit layer from the unproved intermediate layers.
+[full partition formula](TYPE_B_CLOSED_CONJECTURE.md) is now established
+for every layer by the separate general comparison.
+
+## The full expression also has a published Demazure-character interpretation
+
+[Chari--Schneider--Shereen--Wand](https://arxiv.org/pdf/1310.5191),
+Theorem 3.3(ii)--(iii), already gives this polynomial as a level-two
+Demazure-character decomposition over complex numbers. Its integral
+Springer-image interpretation is established separately in the
+[general proof](TYPE_B_GENERAL_SMITH.md).
 
 ## The unit counting polynomial is classical Birkhoff/Hall enumeration
 
@@ -295,7 +302,7 @@ interpretation for rectangular nilpotent invariant-subspace varieties.
 The exact Springer-Smith unit identification is an additional deduction
 in this repository, using integral Chern generation and a primitive
 pullback. These published counting/geometric facts do not alone state
-that identification or the general intermediate-factor conjecture.
+that identification or the general integral comparison.
 
 For the larger defect strata, put
 $\delta(U)=\dim(U+NU)-\dim U$. When $N^2=0$ the corresponding

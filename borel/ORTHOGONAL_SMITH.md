@@ -1,17 +1,16 @@
 # Orthogonal Springer images: formulas, proofs, and the remaining question
 
 **Status: audited repository deductions (2026-10-19), with a separate
-general conjecture.** [PROOF_STATUS.md](PROOF_STATUS.md) identifies the
+type-D conjecture.** [PROOF_STATUS.md](PROOF_STATUS.md) identifies the
 published inputs and the arguments checked here. This audit does not
 establish novelty or constitute external mathematical review.
 
 The notes derive several uniform statements for the normalized type B and D
-tail generators. Complete type B formulas are derived when one block has
-size at most three; unit and largest-factor multiplicities are derived in
-every rank. The unrestricted finite-rank partition classification remains
-unproved. A single
-[closed partition candidate](TYPE_B_CLOSED_CONJECTURE.md) now describes all
-layers, with intermediate layers still conjectural in larger blocks.
+tail generators. The [general type B proof](TYPE_B_GENERAL_SMITH.md)
+now derives every normalized multiplicity in every rank, closing the
+formerly missing integral comparison. A single
+[closed partition formula](TYPE_B_CLOSED_CONJECTURE.md) describes all
+layers. The type-D partition classification remains open.
 The unit counting polynomial is already classical Birkhoff/Hall enumeration.
 Its identification with the chosen Smith units is an additional argument
 here, rather than a theorem attributed to Birkhoff.
@@ -50,9 +49,9 @@ can be smaller than the full cohomology group.
 | Possible normalized factors | $2^e$, $0\leq e\leq\min(a,k)$ | Powers of $2$ |
 | Stable image, with $k$ fixed | Saturated in every degree | Saturated in every degree |
 | Sufficient finite range for all factors $1$ | $d\leq\max(a,k)$ | $d\leq a$ |
-| Complete closed families | $\min(a,k)\leq3$ | $a=1$ |
+| Complete closed families | Every pair $a,k$ | $a=1$ |
 | Other uniform information | Block symmetry, rank formula, closed unit and largest-factor multiplicities, weighted-minor formula for every factor | Euler-sector comparison and the integral gluing formula below |
-| Remaining classification | Intermediate multiplicities for $\min(a,k)\geq4$ | Closed partition multiplicities, including the integral gluing |
+| Remaining classification | None for these normalized B generators | Closed partition multiplicities, including the integral gluing |
 
 The detailed proofs are in [TYPE_B_SMITH.md](TYPE_B_SMITH.md) and
 [TYPE_D_SMITH.md](TYPE_D_SMITH.md). The stable assertions strengthen
@@ -148,8 +147,9 @@ The [unit-factor theorem](TYPE_B_UNIT_SMITH.md) supplies a positive
 Gaussian-polynomial count in all ranks, strengthening the Frobenius-rank
 description to a closed formula. The
 [complete candidate](TYPE_B_CLOSED_CONJECTURE.md) organizes every factor
-by one partition sum; its intermediate larger-block layers remain
-conjectural.
+by one partition sum. The [general integral proof](TYPE_B_GENERAL_SMITH.md)
+now establishes every layer, and [the high-layer note](TYPE_B_HIGH_LAYERS.md)
+provides an independent elementary argument for the largest three.
 
 ## Type D: an exact integral gluing formula
 
@@ -348,8 +348,9 @@ PYTHONPATH=src sage -python experiments/orthogonal_sector_search.py
 PYTHONPATH=src sage -python experiments/orthogonal_gluing_flags.py
 ```
 
-The remaining type B goal is a proof of the proposed closed rule for
-intermediate multiplicities when $\min(a,k)\geq4$.
+The previously open type-B multiplicities are now covered by the
+[general proof](TYPE_B_GENERAL_SMITH.md). External expert review and
+priority assessment remain separate work.
 For type D, the goal is to replace the
 flag-intersection data by explicit statistics on partitions.
 The established formulas constrain that search and rule out the naive union

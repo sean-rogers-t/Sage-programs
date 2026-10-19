@@ -17,6 +17,12 @@ comparison behind the general multiplicity conjecture. Unit Smith factors
 are retained along with the finite cokernel. The literal SO/Sp character
 normalization is discussed separately from the normalized form.
 
+The PDF is a snapshot of the baseline below. Subsequent work now records
+a [general type-B proof](../../borel/TYPE_B_GENERAL_SMITH.md) closing the
+comparison labeled conjectural in that snapshot. The current
+[proof-status map](../../borel/PROOF_STATUS.md) distinguishes this
+unpublished deduction from published inputs and the remaining type-D question.
+
 Prepared on 19 October 2026 against research baseline
 `0adbc65288539d5aef59b3dfeeb905b2420ce051`. The PDF is a summary with proof
 sketches; the linked companion notes contain the full arguments and exact

@@ -70,13 +70,12 @@ The [orthogonal research note](ORTHOGONAL_SMITH.md) records deductions that norm
 type B/D factors are powers of two and that the stable images are saturated.
 It includes a type B exponent bound and block symmetry, closed quadric
 formulas, and an exact type D integral gluing rule. The
-[type B partition formulas](TYPE_B_SMITH.md) now give complete multiplicities
-when one block has size at most three, and the
-[unit multiplicity](TYPE_B_UNIT_SMITH.md) and
-[largest-factor multiplicity](TYPE_B_HIGHEST_SMITH.md) in every rank.
-The [closed all-rank partition candidate](TYPE_B_CLOSED_CONJECTURE.md)
-matches every recorded Smith list. Intermediate multiplicities for larger
-blocks remain conjectural. The [proof/source audit](PROOF_STATUS.md)
+[general type B proof](TYPE_B_GENERAL_SMITH.md) now gives every normalized
+Smith multiplicity in every rank. A Chow envelope, integral triangular
+rows, beta-number counting and a Betti bound close the previously missing
+comparison. The [formula](TYPE_B_CLOSED_CONJECTURE.md) matches every
+recorded Smith list, and the [high-layer proof](TYPE_B_HIGH_LAYERS.md)
+independently determines the three largest factors in every rank. The [proof/source audit](PROOF_STATUS.md)
 identifies published ingredients and checked repository arguments separately.
 The unit counting polynomial is classical Birkhoff/Hall theory; novelty of
 the Smith interpretations and other deductions has not been established.

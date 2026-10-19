@@ -8,7 +8,8 @@ and dependencies.
 The weighted-minor formula in [TYPE_B_SMITH.md](TYPE_B_SMITH.md) can be
 reduced to a filtration of ordinary Grassmannian Schur spaces. This note
 proves that reduction. It also identifies the remaining integral issue in
-using its ranks as an unrestricted multiplicity formula.
+using its ranks as an unrestricted multiplicity formula. The subsequent
+[general proof](TYPE_B_GENERAL_SMITH.md) now resolves that integral issue.
 
 ## Conventions
 
@@ -183,17 +184,15 @@ $$
 In the adapted basis, a coordinate first appearing in $P_t$ contributes
 exactly the factor $2^t$. Transposition preserves Smith factors.
 
-The primitivity assumption is essential for this argument. It is proved
-for all prefixes when $l\leq3$ in the accompanying closed-form notes,
-and when $l=4$ by the appendix below together with the all-rank endpoint
-results. Closed multiplicity counts are proved here only for $l\leq3$;
-primitivity alone does not supply missing closed rank counts. It is proved
-for $P_0$ in every rank in
-[TYPE_B_UNIT_SMITH.md](TYPE_B_UNIT_SMITH.md), and for $P_{l-1}$ in every rank in
-[TYPE_B_HIGHEST_SMITH.md](TYPE_B_HIGHEST_SMITH.md). Its unrestricted
-validity is still a question here. Finite checks alone do not establish it.
-The proposed closed rank increments and their geometric motivation are
-recorded in [TYPE_B_CLOSED_CONJECTURE.md](TYPE_B_CLOSED_CONJECTURE.md).
+The primitivity assumption is essential for this argument. It is now
+proved for every prefix in the [general proof](TYPE_B_GENERAL_SMITH.md),
+using Chow-envelope rows, energy-triangular pivots, and a matching Betti
+bound. That proof also gives every closed rank increment.
+The [high-layer note](TYPE_B_HIGH_LAYERS.md) independently handles
+$P_{l-3}$ and $P_{l-2}$ in every rank by graph and coordinate lattices.
+The [formula note](TYPE_B_CLOSED_CONJECTURE.md) records the complete
+Gaussian answer and its geometric motivation. Finite checks remain
+corroboration, not the proof.
 
 ## Appendix: two integral prefix statements when the smaller block is four
 
@@ -295,10 +294,10 @@ $$
 is a closed partition count. Together with the all-rank unit-prefix
 theorem, the highest-prefix theorem for $P_3$, and $P_4=\mathbb Z^r$,
 the two arguments above prove primitivity of every prefix for $l=4$.
-The rank-increment rule consequently applies to this family. A closed
-count for $P_1$ is still needed here to turn that fact into a complete
-closed multiplicity formula; no such count is asserted in this
-appendix.
+The rank-increment rule consequently applies to this family. Its
+formerly missing $P_1$ rank is now computed in the
+[high-layer note](TYPE_B_HIGH_LAYERS.md), and all prefixes are also
+covered by the [general proof](TYPE_B_GENERAL_SMITH.md).
 
 ### The multiplicity of the factor eight is closed as well
 
@@ -373,12 +372,13 @@ $$
 and $[r-2]=[r-3]+q^{r-3}$. Their sum becomes exactly the displayed
 rank deficit, since $r=c-1$.
 
-Thus the compact general conjecture is proved for the factor eight
+Thus the compact general formula is proved for the factor eight
 when the smaller block is four, using the audited $P_2$ and
 largest-factor deductions independently of the all-rank unit argument.
-This does not separate the factor-two
-and factor-four multiplicities in that family; their closed count
-still requires the missing $P_1$ rank calculation.
+This particular argument does not separate factors two and four.
+The [high-layer note](TYPE_B_HIGH_LAYERS.md) now supplies that missing
+rank, while the [general proof](TYPE_B_GENERAL_SMITH.md) treats every
+block size.
 
 ## What the new search establishes
 
