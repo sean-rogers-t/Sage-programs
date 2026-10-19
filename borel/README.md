@@ -16,6 +16,7 @@ the mathematical guide for the Borel/Springer construction.
 | Why do the Borel, BGG, Chevalley and coinvariant methods work? | [Mathematical framework and conventions](MATHEMATICS.md) |
 | How do I multiply Schubert classes or lift them to polynomials? | [Schubert multiplication and inverse Borel calculations](SCHUBERT_CALCULUS.md) |
 | Which integer classes do fixed generators produce? | [Integral images and Smith factors](INTEGRAL_IMAGES.md) |
+| How do two integral images compare, and what do mixed products add? | [Lattice comparisons](INTEGRAL_COMPARISONS.md) and [two-step joint-image tables](TWO_STEP_INTEGRAL.md) |
 | Can I get the B/D Smith factors without a matrix? | [Fast orthogonal formula API](ORTHOGONAL_API.md) |
 | What is already known about integral Springer images? | [Literature and normalization audit](INTEGRAL_LITERATURE.md) |
 | Which claims are published, deductions here, or conjectures? | [Proof and literature status](PROOF_STATUS.md) |
@@ -110,6 +111,14 @@ sectors and the scaled character normalization are explicit options.
 See the [API and mathematics](ORTHOGONAL_API.md) and
 [executable examples](examples/orthogonal_smith.py). The general matrix API
 remains the method for membership, preimages, and arbitrary generators.
+
+Version 0.9 adds exact integral image containment, sums, intersections and
+quotients, preserving their Schubert coordinates. The
+[comparison guide](INTEGRAL_COMPARISONS.md) explains the API and integer
+linear algebra. The [two-step experiment](TWO_STEP_INTEGRAL.md) records
+96 degree calculations in types C, B and D, including mixed-product
+contributions and independent Cartesian checks. These bounded tables
+are separate from the general single-tail B/D theorems.
 
 The [extension roadmap](EXTENSIONS.md) separates proposed API work from
 further mathematical questions. The full-paper project is on hold.

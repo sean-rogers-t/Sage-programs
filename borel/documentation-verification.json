@@ -32,6 +32,14 @@
       "python_blocks_executed": 0
     },
     {
+      "file": "INTEGRAL_COMPARISONS.md",
+      "python_blocks_executed": 2
+    },
+    {
+      "file": "TWO_STEP_INTEGRAL.md",
+      "python_blocks_executed": 0
+    },
+    {
       "file": "IMAGE_RELATIONS.md",
       "python_blocks_executed": 2
     },
@@ -160,7 +168,7 @@
       "python_blocks_executed": 0
     }
   ],
-  "local_links_and_anchors_checked": 492,
-  "python_blocks_executed": 22,
+  "local_links_and_anchors_checked": 507,
+  "python_blocks_executed": 24,
   "scope": "Python fences executed in reading order in a fresh namespace per document; local links and anchors checked. Shell snippets and external URLs were not automatically executed or crawled."
 }

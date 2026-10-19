@@ -9,6 +9,8 @@ from .expansion import Expansion
 from .classical import classical_borel, to_type_a
 from .algebra import DegreeAnalysis, GeneratorAlgebra
 from .integral import IntegralDegreeAnalysis
+from .lattices import (IntegralImageLattice, IntegralImageComparison,
+                       IntegralLatticeQuotient, compare_integral_images)
 from .orthogonal import OrthogonalSmithSummary, orthogonal_smith
 from .presentation import KernelCertificate, KernelPresentation
 from .families import TwoStepSymplectic, two_step_symplectic
@@ -16,10 +18,12 @@ from .exceptional import (ExceptionalBorel, GeneratorInfo, exceptional_borel,
                           exceptional_generators, exceptional_image,
                           exceptional_polynomial)
 
-__version__ = "0.8.0"
+__version__ = "0.9.0"
 __all__ = ["BorelMap", "Expansion", "classical_borel", "to_type_a",
            "ExceptionalBorel", "GeneratorInfo", "exceptional_borel",
            "exceptional_generators", "exceptional_polynomial", "exceptional_image",
            "DegreeAnalysis", "IntegralDegreeAnalysis", "OrthogonalSmithSummary", "orthogonal_smith",
+           "IntegralImageLattice", "IntegralImageComparison", "IntegralLatticeQuotient",
+           "compare_integral_images",
            "GeneratorAlgebra", "KernelCertificate", "KernelPresentation",
            "TwoStepSymplectic", "two_step_symplectic"]

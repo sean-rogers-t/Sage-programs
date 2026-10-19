@@ -60,6 +60,7 @@ Only nonzero Schubert-support rows are stored. Adding zero rows does not change 
 | `D.contains(a)` | Whether a homogeneous Schubert expansion belongs to this integer image |
 | `D.preimage(a)` | One integer-coefficient formal polynomial mapping to `a`; raises if none exists |
 | `D.as_dict()` | JSON-safe matrices, labels and invariant factors |
+| `D.lattice()`, `D.compare(other)` | Embedded lattice and exact comparisons, sums and intersections; see [the comparison guide](INTEGRAL_COMPARISONS.md) |
 
 Membership requires the same flag-variety context and degree; zero is allowed in every degree. A rational class with noninteger Schubert coefficients returns `False`. The preimage is in the existing rational formal polynomial ring, with every coefficient integral. It need not be unique when the map has relations.
 

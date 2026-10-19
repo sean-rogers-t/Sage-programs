@@ -101,6 +101,19 @@ class IntegralDegreeAnalysis:
             return None
         return self.image_dimension == self.ambient_dimension
 
+    def lattice(self):
+        """Return an embedded lattice for exact sums, intersections and quotients."""
+        from .lattices import IntegralImageLattice
+        # integral_degree already computed and froze these exact bases.
+        return IntegralImageLattice(
+            self.degree, self.schubert_indices, self.image_lattice_basis,
+            self.smith_factors, self.saturation_lattice_basis, self._borel_map)
+
+    def compare(self, other):
+        """Compare with another degree report or an IntegralImageLattice."""
+        from .lattices import compare_integral_images
+        return compare_integral_images(self, other)
+
     def _integer_preimage_coefficients(self, expansion):
         if not isinstance(expansion, Expansion):
             raise TypeError("cohomology class must be a Schubert Expansion")

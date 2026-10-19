@@ -1,0 +1,5284 @@
+{
+  "result": "passed",
+  "sage_version": "9.5",
+  "seconds": 31.035,
+  "command": "PYTHONPATH=src sage -python experiments/two_step_integral_images.py",
+  "scope": "Finite exact computations, not a general classification or novelty claim.",
+  "normalization": "Middle elementary functions in Cartesian x; tail elementary functions in x^2; type D replaces the last elementary function by the Euler product q.",
+  "independent_cartesian_bgg_matrices": 111,
+  "independent_cartesian_bgg_columns": 166,
+  "independent_smith_check": "Gcds of all minors on every independently checked matrix.",
+  "degree_rows": 96,
+  "cases": [
+    {
+      "type": "C",
+      "n": 3,
+      "a": 1,
+      "b": 1,
+      "k": 1,
+      "omitted_nodes": [
+        1,
+        2
+      ],
+      "generator_names": [
+        "c1",
+        "e1"
+      ],
+      "generator_degrees": [
+        1,
+        2
+      ],
+      "degrees": [
+        {
+          "degree": 0,
+          "middle": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": true,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          }
+        },
+        {
+          "degree": 1,
+          "middle": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": false,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          }
+        },
+        {
+          "degree": 2,
+          "middle": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 2,
+            "smith_factors": [
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 2,
+            "smith_factors": [
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": false,
+          "tail_in_middle": false,
+          "joint_mod_sum": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_middle": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_tail": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          }
+        },
+        {
+          "degree": 3,
+          "middle": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 2,
+            "smith_factors": [
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": false,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          }
+        },
+        {
+          "degree": 4,
+          "middle": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 2,
+            "smith_factors": [
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 2,
+            "smith_factors": [
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": false,
+          "tail_in_middle": false,
+          "joint_mod_sum": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_middle": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_tail": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          }
+        },
+        {
+          "degree": 5,
+          "middle": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 2,
+            "smith_factors": [
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": false,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          }
+        },
+        {
+          "degree": 6,
+          "middle": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": true,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          }
+        },
+        {
+          "degree": 7,
+          "middle": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": true,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          }
+        },
+        {
+          "degree": 8,
+          "middle": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "middle_in_tail": true,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          }
+        },
+        {
+          "degree": 9,
+          "middle": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "middle_in_tail": true,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          }
+        }
+      ]
+    },
+    {
+      "type": "C",
+      "n": 4,
+      "a": 1,
+      "b": 1,
+      "k": 2,
+      "omitted_nodes": [
+        1,
+        2
+      ],
+      "generator_names": [
+        "c1",
+        "e1",
+        "e2"
+      ],
+      "generator_degrees": [
+        1,
+        2,
+        4
+      ],
+      "degrees": [
+        {
+          "degree": 0,
+          "middle": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": true,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          }
+        },
+        {
+          "degree": 1,
+          "middle": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": false,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          }
+        },
+        {
+          "degree": 2,
+          "middle": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 2,
+            "smith_factors": [
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 2,
+            "smith_factors": [
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": false,
+          "tail_in_middle": false,
+          "joint_mod_sum": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_middle": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_tail": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          }
+        },
+        {
+          "degree": 3,
+          "middle": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 2,
+            "smith_factors": [
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": false,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          }
+        },
+        {
+          "degree": 4,
+          "middle": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 2,
+            "smith_factors": [
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 3,
+            "smith_factors": [
+              1,
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 3,
+            "smith_factors": [
+              1,
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": false,
+          "tail_in_middle": false,
+          "joint_mod_sum": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_middle": {
+            "free_rank": 2,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_tail": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          }
+        },
+        {
+          "degree": 5,
+          "middle": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 3,
+            "smith_factors": [
+              1,
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": false,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 2,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          }
+        },
+        {
+          "degree": 6,
+          "middle": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 2,
+            "smith_factors": [
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 3,
+            "smith_factors": [
+              1,
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": false,
+          "tail_in_middle": false,
+          "joint_mod_sum": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_middle": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_tail": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          }
+        },
+        {
+          "degree": 7,
+          "middle": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 3,
+            "smith_factors": [
+              1,
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": false,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 2,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          }
+        },
+        {
+          "degree": 8,
+          "middle": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 2,
+            "smith_factors": [
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": true,
+          "tail_in_middle": false,
+          "joint_mod_sum": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_middle": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_tail": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          }
+        },
+        {
+          "degree": 9,
+          "middle": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 2,
+            "smith_factors": [
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": true,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 2,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          }
+        },
+        {
+          "degree": 10,
+          "middle": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": true,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          }
+        },
+        {
+          "degree": 11,
+          "middle": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": true,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          }
+        },
+        {
+          "degree": 12,
+          "middle": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "middle_in_tail": true,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          }
+        }
+      ]
+    },
+    {
+      "type": "C",
+      "n": 4,
+      "a": 1,
+      "b": 2,
+      "k": 1,
+      "omitted_nodes": [
+        1,
+        3
+      ],
+      "generator_names": [
+        "c1",
+        "c2",
+        "e1"
+      ],
+      "generator_degrees": [
+        1,
+        2,
+        2
+      ],
+      "degrees": [
+        {
+          "degree": 0,
+          "middle": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": true,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          }
+        },
+        {
+          "degree": 1,
+          "middle": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": false,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          }
+        },
+        {
+          "degree": 2,
+          "middle": {
+            "rank": 2,
+            "smith_factors": [
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 3,
+            "smith_factors": [
+              1,
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 3,
+            "smith_factors": [
+              1,
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": false,
+          "tail_in_middle": false,
+          "joint_mod_sum": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_middle": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_tail": {
+            "free_rank": 2,
+            "torsion_factors": [],
+            "index": null
+          }
+        },
+        {
+          "degree": 3,
+          "middle": {
+            "rank": 2,
+            "smith_factors": [
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 2,
+            "smith_factors": [
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 3,
+            "smith_factors": [
+              1,
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": false,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 2,
+            "torsion_factors": [],
+            "index": null
+          }
+        },
+        {
+          "degree": 4,
+          "middle": {
+            "rank": 3,
+            "smith_factors": [
+              1,
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 4,
+            "smith_factors": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 5,
+            "smith_factors": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": false,
+          "tail_in_middle": false,
+          "joint_mod_sum": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_middle": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_tail": {
+            "free_rank": 3,
+            "torsion_factors": [],
+            "index": null
+          }
+        },
+        {
+          "degree": 5,
+          "middle": {
+            "rank": 3,
+            "smith_factors": [
+              1,
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 3,
+            "smith_factors": [
+              1,
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 5,
+            "smith_factors": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": false,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 2,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 3,
+            "torsion_factors": [],
+            "index": null
+          }
+        },
+        {
+          "degree": 6,
+          "middle": {
+            "rank": 3,
+            "smith_factors": [
+              1,
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 4,
+            "smith_factors": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 6,
+            "smith_factors": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": false,
+          "tail_in_middle": false,
+          "joint_mod_sum": {
+            "free_rank": 2,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_middle": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_tail": {
+            "free_rank": 3,
+            "torsion_factors": [],
+            "index": null
+          }
+        },
+        {
+          "degree": 7,
+          "middle": {
+            "rank": 3,
+            "smith_factors": [
+              1,
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 3,
+            "smith_factors": [
+              1,
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 6,
+            "smith_factors": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": false,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 3,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 3,
+            "torsion_factors": [],
+            "index": null
+          }
+        },
+        {
+          "degree": 8,
+          "middle": {
+            "rank": 2,
+            "smith_factors": [
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 2,
+            "smith_factors": [
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 5,
+            "smith_factors": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": false,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 3,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 2,
+            "torsion_factors": [],
+            "index": null
+          }
+        },
+        {
+          "degree": 9,
+          "middle": {
+            "rank": 2,
+            "smith_factors": [
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 2,
+            "smith_factors": [
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 5,
+            "smith_factors": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": false,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 3,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 2,
+            "torsion_factors": [],
+            "index": null
+          }
+        },
+        {
+          "degree": 10,
+          "middle": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 3,
+            "smith_factors": [
+              1,
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": false,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 2,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          }
+        },
+        {
+          "degree": 11,
+          "middle": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 3,
+            "smith_factors": [
+              1,
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": false,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 2,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          }
+        },
+        {
+          "degree": 12,
+          "middle": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": true,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          }
+        },
+        {
+          "degree": 13,
+          "middle": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": true,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          }
+        },
+        {
+          "degree": 14,
+          "middle": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "middle_in_tail": true,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          }
+        }
+      ]
+    },
+    {
+      "type": "C",
+      "n": 4,
+      "a": 2,
+      "b": 1,
+      "k": 1,
+      "omitted_nodes": [
+        2,
+        3
+      ],
+      "generator_names": [
+        "c1",
+        "e1"
+      ],
+      "generator_degrees": [
+        1,
+        2
+      ],
+      "degrees": [
+        {
+          "degree": 0,
+          "middle": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": true,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          }
+        },
+        {
+          "degree": 1,
+          "middle": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": false,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          }
+        },
+        {
+          "degree": 2,
+          "middle": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 2,
+            "smith_factors": [
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 2,
+            "smith_factors": [
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": false,
+          "tail_in_middle": false,
+          "joint_mod_sum": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_middle": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_tail": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          }
+        },
+        {
+          "degree": 3,
+          "middle": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 2,
+            "smith_factors": [
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": false,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          }
+        },
+        {
+          "degree": 4,
+          "middle": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 2,
+            "smith_factors": [
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 3,
+            "smith_factors": [
+              1,
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": false,
+          "tail_in_middle": false,
+          "joint_mod_sum": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_middle": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_tail": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          }
+        },
+        {
+          "degree": 5,
+          "middle": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 3,
+            "smith_factors": [
+              1,
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": false,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 2,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          }
+        },
+        {
+          "degree": 6,
+          "middle": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 2,
+            "smith_factors": [
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 3,
+            "smith_factors": [
+              1,
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": false,
+          "tail_in_middle": false,
+          "joint_mod_sum": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_middle": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_tail": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          }
+        },
+        {
+          "degree": 7,
+          "middle": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 3,
+            "smith_factors": [
+              1,
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": false,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 2,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          }
+        },
+        {
+          "degree": 8,
+          "middle": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 2,
+            "smith_factors": [
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": true,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 2,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          }
+        },
+        {
+          "degree": 9,
+          "middle": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 2,
+            "smith_factors": [
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": true,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 2,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          }
+        },
+        {
+          "degree": 10,
+          "middle": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": true,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          }
+        },
+        {
+          "degree": 11,
+          "middle": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": true,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          }
+        },
+        {
+          "degree": 12,
+          "middle": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "middle_in_tail": true,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          }
+        }
+      ]
+    },
+    {
+      "type": "C",
+      "n": 5,
+      "a": 1,
+      "b": 2,
+      "k": 2,
+      "omitted_nodes": [
+        1,
+        3
+      ],
+      "generator_names": [
+        "c1",
+        "c2",
+        "e1",
+        "e2"
+      ],
+      "generator_degrees": [
+        1,
+        2,
+        2,
+        4
+      ],
+      "degrees": [
+        {
+          "degree": 0,
+          "middle": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": true,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          }
+        },
+        {
+          "degree": 1,
+          "middle": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": false,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          }
+        },
+        {
+          "degree": 2,
+          "middle": {
+            "rank": 2,
+            "smith_factors": [
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 3,
+            "smith_factors": [
+              1,
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 3,
+            "smith_factors": [
+              1,
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": false,
+          "tail_in_middle": false,
+          "joint_mod_sum": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_middle": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_tail": {
+            "free_rank": 2,
+            "torsion_factors": [],
+            "index": null
+          }
+        },
+        {
+          "degree": 3,
+          "middle": {
+            "rank": 2,
+            "smith_factors": [
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 2,
+            "smith_factors": [
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 3,
+            "smith_factors": [
+              1,
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": false,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 2,
+            "torsion_factors": [],
+            "index": null
+          }
+        },
+        {
+          "degree": 4,
+          "middle": {
+            "rank": 3,
+            "smith_factors": [
+              1,
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 2,
+            "smith_factors": [
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 5,
+            "smith_factors": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 6,
+            "smith_factors": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": false,
+          "tail_in_middle": false,
+          "joint_mod_sum": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_middle": {
+            "free_rank": 2,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_tail": {
+            "free_rank": 3,
+            "torsion_factors": [],
+            "index": null
+          }
+        },
+        {
+          "degree": 5,
+          "middle": {
+            "rank": 3,
+            "smith_factors": [
+              1,
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 3,
+            "smith_factors": [
+              1,
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 6,
+            "smith_factors": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": false,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 3,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 3,
+            "torsion_factors": [],
+            "index": null
+          }
+        },
+        {
+          "degree": 6,
+          "middle": {
+            "rank": 4,
+            "smith_factors": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 2,
+            "smith_factors": [
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 6,
+            "smith_factors": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 9,
+            "smith_factors": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": false,
+          "tail_in_middle": false,
+          "joint_mod_sum": {
+            "free_rank": 3,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_middle": {
+            "free_rank": 2,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_tail": {
+            "free_rank": 4,
+            "torsion_factors": [],
+            "index": null
+          }
+        },
+        {
+          "degree": 7,
+          "middle": {
+            "rank": 4,
+            "smith_factors": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 4,
+            "smith_factors": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 9,
+            "smith_factors": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": false,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 5,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 4,
+            "torsion_factors": [],
+            "index": null
+          }
+        },
+        {
+          "degree": 8,
+          "middle": {
+            "rank": 4,
+            "smith_factors": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 2,
+            "smith_factors": [
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 6,
+            "smith_factors": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 11,
+            "smith_factors": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": false,
+          "tail_in_middle": false,
+          "joint_mod_sum": {
+            "free_rank": 5,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_middle": {
+            "free_rank": 2,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_tail": {
+            "free_rank": 4,
+            "torsion_factors": [],
+            "index": null
+          }
+        }
+      ]
+    },
+    {
+      "type": "B",
+      "n": 3,
+      "a": 1,
+      "b": 1,
+      "k": 1,
+      "omitted_nodes": [
+        1,
+        2
+      ],
+      "generator_names": [
+        "c1",
+        "e1"
+      ],
+      "generator_degrees": [
+        1,
+        2
+      ],
+      "degrees": [
+        {
+          "degree": 0,
+          "middle": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": true,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          }
+        },
+        {
+          "degree": 1,
+          "middle": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": false,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          }
+        },
+        {
+          "degree": 2,
+          "middle": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 2,
+            "smith_factors": [
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 2,
+            "smith_factors": [
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": false,
+          "tail_in_middle": false,
+          "joint_mod_sum": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_middle": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_tail": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          }
+        },
+        {
+          "degree": 3,
+          "middle": {
+            "rank": 1,
+            "smith_factors": [
+              2
+            ],
+            "saturation_index": 2
+          },
+          "tail": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 1,
+            "smith_factors": [
+              2
+            ],
+            "saturation_index": 2
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 2,
+            "smith_factors": [
+              1,
+              2
+            ],
+            "saturation_index": 2
+          },
+          "middle_in_tail": false,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          }
+        },
+        {
+          "degree": 4,
+          "middle": {
+            "rank": 1,
+            "smith_factors": [
+              2
+            ],
+            "saturation_index": 2
+          },
+          "tail": {
+            "rank": 1,
+            "smith_factors": [
+              2
+            ],
+            "saturation_index": 2
+          },
+          "sum": {
+            "rank": 2,
+            "smith_factors": [
+              2,
+              2
+            ],
+            "saturation_index": 4
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 2,
+            "smith_factors": [
+              2,
+              2
+            ],
+            "saturation_index": 4
+          },
+          "middle_in_tail": false,
+          "tail_in_middle": false,
+          "joint_mod_sum": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_middle": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_tail": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          }
+        },
+        {
+          "degree": 5,
+          "middle": {
+            "rank": 1,
+            "smith_factors": [
+              2
+            ],
+            "saturation_index": 2
+          },
+          "tail": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 1,
+            "smith_factors": [
+              2
+            ],
+            "saturation_index": 2
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 2,
+            "smith_factors": [
+              2,
+              2
+            ],
+            "saturation_index": 4
+          },
+          "middle_in_tail": false,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          }
+        },
+        {
+          "degree": 6,
+          "middle": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 1,
+            "smith_factors": [
+              2
+            ],
+            "saturation_index": 2
+          },
+          "middle_in_tail": true,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          }
+        },
+        {
+          "degree": 7,
+          "middle": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 1,
+            "smith_factors": [
+              4
+            ],
+            "saturation_index": 4
+          },
+          "middle_in_tail": true,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          }
+        },
+        {
+          "degree": 8,
+          "middle": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "middle_in_tail": true,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          }
+        },
+        {
+          "degree": 9,
+          "middle": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "middle_in_tail": true,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          }
+        }
+      ]
+    },
+    {
+      "type": "B",
+      "n": 4,
+      "a": 1,
+      "b": 1,
+      "k": 2,
+      "omitted_nodes": [
+        1,
+        2
+      ],
+      "generator_names": [
+        "c1",
+        "e1",
+        "e2"
+      ],
+      "generator_degrees": [
+        1,
+        2,
+        4
+      ],
+      "degrees": [
+        {
+          "degree": 0,
+          "middle": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": true,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          }
+        },
+        {
+          "degree": 1,
+          "middle": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": false,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          }
+        },
+        {
+          "degree": 2,
+          "middle": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 2,
+            "smith_factors": [
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 2,
+            "smith_factors": [
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": false,
+          "tail_in_middle": false,
+          "joint_mod_sum": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_middle": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_tail": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          }
+        },
+        {
+          "degree": 3,
+          "middle": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 2,
+            "smith_factors": [
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": false,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          }
+        },
+        {
+          "degree": 4,
+          "middle": {
+            "rank": 1,
+            "smith_factors": [
+              2
+            ],
+            "saturation_index": 2
+          },
+          "tail": {
+            "rank": 2,
+            "smith_factors": [
+              1,
+              2
+            ],
+            "saturation_index": 2
+          },
+          "sum": {
+            "rank": 3,
+            "smith_factors": [
+              1,
+              2,
+              2
+            ],
+            "saturation_index": 4
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 3,
+            "smith_factors": [
+              1,
+              2,
+              2
+            ],
+            "saturation_index": 4
+          },
+          "middle_in_tail": false,
+          "tail_in_middle": false,
+          "joint_mod_sum": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_middle": {
+            "free_rank": 2,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_tail": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          }
+        },
+        {
+          "degree": 5,
+          "middle": {
+            "rank": 1,
+            "smith_factors": [
+              2
+            ],
+            "saturation_index": 2
+          },
+          "tail": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 1,
+            "smith_factors": [
+              2
+            ],
+            "saturation_index": 2
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 3,
+            "smith_factors": [
+              1,
+              2,
+              2
+            ],
+            "saturation_index": 4
+          },
+          "middle_in_tail": false,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 2,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          }
+        },
+        {
+          "degree": 6,
+          "middle": {
+            "rank": 1,
+            "smith_factors": [
+              2
+            ],
+            "saturation_index": 2
+          },
+          "tail": {
+            "rank": 1,
+            "smith_factors": [
+              2
+            ],
+            "saturation_index": 2
+          },
+          "sum": {
+            "rank": 2,
+            "smith_factors": [
+              2,
+              2
+            ],
+            "saturation_index": 4
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 3,
+            "smith_factors": [
+              2,
+              2,
+              2
+            ],
+            "saturation_index": 8
+          },
+          "middle_in_tail": false,
+          "tail_in_middle": false,
+          "joint_mod_sum": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_middle": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_tail": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          }
+        },
+        {
+          "degree": 7,
+          "middle": {
+            "rank": 1,
+            "smith_factors": [
+              2
+            ],
+            "saturation_index": 2
+          },
+          "tail": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 1,
+            "smith_factors": [
+              2
+            ],
+            "saturation_index": 2
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 3,
+            "smith_factors": [
+              2,
+              2,
+              2
+            ],
+            "saturation_index": 8
+          },
+          "middle_in_tail": false,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 2,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          }
+        },
+        {
+          "degree": 8,
+          "middle": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 1,
+            "smith_factors": [
+              4
+            ],
+            "saturation_index": 4
+          },
+          "sum": {
+            "rank": 1,
+            "smith_factors": [
+              4
+            ],
+            "saturation_index": 4
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 2,
+            "smith_factors": [
+              2,
+              4
+            ],
+            "saturation_index": 8
+          },
+          "middle_in_tail": true,
+          "tail_in_middle": false,
+          "joint_mod_sum": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_middle": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_tail": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          }
+        },
+        {
+          "degree": 9,
+          "middle": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 2,
+            "smith_factors": [
+              2,
+              4
+            ],
+            "saturation_index": 8
+          },
+          "middle_in_tail": true,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 2,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          }
+        },
+        {
+          "degree": 10,
+          "middle": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 1,
+            "smith_factors": [
+              4
+            ],
+            "saturation_index": 4
+          },
+          "middle_in_tail": true,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          }
+        },
+        {
+          "degree": 11,
+          "middle": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 1,
+            "smith_factors": [
+              4
+            ],
+            "saturation_index": 4
+          },
+          "middle_in_tail": true,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          }
+        },
+        {
+          "degree": 12,
+          "middle": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "middle_in_tail": true,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          }
+        }
+      ]
+    },
+    {
+      "type": "D",
+      "n": 4,
+      "a": 1,
+      "b": 1,
+      "k": 2,
+      "omitted_nodes": [
+        1,
+        2
+      ],
+      "generator_names": [
+        "c1",
+        "e1",
+        "q"
+      ],
+      "generator_degrees": [
+        1,
+        2,
+        2
+      ],
+      "degrees": [
+        {
+          "degree": 0,
+          "middle": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": true,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          }
+        },
+        {
+          "degree": 1,
+          "middle": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": false,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          }
+        },
+        {
+          "degree": 2,
+          "middle": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 2,
+            "smith_factors": [
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 3,
+            "smith_factors": [
+              1,
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 3,
+            "smith_factors": [
+              1,
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": false,
+          "tail_in_middle": false,
+          "joint_mod_sum": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_middle": {
+            "free_rank": 2,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_tail": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          }
+        },
+        {
+          "degree": 3,
+          "middle": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 1,
+            "smith_factors": [
+              1
+            ],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 3,
+            "smith_factors": [
+              1,
+              1,
+              1
+            ],
+            "saturation_index": 1
+          },
+          "middle_in_tail": false,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 2,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          }
+        },
+        {
+          "degree": 4,
+          "middle": {
+            "rank": 1,
+            "smith_factors": [
+              2
+            ],
+            "saturation_index": 2
+          },
+          "tail": {
+            "rank": 3,
+            "smith_factors": [
+              1,
+              2,
+              2
+            ],
+            "saturation_index": 4
+          },
+          "sum": {
+            "rank": 4,
+            "smith_factors": [
+              1,
+              2,
+              2,
+              2
+            ],
+            "saturation_index": 8
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 5,
+            "smith_factors": [
+              1,
+              1,
+              2,
+              2,
+              2
+            ],
+            "saturation_index": 8
+          },
+          "middle_in_tail": false,
+          "tail_in_middle": false,
+          "joint_mod_sum": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_middle": {
+            "free_rank": 3,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_tail": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          }
+        },
+        {
+          "degree": 5,
+          "middle": {
+            "rank": 1,
+            "smith_factors": [
+              2
+            ],
+            "saturation_index": 2
+          },
+          "tail": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 1,
+            "smith_factors": [
+              2
+            ],
+            "saturation_index": 2
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 4,
+            "smith_factors": [
+              1,
+              2,
+              2,
+              2
+            ],
+            "saturation_index": 8
+          },
+          "middle_in_tail": false,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 3,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          }
+        },
+        {
+          "degree": 6,
+          "middle": {
+            "rank": 1,
+            "smith_factors": [
+              2
+            ],
+            "saturation_index": 2
+          },
+          "tail": {
+            "rank": 2,
+            "smith_factors": [
+              2,
+              2
+            ],
+            "saturation_index": 4
+          },
+          "sum": {
+            "rank": 3,
+            "smith_factors": [
+              2,
+              2,
+              2
+            ],
+            "saturation_index": 8
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 5,
+            "smith_factors": [
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            "saturation_index": 32
+          },
+          "middle_in_tail": false,
+          "tail_in_middle": false,
+          "joint_mod_sum": {
+            "free_rank": 2,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_middle": {
+            "free_rank": 2,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_tail": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          }
+        },
+        {
+          "degree": 7,
+          "middle": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 3,
+            "smith_factors": [
+              2,
+              2,
+              2
+            ],
+            "saturation_index": 8
+          },
+          "middle_in_tail": true,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 3,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          }
+        },
+        {
+          "degree": 8,
+          "middle": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 1,
+            "smith_factors": [
+              4
+            ],
+            "saturation_index": 4
+          },
+          "sum": {
+            "rank": 1,
+            "smith_factors": [
+              4
+            ],
+            "saturation_index": 4
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 3,
+            "smith_factors": [
+              2,
+              4,
+              4
+            ],
+            "saturation_index": 32
+          },
+          "middle_in_tail": true,
+          "tail_in_middle": false,
+          "joint_mod_sum": {
+            "free_rank": 2,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_middle": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_tail": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          }
+        },
+        {
+          "degree": 9,
+          "middle": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 1,
+            "smith_factors": [
+              4
+            ],
+            "saturation_index": 4
+          },
+          "middle_in_tail": true,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          }
+        },
+        {
+          "degree": 10,
+          "middle": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 1,
+            "smith_factors": [
+              4
+            ],
+            "saturation_index": 4
+          },
+          "middle_in_tail": true,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 1,
+            "torsion_factors": [],
+            "index": null
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          }
+        },
+        {
+          "degree": 11,
+          "middle": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "middle_in_tail": true,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          }
+        },
+        {
+          "degree": 12,
+          "middle": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "tail": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "sum": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "intersection": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "joint": {
+            "rank": 0,
+            "smith_factors": [],
+            "saturation_index": 1
+          },
+          "middle_in_tail": true,
+          "tail_in_middle": true,
+          "joint_mod_sum": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_middle": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          },
+          "sum_mod_tail": {
+            "free_rank": 0,
+            "torsion_factors": [],
+            "index": 1
+          }
+        }
+      ]
+    }
+  ],
+  "source_sha256": {
+    "experiments/two_step_integral_images.py": "2053a943b992561368724a1744da610c4a8de7a5b013a8a19b67c4351c02e216",
+    "src/sage_borel/__init__.py": "e8b0258ef81770102e2ff0b4c9b734dde01ce6030f3145585ce9639219d41e9d",
+    "src/sage_borel/algebra.py": "7fdf2deb8808961e1c3964c077fd4930e16e0ad8924144f3f2910726a8c46a4d",
+    "src/sage_borel/classical.py": "745666cf40d86e0afd095e4139e7a66889b3c578fda743bde06969e15d7ae088",
+    "src/sage_borel/coinvariant.py": "76859a189bc4b20b8592adcca7250f8f7bde18738b3256c830d8bf0f938bf0d9",
+    "src/sage_borel/core.py": "c21a7b8893c5155efc71123264d698b7504dd89d8657b0612f57e0cb05118751",
+    "src/sage_borel/exceptional.py": "9d50124e41984f5fa8b96cb41c648886b4b4f08892de9faf7cf7e1bbd099800b",
+    "src/sage_borel/expansion.py": "ecaf6a4439b8ff916dfc54716f9a3d1fc6bc03fbb17e8f30b08351480573cc46",
+    "src/sage_borel/families.py": "8d4a0cd068b800ea67ae38041f8ad6e576b88924ca0c83e81213ffd95694a34c",
+    "src/sage_borel/integral.py": "5e406be9f94d851821c3aff387eb1d1f81ef0172b94841ae0c3def7be6b465b4",
+    "src/sage_borel/inverse.py": "e7c222ff9454589e8cffd8fccf0b01f7663d21140c24a83aab99bc7b9879c380",
+    "src/sage_borel/lattices.py": "8fe8cf54e87e984cd728f219f453f68592aa589d849c41b152f03ebbb735f715",
+    "src/sage_borel/operations.py": "0429729152ddebd67d0034cdb5ef4953ed2091468168bd24f97ced4f2254b857",
+    "src/sage_borel/orthogonal.py": "4583d17ec943c639b021238d1af50769dd7b6502d60cb209e6523a00c3b0efd5",
+    "src/sage_borel/presentation.py": "0d28e847571a18b0a819a45b9df582f6a62138c309c5c4bf152c7331c6bbfff0",
+    "src/sage_borel/products.py": "f0cd691c717a65f0ca4f288acb4d359b1f3f352ce1efc8d161eb3f3d0bca780b",
+    "tests/oracle.py": "01976367d70b5f0adc88c95ce1b4b7abf3019d9c704410ca8d266cd8562874ae",
+    "tests/test_integral.py": "810cc7147072660566ddbb47c8b9114539ab49d28dff4861c4ec800f23871fc4"
+  }
+}

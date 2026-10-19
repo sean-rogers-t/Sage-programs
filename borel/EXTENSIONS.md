@@ -12,18 +12,17 @@ The results are compressed, so a large image rank does not itself require
 a large list of Smith factors. Explicit Schubert membership and preimages
 continue to use [integral_degree](INTEGRAL_IMAGES.md).
 
-## Recommended next: compare and combine integral images
+## Implemented: compare and combine integral images
 
-Add a degreewise comparison of two selected generator algebras on the same
-flag variety. Useful outputs are containment, equality, their sum and
-intersection, and the indices when rational spans agree. For unequal spans,
-report ranks and the relevant finite torsion separately; do not manufacture
-a finite full-ambient index.
+Version 0.9 adds degreewise comparison of selected generator algebras on the
+same flag variety: containment, equality, sum, intersection and exact
+quotient groups. Free parts and finite torsion are reported separately.
+See the [API and mathematical algorithms](INTEGRAL_COMPARISONS.md).
 
-These are implementable integer-lattice operations on the existing exact
+These are integer-lattice operations on the existing exact
 matrix reports. They are more informative than comparing Smith lists alone:
 two sublattices can have the same Smith factors in different directions.
-They would expose the interactions needed for the next research question.
+They expose the interactions needed for the next research question.
 
 ## Joint Levi factors and more flag steps
 
@@ -35,10 +34,13 @@ The extension is to supply equally explicit classical multi-block input
 helpers and systematic integral comparisons, rather than merely allowing
 more omitted nodes (which is already supported).
 
-The first proposed experiment is to compare the middle-only, tail-only,
-and joint images in two-step symplectic flags; then do the analogous B/D
-families. Determine the joint saturation quotient and compare it with the
-known single-factor results. General primitive ranges, partition formulas,
+The [first joint-image experiment](TWO_STEP_INTEGRAL.md) now compares the
+middle-only, tail-only and joint images in five symplectic cases and three
+orthogonal cases, covering 96 degree rows. The tested symplectic joint
+images are saturated; the orthogonal ones can have factors 2 and 4. Every
+tested separate-image sum is primitive inside the joint image. These
+finite observations need broader testing and theoretical explanation.
+General primitive ranges, partition formulas,
 and a description of cross-factor gluing are research questions. Rational
 kernel presentations alone cannot establish them.
 
@@ -96,8 +98,9 @@ Springer map or prove corresponding integral image results.
 
 ## Suggested order
 
-1. Integral lattice comparisons and sums/intersections.
-2. Two-step joint-image experiments, then classical multi-block helpers.
+1. Broaden the implemented two-step joint-image experiments and investigate
+   general joint saturation and primitivity of the separate-image sum.
+2. Add reusable classical multi-block input helpers.
 3. Exceptional integral tables with explicit normalizations.
 4. Equivariant computations after choosing the coefficient-ring API.
 
