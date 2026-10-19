@@ -406,11 +406,16 @@ The [two-row D square theorem](TYPE_D_TWO_ROW_SMITH.md) additionally
 proves every square factor agrees with B when the smaller block has
 size at most two, using the published BKT and quaternionic bases plus
 a weighted boundary-row argument given here. It also proves a general
-square exponent bound. No further literature search establishing
-novelty of this family has been completed.
-The [full D partition formula](TYPE_D_CANDIDATE.md) remains a
-conjecture in general in its higher Smith layers, with the exact
-remaining square-sector and saturated-gluing hypotheses stated
-explicitly. Another question is to identify and compare natural integral
+square exponent bound. The [general D square comparison](TYPE_D_SQUARE_THEOREM.md)
+now proves all square factors agree with B, including smaller block
+three. Its additional published input is
+[Tamvakis, double eta polynomials](https://math.umd.edu/~harryt/papers/dbleta.pdf),
+Definition 1, Theorem 1, and Section 4.1. The relative incidence argument,
+compensated-parity retraction retaining the base Euler class, and use of
+primitive B prefixes are deductions here. No further specialist search
+establishing novelty of this comparison has been completed.
+The [full D partition formula](TYPE_D_CANDIDATE.md) is now proved for
+odd tails. Higher full-image even-tail layers retain the single
+unproved saturated-gluing condition stated in that note. Another question is to identify and compare natural integral
 forms of the exceptional polynomial representation subalgebras. Any claim
 about representation rings must specify that form explicitly.

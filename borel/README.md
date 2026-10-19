@@ -85,13 +85,17 @@ closed formula for every normalized factor equal to one, including the
 exact Gaussian overlap for even tails. A separate
 [square comparison](TYPE_D_SQUARE_COMPARISON.md) proves block symmetry,
 a sufficient primitive range and a termwise B bound. The
-[two-row square theorem](TYPE_D_TWO_ROW_SMITH.md) proves equality of
-every B/D square factor in every degree when the smaller block has
-size at most two, and bounds all D square exponents by that smaller
-block size. Both-blocks-at-least-three equality remains open.
-The [full D formula](TYPE_D_CANDIDATE.md) is an explicit conjecture in
-its higher layers; its two remaining integral hypotheses are stated
-separately from the proved unit layer. The exact candidate check matches
+[two-row square theorem](TYPE_D_TWO_ROW_SMITH.md) gives an independent
+small-block proof and a general exponent bound. The subsequent
+[general D square theorem](TYPE_D_SQUARE_THEOREM.md) now proves equality
+of every normalized B/D square-sector factor in every rank and degree.
+Its relative incidence proof uses the equivariant eta denominator bound,
+an integral compensated-parity retraction preserving the base Euler
+class, and the established primitive B prefixes. It gives explicit
+multiplicity polynomials for factors 1, 2, 4 and 8 in the smaller-block
+three case. The [full D formula](TYPE_D_CANDIDATE.md) is consequently
+proved for odd tails; the remaining even-tail higher-factor question
+is exhaustion of saturated gluing by unit gluing. The exact candidate check matches
 84 recorded full Smith lists and excludes two timed-out calculations.
 These research additions do not change the runtime library API.
 

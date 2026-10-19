@@ -8,6 +8,13 @@ Published inputs, repository deductions, and remaining type-D questions
 are labeled separately. Originality and external expert review remain
 unestablished.
 
+The linked PDF remains the audited type-B-focused snapshot below. The
+subsequent [general type-D square proof](../../borel/TYPE_D_SQUARE_THEOREM.md)
+now establishes all square-sector factors, including smaller block three.
+Together with the Euler comparison this also settles full odd tails;
+higher even-tail gluing remains open. These later deductions are in the
+linked research note and are not yet incorporated into that PDF.
+
 - [PDF prepared for Shrawan](output/pdf/Springer_integral_images_for_Shrawan.pdf)
 - [Editable, standalone LaTeX](main.tex)
 - [Full general type-B proof](../../borel/TYPE_B_GENERAL_SMITH.md)
@@ -20,9 +27,9 @@ integral Schur-prefix reduction, constructs Chow-envelope lifts of
 unbalanced incidence rows, proves a unit triangular minor, counts its
 pivots, and derives every Smith multiplicity by an integral rank squeeze.
 It also records the pre-existing counting and Demazure-character
-interpretations. The general type-D square-sector comparison and full
-partition classification remain unresolved; the proved B formula now
-determines the D Euler-sector factors via the earlier comparison.
+interpretations. At that PDF's baseline the general D square comparison
+was unresolved; its later proof is linked above. The proved B formula
+also determines the D Euler-sector factors via the earlier comparison.
 
 The fresh audit found no mathematical gap or correction in the general
 proof or its earlier prefix reduction. It explicitly distinguishes the

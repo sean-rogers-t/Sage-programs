@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "generated_utc": "2026-10-19T18:58:45.116083+00:00",
+  "generated_utc": "2026-10-19T19:37:39.619533+00:00",
   "sage_version": "9.5",
   "source_script_sha256": "f1d47ae067f88c20177d8ed3a01dcd47c27ca52a998bd9f3613ab676cd36316d",
   "proof_document": {
     "file": "TYPE_D_FROBENIUS.md",
-    "sha256": "2c7267c606b6ac63bf5e465fd3ca6be993bfb28e03491ddd700de219043a7a7a"
+    "sha256": "1a9a5e24e806ed823acc18aad6312afc49c16174580894112f80022c907c7feb"
   },
   "Borel_or_Weyl_engine_imported": false,
   "scope": "Finite exact verification of the type-D unit upper-bound/core-one argument; no full type-D Smith classification follows from these tests.",
   "arguments": {
     "max_a": 7,
     "max_h": 3,
-    "output": "/mnt/c/Users/Sean/OneDrive/Documents/ChatGPT/Career/research-review/Sage-programs-articles/borel/experiments/type_d_unit_upper_bound_verification.json"
+    "output": "/tmp/type_d_unit_upper_bound_canonical.json"
   },
   "checks": [
     {
@@ -3472,7 +3472,7 @@
       "kernel_and_core_one_ranks_match": true
     }
   ],
-  "seconds": 23.817429,
+  "seconds": 27.717544,
   "summary": {
     "kernel_degree_components": 147,
     "core_one_rank_comparisons": 147,

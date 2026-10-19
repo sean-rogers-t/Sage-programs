@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_utc": "2026-10-19T19:18:04.308036+00:00",
+  "generated_utc": "2026-10-19T19:37:41.343201+00:00",
   "sage_version": "9.5",
   "status": "passed",
   "scope": "Finite integral Chern/LR corroboration of the all-rank two-row proof; no Borel or Weyl engine.",
   "normalization": "normalized square-only inputs, polynomial degree is half cohomological degree",
   "source_sha256": {
     "experiments/verify_type_d_two_row_smith.py": "a49a5e970c0cf56d926557f67d21cc71584de2ac13da76458e4eb56ded85d455",
-    "TYPE_D_TWO_ROW_SMITH.md": "01eeb67ee35b789c8aa80d78056cbcb5726e002a5261ab521f7923deb8920914",
-    "TYPE_B_TWO_ROW_SMITH.md": "04263addd2fe8825580084b04cc9c9b4a9344a16e50ca4dd1991ca532924a7e0"
+    "TYPE_D_TWO_ROW_SMITH.md": "91dd222ea3331b1df376ca0b6b51526afeb6bc9cd1a2b39ef6c147ee5e859614",
+    "TYPE_B_TWO_ROW_SMITH.md": "84a9cd76a4c4f523862651a057c1bcd3926d4e143642955178b0f10b75832c69"
   },
   "degree_checks": [
     {
@@ -6255,5 +6255,5 @@
     "closed_partition_formula_matches": 168,
     "counterexamples": 0
   },
-  "seconds": 0.843165
+  "seconds": 1.830454
 }

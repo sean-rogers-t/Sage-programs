@@ -1,8 +1,8 @@
 {
-  "generated_utc": "2026-10-19T18:56:28.020612+00:00",
+  "generated_utc": "2026-10-19T19:37:33.372443+00:00",
   "python_version": "3.12.14",
-  "scope": "Finite verification of a conjectural full type-D formula; no higher-layer proof claimed.",
-  "source_script_sha256": "cb052ca349a05f61853ec4303910e768caf09c59353ecfdf7a90f7520993f89d",
+  "scope": "Finite verification of the full type-D formula (proved for odd tails, conjectural in higher even-tail layers); no theorem inferred from finite data.",
+  "source_script_sha256": "bc4a047f42f9cb033cbe974aaef68cbb1d11b4b403f7119feba5b0c5a66e8ca3",
   "input_hashes": [
     {
       "file": "orthogonal_sector_search_results.json",
@@ -1796,5 +1796,5 @@
     "counterexamples": 0
   },
   "status": "passed",
-  "seconds": 0.005877
+  "seconds": 0.009052
 }

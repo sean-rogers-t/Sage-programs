@@ -166,7 +166,7 @@ def main():
               borel/"src"/"sage_borel"/"operations.py"]
     report = {"schema_version": 1, "generated_utc": datetime.now(timezone.utc).isoformat(),
               "sage_version": SAGE_VERSION,
-              "scope": "Finite exact corroboration of proved partial comparisons; general square equality remains unresolved.",
+              "scope": "Finite exact corroboration of structural comparisons; the separate general incidence theorem is not inferred from these tests.",
               "normalization": "unscaled normalized squared-tail inputs; polynomial degree is half cohomological degree",
               "source_sha256": {str(path.relative_to(borel)): sha256(path.read_bytes()).hexdigest()
                                  for path in inputs},

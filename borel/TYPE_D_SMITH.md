@@ -18,10 +18,12 @@ normalized unit multiplicity in every rank. The
 an improved square-only stable range and a one-sided B bound. The
 [two-row square theorem](TYPE_D_TWO_ROW_SMITH.md) proves every square
 factor equals B when \(\min(a,k)\le2\), and bounds every D square
-exponent by \(\min(a,k)\) in general. The
-[full closed formula](TYPE_D_CANDIDATE.md) remains conjectural in its
-higher Smith layers. It does **not** claim
-an explicit partition formula for all finite head dimensions. All degrees
+exponent by \(\min(a,k)\) in general. The subsequent
+[general square theorem](TYPE_D_SQUARE_THEOREM.md) proves equality
+with B in every rank, including every factor for smaller block three.
+The [full closed formula](TYPE_D_CANDIDATE.md) is now proved for odd
+tails; its higher even-tail layers still require the gluing comparison.
+This note itself records the earlier structural arguments. All degrees
 below are polynomial degrees, half the cohomological degrees.
 
 ## Normalization and scope
@@ -447,7 +449,8 @@ also give the same Smith lists for the square-only type-D sector and the
 type-B image on \(\operatorname{OG}(a,2n+1)\) in every recorded component.
 The [two-row proof](TYPE_D_TWO_ROW_SMITH.md) now establishes that
 square-sector identification in every degree when \(\min(a,k)\le2\).
-For larger blocks it remains an observed pattern. Proposition 1 gives
-its rational setting; preservation of the integral saturation still
-requires an additional argument in those larger cases. The Euler-sector
-comparison proved above already has that integral justification.
+The [general incidence proof](TYPE_D_SQUARE_THEOREM.md) now supplies
+the additional integral argument in every rank. It uses the relative
+eta denominator bound and a compensated-parity retraction, followed by
+the primitive type-B prefix comparison. The Euler-sector comparison
+proved above has its separate integral justification.

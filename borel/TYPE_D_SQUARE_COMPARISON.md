@@ -1,13 +1,15 @@
-# Type D square images: an integral comparison and its remaining gap
+# Type D square images: structural comparisons and failed shortcuts
 
 **Status: repository deductions, 19 October 2026.** This note proves the
 common square-input kernel, block duality, a finite primitive range, and
 a one-sided comparison with type B. The subsequent
 [two-row theorem](TYPE_D_TWO_ROW_SMITH.md) proves equality of every
 B/D square-sector factor when the smaller block has size at most two,
-and bounds every D square exponent by \(\min(a,k)\). Equality when
-both blocks have size at least three remains unproved. The finite checks below are
-corroboration. No originality or external mathematical certification is
+and bounds every D square exponent by \(\min(a,k)\). The subsequent
+[general incidence proof](TYPE_D_SQUARE_THEOREM.md) now establishes
+B/D row-lattice equality in every rank, including smaller block three.
+This note retains its structural proofs and counterexamples. The finite
+checks below are corroboration. No originality or external mathematical certification is
 claimed.
 
 ## 1. Fixed inputs and lattices
@@ -247,10 +249,10 @@ to (7).
 
 The [two-row theorem](TYPE_D_TWO_ROW_SMITH.md) proves the reverse
 inclusion in (8) when \(\min(a,k)\le2\), using weighted integral
-boundary-row relations. In general, the reverse inclusion in (8) is
-precisely what would turn this bound into equality of the coefficient-row lattices. Equality
-of the Smith multisets alone is weaker, but remains unproved in
-general here as well.
+boundary-row relations. The [general incidence proof](TYPE_D_SQUARE_THEOREM.md)
+now proves that reverse inclusion in every rank. It establishes equality
+of the full coefficient-row lattices, and hence of the Smith multisets,
+using primitive B prefixes and a relative integral denominator argument.
 
 ### A top-degree consequence in every rank
 
@@ -319,5 +321,6 @@ For the full D image, the separately proved Euler-sector comparison
 and the integral eigenspace-gluing formula are still required; see
 [TYPE_D_SMITH.md](TYPE_D_SMITH.md#exact-euler-sector-comparison-with-type-b)
 and [ORTHOGONAL_SMITH.md](ORTHOGONAL_SMITH.md#type-d-an-exact-integral-gluing-formula).
-Even a future square-sector equality theorem would not by itself
-settle the full type-D partition formula.
+The now-proved square-sector equality settles the full formula for odd
+tails, where degree parities separate the sectors. Even tails still
+require the additional saturated-gluing comparison.

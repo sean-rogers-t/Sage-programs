@@ -10,7 +10,10 @@ tail generators. The [general type B proof](TYPE_B_GENERAL_SMITH.md)
 now derives every normalized multiplicity in every rank, closing the
 formerly missing integral comparison. A single
 [closed partition formula](TYPE_B_CLOSED_CONJECTURE.md) describes all
-layers. The type-D partition classification remains open.
+layers. The [general D square proof](TYPE_D_SQUARE_THEOREM.md) now
+identifies every square-sector factor with B. Both sector lists and
+the full odd-tail formula follow; the even-tail gluing classification
+remains open.
 The unit counting polynomial is already classical Birkhoff/Hall enumeration.
 Its identification with the chosen Smith units is an additional argument
 here, rather than a theorem attributed to Birkhoff.
@@ -49,9 +52,9 @@ can be smaller than the full cohomology group.
 | Possible normalized factors | $2^e$, $0\leq e\leq\min(a,k)$ | Powers of $2$; square exponents at most $\min(a,k)$ |
 | Stable image, with $k$ fixed | Saturated in every degree | Saturated in every degree |
 | Sufficient finite range for all factors $1$ | $d\leq\max(a,k)$ | $d\leq a$ |
-| Complete closed families | Every pair $a,k$ | Full image: $a=1$, also $a=2$ with odd $k$; square sector: $\min(a,k)\le2$ |
-| Other uniform information | Block symmetry, rank formula, closed unit and largest-factor multiplicities, weighted-minor formula for every factor | Closed unit multiplicities, square block symmetry/bounds, Euler comparison, and the integral gluing formula below |
-| Remaining classification | None for these normalized B generators | Closed partition multiplicities, including the integral gluing |
+| Complete closed families | Every pair $a,k$ | Square sector: every pair; full image: every odd $k$, also $a=1$ |
+| Other uniform information | Block symmetry, rank formula, closed unit and largest-factor multiplicities, weighted-minor formula for every factor | Every square factor equals B; Euler factors equal shifted B; closed full unit counts and the integral gluing formula below |
+| Remaining classification | None for these normalized B generators | Higher full-image even-tail multiplicities: saturated gluing |
 
 The detailed proofs are in [TYPE_B_SMITH.md](TYPE_B_SMITH.md) and
 [TYPE_D_SMITH.md](TYPE_D_SMITH.md). The stable assertions strengthen
@@ -178,10 +181,13 @@ common kernels, block symmetry, a sufficient primitive range
 all factors when \(\min(a,k)\le2\), together with a general square
 exponent bound \(e\le\min(a,k)\). Its proof uses integral
 boundary-row elimination and the parity of Pieri coefficients.
-The [full-D candidate](TYPE_D_CANDIDATE.md) gives a closed proposed
-answer for every higher factor, separates its two unproved integral
-hypotheses, and records all 84 exact full-list comparisons.
-The unit theorem does not settle those higher layers.
+The subsequent [general square proof](TYPE_D_SQUARE_THEOREM.md)
+now establishes every square factor in every rank, including the full
+smaller-block-three list. Its incidence argument supplies the integral
+step independently of the mod-2 unit count. The
+[full-D formula](TYPE_D_CANDIDATE.md) is consequently proved for all odd
+tails. For even tails, exhaustion of saturated gluing by unit gluing
+remains the sole sufficient unproved condition for its higher layers.
 
 ## Type D: an exact integral gluing formula
 
@@ -214,7 +220,9 @@ is a point. The proof in [TYPE_D_SMITH.md](TYPE_D_SMITH.md) upgrades
 using the explicit integral Schubert bases and their primitive difference
 lattice. The analogous square-sector comparison with $B_n$ is proved
 when $\min(a,k)\le2$ in the [two-row note](TYPE_D_TWO_ROW_SMITH.md).
-It agrees in the recorded larger examples, but remains unproved there.
+The [general incidence theorem](TYPE_D_SQUARE_THEOREM.md) now proves
+it in every rank. For odd tails the sectors have opposite degree
+parities, so their known lists already give the full-image formula.
 
 ### Lattice lemma
 

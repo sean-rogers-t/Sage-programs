@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "generated_utc": "2026-10-19T19:38:54.089900+00:00",
+  "scope": "Formal compensated-parity/Euler algebra only; no geometric or all-rank Smith theorem inferred from finite checks.",
+  "independence": "Pure Python integer polynomial dictionaries; no Sage, Borel, or previous verifier imports.",
+  "source_sha256": {
+    "experiments/verify_type_d_incidence_projection.py": "197ccff40acd0a800581f4e0fa1b7e97c0af9a963896c731d2dc393d14f6527e",
+    "TYPE_D_SQUARE_THEOREM.md": "5745cb90d0da6139df60cb26c9aaba5e7c79af699340943c74c570ae6436a333"
+  },
+  "cases": [
+    {
+      "head_size": 1,
+      "monomial_checks": 64,
+      "Euler_relation_multiples": 64,
+      "p_square_relation_multiples": 64,
+      "head_square_monomials_fixed": 3,
+      "nonzero_base_Euler_preserved": true,
+      "uncompensated_projection_counterexample_confirmed": true
+    },
+    {
+      "head_size": 2,
+      "monomial_checks": 256,
+      "Euler_relation_multiples": 256,
+      "p_square_relation_multiples": 256,
+      "head_square_monomials_fixed": 9,
+      "nonzero_base_Euler_preserved": true,
+      "uncompensated_projection_counterexample_confirmed": true
+    },
+    {
+      "head_size": 3,
+      "monomial_checks": 1024,
+      "Euler_relation_multiples": 1024,
+      "p_square_relation_multiples": 1024,
+      "head_square_monomials_fixed": 27,
+      "nonzero_base_Euler_preserved": true,
+      "uncompensated_projection_counterexample_confirmed": true
+    },
+    {
+      "head_size": 4,
+      "monomial_checks": 4096,
+      "Euler_relation_multiples": 4096,
+      "p_square_relation_multiples": 4096,
+      "head_square_monomials_fixed": 81,
+      "nonzero_base_Euler_preserved": true,
+      "uncompensated_projection_counterexample_confirmed": true
+    }
+  ],
+  "summary": {
+    "head_sizes": 4,
+    "monomial_checks": 5440,
+    "Euler_relation_multiples": 5440,
+    "p_square_relation_multiples": 5440,
+    "head_square_monomials_fixed": 120,
+    "nonzero_base_Euler_checks": 4,
+    "false_uncompensated_projection_checks": 4
+  },
+  "seconds": 0.4519
+}

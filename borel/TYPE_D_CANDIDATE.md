@@ -1,9 +1,12 @@
-# A closed full type-D formula: proved unit layer and remaining hypotheses
+# A closed full type-D formula: odd tails proved and even-tail gluing open
 
 **Status, 19 October 2026:** the unit multiplicities in this note are
-proved in [TYPE_D_FROBENIUS.md](TYPE_D_FROBENIUS.md). The formula for all
-higher Smith multiplicities is a **conjecture**, with an explicit
-conditional proof below. It matches 84 exact recorded full Smith lists;
+proved in [TYPE_D_FROBENIUS.md](TYPE_D_FROBENIUS.md). The
+[general square comparison](TYPE_D_SQUARE_THEOREM.md) now determines
+every square-sector factor. Together with the Euler comparison this
+proves the full formula for every odd tail. For even tails, the higher
+multiplicities remain a **conjecture** subject to the single gluing
+hypothesis below. It matches 84 exact recorded full Smith lists;
 two timed-out calculations are excluded. This is unpublished repository
 work, without an originality claim or external expert review.
 
@@ -59,7 +62,8 @@ degree \(d\). The candidate is
 \tag{3}
 \]
 
-**What is proved in every rank in (3):** its \(e=0\) assertion, for every \(a,k,d\).
+**What is proved in every rank in (3):** all exponents for odd \(k\),
+and the \(e=0\) assertion for every \(a,k,d\).
 Equivalently, the complete D unit polynomial is
 \[
 \boxed{
@@ -68,7 +72,8 @@ Equivalently, the complete D unit polynomial is
 -\mathcal I_{a,k}(z^2).
 }\tag{4}
 \]
-The square-only unit count equals the B unit count in every rank.
+The entire square-sector Smith list now equals the B list in every rank,
+by [TYPE_D_SQUARE_THEOREM.md](TYPE_D_SQUARE_THEOREM.md).
 The entire Euler-sector Smith list, including its higher powers, is
 already proved to equal the shifted smaller B list.
 
@@ -78,7 +83,7 @@ that each overlap replaces a pair of unit factors by \(1,2\).
 This interpretation is the conditional argument below, not a proof
 that every integral overlap has this form.
 
-## 3. Two precise remaining integral steps
+## 3. The remaining even-tail integral step
 
 Let \(L_\pm\) be the square and Euler image lattices in a degree,
 \(S_\pm\) their respective saturations, and
@@ -91,36 +96,32 @@ embeds \(W\) in both \(S_\pm/2S_\pm\).
 Let \(W_0^\pm\) be the pullback of the reductions of \(L_\pm\)
 in these two spaces.
 
-The following two hypotheses suffice for (3):
+The square comparison is now a proved theorem: every normalized D
+square-sector list equals its B list, by the relative incidence argument
+in [TYPE_D_SQUARE_THEOREM.md](TYPE_D_SQUARE_THEOREM.md). The Euler-sector
+list is the shifted smaller B list by its separate integral comparison.
+Thus the following is the sole remaining sufficient hypothesis for (3)
+when \(k\) is even:
 
-1. **Higher square comparison.** Every normalized D square-sector
-   Smith multiset equals the corresponding B multiset.
-   The [square comparison note](TYPE_D_SQUARE_COMPARISON.md) proves
-   common kernels/ranks, integral block duality, a termwise lower
-   bound by B, and equality in specified boundary/range cases. The
-   [two-row theorem](TYPE_D_TWO_ROW_SMITH.md) now proves every square
-   factor when \(\min(a,k)\le2\), with all exponents bounded by
-   \(\min(a,k)\) in general. The unit theorem proves equality at
-   exponent zero in every rank. Higher-factor equality remains open
-   when both blocks have size at least three.
-2. **Exhaustion by unit gluing.** \(W=W_0^+\cap W_0^-\).
-   The proved dimension of this intersection is the relevant
-   coefficient of (2). The equality with the full \(W\) is
-   unproved: saturation can introduce additional mod-2 classes.
+**Exhaustion by unit gluing:** \(W=W_0^+\cap W_0^-\).
+The unit theorem proves the dimension of this intersection is the
+relevant coefficient of (2). Equality with the full \(W\) is still
+unproved: saturation can introduce additional mod-2 classes.
 
-Under hypothesis 1 the sector exponent lists are the two B lists in
-(3), by the proved Euler comparison. Under hypothesis 2 every gluing
-pair has exponents \((0,0)\), and there are exactly the overlaps
-counted by (2). The integral gluing lemma replaces each such pair by
-\((0,1)\), giving the correction in (3). This proves the conditional
-statement. For odd \(k\) only hypothesis 1 is needed. Consequently
-(3) is now proved for every degree when \(a=2\) and \(k\) is odd,
-by the two-row square theorem, the Euler comparison, and the opposite
-degree parities. This corollary does not settle the even-tail gluing.
+Under this hypothesis every gluing pair has exponents \((0,0)\), and
+there are exactly the overlaps counted by (2). The integral gluing lemma
+replaces each such pair by \((0,1)\), giving the correction in (3).
+This proves the conditional statement for even tails.
 
-The mod-2 unit theorem alone does not establish either higher-layer
-hypothesis. No union of rational eigenspaces or matching character
-identity supplies those integral steps.
+For odd \(k\), square inputs have even polynomial degree and Euler
+multiples have odd polynomial degree. The two sectors therefore never
+occur in the same homogeneous component. The two now-proved sector
+comparisons give (3) with no gluing hypothesis, for every head size and
+every degree. This is a complete repository deduction for odd tails.
+
+The mod-2 unit theorem alone did not establish the square comparison;
+the new relative integral argument supplies it. Nor does a unit count
+identify all positive-level gluing for even tails.
 
 ## 4. Checks and concrete examples
 

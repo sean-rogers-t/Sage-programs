@@ -148,8 +148,12 @@ give powers-of-two restrictions, stable saturation, complete quadric cases,
 the type B weighted-minor formula and a type D integral gluing rule.
 The [general type B proof](TYPE_B_GENERAL_SMITH.md) now establishes the
 closed [all-rank formula](TYPE_B_CLOSED_CONJECTURE.md), including the
-formerly missing integral comparison. The general type-D partition
-classification remains open.
+formerly missing integral comparison. The
+[general D square theorem](TYPE_D_SQUARE_THEOREM.md) now identifies
+every normalized square-sector factor with B, including all factors
+for smaller block three. Together with the Euler comparison it proves
+the full formula for odd tails. The general even-tail partition
+classification still requires the saturated-gluing comparison.
 These are deductions in the notes, not an attribution of the exact Smith
 formulas to the cited papers or a claim of originality. The
 [claim-by-claim proof/source audit](PROOF_STATUS.md) records the distinctions.

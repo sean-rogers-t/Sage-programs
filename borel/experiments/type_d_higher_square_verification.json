@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_utc": "2026-10-19T19:17:25.812274+00:00",
+  "generated_utc": "2026-10-19T19:37:39.574858+00:00",
   "sage_version": "9.5",
   "scope": "Finite exact evidence only; general higher square comparison is not inferred.",
   "normalization": "q_i=e_i(x_tail^2), polynomial degree is half cohomological degree",
   "independence": "Cartesian finite-geometric divided differences; B uses exact C/B row scaling.",
   "source_sha256": {
     "experiments/verify_type_d_higher_square.py": "3d6c0f1aa2c5fbebf3009c3dba14a9fe7bcaf80a1e490a7535a27c9fea7927a1",
-    "experiments/type_d_cartesian_frontier.py": "303dff95c36a1fbb88b9a5347e4c0b9db0a5221c50407dca62ef003df7459769",
+    "experiments/type_d_cartesian_frontier.py": "b4a5a5c7a24368583b746e20ce75bfc9affcaf1ed3957aee165b97a9cf64fb58",
     "experiments/type_b_cartesian_frontier.py": "f303bd96aed9396a1c6386327b8d04e4784d4d71150e8c7619be08d3b6029777",
-    "experiments/verify_type_d_square_comparison.py": "808929ccbceafde17854ab9a3c3cf0c8f7d920eecd0915b02eea51d7f4211ecf",
+    "experiments/verify_type_d_square_comparison.py": "d0e970a213994cbc3b4e0568c303235490745f068f149533c9c5b88e18410dc4",
     "src/sage_borel/core.py": "c21a7b8893c5155efc71123264d698b7504dd89d8657b0612f57e0cb05118751",
     "src/sage_borel/operations.py": "0429729152ddebd67d0034cdb5ef4953ed2091468168bd24f97ced4f2254b857"
   },
@@ -41,7 +41,7 @@
       "exact_integer_row_modules_equal": true,
       "every_D_exponent_at_most_min_a_k": true,
       "fundamental_weight_D_crosscheck": true,
-      "seconds": 0.018927
+      "seconds": 0.030865
     },
     {
       "a": 2,
@@ -64,7 +64,7 @@
       "exact_integer_row_modules_equal": true,
       "every_D_exponent_at_most_min_a_k": true,
       "fundamental_weight_D_crosscheck": true,
-      "seconds": 0.019083
+      "seconds": 0.029558
     },
     {
       "a": 2,
@@ -93,7 +93,7 @@
       "exact_integer_row_modules_equal": true,
       "every_D_exponent_at_most_min_a_k": true,
       "fundamental_weight_D_crosscheck": true,
-      "seconds": 0.064154
+      "seconds": 0.078279
     },
     {
       "a": 2,
@@ -117,7 +117,7 @@
       "exact_integer_row_modules_equal": true,
       "every_D_exponent_at_most_min_a_k": true,
       "fundamental_weight_D_crosscheck": true,
-      "seconds": 0.029149
+      "seconds": 0.041374
     },
     {
       "a": 2,
@@ -141,7 +141,7 @@
       "exact_integer_row_modules_equal": true,
       "every_D_exponent_at_most_min_a_k": true,
       "fundamental_weight_D_crosscheck": true,
-      "seconds": 0.044818
+      "seconds": 0.05947
     },
     {
       "a": 4,
@@ -218,7 +218,7 @@
       "exact_integer_row_modules_equal": true,
       "every_D_exponent_at_most_min_a_k": true,
       "fundamental_weight_D_crosscheck": false,
-      "seconds": 7.408886
+      "seconds": 9.503892
     },
     {
       "a": 4,
@@ -275,7 +275,7 @@
       "exact_integer_row_modules_equal": true,
       "every_D_exponent_at_most_min_a_k": true,
       "fundamental_weight_D_crosscheck": false,
-      "seconds": 26.918251
+      "seconds": 29.537858
     },
     {
       "a": 4,
@@ -301,7 +301,7 @@
       "exact_integer_row_modules_equal": true,
       "every_D_exponent_at_most_min_a_k": true,
       "fundamental_weight_D_crosscheck": false,
-      "seconds": 22.167391
+      "seconds": 21.644965
     },
     {
       "a": 4,
@@ -405,7 +405,7 @@
       "exact_integer_row_modules_equal": true,
       "every_D_exponent_at_most_min_a_k": true,
       "fundamental_weight_D_crosscheck": false,
-      "seconds": 13.682752
+      "seconds": 14.694363
     },
     {
       "a": 5,
@@ -530,11 +530,11 @@
       "exact_integer_row_modules_equal": true,
       "every_D_exponent_at_most_min_a_k": true,
       "fundamental_weight_D_crosscheck": false,
-      "seconds": 27.135918
+      "seconds": 28.045828
     }
   ],
   "excluded_components": [],
-  "seconds": 97.960326,
+  "seconds": 104.329807,
   "full_flag_counterexample": {
     "n": 3,
     "input": "x1^4*x2^2",

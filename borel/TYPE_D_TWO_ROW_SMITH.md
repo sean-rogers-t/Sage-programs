@@ -6,8 +6,9 @@ degree when \(\min(a,k)=2\), and gives a general upper bound on every
 square-sector exponent. Its two-variable argument has been independently
 reviewed within this session. These are unpublished deductions from the
 published Schubert inputs below, without an originality claim or external
-expert certification. The general B/D square comparison for larger blocks
-is not proved here.
+expert certification. The subsequent [general incidence proof](TYPE_D_SQUARE_THEOREM.md)
+now treats every block size; this note retains an independent direct
+proof for two variables.
 
 ## 1. Statement and normalization
 
@@ -328,9 +329,9 @@ records the script and proof hashes. These finite checks corroborate
 the proof; they are not substituted for it.
 
 This result completes every square-sector Smith layer for the two-row
-family. The corresponding general comparison for \(\min(a,k)\ge3\)
-and the positive-level gluing needed for the full D image remain
-separate questions; see [the candidate note](TYPE_D_CANDIDATE.md) and
+family. The corresponding [general square comparison](TYPE_D_SQUARE_THEOREM.md)
+is now proved for all block sizes. Positive-level gluing for the full
+even-tail D image remains a separate question; see [the candidate note](TYPE_D_CANDIDATE.md) and
 [the integral gluing theorem](ORTHOGONAL_SMITH.md).
 
 For the literal defining/vector polynomial-character lattice, multiply

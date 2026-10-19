@@ -53,47 +53,49 @@ identity does not itself prove the integral Springer comparison.
 
 ## Type-D progress after the general B proof
 
-The [type-D unit theorem](TYPE_D_FROBENIUS.md) now determines every
-normalized unit multiplicity in every rank. The proof embeds an ordinary
-Grassmann Chern ring modulo 2, identifies the two original-image
-reductions as Frobenius and Euler-times-Frobenius images, and proves their
-exact Gaussian overlap. An elementary characteristic-two derivation
-gives an upper bound; the core-\((1)\) SXP matrix, a rank-truncated
-invariant-subspace locus, and integral affine-Grassmann Chern generation
-make that bound sharp. Explicit Schur-square classes provide a matching
-independent lower bound. General higher Smith multiplicities remain open.
-The subsequent [two-row square theorem](TYPE_D_TWO_ROW_SMITH.md)
-proves equality of every square-sector B/D factor in every degree when
-\(\min(a,k)\le2\), and a general exponent bound
-\(e\le\min(a,k)\). Together with the B lower bound this also fixes
-the unique top square factor as \(2^{\min(a,k)}\) in every rank. Integral boundary-row elimination, including
-the sole possible extra denominator, has been checked independently.
-This is a repository deduction; no originality or external review is
-claimed. Larger-block equality and general saturated gluing remain open.
+The [type-D unit theorem](TYPE_D_FROBENIUS.md) determines every normalized
+unit multiplicity, including the exact Gaussian overlap for even tails.
+Its mod-2 argument retains its independent scope.
 
-The [square comparison](TYPE_D_SQUARE_COMPARISON.md) separately proves
-common B/D square kernels and ranks, D block duality, a sufficient
-square-sector primitive range \(d\le\max(a,k)\), equality of the
-one-block families, and a termwise lower bound by the B factors.
-The proposed primitive Gysin-multiplication shortcut is false; a small
-independent counterexample is recorded rather than used in a proof.
+The [general square comparison](TYPE_D_SQUARE_THEOREM.md) now proves
+that every normalized D square-sector coefficient-row lattice equals
+its B counterpart in every rank and degree. In particular the requested
+smaller-block-three case has exactly the multiplicities of \(1,2,4,8\)
+displayed in equation (13) of that note. The proof uses flagged orthogonal
+incidence bundles, the published equivariant eta formulas with denominator
+at most \(2^t\), and an integral coefficient retraction obtained by
+compensated head/tail sign changes. The retraction preserves the nonzero
+base Euler class. The resulting square ring is the relative quaternionic
+Grassmann ring. Existing integral B-prefix primitivity then gives
+\(2^tP_t\subseteq\mathcal R_D\); summing proves the missing reverse
+row containment. A fresh independent adversarial audit found no material
+gap in this argument. This is an unpublished repository deduction without
+an originality claim or external expert certification.
 
-A [closed full-D candidate](TYPE_D_CANDIDATE.md) is now explicit.
-Its unit layer is proved. Its remaining sufficient hypotheses are the
-higher square-sector B comparison and exhaustion of the saturated
-gluing graph by unit gluing. All 84 exact full Smith lists in its
-[finite check](experiments/type_d_candidate_verification.json) agree;
-two rank-nine timeouts are excluded. Finite agreement does not prove
-those remaining hypotheses. The independent
-[unit upper-bound verifier](experiments/verify_type_d_unit_upper_bound.py)
-and [report](experiments/type_d_unit_upper_bound_verification.json)
-check 147 kernel components, 147 core-one LR ranks, 40 exact integer
-row-module/primitivity comparisons and 41 signed SXP rows.
-The [square verifier](experiments/type_d_square_comparison_verification.json)
-checks 32 components, 11 dualities and the failed Gysin shortcut by
-two coefficient methods.
-These are unpublished repository deductions
-and conjectures; originality and external expert review are unestablished.
+The [two-row note](TYPE_D_TWO_ROW_SMITH.md) retains an independent direct
+boundary-row proof and the general exponent bound. The
+[structural comparison](TYPE_D_SQUARE_COMPARISON.md) retains common
+kernels, duality, finite primitive ranges, and the failed broader shortcuts.
+
+The [full-D formula](TYPE_D_CANDIDATE.md) is therefore proved for every
+odd tail: the square and Euler sectors occur in opposite degree parities,
+and both sector lists are known. For even tails its unit layer remains
+proved, while the higher full-image formula still requires exhaustion
+of the saturated gluing graph by unit gluing. The square comparison is
+no longer an unproved hypothesis.
+
+The [three-root Chern verifier](experiments/verify_type_d_three_row_smith.py)
+and [report](experiments/type_d_three_row_smith_verification.json) check
+actual integer coefficient modules, the four closed formulas, independent
+Cartesian D expansions, and a relative quadric with nonzero base Euler
+class. The separate pure-Python
+[projection verifier](experiments/verify_type_d_incidence_projection.py)
+and [report](experiments/type_d_incidence_projection_verification.json)
+check 5,440 monomials and their Euler/square-relation multiples, retaining
+the base Euler symbol and detecting the false uncompensated projection.
+Finite checks corroborate the written arguments; they do not prove the
+geometric or equivariant inputs. Earlier unit and square reports retain
+their explicitly bounded scopes and resource exclusions.
 
 ## Current mathematical status
 
@@ -117,12 +119,13 @@ selected rational image. They need not be indices in all cohomology.
 | Three highest multiplicities in every rank; all $\ell\le4$ | Independent repository deduction | [High-layer note](TYPE_B_HIGH_LAYERS.md): complete-symmetric spectators, a coordinate prefix and graph components. This gives an alternative proof of those layers. |
 | Full positive type-B partition formula for arbitrary $\ell,e$ | Complete repository deduction; formerly conjectural | [Formula](TYPE_B_CLOSED_CONJECTURE.md) and [integral proof](TYPE_B_GENERAL_SMITH.md). Defect-stratum counting is combined with the integral triangular squeeze. |
 | Type-D stable primitivity, sufficient finite range, only powers of two, Euler-sector B comparison, quadric table | Audited deductions | [Type-D note](TYPE_D_SMITH.md), with integral eta specialization, localized Reynolds projection, and the explicit BKT difference basis. |
-| Every normalized type-D unit multiplicity | Complete repository deduction | [Unit proof](TYPE_D_FROBENIUS.md): mod-2 Grassmann embedding, exact Frobenius/Euler intersection, derivation, core-one SXP incidence and affine Chern generation. Higher Smith layers remain open. |
+| Every normalized type-D unit multiplicity | Complete repository deduction | [Unit proof](TYPE_D_FROBENIUS.md): mod-2 Grassmann embedding, exact Frobenius/Euler intersection, derivation, core-one SXP incidence and affine Chern generation. General even-tail gluing remains open. |
 | Type-D square common kernel/rank, block duality, improved primitive range and one-sided B bound | Repository deductions | [Square comparison](TYPE_D_SQUARE_COMPARISON.md). General square-sector equality is not inferred from rational rank or stable presentations. |
-| Type-D square factors for $\min(a,k)\le2$; general square exponent bound | Complete repository deductions | [Two-row proof](TYPE_D_TWO_ROW_SMITH.md): weighted boundary-row elimination proves equality with B; an integral parity retraction of the Chern subring gives $e\le\min(a,k)$. Larger-block equality remains open. |
-| Explicit full-D Gaussian candidate | Unit layer proved; higher layers conjectural in general | [Formula and conditional proof](TYPE_D_CANDIDATE.md). Requires higher square comparison and unit-gluing exhaustion; 84 finite matches do not prove them. |
+| Type-D square factors for $\min(a,k)\le2$; general square exponent bound | Complete repository deductions | [Two-row proof](TYPE_D_TWO_ROW_SMITH.md): weighted boundary-row elimination proves equality with B; an integral parity retraction of the Chern subring gives $e\le\min(a,k)$. The subsequent general incidence theorem covers all block sizes. |
+| General D square-sector B comparison, including all smaller-block-three multiplicities | Complete repository deduction | [Incidence proof](TYPE_D_SQUARE_THEOREM.md): equivariant eta denominator bound, compensated-parity retraction, quaternionic model, and primitive B prefixes give exact row-lattice equality. |
+| Explicit full-D Gaussian formula | Proved for odd tails and every unit layer; higher even-tail layers conjectural | [Formula and conditional proof](TYPE_D_CANDIDATE.md). Only unit-gluing exhaustion remains a sufficient unproved hypothesis; finite matches do not establish it. |
 | Type-D two-flag gluing rule | Audited elementary lattice lemma | [Orthogonal note](ORTHOGONAL_SMITH.md). It needs sector exponents and flag-intersection data; it is not a closed partition classification. |
-| Type-D square-sector equality with B in general; full D partition formula | Conjectural/open in these notes | The finite data and rational comparisons do not prove the necessary integral saturation statement. |
+| Full even-tail D partition formula | Conjectural/open in these notes | Both sector lists are now proved; the remaining question is saturated gluing at positive 2-adic levels. |
 | Literal defining/vector SO/Sp lattice is scaled by $2^d$ in degree $d$ | Audited normalization deduction | [Normalization audit](INTEGRAL_LITERATURE.md). Uses the stated character lattice; it does not automatically apply to Spin. |
 | 174 Smith lists, 430 prefix comparisons, 516 exact row-module equalities | Finite computational evidence | Exact scopes and input hashes are in the linked [candidate](experiments/type_b_closed_candidate_verification.json) and [filtration](experiments/type_b_filtration_verification.json) reports. None is a proof for arbitrary rank. |
 
@@ -264,6 +267,13 @@ Parts I--III supply the Springer maps, chosen forms, finite generator
 images, and stable injectivity discussed with locators in
 [INTEGRAL_LITERATURE.md](INTEGRAL_LITERATURE.md). Their complex injectivity
 statements should not be relabeled integral saturation theorems.
+
+* [Tamvakis, double eta polynomials](https://math.umd.edu/~harryt/papers/dbleta.pdf),
+  Definition 1 and equations (4)--(5), Theorem 1, Section 4.1:
+  the equivariant integral Schubert basis and explicit Chern/Euler
+  geometrization used to deduce the relative denominator bound. The
+  flagged incidence comparison and selected Smith interpretation are
+  additional arguments in the new D square note.
 
 ## Literature search limits
 
