@@ -402,8 +402,15 @@ The latter uses the published BKT, Littlewood/SXP and integral
 affine-Grassmann Chern inputs; their additional Springer-image
 interpretation is proved in the linked note and is not attributed to
 those sources as a published Smith theorem.
+The [two-row D square theorem](TYPE_D_TWO_ROW_SMITH.md) additionally
+proves every square factor agrees with B when the smaller block has
+size at most two, using the published BKT and quaternionic bases plus
+a weighted boundary-row argument given here. It also proves a general
+square exponent bound. No further literature search establishing
+novelty of this family has been completed.
 The [full D partition formula](TYPE_D_CANDIDATE.md) remains a
-conjecture in its higher Smith layers, with the exact remaining
-square-sector and saturated-gluing hypotheses stated explicitly. A second is to identify and compare natural integral
+conjecture in general in its higher Smith layers, with the exact
+remaining square-sector and saturated-gluing hypotheses stated
+explicitly. Another question is to identify and compare natural integral
 forms of the exceptional polynomial representation subalgebras. Any claim
 about representation rings must specify that form explicitly.

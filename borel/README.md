@@ -84,7 +84,11 @@ For type D, the [unit-layer proof](TYPE_D_FROBENIUS.md) now gives a
 closed formula for every normalized factor equal to one, including the
 exact Gaussian overlap for even tails. A separate
 [square comparison](TYPE_D_SQUARE_COMPARISON.md) proves block symmetry,
-a sufficient primitive range and a termwise B bound.
+a sufficient primitive range and a termwise B bound. The
+[two-row square theorem](TYPE_D_TWO_ROW_SMITH.md) proves equality of
+every B/D square factor in every degree when the smaller block has
+size at most two, and bounds all D square exponents by that smaller
+block size. Both-blocks-at-least-three equality remains open.
 The [full D formula](TYPE_D_CANDIDATE.md) is an explicit conjecture in
 its higher layers; its two remaining integral hypotheses are stated
 separately from the proved unit layer. The exact candidate check matches

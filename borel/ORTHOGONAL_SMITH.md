@@ -46,10 +46,10 @@ can be smaller than the full cohomology group.
 
 | Statement | Type B | Type D |
 | --- | --- | --- |
-| Possible normalized factors | $2^e$, $0\leq e\leq\min(a,k)$ | Powers of $2$ |
+| Possible normalized factors | $2^e$, $0\leq e\leq\min(a,k)$ | Powers of $2$; square exponents at most $\min(a,k)$ |
 | Stable image, with $k$ fixed | Saturated in every degree | Saturated in every degree |
 | Sufficient finite range for all factors $1$ | $d\leq\max(a,k)$ | $d\leq a$ |
-| Complete closed families | Every pair $a,k$ | $a=1$ |
+| Complete closed families | Every pair $a,k$ | Full image: $a=1$, also $a=2$ with odd $k$; square sector: $\min(a,k)\le2$ |
 | Other uniform information | Block symmetry, rank formula, closed unit and largest-factor multiplicities, weighted-minor formula for every factor | Closed unit multiplicities, square block symmetry/bounds, Euler comparison, and the integral gluing formula below |
 | Remaining classification | None for these normalized B generators | Closed partition multiplicities, including the integral gluing |
 
@@ -173,7 +173,11 @@ assumed to exhaust all gluing of the saturated sector lattices.
 
 The [square comparison note](TYPE_D_SQUARE_COMPARISON.md) proves
 common kernels, block symmetry, a sufficient primitive range
-\(d\le\max(a,k)\), and a termwise B lower bound.
+\(d\le\max(a,k)\), and a termwise B lower bound. The
+[two-row square proof](TYPE_D_TWO_ROW_SMITH.md) gives equality of
+all factors when \(\min(a,k)\le2\), together with a general square
+exponent bound \(e\le\min(a,k)\). Its proof uses integral
+boundary-row elimination and the parity of Pieri coefficients.
 The [full-D candidate](TYPE_D_CANDIDATE.md) gives a closed proposed
 answer for every higher factor, separates its two unproved integral
 hypotheses, and records all 84 exact full-list comparisons.
@@ -208,8 +212,9 @@ The degree shift is the degree of $p$. For $a=1$ the variety on the right
 is a point. The proof in [TYPE_D_SMITH.md](TYPE_D_SMITH.md) upgrades
 [Buch--Kresch--Tamvakis, Proposition 2](https://math.umd.edu/~harryt/papers/oggiam.pdf)
 using the explicit integral Schubert bases and their primitive difference
-lattice. The analogous square-sector comparison with $B_n$ holds in the
-recorded examples, but is not proved here.
+lattice. The analogous square-sector comparison with $B_n$ is proved
+when $\min(a,k)\le2$ in the [two-row note](TYPE_D_TWO_ROW_SMITH.md).
+It agrees in the recorded larger examples, but remains unproved there.
 
 ### Lattice lemma
 

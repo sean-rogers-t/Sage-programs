@@ -2,8 +2,11 @@
 
 **Status: repository deductions, 19 October 2026.** This note proves the
 common square-input kernel, block duality, a finite primitive range, and
-a one-sided comparison with type B. It does **not** prove equality of the
-general B and D square-sector Smith lists. The finite checks below are
+a one-sided comparison with type B. The subsequent
+[two-row theorem](TYPE_D_TWO_ROW_SMITH.md) proves equality of every
+B/D square-sector factor when the smaller block has size at most two,
+and bounds every D square exponent by \(\min(a,k)\). Equality when
+both blocks have size at least three remains unproved. The finite checks below are
 corroboration. No originality or external mathematical certification is
 claimed.
 
@@ -242,10 +245,32 @@ at least \(s\). Thus D has at least as many such exponents as B at
 every threshold. For sorted lists of equal length this is equivalent
 to (7).
 
-The unproved reverse inclusion in (8) is precisely what would turn
-this bound into equality of the coefficient-row lattices. Equality
+The [two-row theorem](TYPE_D_TWO_ROW_SMITH.md) proves the reverse
+inclusion in (8) when \(\min(a,k)\le2\), using weighted integral
+boundary-row relations. In general, the reverse inclusion in (8) is
+precisely what would turn this bound into equality of the coefficient-row lattices. Equality
 of the Smith multisets alone is weaker, but remains unproved in
 general here as well.
+
+### A top-degree consequence in every rank
+
+The upper bound in the [two-row note](TYPE_D_TWO_ROW_SMITH.md), combined
+with (7), determines the top nonzero square component even for larger
+blocks. In polynomial degree \(d=2ak\), its rank is one, with source
+\(s_{(a^k)}(x_T^2)=q_k^a\). Its only normalized Smith factor is
+\[
+\boxed{2^{\min(a,k)}}
+\qquad\text{in both B and D}.
+\tag{9}
+\]
+Indeed the [B highest-factor formula](TYPE_B_HIGHEST_SMITH.md) has
+one factor with exponent \(\ell=\min(a,k)\) at this endpoint.
+The D exponent is at least \(\ell\) by (7) and at most \(\ell\)
+by the new bound. The common rectangle kernel makes all higher square
+components zero. More generally, sorted positions already having the
+maximum B exponent cannot increase in D; this does not exclude other D
+positions increasing to that exponent, so it does not determine its
+entire multiplicity.
 
 ## 6. A failed Gysin shortcut
 
@@ -276,6 +301,19 @@ in its specified cases. Its
 [report](experiments/type_d_square_comparison_verification.json)
 records the precise scope. Finite equalities do not establish the
 general reverse inclusion.
+
+A second tempting extension also fails: restriction does not preserve
+all divisibilities on the entire full-flag span of polynomials in the
+individual squared coordinates. On the full flags of rank three, the
+single input \(x_1^4x_2^2\), in polynomial degree six, has normalized
+factor \(2\) in B and factor \(4\) in D. Thus block symmetry is an
+essential hypothesis of the selected-image conjecture. The independent
+[Cartesian verifier](experiments/verify_type_d_higher_square.py) records
+this example and crosschecks it with fundamental-weight BGG. Its
+[report](experiments/type_d_higher_square_verification.json) also records
+selected larger-block row-module equalities with explicit bounds;
+these remain finite evidence. The [two-row proof](TYPE_D_TWO_ROW_SMITH.md)
+uses the extra block symmetry to eliminate the missing rows integrally.
 
 For the full D image, the separately proved Euler-sector comparison
 and the integral eigenspace-gluing formula are still required; see

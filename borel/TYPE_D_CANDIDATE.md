@@ -59,7 +59,7 @@ degree \(d\). The candidate is
 \tag{3}
 \]
 
-**What is proved in (3):** its \(e=0\) assertion, for every \(a,k,d\).
+**What is proved in every rank in (3):** its \(e=0\) assertion, for every \(a,k,d\).
 Equivalently, the complete D unit polynomial is
 \[
 \boxed{
@@ -97,9 +97,12 @@ The following two hypotheses suffice for (3):
    Smith multiset equals the corresponding B multiset.
    The [square comparison note](TYPE_D_SQUARE_COMPARISON.md) proves
    common kernels/ranks, integral block duality, a termwise lower
-   bound by B, and equality in specified boundary/range cases.
-   The unit theorem proves equality at exponent zero. The general
-   higher-factor equality remains unproved.
+   bound by B, and equality in specified boundary/range cases. The
+   [two-row theorem](TYPE_D_TWO_ROW_SMITH.md) now proves every square
+   factor when \(\min(a,k)\le2\), with all exponents bounded by
+   \(\min(a,k)\) in general. The unit theorem proves equality at
+   exponent zero in every rank. Higher-factor equality remains open
+   when both blocks have size at least three.
 2. **Exhaustion by unit gluing.** \(W=W_0^+\cap W_0^-\).
    The proved dimension of this intersection is the relevant
    coefficient of (2). The equality with the full \(W\) is
@@ -110,7 +113,10 @@ Under hypothesis 1 the sector exponent lists are the two B lists in
 pair has exponents \((0,0)\), and there are exactly the overlaps
 counted by (2). The integral gluing lemma replaces each such pair by
 \((0,1)\), giving the correction in (3). This proves the conditional
-statement. For odd \(k\) only hypothesis 1 is needed.
+statement. For odd \(k\) only hypothesis 1 is needed. Consequently
+(3) is now proved for every degree when \(a=2\) and \(k\) is odd,
+by the two-row square theorem, the Euler comparison, and the opposite
+degree parities. This corollary does not settle the even-tail gluing.
 
 The mod-2 unit theorem alone does not establish either higher-layer
 hypothesis. No union of rational eigenspaces or matching character

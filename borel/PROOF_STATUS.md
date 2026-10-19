@@ -61,7 +61,15 @@ exact Gaussian overlap. An elementary characteristic-two derivation
 gives an upper bound; the core-\((1)\) SXP matrix, a rank-truncated
 invariant-subspace locus, and integral affine-Grassmann Chern generation
 make that bound sharp. Explicit Schur-square classes provide a matching
-independent lower bound. The higher Smith factors remain unproved.
+independent lower bound. General higher Smith multiplicities remain open.
+The subsequent [two-row square theorem](TYPE_D_TWO_ROW_SMITH.md)
+proves equality of every square-sector B/D factor in every degree when
+\(\min(a,k)\le2\), and a general exponent bound
+\(e\le\min(a,k)\). Together with the B lower bound this also fixes
+the unique top square factor as \(2^{\min(a,k)}\) in every rank. Integral boundary-row elimination, including
+the sole possible extra denominator, has been checked independently.
+This is a repository deduction; no originality or external review is
+claimed. Larger-block equality and general saturated gluing remain open.
 
 The [square comparison](TYPE_D_SQUARE_COMPARISON.md) separately proves
 common B/D square kernels and ranks, D block duality, a sufficient
@@ -111,7 +119,8 @@ selected rational image. They need not be indices in all cohomology.
 | Type-D stable primitivity, sufficient finite range, only powers of two, Euler-sector B comparison, quadric table | Audited deductions | [Type-D note](TYPE_D_SMITH.md), with integral eta specialization, localized Reynolds projection, and the explicit BKT difference basis. |
 | Every normalized type-D unit multiplicity | Complete repository deduction | [Unit proof](TYPE_D_FROBENIUS.md): mod-2 Grassmann embedding, exact Frobenius/Euler intersection, derivation, core-one SXP incidence and affine Chern generation. Higher Smith layers remain open. |
 | Type-D square common kernel/rank, block duality, improved primitive range and one-sided B bound | Repository deductions | [Square comparison](TYPE_D_SQUARE_COMPARISON.md). General square-sector equality is not inferred from rational rank or stable presentations. |
-| Explicit full-D Gaussian candidate | Unit layer proved; higher layers conjectural | [Formula and conditional proof](TYPE_D_CANDIDATE.md). Requires higher square comparison and unit-gluing exhaustion; 84 finite matches do not prove them. |
+| Type-D square factors for $\min(a,k)\le2$; general square exponent bound | Complete repository deductions | [Two-row proof](TYPE_D_TWO_ROW_SMITH.md): weighted boundary-row elimination proves equality with B; an integral parity retraction of the Chern subring gives $e\le\min(a,k)$. Larger-block equality remains open. |
+| Explicit full-D Gaussian candidate | Unit layer proved; higher layers conjectural in general | [Formula and conditional proof](TYPE_D_CANDIDATE.md). Requires higher square comparison and unit-gluing exhaustion; 84 finite matches do not prove them. |
 | Type-D two-flag gluing rule | Audited elementary lattice lemma | [Orthogonal note](ORTHOGONAL_SMITH.md). It needs sector exponents and flag-intersection data; it is not a closed partition classification. |
 | Type-D square-sector equality with B in general; full D partition formula | Conjectural/open in these notes | The finite data and rational comparisons do not prove the necessary integral saturation statement. |
 | Literal defining/vector SO/Sp lattice is scaled by $2^d$ in degree $d$ | Audited normalization deduction | [Normalization audit](INTEGRAL_LITERATURE.md). Uses the stated character lattice; it does not automatically apply to Spin. |

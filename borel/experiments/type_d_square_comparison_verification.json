@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_utc": "2026-10-19T18:51:34.606203+00:00",
+  "generated_utc": "2026-10-19T19:19:37.615504+00:00",
   "sage_version": "9.5",
   "scope": "Finite exact corroboration of proved partial comparisons; general square equality remains unresolved.",
   "normalization": "unscaled normalized squared-tail inputs; polynomial degree is half cohomological degree",
   "source_sha256": {
     "experiments/verify_type_d_square_comparison.py": "808929ccbceafde17854ab9a3c3cf0c8f7d920eecd0915b02eea51d7f4211ecf",
     "experiments/type_b_cartesian_frontier.py": "f303bd96aed9396a1c6386327b8d04e4784d4d71150e8c7619be08d3b6029777",
-    "TYPE_D_SQUARE_COMPARISON.md": "61ddcae22e4b9f61141bd43d24311f9ba6baed0d86894b4c4bf711a63a3ad23f",
+    "TYPE_D_SQUARE_COMPARISON.md": "1a169ced4f528b19cdc586f297a4b762897dbf282455afb791e148192244ed9d",
     "src/sage_borel/core.py": "c21a7b8893c5155efc71123264d698b7504dd89d8657b0612f57e0cb05118751",
     "src/sage_borel/operations.py": "0429729152ddebd67d0034cdb5ef4953ed2091468168bd24f97ced4f2254b857"
   },
@@ -32,7 +32,7 @@
       "sorted_exponent_lower_bound_holds": true,
       "within_proved_primitive_range": true,
       "finite_square_B_D_equality": true,
-      "seconds": 0.026686
+      "seconds": 0.033233
     },
     {
       "a": 1,
@@ -56,7 +56,7 @@
       "sorted_exponent_lower_bound_holds": true,
       "within_proved_primitive_range": true,
       "finite_square_B_D_equality": true,
-      "seconds": 0.007109
+      "seconds": 0.007983
     },
     {
       "a": 1,
@@ -81,7 +81,7 @@
       "sorted_exponent_lower_bound_holds": true,
       "within_proved_primitive_range": false,
       "finite_square_B_D_equality": true,
-      "seconds": 0.008417
+      "seconds": 0.014163
     },
     {
       "a": 1,
@@ -107,7 +107,7 @@
       "sorted_exponent_lower_bound_holds": true,
       "within_proved_primitive_range": false,
       "finite_square_B_D_equality": true,
-      "seconds": 0.011898
+      "seconds": 0.012734
     },
     {
       "a": 3,
@@ -129,7 +129,7 @@
       "sorted_exponent_lower_bound_holds": true,
       "within_proved_primitive_range": true,
       "finite_square_B_D_equality": true,
-      "seconds": 0.006126
+      "seconds": 0.007639
     },
     {
       "a": 3,
@@ -153,7 +153,7 @@
       "sorted_exponent_lower_bound_holds": true,
       "within_proved_primitive_range": true,
       "finite_square_B_D_equality": true,
-      "seconds": 0.011672
+      "seconds": 0.01586
     },
     {
       "a": 3,
@@ -177,7 +177,7 @@
       "sorted_exponent_lower_bound_holds": true,
       "within_proved_primitive_range": false,
       "finite_square_B_D_equality": true,
-      "seconds": 0.022725
+      "seconds": 0.026607
     },
     {
       "a": 3,
@@ -201,7 +201,7 @@
       "sorted_exponent_lower_bound_holds": true,
       "within_proved_primitive_range": false,
       "finite_square_B_D_equality": true,
-      "seconds": 0.022113
+      "seconds": 0.031291
     },
     {
       "a": 2,
@@ -223,7 +223,7 @@
       "sorted_exponent_lower_bound_holds": true,
       "within_proved_primitive_range": true,
       "finite_square_B_D_equality": true,
-      "seconds": 0.001791
+      "seconds": 0.003085
     },
     {
       "a": 2,
@@ -247,7 +247,7 @@
       "sorted_exponent_lower_bound_holds": true,
       "within_proved_primitive_range": true,
       "finite_square_B_D_equality": true,
-      "seconds": 0.009378
+      "seconds": 0.01064
     },
     {
       "a": 2,
@@ -277,7 +277,7 @@
       "sorted_exponent_lower_bound_holds": true,
       "within_proved_primitive_range": false,
       "finite_square_B_D_equality": true,
-      "seconds": 0.030551
+      "seconds": 0.033862
     },
     {
       "a": 2,
@@ -302,7 +302,7 @@
       "sorted_exponent_lower_bound_holds": true,
       "within_proved_primitive_range": false,
       "finite_square_B_D_equality": true,
-      "seconds": 0.016753
+      "seconds": 0.021072
     },
     {
       "a": 2,
@@ -327,7 +327,7 @@
       "sorted_exponent_lower_bound_holds": true,
       "within_proved_primitive_range": false,
       "finite_square_B_D_equality": true,
-      "seconds": 0.023417
+      "seconds": 0.037036
     },
     {
       "a": 2,
@@ -349,7 +349,7 @@
       "sorted_exponent_lower_bound_holds": true,
       "within_proved_primitive_range": true,
       "finite_square_B_D_equality": true,
-      "seconds": 0.002563
+      "seconds": 0.003083
     },
     {
       "a": 2,
@@ -373,7 +373,7 @@
       "sorted_exponent_lower_bound_holds": true,
       "within_proved_primitive_range": true,
       "finite_square_B_D_equality": true,
-      "seconds": 0.008785
+      "seconds": 0.009067
     },
     {
       "a": 2,
@@ -403,7 +403,7 @@
       "sorted_exponent_lower_bound_holds": true,
       "within_proved_primitive_range": false,
       "finite_square_B_D_equality": true,
-      "seconds": 0.031883
+      "seconds": 0.046407
     },
     {
       "a": 2,
@@ -435,7 +435,7 @@
       "sorted_exponent_lower_bound_holds": true,
       "within_proved_primitive_range": false,
       "finite_square_B_D_equality": true,
-      "seconds": 0.07586
+      "seconds": 0.090936
     },
     {
       "a": 2,
@@ -467,7 +467,7 @@
       "sorted_exponent_lower_bound_holds": true,
       "within_proved_primitive_range": false,
       "finite_square_B_D_equality": true,
-      "seconds": 0.081704
+      "seconds": 0.088928
     },
     {
       "a": 2,
@@ -493,7 +493,7 @@
       "sorted_exponent_lower_bound_holds": true,
       "within_proved_primitive_range": false,
       "finite_square_B_D_equality": true,
-      "seconds": 0.059711
+      "seconds": 0.069661
     },
     {
       "a": 2,
@@ -519,7 +519,7 @@
       "sorted_exponent_lower_bound_holds": true,
       "within_proved_primitive_range": false,
       "finite_square_B_D_equality": true,
-      "seconds": 0.083803
+      "seconds": 0.081077
     },
     {
       "a": 3,
@@ -541,7 +541,7 @@
       "sorted_exponent_lower_bound_holds": true,
       "within_proved_primitive_range": true,
       "finite_square_B_D_equality": true,
-      "seconds": 0.001608
+      "seconds": 0.002178
     },
     {
       "a": 3,
@@ -565,7 +565,7 @@
       "sorted_exponent_lower_bound_holds": true,
       "within_proved_primitive_range": true,
       "finite_square_B_D_equality": true,
-      "seconds": 0.009826
+      "seconds": 0.012358
     },
     {
       "a": 3,
@@ -595,7 +595,7 @@
       "sorted_exponent_lower_bound_holds": true,
       "within_proved_primitive_range": false,
       "finite_square_B_D_equality": true,
-      "seconds": 0.047039
+      "seconds": 0.048966
     },
     {
       "a": 3,
@@ -625,7 +625,7 @@
       "sorted_exponent_lower_bound_holds": true,
       "within_proved_primitive_range": false,
       "finite_square_B_D_equality": true,
-      "seconds": 0.069895
+      "seconds": 0.065155
     },
     {
       "a": 3,
@@ -656,7 +656,7 @@
       "sorted_exponent_lower_bound_holds": true,
       "within_proved_primitive_range": false,
       "finite_square_B_D_equality": true,
-      "seconds": 0.135895
+      "seconds": 0.128793
     },
     {
       "a": 3,
@@ -681,7 +681,7 @@
       "sorted_exponent_lower_bound_holds": true,
       "within_proved_primitive_range": false,
       "finite_square_B_D_equality": true,
-      "seconds": 0.091157
+      "seconds": 0.086726
     },
     {
       "a": 3,
@@ -706,7 +706,7 @@
       "sorted_exponent_lower_bound_holds": true,
       "within_proved_primitive_range": false,
       "finite_square_B_D_equality": true,
-      "seconds": 0.106793
+      "seconds": 0.10678
     },
     {
       "a": 3,
@@ -728,7 +728,7 @@
       "sorted_exponent_lower_bound_holds": true,
       "within_proved_primitive_range": true,
       "finite_square_B_D_equality": true,
-      "seconds": 0.002812
+      "seconds": 0.003484
     },
     {
       "a": 3,
@@ -752,7 +752,7 @@
       "sorted_exponent_lower_bound_holds": true,
       "within_proved_primitive_range": true,
       "finite_square_B_D_equality": true,
-      "seconds": 0.009025
+      "seconds": 0.011139
     },
     {
       "a": 3,
@@ -782,7 +782,7 @@
       "sorted_exponent_lower_bound_holds": true,
       "within_proved_primitive_range": false,
       "finite_square_B_D_equality": true,
-      "seconds": 0.046718
+      "seconds": 0.049236
     },
     {
       "a": 3,
@@ -819,7 +819,7 @@
       "sorted_exponent_lower_bound_holds": true,
       "within_proved_primitive_range": false,
       "finite_square_B_D_equality": true,
-      "seconds": 0.128078
+      "seconds": 0.123564
     },
     {
       "a": 3,
@@ -857,7 +857,7 @@
       "sorted_exponent_lower_bound_holds": true,
       "within_proved_primitive_range": false,
       "finite_square_B_D_equality": true,
-      "seconds": 0.318066
+      "seconds": 0.318213
     }
   ],
   "block_duality_checks": [
@@ -961,5 +961,5 @@
     "all_proved_partial_comparison_checks_passed": true,
     "false_primitive_multiplication_counterexample_confirmed": true
   },
-  "seconds": 1.827831
+  "seconds": 1.946211
 }

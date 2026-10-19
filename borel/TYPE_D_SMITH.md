@@ -16,6 +16,9 @@ The subsequent [unit theorem](TYPE_D_FROBENIUS.md) determines every
 normalized unit multiplicity in every rank. The
 [square comparison](TYPE_D_SQUARE_COMPARISON.md) adds block duality,
 an improved square-only stable range and a one-sided B bound. The
+[two-row square theorem](TYPE_D_TWO_ROW_SMITH.md) proves every square
+factor equals B when \(\min(a,k)\le2\), and bounds every D square
+exponent by \(\min(a,k)\) in general. The
 [full closed formula](TYPE_D_CANDIDATE.md) remains conjectural in its
 higher Smith layers. It does **not** claim
 an explicit partition formula for all finite head dimensions. All degrees
@@ -442,7 +445,9 @@ general formula must supply.
 The [finite sector calculations](experiments/orthogonal_sector_search_results.json)
 also give the same Smith lists for the square-only type-D sector and the
 type-B image on \(\operatorname{OG}(a,2n+1)\) in every recorded component.
-That square-sector identification remains an observed pattern in this work.
-Proposition 1 gives its rational setting; proving preservation of the
-integral saturation requires an additional argument. The Euler-sector
+The [two-row proof](TYPE_D_TWO_ROW_SMITH.md) now establishes that
+square-sector identification in every degree when \(\min(a,k)\le2\).
+For larger blocks it remains an observed pattern. Proposition 1 gives
+its rational setting; preservation of the integral saturation still
+requires an additional argument in those larger cases. The Euler-sector
 comparison proved above already has that integral justification.
