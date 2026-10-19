@@ -1,14 +1,12 @@
-# A closed full type-D formula: odd tails proved and even-tail gluing open
+# The closed full type-D formula
 
-**Status, 19 October 2026:** the unit multiplicities in this note are
-proved in [TYPE_D_FROBENIUS.md](TYPE_D_FROBENIUS.md). The
-[general square comparison](TYPE_D_SQUARE_THEOREM.md) now determines
-every square-sector factor. Together with the Euler comparison this
-proves the full formula for every odd tail. For even tails, the higher
-multiplicities remain a **conjecture** subject to the single gluing
-hypothesis below. It matches 84 exact recorded full Smith lists;
-two timed-out calculations are excluded. This is unpublished repository
-work, without an originality claim or external expert review.
+**Status, 19 October 2026: complete internally audited repository deduction.**
+The [general even-tail gluing theorem](TYPE_D_EVEN_GLUING_THEOREM.md)
+closes the remaining condition in this note. Together with the earlier
+square and Euler comparisons, it proves every multiplicity in the stated
+scope. The historical filename is retained for existing links and
+experiments. This is unpublished work, without an originality claim or
+external expert review; see the [full audit](TYPE_D_EVEN_GLUING_AUDIT.md).
 
 ## 1. The fixed image problem
 
@@ -43,18 +41,19 @@ u=\lceil a/2\rceil,\quad v=\lfloor a/2\rfloor,\qquad
 q^{h(v+1)}{h+u-1\brack h}_q.
 \tag{2}
 \]
-The [unit theorem](TYPE_D_FROBENIUS.md) proves that this counts exactly
-the overlap between the two **original image** reductions modulo 2,
-not yet all gluing between their saturated lattices.
+The independent [unit theorem](TYPE_D_FROBENIUS.md) proves that this
+counts the overlap between the two original image reductions modulo 2.
+The subsequent gluing theorem proves that these classes exhaust the
+gluing between their saturated lattices as well.
 
-## 2. The proposed full answer
+## 2. The full answer
 
 Let \(M_D(a,k;e,d)\) count the factor \(2^e\) in polynomial
-degree \(d\). The candidate is
+degree \(d\). The proved formula is
 \[
 \boxed{
 \begin{aligned}
-\sum_d M_D(a,k;e,d)z^d\ \stackrel{?}{=}\ &
+\sum_d M_D(a,k;e,d)z^d\ =\ &
 \mathcal B_{a,k,e}(z^2)
 +z^k\mathcal B_{a-1,k,e}(z^2)\\
 &+(\delta_{e,1}-\delta_{e,0})\mathcal I_{a,k}(z^2).
@@ -62,8 +61,8 @@ degree \(d\). The candidate is
 \tag{3}
 \]
 
-**What is proved in every rank in (3):** all exponents for odd \(k\),
-and the \(e=0\) assertion for every \(a,k,d\).
+**Equation (3) is proved for every \(a\ge1,k\ge2,e,d\).**
+Its \(e=0\) case was independently proved earlier.
 Equivalently, the complete D unit polynomial is
 \[
 \boxed{
@@ -78,12 +77,12 @@ The entire Euler-sector Smith list, including its higher powers, is
 already proved to equal the shifted smaller B list.
 
 For odd \(k\), the two sectors have opposite degree parities and
-there is no same-degree gluing. For even \(k\), formula (3) predicts
+there is no same-degree gluing. For even \(k\), formula (3) shows
 that each overlap replaces a pair of unit factors by \(1,2\).
-This interpretation is the conditional argument below, not a proof
-that every integral overlap has this form.
+The relative incidence comparison supplies the integral proof that
+every overlap has this form.
 
-## 3. The remaining even-tail integral step
+## 3. The even-tail integral step
 
 Let \(L_\pm\) be the square and Euler image lattices in a degree,
 \(S_\pm\) their respective saturations, and
@@ -100,18 +99,25 @@ The square comparison is now a proved theorem: every normalized D
 square-sector list equals its B list, by the relative incidence argument
 in [TYPE_D_SQUARE_THEOREM.md](TYPE_D_SQUARE_THEOREM.md). The Euler-sector
 list is the shifted smaller B list by its separate integral comparison.
-Thus the following is the sole remaining sufficient hypothesis for (3)
-when \(k\) is even:
+The condition needed to complete (3) when \(k\) is even was:
 
 **Exhaustion by unit gluing:** \(W=W_0^+\cap W_0^-\).
-The unit theorem proves the dimension of this intersection is the
-relevant coefficient of (2). Equality with the full \(W\) is still
-unproved: saturation can introduce additional mod-2 classes.
+This is now the theorem in
+[TYPE_D_EVEN_GLUING_THEOREM.md](TYPE_D_EVEN_GLUING_THEOREM.md).
+Its proof moves the specified tail to the head and compares the precise
+square-plus-head-Euler source with type B. A relative Euler extension
+has a primitive selected source; an integral parity retraction and the
+equivariant eta denominator bound yield the reverse row containment.
+The selected B calculation uses primitive actual-head prefixes and
+signed level-zero overlap identities. The resulting full index,
+compared with the two independently known sector indices, proves that
+\(\dim W\) equals the coefficient of (2). The unit theorem already
+supplies that many independent unit-gluing directions.
 
-Under this hypothesis every gluing pair has exponents \((0,0)\), and
+Consequently every gluing pair has exponents \((0,0)\), and
 there are exactly the overlaps counted by (2). The integral gluing lemma
 replaces each such pair by \((0,1)\), giving the correction in (3).
-This proves the conditional statement for even tails.
+This proves the formula for even tails.
 
 For odd \(k\), square inputs have even polynomial degree and Euler
 multiples have odd polynomial degree. The two sectors therefore never
@@ -120,8 +126,8 @@ comparisons give (3) with no gluing hypothesis, for every head size and
 every degree. This is a complete repository deduction for odd tails.
 
 The mod-2 unit theorem alone did not establish the square comparison;
-the new relative integral argument supplies it. Nor does a unit count
-identify all positive-level gluing for even tails.
+the new relative integral argument supplies it. The unit count alone did not identify
+positive-level gluing; the separate integral comparison is necessary.
 
 ## 4. Checks and concrete examples
 
@@ -132,16 +138,27 @@ The full list is \((1,2,2)\); this agrees with (3).
 For \(a=5,k=4\), degree \(16\), the proved unit overlap has
 dimension two. It has explicit Schur-square representatives indexed
 by \(\mu=(5,3),(4,4)\) in the ordinary Grassmannian model.
-The direct full integer BGG calculation at this degree timed out;
-it is not counted as a full Smith verification.
+The original fundamental-weight BGG calculation at this degree timed
+out. The new independent Cartesian calculation now completes it, with
+full saturated gluing dimension two. Degree 14, the other old rank-nine
+timeout, also completes, with gluing dimension one.
 
 The [pure-Python candidate verifier](experiments/verify_type_d_candidate.py)
 imports no Sage, Borel engine, or prior verifier. Its
 [report](experiments/type_d_candidate_verification.json) compares (3)
 with 70 historical and 14 fresh exact full Smith lists, and separately
 checks the corresponding square/Euler lists and gluing dimensions.
-All 84 comparisons pass; two fresh rank-nine timeouts are explicitly
-excluded. The source and data byte hashes are recorded.
+All 84 comparisons pass; the two historical rank-nine timeouts remain
+explicitly excluded from that historical data set. The source and data
+byte hashes are recorded.
+
+The [new full-gluing verifier](experiments/verify_type_d_even_gluing.py)
+and [report](experiments/type_d_even_gluing_verification.json) compute
+132 complete head-three components and six larger Cartesian components,
+with 16 independent full row-module cross-checks, 27 explicit primitive
+unit-gluing representatives, and both old timeouts resolved. They compute
+the saturated gluing dimension from three actual Smith indices,
+separately from the original mod-two overlap. All 138 comparisons pass.
 
 The [ordinary-Grassmann experiment](experiments/type_d_frobenius_search.py)
 and [its report](experiments/type_d_frobenius_search_results.json)
@@ -152,8 +169,8 @@ The separate
 and [its report](experiments/type_d_unit_upper_bound_verification.json)
 test the proved derivation/core-one argument on 147 components, with
 40 exact integer row-module/primitivity checks and 41 signed SXP rows.
-The ordinary-Grassmann experiment's historical use of the word candidate does not change the scope of
-the subsequent written proof or promote the full Smith conjecture.
+Historical uses of the word candidate in experiment names do not change
+the scope of their finite evidence or replace the subsequent general proof.
 
 From the repository root:
 

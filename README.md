@@ -18,12 +18,14 @@ inputs, deductions checked in this repository, finite evidence and conjectures.
 The audit does not establish originality or replace external mathematical review.
 The [orthogonal Smith-factor notes](borel/ORTHOGONAL_SMITH.md) record audited
 deductions for type B/D restrictions, stable primitivity, quadric formulas and
-an integral gluing rule. Type B deductions include complete partition formulas
-through three-row families, plus unit and largest-factor counts in every rank.
-The [closed all-rank partition candidate](borel/TYPE_B_CLOSED_CONJECTURE.md)
-records the remaining conjecture and its independent finite checks. The unit
-counting polynomial itself is classical Birkhoff/Hall enumeration; its Smith
-interpretation is a separate derivation.
+an integral gluing rule. The [general type B proof](borel/TYPE_B_GENERAL_SMITH.md)
+and [general type D proof](borel/TYPE_D_EVEN_GLUING_THEOREM.md) now give complete
+normalized Smith multiplicity formulas in every rank. In D, all saturated
+square/Euler gluing comes from the explicitly counted unit overlap.
+The [integrated D audit](borel/TYPE_D_EVEN_GLUING_AUDIT.md) records the proof
+dependencies and independent finite checks. These are unpublished repository
+deductions, without a novelty claim or external certification. The unit
+counting polynomial itself is classical Birkhoff/Hall enumeration.
 
 Research articles and the independently checked F4, E6 and E7 Springer-morphism
 note are indexed in [articles/README.md](articles/README.md).

@@ -1,7 +1,6 @@
-# Orthogonal Springer images: formulas, proofs, and the remaining question
+# Orthogonal Springer images: formulas, proofs, and integral gluing
 
-**Status: audited repository deductions (2026-10-19), with a separate
-type-D conjecture.** [PROOF_STATUS.md](PROOF_STATUS.md) identifies the
+**Status: internally audited repository deductions (2026-10-19).** [PROOF_STATUS.md](PROOF_STATUS.md) identifies the
 published inputs and the arguments checked here. This audit does not
 establish novelty or constitute external mathematical review.
 
@@ -11,9 +10,10 @@ now derives every normalized multiplicity in every rank, closing the
 formerly missing integral comparison. A single
 [closed partition formula](TYPE_B_CLOSED_CONJECTURE.md) describes all
 layers. The [general D square proof](TYPE_D_SQUARE_THEOREM.md) now
-identifies every square-sector factor with B. Both sector lists and
-the full odd-tail formula follow; the even-tail gluing classification
-remains open.
+identifies every square-sector factor with B. The subsequent
+[general even-tail gluing theorem](TYPE_D_EVEN_GLUING_THEOREM.md)
+proves that all saturated gluing occurs between unit levels. Together
+these results determine the full normalized D image in every rank.
 The unit counting polynomial is already classical Birkhoff/Hall enumeration.
 Its identification with the chosen Smith units is an additional argument
 here, rather than a theorem attributed to Birkhoff.
@@ -49,12 +49,12 @@ can be smaller than the full cohomology group.
 
 | Statement | Type B | Type D |
 | --- | --- | --- |
-| Possible normalized factors | $2^e$, $0\leq e\leq\min(a,k)$ | Powers of $2$; square exponents at most $\min(a,k)$ |
+| Possible normalized factors | $2^e$, $0\leq e\leq\min(a,k)$ | Powers of $2$; see the [full exponent bound](TYPE_D_FULL_EXPONENT_BOUND.md) |
 | Stable image, with $k$ fixed | Saturated in every degree | Saturated in every degree |
 | Sufficient finite range for all factors $1$ | $d\leq\max(a,k)$ | $d\leq a$ |
-| Complete closed families | Every pair $a,k$ | Square sector: every pair; full image: every odd $k$, also $a=1$ |
+| Complete closed families | Every pair $a,k$ | Every pair $a,k$ in the stated range |
 | Other uniform information | Block symmetry, rank formula, closed unit and largest-factor multiplicities, weighted-minor formula for every factor | Every square factor equals B; Euler factors equal shifted B; closed full unit counts and the integral gluing formula below |
-| Remaining classification | None for these normalized B generators | Higher full-image even-tail multiplicities: saturated gluing |
+| Remaining classification | None for these normalized B generators | None for these normalized D generators |
 
 The detailed proofs are in [TYPE_B_SMITH.md](TYPE_B_SMITH.md) and
 [TYPE_D_SMITH.md](TYPE_D_SMITH.md). The stable assertions strengthen
@@ -143,8 +143,8 @@ T=\left\lfloor\frac{A+l-1}{2}\right\rfloor.
 \]
 
 The [incidence and Schur-product filtration](TYPE_B_FILTRATION.md)
-proves the common reduction and identifies the remaining question for
-larger blocks.
+proves the common reduction used by the subsequent general integral
+argument for larger blocks.
 
 The [unit-factor theorem](TYPE_B_UNIT_SMITH.md) supplies a positive
 Gaussian-polynomial count in all ranks, strengthening the Frobenius-rank
@@ -172,7 +172,9 @@ For \(k=2h\), \(u=\lceil a/2\rceil,v=\lfloor a/2\rfloor\),
 The Gaussian subtraction is the exact overlap of the two original
 image reductions modulo 2. It is proved by explicit intersection
 classes and a matching derivation/incidence upper bound. It is not
-assumed to exhaust all gluing of the saturated sector lattices.
+assumed to exhaust all gluing in the unit proof. The separate
+[general gluing theorem](TYPE_D_EVEN_GLUING_THEOREM.md) now proves
+that it exhausts the gluing of the saturated sector lattices.
 
 The [square comparison note](TYPE_D_SQUARE_COMPARISON.md) proves
 common kernels, block symmetry, a sufficient primitive range
@@ -185,9 +187,10 @@ The subsequent [general square proof](TYPE_D_SQUARE_THEOREM.md)
 now establishes every square factor in every rank, including the full
 smaller-block-three list. Its incidence argument supplies the integral
 step independently of the mod-2 unit count. The
-[full-D formula](TYPE_D_CANDIDATE.md) is consequently proved for all odd
-tails. For even tails, exhaustion of saturated gluing by unit gluing
-remains the sole sufficient unproved condition for its higher layers.
+[full-D formula](TYPE_D_CANDIDATE.md) follows for all odd tails.
+For even tails, the [general gluing proof](TYPE_D_EVEN_GLUING_THEOREM.md)
+now proves exhaustion of saturated gluing by unit gluing and establishes
+every higher multiplicity.
 
 ## Type D: an exact integral gluing formula
 
@@ -392,7 +395,8 @@ PYTHONPATH=src sage -python experiments/orthogonal_gluing_flags.py
 The previously open type-B multiplicities are now covered by the
 [general proof](TYPE_B_GENERAL_SMITH.md). External expert review and
 priority assessment remain separate work.
-For type D, the goal is to replace the
-flag-intersection data by explicit statistics on partitions.
-The established formulas constrain that search and rule out the naive union
-of the two type D sector Smith lists.
+For type D, the [general gluing theorem](TYPE_D_EVEN_GLUING_THEOREM.md)
+now replaces the unspecified flag-intersection data by the proved
+Gaussian unit-overlap correction. The exact lattice reconstruction here
+retains its independent scope; a naive union of the two sector lists
+omits this correction.

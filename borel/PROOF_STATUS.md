@@ -77,12 +77,39 @@ boundary-row proof and the general exponent bound. The
 [structural comparison](TYPE_D_SQUARE_COMPARISON.md) retains common
 kernels, duality, finite primitive ranges, and the failed broader shortcuts.
 
-The [full-D formula](TYPE_D_CANDIDATE.md) is therefore proved for every
-odd tail: the square and Euler sectors occur in opposite degree parities,
-and both sector lists are known. For even tails its unit layer remains
-proved, while the higher full-image formula still requires exhaustion
-of the saturated gluing graph by unit gluing. The square comparison is
-no longer an unproved hypothesis.
+The [general even-tail gluing theorem](TYPE_D_EVEN_GLUING_THEOREM.md)
+now proves the [full-D formula](TYPE_D_CANDIDATE.md) for every tail,
+closing the remaining saturated-gluing condition. Moving the specified
+tail to the head gives a precise square-plus-head-Euler source. Its
+relative Euler extension has a primitive selected source, including
+the nonzero base Euler relation. The eta denominator bound and an
+even-head parity retraction give exact D/B row-lattice equality.
+Primitive actual-head B prefixes and signed level-zero overlap
+identities compute that B lattice. Comparing the resulting full index
+with the two sector indices proves that every gluing direction is
+already a unit direction.
+
+The [fresh integrated audit](TYPE_D_EVEN_GLUING_AUDIT.md) records the
+complete dependency checks, including large actual heads and the
+two-fork boundary. A misleading intermediate claim that wider relative
+Schur classes vanish was corrected: only the narrower source subset
+needs to map basis by basis. No unresolved gap was found in the final
+argument. These are internally audited repository deductions, not
+published or externally certified results.
+
+The independent [two-head](TYPE_D_TWO_HEAD_GLUING.md) and
+[two-tail](TYPE_D_TWO_TAIL_GLUING.md) proofs, and the
+[full exponent bound](TYPE_D_FULL_EXPONENT_BOUND.md), are retained.
+The stronger unweighted prefix strictness conditions in
+[TYPE_D_GLUING_FILTRATION.md](TYPE_D_GLUING_FILTRATION.md) remain
+a separate conditional route; the new proof does not assume them.
+
+The [new full-gluing check](experiments/type_d_even_gluing_verification.json)
+passes 138 full components, 16 independent full row-module comparisons,
+and 27 explicit primitive unit-gluing representatives. Both historical
+rank-nine timeouts now complete. The separate actual-head verifier
+checks 610 exact prefix modules and 35 signed overlap identities.
+These are finite corroboration, separate from the arbitrary-rank proof.
 
 The [three-root Chern verifier](experiments/verify_type_d_three_row_smith.py)
 and [report](experiments/type_d_three_row_smith_verification.json) check
@@ -119,13 +146,14 @@ selected rational image. They need not be indices in all cohomology.
 | Three highest multiplicities in every rank; all $\ell\le4$ | Independent repository deduction | [High-layer note](TYPE_B_HIGH_LAYERS.md): complete-symmetric spectators, a coordinate prefix and graph components. This gives an alternative proof of those layers. |
 | Full positive type-B partition formula for arbitrary $\ell,e$ | Complete repository deduction; formerly conjectural | [Formula](TYPE_B_CLOSED_CONJECTURE.md) and [integral proof](TYPE_B_GENERAL_SMITH.md). Defect-stratum counting is combined with the integral triangular squeeze. |
 | Type-D stable primitivity, sufficient finite range, only powers of two, Euler-sector B comparison, quadric table | Audited deductions | [Type-D note](TYPE_D_SMITH.md), with integral eta specialization, localized Reynolds projection, and the explicit BKT difference basis. |
-| Every normalized type-D unit multiplicity | Complete repository deduction | [Unit proof](TYPE_D_FROBENIUS.md): mod-2 Grassmann embedding, exact Frobenius/Euler intersection, derivation, core-one SXP incidence and affine Chern generation. General even-tail gluing remains open. |
+| Every normalized type-D unit multiplicity | Complete repository deduction | [Unit proof](TYPE_D_FROBENIUS.md): mod-2 Grassmann embedding, exact Frobenius/Euler intersection, derivation, core-one SXP incidence and affine Chern generation. Its unit-layer proof is independent of the later full gluing theorem. |
 | Type-D square common kernel/rank, block duality, improved primitive range and one-sided B bound | Repository deductions | [Square comparison](TYPE_D_SQUARE_COMPARISON.md). General square-sector equality is not inferred from rational rank or stable presentations. |
 | Type-D square factors for $\min(a,k)\le2$; general square exponent bound | Complete repository deductions | [Two-row proof](TYPE_D_TWO_ROW_SMITH.md): weighted boundary-row elimination proves equality with B; an integral parity retraction of the Chern subring gives $e\le\min(a,k)$. The subsequent general incidence theorem covers all block sizes. |
 | General D square-sector B comparison, including all smaller-block-three multiplicities | Complete repository deduction | [Incidence proof](TYPE_D_SQUARE_THEOREM.md): equivariant eta denominator bound, compensated-parity retraction, quaternionic model, and primitive B prefixes give exact row-lattice equality. |
-| Explicit full-D Gaussian formula | Proved for odd tails and every unit layer; higher even-tail layers conjectural | [Formula and conditional proof](TYPE_D_CANDIDATE.md). Only unit-gluing exhaustion remains a sufficient unproved hypothesis; finite matches do not establish it. |
+| Explicit full-D Gaussian formula | Complete internally audited repository deduction in every rank | [Formula](TYPE_D_CANDIDATE.md) and [general proof](TYPE_D_EVEN_GLUING_THEOREM.md). The relative Euler extension, primitive actual-head prefixes, and integral row containment close the even-tail step. |
 | Type-D two-flag gluing rule | Audited elementary lattice lemma | [Orthogonal note](ORTHOGONAL_SMITH.md). It needs sector exponents and flag-intersection data; it is not a closed partition classification. |
-| Full even-tail D partition formula | Conjectural/open in these notes | Both sector lists are now proved; the remaining question is saturated gluing at positive 2-adic levels. |
+| Full even-tail D partition formula and unit-gluing exhaustion | Complete repository deduction | [General theorem and index argument](TYPE_D_EVEN_GLUING_THEOREM.md): all saturated gluing is at the two unit levels; no hidden positive-level correction. |
+| Stronger unweighted typed-prefix strictness | Conditional route; finite checks only in general | [Filtered lattice criterion](TYPE_D_GLUING_FILTRATION.md). The full theorem does not rely on this stronger intermediate assertion. |
 | Literal defining/vector SO/Sp lattice is scaled by $2^d$ in degree $d$ | Audited normalization deduction | [Normalization audit](INTEGRAL_LITERATURE.md). Uses the stated character lattice; it does not automatically apply to Spin. |
 | 174 Smith lists, 430 prefix comparisons, 516 exact row-module equalities | Finite computational evidence | Exact scopes and input hashes are in the linked [candidate](experiments/type_b_closed_candidate_verification.json) and [filtration](experiments/type_b_filtration_verification.json) reports. None is a proof for arbitrary rank. |
 

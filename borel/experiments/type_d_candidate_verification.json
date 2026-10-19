@@ -1,8 +1,8 @@
 {
-  "generated_utc": "2026-10-19T19:37:33.372443+00:00",
+  "generated_utc": "2026-10-19T20:10:10.116785+00:00",
   "python_version": "3.12.14",
-  "scope": "Finite verification of the full type-D formula (proved for odd tails, conjectural in higher even-tail layers); no theorem inferred from finite data.",
-  "source_script_sha256": "bc4a047f42f9cb033cbe974aaef68cbb1d11b4b403f7119feba5b0c5a66e8ca3",
+  "scope": "Finite verification of the full type-D formula proved in TYPE_D_EVEN_GLUING_THEOREM.md; no theorem inferred from finite data. Historical input timeouts remain excluded here and are superseded separately by the new even-gluing report.",
+  "source_script_sha256": "d228a4ad56e17e871568599909e7bf39feb67f2859ccadf812812d0efd53e3ed",
   "input_hashes": [
     {
       "file": "orthogonal_sector_search_results.json",
@@ -1796,5 +1796,5 @@
     "counterexamples": 0
   },
   "status": "passed",
-  "seconds": 0.009052
+  "seconds": 0.00621
 }

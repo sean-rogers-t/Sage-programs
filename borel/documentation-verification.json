@@ -68,6 +68,38 @@
       "python_blocks_executed": 0
     },
     {
+      "file": "TYPE_D_EVEN_GLUING_THEOREM.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "TYPE_D_EVEN_GLUING_AUDIT.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "TYPE_D_RELATIVE_EULER_EXTENSION.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "TYPE_D_HEAD_EULER_B_COMPARISON.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "TYPE_D_TWO_HEAD_GLUING.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "TYPE_D_TWO_TAIL_GLUING.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "TYPE_D_FULL_EXPONENT_BOUND.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "TYPE_D_GLUING_FILTRATION.md",
+      "python_blocks_executed": 0
+    },
+    {
       "file": "TYPE_B_FILTRATION.md",
       "python_blocks_executed": 0
     },
@@ -120,7 +152,7 @@
       "python_blocks_executed": 0
     }
   ],
-  "local_links_and_anchors_checked": 374,
+  "local_links_and_anchors_checked": 475,
   "python_blocks_executed": 19,
   "scope": "Python fences executed in reading order in a fresh namespace per document; local links and anchors checked. Shell snippets and external URLs were not automatically executed or crawled."
 }

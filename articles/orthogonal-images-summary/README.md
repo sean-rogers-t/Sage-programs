@@ -11,9 +11,11 @@ unestablished.
 The linked PDF remains the audited type-B-focused snapshot below. The
 subsequent [general type-D square proof](../../borel/TYPE_D_SQUARE_THEOREM.md)
 now establishes all square-sector factors, including smaller block three.
-Together with the Euler comparison this also settles full odd tails;
-higher even-tail gluing remains open. These later deductions are in the
-linked research note and are not yet incorporated into that PDF.
+The subsequent [general even-tail gluing proof](../../borel/TYPE_D_EVEN_GLUING_THEOREM.md)
+also establishes the full D formula in every rank, with every saturated
+gluing direction at unit level. These later deductions and their
+[integrated audit](../../borel/TYPE_D_EVEN_GLUING_AUDIT.md) are not yet
+incorporated into that PDF.
 
 - [PDF prepared for Shrawan](output/pdf/Springer_integral_images_for_Shrawan.pdf)
 - [Editable, standalone LaTeX](main.tex)

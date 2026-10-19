@@ -93,10 +93,14 @@ Its relative incidence proof uses the equivariant eta denominator bound,
 an integral compensated-parity retraction preserving the base Euler
 class, and the established primitive B prefixes. It gives explicit
 multiplicity polynomials for factors 1, 2, 4 and 8 in the smaller-block
-three case. The [full D formula](TYPE_D_CANDIDATE.md) is consequently
-proved for odd tails; the remaining even-tail higher-factor question
-is exhaustion of saturated gluing by unit gluing. The exact candidate check matches
-84 recorded full Smith lists and excludes two timed-out calculations.
+three case. The [general even-tail theorem](TYPE_D_EVEN_GLUING_THEOREM.md)
+now proves the [full D formula](TYPE_D_CANDIDATE.md) in every rank:
+all saturated gluing comes from the known unit overlap. Its relative
+Euler extension and precise head-Euler B comparison are checked in the
+[full audit](TYPE_D_EVEN_GLUING_AUDIT.md). The new verifier passes
+138 full components and resolves both old rank-nine timeouts.
+The independent small-block proofs and stronger conditional prefix
+criterion remain separately labeled.
 These research additions do not change the runtime library API.
 
 It computes

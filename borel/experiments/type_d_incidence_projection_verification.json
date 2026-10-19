@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "status": "passed",
-  "generated_utc": "2026-10-19T19:38:54.089900+00:00",
+  "generated_utc": "2026-10-19T20:09:23.405444+00:00",
   "scope": "Formal compensated-parity/Euler algebra only; no geometric or all-rank Smith theorem inferred from finite checks.",
   "independence": "Pure Python integer polynomial dictionaries; no Sage, Borel, or previous verifier imports.",
   "source_sha256": {
     "experiments/verify_type_d_incidence_projection.py": "197ccff40acd0a800581f4e0fa1b7e97c0af9a963896c731d2dc393d14f6527e",
-    "TYPE_D_SQUARE_THEOREM.md": "5745cb90d0da6139df60cb26c9aaba5e7c79af699340943c74c570ae6436a333"
+    "TYPE_D_SQUARE_THEOREM.md": "0d5f541a21e17d9e5560fb72ce789d3f1114e44405403f33a0c25a9ce446fb05"
   },
   "cases": [
     {
@@ -55,5 +55,5 @@
     "nonzero_base_Euler_checks": 4,
     "false_uncompensated_projection_checks": 4
   },
-  "seconds": 0.4519
+  "seconds": 0.430352
 }

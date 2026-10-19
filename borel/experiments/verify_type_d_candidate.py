@@ -1,10 +1,10 @@
-"""Compare a closed FULL type-D candidate with exact recorded Smith lists.
+"""Compare the proved full type-D formula with exact recorded Smith lists.
 
 Run from the repository root with ordinary Python 3:
     python borel/experiments/verify_type_d_candidate.py
 
-No Sage, Borel engine, or earlier verifier is imported. The predicted
-higher even-tail layers remain conjectural: finite agreement is not their proof.
+No Sage, Borel engine, or earlier verifier is imported. The arbitrary-rank proof is in
+TYPE_D_EVEN_GLUING_THEOREM.md; finite agreement is not its proof.
 """
 
 from collections import Counter
@@ -103,7 +103,7 @@ def main():
     report = {
         "generated_utc": datetime.now(timezone.utc).isoformat(),
         "python_version": platform.python_version(),
-        "scope": "Finite verification of the full type-D formula (proved for odd tails, conjectural in higher even-tail layers); no theorem inferred from finite data.",
+        "scope": "Finite verification of the full type-D formula proved in TYPE_D_EVEN_GLUING_THEOREM.md; no theorem inferred from finite data. Historical input timeouts remain excluded here and are superseded separately by the new even-gluing report.",
         "source_script_sha256": sha256(Path(__file__).read_bytes()).hexdigest(),
         "input_hashes": [{"file": path.name, "sha256": sha256(path.read_bytes()).hexdigest()}
                          for path in paths],

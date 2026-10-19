@@ -1,0 +1,2488 @@
+{
+  "schema_version": 1,
+  "generated_utc": "2026-10-19T22:05:27.078553+00:00",
+  "sage_version": "9.5",
+  "source_sha256": {
+    "experiments/verify_type_d_extended_chern_comparison.py": "7c17fa6d9a232120278f337bc3960afe487a0b83307f9ce81cfaff3a6bd1384a",
+    "experiments/type_d_chern_frontier.py": "2ba9b094df18fbffd73bb81ea51b3cb75a412f9ddbfff4a942cf1eb3e607e7be",
+    "experiments/type_b_cartesian_frontier.py": "f303bd96aed9396a1c6386327b8d04e4784d4d71150e8c7619be08d3b6029777",
+    "experiments/type_d_cartesian_frontier.py": "b4a5a5c7a24368583b746e20ce75bfc9affcaf1ed3957aee165b97a9cf64fb58",
+    "experiments/verify_type_d_three_row_smith.py": "8d83fde25fe3f58df753c946a98ce486ccd7cc3061d00cc19423b3bcf82c2144",
+    "experiments/verify_type_d_even_gluing.py": "1984f737a016c44a0019a023c46e0b3d02b812eed7cd53eddfe8ef6bd23d0232",
+    "experiments/verify_type_d_candidate.py": "d228a4ad56e17e871568599909e7bf39feb67f2859ccadf812812d0efd53e3ed",
+    "experiments/verify_type_d_square_comparison.py": "d0e970a213994cbc3b4e0568c303235490745f068f149533c9c5b88e18410dc4",
+    "src/sage_borel/core.py": "c21a7b8893c5155efc71123264d698b7504dd89d8657b0612f57e0cb05118751",
+    "src/sage_borel/operations.py": "0429729152ddebd67d0034cdb5ef4953ed2091468168bd24f97ced4f2254b857"
+  },
+  "scope": "Finite exact ZZ evidence for the special source R+e_H R0. The general comparison is proved separately in TYPE_D_EVEN_GLUING_THEOREM.md; these cases do not replace the proof.",
+  "resource_limits": {
+    "component_seconds": 90,
+    "total_seconds": 600
+  },
+  "completed_components": [
+    {
+      "H": 4,
+      "K": 3,
+      "original_D_head": 3,
+      "original_D_even_tail": 4,
+      "polynomial_degree": 0,
+      "source_columns": 1,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        0
+      ],
+      "D_exponents": [
+        0
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 0.005796,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 4,
+      "K": 3,
+      "original_D_head": 3,
+      "original_D_even_tail": 4,
+      "polynomial_degree": 2,
+      "source_columns": 1,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        0
+      ],
+      "D_exponents": [
+        0
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 0.006684,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 4,
+      "K": 3,
+      "original_D_head": 3,
+      "original_D_even_tail": 4,
+      "polynomial_degree": 4,
+      "source_columns": 3,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        0,
+        0,
+        0
+      ],
+      "D_exponents": [
+        0,
+        0,
+        0
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 0.01036,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 4,
+      "K": 3,
+      "original_D_head": 3,
+      "original_D_even_tail": 4,
+      "polynomial_degree": 6,
+      "source_columns": 4,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "D_exponents": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 0.017429,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 4,
+      "K": 3,
+      "original_D_head": 3,
+      "original_D_even_tail": 4,
+      "polynomial_degree": 8,
+      "source_columns": 6,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "D_exponents": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": true,
+      "seconds": 1.412916,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 4,
+      "K": 3,
+      "original_D_head": 3,
+      "original_D_even_tail": 4,
+      "polynomial_degree": 10,
+      "source_columns": 6,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "D_exponents": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 0.067667,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 4,
+      "K": 3,
+      "original_D_head": 3,
+      "original_D_even_tail": 4,
+      "polynomial_degree": 12,
+      "source_columns": 8,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "D_exponents": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": true,
+      "seconds": 2.53059,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 4,
+      "K": 3,
+      "original_D_head": 3,
+      "original_D_even_tail": 4,
+      "polynomial_degree": 14,
+      "source_columns": 6,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "D_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 0.1527,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 4,
+      "K": 3,
+      "original_D_head": 3,
+      "original_D_even_tail": 4,
+      "polynomial_degree": 16,
+      "source_columns": 6,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "D_exponents": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 0.263207,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 4,
+      "K": 3,
+      "original_D_head": 3,
+      "original_D_even_tail": 4,
+      "polynomial_degree": 18,
+      "source_columns": 4,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "D_exponents": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 0.408916,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 4,
+      "K": 3,
+      "original_D_head": 3,
+      "original_D_even_tail": 4,
+      "polynomial_degree": 20,
+      "source_columns": 3,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        2,
+        2,
+        2
+      ],
+      "D_exponents": [
+        2,
+        2,
+        2
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 0.615021,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 4,
+      "K": 3,
+      "original_D_head": 3,
+      "original_D_even_tail": 4,
+      "polynomial_degree": 22,
+      "source_columns": 1,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        2
+      ],
+      "D_exponents": [
+        2
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 0.575589,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 4,
+      "K": 3,
+      "original_D_head": 3,
+      "original_D_even_tail": 4,
+      "polynomial_degree": 24,
+      "source_columns": 1,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        3
+      ],
+      "D_exponents": [
+        3
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 0.518281,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 4,
+      "K": 4,
+      "original_D_head": 4,
+      "original_D_even_tail": 4,
+      "polynomial_degree": 0,
+      "source_columns": 1,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        0
+      ],
+      "D_exponents": [
+        0
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 0.002415,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 4,
+      "K": 4,
+      "original_D_head": 4,
+      "original_D_even_tail": 4,
+      "polynomial_degree": 2,
+      "source_columns": 1,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        0
+      ],
+      "D_exponents": [
+        0
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 0.003295,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 4,
+      "K": 4,
+      "original_D_head": 4,
+      "original_D_even_tail": 4,
+      "polynomial_degree": 4,
+      "source_columns": 3,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        0,
+        0,
+        0
+      ],
+      "D_exponents": [
+        0,
+        0,
+        0
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 0.007655,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 4,
+      "K": 4,
+      "original_D_head": 4,
+      "original_D_even_tail": 4,
+      "polynomial_degree": 6,
+      "source_columns": 4,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "D_exponents": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 0.011434,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 4,
+      "K": 4,
+      "original_D_head": 4,
+      "original_D_even_tail": 4,
+      "polynomial_degree": 8,
+      "source_columns": 7,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "D_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 0.026314,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 4,
+      "K": 4,
+      "original_D_head": 4,
+      "original_D_even_tail": 4,
+      "polynomial_degree": 10,
+      "source_columns": 8,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "D_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 0.043839,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 4,
+      "K": 4,
+      "original_D_head": 4,
+      "original_D_even_tail": 4,
+      "polynomial_degree": 12,
+      "source_columns": 11,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "D_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": true,
+      "seconds": 4.664136,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 4,
+      "K": 4,
+      "original_D_head": 4,
+      "original_D_even_tail": 4,
+      "polynomial_degree": 14,
+      "source_columns": 11,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "D_exponents": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 0.240898,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 4,
+      "K": 4,
+      "original_D_head": 4,
+      "original_D_even_tail": 4,
+      "polynomial_degree": 16,
+      "source_columns": 13,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "D_exponents": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 0.429615,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 4,
+      "K": 4,
+      "original_D_head": 4,
+      "original_D_even_tail": 4,
+      "polynomial_degree": 18,
+      "source_columns": 11,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "D_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 0.855161,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 4,
+      "K": 4,
+      "original_D_head": 4,
+      "original_D_even_tail": 4,
+      "polynomial_degree": 20,
+      "source_columns": 11,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "D_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 1.459916,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 4,
+      "K": 4,
+      "original_D_head": 4,
+      "original_D_even_tail": 4,
+      "polynomial_degree": 22,
+      "source_columns": 8,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "D_exponents": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 1.740403,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 4,
+      "K": 4,
+      "original_D_head": 4,
+      "original_D_even_tail": 4,
+      "polynomial_degree": 24,
+      "source_columns": 7,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "D_exponents": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 2.29181,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 4,
+      "K": 4,
+      "original_D_head": 4,
+      "original_D_even_tail": 4,
+      "polynomial_degree": 26,
+      "source_columns": 4,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        2,
+        2,
+        2,
+        3
+      ],
+      "D_exponents": [
+        2,
+        2,
+        2,
+        3
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 2.48534,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 4,
+      "K": 4,
+      "original_D_head": 4,
+      "original_D_even_tail": 4,
+      "polynomial_degree": 28,
+      "source_columns": 3,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        2,
+        3,
+        3
+      ],
+      "D_exponents": [
+        2,
+        3,
+        3
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 2.192766,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 4,
+      "K": 4,
+      "original_D_head": 4,
+      "original_D_even_tail": 4,
+      "polynomial_degree": 30,
+      "source_columns": 1,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        3
+      ],
+      "D_exponents": [
+        3
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 2.077841,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 4,
+      "K": 4,
+      "original_D_head": 4,
+      "original_D_even_tail": 4,
+      "polynomial_degree": 32,
+      "source_columns": 1,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        4
+      ],
+      "D_exponents": [
+        4
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 1.394643,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 4,
+      "K": 5,
+      "original_D_head": 5,
+      "original_D_even_tail": 4,
+      "polynomial_degree": 0,
+      "source_columns": 1,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        0
+      ],
+      "D_exponents": [
+        0
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 0.002146,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 4,
+      "K": 5,
+      "original_D_head": 5,
+      "original_D_even_tail": 4,
+      "polynomial_degree": 2,
+      "source_columns": 1,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        0
+      ],
+      "D_exponents": [
+        0
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 0.002995,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 4,
+      "K": 5,
+      "original_D_head": 5,
+      "original_D_even_tail": 4,
+      "polynomial_degree": 4,
+      "source_columns": 3,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        0,
+        0,
+        0
+      ],
+      "D_exponents": [
+        0,
+        0,
+        0
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 0.00591,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 4,
+      "K": 5,
+      "original_D_head": 5,
+      "original_D_even_tail": 4,
+      "polynomial_degree": 6,
+      "source_columns": 4,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "D_exponents": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 0.007516,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 4,
+      "K": 5,
+      "original_D_head": 5,
+      "original_D_even_tail": 4,
+      "polynomial_degree": 8,
+      "source_columns": 7,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "D_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 0.018392,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 4,
+      "K": 5,
+      "original_D_head": 5,
+      "original_D_even_tail": 4,
+      "polynomial_degree": 10,
+      "source_columns": 9,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "D_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 0.034335,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 4,
+      "K": 5,
+      "original_D_head": 5,
+      "original_D_even_tail": 4,
+      "polynomial_degree": 12,
+      "source_columns": 13,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "D_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 0.076263,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 4,
+      "K": 5,
+      "original_D_head": 5,
+      "original_D_even_tail": 4,
+      "polynomial_degree": 14,
+      "source_columns": 14,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "D_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 0.189673,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 4,
+      "K": 5,
+      "original_D_head": 5,
+      "original_D_even_tail": 4,
+      "polynomial_degree": 16,
+      "source_columns": 18,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "D_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 0.516778,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 4,
+      "K": 5,
+      "original_D_head": 5,
+      "original_D_even_tail": 4,
+      "polynomial_degree": 18,
+      "source_columns": 18,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "D_exponents": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 1.055137,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 4,
+      "K": 5,
+      "original_D_head": 5,
+      "original_D_even_tail": 4,
+      "polynomial_degree": 20,
+      "source_columns": 20,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "D_exponents": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 1.973834,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 4,
+      "K": 5,
+      "original_D_head": 5,
+      "original_D_even_tail": 4,
+      "polynomial_degree": 22,
+      "source_columns": 18,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "D_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 2.821153,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 4,
+      "K": 5,
+      "original_D_head": 5,
+      "original_D_even_tail": 4,
+      "polynomial_degree": 24,
+      "source_columns": 18,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "D_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 3.955334,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 4,
+      "K": 5,
+      "original_D_head": 5,
+      "original_D_even_tail": 4,
+      "polynomial_degree": 26,
+      "source_columns": 14,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "D_exponents": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 4.938499,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 4,
+      "K": 5,
+      "original_D_head": 5,
+      "original_D_even_tail": 4,
+      "polynomial_degree": 28,
+      "source_columns": 13,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "D_exponents": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 5.790116,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 4,
+      "K": 5,
+      "original_D_head": 5,
+      "original_D_even_tail": 4,
+      "polynomial_degree": 30,
+      "source_columns": 9,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3
+      ],
+      "D_exponents": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 6.171715,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 4,
+      "K": 5,
+      "original_D_head": 5,
+      "original_D_even_tail": 4,
+      "polynomial_degree": 32,
+      "source_columns": 7,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3
+      ],
+      "D_exponents": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 5.541633,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 4,
+      "K": 5,
+      "original_D_head": 5,
+      "original_D_even_tail": 4,
+      "polynomial_degree": 34,
+      "source_columns": 4,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        2,
+        3,
+        3,
+        3
+      ],
+      "D_exponents": [
+        2,
+        3,
+        3,
+        3
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 5.483423,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 4,
+      "K": 5,
+      "original_D_head": 5,
+      "original_D_even_tail": 4,
+      "polynomial_degree": 36,
+      "source_columns": 3,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        3,
+        3,
+        4
+      ],
+      "D_exponents": [
+        3,
+        3,
+        4
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 4.1844,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 4,
+      "K": 5,
+      "original_D_head": 5,
+      "original_D_even_tail": 4,
+      "polynomial_degree": 38,
+      "source_columns": 1,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        3
+      ],
+      "D_exponents": [
+        3
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 3.228262,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 4,
+      "K": 5,
+      "original_D_head": 5,
+      "original_D_even_tail": 4,
+      "polynomial_degree": 40,
+      "source_columns": 1,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        4
+      ],
+      "D_exponents": [
+        4
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 2.972149,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 6,
+      "K": 2,
+      "original_D_head": 2,
+      "original_D_even_tail": 6,
+      "polynomial_degree": 0,
+      "source_columns": 1,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        0
+      ],
+      "D_exponents": [
+        0
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 0.002688,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 6,
+      "K": 2,
+      "original_D_head": 2,
+      "original_D_even_tail": 6,
+      "polynomial_degree": 2,
+      "source_columns": 1,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        0
+      ],
+      "D_exponents": [
+        0
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 0.003613,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 6,
+      "K": 2,
+      "original_D_head": 2,
+      "original_D_even_tail": 6,
+      "polynomial_degree": 4,
+      "source_columns": 2,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        0,
+        0
+      ],
+      "D_exponents": [
+        0,
+        0
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 0.007666,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 6,
+      "K": 2,
+      "original_D_head": 2,
+      "original_D_even_tail": 6,
+      "polynomial_degree": 6,
+      "source_columns": 3,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        0,
+        0,
+        0
+      ],
+      "D_exponents": [
+        0,
+        0,
+        0
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 0.016464,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 6,
+      "K": 2,
+      "original_D_head": 2,
+      "original_D_even_tail": 6,
+      "polynomial_degree": 8,
+      "source_columns": 4,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "D_exponents": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 0.033077,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 6,
+      "K": 2,
+      "original_D_head": 2,
+      "original_D_even_tail": 6,
+      "polynomial_degree": 10,
+      "source_columns": 4,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "D_exponents": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 0.092228,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 6,
+      "K": 2,
+      "original_D_head": 2,
+      "original_D_even_tail": 6,
+      "polynomial_degree": 12,
+      "source_columns": 5,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "D_exponents": [
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 0.305969,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 6,
+      "K": 2,
+      "original_D_head": 2,
+      "original_D_even_tail": 6,
+      "polynomial_degree": 14,
+      "source_columns": 4,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "D_exponents": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 0.993827,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 6,
+      "K": 2,
+      "original_D_head": 2,
+      "original_D_even_tail": 6,
+      "polynomial_degree": 16,
+      "source_columns": 4,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "D_exponents": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 2.182515,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 6,
+      "K": 2,
+      "original_D_head": 2,
+      "original_D_even_tail": 6,
+      "polynomial_degree": 18,
+      "source_columns": 3,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        1,
+        1,
+        2
+      ],
+      "D_exponents": [
+        1,
+        1,
+        2
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 3.527254,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 6,
+      "K": 2,
+      "original_D_head": 2,
+      "original_D_even_tail": 6,
+      "polynomial_degree": 20,
+      "source_columns": 2,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        2,
+        2
+      ],
+      "D_exponents": [
+        2,
+        2
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 6.732243,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 6,
+      "K": 2,
+      "original_D_head": 2,
+      "original_D_even_tail": 6,
+      "polynomial_degree": 22,
+      "source_columns": 1,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        2
+      ],
+      "D_exponents": [
+        2
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 11.397063,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 6,
+      "K": 2,
+      "original_D_head": 2,
+      "original_D_even_tail": 6,
+      "polynomial_degree": 24,
+      "source_columns": 1,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        2
+      ],
+      "D_exponents": [
+        2
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 14.721735,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 6,
+      "K": 3,
+      "original_D_head": 3,
+      "original_D_even_tail": 6,
+      "polynomial_degree": 0,
+      "source_columns": 1,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        0
+      ],
+      "D_exponents": [
+        0
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 0.002002,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 6,
+      "K": 3,
+      "original_D_head": 3,
+      "original_D_even_tail": 6,
+      "polynomial_degree": 2,
+      "source_columns": 1,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        0
+      ],
+      "D_exponents": [
+        0
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 0.00278,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 6,
+      "K": 3,
+      "original_D_head": 3,
+      "original_D_even_tail": 6,
+      "polynomial_degree": 4,
+      "source_columns": 2,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        0,
+        0
+      ],
+      "D_exponents": [
+        0,
+        0
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 0.004351,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 6,
+      "K": 3,
+      "original_D_head": 3,
+      "original_D_even_tail": 6,
+      "polynomial_degree": 6,
+      "source_columns": 4,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "D_exponents": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 0.012393,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 6,
+      "K": 3,
+      "original_D_head": 3,
+      "original_D_even_tail": 6,
+      "polynomial_degree": 8,
+      "source_columns": 5,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "D_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 0.032784,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 6,
+      "K": 3,
+      "original_D_head": 3,
+      "original_D_even_tail": 6,
+      "polynomial_degree": 10,
+      "source_columns": 7,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "D_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 0.102766,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 6,
+      "K": 3,
+      "original_D_head": 3,
+      "original_D_even_tail": 6,
+      "polynomial_degree": 12,
+      "source_columns": 9,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "D_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 0.298518,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 6,
+      "K": 3,
+      "original_D_head": 3,
+      "original_D_even_tail": 6,
+      "polynomial_degree": 14,
+      "source_columns": 10,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "D_exponents": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 1.080124,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 6,
+      "K": 3,
+      "original_D_head": 3,
+      "original_D_even_tail": 6,
+      "polynomial_degree": 16,
+      "source_columns": 11,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "D_exponents": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 2.920041,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 6,
+      "K": 3,
+      "original_D_head": 3,
+      "original_D_even_tail": 6,
+      "polynomial_degree": 18,
+      "source_columns": 12,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "D_exponents": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 6.946742,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 6,
+      "K": 3,
+      "original_D_head": 3,
+      "original_D_even_tail": 6,
+      "polynomial_degree": 20,
+      "source_columns": 11,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "D_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 15.341047,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 6,
+      "K": 3,
+      "original_D_head": 3,
+      "original_D_even_tail": 6,
+      "polynomial_degree": 22,
+      "source_columns": 10,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2
+      ],
+      "D_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 30.593546,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 6,
+      "K": 3,
+      "original_D_head": 3,
+      "original_D_even_tail": 6,
+      "polynomial_degree": 24,
+      "source_columns": 9,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "D_exponents": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 55.936177,
+      "base_ring": "ZZ"
+    },
+    {
+      "H": 6,
+      "K": 4,
+      "original_D_head": 4,
+      "original_D_even_tail": 6,
+      "polynomial_degree": 20,
+      "source_columns": 23,
+      "exact_ZZ_B_D_row_module_equality": true,
+      "B_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "D_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "independent_Cartesian_B_and_D_row_module_crosschecks": false,
+      "seconds": 21.990904,
+      "base_ring": "ZZ"
+    }
+  ],
+  "excluded_components": [
+    {
+      "H": 6,
+      "K": 4,
+      "polynomial_degree": 24,
+      "reason": "component wall-clock bound reached",
+      "seconds": 90.002895
+    }
+  ],
+  "arbitrary_surviving_Chern_source_counterexample": {
+    "H": 3,
+    "K": 2,
+    "polynomial_degree": 8,
+    "source_binary_Chern_exponents_and_square_Schur_partitions": [
+      [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      [
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1
+        ]
+      ]
+    ],
+    "B_exponents": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      2
+    ],
+    "D_exponents": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2
+    ],
+    "B_Hermite_row_basis": [
+      [
+        2,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        4,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ]
+    ],
+    "D_Hermite_row_basis": [
+      [
+        2,
+        0,
+        0,
+        0,
+        2,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        4,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        4
+      ]
+    ],
+    "ZZ_row_modules_differ": true
+  },
+  "seconds": 341.486421,
+  "proof_snapshot_sha256_at_finalization": {
+    "TYPE_D_CANDIDATE.md": "419d410ab12e7520896cc819d198fad1363368113545ab6149d26fd4beb9f1b3",
+    "TYPE_D_EVEN_GLUING_THEOREM.md": "3224ef056357ecb6713adf003841e37692356c66a3a065fc44f5a66756fa6f58",
+    "TYPE_D_RELATIVE_EULER_EXTENSION.md": "6bbb89fb04b364ef0d2ae4e5097e58dd9c13debb52396d98e34f0ca1c7d613b9",
+    "TYPE_D_HEAD_EULER_B_COMPARISON.md": "5b6bb45086719a26851cf52d8086eeb45bf05a661f60f881d1b2a2ac5ac65a01"
+  },
+  "summary": {
+    "exact_ZZ_B_D_extended_source_comparisons": 78,
+    "unequal_ZZ_row_modules": 0,
+    "independent_Cartesian_B_and_D_row_module_crosscheck_pairs": 3,
+    "excluded_components": 1,
+    "arbitrary_Chern_source_false_generalization_guard_passed": true
+  }
+}

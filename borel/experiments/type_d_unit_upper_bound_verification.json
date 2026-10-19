@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "generated_utc": "2026-10-19T19:37:39.619533+00:00",
+  "generated_utc": "2026-10-19T22:05:27.003120+00:00",
   "sage_version": "9.5",
-  "source_script_sha256": "f1d47ae067f88c20177d8ed3a01dcd47c27ca52a998bd9f3613ab676cd36316d",
+  "source_script_sha256": "f4225ceb003b86002108991407c7ad1d4701ff119fc9051ea2042745e0d647b8",
   "proof_document": {
     "file": "TYPE_D_FROBENIUS.md",
-    "sha256": "1a9a5e24e806ed823acc18aad6312afc49c16174580894112f80022c907c7feb"
+    "sha256": "4a2e1272a2a3e7d51b41efdfe3a2099ccc6adcd7b49d296602a1141e30f26b0b"
   },
   "Borel_or_Weyl_engine_imported": false,
   "scope": "Finite exact verification of the type-D unit upper-bound/core-one argument; no full type-D Smith classification follows from these tests.",
   "arguments": {
     "max_a": 7,
     "max_h": 3,
-    "output": "/tmp/type_d_unit_upper_bound_canonical.json"
+    "output": "/tmp/type_d_unit_upper_bound_final.json"
   },
   "checks": [
     {
@@ -3472,7 +3472,7 @@
       "kernel_and_core_one_ranks_match": true
     }
   ],
-  "seconds": 27.717544,
+  "seconds": 30.940851,
   "summary": {
     "kernel_degree_components": 147,
     "core_one_rank_comparisons": 147,

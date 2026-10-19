@@ -151,9 +151,12 @@ closed [all-rank formula](TYPE_B_CLOSED_CONJECTURE.md), including the
 formerly missing integral comparison. The
 [general D square theorem](TYPE_D_SQUARE_THEOREM.md) now identifies
 every normalized square-sector factor with B, including all factors
-for smaller block three. Together with the Euler comparison it proves
-the full formula for odd tails. The general even-tail partition
-classification still requires the saturated-gluing comparison.
+for smaller block three. The
+[general even-tail gluing theorem](TYPE_D_EVEN_GLUING_THEOREM.md)
+now completes the full classification: the only gluing correction
+replaces the known number of unit exponents by exponent one.
+Its integral relative Euler argument and proof dependencies are
+recorded in the [new audit](TYPE_D_EVEN_GLUING_AUDIT.md).
 These are deductions in the notes, not an attribution of the exact Smith
 formulas to the cited papers or a claim of originality. The
 [claim-by-claim proof/source audit](PROOF_STATUS.md) records the distinctions.

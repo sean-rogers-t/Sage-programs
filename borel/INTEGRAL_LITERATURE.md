@@ -414,8 +414,13 @@ Definition 1, Theorem 1, and Section 4.1. The relative incidence argument,
 compensated-parity retraction retaining the base Euler class, and use of
 primitive B prefixes are deductions here. No further specialist search
 establishing novelty of this comparison has been completed.
-The [full D partition formula](TYPE_D_CANDIDATE.md) is now proved for
-odd tails. Higher full-image even-tail layers retain the single
-unproved saturated-gluing condition stated in that note. Another question is to identify and compare natural integral
+The [general even-tail gluing theorem](TYPE_D_EVEN_GLUING_THEOREM.md)
+now proves the [full D partition formula](TYPE_D_CANDIDATE.md) in every
+rank. The additional relative Euler-extension lemma and selected
+head-Euler comparison are repository deductions, with their complete
+dependency audit recorded separately. This completes the stated
+normalized B/D image classification; it does not establish originality.
+The stronger unweighted prefix strictness criterion remains conditional.
+Another question is to identify and compare natural integral
 forms of the exceptional polynomial representation subalgebras. Any claim
 about representation rings must specify that form explicitly.

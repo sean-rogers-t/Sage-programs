@@ -8,8 +8,10 @@ type-D Smith multiplicities or prove the full square-sector Smith
 comparison. These are unpublished deductions from the identified
 Schubert inputs, without an originality claim or external expert review.
 The subsequent [general square theorem](TYPE_D_SQUARE_THEOREM.md)
-provides the higher square-sector comparison by a different argument;
-the present mod-2 proof retains its independent unit-layer scope.
+provides the higher square-sector comparison by a different argument.
+The [general gluing theorem](TYPE_D_EVEN_GLUING_THEOREM.md) now proves
+the full normalized D formula; the present mod-2 proof retains its
+independent unit-layer scope.
 
 ## 1. Setup and the exact result
 
@@ -518,15 +520,18 @@ degree. The classes (14) with \(\mu=(m)\) supply a nonzero vector
 for every \(v+1\le m\le a\). This proves (26).
 
 
-## 6. Subsequent comparison, remaining gluing, and the literal form
+## 6. Subsequent comparisons and the literal form
 
 The calculation above determines the number of unit factors. It does
 not establish the full square-sector D/B Smith comparison or identify
 all gluing flags at positive 2-adic levels. The additional square
 comparison is now supplied by [TYPE_D_SQUARE_THEOREM.md](TYPE_D_SQUARE_THEOREM.md).
-Together with the Euler comparison it settles odd tails. Higher even-tail
-Smith exponents still require the saturated-gluing information isolated
-in [ORTHOGONAL_SMITH.md](ORTHOGONAL_SMITH.md).
+Together with the Euler comparison it settles odd tails. The subsequent
+[general gluing theorem](TYPE_D_EVEN_GLUING_THEOREM.md) now proves that
+the unit-overlap classes exhaust saturated gluing for every even tail.
+This supplies the information isolated in
+[ORTHOGONAL_SMITH.md](ORTHOGONAL_SMITH.md) and determines every higher
+full-image multiplicity.
 
 For the literal defining/vector polynomial-character lattice, every
 positive-degree normalized factor is multiplied by \(2^d\) in degree

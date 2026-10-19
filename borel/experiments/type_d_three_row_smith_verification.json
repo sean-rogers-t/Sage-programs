@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_utc": "2026-10-19T19:38:07.144786+00:00",
+  "generated_utc": "2026-10-19T22:05:57.762095+00:00",
   "sage_version": "9.5",
   "status": "passed",
   "scope": "Finite exact integral Chern/raising corroboration only; no untested-rank conclusion.",
@@ -12,7 +12,7 @@
     "experiments/type_d_cartesian_frontier.py": "b4a5a5c7a24368583b746e20ce75bfc9affcaf1ed3957aee165b97a9cf64fb58",
     "src/sage_borel/core.py": "c21a7b8893c5155efc71123264d698b7504dd89d8657b0612f57e0cb05118751",
     "src/sage_borel/operations.py": "0429729152ddebd67d0034cdb5ef4953ed2091468168bd24f97ced4f2254b857",
-    "TYPE_D_SQUARE_THEOREM.md": "5745cb90d0da6139df60cb26c9aaba5e7c79af699340943c74c570ae6436a333"
+    "TYPE_D_SQUARE_THEOREM.md": "0d5f541a21e17d9e5560fb72ce789d3f1114e44405403f33a0c25a9ce446fb05"
   },
   "degree_checks": [
     {
@@ -8496,5 +8496,5 @@
     "relative_compensated_projection_checks": 42,
     "all_checks_passed": true
   },
-  "seconds": 27.519773
+  "seconds": 30.770417
 }

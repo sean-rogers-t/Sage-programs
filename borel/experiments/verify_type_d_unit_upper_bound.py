@@ -8,7 +8,7 @@ with q^(h*floor(a/2))*[h+ceil(a/2)-1 choose h]_q.  Also compare e_1 F
 with its core-one two-quotient LR matrix.  Small exact ZZ matrices check
 the signs, integral row modules, and primitivity.  No Borel engine or
 Weyl-group calculation is imported.  These checks concern the proved
-unit-count argument, not the still-open full type-D Smith formula.
+unit-count argument, not the full type-D Smith formula proved separately in TYPE_D_EVEN_GLUING_THEOREM.md.
 """
 
 import argparse

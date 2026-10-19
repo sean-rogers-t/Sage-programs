@@ -4,9 +4,9 @@
 This note supplies an integral argument in every rank. Its relative
 lemmas have received fresh adversarial review within this session.
 The Smith conclusion is unpublished, without an originality claim or
-external expert certification. This theorem concerns the square sector;
-it does not settle its integral gluing with odd Euler multiples in the
-full D image.
+external expert certification. This theorem concerns the square sector.
+The subsequent [general gluing theorem](TYPE_D_EVEN_GLUING_THEOREM.md)
+settles its integral gluing with the Euler sector in the full D image.
 
 ## 1. Statement and the existing one-sided comparison
 
@@ -415,9 +415,10 @@ There are no higher factors in this family. These are direct
 specializations of the already proved general B multiplicity
 polynomials, transported by the integral comparison above.
 
-The proof does not identify the full D lattice combining the square
-image with \(p\) times that image. The additional integral gluing
-question remains in [TYPE_D_CANDIDATE.md](TYPE_D_CANDIDATE.md).
+The present proof treats the square image. The subsequent
+[general gluing theorem](TYPE_D_EVEN_GLUING_THEOREM.md) identifies the
+full D lattice combining it with \(p\) times the square image and proves
+the formula recorded in [TYPE_D_CANDIDATE.md](TYPE_D_CANDIDATE.md).
 For the literal defining/vector character form, multiply every
 normalized degree-\(d\) factor by \(2^d\), as explained in
 [TYPE_D_SMITH.md](TYPE_D_SMITH.md#literal-polynomial-character-form).

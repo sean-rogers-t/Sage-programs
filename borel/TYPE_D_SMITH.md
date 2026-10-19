@@ -21,8 +21,9 @@ factor equals B when \(\min(a,k)\le2\), and bounds every D square
 exponent by \(\min(a,k)\) in general. The subsequent
 [general square theorem](TYPE_D_SQUARE_THEOREM.md) proves equality
 with B in every rank, including every factor for smaller block three.
-The [full closed formula](TYPE_D_CANDIDATE.md) is now proved for odd
-tails; its higher even-tail layers still require the gluing comparison.
+The [general gluing theorem](TYPE_D_EVEN_GLUING_THEOREM.md) now
+proves exhaustion by unit gluing for every even tail, completing the
+[full closed formula](TYPE_D_CANDIDATE.md) in every rank.
 This note itself records the earlier structural arguments. All degrees
 below are polynomial degrees, half the cohomological degrees.
 
@@ -420,7 +421,7 @@ literal Smith factors. This scaling identity also holds for arbitrary
 formula is known. It refers to the fixed defining/vector Springer map,
 not to maps constructed from spin representations.
 
-## Why the arbitrary-head case needs more work
+## The additional integral step for arbitrary heads
 
 For general \(a\), the diagram involution gives a decomposition over
 \(\mathbb Q\) into square-tail classes and Euler multiples. The integral
@@ -434,15 +435,16 @@ Grassmannians*, Proposition 2 and Theorem 2](https://math.umd.edu/~harryt/papers
 provide the relevant rational eigenspace comparison and typed Giambelli
 formulas. They do not by themselves justify taking a union of Smith factors
 computed independently in the two eigenspaces. A general partition formula
-must also prove the integral change of basis and account for this gluing.
-Finite computations support further investigation; they are not a proof of
-such a formula.
+also requires an integral change of basis that accounts for this gluing.
+The [general gluing theorem](TYPE_D_EVEN_GLUING_THEOREM.md) now supplies
+that step; its exact finite checks corroborate the proof.
 
 The all-rank lattice reconstruction, including the precise index-two gluing
 and its flags over \(\mathbb F_2\), is proved in
 [ORTHOGONAL_SMITH.md](ORTHOGONAL_SMITH.md). Together with the exact
-Euler-sector comparison above, it determines what further integral data a
-general formula must supply.
+Euler-sector comparison above, it identifies the integral data required
+by a general formula. The subsequent general theorem proves that the
+unit-overlap classes exhaust those data.
 
 The [finite sector calculations](experiments/orthogonal_sector_search_results.json)
 also give the same Smith lists for the square-only type-D sector and the
@@ -453,4 +455,7 @@ The [general incidence proof](TYPE_D_SQUARE_THEOREM.md) now supplies
 the additional integral argument in every rank. It uses the relative
 eta denominator bound and a compensated-parity retraction, followed by
 the primitive type-B prefix comparison. The Euler-sector comparison
-proved above has its separate integral justification.
+proved above has its separate integral justification. The
+[full gluing proof](TYPE_D_EVEN_GLUING_THEOREM.md) extends the relative
+incidence method to the specified head Euler source and establishes the
+full normalized D formula.
