@@ -62,6 +62,18 @@ provides alternative arguments and explicit Schubert refinements.
 - [Editable LaTeX](combinatorial-proofs/Combinatorial_proofs_types_A_C_D.tex)
 - [Exact Sage checks and recorded results](combinatorial-proofs/verification/README.txt)
 
+## Integral image summary for Shrawan
+
+The [integral Springer–Borel image note](orthogonal-images-summary/README.md)
+connects the orthogonal Smith calculations to Parts II and III. It labels
+published inputs, deductions in the companion notes, and conjectures
+separately, with normalization conventions, proof sketches, references, and
+the remaining integral comparison problem. It makes no originality claim.
+
+- [Five-page LaTeX PDF](orthogonal-images-summary/output/pdf/Springer_integral_images_for_Shrawan.pdf)
+- [Editable LaTeX source](orthogonal-images-summary/main.tex)
+- [Full proof and source status](../borel/PROOF_STATUS.md)
+
 [PROVENANCE.json](PROVENANCE.json) records source URLs, SHA-256 hashes and file
 sizes. The current PDF and Word note supersede the earlier local note filenames;
 only this final pair is included here.

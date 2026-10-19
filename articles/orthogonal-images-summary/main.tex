@@ -1,0 +1,389 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[margin=0.9in,headheight=14pt]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb,mathtools}
+\usepackage{microtype,xcolor,booktabs,array,enumitem,fancyhdr}
+\usepackage[colorlinks=true,linkcolor=navy,citecolor=navy,urlcolor=navy]{hyperref}
+\definecolor{navy}{RGB}{27,52,80}
+\definecolor{teal}{RGB}{20,92,89}
+\definecolor{wine}{RGB}{128,39,56}
+\hypersetup{pdftitle={Integral images of Springer--Borel maps: relation to Parts II and III},
+pdfauthor={Discussion note prepared for Shrawan Kumar},
+pdfsubject={Published inputs, repository deductions, and conjectural Smith multiplicities}}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small Integral Springer--Borel images}
+\fancyhead[R]{\small Discussion note}
+\fancyfoot[C]{\small\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt plus 1pt}
+\setlist[itemize]{leftmargin=1.5em,itemsep=3pt,topsep=3pt}
+\setlist[enumerate]{leftmargin=1.7em,itemsep=3pt,topsep=3pt}
+\setlength{\emergencystretch}{2em}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\C}{\mathbb C}
+\newcommand{\F}{\mathbb F}
+\newcommand{\OG}{\operatorname{OG}}
+\newcommand{\IG}{\operatorname{IG}}
+\newcommand{\Gr}{\operatorname{Gr}}
+\newcommand{\sat}{\operatorname{sat}}
+\newcommand{\rank}{\operatorname{rank}}
+\newcommand{\Smith}{\operatorname{Smith}}
+\newcommand{\qbinom}[2]{\genfrac{[}{]}{0pt}{}{#1}{#2}_q}
+\newcommand{\published}{\textcolor{navy}{\textbf{Published result/input.}}\ }
+\newcommand{\deduction}{\textcolor{teal}{\textbf{Deduction in the companion notes.}}\ }
+\newcommand{\conjectural}{\textcolor{wine}{\textbf{Conjecture.}}\ }
+\title{\vspace{-1.5em}\textcolor{navy}{Integral images of Springer--Borel maps}\\[4pt]
+\large Connection with Parts II and III}
+\author{Discussion note prepared for Shrawan Kumar}
+\date{19 October 2026}
+
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+\vspace{-1.0em}
+
+\textbf{Purpose and status.}
+This note summarizes an integral refinement of the maps studied in
+Kumar--Rogers, Part II \cite{KR}, and Kumar--Xie, Part III \cite{KX}.
+It separates published statements, deductions whose arguments are recorded
+and checked in the companion repository, and unproved conjectures.
+Deductions are presented with their arguments in the companion notes;
+external expert review and originality remain unestablished.
+
+\section{The published starting point}
+\published Part II gives the classical symplectic and odd-orthogonal
+generator images and stable injectivity: Theorem 16 for C and Theorem 29
+for B. Part III gives the even-orthogonal generator images, its stable
+integral presentation, and stable injectivity, especially Theorems 3.6 and
+3.8 and Proposition 3.7. The injectivity theorems are stated over \(\C\);
+their proofs explicitly use chosen integral forms.
+
+Use the normalized torus coordinates
+\(\bar t_j=(t_j-t_j^{-1})/2\), corresponding to \(x_j\) under the
+Springer--Borel map. Put \(c_i=c_i(Q)\), where \(Q\) is the tautological
+quotient bundle on the relevant isotropic Grassmannian, with \(c_0=1\)
+and \(c_i=0\) outside its rank. The squared-tail generator image is
+\[
+ e_i(\bar t_{\rm tail}^{\,2})
+ \longmapsto c_i^2+
+ 2\sum_{j=1}^{i}(-1)^j c_{i+j}c_{i-j}.
+ \tag{1}
+\]
+The integral theta/eta presentations and B/C Schubert comparison used
+below are existing Schubert calculus \cite{BKTIG,BKTD}.
+
+\section{The additional integral question}
+Write \(n=a+k\). On
+\(X_B=\OG(a,2n+1)\) use
+\(q_i=e_i(x_{a+1}^2,\ldots,x_n^2)\), \(1\le i\le k\).
+On \(X_D=\OG(a,2n)\) use \(q_1,\ldots,q_{k-1}\) and
+\(p=x_{a+1}\cdots x_n\), with \(p^2=q_k\).
+Take \(a,k\ge1\) in B and \(a\ge1,k\ge2\) in D.
+
+Polynomial degree \(d\) means cohomological degree \(2d\);
+\(\deg q_i=2i\) and \(\deg p=k\).
+Let \(L_d\subset H^{2d}(X;\Z)\) be the integer span of all degree-\(d\)
+monomials in these fixed inputs after applying the Borel map. The object
+to determine is
+\[
+ \sat(L_d)/L_d,\qquad
+ \sat(L_d)=(L_d\otimes\Q)\cap H^{2d}(X;\Z).
+ \tag{2}
+\]
+We retain every nonzero Smith factor of \(L_d\hookrightarrow\sat(L_d)\),
+including \(1\): this means the finite group (2) together with \(\rank L_d\).
+The index is in the selected rational image, whose rank can be smaller
+than ambient cohomology. Injectivity alone does not imply saturation.
+
+\newpage
+\section{Structural deductions and finite type-B formulas}
+\deduction The arguments recorded in \cite{Repo} yield the following
+refinements of the image problem, in the normalization of Section 2.
+They use published integral presentations; these exact Smith conclusions
+are not attributed to those sources as published theorems.
+
+\begin{center}
+\small
+\renewcommand{\arraystretch}{1.17}
+\begin{tabular}{@{}p{0.32\textwidth}p{0.29\textwidth}p{0.29\textwidth}@{}}
+\toprule
+Statement & Type B & Type D\\
+\midrule
+Possible nonzero factors & \(2^e,\ 0\le e\le\min(a,k)\) & Powers of \(2\)\\
+Stable image, \(k\) fixed & Saturated degreewise & Saturated degreewise\\
+Range with all factors \(1\) &
+\(d\le\max(a,k)\) & \(d\le a\)\\
+Complete closed families & \(\min(a,k)\le3\) & \(a=1\) (quadrics)\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Stable saturation strengthens the injectivity established in the papers:
+the normalized image contains every integral class in its rational span.
+The finite ranges are sufficient, not claimed optimal.
+In B, the full Smith multiset is also unchanged under \(a\leftrightarrow k\).
+
+\paragraph{Why the B comparison controls the prime two.}
+For the same squared-root Schur inputs, let \(C\) be the integral
+symplectic coefficient matrix. Its selected image is primitive by the
+quaternionic Grassmannian fibration and integral Schur basis
+\cite{PR}. For signed Schubert indices \(w\),
+\[
+ B_{w,\lambda}=2^{\nu(w)}C_{w,\lambda},
+ \qquad \nu(w)=\#\{\text{negative signed entries}\}.
+ \tag{3}
+\]
+After block duality, \(\nu\le\ell:=\min(a,k)\). As the full C row lattice
+is primitive, the B row lattice lies between \(2^\ell\Z^R\) and \(\Z^R\),
+where \(R\) is the source rank in the degree under consideration.
+This gives the B exponent bound. The stable B/D saturation arguments
+instead use integral specialization of the theta/eta models.
+In D, working over \(\Z[1/2]\) with a sign-averaging retraction rules out
+odd-prime factors.
+For later use, in the smaller-head presentation define the prefix lattice
+\(P_t=\operatorname{span}_{\Z}\{C_{w,\bullet}:\nu(w)\le t\}\subseteq\Z^R\),
+with \(P_{-1}=0\). If every prefix is primitive, the multiplicity of
+\(2^t\) is \(\rank P_t-\rank P_{t-1}\).
+
+\paragraph{A concrete closed type-B family.}
+Set \(A=\max(a,k)\). For \(\ell=2\), put
+\(u=\lceil A/2\rceil\), \(v=\lfloor A/2\rfloor\).
+In polynomial degree \(2m\), the complete multiset is
+\[
+ \left\{2^{e(r,s)}:0\le s\le r\le A,\ r+s=m\right\},
+ \qquad
+ e(r,s)=
+ \begin{cases}
+ 0,&r\le u,\ s\le v,\\
+ 2,&s>u,\\
+ 1,&\text{otherwise}.
+ \end{cases}
+ \tag{4}
+\]
+The proof uses two-variable plethysm, theta Giambelli, and an integral
+change of basis with disjoint Schubert supports. For \(\ell=3\), all four
+multiplicity polynomials likewise have closed formulas, derived through
+primitive Schur-product prefixes \cite{Repo}. For example, \(a=k=2\)
+in polynomial degree \(4\) has factors \((1,2)\): the image has index
+\(2\) in its rank-two saturation.
+
+\newpage
+\section{Unit factors, classical counting, and the largest factor}
+For type B put
+\[
+ \ell=\min(a,k),\quad A=\max(a,k),\quad
+ r=\lfloor n/2\rfloor,\quad c=\lceil n/2\rceil.
+\]
+Let \(M_e(m)\) count factors \(2^e\) in polynomial degree \(2m\),
+equivalently cohomological degree \(4m\).
+The variable \(q\) below counts \(m\); it is not a generator \(q_i\).
+The Gaussian \(\qbinom{v}{u}\) counts partitions in the rectangle
+\((v-u)^u\), and is zero outside \(0\le u\le v\). Set \(U_{0,0}=1\).
+
+\subsection*{The polynomial is already known; its Smith interpretation is additional}
+\published The polynomial
+\[
+ U_{n,\ell}(q)=
+ \sum_{j=0}^{\lfloor\ell/2\rfloor}
+ q^{j(c-\ell+j)}
+ \qbinom{r}{j}\qbinom{c-j}{\ell-2j}
+ \tag{5}
+\]
+is classical Birkhoff/Hall-type enumeration \cite{Birkhoff,Sage}.
+For ambient type \((2^r,1^{n\bmod2})\) and subgroup type
+\((2^j,1^{\ell-2j})\), the standard subgroup formula gives its summand.
+The same expression counts invariant subspaces of a maximal-rank
+square-zero operator. It is not a new counting polynomial.
+
+\deduction The integral comparison in the companion notes identifies
+\[
+ \sum_m M_0(m)q^m=U_{n,\ell}(q).
+ \tag{6}
+\]
+This is the additional Smith assertion, rather than Birkhoff's theorem.
+A brief account of the argument is:
+\begin{enumerate}
+\item Modulo \(2\), only the \(\nu=0\) rows of (3) remain.
+Littlewood's two-quotient identity identifies their row lattice with
+a bounded Littlewood--Richardson product lattice.
+\item Let \(W=\{U\in\Gr(\ell,n):NU\subset U\}\), with
+\(N^2=0\) of rank \(r\). A bounded affine-lattice model realizes \(W\)
+as a closed union of Iwahori Schubert cells; the rectangular case is
+already established in \cite{HNS}.
+\item Anderson's integral Chern-generation theorem \cite{Anderson}
+makes \(H^*(\Gr(\ell,n);\Z)\to H^*(W;\Z)\) surjective.
+A Grassmann-bundle resolution, with degree-one sections over cells,
+has primitive cohomology pullback. Its Schur coproduct is the LR matrix
+above. Thus that row lattice is primitive, and its rank is (5).
+\end{enumerate}
+The complete integral argument, including the odd-\(n\) lattice bounds,
+is supplied in \cite{Repo}; this paragraph is a proof sketch.
+
+\subsection*{A separate all-rank endpoint deduction}
+An incidence resolution and integral Pieri straightening identify the
+prefix \(P_{\ell-1}\) with the coordinates indexed by
+\(\lambda_\ell\le c-1\). The complementary partitions have every part
+at least \(c\), giving
+\[
+ \boxed{\ \sum_m M_\ell(m)q^m
+       =q^{\ell c}\qbinom{r}{\ell}.\ }
+ \tag{7}
+\]
+This argument does not require primitivity of every intermediate prefix.
+
+\newpage
+\section{Relation to the Euler generator in Part III}
+\deduction The Euler sector on \(\OG(a,2n)\), generated by \(p f(q)\),
+has the same nonzero Smith factors as the normalized B image on
+\(\OG(a-1,2n-1)\), shifted by polynomial degree \(k\) for \(a\ge2\).
+The proof uses the explicit difference basis in BKT Proposition 2
+\cite{BKTD}; its rational Chern-linearity upgrades integrally because
+the basis correspondence and the multiplication maps are integral.
+
+Combining the square and Euler sectors requires further integral data.
+A swapped pair of typed Schubert classes has sum and difference of
+index \(2\). The companion two-flag lattice lemma describes this gluing:
+a paired sector-exponent pair \((i,j)\) contributes exponents
+\[
+ \bigl(\min(i,j),\ \max(i,j)+1\bigr),
+ \tag{8}
+\]
+with the pairing determined by relative flags over \(\F_2\), not by the
+sector Smith lists alone. This is a lattice reconstruction, not a full
+type-D partition classification.
+The observed equality of the general D square sector with the B image
+remains conjectural here, as does a complete type-D partition formula.
+
+\paragraph{Normalization matters.}
+These statements concern the chosen normalized integral forms appearing
+in the proofs of Parts II and III. They need not equal the literal
+intersection with the integral representation ring.
+For the defining/vector SO/Sp character forms discussed in Part I
+\cite{K}, a degree-\(d\) image is \(2^d\) times its normalized counterpart.
+Consequently each nonzero Smith factor is multiplied by \(2^d\).
+No such conclusion is asserted here for a Spin character lattice.
+
+\section{The remaining type-B conjecture}
+\conjectural Outside the justified cases, the proposed complete formula is
+\[
+ \boxed{\ \sum_m M_e(m)q^m
+ \stackrel{?}{=} q^{ec}\qbinom{r}{e}\,
+                 U_{n-2e,\ell-e}(q),
+       \qquad 0\le e\le\ell.\ }
+ \tag{9}
+\]
+Recompute the parameters of \(U\) at its displayed arguments.
+This includes (6) and (7), agrees with all multiplicities for
+\(\ell\le3\), and has one further justified layer at \(\ell=4,e=3\).
+
+For a maximal-rank square-zero operator, define
+\(\delta(U)=\rank(N:U\to V/U)\). The right side of (9) is the
+compactly supported even Poincare polynomial of \(\delta(U)=e\),
+by an elementary stratification in the companion notes.
+Over finite fields this is the profile \((\ell,e)\) counting problem
+already covered by Ram's general theorem \cite{Ram}.
+The unresolved step is its identification with the intermediate
+\emph{integral Smith} layers, including the required prefix-rank and
+primitivity comparisons. Counting the strata alone does not prove (9).
+
+\textbf{Evidence and limits.}
+The formula matches 174 recorded exact Smith lists and 430 prefix
+comparisons. A separate verifier checks 516 exact integer row-module
+equalities. These finite checks support the conjecture but do not prove
+it in arbitrary rank. No originality claim is made for any deduction.
+The most useful points for further review are the integral comparison
+behind (6) and the missing intermediate-layer comparison in (9).
+
+\newpage
+\renewcommand{\refname}{References and companion material}
+{\small
+\setlength{\parskip}{2pt}
+\begin{thebibliography}{BKT-IG}
+\bibitem[KR20]{KR}
+S. Kumar and S. Rogers,
+\emph{Representation ring of Levi subgroups versus cohomology ring of flag
+varieties II}, J. Algebra \textbf{556} (2020), 340--362.
+Theorems 16 and 29; integral form in the proof of Theorem 16, p.~353.
+\href{https://kumar.math.unc.edu/papers/kumar81.pdf}{Author PDF};
+\href{https://doi.org/10.1016/j.jalgebra.2020.02.029}{DOI}.
+
+\bibitem[KX24]{KX}
+S. Kumar and J. Xie,
+\emph{Representation ring of Levi subgroups versus cohomology ring of flag
+varieties III}, J. Pure Appl. Algebra \textbf{228} (2024), 107539.
+Theorem 3.6, Proposition 3.7, Theorem 3.8, equations (28)--(33).
+\href{https://kumar.math.unc.edu/papers/kumar86.pdf}{Author PDF}.
+
+\bibitem[K16]{K}
+S. Kumar,
+\emph{Representation ring of Levi subgroups versus cohomology ring of flag
+varieties}, Math. Ann. \textbf{366} (2016), 395--415.
+Proposition 12(b), Lemma 15(a), equation (15).
+\href{https://kumar.math.unc.edu/papers/kumar76.pdf}{Author PDF}.
+
+\bibitem[BKT-IG]{BKTIG}
+A. S. Buch, A. Kresch and H. Tamvakis,
+\emph{A Giambelli formula for isotropic Grassmannians}.
+Definition 1, Theorem 1, Sections 2.1 and 6.1.
+\href{https://math.umd.edu/~harryt/papers/isogiamfinal.pdf}{Author text}.
+
+\bibitem[BKT-D]{BKTD}
+A. S. Buch, A. Kresch and H. Tamvakis,
+\emph{A Giambelli formula for even orthogonal Grassmannians}.
+Proposition 2, Theorem 4, Section 5.2.
+\href{https://math.umd.edu/~harryt/papers/oggiam.pdf}{Author text}.
+
+\bibitem[PR]{PR}
+P. Pragacz and J. Ratajski,
+\emph{Formulas for Lagrangian and orthogonal degeneracy loci;
+\(\widetilde Q\)-polynomial approach}.
+Appendix A, Sections 10.3 and 10.5.
+\href{https://www.impan.pl/~pragacz/download/comp3868.pdf}{Author text}.
+
+\bibitem[A24]{Anderson}
+D. Anderson, \emph{Integral equivariant cohomology of affine Grassmannians},
+Canad. Math. Bull. \textbf{67} (2024), 727--741.
+Main theorem p.~728; ordinary specialization pp.~729--730.
+\href{https://arxiv.org/abs/2305.19895}{Author version};
+\href{https://doi.org/10.4153/S0008439524000122}{DOI}.
+
+\bibitem[HNSS]{HNS}
+M. A. Hahn, G. Nebe, M. Stanojkovski and B. Sturmfels,
+\emph{Subspaces Fixed by a Nilpotent Matrix}.
+Section 4, Proposition 14 (rectangular nilpotent lattice model).
+\href{https://www.math.rwth-aachen.de/~Gabriele.Nebe/papers/shuffle0702final.pdf}{Author text}.
+
+\bibitem[B35]{Birkhoff}
+G. Birkhoff, \emph{Subgroups of Abelian Groups},
+Proc. London Math. Soc. \textbf{38} (1935), 385--401.
+\href{https://doi.org/10.1112/plms/s2-38.1.385}{Bibliographic record}.
+The original full text was not accessed in the repository audit; the
+general formula was inspected in \cite{Sage} and its specialization
+checked against both Sage counting algorithms.
+
+\bibitem[Sage]{Sage}
+SageMath reference, \emph{\(q\)-analogues},
+\texttt{q\_subgroups\_of\_abelian\_group}.
+The Birkhoff formula is displayed explicitly, citing Butler (1987).
+\href{https://doc.sagemath.org/html/en/reference/combinat/sage/combinat/q_analogues.html}{Official documentation}.
+
+\bibitem[R25]{Ram}
+S. Ram, \emph{Subspace profiles, \(q\)-Whittaker functions and Krylov methods},
+Sem. Lothar. Combin. \textbf{93B} (2025), article 115.
+Definition 1.1 and Theorem 5.2 (also Theorem 1.3).
+\href{https://www.mat.univie.ac.at/~slc/wpapers/FPSAC2025/115.pdf}{Conference paper}.
+
+\bibitem[Repo]{Repo}
+\emph{Sage-programs: orthogonal Smith notes and reproducible calculations}.
+Proof/source audit dated 19 October 2026, baseline commit
+\texttt{0adbc65}; unpublished companion material.
+\href{https://github.com/sean-rogers-t/Sage-programs/blob/0adbc65288539d5aef59b3dfeeb905b2420ce051/borel/PROOF_STATUS.md}{Claim-by-claim status and source map}.
+The status map links the structural, unit-factor, largest-factor,
+filtration, and type-D proof notes and their exact verification reports.
+\end{thebibliography}
+}
+\end{document}
