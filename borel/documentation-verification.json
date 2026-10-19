@@ -1,0 +1,34 @@
+{
+  "result": "passed",
+  "sage_version": "9.5",
+  "command": "PYTHONPATH=src sage -python tools/verify_documentation.py",
+  "documents": [
+    {
+      "file": "README.md",
+      "python_blocks_executed": 2
+    },
+    {
+      "file": "MATHEMATICS.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "METHODS.md",
+      "python_blocks_executed": 4
+    },
+    {
+      "file": "PRESENTATIONS.md",
+      "python_blocks_executed": 3
+    },
+    {
+      "file": "IMAGE_RELATIONS.md",
+      "python_blocks_executed": 2
+    },
+    {
+      "file": "experiments/TWO_STEP_DERIVATION.md",
+      "python_blocks_executed": 0
+    }
+  ],
+  "local_links_and_anchors_checked": 58,
+  "python_blocks_executed": 11,
+  "scope": "Python fences executed in reading order in a fresh namespace per document; local links and anchors checked. Shell snippets and external URLs were not automatically executed or crawled."
+}

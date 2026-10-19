@@ -1,8 +1,10 @@
 # A rational presentation of the joint two-step image
 
-This note derives the relations tested by the two-step experiment. It is a
-consequence of standard rational invariant theory and the Borel presentation;
-it is not a claim of a new theorem or a completed literature review.
+This note derives the relations tested by the two-step experiment. They are
+consequences of classical rational invariant theory and the Borel presentation;
+no novelty is claimed for the abstract kernel formula. The
+[mathematical guide](../MATHEMATICS.md) explains the characteristic map, and
+[METHODS.md](../METHODS.md) connects the formulas to the library API.
 
 Let `a,b,k >= 1`, `n=a+b+k`, and let `F` be the symplectic partial flag variety
 
@@ -156,6 +158,23 @@ the experiment compares its ranks to this series. Low-rank tests also compute
 the entire kernel spaces by Groebner reduction in orthonormal coordinates.
 
 ## Context
+
+There is also a compact homogeneous-space interpretation. In compact group
+notation put
+
+$$
+X=\frac{Sp(n)}{U(a)\times U(b)\times Sp(k)},\qquad
+Y=\frac{Sp(n)}{Sp(a)\times U(b)\times Sp(k)}.
+$$
+
+The original isotropic flag manifold is `X`. The projection `X -> Y` has
+fiber `Sp(a)/U(a)` and injective rational cohomology pullback. The equal-rank
+Borel presentation for `Y`, followed by elimination of the head squared
+generators, is exactly `B/(h_(a+1)(Z),...,h_n(Z))`. Its pullback is the selected
+joint image. This realizes the formula as a specialization of
+[Borel's classical theorem](https://www.sas.rochester.edu/mth/sites/doug-ravenel/otherpapers/Borel-Sur.pdf),
+Theorem 26.1 and Proposition 27.1. The space `Y` is a compact homogeneous
+space; it is generally not itself a complex parabolic flag variety.
 
 The general Springer-induced map and its compatibility with flag projections
 are in [Kumar, Part I](https://arxiv.org/abs/1508.06826) and

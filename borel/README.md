@@ -4,6 +4,25 @@ A small SageMath library for exact Borel characteristic maps in a Schubert basis
 The historical programs in the repository root are preserved. This package is a
 separate implementation incorporating the corrections found during their audit.
 
+## Documentation
+
+The guides explain both what each method returns and the mathematics that
+makes the calculation valid. Start with the method reference for usage, or
+the mathematical guide for the Borel/Springer construction.
+
+| Question | Guide |
+| --- | --- |
+| What mathematical map does each method compute? | [Methods and worked examples](METHODS.md) |
+| Why do the Borel, BGG, Chevalley and coinvariant methods work? | [Mathematical framework and conventions](MATHEMATICS.md) |
+| Why is the returned kernel complete? How do backends and normal forms work? | [Complete presentations and proofs](PRESENTATIONS.md) |
+| What do a degree matrix, rank and homogeneous relation mean? | [Degreewise images and relations](IMAGE_RELATIONS.md) |
+| Which exceptional inputs and normalizations are available? | [Exceptional catalogue](EXCEPTIONAL.md) |
+| How do the historical functions map to the new API? | [Migration guide](MIGRATION.md) |
+
+[examples/mathematical_methods.py](examples/mathematical_methods.py) is an
+executable companion covering projective space, the mixed C3 image, the C9
+kernel and the type D Euler class.
+
 The [exceptional generator catalogue](EXCEPTIONAL.md) adds three-parameter
 calculations such as `exceptional_image("F4", 1, "e2")`, with named polynomial
 inputs and computed Schubert images. It includes the corrected Part III inputs,
@@ -66,6 +85,12 @@ For complete kernel presentations:
 
 ```bash
 PYTHONPATH=src sage -python examples/kernel_presentations.py
+```
+
+For the worked mathematical explanations:
+
+```bash
+PYTHONPATH=src sage -python examples/mathematical_methods.py
 ```
 
 Or install into your Sage environment and import from any directory:
@@ -154,6 +179,11 @@ sum zero; the GL(n) central character has zero characteristic-map image.
 | `exceptional_generators(type, parabolic)` | List names, degrees and source metadata |
 | `exceptional_polynomial(type, parabolic, generator)` | Inspect its fundamental-weight polynomial |
 | `exceptional_borel(type, parabolic)` | Reusable map with named generator methods |
+| `A = GeneratorAlgebra(b, generators)` | The graded map from named formal variables to the chosen classes |
+| `A.degree(d)` | Exact degree-d image matrix and homogeneous kernel space |
+| `K = A.presentation(backend="auto")` | Full kernel ideal, quotient basis, Hilbert series and completeness certificate |
+| `K.reduce(p)` | Canonical representative of a formal expression in the selected image |
+| `K.verify(backend=None)` | Recheck completeness with the original or an explicitly selected backend |
 
 `tail_polynomial` and `tail_elementary` default to unsquared coordinates in A,
 squared coordinates in B/C/D; `squared=True/False` overrides this. Classical
@@ -193,6 +223,16 @@ PYTHONPATH=src sage -python benchmarks/run.py
 ```
 
 ## Verification and migration
+
+The [worked mathematical companion](examples/mathematical_methods.py) contains
+exact assertions for the explanations in the guides. The
+[documentation checker](tools/verify_documentation.py) runs the guides' Python
+blocks in reading order and checks local links; its latest result is in
+[documentation-verification.json](documentation-verification.json):
+
+```bash
+PYTHONPATH=src sage -python tools/verify_documentation.py
+```
 
 The independent test oracle uses explicit coordinate swaps/sign changes and
 Schubert representatives derived from the positive-root discriminant. It does

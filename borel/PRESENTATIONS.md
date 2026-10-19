@@ -7,6 +7,11 @@ monomial border. Classical types normally use coinvariant quotient normal
 forms; other supported types use Schubert images. No user-supplied degree
 cutoff is needed.
 
+For the mathematical meaning of each method and returned field, see
+[METHODS.md](METHODS.md). The geometric Borel map, Springer transport,
+Schubert conventions and classical invariant ideals are developed in
+[MATHEMATICS.md](MATHEMATICS.md).
+
 All degrees below are **polynomial degrees**, half the cohomological degrees.
 The formal variables have the positive degrees of their input Cartan
 polynomials. The computation applies to any `GeneratorAlgebra`, including
@@ -70,7 +75,7 @@ together with the algebra's other computed data.
 | `P.standard_monomials` | Tuple of monomials giving a rational basis of the quotient and image |
 | `P.dimension` | Total rational dimension of the selected image |
 | `P.hilbert_coefficients` | Image dimensions in polynomial degrees zero through the last nonzero degree |
-| `P.hilbert_series` | The finite Hilbert polynomial in `QQ[t]` |
+| `P.hilbert_series` | The Hilbert series, represented by a finite polynomial in `QQ[t]` |
 | `P.certificate` | The exact completeness checks recorded for this presentation |
 | `P.kernel_ideal()` | The defining ideal in `P.domain` |
 | `P.reduce(p)` | The unique normal form of a formal polynomial in the standard monomial basis |
@@ -277,6 +282,13 @@ the public variables is required.
 The tails of the recorded relations use only standard monomials. Their
 leading monomials do not divide one another, and every leading coefficient is
 one. The resulting basis is therefore reduced and monic.
+
+`P.standard_monomials` belongs to the formal generator ring, and its images
+form a basis of the selected image. This is different from both the ambient
+coordinate monomials used internally by the coinvariant backend and the
+Schubert basis used by BGG. In particular, `P.reduce(p)` accepts a formal
+polynomial and returns its representative in this quotient basis. Use
+`A.evaluate(p)` to obtain its Schubert expansion.
 
 ## Why the certificate proves completeness
 

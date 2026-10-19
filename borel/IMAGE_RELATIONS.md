@@ -5,6 +5,14 @@ Levi-invariant polynomials. It works with classical or exceptional Borel maps,
 including general partial flags. All degree arguments are polynomial degrees:
 degree `d` corresponds to cohomological degree `2*d`.
 
+The map is `phi: QQ[y_1,...,y_m] -> H*(G/P;QQ)`, with each formal variable
+sent to the Borel image of its supplied Cartan polynomial. The source variables
+have the degrees of those polynomials. The image is the subalgebra they
+generate; it need not be all of the flag cohomology. The
+[method reference](METHODS.md#degreewise-images-and-relations) explains this
+map and the matrix interpretation, and [MATHEMATICS.md](MATHEMATICS.md)
+provides the Borel/Springer framework.
+
 Version 0.4 also adds [complete kernel presentations](PRESENTATIONS.md):
 `A.presentation()` computes a defining ideal, a standard monomial basis, and
 an exact Hilbert series, with a certificate of completeness. The bounded
