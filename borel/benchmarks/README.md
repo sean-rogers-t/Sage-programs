@@ -38,3 +38,31 @@ Higher degree and larger intermediate polynomial or Schubert support can still
 increase cost substantially. Use `coefficient(f, word)` when a full expansion
 is unnecessary; inspect `last_stats` to see the work performed; reuse a map for
 repeated divisor products so its cover cache is retained.
+
+## Rank-nine complete kernel
+
+Version 0.5 adds a direct coinvariant backend for complete kernels. Reproduce
+the formerly slow C9/P8 single-tail calculation in a fresh Sage process:
+
+```bash
+PYTHONPATH=src sage -python benchmarks/coinvariant.py --output benchmarks/coinvariant-results.json
+```
+
+The [recorded result](coinvariant-results.json) is
+`QQ[q]/(q^9)`, with dimension 9 and polynomial-degree Hilbert series
+`1+t^2+t^4+...+t^16`. It computes no Schubert images or ambient Schubert basis.
+
+| Phase | Seconds |
+| --- | ---: |
+| Map and generator setup | 0.180 |
+| Coinvariant setup, full kernel and completeness certificate | 0.060 |
+| Fresh quotient and certificate recheck | 0.018 |
+| Total calculation including setup and recheck | 0.258 |
+| Script through recheck, including library imports | 2.587 |
+
+This is a single local observation under SageMath 9.5, with no precomputed map,
+image or presentation caches. Interpreter startup before the script is excluded.
+The previous version exceeded a 45-second process limit during concurrent
+validation; that censored observation does not establish a precise speedup.
+The direct backend compares reduced polynomial coordinates, and only expands
+Schubert classes when the caller explicitly requests the BGG method.

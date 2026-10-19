@@ -1,0 +1,34 @@
+{
+  "library_version": "0.5.0",
+  "sage_version": "9.5",
+  "full_regression": {
+    "command": "PYTHONPATH=src sage -python -m unittest discover -s tests -v",
+    "result": "passed",
+    "test_methods": 49,
+    "seconds": 45.828
+  },
+  "new_backend_suite": {
+    "test_methods": 10,
+    "result": "passed",
+    "report": "coinvariant-verification.json",
+    "rank_nine_test_forbids_bgg_calls": true,
+    "small_case_checks": "Both-backend equality, Cartesian elimination, B2 half-weights, D Euler, weighted and dependent inputs, zero images, fallback, caches and certificate tampering"
+  },
+  "rank_nine_cold_benchmark": "benchmarks/coinvariant-results.json",
+  "wheel": {
+    "filename": "sage_borel-0.5.0-py3-none-any.whl",
+    "bytes": 44087,
+    "sha256": "b80963b4929ce13672480df857e6c7f14da92b26989326af4c01dc34e5b3599b",
+    "isolated_import_verified": true,
+    "verified_import_path": "/tmp/sean-borel-050-isolated-20261019/sage_borel/__init__.py",
+    "import_check_tool": "tools/verify_wheel_import.py",
+    "installed_wheel_examples": 6,
+    "installed_wheel_rank_nine_benchmark": "passed"
+  },
+  "current_exact_examples": "coinvariant-examples.json",
+  "historical_programs": {
+    "command": "python verify_legacy.py --checkout-bytes",
+    "result": "passed",
+    "unchanged_files": 35
+  }
+}

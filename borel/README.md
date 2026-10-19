@@ -19,6 +19,13 @@ any chosen generator algebra. It returns the full defining ideal as a reduced
 Groebner basis, a quotient basis, the exact Hilbert series, and a finite
 completeness certificate. No guessed degree cutoff is required.
 
+Version 0.5 uses direct coinvariant normal forms by default for standard-numbered
+types A/B/C/D. This avoids Schubert expansion when computing kernel relations;
+`A.presentation(backend="bgg")` retains the original method for cross-checking.
+The formerly slow C9/P8 tail example now completes with kernel `(q^9)` and
+dimension 9; [the benchmark](benchmarks/coinvariant-results.json) records setup,
+certification and a fresh certificate recheck.
+
 It computes
 
 \[

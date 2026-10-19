@@ -1,0 +1,96 @@
+{
+  "cases": [
+    {
+      "BGG_calls_permitted": false,
+      "case": "C9/P8 one-coordinate tail",
+      "construction_and_verify_seconds": 0.103,
+      "dimension": 9,
+      "relations": [
+        "q^9"
+      ]
+    },
+    {
+      "case": "A2 full flag",
+      "dimension": 6,
+      "independent_elimination": true,
+      "relations": 2,
+      "seconds": 0.014
+    },
+    {
+      "case": "Gr(2,4)",
+      "dimension": 6,
+      "independent_elimination": true,
+      "relations": 4,
+      "seconds": 0.024
+    },
+    {
+      "case": "B2 full flag",
+      "dimension": 8,
+      "independent_elimination": false,
+      "relations": 2,
+      "seconds": 0.017
+    },
+    {
+      "case": "B2/P1 ample class",
+      "dimension": 4,
+      "independent_elimination": false,
+      "relations": 1,
+      "seconds": 0.008
+    },
+    {
+      "case": "C2 full flag",
+      "dimension": 8,
+      "independent_elimination": true,
+      "relations": 2,
+      "seconds": 0.019
+    },
+    {
+      "case": "C3 middle and tail",
+      "dimension": 12,
+      "independent_elimination": true,
+      "relations": 2,
+      "seconds": 0.067
+    },
+    {
+      "case": "D4 tail with Euler",
+      "dimension": 9,
+      "independent_elimination": true,
+      "relations": 4,
+      "seconds": 0.095
+    },
+    {
+      "case": "P4 weighted subalgebra",
+      "dimension": 4,
+      "independent_elimination": true,
+      "relations": 3,
+      "seconds": 0.02
+    },
+    {
+      "case": "P4 descending weights",
+      "dimension": 5,
+      "independent_elimination": true,
+      "relations": 3,
+      "seconds": 0.018
+    },
+    {
+      "case": "A1 zero degree 2",
+      "dimension": 1,
+      "independent_elimination": true,
+      "relations": 1,
+      "seconds": 0.004
+    },
+    {
+      "case": "A1 zero degree 37",
+      "dimension": 1,
+      "independent_elimination": true,
+      "relations": 1,
+      "seconds": 0.004
+    }
+  ],
+  "command": "PYTHONPATH=src sage -python -m unittest tests.test_coinvariant -v",
+  "expected_values_source": "Independent Cartesian elimination in A/C/D; explicit signed B2 invariants; BGG crosschecks; Q[q]/(q^9) rank-nine tail",
+  "sage_version": "9.5",
+  "seconds": 0.478,
+  "suite_result": "passed",
+  "test_methods_run": 10
+}

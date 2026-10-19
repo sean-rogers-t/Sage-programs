@@ -35,14 +35,14 @@ def _order_key(exponents, degrees):
 class _ImageEchelon:
     """Incremental sparse elimination, optionally carrying formal lifts."""
 
-    def __init__(self, borel_map):
+    def __init__(self, key):
         self.rows = {}
-        self._word = borel_map._word
+        self._key = key
 
     def insert(self, expansion, lift=None):
         vector = dict(expansion)
         while vector:
-            pivot = min(vector, key=self._word)
+            pivot = min(vector, key=self._key)
             coefficient = vector[pivot]
             if pivot not in self.rows:
                 vector = {index: value / coefficient for index, value in vector.items()}
@@ -62,17 +62,50 @@ class _ImageEchelon:
         return False, lift
 
 
-def _image(algebra, exponents, top_degree):
-    # Avoid constructing or differentiating enormous zero-image powers.
-    if _weight(exponents, algebra.generator_degrees) > top_degree:
-        return {}
-    return algebra._evaluate_monomial(exponents)
+class _BggEvaluator:
+    """The original exact Schubert-coordinate evaluator."""
+
+    backend = "bgg"
+
+    def __init__(self, algebra, top_degree):
+        self.algebra = algebra
+        self.top_degree = top_degree
+        self.key = algebra.borel_map._word
+
+    def image(self, exponents):
+        if _weight(exponents, self.algebra.generator_degrees) > self.top_degree:
+            return {}
+        return self.algebra._evaluate_monomial(exponents)
 
 
-def _polynomial_image(algebra, polynomial, top_degree):
+def resolve_backend(algebra, backend):
+    """Validate a backend name and resolve auto without constructing a quotient."""
+    if not isinstance(backend, str) or backend not in ("auto", "coinvariant", "bgg"):
+        raise ValueError("backend must be 'auto', 'coinvariant', or 'bgg'")
+    if backend == "bgg":
+        return backend
+    from .coinvariant import CoinvariantEvaluator
+    if CoinvariantEvaluator.supports(algebra):
+        return "coinvariant"
+    if backend == "auto":
+        return "bgg"
+    raise NotImplementedError(
+        "the coinvariant backend requires standard-numbered types A, B, C or D; "
+        "use backend='bgg' for this Cartan type")
+
+
+def _evaluator(algebra, top_degree, backend):
+    resolved = resolve_backend(algebra, backend)
+    if resolved == "coinvariant":
+        from .coinvariant import CoinvariantEvaluator
+        return CoinvariantEvaluator(algebra, top_degree)
+    return _BggEvaluator(algebra, top_degree)
+
+
+def _polynomial_image(evaluator, polynomial):
     result = {}
     for exponents, coefficient in polynomial.dict().items():
-        for index, value in _image(algebra, tuple(exponents), top_degree).items():
+        for index, value in evaluator.image(tuple(exponents)).items():
             residual = result.get(index, QQ.zero()) + coefficient * value
             if residual:
                 result[index] = residual
@@ -102,6 +135,7 @@ class KernelCertificate:
     checked_relations: int
     checked_basis_monomials: int
     checked_border_monomials: int
+    backend: str
 
     @property
     def certified(self):
@@ -113,7 +147,10 @@ class KernelCertificate:
     def as_dict(self):
         return {
             "certified": self.certified,
-            "method": "exact Borel images and finite monomial border closure",
+            "backend": self.backend,
+            "method": ("exact coinvariant normal forms and finite monomial border closure"
+                       if self.backend == "coinvariant" else
+                       "exact Schubert images and finite monomial border closure"),
             "checks": {
                 name: getattr(self, name) for name in (
                     "relation_images_zero", "basis_images_independent",
@@ -148,6 +185,7 @@ class KernelPresentation:
     hilbert_coefficients: tuple
     hilbert_series: object
     certificate: KernelCertificate
+    backend: str
     _algebra: object = field(repr=False, compare=False)
 
     @property
@@ -161,13 +199,20 @@ class KernelPresentation:
         """Return the unique representative in the standard-monomial basis."""
         return self._algebra._formal_polynomial(polynomial).reduce(list(self.relations))
 
-    def verify(self):
-        """Recheck the finite completeness certificate using exact Borel images."""
+    def verify(self, backend=None):
+        """Recheck completeness, optionally with a different exact backend.
+
+        The default uses this presentation's backend. ``backend='bgg'`` gives
+        an independent Schubert-coordinate cross-check of a coinvariant result,
+        which may be expensive at higher rank.
+        """
         # Recompute the geometric bound instead of trusting recorded metadata.
         # An artificially lowered bound could otherwise hide a nonzero image.
         top_degree = int(self._algebra.borel_map.longest_representative().length())
+        evaluator = _evaluator(self._algebra, top_degree,
+                               self.backend if backend is None else backend)
         certificate = _verify(self._algebra, self.relations, self.standard_monomials,
-                              top_degree)
+                              top_degree, evaluator)
         coefficients, series = _hilbert_data(self.standard_monomials,
                                              self._algebra.generator_degrees)
         correct = (self.domain is self._algebra.domain
@@ -181,8 +226,9 @@ class KernelPresentation:
         from . import __version__
         algebra = self._algebra
         return {
-            "schema_version": 1,
+            "schema_version": 2,
             "library_version": __version__,
+            "backend": self.backend,
             "cartan_type": str(algebra.borel_map.cartan_type),
             "omitted_nodes": list(algebra.borel_map.omitted_nodes),
             "generator_names": list(algebra.generator_names),
@@ -208,7 +254,7 @@ class KernelPresentation:
         }
 
 
-def _verify(algebra, relations, monomials, top_degree):
+def _verify(algebra, relations, monomials, top_degree, evaluator):
     degrees = algebra.generator_degrees
     exponents = tuple(_exponents(m) for m in monomials)
     standard = set(exponents)
@@ -237,14 +283,14 @@ def _verify(algebra, relations, monomials, top_degree):
             if child not in standard:
                 border.add(child)
     closed = all(any(_divides(lm, alpha) for lm in leading) for alpha in border)
-    zero_relations = all(not _polynomial_image(algebra, f, top_degree) for f in relations)
+    zero_relations = all(not _polynomial_image(evaluator, f) for f in relations)
     echelon = {}
     independent = True
     for alpha in exponents:
         degree = _weight(alpha, degrees)
         if degree not in echelon:
-            echelon[degree] = _ImageEchelon(algebra.borel_map)
-        inserted, _ = echelon[degree].insert(_image(algebra, alpha, top_degree))
+            echelon[degree] = _ImageEchelon(evaluator.key)
+        inserted, _ = echelon[degree].insert(evaluator.image(alpha))
         independent = independent and inserted
     return KernelCertificate(
         relation_images_zero=bool(zero_relations),
@@ -260,6 +306,7 @@ def _verify(algebra, relations, monomials, top_degree):
         checked_relations=len(relations),
         checked_basis_monomials=len(monomials),
         checked_border_monomials=len(border),
+        backend=evaluator.backend,
     )
 
 
@@ -272,12 +319,13 @@ def _hilbert_data(monomials, degrees):
     return tuple(coefficients), PolynomialRing(QQ, "t")(coefficients)
 
 
-def build_presentation(algebra):
+def build_presentation(algebra, backend="auto"):
     """Construct and certify a complete presentation without a degree cutoff."""
     ring = algebra.domain
     degrees = algebra.generator_degrees
     count = len(degrees)
     top_degree = int(algebra.borel_map.longest_representative().length())
+    evaluator = _evaluator(algebra, top_degree, backend)
     queue, queued = [], set()
 
     def enqueue(alpha):
@@ -295,9 +343,9 @@ def build_presentation(algebra):
         degree = _weight(alpha, degrees)
         monomial = ring({alpha: QQ.one()})
         if degree not in echelon:
-            echelon[degree] = _ImageEchelon(algebra.borel_map)
+            echelon[degree] = _ImageEchelon(evaluator.key)
         independent, lift = echelon[degree].insert(
-            _image(algebra, alpha, top_degree), monomial)
+            evaluator.image(alpha), monomial)
         if independent:
             monomials.append(monomial)
             for position in range(count):
@@ -313,7 +361,7 @@ def build_presentation(algebra):
 
     relations = tuple(sorted(relations, key=lambda f: f.lm(), reverse=True))
     monomials = tuple(monomials)
-    certificate = _verify(algebra, relations, monomials, top_degree)
+    certificate = _verify(algebra, relations, monomials, top_degree, evaluator)
     if not certificate.certified:
         raise ArithmeticError("full kernel presentation failed its completeness certificate")
     coefficients, series = _hilbert_data(monomials, degrees)
@@ -321,5 +369,6 @@ def build_presentation(algebra):
         domain=ring, generator_degrees=degrees, relations=relations,
         standard_monomials=monomials, hilbert_coefficients=coefficients,
         hilbert_series=series, certificate=certificate,
+        backend=evaluator.backend,
         _algebra=algebra,
     )

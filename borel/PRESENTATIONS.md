@@ -2,8 +2,10 @@
 
 `GeneratorAlgebra.presentation()` computes the entire rational kernel ideal of
 the chosen generator map, a monomial basis of its image, and its finite Hilbert
-series. Its completeness certificate uses exact Schubert images and a finite
-monomial border. No user-supplied degree cutoff is needed.
+series. Its completeness certificate uses exact image coordinates and a finite
+monomial border. Classical types normally use coinvariant quotient normal
+forms; other supported types use Schubert images. No user-supplied degree
+cutoff is needed.
 
 All degrees below are **polynomial degrees**, half the cohomological degrees.
 The formal variables have the positive degrees of their input Cartan
@@ -30,25 +32,40 @@ assert P.hilbert_coefficients == (1, 1, 1)
 print(P.hilbert_series)              # t^2 + t + 1
 assert P.reduce(h**4 + 2*h**2) == 2*h**2
 assert P.kernel_ideal() == A.domain.ideal(h**3)
+assert P.backend == "coinvariant"
 assert P.certificate.certified
 assert P.verify().certified
 ```
 
 The quotient `A.domain / P.kernel_ideal()` is the **selected image algebra**.
 It need not be all of `H*(G/P; QQ)`. The basis consists of formal monomials whose
-Schubert images are independent; the API does not require the complete ambient
-Schubert basis to be enumerated.
+cohomology images are independent. The coinvariant backend constructs no
+Schubert expansions; neither backend requires the complete ambient Schubert
+basis to be enumerated.
 
 ## API
 
-`A.presentation()` returns a frozen `KernelPresentation`. Repeated calls use the
-cached presentation; `A.clear_cache()` clears it together with the algebra's
-other computed data.
+`A.presentation(backend="auto")` returns a frozen `KernelPresentation`.
+The available backends are:
+
+* `"auto"` uses `"coinvariant"` for standard-numbered types A/B/C/D and `"bgg"`
+  for other supported Cartan types, including relabelled classical types.
+* `"coinvariant"` computes exact normal forms in the full flag coinvariant
+  quotient. Explicitly requesting it for an unsupported Cartan type raises
+  `NotImplementedError`.
+* `"bgg"` uses exact Schubert expansions from divided differences, preserving
+  the original method for independent comparisons and exceptional types.
+
+Presentations are cached separately by their resolved backend. Thus the default
+call and an explicit `backend="coinvariant"` call share a cached presentation
+when auto selects that backend. `A.clear_cache()` clears these presentations
+together with the algebra's other computed data.
 
 | API | Result |
 | --- | --- |
 | `P.domain` | The existing formal polynomial ring `A.domain` |
 | `P.generator_degrees` | Positive polynomial degrees of the formal variables |
+| `P.backend` | The actual backend used: `"coinvariant"` or `"bgg"` |
 | `P.relations` | Tuple containing a reduced monic Groebner basis of the complete kernel |
 | `P.standard_monomials` | Tuple of monomials giving a rational basis of the quotient and image |
 | `P.dimension` | Total rational dimension of the selected image |
@@ -57,15 +74,30 @@ other computed data.
 | `P.certificate` | The exact completeness checks recorded for this presentation |
 | `P.kernel_ideal()` | The defining ideal in `P.domain` |
 | `P.reduce(p)` | The unique normal form of a formal polynomial in the standard monomial basis |
-| `P.verify()` | Recheck the presentation and return a `KernelCertificate` |
+| `P.verify(backend=None)` | Recheck the presentation with its original backend, or explicitly select another backend |
 | `P.verify().certified` | Whether the completeness and output-consistency checks pass |
-| `P.as_dict()` | JSON-safe exact source, relation, basis and certificate data |
+| `P.as_dict()` | JSON-safe exact source, relation, basis and certificate data, using schema version 2 and recording the backend |
 
 The Groebner basis uses the domain's existing ordinary degree reverse
 lexicographic term order. The mathematical grading is supplied separately by
 `generator_degrees`: ordinary total degree and the grading degree need not
 agree. Inputs can have algebraic dependencies or zero cohomology image; neither
 prevents the construction.
+
+For example, a small classical presentation can be checked using both exact
+coordinate systems:
+
+```python
+P = A.presentation(backend="coinvariant")
+assert P.verify().certified                 # coinvariant normal forms
+assert P.verify(backend="bgg").certified    # independent Schubert coordinates
+Q = A.presentation(backend="bgg")
+assert P.kernel_ideal() == Q.kernel_ideal()
+```
+
+Cross-backend verification may cost substantially more than the original
+coinvariant calculation. The bounded `A.degree(d)` API and public Schubert
+expansion operations retain their existing behavior.
 
 This complements the bounded methods in [IMAGE_RELATIONS.md](IMAGE_RELATIONS.md).
 `A.degree(d).relations` is a vector-space basis of one homogeneous kernel
@@ -127,7 +159,7 @@ Its kernel is an ideal homogeneous for the positive weights `d_i`.
 
 Start with the candidate monomial `1`. Process candidates in increasing
 weighted degree, breaking ties by the domain's ordinary degree reverse
-lexicographic order. Retain a monomial when its exact Schubert image is
+lexicographic order. Retain a monomial when its exact image is
 linearly independent of the retained images in the same weighted degree.
 Only retained monomials enqueue their products by the formal variables.
 
@@ -148,6 +180,83 @@ The construction is FGLM-style: it discovers an ideal basis from exact linear
 dependencies of monomial images in a finite-dimensional algebra. It is not
 literally the original change-of-order FGLM algorithm, whose input includes an
 existing Groebner basis.
+
+### Coinvariant image coordinates
+
+Let `S` be the rational polynomial ring on the Cartan subalgebra, `W` the full
+Weyl group and `W_P` the Levi Weyl group. The Borel presentation identifies
+
+$$
+H^*(G/B;\mathbb Q)=S/(S^W_+S),\qquad
+H^*(G/P;\mathbb Q)=S^{W_P}/(S^W_+S^{W_P}).
+$$
+
+The inclusion of invariants induces an injection from the second quotient to
+the first. Indeed, averaging over `W_P` is an `S^W`-linear retraction from `S`
+to `S^{W_P}`. Applying this retraction to an expression in the invariant ideal
+proves the contraction identity
+
+$$
+(S^W_+S)\cap S^{W_P}=S^W_+S^{W_P}.
+$$
+
+All chosen input generators are already checked to be Levi invariant.
+Consequently, computing their relations and image ranks in the full flag
+coinvariant quotient gives exactly the same answers as computing in the
+original partial flag cohomology ring. The completeness proof below applies
+to either coordinate system.
+
+The backend converts fundamental-weight polynomials to standard coordinate
+polynomials before multiplying them. Type `A_r` uses `r+1` coordinates and the
+trace-zero fundamental weights; the relation `x1+...+x_(r+1)=0` is included.
+Types B/C/D use `r` coordinates, with the half-integral spin-weight factors
+included in B and D. All coefficients remain rational.
+
+For `N` coordinates, the type A invariant ideal has the triangular basis
+
+$$
+g_i=h_i(x_i,\ldots,x_N),\qquad 1\leq i\leq N.
+$$
+
+For types B/C, use `N=r` and replace every `x_j` by `x_j^2`. To verify equality
+with the usual elementary-symmetric invariant ideal, write `y_j=x_j` in A and
+`y_j=x_j^2` in B/C. The generating-function identity
+
+$$
+\left(\prod_{j=1}^N(1-y_jt)\right)
+\left(\prod_{j=i}^N(1-y_jt)^{-1}\right)
+=\prod_{j=1}^{i-1}(1-y_jt)
+$$
+
+has zero coefficient of `t^i`. Hence
+
+$$
+g_i=\sum_{j=1}^{i}(-1)^{j+1}e_j(y_1,\ldots,y_N)
+             h_{i-j}(y_i,\ldots,y_N).
+$$
+
+This is an invertible triangular change of ideal generators: the coefficient
+of `e_i` is `(-1)^(i+1)`. In ordinary degree reverse lexicographic order with
+`x1 > ... > xN`, the leading monomials of the `g_i` are `x_i^i` in A and
+`x_i^(2*i)` in B/C. They are pairwise coprime, so Buchberger's product criterion
+proves that these polynomials already form a Groebner basis. No general
+Groebner basis calculation is needed in these three types.
+
+Type D uses the invariant generators
+
+$$
+e_1(x^2),\ldots,e_{r-1}(x^2),\qquad x_1\cdots x_r,
+$$
+
+including the Euler product. The backend computes a Groebner basis from these
+generators using Sage. Omitting the Euler product would give the wrong
+coinvariant quotient.
+
+Generator images and intermediate products are reduced and cached. A newly
+requested monomial is obtained from a cached parent by multiplying by one
+reduced generator and reducing again; the algorithm avoids expanding the raw
+high powers in fundamental-weight variables. The quotient's complete ambient
+monomial basis is never enumerated.
 
 ### Why the existing term order is preserved
 
@@ -177,7 +286,7 @@ Let `B` be the reported standard monomials, `G` the reported relations, and
 
 | Condition | Meaning |
 | --- | --- |
-| `relation_images_zero` | Every relation in `G` has zero exact Schubert image |
+| `relation_images_zero` | Every relation in `G` has zero exact image in the selected backend |
 | `basis_images_independent` | The images of `B` are linearly independent in every weighted degree |
 | `standard_monomials_reduced` | No monomial in `B` is divisible by a leading monomial in `G` |
 | `border_closed` | For every `b` in `B` and variable `y_i`, the monomial `b*y_i` lies in `B` or in `L` |
@@ -214,10 +323,12 @@ polynomial with a standard leading monomial would retain that term after
 division and could not have zero remainder. This proof also gives the unique
 normal form returned by `P.reduce(p)`.
 
-The certificate uses the library's exact Borel evaluator. Independent
-coinvariant-ring calculations in the tests check the implementation against a
-different computational method; the certificate itself does not claim to be
-a second implementation of the Borel map.
+The certificate uses the selected exact evaluator and records its backend.
+`P.verify()` defaults to `P.backend`; passing a different backend recomputes
+the image checks in that coordinate system. The test suite also compares
+complete ideals against independent elimination calculations. A single
+certificate is an exact completeness check, rather than a claim that two
+independent evaluators were run.
 
 ## Termination and cost
 
@@ -243,31 +354,55 @@ sufficient.
 
 This is output-sensitive in the number of selected image basis monomials,
 not a promise of fast calculations in every rank or exceptional type.
-Schubert supports, rational coefficients and input polynomials can grow, and
+Coinvariant normal forms or Schubert supports, rational coefficients and input polynomials can grow, and
 the selected image itself can approach the full cohomology ring. In
 particular, supporting type E8 as an input does not make every E8 presentation
 practical. The degreewise API remains useful when only a bounded portion is
 needed.
 
-An exploratory `C9/P8` calculation with the single tail generator `x9**2`
-exceeded a 45-second process limit while other validation was running. No
-completed certificate or timing is claimed for that case. Even a small image
-can have expensive Schubert supports. Computing classical images directly in
-a coinvariant quotient is a possible future optimization.
+In version 0.4.0, an exploratory `C9/P8` calculation with the single tail
+generator `x9**2` exceeded a 45-second process limit while other validation was
+running. That historical observation was a timeout, not a completed timing or
+a controlled speed comparison.
+
+Version 0.5.0 computes this example using coinvariant normal forms. The
+expected complete answer is
+
+$$
+\mathbb Q[e]/(e^9),\qquad \deg(e)=2,\qquad
+\operatorname{Hilb}=1+t^2+\cdots+t^{16},\qquad \dim=9.
+$$
+
+The [benchmark record](benchmarks/coinvariant-results.json) records completed
+calculations and verification timings with their exact outputs and runtime
+context. Timings there distinguish calculation inside an initialized Sage
+process from any process-startup cost. The optimized rank-9 regression test
+also rejects any attempted call to the Schubert expansion evaluator, checking
+that the new backend actually avoids the previous bottleneck.
 
 ## Verification records
 
-The [new independent suite](presentation-verification.json) checks 13 complete
+The version 0.4.0 [independent suite](presentation-verification.json) checked 13 complete
 elimination ideals in types A/C/D/G2, three exceptional ample-divisor kernels,
-65 normal forms and 32 vanishing relations. It also rejects forged degree
+65 normal forms and 32 vanishing relations. It also rejected forged degree
 bounds, incomplete bases and inconsistent Hilbert data. The complete 39-test
-regression suite passed under SageMath 9.5; package and historical-file checks
-are recorded in [presentation-validation.json](presentation-validation.json).
+regression suite passed for that release under SageMath 9.5; its package and
+historical-file checks are recorded in
+[presentation-validation.json](presentation-validation.json). These retained
+records describe the original BGG implementation.
+
+The version 0.5.0 [backend verification record](coinvariant-verification.json)
+adds comparisons between BGG and coinvariant kernels, normalization and
+fallback checks, and the rank-9 test that forbids Schubert expansion calls.
+All 49 regression methods pass; the
+[release validation record](coinvariant-validation.json) also records the
+isolated wheel import and installed-package examples.
 
 The [runnable example](examples/kernel_presentations.py) writes
-[exact sample presentations](presentation-examples.json) for projective space,
+[current sample presentations](coinvariant-examples.json) for projective space,
 Gr(2,4), the two-step C3 image, a D4 Euler example, the full G2 flag ring and an
 F4 divisor image. Run it with `--output PATH` to reproduce the JSON data.
+The [version 0.4.0 samples](presentation-examples.json) remain available.
 
 ## Mathematical context
 

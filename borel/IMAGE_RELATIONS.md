@@ -10,6 +10,12 @@ Version 0.4 also adds [complete kernel presentations](PRESENTATIONS.md):
 an exact Hilbert series, with a certificate of completeness. The bounded
 methods below remain useful when only a few degrees are needed.
 
+In version 0.5, `A.presentation()` automatically uses a direct coinvariant
+quotient for standard-numbered A/B/C/D. Explicit `backend="bgg"` selects the
+original Schubert-coordinate calculation, and `P.verify(backend="bgg")` can
+cross-check a coinvariant presentation on manageable examples. The degreewise
+matrix methods below still return Schubert coordinates.
+
 ## A first example
 
 ```python

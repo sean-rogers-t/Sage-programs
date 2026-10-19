@@ -169,7 +169,7 @@ class GeneratorAlgebra:
         self._image_cache = {}
         self._degree_cache = {}
         self._ambient_degree_cache = {}
-        self._presentation_cache = None
+        self._presentation_cache = {}
         self._generator_power_cache = [
             {0: self.borel_map.ring.one(), 1: polynomial}
             for polynomial in self.generator_polynomials
@@ -325,16 +325,18 @@ class GeneratorAlgebra:
                 return d
         return None
 
-    def presentation(self):
+    def presentation(self, backend="auto"):
         """Return a certified full kernel ideal, image basis and Hilbert series.
 
         This finite staircase construction takes no guessed degree cutoff.
-        It uses exact Schubert images and checks border closure and basis
-        independence. Runtime depends on the selected image's dimension;
-        a full large flag ring can still be expensive. The immutable result
-        is cached until ``clear_cache()``.
+        It checks border closure and exact image independence. ``auto`` uses
+        coinvariant normal forms for standard-numbered types A/B/C/D and BGG
+        Schubert images otherwise. Either backend may be requested explicitly.
+        Results are cached separately by resolved backend until ``clear_cache()``.
+        Large selected image algebras can still be expensive.
         """
-        if self._presentation_cache is None:
-            from .presentation import build_presentation
-            self._presentation_cache = build_presentation(self)
-        return self._presentation_cache
+        from .presentation import build_presentation, resolve_backend
+        resolved = resolve_backend(self, backend)
+        if resolved not in self._presentation_cache:
+            self._presentation_cache[resolved] = build_presentation(self, backend=resolved)
+        return self._presentation_cache[resolved]
