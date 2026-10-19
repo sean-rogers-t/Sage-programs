@@ -16,6 +16,7 @@ the mathematical guide for the Borel/Springer construction.
 | Why do the Borel, BGG, Chevalley and coinvariant methods work? | [Mathematical framework and conventions](MATHEMATICS.md) |
 | How do I multiply Schubert classes or lift them to polynomials? | [Schubert multiplication and inverse Borel calculations](SCHUBERT_CALCULUS.md) |
 | Which integer classes do fixed generators produce? | [Integral images and Smith factors](INTEGRAL_IMAGES.md) |
+| Can I get the B/D Smith factors without a matrix? | [Fast orthogonal formula API](ORTHOGONAL_API.md) |
 | What is already known about integral Springer images? | [Literature and normalization audit](INTEGRAL_LITERATURE.md) |
 | Which claims are published, deductions here, or conjectures? | [Proof and literature status](PROOF_STATUS.md) |
 | What general Smith-factor formulas can be proved in types B and D? | [Orthogonal formulas and proofs](ORTHOGONAL_SMITH.md) |
@@ -101,7 +102,17 @@ Euler extension and precise head-Euler B comparison are checked in the
 138 full components and resolves both old rank-nine timeouts.
 The independent small-block proofs and stronger conditional prefix
 criterion remain separately labeled.
-These research additions do not change the runtime library API.
+Version 0.8 packages the proved B/D formulas as
+`orthogonal_smith(family, n, k, degree)`. It returns compressed exact
+multiplicities, image rank, saturation-index exponents, and the D unit-gluing
+count without constructing a Weyl group or Schubert matrix. Square and Euler
+sectors and the scaled character normalization are explicit options.
+See the [API and mathematics](ORTHOGONAL_API.md) and
+[executable examples](examples/orthogonal_smith.py). The general matrix API
+remains the method for membership, preimages, and arbitrary generators.
+
+The [extension roadmap](EXTENSIONS.md) separates proposed API work from
+further mathematical questions. The full-paper project is on hold.
 
 It computes
 

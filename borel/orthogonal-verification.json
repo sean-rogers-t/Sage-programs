@@ -1,0 +1,23 @@
+{
+  "suite_result": "passed",
+  "test_methods_run": 9,
+  "command": "PYTHONPATH=src sage -python -m unittest tests.test_orthogonal -v",
+  "scope": "finite implementation checks, not an arbitrary-rank proof",
+  "source_sha256": {
+    "src/sage_borel/orthogonal.py": "4583d17ec943c639b021238d1af50769dd7b6502d60cb209e6523a00c3b0efd5",
+    "src/sage_borel/operations.py": "0429729152ddebd67d0034cdb5ef4953ed2091468168bd24f97ced4f2254b857",
+    "tests/test_orthogonal.py": "9b8cadb5c48ae79c83f1181a024f4fde502aeef036e57324acdf2b4ade7643fc",
+    "experiments/orthogonal_smith_search_results.json": "bbb2080a2c668b177008db2085962d76d23456e2ad1b5b4fbac9e136253645f7",
+    "experiments/type_b_multiplicity_search_results.json": "16cc7a959ec59493febe0e4b3c38a311a72e170c767025cf05c3a88a17a07bfb",
+    "experiments/type_d_even_gluing_verification.json": "d9fc1c00284e11e0c86a271c08febace0a0f3104243d0185698243f37c691bc3"
+  },
+  "independent_checks": {
+    "fresh_BGG_integer_image_checks": 16,
+    "fresh_scaled_character_matrix_checks": 3,
+    "independent_partitions": 3418,
+    "partition_degree_profiles": 477,
+    "recorded_B_smith_lists": 174,
+    "recorded_D_sector_or_full_lists": 414
+  },
+  "seconds": 0.958185
+}

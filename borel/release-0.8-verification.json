@@ -1,0 +1,34 @@
+{
+  "library_version": "0.8.0",
+  "generated_utc": "2026-10-19T23:42:41.809365+00:00",
+  "full_regression": {
+    "command": "PYTHONPATH=src sage -python -m unittest discover -s tests -v",
+    "passed": true,
+    "test_methods": 86,
+    "seconds": 58.496,
+    "sage_version": "9.5"
+  },
+  "focused_final_formula_suite": {
+    "passed": true,
+    "test_methods": 9,
+    "report": "orthogonal-verification.json"
+  },
+  "documentation": {
+    "passed": true,
+    "documents": 39,
+    "python_blocks": 22,
+    "links_and_anchors": 492
+  },
+  "wheel": {
+    "filename": "sage_borel-0.8.0-py3-none-any.whl",
+    "bytes": 61095,
+    "sha256": "6f47c68ef3182562ebbf53d999b84dcdeb153b618fbfa705d21e198d451d1bc4",
+    "build_passed": true,
+    "new_module_matches_source": true,
+    "catalogue_included": true,
+    "isolated_sage_installation_check_passed": true,
+    "isolated_formula_examples_passed": true
+  },
+  "historical_programs_preserved": 35,
+  "scope": "Implementation and packaging checks. The formulas rely on the separately audited unpublished B/D proofs; no new generalization is claimed."
+}

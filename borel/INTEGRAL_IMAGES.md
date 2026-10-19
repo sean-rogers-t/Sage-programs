@@ -4,6 +4,11 @@ This guide describes `A.integral_degree(d)` for a `GeneratorAlgebra`. It compute
 
 ## Fix the integral form first
 
+For the specific orthogonal tail sources, the
+[closed-form API](ORTHOGONAL_API.md) computes Smith multiplicities and index
+exponents without constructing this guide's coefficient matrices. Use this
+general matrix API for membership, preimages, or different input generators.
+
 Let `f_j` be the chosen homogeneous Levi-invariant Cartan polynomials, and let `a_j=beta(f_j)`. When every `a_j` has integral Schubert coefficients, the chosen map restricts to
 
 $$

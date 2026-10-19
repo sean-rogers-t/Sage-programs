@@ -22,6 +22,9 @@ an integral gluing rule. The [general type B proof](borel/TYPE_B_GENERAL_SMITH.m
 and [general type D proof](borel/TYPE_D_EVEN_GLUING_THEOREM.md) now give complete
 normalized Smith multiplicity formulas in every rank. In D, all saturated
 square/Euler gluing comes from the explicitly counted unit overlap.
+The [fast formula API](borel/ORTHOGONAL_API.md) now exposes these B/D
+multiplicities without Schubert matrices, including explicit sector and
+normalization choices.
 The [integrated D audit](borel/TYPE_D_EVEN_GLUING_AUDIT.md) records the proof
 dependencies and independent finite checks. These are unpublished repository
 deductions, without a novelty claim or external certification. The unit

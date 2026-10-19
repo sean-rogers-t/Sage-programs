@@ -1,0 +1,233 @@
+{
+  "generated_utc": "2026-10-19T23:40:45.005519+00:00",
+  "sage_version": "9.5",
+  "library_version": "0.8.0",
+  "scope": "formula evaluation only; Sage import time excluded; no claim of a universal time bound",
+  "source_sha256": {
+    "src/sage_borel/orthogonal.py": "4583d17ec943c639b021238d1af50769dd7b6502d60cb209e6523a00c3b0efd5",
+    "src/sage_borel/operations.py": "0429729152ddebd67d0034cdb5ef4953ed2091468168bd24f97ced4f2254b857",
+    "benchmarks/orthogonal.py": "af5fb5de1a6d2235ecbefc40b6b11a0213bad7dfff91bc9754a99dcbf8cb7808"
+  },
+  "cases": [
+    {
+      "family": "D",
+      "n": 9,
+      "k": 4,
+      "degree": 14,
+      "cohomological_degree": 28,
+      "sector": "full",
+      "normalization": "normalized",
+      "rank": 14,
+      "exponent_multiplicities": [
+        {
+          "exponent": 0,
+          "multiplicity": 7
+        },
+        {
+          "exponent": 1,
+          "multiplicity": 7
+        }
+      ],
+      "saturation_exponent": 7,
+      "is_saturated": false,
+      "normalized_unit_gluing_dimension": 1,
+      "scope": "image in its rational saturation; no ambient basis computed",
+      "method": "closed orthogonal Smith formulas",
+      "seconds": 8.4938e-05
+    },
+    {
+      "family": "D",
+      "n": 9,
+      "k": 4,
+      "degree": 16,
+      "cohomological_degree": 32,
+      "sector": "full",
+      "normalization": "normalized",
+      "rank": 18,
+      "exponent_multiplicities": [
+        {
+          "exponent": 0,
+          "multiplicity": 5
+        },
+        {
+          "exponent": 1,
+          "multiplicity": 13
+        }
+      ],
+      "saturation_exponent": 13,
+      "is_saturated": false,
+      "normalized_unit_gluing_dimension": 2,
+      "scope": "image in its rational saturation; no ambient basis computed",
+      "method": "closed orthogonal Smith formulas",
+      "seconds": 5.931e-05
+    },
+    {
+      "family": "B",
+      "n": 40,
+      "k": 15,
+      "degree": 200,
+      "cohomological_degree": 400,
+      "sector": "full",
+      "normalization": "normalized",
+      "rank": 22305501,
+      "exponent_multiplicities": [
+        {
+          "exponent": 0,
+          "multiplicity": 2998118
+        },
+        {
+          "exponent": 1,
+          "multiplicity": 11006553
+        },
+        {
+          "exponent": 2,
+          "multiplicity": 7346581
+        },
+        {
+          "exponent": 3,
+          "multiplicity": 940320
+        },
+        {
+          "exponent": 4,
+          "multiplicity": 13928
+        },
+        {
+          "exponent": 5,
+          "multiplicity": 1
+        }
+      ],
+      "saturation_exponent": 28576392,
+      "is_saturated": false,
+      "normalized_unit_gluing_dimension": 0,
+      "scope": "image in its rational saturation; no ambient basis computed",
+      "method": "closed orthogonal Smith formulas",
+      "seconds": 0.00310104
+    },
+    {
+      "family": "D",
+      "n": 40,
+      "k": 16,
+      "degree": 200,
+      "cohomological_degree": 400,
+      "sector": "full",
+      "normalization": "normalized",
+      "rank": 39873843,
+      "exponent_multiplicities": [
+        {
+          "exponent": 0,
+          "multiplicity": 6852776
+        },
+        {
+          "exponent": 1,
+          "multiplicity": 20503697
+        },
+        {
+          "exponent": 2,
+          "multiplicity": 11299955
+        },
+        {
+          "exponent": 3,
+          "multiplicity": 1202400
+        },
+        {
+          "exponent": 4,
+          "multiplicity": 15014
+        },
+        {
+          "exponent": 5,
+          "multiplicity": 1
+        }
+      ],
+      "saturation_exponent": 46770868,
+      "is_saturated": false,
+      "normalized_unit_gluing_dimension": 0,
+      "scope": "image in its rational saturation; no ambient basis computed",
+      "method": "closed orthogonal Smith formulas",
+      "seconds": 0.00556903
+    },
+    {
+      "family": "B",
+      "n": 200,
+      "k": 80,
+      "degree": 1000,
+      "cohomological_degree": 2000,
+      "sector": "full",
+      "normalization": "normalized",
+      "rank": 1927109842384277768817,
+      "exponent_multiplicities": [
+        {
+          "exponent": 0,
+          "multiplicity": 1826134151996424344212
+        },
+        {
+          "exponent": 1,
+          "multiplicity": 100037541177348590268
+        },
+        {
+          "exponent": 2,
+          "multiplicity": 936985418472944305
+        },
+        {
+          "exponent": 3,
+          "multiplicity": 1163739462192194
+        },
+        {
+          "exponent": 4,
+          "multiplicity": 52569697837
+        },
+        {
+          "exponent": 5,
+          "multiplicity": 1
+        }
+      ],
+      "saturation_exponent": 101915003442959846813,
+      "is_saturated": false,
+      "normalized_unit_gluing_dimension": 0,
+      "scope": "image in its rational saturation; no ambient basis computed",
+      "method": "closed orthogonal Smith formulas",
+      "seconds": 0.154859597
+    },
+    {
+      "family": "D",
+      "n": 200,
+      "k": 80,
+      "degree": 1000,
+      "cohomological_degree": 2000,
+      "sector": "full",
+      "normalization": "normalized",
+      "rank": 2136912948778621169354,
+      "exponent_multiplicities": [
+        {
+          "exponent": 0,
+          "multiplicity": 2028044283450123603388
+        },
+        {
+          "exponent": 1,
+          "multiplicity": 107885953931120929825
+        },
+        {
+          "exponent": 2,
+          "multiplicity": 981524293807089481
+        },
+        {
+          "exponent": 3,
+          "multiplicity": 1187050885679565
+        },
+        {
+          "exponent": 4,
+          "multiplicity": 52683867094
+        },
+        {
+          "exponent": 5,
+          "multiplicity": 1
+        }
+      ],
+      "saturation_exponent": 109852563882127615863,
+      "is_saturated": false,
+      "normalized_unit_gluing_dimension": 0,
+      "scope": "image in its rational saturation; no ambient basis computed",
+      "method": "closed orthogonal Smith formulas",
+      "seconds": 0.268538061
+    }
+  ]
+}

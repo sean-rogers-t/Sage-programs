@@ -7,6 +7,8 @@ coinvariant and completeness proofs. The executable companion is
 [examples/mathematical_methods.py](examples/mathematical_methods.py).
 For arbitrary products, intersection numbers and polynomial lifts, see
 [SCHUBERT_CALCULUS.md](SCHUBERT_CALCULUS.md).
+For the closed type B/D Smith formulas without Schubert matrices, see
+[ORTHOGONAL_API.md](ORTHOGONAL_API.md).
 
 ## The map being studied
 
