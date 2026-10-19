@@ -1,0 +1,4 @@
+output/pdf/*.log
+output/pdf/*.aux
+output/pdf/*.out
+output/pdf/main.pdf
