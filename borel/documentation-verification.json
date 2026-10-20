@@ -100,6 +100,14 @@
       "python_blocks_executed": 1
     },
     {
+      "file": "TRACE_SOURCE_THEOREM.md",
+      "python_blocks_executed": 1
+    },
+    {
+      "file": "TRACE_SOURCE_AUDIT.md",
+      "python_blocks_executed": 0
+    },
+    {
       "file": "INTEGRAL_COMPARISONS.md",
       "python_blocks_executed": 2
     },
@@ -248,7 +256,7 @@
       "python_blocks_executed": 0
     }
   ],
-  "local_links_and_anchors_checked": 716,
-  "python_blocks_executed": 34,
+  "local_links_and_anchors_checked": 735,
+  "python_blocks_executed": 35,
   "scope": "Python fences executed in reading order in a fresh namespace per document; local links and anchors checked. Shell snippets and external URLs were not automatically executed or crawled."
 }

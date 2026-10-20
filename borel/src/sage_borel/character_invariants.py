@@ -64,7 +64,8 @@ class CharacterInvariantDegree:
 class IntegralCharacterSource:
     """Intersect a rational polynomial invariant algebra with integral characters.
 
-    A successful all-primes torus certificate is required. The supplied
+    The trace-source theorem certifies the torus source by default. An explicit
+    basis_change requests the older leading-term certificate. The supplied
     GeneratorAlgebra must have algebraically independent Cartan polynomials.
     This computes the intersection in THAT rational algebra; fullness of the
     Levi invariant algebra is not inferred for arbitrary user inputs.
@@ -77,7 +78,8 @@ class IntegralCharacterSource:
             raise TypeError("rational_algebra must be a GeneratorAlgebra")
         if springer_map.cartan_type != rational_algebra.borel_map.cartan_type:
             raise ValueError("Springer map and invariant algebra must have the same type")
-        certificate = springer_map.certify_polynomial_source(basis_change)
+        certificate = (springer_map.certify_trace_source() if basis_change is None
+                       else springer_map.certify_polynomial_source(basis_change))
         if not certificate.certified:
             raise ValueError("an all-primes polynomial-source certificate is required")
         fs = rational_algebra.generator_polynomials

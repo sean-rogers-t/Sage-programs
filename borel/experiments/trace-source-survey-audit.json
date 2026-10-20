@@ -1,0 +1,18 @@
+{
+  "result": "passed",
+  "engine": "Python standard library only",
+  "independently_reconstructed_representations": 59,
+  "prime_adapted_checks": 354,
+  "bounded_searches": 18,
+  "total_dimensions": 24881,
+  "nonzero_weight_rows": 11759,
+  "controls": "Non-trace primitive Laurent counterexample and inseparable independent polynomials.",
+  "scope": "Independent weight strings/Freudenthal, Weyl dimensions, trace and linear lattices, small-minor saturation, two orders of leading bases, bounded expansions. No Borel-image computations are asserted.",
+  "seconds": 5.669,
+  "source_hash_semantics": "SHA256 with CRLF normalized to LF.",
+  "source_sha256": {
+    "experiments/trace-source-survey-results.json": "c0e032ec136a1b2b7cbbf15a6ca5f2b4c9c988126d281a6793fba464b752ef7a",
+    "experiments/audit_trace_source_survey.py": "55c6645aaafdab2a9129c7e5ccef054796993a90ffc25523afe68236beb1a8d0",
+    "TRACE_SOURCE_THEOREM.md": "abe121a04aa7449ba8b2b34b2f04d7d56bc0907d1f3a5899cdfbdd924fe1abc0"
+  }
+}

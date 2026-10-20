@@ -506,3 +506,20 @@ certified separately. The image sum/intersection formulas follow from
 the coprimality of the scalar 3 and the order 2 of P/Q. These deductions
 are not attributed to Kostant--Michor or Kumar--Xie, and no literature
 priority claim is made.
+
+The subsequent [trace-source theorem](TRACE_SOURCE_THEOREM.md) proves
+degree-one generation for every supported normalized representation map.
+The proof uses the published trace formula, saturated linear coefficients,
+prime-adapted row reduction and independent integer leading exponents.
+It is a deduction recorded with its full argument here. Related complex
+logarithmic-gradient geometry appears in
+[Fassarella, Logarithmic Hesse's Problem](https://arxiv.org/pdf/1102.1659),
+but that work is not cited as the all-primes integral theorem. Focused
+searches have not established priority for the displayed formulation;
+no claim of originality or of an open question in those papers is made.
+The [2026-10-20 detailed audit](TRACE_SOURCE_AUDIT.md) records the
+source-by-source comparison and search scope. The published
+weight-moment formula in Rogers' preprint is explicitly credited, as
+are the standard lattice and denominator arguments. The proof passed
+the audit; the exact integral statement was not located, and literature
+priority remains unresolved.

@@ -6,10 +6,13 @@ Levi-invariant polynomials. This guide concerns the integral source of the
 first step. The [G2 application](G2_CHARACTER_FORM.md) identifies that source
 and its entire Borel image for both maximal parabolics.
 
-The general criterion below is an elementary saturation argument, recorded
-with proof. It is not presented as a new theorem in the literature. Its
-applications to representations require their own certificates. The API
-does not assert that every representation satisfies the criterion.
+Version 0.15 proves the [general trace-source theorem](TRACE_SOURCE_THEOREM.md):
+every normalized trace Springer map supported here has
+C_rho=Sym_Z(Lambda_rho), including higher representations and direct sums.
+The trace-specific certificate verifies the hypotheses without an ad hoc
+leading basis. The generic Laurent criterion below remains useful and
+does not apply automatically to arbitrary Laurent inputs. These are
+deductions with displayed proofs, without a literature-priority claim.
 
 ## Definition and hypotheses
 
@@ -111,7 +114,9 @@ The modular relation may be inhomogeneous. This is why testing only
 homogeneous coefficient blocks would not prove the general criterion.
 An obstruction at the torus level need not be invariant under a given Levi.
 
-Once the criterion holds, the source is graded. For any standard Levi L,
+The trace-source theorem proves the criterion automatically for the
+representation maps above. Once the criterion holds, the source is graded.
+For any standard Levi L,
 equivariance gives the all-degree identification
 
 \[
@@ -261,7 +266,10 @@ images on E6/P1.
 The [E7 adjoint comparison](E7_REPRESENTATION_COMPARISON.md) certifies
 Sym_Z(36P) against the minimal Sym_Z(12Q), packages both representations,
 and proves all-Levi sums and intersections by a coprime-index argument.
-A classification of representations
-satisfying the criterion remains open work in this repository. No claim
-that those questions are open in the literature, or explicitly posed by
-Kostant--Michor, is made.
+The [general theorem](TRACE_SOURCE_THEOREM.md) now resolves degree-one
+generation for every normalized trace representation map under the stated
+hypotheses. `source.certify_trace_source()` checks saturated coefficients
+and their trace/exponent factorization. Further work concerns the actual
+linear lattices, integral Levi invariants and Borel images, including
+representation comparisons where coprimality fails. Literature priority
+is not established, and this question is not attributed to Kostant--Michor.

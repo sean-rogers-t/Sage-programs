@@ -29,6 +29,24 @@ separate work.
 
 ## Exceptional integral images: first complete finite tables
 
+The [general trace-source theorem](TRACE_SOURCE_THEOREM.md) now proves
+C_rho=Sym_Z(Lambda_rho) for every supported normalized representation map,
+including direct sums with faithful differential. Saturation gives full
+coefficient rank modulo every prime; the trace-moment factorization makes
+the adapted pivot exponents independent over Q. Leading terms and the
+least-denominator argument then prove the full, inhomogeneous intersection.
+This resolves the previous representation-by-representation degree-one
+generation question under these hypotheses. It does not assert that
+Levi-invariant rings are generated in degree one. The saved survey and
+Python-only weight/trace/minor audit check 59 representation cases,
+354 prime-adapted leading bases and 18 bounded searches. The proof is
+all-degree and all-prime; the numerical checks are finite. No originality
+claim is made. The [2026-10-20 detailed proof/source audit](TRACE_SOURCE_AUDIT.md)
+found no gap under the stated hypotheses and distinguishes coefficient
+minors modulo p from exponent independence over Q. It did not locate the
+exact integral equality in the reviewed literature; priority remains
+unresolved.
+
 The [E7 adjoint proof](E7_REPRESENTATION_COMPARISON.md) identifies
 Sym_Z(36P) by a unit coefficient minor and a determinant-one row change
 whose seven leading coefficients are all one and whose exponent

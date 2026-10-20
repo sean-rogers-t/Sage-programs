@@ -113,9 +113,14 @@ class CharacterInvariantTests(unittest.TestCase):
             IntegralCharacterSource(s, GeneratorAlgebra(b, {"x": x, "xx": x*x}))
         with self.assertRaises(ValueError):
             IntegralCharacterSource(s, GeneratorAlgebra(BorelMap("A1"), {"x": BorelMap("A1").weights[0]}))
+        general = IntegralCharacterSource(springer_character_map("F4", (0, 0, 0, 1)),
+                                          f4_character_source(1).rational_algebra)
+        self.assertTrue(general.torus_certificate.trace_factorization)
+        # Explicitly requesting an inconclusive leading basis still fails.
         with self.assertRaises(ValueError):
             IntegralCharacterSource(springer_character_map("F4", (0, 0, 0, 1)),
-                                    f4_character_source(1).rational_algebra)
+                                    f4_character_source(1).rational_algebra,
+                                    matrix.identity(QQ, 4))
         for options in ({"max_monomials": 1}, {"max_matrix_entries": 1}):
             with self.assertRaises(ValueError):
                 f4_character_source(2).degree(2, **options)
