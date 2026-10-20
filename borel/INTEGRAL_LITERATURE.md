@@ -447,3 +447,13 @@ The stronger unweighted prefix strictness criterion remains conditional.
 Another question is to identify and compare natural integral
 forms of the exceptional polynomial representation subalgebras. Any claim
 about representation rings must specify that form explicitly.
+
+The subsequent [E6/P1 character-form note](E6_CHARACTER_FORM.md) now
+identifies the literal intersection for the normalized 27-dimensional
+Springer map on simply connected E6. It is Sym_Z(6Q)^(W_L), with Q the E6
+root lattice, and its full P1 cohomology image is computed. The proof uses
+the trace Gram matrix 6C and an all-primes leading-monomial independence
+certificate; it is distinguished from the published definition and
+rational invariant generators. No specialist novelty search for this exact
+integral identification has been completed. Other representations, central
+quotients and the E7 character form are not covered by that conclusion.

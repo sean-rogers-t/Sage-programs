@@ -53,6 +53,11 @@ These are two explicitly chosen source Z-forms. Neither is asserted to be
 the intersection of the Springer polynomial subring with an integral
 representation ring. A different source lattice can give different indices.
 
+The subsequent [E6/P1 character-form proof](E6_CHARACTER_FORM.md) identifies
+the literal Levi-character source as Sym_Z(6Q)^(W_L) and compares its entire
+cohomology image with both forms used here. Those character indices differ
+already in degree 1. E7 character-form identification remains separate work.
+
 For each d, the columns are the Schubert expansions of all weighted-degree-d
 monomials in the seven inputs. Smith factors a_1 | ... | a_r describe
 H^(2d)(G/P_i,Z)/J_d as the direct sum of Z/a_j. Every recorded image has

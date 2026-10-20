@@ -66,7 +66,9 @@ The [E6/P1 and E7/P7 extension](EXCEPTIONAL_MINUSCULE.md) now covers every
 degree too, checked by fixed-point interpolation and published integral
 presentations with ordinary Chevalley multiplication. Integer generator
 changes identify their primitive-image algebras as Z[h,16s] and
-Z[h,81s,19683t]. Next: identify intrinsic representation-side integral forms,
+Z[h,81s,19683t]. The [E6/P1 literal character form](E6_CHARACTER_FORM.md)
+is now identified as Sym_Z(6Q)^(W_L), and its entire image is compared with
+the two selected forms. Next: examine the E7/P7 character form,
 or extend the efficient fixed-point backend to further exceptional
 parabolics with an independent ordinary-ring check.
 
@@ -117,8 +119,8 @@ Springer map or prove corresponding integral image results.
 
 ## Suggested order
 
-1. Build on the completed G2/F4 and E6/P1, E7/P7 tables: compare intrinsic
-   integral sources or extend verified coverage to further exceptional parabolics.
+1. Build on the completed E6/P1 character identification: examine E7/P7's
+   intrinsic integral source and compare it with its two recorded image forms.
 2. Investigate representation-side integral forms and dependence on the
    chosen representation, with source lattices specified explicitly.
 3. Equivariant computations after choosing the coefficient-ring API.

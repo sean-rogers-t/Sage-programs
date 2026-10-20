@@ -123,7 +123,10 @@ quadratic, for example, maps to `-3/4*sigma_(2,1)`. Such a form is rejected by
 valid. Rescaling defines a different chosen Z-form. See the
 [integral guide](INTEGRAL_IMAGES.md) and
 [literature audit](INTEGRAL_LITERATURE.md); no automatic identification of
-exceptional integral polynomial-character intersections is implemented.
+exceptional integral polynomial-character intersections is implemented in
+the public API. The subsequent [E6/P1 character-form calculation](E6_CHARACTER_FORM.md)
+now proves that particular intersection is Sym_Z(6Q)^(W_L), for the E6 root
+lattice Q, and computes its full cohomology image in a separate experiment.
 
 The polynomial inputs come from the previously audited journal and dissertation
 data. Source identifiers, source hashes, normalization choices and corrections

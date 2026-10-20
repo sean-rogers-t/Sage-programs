@@ -59,6 +59,25 @@ images are Z[h,16s] and Z[h,81s,19683t]. These are deductions for the specified
 forms inside published cohomology rings, not a general exceptional theorem
 or a claim of novelty. Their quotients can involve only 2 and 3 respectively.
 
+The subsequent [E6 character-form proof](E6_CHARACTER_FORM.md) identifies
+the literal intersection with integral Levi characters, for simply
+connected E6 and the normalized omega1 Springer map, as Sym_Z(6Q)^(W_L).
+Here Q is the E6 root lattice. A unimodular change of trace-moment
+coordinates has independent leading Laurent exponents over every prime
+field, with characteristic 3 checked separately. Denominator reduction
+then proves the full torus intersection, and equivariance gives the Levi
+form. This establishes its grading in all degrees, not just a bounded
+test. The argument is a repository deduction without a novelty claim.
+
+For P1, all 17 cohomology degrees are computed using complete invariant
+source lattices, with independent gcd-one minor certificates for their
+completeness. Fixed-point and published-ring calculations agree. A separate
+standard-library Python audit verifies the trace/leading-term argument,
+ten low-degree Laurent intersections, all 51 comparison lattices and all
+34 containments. The literal character image is contained in both earlier
+chosen images; it already differs in degree 1. This resolves the E6/P1
+source-form question, while the E7 character intersection remains open here.
+
 ## General type-C joint images
 
 The [joint-image proof](TYPE_C_JOINT_PRIMITIVITY.md) proves, for every
