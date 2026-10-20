@@ -24,6 +24,7 @@ the mathematical guide for the Borel/Springer construction.
 | Why is the returned kernel complete? How do backends and normal forms work? | [Complete presentations and proofs](PRESENTATIONS.md) |
 | What do a degree matrix, rank and homogeneous relation mean? | [Degreewise images and relations](IMAGE_RELATIONS.md) |
 | Which exceptional inputs and normalizations are available? | [Exceptional catalogue](EXCEPTIONAL.md) |
+| What integral images do the exceptional generators produce? | [Complete G2/F4 tables and normalization comparisons](EXCEPTIONAL_INTEGRAL.md) |
 | How do the historical functions map to the new API? | [Migration guide](MIGRATION.md) |
 
 [examples/mathematical_methods.py](examples/mathematical_methods.py) is an

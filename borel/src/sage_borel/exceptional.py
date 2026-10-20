@@ -7,6 +7,7 @@ the normalized Springer convention ``Theta_i -> omega_i``.
 """
 
 from collections import OrderedDict
+from collections.abc import Mapping
 from dataclasses import dataclass
 from functools import lru_cache
 from importlib.resources import files
@@ -268,6 +269,41 @@ class ExceptionalBorel(BorelMap):
         """Compute a named generator's Schubert expansion using the core."""
         return self.expand(self.generator_polynomial(name))
 
+    def generator_algebra(self, *, scales=None):
+        """Return the catalogue's chosen polynomial algebra, with explicit scales.
+
+        ``scales`` maps canonical generator names to positive exact rational
+        multipliers; omitted names have multiplier one. No denominators are
+        cleared automatically. ``integral_degree`` rejects fractional images.
+        Scaling changes the selected Z-form, not the rational image algebra.
+        This does not identify an integral representation-ring intersection.
+        """
+        from .algebra import GeneratorAlgebra
+        if scales is None:
+            scales = {}
+        if not isinstance(scales, Mapping):
+            raise TypeError("scales must map canonical generator names to positive rationals")
+        names = {info.name for info in self.generators()}
+        unknown = set(scales) - names
+        if unknown:
+            raise ValueError("unknown canonical generator names: {}".format(
+                ", ".join(sorted(map(str, unknown)))))
+        multipliers = {}
+        for name, value in scales.items():
+            if (isinstance(value, (bool, float)) or
+                    (hasattr(value, "parent") and not value.parent().is_exact())):
+                raise ValueError("scales must be positive exact rational numbers")
+            try:
+                multiplier = QQ(value)
+            except (TypeError, ValueError, ZeroDivisionError) as error:
+                raise ValueError("scales must be positive exact rational numbers") from error
+            if multiplier <= 0:
+                raise ValueError("scales must be positive exact rational numbers")
+            multipliers[name] = multiplier
+        return GeneratorAlgebra(self, {
+            info.name: multipliers.get(info.name, QQ.one()) * self.generator_polynomial(info.name)
+            for info in self.generators()})
+
     def clear_cache(self):
         """Clear operation/frontier caches and expanded generator inputs."""
         super().clear_cache()
@@ -282,6 +318,16 @@ def exceptional_borel(cartan_type, parabolic):
 def exceptional_generators(cartan_type, parabolic):
     """Discover the named generators without constructing a Weyl group."""
     return _entries(cartan_type, parabolic)[3]
+
+
+def exceptional_algebra(cartan_type, parabolic, *, scales=None):
+    """Build an exceptional catalogue algebra with explicit rational rescaling.
+
+    For example, ``exceptional_algebra('G2', 1, scales={'quadratic': 4})``
+    clears that generator's image denominator. The default retains the exact
+    catalogue inputs. See ``ExceptionalBorel.generator_algebra``.
+    """
+    return exceptional_borel(cartan_type, parabolic).generator_algebra(scales=scales)
 
 
 @lru_cache(maxsize=16)

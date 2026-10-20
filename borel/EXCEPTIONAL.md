@@ -106,6 +106,12 @@ These remain proposed local corrections, rather than a published erratum.
 
 ## Sources and verification
 
+The [exceptional integral-image guide](EXCEPTIONAL_INTEGRAL.md) adds
+`exceptional_algebra(kind, parabolic, scales=...)` and complete G2/F4
+degree tables. Explicit positive rational scales select a different source
+Z-form; the default keeps the catalogue unchanged. Both denominator-cleared
+and individually primitive-image forms are recorded and compared.
+
 For integral questions, keep each catalogue normalization explicit. Some
 complex-algebra generators have fractional Schubert images: the G2/P1
 quadratic, for example, maps to `-3/4*sigma_(2,1)`. Such a form is rejected by

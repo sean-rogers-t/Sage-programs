@@ -59,6 +59,13 @@ Springer-image sublattices.
 
 ## Exceptional integral images
 
+**Current focus.** The [first complete G2/F4 tables](EXCEPTIONAL_INTEGRAL.md)
+now cover every maximal parabolic and every degree for two explicit source
+forms, with the `exceptional_algebra` helper and independent matrix checks.
+Next: explain these indices in known integral ring presentations, then extend
+to E6/P1 and E7/P7. Identifying intrinsic representation-side integral forms
+remains a distinct research question.
+
 The exceptional catalogue and generic integral matrix method are already
 available. Extend their coverage with explicit integral input forms and
 independent small-degree tables, starting with G2 and F4 before larger E
@@ -106,12 +113,12 @@ Springer map or prove corresponding integral image results.
 
 ## Suggested order
 
-1. Package the proved B/C/D joint rank and primitive quotient formulas;
-   then investigate closed ambient B/D joint Smith multiplicities.
-2. Add reusable classical multi-block input helpers.
-3. Exceptional integral tables with explicit normalizations.
-4. Equivariant computations after choosing the coefficient-ring API.
+1. Exceptional integral images: explain the complete G2/F4 tables and extend
+   the explicit normalization comparisons to selected E6/E7 parabolics.
+2. Investigate representation-side integral forms and dependence on the
+   chosen representation, with source lattices specified explicitly.
+3. Equivariant computations after choosing the coefficient-ring API.
 
-The first two steps most directly build on the existing code and the
-single-factor B/D deductions. Equivariant and quantum work should be
-separate projects with their own mathematical specifications and checks.
+Further classical multi-block work, packaging the proved joint formulas and
+closed ambient B/D joint multiplicities are deferred. Equivariant and quantum
+work require separate mathematical specifications and checks.

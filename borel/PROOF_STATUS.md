@@ -3,6 +3,7 @@
 Audit date: 2026-10-19. Scope: the type B/D Smith notes, the subsequent
 type C joint-image argument, and their
 normalization, lattice, geometric, and symmetric-function dependencies.
+The exceptional section records the subsequent G2/F4 calculations and duality deduction.
 This is a repository proof/source audit, not external peer review or a
 formal proof certificate. It does not certify originality. It does not
 re-audit every article or the earlier dissertation proof in this repository.
@@ -24,6 +25,25 @@ agreement of computations or multiple assistant reviews is not a proof.
 The conclusions below are based on the displayed arguments and checked
 source statements. External expert review and any claim of priority remain
 separate work.
+
+## Exceptional integral images: first complete finite tables
+
+The [G2/F4 note](EXCEPTIONAL_INTEGRAL.md) studies all maximal parabolics and
+all degrees for two explicitly selected generator forms: least integer
+image-denominator clearing, and individual primitive-image rescaling.
+The complex generators are published Part III inputs. The G2 image
+presentations follow by the displayed Chevalley calculation. F4 Smith lists
+are exact finite computations, independently reconstructed by root/coroot
+Chevalley multiplication; no general exceptional classification is claimed.
+An additional F4 root-duality argument identifies the original selected image
+algebras in the pairs P1/P4 and P2/P3, and identifies their odd-primary ambient
+quotients degreewise. It depends on the displayed, independently checked
+generator identities; it does not identify the ambient integral lattices or
+their 2-primary quotients. The primitive-image forms have the same odd-primary
+quotients as the original forms because their rescaling uses powers of 2.
+Neither chosen form is identified with a representation-ring intersection,
+and novelty has not been established. In particular, primitive individual
+generator images do not guarantee saturation of the generated algebra.
 
 ## General type-C joint images
 

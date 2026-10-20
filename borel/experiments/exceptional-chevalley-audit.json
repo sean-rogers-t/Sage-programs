@@ -1,0 +1,16 @@
+{
+  "result": "passed",
+  "sage_version": "9.5",
+  "degree_matrices": 172,
+  "independent_columns": 1650,
+  "seconds": 37.786,
+  "scope": "Every stored source column independently reconstructed by positive-root Chevalley multiplication, including top degree.",
+  "source_hash_semantics": "SHA256 of UTF-8 file bytes with CRLF normalized to LF, matching Git text blobs.",
+  "source_sha256": {
+    "experiments/exceptional-integral-results.json": "a0a8c282a26a9da03a46c9bfb755194fc2fbf71de90b700eec194b1e81e36c7f",
+    "experiments/exceptional_chevalley_audit.py": "85b0a47111f0d75182bb27e2a273a8fb8d698eadddd52a29a8a1caebc89a899d",
+    "tests/test_exceptional.py": "9f38f556e486149e303b84eaedb49a9de427602cd9ce3e86cb17ab62a1fc1e22",
+    "src/sage_borel/exceptional.py": "64ea1e3aeed113e517232cdaff6a09cc01a2c9b6a19fadd673e2630b5c01d1ec",
+    "src/sage_borel/data/exceptional_generators.json": "702bff624a8700d39567204c09f5365308e3f5b71817b476d0e8da38062b0a51"
+  }
+}
