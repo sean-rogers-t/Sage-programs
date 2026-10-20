@@ -25,6 +25,7 @@ the mathematical guide for the Borel/Springer construction.
 | What do a degree matrix, rank and homogeneous relation mean? | [Degreewise images and relations](IMAGE_RELATIONS.md) |
 | Which exceptional inputs and normalizations are available? | [Exceptional catalogue](EXCEPTIONAL.md) |
 | What integral images do the exceptional generators produce? | [Complete G2/F4 tables and normalization comparisons](EXCEPTIONAL_INTEGRAL.md) |
+| What happens for the minuscule E6/P1 and E7/P7 spaces? | [Complete tables, independent checks and image subalgebras](EXCEPTIONAL_MINUSCULE.md) |
 | How do the historical functions map to the new API? | [Migration guide](MIGRATION.md) |
 
 [examples/mathematical_methods.py](examples/mathematical_methods.py) is an

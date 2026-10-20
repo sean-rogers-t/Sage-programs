@@ -1,0 +1,56 @@
+{
+  "result": "passed",
+  "integer_generator_identities": 19,
+  "cases": [
+    {
+      "kind": "E6",
+      "scaled_schubert_generators": [
+        "h",
+        "16*s"
+      ],
+      "primitive_catalogue_in_scaled_generators": {
+        "y1": "H",
+        "e1": "-H^2",
+        "e2": "7*H^4 - S",
+        "e3": "47*H^6 - 7*H^2*S",
+        "e4": "-457*H^8 + 74*H^4*S - S^2",
+        "e5": "49*H^10 - 14*H^6*S + H^2*S^2",
+        "euler": "-7*H^5 + H*S"
+      },
+      "scaled_generators_in_primitive_catalogue": {
+        "H": "y1",
+        "S": "7*y1^4-e2"
+      },
+      "only_possible_quotient_prime": 2
+    },
+    {
+      "kind": "E7",
+      "scaled_schubert_generators": [
+        "h",
+        "81*s",
+        "19683*t"
+      ],
+      "primitive_catalogue_in_scaled_generators": {
+        "omega7": "H",
+        "psi2": "-H^2",
+        "psi5": "35*H^5 - S",
+        "psi6": "683*H^6 - 20*H*S",
+        "psi8": "-67537*H^8 + 1960*H^3*S",
+        "psi9": "-1666*H^9 - 3*H^4*S + T",
+        "psi12": "2311007*H^12 - 222640*H^7*S - 9020*H^2*S^2 + 9020*H^3*T"
+      },
+      "scaled_generators_in_primitive_catalogue": {
+        "H": "omega7",
+        "S": "35*omega7^5-psi5",
+        "T": "psi9+1666*omega7^9+3*omega7^4*(35*omega7^5-psi5)"
+      },
+      "only_possible_quotient_prime": 3
+    }
+  ],
+  "scope": "Exact polynomial identities modulo the published integral presentations. Both directions use integer expressions; equality over QQ implies equality in torsion-free integral cohomology.",
+  "source_hash_semantics": "SHA256 with CRLF normalized to LF.",
+  "source_sha256": {
+    "experiments/exceptional-minuscule-results.json": "de3365d495630187405965aced0731e97b3846a3e8000f0b125f42bb38bd9f1c",
+    "experiments/exceptional_minuscule_structure.py": "875e07873cbb754d0f17de5434711d66c971d96ef6a7a2a27cec5c426e65a82e"
+  }
+}

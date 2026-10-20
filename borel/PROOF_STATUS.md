@@ -3,7 +3,8 @@
 Audit date: 2026-10-19. Scope: the type B/D Smith notes, the subsequent
 type C joint-image argument, and their
 normalization, lattice, geometric, and symmetric-function dependencies.
-The exceptional section records the subsequent G2/F4 calculations and duality deduction.
+The exceptional section records the subsequent G2/F4 and E6/E7 calculations,
+duality deduction and explicit primitive-image subalgebras.
 This is a repository proof/source audit, not external peer review or a
 formal proof certificate. It does not certify originality. It does not
 re-audit every article or the earlier dissertation proof in this repository.
@@ -44,6 +45,19 @@ quotients as the original forms because their rescaling uses powers of 2.
 Neither chosen form is identified with a representation-ring intersection,
 and novelty has not been established. In particular, primitive individual
 generator images do not guarantee saturation of the generated algebra.
+
+The [E6/P1 and E7/P7 note](EXCEPTIONAL_MINUSCULE.md) adds complete tables
+for both forms in all degrees. The known integral presentations are
+Duan--Zhao Theorems 4 and 5 (with the E6 diagram involution). Fixed-point
+interpolation checks every monomial against an ordinary-ring engine using
+those presentations and Chevalley multiplication. Its starting generator
+images and one E6 square anchor use the original BGG implementation; these
+dependencies are explicit. The 90 degree/form rows contain 4744 columns
+obtained from 2372 independently compared unscaled monomials and exact
+rescaling. Integer identities in both directions prove that the primitive
+images are Z[h,16s] and Z[h,81s,19683t]. These are deductions for the specified
+forms inside published cohomology rings, not a general exceptional theorem
+or a claim of novelty. Their quotients can involve only 2 and 3 respectively.
 
 ## General type-C joint images
 

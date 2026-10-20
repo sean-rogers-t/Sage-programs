@@ -62,15 +62,19 @@ Springer-image sublattices.
 **Current focus.** The [first complete G2/F4 tables](EXCEPTIONAL_INTEGRAL.md)
 now cover every maximal parabolic and every degree for two explicit source
 forms, with the `exceptional_algebra` helper and independent matrix checks.
-Next: explain these indices in known integral ring presentations, then extend
-to E6/P1 and E7/P7. Identifying intrinsic representation-side integral forms
-remains a distinct research question.
+The [E6/P1 and E7/P7 extension](EXCEPTIONAL_MINUSCULE.md) now covers every
+degree too, checked by fixed-point interpolation and published integral
+presentations with ordinary Chevalley multiplication. Integer generator
+changes identify their primitive-image algebras as Z[h,16s] and
+Z[h,81s,19683t]. Next: identify intrinsic representation-side integral forms,
+or extend the efficient fixed-point backend to further exceptional
+parabolics with an independent ordinary-ring check.
 
 The exceptional catalogue and generic integral matrix method are already
-available. Extend their coverage with explicit integral input forms and
-independent small-degree tables, starting with G2 and F4 before larger E
-cases. Record which generators are integral, which denominators remain,
-and which primes occur in the resulting saturation quotient.
+available. The completed tables retain explicit integral input forms,
+generator contents, every source-monomial matrix and the primes in the
+saturation quotient. Further E cases need equally explicit normalization
+and independent verification.
 
 A rational Cartan polynomial can have integral Schubert coefficients, while
 another can fail integrality. Scaling to an integer image changes the input
@@ -113,8 +117,8 @@ Springer map or prove corresponding integral image results.
 
 ## Suggested order
 
-1. Exceptional integral images: explain the complete G2/F4 tables and extend
-   the explicit normalization comparisons to selected E6/E7 parabolics.
+1. Build on the completed G2/F4 and E6/P1, E7/P7 tables: compare intrinsic
+   integral sources or extend verified coverage to further exceptional parabolics.
 2. Investigate representation-side integral forms and dependence on the
    chosen representation, with source lattices specified explicitly.
 3. Equivariant computations after choosing the coefficient-ring API.

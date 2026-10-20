@@ -5,6 +5,10 @@ F4, E6, E7 and the displayed E8 dissertation cases. Inputs are polynomials in
 fundamental weights. Their images are computed by the library, rather than read
 from a stored answer table.
 
+The [complete E6/P1 and E7/P7 calculation](EXCEPTIONAL_MINUSCULE.md)
+checks all products through top degree independently and identifies the
+individually primitive-image algebras in published Schubert generators.
+
 ## Three-parameter calculation
 
 ```python
