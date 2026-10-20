@@ -14,6 +14,13 @@ leading basis. The generic Laurent criterion below remains useful and
 does not apply automatically to arbitrary Laurent inputs. These are
 deductions with displayed proofs, without a literature-priority claim.
 
+Version 0.16 additionally [classifies the linear lattice for every
+nontrivial irreducible](IRREDUCIBLE_CHARACTER_LATTICES.md):
+Lambda_lambda=I_lambda*(Q+Z*lambda)^*. The fast
+`irreducible_character_lattice` constructor uses highest-weight/root data
+without enumerating representation weights. Direct sums retain the exact
+coefficient method; index and central character alone do not classify them.
+
 ## Definition and hypotheses
 
 Let G be simply connected, semisimple and of finite irreducible type,

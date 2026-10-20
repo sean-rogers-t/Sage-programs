@@ -1,0 +1,28 @@
+{
+  "result": "passed",
+  "engine": "Python standard library only",
+  "cases": {
+    "G2": 28,
+    "F4": 70,
+    "E6": 84,
+    "E7": 120,
+    "E8": 165,
+    "A1": 8,
+    "A2": 5,
+    "A3": 5,
+    "B2": 5
+  },
+  "total_cases": 490,
+  "full_weight_reconstructions": 90,
+  "kostant_path_prefix_checks": 6711,
+  "reducible_same_index_control": "passed",
+  "seconds": 25.629,
+  "scope": "All recorded root/index/central-class and lattice data; Kostant path coefficients for every case; separate root-string/Freudenthal reconstruction for the dimension-bounded cases. Large cases do not enumerate full weights. No Borel-image calculations.",
+  "source_hash_semantics": "SHA256 with CRLF normalized to LF.",
+  "source_sha256": {
+    "experiments/irreducible-lattice-survey.json": "8e896c7b2529e72d59197eaf26d13e4d6747177ee129b7f4f34344c403b2e0b4",
+    "experiments/audit_irreducible_lattices.py": "b1fed2ca7b1b12cdda9545bddd4adad8becc572cabe84cbf752f958b27a7fbb3",
+    "experiments/audit_trace_source_survey.py": "55c6645aaafdab2a9129c7e5ccef054796993a90ffc25523afe68236beb1a8d0",
+    "IRREDUCIBLE_CHARACTER_LATTICES.md": "748b733a2650b4bcb63bdd97008660d68bea843f8ddc3e2a60b74c631e33f78d"
+  }
+}

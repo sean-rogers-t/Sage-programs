@@ -184,6 +184,12 @@ The finite formula for that lattice remains
 \qquad D_\rho=\sum_\mu\mathbb Z(m_\mu\mu).
 \]
 
+For one nontrivial irreducible representation the subsequent
+[closed lattice classification](IRREDUCIBLE_CHARACTER_LATTICES.md) proves
+D_lambda=Q+Z*lambda and computes Lambda_lambda from its highest weight
+and Dynkin index. The weighted formula above remains necessary for
+arbitrary direct sums; the irreducible shortcut cannot be used there.
+
 ## API and independent checks
 
 Version 0.15 adds the trace-specific certificate:

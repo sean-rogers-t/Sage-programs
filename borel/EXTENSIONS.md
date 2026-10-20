@@ -106,8 +106,13 @@ sources, or sources arising from other representations. For the currently
 specified SO form, uniform degree scaling is proved and implemented.
 The [trace-source theorem](TRACE_SOURCE_THEOREM.md) now proves degree-one
 generation for every supported normalized trace representation map.
-Additional representations still require their actual linear lattice,
-integral Levi invariants and cohomology image to be calculated. A change
+The [irreducible classification](IRREDUCIBLE_CHARACTER_LATTICES.md) now
+determines the full linear lattice for every nontrivial irreducible:
+Lambda_lambda=I_lambda*(Q+Z*lambda)^*. The fast API computes it without
+representation weights. Integral Levi invariants and cohomology images
+still need calculation. Direct sums require their combined weighted
+coefficient lattice, with a same-index F4 counterexample to the
+irreducible shortcut recorded in the proof. A change
 of root/weight coordinates alone does not identify another representation's
 character lattice.
 

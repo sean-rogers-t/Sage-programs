@@ -30,6 +30,7 @@ the mathematical guide for the Borel/Springer construction.
 | What is the E7/P7 character form, and does it contain the catalogue image? | [E7 character form, sums and intersections](E7_CHARACTER_FORM.md) |
 | How does the representation determine the integral polynomial-character source? | [General criterion and character API](CHARACTER_SOURCES.md), with [complete G2 sources and image rings](G2_CHARACTER_FORM.md) |
 | Is the full torus character source always generated in degree one? | [Trace-source theorem, proof, further representations and independent audit](TRACE_SOURCE_THEOREM.md) |
+| Can I classify exceptional irreducible sources without listing all weights? | [Closed lattice formula, proof and fast API](IRREDUCIBLE_CHARACTER_LATTICES.md) |
 | What is the literal F4 character form and its complete image? | [Proof, API and independent checks](F4_CHARACTER_FORM.md), [all four parabolic tables](F4_CHARACTER_TABLES.md) |
 | How does the F4 adjoint representation change the integral image? | [All-degree scaling theorem and comparison API](F4_REPRESENTATION_COMPARISON.md) |
 | How do I compute the certified E6/P1 and E7/P7 character images? | [Public character API](MINUSCULE_CHARACTER_API.md) and [E6 minimal/adjoint comparison](E6_REPRESENTATION_COMPARISON.md) |
@@ -177,6 +178,15 @@ columns and their exact relation to weight exponents. The general
 `IntegralCharacterSource` now uses this theorem by default; explicit
 leading-basis requests retain their earlier behavior. The Levi-invariant
 ring and its cohomology image still require their own calculations.
+
+Version 0.16 adds `irreducible_character_lattice(type, highest_weight)`.
+The [classification proof](IRREDUCIBLE_CHARACTER_LATTICES.md) gives
+Lambda_lambda=I_lambda*(Q+Z*lambda)^*, using long roots of squared length
+two. It computes the dimension, index, central-character order and full
+linear lattice from root data alone. All exceptional irreducibles have
+the listed one or two lattice shapes; a direct-sum counterexample explains
+why the irreducible hypothesis is necessary. Full Laurent formulas remain
+available through `springer_character_map`.
 
 The subsequent [type C joint-image proof](TYPE_C_JOINT_PRIMITIVITY.md)
 proves saturation of the normalized joint image for all positive block
