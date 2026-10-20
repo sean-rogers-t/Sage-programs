@@ -463,3 +463,15 @@ its own trace matrix, all-primes leading-monomial certificate and integral
 A5 permutation coordinates. The displayed degree-five witness shows its
 image is incomparable with the original catalogue image. No literature
 priority claim is made for this integral identification either.
+
+The subsequent [general criterion](CHARACTER_SOURCES.md) isolates an
+elementary equivalence between saturation of the polynomial pullback
+subring and algebraic independence modulo every prime. Its formulation
+is not claimed as new. [Kostant--Michor, Theorem 2.8](https://arxiv.org/pdf/math/0109066)
+supplies the representation-change identities used as checks; the paper
+is not asserted to pose our integral-source classification question.
+The [G2 calculation](G2_CHARACTER_FORM.md) derives full literal-character
+sources and integral image presentations from that criterion and the
+published G2 Springer/Borel data in Part III, Section 5. Focused searches
+and those source readings do not establish that the exact integral
+statements are absent from the literature. No originality claim is made.

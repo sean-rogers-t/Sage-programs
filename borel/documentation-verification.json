@@ -64,6 +64,14 @@
       "python_blocks_executed": 0
     },
     {
+      "file": "CHARACTER_SOURCES.md",
+      "python_blocks_executed": 3
+    },
+    {
+      "file": "G2_CHARACTER_FORM.md",
+      "python_blocks_executed": 0
+    },
+    {
       "file": "INTEGRAL_COMPARISONS.md",
       "python_blocks_executed": 2
     },
@@ -212,7 +220,7 @@
       "python_blocks_executed": 0
     }
   ],
-  "local_links_and_anchors_checked": 591,
-  "python_blocks_executed": 26,
+  "local_links_and_anchors_checked": 614,
+  "python_blocks_executed": 29,
   "scope": "Python fences executed in reading order in a fresh namespace per document; local links and anchors checked. Shell snippets and external URLs were not automatically executed or crawled."
 }

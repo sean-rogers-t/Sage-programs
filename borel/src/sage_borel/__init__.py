@@ -14,11 +14,14 @@ from .lattices import (IntegralImageLattice, IntegralImageComparison,
 from .orthogonal import OrthogonalSmithSummary, orthogonal_smith
 from .presentation import KernelCertificate, KernelPresentation
 from .families import TwoStepSymplectic, two_step_symplectic
+from .characters import (SpringerCharacterMap, LeadingTermCertificate, CharacterObstruction,
+                         springer_character_map, polynomial_source_certificate,
+                         modular_character_relation, g2_character_algebra)
 from .exceptional import (ExceptionalBorel, GeneratorInfo, exceptional_borel, exceptional_algebra,
                           exceptional_generators, exceptional_image,
                           exceptional_polynomial)
 
-__version__ = "0.9.0"
+__version__ = "0.10.0"
 __all__ = ["BorelMap", "Expansion", "classical_borel", "to_type_a",
            "ExceptionalBorel", "GeneratorInfo", "exceptional_borel",
            "exceptional_generators", "exceptional_polynomial", "exceptional_image",
@@ -27,4 +30,7 @@ __all__ = ["BorelMap", "Expansion", "classical_borel", "to_type_a",
            "IntegralImageLattice", "IntegralImageComparison", "IntegralLatticeQuotient",
            "compare_integral_images",
            "GeneratorAlgebra", "KernelCertificate", "KernelPresentation",
-           "TwoStepSymplectic", "two_step_symplectic"]
+           "TwoStepSymplectic", "two_step_symplectic",
+           "SpringerCharacterMap", "LeadingTermCertificate", "CharacterObstruction",
+           "springer_character_map", "polynomial_source_certificate",
+           "modular_character_relation", "g2_character_algebra"]

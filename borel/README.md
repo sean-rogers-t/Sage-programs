@@ -28,6 +28,7 @@ the mathematical guide for the Borel/Springer construction.
 | What happens for the minuscule E6/P1 and E7/P7 spaces? | [Complete tables, independent checks and image subalgebras](EXCEPTIONAL_MINUSCULE.md) |
 | Which E6/P1 polynomials actually pull back to integral Levi characters? | [Character integral form and complete image comparisons](E6_CHARACTER_FORM.md) |
 | What is the E7/P7 character form, and does it contain the catalogue image? | [E7 character form, sums and intersections](E7_CHARACTER_FORM.md) |
+| How does the representation determine the integral polynomial-character source? | [General criterion and character API](CHARACTER_SOURCES.md), with [complete G2 sources and image rings](G2_CHARACTER_FORM.md) |
 | How do the historical functions map to the new API? | [Migration guide](MIGRATION.md) |
 
 [examples/mathematical_methods.py](examples/mathematical_methods.py) is an
@@ -123,6 +124,15 @@ linear algebra. The [two-step experiment](TWO_STEP_INTEGRAL.md) records
 96 degree calculations in types C, B and D, including mixed-product
 contributions and independent Cartesian checks. These bounded tables
 are separate from the general single-tail B/D theorems.
+
+Version 0.10 adds `springer_character_map` for a specified highest-weight
+representation: normalized torus formulas, the exact integral linear
+lattice, an all-primes leading-term certificate, and bounded searches for
+modular obstructions. Certificates distinguish a proof from an inconclusive
+test. `g2_character_algebra(1)` and `(2)` expose the proved full character
+sources and work with the existing Borel, image and lattice APIs.
+See the [mathematics and API](CHARACTER_SOURCES.md) and the
+[full regression record](character-verification.json).
 
 The subsequent [type C joint-image proof](TYPE_C_JOINT_PRIMITIVITY.md)
 proves saturation of the normalized joint image for all positive block

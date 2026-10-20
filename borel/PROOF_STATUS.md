@@ -29,6 +29,25 @@ separate work.
 
 ## Exceptional integral images: first complete finite tables
 
+The [general character-source criterion](CHARACTER_SOURCES.md) proves that
+the entire integral torus source equals Sym_Z(Lambda_rho) exactly when
+the pullbacks of a basis of its integral linear lattice are algebraically
+independent modulo every prime. This is an elementary saturation argument,
+not a claimed new theorem. The finite leading-term certificate is sufficient;
+an inconclusive certificate or an unsuccessful bounded relation search is
+not a contrary all-degree result.
+
+The [G2 application](G2_CHARACTER_FORM.md) proves C7=Z[6omega1,2omega2]
+and the two maximal-Levi invariant presentations over Z. It gives the
+complete integral image presentations Z[X,Q]/(X^2-3Q,Q^3) and Z[Y]/(Y^6).
+The source proof is all-degree; the image kernels follow from free quotient
+bases with nonzero images in different degrees. The adjoint source is
+Z[24omega1,8omega2], with a separate characteristic-three certificate.
+A Python audit independent of Sage and the runtime library checks the
+torus certificates, Laurent intersections and every image comparison.
+These are checked deductions, with no claim of originality. The abstract
+modular-obstruction example is not asserted to come from a representation.
+
 The [G2/F4 note](EXCEPTIONAL_INTEGRAL.md) studies all maximal parabolics and
 all degrees for two explicitly selected generator forms: least integer
 image-denominator clearing, and individual primitive-image rescaling.

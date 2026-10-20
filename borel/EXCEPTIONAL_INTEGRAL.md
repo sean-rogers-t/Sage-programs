@@ -6,6 +6,12 @@ The objects are explicitly chosen generator Z-algebras. They are not asserted
 to be the intersection of the polynomial representation algebra with an
 integral representation ring. Numbering is Sage/Bourbaki throughout.
 
+The subsequent [G2 character-form proof](G2_CHARACTER_FORM.md) now identifies
+the literal seven-dimensional character source and both complete image
+rings. Those images are properly contained in both forms studied here in
+every positive nonzero degree. F4 character-form identification remains
+separate work.
+
 ## Relation to the Springer papers
 
 [Kumar--Xie, Part III](https://kumar.math.unc.edu/papers/kumar86.pdf),
