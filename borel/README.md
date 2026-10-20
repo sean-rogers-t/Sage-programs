@@ -20,6 +20,8 @@ the mathematical guide for the Borel/Springer construction.
 | How do two integral images compare, and what do mixed products add? | [Lattice comparisons](INTEGRAL_COMPARISONS.md) and [two-step joint-image tables](TWO_STEP_INTEGRAL.md) |
 | Can I get the B/D Smith factors without a matrix? | [Fast orthogonal formula API](ORTHOGONAL_API.md) |
 | What is already known about integral Springer images? | [Literature and normalization audit](INTEGRAL_LITERATURE.md) |
+| Which primes can obstruct a full literal Springer–Borel image? | [Local bound, all-Levi proof and defining SL_n projective factors](LOCAL_IMAGE_BOUND.md) |
+| Does an equivariant image always specialize faithfully? | [SL4/P1 counterexample and independent integer-lattice checks](EQUIVARIANT_IMAGE_PILOT.md) |
 | Which claims are published, deductions here, or conjectures? | [Proof and literature status](PROOF_STATUS.md) |
 | What general Smith-factor formulas can be proved in types B and D? | [Orthogonal formulas and proofs](ORTHOGONAL_SMITH.md) |
 | Why is the returned kernel complete? How do backends and normal forms work? | [Complete presentations and proofs](PRESENTATIONS.md) |

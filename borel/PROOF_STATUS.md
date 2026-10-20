@@ -31,6 +31,37 @@ The conclusions below are based on the displayed arguments and checked
 source statements. External expert review and any claim of priority remain
 separate work.
 
+## First local-image benchmark and equivariant pilot
+
+Update, 20 October 2026. The [new proof/source audit](LOCAL_IMAGE_AUDIT.md)
+checks the [local image bound and projective family](LOCAL_IMAGE_BOUND.md)
+and [equivariant specialization counterexample](EQUIVARIANT_IMAGE_PILOT.md).
+The normalized source lattice lies in X(T), by differentiating its integral
+Laurent pullbacks at 1. Primitive Schubert pullback then proves integrality
+of every full literal Levi Borel image in the source theorem's scope.
+
+Classical torsion-index divided differences supply integral Levi-invariant
+lifts of t_G times every parabolic Schubert class. Hence each degree-d
+full-source cokernel is killed by t_G e_rho^d, with
+e_rho=exp(X/Lambda_rho). There is no extra Levi Weyl-order factor.
+This is an explicit application of published characteristic-map machinery,
+not a new general good-prime theorem.
+
+The standard free equivariant Schubert basis and triangular induction
+also recover the whole equivariant image at these good primes. Each
+fixed-degree specialization kernel is finite with primes dividing
+t_G e_rho. This does not force faithful specialization at the bad primes.
+
+For defining SL_n on P^(n-1), the literal factors are n/gcd(n,d).
+The proof uses elementary root-difference invariants, binomial generator
+images and a p-adic gcd argument. Its root-characteristic interpretation
+requires further literature comparison; priority is not established.
+The equivariant SL4/P1 image gives a nonzero specialization kernel:
+exactly Z/2 in polynomial degree five, with no defects in smaller degrees.
+The integral proof and independent Sage/SymPy rank-52 lattice calculations
+agree. Higher-degree defects and a general equivariant backend remain open.
+Runtime sources and the 0.20.0 wheel are unchanged.
+
 ## Exceptional integral images: first complete finite tables
 
 The [Springer geometry extension](SPRINGER_GEOMETRY.md) concerns a separate

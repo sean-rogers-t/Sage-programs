@@ -24,6 +24,18 @@
       "python_blocks_executed": 0
     },
     {
+      "file": "LOCAL_IMAGE_BOUND.md",
+      "python_blocks_executed": 1
+    },
+    {
+      "file": "EQUIVARIANT_IMAGE_PILOT.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "LOCAL_IMAGE_AUDIT.md",
+      "python_blocks_executed": 0
+    },
+    {
       "file": "MATHEMATICS.md",
       "python_blocks_executed": 0
     },
@@ -292,7 +304,7 @@
       "python_blocks_executed": 0
     }
   ],
-  "local_links_and_anchors_checked": 923,
-  "python_blocks_executed": 40,
+  "local_links_and_anchors_checked": 965,
+  "python_blocks_executed": 41,
   "scope": "Python fences executed in reading order in a fresh namespace per document; local links and anchors checked. Shell snippets and external URLs were not automatically executed or crawled."
 }

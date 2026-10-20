@@ -1,0 +1,240 @@
+{
+  "result": "passed",
+  "scope": "Finite exact corroboration of the separate proofs; no universal equivariant backend or novelty claim.",
+  "torsion_index_lifts": [
+    {
+      "cartan_type": "A1",
+      "torsion_index": 1,
+      "top_polynomial": "w1",
+      "top_monomials_checked": 1,
+      "parabolic_schubert_lifts": 3
+    },
+    {
+      "cartan_type": "A2",
+      "torsion_index": 1,
+      "top_polynomial": "w1*w2^2",
+      "top_monomials_checked": 2,
+      "parabolic_schubert_lifts": 13
+    },
+    {
+      "cartan_type": "A3",
+      "torsion_index": 1,
+      "top_polynomial": "w1*w2^2*w3^3",
+      "top_monomials_checked": 10,
+      "parabolic_schubert_lifts": 75
+    },
+    {
+      "cartan_type": "B2",
+      "torsion_index": 1,
+      "top_polynomial": "w1*w2^3",
+      "top_monomials_checked": 2,
+      "parabolic_schubert_lifts": 17
+    },
+    {
+      "cartan_type": "B3",
+      "torsion_index": 2,
+      "top_polynomial": "w1^5*w2*w3^3",
+      "top_monomials_checked": 55,
+      "parabolic_schubert_lifts": 147
+    },
+    {
+      "cartan_type": "C3",
+      "torsion_index": 1,
+      "top_polynomial": "w1^3*w2^5*w3 + 4*w1*w2^5*w3^3 - 20*w1*w2^4*w3^4 + 40*w1*w2^2*w3^6",
+      "top_monomials_checked": 33,
+      "parabolic_schubert_lifts": 147
+    },
+    {
+      "cartan_type": "G2",
+      "torsion_index": 2,
+      "top_polynomial": "w1^5*w2",
+      "top_monomials_checked": 7,
+      "parabolic_schubert_lifts": 25
+    }
+  ],
+  "projective_family": {
+    "bgg_cases": [
+      {
+        "n": 2,
+        "generator_coefficients": [
+          2
+        ],
+        "image_factors": [
+          1,
+          2
+        ]
+      },
+      {
+        "n": 3,
+        "generator_coefficients": [
+          3,
+          3
+        ],
+        "image_factors": [
+          1,
+          3,
+          3
+        ]
+      },
+      {
+        "n": 4,
+        "generator_coefficients": [
+          4,
+          6,
+          4
+        ],
+        "image_factors": [
+          1,
+          4,
+          2,
+          4
+        ]
+      },
+      {
+        "n": 5,
+        "generator_coefficients": [
+          5,
+          10,
+          10,
+          5
+        ],
+        "image_factors": [
+          1,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "n": 6,
+        "generator_coefficients": [
+          6,
+          15,
+          20,
+          15,
+          6
+        ],
+        "image_factors": [
+          1,
+          6,
+          3,
+          2,
+          3,
+          6
+        ]
+      },
+      {
+        "n": 7,
+        "generator_coefficients": [
+          7,
+          21,
+          35,
+          35,
+          21,
+          7
+        ],
+        "image_factors": [
+          1,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ]
+      },
+      {
+        "n": 8,
+        "generator_coefficients": [
+          8,
+          28,
+          56,
+          70,
+          56,
+          28,
+          8
+        ],
+        "image_factors": [
+          1,
+          8,
+          4,
+          8,
+          2,
+          8,
+          4,
+          8
+        ]
+      }
+    ],
+    "arithmetic_n_max": 80,
+    "arithmetic_positive_degree_rows": 3160
+  },
+  "equivariant_pilot": {
+    "group": "SL4",
+    "representation": "defining",
+    "space": "P3",
+    "source": "Sym_Z(Q)^(S3)",
+    "torus_parameter_ring": "Z[t1,t2,t3]; t4=-t1-t2-t3",
+    "a": "-t1^2 - t1*t2 - t2^2 - t1*t3 - t2*t3 - t3^2",
+    "b": "-t1^2*t2 - t1*t2^2 - t1^2*t3 - 2*t1*t2*t3 - t2^2*t3 - t1*t3^2 - t2*t3^2",
+    "c": "-t1^2*t2*t3 - t1*t2^2*t3 - t1*t2*t3^2",
+    "quotient_relation": "h^4+a*h^2-b*h+c",
+    "image_generators": [
+      "4*h",
+      "2*h^2",
+      "4*h^3+2*a*h"
+    ],
+    "witness": "nu=2*a^2*h",
+    "witness_degree": 5,
+    "kernel_degree5": "Z/2",
+    "fixed_point_checks": 12,
+    "multiplication_identities": 6,
+    "graded_integer_lattice_checks": [
+      {
+        "polynomial_degree": 0,
+        "ambient_rank": 1,
+        "image_rank": 1,
+        "specialized_image_free_rank": 1,
+        "specialized_image_torsion": []
+      },
+      {
+        "polynomial_degree": 1,
+        "ambient_rank": 4,
+        "image_rank": 4,
+        "specialized_image_free_rank": 1,
+        "specialized_image_torsion": []
+      },
+      {
+        "polynomial_degree": 2,
+        "ambient_rank": 10,
+        "image_rank": 10,
+        "specialized_image_free_rank": 1,
+        "specialized_image_torsion": []
+      },
+      {
+        "polynomial_degree": 3,
+        "ambient_rank": 20,
+        "image_rank": 20,
+        "specialized_image_free_rank": 1,
+        "specialized_image_torsion": []
+      },
+      {
+        "polynomial_degree": 4,
+        "ambient_rank": 34,
+        "image_rank": 34,
+        "specialized_image_free_rank": 0,
+        "specialized_image_torsion": []
+      },
+      {
+        "polynomial_degree": 5,
+        "ambient_rank": 52,
+        "image_rank": 52,
+        "specialized_image_free_rank": 0,
+        "specialized_image_torsion": [
+          2
+        ]
+      }
+    ]
+  }
+}

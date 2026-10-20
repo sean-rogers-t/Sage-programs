@@ -18,6 +18,7 @@ from sage.env import SAGE_VERSION
 ROOT = Path(__file__).resolve().parents[1]
 DOCUMENTS = ("../README.md", "../articles/research-program-proposal/README.md",
              "README.md", "RESEARCH_LEDGER.md", "AGENTS.md",
+             "LOCAL_IMAGE_BOUND.md", "EQUIVARIANT_IMAGE_PILOT.md", "LOCAL_IMAGE_AUDIT.md",
              "MATHEMATICS.md", "METHODS.md", "SCHUBERT_CALCULUS.md", "PRESENTATIONS.md",
              "ORTHOGONAL_API.md", "EXTENSIONS.md", "EXCEPTIONAL_INTEGRAL.md", "EXCEPTIONAL_INTEGRAL_TABLES.md",
              "EXCEPTIONAL_MINUSCULE.md", "EXCEPTIONAL_MINUSCULE_TABLES.md", "E6_CHARACTER_FORM.md", "E6_CHARACTER_TABLES.md",

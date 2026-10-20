@@ -26,7 +26,7 @@ API additions. The extension track was added on 20 October 2026.
 
 | Project | Goal and first deliverable | Dependency and current status |
 | --- | --- | --- |
-| E1: equivariant cohomology | Define an integral image over the torus polynomial coefficient ring; prove a specialization comparison | First extension to activate once Aim A fixes the local source diagram; proposed, not implemented |
+| E1: equivariant cohomology | First literal-source pilot completed: SL4/P1 has a first specialization kernel Z/2 in polynomial degree five | Automatic faithful specialization is false; general kernel criteria and a generic backend remain open |
 | E2: K-theory | Restrict the associated-bundle map to integral Springer polynomial characters and compare filtered images | Source conventions first; associated-graded agreement with ordinary images is a question, not an assumption |
 | E3: oriented theories | Define a formal-group-law-compatible source/image construction, starting with connective K-theory | Use the E2 pilot; additive degree-one generation does not already prove this extension |
 | E4: quantum cohomology | Construct one multiplicative lift recovering our map at q=0, then analyze its kernel and image | Define the source, coefficient ring and generator lifts before claiming a quantum Springer image |
@@ -43,10 +43,25 @@ Activation proceeds E1, then the E2/E3 comparison, then E4 and E5. E6's
 nil-Hecke calculations can be developed independently; they do not establish
 an infinite-dimensional trace Springer morphism.
 
-The first work package is Aim A's local source/image diagram and the exact
-characteristic-map and Levi-descent hypotheses. A standard good-prime
-corollary is to be attributed as such; research should then sharpen the
-excluded primes or explain the remaining prime-power factors.
+## Progress after the proposal baseline
+
+The first Aim A/E1 work package is now recorded in the
+[local image theorem and projective family](../../borel/LOCAL_IMAGE_BOUND.md),
+[equivariant specialization counterexample](../../borel/EQUIVARIANT_IMAGE_PILOT.md)
+and [proof/source audit](../../borel/LOCAL_IMAGE_AUDIT.md).
+The full literal Levi images are integral, and their degree-d cokernels
+are killed by t_G e_rho^d, without a Levi Weyl-order factor. The defining
+SL_n/P1 factors are exactly n/gcd(n,d). The SL4 equivariant image has a
+degree-five specialization kernel Z/2, independently checked with
+integer lattices. Good primes recover the full equivariant image, and
+each graded specialization kernel is finite with primes dividing t_G e_rho.
+The next main task is a sharp bad-prime comparison
+outside this projective family; the exploratory task is a structural
+criterion for the specialization kernel.
+
+These subsequent notes update the live program. The proposal PDF remains
+the source-grounded baseline described below, rather than a claim that its
+initial targets are all still unresolved.
 
 The proposal uses the notation of the Kumar papers for the maps and
 reserves `P` for a parabolic, `X=X(T)` for the character lattice, and

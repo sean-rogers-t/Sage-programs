@@ -17,7 +17,7 @@ directions, not implemented backends or new general theorems.
 
 | Project | First target | Dependency or limitation |
 | --- | --- | --- |
-| E1: equivariant cohomology | Integral module presentation and proved ordinary-specialization comparison | Fix the source and integrality conventions in Aim A first; account for base-change kernels |
+| E1: equivariant cohomology | First literal-source pilot complete: SL4/P1 has a degree-five specialization kernel Z/2 | General criteria for the kernel and a generic backend remain open; automatic faithful specialization is false |
 | E2: K-theory | Restricted associated-bundle image and a filtered comparison with ordinary cohomology | The literal source lies in R(L); Springer polynomial grading need not equal the augmentation/gamma filtration |
 | E3: oriented cohomology | A compatible source and specialization theorem, starting with connective K-theory | Use a formal group algebra and explicit coefficients/completion; additive generation is not a theorem for every formal group law |
 | E4: quantum cohomology | A multiplicative lift with q=0 recovery, then its kernel/image | Define the source and generator lifts; ordinary quotient relations generally deform |
@@ -38,6 +38,15 @@ Activate E1 first, followed by E2/E3 and then E4/E5. E6's characteristic-map
 calculations can proceed independently of its foundational Springer question.
 The ledger preserves OPEN-14/15 and adds OPEN-17 through OPEN-20 for the
 new questions. Other isogeny forms and reductive groups remain OPEN-10.
+
+The first work package is now complete in the
+[local bound/projective-family note](LOCAL_IMAGE_BOUND.md) and the
+[equivariant counterexample](EQUIVARIANT_IMAGE_PILOT.md), with a
+[stepwise audit](LOCAL_IMAGE_AUDIT.md) and independent integer calculations.
+The ordinary bound is a classical torsion-index consequence in the literal
+source setting. Equivariant good-prime recovery follows by triangular
+Schubert induction, and graded specialization kernels have primes dividing
+t_G e_rho. Sharp bad-prime comparisons remain the main next target.
 
 ## Implemented: fast B/D multiplicities
 
@@ -181,6 +190,11 @@ ring becomes a polynomial ring over Z, which is generally not a PID.
 Ordinary Smith normal form therefore does not apply unchanged; Fitting
 ideals, carefully specified specializations, or finite graded Z-lattices
 would be appropriate objects to investigate.
+
+The [SL4/P1 pilot](EQUIVARIANT_IMAGE_PILOT.md) now exhibits the base-change
+issue explicitly for the full literal defining-representation source.
+Its first specialization kernel is Z/2 in polynomial degree five. This is
+an exact counterexample and proof note, not a completed equivariant backend.
 
 ## Quantum products and affine transport
 
