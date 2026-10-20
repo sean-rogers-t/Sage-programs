@@ -58,6 +58,7 @@ def main():
         engine=version+'; exact linear algebra option '+os.environ.get('MSOLVE_LINEAR_ALGEBRA','2'),
         solver_threads=int(os.environ.get('MSOLVE_THREADS','2')),
         solver_max_pairs=int(os.environ.get('MSOLVE_MAX_PAIRS','0')),
+        solver_reduce_basis=bool(int(os.environ.get('MSOLVE_REDUCE_GB','1'))),
         eliminated_coordinate=eliminated,center_chart=chart,square_completion=change,
         monomial_order=str(R.term_order()),leading_exponents=leading,basis_sha256=digest,
         seconds=perf_counter()-start)

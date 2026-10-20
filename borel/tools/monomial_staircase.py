@@ -6,6 +6,7 @@ change only at their exponent levels. Summing these constant slices gives
 the colength, including multiplicities, without a computer algebra system.
 """
 from functools import lru_cache
+from itertools import groupby
 
 
 def staircase_length(generators):
@@ -25,9 +26,13 @@ def staircase_length(generators):
     @lru_cache(None)
     def minimal(gens):
         answer=[]
-        for e in sorted(set(gens),key=lambda e:(sum(e),e)):
-            if not any(all(a<=b for a,b in zip(f,e)) for f in answer):
-                answer.append(e)
+        ordered=sorted(set(gens),key=lambda e:(sum(e),e))
+        for _,group in groupby(ordered,key=sum):
+            # Distinct monomials of equal total degree cannot divide one
+            # another. Compare a whole degree only with lower degrees.
+            survivors=[e for e in group
+                       if not any(all(a<=b for a,b in zip(f,e)) for f in answer)]
+            answer.extend(survivors)
         return tuple(sorted(answer))
 
     @lru_cache(None)

@@ -25,8 +25,10 @@ def msolve_leading(R,equations,prime,binary):
     threads=int(os.environ.get('MSOLVE_THREADS','2'))
     linear=int(os.environ.get('MSOLVE_LINEAR_ALGEBRA','2'))
     pairs=int(os.environ.get('MSOLVE_MAX_PAIRS','0'))
+    reduce_basis=int(os.environ.get('MSOLVE_REDUCE_GB','1'))
     assert threads>0 and linear in (1,2), 'use positive threads and exact linear algebra 1 or 2'
     assert pairs>=0
+    assert reduce_basis in (0,1)
     log_root=os.environ.get('MSOLVE_LOG_DIR')
     if log_root:
         Path(log_root).mkdir(parents=True,exist_ok=True)
@@ -39,7 +41,8 @@ def msolve_leading(R,equations,prime,binary):
         log=Path(tmp)/'progress.log'
         source.write_text(','.join(R.variable_names())+'\n'+str(prime)+'\n'+',\n'.join(map(str,equations))+'\n')
         command=[binary,'-f',str(source),'-o',str(output),'-g','1',
-                 '-t',str(threads),'-l',str(linear),'-m',str(pairs),'-v','2']
+                 '-t',str(threads),'-l',str(linear),'-m',str(pairs),
+                 '-r',str(reduce_basis),'-v','2']
         if log_root:
             print('msolve progress:',log,flush=True)
         with log.open('w') as stream:
@@ -67,7 +70,7 @@ def check_unit(R,equations,prime):
     binary=os.environ.get('MSOLVE_BINARY')
     if binary:
         leading,_,_=msolve_leading(R,equations,prime,binary)
-        assert leading==[(0,)*R.ngens()]
+        assert (0,)*R.ngens() in leading
     else:
         assert list(R.ideal(equations).groebner_basis(algorithm='libsingular:slimgb'))==[R.one()]
 
@@ -165,6 +168,11 @@ def main():
                 center_chart=center_chart,chart_fiber_length=chart_length,
                 basis_sha256=basis_hash,leading_exponents=leading,
                 seconds=perf_counter()-start)
+    if engine=='msolve':
+        report['solver_options']=dict(threads=int(os.environ.get('MSOLVE_THREADS','2')),
+            linear_algebra=int(os.environ.get('MSOLVE_LINEAR_ALGEBRA','2')),
+            max_pairs=int(os.environ.get('MSOLVE_MAX_PAIRS','0')),
+            reduce_basis=bool(int(os.environ.get('MSOLVE_REDUCE_GB','1'))))
     suffix='-center' if center_chart else ''
     path=Path(__file__).with_name('%s-%s-fiber-%s-%s-%s%s.json'%(kind.lower(),name,engine,prime,seed,suffix))
     encoded=json.dumps(report,indent=2)

@@ -398,12 +398,20 @@ The completed independent specialized-fiber checks are:
 | E6 minimal | 1080 (Singular) | 1080 (msolve) |
 | E6 adjoint | 2754 (Singular) | 2754 (msolve) |
 | E7 minimal | 7272 (msolve) | 7272 (msolve) |
+| E7 adjoint | [33664 (msolve)](experiments/e7-adjoint-fiber-msolve-32003-20261020-center.json) | not completed |
 
-The E7 adjoint degree has the separate exact geometric audit above;
-no completed full specialized-fiber count is recorded here. Bounded direct
-and central-quotient Groebner runs were inconclusive, and their lack of a
-result is not used as evidence for any numerical degree.
-Their scope is recorded in the [bounded-attempt report](experiments/exceptional-degree-bounded-attempts.json).
+The E7 adjoint full specialized fiber at prime 32003 has length 33664.
+Its checked central-quotient chart has length 16832, and the finite etale
+central cover has degree two. The independent integer staircase count
+agrees with Singular's monomial-ideal colength. The characteristic-zero
+proof remains the separate exact geometric audit above.
+Earlier bounded runs were inconclusive; their historical scope is retained
+in the [bounded-attempt report](experiments/exceptional-degree-bounded-attempts.json).
+The completed follow-up run imposed no running-time cutoff.
+Supplementary square-completion, module and second-prime runs did not
+produce completed counts before this verification was finalized. Their
+inputs and progress logs were retained locally; no numerical conclusion
+uses an unfinished run.
 For a faster optional E7 adjoint experiment, `eliminate-center` uses the
 chart chi_7 != 0 and coordinates chi_2/chi_7, chi_5/chi_7, chi_7^2, alongside
 the even characters. Exact unit-ideal checks exclude the omitted divisors
@@ -490,3 +498,8 @@ The direct msolve runner accepts MSOLVE_THREADS, MSOLVE_LINEAR_ALGEBRA
 pair limit), and MSOLVE_LOG_DIR. A supplied log
 directory preserves the inputs, progress, output and exit status for each
 run. These controls impose no running-time cutoff.
+MSOLVE_REDUCE_GB=0 optionally omits final basis interreduction; its default
+is 1. Any completed Groebner basis generates the same leading ideal, so
+the monomial colength does not require interreduction. The unit-ideal
+chart tests accept a constant leading monomial even when redundant basis
+elements remain.
