@@ -1,5 +1,9 @@
 # Proof and literature status of the integral image notes
 
+The [research ledger](RESEARCH_LEDGER.md) indexes the program's uniform
+results, finite cases, conditional routes, counterexamples and open questions.
+The detailed statements and source audits below retain their original scope.
+
 Audit date: 2026-10-19. Scope: the type B/D Smith notes, the subsequent
 type C joint-image argument, and their
 normalization, lattice, geometric, and symmetric-function dependencies.

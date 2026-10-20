@@ -1,6 +1,10 @@
 # Sage-programs
 This is a repository of functions I used to explicitly compute the Borel Morphism.
 
+The [research ledger](borel/RESEARCH_LEDGER.md) tracks uniform results, exact
+cases, partial arguments, counterexamples and open questions. The priority
+is generalizable mathematics, with case calculations supporting that goal.
+
 The new [sage-borel library](borel/README.md) packages the corrected calculations,
 supports arbitrary parabolics and finite Lie types, and avoids full Weyl-group
 enumeration. It includes independent tests and benchmarks through rank 20.

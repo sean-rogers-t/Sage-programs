@@ -4,6 +4,11 @@ The full-paper project is on hold. The priorities below concern useful library
 features and mathematical experiments. Proposed extensions are not claims of
 new theorems or novelty; each needs its own proof and literature check.
 
+The [research ledger](RESEARCH_LEDGER.md) is the maintained index of results,
+partial results, counterexamples and open questions. The user's priority is
+generalizable statements. New exceptional cases should test a stated general
+question rather than become the default endpoint of the project.
+
 ## Implemented: fast B/D multiplicities
 
 [orthogonal_smith](ORTHOGONAL_API.md) exposes the proved closed formulas,
@@ -73,7 +78,7 @@ gives E6 degrees 1080/2754 and E7 degrees 7272/33664 for minimal/adjoint maps
 on simply connected groups, using the full toric boundary correction.
 Target branch loci and minimum Cayley degrees remain further work.
 
-**Current focus.** The [first complete G2/F4 tables](EXCEPTIONAL_INTEGRAL.md)
+**Completed case studies.** The [first complete G2/F4 tables](EXCEPTIONAL_INTEGRAL.md)
 now cover every maximal parabolic and every degree for two explicit source
 forms, with the `exceptional_algebra` helper and independent matrix checks.
 The [E6/P1 and E7/P7 extension](EXCEPTIONAL_MINUSCULE.md) now covers every
@@ -154,27 +159,23 @@ start with a Grassmannian family and published
 The ordinary Springer-image formulas do not automatically define a quantum
 Springer map or prove corresponding integral image results.
 
-## Suggested order
+## Generalization priorities
 
-1. Completed: F4's 26-dimensional character source, independent lattice audit,
-   and complete comparisons with the existing images. See
-   [the F4 proof and API](F4_CHARACTER_FORM.md).
-2. Completed: the [F4 minimal/adjoint comparison](F4_REPRESENTATION_COMPARISON.md),
-   including all-degree 3^d scaling and the representation selector.
-   Also completed: E6/P1 and E7/P7 public character helpers, and the
-   [E6 minimal/adjoint comparison](E6_REPRESENTATION_COMPARISON.md).
-   Also completed: the [E7 minimal/adjoint comparison](E7_REPRESENTATION_COMPARISON.md),
-   with its own all-primes certificate, integral weight coordinates and
-   complete P7 image audit. The E6/E7 comparisons illustrate a general
-   coprime-index lemma for certified sources.
-   Also completed: the [general trace-source theorem](TRACE_SOURCE_THEOREM.md)
-   proves degree-one generation for every supported representation, and a
-   separate Python audit reconstructs all 59 surveyed representation cases.
-   Next: calculate new linear lattices and their integral Levi/Borel images,
-   particularly representation comparisons where scalar and lattice-index
-   coprimality fails, and extend coverage to further exceptional parabolics.
-3. Equivariant computations after choosing the coefficient-ring API.
+1. A uniform generic-degree method that accounts for representation lattices,
+   degenerate faces and boundary multiplicities; use additional exceptional
+   cases to test its hypotheses.
+2. Structural criteria for integral Borel-image saturation, prime support and
+   exponents, starting from the general source-lattice theorem.
+3. A precise integral bridge from Hiller-type chains to the Smith filtration,
+   extending the existing incidence and primitive-prefix mechanisms if possible.
+4. Representation comparisons beyond the coprime-index lemma, including direct
+   sums and overlapping weight spaces.
+5. Uniform critical-divisor and harmonic-localization statements, followed by
+   target branch/nonproperness calculations where the source data suffice.
 
-Further classical multi-block work, packaging the proved joint formulas and
-closed ambient B/D joint multiplicities are deferred. Equivariant and quantum
-work require separate mathematical specifications and checks.
+The ledger also retains the many-block joint-image questions, closed ambient
+B/D joint multiplicities, further exceptional parabolics, equivariant image
+invariants and possible quantum extensions. These remain separate questions
+with explicit missing steps. The existing degree-one source and irreducible
+lattice classifications are completed general results, not questions to
+reopen by merely surveying more representations.

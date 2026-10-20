@@ -96,6 +96,7 @@ def main():
         'experiments/e7_adjoint_tower_fiber.py',
         'experiments/e6_matrix_oracle.py','experiments/e7_matrix_oracle.py',
         'README.md','../README.md','E6_GEOMETRY.md','E7_GEOMETRY.md',
+        'RESEARCH_LEDGER.md','AGENTS.md',
         'PROOF_STATUS.md','EXTENSIONS.md','SPRINGER_GEOMETRY.md',
         'tools/verify_documentation.py','tools/verify_geometry_wheel.py',
         'tools/monomial_staircase.py',
