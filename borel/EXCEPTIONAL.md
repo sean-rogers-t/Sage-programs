@@ -127,6 +127,10 @@ exceptional integral polynomial-character intersections is implemented in
 the public API. The subsequent [E6/P1 character-form calculation](E6_CHARACTER_FORM.md)
 now proves that particular intersection is Sym_Z(6Q)^(W_L), for the E6 root
 lattice Q, and computes its full cohomology image in a separate experiment.
+The [E7/P7 character-form calculation](E7_CHARACTER_FORM.md) similarly
+identifies Sym_Z(12Q)^(W_L), now with the E7 root lattice. Its character and
+original catalogue images are incomparable, already in degree 5; it
+therefore records actual sums and intersections as well as Smith lists.
 
 The polynomial inputs come from the previously audited journal and dissertation
 data. Source identifiers, source hashes, normalization choices and corrections

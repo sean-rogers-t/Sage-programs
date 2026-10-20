@@ -68,8 +68,10 @@ presentations with ordinary Chevalley multiplication. Integer generator
 changes identify their primitive-image algebras as Z[h,16s] and
 Z[h,81s,19683t]. The [E6/P1 literal character form](E6_CHARACTER_FORM.md)
 is now identified as Sym_Z(6Q)^(W_L), and its entire image is compared with
-the two selected forms. Next: examine the E7/P7 character form,
-or extend the efficient fixed-point backend to further exceptional
+the two selected forms. The [E7/P7 character form](E7_CHARACTER_FORM.md)
+is also identified, as Sym_Z(12Q)^(W_L) for the E7 root lattice, with exact
+comparisons including incomparable images. Next: package these certified
+character-form calculations in the API, or extend coverage to further exceptional
 parabolics with an independent ordinary-ring check.
 
 The exceptional catalogue and generic integral matrix method are already
@@ -119,8 +121,8 @@ Springer map or prove corresponding integral image results.
 
 ## Suggested order
 
-1. Build on the completed E6/P1 character identification: examine E7/P7's
-   intrinsic integral source and compare it with its two recorded image forms.
+1. Package the completed E6/P1 and E7/P7 character-form calculations and
+   embedded comparisons in a public API, retaining their precise hypotheses.
 2. Investigate representation-side integral forms and dependence on the
    chosen representation, with source lattices specified explicitly.
 3. Equivariant computations after choosing the coefficient-ring API.

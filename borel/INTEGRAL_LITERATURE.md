@@ -456,4 +456,10 @@ the trace Gram matrix 6C and an all-primes leading-monomial independence
 certificate; it is distinguished from the published definition and
 rational invariant generators. No specialist novelty search for this exact
 integral identification has been completed. Other representations, central
-quotients and the E7 character form are not covered by that conclusion.
+quotients are not covered by that conclusion. The separate
+[E7/P7 proof](E7_CHARACTER_FORM.md) now gives Sym_Z(12Q)^(W_L) for the
+normalized 56-dimensional representation of simply connected E7. It uses
+its own trace matrix, all-primes leading-monomial certificate and integral
+A5 permutation coordinates. The displayed degree-five witness shows its
+image is incomparable with the original catalogue image. No literature
+priority claim is made for this integral identification either.

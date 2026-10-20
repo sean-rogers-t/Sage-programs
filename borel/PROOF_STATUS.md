@@ -76,7 +76,22 @@ standard-library Python audit verifies the trace/leading-term argument,
 ten low-degree Laurent intersections, all 51 comparison lattices and all
 34 containments. The literal character image is contained in both earlier
 chosen images; it already differs in degree 1. This resolves the E6/P1
-source-form question, while the E7 character intersection remains open here.
+source-form question.
+
+The [E7/P7 character-form proof](E7_CHARACTER_FORM.md) subsequently proves
+the analogous identification Sym_Z(12Q)^(W_L), with Q now the E7 root
+lattice and the normalized 56-dimensional representation. Its all-primes
+leading-term argument treats characteristic 2 separately. An integral
+permutation basis for an A5 subgroup compresses coefficient tests without
+changing the lattice. Complete invariant source lattices are certified by
+gcd-one maximal minors, and Borel products are compared by the two earlier
+independent methods. A standard-library audit separately checks the torus
+certificate, permutation coordinates, low-degree Laurent intersections
+and every embedded image comparison. The character and catalogue images
+are incomparable: (216/5)psi5 is a character-form element with Borel image
+outside the catalogue, while h is absent from the character image. This
+is a deduction with explicit certificates, not a claim of novelty or of
+a minimal polynomial presentation of the integral invariant ring.
 
 ## General type-C joint images
 
