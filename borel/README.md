@@ -30,6 +30,7 @@ the mathematical guide for the Borel/Springer construction.
 | What is the E7/P7 character form, and does it contain the catalogue image? | [E7 character form, sums and intersections](E7_CHARACTER_FORM.md) |
 | How does the representation determine the integral polynomial-character source? | [General criterion and character API](CHARACTER_SOURCES.md), with [complete G2 sources and image rings](G2_CHARACTER_FORM.md) |
 | What is the literal F4 character form and its complete image? | [Proof, API and independent checks](F4_CHARACTER_FORM.md), [all four parabolic tables](F4_CHARACTER_TABLES.md) |
+| How does the F4 adjoint representation change the integral image? | [All-degree scaling theorem and comparison API](F4_REPRESENTATION_COMPARISON.md) |
 | How do the historical functions map to the new API? | [Migration guide](MIGRATION.md) |
 
 [examples/mathematical_methods.py](examples/mathematical_methods.py) is an
@@ -142,6 +143,13 @@ characters, retaining source elements with zero Borel image.
 the existing comparison API. The [F4 proof](F4_CHARACTER_FORM.md) identifies
 the full torus source as Sym_Z(6 Q_long) and gives all four complete
 maximal-parabolic image tables.
+
+Version 0.12 adds `f4_character_source(node, representation="adjoint")`.
+The [representation comparison](F4_REPRESENTATION_COMPARISON.md) proves
+that the adjoint torus source is Sym_Z(18 Q_long), and its degree-d Levi
+sources and Borel images are 3^d times their minimal counterparts.
+The normalized Springer morphisms themselves are different; the equality
+compares lattices in common polynomial and cohomology coordinates.
 
 The subsequent [type C joint-image proof](TYPE_C_JOINT_PRIMITIVITY.md)
 proves saturation of the normalized joint image for all positive block

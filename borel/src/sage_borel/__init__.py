@@ -23,7 +23,7 @@ from .exceptional import (ExceptionalBorel, GeneratorInfo, exceptional_borel, ex
                           exceptional_generators, exceptional_image,
                           exceptional_polynomial)
 
-__version__ = "0.11.0"
+__version__ = "0.12.0"
 __all__ = ["BorelMap", "Expansion", "classical_borel", "to_type_a",
            "ExceptionalBorel", "GeneratorInfo", "exceptional_borel",
            "exceptional_generators", "exceptional_polynomial", "exceptional_image",

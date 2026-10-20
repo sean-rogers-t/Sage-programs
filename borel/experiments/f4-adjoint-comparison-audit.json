@@ -1,0 +1,20 @@
+{
+  "result": "passed",
+  "leading_exponent_determinants": {
+    "0": -2,
+    "2": -1
+  },
+  "image_scaling_rows": 74,
+  "direct_laurent_lattices": 32,
+  "scope": "Independent root orbits, trace projection, linear unit minor, both characteristic cases, all 74 derived embedded image scalings and determinantal-divisor Smith lists, and 32 fresh Laurent completeness certificates. Earlier minimal Borel columns are reused, not claimed as freshly recomputed.",
+  "seconds": 204.817,
+  "source_hash_semantics": "SHA256 with CRLF normalized to LF.",
+  "source_sha256": {
+    "experiments/audit_f4_adjoint_comparison.py": "87e1849af9f661b2c2ef336461b0ef504a323eb8658b2e42fe2ab168644b1928",
+    "experiments/f4-adjoint-comparison-results.json": "5f8dd4b4f62473bd7870f1a49e7bcaf5f4564950327a77d9178d78e86f1b69ca",
+    "experiments/f4-character-form-results.json": "c9cfc559210417545444b8ad15341dbff3ed19048a3acc4a210625c6e4aeb157",
+    "experiments/f4-character-form-audit.json": "1f6fdfa941cbcb4a9ac5037a4020b459d8e8498d87f395f1e75e8f9de1e018bb",
+    "experiments/audit_f4_character_form.py": "04565509a1cab386d4b0f777be7a2f6126a972422f1fd3efd76ad0f9cb8e7b0c",
+    "experiments/audit_e6_character_form.py": "f5cb69082e8ad364f99333ec0d5079fb904c4cb01c106b1d2b1b918f6c026e31"
+  }
+}

@@ -1,0 +1,6363 @@
+{
+  "scope": "All-degree adjoint torus/Levi source and image scaling; all 74 maximal-parabolic image rows derived from the audited minimal tables.",
+  "linear_scale": 3,
+  "adjoint_dimension": 52,
+  "trace_gram": [
+    [
+      "36",
+      "-18",
+      "0",
+      "0"
+    ],
+    [
+      "-18",
+      "36",
+      "-36",
+      "0"
+    ],
+    [
+      "0",
+      "-36",
+      "72",
+      "-36"
+    ],
+    [
+      "0",
+      "0",
+      "-36",
+      "72"
+    ]
+  ],
+  "linear_basis": [
+    [
+      "18",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "18",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "36",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "36"
+    ]
+  ],
+  "weights": [
+    [
+      [
+        -2,
+        1,
+        0,
+        0
+      ],
+      1
+    ],
+    [
+      [
+        -1,
+        -1,
+        2,
+        0
+      ],
+      1
+    ],
+    [
+      [
+        -1,
+        0,
+        0,
+        0
+      ],
+      1
+    ],
+    [
+      [
+        -1,
+        0,
+        0,
+        1
+      ],
+      1
+    ],
+    [
+      [
+        -1,
+        0,
+        0,
+        2
+      ],
+      1
+    ],
+    [
+      [
+        -1,
+        0,
+        1,
+        -1
+      ],
+      1
+    ],
+    [
+      [
+        -1,
+        0,
+        1,
+        0
+      ],
+      1
+    ],
+    [
+      [
+        -1,
+        0,
+        2,
+        -2
+      ],
+      1
+    ],
+    [
+      [
+        -1,
+        1,
+        -2,
+        2
+      ],
+      1
+    ],
+    [
+      [
+        -1,
+        1,
+        -1,
+        0
+      ],
+      1
+    ],
+    [
+      [
+        -1,
+        1,
+        -1,
+        1
+      ],
+      1
+    ],
+    [
+      [
+        -1,
+        1,
+        0,
+        -2
+      ],
+      1
+    ],
+    [
+      [
+        -1,
+        1,
+        0,
+        -1
+      ],
+      1
+    ],
+    [
+      [
+        -1,
+        1,
+        0,
+        0
+      ],
+      1
+    ],
+    [
+      [
+        -1,
+        2,
+        -2,
+        0
+      ],
+      1
+    ],
+    [
+      [
+        0,
+        -1,
+        0,
+        2
+      ],
+      1
+    ],
+    [
+      [
+        0,
+        -1,
+        1,
+        0
+      ],
+      1
+    ],
+    [
+      [
+        0,
+        -1,
+        1,
+        1
+      ],
+      1
+    ],
+    [
+      [
+        0,
+        -1,
+        2,
+        -2
+      ],
+      1
+    ],
+    [
+      [
+        0,
+        -1,
+        2,
+        -1
+      ],
+      1
+    ],
+    [
+      [
+        0,
+        -1,
+        2,
+        0
+      ],
+      1
+    ],
+    [
+      [
+        0,
+        0,
+        -1,
+        1
+      ],
+      1
+    ],
+    [
+      [
+        0,
+        0,
+        -1,
+        2
+      ],
+      1
+    ],
+    [
+      [
+        0,
+        0,
+        0,
+        -1
+      ],
+      1
+    ],
+    [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      4
+    ],
+    [
+      [
+        0,
+        0,
+        0,
+        1
+      ],
+      1
+    ],
+    [
+      [
+        0,
+        0,
+        1,
+        -2
+      ],
+      1
+    ],
+    [
+      [
+        0,
+        0,
+        1,
+        -1
+      ],
+      1
+    ],
+    [
+      [
+        0,
+        1,
+        -2,
+        0
+      ],
+      1
+    ],
+    [
+      [
+        0,
+        1,
+        -2,
+        1
+      ],
+      1
+    ],
+    [
+      [
+        0,
+        1,
+        -2,
+        2
+      ],
+      1
+    ],
+    [
+      [
+        0,
+        1,
+        -1,
+        -1
+      ],
+      1
+    ],
+    [
+      [
+        0,
+        1,
+        -1,
+        0
+      ],
+      1
+    ],
+    [
+      [
+        0,
+        1,
+        0,
+        -2
+      ],
+      1
+    ],
+    [
+      [
+        1,
+        -2,
+        2,
+        0
+      ],
+      1
+    ],
+    [
+      [
+        1,
+        -1,
+        0,
+        0
+      ],
+      1
+    ],
+    [
+      [
+        1,
+        -1,
+        0,
+        1
+      ],
+      1
+    ],
+    [
+      [
+        1,
+        -1,
+        0,
+        2
+      ],
+      1
+    ],
+    [
+      [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      1
+    ],
+    [
+      [
+        1,
+        -1,
+        1,
+        0
+      ],
+      1
+    ],
+    [
+      [
+        1,
+        -1,
+        2,
+        -2
+      ],
+      1
+    ],
+    [
+      [
+        1,
+        0,
+        -2,
+        2
+      ],
+      1
+    ],
+    [
+      [
+        1,
+        0,
+        -1,
+        0
+      ],
+      1
+    ],
+    [
+      [
+        1,
+        0,
+        -1,
+        1
+      ],
+      1
+    ],
+    [
+      [
+        1,
+        0,
+        0,
+        -2
+      ],
+      1
+    ],
+    [
+      [
+        1,
+        0,
+        0,
+        -1
+      ],
+      1
+    ],
+    [
+      [
+        1,
+        0,
+        0,
+        0
+      ],
+      1
+    ],
+    [
+      [
+        1,
+        1,
+        -2,
+        0
+      ],
+      1
+    ],
+    [
+      [
+        2,
+        -1,
+        0,
+        0
+      ],
+      1
+    ]
+  ],
+  "certificate": {
+    "certified": true,
+    "exceptional_primes": [
+      2
+    ],
+    "cases": [
+      [
+        0,
+        [
+          [
+            2,
+            -1,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            -2,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            -1
+          ]
+        ],
+        [
+          1,
+          1,
+          2,
+          1
+        ],
+        4
+      ],
+      [
+        2,
+        [
+          [
+            2,
+            -1,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            -2,
+            0
+          ],
+          [
+            1,
+            0,
+            -1,
+            1
+          ],
+          [
+            1,
+            0,
+            0,
+            -1
+          ]
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ],
+        4
+      ]
+    ],
+    "basis_change": [
+      [
+        1,
+        -1,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        -1,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        -2
+      ]
+    ]
+  },
+  "linear_unit_minor_exponents": [
+    [
+      -1,
+      0,
+      0,
+      1
+    ],
+    [
+      -1,
+      0,
+      1,
+      -1
+    ],
+    [
+      -1,
+      0,
+      1,
+      0
+    ],
+    [
+      -1,
+      1,
+      -1,
+      0
+    ]
+  ],
+  "map_distinction": {
+    "exponent": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "minimal_coefficients": [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "adjoint_coefficients": [
+      "1/9",
+      "1/6",
+      "1/9",
+      "1/18"
+    ]
+  },
+  "fresh_api_rows": [
+    {
+      "parabolic": 1,
+      "degree": 0,
+      "source_basis": [
+        [
+          "1"
+        ]
+      ],
+      "smith_factors": [
+        1
+      ],
+      "minimal_mod_adjoint_factors": []
+    },
+    {
+      "parabolic": 1,
+      "degree": 1,
+      "source_basis": [
+        [
+          "18"
+        ]
+      ],
+      "smith_factors": [
+        18
+      ],
+      "minimal_mod_adjoint_factors": [
+        3
+      ]
+    },
+    {
+      "parabolic": 1,
+      "degree": 2,
+      "source_basis": [
+        [
+          "324",
+          "-162"
+        ],
+        [
+          "0",
+          "162"
+        ]
+      ],
+      "smith_factors": [
+        324
+      ],
+      "minimal_mod_adjoint_factors": [
+        9
+      ]
+    },
+    {
+      "parabolic": 1,
+      "degree": 3,
+      "source_basis": [
+        [
+          "5832",
+          "-2916"
+        ],
+        [
+          "0",
+          "2916"
+        ]
+      ],
+      "smith_factors": [
+        11664
+      ],
+      "minimal_mod_adjoint_factors": [
+        27
+      ]
+    },
+    {
+      "parabolic": 1,
+      "degree": 4,
+      "source_basis": [
+        [
+          "104976",
+          "0",
+          "-52488",
+          "13122"
+        ],
+        [
+          "0",
+          "104976",
+          "0",
+          "-52488"
+        ],
+        [
+          "0",
+          "0",
+          "52488",
+          "-26244"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "13122"
+        ]
+      ],
+      "smith_factors": [
+        209952,
+        2519424
+      ],
+      "minimal_mod_adjoint_factors": [
+        81,
+        81
+      ]
+    },
+    {
+      "parabolic": 2,
+      "degree": 0,
+      "source_basis": [
+        [
+          "1"
+        ]
+      ],
+      "smith_factors": [
+        1
+      ],
+      "minimal_mod_adjoint_factors": []
+    },
+    {
+      "parabolic": 2,
+      "degree": 1,
+      "source_basis": [
+        [
+          "18"
+        ]
+      ],
+      "smith_factors": [
+        18
+      ],
+      "minimal_mod_adjoint_factors": [
+        3
+      ]
+    },
+    {
+      "parabolic": 2,
+      "degree": 2,
+      "source_basis": [
+        [
+          "324",
+          "0",
+          "-243"
+        ],
+        [
+          "0",
+          "324",
+          "-36"
+        ],
+        [
+          "0",
+          "0",
+          "9"
+        ]
+      ],
+      "smith_factors": [
+        324,
+        648
+      ],
+      "minimal_mod_adjoint_factors": [
+        9,
+        9
+      ]
+    },
+    {
+      "parabolic": 2,
+      "degree": 3,
+      "source_basis": [
+        [
+          "5832",
+          "-729",
+          "0",
+          "-4374"
+        ],
+        [
+          "0",
+          "729",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "5832",
+          "-648"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "162"
+        ]
+      ],
+      "smith_factors": [
+        11664,
+        11664,
+        46656
+      ],
+      "minimal_mod_adjoint_factors": [
+        27,
+        27,
+        27
+      ]
+    },
+    {
+      "parabolic": 2,
+      "degree": 4,
+      "source_basis": [
+        [
+          "104976",
+          "0",
+          "0",
+          "-78732",
+          "0",
+          "0",
+          "-19683"
+        ],
+        [
+          "0",
+          "104976",
+          "0",
+          "0",
+          "-58320",
+          "-78732",
+          "-52488"
+        ],
+        [
+          "0",
+          "0",
+          "104976",
+          "0",
+          "0",
+          "-11664",
+          "1296"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "26244",
+          "-13122",
+          "0",
+          "-13122"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "1458",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "2916",
+          "-648"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "81"
+        ]
+      ],
+      "smith_factors": [
+        209952,
+        209952,
+        419904,
+        2519424
+      ],
+      "minimal_mod_adjoint_factors": [
+        81,
+        81,
+        81,
+        81
+      ]
+    },
+    {
+      "parabolic": 3,
+      "degree": 0,
+      "source_basis": [
+        [
+          "1"
+        ]
+      ],
+      "smith_factors": [
+        1
+      ],
+      "minimal_mod_adjoint_factors": []
+    },
+    {
+      "parabolic": 3,
+      "degree": 1,
+      "source_basis": [
+        [
+          "36"
+        ]
+      ],
+      "smith_factors": [
+        36
+      ],
+      "minimal_mod_adjoint_factors": [
+        3
+      ]
+    },
+    {
+      "parabolic": 3,
+      "degree": 2,
+      "source_basis": [
+        [
+          "1296",
+          "0",
+          "-1008"
+        ],
+        [
+          "0",
+          "1296",
+          "-891"
+        ],
+        [
+          "0",
+          "0",
+          "9"
+        ]
+      ],
+      "smith_factors": [
+        648,
+        1296
+      ],
+      "minimal_mod_adjoint_factors": [
+        9,
+        9
+      ]
+    },
+    {
+      "parabolic": 3,
+      "degree": 3,
+      "source_basis": [
+        [
+          "46656",
+          "0",
+          "-13122",
+          "2187"
+        ],
+        [
+          "0",
+          "46656",
+          "0",
+          "-41472"
+        ],
+        [
+          "0",
+          "0",
+          "1458",
+          "-729"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "162"
+        ]
+      ],
+      "smith_factors": [
+        11664,
+        23328,
+        46656
+      ],
+      "minimal_mod_adjoint_factors": [
+        27,
+        27,
+        27
+      ]
+    },
+    {
+      "parabolic": 3,
+      "degree": 4,
+      "source_basis": [
+        [
+          "1679616",
+          "0",
+          "0",
+          "0",
+          "-1306368",
+          "0",
+          "-290304"
+        ],
+        [
+          "0",
+          "1679616",
+          "0",
+          "0",
+          "-1154736",
+          "-746496",
+          "268272"
+        ],
+        [
+          "0",
+          "0",
+          "1679616",
+          "-1154736",
+          "0",
+          "577368",
+          "-938223"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "104976",
+          "0",
+          "-78732",
+          "26244"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "11664",
+          "0",
+          "-6480"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "2916",
+          "-1458"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "81"
+        ]
+      ],
+      "smith_factors": [
+        419904,
+        419904,
+        839808,
+        5038848
+      ],
+      "minimal_mod_adjoint_factors": [
+        81,
+        81,
+        81,
+        81
+      ]
+    },
+    {
+      "parabolic": 4,
+      "degree": 0,
+      "source_basis": [
+        [
+          "1"
+        ]
+      ],
+      "smith_factors": [
+        1
+      ],
+      "minimal_mod_adjoint_factors": []
+    },
+    {
+      "parabolic": 4,
+      "degree": 1,
+      "source_basis": [
+        [
+          "36"
+        ]
+      ],
+      "smith_factors": [
+        36
+      ],
+      "minimal_mod_adjoint_factors": [
+        3
+      ]
+    },
+    {
+      "parabolic": 4,
+      "degree": 2,
+      "source_basis": [
+        [
+          "1296",
+          "-972"
+        ],
+        [
+          "0",
+          "324"
+        ]
+      ],
+      "smith_factors": [
+        1296
+      ],
+      "minimal_mod_adjoint_factors": [
+        9
+      ]
+    },
+    {
+      "parabolic": 4,
+      "degree": 3,
+      "source_basis": [
+        [
+          "46656",
+          "-34992"
+        ],
+        [
+          "0",
+          "11664"
+        ]
+      ],
+      "smith_factors": [
+        46656
+      ],
+      "minimal_mod_adjoint_factors": [
+        27
+      ]
+    },
+    {
+      "parabolic": 4,
+      "degree": 4,
+      "source_basis": [
+        [
+          "1679616",
+          "-629856",
+          "-314928",
+          "-629856"
+        ],
+        [
+          "0",
+          "209952",
+          "-104976",
+          "-104976"
+        ],
+        [
+          "0",
+          "0",
+          "209952",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "104976"
+        ]
+      ],
+      "smith_factors": [
+        419904,
+        5038848
+      ],
+      "minimal_mod_adjoint_factors": [
+        81,
+        81
+      ]
+    }
+  ],
+  "direct_laurent_rows": [
+    {
+      "parabolic": 1,
+      "degree": 0,
+      "mode": "homogeneous",
+      "labels": [
+        [
+          0,
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      ],
+      "support_rows": 1,
+      "certificate": {
+        "maximal_minors": [
+          {
+            "rows": [
+              0
+            ],
+            "determinant": "1",
+            "selection_prime": 2
+          }
+        ],
+        "minor_gcd": 1,
+        "rank": 1
+      }
+    },
+    {
+      "parabolic": 1,
+      "degree": 0,
+      "mode": "filtered",
+      "labels": [
+        [
+          0,
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      ],
+      "support_rows": 1,
+      "certificate": {
+        "maximal_minors": [
+          {
+            "rows": [
+              0
+            ],
+            "determinant": "1",
+            "selection_prime": 2
+          }
+        ],
+        "minor_gcd": 1,
+        "rank": 1
+      }
+    },
+    {
+      "parabolic": 1,
+      "degree": 1,
+      "mode": "homogeneous",
+      "labels": [
+        [
+          1,
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ]
+      ],
+      "support_rows": 30,
+      "certificate": {
+        "maximal_minors": [
+          {
+            "rows": [
+              0
+            ],
+            "determinant": "1",
+            "selection_prime": 2
+          }
+        ],
+        "minor_gcd": 1,
+        "rank": 1
+      }
+    },
+    {
+      "parabolic": 1,
+      "degree": 1,
+      "mode": "filtered",
+      "labels": [
+        [
+          0,
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        [
+          1,
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ]
+      ],
+      "support_rows": 31,
+      "certificate": {
+        "maximal_minors": [
+          {
+            "rows": [
+              0,
+              15
+            ],
+            "determinant": "1",
+            "selection_prime": 2
+          }
+        ],
+        "minor_gcd": 1,
+        "rank": 2
+      }
+    },
+    {
+      "parabolic": 1,
+      "degree": 2,
+      "mode": "homogeneous",
+      "labels": [
+        [
+          2,
+          [
+            0,
+            0,
+            0,
+            2
+          ]
+        ],
+        [
+          2,
+          [
+            1,
+            0,
+            0,
+            0
+          ]
+        ]
+      ],
+      "support_rows": 433,
+      "certificate": {
+        "maximal_minors": [
+          {
+            "rows": [
+              0,
+              24
+            ],
+            "determinant": "9",
+            "selection_prime": 2
+          },
+          {
+            "rows": [
+              0,
+              1
+            ],
+            "determinant": "2",
+            "selection_prime": 3
+          }
+        ],
+        "minor_gcd": 1,
+        "rank": 2
+      }
+    },
+    {
+      "parabolic": 1,
+      "degree": 2,
+      "mode": "filtered",
+      "labels": [
+        [
+          0,
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        [
+          1,
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        [
+          2,
+          [
+            0,
+            0,
+            0,
+            2
+          ]
+        ],
+        [
+          2,
+          [
+            1,
+            0,
+            0,
+            0
+          ]
+        ]
+      ],
+      "support_rows": 433,
+      "certificate": {
+        "maximal_minors": [
+          {
+            "rows": [
+              0,
+              24,
+              46,
+              216
+            ],
+            "determinant": "9",
+            "selection_prime": 2
+          },
+          {
+            "rows": [
+              0,
+              1,
+              46,
+              216
+            ],
+            "determinant": "2",
+            "selection_prime": 3
+          }
+        ],
+        "minor_gcd": 1,
+        "rank": 4
+      }
+    },
+    {
+      "parabolic": 1,
+      "degree": 3,
+      "mode": "homogeneous",
+      "labels": [
+        [
+          3,
+          [
+            0,
+            0,
+            0,
+            3
+          ]
+        ],
+        [
+          3,
+          [
+            1,
+            0,
+            0,
+            1
+          ]
+        ]
+      ],
+      "support_rows": 1546,
+      "certificate": {
+        "maximal_minors": [
+          {
+            "rows": [
+              0,
+              24
+            ],
+            "determinant": "11",
+            "selection_prime": 2
+          },
+          {
+            "rows": [
+              0,
+              1
+            ],
+            "determinant": "2",
+            "selection_prime": 3
+          }
+        ],
+        "minor_gcd": 1,
+        "rank": 2
+      }
+    },
+    {
+      "parabolic": 1,
+      "degree": 3,
+      "mode": "filtered",
+      "labels": [
+        [
+          0,
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        [
+          1,
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        [
+          2,
+          [
+            0,
+            0,
+            0,
+            2
+          ]
+        ],
+        [
+          2,
+          [
+            1,
+            0,
+            0,
+            0
+          ]
+        ],
+        [
+          3,
+          [
+            0,
+            0,
+            0,
+            3
+          ]
+        ],
+        [
+          3,
+          [
+            1,
+            0,
+            0,
+            1
+          ]
+        ]
+      ],
+      "support_rows": 1639,
+      "certificate": {
+        "maximal_minors": [
+          {
+            "rows": [
+              0,
+              24,
+              46,
+              280,
+              329,
+              819
+            ],
+            "determinant": "99",
+            "selection_prime": 2
+          },
+          {
+            "rows": [
+              0,
+              1,
+              46,
+              107,
+              329,
+              819
+            ],
+            "determinant": "4",
+            "selection_prime": 3
+          }
+        ],
+        "minor_gcd": 1,
+        "rank": 6
+      }
+    },
+    {
+      "parabolic": 2,
+      "degree": 0,
+      "mode": "homogeneous",
+      "labels": [
+        [
+          0,
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      ],
+      "support_rows": 1,
+      "certificate": {
+        "maximal_minors": [
+          {
+            "rows": [
+              0
+            ],
+            "determinant": "1",
+            "selection_prime": 2
+          }
+        ],
+        "minor_gcd": 1,
+        "rank": 1
+      }
+    },
+    {
+      "parabolic": 2,
+      "degree": 0,
+      "mode": "filtered",
+      "labels": [
+        [
+          0,
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      ],
+      "support_rows": 1,
+      "certificate": {
+        "maximal_minors": [
+          {
+            "rows": [
+              0
+            ],
+            "determinant": "1",
+            "selection_prime": 2
+          }
+        ],
+        "minor_gcd": 1,
+        "rank": 1
+      }
+    },
+    {
+      "parabolic": 2,
+      "degree": 1,
+      "mode": "homogeneous",
+      "labels": [
+        [
+          1,
+          [
+            1,
+            0,
+            0,
+            0
+          ]
+        ]
+      ],
+      "support_rows": 40,
+      "certificate": {
+        "maximal_minors": [
+          {
+            "rows": [
+              0
+            ],
+            "determinant": "1",
+            "selection_prime": 2
+          }
+        ],
+        "minor_gcd": 1,
+        "rank": 1
+      }
+    },
+    {
+      "parabolic": 2,
+      "degree": 1,
+      "mode": "filtered",
+      "labels": [
+        [
+          0,
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        [
+          1,
+          [
+            1,
+            0,
+            0,
+            0
+          ]
+        ]
+      ],
+      "support_rows": 41,
+      "certificate": {
+        "maximal_minors": [
+          {
+            "rows": [
+              0,
+              20
+            ],
+            "determinant": "1",
+            "selection_prime": 2
+          }
+        ],
+        "minor_gcd": 1,
+        "rank": 2
+      }
+    },
+    {
+      "parabolic": 2,
+      "degree": 2,
+      "mode": "homogeneous",
+      "labels": [
+        [
+          2,
+          [
+            0,
+            0,
+            1,
+            0
+          ]
+        ],
+        [
+          2,
+          [
+            0,
+            1,
+            0,
+            0
+          ]
+        ],
+        [
+          2,
+          [
+            2,
+            0,
+            0,
+            0
+          ]
+        ]
+      ],
+      "support_rows": 433,
+      "certificate": {
+        "maximal_minors": [
+          {
+            "rows": [
+              0,
+              15,
+              24
+            ],
+            "determinant": "3",
+            "selection_prime": 2
+          },
+          {
+            "rows": [
+              0,
+              15,
+              16
+            ],
+            "determinant": "8",
+            "selection_prime": 3
+          }
+        ],
+        "minor_gcd": 1,
+        "rank": 3
+      }
+    },
+    {
+      "parabolic": 2,
+      "degree": 2,
+      "mode": "filtered",
+      "labels": [
+        [
+          0,
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        [
+          1,
+          [
+            1,
+            0,
+            0,
+            0
+          ]
+        ],
+        [
+          2,
+          [
+            0,
+            0,
+            1,
+            0
+          ]
+        ],
+        [
+          2,
+          [
+            0,
+            1,
+            0,
+            0
+          ]
+        ],
+        [
+          2,
+          [
+            2,
+            0,
+            0,
+            0
+          ]
+        ]
+      ],
+      "support_rows": 433,
+      "certificate": {
+        "maximal_minors": [
+          {
+            "rows": [
+              0,
+              15,
+              24,
+              93,
+              216
+            ],
+            "determinant": "3",
+            "selection_prime": 2
+          },
+          {
+            "rows": [
+              0,
+              15,
+              16,
+              93,
+              216
+            ],
+            "determinant": "8",
+            "selection_prime": 3
+          }
+        ],
+        "minor_gcd": 1,
+        "rank": 5
+      }
+    },
+    {
+      "parabolic": 2,
+      "degree": 3,
+      "mode": "homogeneous",
+      "labels": [
+        [
+          3,
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        [
+          3,
+          [
+            1,
+            0,
+            1,
+            0
+          ]
+        ],
+        [
+          3,
+          [
+            1,
+            1,
+            0,
+            0
+          ]
+        ],
+        [
+          3,
+          [
+            3,
+            0,
+            0,
+            0
+          ]
+        ]
+      ],
+      "support_rows": 1728,
+      "certificate": {
+        "maximal_minors": [
+          {
+            "rows": [
+              0,
+              58,
+              67,
+              89
+            ],
+            "determinant": "221",
+            "selection_prime": 2
+          },
+          {
+            "rows": [
+              0,
+              58,
+              59,
+              65
+            ],
+            "determinant": "64",
+            "selection_prime": 3
+          }
+        ],
+        "minor_gcd": 1,
+        "rank": 4
+      }
+    },
+    {
+      "parabolic": 2,
+      "degree": 3,
+      "mode": "filtered",
+      "labels": [
+        [
+          0,
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        [
+          1,
+          [
+            1,
+            0,
+            0,
+            0
+          ]
+        ],
+        [
+          2,
+          [
+            0,
+            0,
+            1,
+            0
+          ]
+        ],
+        [
+          2,
+          [
+            0,
+            1,
+            0,
+            0
+          ]
+        ],
+        [
+          2,
+          [
+            2,
+            0,
+            0,
+            0
+          ]
+        ],
+        [
+          3,
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        [
+          3,
+          [
+            1,
+            0,
+            1,
+            0
+          ]
+        ],
+        [
+          3,
+          [
+            1,
+            1,
+            0,
+            0
+          ]
+        ],
+        [
+          3,
+          [
+            3,
+            0,
+            0,
+            0
+          ]
+        ]
+      ],
+      "support_rows": 1769,
+      "certificate": {
+        "maximal_minors": [
+          {
+            "rows": [
+              0,
+              36,
+              59,
+              68,
+              90,
+              245,
+              302,
+              547,
+              884
+            ],
+            "determinant": "663",
+            "selection_prime": 2
+          },
+          {
+            "rows": [
+              0,
+              36,
+              59,
+              60,
+              66,
+              245,
+              267,
+              547,
+              884
+            ],
+            "determinant": "512",
+            "selection_prime": 3
+          }
+        ],
+        "minor_gcd": 1,
+        "rank": 9
+      }
+    },
+    {
+      "parabolic": 3,
+      "degree": 0,
+      "mode": "homogeneous",
+      "labels": [
+        [
+          0,
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      ],
+      "support_rows": 1,
+      "certificate": {
+        "maximal_minors": [
+          {
+            "rows": [
+              0
+            ],
+            "determinant": "1",
+            "selection_prime": 2
+          }
+        ],
+        "minor_gcd": 1,
+        "rank": 1
+      }
+    },
+    {
+      "parabolic": 3,
+      "degree": 0,
+      "mode": "filtered",
+      "labels": [
+        [
+          0,
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      ],
+      "support_rows": 1,
+      "certificate": {
+        "maximal_minors": [
+          {
+            "rows": [
+              0
+            ],
+            "determinant": "1",
+            "selection_prime": 2
+          }
+        ],
+        "minor_gcd": 1,
+        "rank": 1
+      }
+    },
+    {
+      "parabolic": 3,
+      "degree": 1,
+      "mode": "homogeneous",
+      "labels": [
+        [
+          1,
+          [
+            1,
+            0,
+            0,
+            0
+          ]
+        ]
+      ],
+      "support_rows": 40,
+      "certificate": {
+        "maximal_minors": [
+          {
+            "rows": [
+              1
+            ],
+            "determinant": "1",
+            "selection_prime": 2
+          }
+        ],
+        "minor_gcd": 1,
+        "rank": 1
+      }
+    },
+    {
+      "parabolic": 3,
+      "degree": 1,
+      "mode": "filtered",
+      "labels": [
+        [
+          0,
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        [
+          1,
+          [
+            1,
+            0,
+            0,
+            0
+          ]
+        ]
+      ],
+      "support_rows": 41,
+      "certificate": {
+        "maximal_minors": [
+          {
+            "rows": [
+              1,
+              20
+            ],
+            "determinant": "1",
+            "selection_prime": 2
+          }
+        ],
+        "minor_gcd": 1,
+        "rank": 2
+      }
+    },
+    {
+      "parabolic": 3,
+      "degree": 2,
+      "mode": "homogeneous",
+      "labels": [
+        [
+          2,
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        [
+          2,
+          [
+            0,
+            1,
+            0,
+            0
+          ]
+        ],
+        [
+          2,
+          [
+            2,
+            0,
+            0,
+            0
+          ]
+        ]
+      ],
+      "support_rows": 433,
+      "certificate": {
+        "maximal_minors": [
+          {
+            "rows": [
+              0,
+              24,
+              28
+            ],
+            "determinant": "11",
+            "selection_prime": 2
+          },
+          {
+            "rows": [
+              0,
+              22,
+              24
+            ],
+            "determinant": "4",
+            "selection_prime": 3
+          }
+        ],
+        "minor_gcd": 1,
+        "rank": 3
+      }
+    },
+    {
+      "parabolic": 3,
+      "degree": 2,
+      "mode": "filtered",
+      "labels": [
+        [
+          0,
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        [
+          1,
+          [
+            1,
+            0,
+            0,
+            0
+          ]
+        ],
+        [
+          2,
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        [
+          2,
+          [
+            0,
+            1,
+            0,
+            0
+          ]
+        ],
+        [
+          2,
+          [
+            2,
+            0,
+            0,
+            0
+          ]
+        ]
+      ],
+      "support_rows": 433,
+      "certificate": {
+        "maximal_minors": [
+          {
+            "rows": [
+              0,
+              24,
+              28,
+              110,
+              216
+            ],
+            "determinant": "11",
+            "selection_prime": 2
+          },
+          {
+            "rows": [
+              0,
+              22,
+              24,
+              109,
+              216
+            ],
+            "determinant": "16",
+            "selection_prime": 3
+          }
+        ],
+        "minor_gcd": 1,
+        "rank": 5
+      }
+    },
+    {
+      "parabolic": 3,
+      "degree": 3,
+      "mode": "homogeneous",
+      "labels": [
+        [
+          3,
+          [
+            0,
+            0,
+            1,
+            0
+          ]
+        ],
+        [
+          3,
+          [
+            1,
+            0,
+            0,
+            1
+          ]
+        ],
+        [
+          3,
+          [
+            1,
+            1,
+            0,
+            0
+          ]
+        ],
+        [
+          3,
+          [
+            3,
+            0,
+            0,
+            0
+          ]
+        ]
+      ],
+      "support_rows": 1740,
+      "certificate": {
+        "maximal_minors": [
+          {
+            "rows": [
+              0,
+              2,
+              96,
+              102
+            ],
+            "determinant": "595",
+            "selection_prime": 2
+          },
+          {
+            "rows": [
+              0,
+              1,
+              93,
+              95
+            ],
+            "determinant": "256",
+            "selection_prime": 3
+          }
+        ],
+        "minor_gcd": 1,
+        "rank": 4
+      }
+    },
+    {
+      "parabolic": 3,
+      "degree": 3,
+      "mode": "filtered",
+      "labels": [
+        [
+          0,
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        [
+          1,
+          [
+            1,
+            0,
+            0,
+            0
+          ]
+        ],
+        [
+          2,
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        [
+          2,
+          [
+            0,
+            1,
+            0,
+            0
+          ]
+        ],
+        [
+          2,
+          [
+            2,
+            0,
+            0,
+            0
+          ]
+        ],
+        [
+          3,
+          [
+            0,
+            0,
+            1,
+            0
+          ]
+        ],
+        [
+          3,
+          [
+            1,
+            0,
+            0,
+            1
+          ]
+        ],
+        [
+          3,
+          [
+            1,
+            1,
+            0,
+            0
+          ]
+        ],
+        [
+          3,
+          [
+            3,
+            0,
+            0,
+            0
+          ]
+        ]
+      ],
+      "support_rows": 1781,
+      "certificate": {
+        "maximal_minors": [
+          {
+            "rows": [
+              0,
+              2,
+              43,
+              97,
+              103,
+              312,
+              318,
+              591,
+              890
+            ],
+            "determinant": "6545",
+            "selection_prime": 2
+          },
+          {
+            "rows": [
+              0,
+              1,
+              43,
+              94,
+              96,
+              310,
+              312,
+              590,
+              890
+            ],
+            "determinant": "4096",
+            "selection_prime": 3
+          }
+        ],
+        "minor_gcd": 1,
+        "rank": 9
+      }
+    },
+    {
+      "parabolic": 4,
+      "degree": 0,
+      "mode": "homogeneous",
+      "labels": [
+        [
+          0,
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      ],
+      "support_rows": 1,
+      "certificate": {
+        "maximal_minors": [
+          {
+            "rows": [
+              0
+            ],
+            "determinant": "1",
+            "selection_prime": 2
+          }
+        ],
+        "minor_gcd": 1,
+        "rank": 1
+      }
+    },
+    {
+      "parabolic": 4,
+      "degree": 0,
+      "mode": "filtered",
+      "labels": [
+        [
+          0,
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      ],
+      "support_rows": 1,
+      "certificate": {
+        "maximal_minors": [
+          {
+            "rows": [
+              0
+            ],
+            "determinant": "1",
+            "selection_prime": 2
+          }
+        ],
+        "minor_gcd": 1,
+        "rank": 1
+      }
+    },
+    {
+      "parabolic": 4,
+      "degree": 1,
+      "mode": "homogeneous",
+      "labels": [
+        [
+          1,
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ]
+      ],
+      "support_rows": 30,
+      "certificate": {
+        "maximal_minors": [
+          {
+            "rows": [
+              2
+            ],
+            "determinant": "1",
+            "selection_prime": 2
+          }
+        ],
+        "minor_gcd": 1,
+        "rank": 1
+      }
+    },
+    {
+      "parabolic": 4,
+      "degree": 1,
+      "mode": "filtered",
+      "labels": [
+        [
+          0,
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        [
+          1,
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ]
+      ],
+      "support_rows": 31,
+      "certificate": {
+        "maximal_minors": [
+          {
+            "rows": [
+              2,
+              15
+            ],
+            "determinant": "1",
+            "selection_prime": 2
+          }
+        ],
+        "minor_gcd": 1,
+        "rank": 2
+      }
+    },
+    {
+      "parabolic": 4,
+      "degree": 2,
+      "mode": "homogeneous",
+      "labels": [
+        [
+          2,
+          [
+            0,
+            0,
+            0,
+            2
+          ]
+        ],
+        [
+          2,
+          [
+            1,
+            0,
+            0,
+            0
+          ]
+        ]
+      ],
+      "support_rows": 433,
+      "certificate": {
+        "maximal_minors": [
+          {
+            "rows": [
+              24,
+              31
+            ],
+            "determinant": "9",
+            "selection_prime": 2
+          },
+          {
+            "rows": [
+              0,
+              22
+            ],
+            "determinant": "8",
+            "selection_prime": 3
+          }
+        ],
+        "minor_gcd": 1,
+        "rank": 2
+      }
+    },
+    {
+      "parabolic": 4,
+      "degree": 2,
+      "mode": "filtered",
+      "labels": [
+        [
+          0,
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        [
+          1,
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        [
+          2,
+          [
+            0,
+            0,
+            0,
+            2
+          ]
+        ],
+        [
+          2,
+          [
+            1,
+            0,
+            0,
+            0
+          ]
+        ]
+      ],
+      "support_rows": 433,
+      "certificate": {
+        "maximal_minors": [
+          {
+            "rows": [
+              24,
+              31,
+              114,
+              216
+            ],
+            "determinant": "9",
+            "selection_prime": 2
+          },
+          {
+            "rows": [
+              0,
+              22,
+              109,
+              216
+            ],
+            "determinant": "16",
+            "selection_prime": 3
+          }
+        ],
+        "minor_gcd": 1,
+        "rank": 4
+      }
+    },
+    {
+      "parabolic": 4,
+      "degree": 3,
+      "mode": "homogeneous",
+      "labels": [
+        [
+          3,
+          [
+            0,
+            0,
+            0,
+            3
+          ]
+        ],
+        [
+          3,
+          [
+            1,
+            0,
+            0,
+            1
+          ]
+        ]
+      ],
+      "support_rows": 1562,
+      "certificate": {
+        "maximal_minors": [
+          {
+            "rows": [
+              80,
+              88
+            ],
+            "determinant": "311",
+            "selection_prime": 2
+          },
+          {
+            "rows": [
+              0,
+              72
+            ],
+            "determinant": "32",
+            "selection_prime": 3
+          }
+        ],
+        "minor_gcd": 1,
+        "rank": 2
+      }
+    },
+    {
+      "parabolic": 4,
+      "degree": 3,
+      "mode": "filtered",
+      "labels": [
+        [
+          0,
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        [
+          1,
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        [
+          2,
+          [
+            0,
+            0,
+            0,
+            2
+          ]
+        ],
+        [
+          2,
+          [
+            1,
+            0,
+            0,
+            0
+          ]
+        ],
+        [
+          3,
+          [
+            0,
+            0,
+            0,
+            3
+          ]
+        ],
+        [
+          3,
+          [
+            1,
+            0,
+            0,
+            1
+          ]
+        ]
+      ],
+      "support_rows": 1655,
+      "certificate": {
+        "maximal_minors": [
+          {
+            "rows": [
+              81,
+              90,
+              273,
+              285,
+              549,
+              827
+            ],
+            "determinant": "2799",
+            "selection_prime": 2
+          },
+          {
+            "rows": [
+              0,
+              32,
+              73,
+              271,
+              542,
+              827
+            ],
+            "determinant": "512",
+            "selection_prime": 3
+          }
+        ],
+        "minor_gcd": 1,
+        "rank": 6
+      }
+    }
+  ],
+  "cases": [
+    {
+      "parabolic": 1,
+      "complex_dimension": 15,
+      "degrees": [
+        {
+          "degree": 0,
+          "rank": 1,
+          "degree_scale": "1",
+          "minimal_smith_factors": [
+            1
+          ],
+          "adjoint_smith_factors": [
+            1
+          ],
+          "adjoint_image_basis": [
+            [
+              "1"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": []
+        },
+        {
+          "degree": 1,
+          "rank": 1,
+          "degree_scale": "3",
+          "minimal_smith_factors": [
+            6
+          ],
+          "adjoint_smith_factors": [
+            18
+          ],
+          "adjoint_image_basis": [
+            [
+              "18"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            3
+          ]
+        },
+        {
+          "degree": 2,
+          "rank": 1,
+          "degree_scale": "9",
+          "minimal_smith_factors": [
+            36
+          ],
+          "adjoint_smith_factors": [
+            324
+          ],
+          "adjoint_image_basis": [
+            [
+              "324"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            9
+          ]
+        },
+        {
+          "degree": 3,
+          "rank": 1,
+          "degree_scale": "27",
+          "minimal_smith_factors": [
+            432
+          ],
+          "adjoint_smith_factors": [
+            11664
+          ],
+          "adjoint_image_basis": [
+            [
+              "11664"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            27
+          ]
+        },
+        {
+          "degree": 4,
+          "rank": 2,
+          "degree_scale": "81",
+          "minimal_smith_factors": [
+            2592,
+            31104
+          ],
+          "adjoint_smith_factors": [
+            209952,
+            2519424
+          ],
+          "adjoint_image_basis": [
+            [
+              "209952",
+              "0"
+            ],
+            [
+              "419904",
+              "2519424"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            81,
+            81
+          ]
+        },
+        {
+          "degree": 5,
+          "rank": 2,
+          "degree_scale": "243",
+          "minimal_smith_factors": [
+            15552,
+            186624
+          ],
+          "adjoint_smith_factors": [
+            3779136,
+            45349632
+          ],
+          "adjoint_image_basis": [
+            [
+              "3779136",
+              "0"
+            ],
+            [
+              "15116544",
+              "45349632"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            243,
+            243
+          ]
+        },
+        {
+          "degree": 6,
+          "rank": 2,
+          "degree_scale": "729",
+          "minimal_smith_factors": [
+            186624,
+            2239488
+          ],
+          "adjoint_smith_factors": [
+            136048896,
+            1632586752
+          ],
+          "adjoint_image_basis": [
+            [
+              "544195584",
+              "0"
+            ],
+            [
+              "0",
+              "408146688"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            729,
+            729
+          ]
+        },
+        {
+          "degree": 7,
+          "rank": 2,
+          "degree_scale": "2187",
+          "minimal_smith_factors": [
+            2239488,
+            13436928
+          ],
+          "adjoint_smith_factors": [
+            4897760256,
+            29386561536
+          ],
+          "adjoint_image_basis": [
+            [
+              "9795520512",
+              "0"
+            ],
+            [
+              "9795520512",
+              "14693280768"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            2187,
+            2187
+          ]
+        },
+        {
+          "degree": 8,
+          "rank": 2,
+          "degree_scale": "6561",
+          "minimal_smith_factors": [
+            40310784,
+            80621568
+          ],
+          "adjoint_smith_factors": [
+            264479053824,
+            528958107648
+          ],
+          "adjoint_image_basis": [
+            [
+              "264479053824",
+              "0"
+            ],
+            [
+              "0",
+              "528958107648"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            6561,
+            6561
+          ]
+        },
+        {
+          "degree": 9,
+          "rank": 2,
+          "degree_scale": "19683",
+          "minimal_smith_factors": [
+            241864704,
+            967458816
+          ],
+          "adjoint_smith_factors": [
+            4760622968832,
+            19042491875328
+          ],
+          "adjoint_image_basis": [
+            [
+              "4760622968832",
+              "0"
+            ],
+            [
+              "0",
+              "19042491875328"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            19683,
+            19683
+          ]
+        },
+        {
+          "degree": 10,
+          "rank": 2,
+          "degree_scale": "59049",
+          "minimal_smith_factors": [
+            2902376448,
+            11609505792
+          ],
+          "adjoint_smith_factors": [
+            171382426877952,
+            685529707511808
+          ],
+          "adjoint_image_basis": [
+            [
+              "171382426877952",
+              "0"
+            ],
+            [
+              "0",
+              "685529707511808"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            59049,
+            59049
+          ]
+        },
+        {
+          "degree": 11,
+          "rank": 2,
+          "degree_scale": "177147",
+          "minimal_smith_factors": [
+            17414258688,
+            69657034752
+          ],
+          "adjoint_smith_factors": [
+            3084883683803136,
+            12339534735212544
+          ],
+          "adjoint_image_basis": [
+            [
+              "3084883683803136",
+              "0"
+            ],
+            [
+              "6169767367606272",
+              "12339534735212544"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            177147,
+            177147
+          ]
+        },
+        {
+          "degree": 12,
+          "rank": 1,
+          "degree_scale": "531441",
+          "minimal_smith_factors": [
+            417942208512
+          ],
+          "adjoint_smith_factors": [
+            222111625233825792
+          ],
+          "adjoint_image_basis": [
+            [
+              "222111625233825792"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            531441
+          ]
+        },
+        {
+          "degree": 13,
+          "rank": 1,
+          "degree_scale": "1594323",
+          "minimal_smith_factors": [
+            5015306502144
+          ],
+          "adjoint_smith_factors": [
+            7996018508417728512
+          ],
+          "adjoint_image_basis": [
+            [
+              "7996018508417728512"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            1594323
+          ]
+        },
+        {
+          "degree": 14,
+          "rank": 1,
+          "degree_scale": "4782969",
+          "minimal_smith_factors": [
+            30091839012864
+          ],
+          "adjoint_smith_factors": [
+            143928333151519113216
+          ],
+          "adjoint_image_basis": [
+            [
+              "143928333151519113216"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            4782969
+          ]
+        },
+        {
+          "degree": 15,
+          "rank": 1,
+          "degree_scale": "14348907",
+          "minimal_smith_factors": [
+            180551034077184
+          ],
+          "adjoint_smith_factors": [
+            2590709996727344037888
+          ],
+          "adjoint_image_basis": [
+            [
+              "2590709996727344037888"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            14348907
+          ]
+        }
+      ]
+    },
+    {
+      "parabolic": 2,
+      "complex_dimension": 20,
+      "degrees": [
+        {
+          "degree": 0,
+          "rank": 1,
+          "degree_scale": "1",
+          "minimal_smith_factors": [
+            1
+          ],
+          "adjoint_smith_factors": [
+            1
+          ],
+          "adjoint_image_basis": [
+            [
+              "1"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": []
+        },
+        {
+          "degree": 1,
+          "rank": 1,
+          "degree_scale": "3",
+          "minimal_smith_factors": [
+            6
+          ],
+          "adjoint_smith_factors": [
+            18
+          ],
+          "adjoint_image_basis": [
+            [
+              "18"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            3
+          ]
+        },
+        {
+          "degree": 2,
+          "rank": 2,
+          "degree_scale": "9",
+          "minimal_smith_factors": [
+            36,
+            72
+          ],
+          "adjoint_smith_factors": [
+            324,
+            648
+          ],
+          "adjoint_image_basis": [
+            [
+              "324",
+              "0"
+            ],
+            [
+              "0",
+              "648"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            9,
+            9
+          ]
+        },
+        {
+          "degree": 3,
+          "rank": 3,
+          "degree_scale": "27",
+          "minimal_smith_factors": [
+            432,
+            432,
+            1728
+          ],
+          "adjoint_smith_factors": [
+            11664,
+            11664,
+            46656
+          ],
+          "adjoint_image_basis": [
+            [
+              "11664",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "11664",
+              "0"
+            ],
+            [
+              "23328",
+              "0",
+              "46656"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            27,
+            27,
+            27
+          ]
+        },
+        {
+          "degree": 4,
+          "rank": 4,
+          "degree_scale": "81",
+          "minimal_smith_factors": [
+            2592,
+            2592,
+            5184,
+            31104
+          ],
+          "adjoint_smith_factors": [
+            209952,
+            209952,
+            419904,
+            2519424
+          ],
+          "adjoint_image_basis": [
+            [
+              "209952",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "209952",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "839808",
+              "0"
+            ],
+            [
+              "419904",
+              "0",
+              "839808",
+              "1259712"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            81,
+            81,
+            81,
+            81
+          ]
+        },
+        {
+          "degree": 5,
+          "rank": 5,
+          "degree_scale": "243",
+          "minimal_smith_factors": [
+            15552,
+            31104,
+            31104,
+            62208,
+            373248
+          ],
+          "adjoint_smith_factors": [
+            3779136,
+            7558272,
+            7558272,
+            15116544,
+            90699264
+          ],
+          "adjoint_image_basis": [
+            [
+              "3779136",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "7558272",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "30233088",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "7558272",
+              "0"
+            ],
+            [
+              "0",
+              "7558272",
+              "0",
+              "30233088",
+              "45349632"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            243,
+            243,
+            243,
+            243,
+            243
+          ]
+        },
+        {
+          "degree": 6,
+          "rank": 6,
+          "degree_scale": "729",
+          "minimal_smith_factors": [
+            186624,
+            186624,
+            373248,
+            373248,
+            2239488,
+            2239488
+          ],
+          "adjoint_smith_factors": [
+            136048896,
+            136048896,
+            272097792,
+            272097792,
+            1632586752,
+            1632586752
+          ],
+          "adjoint_image_basis": [
+            [
+              "544195584",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "136048896",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "272097792",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "272097792",
+              "0",
+              "0"
+            ],
+            [
+              "136048896",
+              "136048896",
+              "136048896",
+              "272097792",
+              "408146688",
+              "0"
+            ],
+            [
+              "544195584",
+              "0",
+              "544195584",
+              "272097792",
+              "0",
+              "1632586752"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            729,
+            729,
+            729,
+            729,
+            729,
+            729
+          ]
+        },
+        {
+          "degree": 7,
+          "rank": 7,
+          "degree_scale": "2187",
+          "minimal_smith_factors": [
+            1119744,
+            2239488,
+            2239488,
+            2239488,
+            13436928,
+            13436928,
+            26873856
+          ],
+          "adjoint_smith_factors": [
+            2448880128,
+            4897760256,
+            4897760256,
+            4897760256,
+            29386561536,
+            29386561536,
+            58773123072
+          ],
+          "adjoint_image_basis": [
+            [
+              "4897760256",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "2448880128",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "4897760256",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "9795520512",
+              "9795520512",
+              "19591041024",
+              "29386561536",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0",
+              "4897760256",
+              "0",
+              "0"
+            ],
+            [
+              "39182082048",
+              "19591041024",
+              "39182082048",
+              "0",
+              "0",
+              "58773123072",
+              "0"
+            ],
+            [
+              "19591041024",
+              "4897760256",
+              "24488801280",
+              "0",
+              "4897760256",
+              "0",
+              "29386561536"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            2187,
+            2187,
+            2187,
+            2187,
+            2187,
+            2187,
+            2187
+          ]
+        },
+        {
+          "degree": 8,
+          "rank": 7,
+          "degree_scale": "6561",
+          "minimal_smith_factors": [
+            13436928,
+            13436928,
+            13436928,
+            80621568,
+            80621568,
+            161243136,
+            161243136
+          ],
+          "adjoint_smith_factors": [
+            88159684608,
+            88159684608,
+            88159684608,
+            528958107648,
+            528958107648,
+            1057916215296,
+            1057916215296
+          ],
+          "adjoint_image_basis": [
+            [
+              "88159684608",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "88159684608",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "88159684608",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "705277476864",
+              "0",
+              "705277476864",
+              "1057916215296",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "352638738432",
+              "352638738432",
+              "0",
+              "0",
+              "528958107648",
+              "0",
+              "0"
+            ],
+            [
+              "705277476864",
+              "705277476864",
+              "176319369216",
+              "0",
+              "528958107648",
+              "1057916215296",
+              "0"
+            ],
+            [
+              "0",
+              "176319369216",
+              "88159684608",
+              "0",
+              "0",
+              "0",
+              "528958107648"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            6561,
+            6561,
+            6561,
+            6561,
+            6561,
+            6561,
+            6561
+          ]
+        },
+        {
+          "degree": 9,
+          "rank": 8,
+          "degree_scale": "19683",
+          "minimal_smith_factors": [
+            80621568,
+            161243136,
+            161243136,
+            483729408,
+            967458816,
+            967458816,
+            1934917632,
+            1934917632
+          ],
+          "adjoint_smith_factors": [
+            1586874322944,
+            3173748645888,
+            3173748645888,
+            9521245937664,
+            19042491875328,
+            19042491875328,
+            38084983750656,
+            38084983750656
+          ],
+          "adjoint_image_basis": [
+            [
+              "1586874322944",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "3173748645888",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "6347497291776",
+              "3173748645888",
+              "9521245937664",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "6347497291776",
+              "3173748645888",
+              "0",
+              "9521245937664",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "6347497291776",
+              "9521245937664",
+              "9521245937664",
+              "0",
+              "19042491875328",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "12694994583552",
+              "0",
+              "0"
+            ],
+            [
+              "6347497291776",
+              "9521245937664",
+              "9521245937664",
+              "0",
+              "0",
+              "12694994583552",
+              "19042491875328",
+              "0"
+            ],
+            [
+              "12694994583552",
+              "19042491875328",
+              "19042491875328",
+              "0",
+              "0",
+              "0",
+              "0",
+              "38084983750656"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            19683,
+            19683,
+            19683,
+            19683,
+            19683,
+            19683,
+            19683,
+            19683
+          ]
+        },
+        {
+          "degree": 10,
+          "rank": 8,
+          "degree_scale": "59049",
+          "minimal_smith_factors": [
+            967458816,
+            967458816,
+            2902376448,
+            5804752896,
+            5804752896,
+            11609505792,
+            11609505792,
+            11609505792
+          ],
+          "adjoint_smith_factors": [
+            57127475625984,
+            57127475625984,
+            171382426877952,
+            342764853755904,
+            342764853755904,
+            685529707511808,
+            685529707511808,
+            685529707511808
+          ],
+          "adjoint_image_basis": [
+            [
+              "57127475625984",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "57127475625984",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "228509902503936",
+              "114254951251968",
+              "342764853755904",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "114254951251968",
+              "114254951251968",
+              "0",
+              "171382426877952",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "228509902503936",
+              "0",
+              "0",
+              "342764853755904",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "457019805007872",
+              "457019805007872",
+              "0",
+              "0",
+              "0",
+              "685529707511808",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "114254951251968",
+              "0",
+              "0",
+              "0",
+              "0",
+              "685529707511808",
+              "0"
+            ],
+            [
+              "457019805007872",
+              "228509902503936",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "685529707511808"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            59049,
+            59049,
+            59049,
+            59049,
+            59049,
+            59049,
+            59049,
+            59049
+          ]
+        },
+        {
+          "degree": 11,
+          "rank": 8,
+          "degree_scale": "177147",
+          "minimal_smith_factors": [
+            5804752896,
+            17414258688,
+            34828517376,
+            34828517376,
+            69657034752,
+            69657034752,
+            69657034752,
+            139314069504
+          ],
+          "adjoint_smith_factors": [
+            1028294561267712,
+            3084883683803136,
+            6169767367606272,
+            6169767367606272,
+            12339534735212544,
+            12339534735212544,
+            12339534735212544,
+            24679069470425088
+          ],
+          "adjoint_image_basis": [
+            [
+              "1028294561267712",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "2056589122535424",
+              "3084883683803136",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "2056589122535424",
+              "0",
+              "6169767367606272",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "6169767367606272",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "4113178245070848",
+              "0",
+              "0",
+              "0",
+              "12339534735212544",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "8226356490141696",
+              "0",
+              "0",
+              "0",
+              "0",
+              "12339534735212544",
+              "0",
+              "0"
+            ],
+            [
+              "2056589122535424",
+              "6169767367606272",
+              "6169767367606272",
+              "6169767367606272",
+              "0",
+              "0",
+              "12339534735212544",
+              "0"
+            ],
+            [
+              "8226356490141696",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "24679069470425088"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            177147,
+            177147,
+            177147,
+            177147,
+            177147,
+            177147,
+            177147,
+            177147
+          ]
+        },
+        {
+          "degree": 12,
+          "rank": 7,
+          "degree_scale": "531441",
+          "minimal_smith_factors": [
+            69657034752,
+            208971104256,
+            417942208512,
+            417942208512,
+            835884417024,
+            835884417024,
+            835884417024
+          ],
+          "adjoint_smith_factors": [
+            37018604205637632,
+            111055812616912896,
+            222111625233825792,
+            222111625233825792,
+            444223250467651584,
+            444223250467651584,
+            444223250467651584
+          ],
+          "adjoint_image_basis": [
+            [
+              "37018604205637632",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "37018604205637632",
+              "111055812616912896",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "148074416822550528",
+              "0",
+              "222111625233825792",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "296148833645101056",
+              "0",
+              "0",
+              "444223250467651584",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "111055812616912896",
+              "0",
+              "0",
+              "0",
+              "222111625233825792",
+              "0",
+              "0"
+            ],
+            [
+              "370186042056376320",
+              "0",
+              "222111625233825792",
+              "0",
+              "0",
+              "444223250467651584",
+              "0"
+            ],
+            [
+              "296148833645101056",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "444223250467651584"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            531441,
+            531441,
+            531441,
+            531441,
+            531441,
+            531441,
+            531441
+          ]
+        },
+        {
+          "degree": 13,
+          "rank": 7,
+          "degree_scale": "1594323",
+          "minimal_smith_factors": [
+            1253826625536,
+            2507653251072,
+            2507653251072,
+            5015306502144,
+            5015306502144,
+            5015306502144,
+            10030613004288
+          ],
+          "adjoint_smith_factors": [
+            1999004627104432128,
+            3998009254208864256,
+            3998009254208864256,
+            7996018508417728512,
+            7996018508417728512,
+            7996018508417728512,
+            15992037016835457024
+          ],
+          "adjoint_image_basis": [
+            [
+              "1999004627104432128",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "7996018508417728512",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "3998009254208864256",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "3998009254208864256",
+              "7996018508417728512",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "3998009254208864256",
+              "0",
+              "7996018508417728512",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "3998009254208864256",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "7996018508417728512",
+              "0",
+              "0",
+              "0",
+              "15992037016835457024"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            1594323,
+            1594323,
+            1594323,
+            1594323,
+            1594323,
+            1594323,
+            1594323
+          ]
+        },
+        {
+          "degree": 14,
+          "rank": 6,
+          "degree_scale": "4782969",
+          "minimal_smith_factors": [
+            15045919506432,
+            15045919506432,
+            30091839012864,
+            30091839012864,
+            60183678025728,
+            60183678025728
+          ],
+          "adjoint_smith_factors": [
+            71964166575759556608,
+            71964166575759556608,
+            143928333151519113216,
+            143928333151519113216,
+            287856666303038226432,
+            287856666303038226432
+          ],
+          "adjoint_image_basis": [
+            [
+              "71964166575759556608",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "143928333151519113216",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "71964166575759556608",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "287856666303038226432",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "71964166575759556608",
+              "0",
+              "143928333151519113216",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "287856666303038226432"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            4782969,
+            4782969,
+            4782969,
+            4782969,
+            4782969,
+            4782969
+          ]
+        },
+        {
+          "degree": 15,
+          "rank": 5,
+          "degree_scale": "14348907",
+          "minimal_smith_factors": [
+            90275517038592,
+            180551034077184,
+            361102068154368,
+            361102068154368,
+            722204136308736
+          ],
+          "adjoint_smith_factors": [
+            1295354998363672018944,
+            2590709996727344037888,
+            5181419993454688075776,
+            5181419993454688075776,
+            10362839986909376151552
+          ],
+          "adjoint_image_basis": [
+            [
+              "1295354998363672018944",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "5181419993454688075776",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "2590709996727344037888",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "10362839986909376151552",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "2590709996727344037888",
+              "0",
+              "5181419993454688075776"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            14348907,
+            14348907,
+            14348907,
+            14348907,
+            14348907
+          ]
+        },
+        {
+          "degree": 16,
+          "rank": 4,
+          "degree_scale": "43046721",
+          "minimal_smith_factors": [
+            1083306204463104,
+            2166612408926208,
+            4333224817852416,
+            4333224817852416
+          ],
+          "adjoint_smith_factors": [
+            46632779941092192681984,
+            93265559882184385363968,
+            186531119764368770727936,
+            186531119764368770727936
+          ],
+          "adjoint_image_basis": [
+            [
+              "46632779941092192681984",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "93265559882184385363968",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "186531119764368770727936",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "186531119764368770727936"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            43046721,
+            43046721,
+            43046721,
+            43046721
+          ]
+        },
+        {
+          "degree": 17,
+          "rank": 3,
+          "degree_scale": "129140163",
+          "minimal_smith_factors": [
+            6499837226778624,
+            25999348907114496,
+            25999348907114496
+          ],
+          "adjoint_smith_factors": [
+            839390038939659468275712,
+            3357560155758637873102848,
+            3357560155758637873102848
+          ],
+          "adjoint_image_basis": [
+            [
+              "839390038939659468275712",
+              "0",
+              "0"
+            ],
+            [
+              "1678780077879318936551424",
+              "3357560155758637873102848",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "3357560155758637873102848"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            129140163,
+            129140163,
+            129140163
+          ]
+        },
+        {
+          "degree": 18,
+          "rank": 2,
+          "degree_scale": "387420489",
+          "minimal_smith_factors": [
+            155996093442686976,
+            311992186885373952
+          ],
+          "adjoint_smith_factors": [
+            60436082803655481715851264,
+            120872165607310963431702528
+          ],
+          "adjoint_image_basis": [
+            [
+              "60436082803655481715851264",
+              "0"
+            ],
+            [
+              "0",
+              "120872165607310963431702528"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            387420489,
+            387420489
+          ]
+        },
+        {
+          "degree": 19,
+          "rank": 1,
+          "degree_scale": "1162261467",
+          "minimal_smith_factors": [
+            1871953121312243712
+          ],
+          "adjoint_smith_factors": [
+            2175698980931597341770645504
+          ],
+          "adjoint_image_basis": [
+            [
+              "2175698980931597341770645504"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            1162261467
+          ]
+        },
+        {
+          "degree": 20,
+          "rank": 1,
+          "degree_scale": "3486784401",
+          "minimal_smith_factors": [
+            11231718727873462272
+          ],
+          "adjoint_smith_factors": [
+            39162581656768752151871619072
+          ],
+          "adjoint_image_basis": [
+            [
+              "39162581656768752151871619072"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            3486784401
+          ]
+        }
+      ]
+    },
+    {
+      "parabolic": 3,
+      "complex_dimension": 20,
+      "degrees": [
+        {
+          "degree": 0,
+          "rank": 1,
+          "degree_scale": "1",
+          "minimal_smith_factors": [
+            1
+          ],
+          "adjoint_smith_factors": [
+            1
+          ],
+          "adjoint_image_basis": [
+            [
+              "1"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": []
+        },
+        {
+          "degree": 1,
+          "rank": 1,
+          "degree_scale": "3",
+          "minimal_smith_factors": [
+            12
+          ],
+          "adjoint_smith_factors": [
+            36
+          ],
+          "adjoint_image_basis": [
+            [
+              "36"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            3
+          ]
+        },
+        {
+          "degree": 2,
+          "rank": 2,
+          "degree_scale": "9",
+          "minimal_smith_factors": [
+            72,
+            144
+          ],
+          "adjoint_smith_factors": [
+            648,
+            1296
+          ],
+          "adjoint_image_basis": [
+            [
+              "648",
+              "0"
+            ],
+            [
+              "0",
+              "1296"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            9,
+            9
+          ]
+        },
+        {
+          "degree": 3,
+          "rank": 3,
+          "degree_scale": "27",
+          "minimal_smith_factors": [
+            432,
+            864,
+            1728
+          ],
+          "adjoint_smith_factors": [
+            11664,
+            23328,
+            46656
+          ],
+          "adjoint_image_basis": [
+            [
+              "11664",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "23328",
+              "0"
+            ],
+            [
+              "0",
+              "23328",
+              "46656"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            27,
+            27,
+            27
+          ]
+        },
+        {
+          "degree": 4,
+          "rank": 4,
+          "degree_scale": "81",
+          "minimal_smith_factors": [
+            5184,
+            5184,
+            10368,
+            62208
+          ],
+          "adjoint_smith_factors": [
+            419904,
+            419904,
+            839808,
+            5038848
+          ],
+          "adjoint_image_basis": [
+            [
+              "419904",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "839808",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "419904",
+              "0"
+            ],
+            [
+              "3359232",
+              "2519424",
+              "1679616",
+              "5038848"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            81,
+            81,
+            81,
+            81
+          ]
+        },
+        {
+          "degree": 5,
+          "rank": 5,
+          "degree_scale": "243",
+          "minimal_smith_factors": [
+            31104,
+            62208,
+            62208,
+            124416,
+            746496
+          ],
+          "adjoint_smith_factors": [
+            7558272,
+            15116544,
+            15116544,
+            30233088,
+            181398528
+          ],
+          "adjoint_image_basis": [
+            [
+              "7558272",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "30233088",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "15116544",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "60466176",
+              "0"
+            ],
+            [
+              "0",
+              "15116544",
+              "15116544",
+              "0",
+              "45349632"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            243,
+            243,
+            243,
+            243,
+            243
+          ]
+        },
+        {
+          "degree": 6,
+          "rank": 6,
+          "degree_scale": "729",
+          "minimal_smith_factors": [
+            373248,
+            373248,
+            373248,
+            746496,
+            2239488,
+            4478976
+          ],
+          "adjoint_smith_factors": [
+            272097792,
+            272097792,
+            272097792,
+            544195584,
+            1632586752,
+            3265173504
+          ],
+          "adjoint_image_basis": [
+            [
+              "272097792",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "272097792",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "1088391168",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "272097792",
+              "0",
+              "0"
+            ],
+            [
+              "544195584",
+              "0",
+              "1088391168",
+              "0",
+              "1632586752",
+              "0"
+            ],
+            [
+              "544195584",
+              "272097792",
+              "0",
+              "272097792",
+              "0",
+              "1632586752"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            729,
+            729,
+            729,
+            729,
+            729,
+            729
+          ]
+        },
+        {
+          "degree": 7,
+          "rank": 7,
+          "degree_scale": "2187",
+          "minimal_smith_factors": [
+            2239488,
+            4478976,
+            4478976,
+            4478976,
+            26873856,
+            26873856,
+            53747712
+          ],
+          "adjoint_smith_factors": [
+            4897760256,
+            9795520512,
+            9795520512,
+            9795520512,
+            58773123072,
+            58773123072,
+            117546246144
+          ],
+          "adjoint_image_basis": [
+            [
+              "4897760256",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "9795520512",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "9795520512",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "19591041024",
+              "9795520512",
+              "58773123072",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0",
+              "39182082048",
+              "0",
+              "0"
+            ],
+            [
+              "9795520512",
+              "9795520512",
+              "19591041024",
+              "0",
+              "9795520512",
+              "29386561536",
+              "0"
+            ],
+            [
+              "9795520512",
+              "48977602560",
+              "9795520512",
+              "0",
+              "29386561536",
+              "29386561536",
+              "58773123072"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            2187,
+            2187,
+            2187,
+            2187,
+            2187,
+            2187,
+            2187
+          ]
+        },
+        {
+          "degree": 8,
+          "rank": 7,
+          "degree_scale": "6561",
+          "minimal_smith_factors": [
+            26873856,
+            26873856,
+            53747712,
+            161243136,
+            161243136,
+            322486272,
+            322486272
+          ],
+          "adjoint_smith_factors": [
+            176319369216,
+            176319369216,
+            352638738432,
+            1057916215296,
+            1057916215296,
+            2115832430592,
+            2115832430592
+          ],
+          "adjoint_image_basis": [
+            [
+              "176319369216",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "352638738432",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "176319369216",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "352638738432",
+              "705277476864",
+              "1057916215296",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "705277476864",
+              "352638738432",
+              "0",
+              "0",
+              "1057916215296",
+              "0",
+              "0"
+            ],
+            [
+              "1410554953728",
+              "1763193692160",
+              "705277476864",
+              "0",
+              "1057916215296",
+              "2115832430592",
+              "0"
+            ],
+            [
+              "705277476864",
+              "1057916215296",
+              "1410554953728",
+              "0",
+              "1057916215296",
+              "0",
+              "2115832430592"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            6561,
+            6561,
+            6561,
+            6561,
+            6561,
+            6561,
+            6561
+          ]
+        },
+        {
+          "degree": 9,
+          "rank": 8,
+          "degree_scale": "19683",
+          "minimal_smith_factors": [
+            161243136,
+            161243136,
+            322486272,
+            967458816,
+            1934917632,
+            1934917632,
+            1934917632,
+            3869835264
+          ],
+          "adjoint_smith_factors": [
+            3173748645888,
+            3173748645888,
+            6347497291776,
+            19042491875328,
+            38084983750656,
+            38084983750656,
+            38084983750656,
+            76169967501312
+          ],
+          "adjoint_image_basis": [
+            [
+              "3173748645888",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "3173748645888",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "12694994583552",
+              "6347497291776",
+              "19042491875328",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "12694994583552",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "12694994583552",
+              "19042491875328",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "12694994583552",
+              "0",
+              "0",
+              "0",
+              "0",
+              "38084983750656",
+              "0",
+              "0"
+            ],
+            [
+              "25389989167104",
+              "0",
+              "19042491875328",
+              "12694994583552",
+              "19042491875328",
+              "0",
+              "38084983750656",
+              "0"
+            ],
+            [
+              "25389989167104",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "76169967501312"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            19683,
+            19683,
+            19683,
+            19683,
+            19683,
+            19683,
+            19683,
+            19683
+          ]
+        },
+        {
+          "degree": 10,
+          "rank": 8,
+          "degree_scale": "59049",
+          "minimal_smith_factors": [
+            1934917632,
+            1934917632,
+            5804752896,
+            11609505792,
+            11609505792,
+            23219011584,
+            23219011584,
+            23219011584
+          ],
+          "adjoint_smith_factors": [
+            114254951251968,
+            114254951251968,
+            342764853755904,
+            685529707511808,
+            685529707511808,
+            1371059415023616,
+            1371059415023616,
+            1371059415023616
+          ],
+          "adjoint_image_basis": [
+            [
+              "114254951251968",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "114254951251968",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "114254951251968",
+              "114254951251968",
+              "342764853755904",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "457019805007872",
+              "457019805007872",
+              "0",
+              "685529707511808",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "457019805007872",
+              "0",
+              "0",
+              "0",
+              "1371059415023616",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "228509902503936",
+              "342764853755904",
+              "0",
+              "0",
+              "0",
+              "685529707511808",
+              "0",
+              "0"
+            ],
+            [
+              "914039610015744",
+              "1142549512519680",
+              "0",
+              "685529707511808",
+              "0",
+              "0",
+              "1371059415023616",
+              "0"
+            ],
+            [
+              "0",
+              "914039610015744",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "1371059415023616"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            59049,
+            59049,
+            59049,
+            59049,
+            59049,
+            59049,
+            59049,
+            59049
+          ]
+        },
+        {
+          "degree": 11,
+          "rank": 8,
+          "degree_scale": "177147",
+          "minimal_smith_factors": [
+            11609505792,
+            69657034752,
+            69657034752,
+            69657034752,
+            139314069504,
+            139314069504,
+            278628139008,
+            278628139008
+          ],
+          "adjoint_smith_factors": [
+            2056589122535424,
+            12339534735212544,
+            12339534735212544,
+            12339534735212544,
+            24679069470425088,
+            24679069470425088,
+            49358138940850176,
+            49358138940850176
+          ],
+          "adjoint_image_basis": [
+            [
+              "2056589122535424",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "4113178245070848",
+              "12339534735212544",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "8226356490141696",
+              "0",
+              "12339534735212544",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "16452712980283392",
+              "0",
+              "12339534735212544",
+              "24679069470425088",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "12339534735212544",
+              "0",
+              "24679069470425088",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "4113178245070848",
+              "0",
+              "0",
+              "0",
+              "0",
+              "12339534735212544",
+              "0",
+              "0"
+            ],
+            [
+              "16452712980283392",
+              "0",
+              "24679069470425088",
+              "0",
+              "0",
+              "0",
+              "49358138940850176",
+              "0"
+            ],
+            [
+              "32905425960566784",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "49358138940850176"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            177147,
+            177147,
+            177147,
+            177147,
+            177147,
+            177147,
+            177147,
+            177147
+          ]
+        },
+        {
+          "degree": 12,
+          "rank": 7,
+          "degree_scale": "531441",
+          "minimal_smith_factors": [
+            139314069504,
+            417942208512,
+            835884417024,
+            835884417024,
+            835884417024,
+            1671768834048,
+            1671768834048
+          ],
+          "adjoint_smith_factors": [
+            74037208411275264,
+            222111625233825792,
+            444223250467651584,
+            444223250467651584,
+            444223250467651584,
+            888446500935303168,
+            888446500935303168
+          ],
+          "adjoint_image_basis": [
+            [
+              "74037208411275264",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "148074416822550528",
+              "444223250467651584",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "74037208411275264",
+              "0",
+              "222111625233825792",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "296148833645101056",
+              "0",
+              "0",
+              "888446500935303168",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "148074416822550528",
+              "0",
+              "222111625233825792",
+              "0",
+              "444223250467651584",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "444223250467651584",
+              "0"
+            ],
+            [
+              "296148833645101056",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "888446500935303168"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            531441,
+            531441,
+            531441,
+            531441,
+            531441,
+            531441,
+            531441
+          ]
+        },
+        {
+          "degree": 13,
+          "rank": 7,
+          "degree_scale": "1594323",
+          "minimal_smith_factors": [
+            2507653251072,
+            5015306502144,
+            5015306502144,
+            10030613004288,
+            10030613004288,
+            10030613004288,
+            20061226008576
+          ],
+          "adjoint_smith_factors": [
+            3998009254208864256,
+            7996018508417728512,
+            7996018508417728512,
+            15992037016835457024,
+            15992037016835457024,
+            15992037016835457024,
+            31984074033670914048
+          ],
+          "adjoint_image_basis": [
+            [
+              "3998009254208864256",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "15992037016835457024",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "7996018508417728512",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "7996018508417728512",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0",
+              "31984074033670914048",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "7996018508417728512",
+              "0",
+              "0",
+              "15992037016835457024",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "7996018508417728512",
+              "7996018508417728512",
+              "0",
+              "0",
+              "15992037016835457024"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            1594323,
+            1594323,
+            1594323,
+            1594323,
+            1594323,
+            1594323,
+            1594323
+          ]
+        },
+        {
+          "degree": 14,
+          "rank": 6,
+          "degree_scale": "4782969",
+          "minimal_smith_factors": [
+            30091839012864,
+            60183678025728,
+            60183678025728,
+            120367356051456,
+            120367356051456,
+            120367356051456
+          ],
+          "adjoint_smith_factors": [
+            143928333151519113216,
+            287856666303038226432,
+            287856666303038226432,
+            575713332606076452864,
+            575713332606076452864,
+            575713332606076452864
+          ],
+          "adjoint_image_basis": [
+            [
+              "143928333151519113216",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "287856666303038226432",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "575713332606076452864",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "287856666303038226432",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "287856666303038226432",
+              "575713332606076452864",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "287856666303038226432",
+              "0",
+              "575713332606076452864"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            4782969,
+            4782969,
+            4782969,
+            4782969,
+            4782969,
+            4782969
+          ]
+        },
+        {
+          "degree": 15,
+          "rank": 5,
+          "degree_scale": "14348907",
+          "minimal_smith_factors": [
+            180551034077184,
+            361102068154368,
+            722204136308736,
+            722204136308736,
+            1444408272617472
+          ],
+          "adjoint_smith_factors": [
+            2590709996727344037888,
+            5181419993454688075776,
+            10362839986909376151552,
+            10362839986909376151552,
+            20725679973818752303104
+          ],
+          "adjoint_image_basis": [
+            [
+              "2590709996727344037888",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "5181419993454688075776",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "10362839986909376151552",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "10362839986909376151552",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0",
+              "20725679973818752303104"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            14348907,
+            14348907,
+            14348907,
+            14348907,
+            14348907
+          ]
+        },
+        {
+          "degree": 16,
+          "rank": 4,
+          "degree_scale": "43046721",
+          "minimal_smith_factors": [
+            2166612408926208,
+            4333224817852416,
+            8666449635704832,
+            8666449635704832
+          ],
+          "adjoint_smith_factors": [
+            93265559882184385363968,
+            186531119764368770727936,
+            373062239528737541455872,
+            373062239528737541455872
+          ],
+          "adjoint_image_basis": [
+            [
+              "93265559882184385363968",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "93265559882184385363968",
+              "186531119764368770727936",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "373062239528737541455872",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "373062239528737541455872"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            43046721,
+            43046721,
+            43046721,
+            43046721
+          ]
+        },
+        {
+          "degree": 17,
+          "rank": 3,
+          "degree_scale": "129140163",
+          "minimal_smith_factors": [
+            25999348907114496,
+            51998697814228992,
+            103997395628457984
+          ],
+          "adjoint_smith_factors": [
+            3357560155758637873102848,
+            6715120311517275746205696,
+            13430240623034551492411392
+          ],
+          "adjoint_image_basis": [
+            [
+              "3357560155758637873102848",
+              "0",
+              "0"
+            ],
+            [
+              "3357560155758637873102848",
+              "6715120311517275746205696",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "13430240623034551492411392"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            129140163,
+            129140163,
+            129140163
+          ]
+        },
+        {
+          "degree": 18,
+          "rank": 2,
+          "degree_scale": "387420489",
+          "minimal_smith_factors": [
+            311992186885373952,
+            623984373770747904
+          ],
+          "adjoint_smith_factors": [
+            120872165607310963431702528,
+            241744331214621926863405056
+          ],
+          "adjoint_image_basis": [
+            [
+              "120872165607310963431702528",
+              "0"
+            ],
+            [
+              "0",
+              "241744331214621926863405056"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            387420489,
+            387420489
+          ]
+        },
+        {
+          "degree": 19,
+          "rank": 1,
+          "degree_scale": "1162261467",
+          "minimal_smith_factors": [
+            3743906242624487424
+          ],
+          "adjoint_smith_factors": [
+            4351397961863194683541291008
+          ],
+          "adjoint_image_basis": [
+            [
+              "4351397961863194683541291008"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            1162261467
+          ]
+        },
+        {
+          "degree": 20,
+          "rank": 1,
+          "degree_scale": "3486784401",
+          "minimal_smith_factors": [
+            44926874911493849088
+          ],
+          "adjoint_smith_factors": [
+            156650326627075008607486476288
+          ],
+          "adjoint_image_basis": [
+            [
+              "156650326627075008607486476288"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            3486784401
+          ]
+        }
+      ]
+    },
+    {
+      "parabolic": 4,
+      "complex_dimension": 15,
+      "degrees": [
+        {
+          "degree": 0,
+          "rank": 1,
+          "degree_scale": "1",
+          "minimal_smith_factors": [
+            1
+          ],
+          "adjoint_smith_factors": [
+            1
+          ],
+          "adjoint_image_basis": [
+            [
+              "1"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": []
+        },
+        {
+          "degree": 1,
+          "rank": 1,
+          "degree_scale": "3",
+          "minimal_smith_factors": [
+            12
+          ],
+          "adjoint_smith_factors": [
+            36
+          ],
+          "adjoint_image_basis": [
+            [
+              "36"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            3
+          ]
+        },
+        {
+          "degree": 2,
+          "rank": 1,
+          "degree_scale": "9",
+          "minimal_smith_factors": [
+            144
+          ],
+          "adjoint_smith_factors": [
+            1296
+          ],
+          "adjoint_image_basis": [
+            [
+              "1296"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            9
+          ]
+        },
+        {
+          "degree": 3,
+          "rank": 1,
+          "degree_scale": "27",
+          "minimal_smith_factors": [
+            1728
+          ],
+          "adjoint_smith_factors": [
+            46656
+          ],
+          "adjoint_image_basis": [
+            [
+              "46656"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            27
+          ]
+        },
+        {
+          "degree": 4,
+          "rank": 2,
+          "degree_scale": "81",
+          "minimal_smith_factors": [
+            5184,
+            62208
+          ],
+          "adjoint_smith_factors": [
+            419904,
+            5038848
+          ],
+          "adjoint_image_basis": [
+            [
+              "419904",
+              "0"
+            ],
+            [
+              "1679616",
+              "5038848"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            81,
+            81
+          ]
+        },
+        {
+          "degree": 5,
+          "rank": 2,
+          "degree_scale": "243",
+          "minimal_smith_factors": [
+            62208,
+            746496
+          ],
+          "adjoint_smith_factors": [
+            15116544,
+            181398528
+          ],
+          "adjoint_image_basis": [
+            [
+              "15116544",
+              "0"
+            ],
+            [
+              "120932352",
+              "181398528"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            243,
+            243
+          ]
+        },
+        {
+          "degree": 6,
+          "rank": 2,
+          "degree_scale": "729",
+          "minimal_smith_factors": [
+            373248,
+            2239488
+          ],
+          "adjoint_smith_factors": [
+            272097792,
+            1632586752
+          ],
+          "adjoint_image_basis": [
+            [
+              "272097792",
+              "0"
+            ],
+            [
+              "0",
+              "1632586752"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            729,
+            729
+          ]
+        },
+        {
+          "degree": 7,
+          "rank": 2,
+          "degree_scale": "2187",
+          "minimal_smith_factors": [
+            4478976,
+            26873856
+          ],
+          "adjoint_smith_factors": [
+            9795520512,
+            58773123072
+          ],
+          "adjoint_image_basis": [
+            [
+              "9795520512",
+              "0"
+            ],
+            [
+              "9795520512",
+              "58773123072"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            2187,
+            2187
+          ]
+        },
+        {
+          "degree": 8,
+          "rank": 2,
+          "degree_scale": "6561",
+          "minimal_smith_factors": [
+            161243136,
+            322486272
+          ],
+          "adjoint_smith_factors": [
+            1057916215296,
+            2115832430592
+          ],
+          "adjoint_image_basis": [
+            [
+              "1057916215296",
+              "0"
+            ],
+            [
+              "1057916215296",
+              "2115832430592"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            6561,
+            6561
+          ]
+        },
+        {
+          "degree": 9,
+          "rank": 2,
+          "degree_scale": "19683",
+          "minimal_smith_factors": [
+            1934917632,
+            3869835264
+          ],
+          "adjoint_smith_factors": [
+            38084983750656,
+            76169967501312
+          ],
+          "adjoint_image_basis": [
+            [
+              "38084983750656",
+              "0"
+            ],
+            [
+              "0",
+              "76169967501312"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            19683,
+            19683
+          ]
+        },
+        {
+          "degree": 10,
+          "rank": 2,
+          "degree_scale": "59049",
+          "minimal_smith_factors": [
+            5804752896,
+            23219011584
+          ],
+          "adjoint_smith_factors": [
+            342764853755904,
+            1371059415023616
+          ],
+          "adjoint_image_basis": [
+            [
+              "342764853755904",
+              "0"
+            ],
+            [
+              "0",
+              "1371059415023616"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            59049,
+            59049
+          ]
+        },
+        {
+          "degree": 11,
+          "rank": 2,
+          "degree_scale": "177147",
+          "minimal_smith_factors": [
+            69657034752,
+            278628139008
+          ],
+          "adjoint_smith_factors": [
+            12339534735212544,
+            49358138940850176
+          ],
+          "adjoint_image_basis": [
+            [
+              "12339534735212544",
+              "0"
+            ],
+            [
+              "0",
+              "49358138940850176"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            177147,
+            177147
+          ]
+        },
+        {
+          "degree": 12,
+          "rank": 1,
+          "degree_scale": "531441",
+          "minimal_smith_factors": [
+            835884417024
+          ],
+          "adjoint_smith_factors": [
+            444223250467651584
+          ],
+          "adjoint_image_basis": [
+            [
+              "444223250467651584"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            531441
+          ]
+        },
+        {
+          "degree": 13,
+          "rank": 1,
+          "degree_scale": "1594323",
+          "minimal_smith_factors": [
+            10030613004288
+          ],
+          "adjoint_smith_factors": [
+            15992037016835457024
+          ],
+          "adjoint_image_basis": [
+            [
+              "15992037016835457024"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            1594323
+          ]
+        },
+        {
+          "degree": 14,
+          "rank": 1,
+          "degree_scale": "4782969",
+          "minimal_smith_factors": [
+            120367356051456
+          ],
+          "adjoint_smith_factors": [
+            575713332606076452864
+          ],
+          "adjoint_image_basis": [
+            [
+              "575713332606076452864"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            4782969
+          ]
+        },
+        {
+          "degree": 15,
+          "rank": 1,
+          "degree_scale": "14348907",
+          "minimal_smith_factors": [
+            1444408272617472
+          ],
+          "adjoint_smith_factors": [
+            20725679973818752303104
+          ],
+          "adjoint_image_basis": [
+            [
+              "20725679973818752303104"
+            ]
+          ],
+          "minimal_mod_adjoint_factors": [
+            14348907
+          ]
+        }
+      ]
+    }
+  ],
+  "result": "passed",
+  "derived_image_rows": 74,
+  "fresh_api_degrees": 20,
+  "direct_laurent_lattices": 32,
+  "seconds": 1.529,
+  "source_hash_semantics": "SHA256 with CRLF normalized to LF.",
+  "source_sha256": {
+    "experiments/f4_adjoint_comparison.py": "fe5d6f3d714fa9740c36a957a56522c80238a3c21620880ec0364579c98f29c9",
+    "experiments/f4-character-form-results.json": "c9cfc559210417545444b8ad15341dbff3ed19048a3acc4a210625c6e4aeb157",
+    "experiments/f4-character-form-audit.json": "1f6fdfa941cbcb4a9ac5037a4020b459d8e8498d87f395f1e75e8f9de1e018bb",
+    "experiments/e6_character_form.py": "80b2c60ea09a300aab0b152dac512934ab8b779ab09f23cb5efe8da249dfc1dd",
+    "src/sage_borel/__init__.py": "3aa6eca27f9ca552b8c4e422abbfe5ba5ab7663f03751f5b32a7bd8c9952e92f",
+    "src/sage_borel/algebra.py": "7fdf2deb8808961e1c3964c077fd4930e16e0ad8924144f3f2910726a8c46a4d",
+    "src/sage_borel/character_invariants.py": "5be9689dfd0a625d23ba50809b054ef89222dc65dd03bf34522fc4e236be6efd",
+    "src/sage_borel/characters.py": "d3e34516ceebeb8d08100ec5e21e414328e135119eba2300cf1bd909917c19e3",
+    "src/sage_borel/classical.py": "745666cf40d86e0afd095e4139e7a66889b3c578fda743bde06969e15d7ae088",
+    "src/sage_borel/coinvariant.py": "76859a189bc4b20b8592adcca7250f8f7bde18738b3256c830d8bf0f938bf0d9",
+    "src/sage_borel/core.py": "c21a7b8893c5155efc71123264d698b7504dd89d8657b0612f57e0cb05118751",
+    "src/sage_borel/exceptional.py": "64ea1e3aeed113e517232cdaff6a09cc01a2c9b6a19fadd673e2630b5c01d1ec",
+    "src/sage_borel/expansion.py": "ecaf6a4439b8ff916dfc54716f9a3d1fc6bc03fbb17e8f30b08351480573cc46",
+    "src/sage_borel/families.py": "8d4a0cd068b800ea67ae38041f8ad6e576b88924ca0c83e81213ffd95694a34c",
+    "src/sage_borel/integral.py": "5e406be9f94d851821c3aff387eb1d1f81ef0172b94841ae0c3def7be6b465b4",
+    "src/sage_borel/inverse.py": "e7c222ff9454589e8cffd8fccf0b01f7663d21140c24a83aab99bc7b9879c380",
+    "src/sage_borel/lattices.py": "8fe8cf54e87e984cd728f219f453f68592aa589d849c41b152f03ebbb735f715",
+    "src/sage_borel/operations.py": "0429729152ddebd67d0034cdb5ef4953ed2091468168bd24f97ced4f2254b857",
+    "src/sage_borel/orthogonal.py": "4583d17ec943c639b021238d1af50769dd7b6502d60cb209e6523a00c3b0efd5",
+    "src/sage_borel/presentation.py": "0d28e847571a18b0a819a45b9df582f6a62138c309c5c4bf152c7331c6bbfff0",
+    "src/sage_borel/products.py": "f0cd691c717a65f0ca4f288acb4d359b1f3f352ce1efc8d161eb3f3d0bca780b"
+  }
+}

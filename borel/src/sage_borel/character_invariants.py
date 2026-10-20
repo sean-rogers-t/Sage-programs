@@ -127,14 +127,25 @@ class IntegralCharacterSource:
         return self._cache[d]
 
 
-def f4_character_source(parabolic):
-    """The full V(omega4), dimension-26, Levi character source for F4/P_i.
+def f4_character_source(parabolic, *, representation="minimal"):
+    """Full F4/P_i Levi character source for the minimal or adjoint module.
 
+    ``representation="minimal"`` selects V(omega4), dimension 26 (default).
+    ``representation="adjoint"`` selects V(omega1), dimension 52.
+    The adjoint degree-d source and image are 3^d times the minimal ones.
     Completeness follows from the all-primes torus certificate and the
     published rational invariant generators. No finite Z-generator list
     or integral kernel presentation is claimed; use degree(d).image().
     """
     from .exceptional import exceptional_borel
+    if representation not in ("minimal", "adjoint"):
+        raise ValueError("representation must be 'minimal' or 'adjoint'")
+    if representation == "minimal":
+        highest = (0, 0, 0, 1)
+        change = [[0, 1, 0, -1], [0, 1, -1, 1], [1, -1, 0, 0], [1, -2, 1, 0]]
+    else:
+        highest = (1, 0, 0, 0)
+        change = [[1, -1, 0, 1], [0, 1, -1, 1], [0, 0, 0, 1], [0, 0, 1, -2]]
     borel = exceptional_borel("F4", parabolic)
     entries = {}
     for info in borel.generators():
@@ -143,6 +154,5 @@ def f4_character_source(parabolic):
         if f not in entries.values():
             entries[info.name] = f
     return IntegralCharacterSource(
-        springer_character_map("F4", (0, 0, 0, 1)),
-        GeneratorAlgebra(borel, entries),
-        [[0, 1, 0, -1], [0, 1, -1, 1], [1, -1, 0, 0], [1, -2, 1, 0]])
+        springer_character_map("F4", highest),
+        GeneratorAlgebra(borel, entries), change)

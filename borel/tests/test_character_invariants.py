@@ -6,6 +6,49 @@ from sage_borel import (BorelMap, GeneratorAlgebra, IntegralCharacterSource,
 
 
 class CharacterInvariantTests(unittest.TestCase):
+    def test_adjoint_torus_certificate_including_characteristic_two(self):
+        minimal = f4_character_source(1)
+        adjoint = f4_character_source(1, representation="adjoint")
+        s, t = minimal.springer_map, adjoint.springer_map
+        self.assertEqual(t.dimension, 52)
+        self.assertEqual(t.trace_gram, 3*s.trace_gram)
+        self.assertEqual(t.linear_basis_matrix, 3*s.linear_basis_matrix)
+        self.assertNotEqual(t.theta, s.theta)
+        self.assertNotEqual(t.theta, tuple(f/3 for f in s.theta))
+        cert = adjoint.torus_certificate
+        self.assertTrue(cert.certified)
+        self.assertEqual(cert.exceptional_primes, (2,))
+        self.assertEqual([c[0] for c in cert.cases], [0, 2])
+        self.assertEqual([c[3] for c in cert.cases], [4, 4])
+        self.assertFalse(t.is_integral(s.linear_generators[0]))
+        self.assertTrue(t.is_integral(3*s.linear_generators[0]))
+
+    def test_adjoint_source_and_embedded_image_scaling(self):
+        for node in range(1, 5):
+            minimal = f4_character_source(node)
+            adjoint = f4_character_source(node, representation="adjoint")
+            for d in range(5):
+                old, new = minimal.degree(d), adjoint.degree(d)
+                self.assertEqual(new.basis_matrix, 3**d*old.basis_matrix)
+                old_image, new_image = old.image(), new.image()
+                self.assertEqual(new_image.smith_factors,
+                                 tuple(3**d*f for f in old_image.smith_factors))
+                comparison = new_image.compare(old_image)
+                self.assertTrue(comparison.left_in_right)
+                self.assertEqual(comparison.right_in_left, d == 0)
+                quotient = old_image.quotient_by(new_image)
+                self.assertEqual(quotient.free_rank, 0)
+                self.assertEqual(quotient.torsion_factors,
+                                 (3**d,)*old_image.rank if d else ())
+
+    def test_representation_selection_is_explicit_and_backward_compatible(self):
+        default = f4_character_source(1)
+        explicit = f4_character_source(1, representation="minimal")
+        self.assertEqual(default.springer_map.theta, explicit.springer_map.theta)
+        for invalid in ("Adjoint", "52", 52, None, True, (1, 0, 0, 0)):
+            with self.assertRaises(ValueError):
+                f4_character_source(1, representation=invalid)
+
     def test_f4_torus_and_low_degree_images(self):
         for node, linear, quadratic in ((1, 6, (36,)), (2, 6, (36, 72)),
                                          (3, 12, (72, 144)), (4, 12, (144,))):

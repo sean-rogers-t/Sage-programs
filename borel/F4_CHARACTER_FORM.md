@@ -24,6 +24,10 @@ this source, in every cohomological degree, and compare it with both earlier
 selected forms. These image calculations do not supply a finite integral
 generator-and-relation presentation of the invariant source.
 
+The [adjoint comparison](F4_REPRESENTATION_COMPARISON.md) proves the
+52-dimensional source is Sym_Z(18 Q_long), with degree-d sources and
+images scaled by 3^d for every standard Levi.
+
 ## Relation to the papers and conventions
 
 We use Sage/Bourbaki numbering, fundamental weights omega_i, and P_i formed

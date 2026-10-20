@@ -60,6 +60,17 @@ reconstructs all source lattices and checks their certificates and image
 arithmetic. This does not supply a finite integral invariant-ring
 presentation or a classification of representations, and no novelty is claimed.
 
+The [F4 adjoint comparison](F4_REPRESENTATION_COMPARISON.md) proves
+C52=Sym_Z(18 Q_long), using separate characteristic-two and odd-prime
+leading-term cases. Taking invariants and the common Borel map proves
+A52,L^d=3^d A26,L^d and J52,L^d=3^d J26,L^d for every standard Levi and
+every degree. This is a checked deduction, with no priority claim.
+All 74 adjoint image rows are derived from this theorem and the audited
+minimal tables. Fresh API checks cover 20 parabolic-degree pairs; 32
+homogeneous/filtered Laurent certificates are independently reconstructed.
+These finite checks support the implementation; they are not the
+all-degree proof, and the two Springer morphisms are not scalar multiples.
+
 The [G2/F4 note](EXCEPTIONAL_INTEGRAL.md) studies all maximal parabolics and
 all degrees for two explicitly selected generator forms: least integer
 image-denominator clearing, and individual primitive-image rescaling.

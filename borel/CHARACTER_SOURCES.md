@@ -248,6 +248,11 @@ The [G2 proof and independent audit](G2_CHARACTER_FORM.md) establish the
 first complete application. The [F4 proof and API](F4_CHARACTER_FORM.md)
 add Sym_Z(6 Q_long), all four maximal-parabolic image tables, and the
 general `IntegralCharacterSource` degreewise intersection interface.
+The [F4 representation comparison](F4_REPRESENTATION_COMPARISON.md)
+certifies the adjoint source Sym_Z(18 Q_long) and proves degreewise
+3^d scaling of every Levi source and image. Its general scaling argument
+requires full-source certificates for both representations, not just
+proportional linear lattices.
 A classification of representations
 satisfying the criterion remains open work in this repository. No claim
 that those questions are open in the literature, or explicitly posed by

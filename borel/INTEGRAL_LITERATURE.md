@@ -483,3 +483,10 @@ The published inputs remain Part III, Lemma 6.1 and Theorem 6.2.
 The all-primes certificate and integral image comparisons are deductions
 recorded in this repository. This source check is not a comprehensive
 priority search for those exact integral statements.
+
+The [F4 adjoint comparison](F4_REPRESENTATION_COMPARISON.md) extends this
+calculation to V(omega1): its literal torus source is Sym_Z(18 Q_long).
+The full-source certificates imply degree-d scaling by 3^d of every
+Levi source and Borel image. This is a deduction recorded here, not a
+statement attributed to Kostant--Michor or the Kumar papers. No exhaustive
+priority search or general classification of representations is claimed.
