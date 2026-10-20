@@ -1,19 +1,20 @@
 {
   "result": "passed",
-  "version": "0.15.0",
+  "version": "0.16.0",
   "sage_version": "9.5",
-  "test_methods_run": 128,
+  "test_methods_run": 133,
   "failures": 0,
   "errors": 0,
   "skipped": 0,
   "command": "PYTHONPATH=src sage -python tools/verify_character_release.py",
-  "seconds": 94.3,
+  "seconds": 96.639,
   "source_hash_semantics": "SHA256 with CRLF normalized to LF.",
   "source_sha256": {
-    "src/sage_borel/__init__.py": "ccc8a90b24dbf453743741fde238cd0916a6e93b9e5278ae033148327633600d",
+    "src/sage_borel/__init__.py": "524c676a613649c61c1584c02de49c6233e3b652d4b6b0e7dbf3b424499e8679",
     "src/sage_borel/_fixed_point.py": "522396bf40f82ff101965e423e73d0626c7c68d55107ab81c71a8dc274c64bc9",
     "src/sage_borel/algebra.py": "7fdf2deb8808961e1c3964c077fd4930e16e0ad8924144f3f2910726a8c46a4d",
     "src/sage_borel/character_invariants.py": "6a88572924fe9516b8609578483dcbbf016a953146149d65a6e1be6c2cd652d0",
+    "src/sage_borel/character_lattices.py": "35ff826fc101c465c24359b82b279c4a2302e1123ee0447de065727dd9bfc133",
     "src/sage_borel/characters.py": "bedad8258a8257bb80870979cabcc332763e06834cd9c94371b04dd2450fe0b0",
     "src/sage_borel/classical.py": "745666cf40d86e0afd095e4139e7a66889b3c578fda743bde06969e15d7ae088",
     "src/sage_borel/coinvariant.py": "76859a189bc4b20b8592adcca7250f8f7bde18738b3256c830d8bf0f938bf0d9",
@@ -33,6 +34,7 @@
     "tests/oracle.py": "01976367d70b5f0adc88c95ce1b4b7abf3019d9c704410ca8d266cd8562874ae",
     "tests/test_algebra.py": "a15ea230a7649d22726c4b8831ce7974d84a847ec3eb49e7747b95806577a50a",
     "tests/test_character_invariants.py": "6ec7b4d0f53dffb1141d72918f7510fdc8f93356b452a70ec66c16947c14a60d",
+    "tests/test_character_lattices.py": "840652c6fde5907e0b77fbd483b7eb869ee75ba0012df957783c6d841892688e",
     "tests/test_characters.py": "665a434869b8fed3c1debd5c9c0f0749e81a064f3044a49fa47da33be8342347",
     "tests/test_coinvariant.py": "d8ca2cf34f87abb696bf7e426551f6eff497751ef75b8ba0a87ca7f5a59320e4",
     "tests/test_e7_adjoint.py": "73a75b693ebc3f07f2cd0ca7ff33316ebd9b78e8bf378eb5aca005aa4fc016a0",
@@ -48,7 +50,7 @@
     "tests/test_trace_source.py": "d0f3921e54bfb4f5fba6eca1348725afb80022f43c8bae6e58d0cdc2ebb774e4",
     "src/sage_borel/data/exceptional_generators.json": "702bff624a8700d39567204c09f5365308e3f5b71817b476d0e8da38062b0a51",
     "tests/data/exceptional_expected.json": "d3d25de5b3a66f98c7266ba22da7966d0ddb35e252befcdb2360bc0dd143f749",
-    "pyproject.toml": "0ac486071f31630dc7f239e9daa7fdcd35357efda716f07313c8eeb634c1384f",
+    "pyproject.toml": "13115ea22b712d834f6e3eaaa256a25f6a98571b4b08b027c503c3cdc0a954fe",
     "tools/verify_character_release.py": "94d808433689da5936d01906e3d4dafedb9d1bcc07bbdfc245b095840898384c"
   }
 }

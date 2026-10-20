@@ -523,3 +523,24 @@ weight-moment formula in Rogers' preprint is explicitly credited, as
 are the standard lattice and denominator arguments. The proof passed
 the audit; the exact integral statement was not located, and literature
 priority remains unresolved.
+
+The [irreducible classification](IRREDUCIBLE_CHARACTER_LATTICES.md)
+subsequently proves D_lambda=Q+Z*lambda and the closed dual-lattice
+formula Lambda_lambda=I_lambda*(Q+Z*lambda)^*. The index formula and
+its normalization I_ad=2h^vee are classical, as recorded in
+[Panyushev, Theorem 1.1](https://arxiv.org/pdf/0903.0398).
+The path argument uses standard highest-weight/Serre relations and is
+written out in the note. Its weighted-lattice and Springer-source
+consequences are deductions here, not claims attributed to those sources.
+Focused searches have not established priority. The general direct-sum
+classification is not implied; the note supplies an explicit F4
+counterexample to using index and central character alone in that setting.
+
+The [classification proof/source audit](IRREDUCIBLE_LATTICE_AUDIT.md)
+adds [Larsen--Pink, Section 3, author-hosted version](https://people.math.ethz.ch/~pink/ftp/LP1.pdf)
+for the established ordinary weight-span and root-difference lattice
+background. That statement does not alone imply the scalar-weighted
+equality for m_mu mu. The path proof supplies the latter step, and the
+audit found no gap. The exact integral Springer formulation was not
+located in the reviewed sources. It remains a proved deduction here
+with unresolved priority, not a certified originality claim.

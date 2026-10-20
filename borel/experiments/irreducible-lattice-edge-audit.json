@@ -1,0 +1,72 @@
+{
+  "result": "passed",
+  "engine": "Python standard library only",
+  "exceptional_support_masks": 463,
+  "target_paths": 3373,
+  "kostant_prefix_checks": 5840,
+  "distinct_generator_orders_checked": 41465,
+  "profiles": {
+    "G2": {
+      "support_masks": 3,
+      "target_paths": 6,
+      "path_prefixes": 8,
+      "word_orders": 10
+    },
+    "F4": {
+      "support_masks": 15,
+      "target_paths": 60,
+      "path_prefixes": 98,
+      "word_orders": 212
+    },
+    "E6": {
+      "support_masks": 63,
+      "target_paths": 378,
+      "path_prefixes": 647,
+      "word_orders": 1818
+    },
+    "E7": {
+      "support_masks": 127,
+      "target_paths": 889,
+      "path_prefixes": 1539,
+      "word_orders": 6817
+    },
+    "E8": {
+      "support_masks": 255,
+      "target_paths": 2040,
+      "path_prefixes": 3548,
+      "word_orders": 32608
+    }
+  },
+  "rank_one_cases": 32,
+  "nonshortest_path_controls": [
+    {
+      "type": "A2",
+      "multiplicity": 2
+    },
+    {
+      "type": "A3",
+      "multiplicity": 3
+    }
+  ],
+  "long_root_lattices": {
+    "G2": {
+      "index_in_P": 3,
+      "positive_long_roots": 3
+    },
+    "F4": {
+      "index_in_P": 4,
+      "positive_long_roots": 12
+    }
+  },
+  "F4_reducible_source_index_ratio": 81,
+  "scope": "All nonempty support masks on the five fixed exceptional diagrams; word-order and Kostant checks. Adversarial path, extremal-only, metric-dual, central-charge, long-root-scale and direct-sum controls. Not an external or formal proof audit.",
+  "seconds": 0.152,
+  "source_hash_semantics": "SHA256 with CRLF normalized to LF.",
+  "source_sha256": {
+    "experiments/audit_irreducible_lattice_edges.py": "1f460c42ad7cd3005a2169e0c99bd92bf3cc9cd0adb013c1ad95a3f0f3eed958",
+    "experiments/audit_irreducible_lattices.py": "b1fed2ca7b1b12cdda9545bddd4adad8becc572cabe84cbf752f958b27a7fbb3",
+    "experiments/audit_trace_source_survey.py": "55c6645aaafdab2a9129c7e5ccef054796993a90ffc25523afe68236beb1a8d0",
+    "IRREDUCIBLE_LATTICE_AUDIT.md": "909e4faf6c34998280de07c3f20d30df4338daf8eb9e6ac0ea16a74ac57fb861",
+    "IRREDUCIBLE_CHARACTER_LATTICES.md": "133ef33c0327ffd6ab92c9c0dd1f910c4352457a07ac96ec32758967a735937b"
+  }
+}

@@ -20,11 +20,12 @@ from .characters import (SpringerCharacterMap, LeadingTermCertificate, TraceSour
 from .character_invariants import (CharacterInvariantDegree, IntegralCharacterSource,
                                     f4_character_source)
 from .minuscule_characters import e6_character_source, e7_character_source
+from .character_lattices import IrreducibleCharacterLattice, irreducible_character_lattice
 from .exceptional import (ExceptionalBorel, GeneratorInfo, exceptional_borel, exceptional_algebra,
                           exceptional_generators, exceptional_image,
                           exceptional_polynomial)
 
-__version__ = "0.15.0"
+__version__ = "0.16.0"
 __all__ = ["BorelMap", "Expansion", "classical_borel", "to_type_a",
            "ExceptionalBorel", "GeneratorInfo", "exceptional_borel",
            "exceptional_generators", "exceptional_polynomial", "exceptional_image",
@@ -38,4 +39,5 @@ __all__ = ["BorelMap", "Expansion", "classical_borel", "to_type_a",
            "springer_character_map", "polynomial_source_certificate",
            "modular_character_relation", "g2_character_algebra",
            "CharacterInvariantDegree", "IntegralCharacterSource", "f4_character_source",
-           "e6_character_source", "e7_character_source"]
+           "e6_character_source", "e7_character_source",
+           "IrreducibleCharacterLattice", "irreducible_character_lattice"]

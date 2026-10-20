@@ -1,0 +1,71 @@
+{
+  "result": "passed",
+  "version": "0.16.0",
+  "date": "2026-10-20",
+  "classification": "Nontrivial irreducibles: D_lambda=Q+Z*lambda; Lambda_lambda=I_lambda*(Q+Z*lambda)^*, long roots squared length two.",
+  "literature_priority": "Unresolved; no originality claim.",
+  "survey": {
+    "cases": 490,
+    "full_weight_cases": 90,
+    "seconds": 24.284
+  },
+  "independent_audit": {
+    "engine": "Python standard library only",
+    "full_weight_reconstructions": 90,
+    "kostant_path_prefix_checks": 6711,
+    "seconds": 24.163
+  },
+  "regression": {
+    "tests": 133,
+    "seconds": 96.639,
+    "failures": 0,
+    "errors": 0
+  },
+  "documentation": {
+    "guides": 65,
+    "python_examples": 36,
+    "links": 756
+  },
+  "wheel": {
+    "filename": "sage_borel-0.16.0-py3-none-any.whl",
+    "sha256": "43aa37d75cedfd30af64bc53f8ab280ef67995c878cdf88ea69c5ea2e9af40cf",
+    "build": "python -m pip wheel --no-deps --no-build-isolation --wheel-dir dist .",
+    "isolated_target": "/tmp/sage-borel-016-wheel-jahn6f17",
+    "verified_import": true,
+    "tests": 17,
+    "seconds": 2.892
+  },
+  "historical_program_files_unchanged": 35,
+  "staging": "Survey and regression replayed from matching source copies in a Linux temporary directory; all source hashes checked against workspace files. Historical reports for earlier releases retained.",
+  "source_hash_semantics": "SHA256 with CRLF normalized to LF.",
+  "source_sha256": {
+    "src/sage_borel/character_lattices.py": "35ff826fc101c465c24359b82b279c4a2302e1123ee0447de065727dd9bfc133",
+    "src/sage_borel/__init__.py": "524c676a613649c61c1584c02de49c6233e3b652d4b6b0e7dbf3b424499e8679",
+    "tests/test_character_lattices.py": "840652c6fde5907e0b77fbd483b7eb869ee75ba0012df957783c6d841892688e",
+    "IRREDUCIBLE_CHARACTER_LATTICES.md": "133ef33c0327ffd6ab92c9c0dd1f910c4352457a07ac96ec32758967a735937b",
+    "experiments/irreducible_lattice_survey.py": "f92154c13e6fe3ecc0bc580ccd291b972f1f4a9d2cff7bb12731e17016736934",
+    "experiments/audit_irreducible_lattices.py": "b1fed2ca7b1b12cdda9545bddd4adad8becc572cabe84cbf752f958b27a7fbb3",
+    "experiments/irreducible-lattice-survey.json": "922c4c6fd5be3b59387961fd091e616b5a8970efc18c9a7ca4899185488fc9e9",
+    "experiments/irreducible-lattice-audit.json": "f8676c42f5c8b18c9257534563a34dbd30ba0377b744c0e20da3ee82f908f2ff",
+    "character-verification.json": "1b8776c64a74997b81b83e8216e9e9c069404ad8669f55848e940f3816f87261",
+    "documentation-verification.json": "5315d6a89aeb3f16c0f1f8081c34c147694e209047e540f1e7837336a223810c",
+    "tools/verify_documentation.py": "67c1eb3ce62b02a63cf6c332c8282d80906df5305a0b15cc536343a7939bba77",
+    "pyproject.toml": "13115ea22b712d834f6e3eaaa256a25f6a98571b4b08b027c503c3cdc0a954fe",
+    "IRREDUCIBLE_LATTICE_AUDIT.md": "909e4faf6c34998280de07c3f20d30df4338daf8eb9e6ac0ea16a74ac57fb861",
+    "experiments/audit_irreducible_lattice_edges.py": "1f460c42ad7cd3005a2169e0c99bd92bf3cc9cd0adb013c1ad95a3f0f3eed958",
+    "experiments/irreducible-lattice-edge-audit.json": "45b5bf7c3f4df0171ea8f3b65ae2a06993e90c84cc096ae788db44e0ea6afcb4"
+  },
+  "followup_classification_audit": {
+    "date": "2026-10-20",
+    "result": "passed",
+    "runtime_unchanged_from_commit": "de51b583cc182103065c22614d1e1edab8bc0e48",
+    "exceptional_support_masks": 463,
+    "target_paths": 3373,
+    "kostant_prefix_checks": 5840,
+    "word_order_checks": 41465,
+    "rank_one_cases": 32,
+    "all_prior_case_data_unchanged": true,
+    "literature": "Ordinary weight-span result explicitly credited to Larsen--Pink; exact multiplicity-weighted Springer formulation not located; priority unresolved.",
+    "scope": "Fresh survey, independent audit, boundary checks and documentation validation. Previous source-bound 133 regression and 17 installed-wheel tests retained for unchanged runtime."
+  }
+}

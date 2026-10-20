@@ -20,6 +20,10 @@ comparison and independent audit.
 The [general trace-source theorem](borel/TRACE_SOURCE_THEOREM.md) now
 proves degree-one generation for every supported normalized representation
 map, with a 59-case independent weight/lattice audit and a public certificate.
+The [irreducible lattice classification](borel/IRREDUCIBLE_CHARACTER_LATTICES.md)
+now gives the full linear source from the highest weight and trace index,
+without enumerating representation weights, for all exceptional groups.
+It includes a general proof, a fast API and separate exact-arithmetic checks.
 
 The [graded image calculator](borel/IMAGE_RELATIONS.md) computes exact relations
 among chosen generator images, with two-step symplectic flag experiments and

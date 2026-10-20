@@ -29,6 +29,26 @@ separate work.
 
 ## Exceptional integral images: first complete finite tables
 
+The [irreducible lattice classification](IRREDUCIBLE_CHARACTER_LATTICES.md)
+proves D_lambda=Q+Z*lambda by multiplicity-one simple-root paths, hence
+Lambda_lambda=I_lambda*(Q+Z*lambda)^*. This identifies every exceptional
+irreducible torus source: index times Q_long for G2/F4; index times P or Q
+for E6/E7 according to whether the central character is trivial; index
+times P=Q for E8. The index normalization is the published Dynkin
+convention I_ad=2h^vee. The highest-weight and trace formulas are published
+inputs; their source-lattice interpretation is the deduction recorded
+here, without a priority claim. The fast constructor enumerates only
+roots, not representation weights. A reducible F4 control shows that
+index and central character alone do not classify direct sums. This
+does not determine arbitrary integral Levi presentations or Borel images.
+The [detailed classification audit](IRREDUCIBLE_LATTICE_AUDIT.md) found
+no gap and separates the known ordinary weight-span result from the
+multiplicity-weighted argument and integral Springer interpretation.
+The exact formulation was not located in the reviewed literature;
+priority remains unresolved. Its independent boundary checks test every
+nonempty support mask on all five exceptional diagrams and explicit
+controls for path selection, dual normalization and reducible inputs.
+
 The [general trace-source theorem](TRACE_SOURCE_THEOREM.md) now proves
 C_rho=Sym_Z(Lambda_rho) for every supported normalized representation map,
 including direct sums with faithful differential. Saturation gives full
