@@ -535,3 +535,12 @@ consequences are deductions here, not claims attributed to those sources.
 Focused searches have not established priority. The general direct-sum
 classification is not implied; the note supplies an explicit F4
 counterexample to using index and central character alone in that setting.
+
+The [classification proof/source audit](IRREDUCIBLE_LATTICE_AUDIT.md)
+adds [Larsen--Pink, Section 3, author-hosted version](https://people.math.ethz.ch/~pink/ftp/LP1.pdf)
+for the established ordinary weight-span and root-difference lattice
+background. That statement does not alone imply the scalar-weighted
+equality for m_mu mu. The path proof supplies the latter step, and the
+audit found no gap. The exact integral Springer formulation was not
+located in the reviewed sources. It remains a proved deduction here
+with unresolved priority, not a certified originality claim.

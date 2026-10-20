@@ -4,6 +4,10 @@ Date: 2026-10-20. The classification below is a proved deduction under
 the displayed hypotheses, not a conjectural fit to the survey. Its
 published ingredients are identified below; no literature-priority claim
 is made. Direct sums are explicitly excluded from the closed classification.
+The [detailed proof and literature audit](IRREDUCIBLE_LATTICE_AUDIT.md)
+found no gap under these hypotheses. It identifies established ordinary
+weight-lattice results separately from the multiplicity-weighted step;
+the exact integral-source formulation has unresolved literature priority.
 
 ## Definitions and result
 
@@ -259,6 +263,10 @@ implementation; the all-representation statement rests on the proof above.
 
 ## Published inputs and audit limits
 
+- Ordinary weight-span and weight-difference lattice facts are established
+  background; see [Larsen--Pink, Section 3, author-hosted version](https://people.math.ethz.ch/~pink/ftp/LP1.pdf).
+  Their ordinary weight statement alone does not establish the equality
+  for the scalar-weighted generators m_mu mu; the path argument supplies it.
 - The normalized trace Springer morphism and its normalization come from
   [Kostant--Michor](https://arxiv.org/pdf/math/0109066).
 - The explicit weight-moment formula is from

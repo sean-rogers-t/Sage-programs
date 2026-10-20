@@ -41,6 +41,13 @@ here, without a priority claim. The fast constructor enumerates only
 roots, not representation weights. A reducible F4 control shows that
 index and central character alone do not classify direct sums. This
 does not determine arbitrary integral Levi presentations or Borel images.
+The [detailed classification audit](IRREDUCIBLE_LATTICE_AUDIT.md) found
+no gap and separates the known ordinary weight-span result from the
+multiplicity-weighted argument and integral Springer interpretation.
+The exact formulation was not located in the reviewed literature;
+priority remains unresolved. Its independent boundary checks test every
+nonempty support mask on all five exceptional diagrams and explicit
+controls for path selection, dual normalization and reducible inputs.
 
 The [general trace-source theorem](TRACE_SOURCE_THEOREM.md) now proves
 C_rho=Sym_Z(Lambda_rho) for every supported normalized representation map,

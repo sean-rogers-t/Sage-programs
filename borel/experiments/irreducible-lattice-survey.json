@@ -107828,14 +107828,14 @@
   },
   "total_cases": 490,
   "full_weight_cases": 90,
-  "seconds": 23.411,
+  "seconds": 24.284,
   "source_hash_semantics": "SHA256 with CRLF normalized to LF.",
   "source_sha256": {
     "experiments/irreducible_lattice_survey.py": "f92154c13e6fe3ecc0bc580ccd291b972f1f4a9d2cff7bb12731e17016736934",
     "src/sage_borel/character_lattices.py": "35ff826fc101c465c24359b82b279c4a2302e1123ee0447de065727dd9bfc133",
     "src/sage_borel/characters.py": "bedad8258a8257bb80870979cabcc332763e06834cd9c94371b04dd2450fe0b0",
     "src/sage_borel/__init__.py": "524c676a613649c61c1584c02de49c6233e3b652d4b6b0e7dbf3b424499e8679",
-    "IRREDUCIBLE_CHARACTER_LATTICES.md": "748b733a2650b4bcb63bdd97008660d68bea843f8ddc3e2a60b74c631e33f78d",
+    "IRREDUCIBLE_CHARACTER_LATTICES.md": "133ef33c0327ffd6ab92c9c0dd1f910c4352457a07ac96ec32758967a735937b",
     "tests/test_character_lattices.py": "840652c6fde5907e0b77fbd483b7eb869ee75ba0012df957783c6d841892688e"
   }
 }
