@@ -43,9 +43,14 @@ tested separate-image sum is primitive inside the joint image. The
 saturation and primitivity of that sum, using an integral basis compatible
 with both separate images. It also gives their constant-only intersection,
 the integral kernel and the quotient's graded free ranks.
-The corresponding type B/D joint-image questions and more general
-multi-block configurations remain further work. Rational kernel
-presentations alone cannot establish integral primitivity.
+The [B/D joint-image proof](ORTHOGONAL_JOINT_IMAGES.md) now establishes
+primitive separate sums and constant-only intersections in both orthogonal
+families, with integral kernels and closed rank formulas. It excludes
+odd-prime ambient Smith factors, but the joint images can have factors
+2,4,... . Their closed multiplicities and more general multi-block
+configurations remain further work. Rational kernel presentations alone
+cannot establish integral primitivity; the D proof supplies an explicit
+free integral decomposition.
 
 Published ambient formulas exist for arbitrary classical partial flags:
 [Tamvakis, Giambelli and degeneracy locus formulas for classical G/P spaces](https://math.umd.edu/~harryt/papers/giamdegcl.pdf).
@@ -101,8 +106,8 @@ Springer map or prove corresponding integral image results.
 
 ## Suggested order
 
-1. Package the proved type C joint rank and primitive quotient formulas,
-   then investigate analogous type B/D joint-image statements.
+1. Package the proved B/C/D joint rank and primitive quotient formulas;
+   then investigate closed ambient B/D joint Smith multiplicities.
 2. Add reusable classical multi-block input helpers.
 3. Exceptional integral tables with explicit normalizations.
 4. Equivariant computations after choosing the coefficient-ring API.

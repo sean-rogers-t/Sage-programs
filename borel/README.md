@@ -130,6 +130,14 @@ stated hypotheses and classifies the results as corollaries of classical
 integral theory in these Springer/Borel coordinates. No originality claim
 is made; finite basis checks are recorded separately.
 
+The [orthogonal joint-image proof](ORTHOGONAL_JOINT_IMAGES.md) extends
+the primitive-sum and constant-intersection results to types B and D.
+It gives integral kernel and rank formulas; D has an additional Euler
+relation. Ambient joint saturation fails in general, but only powers of
+2 can occur as nonzero Smith factors. Their closed multiplicities remain
+further work. These are deductions from classical theory, with explicit
+finite kernel and lattice checks, not a claim of originality.
+
 The [extension roadmap](EXTENSIONS.md) separates proposed API work from
 further mathematical questions. The full-paper project is on hold.
 

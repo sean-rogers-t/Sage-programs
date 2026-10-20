@@ -66,6 +66,31 @@ compact homogeneous-space maps, integral elimination and necessary
 normalization, without changing the formulas. A separate formal-polynomial
 check tests the integral base-change basis without importing the library.
 
+## Orthogonal two-step joint images
+
+The [B/D joint-image argument](ORTHOGONAL_JOINT_IMAGES.md) proves that
+the sum of the normalized middle and tail images is primitive inside
+their joint image, and that their intersection is the constants. It
+assumes a,b>=1, k>=1 in B and k>=2 in D. The joint image need not be
+primitive in ambient cohomology, but its nonzero Smith factors are powers
+of 2. The note gives integral kernels and closed ranks, including the
+free rank of the joint image modulo the separate-image sum.
+
+In B, equality of the rational Cartesian kernels and torsion-free target
+cohomology identify the integral source quotient with the type C one.
+In D, the global Euler relation gives the additional joint relation
+c_b p h_a(M^2 union T^2). A four-component decomposition into free
+integral flag-ring modules proves the integral kernel and locates both
+separate images exactly. These arguments do not use the earlier B/D
+single-tail Smith multiplicity theorems.
+
+These are repository deductions from classical inputs, without a novelty
+claim or external certification. The [finite verification](experiments/orthogonal_joint_structure_verification.json)
+checks exact integral kernels, ranks, image intersections and quotient
+torsion, with selected independent Cartesian BGG columns. The remaining
+problem is a closed formula for the ambient joint Smith multiplicities,
+not the primitive-sum assertion.
+
 ## General type-B comparison completed in these notes
 
 The subsequent [general proof](TYPE_B_GENERAL_SMITH.md) supplies the

@@ -156,6 +156,14 @@ classifies these statements as corollaries of classical integral theory.
 The exact combined formulation was not located in the sources searched;
 this is not a novelty finding.
 
+The later [orthogonal joint-image argument](ORTHOGONAL_JOINT_IMAGES.md)
+transfers the abstract integral source quotient from C to B and gives a
+four-component integral presentation in D. It proves primitive separate
+sums, constant-only intersections, and the absence of odd-prime ambient
+Smith factors. These are deductions from the classical inputs cited in
+that note; an exact prior statement or novelty has not been established.
+The formulas do not classify the full ambient joint Smith multiplicities.
+
 Here there is substantially more than an absence of a counterexample. Let
 `n=a+k`, with `a,k >= 1`, and take the normalized tail inputs
 

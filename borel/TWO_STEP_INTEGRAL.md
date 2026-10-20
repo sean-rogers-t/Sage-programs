@@ -9,7 +9,11 @@ Subsequent development: the [type C proof](TYPE_C_JOINT_PRIMITIVITY.md)
 now establishes joint saturation, primitivity of the separate-image sum,
 and the constant-only intersection for all positive block sizes. The
 original finite tables below are retained as evidence and examples.
-The type B/D joint observations remain finite computations.
+The subsequent [orthogonal joint-image proof](ORTHOGONAL_JOINT_IMAGES.md)
+proves the primitive-sum and constant-intersection assertions in B and D,
+with integral kernel and rank formulas. Ambient orthogonal joint saturation
+is false in general; the proof excludes odd-prime factors, while closed
+multiplicities of the powers of 2 remain open here.
 
 ## Groups, flags and input lattices
 
@@ -99,9 +103,11 @@ One cannot obtain the present joint Smith lists merely by concatenating
 the separate lists: the relative positions of images and the mixed
 products matter. The new API makes that distinction exact. The finite
 tables motivated the subsequent type C theorem linked above. General
-type B/D joint saturation and primitivity statements remain open in this
-work. The type C note identifies its classical inputs separately from
-the deduction and does not claim novelty.
+type B/D joint saturation is false, while the later orthogonal proof now
+establishes primitivity of the sum inside the joint image. Its remaining
+ambient Smith multiplicities are a separate problem. The proof notes
+identify their classical inputs separately from the deductions and make
+no novelty claim.
 
 ## Verification and rerunning
 
