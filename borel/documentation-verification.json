@@ -124,6 +124,10 @@
       "python_blocks_executed": 1
     },
     {
+      "file": "E7_GEOMETRY.md",
+      "python_blocks_executed": 1
+    },
+    {
       "file": "INTEGRAL_COMPARISONS.md",
       "python_blocks_executed": 2
     },
@@ -272,7 +276,7 @@
       "python_blocks_executed": 0
     }
   ],
-  "local_links_and_anchors_checked": 782,
-  "python_blocks_executed": 38,
+  "local_links_and_anchors_checked": 801,
+  "python_blocks_executed": 39,
   "scope": "Python fences executed in reading order in a fresh namespace per document; local links and anchors checked. Shell snippets and external URLs were not automatically executed or crawled."
 }

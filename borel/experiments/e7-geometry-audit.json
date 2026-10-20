@@ -1,0 +1,158 @@
+{
+  "result": "passed",
+  "simple_generator_relations": 231,
+  "independently_verified_commutators": 17689,
+  "independently_reconstructed_912_weights": 632,
+  "fundamental_exterior_character_identifications": true,
+  "invariant_certificate": {
+    "degrees": [
+      2,
+      6,
+      8,
+      10,
+      12,
+      14,
+      18
+    ],
+    "point": [
+      "65",
+      "96",
+      "129",
+      "190",
+      "151",
+      "107",
+      "57"
+    ],
+    "jacobian": "436113861379464954225522812606359194321699624290858462580736716212843096989488906240000000000000000000",
+    "jacobian_over_positive_root_product": "2676292792892522496000"
+  },
+  "cases": [
+    {
+      "representation": "minimal",
+      "dimension": 56,
+      "coefficientwise_cartan_entries": 49,
+      "coefficientwise_root_blocks": 126,
+      "full_differential_dimension": 133,
+      "normalization_at_identity": 1,
+      "coordinate_terms": {
+        "2": 4,
+        "6": 41,
+        "8": 105,
+        "10": 234,
+        "12": 501,
+        "14": 972,
+        "18": 3101
+      },
+      "cartan_determinant_terms": 24,
+      "finite_field_determinant": {
+        "prime": 65537,
+        "point": [
+          2,
+          3,
+          5,
+          7,
+          11,
+          13,
+          17
+        ],
+        "value": 10310
+      },
+      "unisolvent_certificates": [
+        {
+          "block": "low",
+          "degrees": [
+            2,
+            6,
+            8,
+            10,
+            12,
+            14
+          ],
+          "rank": 973,
+          "exact_scalar_identities": 5838
+        },
+        {
+          "block": "high",
+          "degrees": [
+            18
+          ],
+          "rank": 3102,
+          "exact_scalar_identities": 3102
+        },
+        {
+          "block": "determinant",
+          "degrees": [
+            7
+          ],
+          "rank": 61,
+          "exact_scalar_identities": 61
+        }
+      ],
+      "seconds": 43.22801758100002
+    },
+    {
+      "representation": "adjoint",
+      "dimension": 133,
+      "coefficientwise_cartan_entries": 49,
+      "coefficientwise_root_blocks": 126,
+      "full_differential_dimension": 133,
+      "normalization_at_identity": 1,
+      "coordinate_terms": {
+        "2": 5,
+        "6": 78,
+        "8": 223,
+        "10": 535,
+        "12": 1231,
+        "14": 2515,
+        "18": 8697
+      },
+      "cartan_determinant_terms": 68,
+      "finite_field_determinant": {
+        "prime": 65537,
+        "point": [
+          2,
+          3,
+          5,
+          7,
+          11,
+          13,
+          17
+        ],
+        "value": 51977
+      },
+      "unisolvent_certificates": [
+        {
+          "block": "low",
+          "degrees": [
+            2,
+            6,
+            8,
+            10,
+            12,
+            14
+          ],
+          "rank": 2515,
+          "exact_scalar_identities": 15090
+        },
+        {
+          "block": "high",
+          "degrees": [
+            18
+          ],
+          "rank": 8697,
+          "exact_scalar_identities": 8697
+        },
+        {
+          "block": "determinant",
+          "degrees": [
+            7
+          ],
+          "rank": 135,
+          "exact_scalar_identities": 135
+        }
+      ],
+      "seconds": 253.571841016
+    }
+  ],
+  "seconds": 325.00959323200004
+}

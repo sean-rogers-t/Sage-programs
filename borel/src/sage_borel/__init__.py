@@ -26,11 +26,13 @@ from .geometry import (AdjointQuotient, SpringerGeometry, g2_adjoint_quotient,
                        quadratic_character_pullback)
 from .e6_geometry import (e6_adjoint_quotient, e6_cayley_determinant,
                           e6_fundamental_characters)
+from .e7_geometry import (e7_adjoint_quotient, e7_cayley_determinant,
+                          e7_fundamental_characters)
 from .exceptional import (ExceptionalBorel, GeneratorInfo, exceptional_borel, exceptional_algebra,
                           exceptional_generators, exceptional_image,
                           exceptional_polynomial)
 
-__version__ = "0.18.0"
+__version__ = "0.19.0"
 __all__ = ["BorelMap", "Expansion", "classical_borel", "to_type_a",
            "ExceptionalBorel", "GeneratorInfo", "exceptional_borel",
            "exceptional_generators", "exceptional_polynomial", "exceptional_image",
@@ -48,4 +50,5 @@ __all__ = ["BorelMap", "Expansion", "classical_borel", "to_type_a",
            "IrreducibleCharacterLattice", "irreducible_character_lattice",
            "AdjointQuotient", "SpringerGeometry", "g2_adjoint_quotient",
            "quadratic_character_pullback", "PowerSumPullback", "FactoredCayleyDeterminant",
-           "e6_adjoint_quotient", "e6_cayley_determinant", "e6_fundamental_characters"]
+           "e6_adjoint_quotient", "e6_cayley_determinant", "e6_fundamental_characters",
+           "e7_adjoint_quotient", "e7_cayley_determinant", "e7_fundamental_characters"]
