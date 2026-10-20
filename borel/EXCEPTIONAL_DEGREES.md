@@ -381,6 +381,12 @@ at primes is corroboration, rather than a proof that a characteristic-zero
 generic degree equals a specialized length. Optional elimination of one
 character uses a constant nonzero coefficient in the quadratic coordinate,
 so it is a global isomorphism of the fiber schemes.
+The release audit also recounts every recorded leading ideal using an
+independent integer-arithmetic routine in
+[monomial_staircase.py](tools/monomial_staircase.py). It slices exponent
+tuples at each generator exponent, counts the lower-dimensional slices,
+and sums their widths. This checks the colength, including multiplicities;
+it does not by itself certify the Groebner-basis calculation.
 The optional [msolve executable](https://msolve.proj.lip6.fr/binaries/index.html)
 is version 0.11.0, used with its exact linear-algebra option `-l 2`;
 it is not a package dependency or included binary.
@@ -417,3 +423,70 @@ fundamental-character quotient theorem, localized top-Chern formula and
 Segre-class machinery. The exceptional
 numbers and their boundary calculations are deductions recorded here.
 This note does not settle priority or the minimum Cayley degrees of E6/E7.
+
+## Quadratic-module method for the independent E7 adjoint fiber
+
+The [module experiment](experiments/e7_adjoint_module_fiber.py) uses the same
+full specialized quotient equations after the checked central chart change.
+Write B=k[x_1,...,x_5] for the other five coordinates. The degree-six target
+equation is monic quadratic in the remaining character w after division by
+a nonzero scalar. Write it as Q=w^2+c_1*w+c_0. Replacing each other equation
+by its remainder r_i=A_i*w+B_i modulo Q preserves the fiber ideal exactly.
+
+The algebra B[w]/Q is free of rank two over B, with basis 1,w. Multiplication
+by r_i has the matrix
+
+\[
+ M_i=\begin{pmatrix}B_i&-c_0A_i\\ A_i&B_i-c_1A_i\end{pmatrix}.
+\]
+
+Consequently the entire fiber algebra, regarded as a B-module, is
+
+\[
+ B^2/\sum_i\operatorname{im}(M_i).
+\]
+
+This is a presentation of the algebra as a module, not merely a set-theoretic
+projection. It retains all nilpotents and multiplicities. Its dimension over
+k equals the length of the original six-variable fiber. The central cover
+then restores the simply connected fiber length by multiplication by two.
+
+Completing the square with v=w+c_1/2 gives v^2=d, where
+d=(c_1^2-4c_0)/4. In these equations d has total degree five, although Q
+initially has total degree six. The largest remaining equation drops from
+degree eighteen to sixteen. The presentation columns become (B_i,A_i) and
+(d*A_i,B_i), with the remainders expressed in v. Singular computes a module
+Groebner basis; the experiment separately recounts its standard monomials
+in each of the two components. It also checks the coordinate-change and
+remainder identities exactly, and tests quotient lengths one and four,
+including a nonreduced length-four example.
+
+```sh
+MSOLVE_BINARY=/path/to/msolve PYTHONPATH=src sage -python experiments/e7_adjoint_module_fiber.py 65521 20261021 weighted
+```
+
+The [square-completed direct experiment](experiments/e7_adjoint_shifted_fiber.py)
+uses the same exact change of variable and remainders, followed by an
+ordinary polynomial Groebner basis instead of a module basis.
+
+The [quadratic-tower experiment](experiments/e7_adjoint_tower_fiber.py)
+also retains the first target equation as a monic quadratic, rather than
+substituting its solution for chi_3. After two square completions the
+algebra is free of rank four over a polynomial ring in five variables,
+with basis 1,s,v,s*v. The other five equations act by four-by-four regular
+multiplication matrices. Their twenty columns present the fiber algebra
+as a module. The script checks both quadratic matrix identities and the
+commutation identities exactly before computing a module basis. These
+are alternative presentations of the same specialized fiber, not further
+degree deductions. No count is asserted until a solver completes.
+
+```sh
+MSOLVE_BINARY=/path/to/msolve MSOLVE_MAX_PAIRS=512 PYTHONPATH=src sage -python experiments/e7_adjoint_shifted_fiber.py 65521 20261021
+PYTHONPATH=src sage -python experiments/e7_adjoint_tower_fiber.py 32003 20261020 weighted
+```
+
+The direct msolve runner accepts MSOLVE_THREADS, MSOLVE_LINEAR_ALGEBRA
+(restricted to exact options 1 and 2), MSOLVE_MAX_PAIRS (zero means no
+pair limit), and MSOLVE_LOG_DIR. A supplied log
+directory preserves the inputs, progress, output and exit status for each
+run. These controls impose no running-time cutoff.

@@ -15,18 +15,38 @@ import re
 import subprocess
 import tempfile
 from hashlib import sha256
+from contextlib import nullcontext
 from sage.all import GF, QQ, PolynomialRing, TermOrder
 from sage_borel import e6_adjoint_quotient,e7_adjoint_quotient
 
 
 def msolve_leading(R,equations,prime,binary):
     version=subprocess.check_output([binary,'-V'],text=True).strip()
-    with tempfile.TemporaryDirectory(prefix='borel-degree-fiber-') as tmp:
+    threads=int(os.environ.get('MSOLVE_THREADS','2'))
+    linear=int(os.environ.get('MSOLVE_LINEAR_ALGEBRA','2'))
+    pairs=int(os.environ.get('MSOLVE_MAX_PAIRS','0'))
+    assert threads>0 and linear in (1,2), 'use positive threads and exact linear algebra 1 or 2'
+    assert pairs>=0
+    log_root=os.environ.get('MSOLVE_LOG_DIR')
+    if log_root:
+        Path(log_root).mkdir(parents=True,exist_ok=True)
+        context=nullcontext(tempfile.mkdtemp(prefix='fiber-',dir=log_root))
+    else:
+        context=tempfile.TemporaryDirectory(prefix='borel-degree-fiber-')
+    with context as tmp:
         source=Path(tmp)/'input.ms'
         output=Path(tmp)/'basis.ms'
+        log=Path(tmp)/'progress.log'
         source.write_text(','.join(R.variable_names())+'\n'+str(prime)+'\n'+',\n'.join(map(str,equations))+'\n')
-        subprocess.run([binary,'-f',str(source),'-o',str(output),'-g','1','-t','2','-l','2','-v','0'],
-                       text=True,capture_output=True,check=True)
+        command=[binary,'-f',str(source),'-o',str(output),'-g','1',
+                 '-t',str(threads),'-l',str(linear),'-m',str(pairs),'-v','2']
+        if log_root:
+            print('msolve progress:',log,flush=True)
+        with log.open('w') as stream:
+            run=subprocess.run(command,stdout=stream,stderr=subprocess.STDOUT)
+        (Path(tmp)/'run.json').write_text(json.dumps(dict(command=command,returncode=run.returncode,
+            input_sha256=sha256(source.read_bytes()).hexdigest()),indent=2)+'\n')
+        run.check_returncode()
         raw=output.read_bytes()
         body=''.join(line for line in raw.decode().splitlines() if not line.startswith('#'))
         body=body.strip('[]: \n')
@@ -52,22 +72,22 @@ def check_unit(R,equations,prime):
         assert list(R.ideal(equations).groebner_basis(algorithm='libsingular:slimgb'))==[R.one()]
 
 
-def main():
-    kind,name=sys.argv[1:3]
-    prime=int(sys.argv[3]) if len(sys.argv)>3 else 32003
-    seed=int(sys.argv[4]) if len(sys.argv)>4 else 20261020
+def prepare_fiber(kind,name,prime,seed,*,engine='drl',mode=None):
+    """Exact quotient equations and optional globally checked chart changes."""
+    if kind not in ('E6','E7') or name not in ('minimal','adjoint'):
+        raise ValueError('choose E6/E7 and minimal/adjoint')
     field=GF(prime) if prime else QQ
     q=(e6_adjoint_quotient if kind=='E6' else e7_adjoint_quotient)(representation=name)
     marks=(1,2,2,3,2,1) if kind=='E6' else (2,2,3,4,3,2,1)
     R=PolynomialRing(field,len(marks),names=['x%d'%(i+1) for i in range(len(marks))],
-                     order=(TermOrder('wdegrevlex',marks) if len(sys.argv)>5 and sys.argv[5]=='weighted'
+                     order=(TermOrder('wdegrevlex',marks) if engine=='weighted'
                             else 'degrevlex'))
     rng=random.Random(seed)
     targets=[field(rng.randrange(1,1000)) for d in q.degrees]
     equations=[R({tuple(e):field(c) for e,c in f.dict().items()})-a
                for f,a in zip(q.character_polynomials,targets)]
     eliminated=None
-    if len(sys.argv)>6 and sys.argv[6].startswith('eliminate'):
+    if mode and mode.startswith('eliminate'):
         j={('E6','minimal'):2,('E6','adjoint'):3,
            ('E7','minimal'):5,('E7','adjoint'):2}[kind,name]
         x=R.gen(j)
@@ -84,7 +104,7 @@ def main():
         equations=[hom(f) for f in equations[1:]]
         R=S
     center_chart=None
-    if len(sys.argv)>6 and sys.argv[6]=='eliminate-center':
+    if mode=='eliminate-center':
         assert (kind,name)==('E7','adjoint')
         # On chi7 != 0 use u=chi2/chi7, v=chi5/chi7, z=chi7^2.
         # Every source polynomial has even central parity. This is the
@@ -106,15 +126,24 @@ def main():
         center_chart=dict(coordinates='chi1,chi2/chi7,chi4,chi5/chi7,chi6,chi7^2',
                           excluded_original_divisor_empty=True,
                           excluded_quotient_divisor_empty=True,cover_degree=2)
-    I=R.ideal(equations)
-    print(kind,name,'field',field,'targets',list(map(str,targets)),flush=True)
-    start=perf_counter()
+    return R,equations,targets,eliminated,center_chart
+
+
+def main():
+    kind,name=sys.argv[1:3]
+    prime=int(sys.argv[3]) if len(sys.argv)>3 else 32003
+    seed=int(sys.argv[4]) if len(sys.argv)>4 else 20261020
     engine=sys.argv[5] if len(sys.argv)>5 else 'drl'
+    mode=sys.argv[6] if len(sys.argv)>6 else None
+    R,equations,targets,eliminated,center_chart=prepare_fiber(kind,name,prime,seed,engine=engine,mode=mode)
+    I=R.ideal(equations)
+    print(kind,name,'field',R.base_ring(),'targets',list(map(str,targets)),flush=True)
+    start=perf_counter()
     if engine=='msolve':
         binary=os.environ['MSOLVE_BINARY']
         leading,basis_hash,version=msolve_leading(R,equations,prime,binary)
         J=R.ideal([R({e:1}) for e in leading])
-        engine_name=version+'; exact linear algebra option 2'
+        engine_name=version+'; exact linear algebra option '+os.environ.get('MSOLVE_LINEAR_ALGEBRA','2')
     else:
         G=I.groebner_basis(algorithm='libsingular:slimgb')
         print('basis',len(G),'seconds',perf_counter()-start,flush=True)
