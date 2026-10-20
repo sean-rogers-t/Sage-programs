@@ -1,0 +1,178 @@
+{
+  "result": "passed",
+  "date": "2026-10-20",
+  "pages": 15,
+  "approximate_extracted_words": 6550,
+  "source_sha256_lf": "d98e14f22e5c85cc8e52bcf99c82f0f07a42be8ccdecf0d93624e773585686c4",
+  "pdf_sha256": "98c772ba08e7a7fad41545156d33e00c92038e6bdd50c2f0f4be0683324a1af6",
+  "baseline_commit": "e9fcb7f3b7d28bea9c248abab1f01d8de28250aa",
+  "compiled_with": "Tectonic 0.17.0; desktop LaTeX compiler also checked",
+  "tex_layout_or_reference_warnings": [],
+  "rendering": "Poppler pdftoppm, 90 dpi, all 15 pages",
+  "visual_review": "All final pages inspected in contact sheet; new pages 9 through 12 and reference page 15 also viewed individually. No clipping, overlap, broken tables or unresolved references observed.",
+  "program_scope": "Four core aims and extension track E1-E6; newly added projects are proposed, not implemented or proved.",
+  "ledger_entries": 69,
+  "ledger_open_questions": 20,
+  "character_bounds": [
+    {
+      "page": 1,
+      "character_bounds": [
+        55.77,
+        27.61,
+        557.66,
+        767.84
+      ]
+    },
+    {
+      "page": 2,
+      "character_bounds": [
+        55.77,
+        27.61,
+        557.96,
+        767.84
+      ]
+    },
+    {
+      "page": 3,
+      "character_bounds": [
+        55.6,
+        27.61,
+        557.95,
+        767.84
+      ]
+    },
+    {
+      "page": 4,
+      "character_bounds": [
+        55.77,
+        27.61,
+        557.97,
+        767.84
+      ]
+    },
+    {
+      "page": 5,
+      "character_bounds": [
+        55.77,
+        27.61,
+        557.96,
+        767.84
+      ]
+    },
+    {
+      "page": 6,
+      "character_bounds": [
+        54.88,
+        27.61,
+        557.97,
+        767.84
+      ]
+    },
+    {
+      "page": 7,
+      "character_bounds": [
+        55.76,
+        27.61,
+        557.95,
+        767.84
+      ]
+    },
+    {
+      "page": 8,
+      "character_bounds": [
+        55.77,
+        27.61,
+        557.96,
+        767.84
+      ]
+    },
+    {
+      "page": 9,
+      "character_bounds": [
+        55.93,
+        27.61,
+        557.97,
+        767.84
+      ]
+    },
+    {
+      "page": 10,
+      "character_bounds": [
+        55.76,
+        27.61,
+        557.97,
+        767.84
+      ]
+    },
+    {
+      "page": 11,
+      "character_bounds": [
+        54.88,
+        27.61,
+        557.96,
+        767.84
+      ]
+    },
+    {
+      "page": 12,
+      "character_bounds": [
+        55.76,
+        27.61,
+        557.96,
+        767.84
+      ]
+    },
+    {
+      "page": 13,
+      "character_bounds": [
+        55.77,
+        27.61,
+        557.96,
+        767.84
+      ]
+    },
+    {
+      "page": 14,
+      "character_bounds": [
+        55.61,
+        27.61,
+        557.96,
+        767.84
+      ]
+    },
+    {
+      "page": 15,
+      "character_bounds": [
+        55.51,
+        27.61,
+        557.96,
+        767.84
+      ]
+    }
+  ],
+  "repository_targets_checked_against_baseline": [
+    "articles/README.md",
+    "borel/E6_CHARACTER_FORM.md",
+    "borel/E6_GEOMETRY.md",
+    "borel/E7_CHARACTER_FORM.md",
+    "borel/E7_GEOMETRY.md",
+    "borel/EXCEPTIONAL_DEGREES.md",
+    "borel/EXCEPTIONAL_MINUSCULE.md",
+    "borel/IRREDUCIBLE_CHARACTER_LATTICES.md",
+    "borel/IRREDUCIBLE_LATTICE_AUDIT.md",
+    "borel/ORTHOGONAL_JOINT_IMAGES.md",
+    "borel/PROOF_STATUS.md",
+    "borel/RESEARCH_LEDGER.md",
+    "borel/SPRINGER_GEOMETRY.md",
+    "borel/TRACE_SOURCE_AUDIT.md",
+    "borel/TRACE_SOURCE_THEOREM.md",
+    "borel/TYPE_B_GENERAL_SMITH.md",
+    "borel/TYPE_C_JOINT_PRIMITIVITY.md",
+    "borel/TYPE_D_EVEN_GLUING_THEOREM.md",
+    "borel/TYPE_D_SQUARE_THEOREM.md",
+    "borel/release-0.20-verification.json"
+  ],
+  "external_uri_annotations": 48,
+  "bibliography_scope": "Published primary-source metadata checked; not an exhaustive novelty review. Repository proof status was summarized, not independently re-proved.",
+  "runtime_scope": "No runtime code changed and no runtime suite rerun; existing baseline counts are explicitly labeled in the proposal."
+}

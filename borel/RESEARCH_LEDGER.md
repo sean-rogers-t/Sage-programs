@@ -11,6 +11,16 @@ the literature. Literature priority is separate from mathematical validity.
 The supporting proofs and [proof/source audit](PROOF_STATUS.md) determine the
 precise hypotheses; this ledger does not replace them or re-audit them.
 
+The [research proposal and progress inventory](../articles/research-program-proposal/README.md)
+organizes these questions into four core aims and extension track E, with
+proof routes and milestone gates. Its priority is the local arithmetic of
+integral images, followed by effective generic degrees and regularity criteria;
+an integral geometric explanation of Smith filtrations is a supporting aim.
+Track E adds equivariant, K-theoretic, formal-group-law, quantum, affine and
+Kac–Moody projects. These are proposed extensions, not completed theorems
+or implemented backends. The expanded ledger has 69 entries, including
+20 open questions. The proposal adds no theorem.
+
 ## Status and maintenance
 
 | Status | Meaning |
@@ -194,9 +204,13 @@ first five are the current structural priorities; no proof is asserted here.
 | OPEN-11 | What are the target branch loci and nonproperness loci of the explicit Springer quotient maps? | Compute the images/closures of critical loci and account for fibers escaping to the boundary. A source determinant alone does not give these target loci. | GEO-03, CASE-07/08 |
 | OPEN-12 | When can harmonic localization be removed for these representation maps? | Apply the exact Kostant--Michor criterion, seeking uniform conditions or regular-to-nonregular witnesses. The two G2 cases already have an obstruction. | BASE-04, CASE-06; [localization discussion](SPRINGER_GEOMETRY.md) |
 | OPEN-13 | Which uniform exceptional image patterns survive beyond the currently checked parabolics? | Predictions from SRC-02 and OPEN-02/09, tested on additional parabolics or F4/E8 representations, followed by proof or a counterexample. | CASE-02/04/05; [catalogue](EXCEPTIONAL.md) |
-| OPEN-14 | What is the correct equivariant integral-image invariant? | Define and implement the image over a polynomial coefficient ring, using Fitting ideals, controlled specializations or finite graded integer lattices rather than ordinary Smith form over a non-PID. | [Equivariant scope](EXTENSIONS.md) |
-| OPEN-15 | Is there a useful quantum extension of the selected Springer-image construction? | First define the map/source and its compatibility with quantum products; implementing published quantum Pieri rules alone would not establish that compatibility. | [Quantum scope](EXTENSIONS.md) |
+| OPEN-14 | What is the correct equivariant integral-image invariant? | Track E1: define the integral image over the torus polynomial ring, give a module presentation/Fitting or finite graded description, and prove the ordinary-specialization comparison including any base-change defect. Ordinary Smith form does not classify modules over this coefficient ring. | [Equivariant scope](EXTENSIONS.md#equivariant-calculations), [program](../articles/research-program-proposal/README.md) |
+| OPEN-15 | Is there a useful quantum extension of the selected Springer-image construction? | Track E4: define the source, coefficient ring and multiplicative lift; prove q=0 recovery and then analyze the deformed kernel and image. Quantum products or a Schubert-basis identification alone do not provide this lift. | [Quantum scope](EXTENSIONS.md#quantum-products-and-affine-transport), [program](../articles/research-program-proposal/README.md) |
 | OPEN-16 | How do these representation-map degrees compare with minimum Cayley degrees? | Identify applicable published minima/bounds and clarify what varying rho can achieve. CASE-08 gives degrees of particular maps, not minima over all equivariant rational maps. | [Degree scope](EXCEPTIONAL_DEGREES.md) |
+| OPEN-17 | How does the K-theoretic image of integral Springer polynomial characters compare with our cohomological image? | Track E2: restrict the associated-bundle map R(L) -> K^0(G/P), specify induced filtrations, and prove or obstruct an associated-graded comparison. The Springer grading and augmentation/gamma filtration must not be identified without proof. | [K-theory scope](EXTENSIONS.md#other-cohomology-theories-and-groups), [program](../articles/research-program-proposal/README.md) |
+| OPEN-18 | Can representation-dependent sources and images be defined compatibly with a formal group law? | Track E3: start with connective K-theory, specify formal group algebra, coefficients and completion, and prove a specialization comparison or an obstruction. Existing oriented characteristic maps do not automatically extend the additive source theorem. | [Oriented-theory scope](EXTENSIONS.md#other-cohomology-theories-and-groups), SRC-01/03 |
+| OPEN-19 | What affine image statements follow from a quantum Springer-image lift under the Peterson correspondence? | Track E5: after OPEN-15, transport an image to the appropriate localized quotient of affine-Grassmannian Pontryagin homology, specify the inverted classes, and determine information lost under localization. Unlocalized integral recovery needs a separate argument. | [Quantum/affine route](EXTENSIONS.md#quantum-products-and-affine-transport), [Lam–Shimozono](https://arxiv.org/abs/0705.1386) |
+| OPEN-20 | Which characteristic-image constructions extend to affine or general Kac–Moody flags, and is there a suitable Springer analogue? | Track E6: implement a specified degree-bounded nil-Hecke setting using published foundations; separately define the group, Cartan lattice and completion for any candidate Springer map and prove it well defined. Ordinary finite traces on an infinite-dimensional faithful representation are unavailable. | [Kac–Moody scope](EXTENSIONS.md#other-cohomology-theories-and-groups), [Kostant–Kumar](https://doi.org/10.1073/pnas.83.6.1543) |
 
 ## Resolved questions and earlier routes
 

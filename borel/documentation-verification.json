@@ -8,6 +8,10 @@
       "python_blocks_executed": 0
     },
     {
+      "file": "../articles/research-program-proposal/README.md",
+      "python_blocks_executed": 0
+    },
+    {
       "file": "README.md",
       "python_blocks_executed": 2
     },
@@ -288,7 +292,7 @@
       "python_blocks_executed": 0
     }
   ],
-  "local_links_and_anchors_checked": 908,
+  "local_links_and_anchors_checked": 923,
   "python_blocks_executed": 40,
   "scope": "Python fences executed in reading order in a fresh namespace per document; local links and anchors checked. Shell snippets and external URLs were not automatically executed or crawled."
 }

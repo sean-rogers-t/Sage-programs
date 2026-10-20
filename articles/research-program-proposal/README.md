@@ -1,0 +1,83 @@
+# Springer–Borel maps: a structural research program
+
+A research proposal and progress inventory prepared on 20 October 2026.
+It organizes the published source work and current repository deductions
+into four core aims and a six-part extension track, with proof routes,
+milestone gates, fallback results, verification requirements and proposed
+API additions. The extension track was added on 20 October 2026.
+
+- [Research proposal PDF](output/pdf/Springer_Borel_research_proposal.pdf)
+- [Editable LaTeX source](main.tex)
+- [Artifact verification record](verification.json)
+- [Research ledger: results, partial results and open questions](../../borel/RESEARCH_LEDGER.md)
+- [Detailed proof and source status](../../borel/PROOF_STATUS.md)
+- [Original papers and verification notes](../README.md)
+
+## Research aims
+
+| Aim | Goal | Existing starting point | First deliverable |
+| --- | --- | --- | --- |
+| A, primary | Local arithmetic of integral Springer–Borel images | Degree-one source theorem, irreducible lattice classification, B/D formulas and exceptional images | Precise good-prime comparison; then a sharp shared-prime example |
+| B | Effective generic degrees from boundary geometry | G2/E6/E7 minimal/adjoint maps and degree calculations | Certified face-scheme method for a coherent family |
+| C | Regularity preservation and harmonic localization | Uniform differential product and G2 obstruction witnesses | A reusable obstruction or sufficient condition |
+| D, supporting | Geometric explanation of Smith filtrations | Type B primitive prefixes and incidence/defect comparison | An integral chain/incidence comparison proving primitivity |
+
+## Track E: other theories and groups
+
+| Project | Goal and first deliverable | Dependency and current status |
+| --- | --- | --- |
+| E1: equivariant cohomology | Define an integral image over the torus polynomial coefficient ring; prove a specialization comparison | First extension to activate once Aim A fixes the local source diagram; proposed, not implemented |
+| E2: K-theory | Restrict the associated-bundle map to integral Springer polynomial characters and compare filtered images | Source conventions first; associated-graded agreement with ordinary images is a question, not an assumption |
+| E3: oriented theories | Define a formal-group-law-compatible source/image construction, starting with connective K-theory | Use the E2 pilot; additive degree-one generation does not already prove this extension |
+| E4: quantum cohomology | Construct one multiplicative lift recovering our map at q=0, then analyze its kernel and image | Define the source, coefficient ring and generator lifts before claiming a quantum Springer image |
+| E5: affine Grassmannians | Transport an E4 image through the localized Peterson correspondence and identify information lost under localization | Depends on E4; target uses Pontryagin homology, not ordinary cup-product cohomology |
+| E6: Kac–Moody flags and groups | Extend nil-Hecke/characteristic calculations in a specified degree range; separately define or obstruct a Springer analogue | Nil-Hecke foundations are published; trace/completion questions remain foundational |
+
+The proposal includes the established background sources for these theories.
+Their representation-dependent image questions remain proposed projects.
+Existing isogeny/reductive questions remain in OPEN-10; the new ledger entries
+are OPEN-17 (K-theory), OPEN-18 (formal group laws), OPEN-19 (affine transport)
+and OPEN-20 (Kac–Moody). OPEN-14/15 retain their equivariant/quantum identities.
+
+Activation proceeds E1, then the E2/E3 comparison, then E4 and E5. E6's
+nil-Hecke calculations can be developed independently; they do not establish
+an infinite-dimensional trace Springer morphism.
+
+The first work package is Aim A's local source/image diagram and the exact
+characteristic-map and Levi-descent hypotheses. A standard good-prime
+corollary is to be attributed as such; research should then sharpen the
+excluded primes or explain the remaining prime-power factors.
+
+The proposal uses the notation of the Kumar papers for the maps and
+reserves `P` for a parabolic, `X=X(T)` for the character lattice, and
+`Q_rt` for the root lattice. It distinguishes literal character sources
+from normalized selected generators and requires Borel-image integrality
+to be justified separately.
+
+## Status and provenance
+
+The mathematical progress inventory is frozen to repository commit
+`e9fcb7f3b7d28bea9c248abab1f01d8de28250aa`. PDF links to working notes are
+pinned to that commit so the baseline remains identifiable. Its runtime
+verification counts are historical baseline counts, not a claim that this
+proposal reran the runtime suite. Subsequent status belongs in the ledger.
+
+Published foundations, internally audited deductions, finite calculations
+and proposed goals are separated. The document adds no theorem and makes
+no novelty or external-review claim. Its bibliography is a starting map,
+not a completed novelty search. A full proof-paper project remains on hold.
+
+## Build
+
+The source has an inline bibliography and compiles with Tectonic or another
+LaTeX installation supporting the listed standard packages. From this folder:
+
+```powershell
+New-Item -ItemType Directory -Force output/pdf | Out-Null
+tectonic --keep-logs --outdir output/pdf main.tex
+Move-Item -Force output/pdf/main.pdf output/pdf/Springer_Borel_research_proposal.pdf
+```
+
+The PDF is also available through the desktop LaTeX project's live preview.
+The delivered artifact was compiled, rendered and visually reviewed; the
+verification record documents the exact checks and source/PDF hashes.

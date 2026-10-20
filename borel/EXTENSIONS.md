@@ -9,6 +9,36 @@ partial results, counterexamples and open questions. The user's priority is
 generalizable statements. New exceptional cases should test a stated general
 question rather than become the default endpoint of the project.
 
+## Other cohomology theories and groups
+
+The [research proposal](../articles/research-program-proposal/README.md) now
+includes extension track E. The following projects are adopted research
+directions, not implemented backends or new general theorems.
+
+| Project | First target | Dependency or limitation |
+| --- | --- | --- |
+| E1: equivariant cohomology | Integral module presentation and proved ordinary-specialization comparison | Fix the source and integrality conventions in Aim A first; account for base-change kernels |
+| E2: K-theory | Restricted associated-bundle image and a filtered comparison with ordinary cohomology | The literal source lies in R(L); Springer polynomial grading need not equal the augmentation/gamma filtration |
+| E3: oriented cohomology | A compatible source and specialization theorem, starting with connective K-theory | Use a formal group algebra and explicit coefficients/completion; additive generation is not a theorem for every formal group law |
+| E4: quantum cohomology | A multiplicative lift with q=0 recovery, then its kernel/image | Define the source and generator lifts; ordinary quotient relations generally deform |
+| E5: affine Grassmannians | Transport an E4 image through the localized Peterson correspondence | The target uses Pontryagin homology; record quotient and localization losses |
+| E6: affine/Kac–Moody flags | Degree-bounded nil-Hecke calculations and a separate definition/obstruction for a Springer analogue | Published flag-cohomology operators extend; ordinary finite-dimensional faithful trace projection does not |
+
+Published starting points include
+[equivariant oriented characteristic maps](https://arxiv.org/abs/1409.7111),
+[equivariant K-Schubert calculus](https://arxiv.org/abs/1101.5911),
+[quantum Borel/Toda presentations](https://arxiv.org/abs/alg-geom/9607001),
+[Lam–Shimozono's Peterson correspondence](https://arxiv.org/abs/0705.1386),
+[Mare–Mihalcea's specified affine quantum deformations](https://arxiv.org/abs/1409.3587)
+and [Kostant–Kumar's nil-Hecke construction](https://doi.org/10.1073/pnas.83.6.1543).
+The prospective contribution is the representation-dependent image theory,
+not the ambient frameworks. Exact literature comparisons remain necessary.
+
+Activate E1 first, followed by E2/E3 and then E4/E5. E6's characteristic-map
+calculations can proceed independently of its foundational Springer question.
+The ledger preserves OPEN-14/15 and adds OPEN-17 through OPEN-20 for the
+new questions. Other isogeny forms and reductive groups remain OPEN-10.
+
 ## Implemented: fast B/D multiplicities
 
 [orthogonal_smith](ORTHOGONAL_API.md) exposes the proved closed formulas,
@@ -138,8 +168,10 @@ character lattice.
 ## Equivariant calculations
 
 An equivariant backend would retain torus parameters, evaluate fixed-point
-restrictions, multiply equivariant Schubert classes, and specialize those
-parameters to zero to recover ordinary calculations. Published inputs include
+restrictions and multiply equivariant Schubert classes. Ambient classes
+specialize to ordinary classes when the parameters vanish, but an image
+module's faithful specialization requires its own comparison, including
+possible kernel/base-change effects. Published inputs include
 [double theta polynomials](https://math.umd.edu/~harryt/papers/dbltheta.pdf)
 and [double eta polynomials](https://math.umd.edu/~harryt/papers/dbleta.pdf).
 
@@ -150,7 +182,7 @@ Ordinary Smith normal form therefore does not apply unchanged; Fitting
 ideals, carefully specified specializations, or finite graded Z-lattices
 would be appropriate objects to investigate.
 
-## Later: quantum products
+## Quantum products and affine transport
 
 Quantum multiplication adds curve-degree parameters and Gromov-Witten
 corrections to the ordinary cup product. A focused implementation could
@@ -158,6 +190,11 @@ start with a Grassmannian family and published
 [quantum Pieri rules](https://arxiv.org/abs/0809.4966).
 The ordinary Springer-image formulas do not automatically define a quantum
 Springer map or prove corresponding integral image results.
+Track E4 now specifies a source/lift/specialization milestone before those
+image claims. Once a lift exists, E5 asks for its image under the published
+localized Peterson correspondence, with the quotient and inverted classes
+explicit. This route does not require first inventing a trace Springer
+morphism on an infinite-dimensional group.
 
 ## Generalization priorities
 
@@ -174,8 +211,8 @@ Springer map or prove corresponding integral image results.
    target branch/nonproperness calculations where the source data suffice.
 
 The ledger also retains the many-block joint-image questions, closed ambient
-B/D joint multiplicities, further exceptional parabolics, equivariant image
-invariants and possible quantum extensions. These remain separate questions
-with explicit missing steps. The existing degree-one source and irreducible
+B/D joint multiplicities and further exceptional parabolics. Track E gives
+equivariant, K-theoretic, oriented, quantum and affine/Kac–Moody extensions
+their own ordered milestones and missing definitions. The existing degree-one source and irreducible
 lattice classifications are completed general results, not questions to
 reopen by merely surveying more representations.
