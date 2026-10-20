@@ -1,0 +1,46 @@
+{
+  "result": "passed",
+  "version": "0.18.0",
+  "regression_tests": 147,
+  "failures": 0,
+  "errors": 0,
+  "documentation_examples": 38,
+  "local_links_and_anchors": 782,
+  "isolated_wheel_tests": 14,
+  "wheel_sha256": "fa897c2d7ed8e95c3a1f9f534f6867f313fffb9d15c276c4db08c94461a9ad94",
+  "wheel_sources_and_data_match": true,
+  "current_regression_dependency_hashes": 47,
+  "representations": [
+    "E6 minimal 27",
+    "E6 adjoint 78"
+  ],
+  "quotient_degrees": [
+    2,
+    5,
+    6,
+    8,
+    9,
+    12
+  ],
+  "exact_coordinate_checks": 10110,
+  "exact_cartan_determinant_checks": 127,
+  "coefficientwise_root_blocks": 144,
+  "independent_commutators": 6084,
+  "scalar_normalization": "d theta at identity is identity; each full determinant evaluates to 1 at identity",
+  "determinant_format": "Complete exact products: 6-dimensional Cartan determinant and all 36 opposite-root pairs; not expanded into a single character polynomial.",
+  "hash_semantics": "SHA256 after CRLF to LF normalization",
+  "audit_sha256": {
+    "E6_GEOMETRY.md": "90e84e13444b5e4d77eda42e1f3814599b64eb14f31334a607e396ff13d0bb95",
+    "experiments/audit_e6_geometry.py": "fe6dbadc4b12905f9cd8cf05c5df36adb22889005803e921c81307f0de0de4be",
+    "experiments/e6-adjoint-determinant-interpolation.json": "1eeca69a4a21ff101e3e03ec11f53a7e1d89113aa09b280b8d3f807746fad19d",
+    "experiments/e6-adjoint-quotient-interpolation.json": "4934b5a715ce52e1fbeed794ee566cd298ae0645fbf6ba6f471ee1bd0b3fba84",
+    "experiments/e6-geometry-audit.json": "516cedf099bcd5c1193541061a10b85067e7830d411420d93a216f54e9f5761a",
+    "experiments/e6-geometry-formulas.json": "e60d449ef53b9d084bb36effead844ee2a851ea4602f8bbd7cdc346ede0e4700",
+    "experiments/e6-minimal-determinant-interpolation.json": "b8d58ae8b4de7d09dd3f29c3b2d867d74c4d50e514db936748b346d216cd390c",
+    "experiments/e6-minimal-quotient-interpolation.json": "9a85ea045cbfe53f202598e2674f76cf6f387b349285a081a89cbf8362a86ad8",
+    "experiments/e6_geometry_support.py": "a0c602a28014c4171ccba6b549b1b09e9320209361ac773a835b45be531d08e6",
+    "experiments/e6_matrix_oracle.py": "1a47f1c922fffe23eefa37b1cd7b04f627932ebc33a3027327d6161b73462a3c",
+    "experiments/e6_quotient_interpolation.py": "53e03e6617e3275df78ce97e66c58022a6f4737537cba4409e4eb73570b125cd",
+    "experiments/package_e6_geometry.py": "dd6421eff083d9a2b61d9c0d62ebc0da0c74411c18013380cd357b2fbba4d317"
+  }
+}

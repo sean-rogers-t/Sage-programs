@@ -29,6 +29,9 @@ The [Springer geometry API](borel/SPRINGER_GEOMETRY.md) computes adjoint
 quotient coordinates and full critical determinants. It includes complete
 G2 minimal/adjoint formulas of generic degrees 6 and 18, independent matrix
 checks, and the quadratic coordinates for E6/E7 minimal and adjoint maps.
+The [E6 geometry extension](borel/E6_GEOMETRY.md) now supplies all six
+quotient coordinates and both full 78-dimensional determinant products,
+with exact unisolvent certificates and independent representation matrices.
 
 The [graded image calculator](borel/IMAGE_RELATIONS.md) computes exact relations
 among chosen generator images, with two-step symplectic flag experiments and

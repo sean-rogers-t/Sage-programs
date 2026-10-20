@@ -291,9 +291,12 @@ by the tensor-Casimir computation, using different formulas. These checks
 share Sage's representation data; they are not independent representation
 matrix constructions. See [the experiment](experiments/exceptional_quadratic_geometry.py)
 and [the report](experiments/exceptional-quadratic-geometry.json).
-Only the quadratic coordinate is computed here for E6/E7. Full basic
-invariant lists, generic degrees, full determinants and their factorizations
-remain further work in those types. There is no E8 geometry result here.
+Version 0.17 computed only the quadratic coordinate for E6/E7. The subsequent
+[E6 extension](E6_GEOMETRY.md) now gives all six coordinates and both full
+determinants as explicit products for the minimal and adjoint maps, with
+independent matrix certificates. Their generic degrees remain uncomputed;
+higher E7 coordinates and full determinants remain further work. There is
+no E8 geometry result here.
 
 ## API and reproducibility
 
