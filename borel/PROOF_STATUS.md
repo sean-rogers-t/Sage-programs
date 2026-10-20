@@ -29,6 +29,29 @@ separate work.
 
 ## Exceptional integral images: first complete finite tables
 
+The [E7 adjoint proof](E7_REPRESENTATION_COMPARISON.md) identifies
+Sym_Z(36P) by a unit coefficient minor and a determinant-one row change
+whose seven leading coefficients are all one and whose exponent
+determinant is two. The certificate works in every characteristic.
+Since P/Q has order 2, the coprime-index argument proves
+J56^d intersect J133^d = 3^d J56^d and their sum = 3^(-d) J133^d,
+for every standard Levi and degree. These are deductions without a
+novelty claim. The divisor images 24 Z h and 36 Z h prove that the
+full E7/P7 image rings are incomparable; some individual degrees have
+adjoint-in-minimal containment. Specifically, containment is strict in
+degrees 2, 4, 24 and 26; all other positive degrees through 27 are
+incomparable. The quotient of their sum by the minimal image is
+elementary abelian of rank zero, one or two, as listed in the comparison.
+
+The complete E7/P7 comparison computes all 28 adjoint source lattices,
+certifies their completeness, and freshly checks all 1,967 rational
+Borel columns by the separate ordinary-ring/Chevalley implementation
+with its documented BGG anchor dependencies. A Python-only audit
+reconstructs the integral weight-lattice coordinates, compressed
+polynomials by a closed partition formula, every source coefficient
+constraint, eight direct Laurent intersections and image arithmetic.
+The prior minimal tables are reused with six fresh minimal API checks.
+
 The [E6 adjoint proof](E6_REPRESENTATION_COMPARISON.md) identifies the
 full torus source as Sym_Z(24P), while the minimal source is Sym_Z(6Q).
 A unit coefficient minor proves the linear lattice, and a unimodular

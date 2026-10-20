@@ -141,9 +141,13 @@ Springer map or prove corresponding integral image results.
    including all-degree 3^d scaling and the representation selector.
    Also completed: E6/P1 and E7/P7 public character helpers, and the
    [E6 minimal/adjoint comparison](E6_REPRESENTATION_COMPARISON.md).
-   Next: compare the E7 minimal and adjoint sources with their own
-   all-primes certificates. Then investigate when degree-one lattices
-   determine full sources beyond the currently certified cases.
+   Also completed: the [E7 minimal/adjoint comparison](E7_REPRESENTATION_COMPARISON.md),
+   with its own all-primes certificate, integral weight coordinates and
+   complete P7 image audit. The E6/E7 comparisons illustrate a general
+   coprime-index lemma for certified sources.
+   Next: test further representations against the full-source criterion,
+   especially cases where the relative scalar and lattice index share
+   a prime, and extend certified image coverage to further parabolics.
 3. Equivariant computations after choosing the coefficient-ring API.
 
 Further classical multi-block work, packaging the proved joint formulas and

@@ -498,3 +498,11 @@ is proved by its own unit-leading-term certificate. The sum/intersection
 formulas follow from P/Q having order 3 and its coprimality with the
 relative scalar 4. These exact integral assertions are not attributed
 to the cited papers. No specialist priority search has been completed.
+
+The [E7 comparison](E7_REPRESENTATION_COMPARISON.md) applies the same
+distinction: the published inputs are trace projection and the Part III
+E7/P7 rational generators. Its adjoint torus source Sym_Z(36P) is
+certified separately. The image sum/intersection formulas follow from
+the coprimality of the scalar 3 and the order 2 of P/Q. These deductions
+are not attributed to Kostant--Michor or Kumar--Xie, and no literature
+priority claim is made.

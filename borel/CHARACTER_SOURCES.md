@@ -258,6 +258,9 @@ minimal sources and complete images. The [E6 adjoint comparison](E6_REPRESENTATI
 proves Sym_Z(24P), which is not homothetic to the minimal Sym_Z(6Q).
 It gives all-Levi sum/intersection formulas and complete incomparable
 images on E6/P1.
+The [E7 adjoint comparison](E7_REPRESENTATION_COMPARISON.md) certifies
+Sym_Z(36P) against the minimal Sym_Z(12Q), packages both representations,
+and proves all-Levi sums and intersections by a coprime-index argument.
 A classification of representations
 satisfying the criterion remains open work in this repository. No claim
 that those questions are open in the literature, or explicitly posed by

@@ -110,22 +110,40 @@ def _e7_symmetric_inputs():
     return tuple(inputs)
 
 
-def e7_character_source(parabolic=7):
-    """Full V(omega7) character source on E7/P7, with torus form Sym_Z(12Q).
+def e7_character_source(parabolic=7, *, representation="minimal"):
+    """Full minimal or adjoint character source on E7/P7.
 
-    Uses integral A5 symmetric coordinates to avoid expanding in seven root
-    variables. Only P7 and the 56-dimensional representation are packaged.
+    V(omega7), dimension 56, has torus form Sym_Z(12Q); the adjoint
+    V(omega1), dimension 133, has form Sym_Z(36P). Uses integral A5
+    symmetric coordinates for Q or P. Only P7 is currently packaged.
     """
     if _integer(parabolic, "parabolic", 1) != 7:
         raise ValueError("e7_character_source currently supports only P7")
-    s = springer_character_map("E7", (0, 0, 0, 0, 0, 0, 1))
-    C = CartanMatrix("E7")
-    U = matrix(ZZ, [[-1,-2,-3,-4,-3,-2,-1], [0,0,-1,0,0,0,0],
-        [0,-1,-1,-1,-1,-1,-1], [0,-1,-1,-1,-1,-1,0],
-        [0,-1,-1,-1,-1,0,0], [0,-1,-1,-1,0,0,0], [-1,-3,-4,-4,-3,-2,-1]])
-    change = U*(12*C)*s.linear_basis_matrix.transpose().inverse()
+    if representation not in ("minimal", "adjoint"):
+        raise ValueError("representation must be 'minimal' or 'adjoint'")
+    inputs = _e7_symmetric_inputs()
+    if representation == "minimal":
+        s = springer_character_map("E7", (0, 0, 0, 0, 0, 0, 1))
+        C = CartanMatrix("E7")
+        U = matrix(ZZ, [[-1,-2,-3,-4,-3,-2,-1], [0,0,-1,0,0,0,0],
+            [0,-1,-1,-1,-1,-1,-1], [0,-1,-1,-1,-1,-1,0],
+            [0,-1,-1,-1,-1,0,0], [0,-1,-1,-1,0,0,0], [-1,-3,-4,-4,-3,-2,-1]])
+        change = U*(12*C)*s.linear_basis_matrix.transpose().inverse()
+        scale = 12
+    else:
+        s = springer_character_map("E7", (1, 0, 0, 0, 0, 0, 0))
+        assert s.linear_basis_matrix == 36*matrix.identity(ZZ, 7)
+        change = [[1,-1,-1,1,0,0,0], [0,0,0,1,-1,0,0],
+                  [0,0,0,0,1,-1,0], [0,0,0,0,0,1,-1],
+                  [0,1,0,-1,0,0,1], [0,1,0,-1,0,0,0], [0,0,1,-1,0,0,0]]
+        # P has integral basis v1,...,v6,z, with z=(u-E1)/2.
+        # A5 permutes the v's and fixes z; u=2z+E1.
+        R = inputs[0].parent()
+        es, z = R.gens()[:6], R.gen(6)
+        inputs = tuple(f(*(es+(2*z+es[0],))) for f in inputs)
+        scale = 36
     b = exceptional_borel("E7", 7)
     names = ("omega7", "psi2", "psi5", "psi6", "psi8", "psi9", "psi12")
     algebra = _MinusculeAlgebra(b, {n: b.generator_polynomial(n) for n in names})
-    return _certified_source(s, algebra, change, _e7_symmetric_inputs(), 12,
+    return _certified_source(s, algebra, change, inputs, scale,
                              (1, 2, 3, 4, 5, 6, 1))
