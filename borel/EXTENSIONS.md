@@ -104,9 +104,12 @@ restriction to powers of two is not assumed. See the existing
 Compare explicitly specified normalized, SO-character, and Spin-character
 sources, or sources arising from other representations. For the currently
 specified SO form, uniform degree scaling is proved and implemented.
-Additional weights or representations require a separately justified source
-and integrality analysis. A change of root/weight coordinates alone does
-not certify a statement about a different representation-ring lattice.
+The [trace-source theorem](TRACE_SOURCE_THEOREM.md) now proves degree-one
+generation for every supported normalized trace representation map.
+Additional representations still require their actual linear lattice,
+integral Levi invariants and cohomology image to be calculated. A change
+of root/weight coordinates alone does not identify another representation's
+character lattice.
 
 ## Equivariant calculations
 
@@ -145,9 +148,12 @@ Springer map or prove corresponding integral image results.
    with its own all-primes certificate, integral weight coordinates and
    complete P7 image audit. The E6/E7 comparisons illustrate a general
    coprime-index lemma for certified sources.
-   Next: test further representations against the full-source criterion,
-   especially cases where the relative scalar and lattice index share
-   a prime, and extend certified image coverage to further parabolics.
+   Also completed: the [general trace-source theorem](TRACE_SOURCE_THEOREM.md)
+   proves degree-one generation for every supported representation, and a
+   separate Python audit reconstructs all 59 surveyed representation cases.
+   Next: calculate new linear lattices and their integral Levi/Borel images,
+   particularly representation comparisons where scalar and lattice-index
+   coprimality fails, and extend coverage to further exceptional parabolics.
 3. Equivariant computations after choosing the coefficient-ring API.
 
 Further classical multi-block work, packaging the proved joint formulas and

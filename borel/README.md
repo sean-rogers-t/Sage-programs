@@ -29,6 +29,7 @@ the mathematical guide for the Borel/Springer construction.
 | Which E6/P1 polynomials actually pull back to integral Levi characters? | [Character integral form and complete image comparisons](E6_CHARACTER_FORM.md) |
 | What is the E7/P7 character form, and does it contain the catalogue image? | [E7 character form, sums and intersections](E7_CHARACTER_FORM.md) |
 | How does the representation determine the integral polynomial-character source? | [General criterion and character API](CHARACTER_SOURCES.md), with [complete G2 sources and image rings](G2_CHARACTER_FORM.md) |
+| Is the full torus character source always generated in degree one? | [Trace-source theorem, proof, further representations and independent audit](TRACE_SOURCE_THEOREM.md) |
 | What is the literal F4 character form and its complete image? | [Proof, API and independent checks](F4_CHARACTER_FORM.md), [all four parabolic tables](F4_CHARACTER_TABLES.md) |
 | How does the F4 adjoint representation change the integral image? | [All-degree scaling theorem and comparison API](F4_REPRESENTATION_COMPARISON.md) |
 | How do I compute the certified E6/P1 and E7/P7 character images? | [Public character API](MINUSCULE_CHARACTER_API.md) and [E6 minimal/adjoint comparison](E6_REPRESENTATION_COMPARISON.md) |
@@ -168,6 +169,14 @@ Sym_Z(36P), compared with the minimal Sym_Z(12Q), and proves all-Levi
 sum/intersection formulas. The complete E7/P7 tables and independent
 audit distinguish degreewise containment from incomparability of the
 whole image rings. The original minimal factory default is preserved.
+
+Version 0.15 proves [degree-one generation for all normalized trace
+representation maps](TRACE_SOURCE_THEOREM.md), including higher weights
+and direct sums. `certify_trace_source()` verifies saturated coefficient
+columns and their exact relation to weight exponents. The general
+`IntegralCharacterSource` now uses this theorem by default; explicit
+leading-basis requests retain their earlier behavior. The Levi-invariant
+ring and its cohomology image still require their own calculations.
 
 The subsequent [type C joint-image proof](TYPE_C_JOINT_PRIMITIVITY.md)
 proves saturation of the normalized joint image for all positive block

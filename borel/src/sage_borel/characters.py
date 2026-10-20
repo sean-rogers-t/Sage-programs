@@ -1,9 +1,10 @@
 """Integral polynomial characters for normalized trace-projection maps.
 
 The group is simply connected, semisimple and of finite irreducible type.
-Weights are fundamental-weight coordinates. A successful leading certificate
-proves the full torus intersection in ALL degrees; an inconclusive certificate
-or a bounded search without a relation makes no such assertion.
+Weights are fundamental-weight coordinates. The trace-source theorem proves
+degree-one generation for the normalized representation maps. For arbitrary
+Laurent inputs, a successful leading certificate proves the full polynomial
+intersection; a bounded search without a relation makes no such assertion.
 """
 from dataclasses import dataclass
 from math import comb
@@ -56,6 +57,21 @@ class LeadingTermCertificate:
     exceptional_primes: tuple
     cases: tuple
     basis_change: tuple
+
+
+@dataclass(frozen=True)
+class TraceSourceCertificate:
+    """All-degree certificate using the trace-moment source theorem.
+
+    Primitive integral coefficient columns and the exact trace/exponent
+    factorization imply algebraic independence modulo EVERY prime. No
+    bounded search or choice of one leading-term basis is involved.
+    """
+    certified: bool
+    rank: int
+    support_size: int
+    primitive_coefficients: bool
+    trace_factorization: bool
 
 
 def polynomial_source_certificate(pullbacks, basis_change=None):
@@ -252,8 +268,38 @@ class SpringerCharacterMap:
         """Try the all-primes sufficient certificate for Sym_Z(Lambda_rho)."""
         return polynomial_source_certificate(self.linear_pullbacks, basis_change)
 
+    def certify_trace_source(self):
+        """Certify the full torus source as Sym_Z(the degree-one lattice).
+
+        This uses the representation-specific theorem in
+        TRACE_SOURCE_THEOREM.md. The generic Laurent leading-term test
+        remains available as certify_polynomial_source(). A Levi source
+        is the invariant subring, which can need higher-degree generators.
+        """
+        fs = _integral_laurents(self.linear_pullbacks)
+        dictionaries = [f.dict() for f in fs]
+        support = sorted(set().union(*(set(f) for f in dictionaries)))
+        coefficients = matrix(ZZ, [[f.get(e, 0) for f in dictionaries]
+                                   for e in support])
+        primitive = (coefficients.hermite_form(include_zero_rows=False)
+                     == identity_matrix(ZZ, self.rank))
+        K = self.linear_basis_matrix.transpose()*self.trace_gram.inverse()
+        multiplicities = dict(self.weight_multiplicities)
+        nonzero_weights = {w for w, m in multiplicities.items() if m and any(w)}
+        factorization = (bool(K.det())
+            and {tuple(e) for e in support} == nonzero_weights
+            and all(vector(QQ, row) == multiplicities[tuple(e)]*K*vector(QQ, e)
+                    for e, row in zip(support, coefficients.rows())))
+        return TraceSourceCertificate(bool(primitive and factorization), self.rank,
+                                      len(support), bool(primitive), bool(factorization))
+
     def modular_obstruction(self, prime, max_degree=3, **budgets):
-        """Find a certified extra integral polynomial, if visible in the bound."""
+        """Diagnostic bounded search; the trace theorem rules out obstructions.
+
+        For a correctly constructed trace map this returns None. The generic
+        modular_character_relation function can still find genuine relations
+        for arbitrary Laurent inputs outside the trace hypotheses.
+        """
         relation = modular_character_relation(self.linear_pullbacks, prime,
                                               max_degree, **budgets)
         if relation is None:

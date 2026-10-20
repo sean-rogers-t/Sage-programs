@@ -17,6 +17,9 @@ and intersections, and records the independently checked E6/P1 tables.
 The [E7 minimal/adjoint comparison](borel/E7_REPRESENTATION_COMPARISON.md)
 now provides the corresponding full-source proof, complete E7/P7
 comparison and independent audit.
+The [general trace-source theorem](borel/TRACE_SOURCE_THEOREM.md) now
+proves degree-one generation for every supported normalized representation
+map, with a 59-case independent weight/lattice audit and a public certificate.
 
 The [graded image calculator](borel/IMAGE_RELATIONS.md) computes exact relations
 among chosen generator images, with two-step symplectic flag experiments and
