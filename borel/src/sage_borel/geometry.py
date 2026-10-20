@@ -5,7 +5,7 @@ is taken: positive-degree Weyl invariants are retained here.
 """
 from dataclasses import dataclass
 
-from sage.all import (PolynomialRing, QQ, RootSystem, WeylCharacterRing,
+from sage.all import (PolynomialRing, QQ, ZZ, RootSystem, WeylCharacterRing,
                       matrix, prod, vector)
 
 from .characters import SpringerCharacterMap, _integer, springer_character_map
@@ -15,6 +15,75 @@ def _bounded(f, limit):
     if len(f.dict()) > limit:
         raise ValueError("Laurent support budget exceeded; raise max_terms explicitly")
     return f
+
+
+def _torus_point(point, rank):
+    values = vector(point)
+    if len(values) != rank or any(x == 0 for x in values):
+        raise ValueError("supply one nonzero torus coordinate per Dynkin node")
+    if values.base_ring() is ZZ:
+        values = values.change_ring(QQ)
+    return tuple(values)
+
+
+def _evaluate_laurent(f, values):
+    # Sage does not implicitly reduce QQ coefficients into finite fields.
+    field = values[0].parent()
+    if field.characteristic():
+        return sum(field(c)*prod(t**a for t,a in zip(values,e)) for e,c in f.dict().items())
+    return f(*values)
+
+
+@dataclass(frozen=True)
+class PowerSumPullback:
+    """Exact sum of powers of Laurent forms, without expanding the powers."""
+    linear_forms: tuple
+    degree: int
+    normalization: object
+
+    def evaluate(self, point):
+        values = _torus_point(point, self.linear_forms[0].parent().ngens())
+        return sum(_evaluate_laurent(f, values)**self.degree for f in self.linear_forms)/values[0].parent()(self.normalization)
+
+    def expand(self, *, max_terms=50000):
+        limit = _integer(max_terms, "max_terms", 1)
+        L = self.linear_forms[0].parent()
+        result = L.zero()
+        for f in self.linear_forms:
+            power = L.one()
+            for _ in range(self.degree):
+                power = _bounded(power*f, limit)
+            result = _bounded(result+power, limit)
+        return result/self.normalization
+
+
+@dataclass(frozen=True)
+class FactoredCayleyDeterminant:
+    """Full determinant retained as the Cartan block and every root factor.
+
+    evaluate() uses exact matrix/scalar operations and avoids Laurent
+    expansion. torus_character_polynomial, when present, is the compact
+    fundamental-character expression for the Cartan-block determinant.
+    """
+    torus_jacobian_matrix: object
+    root_factors: tuple
+    torus_character_polynomial: object = None
+
+    def evaluate(self, point):
+        values = _torus_point(point, self.torus_jacobian_matrix.nrows())
+        J = matrix([[_evaluate_laurent(f, values) for f in row] for row in self.torus_jacobian_matrix])
+        result = J.det()
+        for alpha, factor in self.root_factors:
+            result *= prod(t**a for t, a in zip(values, alpha))*_evaluate_laurent(factor, values)**2
+        return result
+
+    def expand(self, *, max_terms=50000):
+        limit = _integer(max_terms, "max_terms", 1)
+        result = _bounded(self.torus_jacobian_matrix.det(), limit)
+        ts = result.parent().gens()
+        for alpha, factor in self.root_factors:
+            result = _bounded(result*prod(t**a for t, a in zip(ts, alpha))*factor*factor, limit)
+        return result
 
 
 def _exact_laurent_quotient(f, g):
@@ -42,7 +111,9 @@ class AdjointQuotient:
     """Basic Lie invariants and their pullbacks in fundamental characters.
 
     ``character_polynomials`` use chi_i = character of V(omega_i).
-    These are characteristic-zero quotient coordinates, not integral-source
+    ``torus_pullbacks`` are Laurent polynomials, or PowerSumPullback objects
+    in the E6 helper to avoid enormous expansions. These are
+    characteristic-zero quotient coordinates, not integral-source
     generators. Basicness is checked by degrees and algebraic independence.
     """
     invariants: tuple
@@ -133,6 +204,10 @@ class SpringerGeometry:
         for a, r in self.root_factors():
             f = _bounded(f*prod(t**x for t, x in zip(s.torus_ring.gens(), a))*r*r, limit)
         return f
+
+    def factored_cayley_determinant(self):
+        """Return the full determinant as an exact, unexpanded product."""
+        return FactoredCayleyDeterminant(self.torus_jacobian(), self.root_factors())
 
     def _is_invariant(self, D):
         n = self.springer_map.rank

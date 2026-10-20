@@ -37,8 +37,13 @@ checks; the full determinants agree coefficientwise with independent rational
 representation-matrix constructions. A general root-factor formula follows
 from equivariance. A standard tensor-Casimir identity gives the quadratic
 coordinate uniformly, with E6/E7 minimal/adjoint checks by both Laurent and
-tensor methods. Higher E6/E7 coordinates, full determinants and degrees
-remain uncomputed. These are exact deductions and computations, without a
+tensor methods. The [E6 extension](E6_GEOMETRY.md) now supplies the full
+basic-invariant list, all six minimal/adjoint quotient coordinates and both
+full determinant products. Dominance bounds and exact unisolvent matrices
+prove the large character formulas; independent 27- and 78-dimensional
+matrices check all 72 root directions coefficientwise in both cases.
+Higher E7 coordinates and determinants and E6/E7 generic degrees remain
+uncomputed. These are exact deductions and computations, without a
 novelty claim. They do not identify the minimal Cayley degree of a group.
 
 The [irreducible lattice classification](IRREDUCIBLE_CHARACTER_LATTICES.md)

@@ -63,9 +63,11 @@ The [geometry project](SPRINGER_GEOMETRY.md) now separately computes complete
 G2 minimal/adjoint quotient maps and full critical determinants, with generic
 degrees 6 and 18 proved and independently checked. E6/E7 minimal/adjoint
 quadratic quotient coordinates are checked by Laurent substitution and
-tensor Casimirs. Next geometry targets are higher basic invariant coordinates
-and the full determinants for those representations; their generic degrees
-are not inferred from the integral-source classification or polytope volume.
+tensor Casimirs. The [complete E6 extension](E6_GEOMETRY.md) now gives all
+higher minimal/adjoint coordinates and both full determinant products, with
+independent matrices and exact unisolvent certificates. The corresponding
+E7 extension and E6/E7 generic degrees remain further work. No generic degree
+is inferred from the integral-source classification or polytope volume.
 
 **Current focus.** The [first complete G2/F4 tables](EXCEPTIONAL_INTEGRAL.md)
 now cover every maximal parabolic and every degree for two explicit source

@@ -22,12 +22,15 @@ from .character_invariants import (CharacterInvariantDegree, IntegralCharacterSo
 from .minuscule_characters import e6_character_source, e7_character_source
 from .character_lattices import IrreducibleCharacterLattice, irreducible_character_lattice
 from .geometry import (AdjointQuotient, SpringerGeometry, g2_adjoint_quotient,
+                       PowerSumPullback, FactoredCayleyDeterminant,
                        quadratic_character_pullback)
+from .e6_geometry import (e6_adjoint_quotient, e6_cayley_determinant,
+                          e6_fundamental_characters)
 from .exceptional import (ExceptionalBorel, GeneratorInfo, exceptional_borel, exceptional_algebra,
                           exceptional_generators, exceptional_image,
                           exceptional_polynomial)
 
-__version__ = "0.17.0"
+__version__ = "0.18.0"
 __all__ = ["BorelMap", "Expansion", "classical_borel", "to_type_a",
            "ExceptionalBorel", "GeneratorInfo", "exceptional_borel",
            "exceptional_generators", "exceptional_polynomial", "exceptional_image",
@@ -44,4 +47,5 @@ __all__ = ["BorelMap", "Expansion", "classical_borel", "to_type_a",
            "e6_character_source", "e7_character_source",
            "IrreducibleCharacterLattice", "irreducible_character_lattice",
            "AdjointQuotient", "SpringerGeometry", "g2_adjoint_quotient",
-           "quadratic_character_pullback"]
+           "quadratic_character_pullback", "PowerSumPullback", "FactoredCayleyDeterminant",
+           "e6_adjoint_quotient", "e6_cayley_determinant", "e6_fundamental_characters"]
