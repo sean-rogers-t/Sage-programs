@@ -25,6 +25,11 @@ now gives the full linear source from the highest weight and trace index,
 without enumerating representation weights, for all exceptional groups.
 It includes a general proof, a fast API and separate exact-arithmetic checks.
 
+The [Springer geometry API](borel/SPRINGER_GEOMETRY.md) computes adjoint
+quotient coordinates and full critical determinants. It includes complete
+G2 minimal/adjoint formulas of generic degrees 6 and 18, independent matrix
+checks, and the quadratic coordinates for E6/E7 minimal and adjoint maps.
+
 The [graded image calculator](borel/IMAGE_RELATIONS.md) computes exact relations
 among chosen generator images, with two-step symplectic flag experiments and
 an invariant-theory derivation of their joint-image presentation.

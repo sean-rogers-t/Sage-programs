@@ -29,6 +29,18 @@ separate work.
 
 ## Exceptional integral images: first complete finite tables
 
+The [Springer geometry extension](SPRINGER_GEOMETRY.md) concerns a separate
+characteristic-zero problem. It records complete G2 minimal/adjoint quotient
+maps, generic degrees 6 and 18, and the full left-translated critical
+determinants. The degrees have Newton-polygon proofs and exact generic-fiber
+checks; the full determinants agree coefficientwise with independent rational
+representation-matrix constructions. A general root-factor formula follows
+from equivariance. A standard tensor-Casimir identity gives the quadratic
+coordinate uniformly, with E6/E7 minimal/adjoint checks by both Laurent and
+tensor methods. Higher E6/E7 coordinates, full determinants and degrees
+remain uncomputed. These are exact deductions and computations, without a
+novelty claim. They do not identify the minimal Cayley degree of a group.
+
 The [irreducible lattice classification](IRREDUCIBLE_CHARACTER_LATTICES.md)
 proves D_lambda=Q+Z*lambda by multiplicity-one simple-root paths, hence
 Lambda_lambda=I_lambda*(Q+Z*lambda)^*. This identifies every exceptional
