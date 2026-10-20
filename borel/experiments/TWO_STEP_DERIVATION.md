@@ -6,6 +6,11 @@ no novelty is claimed for the abstract kernel formula. The
 [mathematical guide](../MATHEMATICS.md) explains the characteristic map, and
 [METHODS.md](../METHODS.md) connects the formulas to the library API.
 
+The subsequent [integral type C proof](../TYPE_C_JOINT_PRIMITIVITY.md)
+establishes this presentation over Z, saturation of the joint image,
+and primitivity of the separate-image sum. The rational derivation below
+is retained; its Reynolds averaging is not used as an integral argument.
+
 Let `a,b,k >= 1`, `n=a+b+k`, and let `F` be the symplectic partial flag variety
 
 $$

@@ -141,6 +141,16 @@ may themselves be nonprimitive in full cohomology.
 
 ## Natural symplectic tails are saturated: a classical geometric deduction
 
+The later [type C joint-image proof](TYPE_C_JOINT_PRIMITIVITY.md) extends
+this geometric method to normalized middle-plus-tail inputs on two-step
+flags. Integral Lagrangian fiber bases and quaternionic flag cohomology
+give joint saturation. Reordering the quaternionic blocks identifies the
+two squared-factor subrings with Grassmannian pullbacks in one type A
+flag ring; a common integral basis then proves primitivity of the
+separate-image sum. The note cites Borel, Proposition 31.1 and case (31.2),
+and Pragacz–Ratajski explicitly, and separates these classical inputs
+from the deduction for the selected joint image. No novelty claim is made.
+
 Here there is substantially more than an absence of a counterexample. Let
 `n=a+k`, with `a,k >= 1`, and take the normalized tail inputs
 

@@ -38,11 +38,14 @@ The [first joint-image experiment](TWO_STEP_INTEGRAL.md) now compares the
 middle-only, tail-only and joint images in five symplectic cases and three
 orthogonal cases, covering 96 degree rows. The tested symplectic joint
 images are saturated; the orthogonal ones can have factors 2 and 4. Every
-tested separate-image sum is primitive inside the joint image. These
-finite observations need broader testing and theoretical explanation.
-General primitive ranges, partition formulas,
-and a description of cross-factor gluing are research questions. Rational
-kernel presentations alone cannot establish them.
+tested separate-image sum is primitive inside the joint image. The
+[general type C argument](TYPE_C_JOINT_PRIMITIVITY.md) now proves joint
+saturation and primitivity of that sum, using an integral basis compatible
+with both separate images. It also gives their constant-only intersection,
+the integral kernel and the quotient's graded free ranks.
+The corresponding type B/D joint-image questions and more general
+multi-block configurations remain further work. Rational kernel
+presentations alone cannot establish integral primitivity.
 
 Published ambient formulas exist for arbitrary classical partial flags:
 [Tamvakis, Giambelli and degeneracy locus formulas for classical G/P spaces](https://math.umd.edu/~harryt/papers/giamdegcl.pdf).
@@ -98,8 +101,8 @@ Springer map or prove corresponding integral image results.
 
 ## Suggested order
 
-1. Broaden the implemented two-step joint-image experiments and investigate
-   general joint saturation and primitivity of the separate-image sum.
+1. Package the proved type C joint rank and primitive quotient formulas,
+   then investigate analogous type B/D joint-image statements.
 2. Add reusable classical multi-block input helpers.
 3. Exceptional integral tables with explicit normalizations.
 4. Equivariant computations after choosing the coefficient-ring API.

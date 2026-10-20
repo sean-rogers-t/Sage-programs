@@ -120,6 +120,13 @@ linear algebra. The [two-step experiment](TWO_STEP_INTEGRAL.md) records
 contributions and independent Cartesian checks. These bounded tables
 are separate from the general single-tail B/D theorems.
 
+The subsequent [type C joint-image proof](TYPE_C_JOINT_PRIMITIVITY.md)
+proves saturation of the normalized joint image for all positive block
+sizes. A common integral basis also proves primitivity of the separate-image
+sum and that the two separate images intersect only in the constants.
+The note gives the integral kernel and closed rank formulas, with a
+source audit and explicit basis checks; no originality claim is made.
+
 The [extension roadmap](EXTENSIONS.md) separates proposed API work from
 further mathematical questions. The full-paper project is on hold.
 

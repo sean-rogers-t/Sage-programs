@@ -1,6 +1,7 @@
-# Proof and literature status of the orthogonal Smith notes
+# Proof and literature status of the integral image notes
 
-Audit date: 2026-10-19. Scope: the type B/D Smith notes and their
+Audit date: 2026-10-19. Scope: the type B/D Smith notes, the subsequent
+type C joint-image argument, and their
 normalization, lattice, geometric, and symmetric-function dependencies.
 This is a repository proof/source audit, not external peer review or a
 formal proof certificate. It does not certify originality. It does not
@@ -23,6 +24,36 @@ agreement of computations or multiple assistant reviews is not a proof.
 The conclusions below are based on the displayed arguments and checked
 source statements. External expert review and any claim of priority remain
 separate work.
+
+## General type-C joint images
+
+The [joint-image proof](TYPE_C_JOINT_PRIMITIVITY.md) proves, for every
+a,b,k>=1 and the fixed normalized inputs c_j=e_j(M), q_i=e_i(T^2), that:
+
+- the joint image is primitive in integral symplectic flag cohomology;
+- the sum of the two separate images is primitive in the joint image
+  and in ambient cohomology;
+- their intersection consists exactly of the constants.
+
+The proof identifies the joint image with pullback from
+Sp(n)/(Sp(a) x U(b) x Sp(k)). Integral Lagrangian Schubert lifts give
+Leray–Hirsch decompositions. Reordering the quaternionic blocks as M,A,T
+identifies the two squared-factor subrings with standard Grassmannian
+pullbacks in a complex type A two-step flag ring. They occupy subsets of
+one integral Schubert basis. The same middle Lagrangian lifts then give
+a simultaneous basis for the actual separate images. The proof includes
+an integral kernel presentation and Gaussian rank formulas.
+
+Borel's integral flag presentations, the Pragacz–Ratajski Lagrangian
+basis and quaternionic description, and compatibility of Schubert classes
+with projections are published inputs. Their application to these selected
+joint Springer/Borel images is a deduction written and checked here.
+The note's audit table records the normalization, integral generation,
+compatible lifts, and block-order issues. Its
+[finite verifier](experiments/type_c_joint_primitivity.py) constructs the
+asserted bases and checks their embedded lattices. No claim of novelty,
+external review, or extension to scaled characters or type B/D joint images
+is made.
 
 ## General type-B comparison completed in these notes
 

@@ -18,6 +18,7 @@ from sage.env import SAGE_VERSION
 ROOT = Path(__file__).resolve().parents[1]
 DOCUMENTS = ("README.md", "MATHEMATICS.md", "METHODS.md", "SCHUBERT_CALCULUS.md", "PRESENTATIONS.md",
              "ORTHOGONAL_API.md", "EXTENSIONS.md", "INTEGRAL_COMPARISONS.md", "TWO_STEP_INTEGRAL.md",
+             "TYPE_C_JOINT_PRIMITIVITY.md",
              "IMAGE_RELATIONS.md", "INTEGRAL_IMAGES.md", "INTEGRAL_LITERATURE.md",
              "ORTHOGONAL_SMITH.md", "TYPE_B_SMITH.md", "TYPE_D_SMITH.md",
              "TYPE_D_FROBENIUS.md", "TYPE_D_SQUARE_COMPARISON.md", "TYPE_D_CANDIDATE.md",

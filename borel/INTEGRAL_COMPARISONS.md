@@ -137,3 +137,8 @@ assert joint.preimage(mixed) == u*v
 See [the bounded joint-image tables and their interpretation](TWO_STEP_INTEGRAL.md),
 [the experiment](experiments/two_step_integral_images.py), and
 [the independent comparison tests](tests/test_lattices.py).
+
+For these normalized type C two-step generators, the subsequent
+[general proof](TYPE_C_JOINT_PRIMITIVITY.md) shows that both the joint
+image and the separate-image sum are saturated, in every rank and degree.
+It explains the simultaneous integral basis behind the computations.

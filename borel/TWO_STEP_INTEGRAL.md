@@ -5,6 +5,12 @@ extend the earlier rational two-step presentation and single-tail integral
 calculations. They do not constitute an arbitrary-rank theorem or a claim
 of originality. The full-paper project remains on hold.
 
+Subsequent development: the [type C proof](TYPE_C_JOINT_PRIMITIVITY.md)
+now establishes joint saturation, primitivity of the separate-image sum,
+and the constant-only intersection for all positive block sizes. The
+original finite tables below are retained as evidence and examples.
+The type B/D joint observations remain finite computations.
+
 ## Groups, flags and input lattices
 
 Write n=a+b+k with a,b,k positive. The two omitted nodes are a and a+b;
@@ -92,9 +98,10 @@ The earlier B/D formulas describe the specified single-tail sources.
 One cannot obtain the present joint Smith lists merely by concatenating
 the separate lists: the relative positions of images and the mixed
 products matter. The new API makes that distinction exact. The finite
-tables supply evidence for future questions about general joint
-saturation and primitivity of S_d inside J_d. No such general extension
-is claimed proved here, and its literature status has not been audited.
+tables motivated the subsequent type C theorem linked above. General
+type B/D joint saturation and primitivity statements remain open in this
+work. The type C note identifies its classical inputs separately from
+the deduction and does not claim novelty.
 
 ## Verification and rerunning
 
