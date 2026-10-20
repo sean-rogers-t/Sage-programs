@@ -1,0 +1,8731 @@
+{
+  "suite_result": "passed",
+  "status_of_formula": {
+    "unit_factors_e_zero": "audited deduction in TYPE_B_UNIT_SMITH.md from published inputs; novelty not established",
+    "counting_polynomial": "classical Birkhoff/Hall enumeration; see PROOF_STATUS.md",
+    "general_intermediate_factors": "complete repository derivation in TYPE_B_GENERAL_SMITH.md; finite verification is not a proof"
+  },
+  "generated_utc": "2026-10-19T18:20:45.642642+00:00",
+  "Borel_or_Weyl_engine_imported": false,
+  "source_script_sha256": "d63521939f537cc1b6ef71b72723329ba7e6366438bcf672e11261efdae63281",
+  "inputs": [
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "sha256": "bbb2080a2c668b177008db2085962d76d23456e2ad1b5b4fbac9e136253645f7",
+      "bytes": 110765
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "sha256": "16cc7a959ec59493febe0e4b3c38a311a72e170c767025cf05c3a88a17a07bfb",
+      "bytes": 796807
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "sha256": "d429565cb10bf8a9f4785067ee46c0558b810266db595460f8e73c6ca1f6b9e8",
+      "bytes": 86174
+    }
+  ],
+  "Smith_checks": [
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 2,
+      "ell": 1,
+      "m": 0,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        0
+      ],
+      "actual_Smith": [
+        1
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 2,
+      "ell": 1,
+      "m": 1,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        1
+      ],
+      "actual_Smith": [
+        2
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 3,
+      "ell": 1,
+      "m": 0,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        0
+      ],
+      "actual_Smith": [
+        1
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 3,
+      "ell": 1,
+      "m": 1,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        0
+      ],
+      "actual_Smith": [
+        1
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 3,
+      "ell": 1,
+      "m": 2,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        1
+      ],
+      "actual_Smith": [
+        2
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 3,
+      "ell": 1,
+      "m": 0,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        0
+      ],
+      "actual_Smith": [
+        1
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 3,
+      "ell": 1,
+      "m": 1,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        0
+      ],
+      "actual_Smith": [
+        1
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 3,
+      "ell": 1,
+      "m": 2,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        1
+      ],
+      "actual_Smith": [
+        2
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 4,
+      "ell": 1,
+      "m": 0,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        0
+      ],
+      "actual_Smith": [
+        1
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 4,
+      "ell": 1,
+      "m": 1,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        0
+      ],
+      "actual_Smith": [
+        1
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 4,
+      "ell": 1,
+      "m": 2,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        1
+      ],
+      "actual_Smith": [
+        2
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 4,
+      "ell": 1,
+      "m": 3,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        1
+      ],
+      "actual_Smith": [
+        2
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 4,
+      "ell": 2,
+      "m": 0,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        1
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 4,
+      "ell": 2,
+      "m": 1,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        1
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 4,
+      "ell": 2,
+      "m": 2,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        1,
+        0
+      ],
+      "actual_Smith": [
+        1,
+        2
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 4,
+      "ell": 2,
+      "m": 3,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        1,
+        0
+      ],
+      "actual_Smith": [
+        2
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 4,
+      "ell": 2,
+      "m": 4,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        0,
+        1
+      ],
+      "actual_Smith": [
+        4
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 4,
+      "ell": 1,
+      "m": 0,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        0
+      ],
+      "actual_Smith": [
+        1
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 4,
+      "ell": 1,
+      "m": 1,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        0
+      ],
+      "actual_Smith": [
+        1
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 4,
+      "ell": 1,
+      "m": 2,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        1
+      ],
+      "actual_Smith": [
+        2
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 4,
+      "ell": 1,
+      "m": 3,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        1
+      ],
+      "actual_Smith": [
+        2
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 5,
+      "ell": 1,
+      "m": 0,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        0
+      ],
+      "actual_Smith": [
+        1
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 5,
+      "ell": 1,
+      "m": 1,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        0
+      ],
+      "actual_Smith": [
+        1
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 5,
+      "ell": 1,
+      "m": 2,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        0
+      ],
+      "actual_Smith": [
+        1
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 5,
+      "ell": 1,
+      "m": 3,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        1
+      ],
+      "actual_Smith": [
+        2
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 5,
+      "ell": 1,
+      "m": 4,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        1
+      ],
+      "actual_Smith": [
+        2
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 5,
+      "ell": 2,
+      "m": 0,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        1
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 5,
+      "ell": 2,
+      "m": 1,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        1
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 5,
+      "ell": 2,
+      "m": 2,
+      "matches": true,
+      "candidate_counts": [
+        2,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        1,
+        1
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 5,
+      "ell": 2,
+      "m": 3,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        1,
+        0
+      ],
+      "actual_Smith": [
+        1,
+        2
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 5,
+      "ell": 2,
+      "m": 4,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        2,
+        0
+      ],
+      "actual_Smith": [
+        2,
+        2
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 5,
+      "ell": 2,
+      "m": 5,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        1,
+        0
+      ],
+      "actual_Smith": [
+        2
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 5,
+      "ell": 2,
+      "m": 6,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        0,
+        1
+      ],
+      "actual_Smith": [
+        4
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 5,
+      "ell": 2,
+      "m": 0,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        1
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 5,
+      "ell": 2,
+      "m": 1,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        1
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 5,
+      "ell": 2,
+      "m": 2,
+      "matches": true,
+      "candidate_counts": [
+        2,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        1,
+        1
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 5,
+      "ell": 2,
+      "m": 3,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        1,
+        0
+      ],
+      "actual_Smith": [
+        1,
+        2
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 5,
+      "ell": 2,
+      "m": 4,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        2,
+        0
+      ],
+      "actual_Smith": [
+        2,
+        2
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 5,
+      "ell": 2,
+      "m": 5,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        1,
+        0
+      ],
+      "actual_Smith": [
+        2
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 5,
+      "ell": 2,
+      "m": 6,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        0,
+        1
+      ],
+      "actual_Smith": [
+        4
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 5,
+      "ell": 1,
+      "m": 0,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        0
+      ],
+      "actual_Smith": [
+        1
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 5,
+      "ell": 1,
+      "m": 1,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        0
+      ],
+      "actual_Smith": [
+        1
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 5,
+      "ell": 1,
+      "m": 2,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        0
+      ],
+      "actual_Smith": [
+        1
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 5,
+      "ell": 1,
+      "m": 3,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        1
+      ],
+      "actual_Smith": [
+        2
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 5,
+      "ell": 1,
+      "m": 4,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        1
+      ],
+      "actual_Smith": [
+        2
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 6,
+      "ell": 1,
+      "m": 0,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        0
+      ],
+      "actual_Smith": [
+        1
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 6,
+      "ell": 1,
+      "m": 1,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        0
+      ],
+      "actual_Smith": [
+        1
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 6,
+      "ell": 1,
+      "m": 2,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        0
+      ],
+      "actual_Smith": [
+        1
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 6,
+      "ell": 1,
+      "m": 3,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        1
+      ],
+      "actual_Smith": [
+        2
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 6,
+      "ell": 1,
+      "m": 4,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        1
+      ],
+      "actual_Smith": [
+        2
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 6,
+      "ell": 1,
+      "m": 5,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        1
+      ],
+      "actual_Smith": [
+        2
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 6,
+      "ell": 2,
+      "m": 0,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        1
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 6,
+      "ell": 2,
+      "m": 1,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        1
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 6,
+      "ell": 2,
+      "m": 2,
+      "matches": true,
+      "candidate_counts": [
+        2,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        1,
+        1
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 6,
+      "ell": 2,
+      "m": 3,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        1,
+        0
+      ],
+      "actual_Smith": [
+        1,
+        2
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 6,
+      "ell": 2,
+      "m": 4,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        2,
+        0
+      ],
+      "actual_Smith": [
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 6,
+      "ell": 2,
+      "m": 5,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        2,
+        0
+      ],
+      "actual_Smith": [
+        2,
+        2
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 6,
+      "ell": 2,
+      "m": 6,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        1,
+        1
+      ],
+      "actual_Smith": [
+        2,
+        4
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 6,
+      "ell": 3,
+      "m": 0,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        1
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 6,
+      "ell": 3,
+      "m": 1,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        1
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 6,
+      "ell": 3,
+      "m": 2,
+      "matches": true,
+      "candidate_counts": [
+        2,
+        0,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        1,
+        1
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 6,
+      "ell": 3,
+      "m": 3,
+      "matches": true,
+      "candidate_counts": [
+        2,
+        1,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 6,
+      "ell": 3,
+      "m": 4,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        2,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 6,
+      "ell": 3,
+      "m": 5,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        3,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 6,
+      "ell": 3,
+      "m": 6,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        2,
+        1,
+        0
+      ],
+      "actual_Smith": [
+        2,
+        2,
+        4
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 6,
+      "ell": 2,
+      "m": 0,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        1
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 6,
+      "ell": 2,
+      "m": 1,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        1
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 6,
+      "ell": 2,
+      "m": 2,
+      "matches": true,
+      "candidate_counts": [
+        2,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        1,
+        1
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 6,
+      "ell": 2,
+      "m": 3,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        1,
+        0
+      ],
+      "actual_Smith": [
+        1,
+        2
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 6,
+      "ell": 2,
+      "m": 4,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        2,
+        0
+      ],
+      "actual_Smith": [
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 6,
+      "ell": 2,
+      "m": 5,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        2,
+        0
+      ],
+      "actual_Smith": [
+        2,
+        2
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 6,
+      "ell": 2,
+      "m": 6,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        1,
+        1
+      ],
+      "actual_Smith": [
+        2,
+        4
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 6,
+      "ell": 1,
+      "m": 0,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        0
+      ],
+      "actual_Smith": [
+        1
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 6,
+      "ell": 1,
+      "m": 1,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        0
+      ],
+      "actual_Smith": [
+        1
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 6,
+      "ell": 1,
+      "m": 2,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        0
+      ],
+      "actual_Smith": [
+        1
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 6,
+      "ell": 1,
+      "m": 3,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        1
+      ],
+      "actual_Smith": [
+        2
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 6,
+      "ell": 1,
+      "m": 4,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        1
+      ],
+      "actual_Smith": [
+        2
+      ]
+    },
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "n": 6,
+      "ell": 1,
+      "m": 5,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        1
+      ],
+      "actual_Smith": [
+        2
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 5,
+      "ell": 2,
+      "m": 0,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        1
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 5,
+      "ell": 2,
+      "m": 1,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        1
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 5,
+      "ell": 2,
+      "m": 2,
+      "matches": true,
+      "candidate_counts": [
+        2,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        1,
+        1
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 5,
+      "ell": 2,
+      "m": 3,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        1,
+        0
+      ],
+      "actual_Smith": [
+        1,
+        2
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 5,
+      "ell": 2,
+      "m": 4,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        2,
+        0
+      ],
+      "actual_Smith": [
+        2,
+        2
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 5,
+      "ell": 2,
+      "m": 5,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        1,
+        0
+      ],
+      "actual_Smith": [
+        2
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 5,
+      "ell": 2,
+      "m": 6,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        0,
+        1
+      ],
+      "actual_Smith": [
+        4
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 2,
+      "m": 0,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        1
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 2,
+      "m": 1,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        1
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 2,
+      "m": 2,
+      "matches": true,
+      "candidate_counts": [
+        2,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        1,
+        1
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 2,
+      "m": 3,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        1,
+        0
+      ],
+      "actual_Smith": [
+        1,
+        2
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 2,
+      "m": 4,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        2,
+        0
+      ],
+      "actual_Smith": [
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 2,
+      "m": 5,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        2,
+        0
+      ],
+      "actual_Smith": [
+        2,
+        2
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 2,
+      "m": 6,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        1,
+        1
+      ],
+      "actual_Smith": [
+        2,
+        4
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 2,
+      "m": 7,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        0,
+        1
+      ],
+      "actual_Smith": [
+        4
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 2,
+      "m": 8,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        0,
+        1
+      ],
+      "actual_Smith": [
+        4
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 3,
+      "m": 0,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        1
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 3,
+      "m": 1,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        1
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 3,
+      "m": 2,
+      "matches": true,
+      "candidate_counts": [
+        2,
+        0,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        1,
+        1
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 3,
+      "m": 3,
+      "matches": true,
+      "candidate_counts": [
+        2,
+        1,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 3,
+      "m": 4,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        2,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 3,
+      "m": 5,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        3,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 3,
+      "m": 6,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        2,
+        1,
+        0
+      ],
+      "actual_Smith": [
+        2,
+        2,
+        4
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 3,
+      "m": 7,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "actual_Smith": [
+        2,
+        4
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 3,
+      "m": 8,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "actual_Smith": [
+        4
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 3,
+      "m": 9,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "actual_Smith": [
+        8
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 2,
+      "m": 0,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        1
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 2,
+      "m": 1,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        1
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 2,
+      "m": 2,
+      "matches": true,
+      "candidate_counts": [
+        2,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        1,
+        1
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 2,
+      "m": 3,
+      "matches": true,
+      "candidate_counts": [
+        2,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        1,
+        1
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 2,
+      "m": 4,
+      "matches": true,
+      "candidate_counts": [
+        2,
+        1,
+        0
+      ],
+      "actual_Smith": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 2,
+      "m": 5,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        2,
+        0
+      ],
+      "actual_Smith": [
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 2,
+      "m": 6,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        3,
+        0
+      ],
+      "actual_Smith": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 2,
+      "m": 10,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        0,
+        1
+      ],
+      "actual_Smith": [
+        4
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 2,
+      "m": 7,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        2,
+        0
+      ],
+      "actual_Smith": [
+        2,
+        2
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 2,
+      "m": 8,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        1,
+        1
+      ],
+      "actual_Smith": [
+        2,
+        4
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 2,
+      "m": 9,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        0,
+        1
+      ],
+      "actual_Smith": [
+        4
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 3,
+      "m": 0,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        1
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 3,
+      "m": 1,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        1
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 3,
+      "m": 2,
+      "matches": true,
+      "candidate_counts": [
+        2,
+        0,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        1,
+        1
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 3,
+      "m": 3,
+      "matches": true,
+      "candidate_counts": [
+        3,
+        0,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 3,
+      "m": 4,
+      "matches": true,
+      "candidate_counts": [
+        3,
+        1,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        1,
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 3,
+      "m": 5,
+      "matches": true,
+      "candidate_counts": [
+        2,
+        2,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        1,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 3,
+      "m": 6,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        4,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        1,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 3,
+      "m": 7,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        4,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 3,
+      "m": 8,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        3,
+        1,
+        0
+      ],
+      "actual_Smith": [
+        2,
+        2,
+        2,
+        4
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 3,
+      "m": 9,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        1,
+        2,
+        0
+      ],
+      "actual_Smith": [
+        2,
+        4,
+        4
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 3,
+      "m": 12,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "actual_Smith": [
+        8
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 3,
+      "m": 10,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "actual_Smith": [
+        4,
+        4
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 3,
+      "m": 11,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "actual_Smith": [
+        4
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 2,
+      "m": 0,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        1
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 2,
+      "m": 1,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        1
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 2,
+      "m": 2,
+      "matches": true,
+      "candidate_counts": [
+        2,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        1,
+        1
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 2,
+      "m": 3,
+      "matches": true,
+      "candidate_counts": [
+        2,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        1,
+        1
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 2,
+      "m": 4,
+      "matches": true,
+      "candidate_counts": [
+        2,
+        1,
+        0
+      ],
+      "actual_Smith": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 2,
+      "m": 5,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        2,
+        0
+      ],
+      "actual_Smith": [
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 2,
+      "m": 6,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        3,
+        0
+      ],
+      "actual_Smith": [
+        1,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 2,
+      "m": 7,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        3,
+        0
+      ],
+      "actual_Smith": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 2,
+      "m": 8,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        2,
+        1
+      ],
+      "actual_Smith": [
+        2,
+        2,
+        4
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 2,
+      "m": 9,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        1,
+        1
+      ],
+      "actual_Smith": [
+        2,
+        4
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 2,
+      "m": 12,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        0,
+        1
+      ],
+      "actual_Smith": [
+        4
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 2,
+      "m": 10,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        0,
+        2
+      ],
+      "actual_Smith": [
+        4,
+        4
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 2,
+      "m": 11,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        0,
+        1
+      ],
+      "actual_Smith": [
+        4
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 0,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        1
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 1,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        1
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 2,
+      "matches": true,
+      "candidate_counts": [
+        2,
+        0,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        1,
+        1
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 3,
+      "matches": true,
+      "candidate_counts": [
+        3,
+        0,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 4,
+      "matches": true,
+      "candidate_counts": [
+        3,
+        1,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        1,
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 5,
+      "matches": true,
+      "candidate_counts": [
+        3,
+        2,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        1,
+        1,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 6,
+      "matches": true,
+      "candidate_counts": [
+        2,
+        4,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 15,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "actual_Smith": [
+        8
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 7,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        5,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 8,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        5,
+        1,
+        0
+      ],
+      "actual_Smith": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        4
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 9,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        4,
+        2,
+        0
+      ],
+      "actual_Smith": [
+        2,
+        2,
+        2,
+        2,
+        4,
+        4
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 10,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        2,
+        3,
+        0
+      ],
+      "actual_Smith": [
+        2,
+        2,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 11,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        1,
+        3,
+        0
+      ],
+      "actual_Smith": [
+        2,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 12,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        0,
+        2,
+        1
+      ],
+      "actual_Smith": [
+        4,
+        4,
+        8
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 13,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "actual_Smith": [
+        4,
+        8
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 14,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "actual_Smith": [
+        8
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 0,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        1
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 1,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        1
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 2,
+      "matches": true,
+      "candidate_counts": [
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        1,
+        1
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 3,
+      "matches": true,
+      "candidate_counts": [
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 4,
+      "matches": true,
+      "candidate_counts": [
+        4,
+        1,
+        0,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        1,
+        1,
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 5,
+      "matches": true,
+      "candidate_counts": [
+        3,
+        2,
+        0,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        1,
+        1,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 6,
+      "matches": true,
+      "candidate_counts": [
+        3,
+        4,
+        0,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 16,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "actual_Smith": [
+        16
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 7,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        6,
+        0,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 8,
+      "matches": true,
+      "candidate_counts": [
+        1,
+        6,
+        1,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        4
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 9,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        5,
+        2,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        4,
+        4
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 10,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        3,
+        4,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        2,
+        2,
+        2,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 11,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        1,
+        4,
+        0,
+        0
+      ],
+      "actual_Smith": [
+        2,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 12,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        0,
+        4,
+        1,
+        0
+      ],
+      "actual_Smith": [
+        4,
+        4,
+        4,
+        4,
+        8
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 13,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        0,
+        2,
+        1,
+        0
+      ],
+      "actual_Smith": [
+        4,
+        4,
+        8
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 14,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "actual_Smith": [
+        4,
+        8
+      ]
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 15,
+      "matches": true,
+      "candidate_counts": [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "actual_Smith": [
+        8
+      ]
+    }
+  ],
+  "prefix_checks": [
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 5,
+      "ell": 2,
+      "m": 0,
+      "threshold": 0,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 5,
+      "ell": 2,
+      "m": 1,
+      "threshold": 0,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 5,
+      "ell": 2,
+      "m": 2,
+      "threshold": 0,
+      "candidate_rank": 2,
+      "observed_rank": 2,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 5,
+      "ell": 2,
+      "m": 2,
+      "threshold": 1,
+      "candidate_rank": 2,
+      "observed_rank": 2,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 5,
+      "ell": 2,
+      "m": 3,
+      "threshold": 0,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 5,
+      "ell": 2,
+      "m": 3,
+      "threshold": 1,
+      "candidate_rank": 2,
+      "observed_rank": 2,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 5,
+      "ell": 2,
+      "m": 4,
+      "threshold": 0,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 5,
+      "ell": 2,
+      "m": 4,
+      "threshold": 1,
+      "candidate_rank": 2,
+      "observed_rank": 2,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 5,
+      "ell": 2,
+      "m": 4,
+      "threshold": 2,
+      "candidate_rank": 2,
+      "observed_rank": 2,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 5,
+      "ell": 2,
+      "m": 5,
+      "threshold": 0,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 5,
+      "ell": 2,
+      "m": 5,
+      "threshold": 1,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 5,
+      "ell": 2,
+      "m": 5,
+      "threshold": 2,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 5,
+      "ell": 2,
+      "m": 6,
+      "threshold": 0,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 5,
+      "ell": 2,
+      "m": 6,
+      "threshold": 1,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 5,
+      "ell": 2,
+      "m": 6,
+      "threshold": 2,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 2,
+      "m": 0,
+      "threshold": 0,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 2,
+      "m": 1,
+      "threshold": 0,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 2,
+      "m": 2,
+      "threshold": 0,
+      "candidate_rank": 2,
+      "observed_rank": 2,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 2,
+      "m": 2,
+      "threshold": 1,
+      "candidate_rank": 2,
+      "observed_rank": 2,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 2,
+      "m": 3,
+      "threshold": 0,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 2,
+      "m": 3,
+      "threshold": 1,
+      "candidate_rank": 2,
+      "observed_rank": 2,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 2,
+      "m": 4,
+      "threshold": 0,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 2,
+      "m": 4,
+      "threshold": 1,
+      "candidate_rank": 3,
+      "observed_rank": 3,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 2,
+      "m": 4,
+      "threshold": 2,
+      "candidate_rank": 3,
+      "observed_rank": 3,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 2,
+      "m": 5,
+      "threshold": 0,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 2,
+      "m": 5,
+      "threshold": 1,
+      "candidate_rank": 2,
+      "observed_rank": 2,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 2,
+      "m": 5,
+      "threshold": 2,
+      "candidate_rank": 2,
+      "observed_rank": 2,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 2,
+      "m": 6,
+      "threshold": 0,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 2,
+      "m": 6,
+      "threshold": 1,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 2,
+      "m": 6,
+      "threshold": 2,
+      "candidate_rank": 2,
+      "observed_rank": 2,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 2,
+      "m": 7,
+      "threshold": 0,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 2,
+      "m": 7,
+      "threshold": 1,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 2,
+      "m": 7,
+      "threshold": 2,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 2,
+      "m": 8,
+      "threshold": 0,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 2,
+      "m": 8,
+      "threshold": 1,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 2,
+      "m": 8,
+      "threshold": 2,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 3,
+      "m": 0,
+      "threshold": 0,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 3,
+      "m": 1,
+      "threshold": 0,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 3,
+      "m": 2,
+      "threshold": 0,
+      "candidate_rank": 2,
+      "observed_rank": 2,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 3,
+      "m": 2,
+      "threshold": 1,
+      "candidate_rank": 2,
+      "observed_rank": 2,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 3,
+      "m": 3,
+      "threshold": 0,
+      "candidate_rank": 2,
+      "observed_rank": 2,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 3,
+      "m": 3,
+      "threshold": 1,
+      "candidate_rank": 3,
+      "observed_rank": 3,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 3,
+      "m": 4,
+      "threshold": 0,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 3,
+      "m": 4,
+      "threshold": 1,
+      "candidate_rank": 3,
+      "observed_rank": 3,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 3,
+      "m": 5,
+      "threshold": 0,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 3,
+      "m": 5,
+      "threshold": 1,
+      "candidate_rank": 3,
+      "observed_rank": 3,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 3,
+      "m": 6,
+      "threshold": 0,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 3,
+      "m": 6,
+      "threshold": 1,
+      "candidate_rank": 2,
+      "observed_rank": 2,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 3,
+      "m": 6,
+      "threshold": 2,
+      "candidate_rank": 3,
+      "observed_rank": 3,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 3,
+      "m": 7,
+      "threshold": 0,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 3,
+      "m": 7,
+      "threshold": 1,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 3,
+      "m": 7,
+      "threshold": 2,
+      "candidate_rank": 2,
+      "observed_rank": 2,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 3,
+      "m": 8,
+      "threshold": 0,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 3,
+      "m": 8,
+      "threshold": 1,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 3,
+      "m": 8,
+      "threshold": 2,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 3,
+      "m": 9,
+      "threshold": 0,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 3,
+      "m": 9,
+      "threshold": 1,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 3,
+      "m": 9,
+      "threshold": 2,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 6,
+      "ell": 3,
+      "m": 9,
+      "threshold": 3,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 2,
+      "m": 0,
+      "threshold": 0,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 2,
+      "m": 1,
+      "threshold": 0,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 2,
+      "m": 2,
+      "threshold": 0,
+      "candidate_rank": 2,
+      "observed_rank": 2,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 2,
+      "m": 2,
+      "threshold": 1,
+      "candidate_rank": 2,
+      "observed_rank": 2,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 2,
+      "m": 3,
+      "threshold": 0,
+      "candidate_rank": 2,
+      "observed_rank": 2,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 2,
+      "m": 3,
+      "threshold": 1,
+      "candidate_rank": 2,
+      "observed_rank": 2,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 2,
+      "m": 4,
+      "threshold": 0,
+      "candidate_rank": 2,
+      "observed_rank": 2,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 2,
+      "m": 4,
+      "threshold": 1,
+      "candidate_rank": 3,
+      "observed_rank": 3,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 2,
+      "m": 4,
+      "threshold": 2,
+      "candidate_rank": 3,
+      "observed_rank": 3,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 2,
+      "m": 5,
+      "threshold": 0,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 2,
+      "m": 5,
+      "threshold": 1,
+      "candidate_rank": 3,
+      "observed_rank": 3,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 2,
+      "m": 5,
+      "threshold": 2,
+      "candidate_rank": 3,
+      "observed_rank": 3,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 2,
+      "m": 6,
+      "threshold": 0,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 2,
+      "m": 6,
+      "threshold": 1,
+      "candidate_rank": 3,
+      "observed_rank": 3,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 2,
+      "m": 6,
+      "threshold": 2,
+      "candidate_rank": 3,
+      "observed_rank": 3,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 2,
+      "m": 10,
+      "threshold": 0,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 2,
+      "m": 10,
+      "threshold": 1,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 2,
+      "m": 10,
+      "threshold": 2,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 2,
+      "m": 7,
+      "threshold": 0,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 2,
+      "m": 7,
+      "threshold": 1,
+      "candidate_rank": 2,
+      "observed_rank": 2,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 2,
+      "m": 7,
+      "threshold": 2,
+      "candidate_rank": 2,
+      "observed_rank": 2,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 2,
+      "m": 8,
+      "threshold": 0,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 2,
+      "m": 8,
+      "threshold": 1,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 2,
+      "m": 8,
+      "threshold": 2,
+      "candidate_rank": 2,
+      "observed_rank": 2,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 2,
+      "m": 9,
+      "threshold": 0,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 2,
+      "m": 9,
+      "threshold": 1,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 2,
+      "m": 9,
+      "threshold": 2,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 3,
+      "m": 0,
+      "threshold": 0,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 3,
+      "m": 1,
+      "threshold": 0,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 3,
+      "m": 2,
+      "threshold": 0,
+      "candidate_rank": 2,
+      "observed_rank": 2,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 3,
+      "m": 2,
+      "threshold": 1,
+      "candidate_rank": 2,
+      "observed_rank": 2,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 3,
+      "m": 3,
+      "threshold": 0,
+      "candidate_rank": 3,
+      "observed_rank": 3,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 3,
+      "m": 3,
+      "threshold": 1,
+      "candidate_rank": 3,
+      "observed_rank": 3,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 3,
+      "m": 4,
+      "threshold": 0,
+      "candidate_rank": 3,
+      "observed_rank": 3,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 3,
+      "m": 4,
+      "threshold": 1,
+      "candidate_rank": 4,
+      "observed_rank": 4,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 3,
+      "m": 5,
+      "threshold": 0,
+      "candidate_rank": 2,
+      "observed_rank": 2,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 3,
+      "m": 5,
+      "threshold": 1,
+      "candidate_rank": 4,
+      "observed_rank": 4,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 3,
+      "m": 6,
+      "threshold": 0,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 3,
+      "m": 6,
+      "threshold": 1,
+      "candidate_rank": 5,
+      "observed_rank": 5,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 3,
+      "m": 6,
+      "threshold": 2,
+      "candidate_rank": 5,
+      "observed_rank": 5,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 3,
+      "m": 7,
+      "threshold": 0,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 3,
+      "m": 7,
+      "threshold": 1,
+      "candidate_rank": 4,
+      "observed_rank": 4,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 3,
+      "m": 7,
+      "threshold": 2,
+      "candidate_rank": 4,
+      "observed_rank": 4,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 3,
+      "m": 8,
+      "threshold": 0,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 3,
+      "m": 8,
+      "threshold": 1,
+      "candidate_rank": 3,
+      "observed_rank": 3,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 3,
+      "m": 8,
+      "threshold": 2,
+      "candidate_rank": 4,
+      "observed_rank": 4,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 3,
+      "m": 9,
+      "threshold": 0,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 3,
+      "m": 9,
+      "threshold": 1,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 3,
+      "m": 9,
+      "threshold": 2,
+      "candidate_rank": 3,
+      "observed_rank": 3,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 3,
+      "m": 9,
+      "threshold": 3,
+      "candidate_rank": 3,
+      "observed_rank": 3,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 3,
+      "m": 12,
+      "threshold": 0,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 3,
+      "m": 12,
+      "threshold": 1,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 3,
+      "m": 12,
+      "threshold": 2,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 3,
+      "m": 12,
+      "threshold": 3,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 3,
+      "m": 10,
+      "threshold": 0,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 3,
+      "m": 10,
+      "threshold": 1,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 3,
+      "m": 10,
+      "threshold": 2,
+      "candidate_rank": 2,
+      "observed_rank": 2,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 3,
+      "m": 10,
+      "threshold": 3,
+      "candidate_rank": 2,
+      "observed_rank": 2,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 3,
+      "m": 11,
+      "threshold": 0,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 3,
+      "m": 11,
+      "threshold": 1,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 3,
+      "m": 11,
+      "threshold": 2,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 7,
+      "ell": 3,
+      "m": 11,
+      "threshold": 3,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 2,
+      "m": 0,
+      "threshold": 0,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 2,
+      "m": 1,
+      "threshold": 0,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 2,
+      "m": 2,
+      "threshold": 0,
+      "candidate_rank": 2,
+      "observed_rank": 2,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 2,
+      "m": 2,
+      "threshold": 1,
+      "candidate_rank": 2,
+      "observed_rank": 2,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 2,
+      "m": 3,
+      "threshold": 0,
+      "candidate_rank": 2,
+      "observed_rank": 2,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 2,
+      "m": 3,
+      "threshold": 1,
+      "candidate_rank": 2,
+      "observed_rank": 2,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 2,
+      "m": 4,
+      "threshold": 0,
+      "candidate_rank": 2,
+      "observed_rank": 2,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 2,
+      "m": 4,
+      "threshold": 1,
+      "candidate_rank": 3,
+      "observed_rank": 3,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 2,
+      "m": 4,
+      "threshold": 2,
+      "candidate_rank": 3,
+      "observed_rank": 3,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 2,
+      "m": 5,
+      "threshold": 0,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 2,
+      "m": 5,
+      "threshold": 1,
+      "candidate_rank": 3,
+      "observed_rank": 3,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 2,
+      "m": 5,
+      "threshold": 2,
+      "candidate_rank": 3,
+      "observed_rank": 3,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 2,
+      "m": 6,
+      "threshold": 0,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 2,
+      "m": 6,
+      "threshold": 1,
+      "candidate_rank": 4,
+      "observed_rank": 4,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 2,
+      "m": 6,
+      "threshold": 2,
+      "candidate_rank": 4,
+      "observed_rank": 4,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 2,
+      "m": 7,
+      "threshold": 0,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 2,
+      "m": 7,
+      "threshold": 1,
+      "candidate_rank": 3,
+      "observed_rank": 3,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 2,
+      "m": 7,
+      "threshold": 2,
+      "candidate_rank": 3,
+      "observed_rank": 3,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 2,
+      "m": 8,
+      "threshold": 0,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 2,
+      "m": 8,
+      "threshold": 1,
+      "candidate_rank": 2,
+      "observed_rank": 2,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 2,
+      "m": 8,
+      "threshold": 2,
+      "candidate_rank": 3,
+      "observed_rank": 3,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 2,
+      "m": 9,
+      "threshold": 0,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 2,
+      "m": 9,
+      "threshold": 1,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 2,
+      "m": 9,
+      "threshold": 2,
+      "candidate_rank": 2,
+      "observed_rank": 2,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 2,
+      "m": 12,
+      "threshold": 0,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 2,
+      "m": 12,
+      "threshold": 1,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 2,
+      "m": 12,
+      "threshold": 2,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 2,
+      "m": 10,
+      "threshold": 0,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 2,
+      "m": 10,
+      "threshold": 1,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 2,
+      "m": 10,
+      "threshold": 2,
+      "candidate_rank": 2,
+      "observed_rank": 2,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 2,
+      "m": 11,
+      "threshold": 0,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 2,
+      "m": 11,
+      "threshold": 1,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 2,
+      "m": 11,
+      "threshold": 2,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 0,
+      "threshold": 0,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 1,
+      "threshold": 0,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 2,
+      "threshold": 0,
+      "candidate_rank": 2,
+      "observed_rank": 2,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 2,
+      "threshold": 1,
+      "candidate_rank": 2,
+      "observed_rank": 2,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 3,
+      "threshold": 0,
+      "candidate_rank": 3,
+      "observed_rank": 3,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 3,
+      "threshold": 1,
+      "candidate_rank": 3,
+      "observed_rank": 3,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 4,
+      "threshold": 0,
+      "candidate_rank": 3,
+      "observed_rank": 3,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 4,
+      "threshold": 1,
+      "candidate_rank": 4,
+      "observed_rank": 4,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 5,
+      "threshold": 0,
+      "candidate_rank": 3,
+      "observed_rank": 3,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 5,
+      "threshold": 1,
+      "candidate_rank": 5,
+      "observed_rank": 5,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 6,
+      "threshold": 0,
+      "candidate_rank": 2,
+      "observed_rank": 2,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 6,
+      "threshold": 1,
+      "candidate_rank": 6,
+      "observed_rank": 6,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 6,
+      "threshold": 2,
+      "candidate_rank": 6,
+      "observed_rank": 6,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 15,
+      "threshold": 0,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 15,
+      "threshold": 1,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 15,
+      "threshold": 2,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 15,
+      "threshold": 3,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 7,
+      "threshold": 0,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 7,
+      "threshold": 1,
+      "candidate_rank": 6,
+      "observed_rank": 6,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 7,
+      "threshold": 2,
+      "candidate_rank": 6,
+      "observed_rank": 6,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 8,
+      "threshold": 0,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 8,
+      "threshold": 1,
+      "candidate_rank": 5,
+      "observed_rank": 5,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 8,
+      "threshold": 2,
+      "candidate_rank": 6,
+      "observed_rank": 6,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 9,
+      "threshold": 0,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 9,
+      "threshold": 1,
+      "candidate_rank": 4,
+      "observed_rank": 4,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 9,
+      "threshold": 2,
+      "candidate_rank": 6,
+      "observed_rank": 6,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 9,
+      "threshold": 3,
+      "candidate_rank": 6,
+      "observed_rank": 6,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 10,
+      "threshold": 0,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 10,
+      "threshold": 1,
+      "candidate_rank": 2,
+      "observed_rank": 2,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 10,
+      "threshold": 2,
+      "candidate_rank": 5,
+      "observed_rank": 5,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 10,
+      "threshold": 3,
+      "candidate_rank": 5,
+      "observed_rank": 5,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 11,
+      "threshold": 0,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 11,
+      "threshold": 1,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 11,
+      "threshold": 2,
+      "candidate_rank": 4,
+      "observed_rank": 4,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 11,
+      "threshold": 3,
+      "candidate_rank": 4,
+      "observed_rank": 4,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 12,
+      "threshold": 0,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 12,
+      "threshold": 1,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 12,
+      "threshold": 2,
+      "candidate_rank": 2,
+      "observed_rank": 2,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 12,
+      "threshold": 3,
+      "candidate_rank": 3,
+      "observed_rank": 3,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 13,
+      "threshold": 0,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 13,
+      "threshold": 1,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 13,
+      "threshold": 2,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 13,
+      "threshold": 3,
+      "candidate_rank": 2,
+      "observed_rank": 2,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 14,
+      "threshold": 0,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 14,
+      "threshold": 1,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 14,
+      "threshold": 2,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 3,
+      "m": 14,
+      "threshold": 3,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 0,
+      "threshold": 0,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 1,
+      "threshold": 0,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 2,
+      "threshold": 0,
+      "candidate_rank": 2,
+      "observed_rank": 2,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 3,
+      "threshold": 0,
+      "candidate_rank": 3,
+      "observed_rank": 3,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 3,
+      "threshold": 1,
+      "candidate_rank": 3,
+      "observed_rank": 3,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 4,
+      "threshold": 0,
+      "candidate_rank": 4,
+      "observed_rank": 4,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 4,
+      "threshold": 1,
+      "candidate_rank": 5,
+      "observed_rank": 5,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 5,
+      "threshold": 0,
+      "candidate_rank": 3,
+      "observed_rank": 3,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 5,
+      "threshold": 1,
+      "candidate_rank": 5,
+      "observed_rank": 5,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 6,
+      "threshold": 0,
+      "candidate_rank": 3,
+      "observed_rank": 3,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 6,
+      "threshold": 1,
+      "candidate_rank": 7,
+      "observed_rank": 7,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 6,
+      "threshold": 2,
+      "candidate_rank": 7,
+      "observed_rank": 7,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 16,
+      "threshold": 0,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 16,
+      "threshold": 1,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 16,
+      "threshold": 2,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 16,
+      "threshold": 3,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 16,
+      "threshold": 4,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 7,
+      "threshold": 0,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 7,
+      "threshold": 1,
+      "candidate_rank": 7,
+      "observed_rank": 7,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 7,
+      "threshold": 2,
+      "candidate_rank": 7,
+      "observed_rank": 7,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 8,
+      "threshold": 0,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 8,
+      "threshold": 1,
+      "candidate_rank": 7,
+      "observed_rank": 7,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 8,
+      "threshold": 2,
+      "candidate_rank": 8,
+      "observed_rank": 8,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 9,
+      "threshold": 0,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 9,
+      "threshold": 1,
+      "candidate_rank": 5,
+      "observed_rank": 5,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 9,
+      "threshold": 2,
+      "candidate_rank": 7,
+      "observed_rank": 7,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 10,
+      "threshold": 0,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 10,
+      "threshold": 1,
+      "candidate_rank": 3,
+      "observed_rank": 3,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 10,
+      "threshold": 2,
+      "candidate_rank": 7,
+      "observed_rank": 7,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 11,
+      "threshold": 0,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 11,
+      "threshold": 1,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 11,
+      "threshold": 2,
+      "candidate_rank": 5,
+      "observed_rank": 5,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 12,
+      "threshold": 0,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 12,
+      "threshold": 1,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 12,
+      "threshold": 2,
+      "candidate_rank": 4,
+      "observed_rank": 4,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 12,
+      "threshold": 3,
+      "candidate_rank": 5,
+      "observed_rank": 5,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 13,
+      "threshold": 0,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 13,
+      "threshold": 1,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 13,
+      "threshold": 2,
+      "candidate_rank": 2,
+      "observed_rank": 2,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 13,
+      "threshold": 3,
+      "candidate_rank": 3,
+      "observed_rank": 3,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 14,
+      "threshold": 0,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 14,
+      "threshold": 1,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 14,
+      "threshold": 2,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 14,
+      "threshold": 3,
+      "candidate_rank": 2,
+      "observed_rank": 2,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 15,
+      "threshold": 0,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 15,
+      "threshold": 1,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 15,
+      "threshold": 2,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "n": 8,
+      "ell": 4,
+      "m": 15,
+      "threshold": 3,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 0,
+      "threshold": 0,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 0,
+      "threshold": 1,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 0,
+      "threshold": 2,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 0,
+      "threshold": 3,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 1,
+      "threshold": 0,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 1,
+      "threshold": 1,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 1,
+      "threshold": 2,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 1,
+      "threshold": 3,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 2,
+      "threshold": 0,
+      "candidate_rank": 2,
+      "observed_rank": 2,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 2,
+      "threshold": 1,
+      "candidate_rank": 2,
+      "observed_rank": 2,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 2,
+      "threshold": 2,
+      "candidate_rank": 2,
+      "observed_rank": 2,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 2,
+      "threshold": 3,
+      "candidate_rank": 2,
+      "observed_rank": 2,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 3,
+      "threshold": 0,
+      "candidate_rank": 3,
+      "observed_rank": 3,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 3,
+      "threshold": 1,
+      "candidate_rank": 3,
+      "observed_rank": 3,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 3,
+      "threshold": 2,
+      "candidate_rank": 3,
+      "observed_rank": 3,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 3,
+      "threshold": 3,
+      "candidate_rank": 3,
+      "observed_rank": 3,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 4,
+      "threshold": 0,
+      "candidate_rank": 5,
+      "observed_rank": 5,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 4,
+      "threshold": 1,
+      "candidate_rank": 5,
+      "observed_rank": 5,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 4,
+      "threshold": 2,
+      "candidate_rank": 5,
+      "observed_rank": 5,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 4,
+      "threshold": 3,
+      "candidate_rank": 5,
+      "observed_rank": 5,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 5,
+      "threshold": 0,
+      "candidate_rank": 6,
+      "observed_rank": 6,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 5,
+      "threshold": 1,
+      "candidate_rank": 7,
+      "observed_rank": 7,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 5,
+      "threshold": 2,
+      "candidate_rank": 7,
+      "observed_rank": 7,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 5,
+      "threshold": 3,
+      "candidate_rank": 7,
+      "observed_rank": 7,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 6,
+      "threshold": 0,
+      "candidate_rank": 7,
+      "observed_rank": 7,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 6,
+      "threshold": 1,
+      "candidate_rank": 9,
+      "observed_rank": 9,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 6,
+      "threshold": 2,
+      "candidate_rank": 9,
+      "observed_rank": 9,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 6,
+      "threshold": 3,
+      "candidate_rank": 9,
+      "observed_rank": 9,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 7,
+      "threshold": 0,
+      "candidate_rank": 7,
+      "observed_rank": 7,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 7,
+      "threshold": 1,
+      "candidate_rank": 11,
+      "observed_rank": 11,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 7,
+      "threshold": 2,
+      "candidate_rank": 11,
+      "observed_rank": 11,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 7,
+      "threshold": 3,
+      "candidate_rank": 11,
+      "observed_rank": 11,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 8,
+      "threshold": 0,
+      "candidate_rank": 7,
+      "observed_rank": 7,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 8,
+      "threshold": 1,
+      "candidate_rank": 14,
+      "observed_rank": 14,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 8,
+      "threshold": 2,
+      "candidate_rank": 14,
+      "observed_rank": 14,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 8,
+      "threshold": 3,
+      "candidate_rank": 14,
+      "observed_rank": 14,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 9,
+      "threshold": 0,
+      "candidate_rank": 5,
+      "observed_rank": 5,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 9,
+      "threshold": 1,
+      "candidate_rank": 16,
+      "observed_rank": 16,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 9,
+      "threshold": 2,
+      "candidate_rank": 16,
+      "observed_rank": 16,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 9,
+      "threshold": 3,
+      "candidate_rank": 16,
+      "observed_rank": 16,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 10,
+      "threshold": 0,
+      "candidate_rank": 4,
+      "observed_rank": 4,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 10,
+      "threshold": 1,
+      "candidate_rank": 17,
+      "observed_rank": 17,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 10,
+      "threshold": 2,
+      "candidate_rank": 18,
+      "observed_rank": 18,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 10,
+      "threshold": 3,
+      "candidate_rank": 18,
+      "observed_rank": 18,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 11,
+      "threshold": 0,
+      "candidate_rank": 2,
+      "observed_rank": 2,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 11,
+      "threshold": 1,
+      "candidate_rank": 17,
+      "observed_rank": 17,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 11,
+      "threshold": 2,
+      "candidate_rank": 19,
+      "observed_rank": 19,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 11,
+      "threshold": 3,
+      "candidate_rank": 19,
+      "observed_rank": 19,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 12,
+      "threshold": 0,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 12,
+      "threshold": 1,
+      "candidate_rank": 15,
+      "observed_rank": 15,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 12,
+      "threshold": 2,
+      "candidate_rank": 20,
+      "observed_rank": 20,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 12,
+      "threshold": 3,
+      "candidate_rank": 20,
+      "observed_rank": 20,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 13,
+      "threshold": 0,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 13,
+      "threshold": 1,
+      "candidate_rank": 12,
+      "observed_rank": 12,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 13,
+      "threshold": 2,
+      "candidate_rank": 20,
+      "observed_rank": 20,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 13,
+      "threshold": 3,
+      "candidate_rank": 20,
+      "observed_rank": 20,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 14,
+      "threshold": 0,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 14,
+      "threshold": 1,
+      "candidate_rank": 8,
+      "observed_rank": 8,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 14,
+      "threshold": 2,
+      "candidate_rank": 19,
+      "observed_rank": 19,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 14,
+      "threshold": 3,
+      "candidate_rank": 19,
+      "observed_rank": 19,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 15,
+      "threshold": 0,
+      "candidate_rank": 0,
+      "observed_rank": 0,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 15,
+      "threshold": 1,
+      "candidate_rank": 5,
+      "observed_rank": 5,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 15,
+      "threshold": 2,
+      "candidate_rank": 17,
+      "observed_rank": 17,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 10,
+      "ell": 5,
+      "m": 15,
+      "threshold": 3,
+      "candidate_rank": 18,
+      "observed_rank": 18,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 11,
+      "ell": 5,
+      "m": 0,
+      "threshold": 0,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 11,
+      "ell": 5,
+      "m": 0,
+      "threshold": 1,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 11,
+      "ell": 5,
+      "m": 0,
+      "threshold": 2,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 11,
+      "ell": 5,
+      "m": 0,
+      "threshold": 3,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 11,
+      "ell": 5,
+      "m": 1,
+      "threshold": 0,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 11,
+      "ell": 5,
+      "m": 1,
+      "threshold": 1,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 11,
+      "ell": 5,
+      "m": 1,
+      "threshold": 2,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 11,
+      "ell": 5,
+      "m": 1,
+      "threshold": 3,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 11,
+      "ell": 5,
+      "m": 2,
+      "threshold": 0,
+      "candidate_rank": 2,
+      "observed_rank": 2,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 11,
+      "ell": 5,
+      "m": 2,
+      "threshold": 1,
+      "candidate_rank": 2,
+      "observed_rank": 2,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 11,
+      "ell": 5,
+      "m": 2,
+      "threshold": 2,
+      "candidate_rank": 2,
+      "observed_rank": 2,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 11,
+      "ell": 5,
+      "m": 2,
+      "threshold": 3,
+      "candidate_rank": 2,
+      "observed_rank": 2,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 11,
+      "ell": 5,
+      "m": 3,
+      "threshold": 0,
+      "candidate_rank": 3,
+      "observed_rank": 3,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 11,
+      "ell": 5,
+      "m": 3,
+      "threshold": 1,
+      "candidate_rank": 3,
+      "observed_rank": 3,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 11,
+      "ell": 5,
+      "m": 3,
+      "threshold": 2,
+      "candidate_rank": 3,
+      "observed_rank": 3,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 11,
+      "ell": 5,
+      "m": 3,
+      "threshold": 3,
+      "candidate_rank": 3,
+      "observed_rank": 3,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 11,
+      "ell": 5,
+      "m": 4,
+      "threshold": 0,
+      "candidate_rank": 5,
+      "observed_rank": 5,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 11,
+      "ell": 5,
+      "m": 4,
+      "threshold": 1,
+      "candidate_rank": 5,
+      "observed_rank": 5,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 11,
+      "ell": 5,
+      "m": 4,
+      "threshold": 2,
+      "candidate_rank": 5,
+      "observed_rank": 5,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 11,
+      "ell": 5,
+      "m": 4,
+      "threshold": 3,
+      "candidate_rank": 5,
+      "observed_rank": 5,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 11,
+      "ell": 5,
+      "m": 5,
+      "threshold": 0,
+      "candidate_rank": 7,
+      "observed_rank": 7,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 11,
+      "ell": 5,
+      "m": 5,
+      "threshold": 1,
+      "candidate_rank": 7,
+      "observed_rank": 7,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 11,
+      "ell": 5,
+      "m": 5,
+      "threshold": 2,
+      "candidate_rank": 7,
+      "observed_rank": 7,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 11,
+      "ell": 5,
+      "m": 5,
+      "threshold": 3,
+      "candidate_rank": 7,
+      "observed_rank": 7,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 11,
+      "ell": 5,
+      "m": 6,
+      "threshold": 0,
+      "candidate_rank": 9,
+      "observed_rank": 9,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 11,
+      "ell": 5,
+      "m": 6,
+      "threshold": 1,
+      "candidate_rank": 10,
+      "observed_rank": 10,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 11,
+      "ell": 5,
+      "m": 6,
+      "threshold": 2,
+      "candidate_rank": 10,
+      "observed_rank": 10,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 11,
+      "ell": 5,
+      "m": 6,
+      "threshold": 3,
+      "candidate_rank": 10,
+      "observed_rank": 10,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 11,
+      "ell": 5,
+      "m": 7,
+      "threshold": 0,
+      "candidate_rank": 10,
+      "observed_rank": 10,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 11,
+      "ell": 5,
+      "m": 7,
+      "threshold": 1,
+      "candidate_rank": 12,
+      "observed_rank": 12,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 11,
+      "ell": 5,
+      "m": 7,
+      "threshold": 2,
+      "candidate_rank": 12,
+      "observed_rank": 12,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 11,
+      "ell": 5,
+      "m": 7,
+      "threshold": 3,
+      "candidate_rank": 12,
+      "observed_rank": 12,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 11,
+      "ell": 5,
+      "m": 8,
+      "threshold": 0,
+      "candidate_rank": 12,
+      "observed_rank": 12,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 11,
+      "ell": 5,
+      "m": 8,
+      "threshold": 1,
+      "candidate_rank": 16,
+      "observed_rank": 16,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 11,
+      "ell": 5,
+      "m": 8,
+      "threshold": 2,
+      "candidate_rank": 16,
+      "observed_rank": 16,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 11,
+      "ell": 5,
+      "m": 8,
+      "threshold": 3,
+      "candidate_rank": 16,
+      "observed_rank": 16,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 11,
+      "ell": 5,
+      "m": 9,
+      "threshold": 0,
+      "candidate_rank": 12,
+      "observed_rank": 12,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 11,
+      "ell": 5,
+      "m": 9,
+      "threshold": 1,
+      "candidate_rank": 19,
+      "observed_rank": 19,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 11,
+      "ell": 5,
+      "m": 9,
+      "threshold": 2,
+      "candidate_rank": 19,
+      "observed_rank": 19,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 11,
+      "ell": 5,
+      "m": 9,
+      "threshold": 3,
+      "candidate_rank": 19,
+      "observed_rank": 19,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 11,
+      "ell": 5,
+      "m": 10,
+      "threshold": 0,
+      "candidate_rank": 11,
+      "observed_rank": 11,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 11,
+      "ell": 5,
+      "m": 10,
+      "threshold": 1,
+      "candidate_rank": 23,
+      "observed_rank": 23,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 11,
+      "ell": 5,
+      "m": 10,
+      "threshold": 2,
+      "candidate_rank": 23,
+      "observed_rank": 23,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 11,
+      "ell": 5,
+      "m": 10,
+      "threshold": 3,
+      "candidate_rank": 23,
+      "observed_rank": 23,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 11,
+      "ell": 5,
+      "m": 11,
+      "threshold": 0,
+      "candidate_rank": 9,
+      "observed_rank": 9,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 11,
+      "ell": 5,
+      "m": 11,
+      "threshold": 1,
+      "candidate_rank": 25,
+      "observed_rank": 25,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 11,
+      "ell": 5,
+      "m": 11,
+      "threshold": 2,
+      "candidate_rank": 25,
+      "observed_rank": 25,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 11,
+      "ell": 5,
+      "m": 11,
+      "threshold": 3,
+      "candidate_rank": 25,
+      "observed_rank": 25,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 11,
+      "ell": 5,
+      "m": 12,
+      "threshold": 0,
+      "candidate_rank": 7,
+      "observed_rank": 7,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 11,
+      "ell": 5,
+      "m": 12,
+      "threshold": 1,
+      "candidate_rank": 28,
+      "observed_rank": 28,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 11,
+      "ell": 5,
+      "m": 12,
+      "threshold": 2,
+      "candidate_rank": 29,
+      "observed_rank": 29,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 11,
+      "ell": 5,
+      "m": 12,
+      "threshold": 3,
+      "candidate_rank": 29,
+      "observed_rank": 29,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 0,
+      "threshold": 0,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 0,
+      "threshold": 1,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 0,
+      "threshold": 2,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 0,
+      "threshold": 3,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 0,
+      "threshold": 4,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 1,
+      "threshold": 0,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 1,
+      "threshold": 1,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 1,
+      "threshold": 2,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 1,
+      "threshold": 3,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 1,
+      "threshold": 4,
+      "candidate_rank": 1,
+      "observed_rank": 1,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 2,
+      "threshold": 0,
+      "candidate_rank": 2,
+      "observed_rank": 2,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 2,
+      "threshold": 1,
+      "candidate_rank": 2,
+      "observed_rank": 2,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 2,
+      "threshold": 2,
+      "candidate_rank": 2,
+      "observed_rank": 2,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 2,
+      "threshold": 3,
+      "candidate_rank": 2,
+      "observed_rank": 2,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 2,
+      "threshold": 4,
+      "candidate_rank": 2,
+      "observed_rank": 2,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 3,
+      "threshold": 0,
+      "candidate_rank": 3,
+      "observed_rank": 3,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 3,
+      "threshold": 1,
+      "candidate_rank": 3,
+      "observed_rank": 3,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 3,
+      "threshold": 2,
+      "candidate_rank": 3,
+      "observed_rank": 3,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 3,
+      "threshold": 3,
+      "candidate_rank": 3,
+      "observed_rank": 3,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 3,
+      "threshold": 4,
+      "candidate_rank": 3,
+      "observed_rank": 3,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 4,
+      "threshold": 0,
+      "candidate_rank": 5,
+      "observed_rank": 5,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 4,
+      "threshold": 1,
+      "candidate_rank": 5,
+      "observed_rank": 5,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 4,
+      "threshold": 2,
+      "candidate_rank": 5,
+      "observed_rank": 5,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 4,
+      "threshold": 3,
+      "candidate_rank": 5,
+      "observed_rank": 5,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 4,
+      "threshold": 4,
+      "candidate_rank": 5,
+      "observed_rank": 5,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 5,
+      "threshold": 0,
+      "candidate_rank": 7,
+      "observed_rank": 7,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 5,
+      "threshold": 1,
+      "candidate_rank": 7,
+      "observed_rank": 7,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 5,
+      "threshold": 2,
+      "candidate_rank": 7,
+      "observed_rank": 7,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 5,
+      "threshold": 3,
+      "candidate_rank": 7,
+      "observed_rank": 7,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 5,
+      "threshold": 4,
+      "candidate_rank": 7,
+      "observed_rank": 7,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 6,
+      "threshold": 0,
+      "candidate_rank": 10,
+      "observed_rank": 10,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 6,
+      "threshold": 1,
+      "candidate_rank": 11,
+      "observed_rank": 11,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 6,
+      "threshold": 2,
+      "candidate_rank": 11,
+      "observed_rank": 11,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 6,
+      "threshold": 3,
+      "candidate_rank": 11,
+      "observed_rank": 11,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 6,
+      "threshold": 4,
+      "candidate_rank": 11,
+      "observed_rank": 11,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 7,
+      "threshold": 0,
+      "candidate_rank": 11,
+      "observed_rank": 11,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 7,
+      "threshold": 1,
+      "candidate_rank": 13,
+      "observed_rank": 13,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 7,
+      "threshold": 2,
+      "candidate_rank": 13,
+      "observed_rank": 13,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 7,
+      "threshold": 3,
+      "candidate_rank": 13,
+      "observed_rank": 13,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 7,
+      "threshold": 4,
+      "candidate_rank": 13,
+      "observed_rank": 13,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 8,
+      "threshold": 0,
+      "candidate_rank": 14,
+      "observed_rank": 14,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 8,
+      "threshold": 1,
+      "candidate_rank": 18,
+      "observed_rank": 18,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 8,
+      "threshold": 2,
+      "candidate_rank": 18,
+      "observed_rank": 18,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 8,
+      "threshold": 3,
+      "candidate_rank": 18,
+      "observed_rank": 18,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 8,
+      "threshold": 4,
+      "candidate_rank": 18,
+      "observed_rank": 18,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 9,
+      "threshold": 0,
+      "candidate_rank": 15,
+      "observed_rank": 15,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 9,
+      "threshold": 1,
+      "candidate_rank": 22,
+      "observed_rank": 22,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 9,
+      "threshold": 2,
+      "candidate_rank": 22,
+      "observed_rank": 22,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 9,
+      "threshold": 3,
+      "candidate_rank": 22,
+      "observed_rank": 22,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 9,
+      "threshold": 4,
+      "candidate_rank": 22,
+      "observed_rank": 22,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 10,
+      "threshold": 0,
+      "candidate_rank": 16,
+      "observed_rank": 16,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 10,
+      "threshold": 1,
+      "candidate_rank": 28,
+      "observed_rank": 28,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 10,
+      "threshold": 2,
+      "candidate_rank": 28,
+      "observed_rank": 28,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 10,
+      "threshold": 3,
+      "candidate_rank": 28,
+      "observed_rank": 28,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 10,
+      "threshold": 4,
+      "candidate_rank": 28,
+      "observed_rank": 28,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 11,
+      "threshold": 0,
+      "candidate_rank": 14,
+      "observed_rank": 14,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 11,
+      "threshold": 1,
+      "candidate_rank": 32,
+      "observed_rank": 32,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 11,
+      "threshold": 2,
+      "candidate_rank": 32,
+      "observed_rank": 32,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 11,
+      "threshold": 3,
+      "candidate_rank": 32,
+      "observed_rank": 32,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 11,
+      "threshold": 4,
+      "candidate_rank": 32,
+      "observed_rank": 32,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 12,
+      "threshold": 0,
+      "candidate_rank": 14,
+      "observed_rank": 14,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 12,
+      "threshold": 1,
+      "candidate_rank": 38,
+      "observed_rank": 38,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 12,
+      "threshold": 2,
+      "candidate_rank": 39,
+      "observed_rank": 39,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 12,
+      "threshold": 3,
+      "candidate_rank": 39,
+      "observed_rank": 39,
+      "matches": true
+    },
+    {
+      "filename": "type_b_schur_prefix_search_results.json",
+      "n": 12,
+      "ell": 6,
+      "m": 12,
+      "threshold": 4,
+      "candidate_rank": 39,
+      "observed_rank": 39,
+      "matches": true
+    }
+  ],
+  "counterexamples": [],
+  "source_dependency": {
+    "filename": "verify_type_b_three_row_units.py",
+    "sha256": "aed0dfcee1aa532e36649fd5667daaf2b090d24ef6257a03561cab00da947c25"
+  },
+  "polynomial_consistency_checks": [
+    {
+      "n": 2,
+      "ell": 1,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 3,
+      "ell": 1,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 4,
+      "ell": 1,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 4,
+      "ell": 2,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 5,
+      "ell": 1,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 5,
+      "ell": 2,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 6,
+      "ell": 1,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 6,
+      "ell": 2,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 6,
+      "ell": 3,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 7,
+      "ell": 1,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 7,
+      "ell": 2,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 7,
+      "ell": 3,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 8,
+      "ell": 1,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 8,
+      "ell": 2,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 8,
+      "ell": 3,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 8,
+      "ell": 4,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 9,
+      "ell": 1,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 9,
+      "ell": 2,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 9,
+      "ell": 3,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 9,
+      "ell": 4,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 10,
+      "ell": 1,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 10,
+      "ell": 2,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 10,
+      "ell": 3,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 10,
+      "ell": 4,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 10,
+      "ell": 5,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 11,
+      "ell": 1,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 11,
+      "ell": 2,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 11,
+      "ell": 3,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 11,
+      "ell": 4,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 11,
+      "ell": 5,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 12,
+      "ell": 1,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 12,
+      "ell": 2,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 12,
+      "ell": 3,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 12,
+      "ell": 4,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 12,
+      "ell": 5,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 12,
+      "ell": 6,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 13,
+      "ell": 1,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 13,
+      "ell": 2,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 13,
+      "ell": 3,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 13,
+      "ell": 4,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 13,
+      "ell": 5,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 13,
+      "ell": 6,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 14,
+      "ell": 1,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 14,
+      "ell": 2,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 14,
+      "ell": 3,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 14,
+      "ell": 4,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 14,
+      "ell": 5,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 14,
+      "ell": 6,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 15,
+      "ell": 1,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 15,
+      "ell": 2,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 15,
+      "ell": 3,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 15,
+      "ell": 4,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 15,
+      "ell": 5,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 15,
+      "ell": 6,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 16,
+      "ell": 1,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 16,
+      "ell": 2,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 16,
+      "ell": 3,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 16,
+      "ell": 4,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 16,
+      "ell": 5,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 16,
+      "ell": 6,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 17,
+      "ell": 1,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 17,
+      "ell": 2,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 17,
+      "ell": 3,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 17,
+      "ell": 4,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 17,
+      "ell": 5,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 17,
+      "ell": 6,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 18,
+      "ell": 1,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 18,
+      "ell": 2,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 18,
+      "ell": 3,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 18,
+      "ell": 4,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 18,
+      "ell": 5,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 18,
+      "ell": 6,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 19,
+      "ell": 1,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 19,
+      "ell": 2,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 19,
+      "ell": 3,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 19,
+      "ell": 4,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 19,
+      "ell": 5,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 19,
+      "ell": 6,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 20,
+      "ell": 1,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 20,
+      "ell": 2,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 20,
+      "ell": 3,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 20,
+      "ell": 4,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 20,
+      "ell": 5,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 20,
+      "ell": 6,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 21,
+      "ell": 1,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 21,
+      "ell": 2,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 21,
+      "ell": 3,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 21,
+      "ell": 4,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 21,
+      "ell": 5,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 21,
+      "ell": 6,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 22,
+      "ell": 1,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 22,
+      "ell": 2,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 22,
+      "ell": 3,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 22,
+      "ell": 4,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 22,
+      "ell": 5,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 22,
+      "ell": 6,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 23,
+      "ell": 1,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 23,
+      "ell": 2,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 23,
+      "ell": 3,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 23,
+      "ell": 4,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 23,
+      "ell": 5,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 23,
+      "ell": 6,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 24,
+      "ell": 1,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 24,
+      "ell": 2,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 24,
+      "ell": 3,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 24,
+      "ell": 4,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 24,
+      "ell": 5,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    },
+    {
+      "n": 24,
+      "ell": 6,
+      "nonnegative": true,
+      "sum_is_Gaussian_rank": true,
+      "q_one_bivariate_identity": true
+    }
+  ],
+  "positive_vs_alternating_unit_identity_checks": [
+    {
+      "n": 0,
+      "ell": 0,
+      "matches": true,
+      "positive_generating_polynomial": "1"
+    },
+    {
+      "n": 1,
+      "ell": 0,
+      "matches": true,
+      "positive_generating_polynomial": "1"
+    },
+    {
+      "n": 2,
+      "ell": 0,
+      "matches": true,
+      "positive_generating_polynomial": "1"
+    },
+    {
+      "n": 2,
+      "ell": 1,
+      "matches": true,
+      "positive_generating_polynomial": "1"
+    },
+    {
+      "n": 3,
+      "ell": 0,
+      "matches": true,
+      "positive_generating_polynomial": "1"
+    },
+    {
+      "n": 3,
+      "ell": 1,
+      "matches": true,
+      "positive_generating_polynomial": "q + 1"
+    },
+    {
+      "n": 4,
+      "ell": 0,
+      "matches": true,
+      "positive_generating_polynomial": "1"
+    },
+    {
+      "n": 4,
+      "ell": 1,
+      "matches": true,
+      "positive_generating_polynomial": "q + 1"
+    },
+    {
+      "n": 4,
+      "ell": 2,
+      "matches": true,
+      "positive_generating_polynomial": "q^2 + q + 1"
+    },
+    {
+      "n": 5,
+      "ell": 0,
+      "matches": true,
+      "positive_generating_polynomial": "1"
+    },
+    {
+      "n": 5,
+      "ell": 1,
+      "matches": true,
+      "positive_generating_polynomial": "q^2 + q + 1"
+    },
+    {
+      "n": 5,
+      "ell": 2,
+      "matches": true,
+      "positive_generating_polynomial": "q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 6,
+      "ell": 0,
+      "matches": true,
+      "positive_generating_polynomial": "1"
+    },
+    {
+      "n": 6,
+      "ell": 1,
+      "matches": true,
+      "positive_generating_polynomial": "q^2 + q + 1"
+    },
+    {
+      "n": 6,
+      "ell": 2,
+      "matches": true,
+      "positive_generating_polynomial": "q^4 + q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 6,
+      "ell": 3,
+      "matches": true,
+      "positive_generating_polynomial": "q^4 + 2*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 7,
+      "ell": 0,
+      "matches": true,
+      "positive_generating_polynomial": "1"
+    },
+    {
+      "n": 7,
+      "ell": 1,
+      "matches": true,
+      "positive_generating_polynomial": "q^3 + q^2 + q + 1"
+    },
+    {
+      "n": 7,
+      "ell": 2,
+      "matches": true,
+      "positive_generating_polynomial": "q^5 + 2*q^4 + 2*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 7,
+      "ell": 3,
+      "matches": true,
+      "positive_generating_polynomial": "q^6 + 2*q^5 + 3*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 8,
+      "ell": 0,
+      "matches": true,
+      "positive_generating_polynomial": "1"
+    },
+    {
+      "n": 8,
+      "ell": 1,
+      "matches": true,
+      "positive_generating_polynomial": "q^3 + q^2 + q + 1"
+    },
+    {
+      "n": 8,
+      "ell": 2,
+      "matches": true,
+      "positive_generating_polynomial": "q^6 + q^5 + 2*q^4 + 2*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 8,
+      "ell": 3,
+      "matches": true,
+      "positive_generating_polynomial": "q^7 + 2*q^6 + 3*q^5 + 3*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 8,
+      "ell": 4,
+      "matches": true,
+      "positive_generating_polynomial": "q^8 + q^7 + 3*q^6 + 3*q^5 + 4*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 9,
+      "ell": 0,
+      "matches": true,
+      "positive_generating_polynomial": "1"
+    },
+    {
+      "n": 9,
+      "ell": 1,
+      "matches": true,
+      "positive_generating_polynomial": "q^4 + q^3 + q^2 + q + 1"
+    },
+    {
+      "n": 9,
+      "ell": 2,
+      "matches": true,
+      "positive_generating_polynomial": "q^7 + 2*q^6 + 2*q^5 + 3*q^4 + 2*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 9,
+      "ell": 3,
+      "matches": true,
+      "positive_generating_polynomial": "q^9 + 2*q^8 + 3*q^7 + 5*q^6 + 4*q^5 + 4*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 9,
+      "ell": 4,
+      "matches": true,
+      "positive_generating_polynomial": "q^10 + 2*q^9 + 4*q^8 + 5*q^7 + 6*q^6 + 5*q^5 + 5*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 10,
+      "ell": 0,
+      "matches": true,
+      "positive_generating_polynomial": "1"
+    },
+    {
+      "n": 10,
+      "ell": 1,
+      "matches": true,
+      "positive_generating_polynomial": "q^4 + q^3 + q^2 + q + 1"
+    },
+    {
+      "n": 10,
+      "ell": 2,
+      "matches": true,
+      "positive_generating_polynomial": "q^8 + q^7 + 2*q^6 + 2*q^5 + 3*q^4 + 2*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 10,
+      "ell": 3,
+      "matches": true,
+      "positive_generating_polynomial": "q^10 + 2*q^9 + 3*q^8 + 4*q^7 + 5*q^6 + 4*q^5 + 4*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 10,
+      "ell": 4,
+      "matches": true,
+      "positive_generating_polynomial": "q^12 + q^11 + 3*q^10 + 4*q^9 + 6*q^8 + 6*q^7 + 7*q^6 + 5*q^5 + 5*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 10,
+      "ell": 5,
+      "matches": true,
+      "positive_generating_polynomial": "q^12 + 2*q^11 + 4*q^10 + 5*q^9 + 7*q^8 + 7*q^7 + 7*q^6 + 6*q^5 + 5*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 11,
+      "ell": 0,
+      "matches": true,
+      "positive_generating_polynomial": "1"
+    },
+    {
+      "n": 11,
+      "ell": 1,
+      "matches": true,
+      "positive_generating_polynomial": "q^5 + q^4 + q^3 + q^2 + q + 1"
+    },
+    {
+      "n": 11,
+      "ell": 2,
+      "matches": true,
+      "positive_generating_polynomial": "q^9 + 2*q^8 + 2*q^7 + 3*q^6 + 3*q^5 + 3*q^4 + 2*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 11,
+      "ell": 3,
+      "matches": true,
+      "positive_generating_polynomial": "q^12 + 2*q^11 + 3*q^10 + 5*q^9 + 6*q^8 + 6*q^7 + 6*q^6 + 5*q^5 + 4*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 11,
+      "ell": 4,
+      "matches": true,
+      "positive_generating_polynomial": "q^14 + 2*q^13 + 4*q^12 + 6*q^11 + 8*q^10 + 9*q^9 + 10*q^8 + 9*q^7 + 8*q^6 + 6*q^5 + 5*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 11,
+      "ell": 5,
+      "matches": true,
+      "positive_generating_polynomial": "q^15 + 2*q^14 + 4*q^13 + 7*q^12 + 9*q^11 + 11*q^10 + 12*q^9 + 12*q^8 + 10*q^7 + 9*q^6 + 7*q^5 + 5*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 12,
+      "ell": 0,
+      "matches": true,
+      "positive_generating_polynomial": "1"
+    },
+    {
+      "n": 12,
+      "ell": 1,
+      "matches": true,
+      "positive_generating_polynomial": "q^5 + q^4 + q^3 + q^2 + q + 1"
+    },
+    {
+      "n": 12,
+      "ell": 2,
+      "matches": true,
+      "positive_generating_polynomial": "q^10 + q^9 + 2*q^8 + 2*q^7 + 3*q^6 + 3*q^5 + 3*q^4 + 2*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 12,
+      "ell": 3,
+      "matches": true,
+      "positive_generating_polynomial": "q^13 + 2*q^12 + 3*q^11 + 4*q^10 + 6*q^9 + 6*q^8 + 6*q^7 + 6*q^6 + 5*q^5 + 4*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 12,
+      "ell": 4,
+      "matches": true,
+      "positive_generating_polynomial": "q^16 + q^15 + 3*q^14 + 4*q^13 + 7*q^12 + 8*q^11 + 10*q^10 + 10*q^9 + 11*q^8 + 9*q^7 + 8*q^6 + 6*q^5 + 5*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 12,
+      "ell": 5,
+      "matches": true,
+      "positive_generating_polynomial": "q^17 + 2*q^16 + 4*q^15 + 6*q^14 + 9*q^13 + 11*q^12 + 13*q^11 + 14*q^10 + 14*q^9 + 13*q^8 + 11*q^7 + 9*q^6 + 7*q^5 + 5*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 12,
+      "ell": 6,
+      "matches": true,
+      "positive_generating_polynomial": "q^18 + q^17 + 3*q^16 + 5*q^15 + 8*q^14 + 10*q^13 + 14*q^12 + 14*q^11 + 16*q^10 + 15*q^9 + 14*q^8 + 11*q^7 + 10*q^6 + 7*q^5 + 5*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 13,
+      "ell": 0,
+      "matches": true,
+      "positive_generating_polynomial": "1"
+    },
+    {
+      "n": 13,
+      "ell": 1,
+      "matches": true,
+      "positive_generating_polynomial": "q^6 + q^5 + q^4 + q^3 + q^2 + q + 1"
+    },
+    {
+      "n": 13,
+      "ell": 2,
+      "matches": true,
+      "positive_generating_polynomial": "q^11 + 2*q^10 + 2*q^9 + 3*q^8 + 3*q^7 + 4*q^6 + 3*q^5 + 3*q^4 + 2*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 13,
+      "ell": 3,
+      "matches": true,
+      "positive_generating_polynomial": "q^15 + 2*q^14 + 3*q^13 + 5*q^12 + 6*q^11 + 8*q^10 + 8*q^9 + 8*q^8 + 7*q^7 + 7*q^6 + 5*q^5 + 4*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 13,
+      "ell": 4,
+      "matches": true,
+      "positive_generating_polynomial": "q^18 + 2*q^17 + 4*q^16 + 6*q^15 + 9*q^14 + 11*q^13 + 14*q^12 + 14*q^11 + 15*q^10 + 14*q^9 + 13*q^8 + 10*q^7 + 9*q^6 + 6*q^5 + 5*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 13,
+      "ell": 5,
+      "matches": true,
+      "positive_generating_polynomial": "q^20 + 2*q^19 + 4*q^18 + 7*q^17 + 11*q^16 + 14*q^15 + 18*q^14 + 20*q^13 + 22*q^12 + 21*q^11 + 21*q^10 + 18*q^9 + 16*q^8 + 12*q^7 + 10*q^6 + 7*q^5 + 5*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 13,
+      "ell": 6,
+      "matches": true,
+      "positive_generating_polynomial": "q^21 + 2*q^20 + 4*q^19 + 8*q^18 + 11*q^17 + 16*q^16 + 20*q^15 + 24*q^14 + 25*q^13 + 27*q^12 + 25*q^11 + 24*q^10 + 20*q^9 + 17*q^8 + 13*q^7 + 11*q^6 + 7*q^5 + 5*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 14,
+      "ell": 0,
+      "matches": true,
+      "positive_generating_polynomial": "1"
+    },
+    {
+      "n": 14,
+      "ell": 1,
+      "matches": true,
+      "positive_generating_polynomial": "q^6 + q^5 + q^4 + q^3 + q^2 + q + 1"
+    },
+    {
+      "n": 14,
+      "ell": 2,
+      "matches": true,
+      "positive_generating_polynomial": "q^12 + q^11 + 2*q^10 + 2*q^9 + 3*q^8 + 3*q^7 + 4*q^6 + 3*q^5 + 3*q^4 + 2*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 14,
+      "ell": 3,
+      "matches": true,
+      "positive_generating_polynomial": "q^16 + 2*q^15 + 3*q^14 + 4*q^13 + 6*q^12 + 7*q^11 + 8*q^10 + 8*q^9 + 8*q^8 + 7*q^7 + 7*q^6 + 5*q^5 + 4*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 14,
+      "ell": 4,
+      "matches": true,
+      "positive_generating_polynomial": "q^20 + q^19 + 3*q^18 + 4*q^17 + 7*q^16 + 9*q^15 + 12*q^14 + 13*q^13 + 16*q^12 + 15*q^11 + 16*q^10 + 14*q^9 + 13*q^8 + 10*q^7 + 9*q^6 + 6*q^5 + 5*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 14,
+      "ell": 5,
+      "matches": true,
+      "positive_generating_polynomial": "q^22 + 2*q^21 + 4*q^20 + 6*q^19 + 10*q^18 + 13*q^17 + 17*q^16 + 20*q^15 + 23*q^14 + 24*q^13 + 25*q^12 + 23*q^11 + 22*q^10 + 19*q^9 + 16*q^8 + 12*q^7 + 10*q^6 + 7*q^5 + 5*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 14,
+      "ell": 6,
+      "matches": true,
+      "positive_generating_polynomial": "q^24 + q^23 + 3*q^22 + 5*q^21 + 9*q^20 + 12*q^19 + 18*q^18 + 21*q^17 + 27*q^16 + 29*q^15 + 32*q^14 + 31*q^13 + 32*q^12 + 28*q^11 + 26*q^10 + 21*q^9 + 18*q^8 + 13*q^7 + 11*q^6 + 7*q^5 + 5*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 15,
+      "ell": 0,
+      "matches": true,
+      "positive_generating_polynomial": "1"
+    },
+    {
+      "n": 15,
+      "ell": 1,
+      "matches": true,
+      "positive_generating_polynomial": "q^7 + q^6 + q^5 + q^4 + q^3 + q^2 + q + 1"
+    },
+    {
+      "n": 15,
+      "ell": 2,
+      "matches": true,
+      "positive_generating_polynomial": "q^13 + 2*q^12 + 2*q^11 + 3*q^10 + 3*q^9 + 4*q^8 + 4*q^7 + 4*q^6 + 3*q^5 + 3*q^4 + 2*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 15,
+      "ell": 3,
+      "matches": true,
+      "positive_generating_polynomial": "q^18 + 2*q^17 + 3*q^16 + 5*q^15 + 6*q^14 + 8*q^13 + 10*q^12 + 10*q^11 + 10*q^10 + 10*q^9 + 9*q^8 + 8*q^7 + 7*q^6 + 5*q^5 + 4*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 15,
+      "ell": 4,
+      "matches": true,
+      "positive_generating_polynomial": "q^22 + 2*q^21 + 4*q^20 + 6*q^19 + 9*q^18 + 12*q^17 + 16*q^16 + 18*q^15 + 20*q^14 + 21*q^13 + 22*q^12 + 20*q^11 + 19*q^10 + 16*q^9 + 14*q^8 + 11*q^7 + 9*q^6 + 6*q^5 + 5*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 15,
+      "ell": 5,
+      "matches": true,
+      "positive_generating_polynomial": "q^25 + 2*q^24 + 4*q^23 + 7*q^22 + 11*q^21 + 16*q^20 + 21*q^19 + 26*q^18 + 30*q^17 + 34*q^16 + 36*q^15 + 36*q^14 + 35*q^13 + 33*q^12 + 29*q^11 + 26*q^10 + 21*q^9 + 17*q^8 + 13*q^7 + 10*q^6 + 7*q^5 + 5*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 15,
+      "ell": 6,
+      "matches": true,
+      "positive_generating_polynomial": "q^27 + 2*q^26 + 4*q^25 + 8*q^24 + 12*q^23 + 18*q^22 + 25*q^21 + 32*q^20 + 38*q^19 + 45*q^18 + 48*q^17 + 51*q^16 + 51*q^15 + 49*q^14 + 45*q^13 + 42*q^12 + 35*q^11 + 30*q^10 + 24*q^9 + 19*q^8 + 14*q^7 + 11*q^6 + 7*q^5 + 5*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 16,
+      "ell": 0,
+      "matches": true,
+      "positive_generating_polynomial": "1"
+    },
+    {
+      "n": 16,
+      "ell": 1,
+      "matches": true,
+      "positive_generating_polynomial": "q^7 + q^6 + q^5 + q^4 + q^3 + q^2 + q + 1"
+    },
+    {
+      "n": 16,
+      "ell": 2,
+      "matches": true,
+      "positive_generating_polynomial": "q^14 + q^13 + 2*q^12 + 2*q^11 + 3*q^10 + 3*q^9 + 4*q^8 + 4*q^7 + 4*q^6 + 3*q^5 + 3*q^4 + 2*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 16,
+      "ell": 3,
+      "matches": true,
+      "positive_generating_polynomial": "q^19 + 2*q^18 + 3*q^17 + 4*q^16 + 6*q^15 + 7*q^14 + 9*q^13 + 10*q^12 + 10*q^11 + 10*q^10 + 10*q^9 + 9*q^8 + 8*q^7 + 7*q^6 + 5*q^5 + 4*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 16,
+      "ell": 4,
+      "matches": true,
+      "positive_generating_polynomial": "q^24 + q^23 + 3*q^22 + 4*q^21 + 7*q^20 + 9*q^19 + 13*q^18 + 15*q^17 + 19*q^16 + 20*q^15 + 22*q^14 + 22*q^13 + 23*q^12 + 20*q^11 + 19*q^10 + 16*q^9 + 14*q^8 + 11*q^7 + 9*q^6 + 6*q^5 + 5*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 16,
+      "ell": 5,
+      "matches": true,
+      "positive_generating_polynomial": "q^27 + 2*q^26 + 4*q^25 + 6*q^24 + 10*q^23 + 14*q^22 + 19*q^21 + 24*q^20 + 29*q^19 + 33*q^18 + 37*q^17 + 39*q^16 + 40*q^15 + 39*q^14 + 37*q^13 + 34*q^12 + 30*q^11 + 26*q^10 + 21*q^9 + 17*q^8 + 13*q^7 + 10*q^6 + 7*q^5 + 5*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 16,
+      "ell": 6,
+      "matches": true,
+      "positive_generating_polynomial": "q^30 + q^29 + 3*q^28 + 5*q^27 + 9*q^26 + 13*q^25 + 20*q^24 + 25*q^23 + 34*q^22 + 40*q^21 + 48*q^20 + 52*q^19 + 58*q^18 + 58*q^17 + 60*q^16 + 57*q^15 + 54*q^14 + 48*q^13 + 44*q^12 + 36*q^11 + 31*q^10 + 24*q^9 + 19*q^8 + 14*q^7 + 11*q^6 + 7*q^5 + 5*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 17,
+      "ell": 0,
+      "matches": true,
+      "positive_generating_polynomial": "1"
+    },
+    {
+      "n": 17,
+      "ell": 1,
+      "matches": true,
+      "positive_generating_polynomial": "q^8 + q^7 + q^6 + q^5 + q^4 + q^3 + q^2 + q + 1"
+    },
+    {
+      "n": 17,
+      "ell": 2,
+      "matches": true,
+      "positive_generating_polynomial": "q^15 + 2*q^14 + 2*q^13 + 3*q^12 + 3*q^11 + 4*q^10 + 4*q^9 + 5*q^8 + 4*q^7 + 4*q^6 + 3*q^5 + 3*q^4 + 2*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 17,
+      "ell": 3,
+      "matches": true,
+      "positive_generating_polynomial": "q^21 + 2*q^20 + 3*q^19 + 5*q^18 + 6*q^17 + 8*q^16 + 10*q^15 + 12*q^14 + 12*q^13 + 13*q^12 + 12*q^11 + 12*q^10 + 11*q^9 + 10*q^8 + 8*q^7 + 7*q^6 + 5*q^5 + 4*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 17,
+      "ell": 4,
+      "matches": true,
+      "positive_generating_polynomial": "q^26 + 2*q^25 + 4*q^24 + 6*q^23 + 9*q^22 + 12*q^21 + 17*q^20 + 20*q^19 + 24*q^18 + 26*q^17 + 29*q^16 + 29*q^15 + 30*q^14 + 28*q^13 + 27*q^12 + 23*q^11 + 21*q^10 + 17*q^9 + 15*q^8 + 11*q^7 + 9*q^6 + 6*q^5 + 5*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 17,
+      "ell": 5,
+      "matches": true,
+      "positive_generating_polynomial": "q^30 + 2*q^29 + 4*q^28 + 7*q^27 + 11*q^26 + 16*q^25 + 23*q^24 + 29*q^23 + 36*q^22 + 42*q^21 + 49*q^20 + 52*q^19 + 56*q^18 + 56*q^17 + 56*q^16 + 53*q^15 + 50*q^14 + 44*q^13 + 40*q^12 + 33*q^11 + 28*q^10 + 22*q^9 + 18*q^8 + 13*q^7 + 10*q^6 + 7*q^5 + 5*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 17,
+      "ell": 6,
+      "matches": true,
+      "positive_generating_polynomial": "q^33 + 2*q^32 + 4*q^31 + 8*q^30 + 12*q^29 + 19*q^28 + 27*q^27 + 37*q^26 + 46*q^25 + 58*q^24 + 67*q^23 + 77*q^22 + 83*q^21 + 89*q^20 + 89*q^19 + 91*q^18 + 86*q^17 + 82*q^16 + 74*q^15 + 67*q^14 + 57*q^13 + 50*q^12 + 40*q^11 + 33*q^10 + 25*q^9 + 20*q^8 + 14*q^7 + 11*q^6 + 7*q^5 + 5*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 18,
+      "ell": 0,
+      "matches": true,
+      "positive_generating_polynomial": "1"
+    },
+    {
+      "n": 18,
+      "ell": 1,
+      "matches": true,
+      "positive_generating_polynomial": "q^8 + q^7 + q^6 + q^5 + q^4 + q^3 + q^2 + q + 1"
+    },
+    {
+      "n": 18,
+      "ell": 2,
+      "matches": true,
+      "positive_generating_polynomial": "q^16 + q^15 + 2*q^14 + 2*q^13 + 3*q^12 + 3*q^11 + 4*q^10 + 4*q^9 + 5*q^8 + 4*q^7 + 4*q^6 + 3*q^5 + 3*q^4 + 2*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 18,
+      "ell": 3,
+      "matches": true,
+      "positive_generating_polynomial": "q^22 + 2*q^21 + 3*q^20 + 4*q^19 + 6*q^18 + 7*q^17 + 9*q^16 + 11*q^15 + 12*q^14 + 12*q^13 + 13*q^12 + 12*q^11 + 12*q^10 + 11*q^9 + 10*q^8 + 8*q^7 + 7*q^6 + 5*q^5 + 4*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 18,
+      "ell": 4,
+      "matches": true,
+      "positive_generating_polynomial": "q^28 + q^27 + 3*q^26 + 4*q^25 + 7*q^24 + 9*q^23 + 13*q^22 + 16*q^21 + 21*q^20 + 23*q^19 + 27*q^18 + 28*q^17 + 31*q^16 + 30*q^15 + 31*q^14 + 28*q^13 + 27*q^12 + 23*q^11 + 21*q^10 + 17*q^9 + 15*q^8 + 11*q^7 + 9*q^6 + 6*q^5 + 5*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 18,
+      "ell": 5,
+      "matches": true,
+      "positive_generating_polynomial": "q^32 + 2*q^31 + 4*q^30 + 6*q^29 + 10*q^28 + 14*q^27 + 20*q^26 + 26*q^25 + 33*q^24 + 39*q^23 + 46*q^22 + 51*q^21 + 57*q^20 + 59*q^19 + 61*q^18 + 60*q^17 + 59*q^16 + 55*q^15 + 51*q^14 + 45*q^13 + 40*q^12 + 33*q^11 + 28*q^10 + 22*q^9 + 18*q^8 + 13*q^7 + 10*q^6 + 7*q^5 + 5*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 18,
+      "ell": 6,
+      "matches": true,
+      "positive_generating_polynomial": "q^36 + q^35 + 3*q^34 + 5*q^33 + 9*q^32 + 13*q^31 + 21*q^30 + 27*q^29 + 38*q^28 + 47*q^27 + 59*q^26 + 68*q^25 + 81*q^24 + 87*q^23 + 96*q^22 + 99*q^21 + 103*q^20 + 100*q^19 + 100*q^18 + 92*q^17 + 87*q^16 + 77*q^15 + 69*q^14 + 58*q^13 + 51*q^12 + 40*q^11 + 33*q^10 + 25*q^9 + 20*q^8 + 14*q^7 + 11*q^6 + 7*q^5 + 5*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 19,
+      "ell": 0,
+      "matches": true,
+      "positive_generating_polynomial": "1"
+    },
+    {
+      "n": 19,
+      "ell": 1,
+      "matches": true,
+      "positive_generating_polynomial": "q^9 + q^8 + q^7 + q^6 + q^5 + q^4 + q^3 + q^2 + q + 1"
+    },
+    {
+      "n": 19,
+      "ell": 2,
+      "matches": true,
+      "positive_generating_polynomial": "q^17 + 2*q^16 + 2*q^15 + 3*q^14 + 3*q^13 + 4*q^12 + 4*q^11 + 5*q^10 + 5*q^9 + 5*q^8 + 4*q^7 + 4*q^6 + 3*q^5 + 3*q^4 + 2*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 19,
+      "ell": 3,
+      "matches": true,
+      "positive_generating_polynomial": "q^24 + 2*q^23 + 3*q^22 + 5*q^21 + 6*q^20 + 8*q^19 + 10*q^18 + 12*q^17 + 14*q^16 + 15*q^15 + 15*q^14 + 15*q^13 + 15*q^12 + 14*q^11 + 13*q^10 + 12*q^9 + 10*q^8 + 8*q^7 + 7*q^6 + 5*q^5 + 4*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 19,
+      "ell": 4,
+      "matches": true,
+      "positive_generating_polynomial": "q^30 + 2*q^29 + 4*q^28 + 6*q^27 + 9*q^26 + 12*q^25 + 17*q^24 + 21*q^23 + 26*q^22 + 30*q^21 + 34*q^20 + 36*q^19 + 39*q^18 + 39*q^17 + 40*q^16 + 38*q^15 + 36*q^14 + 32*q^13 + 30*q^12 + 25*q^11 + 22*q^10 + 18*q^9 + 15*q^8 + 11*q^7 + 9*q^6 + 6*q^5 + 5*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 19,
+      "ell": 5,
+      "matches": true,
+      "positive_generating_polynomial": "q^35 + 2*q^34 + 4*q^33 + 7*q^32 + 11*q^31 + 16*q^30 + 23*q^29 + 31*q^28 + 39*q^27 + 48*q^26 + 57*q^25 + 65*q^24 + 72*q^23 + 78*q^22 + 82*q^21 + 84*q^20 + 83*q^19 + 81*q^18 + 77*q^17 + 72*q^16 + 65*q^15 + 58*q^14 + 50*q^13 + 43*q^12 + 35*q^11 + 29*q^10 + 23*q^9 + 18*q^8 + 13*q^7 + 10*q^6 + 7*q^5 + 5*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 19,
+      "ell": 6,
+      "matches": true,
+      "positive_generating_polynomial": "q^39 + 2*q^38 + 4*q^37 + 8*q^36 + 12*q^35 + 19*q^34 + 28*q^33 + 39*q^32 + 51*q^31 + 66*q^30 + 80*q^29 + 96*q^28 + 110*q^27 + 124*q^26 + 134*q^25 + 144*q^24 + 147*q^23 + 150*q^22 + 148*q^21 + 144*q^20 + 135*q^19 + 127*q^18 + 114*q^17 + 103*q^16 + 89*q^15 + 77*q^14 + 64*q^13 + 54*q^12 + 42*q^11 + 34*q^10 + 26*q^9 + 20*q^8 + 14*q^7 + 11*q^6 + 7*q^5 + 5*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 20,
+      "ell": 0,
+      "matches": true,
+      "positive_generating_polynomial": "1"
+    },
+    {
+      "n": 20,
+      "ell": 1,
+      "matches": true,
+      "positive_generating_polynomial": "q^9 + q^8 + q^7 + q^6 + q^5 + q^4 + q^3 + q^2 + q + 1"
+    },
+    {
+      "n": 20,
+      "ell": 2,
+      "matches": true,
+      "positive_generating_polynomial": "q^18 + q^17 + 2*q^16 + 2*q^15 + 3*q^14 + 3*q^13 + 4*q^12 + 4*q^11 + 5*q^10 + 5*q^9 + 5*q^8 + 4*q^7 + 4*q^6 + 3*q^5 + 3*q^4 + 2*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 20,
+      "ell": 3,
+      "matches": true,
+      "positive_generating_polynomial": "q^25 + 2*q^24 + 3*q^23 + 4*q^22 + 6*q^21 + 7*q^20 + 9*q^19 + 11*q^18 + 13*q^17 + 14*q^16 + 15*q^15 + 15*q^14 + 15*q^13 + 15*q^12 + 14*q^11 + 13*q^10 + 12*q^9 + 10*q^8 + 8*q^7 + 7*q^6 + 5*q^5 + 4*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 20,
+      "ell": 4,
+      "matches": true,
+      "positive_generating_polynomial": "q^32 + q^31 + 3*q^30 + 4*q^29 + 7*q^28 + 9*q^27 + 13*q^26 + 16*q^25 + 22*q^24 + 25*q^23 + 30*q^22 + 33*q^21 + 37*q^20 + 38*q^19 + 41*q^18 + 40*q^17 + 41*q^16 + 38*q^15 + 36*q^14 + 32*q^13 + 30*q^12 + 25*q^11 + 22*q^10 + 18*q^9 + 15*q^8 + 11*q^7 + 9*q^6 + 6*q^5 + 5*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 20,
+      "ell": 5,
+      "matches": true,
+      "positive_generating_polynomial": "q^37 + 2*q^36 + 4*q^35 + 6*q^34 + 10*q^33 + 14*q^32 + 20*q^31 + 27*q^30 + 35*q^29 + 43*q^28 + 52*q^27 + 60*q^26 + 69*q^25 + 76*q^24 + 82*q^23 + 86*q^22 + 89*q^21 + 89*q^20 + 87*q^19 + 84*q^18 + 79*q^17 + 73*q^16 + 66*q^15 + 58*q^14 + 50*q^13 + 43*q^12 + 35*q^11 + 29*q^10 + 23*q^9 + 18*q^8 + 13*q^7 + 10*q^6 + 7*q^5 + 5*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 20,
+      "ell": 6,
+      "matches": true,
+      "positive_generating_polynomial": "q^42 + q^41 + 3*q^40 + 5*q^39 + 9*q^38 + 13*q^37 + 21*q^36 + 28*q^35 + 40*q^34 + 51*q^33 + 66*q^32 + 79*q^31 + 97*q^30 + 110*q^29 + 127*q^28 + 138*q^27 + 151*q^26 + 157*q^25 + 165*q^24 + 164*q^23 + 165*q^22 + 159*q^21 + 153*q^20 + 141*q^19 + 132*q^18 + 117*q^17 + 105*q^16 + 90*q^15 + 78*q^14 + 64*q^13 + 54*q^12 + 42*q^11 + 34*q^10 + 26*q^9 + 20*q^8 + 14*q^7 + 11*q^6 + 7*q^5 + 5*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 21,
+      "ell": 0,
+      "matches": true,
+      "positive_generating_polynomial": "1"
+    },
+    {
+      "n": 21,
+      "ell": 1,
+      "matches": true,
+      "positive_generating_polynomial": "q^10 + q^9 + q^8 + q^7 + q^6 + q^5 + q^4 + q^3 + q^2 + q + 1"
+    },
+    {
+      "n": 21,
+      "ell": 2,
+      "matches": true,
+      "positive_generating_polynomial": "q^19 + 2*q^18 + 2*q^17 + 3*q^16 + 3*q^15 + 4*q^14 + 4*q^13 + 5*q^12 + 5*q^11 + 6*q^10 + 5*q^9 + 5*q^8 + 4*q^7 + 4*q^6 + 3*q^5 + 3*q^4 + 2*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 21,
+      "ell": 3,
+      "matches": true,
+      "positive_generating_polynomial": "q^27 + 2*q^26 + 3*q^25 + 5*q^24 + 6*q^23 + 8*q^22 + 10*q^21 + 12*q^20 + 14*q^19 + 17*q^18 + 17*q^17 + 18*q^16 + 18*q^15 + 18*q^14 + 17*q^13 + 17*q^12 + 15*q^11 + 14*q^10 + 12*q^9 + 10*q^8 + 8*q^7 + 7*q^6 + 5*q^5 + 4*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 21,
+      "ell": 4,
+      "matches": true,
+      "positive_generating_polynomial": "q^34 + 2*q^33 + 4*q^32 + 6*q^31 + 9*q^30 + 12*q^29 + 17*q^28 + 21*q^27 + 27*q^26 + 32*q^25 + 38*q^24 + 41*q^23 + 46*q^22 + 48*q^21 + 51*q^20 + 51*q^19 + 52*q^18 + 49*q^17 + 48*q^16 + 43*q^15 + 40*q^14 + 35*q^13 + 32*q^12 + 26*q^11 + 23*q^10 + 18*q^9 + 15*q^8 + 11*q^7 + 9*q^6 + 6*q^5 + 5*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 21,
+      "ell": 5,
+      "matches": true,
+      "positive_generating_polynomial": "q^40 + 2*q^39 + 4*q^38 + 7*q^37 + 11*q^36 + 16*q^35 + 23*q^34 + 31*q^33 + 41*q^32 + 51*q^31 + 63*q^30 + 73*q^29 + 85*q^28 + 94*q^27 + 104*q^26 + 111*q^25 + 117*q^24 + 118*q^23 + 120*q^22 + 117*q^21 + 114*q^20 + 107*q^19 + 101*q^18 + 91*q^17 + 83*q^16 + 72*q^15 + 63*q^14 + 53*q^13 + 45*q^12 + 36*q^11 + 30*q^10 + 23*q^9 + 18*q^8 + 13*q^7 + 10*q^6 + 7*q^5 + 5*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 21,
+      "ell": 6,
+      "matches": true,
+      "positive_generating_polynomial": "q^45 + 2*q^44 + 4*q^43 + 8*q^42 + 12*q^41 + 19*q^40 + 28*q^39 + 40*q^38 + 53*q^37 + 71*q^36 + 88*q^35 + 109*q^34 + 129*q^33 + 151*q^32 + 170*q^31 + 192*q^30 + 205*q^29 + 220*q^28 + 228*q^27 + 235*q^26 + 234*q^25 + 234*q^24 + 224*q^23 + 216*q^22 + 201*q^21 + 187*q^20 + 168*q^19 + 153*q^18 + 132*q^17 + 116*q^16 + 98*q^15 + 83*q^14 + 67*q^13 + 56*q^12 + 43*q^11 + 35*q^10 + 26*q^9 + 20*q^8 + 14*q^7 + 11*q^6 + 7*q^5 + 5*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 22,
+      "ell": 0,
+      "matches": true,
+      "positive_generating_polynomial": "1"
+    },
+    {
+      "n": 22,
+      "ell": 1,
+      "matches": true,
+      "positive_generating_polynomial": "q^10 + q^9 + q^8 + q^7 + q^6 + q^5 + q^4 + q^3 + q^2 + q + 1"
+    },
+    {
+      "n": 22,
+      "ell": 2,
+      "matches": true,
+      "positive_generating_polynomial": "q^20 + q^19 + 2*q^18 + 2*q^17 + 3*q^16 + 3*q^15 + 4*q^14 + 4*q^13 + 5*q^12 + 5*q^11 + 6*q^10 + 5*q^9 + 5*q^8 + 4*q^7 + 4*q^6 + 3*q^5 + 3*q^4 + 2*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 22,
+      "ell": 3,
+      "matches": true,
+      "positive_generating_polynomial": "q^28 + 2*q^27 + 3*q^26 + 4*q^25 + 6*q^24 + 7*q^23 + 9*q^22 + 11*q^21 + 13*q^20 + 15*q^19 + 17*q^18 + 17*q^17 + 18*q^16 + 18*q^15 + 18*q^14 + 17*q^13 + 17*q^12 + 15*q^11 + 14*q^10 + 12*q^9 + 10*q^8 + 8*q^7 + 7*q^6 + 5*q^5 + 4*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 22,
+      "ell": 4,
+      "matches": true,
+      "positive_generating_polynomial": "q^36 + q^35 + 3*q^34 + 4*q^33 + 7*q^32 + 9*q^31 + 13*q^30 + 16*q^29 + 22*q^28 + 26*q^27 + 32*q^26 + 36*q^25 + 42*q^24 + 44*q^23 + 49*q^22 + 50*q^21 + 53*q^20 + 52*q^19 + 53*q^18 + 49*q^17 + 48*q^16 + 43*q^15 + 40*q^14 + 35*q^13 + 32*q^12 + 26*q^11 + 23*q^10 + 18*q^9 + 15*q^8 + 11*q^7 + 9*q^6 + 6*q^5 + 5*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 22,
+      "ell": 5,
+      "matches": true,
+      "positive_generating_polynomial": "q^42 + 2*q^41 + 4*q^40 + 6*q^39 + 10*q^38 + 14*q^37 + 20*q^36 + 27*q^35 + 36*q^34 + 45*q^33 + 56*q^32 + 66*q^31 + 78*q^30 + 88*q^29 + 99*q^28 + 107*q^27 + 116*q^26 + 121*q^25 + 125*q^24 + 125*q^23 + 125*q^22 + 121*q^21 + 117*q^20 + 109*q^19 + 102*q^18 + 92*q^17 + 83*q^16 + 72*q^15 + 63*q^14 + 53*q^13 + 45*q^12 + 36*q^11 + 30*q^10 + 23*q^9 + 18*q^8 + 13*q^7 + 10*q^6 + 7*q^5 + 5*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 22,
+      "ell": 6,
+      "matches": true,
+      "positive_generating_polynomial": "q^48 + q^47 + 3*q^46 + 5*q^45 + 9*q^44 + 13*q^43 + 21*q^42 + 28*q^41 + 41*q^40 + 53*q^39 + 70*q^38 + 86*q^37 + 108*q^36 + 126*q^35 + 150*q^34 + 169*q^33 + 192*q^32 + 208*q^31 + 228*q^30 + 237*q^29 + 250*q^28 + 253*q^27 + 257*q^26 + 252*q^25 + 249*q^24 + 235*q^23 + 225*q^22 + 207*q^21 + 192*q^20 + 171*q^19 + 155*q^18 + 133*q^17 + 117*q^16 + 98*q^15 + 83*q^14 + 67*q^13 + 56*q^12 + 43*q^11 + 35*q^10 + 26*q^9 + 20*q^8 + 14*q^7 + 11*q^6 + 7*q^5 + 5*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 23,
+      "ell": 1,
+      "matches": true,
+      "positive_generating_polynomial": "q^11 + q^10 + q^9 + q^8 + q^7 + q^6 + q^5 + q^4 + q^3 + q^2 + q + 1"
+    },
+    {
+      "n": 23,
+      "ell": 2,
+      "matches": true,
+      "positive_generating_polynomial": "q^21 + 2*q^20 + 2*q^19 + 3*q^18 + 3*q^17 + 4*q^16 + 4*q^15 + 5*q^14 + 5*q^13 + 6*q^12 + 6*q^11 + 6*q^10 + 5*q^9 + 5*q^8 + 4*q^7 + 4*q^6 + 3*q^5 + 3*q^4 + 2*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 23,
+      "ell": 3,
+      "matches": true,
+      "positive_generating_polynomial": "q^30 + 2*q^29 + 3*q^28 + 5*q^27 + 6*q^26 + 8*q^25 + 10*q^24 + 12*q^23 + 14*q^22 + 17*q^21 + 19*q^20 + 20*q^19 + 21*q^18 + 21*q^17 + 21*q^16 + 21*q^15 + 20*q^14 + 19*q^13 + 18*q^12 + 16*q^11 + 14*q^10 + 12*q^9 + 10*q^8 + 8*q^7 + 7*q^6 + 5*q^5 + 4*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 23,
+      "ell": 4,
+      "matches": true,
+      "positive_generating_polynomial": "q^38 + 2*q^37 + 4*q^36 + 6*q^35 + 9*q^34 + 12*q^33 + 17*q^32 + 21*q^31 + 27*q^30 + 33*q^29 + 40*q^28 + 45*q^27 + 51*q^26 + 55*q^25 + 60*q^24 + 62*q^23 + 65*q^22 + 65*q^21 + 66*q^20 + 63*q^19 + 61*q^18 + 56*q^17 + 53*q^16 + 47*q^15 + 43*q^14 + 37*q^13 + 33*q^12 + 27*q^11 + 23*q^10 + 18*q^9 + 15*q^8 + 11*q^7 + 9*q^6 + 6*q^5 + 5*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 23,
+      "ell": 5,
+      "matches": true,
+      "positive_generating_polynomial": "q^45 + 2*q^44 + 4*q^43 + 7*q^42 + 11*q^41 + 16*q^40 + 23*q^39 + 31*q^38 + 41*q^37 + 53*q^36 + 66*q^35 + 79*q^34 + 93*q^33 + 107*q^32 + 120*q^31 + 133*q^30 + 144*q^29 + 153*q^28 + 160*q^27 + 164*q^26 + 165*q^25 + 164*q^24 + 160*q^23 + 154*q^22 + 146*q^21 + 137*q^20 + 125*q^19 + 114*q^18 + 101*q^17 + 89*q^16 + 77*q^15 + 66*q^14 + 55*q^13 + 46*q^12 + 37*q^11 + 30*q^10 + 23*q^9 + 18*q^8 + 13*q^7 + 10*q^6 + 7*q^5 + 5*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 23,
+      "ell": 6,
+      "matches": true,
+      "positive_generating_polynomial": "q^51 + 2*q^50 + 4*q^49 + 8*q^48 + 12*q^47 + 19*q^46 + 28*q^45 + 40*q^44 + 54*q^43 + 73*q^42 + 93*q^41 + 117*q^40 + 142*q^39 + 170*q^38 + 197*q^37 + 228*q^36 + 254*q^35 + 281*q^34 + 303*q^33 + 324*q^32 + 337*q^31 + 350*q^30 + 353*q^29 + 355*q^28 + 349*q^27 + 341*q^26 + 325*q^25 + 310*q^24 + 287*q^23 + 266*q^22 + 241*q^21 + 218*q^20 + 191*q^19 + 169*q^18 + 144*q^17 + 124*q^16 + 103*q^15 + 86*q^14 + 69*q^13 + 57*q^12 + 44*q^11 + 35*q^10 + 26*q^9 + 20*q^8 + 14*q^7 + 11*q^6 + 7*q^5 + 5*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 24,
+      "ell": 1,
+      "matches": true,
+      "positive_generating_polynomial": "q^11 + q^10 + q^9 + q^8 + q^7 + q^6 + q^5 + q^4 + q^3 + q^2 + q + 1"
+    },
+    {
+      "n": 24,
+      "ell": 2,
+      "matches": true,
+      "positive_generating_polynomial": "q^22 + q^21 + 2*q^20 + 2*q^19 + 3*q^18 + 3*q^17 + 4*q^16 + 4*q^15 + 5*q^14 + 5*q^13 + 6*q^12 + 6*q^11 + 6*q^10 + 5*q^9 + 5*q^8 + 4*q^7 + 4*q^6 + 3*q^5 + 3*q^4 + 2*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 24,
+      "ell": 3,
+      "matches": true,
+      "positive_generating_polynomial": "q^31 + 2*q^30 + 3*q^29 + 4*q^28 + 6*q^27 + 7*q^26 + 9*q^25 + 11*q^24 + 13*q^23 + 15*q^22 + 18*q^21 + 19*q^20 + 20*q^19 + 21*q^18 + 21*q^17 + 21*q^16 + 21*q^15 + 20*q^14 + 19*q^13 + 18*q^12 + 16*q^11 + 14*q^10 + 12*q^9 + 10*q^8 + 8*q^7 + 7*q^6 + 5*q^5 + 4*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 24,
+      "ell": 4,
+      "matches": true,
+      "positive_generating_polynomial": "q^40 + q^39 + 3*q^38 + 4*q^37 + 7*q^36 + 9*q^35 + 13*q^34 + 16*q^33 + 22*q^32 + 26*q^31 + 33*q^30 + 38*q^29 + 45*q^28 + 49*q^27 + 55*q^26 + 58*q^25 + 63*q^24 + 64*q^23 + 67*q^22 + 66*q^21 + 67*q^20 + 63*q^19 + 61*q^18 + 56*q^17 + 53*q^16 + 47*q^15 + 43*q^14 + 37*q^13 + 33*q^12 + 27*q^11 + 23*q^10 + 18*q^9 + 15*q^8 + 11*q^7 + 9*q^6 + 6*q^5 + 5*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 24,
+      "ell": 5,
+      "matches": true,
+      "positive_generating_polynomial": "q^47 + 2*q^46 + 4*q^45 + 6*q^44 + 10*q^43 + 14*q^42 + 20*q^41 + 27*q^40 + 36*q^39 + 46*q^38 + 58*q^37 + 70*q^36 + 84*q^35 + 97*q^34 + 111*q^33 + 124*q^32 + 137*q^31 + 148*q^30 + 158*q^29 + 165*q^28 + 170*q^27 + 172*q^26 + 172*q^25 + 169*q^24 + 164*q^23 + 157*q^22 + 148*q^21 + 138*q^20 + 126*q^19 + 114*q^18 + 101*q^17 + 89*q^16 + 77*q^15 + 66*q^14 + 55*q^13 + 46*q^12 + 37*q^11 + 30*q^10 + 23*q^9 + 18*q^8 + 13*q^7 + 10*q^6 + 7*q^5 + 5*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    },
+    {
+      "n": 24,
+      "ell": 6,
+      "matches": true,
+      "positive_generating_polynomial": "q^54 + q^53 + 3*q^52 + 5*q^51 + 9*q^50 + 13*q^49 + 21*q^48 + 28*q^47 + 41*q^46 + 54*q^45 + 72*q^44 + 90*q^43 + 115*q^42 + 137*q^41 + 166*q^40 + 192*q^39 + 223*q^38 + 249*q^37 + 281*q^36 + 303*q^35 + 329*q^34 + 346*q^33 + 364*q^32 + 372*q^31 + 382*q^30 + 379*q^29 + 378*q^28 + 367*q^27 + 356*q^26 + 336*q^25 + 319*q^24 + 293*q^23 + 271*q^22 + 244*q^21 + 220*q^20 + 192*q^19 + 170*q^18 + 144*q^17 + 124*q^16 + 103*q^15 + 86*q^14 + 69*q^13 + 57*q^12 + 44*q^11 + 35*q^10 + 26*q^9 + 20*q^8 + 14*q^7 + 11*q^6 + 7*q^5 + 5*q^4 + 3*q^3 + 2*q^2 + q + 1"
+    }
+  ],
+  "summary": {
+    "Smith_lists_checked": 174,
+    "filtered_prefixes_checked": 430,
+    "larger_LR_prefixes_checked": 181,
+    "parameter_cases_for_polynomial_consistency": 108,
+    "positive_vs_alternating_unit_identities": 131,
+    "counterexamples": 0
+  },
+  "seconds": 0.048686
+}

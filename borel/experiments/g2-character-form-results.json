@@ -1,0 +1,1834 @@
+{
+  "scope": "Full seven-dimensional G2 character forms and both maximal-parabolic images; adjoint torus source additionally certified.",
+  "torus_weights": [
+    [
+      -2,
+      1
+    ],
+    [
+      -1,
+      0
+    ],
+    [
+      -1,
+      1
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      -1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      2,
+      -1
+    ]
+  ],
+  "trace_gram": [
+    [
+      12,
+      -6
+    ],
+    [
+      -6,
+      4
+    ]
+  ],
+  "linear_basis": [
+    [
+      6,
+      0
+    ],
+    [
+      0,
+      2
+    ]
+  ],
+  "torus_certificate": {
+    "certified": true,
+    "exceptional_primes": [],
+    "cases": [
+      [
+        0,
+        [
+          [
+            2,
+            -1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          1,
+          1
+        ],
+        2
+      ]
+    ],
+    "basis_change": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ]
+  },
+  "adjoint_certificate": {
+    "certified": true,
+    "exceptional_primes": [
+      3
+    ],
+    "cases": [
+      [
+        0,
+        [
+          [
+            3,
+            -2
+          ],
+          [
+            3,
+            -1
+          ]
+        ],
+        [
+          3,
+          1
+        ],
+        2
+      ],
+      [
+        3,
+        [
+          [
+            2,
+            -1
+          ],
+          [
+            3,
+            -1
+          ]
+        ],
+        [
+          1,
+          1
+        ],
+        2
+      ]
+    ],
+    "basis_change": [
+      [
+        1,
+        -3
+      ],
+      [
+        0,
+        1
+      ]
+    ]
+  },
+  "direct_laurent_rows": [
+    {
+      "parabolic": 1,
+      "degree": 0,
+      "mode": "homogeneous",
+      "exponents": [
+        [
+          0,
+          0
+        ]
+      ],
+      "support_rows": 1,
+      "coefficient_positions": 1,
+      "certificate": {
+        "maximal_minors": [
+          {
+            "rows": [
+              0
+            ],
+            "determinant": "1",
+            "selection_prime": 2
+          }
+        ],
+        "minor_gcd": 1,
+        "rank": 1
+      }
+    },
+    {
+      "parabolic": 1,
+      "degree": 0,
+      "mode": "filtered",
+      "exponents": [
+        [
+          0,
+          0
+        ]
+      ],
+      "support_rows": 1,
+      "coefficient_positions": 1,
+      "certificate": {
+        "maximal_minors": [
+          {
+            "rows": [
+              0
+            ],
+            "determinant": "1",
+            "selection_prime": 2
+          }
+        ],
+        "minor_gcd": 1,
+        "rank": 1
+      }
+    },
+    {
+      "parabolic": 1,
+      "degree": 1,
+      "mode": "homogeneous",
+      "exponents": [
+        [
+          1,
+          0
+        ]
+      ],
+      "support_rows": 6,
+      "coefficient_positions": 6,
+      "certificate": {
+        "maximal_minors": [
+          {
+            "rows": [
+              0
+            ],
+            "determinant": "1",
+            "selection_prime": 2
+          }
+        ],
+        "minor_gcd": 1,
+        "rank": 1
+      }
+    },
+    {
+      "parabolic": 1,
+      "degree": 1,
+      "mode": "filtered",
+      "exponents": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "support_rows": 7,
+      "coefficient_positions": 14,
+      "certificate": {
+        "maximal_minors": [
+          {
+            "rows": [
+              0,
+              3
+            ],
+            "determinant": "1",
+            "selection_prime": 2
+          }
+        ],
+        "minor_gcd": 1,
+        "rank": 2
+      }
+    },
+    {
+      "parabolic": 1,
+      "degree": 2,
+      "mode": "homogeneous",
+      "exponents": [
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "support_rows": 19,
+      "coefficient_positions": 38,
+      "certificate": {
+        "maximal_minors": [
+          {
+            "rows": [
+              0,
+              1
+            ],
+            "determinant": "1",
+            "selection_prime": 2
+          }
+        ],
+        "minor_gcd": 1,
+        "rank": 2
+      }
+    },
+    {
+      "parabolic": 1,
+      "degree": 2,
+      "mode": "filtered",
+      "exponents": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "support_rows": 19,
+      "coefficient_positions": 76,
+      "certificate": {
+        "maximal_minors": [
+          {
+            "rows": [
+              0,
+              1,
+              4,
+              9
+            ],
+            "determinant": "1",
+            "selection_prime": 2
+          }
+        ],
+        "minor_gcd": 1,
+        "rank": 4
+      }
+    },
+    {
+      "parabolic": 1,
+      "degree": 3,
+      "mode": "homogeneous",
+      "exponents": [
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "support_rows": 34,
+      "coefficient_positions": 68,
+      "certificate": {
+        "maximal_minors": [
+          {
+            "rows": [
+              0,
+              1
+            ],
+            "determinant": "1",
+            "selection_prime": 2
+          }
+        ],
+        "minor_gcd": 1,
+        "rank": 2
+      }
+    },
+    {
+      "parabolic": 1,
+      "degree": 3,
+      "mode": "filtered",
+      "exponents": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "support_rows": 37,
+      "coefficient_positions": 222,
+      "certificate": {
+        "maximal_minors": [
+          {
+            "rows": [
+              0,
+              1,
+              4,
+              7,
+              11,
+              18
+            ],
+            "determinant": "1",
+            "selection_prime": 2
+          }
+        ],
+        "minor_gcd": 1,
+        "rank": 6
+      }
+    },
+    {
+      "parabolic": 1,
+      "degree": 4,
+      "mode": "homogeneous",
+      "exponents": [
+        [
+          4,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "support_rows": 61,
+      "coefficient_positions": 183,
+      "certificate": {
+        "maximal_minors": [
+          {
+            "rows": [
+              0,
+              1,
+              3
+            ],
+            "determinant": "1",
+            "selection_prime": 2
+          }
+        ],
+        "minor_gcd": 1,
+        "rank": 3
+      }
+    },
+    {
+      "parabolic": 1,
+      "degree": 4,
+      "mode": "filtered",
+      "exponents": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "support_rows": 61,
+      "coefficient_positions": 549,
+      "certificate": {
+        "maximal_minors": [
+          {
+            "rows": [
+              0,
+              1,
+              3,
+              4,
+              7,
+              12,
+              16,
+              21,
+              30
+            ],
+            "determinant": "1",
+            "selection_prime": 2
+          }
+        ],
+        "minor_gcd": 1,
+        "rank": 9
+      }
+    },
+    {
+      "parabolic": 1,
+      "degree": 5,
+      "mode": "homogeneous",
+      "exponents": [
+        [
+          5,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "support_rows": 86,
+      "coefficient_positions": 258,
+      "certificate": {
+        "maximal_minors": [
+          {
+            "rows": [
+              0,
+              1,
+              3
+            ],
+            "determinant": "1",
+            "selection_prime": 2
+          }
+        ],
+        "minor_gcd": 1,
+        "rank": 3
+      }
+    },
+    {
+      "parabolic": 1,
+      "degree": 5,
+      "mode": "filtered",
+      "exponents": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "support_rows": 91,
+      "coefficient_positions": 1092,
+      "certificate": {
+        "maximal_minors": [
+          {
+            "rows": [
+              0,
+              1,
+              3,
+              4,
+              7,
+              11,
+              12,
+              17,
+              23,
+              28,
+              34,
+              45
+            ],
+            "determinant": "1",
+            "selection_prime": 2
+          }
+        ],
+        "minor_gcd": 1,
+        "rank": 12
+      }
+    },
+    {
+      "parabolic": 2,
+      "degree": 0,
+      "mode": "homogeneous",
+      "exponents": [
+        [
+          0,
+          0
+        ]
+      ],
+      "support_rows": 1,
+      "coefficient_positions": 1,
+      "certificate": {
+        "maximal_minors": [
+          {
+            "rows": [
+              0
+            ],
+            "determinant": "1",
+            "selection_prime": 2
+          }
+        ],
+        "minor_gcd": 1,
+        "rank": 1
+      }
+    },
+    {
+      "parabolic": 2,
+      "degree": 0,
+      "mode": "filtered",
+      "exponents": [
+        [
+          0,
+          0
+        ]
+      ],
+      "support_rows": 1,
+      "coefficient_positions": 1,
+      "certificate": {
+        "maximal_minors": [
+          {
+            "rows": [
+              0
+            ],
+            "determinant": "1",
+            "selection_prime": 2
+          }
+        ],
+        "minor_gcd": 1,
+        "rank": 1
+      }
+    },
+    {
+      "parabolic": 2,
+      "degree": 1,
+      "mode": "homogeneous",
+      "exponents": [
+        [
+          1,
+          0
+        ]
+      ],
+      "support_rows": 4,
+      "coefficient_positions": 4,
+      "certificate": {
+        "maximal_minors": [
+          {
+            "rows": [
+              0
+            ],
+            "determinant": "1",
+            "selection_prime": 2
+          }
+        ],
+        "minor_gcd": 1,
+        "rank": 1
+      }
+    },
+    {
+      "parabolic": 2,
+      "degree": 1,
+      "mode": "filtered",
+      "exponents": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "support_rows": 5,
+      "coefficient_positions": 10,
+      "certificate": {
+        "maximal_minors": [
+          {
+            "rows": [
+              0,
+              2
+            ],
+            "determinant": "1",
+            "selection_prime": 2
+          }
+        ],
+        "minor_gcd": 1,
+        "rank": 2
+      }
+    },
+    {
+      "parabolic": 2,
+      "degree": 2,
+      "mode": "homogeneous",
+      "exponents": [
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "support_rows": 19,
+      "coefficient_positions": 38,
+      "certificate": {
+        "maximal_minors": [
+          {
+            "rows": [
+              0,
+              3
+            ],
+            "determinant": "1",
+            "selection_prime": 2
+          }
+        ],
+        "minor_gcd": 1,
+        "rank": 2
+      }
+    },
+    {
+      "parabolic": 2,
+      "degree": 2,
+      "mode": "filtered",
+      "exponents": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "support_rows": 19,
+      "coefficient_positions": 76,
+      "certificate": {
+        "maximal_minors": [
+          {
+            "rows": [
+              0,
+              3,
+              6,
+              9
+            ],
+            "determinant": "1",
+            "selection_prime": 2
+          }
+        ],
+        "minor_gcd": 1,
+        "rank": 4
+      }
+    },
+    {
+      "parabolic": 2,
+      "degree": 3,
+      "mode": "homogeneous",
+      "exponents": [
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "support_rows": 26,
+      "coefficient_positions": 52,
+      "certificate": {
+        "maximal_minors": [
+          {
+            "rows": [
+              0,
+              4
+            ],
+            "determinant": "1",
+            "selection_prime": 2
+          }
+        ],
+        "minor_gcd": 1,
+        "rank": 2
+      }
+    },
+    {
+      "parabolic": 2,
+      "degree": 3,
+      "mode": "filtered",
+      "exponents": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "support_rows": 35,
+      "coefficient_positions": 210,
+      "certificate": {
+        "maximal_minors": [
+          {
+            "rows": [
+              0,
+              3,
+              5,
+              9,
+              13,
+              17
+            ],
+            "determinant": "1",
+            "selection_prime": 2
+          }
+        ],
+        "minor_gcd": 1,
+        "rank": 6
+      }
+    },
+    {
+      "parabolic": 2,
+      "degree": 4,
+      "mode": "homogeneous",
+      "exponents": [
+        [
+          4,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "support_rows": 61,
+      "coefficient_positions": 183,
+      "certificate": {
+        "maximal_minors": [
+          {
+            "rows": [
+              0,
+              3,
+              10
+            ],
+            "determinant": "1",
+            "selection_prime": 2
+          }
+        ],
+        "minor_gcd": 1,
+        "rank": 3
+      }
+    },
+    {
+      "parabolic": 2,
+      "degree": 4,
+      "mode": "filtered",
+      "exponents": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "support_rows": 61,
+      "coefficient_positions": 549,
+      "certificate": {
+        "maximal_minors": [
+          {
+            "rows": [
+              0,
+              3,
+              7,
+              10,
+              12,
+              15,
+              20,
+              25,
+              30
+            ],
+            "determinant": "1",
+            "selection_prime": 2
+          }
+        ],
+        "minor_gcd": 1,
+        "rank": 9
+      }
+    },
+    {
+      "parabolic": 2,
+      "degree": 5,
+      "mode": "homogeneous",
+      "exponents": [
+        [
+          5,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "support_rows": 80,
+      "coefficient_positions": 240,
+      "certificate": {
+        "maximal_minors": [
+          {
+            "rows": [
+              0,
+              4,
+              12
+            ],
+            "determinant": "1",
+            "selection_prime": 2
+          }
+        ],
+        "minor_gcd": 1,
+        "rank": 3
+      }
+    },
+    {
+      "parabolic": 2,
+      "degree": 5,
+      "mode": "filtered",
+      "exponents": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "support_rows": 89,
+      "coefficient_positions": 1068,
+      "certificate": {
+        "maximal_minors": [
+          {
+            "rows": [
+              0,
+              3,
+              5,
+              10,
+              14,
+              16,
+              20,
+              22,
+              26,
+              32,
+              38,
+              44
+            ],
+            "determinant": "1",
+            "selection_prime": 2
+          }
+        ],
+        "minor_gcd": 1,
+        "rank": 12
+      }
+    }
+  ],
+  "cases": [
+    {
+      "parabolic": 1,
+      "generators": [
+        "6*w1",
+        "12*w1*w2 - 4*w2^2"
+      ],
+      "degrees": [
+        {
+          "degree": 0,
+          "exponents": [
+            [
+              0,
+              0
+            ]
+          ],
+          "schubert_words": [
+            []
+          ],
+          "columns": [
+            [
+              1
+            ]
+          ],
+          "smith_factors": [
+            1
+          ],
+          "h_power_coefficients": [
+            1
+          ],
+          "comparisons": [
+            {
+              "form": "image_denominators_cleared",
+              "old_smith_factors": [
+                1
+              ],
+              "character_contained": true,
+              "old_mod_character_order": 1
+            },
+            {
+              "form": "individually_primitive_images",
+              "old_smith_factors": [
+                1
+              ],
+              "character_contained": true,
+              "old_mod_character_order": 1
+            }
+          ]
+        },
+        {
+          "degree": 1,
+          "exponents": [
+            [
+              1,
+              0
+            ]
+          ],
+          "schubert_words": [
+            [
+              1
+            ]
+          ],
+          "columns": [
+            [
+              6
+            ]
+          ],
+          "smith_factors": [
+            6
+          ],
+          "h_power_coefficients": [
+            1
+          ],
+          "comparisons": [
+            {
+              "form": "image_denominators_cleared",
+              "old_smith_factors": [
+                1
+              ],
+              "character_contained": true,
+              "old_mod_character_order": 6
+            },
+            {
+              "form": "individually_primitive_images",
+              "old_smith_factors": [
+                1
+              ],
+              "character_contained": true,
+              "old_mod_character_order": 6
+            }
+          ]
+        },
+        {
+          "degree": 2,
+          "exponents": [
+            [
+              2,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "schubert_words": [
+            [
+              2,
+              1
+            ]
+          ],
+          "columns": [
+            [
+              36
+            ],
+            [
+              12
+            ]
+          ],
+          "smith_factors": [
+            12
+          ],
+          "h_power_coefficients": [
+            1
+          ],
+          "comparisons": [
+            {
+              "form": "image_denominators_cleared",
+              "old_smith_factors": [
+                1
+              ],
+              "character_contained": true,
+              "old_mod_character_order": 12
+            },
+            {
+              "form": "individually_primitive_images",
+              "old_smith_factors": [
+                1
+              ],
+              "character_contained": true,
+              "old_mod_character_order": 12
+            }
+          ]
+        },
+        {
+          "degree": 3,
+          "exponents": [
+            [
+              3,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "schubert_words": [
+            [
+              1,
+              2,
+              1
+            ]
+          ],
+          "columns": [
+            [
+              432
+            ],
+            [
+              144
+            ]
+          ],
+          "smith_factors": [
+            144
+          ],
+          "h_power_coefficients": [
+            2
+          ],
+          "comparisons": [
+            {
+              "form": "image_denominators_cleared",
+              "old_smith_factors": [
+                2
+              ],
+              "character_contained": true,
+              "old_mod_character_order": 72
+            },
+            {
+              "form": "individually_primitive_images",
+              "old_smith_factors": [
+                2
+              ],
+              "character_contained": true,
+              "old_mod_character_order": 72
+            }
+          ]
+        },
+        {
+          "degree": 4,
+          "exponents": [
+            [
+              4,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "schubert_words": [
+            [
+              2,
+              1,
+              2,
+              1
+            ]
+          ],
+          "columns": [
+            [
+              2592
+            ],
+            [
+              864
+            ],
+            [
+              288
+            ]
+          ],
+          "smith_factors": [
+            288
+          ],
+          "h_power_coefficients": [
+            2
+          ],
+          "comparisons": [
+            {
+              "form": "image_denominators_cleared",
+              "old_smith_factors": [
+                2
+              ],
+              "character_contained": true,
+              "old_mod_character_order": 144
+            },
+            {
+              "form": "individually_primitive_images",
+              "old_smith_factors": [
+                2
+              ],
+              "character_contained": true,
+              "old_mod_character_order": 144
+            }
+          ]
+        },
+        {
+          "degree": 5,
+          "exponents": [
+            [
+              5,
+              0
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "schubert_words": [
+            [
+              1,
+              2,
+              1,
+              2,
+              1
+            ]
+          ],
+          "columns": [
+            [
+              15552
+            ],
+            [
+              5184
+            ],
+            [
+              1728
+            ]
+          ],
+          "smith_factors": [
+            1728
+          ],
+          "h_power_coefficients": [
+            2
+          ],
+          "comparisons": [
+            {
+              "form": "image_denominators_cleared",
+              "old_smith_factors": [
+                2
+              ],
+              "character_contained": true,
+              "old_mod_character_order": 864
+            },
+            {
+              "form": "individually_primitive_images",
+              "old_smith_factors": [
+                2
+              ],
+              "character_contained": true,
+              "old_mod_character_order": 864
+            }
+          ]
+        },
+        {
+          "degree": 6,
+          "exponents": [
+            [
+              6,
+              0
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              0,
+              3
+            ]
+          ],
+          "schubert_words": [],
+          "columns": [
+            [],
+            [],
+            [],
+            []
+          ],
+          "smith_factors": [],
+          "h_power_coefficients": [],
+          "comparisons": []
+        }
+      ]
+    },
+    {
+      "parabolic": 2,
+      "generators": [
+        "2*w2",
+        "-36*w1^2 + 36*w1*w2"
+      ],
+      "degrees": [
+        {
+          "degree": 0,
+          "exponents": [
+            [
+              0,
+              0
+            ]
+          ],
+          "schubert_words": [
+            []
+          ],
+          "columns": [
+            [
+              1
+            ]
+          ],
+          "smith_factors": [
+            1
+          ],
+          "h_power_coefficients": [
+            1
+          ],
+          "comparisons": [
+            {
+              "form": "image_denominators_cleared",
+              "old_smith_factors": [
+                1
+              ],
+              "character_contained": true,
+              "old_mod_character_order": 1
+            },
+            {
+              "form": "individually_primitive_images",
+              "old_smith_factors": [
+                1
+              ],
+              "character_contained": true,
+              "old_mod_character_order": 1
+            }
+          ]
+        },
+        {
+          "degree": 1,
+          "exponents": [
+            [
+              1,
+              0
+            ]
+          ],
+          "schubert_words": [
+            [
+              2
+            ]
+          ],
+          "columns": [
+            [
+              2
+            ]
+          ],
+          "smith_factors": [
+            2
+          ],
+          "h_power_coefficients": [
+            1
+          ],
+          "comparisons": [
+            {
+              "form": "image_denominators_cleared",
+              "old_smith_factors": [
+                1
+              ],
+              "character_contained": true,
+              "old_mod_character_order": 2
+            },
+            {
+              "form": "individually_primitive_images",
+              "old_smith_factors": [
+                1
+              ],
+              "character_contained": true,
+              "old_mod_character_order": 2
+            }
+          ]
+        },
+        {
+          "degree": 2,
+          "exponents": [
+            [
+              2,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "schubert_words": [
+            [
+              1,
+              2
+            ]
+          ],
+          "columns": [
+            [
+              12
+            ],
+            [
+              36
+            ]
+          ],
+          "smith_factors": [
+            12
+          ],
+          "h_power_coefficients": [
+            3
+          ],
+          "comparisons": [
+            {
+              "form": "image_denominators_cleared",
+              "old_smith_factors": [
+                1
+              ],
+              "character_contained": true,
+              "old_mod_character_order": 12
+            },
+            {
+              "form": "individually_primitive_images",
+              "old_smith_factors": [
+                1
+              ],
+              "character_contained": true,
+              "old_mod_character_order": 12
+            }
+          ]
+        },
+        {
+          "degree": 3,
+          "exponents": [
+            [
+              3,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "schubert_words": [
+            [
+              2,
+              1,
+              2
+            ]
+          ],
+          "columns": [
+            [
+              48
+            ],
+            [
+              144
+            ]
+          ],
+          "smith_factors": [
+            48
+          ],
+          "h_power_coefficients": [
+            6
+          ],
+          "comparisons": [
+            {
+              "form": "image_denominators_cleared",
+              "old_smith_factors": [
+                2
+              ],
+              "character_contained": true,
+              "old_mod_character_order": 24
+            },
+            {
+              "form": "individually_primitive_images",
+              "old_smith_factors": [
+                2
+              ],
+              "character_contained": true,
+              "old_mod_character_order": 24
+            }
+          ]
+        },
+        {
+          "degree": 4,
+          "exponents": [
+            [
+              4,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "schubert_words": [
+            [
+              1,
+              2,
+              1,
+              2
+            ]
+          ],
+          "columns": [
+            [
+              288
+            ],
+            [
+              864
+            ],
+            [
+              2592
+            ]
+          ],
+          "smith_factors": [
+            288
+          ],
+          "h_power_coefficients": [
+            18
+          ],
+          "comparisons": [
+            {
+              "form": "image_denominators_cleared",
+              "old_smith_factors": [
+                2
+              ],
+              "character_contained": true,
+              "old_mod_character_order": 144
+            },
+            {
+              "form": "individually_primitive_images",
+              "old_smith_factors": [
+                2
+              ],
+              "character_contained": true,
+              "old_mod_character_order": 144
+            }
+          ]
+        },
+        {
+          "degree": 5,
+          "exponents": [
+            [
+              5,
+              0
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "schubert_words": [
+            [
+              2,
+              1,
+              2,
+              1,
+              2
+            ]
+          ],
+          "columns": [
+            [
+              576
+            ],
+            [
+              1728
+            ],
+            [
+              5184
+            ]
+          ],
+          "smith_factors": [
+            576
+          ],
+          "h_power_coefficients": [
+            18
+          ],
+          "comparisons": [
+            {
+              "form": "image_denominators_cleared",
+              "old_smith_factors": [
+                2
+              ],
+              "character_contained": true,
+              "old_mod_character_order": 288
+            },
+            {
+              "form": "individually_primitive_images",
+              "old_smith_factors": [
+                2
+              ],
+              "character_contained": true,
+              "old_mod_character_order": 288
+            }
+          ]
+        },
+        {
+          "degree": 6,
+          "exponents": [
+            [
+              6,
+              0
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              0,
+              3
+            ]
+          ],
+          "schubert_words": [],
+          "columns": [
+            [],
+            [],
+            [],
+            []
+          ],
+          "smith_factors": [],
+          "h_power_coefficients": [],
+          "comparisons": []
+        }
+      ]
+    }
+  ],
+  "result": "passed",
+  "independent_chevalley_columns": 32,
+  "direct_laurent_lattices": 24,
+  "coefficient_positions": 4940,
+  "seconds": 0.843,
+  "source_hash_semantics": "SHA256 with CRLF normalized to LF.",
+  "source_sha256": {
+    "experiments/g2_character_form.py": "51008d5db45f2a80a81dd371d2207986ad57989202baa4b2497308ba5c34071f",
+    "experiments/e6_character_form.py": "80b2c60ea09a300aab0b152dac512934ab8b779ab09f23cb5efe8da249dfc1dd",
+    "experiments/exceptional-integral-results.json": "a0a8c282a26a9da03a46c9bfb755194fc2fbf71de90b700eec194b1e81e36c7f",
+    "tests/test_exceptional.py": "9f38f556e486149e303b84eaedb49a9de427602cd9ce3e86cb17ab62a1fc1e22",
+    "tests/test_characters.py": "665a434869b8fed3c1debd5c9c0f0749e81a064f3044a49fa47da33be8342347",
+    "src/sage_borel/__init__.py": "89a135ba87053c0d4bde35a3eb3e7568cda501411a17ddf0317f0f0a3888e753",
+    "src/sage_borel/algebra.py": "7fdf2deb8808961e1c3964c077fd4930e16e0ad8924144f3f2910726a8c46a4d",
+    "src/sage_borel/characters.py": "d3e34516ceebeb8d08100ec5e21e414328e135119eba2300cf1bd909917c19e3",
+    "src/sage_borel/classical.py": "745666cf40d86e0afd095e4139e7a66889b3c578fda743bde06969e15d7ae088",
+    "src/sage_borel/coinvariant.py": "76859a189bc4b20b8592adcca7250f8f7bde18738b3256c830d8bf0f938bf0d9",
+    "src/sage_borel/core.py": "c21a7b8893c5155efc71123264d698b7504dd89d8657b0612f57e0cb05118751",
+    "src/sage_borel/exceptional.py": "64ea1e3aeed113e517232cdaff6a09cc01a2c9b6a19fadd673e2630b5c01d1ec",
+    "src/sage_borel/expansion.py": "ecaf6a4439b8ff916dfc54716f9a3d1fc6bc03fbb17e8f30b08351480573cc46",
+    "src/sage_borel/families.py": "8d4a0cd068b800ea67ae38041f8ad6e576b88924ca0c83e81213ffd95694a34c",
+    "src/sage_borel/integral.py": "5e406be9f94d851821c3aff387eb1d1f81ef0172b94841ae0c3def7be6b465b4",
+    "src/sage_borel/inverse.py": "e7c222ff9454589e8cffd8fccf0b01f7663d21140c24a83aab99bc7b9879c380",
+    "src/sage_borel/lattices.py": "8fe8cf54e87e984cd728f219f453f68592aa589d849c41b152f03ebbb735f715",
+    "src/sage_borel/operations.py": "0429729152ddebd67d0034cdb5ef4953ed2091468168bd24f97ced4f2254b857",
+    "src/sage_borel/orthogonal.py": "4583d17ec943c639b021238d1af50769dd7b6502d60cb209e6523a00c3b0efd5",
+    "src/sage_borel/presentation.py": "0d28e847571a18b0a819a45b9df582f6a62138c309c5c4bf152c7331c6bbfff0",
+    "src/sage_borel/products.py": "f0cd691c717a65f0ca4f288acb4d359b1f3f352ce1efc8d161eb3f3d0bca780b"
+  }
+}

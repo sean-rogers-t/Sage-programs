@@ -1,0 +1,301 @@
+{
+  "library_version": "0.5.0",
+  "sage_version": "9.5",
+  "case": "C9/P8 single squared tail generator",
+  "input": "q=x9^2",
+  "backend": "coinvariant",
+  "result": "passed",
+  "expected_and_observed_kernel": "(q^9)",
+  "dimension": 9,
+  "source_generators": 1,
+  "schubert_images_computed": 0,
+  "schubert_basis_levels_generated": 0,
+  "timings_seconds": {
+    "library_import": 2.3280086289999815,
+    "map_and_generator_setup": 0.17971371499999123,
+    "presentation_including_quotient_setup_and_certificate": 0.06001587200000813,
+    "fresh_quotient_certificate_recheck": 0.01823074800000768,
+    "total_calculation_including_setup_and_recheck": 0.25796033500000703,
+    "script_including_imports_through_recheck": 2.5865078989999972
+  },
+  "timing_scope": "Fresh process and fresh map/algebra; no precomputed image or presentation caches. Interpreter startup before this script is excluded. Hardware-dependent single observation.",
+  "previous_observation": "The 0.4.0 BGG version exceeded a 45-second process limit during concurrent validation; that censored observation is not a precise speedup measurement.",
+  "presentation": {
+    "schema_version": 2,
+    "library_version": "0.5.0",
+    "backend": "coinvariant",
+    "cartan_type": "['C', 9]",
+    "omitted_nodes": [
+      8
+    ],
+    "generator_names": [
+      "q"
+    ],
+    "generator_degrees": [
+      2
+    ],
+    "cartan_variables": [
+      "w1",
+      "w2",
+      "w3",
+      "w4",
+      "w5",
+      "w6",
+      "w7",
+      "w8",
+      "w9"
+    ],
+    "generator_polynomials": [
+      {
+        "polynomial": "w8^2 - 2*w8*w9 + w9^2",
+        "terms": [
+          {
+            "exponents": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            "coefficient": "1"
+          },
+          {
+            "exponents": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1
+            ],
+            "coefficient": "-2"
+          },
+          {
+            "exponents": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0
+            ],
+            "coefficient": "1"
+          }
+        ]
+      }
+    ],
+    "term_order": "Degree reverse lexicographic term order",
+    "relations": [
+      {
+        "polynomial": "q^9",
+        "terms": [
+          {
+            "exponents": [
+              9
+            ],
+            "coefficient": "1"
+          }
+        ]
+      }
+    ],
+    "standard_monomials": [
+      {
+        "polynomial": "1",
+        "exponents": [
+          0
+        ]
+      },
+      {
+        "polynomial": "q",
+        "exponents": [
+          1
+        ]
+      },
+      {
+        "polynomial": "q^2",
+        "exponents": [
+          2
+        ]
+      },
+      {
+        "polynomial": "q^3",
+        "exponents": [
+          3
+        ]
+      },
+      {
+        "polynomial": "q^4",
+        "exponents": [
+          4
+        ]
+      },
+      {
+        "polynomial": "q^5",
+        "exponents": [
+          5
+        ]
+      },
+      {
+        "polynomial": "q^6",
+        "exponents": [
+          6
+        ]
+      },
+      {
+        "polynomial": "q^7",
+        "exponents": [
+          7
+        ]
+      },
+      {
+        "polynomial": "q^8",
+        "exponents": [
+          8
+        ]
+      }
+    ],
+    "dimension": 9,
+    "hilbert_coefficients": [
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1
+    ],
+    "hilbert_series": "t^16 + t^14 + t^12 + t^10 + t^8 + t^6 + t^4 + t^2 + 1",
+    "certificate": {
+      "certified": true,
+      "backend": "coinvariant",
+      "method": "exact coinvariant normal forms and finite monomial border closure",
+      "checks": {
+        "relation_images_zero": true,
+        "basis_images_independent": true,
+        "standard_monomials_reduced": true,
+        "border_closed": true,
+        "contains_unit": true,
+        "groebner_basis_reduced": true,
+        "summary_data_correct": true
+      },
+      "ambient_top_degree": 52,
+      "basis_degree_ranks": [
+        {
+          "degree": 0,
+          "rank": 1
+        },
+        {
+          "degree": 2,
+          "rank": 1
+        },
+        {
+          "degree": 4,
+          "rank": 1
+        },
+        {
+          "degree": 6,
+          "rank": 1
+        },
+        {
+          "degree": 8,
+          "rank": 1
+        },
+        {
+          "degree": 10,
+          "rank": 1
+        },
+        {
+          "degree": 12,
+          "rank": 1
+        },
+        {
+          "degree": 14,
+          "rank": 1
+        },
+        {
+          "degree": 16,
+          "rank": 1
+        }
+      ],
+      "checked_relations": 1,
+      "checked_basis_monomials": 9,
+      "checked_border_monomials": 1
+    }
+  },
+  "rechecked_certificate": {
+    "certified": true,
+    "backend": "coinvariant",
+    "method": "exact coinvariant normal forms and finite monomial border closure",
+    "checks": {
+      "relation_images_zero": true,
+      "basis_images_independent": true,
+      "standard_monomials_reduced": true,
+      "border_closed": true,
+      "contains_unit": true,
+      "groebner_basis_reduced": true,
+      "summary_data_correct": true
+    },
+    "ambient_top_degree": 52,
+    "basis_degree_ranks": [
+      {
+        "degree": 0,
+        "rank": 1
+      },
+      {
+        "degree": 2,
+        "rank": 1
+      },
+      {
+        "degree": 4,
+        "rank": 1
+      },
+      {
+        "degree": 6,
+        "rank": 1
+      },
+      {
+        "degree": 8,
+        "rank": 1
+      },
+      {
+        "degree": 10,
+        "rank": 1
+      },
+      {
+        "degree": 12,
+        "rank": 1
+      },
+      {
+        "degree": 14,
+        "rank": 1
+      },
+      {
+        "degree": 16,
+        "rank": 1
+      }
+    ],
+    "checked_relations": 1,
+    "checked_basis_monomials": 9,
+    "checked_border_monomials": 1
+  }
+}

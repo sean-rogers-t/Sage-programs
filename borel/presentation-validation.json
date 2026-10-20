@@ -1,0 +1,38 @@
+{
+  "library_version": "0.4.0",
+  "sage_version": "9.5",
+  "full_regression": {
+    "command": "PYTHONPATH=src BOREL_PRESENTATION_REPORT=presentation-verification.json sage -python -m unittest discover -s tests -v",
+    "result": "passed",
+    "test_methods": 39,
+    "seconds": 73.483
+  },
+  "independent_kernel_suite": "presentation-verification.json",
+  "exact_examples": {
+    "command": "PYTHONPATH=src sage -python examples/kernel_presentations.py --output presentation-examples.json",
+    "result": "passed",
+    "cases": 6,
+    "record": "presentation-examples.json"
+  },
+  "wheel": {
+    "filename": "sage_borel-0.4.0-py3-none-any.whl",
+    "bytes": 40399,
+    "sha256": "b9e20a87684b66d9cccbbf590c7f86261f030fcf33081d6d083f14f50027423b",
+    "isolated_sage_target_install": "passed",
+    "installed_wheel_examples": 6
+  },
+  "historical_programs": {
+    "command": "python verify_legacy.py --checkout-bytes",
+    "result": "passed",
+    "unchanged_files": 35
+  },
+  "exploratory_performance_limit": {
+    "cartan_type": "C9",
+    "omitted_nodes": [8],
+    "selected_generator": "q=x9^2",
+    "process_limit_seconds": 45,
+    "status": "timeout; no completed presentation recorded",
+    "concurrent_validation": true,
+    "note": "Small image dimension does not guarantee small Schubert supports. This is not a completed timing benchmark."
+  }
+}

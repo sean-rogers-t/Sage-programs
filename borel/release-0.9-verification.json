@@ -1,0 +1,55 @@
+{
+  "library_version": "0.9.0",
+  "full_regression": {
+    "command": "PYTHONPATH=src sage -python -m unittest discover -s tests -v",
+    "passed": true,
+    "test_methods": 94,
+    "seconds": 68.099,
+    "sage_version": "9.5"
+  },
+  "generated_utc": "2026-10-19T23:51:25.492122+00:00",
+  "lattice_comparison_checks": {
+    "test_methods": 8,
+    "skew_lattice_pairs": 16,
+    "integer_points_checked": 1296,
+    "independent_methods": [
+      "explicit congruences",
+      "gcds of minors",
+      "determinant index identity",
+      "Bezout and least common multiple",
+      "proper subspaces and free/torsion quotients"
+    ]
+  },
+  "two_step_experiment": {
+    "report": "two-step-integral-results.json",
+    "passed": true,
+    "cases": 8,
+    "degree_rows": 96,
+    "independent_cartesian_bgg_matrices": 111,
+    "independent_cartesian_bgg_columns": 166,
+    "seconds": 31.035
+  },
+  "documentation": {
+    "passed": true,
+    "documents": 41,
+    "python_blocks": 24,
+    "links_and_anchors": 507
+  },
+  "wheel": {
+    "filename": "sage_borel-0.9.0-py3-none-any.whl",
+    "bytes": 64507,
+    "sha256": "9840c9c9e1c17378e87b5c9504ea8d368f09be66ca12ba7773e85bf66aeeb48b",
+    "build_passed": true,
+    "all_python_modules_match_source": true,
+    "catalogue_included": true,
+    "isolated_sage_installation_examples_passed": true
+  },
+  "historical_programs_preserved": 35,
+  "source_sha256": {
+    "src/sage_borel/lattices.py": "8fe8cf54e87e984cd728f219f453f68592aa589d849c41b152f03ebbb735f715",
+    "src/sage_borel/integral.py": "5e406be9f94d851821c3aff387eb1d1f81ef0172b94841ae0c3def7be6b465b4",
+    "tests/test_lattices.py": "267df6f167d1d0025618a25299bd1ab2656b3b034f7912e92fbde5a92c83535c",
+    "experiments/two_step_integral_images.py": "2053a943b992561368724a1744da610c4a8de7a5b013a8a19b67c4351c02e216"
+  },
+  "scope": "Exact integer-lattice API and finite joint-image experiments. No arbitrary-rank joint-image theorem or originality claim."
+}

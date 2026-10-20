@@ -1,0 +1,646 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[margin=0.9in,headheight=14pt]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb,mathtools}
+\usepackage{microtype,xcolor,booktabs,array,enumitem,fancyhdr}
+\usepackage[colorlinks=true,linkcolor=navy,citecolor=navy,urlcolor=navy]{hyperref}
+\definecolor{navy}{RGB}{27,52,80}
+\definecolor{teal}{RGB}{20,92,89}
+\definecolor{wine}{RGB}{128,39,56}
+\hypersetup{pdftitle={Integral images of Springer--Borel maps: relation to Parts II and III},
+pdfauthor={Discussion note prepared for Shrawan Kumar},
+pdfsubject={Audited general type B Smith formula, published inputs, and remaining type D questions}}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small Integral Springer--Borel images}
+\fancyhead[R]{\small Discussion note}
+\fancyfoot[C]{\small\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt plus 1pt}
+\setlist[itemize]{leftmargin=1.5em,itemsep=3pt,topsep=3pt}
+\setlist[enumerate]{leftmargin=1.7em,itemsep=3pt,topsep=3pt}
+\setlength{\emergencystretch}{2em}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\C}{\mathbb C}
+\newcommand{\F}{\mathbb F}
+\newcommand{\OG}{\operatorname{OG}}
+\newcommand{\IG}{\operatorname{IG}}
+\newcommand{\Gr}{\operatorname{Gr}}
+\newcommand{\sat}{\operatorname{sat}}
+\newcommand{\rank}{\operatorname{rank}}
+\newcommand{\Smith}{\operatorname{Smith}}
+\newcommand{\qbinom}[2]{\genfrac{[}{]}{0pt}{}{#1}{#2}_q}
+\newcommand{\published}{\textcolor{navy}{\textbf{Published result/input.}}\ }
+\newcommand{\deduction}{\textcolor{teal}{\textbf{Deduction in the companion notes.}}\ }
+\newcommand{\conjectural}{\textcolor{wine}{\textbf{Conjecture.}}\ }
+\title{\vspace{-1.5em}\textcolor{navy}{Integral images of Springer--Borel maps}\\[4pt]
+\large Connection with Parts II and III}
+\author{Discussion note prepared for Shrawan Kumar}
+\date{19 October 2026}
+
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+\vspace{-1.0em}
+
+\textbf{Purpose and status.}
+This note summarizes an integral refinement of the maps studied in
+Kumar--Rogers, Part II \cite{KR}, and Kumar--Xie, Part III \cite{KX}.
+It separates published statements, deductions whose arguments are recorded
+and checked in the companion repository, and unproved conjectures.
+The general normalized type-B formula now has a complete argument in the
+companion notes, freshly audited here and written out below.
+No gap was found in that review, including the earlier integral reduction.
+This is an unpublished repository deduction; external expert review and
+originality remain unestablished.
+
+\section{The published starting point}
+\published Part II gives the classical symplectic and odd-orthogonal
+generator images and stable injectivity: Theorem 16 for C and Theorem 29
+for B. Part III gives the even-orthogonal generator images, its stable
+integral presentation, and stable injectivity, especially Theorems 3.6 and
+3.8 and Proposition 3.7. The injectivity theorems are stated over \(\C\);
+their proofs explicitly use chosen integral forms.
+
+Use the normalized torus coordinates
+\(\bar t_j=(t_j-t_j^{-1})/2\), corresponding to \(x_j\) under the
+Springer--Borel map. Put \(c_i=c_i(Q)\), where \(Q\) is the tautological
+quotient bundle on the relevant isotropic Grassmannian, with \(c_0=1\)
+and \(c_i=0\) outside its rank. The squared-tail generator image is
+\[
+ e_i(\bar t_{\rm tail}^{\,2})
+ \longmapsto c_i^2+
+ 2\sum_{j=1}^{i}(-1)^j c_{i+j}c_{i-j}.
+ \tag{1}
+\]
+The integral theta/eta presentations and B/C Schubert comparison used
+below are existing Schubert calculus \cite{BKTIG,BKTD}.
+
+\section{The additional integral question}
+Write \(n=a+k\). On
+\(X_B=\OG(a,2n+1)\) use
+\(q_i=e_i(x_{a+1}^2,\ldots,x_n^2)\), \(1\le i\le k\).
+On \(X_D=\OG(a,2n)\) use \(q_1,\ldots,q_{k-1}\) and
+\(p=x_{a+1}\cdots x_n\), with \(p^2=q_k\).
+Take \(a,k\ge1\) in B and \(a\ge1,k\ge2\) in D.
+
+Polynomial degree \(d\) means cohomological degree \(2d\);
+\(\deg q_i=2i\) and \(\deg p=k\).
+Let \(L_d\subset H^{2d}(X;\Z)\) be the integer span of all degree-\(d\)
+monomials in these fixed inputs after applying the Borel map. The object
+to determine is
+\[
+ \sat(L_d)/L_d,\qquad
+ \sat(L_d)=(L_d\otimes\Q)\cap H^{2d}(X;\Z).
+ \tag{2}
+\]
+We retain every nonzero Smith factor of \(L_d\hookrightarrow\sat(L_d)\),
+including \(1\): this means the finite group (2) together with \(\rank L_d\).
+The index is in the selected rational image, whose rank can be smaller
+than ambient cohomology. Injectivity alone does not imply saturation.
+
+
+\newpage
+\section{The general normalized type-B result}
+Put
+\[
+ \ell=\min(a,k),\quad A=\max(a,k),\quad
+ r=\lfloor n/2\rfloor,\quad c=\lceil n/2\rceil,\quad
+ \epsilon=c-r\in\{0,1\}.
+\]
+Let \(M_e(m)\) count nonzero factors \(2^e\) in polynomial degree \(2m\),
+equivalently cohomological degree \(4m\).
+The variable \(q\) counts \(m\), not the generator \(q_i\).
+Write \(G(v,u)=\qbinom{v}{u}\), zero outside \(0\le u\le v\).
+Define \(U_{0,0}=1\) and
+\[
+ U_{n,L}(q)=
+ \sum_{j=0}^{\lfloor L/2\rfloor}
+ q^{j(c-L+j)}G(r,j)G(c-j,L-2j).
+ \tag{3}
+\]
+
+\deduction For the fixed normalized inputs of Section 2,
+\[
+ \boxed{\quad
+ \sum_m M_e(m)q^m
+ =q^{ec}G(r,e)\,U_{n-2e,\ell-e}(q),
+ \qquad 0\le e\le\ell .
+ \quad} \tag{4}
+\]
+Recompute \(r,c\) inside \(U\) at its displayed arguments.
+There is no image in odd polynomial degree.
+All nonzero factors are powers of two, bounded by \(2^\ell\).
+The formula determines their multiplicities in every rank and degree.
+
+Here is an equivalent partition rule. For
+\(\gamma\subseteq A^\ell\), pad to \(\ell\) parts and put
+\[
+ \beta_i=\gamma_i+\ell-i,\qquad
+ d(\gamma)=\#\{i:\beta_i<r\},\qquad
+ e(\gamma)=\#\{i:\beta_i\ge c+d(\gamma)\}.
+ \tag{5}
+\]
+In degree \(2m\), the Smith multiset is
+\(\{2^{e(\gamma)}:|\gamma|=m,\ \gamma\subseteq A^\ell\}\).
+This labels multiplicities; it does not assert that the original Schur
+generators are individually Smith vectors.
+
+\paragraph{Examples and endpoints.}
+For \(a=k=2\) in polynomial degree \(4\), the factors are \((1,2)\).
+For \(a=k=4\), the counts over all degrees are \(19,28,18,4,1\)
+for factors \(1,2,4,8,16\), totaling \(\binom84=70\).
+The two endpoints of (4) are
+\[
+ \sum_m M_0(m)q^m=U_{n,\ell}(q),\qquad
+ \sum_m M_\ell(m)q^m=q^{\ell c}G(r,\ell).
+ \tag{6}
+\]
+
+\paragraph{Connection to the papers.}
+Parts II and III determine the maps and prove stable complex injectivity.
+Formula (4) addresses additional finite integral information: the index
+of the selected image in its saturation, degree by degree.
+The companion notes also deduce stable normalized saturation in B and D,
+and sufficient finite saturation ranges \(d\le A\) in B and \(d\le a\)
+in D. These integral conclusions are not attributed to the papers as
+published Smith theorems.
+
+\newpage
+\section{The integral reduction to Schur prefixes}
+We give the argument for (4). The full source and dependency audit are
+linked in \cite{Repo}. By integral block duality put the smaller block
+at the head. In polynomial degree \(2m\), use the source basis
+\(s_\lambda(y_1^2,\ldots,y_\ell^2)\), with
+\(\lambda\subseteq A^\ell\), \(|\lambda|=m\).
+Inversion of the two squared elementary series and Schur transposition
+give this integral change from the tail generators.
+
+\published The Chern-preserving B/C Schubert comparison
+\cite{BKTIG} gives coefficient matrices
+\[
+ B_{w,\lambda}=2^{\nu(w)}C_{w,\lambda},\qquad
+ \nu(w)=\#\{\text{negative signed entries}\}.
+ \tag{7}
+\]
+
+\deduction The selected C image is primitive, by the integral quaternionic Schur
+basis and the isotropic-to-quaternionic fibration \cite{PR}.
+Thus its full row lattice in these source coordinates is \(\Z^R\).
+
+Identify that coefficient lattice with degree \(m\) in
+\[
+ R_{A,\ell}=\Z[e_1,\ldots,e_\ell]/
+             (h_{A+1},\ldots,h_{A+\ell})
+\]
+by the rectangle Schur basis, and write
+\(P_t=\operatorname{span}_{\Z}\{C_{w,\bullet}:\nu(w)\le t\}\);
+\(P_{-1}=0\), \(P_\ell=R_{A,\ell}\).
+This identifies coefficient rows, not cohomological degrees of the
+original characteristic map.
+
+\deduction The integral prefix reduction is
+\[
+ P_t=\operatorname{span}_{\Z}\{s_\mu s_\alpha s_\beta\},\quad
+ \begin{cases}
+ \mu\subseteq A^t,\\
+ \alpha\subseteq(c-p)^p,\\
+ \beta\subseteq(r-s)^s,
+ \end{cases}
+ \quad
+ b=\ell-t,\ p=\lceil b/2\rceil,\ s=\lfloor b/2\rfloor .
+ \tag{8}
+\]
+Products are in \(R_{A,\ell}\), of the degree under consideration.
+
+Here are the integral points in that reduction. The cells with
+\(\nu\le t\) form the closed locus
+\(\dim(\Sigma\cap L_0)\ge b\) in \(\IG(\ell,2n)\).
+Choosing a \(b\)-plane in this intersection resolves the locus.
+Root-group coordinates supply a section over every Schubert cell;
+the graph closure lifts its closure with degree one.
+Hence cohomology pullback is primitive over \(\Z\).
+
+The resolution maps to a topological quaternionic Grassmann bundle
+\(Q\to\Gr(b,n)\); the map to \(Q\) has Lagrangian fiber.
+Global quaternionic characteristic classes give an integral
+Leray--Hirsch basis for \(Q\) over \(\Gr(b,n)\) \cite{PR}.
+The algebraic relative analogue is \cite{PW}.
+The even integral Serre spectral sequence makes pullback from \(Q\)
+primitive.
+Branching and Littlewood's two-quotient identity \cite{Wildon}
+give (8): empty 2-core beta numbers in \(\{0,\ldots,n-1\}\)
+have \(p,s\) beads on the two runners, giving exactly those rectangles.
+Both primitive pullbacks have integral left inverses, preserving entire
+row lattices. The fiber width is \(A\); no hidden Schur reduction occurs.
+
+If all \(P_t\) are primitive, an adapted integral basis gives
+multiplicity \(\rank P_t-\rank P_{t-1}\) for \(2^t\), since the
+weighted row lattice in (7) is \(\sum_t2^tP_t\).
+The rest of the proof establishes precisely that hypothesis and its ranks.
+
+\newpage
+\section{A geometric rank bound}
+Let \(N:V\to V\), \(V=\C^n\), be square zero of maximal rank \(r\).
+Put \(I=\operatorname{im}N\), \(K=\ker N\), of dimensions \(r,c\), and
+\[
+ W_t=\{U\in\Gr(\ell,V):
+              \delta(U):=\rank(N:U\to V/U)\le t\}.
+\]
+This is a projective determinantal locus.
+For the stratum of defect \(e\), put
+\(D=NU\), \(B=U\cap K\), \(C=D\cap B\), \(j=\dim C\).
+Then \(\dim D=e+j\) and \(\dim B=\ell-e-j\).
+Choose successively
+\[
+ \begin{gathered}
+ D\in\Gr(e+j,r),\qquad C\in\Gr(j,D),\\
+ (B/C)\bmod D\in\Gr(\ell-e-2j,K/D).
+ \end{gathered}
+\]
+The two graph lifts have dimensions \(e(\ell-e-2j)\) and
+\((e+j)(c-\ell+e+j)\). Their sum is \(ec+j(c-\ell+j)\).
+Therefore the compact-support even Betti polynomial of this stratum is
+\[
+ \begin{aligned}
+ E_e^{\rm geom}(q)
+ &=\sum_j q^{ec+j(c-\ell+j)}
+       G(r,e+j)G(e+j,j)G(c-e-j,\ell-e-2j)\\
+ &=q^{ec}G(r,e)\,U_{n-2e,\ell-e}(q).
+ \end{aligned} \tag{9}
+\]
+Terms with impossible dimensions are zero.
+Filter first by defect, then by \(\rank(N|_U)=e+j\);
+these are closed rank loci in the successive strata.
+Grassmann cell refinements and the affine lifts give free even integral
+homology, generated by algebraic cycle closures.
+The projectivity of \(W_t\) gives
+\[
+ \sum_m\rank H^{2m}(W_t;\Z)q^m=\sum_{e=0}^t E_e^{\rm geom}(q).
+ \tag{10}
+\]
+
+For \(b,p,s\) as in (8), take the smooth projective iterated
+Grassmann bundle
+\[
+ Y_{\rm bal}=\{(F,S,U):
+ F\subset I,\ \dim F=s;\
+ F\subset S\subset N^{-1}F,\ \dim S=b;\
+ S\subset U,\ \dim U=\ell\}.
+ \tag{11}
+\]
+Over \(\Gr(s,r)\), \(E=N^{-1}F/F\) has rank \(c\) and
+\(c(E)=1\), since \(0\to K/F\to E\to F\to0\).
+The next two fibers are \(\Gr(p,E)\) and
+\(\Gr(t,V/S)\), of widths \(c-p\) and \(A\).
+Schur branching gives exactly the rows (8).
+Since \(S\) is invariant, the forgetful map factors through \(W_t\).
+Consequently
+\[
+ \rank P_t(m)\le\rank H^{2m}(W_t;\Z).
+ \tag{12}
+\]
+This uses factorization of pullback, without assuming ambient Chern
+generation or surjectivity of restriction to \(W_t\).
+
+\newpage
+\section{The integral bridge: a Chow envelope}
+The proper map \(f:Y_{\rm bal}\to W_t\) has degree-one lifts of
+every irreducible subvariety, not just lifts of complex points.
+
+Indeed the following construction works over every extension field of
+\(\C\). For \(U\in W_t\), the invariant space
+\(U\cap N^{-1}U\) has dimension at least \(b\).
+A square-zero Jordan basis chooses an invariant \(b\)-plane \(S\)
+inside it, over the same field.
+Writing \(j=\rank N|_S\le s\), we have
+\[
+ \dim(S\cap I)\ge\max(j,b-j-\epsilon)\ge s.
+\]
+For the last inequality use the first term if \(j=s\);
+otherwise \(b-j-\epsilon\ge b-s\ge s\).
+As \(NS\subset S\cap I\), choose \(NS\subset F\subset S\cap I\)
+of dimension \(s\). This supplies a point of (11) above \(U\).
+
+Apply this at the function field of an irreducible
+\(Z\subset W_t\). Closing the graph of its rational lift gives a
+subvariety of \(Y_{\rm bal}\) birational onto \(Z\).
+Thus \(f\) is a Chow envelope:
+\[
+ f_*:\operatorname{CH}_*(Y_{\rm bal})
+       \twoheadrightarrow\operatorname{CH}_*(W_t)
+ \quad\hbox{over }\Z .
+ \tag{13}
+\]
+The same cycle-lifting and the free even homology in Section 5 also make
+\(f^*\) a primitive cohomology injection. Only (13) is needed for
+the following integral containment.
+
+\paragraph{Unbalanced incidence rows.}
+For every \(0\le j\le b\), define \(Y_j\) by (11) with
+\(\dim F=b-j\) and \(\dim S/F=j\).
+All dimensions are permitted because \(b\le\ell\le r\).
+The map \(g_j:Y_j\to W_t\) has coefficient rows
+\[
+ s_\mu s_\alpha s_\beta,\qquad
+ \mu\subseteq A^t,\quad
+ \alpha\subseteq(c-j)^j,\quad
+ \beta\subseteq(r-b+j)^{b-j}.
+ \tag{14}
+\]
+Out-of-width middle classes vanish because \(c(E)=1\).
+The top factors already fit width \(A\), being subpartitions of the
+source partition. Thus branching introduces no omitted bundle terms.
+
+Every row in (14) belongs to \(P_t\) over \(\Z\).
+In degree \(2m\), choose an integral cycle
+\(D\in\operatorname{CH}_m(Y_j)\) dual to the relevant cohomology basis
+element. Such cycles exist by the integral Grassmann-bundle formula
+and perfect intersection pairing on the smooth \(Y_j\).
+Lift \((g_j)_*D\) through (13). The proper projection formula expresses
+its pairings with ambient Schur classes as an integer combination of
+the balanced rows (8).
+The target \(W_t\) may be singular: the argument uses Chow cycles and
+ambient Chern classes acting on them, so needs no cohomological
+pushforward on \(W_t\).
+This is the step that upgrades the calculation from rational ranks to
+an integral lattice comparison.
+
+\newpage
+\section{Primitive pivots and the bead criterion}
+The complete-symmetric products \(h_\gamma\),
+\(\gamma\subseteq A^\ell\), form an integral basis of \(R_{A,\ell}\).
+Kostka/Jacobi--Trudi triangularity gives this change of basis;
+\(h_i=0\) for \(i>A\).
+The same bounded change lets us replace \(s_\mu\) by \(h_\mu\)
+in (14).
+
+For \(0\le j\le\lfloor(b+\epsilon)/2\rfloor\), put
+\[
+ \Delta_j=((c-j)^j,(r-b+j)^{b-j}),\qquad
+ \mathcal K_t=\bigcup_j\{\gamma:\gamma\subseteq(A^t,\Delta_j)\}.
+ \tag{15}
+\]
+The corners are weakly decreasing and fit \(A^\ell\).
+For \(b=0\), take \(\mathcal K_\ell=A^\ell\).
+Given a pivot \(\gamma\), choose a corner, split its parts into
+blocks \(\mu,\alpha,\beta\) of lengths \(t,j,b-j\), and use the
+integral row \(v_\gamma=h_\mu s_\alpha s_\beta\) from (14).
+
+Its coefficient on \(h_\gamma\) is one.
+Every other surviving complete coordinate has strictly larger energy
+\(\sum_i\gamma_i^2\). For example, a nonidentity Jacobi--Trudi
+permutation changes the \(\alpha\) block's energy by
+\[
+ 2\sum_i\alpha_i(\sigma(i)-i)
+       +\sum_i(\sigma(i)-i)^2>0.
+ \tag{16}
+\]
+The first sum is nonnegative by rearrangement and the second positive.
+Energies add between the two blocks; invalid indices vanish.
+Order by energy and project these rows onto the columns \(\mathcal K_t\).
+The square minor is triangular with diagonal one.
+Their span \(Q_t(m)\subseteq P_t(m)\) is therefore primitive, of rank
+\(\#\{\gamma\in\mathcal K_t:|\gamma|=m\}\).
+
+\paragraph{Exact membership.}
+For the beta numbers and statistic (5),
+\[
+ \gamma\in\mathcal K_t\quad\Longleftrightarrow\quad e(\gamma)\le t.
+ \tag{17}
+\]
+Here is the boundary-sensitive argument. If \(b=0\), it is automatic.
+Otherwise put \(d=\#\{\beta_i<r\}\) and \(J=\ell-d\).
+If \(J\le t\), all bottom \(b\) beads are below \(r\);
+the \(j=0\) corner works, and \(e(\gamma)\le J\le t\).
+If \(J>t\), those bottom beads have \(j_0=J-t=b-d>0\) entries
+at least \(r\). The nonempty corner bounds are
+\[
+ J\le t+j,\qquad \beta_{t+1}\le c+b-j-1.
+\]
+Any permissible corner has \(j\ge j_0\), hence
+\(\beta_{t+1}<c+d\), equivalent to \(e(\gamma)\le t\).
+Conversely that inequality puts its \(j_0\) high beads in
+\([r,c+d-1]\), of length \(d+\epsilon=b-j_0+\epsilon\).
+Thus \(2j_0\le b+\epsilon\), and the corner \(j_0\) works.
+This includes an empty middle interval and \(b=1\).
+
+\newpage
+\section{Weighted counting and the integral conclusion}
+For partitions of exact statistic \(e\), choose \(d\) beads below \(r\),
+\(j=\ell-d-e\) beads in \([r,c+d-1]\), and \(e\) above that interval.
+Weighted subset counting contributes
+\(G(r,d)G(d+\epsilon,j)G(r-d,e)\).
+Since \(|\gamma|=\sum_i\beta_i-\ell(\ell-1)/2\), its minimum-degree
+shift is \(ec+j(r-\ell+j)\).
+Set \(R=r-e\), \(L=\ell-e\); the flag identity yields
+\[
+ \sum_{\gamma:e(\gamma)=e}q^{|\gamma|}
+ =q^{ec}G(r,e)
+   \sum_{j\ge0}q^{j(R-L+j)}
+             G(R,L-j)G(L-j+\epsilon,j).
+ \tag{18}
+\]
+For \(\epsilon=0\), the inner product becomes
+\(G(R,j)G(R-j,L-2j)\), so the inner sum is \(U_{2R,L}\).
+For \(\epsilon=1\), use
+\[
+ G(L-j+1,j)=G(L-j,j-1)+q^jG(L-j,j).
+\]
+Shift \(j=s+1\) in the first term, apply the same flag identity,
+and combine with the second using
+\[
+ G(R+1-s,L-2s)=G(R-s,L-2s)
+       +q^{R+1-L+s}G(R-s,L-2s-1).
+\]
+This gives \(U_{2R+1,L}\). Thus (18) is exactly (4).
+
+Summing over \(e\le t\), the pivot count equals the Betti polynomial
+(10). The primitive lattice and rank bound give, degree by degree,
+\[
+ Q_t(m)\subseteq P_t(m)\subseteq R_{A,\ell}(m),\qquad
+ \rank Q_t(m)=\rank P_t(m)=\rank H^{2m}(W_t;\Z).
+\]
+A primitive sublattice contains every integral point of its rational
+span. Hence \(P_t(m)=Q_t(m)\): all prefixes are primitive.
+The adapted-basis lemma after (8) now proves (4) in every rank.
+
+\paragraph{A consequence, not a circular hypothesis.}
+Restriction \(H^*(\Gr(\ell,n);\Z)\to H^*(W_t;\Z)\) is surjective.
+Indeed the incidence pullback is primitive, and the composite has
+primitive image of the full Betti rank.
+Transposition preserves Smith invariants, so the primitive coefficient
+row lattice gives the required primitive image as well.
+Chern generation is obtained after the lattice comparison.
+
+\paragraph{Checks and audit outcome.}
+The fresh review included the earlier prefix reduction, both primitive
+pullbacks, function-field cycle lifts, bundle truncations, energy minor,
+both parity identities, and endpoint cases. No gap was found.
+Existing exact records check 585,243 corner/bead comparisons in 72
+parameter cases and 21 fresh integer LR module comparisons through
+\(\ell=8\); independent graph proofs also cover the three highest
+layers. A fresh pure-Python checker independently passed 16,200,912
+corner comparisons on 1,430,949 partitions in nine larger cases,
+\(n=14,\ldots,22\), \(\ell=7,\ldots,11\), with 88 exact weighted
+polynomial comparisons. Earlier records check 174 Smith lists,
+430 prefix ranks, and 516 integer row-module equalities.
+These corroborate transcription and implementation; the unrestricted
+proof is the argument above.
+No external expert review or formal proof certificate is claimed.
+
+\newpage
+\section{Published formulas and the remaining type-D problem}
+\published The polynomial \(U\) in (3) is classical Birkhoff/Hall
+enumeration \cite{Birkhoff,Sage}, also counting invariant subspaces of
+a maximal-rank square-zero map.
+More general operator-profile counts are already covered by Ram
+\cite{Ram}. For \(N^2=0\), defect \(e\) is profile \((\ell,e)\).
+Counting those objects alone does not prove the Smith assertion.
+
+There is also a published complex representation-theoretic match.
+Chari--Schneider--Shereen--Wand \cite{CSSW},
+Theorem 3.3(ii)--(iii), give
+\[
+ [W_{\rm loc}(n\omega):D(2,(n-2e)\omega)]_q=q^{ec}G(r,e).
+\]
+Their character identity gives \(U_{n-2e,\ell-e}\) for the weight
+\(n-2\ell\) subspace of the remaining Demazure module.
+Thus the expression in (4) already has a character interpretation.
+That work is over \(\C\); identifying this polynomial with the
+integral Springer-image layers requires the additional comparison in
+Sections 4--8. We make no originality claim for that identification.
+
+\paragraph{Relation to the Euler generator in Part III.}
+\deduction The Euler sector generated by \(p f(q)\) on
+\(\OG(a,2n)\), for \(a\ge2\), has the Smith factors of the normalized B
+image on \(\OG(a-1,2n-1)\), shifted by polynomial degree \(k\).
+This uses the explicit integral difference basis in BKT
+Proposition 2 \cite{BKTD}. Formula (4) now determines those sector
+multiplicities in every rank.
+
+The full D image needs further gluing data. A swapped pair of typed
+Schubert classes has sum and difference of index two.
+The companion two-flag lattice lemma gives, for a paired
+sector-exponent pair \((i,j)\), exponents
+\[
+ \bigl(\min(i,j),\ \max(i,j)+1\bigr).
+ \tag{19}
+\]
+Relative flags over \(\F_2\) determine the pairing.
+The two sector Smith lists alone do not determine it.
+\conjectural The general D square-sector equality with B remains
+unproved here. A complete type-D partition classification remains open
+in these notes; the new B argument does not settle that gluing problem.
+
+\paragraph{Literal character forms.}
+The chosen normalized forms are those used in the proofs of Parts II
+and III. For the defining/vector SO/Sp character forms in Part I
+\cite{K}, a degree-\(d\) image is \(2^d\) times its normalized
+counterpart. Every nonzero factor is therefore multiplied by \(2^d\);
+in B degree \(2m\), \(2^e\) becomes \(2^{2m+e}\).
+This statement does not automatically extend to a Spin character lattice.
+
+The complete general proof, fresh dependency audit, and exact reports
+are linked in \cite{Repo}. The unresolved D statements and literature
+limits remain labeled separately from the proved B deduction.
+
+\newpage
+\renewcommand{\refname}{References and companion material}
+{\small
+\setlength{\parskip}{2pt}
+\begin{thebibliography}{BKT-IG}
+\bibitem[KR20]{KR}
+S. Kumar and S. Rogers,
+\emph{Representation ring of Levi subgroups versus cohomology ring of flag
+varieties II}, J. Algebra \textbf{556} (2020), 340--362.
+Theorems 16 and 29; integral form in the proof of Theorem 16, p.~353.
+\href{https://kumar.math.unc.edu/papers/kumar81.pdf}{Author PDF};
+\href{https://doi.org/10.1016/j.jalgebra.2020.02.029}{DOI}.
+
+\bibitem[KX24]{KX}
+S. Kumar and J. Xie,
+\emph{Representation ring of Levi subgroups versus cohomology ring of flag
+varieties III}, J. Pure Appl. Algebra \textbf{228} (2024), 107539.
+Theorem 3.6, Proposition 3.7, Theorem 3.8, equations (28)--(33).
+\href{https://kumar.math.unc.edu/papers/kumar86.pdf}{Author PDF}.
+
+\bibitem[K16]{K}
+S. Kumar,
+\emph{Representation ring of Levi subgroups versus cohomology ring of flag
+varieties}, Math. Ann. \textbf{366} (2016), 395--415.
+Proposition 12(b), Lemma 15(a), equation (15).
+\href{https://kumar.math.unc.edu/papers/kumar76.pdf}{Author PDF}.
+
+\bibitem[BKT-IG]{BKTIG}
+A. S. Buch, A. Kresch and H. Tamvakis,
+\emph{A Giambelli formula for isotropic Grassmannians}.
+Definition 1, Theorem 1, Sections 2.1 and 6.1.
+\href{https://math.umd.edu/~harryt/papers/isogiamfinal.pdf}{Author text}.
+
+\bibitem[BKT-D]{BKTD}
+A. S. Buch, A. Kresch and H. Tamvakis,
+\emph{A Giambelli formula for even orthogonal Grassmannians}.
+Proposition 2, Theorem 4, Section 5.2.
+\href{https://math.umd.edu/~harryt/papers/oggiam.pdf}{Author text}.
+
+\bibitem[PR]{PR}
+P. Pragacz and J. Ratajski,
+\emph{Formulas for Lagrangian and orthogonal degeneracy loci;
+\(\widetilde Q\)-polynomial approach}.
+Appendix A, Sections 10.3 and 10.5.
+\href{https://www.impan.pl/~pragacz/download/comp3868.pdf}{Author text}.
+
+\bibitem[PW]{PW}
+I. Panin and C. Walter, \emph{Quaternionic Grassmannians and Borel classes}.
+Theorems 11.2--11.3 (relative basis and presentation).
+\href{https://arxiv.org/pdf/1011.0649}{Author text}.
+
+\bibitem[W]{Wildon}
+M. Wildon, \emph{A generalized SXP rule proved by bijections and
+involutions}. Equation (1), the Littlewood/SXP identity.
+\href{https://arxiv.org/pdf/1508.07030}{Author text}.
+
+\bibitem[CSSW14]{CSSW}
+V. Chari, L. Schneider, P. Shereen and J. Wand,
+\emph{Modules with Demazure Flags and Character Formulae},
+SIGMA \textbf{10} (2014), 032.
+Section 2.1; Theorem 3.3(ii)--(iii); Remark 3.4.
+\href{https://arxiv.org/pdf/1310.5191}{Published author text};
+\href{https://doi.org/10.3842/SIGMA.2014.032}{DOI}.
+
+\bibitem[B35]{Birkhoff}
+G. Birkhoff, \emph{Subgroups of Abelian Groups},
+Proc. London Math. Soc. \textbf{38} (1935), 385--401.
+\href{https://doi.org/10.1112/plms/s2-38.1.385}{Bibliographic record}.
+The original full text was not accessed in the repository audit; the
+general formula was inspected in \cite{Sage} and its specialization
+checked against both Sage counting algorithms.
+
+\bibitem[Sage]{Sage}
+SageMath reference, \emph{\(q\)-analogues},
+\texttt{q\_subgroups\_of\_abelian\_group}.
+The Birkhoff formula is displayed explicitly, citing Butler (1987).
+\href{https://doc.sagemath.org/html/en/reference/combinat/sage/combinat/q_analogues.html}{Official documentation}.
+
+\bibitem[R25]{Ram}
+S. Ram, \emph{Subspace profiles, \(q\)-Whittaker functions and Krylov methods},
+Sem. Lothar. Combin. \textbf{93B} (2025), article 115.
+Definition 1.1 and Theorem 5.2 (also Theorem 1.3).
+\href{https://www.mat.univie.ac.at/~slc/wpapers/FPSAC2025/115.pdf}{Conference paper}.
+
+\bibitem[Repo]{Repo}
+\emph{Sage-programs: general type-B proof and integral image notes}.
+Unpublished companion material, audited 19 October 2026.
+\href{https://github.com/sean-rogers-t/Sage-programs/blob/5e718334a0f8ed9b31166aa3bf42185a60d05c34/borel/TYPE_B_GENERAL_SMITH.md}{Full general proof at audited baseline \texttt{5e71833}};
+\href{https://github.com/sean-rogers-t/Sage-programs/blob/codex/borel-library/borel/TYPE_B_GENERAL_AUDIT.md}{fresh dependency-by-dependency audit};
+\href{https://github.com/sean-rogers-t/Sage-programs/blob/codex/borel-library/borel/PROOF_STATUS.md}{current claim and source status}.
+The linked notes retain the full prefix, normalization, type-D, and
+independent verification arguments. The baseline link is immutable;
+the two branch links may be updated.
+\end{thebibliography}
+}
+\end{document}

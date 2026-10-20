@@ -1,0 +1,19 @@
+{
+  "result": "passed",
+  "engine": "Python standard library only",
+  "torus_certificates": 2,
+  "linear_lattice_unit_minors": 2,
+  "direct_laurent_lattices": 24,
+  "coefficient_positions": 4940,
+  "independent_bgg_columns": 32,
+  "embedded_comparisons": 24,
+  "image_ring_relations": true,
+  "seconds": 0.068,
+  "source_hash_semantics": "SHA256 with CRLF normalized to LF.",
+  "source_sha256": {
+    "experiments/g2-character-form-results.json": "def522019126ee7b8293812373e3407b9a65f7219fe941748f9e113377c0d20b",
+    "experiments/exceptional-integral-results.json": "a0a8c282a26a9da03a46c9bfb755194fc2fbf71de90b700eec194b1e81e36c7f",
+    "experiments/audit_g2_character_form.py": "2841b079fb204a9629432260c39f49ba4e5f7d6fe90f614921bebdd332ea82f1",
+    "experiments/audit_e6_character_form.py": "f5cb69082e8ad364f99333ec0d5079fb904c4cb01c106b1d2b1b918f6c026e31"
+  }
+}

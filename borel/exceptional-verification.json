@@ -1,0 +1,3848 @@
+{
+  "schema_version": 1,
+  "sage_version": "9.5",
+  "python_version": "3.10.12",
+  "seconds": 35.099,
+  "catalogue_rows": 128,
+  "freshly_recomputed_rows": 128,
+  "input_polynomials_verified": 128,
+  "levi_reflections_verified": 661,
+  "coefficient_positions_checked": 356,
+  "all_frozen_coefficient_comparisons_pass": true,
+  "all_independent_chevalley_comparisons_pass": true,
+  "evidence": {
+    "frozen_comparison": "Earlier separately implemented BGG audit; same mathematical algorithm, independently written implementation.",
+    "input_check": "Literal elementary subset sums; ambient dot-product simple roots; independent psi power-sum construction.",
+    "second_algorithm": "Root/coroot Chevalley multiplication of polynomial monomials; no library divisor or divided-difference methods.",
+    "e8_scope": "Nine displayed dissertation rows; partial catalogue, not a complete E8 invariant-generator list.",
+    "timing_scope": "Per-row times measure fresh generator_image expansion; input polynomial construction and independent validation precede that timer."
+  },
+  "rows": [
+    {
+      "source_id": "G2/P1/row1",
+      "kind": "G2",
+      "parabolic": 1,
+      "name": "omega1",
+      "coefficients_match": true,
+      "output_terms": 1,
+      "coefficient_positions_checked": 1,
+      "seconds": 0.003,
+      "algorithm_stats": {
+        "input_monomials": 1,
+        "homogeneous_degrees": [
+          1
+        ],
+        "divided_differences": 2,
+        "zero_differences": 1,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "1": [
+            1,
+            1
+          ]
+        },
+        "max_frontier": 1,
+        "output_terms": 1
+      }
+    },
+    {
+      "source_id": "G2/P1/row2",
+      "kind": "G2",
+      "parabolic": 1,
+      "name": "quadratic",
+      "coefficients_match": true,
+      "output_terms": 1,
+      "coefficient_positions_checked": 1,
+      "seconds": 0.002,
+      "algorithm_stats": {
+        "input_monomials": 3,
+        "homogeneous_degrees": [
+          2
+        ],
+        "divided_differences": 3,
+        "zero_differences": 1,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "2": [
+            1,
+            1,
+            1
+          ]
+        },
+        "max_frontier": 1,
+        "output_terms": 1
+      }
+    },
+    {
+      "source_id": "G2/P2/row3",
+      "kind": "G2",
+      "parabolic": 2,
+      "name": "omega2",
+      "coefficients_match": true,
+      "output_terms": 1,
+      "coefficient_positions_checked": 1,
+      "seconds": 0.001,
+      "algorithm_stats": {
+        "input_monomials": 1,
+        "homogeneous_degrees": [
+          1
+        ],
+        "divided_differences": 2,
+        "zero_differences": 1,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "1": [
+            1,
+            1
+          ]
+        },
+        "max_frontier": 1,
+        "output_terms": 1
+      }
+    },
+    {
+      "source_id": "G2/P2/row4",
+      "kind": "G2",
+      "parabolic": 2,
+      "name": "quadratic",
+      "coefficients_match": true,
+      "output_terms": 1,
+      "coefficient_positions_checked": 1,
+      "seconds": 0.001,
+      "algorithm_stats": {
+        "input_monomials": 2,
+        "homogeneous_degrees": [
+          2
+        ],
+        "divided_differences": 3,
+        "zero_differences": 1,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "2": [
+            1,
+            1,
+            1
+          ]
+        },
+        "max_frontier": 1,
+        "output_terms": 1
+      }
+    },
+    {
+      "source_id": "F4/P1/row1",
+      "kind": "F4",
+      "parabolic": 1,
+      "name": "e1",
+      "coefficients_match": true,
+      "output_terms": 1,
+      "coefficient_positions_checked": 1,
+      "seconds": 0.003,
+      "algorithm_stats": {
+        "input_monomials": 7,
+        "homogeneous_degrees": [
+          2
+        ],
+        "divided_differences": 7,
+        "zero_differences": 5,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "2": [
+            1,
+            1,
+            1
+          ]
+        },
+        "max_frontier": 1,
+        "output_terms": 1
+      }
+    },
+    {
+      "source_id": "F4/P1/row2",
+      "kind": "F4",
+      "parabolic": 1,
+      "name": "e2",
+      "coefficients_match": true,
+      "output_terms": 2,
+      "coefficient_positions_checked": 2,
+      "seconds": 0.006,
+      "algorithm_stats": {
+        "input_monomials": 20,
+        "homogeneous_degrees": [
+          4
+        ],
+        "divided_differences": 13,
+        "zero_differences": 8,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "4": [
+            1,
+            1,
+            1,
+            1,
+            2
+          ]
+        },
+        "max_frontier": 2,
+        "output_terms": 2
+      }
+    },
+    {
+      "source_id": "F4/P1/row3",
+      "kind": "F4",
+      "parabolic": 1,
+      "name": "e3",
+      "coefficients_match": true,
+      "output_terms": 2,
+      "coefficient_positions_checked": 2,
+      "seconds": 0.009,
+      "algorithm_stats": {
+        "input_monomials": 41,
+        "homogeneous_degrees": [
+          6
+        ],
+        "divided_differences": 24,
+        "zero_differences": 13,
+        "duplicate_paths": 2,
+        "frontier_sizes": {
+          "6": [
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "max_frontier": 2,
+        "output_terms": 2
+      }
+    },
+    {
+      "source_id": "F4/P1/row4",
+      "kind": "F4",
+      "parabolic": 1,
+      "name": "y4",
+      "coefficients_match": true,
+      "output_terms": 1,
+      "coefficient_positions_checked": 1,
+      "seconds": 0.001,
+      "algorithm_stats": {
+        "input_monomials": 1,
+        "homogeneous_degrees": [
+          1
+        ],
+        "divided_differences": 4,
+        "zero_differences": 3,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "1": [
+            1,
+            1
+          ]
+        },
+        "max_frontier": 1,
+        "output_terms": 1
+      }
+    },
+    {
+      "source_id": "F4/P2/row1",
+      "kind": "F4",
+      "parabolic": 2,
+      "name": "e1_y1_y2",
+      "coefficients_match": true,
+      "output_terms": 1,
+      "coefficient_positions_checked": 1,
+      "seconds": 0.001,
+      "algorithm_stats": {
+        "input_monomials": 1,
+        "homogeneous_degrees": [
+          1
+        ],
+        "divided_differences": 4,
+        "zero_differences": 3,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "1": [
+            1,
+            1
+          ]
+        },
+        "max_frontier": 1,
+        "output_terms": 1
+      }
+    },
+    {
+      "source_id": "F4/P2/row2",
+      "kind": "F4",
+      "parabolic": 2,
+      "name": "e2_y1_y2",
+      "coefficients_match": true,
+      "output_terms": 2,
+      "coefficient_positions_checked": 2,
+      "seconds": 0.002,
+      "algorithm_stats": {
+        "input_monomials": 3,
+        "homogeneous_degrees": [
+          2
+        ],
+        "divided_differences": 7,
+        "zero_differences": 4,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "2": [
+            1,
+            1,
+            2
+          ]
+        },
+        "max_frontier": 2,
+        "output_terms": 2
+      }
+    },
+    {
+      "source_id": "F4/P2/row3",
+      "kind": "F4",
+      "parabolic": 2,
+      "name": "e1_y3_y4_y5",
+      "coefficients_match": true,
+      "output_terms": 1,
+      "coefficient_positions_checked": 1,
+      "seconds": 0.001,
+      "algorithm_stats": {
+        "input_monomials": 1,
+        "homogeneous_degrees": [
+          1
+        ],
+        "divided_differences": 4,
+        "zero_differences": 3,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "1": [
+            1,
+            1
+          ]
+        },
+        "max_frontier": 1,
+        "output_terms": 1
+      }
+    },
+    {
+      "source_id": "F4/P2/row4",
+      "kind": "F4",
+      "parabolic": 2,
+      "name": "e2_y3_y4_y5",
+      "coefficients_match": true,
+      "output_terms": 2,
+      "coefficient_positions_checked": 2,
+      "seconds": 0.003,
+      "algorithm_stats": {
+        "input_monomials": 5,
+        "homogeneous_degrees": [
+          2
+        ],
+        "divided_differences": 7,
+        "zero_differences": 4,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "2": [
+            1,
+            1,
+            2
+          ]
+        },
+        "max_frontier": 2,
+        "output_terms": 2
+      }
+    },
+    {
+      "source_id": "F4/P2/row5",
+      "kind": "F4",
+      "parabolic": 2,
+      "name": "e3",
+      "coefficients_match": true,
+      "output_terms": 3,
+      "coefficient_positions_checked": 3,
+      "seconds": 0.005,
+      "algorithm_stats": {
+        "input_monomials": 7,
+        "homogeneous_degrees": [
+          3
+        ],
+        "divided_differences": 13,
+        "zero_differences": 6,
+        "duplicate_paths": 1,
+        "frontier_sizes": {
+          "3": [
+            1,
+            1,
+            2,
+            3
+          ]
+        },
+        "max_frontier": 3,
+        "output_terms": 3
+      }
+    },
+    {
+      "source_id": "F4/P3/row1",
+      "kind": "F4",
+      "parabolic": 3,
+      "name": "e1_y1_y2_y3",
+      "coefficients_match": true,
+      "output_terms": 1,
+      "coefficient_positions_checked": 1,
+      "seconds": 0.001,
+      "algorithm_stats": {
+        "input_monomials": 1,
+        "homogeneous_degrees": [
+          1
+        ],
+        "divided_differences": 4,
+        "zero_differences": 3,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "1": [
+            1,
+            1
+          ]
+        },
+        "max_frontier": 1,
+        "output_terms": 1
+      }
+    },
+    {
+      "source_id": "F4/P3/row2",
+      "kind": "F4",
+      "parabolic": 3,
+      "name": "e2_y1_y2_y3",
+      "coefficients_match": true,
+      "output_terms": 2,
+      "coefficient_positions_checked": 2,
+      "seconds": 0.003,
+      "algorithm_stats": {
+        "input_monomials": 5,
+        "homogeneous_degrees": [
+          2
+        ],
+        "divided_differences": 7,
+        "zero_differences": 4,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "2": [
+            1,
+            1,
+            2
+          ]
+        },
+        "max_frontier": 2,
+        "output_terms": 2
+      }
+    },
+    {
+      "source_id": "F4/P3/row3",
+      "kind": "F4",
+      "parabolic": 3,
+      "name": "e3",
+      "coefficients_match": true,
+      "output_terms": 3,
+      "coefficient_positions_checked": 3,
+      "seconds": 0.005,
+      "algorithm_stats": {
+        "input_monomials": 7,
+        "homogeneous_degrees": [
+          3
+        ],
+        "divided_differences": 13,
+        "zero_differences": 6,
+        "duplicate_paths": 1,
+        "frontier_sizes": {
+          "3": [
+            1,
+            1,
+            2,
+            3
+          ]
+        },
+        "max_frontier": 3,
+        "output_terms": 3
+      }
+    },
+    {
+      "source_id": "F4/P3/row4",
+      "kind": "F4",
+      "parabolic": 3,
+      "name": "e1_y4_y5",
+      "coefficients_match": true,
+      "output_terms": 1,
+      "coefficient_positions_checked": 1,
+      "seconds": 0.001,
+      "algorithm_stats": {
+        "input_monomials": 1,
+        "homogeneous_degrees": [
+          1
+        ],
+        "divided_differences": 4,
+        "zero_differences": 3,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "1": [
+            1,
+            1
+          ]
+        },
+        "max_frontier": 1,
+        "output_terms": 1
+      }
+    },
+    {
+      "source_id": "F4/P3/row5",
+      "kind": "F4",
+      "parabolic": 3,
+      "name": "e2_y4_y5",
+      "coefficients_match": true,
+      "output_terms": 2,
+      "coefficient_positions_checked": 2,
+      "seconds": 0.003,
+      "algorithm_stats": {
+        "input_monomials": 3,
+        "homogeneous_degrees": [
+          2
+        ],
+        "divided_differences": 7,
+        "zero_differences": 4,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "2": [
+            1,
+            1,
+            2
+          ]
+        },
+        "max_frontier": 2,
+        "output_terms": 2
+      }
+    },
+    {
+      "source_id": "F4/P4/row1",
+      "kind": "F4",
+      "parabolic": 4,
+      "name": "e1",
+      "coefficients_match": true,
+      "output_terms": 1,
+      "coefficient_positions_checked": 1,
+      "seconds": 0.002,
+      "algorithm_stats": {
+        "input_monomials": 7,
+        "homogeneous_degrees": [
+          2
+        ],
+        "divided_differences": 7,
+        "zero_differences": 5,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "2": [
+            1,
+            1,
+            1
+          ]
+        },
+        "max_frontier": 1,
+        "output_terms": 1
+      }
+    },
+    {
+      "source_id": "F4/P4/row2",
+      "kind": "F4",
+      "parabolic": 4,
+      "name": "e2",
+      "coefficients_match": true,
+      "output_terms": 2,
+      "coefficient_positions_checked": 2,
+      "seconds": 0.006,
+      "algorithm_stats": {
+        "input_monomials": 20,
+        "homogeneous_degrees": [
+          4
+        ],
+        "divided_differences": 13,
+        "zero_differences": 8,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "4": [
+            1,
+            1,
+            1,
+            1,
+            2
+          ]
+        },
+        "max_frontier": 2,
+        "output_terms": 2
+      }
+    },
+    {
+      "source_id": "F4/P4/row3",
+      "kind": "F4",
+      "parabolic": 4,
+      "name": "e3",
+      "coefficients_match": true,
+      "output_terms": 2,
+      "coefficient_positions_checked": 2,
+      "seconds": 0.009,
+      "algorithm_stats": {
+        "input_monomials": 41,
+        "homogeneous_degrees": [
+          6
+        ],
+        "divided_differences": 24,
+        "zero_differences": 13,
+        "duplicate_paths": 2,
+        "frontier_sizes": {
+          "6": [
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "max_frontier": 2,
+        "output_terms": 2
+      }
+    },
+    {
+      "source_id": "F4/P4/row4",
+      "kind": "F4",
+      "parabolic": 4,
+      "name": "y4",
+      "coefficients_match": true,
+      "output_terms": 1,
+      "coefficient_positions_checked": 1,
+      "seconds": 0.002,
+      "algorithm_stats": {
+        "input_monomials": 1,
+        "homogeneous_degrees": [
+          1
+        ],
+        "divided_differences": 4,
+        "zero_differences": 3,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "1": [
+            1,
+            1
+          ]
+        },
+        "max_frontier": 1,
+        "output_terms": 1
+      }
+    },
+    {
+      "source_id": "E6/P1/row1",
+      "kind": "E6",
+      "parabolic": 1,
+      "name": "y1",
+      "coefficients_match": true,
+      "output_terms": 1,
+      "coefficient_positions_checked": 1,
+      "seconds": 0.003,
+      "algorithm_stats": {
+        "input_monomials": 1,
+        "homogeneous_degrees": [
+          1
+        ],
+        "divided_differences": 6,
+        "zero_differences": 5,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "1": [
+            1,
+            1
+          ]
+        },
+        "max_frontier": 1,
+        "output_terms": 1
+      }
+    },
+    {
+      "source_id": "E6/P1/row2",
+      "kind": "E6",
+      "parabolic": 1,
+      "name": "e1",
+      "coefficients_match": true,
+      "output_terms": 1,
+      "coefficient_positions_checked": 1,
+      "seconds": 0.006,
+      "algorithm_stats": {
+        "input_monomials": 11,
+        "homogeneous_degrees": [
+          2
+        ],
+        "divided_differences": 11,
+        "zero_differences": 9,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "2": [
+            1,
+            1,
+            1
+          ]
+        },
+        "max_frontier": 1,
+        "output_terms": 1
+      }
+    },
+    {
+      "source_id": "E6/P1/row3",
+      "kind": "E6",
+      "parabolic": 1,
+      "name": "e2",
+      "coefficients_match": true,
+      "output_terms": 2,
+      "coefficient_positions_checked": 2,
+      "seconds": 0.01,
+      "algorithm_stats": {
+        "input_monomials": 67,
+        "homogeneous_degrees": [
+          4
+        ],
+        "divided_differences": 21,
+        "zero_differences": 16,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "4": [
+            1,
+            1,
+            1,
+            1,
+            2
+          ]
+        },
+        "max_frontier": 2,
+        "output_terms": 2
+      }
+    },
+    {
+      "source_id": "E6/P1/row4",
+      "kind": "E6",
+      "parabolic": 1,
+      "name": "e3",
+      "coefficients_match": true,
+      "output_terms": 2,
+      "coefficient_positions_checked": 2,
+      "seconds": 0.018,
+      "algorithm_stats": {
+        "input_monomials": 221,
+        "homogeneous_degrees": [
+          6
+        ],
+        "divided_differences": 40,
+        "zero_differences": 29,
+        "duplicate_paths": 2,
+        "frontier_sizes": {
+          "6": [
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "max_frontier": 2,
+        "output_terms": 2
+      }
+    },
+    {
+      "source_id": "E6/P1/row5",
+      "kind": "E6",
+      "parabolic": 1,
+      "name": "e4",
+      "coefficients_match": true,
+      "output_terms": 3,
+      "coefficient_positions_checked": 3,
+      "seconds": 0.038,
+      "algorithm_stats": {
+        "input_monomials": 462,
+        "homogeneous_degrees": [
+          8
+        ],
+        "divided_differences": 58,
+        "zero_differences": 40,
+        "duplicate_paths": 4,
+        "frontier_sizes": {
+          "8": [
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            2,
+            2,
+            3
+          ]
+        },
+        "max_frontier": 3,
+        "output_terms": 3
+      }
+    },
+    {
+      "source_id": "E6/P1/row6",
+      "kind": "E6",
+      "parabolic": 1,
+      "name": "e5",
+      "coefficients_match": true,
+      "output_terms": 2,
+      "coefficient_positions_checked": 2,
+      "seconds": 0.056,
+      "algorithm_stats": {
+        "input_monomials": 742,
+        "homogeneous_degrees": [
+          10
+        ],
+        "divided_differences": 80,
+        "zero_differences": 55,
+        "duplicate_paths": 7,
+        "frontier_sizes": {
+          "10": [
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            2,
+            2,
+            3,
+            2,
+            2
+          ]
+        },
+        "max_frontier": 3,
+        "output_terms": 2
+      }
+    },
+    {
+      "source_id": "E6/P1/row7",
+      "kind": "E6",
+      "parabolic": 1,
+      "name": "euler",
+      "coefficients_match": true,
+      "output_terms": 2,
+      "coefficient_positions_checked": 2,
+      "seconds": 0.012,
+      "algorithm_stats": {
+        "input_monomials": 61,
+        "homogeneous_degrees": [
+          5
+        ],
+        "divided_differences": 31,
+        "zero_differences": 23,
+        "duplicate_paths": 1,
+        "frontier_sizes": {
+          "5": [
+            1,
+            1,
+            1,
+            1,
+            2,
+            2
+          ]
+        },
+        "max_frontier": 2,
+        "output_terms": 2
+      }
+    },
+    {
+      "source_id": "E6/P2/row1",
+      "kind": "E6",
+      "parabolic": 2,
+      "name": "e1",
+      "coefficients_match": true,
+      "output_terms": 1,
+      "coefficient_positions_checked": 1,
+      "seconds": 0.002,
+      "algorithm_stats": {
+        "input_monomials": 1,
+        "homogeneous_degrees": [
+          1
+        ],
+        "divided_differences": 6,
+        "zero_differences": 5,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "1": [
+            1,
+            1
+          ]
+        },
+        "max_frontier": 1,
+        "output_terms": 1
+      }
+    },
+    {
+      "source_id": "E6/P2/row2",
+      "kind": "E6",
+      "parabolic": 2,
+      "name": "e2",
+      "coefficients_match": true,
+      "output_terms": 1,
+      "coefficient_positions_checked": 1,
+      "seconds": 0.003,
+      "algorithm_stats": {
+        "input_monomials": 11,
+        "homogeneous_degrees": [
+          2
+        ],
+        "divided_differences": 11,
+        "zero_differences": 9,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "2": [
+            1,
+            1,
+            1
+          ]
+        },
+        "max_frontier": 1,
+        "output_terms": 1
+      }
+    },
+    {
+      "source_id": "E6/P2/row3",
+      "kind": "E6",
+      "parabolic": 2,
+      "name": "e3",
+      "coefficients_match": true,
+      "output_terms": 2,
+      "coefficient_positions_checked": 2,
+      "seconds": 0.007,
+      "algorithm_stats": {
+        "input_monomials": 19,
+        "homogeneous_degrees": [
+          3
+        ],
+        "divided_differences": 16,
+        "zero_differences": 12,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "3": [
+            1,
+            1,
+            1,
+            2
+          ]
+        },
+        "max_frontier": 2,
+        "output_terms": 2
+      }
+    },
+    {
+      "source_id": "E6/P2/row4",
+      "kind": "E6",
+      "parabolic": 2,
+      "name": "e4",
+      "coefficients_match": true,
+      "output_terms": 3,
+      "coefficient_positions_checked": 3,
+      "seconds": 0.014,
+      "algorithm_stats": {
+        "input_monomials": 45,
+        "homogeneous_degrees": [
+          4
+        ],
+        "divided_differences": 26,
+        "zero_differences": 18,
+        "duplicate_paths": 1,
+        "frontier_sizes": {
+          "4": [
+            1,
+            1,
+            1,
+            2,
+            3
+          ]
+        },
+        "max_frontier": 3,
+        "output_terms": 3
+      }
+    },
+    {
+      "source_id": "E6/P2/row5",
+      "kind": "E6",
+      "parabolic": 2,
+      "name": "e5",
+      "coefficients_match": true,
+      "output_terms": 3,
+      "coefficient_positions_checked": 3,
+      "seconds": 0.018,
+      "algorithm_stats": {
+        "input_monomials": 69,
+        "homogeneous_degrees": [
+          5
+        ],
+        "divided_differences": 40,
+        "zero_differences": 27,
+        "duplicate_paths": 3,
+        "frontier_sizes": {
+          "5": [
+            1,
+            1,
+            1,
+            2,
+            3,
+            3
+          ]
+        },
+        "max_frontier": 3,
+        "output_terms": 3
+      }
+    },
+    {
+      "source_id": "E6/P2/row6",
+      "kind": "E6",
+      "parabolic": 2,
+      "name": "e6",
+      "coefficients_match": true,
+      "output_terms": 4,
+      "coefficient_positions_checked": 4,
+      "seconds": 0.028,
+      "algorithm_stats": {
+        "input_monomials": 91,
+        "homogeneous_degrees": [
+          6
+        ],
+        "divided_differences": 53,
+        "zero_differences": 33,
+        "duplicate_paths": 6,
+        "frontier_sizes": {
+          "6": [
+            1,
+            1,
+            1,
+            2,
+            3,
+            3,
+            4
+          ]
+        },
+        "max_frontier": 4,
+        "output_terms": 4
+      }
+    },
+    {
+      "source_id": "E6/P3/row1",
+      "kind": "E6",
+      "parabolic": 3,
+      "name": "e1_y1_y2",
+      "coefficients_match": true,
+      "output_terms": 1,
+      "coefficient_positions_checked": 1,
+      "seconds": 0.002,
+      "algorithm_stats": {
+        "input_monomials": 1,
+        "homogeneous_degrees": [
+          1
+        ],
+        "divided_differences": 6,
+        "zero_differences": 5,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "1": [
+            1,
+            1
+          ]
+        },
+        "max_frontier": 1,
+        "output_terms": 1
+      }
+    },
+    {
+      "source_id": "E6/P3/row2",
+      "kind": "E6",
+      "parabolic": 3,
+      "name": "e2_y1_y2",
+      "coefficients_match": true,
+      "output_terms": 2,
+      "coefficient_positions_checked": 2,
+      "seconds": 0.006,
+      "algorithm_stats": {
+        "input_monomials": 3,
+        "homogeneous_degrees": [
+          2
+        ],
+        "divided_differences": 11,
+        "zero_differences": 8,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "2": [
+            1,
+            1,
+            2
+          ]
+        },
+        "max_frontier": 2,
+        "output_terms": 2
+      }
+    },
+    {
+      "source_id": "E6/P3/row3",
+      "kind": "E6",
+      "parabolic": 3,
+      "name": "e1_y3_y4_y5_y6_y7",
+      "coefficients_match": true,
+      "output_terms": 1,
+      "coefficient_positions_checked": 1,
+      "seconds": 0.002,
+      "algorithm_stats": {
+        "input_monomials": 1,
+        "homogeneous_degrees": [
+          1
+        ],
+        "divided_differences": 6,
+        "zero_differences": 5,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "1": [
+            1,
+            1
+          ]
+        },
+        "max_frontier": 1,
+        "output_terms": 1
+      }
+    },
+    {
+      "source_id": "E6/P3/row4",
+      "kind": "E6",
+      "parabolic": 3,
+      "name": "e2_y3_y4_y5_y6_y7",
+      "coefficients_match": true,
+      "output_terms": 2,
+      "coefficient_positions_checked": 2,
+      "seconds": 0.007,
+      "algorithm_stats": {
+        "input_monomials": 9,
+        "homogeneous_degrees": [
+          2
+        ],
+        "divided_differences": 11,
+        "zero_differences": 8,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "2": [
+            1,
+            1,
+            2
+          ]
+        },
+        "max_frontier": 2,
+        "output_terms": 2
+      }
+    },
+    {
+      "source_id": "E6/P3/row5",
+      "kind": "E6",
+      "parabolic": 3,
+      "name": "e3",
+      "coefficients_match": true,
+      "output_terms": 3,
+      "coefficient_positions_checked": 3,
+      "seconds": 0.012,
+      "algorithm_stats": {
+        "input_monomials": 15,
+        "homogeneous_degrees": [
+          3
+        ],
+        "divided_differences": 21,
+        "zero_differences": 14,
+        "duplicate_paths": 1,
+        "frontier_sizes": {
+          "3": [
+            1,
+            1,
+            2,
+            3
+          ]
+        },
+        "max_frontier": 3,
+        "output_terms": 3
+      }
+    },
+    {
+      "source_id": "E6/P3/row6",
+      "kind": "E6",
+      "parabolic": 3,
+      "name": "e4",
+      "coefficients_match": true,
+      "output_terms": 5,
+      "coefficient_positions_checked": 5,
+      "seconds": 0.024,
+      "algorithm_stats": {
+        "input_monomials": 29,
+        "homogeneous_degrees": [
+          4
+        ],
+        "divided_differences": 35,
+        "zero_differences": 20,
+        "duplicate_paths": 4,
+        "frontier_sizes": {
+          "4": [
+            1,
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        "max_frontier": 5,
+        "output_terms": 5
+      }
+    },
+    {
+      "source_id": "E6/P3/row7",
+      "kind": "E6",
+      "parabolic": 3,
+      "name": "e5",
+      "coefficients_match": true,
+      "output_terms": 6,
+      "coefficient_positions_checked": 6,
+      "seconds": 0.045,
+      "algorithm_stats": {
+        "input_monomials": 37,
+        "homogeneous_degrees": [
+          5
+        ],
+        "divided_differences": 57,
+        "zero_differences": 30,
+        "duplicate_paths": 10,
+        "frontier_sizes": {
+          "5": [
+            1,
+            1,
+            2,
+            3,
+            5,
+            6
+          ]
+        },
+        "max_frontier": 6,
+        "output_terms": 6
+      }
+    },
+    {
+      "source_id": "E6/P4/row1",
+      "kind": "E6",
+      "parabolic": 4,
+      "name": "e1_y1_y2_y3",
+      "coefficients_match": true,
+      "output_terms": 1,
+      "coefficient_positions_checked": 1,
+      "seconds": 0.002,
+      "algorithm_stats": {
+        "input_monomials": 1,
+        "homogeneous_degrees": [
+          1
+        ],
+        "divided_differences": 6,
+        "zero_differences": 5,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "1": [
+            1,
+            1
+          ]
+        },
+        "max_frontier": 1,
+        "output_terms": 1
+      }
+    },
+    {
+      "source_id": "E6/P4/row2",
+      "kind": "E6",
+      "parabolic": 4,
+      "name": "e2_y1_y2_y3",
+      "coefficients_match": true,
+      "output_terms": 3,
+      "coefficient_positions_checked": 3,
+      "seconds": 0.011,
+      "algorithm_stats": {
+        "input_monomials": 5,
+        "homogeneous_degrees": [
+          2
+        ],
+        "divided_differences": 11,
+        "zero_differences": 7,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "2": [
+            1,
+            1,
+            3
+          ]
+        },
+        "max_frontier": 3,
+        "output_terms": 3
+      }
+    },
+    {
+      "source_id": "E6/P4/row3",
+      "kind": "E6",
+      "parabolic": 4,
+      "name": "e3_y1_y2_y3",
+      "coefficients_match": true,
+      "output_terms": 5,
+      "coefficient_positions_checked": 5,
+      "seconds": 0.018,
+      "algorithm_stats": {
+        "input_monomials": 7,
+        "homogeneous_degrees": [
+          3
+        ],
+        "divided_differences": 26,
+        "zero_differences": 14,
+        "duplicate_paths": 3,
+        "frontier_sizes": {
+          "3": [
+            1,
+            1,
+            3,
+            5
+          ]
+        },
+        "max_frontier": 5,
+        "output_terms": 5
+      }
+    },
+    {
+      "source_id": "E6/P4/row4",
+      "kind": "E6",
+      "parabolic": 4,
+      "name": "e1_y4_y5_y6",
+      "coefficients_match": true,
+      "output_terms": 1,
+      "coefficient_positions_checked": 1,
+      "seconds": 0.002,
+      "algorithm_stats": {
+        "input_monomials": 1,
+        "homogeneous_degrees": [
+          1
+        ],
+        "divided_differences": 6,
+        "zero_differences": 5,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "1": [
+            1,
+            1
+          ]
+        },
+        "max_frontier": 1,
+        "output_terms": 1
+      }
+    },
+    {
+      "source_id": "E6/P4/row5",
+      "kind": "E6",
+      "parabolic": 4,
+      "name": "e2_y4_y5_y6",
+      "coefficients_match": true,
+      "output_terms": 3,
+      "coefficient_positions_checked": 3,
+      "seconds": 0.006,
+      "algorithm_stats": {
+        "input_monomials": 5,
+        "homogeneous_degrees": [
+          2
+        ],
+        "divided_differences": 11,
+        "zero_differences": 7,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "2": [
+            1,
+            1,
+            3
+          ]
+        },
+        "max_frontier": 3,
+        "output_terms": 3
+      }
+    },
+    {
+      "source_id": "E6/P4/row6",
+      "kind": "E6",
+      "parabolic": 4,
+      "name": "e3_y4_y5_y6",
+      "coefficients_match": true,
+      "output_terms": 5,
+      "coefficient_positions_checked": 5,
+      "seconds": 0.018,
+      "algorithm_stats": {
+        "input_monomials": 7,
+        "homogeneous_degrees": [
+          3
+        ],
+        "divided_differences": 26,
+        "zero_differences": 14,
+        "duplicate_paths": 3,
+        "frontier_sizes": {
+          "3": [
+            1,
+            1,
+            3,
+            5
+          ]
+        },
+        "max_frontier": 5,
+        "output_terms": 5
+      }
+    },
+    {
+      "source_id": "E6/P4/row7",
+      "kind": "E6",
+      "parabolic": 4,
+      "name": "e1_y7_y8",
+      "coefficients_match": true,
+      "output_terms": 1,
+      "coefficient_positions_checked": 1,
+      "seconds": 0.003,
+      "algorithm_stats": {
+        "input_monomials": 1,
+        "homogeneous_degrees": [
+          1
+        ],
+        "divided_differences": 6,
+        "zero_differences": 5,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "1": [
+            1,
+            1
+          ]
+        },
+        "max_frontier": 1,
+        "output_terms": 1
+      }
+    },
+    {
+      "source_id": "E6/P4/row8",
+      "kind": "E6",
+      "parabolic": 4,
+      "name": "e2_y7_y8",
+      "coefficients_match": true,
+      "output_terms": 3,
+      "coefficient_positions_checked": 3,
+      "seconds": 0.006,
+      "algorithm_stats": {
+        "input_monomials": 3,
+        "homogeneous_degrees": [
+          2
+        ],
+        "divided_differences": 11,
+        "zero_differences": 7,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "2": [
+            1,
+            1,
+            3
+          ]
+        },
+        "max_frontier": 3,
+        "output_terms": 3
+      }
+    },
+    {
+      "source_id": "E6/P5/row1",
+      "kind": "E6",
+      "parabolic": 5,
+      "name": "e1_y1_y2",
+      "coefficients_match": true,
+      "output_terms": 1,
+      "coefficient_positions_checked": 1,
+      "seconds": 0.002,
+      "algorithm_stats": {
+        "input_monomials": 1,
+        "homogeneous_degrees": [
+          1
+        ],
+        "divided_differences": 6,
+        "zero_differences": 5,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "1": [
+            1,
+            1
+          ]
+        },
+        "max_frontier": 1,
+        "output_terms": 1
+      }
+    },
+    {
+      "source_id": "E6/P5/row2",
+      "kind": "E6",
+      "parabolic": 5,
+      "name": "e2_y1_y2",
+      "coefficients_match": true,
+      "output_terms": 2,
+      "coefficient_positions_checked": 2,
+      "seconds": 0.005,
+      "algorithm_stats": {
+        "input_monomials": 3,
+        "homogeneous_degrees": [
+          2
+        ],
+        "divided_differences": 11,
+        "zero_differences": 8,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "2": [
+            1,
+            1,
+            2
+          ]
+        },
+        "max_frontier": 2,
+        "output_terms": 2
+      }
+    },
+    {
+      "source_id": "E6/P5/row3",
+      "kind": "E6",
+      "parabolic": 5,
+      "name": "e1_y3_y4_y5_y6_y7",
+      "coefficients_match": true,
+      "output_terms": 1,
+      "coefficient_positions_checked": 1,
+      "seconds": 0.002,
+      "algorithm_stats": {
+        "input_monomials": 1,
+        "homogeneous_degrees": [
+          1
+        ],
+        "divided_differences": 6,
+        "zero_differences": 5,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "1": [
+            1,
+            1
+          ]
+        },
+        "max_frontier": 1,
+        "output_terms": 1
+      }
+    },
+    {
+      "source_id": "E6/P5/row4",
+      "kind": "E6",
+      "parabolic": 5,
+      "name": "e2_y3_y4_y5_y6_y7",
+      "coefficients_match": true,
+      "output_terms": 2,
+      "coefficient_positions_checked": 2,
+      "seconds": 0.01,
+      "algorithm_stats": {
+        "input_monomials": 9,
+        "homogeneous_degrees": [
+          2
+        ],
+        "divided_differences": 11,
+        "zero_differences": 8,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "2": [
+            1,
+            1,
+            2
+          ]
+        },
+        "max_frontier": 2,
+        "output_terms": 2
+      }
+    },
+    {
+      "source_id": "E6/P5/row5",
+      "kind": "E6",
+      "parabolic": 5,
+      "name": "e3",
+      "coefficients_match": true,
+      "output_terms": 3,
+      "coefficient_positions_checked": 3,
+      "seconds": 0.01,
+      "algorithm_stats": {
+        "input_monomials": 15,
+        "homogeneous_degrees": [
+          3
+        ],
+        "divided_differences": 21,
+        "zero_differences": 14,
+        "duplicate_paths": 1,
+        "frontier_sizes": {
+          "3": [
+            1,
+            1,
+            2,
+            3
+          ]
+        },
+        "max_frontier": 3,
+        "output_terms": 3
+      }
+    },
+    {
+      "source_id": "E6/P5/row6",
+      "kind": "E6",
+      "parabolic": 5,
+      "name": "e4",
+      "coefficients_match": true,
+      "output_terms": 5,
+      "coefficient_positions_checked": 5,
+      "seconds": 0.024,
+      "algorithm_stats": {
+        "input_monomials": 29,
+        "homogeneous_degrees": [
+          4
+        ],
+        "divided_differences": 35,
+        "zero_differences": 20,
+        "duplicate_paths": 4,
+        "frontier_sizes": {
+          "4": [
+            1,
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        "max_frontier": 5,
+        "output_terms": 5
+      }
+    },
+    {
+      "source_id": "E6/P5/row7",
+      "kind": "E6",
+      "parabolic": 5,
+      "name": "e5",
+      "coefficients_match": true,
+      "output_terms": 6,
+      "coefficient_positions_checked": 6,
+      "seconds": 0.035,
+      "algorithm_stats": {
+        "input_monomials": 37,
+        "homogeneous_degrees": [
+          5
+        ],
+        "divided_differences": 57,
+        "zero_differences": 30,
+        "duplicate_paths": 10,
+        "frontier_sizes": {
+          "5": [
+            1,
+            1,
+            2,
+            3,
+            5,
+            6
+          ]
+        },
+        "max_frontier": 6,
+        "output_terms": 6
+      }
+    },
+    {
+      "source_id": "E6/P6/row1",
+      "kind": "E6",
+      "parabolic": 6,
+      "name": "y1",
+      "coefficients_match": true,
+      "output_terms": 1,
+      "coefficient_positions_checked": 1,
+      "seconds": 0.002,
+      "algorithm_stats": {
+        "input_monomials": 1,
+        "homogeneous_degrees": [
+          1
+        ],
+        "divided_differences": 6,
+        "zero_differences": 5,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "1": [
+            1,
+            1
+          ]
+        },
+        "max_frontier": 1,
+        "output_terms": 1
+      }
+    },
+    {
+      "source_id": "E6/P6/row2",
+      "kind": "E6",
+      "parabolic": 6,
+      "name": "e1",
+      "coefficients_match": true,
+      "output_terms": 1,
+      "coefficient_positions_checked": 1,
+      "seconds": 0.006,
+      "algorithm_stats": {
+        "input_monomials": 11,
+        "homogeneous_degrees": [
+          2
+        ],
+        "divided_differences": 11,
+        "zero_differences": 9,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "2": [
+            1,
+            1,
+            1
+          ]
+        },
+        "max_frontier": 1,
+        "output_terms": 1
+      }
+    },
+    {
+      "source_id": "E6/P6/row3",
+      "kind": "E6",
+      "parabolic": 6,
+      "name": "e2",
+      "coefficients_match": true,
+      "output_terms": 2,
+      "coefficient_positions_checked": 2,
+      "seconds": 0.011,
+      "algorithm_stats": {
+        "input_monomials": 67,
+        "homogeneous_degrees": [
+          4
+        ],
+        "divided_differences": 21,
+        "zero_differences": 16,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "4": [
+            1,
+            1,
+            1,
+            1,
+            2
+          ]
+        },
+        "max_frontier": 2,
+        "output_terms": 2
+      }
+    },
+    {
+      "source_id": "E6/P6/row4",
+      "kind": "E6",
+      "parabolic": 6,
+      "name": "e3",
+      "coefficients_match": true,
+      "output_terms": 2,
+      "coefficient_positions_checked": 2,
+      "seconds": 0.023,
+      "algorithm_stats": {
+        "input_monomials": 221,
+        "homogeneous_degrees": [
+          6
+        ],
+        "divided_differences": 40,
+        "zero_differences": 29,
+        "duplicate_paths": 2,
+        "frontier_sizes": {
+          "6": [
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "max_frontier": 2,
+        "output_terms": 2
+      }
+    },
+    {
+      "source_id": "E6/P6/row5",
+      "kind": "E6",
+      "parabolic": 6,
+      "name": "e4",
+      "coefficients_match": true,
+      "output_terms": 3,
+      "coefficient_positions_checked": 3,
+      "seconds": 0.049,
+      "algorithm_stats": {
+        "input_monomials": 462,
+        "homogeneous_degrees": [
+          8
+        ],
+        "divided_differences": 58,
+        "zero_differences": 40,
+        "duplicate_paths": 4,
+        "frontier_sizes": {
+          "8": [
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            2,
+            2,
+            3
+          ]
+        },
+        "max_frontier": 3,
+        "output_terms": 3
+      }
+    },
+    {
+      "source_id": "E6/P6/row6",
+      "kind": "E6",
+      "parabolic": 6,
+      "name": "e5",
+      "coefficients_match": true,
+      "output_terms": 2,
+      "coefficient_positions_checked": 2,
+      "seconds": 0.067,
+      "algorithm_stats": {
+        "input_monomials": 742,
+        "homogeneous_degrees": [
+          10
+        ],
+        "divided_differences": 80,
+        "zero_differences": 55,
+        "duplicate_paths": 7,
+        "frontier_sizes": {
+          "10": [
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            2,
+            2,
+            3,
+            2,
+            2
+          ]
+        },
+        "max_frontier": 3,
+        "output_terms": 2
+      }
+    },
+    {
+      "source_id": "E7/P1/row1",
+      "kind": "E7",
+      "parabolic": 1,
+      "name": "y1",
+      "coefficients_match": true,
+      "output_terms": 1,
+      "coefficient_positions_checked": 1,
+      "seconds": 0.003,
+      "algorithm_stats": {
+        "input_monomials": 1,
+        "homogeneous_degrees": [
+          1
+        ],
+        "divided_differences": 7,
+        "zero_differences": 6,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "1": [
+            1,
+            1
+          ]
+        },
+        "max_frontier": 1,
+        "output_terms": 1
+      }
+    },
+    {
+      "source_id": "E7/P1/row2",
+      "kind": "E7",
+      "parabolic": 1,
+      "name": "e1",
+      "coefficients_match": true,
+      "output_terms": 1,
+      "coefficient_positions_checked": 1,
+      "seconds": 0.005,
+      "algorithm_stats": {
+        "input_monomials": 13,
+        "homogeneous_degrees": [
+          2
+        ],
+        "divided_differences": 13,
+        "zero_differences": 11,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "2": [
+            1,
+            1,
+            1
+          ]
+        },
+        "max_frontier": 1,
+        "output_terms": 1
+      }
+    },
+    {
+      "source_id": "E7/P1/row3",
+      "kind": "E7",
+      "parabolic": 1,
+      "name": "e2",
+      "coefficients_match": true,
+      "output_terms": 2,
+      "coefficient_positions_checked": 2,
+      "seconds": 0.011,
+      "algorithm_stats": {
+        "input_monomials": 93,
+        "homogeneous_degrees": [
+          4
+        ],
+        "divided_differences": 25,
+        "zero_differences": 20,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "4": [
+            1,
+            1,
+            1,
+            1,
+            2
+          ]
+        },
+        "max_frontier": 2,
+        "output_terms": 2
+      }
+    },
+    {
+      "source_id": "E7/P1/row4",
+      "kind": "E7",
+      "parabolic": 1,
+      "name": "e3",
+      "coefficients_match": true,
+      "output_terms": 3,
+      "coefficient_positions_checked": 3,
+      "seconds": 0.024,
+      "algorithm_stats": {
+        "input_monomials": 366,
+        "homogeneous_degrees": [
+          6
+        ],
+        "divided_differences": 48,
+        "zero_differences": 36,
+        "duplicate_paths": 2,
+        "frontier_sizes": {
+          "6": [
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            3
+          ]
+        },
+        "max_frontier": 3,
+        "output_terms": 3
+      }
+    },
+    {
+      "source_id": "E7/P1/row5",
+      "kind": "E7",
+      "parabolic": 1,
+      "name": "e4",
+      "coefficients_match": true,
+      "output_terms": 4,
+      "coefficient_positions_checked": 4,
+      "seconds": 0.073,
+      "algorithm_stats": {
+        "input_monomials": 1156,
+        "homogeneous_degrees": [
+          8
+        ],
+        "divided_differences": 81,
+        "zero_differences": 58,
+        "duplicate_paths": 6,
+        "frontier_sizes": {
+          "8": [
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            3,
+            3,
+            4
+          ]
+        },
+        "max_frontier": 4,
+        "output_terms": 4
+      }
+    },
+    {
+      "source_id": "E7/P1/row6",
+      "kind": "E7",
+      "parabolic": 1,
+      "name": "e5",
+      "coefficients_match": true,
+      "output_terms": 5,
+      "coefficient_positions_checked": 5,
+      "seconds": 0.196,
+      "algorithm_stats": {
+        "input_monomials": 2061,
+        "homogeneous_degrees": [
+          10
+        ],
+        "divided_differences": 123,
+        "zero_differences": 83,
+        "duplicate_paths": 14,
+        "frontier_sizes": {
+          "10": [
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            3,
+            3,
+            4,
+            4,
+            5
+          ]
+        },
+        "max_frontier": 5,
+        "output_terms": 5
+      }
+    },
+    {
+      "source_id": "E7/P1/row7",
+      "kind": "E7",
+      "parabolic": 1,
+      "name": "e6",
+      "coefficients_match": true,
+      "output_terms": 6,
+      "coefficient_positions_checked": 6,
+      "seconds": 0.577,
+      "algorithm_stats": {
+        "input_monomials": 3018,
+        "homogeneous_degrees": [
+          12
+        ],
+        "divided_differences": 174,
+        "zero_differences": 112,
+        "duplicate_paths": 25,
+        "frontier_sizes": {
+          "12": [
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            3,
+            3,
+            4,
+            4,
+            5,
+            5,
+            6
+          ]
+        },
+        "max_frontier": 6,
+        "output_terms": 6
+      }
+    },
+    {
+      "source_id": "E7/P1/row8",
+      "kind": "E7",
+      "parabolic": 1,
+      "name": "euler",
+      "coefficients_match": true,
+      "output_terms": 3,
+      "coefficient_positions_checked": 3,
+      "seconds": 0.027,
+      "algorithm_stats": {
+        "input_monomials": 147,
+        "homogeneous_degrees": [
+          6
+        ],
+        "divided_differences": 48,
+        "zero_differences": 36,
+        "duplicate_paths": 2,
+        "frontier_sizes": {
+          "6": [
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            3
+          ]
+        },
+        "max_frontier": 3,
+        "output_terms": 3
+      }
+    },
+    {
+      "source_id": "E7/P2/row1",
+      "kind": "E7",
+      "parabolic": 2,
+      "name": "e1",
+      "coefficients_match": true,
+      "output_terms": 1,
+      "coefficient_positions_checked": 1,
+      "seconds": 0.003,
+      "algorithm_stats": {
+        "input_monomials": 1,
+        "homogeneous_degrees": [
+          1
+        ],
+        "divided_differences": 7,
+        "zero_differences": 6,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "1": [
+            1,
+            1
+          ]
+        },
+        "max_frontier": 1,
+        "output_terms": 1
+      }
+    },
+    {
+      "source_id": "E7/P2/row2",
+      "kind": "E7",
+      "parabolic": 2,
+      "name": "e2",
+      "coefficients_match": true,
+      "output_terms": 1,
+      "coefficient_positions_checked": 1,
+      "seconds": 0.004,
+      "algorithm_stats": {
+        "input_monomials": 13,
+        "homogeneous_degrees": [
+          2
+        ],
+        "divided_differences": 13,
+        "zero_differences": 11,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "2": [
+            1,
+            1,
+            1
+          ]
+        },
+        "max_frontier": 1,
+        "output_terms": 1
+      }
+    },
+    {
+      "source_id": "E7/P2/row3",
+      "kind": "E7",
+      "parabolic": 2,
+      "name": "e3",
+      "coefficients_match": true,
+      "output_terms": 2,
+      "coefficient_positions_checked": 2,
+      "seconds": 0.008,
+      "algorithm_stats": {
+        "input_monomials": 23,
+        "homogeneous_degrees": [
+          3
+        ],
+        "divided_differences": 19,
+        "zero_differences": 15,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "3": [
+            1,
+            1,
+            1,
+            2
+          ]
+        },
+        "max_frontier": 2,
+        "output_terms": 2
+      }
+    },
+    {
+      "source_id": "E7/P2/row4",
+      "kind": "E7",
+      "parabolic": 2,
+      "name": "e4",
+      "coefficients_match": true,
+      "output_terms": 3,
+      "coefficient_positions_checked": 3,
+      "seconds": 0.017,
+      "algorithm_stats": {
+        "input_monomials": 67,
+        "homogeneous_degrees": [
+          4
+        ],
+        "divided_differences": 31,
+        "zero_differences": 23,
+        "duplicate_paths": 1,
+        "frontier_sizes": {
+          "4": [
+            1,
+            1,
+            1,
+            2,
+            3
+          ]
+        },
+        "max_frontier": 3,
+        "output_terms": 3
+      }
+    },
+    {
+      "source_id": "E7/P2/row5",
+      "kind": "E7",
+      "parabolic": 2,
+      "name": "e5",
+      "coefficients_match": true,
+      "output_terms": 4,
+      "coefficient_positions_checked": 4,
+      "seconds": 0.029,
+      "algorithm_stats": {
+        "input_monomials": 113,
+        "homogeneous_degrees": [
+          5
+        ],
+        "divided_differences": 48,
+        "zero_differences": 34,
+        "duplicate_paths": 3,
+        "frontier_sizes": {
+          "5": [
+            1,
+            1,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "max_frontier": 4,
+        "output_terms": 4
+      }
+    },
+    {
+      "source_id": "E7/P2/row6",
+      "kind": "E7",
+      "parabolic": 2,
+      "name": "e6",
+      "coefficients_match": true,
+      "output_terms": 5,
+      "coefficient_positions_checked": 5,
+      "seconds": 0.038,
+      "algorithm_stats": {
+        "input_monomials": 157,
+        "homogeneous_degrees": [
+          6
+        ],
+        "divided_differences": 70,
+        "zero_differences": 47,
+        "duplicate_paths": 7,
+        "frontier_sizes": {
+          "6": [
+            1,
+            1,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "max_frontier": 5,
+        "output_terms": 5
+      }
+    },
+    {
+      "source_id": "E7/P2/row7",
+      "kind": "E7",
+      "parabolic": 2,
+      "name": "e7",
+      "coefficients_match": true,
+      "output_terms": 7,
+      "coefficient_positions_checked": 7,
+      "seconds": 0.064,
+      "algorithm_stats": {
+        "input_monomials": 219,
+        "homogeneous_degrees": [
+          7
+        ],
+        "divided_differences": 96,
+        "zero_differences": 60,
+        "duplicate_paths": 13,
+        "frontier_sizes": {
+          "7": [
+            1,
+            1,
+            1,
+            2,
+            3,
+            4,
+            5,
+            7
+          ]
+        },
+        "max_frontier": 7,
+        "output_terms": 7
+      }
+    },
+    {
+      "source_id": "E7/P3/row1",
+      "kind": "E7",
+      "parabolic": 3,
+      "name": "e1_y1_y2",
+      "coefficients_match": true,
+      "output_terms": 1,
+      "coefficient_positions_checked": 1,
+      "seconds": 0.002,
+      "algorithm_stats": {
+        "input_monomials": 1,
+        "homogeneous_degrees": [
+          1
+        ],
+        "divided_differences": 7,
+        "zero_differences": 6,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "1": [
+            1,
+            1
+          ]
+        },
+        "max_frontier": 1,
+        "output_terms": 1
+      }
+    },
+    {
+      "source_id": "E7/P3/row2",
+      "kind": "E7",
+      "parabolic": 3,
+      "name": "e2_y1_y2",
+      "coefficients_match": true,
+      "output_terms": 2,
+      "coefficient_positions_checked": 2,
+      "seconds": 0.007,
+      "algorithm_stats": {
+        "input_monomials": 3,
+        "homogeneous_degrees": [
+          2
+        ],
+        "divided_differences": 13,
+        "zero_differences": 10,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "2": [
+            1,
+            1,
+            2
+          ]
+        },
+        "max_frontier": 2,
+        "output_terms": 2
+      }
+    },
+    {
+      "source_id": "E7/P3/row3",
+      "kind": "E7",
+      "parabolic": 3,
+      "name": "e1_y3_y4_y5_y6_y7_y8",
+      "coefficients_match": true,
+      "output_terms": 1,
+      "coefficient_positions_checked": 1,
+      "seconds": 0.002,
+      "algorithm_stats": {
+        "input_monomials": 1,
+        "homogeneous_degrees": [
+          1
+        ],
+        "divided_differences": 7,
+        "zero_differences": 6,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "1": [
+            1,
+            1
+          ]
+        },
+        "max_frontier": 1,
+        "output_terms": 1
+      }
+    },
+    {
+      "source_id": "E7/P3/row4",
+      "kind": "E7",
+      "parabolic": 3,
+      "name": "e2_y3_y4_y5_y6_y7_y8",
+      "coefficients_match": true,
+      "output_terms": 2,
+      "coefficient_positions_checked": 2,
+      "seconds": 0.006,
+      "algorithm_stats": {
+        "input_monomials": 11,
+        "homogeneous_degrees": [
+          2
+        ],
+        "divided_differences": 13,
+        "zero_differences": 10,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "2": [
+            1,
+            1,
+            2
+          ]
+        },
+        "max_frontier": 2,
+        "output_terms": 2
+      }
+    },
+    {
+      "source_id": "E7/P3/row5",
+      "kind": "E7",
+      "parabolic": 3,
+      "name": "e3",
+      "coefficients_match": true,
+      "output_terms": 3,
+      "coefficient_positions_checked": 3,
+      "seconds": 0.013,
+      "algorithm_stats": {
+        "input_monomials": 17,
+        "homogeneous_degrees": [
+          3
+        ],
+        "divided_differences": 25,
+        "zero_differences": 18,
+        "duplicate_paths": 1,
+        "frontier_sizes": {
+          "3": [
+            1,
+            1,
+            2,
+            3
+          ]
+        },
+        "max_frontier": 3,
+        "output_terms": 3
+      }
+    },
+    {
+      "source_id": "E7/P3/row6",
+      "kind": "E7",
+      "parabolic": 3,
+      "name": "e4",
+      "coefficients_match": true,
+      "output_terms": 5,
+      "coefficient_positions_checked": 5,
+      "seconds": 0.032,
+      "algorithm_stats": {
+        "input_monomials": 47,
+        "homogeneous_degrees": [
+          4
+        ],
+        "divided_differences": 42,
+        "zero_differences": 27,
+        "duplicate_paths": 4,
+        "frontier_sizes": {
+          "4": [
+            1,
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        "max_frontier": 5,
+        "output_terms": 5
+      }
+    },
+    {
+      "source_id": "E7/P3/row7",
+      "kind": "E7",
+      "parabolic": 3,
+      "name": "e5",
+      "coefficients_match": true,
+      "output_terms": 7,
+      "coefficient_positions_checked": 7,
+      "seconds": 0.055,
+      "algorithm_stats": {
+        "input_monomials": 73,
+        "homogeneous_degrees": [
+          5
+        ],
+        "divided_differences": 69,
+        "zero_differences": 41,
+        "duplicate_paths": 10,
+        "frontier_sizes": {
+          "5": [
+            1,
+            1,
+            2,
+            3,
+            5,
+            7
+          ]
+        },
+        "max_frontier": 7,
+        "output_terms": 7
+      }
+    },
+    {
+      "source_id": "E7/P3/row8",
+      "kind": "E7",
+      "parabolic": 3,
+      "name": "e6",
+      "coefficients_match": true,
+      "output_terms": 10,
+      "coefficient_positions_checked": 10,
+      "seconds": 0.083,
+      "algorithm_stats": {
+        "input_monomials": 89,
+        "homogeneous_degrees": [
+          6
+        ],
+        "divided_differences": 105,
+        "zero_differences": 58,
+        "duplicate_paths": 19,
+        "frontier_sizes": {
+          "6": [
+            1,
+            1,
+            2,
+            3,
+            5,
+            7,
+            10
+          ]
+        },
+        "max_frontier": 10,
+        "output_terms": 10
+      }
+    },
+    {
+      "source_id": "E7/P4/row1",
+      "kind": "E7",
+      "parabolic": 4,
+      "name": "e1_y1_y2_y3",
+      "coefficients_match": true,
+      "output_terms": 1,
+      "coefficient_positions_checked": 1,
+      "seconds": 0.003,
+      "algorithm_stats": {
+        "input_monomials": 1,
+        "homogeneous_degrees": [
+          1
+        ],
+        "divided_differences": 7,
+        "zero_differences": 6,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "1": [
+            1,
+            1
+          ]
+        },
+        "max_frontier": 1,
+        "output_terms": 1
+      }
+    },
+    {
+      "source_id": "E7/P4/row2",
+      "kind": "E7",
+      "parabolic": 4,
+      "name": "e2_y1_y2_y3",
+      "coefficients_match": true,
+      "output_terms": 3,
+      "coefficient_positions_checked": 3,
+      "seconds": 0.014,
+      "algorithm_stats": {
+        "input_monomials": 5,
+        "homogeneous_degrees": [
+          2
+        ],
+        "divided_differences": 13,
+        "zero_differences": 9,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "2": [
+            1,
+            1,
+            3
+          ]
+        },
+        "max_frontier": 3,
+        "output_terms": 3
+      }
+    },
+    {
+      "source_id": "E7/P4/row3",
+      "kind": "E7",
+      "parabolic": 4,
+      "name": "e3_y1_y2_y3",
+      "coefficients_match": true,
+      "output_terms": 5,
+      "coefficient_positions_checked": 5,
+      "seconds": 0.017,
+      "algorithm_stats": {
+        "input_monomials": 7,
+        "homogeneous_degrees": [
+          3
+        ],
+        "divided_differences": 31,
+        "zero_differences": 19,
+        "duplicate_paths": 3,
+        "frontier_sizes": {
+          "3": [
+            1,
+            1,
+            3,
+            5
+          ]
+        },
+        "max_frontier": 5,
+        "output_terms": 5
+      }
+    },
+    {
+      "source_id": "E7/P4/row4",
+      "kind": "E7",
+      "parabolic": 4,
+      "name": "e1_y4_y5_y6_y7",
+      "coefficients_match": true,
+      "output_terms": 1,
+      "coefficient_positions_checked": 1,
+      "seconds": 0.002,
+      "algorithm_stats": {
+        "input_monomials": 1,
+        "homogeneous_degrees": [
+          1
+        ],
+        "divided_differences": 7,
+        "zero_differences": 6,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "1": [
+            1,
+            1
+          ]
+        },
+        "max_frontier": 1,
+        "output_terms": 1
+      }
+    },
+    {
+      "source_id": "E7/P4/row5",
+      "kind": "E7",
+      "parabolic": 4,
+      "name": "e2_y4_y5_y6_y7",
+      "coefficients_match": true,
+      "output_terms": 3,
+      "coefficient_positions_checked": 3,
+      "seconds": 0.009,
+      "algorithm_stats": {
+        "input_monomials": 7,
+        "homogeneous_degrees": [
+          2
+        ],
+        "divided_differences": 13,
+        "zero_differences": 9,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "2": [
+            1,
+            1,
+            3
+          ]
+        },
+        "max_frontier": 3,
+        "output_terms": 3
+      }
+    },
+    {
+      "source_id": "E7/P4/row6",
+      "kind": "E7",
+      "parabolic": 4,
+      "name": "e3_y4_y5_y6_y7",
+      "coefficients_match": true,
+      "output_terms": 5,
+      "coefficient_positions_checked": 5,
+      "seconds": 0.02,
+      "algorithm_stats": {
+        "input_monomials": 11,
+        "homogeneous_degrees": [
+          3
+        ],
+        "divided_differences": 31,
+        "zero_differences": 19,
+        "duplicate_paths": 3,
+        "frontier_sizes": {
+          "3": [
+            1,
+            1,
+            3,
+            5
+          ]
+        },
+        "max_frontier": 5,
+        "output_terms": 5
+      }
+    },
+    {
+      "source_id": "E7/P4/row7",
+      "kind": "E7",
+      "parabolic": 4,
+      "name": "e4",
+      "coefficients_match": true,
+      "output_terms": 9,
+      "coefficient_positions_checked": 9,
+      "seconds": 0.049,
+      "algorithm_stats": {
+        "input_monomials": 17,
+        "homogeneous_degrees": [
+          4
+        ],
+        "divided_differences": 58,
+        "zero_differences": 31,
+        "duplicate_paths": 9,
+        "frontier_sizes": {
+          "4": [
+            1,
+            1,
+            3,
+            5,
+            9
+          ]
+        },
+        "max_frontier": 9,
+        "output_terms": 9
+      }
+    },
+    {
+      "source_id": "E7/P4/row8",
+      "kind": "E7",
+      "parabolic": 4,
+      "name": "e1_y8_y9",
+      "coefficients_match": true,
+      "output_terms": 1,
+      "coefficient_positions_checked": 1,
+      "seconds": 0.002,
+      "algorithm_stats": {
+        "input_monomials": 1,
+        "homogeneous_degrees": [
+          1
+        ],
+        "divided_differences": 7,
+        "zero_differences": 6,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "1": [
+            1,
+            1
+          ]
+        },
+        "max_frontier": 1,
+        "output_terms": 1
+      }
+    },
+    {
+      "source_id": "E7/P4/row9",
+      "kind": "E7",
+      "parabolic": 4,
+      "name": "e2_y8_y9",
+      "coefficients_match": true,
+      "output_terms": 3,
+      "coefficient_positions_checked": 3,
+      "seconds": 0.013,
+      "algorithm_stats": {
+        "input_monomials": 3,
+        "homogeneous_degrees": [
+          2
+        ],
+        "divided_differences": 13,
+        "zero_differences": 9,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "2": [
+            1,
+            1,
+            3
+          ]
+        },
+        "max_frontier": 3,
+        "output_terms": 3
+      }
+    },
+    {
+      "source_id": "E7/P5/row1",
+      "kind": "E7",
+      "parabolic": 5,
+      "name": "e1_y1_y2_y3_y4_y5",
+      "coefficients_match": true,
+      "output_terms": 1,
+      "coefficient_positions_checked": 1,
+      "seconds": 0.003,
+      "algorithm_stats": {
+        "input_monomials": 1,
+        "homogeneous_degrees": [
+          1
+        ],
+        "divided_differences": 7,
+        "zero_differences": 6,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "1": [
+            1,
+            1
+          ]
+        },
+        "max_frontier": 1,
+        "output_terms": 1
+      }
+    },
+    {
+      "source_id": "E7/P5/row2",
+      "kind": "E7",
+      "parabolic": 5,
+      "name": "e2_y1_y2_y3_y4_y5",
+      "coefficients_match": true,
+      "output_terms": 2,
+      "coefficient_positions_checked": 2,
+      "seconds": 0.006,
+      "algorithm_stats": {
+        "input_monomials": 9,
+        "homogeneous_degrees": [
+          2
+        ],
+        "divided_differences": 13,
+        "zero_differences": 10,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "2": [
+            1,
+            1,
+            2
+          ]
+        },
+        "max_frontier": 2,
+        "output_terms": 2
+      }
+    },
+    {
+      "source_id": "E7/P5/row3",
+      "kind": "E7",
+      "parabolic": 5,
+      "name": "e3_y1_y2_y3_y4_y5",
+      "coefficients_match": true,
+      "output_terms": 4,
+      "coefficient_positions_checked": 4,
+      "seconds": 0.016,
+      "algorithm_stats": {
+        "input_monomials": 13,
+        "homogeneous_degrees": [
+          3
+        ],
+        "divided_differences": 25,
+        "zero_differences": 17,
+        "duplicate_paths": 1,
+        "frontier_sizes": {
+          "3": [
+            1,
+            1,
+            2,
+            4
+          ]
+        },
+        "max_frontier": 4,
+        "output_terms": 4
+      }
+    },
+    {
+      "source_id": "E7/P5/row4",
+      "kind": "E7",
+      "parabolic": 5,
+      "name": "e4",
+      "coefficients_match": true,
+      "output_terms": 6,
+      "coefficient_positions_checked": 6,
+      "seconds": 0.03,
+      "algorithm_stats": {
+        "input_monomials": 25,
+        "homogeneous_degrees": [
+          4
+        ],
+        "divided_differences": 48,
+        "zero_differences": 30,
+        "duplicate_paths": 5,
+        "frontier_sizes": {
+          "4": [
+            1,
+            1,
+            2,
+            4,
+            6
+          ]
+        },
+        "max_frontier": 6,
+        "output_terms": 6
+      }
+    },
+    {
+      "source_id": "E7/P5/row5",
+      "kind": "E7",
+      "parabolic": 5,
+      "name": "e5",
+      "coefficients_match": true,
+      "output_terms": 9,
+      "coefficient_positions_checked": 9,
+      "seconds": 0.05,
+      "algorithm_stats": {
+        "input_monomials": 37,
+        "homogeneous_degrees": [
+          5
+        ],
+        "divided_differences": 80,
+        "zero_differences": 44,
+        "duplicate_paths": 14,
+        "frontier_sizes": {
+          "5": [
+            1,
+            1,
+            2,
+            4,
+            6,
+            9
+          ]
+        },
+        "max_frontier": 9,
+        "output_terms": 9
+      }
+    },
+    {
+      "source_id": "E7/P5/row6",
+      "kind": "E7",
+      "parabolic": 5,
+      "name": "e1_y6_y7_y8",
+      "coefficients_match": true,
+      "output_terms": 1,
+      "coefficient_positions_checked": 1,
+      "seconds": 0.002,
+      "algorithm_stats": {
+        "input_monomials": 1,
+        "homogeneous_degrees": [
+          1
+        ],
+        "divided_differences": 7,
+        "zero_differences": 6,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "1": [
+            1,
+            1
+          ]
+        },
+        "max_frontier": 1,
+        "output_terms": 1
+      }
+    },
+    {
+      "source_id": "E7/P5/row7",
+      "kind": "E7",
+      "parabolic": 5,
+      "name": "e2_y6_y7_y8",
+      "coefficients_match": true,
+      "output_terms": 2,
+      "coefficient_positions_checked": 2,
+      "seconds": 0.005,
+      "algorithm_stats": {
+        "input_monomials": 5,
+        "homogeneous_degrees": [
+          2
+        ],
+        "divided_differences": 13,
+        "zero_differences": 10,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "2": [
+            1,
+            1,
+            2
+          ]
+        },
+        "max_frontier": 2,
+        "output_terms": 2
+      }
+    },
+    {
+      "source_id": "E7/P5/row8",
+      "kind": "E7",
+      "parabolic": 5,
+      "name": "e3_y6_y7_y8",
+      "coefficients_match": true,
+      "output_terms": 4,
+      "coefficient_positions_checked": 4,
+      "seconds": 0.017,
+      "algorithm_stats": {
+        "input_monomials": 7,
+        "homogeneous_degrees": [
+          3
+        ],
+        "divided_differences": 25,
+        "zero_differences": 17,
+        "duplicate_paths": 1,
+        "frontier_sizes": {
+          "3": [
+            1,
+            1,
+            2,
+            4
+          ]
+        },
+        "max_frontier": 4,
+        "output_terms": 4
+      }
+    },
+    {
+      "source_id": "E7/P6/row1",
+      "kind": "E7",
+      "parabolic": 6,
+      "name": "e1_squared_y1_y2_y3_y4_y5",
+      "coefficients_match": true,
+      "output_terms": 2,
+      "coefficient_positions_checked": 2,
+      "seconds": 0.007,
+      "algorithm_stats": {
+        "input_monomials": 11,
+        "homogeneous_degrees": [
+          2
+        ],
+        "divided_differences": 13,
+        "zero_differences": 10,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "2": [
+            1,
+            1,
+            2
+          ]
+        },
+        "max_frontier": 2,
+        "output_terms": 2
+      }
+    },
+    {
+      "source_id": "E7/P6/row2",
+      "kind": "E7",
+      "parabolic": 6,
+      "name": "e2_squared_y1_y2_y3_y4_y5",
+      "coefficients_match": true,
+      "output_terms": 4,
+      "coefficient_positions_checked": 4,
+      "seconds": 0.018,
+      "algorithm_stats": {
+        "input_monomials": 67,
+        "homogeneous_degrees": [
+          4
+        ],
+        "divided_differences": 36,
+        "zero_differences": 25,
+        "duplicate_paths": 2,
+        "frontier_sizes": {
+          "4": [
+            1,
+            1,
+            2,
+            2,
+            4
+          ]
+        },
+        "max_frontier": 4,
+        "output_terms": 4
+      }
+    },
+    {
+      "source_id": "E7/P6/row3",
+      "kind": "E7",
+      "parabolic": 6,
+      "name": "e3",
+      "coefficients_match": true,
+      "output_terms": 7,
+      "coefficient_positions_checked": 7,
+      "seconds": 0.067,
+      "algorithm_stats": {
+        "input_monomials": 221,
+        "homogeneous_degrees": [
+          6
+        ],
+        "divided_differences": 85,
+        "zero_differences": 52,
+        "duplicate_paths": 12,
+        "frontier_sizes": {
+          "6": [
+            1,
+            1,
+            2,
+            2,
+            4,
+            5,
+            7
+          ]
+        },
+        "max_frontier": 7,
+        "output_terms": 7
+      }
+    },
+    {
+      "source_id": "E7/P6/row4",
+      "kind": "E7",
+      "parabolic": 6,
+      "name": "e4",
+      "coefficients_match": true,
+      "output_terms": 11,
+      "coefficient_positions_checked": 11,
+      "seconds": 0.122,
+      "algorithm_stats": {
+        "input_monomials": 462,
+        "homogeneous_degrees": [
+          8
+        ],
+        "divided_differences": 160,
+        "zero_differences": 89,
+        "duplicate_paths": 31,
+        "frontier_sizes": {
+          "8": [
+            1,
+            1,
+            2,
+            2,
+            4,
+            5,
+            7,
+            8,
+            11
+          ]
+        },
+        "max_frontier": 11,
+        "output_terms": 11
+      }
+    },
+    {
+      "source_id": "E7/P6/row5",
+      "kind": "E7",
+      "parabolic": 6,
+      "name": "e5",
+      "coefficients_match": true,
+      "output_terms": 16,
+      "coefficient_positions_checked": 16,
+      "seconds": 0.295,
+      "algorithm_stats": {
+        "input_monomials": 742,
+        "homogeneous_degrees": [
+          10
+        ],
+        "divided_differences": 284,
+        "zero_differences": 160,
+        "duplicate_paths": 55,
+        "frontier_sizes": {
+          "10": [
+            1,
+            1,
+            2,
+            2,
+            4,
+            5,
+            7,
+            8,
+            11,
+            13,
+            16
+          ]
+        },
+        "max_frontier": 16,
+        "output_terms": 16
+      }
+    },
+    {
+      "source_id": "E7/P6/row6",
+      "kind": "E7",
+      "parabolic": 6,
+      "name": "euler",
+      "coefficients_match": true,
+      "output_terms": 5,
+      "coefficient_positions_checked": 5,
+      "seconds": 0.04,
+      "algorithm_stats": {
+        "input_monomials": 61,
+        "homogeneous_degrees": [
+          5
+        ],
+        "divided_differences": 59,
+        "zero_differences": 39,
+        "duplicate_paths": 6,
+        "frontier_sizes": {
+          "5": [
+            1,
+            1,
+            2,
+            2,
+            4,
+            5
+          ]
+        },
+        "max_frontier": 5,
+        "output_terms": 5
+      }
+    },
+    {
+      "source_id": "E7/P6/row7",
+      "kind": "E7",
+      "parabolic": 6,
+      "name": "e1_y6_y7",
+      "coefficients_match": true,
+      "output_terms": 1,
+      "coefficient_positions_checked": 1,
+      "seconds": 0.002,
+      "algorithm_stats": {
+        "input_monomials": 1,
+        "homogeneous_degrees": [
+          1
+        ],
+        "divided_differences": 7,
+        "zero_differences": 6,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "1": [
+            1,
+            1
+          ]
+        },
+        "max_frontier": 1,
+        "output_terms": 1
+      }
+    },
+    {
+      "source_id": "E7/P6/row8",
+      "kind": "E7",
+      "parabolic": 6,
+      "name": "e2_y6_y7",
+      "coefficients_match": true,
+      "output_terms": 2,
+      "coefficient_positions_checked": 2,
+      "seconds": 0.005,
+      "algorithm_stats": {
+        "input_monomials": 3,
+        "homogeneous_degrees": [
+          2
+        ],
+        "divided_differences": 13,
+        "zero_differences": 10,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "2": [
+            1,
+            1,
+            2
+          ]
+        },
+        "max_frontier": 2,
+        "output_terms": 2
+      }
+    },
+    {
+      "source_id": "E7/P7/row1",
+      "kind": "E7",
+      "parabolic": 7,
+      "name": "psi2",
+      "coefficients_match": true,
+      "output_terms": 1,
+      "coefficient_positions_checked": 1,
+      "seconds": 0.004,
+      "algorithm_stats": {
+        "input_monomials": 13,
+        "homogeneous_degrees": [
+          2
+        ],
+        "divided_differences": 13,
+        "zero_differences": 11,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "2": [
+            1,
+            1,
+            1
+          ]
+        },
+        "max_frontier": 1,
+        "output_terms": 1
+      }
+    },
+    {
+      "source_id": "E7/P7/row2",
+      "kind": "E7",
+      "parabolic": 7,
+      "name": "psi5",
+      "coefficients_match": true,
+      "output_terms": 2,
+      "coefficient_positions_checked": 2,
+      "seconds": 0.011,
+      "algorithm_stats": {
+        "input_monomials": 109,
+        "homogeneous_degrees": [
+          5
+        ],
+        "divided_differences": 31,
+        "zero_differences": 25,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "5": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            2
+          ]
+        },
+        "max_frontier": 2,
+        "output_terms": 2
+      }
+    },
+    {
+      "source_id": "E7/P7/row3",
+      "kind": "E7",
+      "parabolic": 7,
+      "name": "psi6",
+      "coefficients_match": true,
+      "output_terms": 2,
+      "coefficient_positions_checked": 2,
+      "seconds": 0.018,
+      "algorithm_stats": {
+        "input_monomials": 353,
+        "homogeneous_degrees": [
+          6
+        ],
+        "divided_differences": 43,
+        "zero_differences": 34,
+        "duplicate_paths": 1,
+        "frontier_sizes": {
+          "6": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            2
+          ]
+        },
+        "max_frontier": 2,
+        "output_terms": 2
+      }
+    },
+    {
+      "source_id": "E7/P7/row4",
+      "kind": "E7",
+      "parabolic": 7,
+      "name": "psi8",
+      "coefficients_match": true,
+      "output_terms": 2,
+      "coefficient_positions_checked": 2,
+      "seconds": 0.05,
+      "algorithm_stats": {
+        "input_monomials": 1033,
+        "homogeneous_degrees": [
+          8
+        ],
+        "divided_differences": 65,
+        "zero_differences": 50,
+        "duplicate_paths": 3,
+        "frontier_sizes": {
+          "8": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        "max_frontier": 2,
+        "output_terms": 2
+      }
+    },
+    {
+      "source_id": "E7/P7/row5",
+      "kind": "E7",
+      "parabolic": 7,
+      "name": "psi9",
+      "coefficients_match": true,
+      "output_terms": 3,
+      "coefficient_positions_checked": 3,
+      "seconds": 0.092,
+      "algorithm_stats": {
+        "input_monomials": 1427,
+        "homogeneous_degrees": [
+          9
+        ],
+        "divided_differences": 76,
+        "zero_differences": 57,
+        "duplicate_paths": 4,
+        "frontier_sizes": {
+          "9": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            2,
+            2,
+            3
+          ]
+        },
+        "max_frontier": 3,
+        "output_terms": 3
+      }
+    },
+    {
+      "source_id": "E7/P7/row6",
+      "kind": "E7",
+      "parabolic": 7,
+      "name": "psi12",
+      "coefficients_match": true,
+      "output_terms": 3,
+      "coefficient_positions_checked": 3,
+      "seconds": 0.91,
+      "algorithm_stats": {
+        "input_monomials": 4893,
+        "homogeneous_degrees": [
+          12
+        ],
+        "divided_differences": 125,
+        "zero_differences": 91,
+        "duplicate_paths": 10,
+        "frontier_sizes": {
+          "12": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            2,
+            2,
+            3,
+            3,
+            3,
+            3
+          ]
+        },
+        "max_frontier": 3,
+        "output_terms": 3
+      }
+    },
+    {
+      "source_id": "E7/P7/row7",
+      "kind": "E7",
+      "parabolic": 7,
+      "name": "omega7",
+      "coefficients_match": true,
+      "output_terms": 1,
+      "coefficient_positions_checked": 1,
+      "seconds": 0.002,
+      "algorithm_stats": {
+        "input_monomials": 1,
+        "homogeneous_degrees": [
+          1
+        ],
+        "divided_differences": 7,
+        "zero_differences": 6,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "1": [
+            1,
+            1
+          ]
+        },
+        "max_frontier": 1,
+        "output_terms": 1
+      }
+    },
+    {
+      "source_id": "E6/P6/omitted_euler_product",
+      "kind": "E6",
+      "parabolic": 6,
+      "name": "euler",
+      "coefficients_match": true,
+      "output_terms": 2,
+      "coefficient_positions_checked": 2,
+      "seconds": 0.012,
+      "algorithm_stats": {
+        "input_monomials": 61,
+        "homogeneous_degrees": [
+          5
+        ],
+        "divided_differences": 31,
+        "zero_differences": 23,
+        "duplicate_paths": 1,
+        "frontier_sizes": {
+          "5": [
+            1,
+            1,
+            1,
+            1,
+            2,
+            2
+          ]
+        },
+        "max_frontier": 2,
+        "output_terms": 2
+      }
+    },
+    {
+      "source_id": "Xie/E8/P1/linear",
+      "kind": "E8",
+      "parabolic": 1,
+      "name": "y1",
+      "coefficients_match": true,
+      "output_terms": 1,
+      "coefficient_positions_checked": 1,
+      "seconds": 0.003,
+      "algorithm_stats": {
+        "input_monomials": 1,
+        "homogeneous_degrees": [
+          1
+        ],
+        "divided_differences": 8,
+        "zero_differences": 7,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "1": [
+            1,
+            1
+          ]
+        },
+        "max_frontier": 1,
+        "output_terms": 1
+      }
+    },
+    {
+      "source_id": "Xie/E8/P1/e1",
+      "kind": "E8",
+      "parabolic": 1,
+      "name": "e1",
+      "coefficients_match": true,
+      "output_terms": 1,
+      "coefficient_positions_checked": 1,
+      "seconds": 0.004,
+      "algorithm_stats": {
+        "input_monomials": 15,
+        "homogeneous_degrees": [
+          2
+        ],
+        "divided_differences": 15,
+        "zero_differences": 13,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "2": [
+            1,
+            1,
+            1
+          ]
+        },
+        "max_frontier": 1,
+        "output_terms": 1
+      }
+    },
+    {
+      "source_id": "Xie/E8/P1/e2",
+      "kind": "E8",
+      "parabolic": 1,
+      "name": "e2",
+      "coefficients_match": true,
+      "output_terms": 2,
+      "coefficient_positions_checked": 2,
+      "seconds": 0.011,
+      "algorithm_stats": {
+        "input_monomials": 123,
+        "homogeneous_degrees": [
+          4
+        ],
+        "divided_differences": 29,
+        "zero_differences": 24,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "4": [
+            1,
+            1,
+            1,
+            1,
+            2
+          ]
+        },
+        "max_frontier": 2,
+        "output_terms": 2
+      }
+    },
+    {
+      "source_id": "Xie/E8/P1/e3",
+      "kind": "E8",
+      "parabolic": 1,
+      "name": "e3",
+      "coefficients_match": true,
+      "output_terms": 3,
+      "coefficient_positions_checked": 3,
+      "seconds": 0.036,
+      "algorithm_stats": {
+        "input_monomials": 629,
+        "homogeneous_degrees": [
+          6
+        ],
+        "divided_differences": 56,
+        "zero_differences": 44,
+        "duplicate_paths": 2,
+        "frontier_sizes": {
+          "6": [
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            3
+          ]
+        },
+        "max_frontier": 3,
+        "output_terms": 3
+      }
+    },
+    {
+      "source_id": "Xie/E8/P1/e4",
+      "kind": "E8",
+      "parabolic": 1,
+      "name": "e4",
+      "coefficients_match": true,
+      "output_terms": 5,
+      "coefficient_positions_checked": 5,
+      "seconds": 0.157,
+      "algorithm_stats": {
+        "input_monomials": 2198,
+        "homogeneous_degrees": [
+          8
+        ],
+        "divided_differences": 102,
+        "zero_differences": 76,
+        "duplicate_paths": 7,
+        "frontier_sizes": {
+          "8": [
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "max_frontier": 5,
+        "output_terms": 5
+      }
+    },
+    {
+      "source_id": "Xie/E8/P2/e1",
+      "kind": "E8",
+      "parabolic": 2,
+      "name": "e1",
+      "coefficients_match": true,
+      "output_terms": 1,
+      "coefficient_positions_checked": 1,
+      "seconds": 0.003,
+      "algorithm_stats": {
+        "input_monomials": 1,
+        "homogeneous_degrees": [
+          1
+        ],
+        "divided_differences": 8,
+        "zero_differences": 7,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "1": [
+            1,
+            1
+          ]
+        },
+        "max_frontier": 1,
+        "output_terms": 1
+      }
+    },
+    {
+      "source_id": "Xie/E8/P2/e2",
+      "kind": "E8",
+      "parabolic": 2,
+      "name": "e2",
+      "coefficients_match": true,
+      "output_terms": 1,
+      "coefficient_positions_checked": 1,
+      "seconds": 0.004,
+      "algorithm_stats": {
+        "input_monomials": 15,
+        "homogeneous_degrees": [
+          2
+        ],
+        "divided_differences": 15,
+        "zero_differences": 13,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "2": [
+            1,
+            1,
+            1
+          ]
+        },
+        "max_frontier": 1,
+        "output_terms": 1
+      }
+    },
+    {
+      "source_id": "Xie/E8/P2/e3",
+      "kind": "E8",
+      "parabolic": 2,
+      "name": "e3",
+      "coefficients_match": true,
+      "output_terms": 2,
+      "coefficient_positions_checked": 2,
+      "seconds": 0.009,
+      "algorithm_stats": {
+        "input_monomials": 27,
+        "homogeneous_degrees": [
+          3
+        ],
+        "divided_differences": 22,
+        "zero_differences": 18,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "3": [
+            1,
+            1,
+            1,
+            2
+          ]
+        },
+        "max_frontier": 2,
+        "output_terms": 2
+      }
+    },
+    {
+      "source_id": "Xie/E8/P2/e4",
+      "kind": "E8",
+      "parabolic": 2,
+      "name": "e4",
+      "coefficients_match": true,
+      "output_terms": 3,
+      "coefficient_positions_checked": 3,
+      "seconds": 0.023,
+      "algorithm_stats": {
+        "input_monomials": 93,
+        "homogeneous_degrees": [
+          4
+        ],
+        "divided_differences": 36,
+        "zero_differences": 28,
+        "duplicate_paths": 1,
+        "frontier_sizes": {
+          "4": [
+            1,
+            1,
+            1,
+            2,
+            3
+          ]
+        },
+        "max_frontier": 3,
+        "output_terms": 3
+      }
+    }
+  ],
+  "independent_chevalley": [
+    {
+      "source_id": "F4/P2/row5",
+      "coefficients_match": true,
+      "output_terms": 3,
+      "seconds": 0.304
+    },
+    {
+      "source_id": "E6/P3/row6",
+      "coefficients_match": true,
+      "output_terms": 5,
+      "seconds": 4.825
+    },
+    {
+      "source_id": "E6/P6/row2",
+      "coefficients_match": true,
+      "output_terms": 1,
+      "seconds": 0.2
+    },
+    {
+      "source_id": "E6/P6/row3",
+      "coefficients_match": true,
+      "output_terms": 2,
+      "seconds": 2.487
+    },
+    {
+      "source_id": "E6/P6/omitted_euler_product",
+      "coefficients_match": true,
+      "output_terms": 2,
+      "seconds": 9.989
+    },
+    {
+      "source_id": "G2/P1/row2",
+      "coefficients_match": true,
+      "output_terms": 1,
+      "seconds": 0.014
+    },
+    {
+      "source_id": "E7/P1/row2",
+      "coefficients_match": true,
+      "output_terms": 1,
+      "seconds": 2.569
+    },
+    {
+      "source_id": "Xie/E8/P1/e1",
+      "coefficients_match": true,
+      "output_terms": 1,
+      "seconds": 8.378
+    }
+  ],
+  "frozen_fixture_sha256_normalized_lf": "d3d25de5b3a66f98c7266ba22da7966d0ddb35e252befcdb2360bc0dd143f749"
+}

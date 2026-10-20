@@ -1,0 +1,6259 @@
+{
+  "schema_version": 1,
+  "generated_utc": "2026-10-19T19:37:41.343201+00:00",
+  "sage_version": "9.5",
+  "status": "passed",
+  "scope": "Finite integral Chern/LR corroboration of the all-rank two-row proof; no Borel or Weyl engine.",
+  "normalization": "normalized square-only inputs, polynomial degree is half cohomological degree",
+  "source_sha256": {
+    "experiments/verify_type_d_two_row_smith.py": "a49a5e970c0cf56d926557f67d21cc71584de2ac13da76458e4eb56ded85d455",
+    "TYPE_D_TWO_ROW_SMITH.md": "91dd222ea3331b1df376ca0b6b51526afeb6bc9cd1a2b39ef6c147ee5e859614",
+    "TYPE_B_TWO_ROW_SMITH.md": "84a9cd76a4c4f523862651a057c1bcd3926d4e143642955178b0f10b75832c69"
+  },
+  "degree_checks": [
+    {
+      "a": 2,
+      "k": 1,
+      "polynomial_degree": 0,
+      "source_partitions": [
+        []
+      ],
+      "rank": 1,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 1,
+      "polynomial_degree": 2,
+      "source_partitions": [
+        [
+          1
+        ]
+      ],
+      "rank": 1,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 1,
+      "polynomial_degree": 4,
+      "source_partitions": [
+        [
+          1,
+          1
+        ]
+      ],
+      "rank": 1,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "2"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            4
+          ],
+          "weight_exponent": 1,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 2,
+      "polynomial_degree": 0,
+      "source_partitions": [
+        []
+      ],
+      "rank": 1,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 2,
+      "polynomial_degree": 2,
+      "source_partitions": [
+        [
+          1
+        ]
+      ],
+      "rank": 1,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 2,
+      "polynomial_degree": 4,
+      "source_partitions": [
+        [
+          2
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "rank": 2,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "2"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 2,
+      "polynomial_degree": 6,
+      "source_partitions": [
+        [
+          2,
+          1
+        ]
+      ],
+      "rank": 1,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "2"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            6
+          ],
+          "weight_exponent": 1,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 2,
+      "polynomial_degree": 8,
+      "source_partitions": [
+        [
+          2,
+          2
+        ]
+      ],
+      "rank": 1,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "4"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            6,
+            2
+          ],
+          "weight_exponent": 1,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 1
+    },
+    {
+      "a": 2,
+      "k": 3,
+      "polynomial_degree": 0,
+      "source_partitions": [
+        []
+      ],
+      "rank": 1,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 3,
+      "polynomial_degree": 2,
+      "source_partitions": [
+        [
+          1
+        ]
+      ],
+      "rank": 1,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 3,
+      "polynomial_degree": 4,
+      "source_partitions": [
+        [
+          2
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "rank": 2,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "1"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 3,
+      "polynomial_degree": 6,
+      "source_partitions": [
+        [
+          3
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "rank": 2,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "2"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 3,
+      "polynomial_degree": 8,
+      "source_partitions": [
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "rank": 2,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "2",
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "2",
+        "2"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            8
+          ],
+          "weight_exponent": 1,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 3,
+      "polynomial_degree": 10,
+      "source_partitions": [
+        [
+          3,
+          2
+        ]
+      ],
+      "rank": 1,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "2"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            8,
+            2
+          ],
+          "weight_exponent": 1,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 1
+    },
+    {
+      "a": 2,
+      "k": 3,
+      "polynomial_degree": 12,
+      "source_partitions": [
+        [
+          3,
+          3
+        ]
+      ],
+      "rank": 1,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "4"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            8,
+            4
+          ],
+          "weight_exponent": 2,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 4,
+      "polynomial_degree": 0,
+      "source_partitions": [
+        []
+      ],
+      "rank": 1,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 4,
+      "polynomial_degree": 2,
+      "source_partitions": [
+        [
+          1
+        ]
+      ],
+      "rank": 1,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 4,
+      "polynomial_degree": 4,
+      "source_partitions": [
+        [
+          2
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "rank": 2,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "1"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 4,
+      "polynomial_degree": 6,
+      "source_partitions": [
+        [
+          3
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "rank": 2,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "2"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 4,
+      "polynomial_degree": 8,
+      "source_partitions": [
+        [
+          4
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "rank": 3,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "2",
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "2",
+        "2"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 4,
+      "polynomial_degree": 10,
+      "source_partitions": [
+        [
+          4,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "rank": 2,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "2",
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "2",
+        "2"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            10
+          ],
+          "weight_exponent": 1,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 4,
+      "polynomial_degree": 12,
+      "source_partitions": [
+        [
+          4,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "rank": 2,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "2",
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "2",
+        "4"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            10,
+            2
+          ],
+          "weight_exponent": 1,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 1
+    },
+    {
+      "a": 2,
+      "k": 4,
+      "polynomial_degree": 14,
+      "source_partitions": [
+        [
+          4,
+          3
+        ]
+      ],
+      "rank": 1,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "4"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            10,
+            4
+          ],
+          "weight_exponent": 1,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 2
+    },
+    {
+      "a": 2,
+      "k": 4,
+      "polynomial_degree": 16,
+      "source_partitions": [
+        [
+          4,
+          4
+        ]
+      ],
+      "rank": 1,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "4"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            10,
+            6
+          ],
+          "weight_exponent": 2,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 5,
+      "polynomial_degree": 0,
+      "source_partitions": [
+        []
+      ],
+      "rank": 1,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 5,
+      "polynomial_degree": 2,
+      "source_partitions": [
+        [
+          1
+        ]
+      ],
+      "rank": 1,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 5,
+      "polynomial_degree": 4,
+      "source_partitions": [
+        [
+          2
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "rank": 2,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "1"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 5,
+      "polynomial_degree": 6,
+      "source_partitions": [
+        [
+          3
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "rank": 2,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "1"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 5,
+      "polynomial_degree": 8,
+      "source_partitions": [
+        [
+          4
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "rank": 3,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "1",
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "1",
+        "2"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 5,
+      "polynomial_degree": 10,
+      "source_partitions": [
+        [
+          5
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "rank": 3,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "2",
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "2",
+        "2"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 5,
+      "polynomial_degree": 12,
+      "source_partitions": [
+        [
+          5,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "rank": 3,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "2",
+        "2",
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "2",
+        "2",
+        "2"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            12
+          ],
+          "weight_exponent": 1,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 5,
+      "polynomial_degree": 14,
+      "source_partitions": [
+        [
+          5,
+          2
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "rank": 2,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "2",
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "2",
+        "2"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            12,
+            2
+          ],
+          "weight_exponent": 1,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 1
+    },
+    {
+      "a": 2,
+      "k": 5,
+      "polynomial_degree": 16,
+      "source_partitions": [
+        [
+          5,
+          3
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "rank": 2,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "2",
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "2",
+        "4"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            12,
+            4
+          ],
+          "weight_exponent": 1,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 2
+    },
+    {
+      "a": 2,
+      "k": 5,
+      "polynomial_degree": 18,
+      "source_partitions": [
+        [
+          5,
+          4
+        ]
+      ],
+      "rank": 1,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "4"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            12,
+            6
+          ],
+          "weight_exponent": 2,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 5,
+      "polynomial_degree": 20,
+      "source_partitions": [
+        [
+          5,
+          5
+        ]
+      ],
+      "rank": 1,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "4"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            12,
+            8
+          ],
+          "weight_exponent": 2,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 6,
+      "polynomial_degree": 0,
+      "source_partitions": [
+        []
+      ],
+      "rank": 1,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 6,
+      "polynomial_degree": 2,
+      "source_partitions": [
+        [
+          1
+        ]
+      ],
+      "rank": 1,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 6,
+      "polynomial_degree": 4,
+      "source_partitions": [
+        [
+          2
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "rank": 2,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "1"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 6,
+      "polynomial_degree": 6,
+      "source_partitions": [
+        [
+          3
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "rank": 2,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "1"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 6,
+      "polynomial_degree": 8,
+      "source_partitions": [
+        [
+          4
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "rank": 3,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "1",
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "1",
+        "2"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 6,
+      "polynomial_degree": 10,
+      "source_partitions": [
+        [
+          5
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "rank": 3,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "2",
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "2",
+        "2"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 6,
+      "polynomial_degree": 12,
+      "source_partitions": [
+        [
+          6
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "rank": 4,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "2",
+        "2",
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "2",
+        "2",
+        "2"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 6,
+      "polynomial_degree": 14,
+      "source_partitions": [
+        [
+          6,
+          1
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "rank": 3,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "2",
+        "2",
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "2",
+        "2",
+        "2"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            14
+          ],
+          "weight_exponent": 1,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 6,
+      "polynomial_degree": 16,
+      "source_partitions": [
+        [
+          6,
+          2
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "rank": 3,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "2",
+        "2",
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "2",
+        "2",
+        "4"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            14,
+            2
+          ],
+          "weight_exponent": 1,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 1
+    },
+    {
+      "a": 2,
+      "k": 6,
+      "polynomial_degree": 18,
+      "source_partitions": [
+        [
+          6,
+          3
+        ],
+        [
+          5,
+          4
+        ]
+      ],
+      "rank": 2,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "2",
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "2",
+        "4"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            14,
+            4
+          ],
+          "weight_exponent": 1,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 2
+    },
+    {
+      "a": 2,
+      "k": 6,
+      "polynomial_degree": 20,
+      "source_partitions": [
+        [
+          6,
+          4
+        ],
+        [
+          5,
+          5
+        ]
+      ],
+      "rank": 2,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "4",
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "4",
+        "4"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            14,
+            6
+          ],
+          "weight_exponent": 1,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 3
+    },
+    {
+      "a": 2,
+      "k": 6,
+      "polynomial_degree": 22,
+      "source_partitions": [
+        [
+          6,
+          5
+        ]
+      ],
+      "rank": 1,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "4"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            14,
+            8
+          ],
+          "weight_exponent": 2,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 6,
+      "polynomial_degree": 24,
+      "source_partitions": [
+        [
+          6,
+          6
+        ]
+      ],
+      "rank": 1,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "4"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            14,
+            10
+          ],
+          "weight_exponent": 2,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 7,
+      "polynomial_degree": 0,
+      "source_partitions": [
+        []
+      ],
+      "rank": 1,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 7,
+      "polynomial_degree": 2,
+      "source_partitions": [
+        [
+          1
+        ]
+      ],
+      "rank": 1,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 7,
+      "polynomial_degree": 4,
+      "source_partitions": [
+        [
+          2
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "rank": 2,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "1"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 7,
+      "polynomial_degree": 6,
+      "source_partitions": [
+        [
+          3
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "rank": 2,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "1"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 7,
+      "polynomial_degree": 8,
+      "source_partitions": [
+        [
+          4
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "rank": 3,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "1",
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "1",
+        "1"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 7,
+      "polynomial_degree": 10,
+      "source_partitions": [
+        [
+          5
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "rank": 3,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "1",
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "1",
+        "2"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 7,
+      "polynomial_degree": 12,
+      "source_partitions": [
+        [
+          6
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "rank": 4,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "1",
+        "2",
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "1",
+        "2",
+        "2"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 7,
+      "polynomial_degree": 14,
+      "source_partitions": [
+        [
+          7
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "rank": 4,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "2",
+        "2",
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "2",
+        "2",
+        "2"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 7,
+      "polynomial_degree": 16,
+      "source_partitions": [
+        [
+          7,
+          1
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "rank": 4,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "2",
+        "2",
+        "2",
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "2",
+        "2",
+        "2",
+        "2"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            16
+          ],
+          "weight_exponent": 1,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 7,
+      "polynomial_degree": 18,
+      "source_partitions": [
+        [
+          7,
+          2
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          5,
+          4
+        ]
+      ],
+      "rank": 3,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "2",
+        "2",
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "2",
+        "2",
+        "2"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            16,
+            2
+          ],
+          "weight_exponent": 1,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 1
+    },
+    {
+      "a": 2,
+      "k": 7,
+      "polynomial_degree": 20,
+      "source_partitions": [
+        [
+          7,
+          3
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          5,
+          5
+        ]
+      ],
+      "rank": 3,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "2",
+        "2",
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "2",
+        "2",
+        "4"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            16,
+            4
+          ],
+          "weight_exponent": 1,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 2
+    },
+    {
+      "a": 2,
+      "k": 7,
+      "polynomial_degree": 22,
+      "source_partitions": [
+        [
+          7,
+          4
+        ],
+        [
+          6,
+          5
+        ]
+      ],
+      "rank": 2,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "2",
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "2",
+        "4"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            16,
+            6
+          ],
+          "weight_exponent": 1,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 3
+    },
+    {
+      "a": 2,
+      "k": 7,
+      "polynomial_degree": 24,
+      "source_partitions": [
+        [
+          7,
+          5
+        ],
+        [
+          6,
+          6
+        ]
+      ],
+      "rank": 2,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "4",
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "4",
+        "4"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            16,
+            8
+          ],
+          "weight_exponent": 2,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 7,
+      "polynomial_degree": 26,
+      "source_partitions": [
+        [
+          7,
+          6
+        ]
+      ],
+      "rank": 1,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "4"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            16,
+            10
+          ],
+          "weight_exponent": 2,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 7,
+      "polynomial_degree": 28,
+      "source_partitions": [
+        [
+          7,
+          7
+        ]
+      ],
+      "rank": 1,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "4"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            16,
+            12
+          ],
+          "weight_exponent": 2,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 8,
+      "polynomial_degree": 0,
+      "source_partitions": [
+        []
+      ],
+      "rank": 1,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 8,
+      "polynomial_degree": 2,
+      "source_partitions": [
+        [
+          1
+        ]
+      ],
+      "rank": 1,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 8,
+      "polynomial_degree": 4,
+      "source_partitions": [
+        [
+          2
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "rank": 2,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "1"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 8,
+      "polynomial_degree": 6,
+      "source_partitions": [
+        [
+          3
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "rank": 2,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "1"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 8,
+      "polynomial_degree": 8,
+      "source_partitions": [
+        [
+          4
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "rank": 3,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "1",
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "1",
+        "1"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 8,
+      "polynomial_degree": 10,
+      "source_partitions": [
+        [
+          5
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "rank": 3,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "1",
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "1",
+        "2"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 8,
+      "polynomial_degree": 12,
+      "source_partitions": [
+        [
+          6
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "rank": 4,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "1",
+        "2",
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "1",
+        "2",
+        "2"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 8,
+      "polynomial_degree": 14,
+      "source_partitions": [
+        [
+          7
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "rank": 4,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "2",
+        "2",
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "2",
+        "2",
+        "2"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 8,
+      "polynomial_degree": 16,
+      "source_partitions": [
+        [
+          8
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "rank": 5,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "2",
+        "2",
+        "2",
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "2",
+        "2",
+        "2",
+        "2"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 8,
+      "polynomial_degree": 18,
+      "source_partitions": [
+        [
+          8,
+          1
+        ],
+        [
+          7,
+          2
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          5,
+          4
+        ]
+      ],
+      "rank": 4,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "2",
+        "2",
+        "2",
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "2",
+        "2",
+        "2",
+        "2"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            18
+          ],
+          "weight_exponent": 1,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 8,
+      "polynomial_degree": 20,
+      "source_partitions": [
+        [
+          8,
+          2
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          5,
+          5
+        ]
+      ],
+      "rank": 4,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "2",
+        "2",
+        "2",
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "2",
+        "2",
+        "2",
+        "4"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            18,
+            2
+          ],
+          "weight_exponent": 1,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 1
+    },
+    {
+      "a": 2,
+      "k": 8,
+      "polynomial_degree": 22,
+      "source_partitions": [
+        [
+          8,
+          3
+        ],
+        [
+          7,
+          4
+        ],
+        [
+          6,
+          5
+        ]
+      ],
+      "rank": 3,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "2",
+        "2",
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "2",
+        "2",
+        "4"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            18,
+            4
+          ],
+          "weight_exponent": 1,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 2
+    },
+    {
+      "a": 2,
+      "k": 8,
+      "polynomial_degree": 24,
+      "source_partitions": [
+        [
+          8,
+          4
+        ],
+        [
+          7,
+          5
+        ],
+        [
+          6,
+          6
+        ]
+      ],
+      "rank": 3,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "2",
+        "4",
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "2",
+        "4",
+        "4"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            18,
+            6
+          ],
+          "weight_exponent": 1,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 3
+    },
+    {
+      "a": 2,
+      "k": 8,
+      "polynomial_degree": 26,
+      "source_partitions": [
+        [
+          8,
+          5
+        ],
+        [
+          7,
+          6
+        ]
+      ],
+      "rank": 2,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "4",
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "4",
+        "4"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            18,
+            8
+          ],
+          "weight_exponent": 1,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 4
+    },
+    {
+      "a": 2,
+      "k": 8,
+      "polynomial_degree": 28,
+      "source_partitions": [
+        [
+          8,
+          6
+        ],
+        [
+          7,
+          7
+        ]
+      ],
+      "rank": 2,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "4",
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "4",
+        "4"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            18,
+            10
+          ],
+          "weight_exponent": 2,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 8,
+      "polynomial_degree": 30,
+      "source_partitions": [
+        [
+          8,
+          7
+        ]
+      ],
+      "rank": 1,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "4"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            18,
+            12
+          ],
+          "weight_exponent": 2,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 8,
+      "polynomial_degree": 32,
+      "source_partitions": [
+        [
+          8,
+          8
+        ]
+      ],
+      "rank": 1,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "4"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            18,
+            14
+          ],
+          "weight_exponent": 2,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 9,
+      "polynomial_degree": 0,
+      "source_partitions": [
+        []
+      ],
+      "rank": 1,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 9,
+      "polynomial_degree": 2,
+      "source_partitions": [
+        [
+          1
+        ]
+      ],
+      "rank": 1,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 9,
+      "polynomial_degree": 4,
+      "source_partitions": [
+        [
+          2
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "rank": 2,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "1"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 9,
+      "polynomial_degree": 6,
+      "source_partitions": [
+        [
+          3
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "rank": 2,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "1"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 9,
+      "polynomial_degree": 8,
+      "source_partitions": [
+        [
+          4
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "rank": 3,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "1",
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "1",
+        "1"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 9,
+      "polynomial_degree": 10,
+      "source_partitions": [
+        [
+          5
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "rank": 3,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "1",
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "1",
+        "1"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 9,
+      "polynomial_degree": 12,
+      "source_partitions": [
+        [
+          6
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "rank": 4,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "1",
+        "1",
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "1",
+        "1",
+        "2"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 9,
+      "polynomial_degree": 14,
+      "source_partitions": [
+        [
+          7
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "rank": 4,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "1",
+        "2",
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "1",
+        "2",
+        "2"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 9,
+      "polynomial_degree": 16,
+      "source_partitions": [
+        [
+          8
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "rank": 5,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "1",
+        "2",
+        "2",
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "1",
+        "2",
+        "2",
+        "2"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 9,
+      "polynomial_degree": 18,
+      "source_partitions": [
+        [
+          9
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          7,
+          2
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          5,
+          4
+        ]
+      ],
+      "rank": 5,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "2",
+        "2",
+        "2",
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "2",
+        "2",
+        "2",
+        "2"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 9,
+      "polynomial_degree": 20,
+      "source_partitions": [
+        [
+          9,
+          1
+        ],
+        [
+          8,
+          2
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          5,
+          5
+        ]
+      ],
+      "rank": 5,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            20
+          ],
+          "weight_exponent": 1,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 9,
+      "polynomial_degree": 22,
+      "source_partitions": [
+        [
+          9,
+          2
+        ],
+        [
+          8,
+          3
+        ],
+        [
+          7,
+          4
+        ],
+        [
+          6,
+          5
+        ]
+      ],
+      "rank": 4,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "2",
+        "2",
+        "2",
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "2",
+        "2",
+        "2",
+        "2"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            20,
+            2
+          ],
+          "weight_exponent": 1,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 1
+    },
+    {
+      "a": 2,
+      "k": 9,
+      "polynomial_degree": 24,
+      "source_partitions": [
+        [
+          9,
+          3
+        ],
+        [
+          8,
+          4
+        ],
+        [
+          7,
+          5
+        ],
+        [
+          6,
+          6
+        ]
+      ],
+      "rank": 4,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "2",
+        "2",
+        "2",
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "2",
+        "2",
+        "2",
+        "4"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            20,
+            4
+          ],
+          "weight_exponent": 1,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 2
+    },
+    {
+      "a": 2,
+      "k": 9,
+      "polynomial_degree": 26,
+      "source_partitions": [
+        [
+          9,
+          4
+        ],
+        [
+          8,
+          5
+        ],
+        [
+          7,
+          6
+        ]
+      ],
+      "rank": 3,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "2",
+        "2",
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "2",
+        "2",
+        "4"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            20,
+            6
+          ],
+          "weight_exponent": 1,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 3
+    },
+    {
+      "a": 2,
+      "k": 9,
+      "polynomial_degree": 28,
+      "source_partitions": [
+        [
+          9,
+          5
+        ],
+        [
+          8,
+          6
+        ],
+        [
+          7,
+          7
+        ]
+      ],
+      "rank": 3,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "2",
+        "4",
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "2",
+        "4",
+        "4"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            20,
+            8
+          ],
+          "weight_exponent": 1,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 4
+    },
+    {
+      "a": 2,
+      "k": 9,
+      "polynomial_degree": 30,
+      "source_partitions": [
+        [
+          9,
+          6
+        ],
+        [
+          8,
+          7
+        ]
+      ],
+      "rank": 2,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "4",
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "4",
+        "4"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            20,
+            10
+          ],
+          "weight_exponent": 2,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 9,
+      "polynomial_degree": 32,
+      "source_partitions": [
+        [
+          9,
+          7
+        ],
+        [
+          8,
+          8
+        ]
+      ],
+      "rank": 2,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "4",
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "4",
+        "4"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            20,
+            12
+          ],
+          "weight_exponent": 2,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 9,
+      "polynomial_degree": 34,
+      "source_partitions": [
+        [
+          9,
+          8
+        ]
+      ],
+      "rank": 1,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "4"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            20,
+            14
+          ],
+          "weight_exponent": 2,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 9,
+      "polynomial_degree": 36,
+      "source_partitions": [
+        [
+          9,
+          9
+        ]
+      ],
+      "rank": 1,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "4"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            20,
+            16
+          ],
+          "weight_exponent": 2,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 10,
+      "polynomial_degree": 0,
+      "source_partitions": [
+        []
+      ],
+      "rank": 1,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 10,
+      "polynomial_degree": 2,
+      "source_partitions": [
+        [
+          1
+        ]
+      ],
+      "rank": 1,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 10,
+      "polynomial_degree": 4,
+      "source_partitions": [
+        [
+          2
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "rank": 2,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "1"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 10,
+      "polynomial_degree": 6,
+      "source_partitions": [
+        [
+          3
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "rank": 2,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "1"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 10,
+      "polynomial_degree": 8,
+      "source_partitions": [
+        [
+          4
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "rank": 3,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "1",
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "1",
+        "1"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 10,
+      "polynomial_degree": 10,
+      "source_partitions": [
+        [
+          5
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "rank": 3,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "1",
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "1",
+        "1"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 10,
+      "polynomial_degree": 12,
+      "source_partitions": [
+        [
+          6
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "rank": 4,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "1",
+        "1",
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "1",
+        "1",
+        "2"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 10,
+      "polynomial_degree": 14,
+      "source_partitions": [
+        [
+          7
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "rank": 4,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "1",
+        "2",
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "1",
+        "2",
+        "2"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 10,
+      "polynomial_degree": 16,
+      "source_partitions": [
+        [
+          8
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "rank": 5,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "1",
+        "2",
+        "2",
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "1",
+        "2",
+        "2",
+        "2"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 10,
+      "polynomial_degree": 18,
+      "source_partitions": [
+        [
+          9
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          7,
+          2
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          5,
+          4
+        ]
+      ],
+      "rank": 5,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "2",
+        "2",
+        "2",
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "2",
+        "2",
+        "2",
+        "2"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 10,
+      "polynomial_degree": 20,
+      "source_partitions": [
+        [
+          10
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          8,
+          2
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          5,
+          5
+        ]
+      ],
+      "rank": 6,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 10,
+      "polynomial_degree": 22,
+      "source_partitions": [
+        [
+          10,
+          1
+        ],
+        [
+          9,
+          2
+        ],
+        [
+          8,
+          3
+        ],
+        [
+          7,
+          4
+        ],
+        [
+          6,
+          5
+        ]
+      ],
+      "rank": 5,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            22
+          ],
+          "weight_exponent": 1,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 10,
+      "polynomial_degree": 24,
+      "source_partitions": [
+        [
+          10,
+          2
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          8,
+          4
+        ],
+        [
+          7,
+          5
+        ],
+        [
+          6,
+          6
+        ]
+      ],
+      "rank": 5,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "4"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            22,
+            2
+          ],
+          "weight_exponent": 1,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 1
+    },
+    {
+      "a": 2,
+      "k": 10,
+      "polynomial_degree": 26,
+      "source_partitions": [
+        [
+          10,
+          3
+        ],
+        [
+          9,
+          4
+        ],
+        [
+          8,
+          5
+        ],
+        [
+          7,
+          6
+        ]
+      ],
+      "rank": 4,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "2",
+        "2",
+        "2",
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "2",
+        "2",
+        "2",
+        "4"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            22,
+            4
+          ],
+          "weight_exponent": 1,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 2
+    },
+    {
+      "a": 2,
+      "k": 10,
+      "polynomial_degree": 28,
+      "source_partitions": [
+        [
+          10,
+          4
+        ],
+        [
+          9,
+          5
+        ],
+        [
+          8,
+          6
+        ],
+        [
+          7,
+          7
+        ]
+      ],
+      "rank": 4,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "2",
+        "2",
+        "4",
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "2",
+        "2",
+        "4",
+        "4"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            22,
+            6
+          ],
+          "weight_exponent": 1,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 3
+    },
+    {
+      "a": 2,
+      "k": 10,
+      "polynomial_degree": 30,
+      "source_partitions": [
+        [
+          10,
+          5
+        ],
+        [
+          9,
+          6
+        ],
+        [
+          8,
+          7
+        ]
+      ],
+      "rank": 3,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "2",
+        "4",
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "2",
+        "4",
+        "4"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            22,
+            8
+          ],
+          "weight_exponent": 1,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 4
+    },
+    {
+      "a": 2,
+      "k": 10,
+      "polynomial_degree": 32,
+      "source_partitions": [
+        [
+          10,
+          6
+        ],
+        [
+          9,
+          7
+        ],
+        [
+          8,
+          8
+        ]
+      ],
+      "rank": 3,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "4",
+        "4",
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "4",
+        "4",
+        "4"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            22,
+            10
+          ],
+          "weight_exponent": 1,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 5
+    },
+    {
+      "a": 2,
+      "k": 10,
+      "polynomial_degree": 34,
+      "source_partitions": [
+        [
+          10,
+          7
+        ],
+        [
+          9,
+          8
+        ]
+      ],
+      "rank": 2,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "4",
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "4",
+        "4"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            22,
+            12
+          ],
+          "weight_exponent": 2,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 10,
+      "polynomial_degree": 36,
+      "source_partitions": [
+        [
+          10,
+          8
+        ],
+        [
+          9,
+          9
+        ]
+      ],
+      "rank": 2,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "4",
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "4",
+        "4"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            22,
+            14
+          ],
+          "weight_exponent": 2,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 10,
+      "polynomial_degree": 38,
+      "source_partitions": [
+        [
+          10,
+          9
+        ]
+      ],
+      "rank": 1,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "4"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            22,
+            16
+          ],
+          "weight_exponent": 2,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 10,
+      "polynomial_degree": 40,
+      "source_partitions": [
+        [
+          10,
+          10
+        ]
+      ],
+      "rank": 1,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "4"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            22,
+            18
+          ],
+          "weight_exponent": 2,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 11,
+      "polynomial_degree": 0,
+      "source_partitions": [
+        []
+      ],
+      "rank": 1,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 11,
+      "polynomial_degree": 2,
+      "source_partitions": [
+        [
+          1
+        ]
+      ],
+      "rank": 1,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 11,
+      "polynomial_degree": 4,
+      "source_partitions": [
+        [
+          2
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "rank": 2,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "1"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 11,
+      "polynomial_degree": 6,
+      "source_partitions": [
+        [
+          3
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "rank": 2,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "1"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 11,
+      "polynomial_degree": 8,
+      "source_partitions": [
+        [
+          4
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "rank": 3,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "1",
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "1",
+        "1"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 11,
+      "polynomial_degree": 10,
+      "source_partitions": [
+        [
+          5
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "rank": 3,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "1",
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "1",
+        "1"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 11,
+      "polynomial_degree": 12,
+      "source_partitions": [
+        [
+          6
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "rank": 4,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 11,
+      "polynomial_degree": 14,
+      "source_partitions": [
+        [
+          7
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "rank": 4,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "1",
+        "1",
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "1",
+        "1",
+        "2"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 11,
+      "polynomial_degree": 16,
+      "source_partitions": [
+        [
+          8
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "rank": 5,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "1",
+        "1",
+        "2",
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "1",
+        "1",
+        "2",
+        "2"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 11,
+      "polynomial_degree": 18,
+      "source_partitions": [
+        [
+          9
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          7,
+          2
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          5,
+          4
+        ]
+      ],
+      "rank": 5,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "1",
+        "2",
+        "2",
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "1",
+        "2",
+        "2",
+        "2"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 11,
+      "polynomial_degree": 20,
+      "source_partitions": [
+        [
+          10
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          8,
+          2
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          5,
+          5
+        ]
+      ],
+      "rank": 6,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "1",
+        "2",
+        "2",
+        "2",
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "1",
+        "2",
+        "2",
+        "2",
+        "2"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 11,
+      "polynomial_degree": 22,
+      "source_partitions": [
+        [
+          11
+        ],
+        [
+          10,
+          1
+        ],
+        [
+          9,
+          2
+        ],
+        [
+          8,
+          3
+        ],
+        [
+          7,
+          4
+        ],
+        [
+          6,
+          5
+        ]
+      ],
+      "rank": 6,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 11,
+      "polynomial_degree": 24,
+      "source_partitions": [
+        [
+          11,
+          1
+        ],
+        [
+          10,
+          2
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          8,
+          4
+        ],
+        [
+          7,
+          5
+        ],
+        [
+          6,
+          6
+        ]
+      ],
+      "rank": 6,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            24
+          ],
+          "weight_exponent": 1,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 11,
+      "polynomial_degree": 26,
+      "source_partitions": [
+        [
+          11,
+          2
+        ],
+        [
+          10,
+          3
+        ],
+        [
+          9,
+          4
+        ],
+        [
+          8,
+          5
+        ],
+        [
+          7,
+          6
+        ]
+      ],
+      "rank": 5,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            24,
+            2
+          ],
+          "weight_exponent": 1,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 1
+    },
+    {
+      "a": 2,
+      "k": 11,
+      "polynomial_degree": 28,
+      "source_partitions": [
+        [
+          11,
+          3
+        ],
+        [
+          10,
+          4
+        ],
+        [
+          9,
+          5
+        ],
+        [
+          8,
+          6
+        ],
+        [
+          7,
+          7
+        ]
+      ],
+      "rank": 5,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "4"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            24,
+            4
+          ],
+          "weight_exponent": 1,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 2
+    },
+    {
+      "a": 2,
+      "k": 11,
+      "polynomial_degree": 30,
+      "source_partitions": [
+        [
+          11,
+          4
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          9,
+          6
+        ],
+        [
+          8,
+          7
+        ]
+      ],
+      "rank": 4,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "2",
+        "2",
+        "2",
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "2",
+        "2",
+        "2",
+        "4"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            24,
+            6
+          ],
+          "weight_exponent": 1,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 3
+    },
+    {
+      "a": 2,
+      "k": 11,
+      "polynomial_degree": 32,
+      "source_partitions": [
+        [
+          11,
+          5
+        ],
+        [
+          10,
+          6
+        ],
+        [
+          9,
+          7
+        ],
+        [
+          8,
+          8
+        ]
+      ],
+      "rank": 4,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "2",
+        "2",
+        "4",
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "2",
+        "2",
+        "4",
+        "4"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            24,
+            8
+          ],
+          "weight_exponent": 1,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 4
+    },
+    {
+      "a": 2,
+      "k": 11,
+      "polynomial_degree": 34,
+      "source_partitions": [
+        [
+          11,
+          6
+        ],
+        [
+          10,
+          7
+        ],
+        [
+          9,
+          8
+        ]
+      ],
+      "rank": 3,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "2",
+        "4",
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "2",
+        "4",
+        "4"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            24,
+            10
+          ],
+          "weight_exponent": 1,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 5
+    },
+    {
+      "a": 2,
+      "k": 11,
+      "polynomial_degree": 36,
+      "source_partitions": [
+        [
+          11,
+          7
+        ],
+        [
+          10,
+          8
+        ],
+        [
+          9,
+          9
+        ]
+      ],
+      "rank": 3,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "4",
+        "4",
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "4",
+        "4",
+        "4"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            24,
+            12
+          ],
+          "weight_exponent": 2,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 11,
+      "polynomial_degree": 38,
+      "source_partitions": [
+        [
+          11,
+          8
+        ],
+        [
+          10,
+          9
+        ]
+      ],
+      "rank": 2,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "4",
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "4",
+        "4"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            24,
+            14
+          ],
+          "weight_exponent": 2,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 11,
+      "polynomial_degree": 40,
+      "source_partitions": [
+        [
+          11,
+          9
+        ],
+        [
+          10,
+          10
+        ]
+      ],
+      "rank": 2,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "4",
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "4",
+        "4"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            24,
+            16
+          ],
+          "weight_exponent": 2,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 11,
+      "polynomial_degree": 42,
+      "source_partitions": [
+        [
+          11,
+          10
+        ]
+      ],
+      "rank": 1,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "4"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            24,
+            18
+          ],
+          "weight_exponent": 2,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 11,
+      "polynomial_degree": 44,
+      "source_partitions": [
+        [
+          11,
+          11
+        ]
+      ],
+      "rank": 1,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "4"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            24,
+            20
+          ],
+          "weight_exponent": 2,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 12,
+      "polynomial_degree": 0,
+      "source_partitions": [
+        []
+      ],
+      "rank": 1,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 12,
+      "polynomial_degree": 2,
+      "source_partitions": [
+        [
+          1
+        ]
+      ],
+      "rank": 1,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 12,
+      "polynomial_degree": 4,
+      "source_partitions": [
+        [
+          2
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "rank": 2,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "1"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 12,
+      "polynomial_degree": 6,
+      "source_partitions": [
+        [
+          3
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "rank": 2,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "1"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 12,
+      "polynomial_degree": 8,
+      "source_partitions": [
+        [
+          4
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "rank": 3,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "1",
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "1",
+        "1"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 12,
+      "polynomial_degree": 10,
+      "source_partitions": [
+        [
+          5
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "rank": 3,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "1",
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "1",
+        "1"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 12,
+      "polynomial_degree": 12,
+      "source_partitions": [
+        [
+          6
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "rank": 4,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 12,
+      "polynomial_degree": 14,
+      "source_partitions": [
+        [
+          7
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "rank": 4,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "1",
+        "1",
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "1",
+        "1",
+        "2"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 12,
+      "polynomial_degree": 16,
+      "source_partitions": [
+        [
+          8
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "rank": 5,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "1",
+        "1",
+        "2",
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "1",
+        "1",
+        "2",
+        "2"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 12,
+      "polynomial_degree": 18,
+      "source_partitions": [
+        [
+          9
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          7,
+          2
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          5,
+          4
+        ]
+      ],
+      "rank": 5,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "1",
+        "2",
+        "2",
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "1",
+        "2",
+        "2",
+        "2"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 12,
+      "polynomial_degree": 20,
+      "source_partitions": [
+        [
+          10
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          8,
+          2
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          5,
+          5
+        ]
+      ],
+      "rank": 6,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "1",
+        "2",
+        "2",
+        "2",
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "1",
+        "2",
+        "2",
+        "2",
+        "2"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 12,
+      "polynomial_degree": 22,
+      "source_partitions": [
+        [
+          11
+        ],
+        [
+          10,
+          1
+        ],
+        [
+          9,
+          2
+        ],
+        [
+          8,
+          3
+        ],
+        [
+          7,
+          4
+        ],
+        [
+          6,
+          5
+        ]
+      ],
+      "rank": 6,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 12,
+      "polynomial_degree": 24,
+      "source_partitions": [
+        [
+          12
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          10,
+          2
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          8,
+          4
+        ],
+        [
+          7,
+          5
+        ],
+        [
+          6,
+          6
+        ]
+      ],
+      "rank": 7,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "1",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 12,
+      "polynomial_degree": 26,
+      "source_partitions": [
+        [
+          12,
+          1
+        ],
+        [
+          11,
+          2
+        ],
+        [
+          10,
+          3
+        ],
+        [
+          9,
+          4
+        ],
+        [
+          8,
+          5
+        ],
+        [
+          7,
+          6
+        ]
+      ],
+      "rank": 6,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            26
+          ],
+          "weight_exponent": 1,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 12,
+      "polynomial_degree": 28,
+      "source_partitions": [
+        [
+          12,
+          2
+        ],
+        [
+          11,
+          3
+        ],
+        [
+          10,
+          4
+        ],
+        [
+          9,
+          5
+        ],
+        [
+          8,
+          6
+        ],
+        [
+          7,
+          7
+        ]
+      ],
+      "rank": 6,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "4"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            26,
+            2
+          ],
+          "weight_exponent": 1,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 1
+    },
+    {
+      "a": 2,
+      "k": 12,
+      "polynomial_degree": 30,
+      "source_partitions": [
+        [
+          12,
+          3
+        ],
+        [
+          11,
+          4
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          9,
+          6
+        ],
+        [
+          8,
+          7
+        ]
+      ],
+      "rank": 5,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "4"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            26,
+            4
+          ],
+          "weight_exponent": 1,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 2
+    },
+    {
+      "a": 2,
+      "k": 12,
+      "polynomial_degree": 32,
+      "source_partitions": [
+        [
+          12,
+          4
+        ],
+        [
+          11,
+          5
+        ],
+        [
+          10,
+          6
+        ],
+        [
+          9,
+          7
+        ],
+        [
+          8,
+          8
+        ]
+      ],
+      "rank": 5,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "2",
+        "2",
+        "2",
+        "4",
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "2",
+        "2",
+        "2",
+        "4",
+        "4"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            26,
+            6
+          ],
+          "weight_exponent": 1,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 3
+    },
+    {
+      "a": 2,
+      "k": 12,
+      "polynomial_degree": 34,
+      "source_partitions": [
+        [
+          12,
+          5
+        ],
+        [
+          11,
+          6
+        ],
+        [
+          10,
+          7
+        ],
+        [
+          9,
+          8
+        ]
+      ],
+      "rank": 4,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "2",
+        "2",
+        "4",
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "2",
+        "2",
+        "4",
+        "4"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            26,
+            8
+          ],
+          "weight_exponent": 1,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 4
+    },
+    {
+      "a": 2,
+      "k": 12,
+      "polynomial_degree": 36,
+      "source_partitions": [
+        [
+          12,
+          6
+        ],
+        [
+          11,
+          7
+        ],
+        [
+          10,
+          8
+        ],
+        [
+          9,
+          9
+        ]
+      ],
+      "rank": 4,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "2",
+        "4",
+        "4",
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "2",
+        "4",
+        "4",
+        "4"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            26,
+            10
+          ],
+          "weight_exponent": 1,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 5
+    },
+    {
+      "a": 2,
+      "k": 12,
+      "polynomial_degree": 38,
+      "source_partitions": [
+        [
+          12,
+          7
+        ],
+        [
+          11,
+          8
+        ],
+        [
+          10,
+          9
+        ]
+      ],
+      "rank": 3,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "4",
+        "4",
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "4",
+        "4",
+        "4"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            26,
+            12
+          ],
+          "weight_exponent": 1,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 6
+    },
+    {
+      "a": 2,
+      "k": 12,
+      "polynomial_degree": 40,
+      "source_partitions": [
+        [
+          12,
+          8
+        ],
+        [
+          11,
+          9
+        ],
+        [
+          10,
+          10
+        ]
+      ],
+      "rank": 3,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "4",
+        "4",
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "4",
+        "4",
+        "4"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            26,
+            14
+          ],
+          "weight_exponent": 2,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 12,
+      "polynomial_degree": 42,
+      "source_partitions": [
+        [
+          12,
+          9
+        ],
+        [
+          11,
+          10
+        ]
+      ],
+      "rank": 2,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "4",
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "4",
+        "4"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            26,
+            16
+          ],
+          "weight_exponent": 2,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 12,
+      "polynomial_degree": 44,
+      "source_partitions": [
+        [
+          12,
+          10
+        ],
+        [
+          11,
+          11
+        ]
+      ],
+      "rank": 2,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "4",
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "4",
+        "4"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            26,
+            18
+          ],
+          "weight_exponent": 2,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 12,
+      "polynomial_degree": 46,
+      "source_partitions": [
+        [
+          12,
+          11
+        ]
+      ],
+      "rank": 1,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "4"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            26,
+            20
+          ],
+          "weight_exponent": 2,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 0
+    },
+    {
+      "a": 2,
+      "k": 12,
+      "polynomial_degree": 48,
+      "source_partitions": [
+        [
+          12,
+          12
+        ]
+      ],
+      "rank": 1,
+      "C_schubert_to_R_plus_eR_unimodular": true,
+      "B_smith_factors": [
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "4"
+      ],
+      "closed_partition_formula_matches": true,
+      "weighted_integer_row_modules_equal": true,
+      "missing_row_relations": [
+        {
+          "missing_partition": [
+            26,
+            22
+          ],
+          "weight_exponent": 2,
+          "weighted_relation_coefficients": [],
+          "exact_integral_row_relation_verified": true
+        }
+      ],
+      "weight_one_vs_weight_two_parity_checks": 0
+    }
+  ],
+  "summary": {
+    "tail_dimensions_checked": 12,
+    "degree_components_checked": 168,
+    "weighted_integer_row_module_equalities": 168,
+    "exact_missing_row_relations": 78,
+    "weight_one_vs_weight_two_parity_checks": 91,
+    "closed_partition_formula_matches": 168,
+    "counterexamples": 0
+  },
+  "seconds": 1.830454
+}

@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+verification.log
+exceptional-verification.log
+algebra-verification.log
+presentation-verification.log
+coinvariant-verification.log
+verification-*.json

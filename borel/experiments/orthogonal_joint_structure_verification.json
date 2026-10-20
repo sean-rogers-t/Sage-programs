@@ -1,0 +1,2173 @@
+{
+  "result": "passed",
+  "sage_version": "9.5",
+  "seconds": 111.033,
+  "command": "PYTHONPATH=src sage -python experiments/orthogonal_joint_structure.py",
+  "scope": "Finite checks of the separate all-rank argument, not a proof by enumeration.",
+  "historical_degree_rows": 36,
+  "fresh_degree_rows": 121,
+  "independent_cartesian_columns": 131,
+  "integral_kernel_ranks_total": 431,
+  "cases": [
+    {
+      "type": "B",
+      "a": 1,
+      "b": 1,
+      "k": 1,
+      "max_degree": 9,
+      "degrees": [
+        {
+          "degree": 0,
+          "middle_rank": 1,
+          "tail_rank": 1,
+          "joint_rank": 1,
+          "joint_smith_factors": [
+            1
+          ],
+          "joint_mod_sum_free_rank": 0,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 0
+        },
+        {
+          "degree": 1,
+          "middle_rank": 1,
+          "tail_rank": 0,
+          "joint_rank": 1,
+          "joint_smith_factors": [
+            1
+          ],
+          "joint_mod_sum_free_rank": 0,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 0
+        },
+        {
+          "degree": 2,
+          "middle_rank": 1,
+          "tail_rank": 1,
+          "joint_rank": 2,
+          "joint_smith_factors": [
+            1,
+            1
+          ],
+          "joint_mod_sum_free_rank": 0,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 0
+        },
+        {
+          "degree": 3,
+          "middle_rank": 1,
+          "tail_rank": 0,
+          "joint_rank": 2,
+          "joint_smith_factors": [
+            1,
+            2
+          ],
+          "joint_mod_sum_free_rank": 1,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 0
+        },
+        {
+          "degree": 4,
+          "middle_rank": 1,
+          "tail_rank": 1,
+          "joint_rank": 2,
+          "joint_smith_factors": [
+            2,
+            2
+          ],
+          "joint_mod_sum_free_rank": 0,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 1
+        },
+        {
+          "degree": 5,
+          "middle_rank": 1,
+          "tail_rank": 0,
+          "joint_rank": 2,
+          "joint_smith_factors": [
+            2,
+            2
+          ],
+          "joint_mod_sum_free_rank": 1,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 1
+        },
+        {
+          "degree": 6,
+          "middle_rank": 0,
+          "tail_rank": 0,
+          "joint_rank": 1,
+          "joint_smith_factors": [
+            2
+          ],
+          "joint_mod_sum_free_rank": 1,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 3
+        },
+        {
+          "degree": 7,
+          "middle_rank": 0,
+          "tail_rank": 0,
+          "joint_rank": 1,
+          "joint_smith_factors": [
+            4
+          ],
+          "joint_mod_sum_free_rank": 1,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 3
+        },
+        {
+          "degree": 8,
+          "middle_rank": 0,
+          "tail_rank": 0,
+          "joint_rank": 0,
+          "joint_smith_factors": [],
+          "joint_mod_sum_free_rank": 0,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 5
+        },
+        {
+          "degree": 9,
+          "middle_rank": 0,
+          "tail_rank": 0,
+          "joint_rank": 0,
+          "joint_smith_factors": [],
+          "joint_mod_sum_free_rank": 0,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 5
+        }
+      ]
+    },
+    {
+      "type": "B",
+      "a": 1,
+      "b": 2,
+      "k": 1,
+      "max_degree": 9,
+      "degrees": [
+        {
+          "degree": 0,
+          "middle_rank": 1,
+          "tail_rank": 1,
+          "joint_rank": 1,
+          "joint_smith_factors": [
+            1
+          ],
+          "joint_mod_sum_free_rank": 0,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 0
+        },
+        {
+          "degree": 1,
+          "middle_rank": 1,
+          "tail_rank": 0,
+          "joint_rank": 1,
+          "joint_smith_factors": [
+            1
+          ],
+          "joint_mod_sum_free_rank": 0,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 0
+        },
+        {
+          "degree": 2,
+          "middle_rank": 2,
+          "tail_rank": 1,
+          "joint_rank": 3,
+          "joint_smith_factors": [
+            1,
+            1,
+            1
+          ],
+          "joint_mod_sum_free_rank": 0,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 0
+        },
+        {
+          "degree": 3,
+          "middle_rank": 2,
+          "tail_rank": 0,
+          "joint_rank": 3,
+          "joint_smith_factors": [
+            1,
+            1,
+            2
+          ],
+          "joint_mod_sum_free_rank": 1,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 0
+        },
+        {
+          "degree": 4,
+          "middle_rank": 3,
+          "tail_rank": 1,
+          "joint_rank": 5,
+          "joint_smith_factors": [
+            1,
+            1,
+            2,
+            2,
+            2
+          ],
+          "joint_mod_sum_free_rank": 1,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 1
+        },
+        {
+          "degree": 5,
+          "middle_rank": 3,
+          "tail_rank": 0,
+          "joint_rank": 5,
+          "joint_smith_factors": [
+            1,
+            2,
+            2,
+            2,
+            2
+          ],
+          "joint_mod_sum_free_rank": 2,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 1
+        },
+        {
+          "degree": 6,
+          "middle_rank": 3,
+          "tail_rank": 1,
+          "joint_rank": 6,
+          "joint_smith_factors": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "joint_mod_sum_free_rank": 2,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 4
+        },
+        {
+          "degree": 7,
+          "middle_rank": 3,
+          "tail_rank": 0,
+          "joint_rank": 6,
+          "joint_smith_factors": [
+            2,
+            2,
+            2,
+            2,
+            4,
+            4
+          ],
+          "joint_mod_sum_free_rank": 3,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 4
+        },
+        {
+          "degree": 8,
+          "middle_rank": 2,
+          "tail_rank": 0,
+          "joint_rank": 5,
+          "joint_smith_factors": [
+            2,
+            2,
+            2,
+            4,
+            4
+          ],
+          "joint_mod_sum_free_rank": 3,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 10
+        },
+        {
+          "degree": 9,
+          "middle_rank": 2,
+          "tail_rank": 0,
+          "joint_rank": 5,
+          "joint_smith_factors": [
+            2,
+            4,
+            4,
+            4,
+            4
+          ],
+          "joint_mod_sum_free_rank": 3,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 10
+        }
+      ]
+    },
+    {
+      "type": "B",
+      "a": 2,
+      "b": 1,
+      "k": 1,
+      "max_degree": 9,
+      "degrees": [
+        {
+          "degree": 0,
+          "middle_rank": 1,
+          "tail_rank": 1,
+          "joint_rank": 1,
+          "joint_smith_factors": [
+            1
+          ],
+          "joint_mod_sum_free_rank": 0,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 0
+        },
+        {
+          "degree": 1,
+          "middle_rank": 1,
+          "tail_rank": 0,
+          "joint_rank": 1,
+          "joint_smith_factors": [
+            1
+          ],
+          "joint_mod_sum_free_rank": 0,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 0
+        },
+        {
+          "degree": 2,
+          "middle_rank": 1,
+          "tail_rank": 1,
+          "joint_rank": 2,
+          "joint_smith_factors": [
+            1,
+            1
+          ],
+          "joint_mod_sum_free_rank": 0,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 0
+        },
+        {
+          "degree": 3,
+          "middle_rank": 1,
+          "tail_rank": 0,
+          "joint_rank": 2,
+          "joint_smith_factors": [
+            1,
+            1
+          ],
+          "joint_mod_sum_free_rank": 1,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 0
+        },
+        {
+          "degree": 4,
+          "middle_rank": 1,
+          "tail_rank": 1,
+          "joint_rank": 3,
+          "joint_smith_factors": [
+            1,
+            2,
+            2
+          ],
+          "joint_mod_sum_free_rank": 1,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 0
+        },
+        {
+          "degree": 5,
+          "middle_rank": 1,
+          "tail_rank": 0,
+          "joint_rank": 3,
+          "joint_smith_factors": [
+            1,
+            2,
+            2
+          ],
+          "joint_mod_sum_free_rank": 2,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 0
+        },
+        {
+          "degree": 6,
+          "middle_rank": 1,
+          "tail_rank": 1,
+          "joint_rank": 3,
+          "joint_smith_factors": [
+            2,
+            2,
+            2
+          ],
+          "joint_mod_sum_free_rank": 1,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 1
+        },
+        {
+          "degree": 7,
+          "middle_rank": 1,
+          "tail_rank": 0,
+          "joint_rank": 3,
+          "joint_smith_factors": [
+            2,
+            2,
+            2
+          ],
+          "joint_mod_sum_free_rank": 2,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 1
+        },
+        {
+          "degree": 8,
+          "middle_rank": 0,
+          "tail_rank": 0,
+          "joint_rank": 2,
+          "joint_smith_factors": [
+            2,
+            4
+          ],
+          "joint_mod_sum_free_rank": 2,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 3
+        },
+        {
+          "degree": 9,
+          "middle_rank": 0,
+          "tail_rank": 0,
+          "joint_rank": 2,
+          "joint_smith_factors": [
+            2,
+            4
+          ],
+          "joint_mod_sum_free_rank": 2,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 3
+        }
+      ]
+    },
+    {
+      "type": "B",
+      "a": 1,
+      "b": 2,
+      "k": 2,
+      "max_degree": 8,
+      "degrees": [
+        {
+          "degree": 0,
+          "middle_rank": 1,
+          "tail_rank": 1,
+          "joint_rank": 1,
+          "joint_smith_factors": [
+            1
+          ],
+          "joint_mod_sum_free_rank": 0,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 0
+        },
+        {
+          "degree": 1,
+          "middle_rank": 1,
+          "tail_rank": 0,
+          "joint_rank": 1,
+          "joint_smith_factors": [
+            1
+          ],
+          "joint_mod_sum_free_rank": 0,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 0
+        },
+        {
+          "degree": 2,
+          "middle_rank": 2,
+          "tail_rank": 1,
+          "joint_rank": 3,
+          "joint_smith_factors": [
+            1,
+            1,
+            1
+          ],
+          "joint_mod_sum_free_rank": 0,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 0
+        },
+        {
+          "degree": 3,
+          "middle_rank": 2,
+          "tail_rank": 0,
+          "joint_rank": 3,
+          "joint_smith_factors": [
+            1,
+            1,
+            1
+          ],
+          "joint_mod_sum_free_rank": 1,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 0
+        },
+        {
+          "degree": 4,
+          "middle_rank": 3,
+          "tail_rank": 2,
+          "joint_rank": 6,
+          "joint_smith_factors": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "joint_mod_sum_free_rank": 1,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 1
+        },
+        {
+          "degree": 5,
+          "middle_rank": 3,
+          "tail_rank": 0,
+          "joint_rank": 6,
+          "joint_smith_factors": [
+            1,
+            1,
+            1,
+            1,
+            2,
+            2
+          ],
+          "joint_mod_sum_free_rank": 3,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 1
+        },
+        {
+          "degree": 6,
+          "middle_rank": 4,
+          "tail_rank": 2,
+          "joint_rank": 9,
+          "joint_smith_factors": [
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "joint_mod_sum_free_rank": 3,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 4
+        },
+        {
+          "degree": 7,
+          "middle_rank": 4,
+          "tail_rank": 0,
+          "joint_rank": 9,
+          "joint_smith_factors": [
+            1,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "joint_mod_sum_free_rank": 5,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 4
+        },
+        {
+          "degree": 8,
+          "middle_rank": 4,
+          "tail_rank": 2,
+          "joint_rank": 11,
+          "joint_smith_factors": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "joint_mod_sum_free_rank": 5,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 11
+        }
+      ]
+    },
+    {
+      "type": "B",
+      "a": 2,
+      "b": 2,
+      "k": 2,
+      "max_degree": 8,
+      "degrees": [
+        {
+          "degree": 0,
+          "middle_rank": 1,
+          "tail_rank": 1,
+          "joint_rank": 1,
+          "joint_smith_factors": [
+            1
+          ],
+          "joint_mod_sum_free_rank": 0,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 0
+        },
+        {
+          "degree": 1,
+          "middle_rank": 1,
+          "tail_rank": 0,
+          "joint_rank": 1,
+          "joint_smith_factors": [
+            1
+          ],
+          "joint_mod_sum_free_rank": 0,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 0
+        },
+        {
+          "degree": 2,
+          "middle_rank": 2,
+          "tail_rank": 1,
+          "joint_rank": 3,
+          "joint_smith_factors": [
+            1,
+            1,
+            1
+          ],
+          "joint_mod_sum_free_rank": 0,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 0
+        },
+        {
+          "degree": 3,
+          "middle_rank": 2,
+          "tail_rank": 0,
+          "joint_rank": 3,
+          "joint_smith_factors": [
+            1,
+            1,
+            1
+          ],
+          "joint_mod_sum_free_rank": 1,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 0
+        },
+        {
+          "degree": 4,
+          "middle_rank": 3,
+          "tail_rank": 2,
+          "joint_rank": 7,
+          "joint_smith_factors": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "joint_mod_sum_free_rank": 2,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 0
+        },
+        {
+          "degree": 5,
+          "middle_rank": 3,
+          "tail_rank": 0,
+          "joint_rank": 7,
+          "joint_smith_factors": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "joint_mod_sum_free_rank": 4,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 0
+        },
+        {
+          "degree": 6,
+          "middle_rank": 4,
+          "tail_rank": 2,
+          "joint_rank": 12,
+          "joint_smith_factors": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            2
+          ],
+          "joint_mod_sum_free_rank": 6,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 1
+        },
+        {
+          "degree": 7,
+          "middle_rank": 4,
+          "tail_rank": 0,
+          "joint_rank": 12,
+          "joint_smith_factors": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "joint_mod_sum_free_rank": 8,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 1
+        },
+        {
+          "degree": 8,
+          "middle_rank": 5,
+          "tail_rank": 3,
+          "joint_rank": 18,
+          "joint_smith_factors": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "joint_mod_sum_free_rank": 10,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 4
+        }
+      ]
+    },
+    {
+      "type": "D",
+      "a": 1,
+      "b": 1,
+      "k": 2,
+      "max_degree": 12,
+      "degrees": [
+        {
+          "degree": 0,
+          "middle_rank": 1,
+          "tail_rank": 1,
+          "joint_rank": 1,
+          "joint_smith_factors": [
+            1
+          ],
+          "joint_mod_sum_free_rank": 0,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 0
+        },
+        {
+          "degree": 1,
+          "middle_rank": 1,
+          "tail_rank": 0,
+          "joint_rank": 1,
+          "joint_smith_factors": [
+            1
+          ],
+          "joint_mod_sum_free_rank": 0,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 0
+        },
+        {
+          "degree": 2,
+          "middle_rank": 1,
+          "tail_rank": 2,
+          "joint_rank": 3,
+          "joint_smith_factors": [
+            1,
+            1,
+            1
+          ],
+          "joint_mod_sum_free_rank": 0,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 0
+        },
+        {
+          "degree": 3,
+          "middle_rank": 1,
+          "tail_rank": 0,
+          "joint_rank": 3,
+          "joint_smith_factors": [
+            1,
+            1,
+            1
+          ],
+          "joint_mod_sum_free_rank": 2,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 0
+        },
+        {
+          "degree": 4,
+          "middle_rank": 1,
+          "tail_rank": 3,
+          "joint_rank": 5,
+          "joint_smith_factors": [
+            1,
+            1,
+            2,
+            2,
+            2
+          ],
+          "joint_mod_sum_free_rank": 1,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 1
+        },
+        {
+          "degree": 5,
+          "middle_rank": 1,
+          "tail_rank": 0,
+          "joint_rank": 4,
+          "joint_smith_factors": [
+            1,
+            2,
+            2,
+            2
+          ],
+          "joint_mod_sum_free_rank": 3,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 2
+        },
+        {
+          "degree": 6,
+          "middle_rank": 1,
+          "tail_rank": 2,
+          "joint_rank": 5,
+          "joint_smith_factors": [
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "joint_mod_sum_free_rank": 2,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 5
+        },
+        {
+          "degree": 7,
+          "middle_rank": 0,
+          "tail_rank": 0,
+          "joint_rank": 3,
+          "joint_smith_factors": [
+            2,
+            2,
+            2
+          ],
+          "joint_mod_sum_free_rank": 3,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 7
+        },
+        {
+          "degree": 8,
+          "middle_rank": 0,
+          "tail_rank": 1,
+          "joint_rank": 3,
+          "joint_smith_factors": [
+            2,
+            4,
+            4
+          ],
+          "joint_mod_sum_free_rank": 2,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 12
+        },
+        {
+          "degree": 9,
+          "middle_rank": 0,
+          "tail_rank": 0,
+          "joint_rank": 1,
+          "joint_smith_factors": [
+            4
+          ],
+          "joint_mod_sum_free_rank": 1,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 14
+        },
+        {
+          "degree": 10,
+          "middle_rank": 0,
+          "tail_rank": 0,
+          "joint_rank": 1,
+          "joint_smith_factors": [
+            4
+          ],
+          "joint_mod_sum_free_rank": 1,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 20
+        },
+        {
+          "degree": 11,
+          "middle_rank": 0,
+          "tail_rank": 0,
+          "joint_rank": 0,
+          "joint_smith_factors": [],
+          "joint_mod_sum_free_rank": 0,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 21
+        },
+        {
+          "degree": 12,
+          "middle_rank": 0,
+          "tail_rank": 0,
+          "joint_rank": 0,
+          "joint_smith_factors": [],
+          "joint_mod_sum_free_rank": 0,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 28
+        }
+      ]
+    },
+    {
+      "type": "D",
+      "a": 1,
+      "b": 2,
+      "k": 2,
+      "max_degree": 10,
+      "degrees": [
+        {
+          "degree": 0,
+          "middle_rank": 1,
+          "tail_rank": 1,
+          "joint_rank": 1,
+          "joint_smith_factors": [
+            1
+          ],
+          "joint_mod_sum_free_rank": 0,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 0
+        },
+        {
+          "degree": 1,
+          "middle_rank": 1,
+          "tail_rank": 0,
+          "joint_rank": 1,
+          "joint_smith_factors": [
+            1
+          ],
+          "joint_mod_sum_free_rank": 0,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 0
+        },
+        {
+          "degree": 2,
+          "middle_rank": 2,
+          "tail_rank": 2,
+          "joint_rank": 4,
+          "joint_smith_factors": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "joint_mod_sum_free_rank": 0,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 0
+        },
+        {
+          "degree": 3,
+          "middle_rank": 2,
+          "tail_rank": 0,
+          "joint_rank": 4,
+          "joint_smith_factors": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "joint_mod_sum_free_rank": 2,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 0
+        },
+        {
+          "degree": 4,
+          "middle_rank": 3,
+          "tail_rank": 3,
+          "joint_rank": 9,
+          "joint_smith_factors": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            2
+          ],
+          "joint_mod_sum_free_rank": 3,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 1
+        },
+        {
+          "degree": 5,
+          "middle_rank": 3,
+          "tail_rank": 0,
+          "joint_rank": 9,
+          "joint_smith_factors": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            2,
+            2
+          ],
+          "joint_mod_sum_free_rank": 6,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 1
+        },
+        {
+          "degree": 6,
+          "middle_rank": 4,
+          "tail_rank": 4,
+          "joint_rank": 14,
+          "joint_smith_factors": [
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "joint_mod_sum_free_rank": 6,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 6
+        },
+        {
+          "degree": 7,
+          "middle_rank": 4,
+          "tail_rank": 0,
+          "joint_rank": 14,
+          "joint_smith_factors": [
+            1,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "joint_mod_sum_free_rank": 10,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 6
+        },
+        {
+          "degree": 8,
+          "middle_rank": 3,
+          "tail_rank": 3,
+          "joint_rank": 16,
+          "joint_smith_factors": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            4,
+            4
+          ],
+          "joint_mod_sum_free_rank": 10,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 19
+        },
+        {
+          "degree": 9,
+          "middle_rank": 3,
+          "tail_rank": 0,
+          "joint_rank": 16,
+          "joint_smith_factors": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            4,
+            4,
+            4,
+            4,
+            4
+          ],
+          "joint_mod_sum_free_rank": 13,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 19
+        },
+        {
+          "degree": 10,
+          "middle_rank": 2,
+          "tail_rank": 2,
+          "joint_rank": 14,
+          "joint_smith_factors": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ],
+          "joint_mod_sum_free_rank": 10,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 42
+        }
+      ]
+    },
+    {
+      "type": "D",
+      "a": 2,
+      "b": 1,
+      "k": 2,
+      "max_degree": 10,
+      "degrees": [
+        {
+          "degree": 0,
+          "middle_rank": 1,
+          "tail_rank": 1,
+          "joint_rank": 1,
+          "joint_smith_factors": [
+            1
+          ],
+          "joint_mod_sum_free_rank": 0,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 0
+        },
+        {
+          "degree": 1,
+          "middle_rank": 1,
+          "tail_rank": 0,
+          "joint_rank": 1,
+          "joint_smith_factors": [
+            1
+          ],
+          "joint_mod_sum_free_rank": 0,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 0
+        },
+        {
+          "degree": 2,
+          "middle_rank": 1,
+          "tail_rank": 2,
+          "joint_rank": 3,
+          "joint_smith_factors": [
+            1,
+            1,
+            1
+          ],
+          "joint_mod_sum_free_rank": 0,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 0
+        },
+        {
+          "degree": 3,
+          "middle_rank": 1,
+          "tail_rank": 0,
+          "joint_rank": 3,
+          "joint_smith_factors": [
+            1,
+            1,
+            1
+          ],
+          "joint_mod_sum_free_rank": 2,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 0
+        },
+        {
+          "degree": 4,
+          "middle_rank": 1,
+          "tail_rank": 3,
+          "joint_rank": 6,
+          "joint_smith_factors": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "joint_mod_sum_free_rank": 2,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 0
+        },
+        {
+          "degree": 5,
+          "middle_rank": 1,
+          "tail_rank": 0,
+          "joint_rank": 6,
+          "joint_smith_factors": [
+            1,
+            1,
+            1,
+            1,
+            2,
+            2
+          ],
+          "joint_mod_sum_free_rank": 5,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 0
+        },
+        {
+          "degree": 6,
+          "middle_rank": 1,
+          "tail_rank": 4,
+          "joint_rank": 9,
+          "joint_smith_factors": [
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "joint_mod_sum_free_rank": 4,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 1
+        },
+        {
+          "degree": 7,
+          "middle_rank": 1,
+          "tail_rank": 0,
+          "joint_rank": 8,
+          "joint_smith_factors": [
+            1,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "joint_mod_sum_free_rank": 7,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 2
+        },
+        {
+          "degree": 8,
+          "middle_rank": 1,
+          "tail_rank": 3,
+          "joint_rank": 10,
+          "joint_smith_factors": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "joint_mod_sum_free_rank": 6,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 5
+        },
+        {
+          "degree": 9,
+          "middle_rank": 0,
+          "tail_rank": 0,
+          "joint_rank": 8,
+          "joint_smith_factors": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            4
+          ],
+          "joint_mod_sum_free_rank": 8,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 7
+        },
+        {
+          "degree": 10,
+          "middle_rank": 0,
+          "tail_rank": 2,
+          "joint_rank": 9,
+          "joint_smith_factors": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            4,
+            4
+          ],
+          "joint_mod_sum_free_rank": 7,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 12
+        }
+      ]
+    },
+    {
+      "type": "D",
+      "a": 1,
+      "b": 1,
+      "k": 3,
+      "max_degree": 10,
+      "degrees": [
+        {
+          "degree": 0,
+          "middle_rank": 1,
+          "tail_rank": 1,
+          "joint_rank": 1,
+          "joint_smith_factors": [
+            1
+          ],
+          "joint_mod_sum_free_rank": 0,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 0
+        },
+        {
+          "degree": 1,
+          "middle_rank": 1,
+          "tail_rank": 0,
+          "joint_rank": 1,
+          "joint_smith_factors": [
+            1
+          ],
+          "joint_mod_sum_free_rank": 0,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 0
+        },
+        {
+          "degree": 2,
+          "middle_rank": 1,
+          "tail_rank": 1,
+          "joint_rank": 2,
+          "joint_smith_factors": [
+            1,
+            1
+          ],
+          "joint_mod_sum_free_rank": 0,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 0
+        },
+        {
+          "degree": 3,
+          "middle_rank": 1,
+          "tail_rank": 1,
+          "joint_rank": 3,
+          "joint_smith_factors": [
+            1,
+            1,
+            1
+          ],
+          "joint_mod_sum_free_rank": 1,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 0
+        },
+        {
+          "degree": 4,
+          "middle_rank": 1,
+          "tail_rank": 2,
+          "joint_rank": 4,
+          "joint_smith_factors": [
+            1,
+            1,
+            1,
+            2
+          ],
+          "joint_mod_sum_free_rank": 1,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 1
+        },
+        {
+          "degree": 5,
+          "middle_rank": 1,
+          "tail_rank": 1,
+          "joint_rank": 5,
+          "joint_smith_factors": [
+            1,
+            1,
+            1,
+            2,
+            2
+          ],
+          "joint_mod_sum_free_rank": 3,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 1
+        },
+        {
+          "degree": 6,
+          "middle_rank": 1,
+          "tail_rank": 2,
+          "joint_rank": 5,
+          "joint_smith_factors": [
+            1,
+            1,
+            2,
+            2,
+            2
+          ],
+          "joint_mod_sum_free_rank": 2,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 4
+        },
+        {
+          "degree": 7,
+          "middle_rank": 1,
+          "tail_rank": 1,
+          "joint_rank": 6,
+          "joint_smith_factors": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "joint_mod_sum_free_rank": 4,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 5
+        },
+        {
+          "degree": 8,
+          "middle_rank": 1,
+          "tail_rank": 2,
+          "joint_rank": 5,
+          "joint_smith_factors": [
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "joint_mod_sum_free_rank": 2,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 10
+        },
+        {
+          "degree": 9,
+          "middle_rank": 0,
+          "tail_rank": 1,
+          "joint_rank": 5,
+          "joint_smith_factors": [
+            2,
+            2,
+            2,
+            2,
+            4
+          ],
+          "joint_mod_sum_free_rank": 4,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 13
+        },
+        {
+          "degree": 10,
+          "middle_rank": 0,
+          "tail_rank": 1,
+          "joint_rank": 4,
+          "joint_smith_factors": [
+            2,
+            2,
+            2,
+            4
+          ],
+          "joint_mod_sum_free_rank": 3,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 19
+        }
+      ]
+    },
+    {
+      "type": "D",
+      "a": 2,
+      "b": 2,
+      "k": 2,
+      "max_degree": 8,
+      "degrees": [
+        {
+          "degree": 0,
+          "middle_rank": 1,
+          "tail_rank": 1,
+          "joint_rank": 1,
+          "joint_smith_factors": [
+            1
+          ],
+          "joint_mod_sum_free_rank": 0,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 0
+        },
+        {
+          "degree": 1,
+          "middle_rank": 1,
+          "tail_rank": 0,
+          "joint_rank": 1,
+          "joint_smith_factors": [
+            1
+          ],
+          "joint_mod_sum_free_rank": 0,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 0
+        },
+        {
+          "degree": 2,
+          "middle_rank": 2,
+          "tail_rank": 2,
+          "joint_rank": 4,
+          "joint_smith_factors": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "joint_mod_sum_free_rank": 0,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 0
+        },
+        {
+          "degree": 3,
+          "middle_rank": 2,
+          "tail_rank": 0,
+          "joint_rank": 4,
+          "joint_smith_factors": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "joint_mod_sum_free_rank": 2,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 0
+        },
+        {
+          "degree": 4,
+          "middle_rank": 3,
+          "tail_rank": 3,
+          "joint_rank": 10,
+          "joint_smith_factors": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "joint_mod_sum_free_rank": 4,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 0
+        },
+        {
+          "degree": 5,
+          "middle_rank": 3,
+          "tail_rank": 0,
+          "joint_rank": 10,
+          "joint_smith_factors": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "joint_mod_sum_free_rank": 7,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 0
+        },
+        {
+          "degree": 6,
+          "middle_rank": 4,
+          "tail_rank": 4,
+          "joint_rank": 19,
+          "joint_smith_factors": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "joint_mod_sum_free_rank": 11,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 1
+        },
+        {
+          "degree": 7,
+          "middle_rank": 4,
+          "tail_rank": 0,
+          "joint_rank": 19,
+          "joint_smith_factors": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "joint_mod_sum_free_rank": 15,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 1
+        },
+        {
+          "degree": 8,
+          "middle_rank": 5,
+          "tail_rank": 5,
+          "joint_rank": 29,
+          "joint_smith_factors": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "joint_mod_sum_free_rank": 19,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 6
+        }
+      ]
+    },
+    {
+      "type": "D",
+      "a": 1,
+      "b": 3,
+      "k": 2,
+      "max_degree": 8,
+      "degrees": [
+        {
+          "degree": 0,
+          "middle_rank": 1,
+          "tail_rank": 1,
+          "joint_rank": 1,
+          "joint_smith_factors": [
+            1
+          ],
+          "joint_mod_sum_free_rank": 0,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 0
+        },
+        {
+          "degree": 1,
+          "middle_rank": 1,
+          "tail_rank": 0,
+          "joint_rank": 1,
+          "joint_smith_factors": [
+            1
+          ],
+          "joint_mod_sum_free_rank": 0,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 0
+        },
+        {
+          "degree": 2,
+          "middle_rank": 2,
+          "tail_rank": 2,
+          "joint_rank": 4,
+          "joint_smith_factors": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "joint_mod_sum_free_rank": 0,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 0
+        },
+        {
+          "degree": 3,
+          "middle_rank": 3,
+          "tail_rank": 0,
+          "joint_rank": 5,
+          "joint_smith_factors": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "joint_mod_sum_free_rank": 2,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 0
+        },
+        {
+          "degree": 4,
+          "middle_rank": 4,
+          "tail_rank": 3,
+          "joint_rank": 10,
+          "joint_smith_factors": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            2
+          ],
+          "joint_mod_sum_free_rank": 3,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 1
+        },
+        {
+          "degree": 5,
+          "middle_rank": 5,
+          "tail_rank": 0,
+          "joint_rank": 13,
+          "joint_smith_factors": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            2,
+            2
+          ],
+          "joint_mod_sum_free_rank": 8,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 1
+        },
+        {
+          "degree": 6,
+          "middle_rank": 7,
+          "tail_rank": 4,
+          "joint_rank": 20,
+          "joint_smith_factors": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "joint_mod_sum_free_rank": 9,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 5
+        },
+        {
+          "degree": 7,
+          "middle_rank": 8,
+          "tail_rank": 0,
+          "joint_rank": 24,
+          "joint_smith_factors": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "joint_mod_sum_free_rank": 16,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 7
+        },
+        {
+          "degree": 8,
+          "middle_rank": 9,
+          "tail_rank": 5,
+          "joint_rank": 32,
+          "joint_smith_factors": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            4
+          ],
+          "joint_mod_sum_free_rank": 18,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 17
+        }
+      ]
+    },
+    {
+      "type": "D",
+      "a": 1,
+      "b": 2,
+      "k": 3,
+      "max_degree": 8,
+      "degrees": [
+        {
+          "degree": 0,
+          "middle_rank": 1,
+          "tail_rank": 1,
+          "joint_rank": 1,
+          "joint_smith_factors": [
+            1
+          ],
+          "joint_mod_sum_free_rank": 0,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 0
+        },
+        {
+          "degree": 1,
+          "middle_rank": 1,
+          "tail_rank": 0,
+          "joint_rank": 1,
+          "joint_smith_factors": [
+            1
+          ],
+          "joint_mod_sum_free_rank": 0,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 0
+        },
+        {
+          "degree": 2,
+          "middle_rank": 2,
+          "tail_rank": 1,
+          "joint_rank": 3,
+          "joint_smith_factors": [
+            1,
+            1,
+            1
+          ],
+          "joint_mod_sum_free_rank": 0,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 0
+        },
+        {
+          "degree": 3,
+          "middle_rank": 2,
+          "tail_rank": 1,
+          "joint_rank": 4,
+          "joint_smith_factors": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "joint_mod_sum_free_rank": 1,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 0
+        },
+        {
+          "degree": 4,
+          "middle_rank": 3,
+          "tail_rank": 2,
+          "joint_rank": 7,
+          "joint_smith_factors": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "joint_mod_sum_free_rank": 2,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 1
+        },
+        {
+          "degree": 5,
+          "middle_rank": 3,
+          "tail_rank": 1,
+          "joint_rank": 9,
+          "joint_smith_factors": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "joint_mod_sum_free_rank": 5,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 1
+        },
+        {
+          "degree": 6,
+          "middle_rank": 4,
+          "tail_rank": 3,
+          "joint_rank": 13,
+          "joint_smith_factors": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            2,
+            2
+          ],
+          "joint_mod_sum_free_rank": 6,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 4
+        },
+        {
+          "degree": 7,
+          "middle_rank": 4,
+          "tail_rank": 2,
+          "joint_rank": 15,
+          "joint_smith_factors": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "joint_mod_sum_free_rank": 9,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 6
+        },
+        {
+          "degree": 8,
+          "middle_rank": 5,
+          "tail_rank": 3,
+          "joint_rank": 19,
+          "joint_smith_factors": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "joint_mod_sum_free_rank": 11,
+          "joint_mod_sum_torsion": [],
+          "integral_kernel_rank": 13
+        }
+      ]
+    }
+  ],
+  "source_sha256": {
+    "experiments/orthogonal_joint_structure.py": "a10ce88914de752632595c3c5d3b79e43723f2f4afc7517e63bc9641e4991429",
+    "ORTHOGONAL_JOINT_IMAGES.md": "6085f04da94f4174f85eddc1d405982ebb928eeeacba0c30479bb87420a23d98",
+    "TYPE_C_JOINT_PRIMITIVITY.md": "2ff5b025cd077955b25082a6058db0673cc01c13c6e5df613dc5683f54dc45bf",
+    "tests/oracle.py": "01976367d70b5f0adc88c95ce1b4b7abf3019d9c704410ca8d266cd8562874ae",
+    "two-step-integral-results.json": "634c9d16917f67cda5961901768cce54a5330e6b4b2fbff0ebe2f07102c777f8",
+    "src/sage_borel/__init__.py": "e8b0258ef81770102e2ff0b4c9b734dde01ce6030f3145585ce9639219d41e9d",
+    "src/sage_borel/algebra.py": "7fdf2deb8808961e1c3964c077fd4930e16e0ad8924144f3f2910726a8c46a4d",
+    "src/sage_borel/classical.py": "745666cf40d86e0afd095e4139e7a66889b3c578fda743bde06969e15d7ae088",
+    "src/sage_borel/coinvariant.py": "76859a189bc4b20b8592adcca7250f8f7bde18738b3256c830d8bf0f938bf0d9",
+    "src/sage_borel/core.py": "c21a7b8893c5155efc71123264d698b7504dd89d8657b0612f57e0cb05118751",
+    "src/sage_borel/exceptional.py": "9d50124e41984f5fa8b96cb41c648886b4b4f08892de9faf7cf7e1bbd099800b",
+    "src/sage_borel/expansion.py": "ecaf6a4439b8ff916dfc54716f9a3d1fc6bc03fbb17e8f30b08351480573cc46",
+    "src/sage_borel/families.py": "8d4a0cd068b800ea67ae38041f8ad6e576b88924ca0c83e81213ffd95694a34c",
+    "src/sage_borel/integral.py": "5e406be9f94d851821c3aff387eb1d1f81ef0172b94841ae0c3def7be6b465b4",
+    "src/sage_borel/inverse.py": "e7c222ff9454589e8cffd8fccf0b01f7663d21140c24a83aab99bc7b9879c380",
+    "src/sage_borel/lattices.py": "8fe8cf54e87e984cd728f219f453f68592aa589d849c41b152f03ebbb735f715",
+    "src/sage_borel/operations.py": "0429729152ddebd67d0034cdb5ef4953ed2091468168bd24f97ced4f2254b857",
+    "src/sage_borel/orthogonal.py": "4583d17ec943c639b021238d1af50769dd7b6502d60cb209e6523a00c3b0efd5",
+    "src/sage_borel/presentation.py": "0d28e847571a18b0a819a45b9df582f6a62138c309c5c4bf152c7331c6bbfff0",
+    "src/sage_borel/products.py": "f0cd691c717a65f0ca4f288acb4d359b1f3f352ce1efc8d161eb3f3d0bca780b"
+  }
+}

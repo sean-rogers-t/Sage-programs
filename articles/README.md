@@ -62,6 +62,22 @@ provides alternative arguments and explicit Schubert refinements.
 - [Editable LaTeX](combinatorial-proofs/Combinatorial_proofs_types_A_C_D.tex)
 - [Exact Sage checks and recorded results](combinatorial-proofs/verification/README.txt)
 
+## Integral image summary for Shrawan
+
+The [integral Springer-Borel image note](orthogonal-images-summary/README.md)
+connects the orthogonal Smith calculations to Parts II and III. The updated
+note includes the general normalized type-B multiplicity formula and its
+integral proof after a fresh full dependency audit. It separates published
+counting/character formulas, the additional repository Smith deduction,
+and the remaining type-D questions. No originality or external-review
+claim is made.
+
+- [Nine-page LaTeX PDF](orthogonal-images-summary/output/pdf/Springer_integral_images_for_Shrawan.pdf)
+- [Editable LaTeX source](orthogonal-images-summary/main.tex)
+- [Full general type-B proof](../borel/TYPE_B_GENERAL_SMITH.md)
+- [Fresh proof audit](../borel/TYPE_B_GENERAL_AUDIT.md)
+- [Full proof and source status](../borel/PROOF_STATUS.md)
+
 [PROVENANCE.json](PROVENANCE.json) records source URLs, SHA-256 hashes and file
 sizes. The current PDF and Word note supersede the earlier local note filenames;
 only this final pair is included here.

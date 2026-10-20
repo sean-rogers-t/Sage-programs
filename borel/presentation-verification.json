@@ -1,0 +1,225 @@
+{
+  "suite_result": "passed",
+  "test_methods_run": 8,
+  "sage_version": "9.5",
+  "seconds": 0.894,
+  "command": "PYTHONPATH=src sage -python -m unittest tests.test_presentation -v",
+  "independent_checks": {
+    "relations_independent_coinvariant_zero": 32,
+    "normal_forms_independent_groebner": 65,
+    "entire_elimination_kernel_and_staircase": 13,
+    "exceptional_ample_class_full_kernel": 3,
+    "g2_full_flag_explicit_orbit_invariants": 1,
+    "immutable_fresh_ideal_cache_regressions": 7,
+    "completeness_certificate_and_invalid_claim_rejection": 10,
+    "json_certificate_serialization": 1,
+    "type_d_euler_independence": 4
+  },
+  "cases": [
+    {
+      "case": "P3 dependent generators",
+      "dimension": 4,
+      "hilbert_coefficients": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "groebner_basis_size": 2
+    },
+    {
+      "case": "P4 weighted subalgebra",
+      "dimension": 4,
+      "hilbert_coefficients": [
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "groebner_basis_size": 3
+    },
+    {
+      "case": "P4 descending generator weights",
+      "dimension": 5,
+      "hilbert_coefficients": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "groebner_basis_size": 3
+    },
+    {
+      "case": "P4 dependent weights one two three",
+      "dimension": 5,
+      "hilbert_coefficients": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "groebner_basis_size": 5
+    },
+    {
+      "case": "G2/P1 ample divisor",
+      "dimension": 6,
+      "hilbert_coefficients": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "groebner_basis_size": 1
+    },
+    {
+      "case": "G2/P2 ample divisor",
+      "dimension": 6,
+      "hilbert_coefficients": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "groebner_basis_size": 1
+    },
+    {
+      "case": "F4/P4 ample divisor",
+      "dimension": 16,
+      "hilbert_coefficients": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "groebner_basis_size": 1
+    },
+    {
+      "case": "G2 full flag orbit invariants",
+      "dimension": 12,
+      "hilbert_coefficients": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
+      "groebner_basis_size": 2
+    },
+    {
+      "case": "A2 full flag",
+      "dimension": 6,
+      "hilbert_coefficients": [
+        1,
+        2,
+        2,
+        1
+      ],
+      "groebner_basis_size": 2
+    },
+    {
+      "case": "Gr(2,4)",
+      "dimension": 6,
+      "hilbert_coefficients": [
+        1,
+        1,
+        2,
+        1,
+        1
+      ],
+      "groebner_basis_size": 4
+    },
+    {
+      "case": "C2 full flag",
+      "dimension": 8,
+      "hilbert_coefficients": [
+        1,
+        2,
+        2,
+        2,
+        1
+      ],
+      "groebner_basis_size": 2
+    },
+    {
+      "case": "C3 joint middle and tail",
+      "dimension": 12,
+      "hilbert_coefficients": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1
+      ],
+      "groebner_basis_size": 2
+    },
+    {
+      "case": "C3 tail",
+      "dimension": 3,
+      "hilbert_coefficients": [
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "groebner_basis_size": 1
+    },
+    {
+      "case": "D4 tail with Euler",
+      "dimension": 9,
+      "hilbert_coefficients": [
+        1,
+        0,
+        2,
+        0,
+        3,
+        0,
+        2,
+        0,
+        1
+      ],
+      "groebner_basis_size": 4
+    },
+    {
+      "case": "A1 zero image degree 2",
+      "dimension": 1,
+      "hilbert_coefficients": [
+        1
+      ],
+      "groebner_basis_size": 1
+    },
+    {
+      "case": "A1 zero image degree 37",
+      "dimension": 1,
+      "hilbert_coefficients": [
+        1
+      ],
+      "groebner_basis_size": 1
+    }
+  ],
+  "expected_values_source": "Full lex elimination of Cartesian A/C/D coinvariant ideals and explicit G2 orbit invariants; ample-divisor Hard Lefschetz theorem"
+}

@@ -1,0 +1,2227 @@
+{
+  "suite_result": "passed",
+  "generated_utc": "2026-10-19T17:16:49.901409+00:00",
+  "sage_version": "9.5",
+  "source_script_sha256": "aed0dfcee1aa532e36649fd5667daaf2b090d24ef6257a03561cab00da947c25",
+  "oracle_scope": {
+    "other_block_widths": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "polynomial_degrees": "all even degrees 0 through 6*A for each width A",
+    "direct_Frobenius_widths": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "expected_values": "Schur Littlewood--Richardson arithmetic over GF(2)",
+    "Borel_or_Weyl_engine_imported": false
+  },
+  "checks": {
+    "closed_formula_vs_LR_product_ranks": 235,
+    "closed_formula_vs_direct_frobenius": 58,
+    "closed_formula_vs_recorded_B_Smith_lists": 75
+  },
+  "input_datasets": [
+    {
+      "filename": "orthogonal_smith_search_results.json",
+      "sha256": "bbb2080a2c668b177008db2085962d76d23456e2ad1b5b4fbac9e136253645f7",
+      "bytes": 110765
+    },
+    {
+      "filename": "type_b_multiplicity_search_results.json",
+      "sha256": "16cc7a959ec59493febe0e4b3c38a311a72e170c767025cf05c3a88a17a07bfb",
+      "bytes": 796807
+    }
+  ],
+  "cases": [
+    {
+      "block_sizes": [
+        3,
+        3
+      ],
+      "unit_generating_polynomial": "q^4 + 2*q^3 + 2*q^2 + q + 1",
+      "degrees": [
+        {
+          "half_polynomial_degree": 0,
+          "polynomial_degree": 0,
+          "unit_count": 1,
+          "LR_product_columns": 1
+        },
+        {
+          "half_polynomial_degree": 1,
+          "polynomial_degree": 2,
+          "unit_count": 1,
+          "LR_product_columns": 2
+        },
+        {
+          "half_polynomial_degree": 2,
+          "polynomial_degree": 4,
+          "unit_count": 2,
+          "LR_product_columns": 3
+        },
+        {
+          "half_polynomial_degree": 3,
+          "polynomial_degree": 6,
+          "unit_count": 2,
+          "LR_product_columns": 2
+        },
+        {
+          "half_polynomial_degree": 4,
+          "polynomial_degree": 8,
+          "unit_count": 1,
+          "LR_product_columns": 1
+        },
+        {
+          "half_polynomial_degree": 5,
+          "polynomial_degree": 10,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 6,
+          "polynomial_degree": 12,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 7,
+          "polynomial_degree": 14,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 8,
+          "polynomial_degree": 16,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 9,
+          "polynomial_degree": 18,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        }
+      ]
+    },
+    {
+      "block_sizes": [
+        4,
+        3
+      ],
+      "unit_generating_polynomial": "q^6 + 2*q^5 + 3*q^4 + 3*q^3 + 2*q^2 + q + 1",
+      "degrees": [
+        {
+          "half_polynomial_degree": 0,
+          "polynomial_degree": 0,
+          "unit_count": 1,
+          "LR_product_columns": 1
+        },
+        {
+          "half_polynomial_degree": 1,
+          "polynomial_degree": 2,
+          "unit_count": 1,
+          "LR_product_columns": 2
+        },
+        {
+          "half_polynomial_degree": 2,
+          "polynomial_degree": 4,
+          "unit_count": 2,
+          "LR_product_columns": 4
+        },
+        {
+          "half_polynomial_degree": 3,
+          "polynomial_degree": 6,
+          "unit_count": 3,
+          "LR_product_columns": 4
+        },
+        {
+          "half_polynomial_degree": 4,
+          "polynomial_degree": 8,
+          "unit_count": 3,
+          "LR_product_columns": 4
+        },
+        {
+          "half_polynomial_degree": 5,
+          "polynomial_degree": 10,
+          "unit_count": 2,
+          "LR_product_columns": 2
+        },
+        {
+          "half_polynomial_degree": 6,
+          "polynomial_degree": 12,
+          "unit_count": 1,
+          "LR_product_columns": 1
+        },
+        {
+          "half_polynomial_degree": 7,
+          "polynomial_degree": 14,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 8,
+          "polynomial_degree": 16,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 9,
+          "polynomial_degree": 18,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 10,
+          "polynomial_degree": 20,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 11,
+          "polynomial_degree": 22,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 12,
+          "polynomial_degree": 24,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        }
+      ]
+    },
+    {
+      "block_sizes": [
+        5,
+        3
+      ],
+      "unit_generating_polynomial": "q^7 + 2*q^6 + 3*q^5 + 3*q^4 + 3*q^3 + 2*q^2 + q + 1",
+      "degrees": [
+        {
+          "half_polynomial_degree": 0,
+          "polynomial_degree": 0,
+          "unit_count": 1,
+          "LR_product_columns": 1
+        },
+        {
+          "half_polynomial_degree": 1,
+          "polynomial_degree": 2,
+          "unit_count": 1,
+          "LR_product_columns": 2
+        },
+        {
+          "half_polynomial_degree": 2,
+          "polynomial_degree": 4,
+          "unit_count": 2,
+          "LR_product_columns": 4
+        },
+        {
+          "half_polynomial_degree": 3,
+          "polynomial_degree": 6,
+          "unit_count": 3,
+          "LR_product_columns": 5
+        },
+        {
+          "half_polynomial_degree": 4,
+          "polynomial_degree": 8,
+          "unit_count": 3,
+          "LR_product_columns": 5
+        },
+        {
+          "half_polynomial_degree": 5,
+          "polynomial_degree": 10,
+          "unit_count": 3,
+          "LR_product_columns": 4
+        },
+        {
+          "half_polynomial_degree": 6,
+          "polynomial_degree": 12,
+          "unit_count": 2,
+          "LR_product_columns": 2
+        },
+        {
+          "half_polynomial_degree": 7,
+          "polynomial_degree": 14,
+          "unit_count": 1,
+          "LR_product_columns": 1
+        },
+        {
+          "half_polynomial_degree": 8,
+          "polynomial_degree": 16,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 9,
+          "polynomial_degree": 18,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 10,
+          "polynomial_degree": 20,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 11,
+          "polynomial_degree": 22,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 12,
+          "polynomial_degree": 24,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 13,
+          "polynomial_degree": 26,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 14,
+          "polynomial_degree": 28,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 15,
+          "polynomial_degree": 30,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        }
+      ]
+    },
+    {
+      "block_sizes": [
+        6,
+        3
+      ],
+      "unit_generating_polynomial": "q^9 + 2*q^8 + 3*q^7 + 5*q^6 + 4*q^5 + 4*q^4 + 3*q^3 + 2*q^2 + q + 1",
+      "degrees": [
+        {
+          "half_polynomial_degree": 0,
+          "polynomial_degree": 0,
+          "unit_count": 1,
+          "LR_product_columns": 1
+        },
+        {
+          "half_polynomial_degree": 1,
+          "polynomial_degree": 2,
+          "unit_count": 1,
+          "LR_product_columns": 2
+        },
+        {
+          "half_polynomial_degree": 2,
+          "polynomial_degree": 4,
+          "unit_count": 2,
+          "LR_product_columns": 4
+        },
+        {
+          "half_polynomial_degree": 3,
+          "polynomial_degree": 6,
+          "unit_count": 3,
+          "LR_product_columns": 6
+        },
+        {
+          "half_polynomial_degree": 4,
+          "polynomial_degree": 8,
+          "unit_count": 4,
+          "LR_product_columns": 7
+        },
+        {
+          "half_polynomial_degree": 5,
+          "polynomial_degree": 10,
+          "unit_count": 4,
+          "LR_product_columns": 7
+        },
+        {
+          "half_polynomial_degree": 6,
+          "polynomial_degree": 12,
+          "unit_count": 5,
+          "LR_product_columns": 6
+        },
+        {
+          "half_polynomial_degree": 7,
+          "polynomial_degree": 14,
+          "unit_count": 3,
+          "LR_product_columns": 4
+        },
+        {
+          "half_polynomial_degree": 8,
+          "polynomial_degree": 16,
+          "unit_count": 2,
+          "LR_product_columns": 2
+        },
+        {
+          "half_polynomial_degree": 9,
+          "polynomial_degree": 18,
+          "unit_count": 1,
+          "LR_product_columns": 1
+        },
+        {
+          "half_polynomial_degree": 10,
+          "polynomial_degree": 20,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 11,
+          "polynomial_degree": 22,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 12,
+          "polynomial_degree": 24,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 13,
+          "polynomial_degree": 26,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 14,
+          "polynomial_degree": 28,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 15,
+          "polynomial_degree": 30,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 16,
+          "polynomial_degree": 32,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 17,
+          "polynomial_degree": 34,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 18,
+          "polynomial_degree": 36,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        }
+      ]
+    },
+    {
+      "block_sizes": [
+        7,
+        3
+      ],
+      "unit_generating_polynomial": "q^10 + 2*q^9 + 3*q^8 + 4*q^7 + 5*q^6 + 4*q^5 + 4*q^4 + 3*q^3 + 2*q^2 + q + 1",
+      "degrees": [
+        {
+          "half_polynomial_degree": 0,
+          "polynomial_degree": 0,
+          "unit_count": 1,
+          "LR_product_columns": 1
+        },
+        {
+          "half_polynomial_degree": 1,
+          "polynomial_degree": 2,
+          "unit_count": 1,
+          "LR_product_columns": 2
+        },
+        {
+          "half_polynomial_degree": 2,
+          "polynomial_degree": 4,
+          "unit_count": 2,
+          "LR_product_columns": 4
+        },
+        {
+          "half_polynomial_degree": 3,
+          "polynomial_degree": 6,
+          "unit_count": 3,
+          "LR_product_columns": 6
+        },
+        {
+          "half_polynomial_degree": 4,
+          "polynomial_degree": 8,
+          "unit_count": 4,
+          "LR_product_columns": 8
+        },
+        {
+          "half_polynomial_degree": 5,
+          "polynomial_degree": 10,
+          "unit_count": 4,
+          "LR_product_columns": 8
+        },
+        {
+          "half_polynomial_degree": 6,
+          "polynomial_degree": 12,
+          "unit_count": 5,
+          "LR_product_columns": 8
+        },
+        {
+          "half_polynomial_degree": 7,
+          "polynomial_degree": 14,
+          "unit_count": 4,
+          "LR_product_columns": 6
+        },
+        {
+          "half_polynomial_degree": 8,
+          "polynomial_degree": 16,
+          "unit_count": 3,
+          "LR_product_columns": 4
+        },
+        {
+          "half_polynomial_degree": 9,
+          "polynomial_degree": 18,
+          "unit_count": 2,
+          "LR_product_columns": 2
+        },
+        {
+          "half_polynomial_degree": 10,
+          "polynomial_degree": 20,
+          "unit_count": 1,
+          "LR_product_columns": 1
+        },
+        {
+          "half_polynomial_degree": 11,
+          "polynomial_degree": 22,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 12,
+          "polynomial_degree": 24,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 13,
+          "polynomial_degree": 26,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 14,
+          "polynomial_degree": 28,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 15,
+          "polynomial_degree": 30,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 16,
+          "polynomial_degree": 32,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 17,
+          "polynomial_degree": 34,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 18,
+          "polynomial_degree": 36,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 19,
+          "polynomial_degree": 38,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 20,
+          "polynomial_degree": 40,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 21,
+          "polynomial_degree": 42,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        }
+      ]
+    },
+    {
+      "block_sizes": [
+        8,
+        3
+      ],
+      "unit_generating_polynomial": "q^12 + 2*q^11 + 3*q^10 + 5*q^9 + 6*q^8 + 6*q^7 + 6*q^6 + 5*q^5 + 4*q^4 + 3*q^3 + 2*q^2 + q + 1",
+      "degrees": [
+        {
+          "half_polynomial_degree": 0,
+          "polynomial_degree": 0,
+          "unit_count": 1,
+          "LR_product_columns": 1
+        },
+        {
+          "half_polynomial_degree": 1,
+          "polynomial_degree": 2,
+          "unit_count": 1,
+          "LR_product_columns": 2
+        },
+        {
+          "half_polynomial_degree": 2,
+          "polynomial_degree": 4,
+          "unit_count": 2,
+          "LR_product_columns": 4
+        },
+        {
+          "half_polynomial_degree": 3,
+          "polynomial_degree": 6,
+          "unit_count": 3,
+          "LR_product_columns": 6
+        },
+        {
+          "half_polynomial_degree": 4,
+          "polynomial_degree": 8,
+          "unit_count": 4,
+          "LR_product_columns": 9
+        },
+        {
+          "half_polynomial_degree": 5,
+          "polynomial_degree": 10,
+          "unit_count": 5,
+          "LR_product_columns": 10
+        },
+        {
+          "half_polynomial_degree": 6,
+          "polynomial_degree": 12,
+          "unit_count": 6,
+          "LR_product_columns": 11
+        },
+        {
+          "half_polynomial_degree": 7,
+          "polynomial_degree": 14,
+          "unit_count": 6,
+          "LR_product_columns": 10
+        },
+        {
+          "half_polynomial_degree": 8,
+          "polynomial_degree": 16,
+          "unit_count": 6,
+          "LR_product_columns": 9
+        },
+        {
+          "half_polynomial_degree": 9,
+          "polynomial_degree": 18,
+          "unit_count": 5,
+          "LR_product_columns": 6
+        },
+        {
+          "half_polynomial_degree": 10,
+          "polynomial_degree": 20,
+          "unit_count": 3,
+          "LR_product_columns": 4
+        },
+        {
+          "half_polynomial_degree": 11,
+          "polynomial_degree": 22,
+          "unit_count": 2,
+          "LR_product_columns": 2
+        },
+        {
+          "half_polynomial_degree": 12,
+          "polynomial_degree": 24,
+          "unit_count": 1,
+          "LR_product_columns": 1
+        },
+        {
+          "half_polynomial_degree": 13,
+          "polynomial_degree": 26,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 14,
+          "polynomial_degree": 28,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 15,
+          "polynomial_degree": 30,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 16,
+          "polynomial_degree": 32,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 17,
+          "polynomial_degree": 34,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 18,
+          "polynomial_degree": 36,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 19,
+          "polynomial_degree": 38,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 20,
+          "polynomial_degree": 40,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 21,
+          "polynomial_degree": 42,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 22,
+          "polynomial_degree": 44,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 23,
+          "polynomial_degree": 46,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 24,
+          "polynomial_degree": 48,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        }
+      ]
+    },
+    {
+      "block_sizes": [
+        9,
+        3
+      ],
+      "unit_generating_polynomial": "q^13 + 2*q^12 + 3*q^11 + 4*q^10 + 6*q^9 + 6*q^8 + 6*q^7 + 6*q^6 + 5*q^5 + 4*q^4 + 3*q^3 + 2*q^2 + q + 1",
+      "degrees": [
+        {
+          "half_polynomial_degree": 0,
+          "polynomial_degree": 0,
+          "unit_count": 1,
+          "LR_product_columns": 1
+        },
+        {
+          "half_polynomial_degree": 1,
+          "polynomial_degree": 2,
+          "unit_count": 1,
+          "LR_product_columns": 2
+        },
+        {
+          "half_polynomial_degree": 2,
+          "polynomial_degree": 4,
+          "unit_count": 2,
+          "LR_product_columns": 4
+        },
+        {
+          "half_polynomial_degree": 3,
+          "polynomial_degree": 6,
+          "unit_count": 3,
+          "LR_product_columns": 6
+        },
+        {
+          "half_polynomial_degree": 4,
+          "polynomial_degree": 8,
+          "unit_count": 4,
+          "LR_product_columns": 9
+        },
+        {
+          "half_polynomial_degree": 5,
+          "polynomial_degree": 10,
+          "unit_count": 5,
+          "LR_product_columns": 11
+        },
+        {
+          "half_polynomial_degree": 6,
+          "polynomial_degree": 12,
+          "unit_count": 6,
+          "LR_product_columns": 12
+        },
+        {
+          "half_polynomial_degree": 7,
+          "polynomial_degree": 14,
+          "unit_count": 6,
+          "LR_product_columns": 12
+        },
+        {
+          "half_polynomial_degree": 8,
+          "polynomial_degree": 16,
+          "unit_count": 6,
+          "LR_product_columns": 11
+        },
+        {
+          "half_polynomial_degree": 9,
+          "polynomial_degree": 18,
+          "unit_count": 6,
+          "LR_product_columns": 9
+        },
+        {
+          "half_polynomial_degree": 10,
+          "polynomial_degree": 20,
+          "unit_count": 4,
+          "LR_product_columns": 6
+        },
+        {
+          "half_polynomial_degree": 11,
+          "polynomial_degree": 22,
+          "unit_count": 3,
+          "LR_product_columns": 4
+        },
+        {
+          "half_polynomial_degree": 12,
+          "polynomial_degree": 24,
+          "unit_count": 2,
+          "LR_product_columns": 2
+        },
+        {
+          "half_polynomial_degree": 13,
+          "polynomial_degree": 26,
+          "unit_count": 1,
+          "LR_product_columns": 1
+        },
+        {
+          "half_polynomial_degree": 14,
+          "polynomial_degree": 28,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 15,
+          "polynomial_degree": 30,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 16,
+          "polynomial_degree": 32,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 17,
+          "polynomial_degree": 34,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 18,
+          "polynomial_degree": 36,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 19,
+          "polynomial_degree": 38,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 20,
+          "polynomial_degree": 40,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 21,
+          "polynomial_degree": 42,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 22,
+          "polynomial_degree": 44,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 23,
+          "polynomial_degree": 46,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 24,
+          "polynomial_degree": 48,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 25,
+          "polynomial_degree": 50,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 26,
+          "polynomial_degree": 52,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 27,
+          "polynomial_degree": 54,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        }
+      ]
+    },
+    {
+      "block_sizes": [
+        10,
+        3
+      ],
+      "unit_generating_polynomial": "q^15 + 2*q^14 + 3*q^13 + 5*q^12 + 6*q^11 + 8*q^10 + 8*q^9 + 8*q^8 + 7*q^7 + 7*q^6 + 5*q^5 + 4*q^4 + 3*q^3 + 2*q^2 + q + 1",
+      "degrees": [
+        {
+          "half_polynomial_degree": 0,
+          "polynomial_degree": 0,
+          "unit_count": 1,
+          "LR_product_columns": 1
+        },
+        {
+          "half_polynomial_degree": 1,
+          "polynomial_degree": 2,
+          "unit_count": 1,
+          "LR_product_columns": 2
+        },
+        {
+          "half_polynomial_degree": 2,
+          "polynomial_degree": 4,
+          "unit_count": 2,
+          "LR_product_columns": 4
+        },
+        {
+          "half_polynomial_degree": 3,
+          "polynomial_degree": 6,
+          "unit_count": 3,
+          "LR_product_columns": 6
+        },
+        {
+          "half_polynomial_degree": 4,
+          "polynomial_degree": 8,
+          "unit_count": 4,
+          "LR_product_columns": 9
+        },
+        {
+          "half_polynomial_degree": 5,
+          "polynomial_degree": 10,
+          "unit_count": 5,
+          "LR_product_columns": 12
+        },
+        {
+          "half_polynomial_degree": 6,
+          "polynomial_degree": 12,
+          "unit_count": 7,
+          "LR_product_columns": 14
+        },
+        {
+          "half_polynomial_degree": 7,
+          "polynomial_degree": 14,
+          "unit_count": 7,
+          "LR_product_columns": 15
+        },
+        {
+          "half_polynomial_degree": 8,
+          "polynomial_degree": 16,
+          "unit_count": 8,
+          "LR_product_columns": 15
+        },
+        {
+          "half_polynomial_degree": 9,
+          "polynomial_degree": 18,
+          "unit_count": 8,
+          "LR_product_columns": 14
+        },
+        {
+          "half_polynomial_degree": 10,
+          "polynomial_degree": 20,
+          "unit_count": 8,
+          "LR_product_columns": 12
+        },
+        {
+          "half_polynomial_degree": 11,
+          "polynomial_degree": 22,
+          "unit_count": 6,
+          "LR_product_columns": 9
+        },
+        {
+          "half_polynomial_degree": 12,
+          "polynomial_degree": 24,
+          "unit_count": 5,
+          "LR_product_columns": 6
+        },
+        {
+          "half_polynomial_degree": 13,
+          "polynomial_degree": 26,
+          "unit_count": 3,
+          "LR_product_columns": 4
+        },
+        {
+          "half_polynomial_degree": 14,
+          "polynomial_degree": 28,
+          "unit_count": 2,
+          "LR_product_columns": 2
+        },
+        {
+          "half_polynomial_degree": 15,
+          "polynomial_degree": 30,
+          "unit_count": 1,
+          "LR_product_columns": 1
+        },
+        {
+          "half_polynomial_degree": 16,
+          "polynomial_degree": 32,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 17,
+          "polynomial_degree": 34,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 18,
+          "polynomial_degree": 36,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 19,
+          "polynomial_degree": 38,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 20,
+          "polynomial_degree": 40,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 21,
+          "polynomial_degree": 42,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 22,
+          "polynomial_degree": 44,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 23,
+          "polynomial_degree": 46,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 24,
+          "polynomial_degree": 48,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 25,
+          "polynomial_degree": 50,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 26,
+          "polynomial_degree": 52,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 27,
+          "polynomial_degree": 54,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 28,
+          "polynomial_degree": 56,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 29,
+          "polynomial_degree": 58,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 30,
+          "polynomial_degree": 60,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        }
+      ]
+    },
+    {
+      "block_sizes": [
+        11,
+        3
+      ],
+      "unit_generating_polynomial": "q^16 + 2*q^15 + 3*q^14 + 4*q^13 + 6*q^12 + 7*q^11 + 8*q^10 + 8*q^9 + 8*q^8 + 7*q^7 + 7*q^6 + 5*q^5 + 4*q^4 + 3*q^3 + 2*q^2 + q + 1",
+      "degrees": [
+        {
+          "half_polynomial_degree": 0,
+          "polynomial_degree": 0,
+          "unit_count": 1,
+          "LR_product_columns": 1
+        },
+        {
+          "half_polynomial_degree": 1,
+          "polynomial_degree": 2,
+          "unit_count": 1,
+          "LR_product_columns": 2
+        },
+        {
+          "half_polynomial_degree": 2,
+          "polynomial_degree": 4,
+          "unit_count": 2,
+          "LR_product_columns": 4
+        },
+        {
+          "half_polynomial_degree": 3,
+          "polynomial_degree": 6,
+          "unit_count": 3,
+          "LR_product_columns": 6
+        },
+        {
+          "half_polynomial_degree": 4,
+          "polynomial_degree": 8,
+          "unit_count": 4,
+          "LR_product_columns": 9
+        },
+        {
+          "half_polynomial_degree": 5,
+          "polynomial_degree": 10,
+          "unit_count": 5,
+          "LR_product_columns": 12
+        },
+        {
+          "half_polynomial_degree": 6,
+          "polynomial_degree": 12,
+          "unit_count": 7,
+          "LR_product_columns": 15
+        },
+        {
+          "half_polynomial_degree": 7,
+          "polynomial_degree": 14,
+          "unit_count": 7,
+          "LR_product_columns": 16
+        },
+        {
+          "half_polynomial_degree": 8,
+          "polynomial_degree": 16,
+          "unit_count": 8,
+          "LR_product_columns": 17
+        },
+        {
+          "half_polynomial_degree": 9,
+          "polynomial_degree": 18,
+          "unit_count": 8,
+          "LR_product_columns": 16
+        },
+        {
+          "half_polynomial_degree": 10,
+          "polynomial_degree": 20,
+          "unit_count": 8,
+          "LR_product_columns": 15
+        },
+        {
+          "half_polynomial_degree": 11,
+          "polynomial_degree": 22,
+          "unit_count": 7,
+          "LR_product_columns": 12
+        },
+        {
+          "half_polynomial_degree": 12,
+          "polynomial_degree": 24,
+          "unit_count": 6,
+          "LR_product_columns": 9
+        },
+        {
+          "half_polynomial_degree": 13,
+          "polynomial_degree": 26,
+          "unit_count": 4,
+          "LR_product_columns": 6
+        },
+        {
+          "half_polynomial_degree": 14,
+          "polynomial_degree": 28,
+          "unit_count": 3,
+          "LR_product_columns": 4
+        },
+        {
+          "half_polynomial_degree": 15,
+          "polynomial_degree": 30,
+          "unit_count": 2,
+          "LR_product_columns": 2
+        },
+        {
+          "half_polynomial_degree": 16,
+          "polynomial_degree": 32,
+          "unit_count": 1,
+          "LR_product_columns": 1
+        },
+        {
+          "half_polynomial_degree": 17,
+          "polynomial_degree": 34,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 18,
+          "polynomial_degree": 36,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 19,
+          "polynomial_degree": 38,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 20,
+          "polynomial_degree": 40,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 21,
+          "polynomial_degree": 42,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 22,
+          "polynomial_degree": 44,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 23,
+          "polynomial_degree": 46,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 24,
+          "polynomial_degree": 48,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 25,
+          "polynomial_degree": 50,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 26,
+          "polynomial_degree": 52,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 27,
+          "polynomial_degree": 54,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 28,
+          "polynomial_degree": 56,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 29,
+          "polynomial_degree": 58,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 30,
+          "polynomial_degree": 60,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 31,
+          "polynomial_degree": 62,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 32,
+          "polynomial_degree": 64,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 33,
+          "polynomial_degree": 66,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        }
+      ]
+    },
+    {
+      "block_sizes": [
+        12,
+        3
+      ],
+      "unit_generating_polynomial": "q^18 + 2*q^17 + 3*q^16 + 5*q^15 + 6*q^14 + 8*q^13 + 10*q^12 + 10*q^11 + 10*q^10 + 10*q^9 + 9*q^8 + 8*q^7 + 7*q^6 + 5*q^5 + 4*q^4 + 3*q^3 + 2*q^2 + q + 1",
+      "degrees": [
+        {
+          "half_polynomial_degree": 0,
+          "polynomial_degree": 0,
+          "unit_count": 1,
+          "LR_product_columns": 1
+        },
+        {
+          "half_polynomial_degree": 1,
+          "polynomial_degree": 2,
+          "unit_count": 1,
+          "LR_product_columns": 2
+        },
+        {
+          "half_polynomial_degree": 2,
+          "polynomial_degree": 4,
+          "unit_count": 2,
+          "LR_product_columns": 4
+        },
+        {
+          "half_polynomial_degree": 3,
+          "polynomial_degree": 6,
+          "unit_count": 3,
+          "LR_product_columns": 6
+        },
+        {
+          "half_polynomial_degree": 4,
+          "polynomial_degree": 8,
+          "unit_count": 4,
+          "LR_product_columns": 9
+        },
+        {
+          "half_polynomial_degree": 5,
+          "polynomial_degree": 10,
+          "unit_count": 5,
+          "LR_product_columns": 12
+        },
+        {
+          "half_polynomial_degree": 6,
+          "polynomial_degree": 12,
+          "unit_count": 7,
+          "LR_product_columns": 16
+        },
+        {
+          "half_polynomial_degree": 7,
+          "polynomial_degree": 14,
+          "unit_count": 8,
+          "LR_product_columns": 18
+        },
+        {
+          "half_polynomial_degree": 8,
+          "polynomial_degree": 16,
+          "unit_count": 9,
+          "LR_product_columns": 20
+        },
+        {
+          "half_polynomial_degree": 9,
+          "polynomial_degree": 18,
+          "unit_count": 10,
+          "LR_product_columns": 20
+        },
+        {
+          "half_polynomial_degree": 10,
+          "polynomial_degree": 20,
+          "unit_count": 10,
+          "LR_product_columns": 20
+        },
+        {
+          "half_polynomial_degree": 11,
+          "polynomial_degree": 22,
+          "unit_count": 10,
+          "LR_product_columns": 18
+        },
+        {
+          "half_polynomial_degree": 12,
+          "polynomial_degree": 24,
+          "unit_count": 10,
+          "LR_product_columns": 16
+        },
+        {
+          "half_polynomial_degree": 13,
+          "polynomial_degree": 26,
+          "unit_count": 8,
+          "LR_product_columns": 12
+        },
+        {
+          "half_polynomial_degree": 14,
+          "polynomial_degree": 28,
+          "unit_count": 6,
+          "LR_product_columns": 9
+        },
+        {
+          "half_polynomial_degree": 15,
+          "polynomial_degree": 30,
+          "unit_count": 5,
+          "LR_product_columns": 6
+        },
+        {
+          "half_polynomial_degree": 16,
+          "polynomial_degree": 32,
+          "unit_count": 3,
+          "LR_product_columns": 4
+        },
+        {
+          "half_polynomial_degree": 17,
+          "polynomial_degree": 34,
+          "unit_count": 2,
+          "LR_product_columns": 2
+        },
+        {
+          "half_polynomial_degree": 18,
+          "polynomial_degree": 36,
+          "unit_count": 1,
+          "LR_product_columns": 1
+        },
+        {
+          "half_polynomial_degree": 19,
+          "polynomial_degree": 38,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 20,
+          "polynomial_degree": 40,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 21,
+          "polynomial_degree": 42,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 22,
+          "polynomial_degree": 44,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 23,
+          "polynomial_degree": 46,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 24,
+          "polynomial_degree": 48,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 25,
+          "polynomial_degree": 50,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 26,
+          "polynomial_degree": 52,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 27,
+          "polynomial_degree": 54,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 28,
+          "polynomial_degree": 56,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 29,
+          "polynomial_degree": 58,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 30,
+          "polynomial_degree": 60,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 31,
+          "polynomial_degree": 62,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 32,
+          "polynomial_degree": 64,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 33,
+          "polynomial_degree": 66,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 34,
+          "polynomial_degree": 68,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 35,
+          "polynomial_degree": 70,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        },
+        {
+          "half_polynomial_degree": 36,
+          "polynomial_degree": 72,
+          "unit_count": 0,
+          "LR_product_columns": 0
+        }
+      ]
+    }
+  ],
+  "recorded_Smith_comparisons": [
+    {
+      "input_file": "orthogonal_smith_search_results.json",
+      "block_sizes": [
+        3,
+        1
+      ],
+      "polynomial_degree": 0,
+      "unit_count": 1
+    },
+    {
+      "input_file": "orthogonal_smith_search_results.json",
+      "block_sizes": [
+        3,
+        1
+      ],
+      "polynomial_degree": 2,
+      "unit_count": 1
+    },
+    {
+      "input_file": "orthogonal_smith_search_results.json",
+      "block_sizes": [
+        3,
+        1
+      ],
+      "polynomial_degree": 4,
+      "unit_count": 0
+    },
+    {
+      "input_file": "orthogonal_smith_search_results.json",
+      "block_sizes": [
+        3,
+        1
+      ],
+      "polynomial_degree": 6,
+      "unit_count": 0
+    },
+    {
+      "input_file": "orthogonal_smith_search_results.json",
+      "block_sizes": [
+        1,
+        3
+      ],
+      "polynomial_degree": 0,
+      "unit_count": 1
+    },
+    {
+      "input_file": "orthogonal_smith_search_results.json",
+      "block_sizes": [
+        1,
+        3
+      ],
+      "polynomial_degree": 2,
+      "unit_count": 1
+    },
+    {
+      "input_file": "orthogonal_smith_search_results.json",
+      "block_sizes": [
+        1,
+        3
+      ],
+      "polynomial_degree": 4,
+      "unit_count": 0
+    },
+    {
+      "input_file": "orthogonal_smith_search_results.json",
+      "block_sizes": [
+        1,
+        3
+      ],
+      "polynomial_degree": 6,
+      "unit_count": 0
+    },
+    {
+      "input_file": "orthogonal_smith_search_results.json",
+      "block_sizes": [
+        3,
+        2
+      ],
+      "polynomial_degree": 0,
+      "unit_count": 1
+    },
+    {
+      "input_file": "orthogonal_smith_search_results.json",
+      "block_sizes": [
+        3,
+        2
+      ],
+      "polynomial_degree": 2,
+      "unit_count": 1
+    },
+    {
+      "input_file": "orthogonal_smith_search_results.json",
+      "block_sizes": [
+        3,
+        2
+      ],
+      "polynomial_degree": 4,
+      "unit_count": 2
+    },
+    {
+      "input_file": "orthogonal_smith_search_results.json",
+      "block_sizes": [
+        3,
+        2
+      ],
+      "polynomial_degree": 6,
+      "unit_count": 1
+    },
+    {
+      "input_file": "orthogonal_smith_search_results.json",
+      "block_sizes": [
+        3,
+        2
+      ],
+      "polynomial_degree": 8,
+      "unit_count": 0
+    },
+    {
+      "input_file": "orthogonal_smith_search_results.json",
+      "block_sizes": [
+        3,
+        2
+      ],
+      "polynomial_degree": 10,
+      "unit_count": 0
+    },
+    {
+      "input_file": "orthogonal_smith_search_results.json",
+      "block_sizes": [
+        3,
+        2
+      ],
+      "polynomial_degree": 12,
+      "unit_count": 0
+    },
+    {
+      "input_file": "orthogonal_smith_search_results.json",
+      "block_sizes": [
+        2,
+        3
+      ],
+      "polynomial_degree": 0,
+      "unit_count": 1
+    },
+    {
+      "input_file": "orthogonal_smith_search_results.json",
+      "block_sizes": [
+        2,
+        3
+      ],
+      "polynomial_degree": 2,
+      "unit_count": 1
+    },
+    {
+      "input_file": "orthogonal_smith_search_results.json",
+      "block_sizes": [
+        2,
+        3
+      ],
+      "polynomial_degree": 4,
+      "unit_count": 2
+    },
+    {
+      "input_file": "orthogonal_smith_search_results.json",
+      "block_sizes": [
+        2,
+        3
+      ],
+      "polynomial_degree": 6,
+      "unit_count": 1
+    },
+    {
+      "input_file": "orthogonal_smith_search_results.json",
+      "block_sizes": [
+        2,
+        3
+      ],
+      "polynomial_degree": 8,
+      "unit_count": 0
+    },
+    {
+      "input_file": "orthogonal_smith_search_results.json",
+      "block_sizes": [
+        2,
+        3
+      ],
+      "polynomial_degree": 10,
+      "unit_count": 0
+    },
+    {
+      "input_file": "orthogonal_smith_search_results.json",
+      "block_sizes": [
+        2,
+        3
+      ],
+      "polynomial_degree": 12,
+      "unit_count": 0
+    },
+    {
+      "input_file": "orthogonal_smith_search_results.json",
+      "block_sizes": [
+        3,
+        3
+      ],
+      "polynomial_degree": 0,
+      "unit_count": 1
+    },
+    {
+      "input_file": "orthogonal_smith_search_results.json",
+      "block_sizes": [
+        3,
+        3
+      ],
+      "polynomial_degree": 2,
+      "unit_count": 1
+    },
+    {
+      "input_file": "orthogonal_smith_search_results.json",
+      "block_sizes": [
+        3,
+        3
+      ],
+      "polynomial_degree": 4,
+      "unit_count": 2
+    },
+    {
+      "input_file": "orthogonal_smith_search_results.json",
+      "block_sizes": [
+        3,
+        3
+      ],
+      "polynomial_degree": 6,
+      "unit_count": 2
+    },
+    {
+      "input_file": "orthogonal_smith_search_results.json",
+      "block_sizes": [
+        3,
+        3
+      ],
+      "polynomial_degree": 8,
+      "unit_count": 1
+    },
+    {
+      "input_file": "orthogonal_smith_search_results.json",
+      "block_sizes": [
+        3,
+        3
+      ],
+      "polynomial_degree": 10,
+      "unit_count": 0
+    },
+    {
+      "input_file": "orthogonal_smith_search_results.json",
+      "block_sizes": [
+        3,
+        3
+      ],
+      "polynomial_degree": 12,
+      "unit_count": 0
+    },
+    {
+      "input_file": "type_b_multiplicity_search_results.json",
+      "block_sizes": [
+        3,
+        2
+      ],
+      "polynomial_degree": 0,
+      "unit_count": 1
+    },
+    {
+      "input_file": "type_b_multiplicity_search_results.json",
+      "block_sizes": [
+        3,
+        2
+      ],
+      "polynomial_degree": 2,
+      "unit_count": 1
+    },
+    {
+      "input_file": "type_b_multiplicity_search_results.json",
+      "block_sizes": [
+        3,
+        2
+      ],
+      "polynomial_degree": 4,
+      "unit_count": 2
+    },
+    {
+      "input_file": "type_b_multiplicity_search_results.json",
+      "block_sizes": [
+        3,
+        2
+      ],
+      "polynomial_degree": 6,
+      "unit_count": 1
+    },
+    {
+      "input_file": "type_b_multiplicity_search_results.json",
+      "block_sizes": [
+        3,
+        2
+      ],
+      "polynomial_degree": 8,
+      "unit_count": 0
+    },
+    {
+      "input_file": "type_b_multiplicity_search_results.json",
+      "block_sizes": [
+        3,
+        2
+      ],
+      "polynomial_degree": 10,
+      "unit_count": 0
+    },
+    {
+      "input_file": "type_b_multiplicity_search_results.json",
+      "block_sizes": [
+        3,
+        2
+      ],
+      "polynomial_degree": 12,
+      "unit_count": 0
+    },
+    {
+      "input_file": "type_b_multiplicity_search_results.json",
+      "block_sizes": [
+        3,
+        3
+      ],
+      "polynomial_degree": 0,
+      "unit_count": 1
+    },
+    {
+      "input_file": "type_b_multiplicity_search_results.json",
+      "block_sizes": [
+        3,
+        3
+      ],
+      "polynomial_degree": 2,
+      "unit_count": 1
+    },
+    {
+      "input_file": "type_b_multiplicity_search_results.json",
+      "block_sizes": [
+        3,
+        3
+      ],
+      "polynomial_degree": 4,
+      "unit_count": 2
+    },
+    {
+      "input_file": "type_b_multiplicity_search_results.json",
+      "block_sizes": [
+        3,
+        3
+      ],
+      "polynomial_degree": 6,
+      "unit_count": 2
+    },
+    {
+      "input_file": "type_b_multiplicity_search_results.json",
+      "block_sizes": [
+        3,
+        3
+      ],
+      "polynomial_degree": 8,
+      "unit_count": 1
+    },
+    {
+      "input_file": "type_b_multiplicity_search_results.json",
+      "block_sizes": [
+        3,
+        3
+      ],
+      "polynomial_degree": 10,
+      "unit_count": 0
+    },
+    {
+      "input_file": "type_b_multiplicity_search_results.json",
+      "block_sizes": [
+        3,
+        3
+      ],
+      "polynomial_degree": 12,
+      "unit_count": 0
+    },
+    {
+      "input_file": "type_b_multiplicity_search_results.json",
+      "block_sizes": [
+        3,
+        3
+      ],
+      "polynomial_degree": 14,
+      "unit_count": 0
+    },
+    {
+      "input_file": "type_b_multiplicity_search_results.json",
+      "block_sizes": [
+        3,
+        3
+      ],
+      "polynomial_degree": 16,
+      "unit_count": 0
+    },
+    {
+      "input_file": "type_b_multiplicity_search_results.json",
+      "block_sizes": [
+        3,
+        3
+      ],
+      "polynomial_degree": 18,
+      "unit_count": 0
+    },
+    {
+      "input_file": "type_b_multiplicity_search_results.json",
+      "block_sizes": [
+        4,
+        3
+      ],
+      "polynomial_degree": 0,
+      "unit_count": 1
+    },
+    {
+      "input_file": "type_b_multiplicity_search_results.json",
+      "block_sizes": [
+        4,
+        3
+      ],
+      "polynomial_degree": 2,
+      "unit_count": 1
+    },
+    {
+      "input_file": "type_b_multiplicity_search_results.json",
+      "block_sizes": [
+        4,
+        3
+      ],
+      "polynomial_degree": 4,
+      "unit_count": 2
+    },
+    {
+      "input_file": "type_b_multiplicity_search_results.json",
+      "block_sizes": [
+        4,
+        3
+      ],
+      "polynomial_degree": 6,
+      "unit_count": 3
+    },
+    {
+      "input_file": "type_b_multiplicity_search_results.json",
+      "block_sizes": [
+        4,
+        3
+      ],
+      "polynomial_degree": 8,
+      "unit_count": 3
+    },
+    {
+      "input_file": "type_b_multiplicity_search_results.json",
+      "block_sizes": [
+        4,
+        3
+      ],
+      "polynomial_degree": 10,
+      "unit_count": 2
+    },
+    {
+      "input_file": "type_b_multiplicity_search_results.json",
+      "block_sizes": [
+        4,
+        3
+      ],
+      "polynomial_degree": 12,
+      "unit_count": 1
+    },
+    {
+      "input_file": "type_b_multiplicity_search_results.json",
+      "block_sizes": [
+        4,
+        3
+      ],
+      "polynomial_degree": 14,
+      "unit_count": 0
+    },
+    {
+      "input_file": "type_b_multiplicity_search_results.json",
+      "block_sizes": [
+        4,
+        3
+      ],
+      "polynomial_degree": 16,
+      "unit_count": 0
+    },
+    {
+      "input_file": "type_b_multiplicity_search_results.json",
+      "block_sizes": [
+        4,
+        3
+      ],
+      "polynomial_degree": 18,
+      "unit_count": 0
+    },
+    {
+      "input_file": "type_b_multiplicity_search_results.json",
+      "block_sizes": [
+        4,
+        3
+      ],
+      "polynomial_degree": 24,
+      "unit_count": 0
+    },
+    {
+      "input_file": "type_b_multiplicity_search_results.json",
+      "block_sizes": [
+        4,
+        3
+      ],
+      "polynomial_degree": 20,
+      "unit_count": 0
+    },
+    {
+      "input_file": "type_b_multiplicity_search_results.json",
+      "block_sizes": [
+        4,
+        3
+      ],
+      "polynomial_degree": 22,
+      "unit_count": 0
+    },
+    {
+      "input_file": "type_b_multiplicity_search_results.json",
+      "block_sizes": [
+        5,
+        3
+      ],
+      "polynomial_degree": 0,
+      "unit_count": 1
+    },
+    {
+      "input_file": "type_b_multiplicity_search_results.json",
+      "block_sizes": [
+        5,
+        3
+      ],
+      "polynomial_degree": 2,
+      "unit_count": 1
+    },
+    {
+      "input_file": "type_b_multiplicity_search_results.json",
+      "block_sizes": [
+        5,
+        3
+      ],
+      "polynomial_degree": 4,
+      "unit_count": 2
+    },
+    {
+      "input_file": "type_b_multiplicity_search_results.json",
+      "block_sizes": [
+        5,
+        3
+      ],
+      "polynomial_degree": 6,
+      "unit_count": 3
+    },
+    {
+      "input_file": "type_b_multiplicity_search_results.json",
+      "block_sizes": [
+        5,
+        3
+      ],
+      "polynomial_degree": 8,
+      "unit_count": 3
+    },
+    {
+      "input_file": "type_b_multiplicity_search_results.json",
+      "block_sizes": [
+        5,
+        3
+      ],
+      "polynomial_degree": 10,
+      "unit_count": 3
+    },
+    {
+      "input_file": "type_b_multiplicity_search_results.json",
+      "block_sizes": [
+        5,
+        3
+      ],
+      "polynomial_degree": 12,
+      "unit_count": 2
+    },
+    {
+      "input_file": "type_b_multiplicity_search_results.json",
+      "block_sizes": [
+        5,
+        3
+      ],
+      "polynomial_degree": 30,
+      "unit_count": 0
+    },
+    {
+      "input_file": "type_b_multiplicity_search_results.json",
+      "block_sizes": [
+        5,
+        3
+      ],
+      "polynomial_degree": 14,
+      "unit_count": 1
+    },
+    {
+      "input_file": "type_b_multiplicity_search_results.json",
+      "block_sizes": [
+        5,
+        3
+      ],
+      "polynomial_degree": 16,
+      "unit_count": 0
+    },
+    {
+      "input_file": "type_b_multiplicity_search_results.json",
+      "block_sizes": [
+        5,
+        3
+      ],
+      "polynomial_degree": 18,
+      "unit_count": 0
+    },
+    {
+      "input_file": "type_b_multiplicity_search_results.json",
+      "block_sizes": [
+        5,
+        3
+      ],
+      "polynomial_degree": 20,
+      "unit_count": 0
+    },
+    {
+      "input_file": "type_b_multiplicity_search_results.json",
+      "block_sizes": [
+        5,
+        3
+      ],
+      "polynomial_degree": 22,
+      "unit_count": 0
+    },
+    {
+      "input_file": "type_b_multiplicity_search_results.json",
+      "block_sizes": [
+        5,
+        3
+      ],
+      "polynomial_degree": 24,
+      "unit_count": 0
+    },
+    {
+      "input_file": "type_b_multiplicity_search_results.json",
+      "block_sizes": [
+        5,
+        3
+      ],
+      "polynomial_degree": 26,
+      "unit_count": 0
+    },
+    {
+      "input_file": "type_b_multiplicity_search_results.json",
+      "block_sizes": [
+        5,
+        3
+      ],
+      "polynomial_degree": 28,
+      "unit_count": 0
+    }
+  ],
+  "scope": "Closed counts of unit factors only. Higher 2-primary multiplicities are not classified by this verification.",
+  "seconds": 0.490867
+}

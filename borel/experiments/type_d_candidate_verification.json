@@ -1,0 +1,1800 @@
+{
+  "generated_utc": "2026-10-19T20:10:10.116785+00:00",
+  "python_version": "3.12.14",
+  "scope": "Finite verification of the full type-D formula proved in TYPE_D_EVEN_GLUING_THEOREM.md; no theorem inferred from finite data. Historical input timeouts remain excluded here and are superseded separately by the new even-gluing report.",
+  "source_script_sha256": "d228a4ad56e17e871568599909e7bf39feb67f2859ccadf812812d0efd53e3ed",
+  "input_hashes": [
+    {
+      "file": "orthogonal_sector_search_results.json",
+      "sha256": "30d242135e9701f0d7cace3fbfb1976b78597b5131d0945618907c05a454e2bc"
+    },
+    {
+      "file": "type_d_frobenius_search_results.json",
+      "sha256": "3322643b946bee459159cb152aff7e0b014dc0669512742115802758301270d2"
+    }
+  ],
+  "degree_convention": "polynomial degree d is cohomological degree 2d",
+  "checks": [
+    {
+      "a": 2,
+      "k": 2,
+      "n": 4,
+      "polynomial_degree": 0,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        0
+      ],
+      "candidate_exponents": [
+        0
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 2,
+      "k": 2,
+      "n": 4,
+      "polynomial_degree": 2,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        0,
+        0
+      ],
+      "candidate_exponents": [
+        0,
+        0
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 2,
+      "k": 2,
+      "n": 4,
+      "polynomial_degree": 4,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        0,
+        1,
+        1
+      ],
+      "candidate_exponents": [
+        0,
+        1,
+        1
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 1,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 2,
+      "k": 2,
+      "n": 4,
+      "polynomial_degree": 6,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        1,
+        1
+      ],
+      "candidate_exponents": [
+        1,
+        1
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 2,
+      "k": 2,
+      "n": 4,
+      "polynomial_degree": 8,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        2
+      ],
+      "candidate_exponents": [
+        2
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 1,
+      "k": 3,
+      "n": 4,
+      "polynomial_degree": 0,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        0
+      ],
+      "candidate_exponents": [
+        0
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 1,
+      "k": 3,
+      "n": 4,
+      "polynomial_degree": 2,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        0
+      ],
+      "candidate_exponents": [
+        0
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 1,
+      "k": 3,
+      "n": 4,
+      "polynomial_degree": 3,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        0
+      ],
+      "candidate_exponents": [
+        0
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 1,
+      "k": 3,
+      "n": 4,
+      "polynomial_degree": 4,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        1
+      ],
+      "candidate_exponents": [
+        1
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 1,
+      "k": 3,
+      "n": 4,
+      "polynomial_degree": 5,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [],
+      "candidate_exponents": [],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 1,
+      "k": 3,
+      "n": 4,
+      "polynomial_degree": 6,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        1
+      ],
+      "candidate_exponents": [
+        1
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 3,
+      "k": 2,
+      "n": 5,
+      "polynomial_degree": 0,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        0
+      ],
+      "candidate_exponents": [
+        0
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 3,
+      "k": 2,
+      "n": 5,
+      "polynomial_degree": 2,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        0,
+        0
+      ],
+      "candidate_exponents": [
+        0,
+        0
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 3,
+      "k": 2,
+      "n": 5,
+      "polynomial_degree": 4,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        0,
+        0,
+        1
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        1
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 1,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 3,
+      "k": 2,
+      "n": 5,
+      "polynomial_degree": 6,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "candidate_exponents": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 1,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 3,
+      "k": 2,
+      "n": 5,
+      "polynomial_degree": 8,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        1,
+        1,
+        1
+      ],
+      "candidate_exponents": [
+        1,
+        1,
+        1
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 3,
+      "k": 2,
+      "n": 5,
+      "polynomial_degree": 10,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        1,
+        2
+      ],
+      "candidate_exponents": [
+        1,
+        2
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 3,
+      "k": 2,
+      "n": 5,
+      "polynomial_degree": 12,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        2
+      ],
+      "candidate_exponents": [
+        2
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 2,
+      "k": 3,
+      "n": 5,
+      "polynomial_degree": 0,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        0
+      ],
+      "candidate_exponents": [
+        0
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 2,
+      "k": 3,
+      "n": 5,
+      "polynomial_degree": 2,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        0
+      ],
+      "candidate_exponents": [
+        0
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 2,
+      "k": 3,
+      "n": 5,
+      "polynomial_degree": 3,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        0
+      ],
+      "candidate_exponents": [
+        0
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 2,
+      "k": 3,
+      "n": 5,
+      "polynomial_degree": 4,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        0,
+        0
+      ],
+      "candidate_exponents": [
+        0,
+        0
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 2,
+      "k": 3,
+      "n": 5,
+      "polynomial_degree": 5,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        0
+      ],
+      "candidate_exponents": [
+        0
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 2,
+      "k": 3,
+      "n": 5,
+      "polynomial_degree": 6,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        0,
+        1
+      ],
+      "candidate_exponents": [
+        0,
+        1
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 2,
+      "k": 3,
+      "n": 5,
+      "polynomial_degree": 7,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        1
+      ],
+      "candidate_exponents": [
+        1
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 2,
+      "k": 3,
+      "n": 5,
+      "polynomial_degree": 8,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        1,
+        1
+      ],
+      "candidate_exponents": [
+        1,
+        1
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 2,
+      "k": 3,
+      "n": 5,
+      "polynomial_degree": 9,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        1
+      ],
+      "candidate_exponents": [
+        1
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 2,
+      "k": 3,
+      "n": 5,
+      "polynomial_degree": 10,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        1
+      ],
+      "candidate_exponents": [
+        1
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 2,
+      "k": 3,
+      "n": 5,
+      "polynomial_degree": 11,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [],
+      "candidate_exponents": [],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 2,
+      "k": 3,
+      "n": 5,
+      "polynomial_degree": 12,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        2
+      ],
+      "candidate_exponents": [
+        2
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 1,
+      "k": 4,
+      "n": 5,
+      "polynomial_degree": 0,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        0
+      ],
+      "candidate_exponents": [
+        0
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 1,
+      "k": 4,
+      "n": 5,
+      "polynomial_degree": 2,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        0
+      ],
+      "candidate_exponents": [
+        0
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 1,
+      "k": 4,
+      "n": 5,
+      "polynomial_degree": 4,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        0,
+        1
+      ],
+      "candidate_exponents": [
+        0,
+        1
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 1,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 1,
+      "k": 4,
+      "n": 5,
+      "polynomial_degree": 6,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        1
+      ],
+      "candidate_exponents": [
+        1
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 1,
+      "k": 4,
+      "n": 5,
+      "polynomial_degree": 8,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        1
+      ],
+      "candidate_exponents": [
+        1
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 4,
+      "k": 2,
+      "n": 6,
+      "polynomial_degree": 0,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        0
+      ],
+      "candidate_exponents": [
+        0
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 4,
+      "k": 2,
+      "n": 6,
+      "polynomial_degree": 2,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        0,
+        0
+      ],
+      "candidate_exponents": [
+        0,
+        0
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 4,
+      "k": 2,
+      "n": 6,
+      "polynomial_degree": 4,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        0,
+        0,
+        0
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        0
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 4,
+      "k": 2,
+      "n": 6,
+      "polynomial_degree": 6,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 1,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 4,
+      "k": 2,
+      "n": 6,
+      "polynomial_degree": 8,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "candidate_exponents": [
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 1,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 4,
+      "k": 2,
+      "n": 6,
+      "polynomial_degree": 10,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "candidate_exponents": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 4,
+      "k": 2,
+      "n": 6,
+      "polynomial_degree": 12,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        1,
+        1,
+        2
+      ],
+      "candidate_exponents": [
+        1,
+        1,
+        2
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 3,
+      "k": 3,
+      "n": 6,
+      "polynomial_degree": 0,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        0
+      ],
+      "candidate_exponents": [
+        0
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 3,
+      "k": 3,
+      "n": 6,
+      "polynomial_degree": 2,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        0
+      ],
+      "candidate_exponents": [
+        0
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 3,
+      "k": 3,
+      "n": 6,
+      "polynomial_degree": 3,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        0
+      ],
+      "candidate_exponents": [
+        0
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 3,
+      "k": 3,
+      "n": 6,
+      "polynomial_degree": 4,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        0,
+        0
+      ],
+      "candidate_exponents": [
+        0,
+        0
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 3,
+      "k": 3,
+      "n": 6,
+      "polynomial_degree": 5,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        0
+      ],
+      "candidate_exponents": [
+        0
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 3,
+      "k": 3,
+      "n": 6,
+      "polynomial_degree": 6,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        0,
+        0,
+        1
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        1
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 3,
+      "k": 3,
+      "n": 6,
+      "polynomial_degree": 7,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        0,
+        0
+      ],
+      "candidate_exponents": [
+        0,
+        0
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 3,
+      "k": 3,
+      "n": 6,
+      "polynomial_degree": 8,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        0,
+        1,
+        1
+      ],
+      "candidate_exponents": [
+        0,
+        1,
+        1
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 3,
+      "k": 3,
+      "n": 6,
+      "polynomial_degree": 9,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        0,
+        1
+      ],
+      "candidate_exponents": [
+        0,
+        1
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 3,
+      "k": 3,
+      "n": 6,
+      "polynomial_degree": 10,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        1,
+        1,
+        1
+      ],
+      "candidate_exponents": [
+        1,
+        1,
+        1
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 3,
+      "k": 3,
+      "n": 6,
+      "polynomial_degree": 11,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        1,
+        1
+      ],
+      "candidate_exponents": [
+        1,
+        1
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 3,
+      "k": 3,
+      "n": 6,
+      "polynomial_degree": 12,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        1,
+        1,
+        2
+      ],
+      "candidate_exponents": [
+        1,
+        1,
+        2
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 2,
+      "k": 4,
+      "n": 6,
+      "polynomial_degree": 0,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        0
+      ],
+      "candidate_exponents": [
+        0
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 2,
+      "k": 4,
+      "n": 6,
+      "polynomial_degree": 2,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        0
+      ],
+      "candidate_exponents": [
+        0
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 2,
+      "k": 4,
+      "n": 6,
+      "polynomial_degree": 4,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        0,
+        0,
+        0
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        0
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 2,
+      "k": 4,
+      "n": 6,
+      "polynomial_degree": 6,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        0,
+        0,
+        1
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        1
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 2,
+      "k": 4,
+      "n": 6,
+      "polynomial_degree": 8,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "candidate_exponents": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 1,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 2,
+      "k": 4,
+      "n": 6,
+      "polynomial_degree": 10,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        1,
+        1,
+        1
+      ],
+      "candidate_exponents": [
+        1,
+        1,
+        1
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 2,
+      "k": 4,
+      "n": 6,
+      "polynomial_degree": 12,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        1,
+        1,
+        2
+      ],
+      "candidate_exponents": [
+        1,
+        1,
+        2
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 1,
+      "k": 5,
+      "n": 6,
+      "polynomial_degree": 0,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        0
+      ],
+      "candidate_exponents": [
+        0
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 1,
+      "k": 5,
+      "n": 6,
+      "polynomial_degree": 2,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        0
+      ],
+      "candidate_exponents": [
+        0
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 1,
+      "k": 5,
+      "n": 6,
+      "polynomial_degree": 4,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        0
+      ],
+      "candidate_exponents": [
+        0
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 1,
+      "k": 5,
+      "n": 6,
+      "polynomial_degree": 5,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        0
+      ],
+      "candidate_exponents": [
+        0
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 1,
+      "k": 5,
+      "n": 6,
+      "polynomial_degree": 6,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        1
+      ],
+      "candidate_exponents": [
+        1
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 1,
+      "k": 5,
+      "n": 6,
+      "polynomial_degree": 7,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [],
+      "candidate_exponents": [],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 1,
+      "k": 5,
+      "n": 6,
+      "polynomial_degree": 8,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        1
+      ],
+      "candidate_exponents": [
+        1
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 1,
+      "k": 5,
+      "n": 6,
+      "polynomial_degree": 9,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [],
+      "candidate_exponents": [],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 1,
+      "k": 5,
+      "n": 6,
+      "polynomial_degree": 10,
+      "source": "orthogonal_sector_search_results.json",
+      "actual_exponents": [
+        1
+      ],
+      "candidate_exponents": [
+        1
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 5,
+      "k": 2,
+      "n": 7,
+      "polynomial_degree": 6,
+      "source": "type_d_frobenius_search_results.json",
+      "actual_exponents": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 1,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 5,
+      "k": 2,
+      "n": 7,
+      "polynomial_degree": 8,
+      "source": "type_d_frobenius_search_results.json",
+      "actual_exponents": [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 1,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 5,
+      "k": 2,
+      "n": 7,
+      "polynomial_degree": 10,
+      "source": "type_d_frobenius_search_results.json",
+      "actual_exponents": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "candidate_exponents": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 1,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 5,
+      "k": 2,
+      "n": 7,
+      "polynomial_degree": 12,
+      "source": "type_d_frobenius_search_results.json",
+      "actual_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "candidate_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 5,
+      "k": 2,
+      "n": 7,
+      "polynomial_degree": 14,
+      "source": "type_d_frobenius_search_results.json",
+      "actual_exponents": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "candidate_exponents": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 5,
+      "k": 2,
+      "n": 7,
+      "polynomial_degree": 16,
+      "source": "type_d_frobenius_search_results.json",
+      "actual_exponents": [
+        1,
+        2,
+        2
+      ],
+      "candidate_exponents": [
+        1,
+        2,
+        2
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 3,
+      "k": 4,
+      "n": 7,
+      "polynomial_degree": 6,
+      "source": "type_d_frobenius_search_results.json",
+      "actual_exponents": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 3,
+      "k": 4,
+      "n": 7,
+      "polynomial_degree": 8,
+      "source": "type_d_frobenius_search_results.json",
+      "actual_exponents": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 1,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 3,
+      "k": 4,
+      "n": 7,
+      "polynomial_degree": 10,
+      "source": "type_d_frobenius_search_results.json",
+      "actual_exponents": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 1,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 3,
+      "k": 4,
+      "n": 7,
+      "polynomial_degree": 12,
+      "source": "type_d_frobenius_search_results.json",
+      "actual_exponents": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "candidate_exponents": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 1,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 4,
+      "k": 4,
+      "n": 8,
+      "polynomial_degree": 8,
+      "source": "type_d_frobenius_search_results.json",
+      "actual_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 4,
+      "k": 4,
+      "n": 8,
+      "polynomial_degree": 10,
+      "source": "type_d_frobenius_search_results.json",
+      "actual_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 0,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 4,
+      "k": 4,
+      "n": 8,
+      "polynomial_degree": 12,
+      "source": "type_d_frobenius_search_results.json",
+      "actual_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 1,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    },
+    {
+      "a": 5,
+      "k": 4,
+      "n": 9,
+      "polynomial_degree": 12,
+      "source": "type_d_frobenius_search_results.json",
+      "actual_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "all_full_factors_match": true,
+      "proved_unit_intersection": 1,
+      "square_matches_full_B_formula": true,
+      "euler_matches_shifted_B_formula": true,
+      "full_gluing_is_unit_gluing_in_this_case": true
+    }
+  ],
+  "skipped_timeouts": [
+    {
+      "n": 9,
+      "a": 5,
+      "k": 4,
+      "polynomial_degree": 14,
+      "status": "timeout"
+    },
+    {
+      "n": 9,
+      "a": 5,
+      "k": 4,
+      "polynomial_degree": 16,
+      "status": "timeout"
+    }
+  ],
+  "summary": {
+    "full_smith_lists_compared": 84,
+    "timeouts_excluded": 2,
+    "counterexamples": 0
+  },
+  "status": "passed",
+  "seconds": 0.00621
+}

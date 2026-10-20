@@ -1,0 +1,269 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[margin=0.8in,headheight=14pt,headsep=16pt]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,amsmath,amssymb,mathtools,microtype}
+\usepackage{xcolor,fancyhdr}
+\definecolor{linkblue}{RGB}{25,55,90}
+\usepackage[colorlinks=true,linkcolor=linkblue,citecolor=linkblue,urlcolor=linkblue]{hyperref}
+\hypersetup{pdftitle={Integral images of Springer--Borel maps: introduction},
+pdfsubject={Type B and D integral image formulas in the notation of Kumar--Rogers and Kumar--Xie}}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\small Integral images of Springer--Borel maps}
+\fancyhead[R]{\small Draft introduction}
+\fancyfoot[L]{\footnotesize 19 October 2026}
+\fancyfoot[R]{\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+\setlength{\parindent}{1em}
+\setlength{\parskip}{3pt}
+\setlength{\emergencystretch}{2em}
+\setlength{\abovedisplayskip}{7pt plus 2pt minus 2pt}
+\setlength{\belowdisplayskip}{7pt plus 2pt minus 2pt}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\C}{\mathbb C}
+\newcommand{\Rep}{\operatorname{Rep}}
+\newcommand{\SO}{\operatorname{SO}}
+\newcommand{\Sp}{\operatorname{Sp}}
+\newcommand{\OG}{\operatorname{OG}}
+\newcommand{\IG}{\operatorname{IG}}
+\newcommand{\GL}{\operatorname{GL}}
+\newcommand{\sat}{\operatorname{sat}}
+\newcommand{\Sym}{\operatorname{Sym}}
+\newcommand{\poly}{\mathrm{poly}}
+\newcommand{\hbarprod}{\bar h_{1,k}}
+\newcommand{\qb}[3]{\genfrac{[}{]}{0pt}{}{#1}{#2}_{#3}}
+\begin{document}
+\begin{center}
+{\Large\bfseries Integral images of Springer--Borel maps}\\[3pt]
+{\small An introduction in the notation of Parts II and III}
+\end{center}
+\vspace{-3pt}
+\noindent\textbf{1. Introduction.}
+The relation between representation rings and the cohomology of flag varieties
+has a classical model in the homomorphism from polynomial representations of
+\(\GL_k\) to the integral cohomology of a Grassmannian. Under this map,
+irreducible representations indexed by partitions in the appropriate rectangle
+map to Schubert classes. Springer morphisms extend this construction to a
+representation-dependent setting for reductive groups.
+
+Let \(G\) be a connected complex reductive group, \(B\) a Borel subgroup,
+\(T\subset B\) a maximal torus, and \(P\supset B\) a parabolic subgroup with Levi
+subgroup \(L\supset T\). Write \(\mathfrak g,\mathfrak t\) for the Lie algebras
+and \(W_L\) for the Weyl group of \(L\).
+An irreducible representation \(V(\lambda)\) with finite kernel determines
+the Springer morphism \(\theta_\lambda:G\to\mathfrak g\), obtained by
+trace-orthogonal projection of its matrix realization onto \(\mathfrak g\).
+Its pullback on \(T\) identifies \(S(\mathfrak t^*)^{W_L}\), the invariant
+polynomial functions on \(\mathfrak t\), with the subalgebra
+\(\Rep^{\C}_{\lambda\text{-}\poly}(L)\) of the complexified representation ring.
+The Borel characteristic map sends a weight to the first Chern class of its
+associated line bundle on \(G/B\). Transporting its restriction to
+\(W_L\)-invariants through this identification gives
+\[
+ \xi^P_\lambda:\Rep^{\C}_{\lambda\text{-}\poly}(L)
+       \longrightarrow H^*(G/P,\C).
+\]
+This is the construction of Kumar~\cite{K}. For the defining representations
+of the classical groups we abbreviate \(\lambda\text{-}\poly\) to \(\poly\).
+
+Kumar--Rogers~\cite{KR} studied the restrictions to the symplectic and odd
+orthogonal factors of the Levi subgroups. Their maps
+\(\xi_{n,k}\) and \(\bar\xi_{n,k}\) have targets
+\(H^*(\IG(n-k,2n),\C)\) and \(H^*(\OG(n-k,2n+1),\C)\), respectively.
+They determined the generator images and proved that the induced stable
+maps \(\xi_k\) and \(\bar\xi_k\) are injective
+\cite[Theorems 16 and 29]{KR}. Here stability means the graded inverse
+limit under the standard embeddings as \(n\to\infty\), with \(k\) fixed.
+Kumar--Xie~\cite{KX} obtained the even orthogonal counterpart
+\(\xi^D_{n,k}\), with target \(H^*(\OG(n-k,2n),\C)\), and proved stable
+injectivity \cite[Theorem 3.8]{KX}. We retain the superscript \(D\) from
+their introduction to distinguish this map from the symplectic one.
+
+We keep the parameters \(n,k\) of these papers:
+\(1\le k\le n-1\) in type B and \(n\ge4,\ 2\le k\le n-1\) in type D.
+The variety \(\OG(n-k,N)\) parametrizes isotropic \((n-k)\)-planes
+for a nondegenerate symmetric form on \(\C^N\).
+On the torus put \(\bar t_j=(t_j-t_j^{-1})/2\).
+On the rank-\(k\) orthogonal factor put \(\bar h_i=(h_i-h_i^{-1})/2\), identified
+with \(\bar t_{n-k+i}\) by the Levi inclusion, and write
+\[
+ e_i=e_i\bigl((\bar h_1)^2,\ldots,(\bar h_k)^2\bigr),
+ \qquad \hbarprod=\bar h_1\cdots\bar h_k,\qquad \hbarprod^{\,2}=e_k.
+\]
+Here \(e_i(\,\cdot\,)\) is the \(i\)-th elementary symmetric polynomial;
+\(\hbarprod\) occurs only in type D. For either orthogonal map the published
+generator formula is
+\begin{equation}\label{eq:chern}
+ e_i\longmapsto c_i^2+2\sum_{j=1}^{i}(-1)^j c_{i+j}c_{i-j}.
+\end{equation}
+We use \(c_i=c_i(Q^B)\) in type B and \(c_i=c_i(Q)\) in type D,
+where the indicated bundle is the quotient of the trivial ambient bundle
+by the tautological isotropic subbundle; \(c_0=1\) and \(c_i=0\) outside
+its rank. These are \cite[Proposition 24]{KR} and \cite[Theorem 3.6]{KX}.
+
+\newpage
+The integral forms used in the earlier injectivity arguments are
+\begin{align*}
+ \Rep^\Z_{\poly}(\SO(2k+1))&=\Z[e_1,\ldots,e_k],\\
+ \Rep^\Z_{\poly}(\SO(2k))&=\Z[e_1,\ldots,e_k]
+                    \oplus\hbarprod\,\Z[e_1,\ldots,e_k].
+\end{align*}
+The second decomposition is additive; multiplication uses
+\(\hbarprod^2=e_k\). These are the \emph{chosen normalized polynomial
+\(\Z\)-forms} of \cite{KR,KX}. As in those papers, use cohomological
+degrees \(\deg e_i=4i\) and \(\deg\hbarprod=2k\).
+Equation~\eqref{eq:chern} and the integral Euler image show that the restrictions
+\(\bar\xi^\Z_{n,k}\) and \(\xi^{D,\Z}_{n,k}\) take values in integral cohomology.
+
+For \(X=\OG(n-k,2n+1)\) or \(\OG(n-k,2n)\), let \(L_{n,k}(d)\)
+be the image of the degree-\(2d\) part of the corresponding normalized form.
+We study the finite quotient
+\begin{equation}\label{eq:saturation}
+ S_{n,k}(d)/L_{n,k}(d),\qquad
+ S_{n,k}(d)=
+ \bigl(L_{n,k}(d)\otimes_\Z\Q\bigr)\cap H^{2d}(X,\Z).
+\end{equation}
+The group \(S_{n,k}(d)\) is the \emph{saturation} of the image.
+Because integral cohomology has a Schubert basis, the inclusion
+\(L_{n,k}(d)\subseteq S_{n,k}(d)\) has positive Smith factors
+\(s_1\mid\cdots\mid s_r\): after integral basis changes, it is diagonal
+with these entries. Thus
+\(S_{n,k}(d)/L_{n,k}(d)\cong\bigoplus_j\Z/s_j\Z\).
+We retain unit factors, recording the rank as well as the quotient.
+This is an index inside the selected rational image; that image can
+have smaller rank than the ambient cohomology.
+
+Our first result determines all these factors in type B. Put
+\[
+ \ell=\min(k,n-k),\qquad A=\max(k,n-k),\qquad
+ r=\lfloor n/2\rfloor,\qquad c=\lceil n/2\rceil.
+\]
+For a partition \(\gamma\subseteq A^\ell\), meaning
+\(A\ge\gamma_1\ge\cdots\ge\gamma_\ell\ge0\), set
+\begin{equation}\label{eq:statistic}
+ b_i=\gamma_i+\ell-i,\qquad
+ u(\gamma)=\#\{i:b_i<r\},\qquad
+ E_{n,k}(\gamma)=\#\{i:b_i\ge c+u(\gamma)\}.
+\end{equation}
+Zeros are included to make \(\gamma\) have exactly \(\ell\) parts,
+and \(|\gamma|=\sum_i\gamma_i\).
+
+\medskip\noindent
+\textbf{Theorem A (type B).}
+\emph{For \(1\le k\le n-1\), the nonzero Smith factors of
+\(\bar\xi^\Z_{n,k}\) in cohomological degree \(4m\) are the multiset}
+\begin{equation}\label{eq:typeB}
+ \bigl\{2^{E_{n,k}(\gamma)}:
+       \gamma\subseteq A^\ell,\ |\gamma|=m\bigr\}.
+\end{equation}
+\emph{The image is zero in cohomological degrees not divisible by four.
+In particular every factor is a power of two, with exponent at most \(\ell\).}
+
+\medskip
+The statistic labels multiplicities; it does not assert that the individual
+Schur polynomials already give a Smith basis.
+For the type-D statement, package these multiplicities as
+\begin{equation}\label{eq:Bseries}
+ \mathcal B_{n,k,e}(z)=
+ \sum_{\substack{\gamma\subseteq A^\ell\\E_{n,k}(\gamma)=e}}
+ z^{2|\gamma|}.
+\end{equation}
+Thus \(z^d\) records cohomological degree \(2d\), and \(e\ge0\) records
+the factor \(2^e\). Set \(\mathcal B_{k,k,0}=1\) and
+\(\mathcal B_{k,k,e}=0\) for \(e>0\); this is the point boundary needed
+below. Parameters in \eqref{eq:statistic} are always recomputed for
+the displayed pair \(n,k\).
+
+The distinction between normalized and literal character lattices matters.
+The chosen \(\Rep^\Z_{\poly}\) need not equal the intersection with the
+ordinary integral representation ring. The alternative character lattice
+generated by \(2^{2i}e_i\) and, in type D, \(2^k\hbarprod\), has
+degree-\(2d\) image \(2^dL_{n,k}(d)\); each Smith factor is therefore
+multiplied by \(2^d\).
+The theorems concern the normalized forms specified above.
+
+\newpage
+Let \(M_D(n,k;e,d)\) be the multiplicity of \(2^e\) among the nonzero
+Smith factors of \(\xi^{D,\Z}_{n,k}\) in \(H^{2d}(\OG(n-k,2n),\Z)\).
+Put \(\mathcal I_{n,k}(z)=0\) for odd \(k\). For \(k=2h\), define
+\begin{equation}\label{eq:overlap}
+ \mathcal I_{n,2h}(z)=
+ z^{\,2h(\lfloor(n-2h)/2\rfloor+1)}
+ \qb{h+\lceil(n-2h)/2\rceil-1}{h}{z^2}.
+\end{equation}
+Here the Gaussian polynomial
+\(\qb{v}{u}{q}=\sum_{\mu\subseteq(v-u)^u}q^{|\mu|}\)
+counts partitions in a rectangle.
+
+\medskip\noindent
+\textbf{Theorem B (type D).}
+\emph{For \(n\ge4\) and \(2\le k\le n-1\), every nonzero Smith factor of
+\(\xi^{D,\Z}_{n,k}\) is a power of two, and for every \(e\ge0\),}
+\begin{equation}\label{eq:typeD}
+ \boxed{\displaystyle
+ \sum_{d\ge0}M_D(n,k;e,d)z^d
+  =\mathcal B_{n,k,e}(z)+z^k\mathcal B_{n-1,k,e}(z)
+       +(\delta_{e,1}-\delta_{e,0})\mathcal I_{n,k}(z).}
+\end{equation}
+\emph{Here \(\delta\) is the Kronecker delta.}
+
+\medskip
+The first two terms are the factors of the square-generated image and
+the image obtained by multiplication by \(\hbarprod\), respectively.
+When \(k\) is odd they occupy different parities of \(d\). For even \(k\),
+the sum of their separate saturations may have finite index in the
+saturation of their combined image; we call this \emph{integral gluing}.
+The polynomial \(\mathcal I_{n,k}\) counts every gluing direction.
+Each such direction replaces a pair of unit factors \((1,1)\) by
+\((1,2)\), with no further correction among the higher factors.
+For example, \(n=4,k=2\) in cohomological degree \(8\) gives the full
+type-D list \((1,2,2)\), and hence quotient \((\Z/2\Z)^2\).
+
+The proofs refine the earlier generator calculations by integral
+incidence and lattice arguments. In type B, Schur-product filtrations
+are shown to be primitive, meaning that their quotients in the ambient
+free abelian lattice are torsion free. A unit triangular minor and a
+matching geometric rank bound determine these filtrations and yield
+\eqref{eq:typeB}. In type D, relative orthogonal incidence bundles,
+the integral Euler relation, and parity retractions establish the
+comparison of the square and Euler sources with type B. An index
+comparison then proves that the unit gluing exhausts all saturated
+gluing, giving \eqref{eq:typeD}. The integral Schubert calculus is
+published input; the finite-rank image classification is the additional
+deduction developed in the companion proofs~\cite{Notes}.
+Exact calculations corroborate the formulas in finite cases.
+Together, the results determine the degreewise integral divisibility
+of the selected Springer--Borel images, refining the explicit images
+and stable injectivity of Parts II and III.
+
+\vspace{2pt}
+\noindent\textbf{References}
+{\small
+\renewcommand{\section}[2]{}
+\begin{thebibliography}{KX24}
+\setlength{\itemsep}{2pt}
+\setlength{\parskip}{0pt}
+\bibitem[K16]{K}
+S.~Kumar, \emph{Representation ring of Levi subgroups versus cohomology
+ring of flag varieties}, Math.\ Ann.\ \textbf{366} (2016), 395--415.
+\href{https://kumar.math.unc.edu/papers/kumar76.pdf}{Author text}.
+\bibitem[KR20]{KR}
+S.~Kumar and S.~Rogers, \emph{Representation ring of Levi subgroups versus
+cohomology ring of flag varieties II}, J.~Algebra \textbf{556} (2020),
+340--362. \href{https://kumar.math.unc.edu/papers/kumar81.pdf}{Author text}.
+\bibitem[KX24]{KX}
+S.~Kumar and J.~Xie, \emph{Representation ring of Levi subgroups versus
+cohomology ring of flag varieties III}, J.~Pure Appl.\ Algebra
+\textbf{228} (2024), 107539.
+\href{https://kumar.math.unc.edu/papers/kumar86.pdf}{Author text}.
+\bibitem[N]{Notes}
+\emph{Integral Springer--Borel image notes}, unpublished companion proofs,
+audited 19 October 2026.
+\href{https://github.com/sean-rogers-t/Sage-programs/blob/b16f582e29947a402672d160b363d8c9a2f60c11/borel/TYPE_B_GENERAL_SMITH.md}{Type B};
+\href{https://github.com/sean-rogers-t/Sage-programs/blob/b16f582e29947a402672d160b363d8c9a2f60c11/borel/TYPE_D_EVEN_GLUING_THEOREM.md}{type D};
+\href{https://github.com/sean-rogers-t/Sage-programs/blob/b16f582e29947a402672d160b363d8c9a2f60c11/borel/TYPE_D_EVEN_GLUING_AUDIT.md}{audit}.
+The deductions are internally checked; external expert review and
+originality remain unestablished.
+\end{thebibliography}
+}
+\end{document}

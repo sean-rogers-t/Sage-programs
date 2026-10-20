@@ -1,0 +1,3271 @@
+{
+  "sage_version": "9.5",
+  "generated_utc": "2026-10-19T15:59:39.940006+00:00",
+  "scope": "Bounded degreewise images of explicitly normalized generator Z-algebras. No uniform theorem or novelty claim follows from this finite experiment.",
+  "command": "PYTHONPATH=src sage -python experiments/integral_springer_images.py",
+  "rejected_original_normalizations": [
+    {
+      "case": "G2/P1 catalogue",
+      "reason": "generator quadratic has a nonintegral Schubert coefficient -3/4 at word (2, 1); integral images require integral generator classes, with the fixed input normalization (denominators are not cleared)",
+      "nonintegral_generator_images": {
+        "quadratic": [
+          {
+            "word": [
+              2,
+              1
+            ],
+            "coefficient": "-3/4"
+          }
+        ]
+      }
+    }
+  ],
+  "cases": [
+    {
+      "case": "A(n=5,k=2) tail",
+      "cartan_type": "['A', 4]",
+      "omitted_nodes": [
+        3
+      ],
+      "generator_names": [
+        "e1",
+        "e2"
+      ],
+      "generator_polynomial_degrees": [
+        1,
+        2
+      ],
+      "generator_polynomial_sha256": [
+        "85a5d2e896e6674abdcb518bd65f16ab4f9a7c09314adf6a57d767fd47ffe40c",
+        "75ef4d8c8b3782b855c01ffbad3b16805b06cc4dabed3b713ab8964372ac6155"
+      ],
+      "maximum_polynomial_degree": 6,
+      "degrees": [
+        {
+          "polynomial_degree": 0,
+          "cohomological_degree": 0,
+          "rank": 1,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            1
+          ],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 1,
+          "cohomological_degree": 2,
+          "rank": 1,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            1
+          ],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 2,
+          "cohomological_degree": 4,
+          "rank": 2,
+          "ambient_dimension": 2,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            1,
+            1
+          ],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 3,
+          "cohomological_degree": 6,
+          "rank": 2,
+          "ambient_dimension": 2,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            1,
+            1
+          ],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 4,
+          "cohomological_degree": 8,
+          "rank": 2,
+          "ambient_dimension": 2,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            1,
+            1
+          ],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 5,
+          "cohomological_degree": 10,
+          "rank": 1,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            1
+          ],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 6,
+          "cohomological_degree": 12,
+          "rank": 1,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            1
+          ],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        }
+      ],
+      "first_recorded_nonsaturation_witness": null,
+      "integer_preimages_checked": 10,
+      "seconds": 0.196187,
+      "original_case": "A(n=5,k=2) tail",
+      "explicit_generator_multipliers": {
+        "e1": 1,
+        "e2": 1
+      },
+      "original_normalization_used": true
+    },
+    {
+      "case": "C(n=3,k=1) tail",
+      "cartan_type": "['C', 3]",
+      "omitted_nodes": [
+        2
+      ],
+      "generator_names": [
+        "e1"
+      ],
+      "generator_polynomial_degrees": [
+        2
+      ],
+      "generator_polynomial_sha256": [
+        "45c46b95a9054c108a317caf1abdd914681e5fb8f9522d786a477663bac0686d"
+      ],
+      "maximum_polynomial_degree": 6,
+      "degrees": [
+        {
+          "polynomial_degree": 0,
+          "cohomological_degree": 0,
+          "rank": 1,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            1
+          ],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 1,
+          "cohomological_degree": 2,
+          "rank": 0,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 1,
+          "smith_factors": [],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 2,
+          "cohomological_degree": 4,
+          "rank": 1,
+          "ambient_dimension": 2,
+          "free_cokernel_rank": 1,
+          "smith_factors": [
+            1
+          ],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 3,
+          "cohomological_degree": 6,
+          "rank": 0,
+          "ambient_dimension": 2,
+          "free_cokernel_rank": 2,
+          "smith_factors": [],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 4,
+          "cohomological_degree": 8,
+          "rank": 1,
+          "ambient_dimension": 2,
+          "free_cokernel_rank": 1,
+          "smith_factors": [
+            1
+          ],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 5,
+          "cohomological_degree": 10,
+          "rank": 0,
+          "ambient_dimension": 2,
+          "free_cokernel_rank": 2,
+          "smith_factors": [],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 6,
+          "cohomological_degree": 12,
+          "rank": 0,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 1,
+          "smith_factors": [],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        }
+      ],
+      "first_recorded_nonsaturation_witness": null,
+      "integer_preimages_checked": 3,
+      "seconds": 0.031734,
+      "original_case": "C(n=3,k=1) tail",
+      "explicit_generator_multipliers": {
+        "e1": 1
+      },
+      "original_normalization_used": true
+    },
+    {
+      "case": "C(n=3,k=1) tail LITERAL POLYNOMIAL-CHARACTER FORM",
+      "cartan_type": "['C', 3]",
+      "omitted_nodes": [
+        2
+      ],
+      "generator_names": [
+        "e1"
+      ],
+      "generator_polynomial_degrees": [
+        2
+      ],
+      "generator_polynomial_sha256": [
+        "d78a3249ea1e41e3fca06981cbc865724b7dedbabdceb3ee4c8d03989cbc9692"
+      ],
+      "maximum_polynomial_degree": 6,
+      "degrees": [
+        {
+          "polynomial_degree": 0,
+          "cohomological_degree": 0,
+          "rank": 1,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            1
+          ],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 1,
+          "cohomological_degree": 2,
+          "rank": 0,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 1,
+          "smith_factors": [],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 2,
+          "cohomological_degree": 4,
+          "rank": 1,
+          "ambient_dimension": 2,
+          "free_cokernel_rank": 1,
+          "smith_factors": [
+            4
+          ],
+          "torsion_factors": [
+            4
+          ],
+          "saturation_index": 4,
+          "is_saturated": false
+        },
+        {
+          "polynomial_degree": 3,
+          "cohomological_degree": 6,
+          "rank": 0,
+          "ambient_dimension": 2,
+          "free_cokernel_rank": 2,
+          "smith_factors": [],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 4,
+          "cohomological_degree": 8,
+          "rank": 1,
+          "ambient_dimension": 2,
+          "free_cokernel_rank": 1,
+          "smith_factors": [
+            16
+          ],
+          "torsion_factors": [
+            16
+          ],
+          "saturation_index": 16,
+          "is_saturated": false
+        },
+        {
+          "polynomial_degree": 5,
+          "cohomological_degree": 10,
+          "rank": 0,
+          "ambient_dimension": 2,
+          "free_cokernel_rank": 2,
+          "smith_factors": [],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 6,
+          "cohomological_degree": 12,
+          "rank": 0,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 1,
+          "smith_factors": [],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        }
+      ],
+      "first_recorded_nonsaturation_witness": {
+        "polynomial_degree": 2,
+        "primitive_class": [
+          {
+            "word": [
+              1,
+              2
+            ],
+            "coefficient": "1"
+          },
+          {
+            "word": [
+              3,
+              2
+            ],
+            "coefficient": "-1"
+          }
+        ],
+        "least_positive_multiple_in_image": 4,
+        "integer_preimage_of_multiple": "e1"
+      },
+      "integer_preimages_checked": 3,
+      "seconds": 0.030114,
+      "original_case": "C(n=3,k=1) tail",
+      "explicit_generator_multipliers": {
+        "e1": 4
+      },
+      "original_normalization_used": false,
+      "integral_form": "Literal polynomial-character intersection for the defining/vector Springer map of the Sp/SO tail factor; not an arbitrary representation or full Levi assertion."
+    },
+    {
+      "case": "C(n=4,k=2) tail",
+      "cartan_type": "['C', 4]",
+      "omitted_nodes": [
+        2
+      ],
+      "generator_names": [
+        "e1",
+        "e2"
+      ],
+      "generator_polynomial_degrees": [
+        2,
+        4
+      ],
+      "generator_polynomial_sha256": [
+        "8fadd90488de7082dcdbe116208b171cdbf55f9d834bd058797590ca2c7cea93",
+        "f620d4beed63ad3dde42bb92167250bc861712fd445cd49ce8fd09920782eb1f"
+      ],
+      "maximum_polynomial_degree": 6,
+      "degrees": [
+        {
+          "polynomial_degree": 0,
+          "cohomological_degree": 0,
+          "rank": 1,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            1
+          ],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 1,
+          "cohomological_degree": 2,
+          "rank": 0,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 1,
+          "smith_factors": [],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 2,
+          "cohomological_degree": 4,
+          "rank": 1,
+          "ambient_dimension": 2,
+          "free_cokernel_rank": 1,
+          "smith_factors": [
+            1
+          ],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 3,
+          "cohomological_degree": 6,
+          "rank": 0,
+          "ambient_dimension": 2,
+          "free_cokernel_rank": 2,
+          "smith_factors": [],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 4,
+          "cohomological_degree": 8,
+          "rank": 2,
+          "ambient_dimension": 3,
+          "free_cokernel_rank": 1,
+          "smith_factors": [
+            1,
+            1
+          ],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 5,
+          "cohomological_degree": 10,
+          "rank": 0,
+          "ambient_dimension": 3,
+          "free_cokernel_rank": 3,
+          "smith_factors": [],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 6,
+          "cohomological_degree": 12,
+          "rank": 1,
+          "ambient_dimension": 3,
+          "free_cokernel_rank": 2,
+          "smith_factors": [
+            1
+          ],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        }
+      ],
+      "first_recorded_nonsaturation_witness": null,
+      "integer_preimages_checked": 5,
+      "seconds": 0.079138,
+      "original_case": "C(n=4,k=2) tail",
+      "explicit_generator_multipliers": {
+        "e1": 1,
+        "e2": 1
+      },
+      "original_normalization_used": true
+    },
+    {
+      "case": "C(n=4,k=2) tail LITERAL POLYNOMIAL-CHARACTER FORM",
+      "cartan_type": "['C', 4]",
+      "omitted_nodes": [
+        2
+      ],
+      "generator_names": [
+        "e1",
+        "e2"
+      ],
+      "generator_polynomial_degrees": [
+        2,
+        4
+      ],
+      "generator_polynomial_sha256": [
+        "7608f6c6badbca635b7d2c20e10a5456b6764d7f197acec92eb6907e59296314",
+        "7432a9aecb45319b9a5d6b120312348a86026df2f29f63e020647cc082afcd2f"
+      ],
+      "maximum_polynomial_degree": 6,
+      "degrees": [
+        {
+          "polynomial_degree": 0,
+          "cohomological_degree": 0,
+          "rank": 1,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            1
+          ],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 1,
+          "cohomological_degree": 2,
+          "rank": 0,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 1,
+          "smith_factors": [],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 2,
+          "cohomological_degree": 4,
+          "rank": 1,
+          "ambient_dimension": 2,
+          "free_cokernel_rank": 1,
+          "smith_factors": [
+            4
+          ],
+          "torsion_factors": [
+            4
+          ],
+          "saturation_index": 4,
+          "is_saturated": false
+        },
+        {
+          "polynomial_degree": 3,
+          "cohomological_degree": 6,
+          "rank": 0,
+          "ambient_dimension": 2,
+          "free_cokernel_rank": 2,
+          "smith_factors": [],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 4,
+          "cohomological_degree": 8,
+          "rank": 2,
+          "ambient_dimension": 3,
+          "free_cokernel_rank": 1,
+          "smith_factors": [
+            16,
+            16
+          ],
+          "torsion_factors": [
+            16,
+            16
+          ],
+          "saturation_index": 256,
+          "is_saturated": false
+        },
+        {
+          "polynomial_degree": 5,
+          "cohomological_degree": 10,
+          "rank": 0,
+          "ambient_dimension": 3,
+          "free_cokernel_rank": 3,
+          "smith_factors": [],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 6,
+          "cohomological_degree": 12,
+          "rank": 1,
+          "ambient_dimension": 3,
+          "free_cokernel_rank": 2,
+          "smith_factors": [
+            64
+          ],
+          "torsion_factors": [
+            64
+          ],
+          "saturation_index": 64,
+          "is_saturated": false
+        }
+      ],
+      "first_recorded_nonsaturation_witness": {
+        "polynomial_degree": 2,
+        "primitive_class": [
+          {
+            "word": [
+              1,
+              2
+            ],
+            "coefficient": "1"
+          },
+          {
+            "word": [
+              3,
+              2
+            ],
+            "coefficient": "-1"
+          }
+        ],
+        "least_positive_multiple_in_image": 4,
+        "integer_preimage_of_multiple": "e1"
+      },
+      "integer_preimages_checked": 5,
+      "seconds": 0.074129,
+      "original_case": "C(n=4,k=2) tail",
+      "explicit_generator_multipliers": {
+        "e1": 4,
+        "e2": 16
+      },
+      "original_normalization_used": false,
+      "integral_form": "Literal polynomial-character intersection for the defining/vector Springer map of the Sp/SO tail factor; not an arbitrary representation or full Levi assertion."
+    },
+    {
+      "case": "C(n=5,k=2) tail",
+      "cartan_type": "['C', 5]",
+      "omitted_nodes": [
+        3
+      ],
+      "generator_names": [
+        "e1",
+        "e2"
+      ],
+      "generator_polynomial_degrees": [
+        2,
+        4
+      ],
+      "generator_polynomial_sha256": [
+        "0b6b27f211124bbee0fb74628b4182c7904a0efdc0cd3439406e17d803a85984",
+        "23d51feee03f25d20b97ba596e1bbaf40e730dd7132dcf0391c88f4ee5214d4b"
+      ],
+      "maximum_polynomial_degree": 6,
+      "degrees": [
+        {
+          "polynomial_degree": 0,
+          "cohomological_degree": 0,
+          "rank": 1,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            1
+          ],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 1,
+          "cohomological_degree": 2,
+          "rank": 0,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 1,
+          "smith_factors": [],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 2,
+          "cohomological_degree": 4,
+          "rank": 1,
+          "ambient_dimension": 2,
+          "free_cokernel_rank": 1,
+          "smith_factors": [
+            1
+          ],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 3,
+          "cohomological_degree": 6,
+          "rank": 0,
+          "ambient_dimension": 3,
+          "free_cokernel_rank": 3,
+          "smith_factors": [],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 4,
+          "cohomological_degree": 8,
+          "rank": 2,
+          "ambient_dimension": 4,
+          "free_cokernel_rank": 2,
+          "smith_factors": [
+            1,
+            1
+          ],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 5,
+          "cohomological_degree": 10,
+          "rank": 0,
+          "ambient_dimension": 5,
+          "free_cokernel_rank": 5,
+          "smith_factors": [],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 6,
+          "cohomological_degree": 12,
+          "rank": 2,
+          "ambient_dimension": 6,
+          "free_cokernel_rank": 4,
+          "smith_factors": [
+            1,
+            1
+          ],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        }
+      ],
+      "first_recorded_nonsaturation_witness": null,
+      "integer_preimages_checked": 6,
+      "seconds": 0.150992,
+      "original_case": "C(n=5,k=2) tail",
+      "explicit_generator_multipliers": {
+        "e1": 1,
+        "e2": 1
+      },
+      "original_normalization_used": true
+    },
+    {
+      "case": "C(n=5,k=2) tail LITERAL POLYNOMIAL-CHARACTER FORM",
+      "cartan_type": "['C', 5]",
+      "omitted_nodes": [
+        3
+      ],
+      "generator_names": [
+        "e1",
+        "e2"
+      ],
+      "generator_polynomial_degrees": [
+        2,
+        4
+      ],
+      "generator_polynomial_sha256": [
+        "8adf7c6805ec5701bceb819bb36426f9bdf5550efe3cbdd139eaebb65fa77ea4",
+        "5d43e170597c1e6f7908748c1d1bbb9b3319663c9504f3da30bdb1a85b94be47"
+      ],
+      "maximum_polynomial_degree": 6,
+      "degrees": [
+        {
+          "polynomial_degree": 0,
+          "cohomological_degree": 0,
+          "rank": 1,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            1
+          ],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 1,
+          "cohomological_degree": 2,
+          "rank": 0,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 1,
+          "smith_factors": [],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 2,
+          "cohomological_degree": 4,
+          "rank": 1,
+          "ambient_dimension": 2,
+          "free_cokernel_rank": 1,
+          "smith_factors": [
+            4
+          ],
+          "torsion_factors": [
+            4
+          ],
+          "saturation_index": 4,
+          "is_saturated": false
+        },
+        {
+          "polynomial_degree": 3,
+          "cohomological_degree": 6,
+          "rank": 0,
+          "ambient_dimension": 3,
+          "free_cokernel_rank": 3,
+          "smith_factors": [],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 4,
+          "cohomological_degree": 8,
+          "rank": 2,
+          "ambient_dimension": 4,
+          "free_cokernel_rank": 2,
+          "smith_factors": [
+            16,
+            16
+          ],
+          "torsion_factors": [
+            16,
+            16
+          ],
+          "saturation_index": 256,
+          "is_saturated": false
+        },
+        {
+          "polynomial_degree": 5,
+          "cohomological_degree": 10,
+          "rank": 0,
+          "ambient_dimension": 5,
+          "free_cokernel_rank": 5,
+          "smith_factors": [],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 6,
+          "cohomological_degree": 12,
+          "rank": 2,
+          "ambient_dimension": 6,
+          "free_cokernel_rank": 4,
+          "smith_factors": [
+            64,
+            64
+          ],
+          "torsion_factors": [
+            64,
+            64
+          ],
+          "saturation_index": 4096,
+          "is_saturated": false
+        }
+      ],
+      "first_recorded_nonsaturation_witness": {
+        "polynomial_degree": 2,
+        "primitive_class": [
+          {
+            "word": [
+              2,
+              3
+            ],
+            "coefficient": "1"
+          },
+          {
+            "word": [
+              4,
+              3
+            ],
+            "coefficient": "-1"
+          }
+        ],
+        "least_positive_multiple_in_image": 4,
+        "integer_preimage_of_multiple": "e1"
+      },
+      "integer_preimages_checked": 6,
+      "seconds": 0.1312,
+      "original_case": "C(n=5,k=2) tail",
+      "explicit_generator_multipliers": {
+        "e1": 4,
+        "e2": 16
+      },
+      "original_normalization_used": false,
+      "integral_form": "Literal polynomial-character intersection for the defining/vector Springer map of the Sp/SO tail factor; not an arbitrary representation or full Levi assertion."
+    },
+    {
+      "case": "B(n=3,k=1) tail",
+      "cartan_type": "['B', 3]",
+      "omitted_nodes": [
+        2
+      ],
+      "generator_names": [
+        "e1"
+      ],
+      "generator_polynomial_degrees": [
+        2
+      ],
+      "generator_polynomial_sha256": [
+        "fb9a1b0674d596bdfb2ad85d4824d761559a96f07a1c12efd1e5fd6e03ad11c1"
+      ],
+      "maximum_polynomial_degree": 6,
+      "degrees": [
+        {
+          "polynomial_degree": 0,
+          "cohomological_degree": 0,
+          "rank": 1,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            1
+          ],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 1,
+          "cohomological_degree": 2,
+          "rank": 0,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 1,
+          "smith_factors": [],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 2,
+          "cohomological_degree": 4,
+          "rank": 1,
+          "ambient_dimension": 2,
+          "free_cokernel_rank": 1,
+          "smith_factors": [
+            1
+          ],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 3,
+          "cohomological_degree": 6,
+          "rank": 0,
+          "ambient_dimension": 2,
+          "free_cokernel_rank": 2,
+          "smith_factors": [],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 4,
+          "cohomological_degree": 8,
+          "rank": 1,
+          "ambient_dimension": 2,
+          "free_cokernel_rank": 1,
+          "smith_factors": [
+            2
+          ],
+          "torsion_factors": [
+            2
+          ],
+          "saturation_index": 2,
+          "is_saturated": false
+        },
+        {
+          "polynomial_degree": 5,
+          "cohomological_degree": 10,
+          "rank": 0,
+          "ambient_dimension": 2,
+          "free_cokernel_rank": 2,
+          "smith_factors": [],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 6,
+          "cohomological_degree": 12,
+          "rank": 0,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 1,
+          "smith_factors": [],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        }
+      ],
+      "first_recorded_nonsaturation_witness": {
+        "polynomial_degree": 4,
+        "primitive_class": [
+          {
+            "word": [
+              2,
+              3,
+              1,
+              2
+            ],
+            "coefficient": "1"
+          }
+        ],
+        "least_positive_multiple_in_image": 2,
+        "integer_preimage_of_multiple": "e1^2"
+      },
+      "integer_preimages_checked": 3,
+      "seconds": 0.03644,
+      "original_case": "B(n=3,k=1) tail",
+      "explicit_generator_multipliers": {
+        "e1": 1
+      },
+      "original_normalization_used": true
+    },
+    {
+      "case": "B(n=3,k=1) tail LITERAL POLYNOMIAL-CHARACTER FORM",
+      "cartan_type": "['B', 3]",
+      "omitted_nodes": [
+        2
+      ],
+      "generator_names": [
+        "e1"
+      ],
+      "generator_polynomial_degrees": [
+        2
+      ],
+      "generator_polynomial_sha256": [
+        "a8bcb44fc9db0a8a7da5d5f48d68e7c1c700d4e048f8cdade907e60440745693"
+      ],
+      "maximum_polynomial_degree": 6,
+      "degrees": [
+        {
+          "polynomial_degree": 0,
+          "cohomological_degree": 0,
+          "rank": 1,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            1
+          ],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 1,
+          "cohomological_degree": 2,
+          "rank": 0,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 1,
+          "smith_factors": [],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 2,
+          "cohomological_degree": 4,
+          "rank": 1,
+          "ambient_dimension": 2,
+          "free_cokernel_rank": 1,
+          "smith_factors": [
+            4
+          ],
+          "torsion_factors": [
+            4
+          ],
+          "saturation_index": 4,
+          "is_saturated": false
+        },
+        {
+          "polynomial_degree": 3,
+          "cohomological_degree": 6,
+          "rank": 0,
+          "ambient_dimension": 2,
+          "free_cokernel_rank": 2,
+          "smith_factors": [],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 4,
+          "cohomological_degree": 8,
+          "rank": 1,
+          "ambient_dimension": 2,
+          "free_cokernel_rank": 1,
+          "smith_factors": [
+            32
+          ],
+          "torsion_factors": [
+            32
+          ],
+          "saturation_index": 32,
+          "is_saturated": false
+        },
+        {
+          "polynomial_degree": 5,
+          "cohomological_degree": 10,
+          "rank": 0,
+          "ambient_dimension": 2,
+          "free_cokernel_rank": 2,
+          "smith_factors": [],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 6,
+          "cohomological_degree": 12,
+          "rank": 0,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 1,
+          "smith_factors": [],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        }
+      ],
+      "first_recorded_nonsaturation_witness": {
+        "polynomial_degree": 2,
+        "primitive_class": [
+          {
+            "word": [
+              1,
+              2
+            ],
+            "coefficient": "1"
+          },
+          {
+            "word": [
+              3,
+              2
+            ],
+            "coefficient": "-2"
+          }
+        ],
+        "least_positive_multiple_in_image": 4,
+        "integer_preimage_of_multiple": "e1"
+      },
+      "integer_preimages_checked": 3,
+      "seconds": 0.028081,
+      "original_case": "B(n=3,k=1) tail",
+      "explicit_generator_multipliers": {
+        "e1": 4
+      },
+      "original_normalization_used": false,
+      "integral_form": "Literal polynomial-character intersection for the defining/vector Springer map of the Sp/SO tail factor; not an arbitrary representation or full Levi assertion."
+    },
+    {
+      "case": "B(n=4,k=2) tail",
+      "cartan_type": "['B', 4]",
+      "omitted_nodes": [
+        2
+      ],
+      "generator_names": [
+        "e1",
+        "e2"
+      ],
+      "generator_polynomial_degrees": [
+        2,
+        4
+      ],
+      "generator_polynomial_sha256": [
+        "2165101360a662adeebd143b0d2a92da631a8dbd805f7cadee69925916dc843b",
+        "aa8be870187bf71edb7f08456aa78bac1eeb3f5e17684fb768220f050aca9ad8"
+      ],
+      "maximum_polynomial_degree": 6,
+      "degrees": [
+        {
+          "polynomial_degree": 0,
+          "cohomological_degree": 0,
+          "rank": 1,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            1
+          ],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 1,
+          "cohomological_degree": 2,
+          "rank": 0,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 1,
+          "smith_factors": [],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 2,
+          "cohomological_degree": 4,
+          "rank": 1,
+          "ambient_dimension": 2,
+          "free_cokernel_rank": 1,
+          "smith_factors": [
+            1
+          ],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 3,
+          "cohomological_degree": 6,
+          "rank": 0,
+          "ambient_dimension": 2,
+          "free_cokernel_rank": 2,
+          "smith_factors": [],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 4,
+          "cohomological_degree": 8,
+          "rank": 2,
+          "ambient_dimension": 3,
+          "free_cokernel_rank": 1,
+          "smith_factors": [
+            1,
+            2
+          ],
+          "torsion_factors": [
+            2
+          ],
+          "saturation_index": 2,
+          "is_saturated": false
+        },
+        {
+          "polynomial_degree": 5,
+          "cohomological_degree": 10,
+          "rank": 0,
+          "ambient_dimension": 3,
+          "free_cokernel_rank": 3,
+          "smith_factors": [],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 6,
+          "cohomological_degree": 12,
+          "rank": 1,
+          "ambient_dimension": 3,
+          "free_cokernel_rank": 2,
+          "smith_factors": [
+            2
+          ],
+          "torsion_factors": [
+            2
+          ],
+          "saturation_index": 2,
+          "is_saturated": false
+        }
+      ],
+      "first_recorded_nonsaturation_witness": {
+        "polynomial_degree": 4,
+        "primitive_class": [
+          {
+            "word": [
+              3,
+              4,
+              3,
+              2
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "word": [
+              4,
+              3,
+              1,
+              2
+            ],
+            "coefficient": "1"
+          }
+        ],
+        "least_positive_multiple_in_image": 2,
+        "integer_preimage_of_multiple": "e1^2 - 2*e2"
+      },
+      "integer_preimages_checked": 5,
+      "seconds": 0.099686,
+      "original_case": "B(n=4,k=2) tail",
+      "explicit_generator_multipliers": {
+        "e1": 1,
+        "e2": 1
+      },
+      "original_normalization_used": true
+    },
+    {
+      "case": "B(n=4,k=2) tail LITERAL POLYNOMIAL-CHARACTER FORM",
+      "cartan_type": "['B', 4]",
+      "omitted_nodes": [
+        2
+      ],
+      "generator_names": [
+        "e1",
+        "e2"
+      ],
+      "generator_polynomial_degrees": [
+        2,
+        4
+      ],
+      "generator_polynomial_sha256": [
+        "dbaa6fd063e72d7eeeff32a55810680a65d24daffb28df0713a6b3f3c4052e69",
+        "512a0ae6eac8a4cdd35e7cc172b65a997a5b8118276c7617d6922d583b079ad4"
+      ],
+      "maximum_polynomial_degree": 6,
+      "degrees": [
+        {
+          "polynomial_degree": 0,
+          "cohomological_degree": 0,
+          "rank": 1,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            1
+          ],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 1,
+          "cohomological_degree": 2,
+          "rank": 0,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 1,
+          "smith_factors": [],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 2,
+          "cohomological_degree": 4,
+          "rank": 1,
+          "ambient_dimension": 2,
+          "free_cokernel_rank": 1,
+          "smith_factors": [
+            4
+          ],
+          "torsion_factors": [
+            4
+          ],
+          "saturation_index": 4,
+          "is_saturated": false
+        },
+        {
+          "polynomial_degree": 3,
+          "cohomological_degree": 6,
+          "rank": 0,
+          "ambient_dimension": 2,
+          "free_cokernel_rank": 2,
+          "smith_factors": [],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 4,
+          "cohomological_degree": 8,
+          "rank": 2,
+          "ambient_dimension": 3,
+          "free_cokernel_rank": 1,
+          "smith_factors": [
+            16,
+            32
+          ],
+          "torsion_factors": [
+            16,
+            32
+          ],
+          "saturation_index": 512,
+          "is_saturated": false
+        },
+        {
+          "polynomial_degree": 5,
+          "cohomological_degree": 10,
+          "rank": 0,
+          "ambient_dimension": 3,
+          "free_cokernel_rank": 3,
+          "smith_factors": [],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 6,
+          "cohomological_degree": 12,
+          "rank": 1,
+          "ambient_dimension": 3,
+          "free_cokernel_rank": 2,
+          "smith_factors": [
+            128
+          ],
+          "torsion_factors": [
+            128
+          ],
+          "saturation_index": 128,
+          "is_saturated": false
+        }
+      ],
+      "first_recorded_nonsaturation_witness": {
+        "polynomial_degree": 2,
+        "primitive_class": [
+          {
+            "word": [
+              1,
+              2
+            ],
+            "coefficient": "1"
+          },
+          {
+            "word": [
+              3,
+              2
+            ],
+            "coefficient": "-1"
+          }
+        ],
+        "least_positive_multiple_in_image": 4,
+        "integer_preimage_of_multiple": "e1"
+      },
+      "integer_preimages_checked": 5,
+      "seconds": 0.077115,
+      "original_case": "B(n=4,k=2) tail",
+      "explicit_generator_multipliers": {
+        "e1": 4,
+        "e2": 16
+      },
+      "original_normalization_used": false,
+      "integral_form": "Literal polynomial-character intersection for the defining/vector Springer map of the Sp/SO tail factor; not an arbitrary representation or full Levi assertion."
+    },
+    {
+      "case": "D(n=4,k=2) tail plus Euler",
+      "cartan_type": "['D', 4]",
+      "omitted_nodes": [
+        2
+      ],
+      "generator_names": [
+        "e1",
+        "e2",
+        "u"
+      ],
+      "generator_polynomial_degrees": [
+        2,
+        4,
+        2
+      ],
+      "generator_polynomial_sha256": [
+        "c7c1e019334cfd5127104035fd9b5bf286215b433bb51f758c34b996ae16fb04",
+        "fc0a49932123b36d304273ade8e25a7c7be81c8967d42b2829a8198e92276370",
+        "ed258b51165445affb283b946c3108bc86b01ca054ef8259bb6034da90d94813"
+      ],
+      "maximum_polynomial_degree": 6,
+      "degrees": [
+        {
+          "polynomial_degree": 0,
+          "cohomological_degree": 0,
+          "rank": 1,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            1
+          ],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 1,
+          "cohomological_degree": 2,
+          "rank": 0,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 1,
+          "smith_factors": [],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 2,
+          "cohomological_degree": 4,
+          "rank": 2,
+          "ambient_dimension": 3,
+          "free_cokernel_rank": 1,
+          "smith_factors": [
+            1,
+            1
+          ],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 3,
+          "cohomological_degree": 6,
+          "rank": 0,
+          "ambient_dimension": 3,
+          "free_cokernel_rank": 3,
+          "smith_factors": [],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 4,
+          "cohomological_degree": 8,
+          "rank": 3,
+          "ambient_dimension": 4,
+          "free_cokernel_rank": 1,
+          "smith_factors": [
+            1,
+            2,
+            2
+          ],
+          "torsion_factors": [
+            2,
+            2
+          ],
+          "saturation_index": 4,
+          "is_saturated": false
+        },
+        {
+          "polynomial_degree": 5,
+          "cohomological_degree": 10,
+          "rank": 0,
+          "ambient_dimension": 4,
+          "free_cokernel_rank": 4,
+          "smith_factors": [],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 6,
+          "cohomological_degree": 12,
+          "rank": 2,
+          "ambient_dimension": 3,
+          "free_cokernel_rank": 1,
+          "smith_factors": [
+            2,
+            2
+          ],
+          "torsion_factors": [
+            2,
+            2
+          ],
+          "saturation_index": 4,
+          "is_saturated": false
+        }
+      ],
+      "first_recorded_nonsaturation_witness": {
+        "polynomial_degree": 4,
+        "primitive_class": [
+          {
+            "word": [
+              2,
+              4,
+              3,
+              2
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "word": [
+              4,
+              3,
+              1,
+              2
+            ],
+            "coefficient": "1"
+          }
+        ],
+        "least_positive_multiple_in_image": 2,
+        "integer_preimage_of_multiple": "e1^2 - 2*e2"
+      },
+      "integer_preimages_checked": 8,
+      "seconds": 0.198364,
+      "original_case": "D(n=4,k=2) tail plus Euler",
+      "explicit_generator_multipliers": {
+        "e1": 1,
+        "e2": 1,
+        "u": 1
+      },
+      "original_normalization_used": true
+    },
+    {
+      "case": "D(n=4,k=2) tail plus Euler LITERAL POLYNOMIAL-CHARACTER FORM",
+      "cartan_type": "['D', 4]",
+      "omitted_nodes": [
+        2
+      ],
+      "generator_names": [
+        "e1",
+        "e2",
+        "u"
+      ],
+      "generator_polynomial_degrees": [
+        2,
+        4,
+        2
+      ],
+      "generator_polynomial_sha256": [
+        "41105d90faa25610f27c44234ce47ed1fd946d79041d41a3caadd6e6de606077",
+        "8a463288965ebc6ca730b6ecc9c7d75a18670ab1490ecb9195efeda2411bf25f",
+        "138987ad0723a555fcb73320477aed4e6cd9fb097b0ed99a9539054b598708ae"
+      ],
+      "maximum_polynomial_degree": 6,
+      "degrees": [
+        {
+          "polynomial_degree": 0,
+          "cohomological_degree": 0,
+          "rank": 1,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            1
+          ],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 1,
+          "cohomological_degree": 2,
+          "rank": 0,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 1,
+          "smith_factors": [],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 2,
+          "cohomological_degree": 4,
+          "rank": 2,
+          "ambient_dimension": 3,
+          "free_cokernel_rank": 1,
+          "smith_factors": [
+            4,
+            4
+          ],
+          "torsion_factors": [
+            4,
+            4
+          ],
+          "saturation_index": 16,
+          "is_saturated": false
+        },
+        {
+          "polynomial_degree": 3,
+          "cohomological_degree": 6,
+          "rank": 0,
+          "ambient_dimension": 3,
+          "free_cokernel_rank": 3,
+          "smith_factors": [],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 4,
+          "cohomological_degree": 8,
+          "rank": 3,
+          "ambient_dimension": 4,
+          "free_cokernel_rank": 1,
+          "smith_factors": [
+            16,
+            32,
+            32
+          ],
+          "torsion_factors": [
+            16,
+            32,
+            32
+          ],
+          "saturation_index": 16384,
+          "is_saturated": false
+        },
+        {
+          "polynomial_degree": 5,
+          "cohomological_degree": 10,
+          "rank": 0,
+          "ambient_dimension": 4,
+          "free_cokernel_rank": 4,
+          "smith_factors": [],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 6,
+          "cohomological_degree": 12,
+          "rank": 2,
+          "ambient_dimension": 3,
+          "free_cokernel_rank": 1,
+          "smith_factors": [
+            128,
+            128
+          ],
+          "torsion_factors": [
+            128,
+            128
+          ],
+          "saturation_index": 16384,
+          "is_saturated": false
+        }
+      ],
+      "first_recorded_nonsaturation_witness": {
+        "polynomial_degree": 2,
+        "primitive_class": [
+          {
+            "word": [
+              3,
+              2
+            ],
+            "coefficient": "1"
+          },
+          {
+            "word": [
+              4,
+              2
+            ],
+            "coefficient": "-1"
+          }
+        ],
+        "least_positive_multiple_in_image": 4,
+        "integer_preimage_of_multiple": "u"
+      },
+      "integer_preimages_checked": 8,
+      "seconds": 0.175029,
+      "original_case": "D(n=4,k=2) tail plus Euler",
+      "explicit_generator_multipliers": {
+        "e1": 4,
+        "e2": 16,
+        "u": 4
+      },
+      "original_normalization_used": false,
+      "integral_form": "Literal polynomial-character intersection for the defining/vector Springer map of the Sp/SO tail factor; not an arbitrary representation or full Levi assertion."
+    },
+    {
+      "case": "D(n=4,k=3) tail plus Euler",
+      "cartan_type": "['D', 4]",
+      "omitted_nodes": [
+        1
+      ],
+      "generator_names": [
+        "e1",
+        "e2",
+        "e3",
+        "u"
+      ],
+      "generator_polynomial_degrees": [
+        2,
+        4,
+        6,
+        3
+      ],
+      "generator_polynomial_sha256": [
+        "6223b0bcbd8de8d1747c0224eedabcc8bf493c962463e7260c3323e974bc4c3b",
+        "8e80abb10c1e52ffecff623f43448db17f825600c5f9f5e463e6e59b37298dfd",
+        "ce60f63d12bb557dd3b68e4436d67f70f5192a490ce3ca8af37019f6f2718cfd",
+        "8ac5ec7ee54268df6a3a794c7949bec64633ed20e5e2455e69f20378d6296008"
+      ],
+      "maximum_polynomial_degree": 6,
+      "degrees": [
+        {
+          "polynomial_degree": 0,
+          "cohomological_degree": 0,
+          "rank": 1,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            1
+          ],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 1,
+          "cohomological_degree": 2,
+          "rank": 0,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 1,
+          "smith_factors": [],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 2,
+          "cohomological_degree": 4,
+          "rank": 1,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            1
+          ],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 3,
+          "cohomological_degree": 6,
+          "rank": 1,
+          "ambient_dimension": 2,
+          "free_cokernel_rank": 1,
+          "smith_factors": [
+            1
+          ],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 4,
+          "cohomological_degree": 8,
+          "rank": 1,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            2
+          ],
+          "torsion_factors": [
+            2
+          ],
+          "saturation_index": 2,
+          "is_saturated": false
+        },
+        {
+          "polynomial_degree": 5,
+          "cohomological_degree": 10,
+          "rank": 0,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 1,
+          "smith_factors": [],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 6,
+          "cohomological_degree": 12,
+          "rank": 1,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            2
+          ],
+          "torsion_factors": [
+            2
+          ],
+          "saturation_index": 2,
+          "is_saturated": false
+        }
+      ],
+      "first_recorded_nonsaturation_witness": {
+        "polynomial_degree": 4,
+        "primitive_class": [
+          {
+            "word": [
+              4,
+              3,
+              2,
+              1
+            ],
+            "coefficient": "1"
+          }
+        ],
+        "least_positive_multiple_in_image": 2,
+        "integer_preimage_of_multiple": "e1^2"
+      },
+      "integer_preimages_checked": 5,
+      "seconds": 0.083112,
+      "original_case": "D(n=4,k=3) tail plus Euler",
+      "explicit_generator_multipliers": {
+        "e1": 1,
+        "e2": 1,
+        "e3": 1,
+        "u": 1
+      },
+      "original_normalization_used": true
+    },
+    {
+      "case": "D(n=4,k=3) tail plus Euler LITERAL POLYNOMIAL-CHARACTER FORM",
+      "cartan_type": "['D', 4]",
+      "omitted_nodes": [
+        1
+      ],
+      "generator_names": [
+        "e1",
+        "e2",
+        "e3",
+        "u"
+      ],
+      "generator_polynomial_degrees": [
+        2,
+        4,
+        6,
+        3
+      ],
+      "generator_polynomial_sha256": [
+        "b6e2b6e1947d24bb68addb52fdf9daa9a3677fcbac7eaf595509cc2ef8e6d981",
+        "df627935544d81aff1981c2b9adaa9d7881538893761890499b502be95984e98",
+        "6a2c54172d7fef6a5acdd4fb6eccf78f5e5b3d83ae2aa11dd2b63dae94814295",
+        "f883f3e769887fa32feed9f9c909e462664e1bc6eee1de4b3dbbd5421e5c2a5f"
+      ],
+      "maximum_polynomial_degree": 6,
+      "degrees": [
+        {
+          "polynomial_degree": 0,
+          "cohomological_degree": 0,
+          "rank": 1,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            1
+          ],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 1,
+          "cohomological_degree": 2,
+          "rank": 0,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 1,
+          "smith_factors": [],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 2,
+          "cohomological_degree": 4,
+          "rank": 1,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            4
+          ],
+          "torsion_factors": [
+            4
+          ],
+          "saturation_index": 4,
+          "is_saturated": false
+        },
+        {
+          "polynomial_degree": 3,
+          "cohomological_degree": 6,
+          "rank": 1,
+          "ambient_dimension": 2,
+          "free_cokernel_rank": 1,
+          "smith_factors": [
+            8
+          ],
+          "torsion_factors": [
+            8
+          ],
+          "saturation_index": 8,
+          "is_saturated": false
+        },
+        {
+          "polynomial_degree": 4,
+          "cohomological_degree": 8,
+          "rank": 1,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            32
+          ],
+          "torsion_factors": [
+            32
+          ],
+          "saturation_index": 32,
+          "is_saturated": false
+        },
+        {
+          "polynomial_degree": 5,
+          "cohomological_degree": 10,
+          "rank": 0,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 1,
+          "smith_factors": [],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 6,
+          "cohomological_degree": 12,
+          "rank": 1,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            128
+          ],
+          "torsion_factors": [
+            128
+          ],
+          "saturation_index": 128,
+          "is_saturated": false
+        }
+      ],
+      "first_recorded_nonsaturation_witness": {
+        "polynomial_degree": 2,
+        "primitive_class": [
+          {
+            "word": [
+              2,
+              1
+            ],
+            "coefficient": "1"
+          }
+        ],
+        "least_positive_multiple_in_image": 4,
+        "integer_preimage_of_multiple": "-e1"
+      },
+      "integer_preimages_checked": 5,
+      "seconds": 0.069994,
+      "original_case": "D(n=4,k=3) tail plus Euler",
+      "explicit_generator_multipliers": {
+        "e1": 4,
+        "e2": 16,
+        "e3": 64,
+        "u": 8
+      },
+      "original_normalization_used": false,
+      "integral_form": "Literal polynomial-character intersection for the defining/vector Springer map of the Sp/SO tail factor; not an arbitrary representation or full Levi assertion."
+    },
+    {
+      "case": "D(n=5,k=2) tail plus Euler",
+      "cartan_type": "['D', 5]",
+      "omitted_nodes": [
+        3
+      ],
+      "generator_names": [
+        "e1",
+        "e2",
+        "u"
+      ],
+      "generator_polynomial_degrees": [
+        2,
+        4,
+        2
+      ],
+      "generator_polynomial_sha256": [
+        "b175dac1cf2684e3700aaced22174e849649f216ef24e2e2ca9827bfd7b125b8",
+        "9d5a07340fca1f87d2721b25a0f3ad7706ede0ba00a023f0551189ce07f53869",
+        "db78607d24249d909f9e494dc5949640d3faa95e653ae8762a0bef830b4d892d"
+      ],
+      "maximum_polynomial_degree": 6,
+      "degrees": [
+        {
+          "polynomial_degree": 0,
+          "cohomological_degree": 0,
+          "rank": 1,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            1
+          ],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 1,
+          "cohomological_degree": 2,
+          "rank": 0,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 1,
+          "smith_factors": [],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 2,
+          "cohomological_degree": 4,
+          "rank": 2,
+          "ambient_dimension": 3,
+          "free_cokernel_rank": 1,
+          "smith_factors": [
+            1,
+            1
+          ],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 3,
+          "cohomological_degree": 6,
+          "rank": 0,
+          "ambient_dimension": 4,
+          "free_cokernel_rank": 4,
+          "smith_factors": [],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 4,
+          "cohomological_degree": 8,
+          "rank": 3,
+          "ambient_dimension": 6,
+          "free_cokernel_rank": 3,
+          "smith_factors": [
+            1,
+            1,
+            2
+          ],
+          "torsion_factors": [
+            2
+          ],
+          "saturation_index": 2,
+          "is_saturated": false
+        },
+        {
+          "polynomial_degree": 5,
+          "cohomological_degree": 10,
+          "rank": 0,
+          "ambient_dimension": 7,
+          "free_cokernel_rank": 7,
+          "smith_factors": [],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 6,
+          "cohomological_degree": 12,
+          "rank": 4,
+          "ambient_dimension": 9,
+          "free_cokernel_rank": 5,
+          "smith_factors": [
+            1,
+            2,
+            2,
+            2
+          ],
+          "torsion_factors": [
+            2,
+            2,
+            2
+          ],
+          "saturation_index": 8,
+          "is_saturated": false
+        }
+      ],
+      "first_recorded_nonsaturation_witness": {
+        "polynomial_degree": 4,
+        "primitive_class": [
+          {
+            "word": [
+              3,
+              5,
+              2,
+              3
+            ],
+            "coefficient": "1"
+          },
+          {
+            "word": [
+              5,
+              1,
+              2,
+              3
+            ],
+            "coefficient": "-1"
+          }
+        ],
+        "least_positive_multiple_in_image": 2,
+        "integer_preimage_of_multiple": "e1^2 + e1*u - e2"
+      },
+      "integer_preimages_checked": 10,
+      "seconds": 0.400188,
+      "original_case": "D(n=5,k=2) tail plus Euler",
+      "explicit_generator_multipliers": {
+        "e1": 1,
+        "e2": 1,
+        "u": 1
+      },
+      "original_normalization_used": true
+    },
+    {
+      "case": "D(n=5,k=2) tail plus Euler LITERAL POLYNOMIAL-CHARACTER FORM",
+      "cartan_type": "['D', 5]",
+      "omitted_nodes": [
+        3
+      ],
+      "generator_names": [
+        "e1",
+        "e2",
+        "u"
+      ],
+      "generator_polynomial_degrees": [
+        2,
+        4,
+        2
+      ],
+      "generator_polynomial_sha256": [
+        "97426e45ef764276240e166ec4bf3ffd6ad1b27fdab109f7da15afb0b5bf5988",
+        "e22a0fb8e013335a1f1f3031ed46ff03145bf0b4ca60e1cd9d9e508cd51c6862",
+        "59e04e81375bc164d2c2a781613214d79a2b66be3ba9967700ad9fedc1541877"
+      ],
+      "maximum_polynomial_degree": 6,
+      "degrees": [
+        {
+          "polynomial_degree": 0,
+          "cohomological_degree": 0,
+          "rank": 1,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            1
+          ],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 1,
+          "cohomological_degree": 2,
+          "rank": 0,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 1,
+          "smith_factors": [],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 2,
+          "cohomological_degree": 4,
+          "rank": 2,
+          "ambient_dimension": 3,
+          "free_cokernel_rank": 1,
+          "smith_factors": [
+            4,
+            4
+          ],
+          "torsion_factors": [
+            4,
+            4
+          ],
+          "saturation_index": 16,
+          "is_saturated": false
+        },
+        {
+          "polynomial_degree": 3,
+          "cohomological_degree": 6,
+          "rank": 0,
+          "ambient_dimension": 4,
+          "free_cokernel_rank": 4,
+          "smith_factors": [],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 4,
+          "cohomological_degree": 8,
+          "rank": 3,
+          "ambient_dimension": 6,
+          "free_cokernel_rank": 3,
+          "smith_factors": [
+            16,
+            16,
+            32
+          ],
+          "torsion_factors": [
+            16,
+            16,
+            32
+          ],
+          "saturation_index": 8192,
+          "is_saturated": false
+        },
+        {
+          "polynomial_degree": 5,
+          "cohomological_degree": 10,
+          "rank": 0,
+          "ambient_dimension": 7,
+          "free_cokernel_rank": 7,
+          "smith_factors": [],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 6,
+          "cohomological_degree": 12,
+          "rank": 4,
+          "ambient_dimension": 9,
+          "free_cokernel_rank": 5,
+          "smith_factors": [
+            64,
+            128,
+            128,
+            128
+          ],
+          "torsion_factors": [
+            64,
+            128,
+            128,
+            128
+          ],
+          "saturation_index": 134217728,
+          "is_saturated": false
+        }
+      ],
+      "first_recorded_nonsaturation_witness": {
+        "polynomial_degree": 2,
+        "primitive_class": [
+          {
+            "word": [
+              4,
+              3
+            ],
+            "coefficient": "1"
+          },
+          {
+            "word": [
+              5,
+              3
+            ],
+            "coefficient": "-1"
+          }
+        ],
+        "least_positive_multiple_in_image": 4,
+        "integer_preimage_of_multiple": "u"
+      },
+      "integer_preimages_checked": 10,
+      "seconds": 0.35966,
+      "original_case": "D(n=5,k=2) tail plus Euler",
+      "explicit_generator_multipliers": {
+        "e1": 4,
+        "e2": 16,
+        "u": 4
+      },
+      "original_normalization_used": false,
+      "integral_form": "Literal polynomial-character intersection for the defining/vector Springer map of the Sp/SO tail factor; not an arbitrary representation or full Levi assertion."
+    },
+    {
+      "case": "G2/P1 catalogue EXPLICITLY RESCALED IMAGE-INTEGRAL FORM",
+      "cartan_type": "['G', 2]",
+      "omitted_nodes": [
+        1
+      ],
+      "generator_names": [
+        "omega1",
+        "quadratic"
+      ],
+      "generator_polynomial_degrees": [
+        1,
+        2
+      ],
+      "generator_polynomial_sha256": [
+        "60c5590f72eef292f9545afc28bf63ca91d2016a0a288f90f9a32f89d3fffcaf",
+        "2e309ccc24a207213d057e5712a377bb5234492b91e6f59d6985892205bc2f57"
+      ],
+      "maximum_polynomial_degree": 6,
+      "degrees": [
+        {
+          "polynomial_degree": 0,
+          "cohomological_degree": 0,
+          "rank": 1,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            1
+          ],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 1,
+          "cohomological_degree": 2,
+          "rank": 1,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            1
+          ],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 2,
+          "cohomological_degree": 4,
+          "rank": 1,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            1
+          ],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 3,
+          "cohomological_degree": 6,
+          "rank": 1,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            2
+          ],
+          "torsion_factors": [
+            2
+          ],
+          "saturation_index": 2,
+          "is_saturated": false
+        },
+        {
+          "polynomial_degree": 4,
+          "cohomological_degree": 8,
+          "rank": 1,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            2
+          ],
+          "torsion_factors": [
+            2
+          ],
+          "saturation_index": 2,
+          "is_saturated": false
+        },
+        {
+          "polynomial_degree": 5,
+          "cohomological_degree": 10,
+          "rank": 1,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            2
+          ],
+          "torsion_factors": [
+            2
+          ],
+          "saturation_index": 2,
+          "is_saturated": false
+        },
+        {
+          "polynomial_degree": 6,
+          "cohomological_degree": 12,
+          "rank": 0,
+          "ambient_dimension": 0,
+          "free_cokernel_rank": 0,
+          "smith_factors": [],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        }
+      ],
+      "first_recorded_nonsaturation_witness": {
+        "polynomial_degree": 3,
+        "primitive_class": [
+          {
+            "word": [
+              1,
+              2,
+              1
+            ],
+            "coefficient": "1"
+          }
+        ],
+        "least_positive_multiple_in_image": 2,
+        "integer_preimage_of_multiple": "omega1^3"
+      },
+      "integer_preimages_checked": 6,
+      "seconds": 0.05523,
+      "original_case": "G2/P1 catalogue",
+      "explicit_generator_multipliers": {
+        "omega1": 1,
+        "quadratic": 4
+      },
+      "original_normalization_used": false
+    },
+    {
+      "case": "G2/P2 catalogue",
+      "cartan_type": "['G', 2]",
+      "omitted_nodes": [
+        2
+      ],
+      "generator_names": [
+        "omega2",
+        "quadratic"
+      ],
+      "generator_polynomial_degrees": [
+        1,
+        2
+      ],
+      "generator_polynomial_sha256": [
+        "06f8faea3b5f697691b6d063a07ba4ffaf1ece9a1d473c588565231cdc8e59cc",
+        "94bb6df0544a7727e5fe4bd31a3e1bf71d8ae4062e6c81bca6f2dfdf1afb2e7d"
+      ],
+      "maximum_polynomial_degree": 6,
+      "degrees": [
+        {
+          "polynomial_degree": 0,
+          "cohomological_degree": 0,
+          "rank": 1,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            1
+          ],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 1,
+          "cohomological_degree": 2,
+          "rank": 1,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            1
+          ],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 2,
+          "cohomological_degree": 4,
+          "rank": 1,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            1
+          ],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 3,
+          "cohomological_degree": 6,
+          "rank": 1,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            2
+          ],
+          "torsion_factors": [
+            2
+          ],
+          "saturation_index": 2,
+          "is_saturated": false
+        },
+        {
+          "polynomial_degree": 4,
+          "cohomological_degree": 8,
+          "rank": 1,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            2
+          ],
+          "torsion_factors": [
+            2
+          ],
+          "saturation_index": 2,
+          "is_saturated": false
+        },
+        {
+          "polynomial_degree": 5,
+          "cohomological_degree": 10,
+          "rank": 1,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            2
+          ],
+          "torsion_factors": [
+            2
+          ],
+          "saturation_index": 2,
+          "is_saturated": false
+        },
+        {
+          "polynomial_degree": 6,
+          "cohomological_degree": 12,
+          "rank": 0,
+          "ambient_dimension": 0,
+          "free_cokernel_rank": 0,
+          "smith_factors": [],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        }
+      ],
+      "first_recorded_nonsaturation_witness": {
+        "polynomial_degree": 3,
+        "primitive_class": [
+          {
+            "word": [
+              2,
+              1,
+              2
+            ],
+            "coefficient": "1"
+          }
+        ],
+        "least_positive_multiple_in_image": 2,
+        "integer_preimage_of_multiple": "omega2*quadratic"
+      },
+      "integer_preimages_checked": 6,
+      "seconds": 0.056567,
+      "original_case": "G2/P2 catalogue",
+      "explicit_generator_multipliers": {
+        "omega2": 1,
+        "quadratic": 1
+      },
+      "original_normalization_used": true
+    },
+    {
+      "case": "F4/P1 catalogue",
+      "cartan_type": "['F', 4]",
+      "omitted_nodes": [
+        1
+      ],
+      "generator_names": [
+        "e1",
+        "e2",
+        "e3",
+        "y4"
+      ],
+      "generator_polynomial_degrees": [
+        2,
+        4,
+        6,
+        1
+      ],
+      "generator_polynomial_sha256": [
+        "dde2c48347a6c33c9e505c9eee36ac0e5dde4419540177ca2e5510d49a6e98d5",
+        "42455681633e62dc06ed223ef1252f6c86225d41899b3c56738ca03de8132e93",
+        "a3f76c8482c7c751af1949b8b633dd10215ef4ba6858ace3832afffda4e0d9e1",
+        "60c5590f72eef292f9545afc28bf63ca91d2016a0a288f90f9a32f89d3fffcaf"
+      ],
+      "maximum_polynomial_degree": 6,
+      "degrees": [
+        {
+          "polynomial_degree": 0,
+          "cohomological_degree": 0,
+          "rank": 1,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            1
+          ],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 1,
+          "cohomological_degree": 2,
+          "rank": 1,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            1
+          ],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 2,
+          "cohomological_degree": 4,
+          "rank": 1,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            1
+          ],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 3,
+          "cohomological_degree": 6,
+          "rank": 1,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            2
+          ],
+          "torsion_factors": [
+            2
+          ],
+          "saturation_index": 2,
+          "is_saturated": false
+        },
+        {
+          "polynomial_degree": 4,
+          "cohomological_degree": 8,
+          "rank": 2,
+          "ambient_dimension": 2,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            2,
+            48
+          ],
+          "torsion_factors": [
+            2,
+            48
+          ],
+          "saturation_index": 96,
+          "is_saturated": false
+        },
+        {
+          "polynomial_degree": 5,
+          "cohomological_degree": 10,
+          "rank": 2,
+          "ambient_dimension": 2,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            2,
+            48
+          ],
+          "torsion_factors": [
+            2,
+            48
+          ],
+          "saturation_index": 96,
+          "is_saturated": false
+        },
+        {
+          "polynomial_degree": 6,
+          "cohomological_degree": 12,
+          "rank": 2,
+          "ambient_dimension": 2,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            4,
+            96
+          ],
+          "torsion_factors": [
+            4,
+            96
+          ],
+          "saturation_index": 384,
+          "is_saturated": false
+        }
+      ],
+      "first_recorded_nonsaturation_witness": {
+        "polynomial_degree": 3,
+        "primitive_class": [
+          {
+            "word": [
+              3,
+              2,
+              1
+            ],
+            "coefficient": "1"
+          }
+        ],
+        "least_positive_multiple_in_image": 2,
+        "integer_preimage_of_multiple": "-e1*y4"
+      },
+      "integer_preimages_checked": 10,
+      "seconds": 0.196067,
+      "original_case": "F4/P1 catalogue",
+      "explicit_generator_multipliers": {
+        "e1": 1,
+        "e2": 1,
+        "e3": 1,
+        "y4": 1
+      },
+      "original_normalization_used": true
+    },
+    {
+      "case": "F4/P4 catalogue",
+      "cartan_type": "['F', 4]",
+      "omitted_nodes": [
+        4
+      ],
+      "generator_names": [
+        "e1",
+        "e2",
+        "e3",
+        "y4"
+      ],
+      "generator_polynomial_degrees": [
+        2,
+        4,
+        6,
+        1
+      ],
+      "generator_polynomial_sha256": [
+        "706181cbee120d40ef26a1750fe9e77933c2dc09d7c4e565e1ac79cc6841e3c9",
+        "e21a83e35b554a94951657f1162304bb0b6f0854824c33577be675039d8a62dd",
+        "23642a2271f4687e7a1f00fbf97d3db882ccc42cb32da494f5bb658d8b2ee31d",
+        "879cc67a846b570c4241f1880f79e6ed1646abd9eca44882782cb6c8c568ab53"
+      ],
+      "maximum_polynomial_degree": 6,
+      "degrees": [
+        {
+          "polynomial_degree": 0,
+          "cohomological_degree": 0,
+          "rank": 1,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            1
+          ],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 1,
+          "cohomological_degree": 2,
+          "rank": 1,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            1
+          ],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 2,
+          "cohomological_degree": 4,
+          "rank": 1,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            1
+          ],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 3,
+          "cohomological_degree": 6,
+          "rank": 1,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            1
+          ],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 4,
+          "cohomological_degree": 8,
+          "rank": 2,
+          "ambient_dimension": 2,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            1,
+            12
+          ],
+          "torsion_factors": [
+            12
+          ],
+          "saturation_index": 12,
+          "is_saturated": false
+        },
+        {
+          "polynomial_degree": 5,
+          "cohomological_degree": 10,
+          "rank": 2,
+          "ambient_dimension": 2,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            1,
+            12
+          ],
+          "torsion_factors": [
+            12
+          ],
+          "saturation_index": 12,
+          "is_saturated": false
+        },
+        {
+          "polynomial_degree": 6,
+          "cohomological_degree": 12,
+          "rank": 2,
+          "ambient_dimension": 2,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            1,
+            12
+          ],
+          "torsion_factors": [
+            12
+          ],
+          "saturation_index": 12,
+          "is_saturated": false
+        }
+      ],
+      "first_recorded_nonsaturation_witness": {
+        "polynomial_degree": 4,
+        "primitive_class": [
+          {
+            "word": [
+              3,
+              2,
+              3,
+              4
+            ],
+            "coefficient": "1"
+          }
+        ],
+        "least_positive_multiple_in_image": 12,
+        "integer_preimage_of_multiple": "7*e1^2 - e2"
+      },
+      "integer_preimages_checked": 10,
+      "seconds": 0.199944,
+      "original_case": "F4/P4 catalogue",
+      "explicit_generator_multipliers": {
+        "e1": 1,
+        "e2": 1,
+        "e3": 1,
+        "y4": 1
+      },
+      "original_normalization_used": true
+    },
+    {
+      "case": "E6/P1 catalogue",
+      "cartan_type": "['E', 6]",
+      "omitted_nodes": [
+        1
+      ],
+      "generator_names": [
+        "y1",
+        "e1",
+        "e2",
+        "e3",
+        "e4",
+        "e5",
+        "euler"
+      ],
+      "generator_polynomial_degrees": [
+        1,
+        2,
+        4,
+        6,
+        8,
+        10,
+        5
+      ],
+      "generator_polynomial_sha256": [
+        "6c069fca7f19b4acc83f8d00bf5bd3420c2ae6059b3d1c766288259030431f8b",
+        "13900a58cf30214d0d2f433eb6afaa2f8b63e6437c1834846e23d1b974b8d3df",
+        "4289695abd31e44386f2a64b5be49bdc7f047b341194377f2e58044ad39f83eb",
+        "bd81e193d099b2f3d8db5055f16fdceb161915147ad3130fd72db6de48bd27d3",
+        "91fccce5b27e04be32f3cb4d7167d07813b798246d15ee4c65e4f0708fe101c4",
+        "06f67a966046df7647fa3c26409dec6ed2082362e7eb042a0b4277c523ac0389",
+        "fd2062954b8ba7b6ab2e277fe0f2950be9dd91d35d7c3cb70814ea645f964385"
+      ],
+      "maximum_polynomial_degree": 6,
+      "degrees": [
+        {
+          "polynomial_degree": 0,
+          "cohomological_degree": 0,
+          "rank": 1,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            1
+          ],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 1,
+          "cohomological_degree": 2,
+          "rank": 1,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            3
+          ],
+          "torsion_factors": [
+            3
+          ],
+          "saturation_index": 3,
+          "is_saturated": false
+        },
+        {
+          "polynomial_degree": 2,
+          "cohomological_degree": 4,
+          "rank": 1,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            3
+          ],
+          "torsion_factors": [
+            3
+          ],
+          "saturation_index": 3,
+          "is_saturated": false
+        },
+        {
+          "polynomial_degree": 3,
+          "cohomological_degree": 6,
+          "rank": 1,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            9
+          ],
+          "torsion_factors": [
+            9
+          ],
+          "saturation_index": 9,
+          "is_saturated": false
+        },
+        {
+          "polynomial_degree": 4,
+          "cohomological_degree": 8,
+          "rank": 2,
+          "ambient_dimension": 2,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            3,
+            288
+          ],
+          "torsion_factors": [
+            3,
+            288
+          ],
+          "saturation_index": 864,
+          "is_saturated": false
+        },
+        {
+          "polynomial_degree": 5,
+          "cohomological_degree": 10,
+          "rank": 2,
+          "ambient_dimension": 2,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            3,
+            432
+          ],
+          "torsion_factors": [
+            3,
+            432
+          ],
+          "saturation_index": 1296,
+          "is_saturated": false
+        },
+        {
+          "polynomial_degree": 6,
+          "cohomological_degree": 12,
+          "rank": 2,
+          "ambient_dimension": 2,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            3,
+            144
+          ],
+          "torsion_factors": [
+            3,
+            144
+          ],
+          "saturation_index": 432,
+          "is_saturated": false
+        }
+      ],
+      "first_recorded_nonsaturation_witness": {
+        "polynomial_degree": 1,
+        "primitive_class": [
+          {
+            "word": [
+              1
+            ],
+            "coefficient": "1"
+          }
+        ],
+        "least_positive_multiple_in_image": 3,
+        "integer_preimage_of_multiple": "y1"
+      },
+      "integer_preimages_checked": 10,
+      "seconds": 0.495511,
+      "original_case": "E6/P1 catalogue",
+      "explicit_generator_multipliers": {
+        "y1": 1,
+        "e1": 1,
+        "e2": 1,
+        "e3": 1,
+        "e4": 1,
+        "e5": 1,
+        "euler": 1
+      },
+      "original_normalization_used": true
+    },
+    {
+      "case": "E7/P7 catalogue",
+      "cartan_type": "['E', 7]",
+      "omitted_nodes": [
+        7
+      ],
+      "generator_names": [
+        "psi2",
+        "psi5",
+        "psi6",
+        "psi8",
+        "psi9",
+        "psi12",
+        "omega7"
+      ],
+      "generator_polynomial_degrees": [
+        2,
+        5,
+        6,
+        8,
+        9,
+        12,
+        1
+      ],
+      "generator_polynomial_sha256": [
+        "4a3a36a7ac5c50402cc3eeab3f60b759bde2e917c69af3d10700f4036301c208",
+        "08f4cc48ea1df866627f48ef870d81006f1d3b526c845e3365d56c118069140b",
+        "378059ed2d9f0832dc01d6cabd9773f220701895c85409fdd830ae94c7ccd9c4",
+        "4de8dca99a5d64acf75ff91ed27adb00946c951b1a67ce405235272b2facd15a",
+        "1e14ba52982465e3f2be51450cb6e7f6e550048214669810d652830d5ebed797",
+        "f82552946d833698de2c1db4401a40ce9a9669b95b0fd7f2e89f8cf2e3764e01",
+        "c43a2fc9c607e392cb2b3004f46c98121b6eb35a54bd7a98ee09f38950e4ed44"
+      ],
+      "maximum_polynomial_degree": 4,
+      "degrees": [
+        {
+          "polynomial_degree": 0,
+          "cohomological_degree": 0,
+          "rank": 1,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            1
+          ],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 1,
+          "cohomological_degree": 2,
+          "rank": 1,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            1
+          ],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 2,
+          "cohomological_degree": 4,
+          "rank": 1,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            1
+          ],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 3,
+          "cohomological_degree": 6,
+          "rank": 1,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            1
+          ],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        },
+        {
+          "polynomial_degree": 4,
+          "cohomological_degree": 8,
+          "rank": 1,
+          "ambient_dimension": 1,
+          "free_cokernel_rank": 0,
+          "smith_factors": [
+            1
+          ],
+          "torsion_factors": [],
+          "saturation_index": 1,
+          "is_saturated": true
+        }
+      ],
+      "first_recorded_nonsaturation_witness": null,
+      "integer_preimages_checked": 5,
+      "seconds": 1.242302,
+      "original_case": "E7/P7 catalogue",
+      "explicit_generator_multipliers": {
+        "psi2": 1,
+        "psi5": 1,
+        "psi6": 1,
+        "psi8": 1,
+        "psi9": 1,
+        "psi12": 1,
+        "omega7": 1
+      },
+      "original_normalization_used": true
+    }
+  ]
+}

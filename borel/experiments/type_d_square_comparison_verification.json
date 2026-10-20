@@ -1,0 +1,965 @@
+{
+  "schema_version": 1,
+  "generated_utc": "2026-10-19T19:37:42.770366+00:00",
+  "sage_version": "9.5",
+  "scope": "Finite exact corroboration of structural comparisons; the separate general incidence theorem is not inferred from these tests.",
+  "normalization": "unscaled normalized squared-tail inputs; polynomial degree is half cohomological degree",
+  "source_sha256": {
+    "experiments/verify_type_d_square_comparison.py": "d0e970a213994cbc3b4e0568c303235490745f068f149533c9c5b88e18410dc4",
+    "experiments/type_b_cartesian_frontier.py": "f303bd96aed9396a1c6386327b8d04e4784d4d71150e8c7619be08d3b6029777",
+    "TYPE_D_SQUARE_COMPARISON.md": "aeddba98e78228bae26a910d26521d0f06936e726f61fc58601593d1451491fa",
+    "src/sage_borel/core.py": "c21a7b8893c5155efc71123264d698b7504dd89d8657b0612f57e0cb05118751",
+    "src/sage_borel/operations.py": "0429729152ddebd67d0034cdb5ef4953ed2091468168bd24f97ced4f2254b857"
+  },
+  "degree_checks": [
+    {
+      "a": 1,
+      "k": 3,
+      "n": 4,
+      "polynomial_degree": 0,
+      "source_partitions": [
+        []
+      ],
+      "rank": 1,
+      "B_smith_factors": [
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1"
+      ],
+      "rectangle_rank_matches": true,
+      "D_rows_contained_in_B_rows": true,
+      "sorted_exponent_lower_bound_holds": true,
+      "within_proved_primitive_range": true,
+      "finite_square_B_D_equality": true,
+      "seconds": 0.030849
+    },
+    {
+      "a": 1,
+      "k": 3,
+      "n": 4,
+      "polynomial_degree": 2,
+      "source_partitions": [
+        [
+          1
+        ]
+      ],
+      "rank": 1,
+      "B_smith_factors": [
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1"
+      ],
+      "rectangle_rank_matches": true,
+      "D_rows_contained_in_B_rows": true,
+      "sorted_exponent_lower_bound_holds": true,
+      "within_proved_primitive_range": true,
+      "finite_square_B_D_equality": true,
+      "seconds": 0.013046
+    },
+    {
+      "a": 1,
+      "k": 3,
+      "n": 4,
+      "polynomial_degree": 4,
+      "source_partitions": [
+        [
+          1,
+          1
+        ]
+      ],
+      "rank": 1,
+      "B_smith_factors": [
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "2"
+      ],
+      "rectangle_rank_matches": true,
+      "D_rows_contained_in_B_rows": true,
+      "sorted_exponent_lower_bound_holds": true,
+      "within_proved_primitive_range": false,
+      "finite_square_B_D_equality": true,
+      "seconds": 0.017343
+    },
+    {
+      "a": 1,
+      "k": 3,
+      "n": 4,
+      "polynomial_degree": 6,
+      "source_partitions": [
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "rank": 1,
+      "B_smith_factors": [
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "2"
+      ],
+      "rectangle_rank_matches": true,
+      "D_rows_contained_in_B_rows": true,
+      "sorted_exponent_lower_bound_holds": true,
+      "within_proved_primitive_range": false,
+      "finite_square_B_D_equality": true,
+      "seconds": 0.021026
+    },
+    {
+      "a": 3,
+      "k": 1,
+      "n": 4,
+      "polynomial_degree": 0,
+      "source_partitions": [
+        []
+      ],
+      "rank": 1,
+      "B_smith_factors": [
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1"
+      ],
+      "rectangle_rank_matches": true,
+      "D_rows_contained_in_B_rows": true,
+      "sorted_exponent_lower_bound_holds": true,
+      "within_proved_primitive_range": true,
+      "finite_square_B_D_equality": true,
+      "seconds": 0.013686
+    },
+    {
+      "a": 3,
+      "k": 1,
+      "n": 4,
+      "polynomial_degree": 2,
+      "source_partitions": [
+        [
+          1
+        ]
+      ],
+      "rank": 1,
+      "B_smith_factors": [
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1"
+      ],
+      "rectangle_rank_matches": true,
+      "D_rows_contained_in_B_rows": true,
+      "sorted_exponent_lower_bound_holds": true,
+      "within_proved_primitive_range": true,
+      "finite_square_B_D_equality": true,
+      "seconds": 0.017576
+    },
+    {
+      "a": 3,
+      "k": 1,
+      "n": 4,
+      "polynomial_degree": 4,
+      "source_partitions": [
+        [
+          2
+        ]
+      ],
+      "rank": 1,
+      "B_smith_factors": [
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "2"
+      ],
+      "rectangle_rank_matches": true,
+      "D_rows_contained_in_B_rows": true,
+      "sorted_exponent_lower_bound_holds": true,
+      "within_proved_primitive_range": false,
+      "finite_square_B_D_equality": true,
+      "seconds": 0.042091
+    },
+    {
+      "a": 3,
+      "k": 1,
+      "n": 4,
+      "polynomial_degree": 6,
+      "source_partitions": [
+        [
+          3
+        ]
+      ],
+      "rank": 1,
+      "B_smith_factors": [
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "2"
+      ],
+      "rectangle_rank_matches": true,
+      "D_rows_contained_in_B_rows": true,
+      "sorted_exponent_lower_bound_holds": true,
+      "within_proved_primitive_range": false,
+      "finite_square_B_D_equality": true,
+      "seconds": 0.034856
+    },
+    {
+      "a": 2,
+      "k": 2,
+      "n": 4,
+      "polynomial_degree": 0,
+      "source_partitions": [
+        []
+      ],
+      "rank": 1,
+      "B_smith_factors": [
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1"
+      ],
+      "rectangle_rank_matches": true,
+      "D_rows_contained_in_B_rows": true,
+      "sorted_exponent_lower_bound_holds": true,
+      "within_proved_primitive_range": true,
+      "finite_square_B_D_equality": true,
+      "seconds": 0.00369
+    },
+    {
+      "a": 2,
+      "k": 2,
+      "n": 4,
+      "polynomial_degree": 2,
+      "source_partitions": [
+        [
+          1
+        ]
+      ],
+      "rank": 1,
+      "B_smith_factors": [
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1"
+      ],
+      "rectangle_rank_matches": true,
+      "D_rows_contained_in_B_rows": true,
+      "sorted_exponent_lower_bound_holds": true,
+      "within_proved_primitive_range": true,
+      "finite_square_B_D_equality": true,
+      "seconds": 0.017543
+    },
+    {
+      "a": 2,
+      "k": 2,
+      "n": 4,
+      "polynomial_degree": 4,
+      "source_partitions": [
+        [
+          2
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "rank": 2,
+      "B_smith_factors": [
+        "1",
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "2"
+      ],
+      "rectangle_rank_matches": true,
+      "D_rows_contained_in_B_rows": true,
+      "sorted_exponent_lower_bound_holds": true,
+      "within_proved_primitive_range": false,
+      "finite_square_B_D_equality": true,
+      "seconds": 0.056978
+    },
+    {
+      "a": 2,
+      "k": 2,
+      "n": 4,
+      "polynomial_degree": 6,
+      "source_partitions": [
+        [
+          2,
+          1
+        ]
+      ],
+      "rank": 1,
+      "B_smith_factors": [
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "2"
+      ],
+      "rectangle_rank_matches": true,
+      "D_rows_contained_in_B_rows": true,
+      "sorted_exponent_lower_bound_holds": true,
+      "within_proved_primitive_range": false,
+      "finite_square_B_D_equality": true,
+      "seconds": 0.02839
+    },
+    {
+      "a": 2,
+      "k": 2,
+      "n": 4,
+      "polynomial_degree": 8,
+      "source_partitions": [
+        [
+          2,
+          2
+        ]
+      ],
+      "rank": 1,
+      "B_smith_factors": [
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "4"
+      ],
+      "rectangle_rank_matches": true,
+      "D_rows_contained_in_B_rows": true,
+      "sorted_exponent_lower_bound_holds": true,
+      "within_proved_primitive_range": false,
+      "finite_square_B_D_equality": true,
+      "seconds": 0.045411
+    },
+    {
+      "a": 2,
+      "k": 3,
+      "n": 5,
+      "polynomial_degree": 0,
+      "source_partitions": [
+        []
+      ],
+      "rank": 1,
+      "B_smith_factors": [
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1"
+      ],
+      "rectangle_rank_matches": true,
+      "D_rows_contained_in_B_rows": true,
+      "sorted_exponent_lower_bound_holds": true,
+      "within_proved_primitive_range": true,
+      "finite_square_B_D_equality": true,
+      "seconds": 0.005062
+    },
+    {
+      "a": 2,
+      "k": 3,
+      "n": 5,
+      "polynomial_degree": 2,
+      "source_partitions": [
+        [
+          1
+        ]
+      ],
+      "rank": 1,
+      "B_smith_factors": [
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1"
+      ],
+      "rectangle_rank_matches": true,
+      "D_rows_contained_in_B_rows": true,
+      "sorted_exponent_lower_bound_holds": true,
+      "within_proved_primitive_range": true,
+      "finite_square_B_D_equality": true,
+      "seconds": 0.016115
+    },
+    {
+      "a": 2,
+      "k": 3,
+      "n": 5,
+      "polynomial_degree": 4,
+      "source_partitions": [
+        [
+          2
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "rank": 2,
+      "B_smith_factors": [
+        "1",
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "1"
+      ],
+      "rectangle_rank_matches": true,
+      "D_rows_contained_in_B_rows": true,
+      "sorted_exponent_lower_bound_holds": true,
+      "within_proved_primitive_range": false,
+      "finite_square_B_D_equality": true,
+      "seconds": 0.060967
+    },
+    {
+      "a": 2,
+      "k": 3,
+      "n": 5,
+      "polynomial_degree": 6,
+      "source_partitions": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "rank": 2,
+      "B_smith_factors": [
+        "1",
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "2"
+      ],
+      "rectangle_rank_matches": true,
+      "D_rows_contained_in_B_rows": true,
+      "sorted_exponent_lower_bound_holds": true,
+      "within_proved_primitive_range": false,
+      "finite_square_B_D_equality": true,
+      "seconds": 0.140024
+    },
+    {
+      "a": 2,
+      "k": 3,
+      "n": 5,
+      "polynomial_degree": 8,
+      "source_partitions": [
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          1,
+          1
+        ]
+      ],
+      "rank": 2,
+      "B_smith_factors": [
+        "2",
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "2",
+        "2"
+      ],
+      "rectangle_rank_matches": true,
+      "D_rows_contained_in_B_rows": true,
+      "sorted_exponent_lower_bound_holds": true,
+      "within_proved_primitive_range": false,
+      "finite_square_B_D_equality": true,
+      "seconds": 0.129442
+    },
+    {
+      "a": 2,
+      "k": 3,
+      "n": 5,
+      "polynomial_degree": 10,
+      "source_partitions": [
+        [
+          2,
+          2,
+          1
+        ]
+      ],
+      "rank": 1,
+      "B_smith_factors": [
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "2"
+      ],
+      "rectangle_rank_matches": true,
+      "D_rows_contained_in_B_rows": true,
+      "sorted_exponent_lower_bound_holds": true,
+      "within_proved_primitive_range": false,
+      "finite_square_B_D_equality": true,
+      "seconds": 0.142756
+    },
+    {
+      "a": 2,
+      "k": 3,
+      "n": 5,
+      "polynomial_degree": 12,
+      "source_partitions": [
+        [
+          2,
+          2,
+          2
+        ]
+      ],
+      "rank": 1,
+      "B_smith_factors": [
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "4"
+      ],
+      "rectangle_rank_matches": true,
+      "D_rows_contained_in_B_rows": true,
+      "sorted_exponent_lower_bound_holds": true,
+      "within_proved_primitive_range": false,
+      "finite_square_B_D_equality": true,
+      "seconds": 0.153027
+    },
+    {
+      "a": 3,
+      "k": 2,
+      "n": 5,
+      "polynomial_degree": 0,
+      "source_partitions": [
+        []
+      ],
+      "rank": 1,
+      "B_smith_factors": [
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1"
+      ],
+      "rectangle_rank_matches": true,
+      "D_rows_contained_in_B_rows": true,
+      "sorted_exponent_lower_bound_holds": true,
+      "within_proved_primitive_range": true,
+      "finite_square_B_D_equality": true,
+      "seconds": 0.003799
+    },
+    {
+      "a": 3,
+      "k": 2,
+      "n": 5,
+      "polynomial_degree": 2,
+      "source_partitions": [
+        [
+          1
+        ]
+      ],
+      "rank": 1,
+      "B_smith_factors": [
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1"
+      ],
+      "rectangle_rank_matches": true,
+      "D_rows_contained_in_B_rows": true,
+      "sorted_exponent_lower_bound_holds": true,
+      "within_proved_primitive_range": true,
+      "finite_square_B_D_equality": true,
+      "seconds": 0.024725
+    },
+    {
+      "a": 3,
+      "k": 2,
+      "n": 5,
+      "polynomial_degree": 4,
+      "source_partitions": [
+        [
+          2
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "rank": 2,
+      "B_smith_factors": [
+        "1",
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "1"
+      ],
+      "rectangle_rank_matches": true,
+      "D_rows_contained_in_B_rows": true,
+      "sorted_exponent_lower_bound_holds": true,
+      "within_proved_primitive_range": false,
+      "finite_square_B_D_equality": true,
+      "seconds": 0.123607
+    },
+    {
+      "a": 3,
+      "k": 2,
+      "n": 5,
+      "polynomial_degree": 6,
+      "source_partitions": [
+        [
+          3
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "rank": 2,
+      "B_smith_factors": [
+        "1",
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "2"
+      ],
+      "rectangle_rank_matches": true,
+      "D_rows_contained_in_B_rows": true,
+      "sorted_exponent_lower_bound_holds": true,
+      "within_proved_primitive_range": false,
+      "finite_square_B_D_equality": true,
+      "seconds": 0.145448
+    },
+    {
+      "a": 3,
+      "k": 2,
+      "n": 5,
+      "polynomial_degree": 8,
+      "source_partitions": [
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "rank": 2,
+      "B_smith_factors": [
+        "2",
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "2",
+        "2"
+      ],
+      "rectangle_rank_matches": true,
+      "D_rows_contained_in_B_rows": true,
+      "sorted_exponent_lower_bound_holds": true,
+      "within_proved_primitive_range": false,
+      "finite_square_B_D_equality": true,
+      "seconds": 0.275798
+    },
+    {
+      "a": 3,
+      "k": 2,
+      "n": 5,
+      "polynomial_degree": 10,
+      "source_partitions": [
+        [
+          3,
+          2
+        ]
+      ],
+      "rank": 1,
+      "B_smith_factors": [
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "2"
+      ],
+      "rectangle_rank_matches": true,
+      "D_rows_contained_in_B_rows": true,
+      "sorted_exponent_lower_bound_holds": true,
+      "within_proved_primitive_range": false,
+      "finite_square_B_D_equality": true,
+      "seconds": 0.204722
+    },
+    {
+      "a": 3,
+      "k": 2,
+      "n": 5,
+      "polynomial_degree": 12,
+      "source_partitions": [
+        [
+          3,
+          3
+        ]
+      ],
+      "rank": 1,
+      "B_smith_factors": [
+        "4"
+      ],
+      "D_square_smith_factors": [
+        "4"
+      ],
+      "rectangle_rank_matches": true,
+      "D_rows_contained_in_B_rows": true,
+      "sorted_exponent_lower_bound_holds": true,
+      "within_proved_primitive_range": false,
+      "finite_square_B_D_equality": true,
+      "seconds": 0.185893
+    },
+    {
+      "a": 3,
+      "k": 3,
+      "n": 6,
+      "polynomial_degree": 0,
+      "source_partitions": [
+        []
+      ],
+      "rank": 1,
+      "B_smith_factors": [
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1"
+      ],
+      "rectangle_rank_matches": true,
+      "D_rows_contained_in_B_rows": true,
+      "sorted_exponent_lower_bound_holds": true,
+      "within_proved_primitive_range": true,
+      "finite_square_B_D_equality": true,
+      "seconds": 0.006291
+    },
+    {
+      "a": 3,
+      "k": 3,
+      "n": 6,
+      "polynomial_degree": 2,
+      "source_partitions": [
+        [
+          1
+        ]
+      ],
+      "rank": 1,
+      "B_smith_factors": [
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1"
+      ],
+      "rectangle_rank_matches": true,
+      "D_rows_contained_in_B_rows": true,
+      "sorted_exponent_lower_bound_holds": true,
+      "within_proved_primitive_range": true,
+      "finite_square_B_D_equality": true,
+      "seconds": 0.016795
+    },
+    {
+      "a": 3,
+      "k": 3,
+      "n": 6,
+      "polynomial_degree": 4,
+      "source_partitions": [
+        [
+          2
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "rank": 2,
+      "B_smith_factors": [
+        "1",
+        "1"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "1"
+      ],
+      "rectangle_rank_matches": true,
+      "D_rows_contained_in_B_rows": true,
+      "sorted_exponent_lower_bound_holds": true,
+      "within_proved_primitive_range": false,
+      "finite_square_B_D_equality": true,
+      "seconds": 0.077821
+    },
+    {
+      "a": 3,
+      "k": 3,
+      "n": 6,
+      "polynomial_degree": 6,
+      "source_partitions": [
+        [
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "rank": 3,
+      "B_smith_factors": [
+        "1",
+        "1",
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "1",
+        "2"
+      ],
+      "rectangle_rank_matches": true,
+      "D_rows_contained_in_B_rows": true,
+      "sorted_exponent_lower_bound_holds": true,
+      "within_proved_primitive_range": false,
+      "finite_square_B_D_equality": true,
+      "seconds": 0.187851
+    },
+    {
+      "a": 3,
+      "k": 3,
+      "n": 6,
+      "polynomial_degree": 8,
+      "source_partitions": [
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          1,
+          1
+        ]
+      ],
+      "rank": 3,
+      "B_smith_factors": [
+        "1",
+        "2",
+        "2"
+      ],
+      "D_square_smith_factors": [
+        "1",
+        "2",
+        "2"
+      ],
+      "rectangle_rank_matches": true,
+      "D_rows_contained_in_B_rows": true,
+      "sorted_exponent_lower_bound_holds": true,
+      "within_proved_primitive_range": false,
+      "finite_square_B_D_equality": true,
+      "seconds": 0.511978
+    }
+  ],
+  "block_duality_checks": [
+    {
+      "a": 1,
+      "k": 3,
+      "polynomial_degree": 0,
+      "square_block_duality_matches": true
+    },
+    {
+      "a": 1,
+      "k": 3,
+      "polynomial_degree": 2,
+      "square_block_duality_matches": true
+    },
+    {
+      "a": 1,
+      "k": 3,
+      "polynomial_degree": 4,
+      "square_block_duality_matches": true
+    },
+    {
+      "a": 1,
+      "k": 3,
+      "polynomial_degree": 6,
+      "square_block_duality_matches": true
+    },
+    {
+      "a": 2,
+      "k": 3,
+      "polynomial_degree": 0,
+      "square_block_duality_matches": true
+    },
+    {
+      "a": 2,
+      "k": 3,
+      "polynomial_degree": 2,
+      "square_block_duality_matches": true
+    },
+    {
+      "a": 2,
+      "k": 3,
+      "polynomial_degree": 4,
+      "square_block_duality_matches": true
+    },
+    {
+      "a": 2,
+      "k": 3,
+      "polynomial_degree": 6,
+      "square_block_duality_matches": true
+    },
+    {
+      "a": 2,
+      "k": 3,
+      "polynomial_degree": 8,
+      "square_block_duality_matches": true
+    },
+    {
+      "a": 2,
+      "k": 3,
+      "polynomial_degree": 10,
+      "square_block_duality_matches": true
+    },
+    {
+      "a": 2,
+      "k": 3,
+      "polynomial_degree": 12,
+      "square_block_duality_matches": true
+    }
+  ],
+  "failed_Gysin_shortcut": {
+    "a": 2,
+    "k": 2,
+    "input_polynomial_degree": 4,
+    "multiplied_polynomial_degree": 6,
+    "source_partitions": [
+      [
+        2
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "square_smith_factors": [
+      "1",
+      "2"
+    ],
+    "head_top_Chern_times_square_smith_factors": [
+      "2",
+      "2"
+    ],
+    "Cartesian_C_rescaled_B_matches_fundamental_weight_B_in_both_matrices": true,
+    "primitive_multiplication_assertion_is_false": true
+  },
+  "summary": {
+    "degree_components_checked": 32,
+    "block_duality_components_checked": 11,
+    "primitive_range_components_checked": 12,
+    "square_B_D_mismatches_observed": 0,
+    "all_proved_partial_comparison_checks_passed": true,
+    "false_primitive_multiplication_counterexample_confirmed": true
+  },
+  "seconds": 3.287112
+}

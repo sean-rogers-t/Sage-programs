@@ -1,0 +1,539 @@
+{
+  "sage_version": "9.5",
+  "library_version": "0.1.0",
+  "python_version": "3.10.12",
+  "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+  "timing_method": "one run in one Sage process; setup separated; seconds are machine dependent",
+  "new_cases": [
+    {
+      "cartan_type": "C8",
+      "tail_size": 6,
+      "elementary_index": 2,
+      "polynomial_degree": 4,
+      "setup_seconds": 0.172863,
+      "calculation_seconds": 0.014647,
+      "weyl_group_order": "10321920",
+      "stats": {
+        "input_monomials": 5,
+        "homogeneous_degrees": [
+          4
+        ],
+        "divided_differences": 42,
+        "zero_differences": 32,
+        "duplicate_paths": 2,
+        "frontier_sizes": {
+          "4": [
+            1,
+            1,
+            2,
+            2,
+            3
+          ]
+        },
+        "max_frontier": 3,
+        "output_terms": 3
+      },
+      "terms": [
+        {
+          "word": [
+            2,
+            3,
+            1,
+            2
+          ],
+          "coefficient": "1"
+        },
+        {
+          "word": [
+            4,
+            3,
+            1,
+            2
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "word": [
+            5,
+            4,
+            3,
+            2
+          ],
+          "coefficient": "1"
+        }
+      ],
+      "literal_coefficient_checks": 3,
+      "checked_complete_degree_basis": true
+    },
+    {
+      "cartan_type": "C12",
+      "tail_size": 10,
+      "elementary_index": 5,
+      "polynomial_degree": 10,
+      "setup_seconds": 0.090617,
+      "calculation_seconds": 0.165866,
+      "weyl_group_order": "1961990553600",
+      "stats": {
+        "input_monomials": 11,
+        "homogeneous_degrees": [
+          10
+        ],
+        "divided_differences": 315,
+        "zero_differences": 260,
+        "duplicate_paths": 20,
+        "frontier_sizes": {
+          "10": [
+            1,
+            1,
+            2,
+            2,
+            3,
+            3,
+            4,
+            4,
+            5,
+            5,
+            6
+          ]
+        },
+        "max_frontier": 6,
+        "output_terms": 6
+      },
+      "terms": [
+        {
+          "word": [
+            5,
+            6,
+            4,
+            5,
+            3,
+            4,
+            2,
+            3,
+            1,
+            2
+          ],
+          "coefficient": "1"
+        },
+        {
+          "word": [
+            7,
+            6,
+            4,
+            5,
+            3,
+            4,
+            2,
+            3,
+            1,
+            2
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "word": [
+            8,
+            7,
+            6,
+            5,
+            3,
+            4,
+            2,
+            3,
+            1,
+            2
+          ],
+          "coefficient": "1"
+        },
+        {
+          "word": [
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            2,
+            3,
+            1,
+            2
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "word": [
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            1,
+            2
+          ],
+          "coefficient": "1"
+        },
+        {
+          "word": [
+            11,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2
+          ],
+          "coefficient": "-1"
+        }
+      ],
+      "literal_coefficient_checks": 6,
+      "checked_complete_degree_basis": true
+    },
+    {
+      "cartan_type": "C20",
+      "tail_size": 18,
+      "elementary_index": 5,
+      "polynomial_degree": 10,
+      "setup_seconds": 0.349422,
+      "calculation_seconds": 0.528988,
+      "weyl_group_order": "2551082656125828464640000",
+      "stats": {
+        "input_monomials": 11,
+        "homogeneous_degrees": [
+          10
+        ],
+        "divided_differences": 555,
+        "zero_differences": 500,
+        "duplicate_paths": 20,
+        "frontier_sizes": {
+          "10": [
+            1,
+            1,
+            2,
+            2,
+            3,
+            3,
+            4,
+            4,
+            5,
+            5,
+            6
+          ]
+        },
+        "max_frontier": 6,
+        "output_terms": 6
+      },
+      "terms": [
+        {
+          "word": [
+            5,
+            6,
+            4,
+            5,
+            3,
+            4,
+            2,
+            3,
+            1,
+            2
+          ],
+          "coefficient": "1"
+        },
+        {
+          "word": [
+            7,
+            6,
+            4,
+            5,
+            3,
+            4,
+            2,
+            3,
+            1,
+            2
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "word": [
+            8,
+            7,
+            6,
+            5,
+            3,
+            4,
+            2,
+            3,
+            1,
+            2
+          ],
+          "coefficient": "1"
+        },
+        {
+          "word": [
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            2,
+            3,
+            1,
+            2
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "word": [
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            1,
+            2
+          ],
+          "coefficient": "1"
+        },
+        {
+          "word": [
+            11,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2
+          ],
+          "coefficient": "-1"
+        }
+      ],
+      "literal_coefficient_checks": 6,
+      "checked_complete_degree_basis": true
+    },
+    {
+      "cartan_type": "D12",
+      "tail_size": 10,
+      "elementary_index": 5,
+      "polynomial_degree": 10,
+      "setup_seconds": 0.088806,
+      "calculation_seconds": 0.18804,
+      "weyl_group_order": "980995276800",
+      "stats": {
+        "input_monomials": 11,
+        "homogeneous_degrees": [
+          10
+        ],
+        "divided_differences": 315,
+        "zero_differences": 259,
+        "duplicate_paths": 20,
+        "frontier_sizes": {
+          "10": [
+            1,
+            1,
+            2,
+            2,
+            3,
+            3,
+            4,
+            4,
+            5,
+            5,
+            7
+          ]
+        },
+        "max_frontier": 7,
+        "output_terms": 7
+      },
+      "terms": [
+        {
+          "word": [
+            5,
+            6,
+            4,
+            5,
+            3,
+            4,
+            2,
+            3,
+            1,
+            2
+          ],
+          "coefficient": "1"
+        },
+        {
+          "word": [
+            7,
+            6,
+            4,
+            5,
+            3,
+            4,
+            2,
+            3,
+            1,
+            2
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "word": [
+            8,
+            7,
+            6,
+            5,
+            3,
+            4,
+            2,
+            3,
+            1,
+            2
+          ],
+          "coefficient": "1"
+        },
+        {
+          "word": [
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            2,
+            3,
+            1,
+            2
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "word": [
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            1,
+            2
+          ],
+          "coefficient": "1"
+        },
+        {
+          "word": [
+            11,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "word": [
+            12,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2
+          ],
+          "coefficient": "-1"
+        }
+      ],
+      "literal_coefficient_checks": 7,
+      "checked_complete_degree_basis": true
+    },
+    {
+      "cartan_type": "A15",
+      "tail_size": 13,
+      "elementary_index": 5,
+      "polynomial_degree": 5,
+      "setup_seconds": 0.24469,
+      "calculation_seconds": 0.038152,
+      "weyl_group_order": "20922789888000",
+      "stats": {
+        "input_monomials": 17,
+        "homogeneous_degrees": [
+          5
+        ],
+        "divided_differences": 71,
+        "zero_differences": 66,
+        "duplicate_paths": 0,
+        "frontier_sizes": {
+          "5": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        "max_frontier": 1,
+        "output_terms": 1
+      },
+      "terms": [
+        {
+          "word": [
+            7,
+            6,
+            5,
+            4,
+            3
+          ],
+          "coefficient": "-1"
+        }
+      ],
+      "literal_coefficient_checks": 5,
+      "checked_complete_degree_basis": true
+    }
+  ],
+  "legacy_comparisons": [
+    {
+      "cartan_type": "C3",
+      "tail_size": 2,
+      "elementary_index": 1,
+      "legacy_seconds": 0.306254,
+      "new_setup_seconds": 0.001421,
+      "new_calculation_seconds": 0.001862,
+      "calculation_speedup": 164.49,
+      "equal_results": true,
+      "output_terms": 1
+    },
+    {
+      "cartan_type": "C4",
+      "tail_size": 3,
+      "elementary_index": 1,
+      "legacy_seconds": 2.330291,
+      "new_setup_seconds": 0.001258,
+      "new_calculation_seconds": 0.001606,
+      "calculation_speedup": 1450.86,
+      "equal_results": true,
+      "output_terms": 1
+    }
+  ]
+}

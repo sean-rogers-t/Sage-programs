@@ -1,0 +1,8960 @@
+{
+  "schema_version": 1,
+  "generated_utc": "2026-10-19T22:05:27.049857+00:00",
+  "sage_version": "9.5",
+  "scope": "Finite full-D evidence. The general theorem is proved separately in TYPE_D_EVEN_GLUING_THEOREM.md; these computations do not replace that proof.",
+  "normalization": "q_i=e_i(x_tail^2), p=prod(x_tail), polynomial degree d means cohomological 2d",
+  "source_sha256": {
+    "experiments/verify_type_d_even_gluing.py": "1984f737a016c44a0019a023c46e0b3d02b812eed7cd53eddfe8ef6bd23d0232",
+    "experiments/type_d_cartesian_frontier.py": "b4a5a5c7a24368583b746e20ce75bfc9affcaf1ed3957aee165b97a9cf64fb58",
+    "experiments/verify_type_d_three_row_smith.py": "8d83fde25fe3f58df753c946a98ce486ccd7cc3061d00cc19423b3bcf82c2144",
+    "experiments/verify_type_d_two_row_smith.py": "a49a5e970c0cf56d926557f67d21cc71584de2ac13da76458e4eb56ded85d455",
+    "experiments/verify_type_d_square_comparison.py": "d0e970a213994cbc3b4e0568c303235490745f068f149533c9c5b88e18410dc4",
+    "experiments/verify_type_d_candidate.py": "d228a4ad56e17e871568599909e7bf39feb67f2859ccadf812812d0efd53e3ed",
+    "src/sage_borel/core.py": "c21a7b8893c5155efc71123264d698b7504dd89d8657b0612f57e0cb05118751",
+    "src/sage_borel/operations.py": "0429729152ddebd67d0034cdb5ef4953ed2091468168bd24f97ced4f2254b857"
+  },
+  "three_head_components": [
+    {
+      "a": 3,
+      "k": 2,
+      "n": 5,
+      "polynomial_degree": 0,
+      "coordinate_rows": 1,
+      "square_exponents": [
+        0
+      ],
+      "Euler_exponents": [],
+      "full_exponents": [
+        0
+      ],
+      "candidate_exponents": [
+        0
+      ],
+      "sector_indices_2_adic": [
+        0,
+        0
+      ],
+      "full_index_2_adic": 0,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": true,
+      "seconds": 0.463855
+    },
+    {
+      "a": 3,
+      "k": 2,
+      "n": 5,
+      "polynomial_degree": 2,
+      "coordinate_rows": 3,
+      "square_exponents": [
+        0
+      ],
+      "Euler_exponents": [
+        0
+      ],
+      "full_exponents": [
+        0,
+        0
+      ],
+      "candidate_exponents": [
+        0,
+        0
+      ],
+      "sector_indices_2_adic": [
+        0,
+        0
+      ],
+      "full_index_2_adic": 0,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": true,
+      "seconds": 0.027548
+    },
+    {
+      "a": 3,
+      "k": 2,
+      "n": 5,
+      "polynomial_degree": 4,
+      "coordinate_rows": 6,
+      "square_exponents": [
+        0,
+        0
+      ],
+      "Euler_exponents": [
+        0
+      ],
+      "full_exponents": [
+        0,
+        0,
+        1
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        1
+      ],
+      "sector_indices_2_adic": [
+        0,
+        0
+      ],
+      "full_index_2_adic": 1,
+      "FULL_saturated_gluing_dimension": 1,
+      "original_image_mod2_overlap": 1,
+      "Gaussian_unit_overlap": 1,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 1
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": {
+        "square_head_partition": [
+          1,
+          1
+        ],
+        "Euler_head_partition": [
+          1
+        ],
+        "both_sector_classes_primitive": true,
+        "half_sum_integral": true,
+        "meaning": "A nonzero unit-gluing class (f_gamma+p*f_delta)/2."
+      },
+      "independent_FULL_Cartesian_row_module_crosscheck": true,
+      "seconds": 0.07165
+    },
+    {
+      "a": 3,
+      "k": 2,
+      "n": 5,
+      "polynomial_degree": 6,
+      "coordinate_rows": 9,
+      "square_exponents": [
+        0,
+        1
+      ],
+      "Euler_exponents": [
+        0,
+        1
+      ],
+      "full_exponents": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "candidate_exponents": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "sector_indices_2_adic": [
+        1,
+        1
+      ],
+      "full_index_2_adic": 3,
+      "FULL_saturated_gluing_dimension": 1,
+      "original_image_mod2_overlap": 1,
+      "Gaussian_unit_overlap": 1,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 1
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": {
+        "square_head_partition": [
+          1,
+          1,
+          1
+        ],
+        "Euler_head_partition": [
+          1,
+          1
+        ],
+        "both_sector_classes_primitive": true,
+        "half_sum_integral": true,
+        "meaning": "A nonzero unit-gluing class (f_gamma+p*f_delta)/2."
+      },
+      "independent_FULL_Cartesian_row_module_crosscheck": true,
+      "seconds": 0.181428
+    },
+    {
+      "a": 3,
+      "k": 2,
+      "n": 5,
+      "polynomial_degree": 8,
+      "coordinate_rows": 9,
+      "square_exponents": [
+        1,
+        1
+      ],
+      "Euler_exponents": [
+        1
+      ],
+      "full_exponents": [
+        1,
+        1,
+        1
+      ],
+      "candidate_exponents": [
+        1,
+        1,
+        1
+      ],
+      "sector_indices_2_adic": [
+        2,
+        1
+      ],
+      "full_index_2_adic": 3,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": true,
+      "seconds": 0.144245
+    },
+    {
+      "a": 3,
+      "k": 2,
+      "n": 5,
+      "polynomial_degree": 10,
+      "coordinate_rows": 7,
+      "square_exponents": [
+        1
+      ],
+      "Euler_exponents": [
+        2
+      ],
+      "full_exponents": [
+        1,
+        2
+      ],
+      "candidate_exponents": [
+        1,
+        2
+      ],
+      "sector_indices_2_adic": [
+        1,
+        2
+      ],
+      "full_index_2_adic": 3,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": true,
+      "seconds": 0.111525
+    },
+    {
+      "a": 3,
+      "k": 2,
+      "n": 5,
+      "polynomial_degree": 12,
+      "coordinate_rows": 4,
+      "square_exponents": [
+        2
+      ],
+      "Euler_exponents": [],
+      "full_exponents": [
+        2
+      ],
+      "candidate_exponents": [
+        2
+      ],
+      "sector_indices_2_adic": [
+        2,
+        0
+      ],
+      "full_index_2_adic": 2,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": true,
+      "seconds": 0.078901
+    },
+    {
+      "a": 3,
+      "k": 4,
+      "n": 7,
+      "polynomial_degree": 0,
+      "coordinate_rows": 1,
+      "square_exponents": [
+        0
+      ],
+      "Euler_exponents": [],
+      "full_exponents": [
+        0
+      ],
+      "candidate_exponents": [
+        0
+      ],
+      "sector_indices_2_adic": [
+        0,
+        0
+      ],
+      "full_index_2_adic": 0,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.002685
+    },
+    {
+      "a": 3,
+      "k": 4,
+      "n": 7,
+      "polynomial_degree": 2,
+      "coordinate_rows": 2,
+      "square_exponents": [
+        0
+      ],
+      "Euler_exponents": [],
+      "full_exponents": [
+        0
+      ],
+      "candidate_exponents": [
+        0
+      ],
+      "sector_indices_2_adic": [
+        0,
+        0
+      ],
+      "full_index_2_adic": 0,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.004199
+    },
+    {
+      "a": 3,
+      "k": 4,
+      "n": 7,
+      "polynomial_degree": 4,
+      "coordinate_rows": 5,
+      "square_exponents": [
+        0,
+        0
+      ],
+      "Euler_exponents": [
+        0
+      ],
+      "full_exponents": [
+        0,
+        0,
+        0
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        0
+      ],
+      "sector_indices_2_adic": [
+        0,
+        0
+      ],
+      "full_index_2_adic": 0,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.003973
+    },
+    {
+      "a": 3,
+      "k": 4,
+      "n": 7,
+      "polynomial_degree": 6,
+      "coordinate_rows": 9,
+      "square_exponents": [
+        0,
+        0,
+        0
+      ],
+      "Euler_exponents": [
+        0
+      ],
+      "full_exponents": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sector_indices_2_adic": [
+        0,
+        0
+      ],
+      "full_index_2_adic": 0,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.009791
+    },
+    {
+      "a": 3,
+      "k": 4,
+      "n": 7,
+      "polynomial_degree": 8,
+      "coordinate_rows": 13,
+      "square_exponents": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "Euler_exponents": [
+        0,
+        0
+      ],
+      "full_exponents": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "sector_indices_2_adic": [
+        1,
+        0
+      ],
+      "full_index_2_adic": 2,
+      "FULL_saturated_gluing_dimension": 1,
+      "original_image_mod2_overlap": 1,
+      "Gaussian_unit_overlap": 1,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 1
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": {
+        "square_head_partition": [
+          2,
+          2
+        ],
+        "Euler_head_partition": [
+          2
+        ],
+        "both_sector_classes_primitive": true,
+        "half_sum_integral": true,
+        "meaning": "A nonzero unit-gluing class (f_gamma+p*f_delta)/2."
+      },
+      "independent_FULL_Cartesian_row_module_crosscheck": true,
+      "seconds": 0.486825
+    },
+    {
+      "a": 3,
+      "k": 4,
+      "n": 7,
+      "polynomial_degree": 10,
+      "coordinate_rows": 17,
+      "square_exponents": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "Euler_exponents": [
+        0,
+        1
+      ],
+      "full_exponents": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "sector_indices_2_adic": [
+        2,
+        1
+      ],
+      "full_index_2_adic": 4,
+      "FULL_saturated_gluing_dimension": 1,
+      "original_image_mod2_overlap": 1,
+      "Gaussian_unit_overlap": 1,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 1
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": {
+        "square_head_partition": [
+          2,
+          2,
+          1
+        ],
+        "Euler_head_partition": [
+          2,
+          1
+        ],
+        "both_sector_classes_primitive": true,
+        "half_sum_integral": true,
+        "meaning": "A nonzero unit-gluing class (f_gamma+p*f_delta)/2."
+      },
+      "independent_FULL_Cartesian_row_module_crosscheck": true,
+      "seconds": 0.659189
+    },
+    {
+      "a": 3,
+      "k": 4,
+      "n": 7,
+      "polynomial_degree": 12,
+      "coordinate_rows": 20,
+      "square_exponents": [
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "Euler_exponents": [
+        0,
+        1,
+        1
+      ],
+      "full_exponents": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "candidate_exponents": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "sector_indices_2_adic": [
+        4,
+        2
+      ],
+      "full_index_2_adic": 7,
+      "FULL_saturated_gluing_dimension": 1,
+      "original_image_mod2_overlap": 1,
+      "Gaussian_unit_overlap": 1,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 1
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": {
+        "square_head_partition": [
+          2,
+          2,
+          2
+        ],
+        "Euler_head_partition": [
+          2,
+          2
+        ],
+        "both_sector_classes_primitive": true,
+        "half_sum_integral": true,
+        "meaning": "A nonzero unit-gluing class (f_gamma+p*f_delta)/2."
+      },
+      "independent_FULL_Cartesian_row_module_crosscheck": true,
+      "seconds": 0.933548
+    },
+    {
+      "a": 3,
+      "k": 4,
+      "n": 7,
+      "polynomial_degree": 14,
+      "coordinate_rows": 20,
+      "square_exponents": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "Euler_exponents": [
+        1,
+        1
+      ],
+      "full_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "candidate_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "sector_indices_2_adic": [
+        4,
+        2
+      ],
+      "full_index_2_adic": 6,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": true,
+      "seconds": 0.861176
+    },
+    {
+      "a": 3,
+      "k": 4,
+      "n": 7,
+      "polynomial_degree": 16,
+      "coordinate_rows": 18,
+      "square_exponents": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "Euler_exponents": [
+        1,
+        2
+      ],
+      "full_exponents": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "candidate_exponents": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "sector_indices_2_adic": [
+        5,
+        3
+      ],
+      "full_index_2_adic": 8,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": true,
+      "seconds": 0.929446
+    },
+    {
+      "a": 3,
+      "k": 4,
+      "n": 7,
+      "polynomial_degree": 18,
+      "coordinate_rows": 15,
+      "square_exponents": [
+        1,
+        2,
+        2
+      ],
+      "Euler_exponents": [
+        2
+      ],
+      "full_exponents": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "candidate_exponents": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "sector_indices_2_adic": [
+        5,
+        2
+      ],
+      "full_index_2_adic": 7,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": true,
+      "seconds": 0.997379
+    },
+    {
+      "a": 3,
+      "k": 4,
+      "n": 7,
+      "polynomial_degree": 20,
+      "coordinate_rows": 10,
+      "square_exponents": [
+        2,
+        2
+      ],
+      "Euler_exponents": [
+        2
+      ],
+      "full_exponents": [
+        2,
+        2,
+        2
+      ],
+      "candidate_exponents": [
+        2,
+        2,
+        2
+      ],
+      "sector_indices_2_adic": [
+        4,
+        2
+      ],
+      "full_index_2_adic": 6,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": true,
+      "seconds": 1.016405
+    },
+    {
+      "a": 3,
+      "k": 4,
+      "n": 7,
+      "polynomial_degree": 22,
+      "coordinate_rows": 6,
+      "square_exponents": [
+        2
+      ],
+      "Euler_exponents": [],
+      "full_exponents": [
+        2
+      ],
+      "candidate_exponents": [
+        2
+      ],
+      "sector_indices_2_adic": [
+        2,
+        0
+      ],
+      "full_index_2_adic": 2,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": true,
+      "seconds": 0.739158
+    },
+    {
+      "a": 3,
+      "k": 4,
+      "n": 7,
+      "polynomial_degree": 24,
+      "coordinate_rows": 3,
+      "square_exponents": [
+        3
+      ],
+      "Euler_exponents": [],
+      "full_exponents": [
+        3
+      ],
+      "candidate_exponents": [
+        3
+      ],
+      "sector_indices_2_adic": [
+        3,
+        0
+      ],
+      "full_index_2_adic": 3,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": true,
+      "seconds": 0.902192
+    },
+    {
+      "a": 3,
+      "k": 6,
+      "n": 9,
+      "polynomial_degree": 0,
+      "coordinate_rows": 1,
+      "square_exponents": [
+        0
+      ],
+      "Euler_exponents": [],
+      "full_exponents": [
+        0
+      ],
+      "candidate_exponents": [
+        0
+      ],
+      "sector_indices_2_adic": [
+        0,
+        0
+      ],
+      "full_index_2_adic": 0,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.002436
+    },
+    {
+      "a": 3,
+      "k": 6,
+      "n": 9,
+      "polynomial_degree": 2,
+      "coordinate_rows": 2,
+      "square_exponents": [
+        0
+      ],
+      "Euler_exponents": [],
+      "full_exponents": [
+        0
+      ],
+      "candidate_exponents": [
+        0
+      ],
+      "sector_indices_2_adic": [
+        0,
+        0
+      ],
+      "full_index_2_adic": 0,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.002643
+    },
+    {
+      "a": 3,
+      "k": 6,
+      "n": 9,
+      "polynomial_degree": 4,
+      "coordinate_rows": 4,
+      "square_exponents": [
+        0,
+        0
+      ],
+      "Euler_exponents": [],
+      "full_exponents": [
+        0,
+        0
+      ],
+      "candidate_exponents": [
+        0,
+        0
+      ],
+      "sector_indices_2_adic": [
+        0,
+        0
+      ],
+      "full_index_2_adic": 0,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.003202
+    },
+    {
+      "a": 3,
+      "k": 6,
+      "n": 9,
+      "polynomial_degree": 6,
+      "coordinate_rows": 8,
+      "square_exponents": [
+        0,
+        0,
+        0
+      ],
+      "Euler_exponents": [
+        0
+      ],
+      "full_exponents": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sector_indices_2_adic": [
+        0,
+        0
+      ],
+      "full_index_2_adic": 0,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.005396
+    },
+    {
+      "a": 3,
+      "k": 6,
+      "n": 9,
+      "polynomial_degree": 8,
+      "coordinate_rows": 12,
+      "square_exponents": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "Euler_exponents": [
+        0
+      ],
+      "full_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sector_indices_2_adic": [
+        0,
+        0
+      ],
+      "full_index_2_adic": 0,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.009606
+    },
+    {
+      "a": 3,
+      "k": 6,
+      "n": 9,
+      "polynomial_degree": 10,
+      "coordinate_rows": 17,
+      "square_exponents": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "Euler_exponents": [
+        0,
+        0
+      ],
+      "full_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "sector_indices_2_adic": [
+        1,
+        0
+      ],
+      "full_index_2_adic": 1,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.01424
+    },
+    {
+      "a": 3,
+      "k": 6,
+      "n": 9,
+      "polynomial_degree": 12,
+      "coordinate_rows": 23,
+      "square_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "Euler_exponents": [
+        0,
+        0
+      ],
+      "full_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "sector_indices_2_adic": [
+        2,
+        0
+      ],
+      "full_index_2_adic": 3,
+      "FULL_saturated_gluing_dimension": 1,
+      "original_image_mod2_overlap": 1,
+      "Gaussian_unit_overlap": 1,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 1
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": {
+        "square_head_partition": [
+          3,
+          3
+        ],
+        "Euler_head_partition": [
+          3
+        ],
+        "both_sector_classes_primitive": true,
+        "half_sum_integral": true,
+        "meaning": "A nonzero unit-gluing class (f_gamma+p*f_delta)/2."
+      },
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.031334
+    },
+    {
+      "a": 3,
+      "k": 6,
+      "n": 9,
+      "polynomial_degree": 14,
+      "coordinate_rows": 28,
+      "square_exponents": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "Euler_exponents": [
+        0,
+        0,
+        1
+      ],
+      "full_exponents": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "sector_indices_2_adic": [
+        4,
+        1
+      ],
+      "full_index_2_adic": 6,
+      "FULL_saturated_gluing_dimension": 1,
+      "original_image_mod2_overlap": 1,
+      "Gaussian_unit_overlap": 1,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 1
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": {
+        "square_head_partition": [
+          3,
+          3,
+          1
+        ],
+        "Euler_head_partition": [
+          3,
+          1
+        ],
+        "both_sector_classes_primitive": true,
+        "half_sum_integral": true,
+        "meaning": "A nonzero unit-gluing class (f_gamma+p*f_delta)/2."
+      },
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.050673
+    },
+    {
+      "a": 3,
+      "k": 6,
+      "n": 9,
+      "polynomial_degree": 16,
+      "coordinate_rows": 32,
+      "square_exponents": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "Euler_exponents": [
+        0,
+        1,
+        1
+      ],
+      "full_exponents": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "sector_indices_2_adic": [
+        6,
+        2
+      ],
+      "full_index_2_adic": 9,
+      "FULL_saturated_gluing_dimension": 1,
+      "original_image_mod2_overlap": 1,
+      "Gaussian_unit_overlap": 1,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 1
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": {
+        "square_head_partition": [
+          3,
+          3,
+          2
+        ],
+        "Euler_head_partition": [
+          3,
+          2
+        ],
+        "both_sector_classes_primitive": true,
+        "half_sum_integral": true,
+        "meaning": "A nonzero unit-gluing class (f_gamma+p*f_delta)/2."
+      },
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.069289
+    },
+    {
+      "a": 3,
+      "k": 6,
+      "n": 9,
+      "polynomial_degree": 18,
+      "coordinate_rows": 35,
+      "square_exponents": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "Euler_exponents": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "full_exponents": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "candidate_exponents": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "sector_indices_2_adic": [
+        7,
+        3
+      ],
+      "full_index_2_adic": 11,
+      "FULL_saturated_gluing_dimension": 1,
+      "original_image_mod2_overlap": 1,
+      "Gaussian_unit_overlap": 1,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 1
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": {
+        "square_head_partition": [
+          3,
+          3,
+          3
+        ],
+        "Euler_head_partition": [
+          3,
+          3
+        ],
+        "both_sector_classes_primitive": true,
+        "half_sum_integral": true,
+        "meaning": "A nonzero unit-gluing class (f_gamma+p*f_delta)/2."
+      },
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.114666
+    },
+    {
+      "a": 3,
+      "k": 6,
+      "n": 9,
+      "polynomial_degree": 20,
+      "coordinate_rows": 35,
+      "square_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "Euler_exponents": [
+        1,
+        1,
+        1
+      ],
+      "full_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "candidate_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "sector_indices_2_adic": [
+        9,
+        3
+      ],
+      "full_index_2_adic": 12,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.217889
+    },
+    {
+      "a": 3,
+      "k": 6,
+      "n": 9,
+      "polynomial_degree": 22,
+      "coordinate_rows": 33,
+      "square_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "Euler_exponents": [
+        1,
+        1,
+        2
+      ],
+      "full_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2
+      ],
+      "candidate_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2
+      ],
+      "sector_indices_2_adic": [
+        9,
+        4
+      ],
+      "full_index_2_adic": 13,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.153951
+    },
+    {
+      "a": 3,
+      "k": 6,
+      "n": 9,
+      "polynomial_degree": 24,
+      "coordinate_rows": 30,
+      "square_exponents": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "Euler_exponents": [
+        1,
+        2
+      ],
+      "full_exponents": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "candidate_exponents": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "sector_indices_2_adic": [
+        11,
+        3
+      ],
+      "full_index_2_adic": 14,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.196548
+    },
+    {
+      "a": 3,
+      "k": 6,
+      "n": 9,
+      "polynomial_degree": 26,
+      "coordinate_rows": 25,
+      "square_exponents": [
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "Euler_exponents": [
+        2,
+        2
+      ],
+      "full_exponents": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "candidate_exponents": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "sector_indices_2_adic": [
+        9,
+        4
+      ],
+      "full_index_2_adic": 13,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.248516
+    },
+    {
+      "a": 3,
+      "k": 6,
+      "n": 9,
+      "polynomial_degree": 28,
+      "coordinate_rows": 19,
+      "square_exponents": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "Euler_exponents": [
+        2
+      ],
+      "full_exponents": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "candidate_exponents": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "sector_indices_2_adic": [
+        8,
+        2
+      ],
+      "full_index_2_adic": 10,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.337671
+    },
+    {
+      "a": 3,
+      "k": 6,
+      "n": 9,
+      "polynomial_degree": 30,
+      "coordinate_rows": 14,
+      "square_exponents": [
+        2,
+        2,
+        3
+      ],
+      "Euler_exponents": [
+        2
+      ],
+      "full_exponents": [
+        2,
+        2,
+        2,
+        3
+      ],
+      "candidate_exponents": [
+        2,
+        2,
+        2,
+        3
+      ],
+      "sector_indices_2_adic": [
+        7,
+        2
+      ],
+      "full_index_2_adic": 9,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.286254
+    },
+    {
+      "a": 3,
+      "k": 6,
+      "n": 9,
+      "polynomial_degree": 32,
+      "coordinate_rows": 9,
+      "square_exponents": [
+        2,
+        3
+      ],
+      "Euler_exponents": [],
+      "full_exponents": [
+        2,
+        3
+      ],
+      "candidate_exponents": [
+        2,
+        3
+      ],
+      "sector_indices_2_adic": [
+        5,
+        0
+      ],
+      "full_index_2_adic": 5,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.1767
+    },
+    {
+      "a": 3,
+      "k": 6,
+      "n": 9,
+      "polynomial_degree": 34,
+      "coordinate_rows": 5,
+      "square_exponents": [
+        3
+      ],
+      "Euler_exponents": [],
+      "full_exponents": [
+        3
+      ],
+      "candidate_exponents": [
+        3
+      ],
+      "sector_indices_2_adic": [
+        3,
+        0
+      ],
+      "full_index_2_adic": 3,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.121267
+    },
+    {
+      "a": 3,
+      "k": 6,
+      "n": 9,
+      "polynomial_degree": 36,
+      "coordinate_rows": 3,
+      "square_exponents": [
+        3
+      ],
+      "Euler_exponents": [],
+      "full_exponents": [
+        3
+      ],
+      "candidate_exponents": [
+        3
+      ],
+      "sector_indices_2_adic": [
+        3,
+        0
+      ],
+      "full_index_2_adic": 3,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.113575
+    },
+    {
+      "a": 3,
+      "k": 8,
+      "n": 11,
+      "polynomial_degree": 0,
+      "coordinate_rows": 1,
+      "square_exponents": [
+        0
+      ],
+      "Euler_exponents": [],
+      "full_exponents": [
+        0
+      ],
+      "candidate_exponents": [
+        0
+      ],
+      "sector_indices_2_adic": [
+        0,
+        0
+      ],
+      "full_index_2_adic": 0,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.002077
+    },
+    {
+      "a": 3,
+      "k": 8,
+      "n": 11,
+      "polynomial_degree": 2,
+      "coordinate_rows": 2,
+      "square_exponents": [
+        0
+      ],
+      "Euler_exponents": [],
+      "full_exponents": [
+        0
+      ],
+      "candidate_exponents": [
+        0
+      ],
+      "sector_indices_2_adic": [
+        0,
+        0
+      ],
+      "full_index_2_adic": 0,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.003136
+    },
+    {
+      "a": 3,
+      "k": 8,
+      "n": 11,
+      "polynomial_degree": 4,
+      "coordinate_rows": 4,
+      "square_exponents": [
+        0,
+        0
+      ],
+      "Euler_exponents": [],
+      "full_exponents": [
+        0,
+        0
+      ],
+      "candidate_exponents": [
+        0,
+        0
+      ],
+      "sector_indices_2_adic": [
+        0,
+        0
+      ],
+      "full_index_2_adic": 0,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.003253
+    },
+    {
+      "a": 3,
+      "k": 8,
+      "n": 11,
+      "polynomial_degree": 6,
+      "coordinate_rows": 7,
+      "square_exponents": [
+        0,
+        0,
+        0
+      ],
+      "Euler_exponents": [],
+      "full_exponents": [
+        0,
+        0,
+        0
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        0
+      ],
+      "sector_indices_2_adic": [
+        0,
+        0
+      ],
+      "full_index_2_adic": 0,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.006759
+    },
+    {
+      "a": 3,
+      "k": 8,
+      "n": 11,
+      "polynomial_degree": 8,
+      "coordinate_rows": 11,
+      "square_exponents": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "Euler_exponents": [
+        0
+      ],
+      "full_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sector_indices_2_adic": [
+        0,
+        0
+      ],
+      "full_index_2_adic": 0,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.01409
+    },
+    {
+      "a": 3,
+      "k": 8,
+      "n": 11,
+      "polynomial_degree": 10,
+      "coordinate_rows": 16,
+      "square_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Euler_exponents": [
+        0
+      ],
+      "full_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sector_indices_2_adic": [
+        0,
+        0
+      ],
+      "full_index_2_adic": 0,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.018139
+    },
+    {
+      "a": 3,
+      "k": 8,
+      "n": 11,
+      "polynomial_degree": 12,
+      "coordinate_rows": 22,
+      "square_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "Euler_exponents": [
+        0,
+        0
+      ],
+      "full_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "sector_indices_2_adic": [
+        1,
+        0
+      ],
+      "full_index_2_adic": 1,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.022916
+    },
+    {
+      "a": 3,
+      "k": 8,
+      "n": 11,
+      "polynomial_degree": 14,
+      "coordinate_rows": 28,
+      "square_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "Euler_exponents": [
+        0,
+        0
+      ],
+      "full_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "sector_indices_2_adic": [
+        2,
+        0
+      ],
+      "full_index_2_adic": 2,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.044077
+    },
+    {
+      "a": 3,
+      "k": 8,
+      "n": 11,
+      "polynomial_degree": 16,
+      "coordinate_rows": 35,
+      "square_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "Euler_exponents": [
+        0,
+        0,
+        0
+      ],
+      "full_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "sector_indices_2_adic": [
+        4,
+        0
+      ],
+      "full_index_2_adic": 5,
+      "FULL_saturated_gluing_dimension": 1,
+      "original_image_mod2_overlap": 1,
+      "Gaussian_unit_overlap": 1,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 1
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": {
+        "square_head_partition": [
+          4,
+          4
+        ],
+        "Euler_head_partition": [
+          4
+        ],
+        "both_sector_classes_primitive": true,
+        "half_sum_integral": true,
+        "meaning": "A nonzero unit-gluing class (f_gamma+p*f_delta)/2."
+      },
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.052181
+    },
+    {
+      "a": 3,
+      "k": 8,
+      "n": 11,
+      "polynomial_degree": 18,
+      "coordinate_rows": 42,
+      "square_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "Euler_exponents": [
+        0,
+        0,
+        1
+      ],
+      "full_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "sector_indices_2_adic": [
+        6,
+        1
+      ],
+      "full_index_2_adic": 8,
+      "FULL_saturated_gluing_dimension": 1,
+      "original_image_mod2_overlap": 1,
+      "Gaussian_unit_overlap": 1,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 1
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": {
+        "square_head_partition": [
+          4,
+          4,
+          1
+        ],
+        "Euler_head_partition": [
+          4,
+          1
+        ],
+        "both_sector_classes_primitive": true,
+        "half_sum_integral": true,
+        "meaning": "A nonzero unit-gluing class (f_gamma+p*f_delta)/2."
+      },
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.096715
+    },
+    {
+      "a": 3,
+      "k": 8,
+      "n": 11,
+      "polynomial_degree": 20,
+      "coordinate_rows": 47,
+      "square_exponents": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "Euler_exponents": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "full_exponents": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "sector_indices_2_adic": [
+        9,
+        2
+      ],
+      "full_index_2_adic": 12,
+      "FULL_saturated_gluing_dimension": 1,
+      "original_image_mod2_overlap": 1,
+      "Gaussian_unit_overlap": 1,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 1
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": {
+        "square_head_partition": [
+          4,
+          4,
+          2
+        ],
+        "Euler_head_partition": [
+          4,
+          2
+        ],
+        "both_sector_classes_primitive": true,
+        "half_sum_integral": true,
+        "meaning": "A nonzero unit-gluing class (f_gamma+p*f_delta)/2."
+      },
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.151536
+    },
+    {
+      "a": 3,
+      "k": 8,
+      "n": 11,
+      "polynomial_degree": 22,
+      "coordinate_rows": 51,
+      "square_exponents": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "Euler_exponents": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "full_exponents": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "sector_indices_2_adic": [
+        10,
+        3
+      ],
+      "full_index_2_adic": 14,
+      "FULL_saturated_gluing_dimension": 1,
+      "original_image_mod2_overlap": 1,
+      "Gaussian_unit_overlap": 1,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 1
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": {
+        "square_head_partition": [
+          4,
+          4,
+          3
+        ],
+        "Euler_head_partition": [
+          4,
+          3
+        ],
+        "both_sector_classes_primitive": true,
+        "half_sum_integral": true,
+        "meaning": "A nonzero unit-gluing class (f_gamma+p*f_delta)/2."
+      },
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.30273
+    },
+    {
+      "a": 3,
+      "k": 8,
+      "n": 11,
+      "polynomial_degree": 24,
+      "coordinate_rows": 54,
+      "square_exponents": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "Euler_exponents": [
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "full_exponents": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "candidate_exponents": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "sector_indices_2_adic": [
+        13,
+        4
+      ],
+      "full_index_2_adic": 18,
+      "FULL_saturated_gluing_dimension": 1,
+      "original_image_mod2_overlap": 1,
+      "Gaussian_unit_overlap": 1,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 1
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": {
+        "square_head_partition": [
+          4,
+          4,
+          4
+        ],
+        "Euler_head_partition": [
+          4,
+          4
+        ],
+        "both_sector_classes_primitive": true,
+        "half_sum_integral": true,
+        "meaning": "A nonzero unit-gluing class (f_gamma+p*f_delta)/2."
+      },
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.258817
+    },
+    {
+      "a": 3,
+      "k": 8,
+      "n": 11,
+      "polynomial_degree": 26,
+      "coordinate_rows": 54,
+      "square_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "Euler_exponents": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "full_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "candidate_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "sector_indices_2_adic": [
+        14,
+        4
+      ],
+      "full_index_2_adic": 18,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.417197
+    },
+    {
+      "a": 3,
+      "k": 8,
+      "n": 11,
+      "polynomial_degree": 28,
+      "coordinate_rows": 52,
+      "square_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "Euler_exponents": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "full_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "candidate_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "sector_indices_2_adic": [
+        16,
+        5
+      ],
+      "full_index_2_adic": 21,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.495504
+    },
+    {
+      "a": 3,
+      "k": 8,
+      "n": 11,
+      "polynomial_degree": 30,
+      "coordinate_rows": 49,
+      "square_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "Euler_exponents": [
+        1,
+        1,
+        2
+      ],
+      "full_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "candidate_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "sector_indices_2_adic": [
+        17,
+        4
+      ],
+      "full_index_2_adic": 21,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.659345
+    },
+    {
+      "a": 3,
+      "k": 8,
+      "n": 11,
+      "polynomial_degree": 32,
+      "coordinate_rows": 44,
+      "square_exponents": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "Euler_exponents": [
+        1,
+        2,
+        2
+      ],
+      "full_exponents": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "candidate_exponents": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "sector_indices_2_adic": [
+        17,
+        5
+      ],
+      "full_index_2_adic": 22,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.690186
+    },
+    {
+      "a": 3,
+      "k": 8,
+      "n": 11,
+      "polynomial_degree": 34,
+      "coordinate_rows": 38,
+      "square_exponents": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "Euler_exponents": [
+        2,
+        2
+      ],
+      "full_exponents": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "candidate_exponents": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "sector_indices_2_adic": [
+        15,
+        4
+      ],
+      "full_index_2_adic": 19,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.934706
+    },
+    {
+      "a": 3,
+      "k": 8,
+      "n": 11,
+      "polynomial_degree": 36,
+      "coordinate_rows": 31,
+      "square_exponents": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "Euler_exponents": [
+        2,
+        2
+      ],
+      "full_exponents": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "candidate_exponents": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "sector_indices_2_adic": [
+        15,
+        4
+      ],
+      "full_index_2_adic": 19,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.722941
+    },
+    {
+      "a": 3,
+      "k": 8,
+      "n": 11,
+      "polynomial_degree": 38,
+      "coordinate_rows": 24,
+      "square_exponents": [
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "Euler_exponents": [
+        2
+      ],
+      "full_exponents": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "candidate_exponents": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "sector_indices_2_adic": [
+        11,
+        2
+      ],
+      "full_index_2_adic": 13,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.707501
+    },
+    {
+      "a": 3,
+      "k": 8,
+      "n": 11,
+      "polynomial_degree": 40,
+      "coordinate_rows": 18,
+      "square_exponents": [
+        2,
+        2,
+        3,
+        3
+      ],
+      "Euler_exponents": [
+        2
+      ],
+      "full_exponents": [
+        2,
+        2,
+        2,
+        3,
+        3
+      ],
+      "candidate_exponents": [
+        2,
+        2,
+        2,
+        3,
+        3
+      ],
+      "sector_indices_2_adic": [
+        10,
+        2
+      ],
+      "full_index_2_adic": 12,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.596241
+    },
+    {
+      "a": 3,
+      "k": 8,
+      "n": 11,
+      "polynomial_degree": 42,
+      "coordinate_rows": 13,
+      "square_exponents": [
+        2,
+        3,
+        3
+      ],
+      "Euler_exponents": [],
+      "full_exponents": [
+        2,
+        3,
+        3
+      ],
+      "candidate_exponents": [
+        2,
+        3,
+        3
+      ],
+      "sector_indices_2_adic": [
+        8,
+        0
+      ],
+      "full_index_2_adic": 8,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.803959
+    },
+    {
+      "a": 3,
+      "k": 8,
+      "n": 11,
+      "polynomial_degree": 44,
+      "coordinate_rows": 8,
+      "square_exponents": [
+        3,
+        3
+      ],
+      "Euler_exponents": [],
+      "full_exponents": [
+        3,
+        3
+      ],
+      "candidate_exponents": [
+        3,
+        3
+      ],
+      "sector_indices_2_adic": [
+        6,
+        0
+      ],
+      "full_index_2_adic": 6,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.434532
+    },
+    {
+      "a": 3,
+      "k": 8,
+      "n": 11,
+      "polynomial_degree": 46,
+      "coordinate_rows": 5,
+      "square_exponents": [
+        3
+      ],
+      "Euler_exponents": [],
+      "full_exponents": [
+        3
+      ],
+      "candidate_exponents": [
+        3
+      ],
+      "sector_indices_2_adic": [
+        3,
+        0
+      ],
+      "full_index_2_adic": 3,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.337151
+    },
+    {
+      "a": 3,
+      "k": 8,
+      "n": 11,
+      "polynomial_degree": 48,
+      "coordinate_rows": 3,
+      "square_exponents": [
+        3
+      ],
+      "Euler_exponents": [],
+      "full_exponents": [
+        3
+      ],
+      "candidate_exponents": [
+        3
+      ],
+      "sector_indices_2_adic": [
+        3,
+        0
+      ],
+      "full_index_2_adic": 3,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.257407
+    },
+    {
+      "a": 3,
+      "k": 10,
+      "n": 13,
+      "polynomial_degree": 0,
+      "coordinate_rows": 1,
+      "square_exponents": [
+        0
+      ],
+      "Euler_exponents": [],
+      "full_exponents": [
+        0
+      ],
+      "candidate_exponents": [
+        0
+      ],
+      "sector_indices_2_adic": [
+        0,
+        0
+      ],
+      "full_index_2_adic": 0,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.00201
+    },
+    {
+      "a": 3,
+      "k": 10,
+      "n": 13,
+      "polynomial_degree": 2,
+      "coordinate_rows": 2,
+      "square_exponents": [
+        0
+      ],
+      "Euler_exponents": [],
+      "full_exponents": [
+        0
+      ],
+      "candidate_exponents": [
+        0
+      ],
+      "sector_indices_2_adic": [
+        0,
+        0
+      ],
+      "full_index_2_adic": 0,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.002996
+    },
+    {
+      "a": 3,
+      "k": 10,
+      "n": 13,
+      "polynomial_degree": 4,
+      "coordinate_rows": 4,
+      "square_exponents": [
+        0,
+        0
+      ],
+      "Euler_exponents": [],
+      "full_exponents": [
+        0,
+        0
+      ],
+      "candidate_exponents": [
+        0,
+        0
+      ],
+      "sector_indices_2_adic": [
+        0,
+        0
+      ],
+      "full_index_2_adic": 0,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.004072
+    },
+    {
+      "a": 3,
+      "k": 10,
+      "n": 13,
+      "polynomial_degree": 6,
+      "coordinate_rows": 7,
+      "square_exponents": [
+        0,
+        0,
+        0
+      ],
+      "Euler_exponents": [],
+      "full_exponents": [
+        0,
+        0,
+        0
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        0
+      ],
+      "sector_indices_2_adic": [
+        0,
+        0
+      ],
+      "full_index_2_adic": 0,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.007398
+    },
+    {
+      "a": 3,
+      "k": 10,
+      "n": 13,
+      "polynomial_degree": 8,
+      "coordinate_rows": 10,
+      "square_exponents": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "Euler_exponents": [],
+      "full_exponents": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sector_indices_2_adic": [
+        0,
+        0
+      ],
+      "full_index_2_adic": 0,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.012282
+    },
+    {
+      "a": 3,
+      "k": 10,
+      "n": 13,
+      "polynomial_degree": 10,
+      "coordinate_rows": 15,
+      "square_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Euler_exponents": [
+        0
+      ],
+      "full_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sector_indices_2_adic": [
+        0,
+        0
+      ],
+      "full_index_2_adic": 0,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.017649
+    },
+    {
+      "a": 3,
+      "k": 10,
+      "n": 13,
+      "polynomial_degree": 12,
+      "coordinate_rows": 21,
+      "square_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Euler_exponents": [
+        0
+      ],
+      "full_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sector_indices_2_adic": [
+        0,
+        0
+      ],
+      "full_index_2_adic": 0,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.023586
+    },
+    {
+      "a": 3,
+      "k": 10,
+      "n": 13,
+      "polynomial_degree": 14,
+      "coordinate_rows": 27,
+      "square_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "Euler_exponents": [
+        0,
+        0
+      ],
+      "full_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "sector_indices_2_adic": [
+        1,
+        0
+      ],
+      "full_index_2_adic": 1,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.035616
+    },
+    {
+      "a": 3,
+      "k": 10,
+      "n": 13,
+      "polynomial_degree": 16,
+      "coordinate_rows": 34,
+      "square_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "Euler_exponents": [
+        0,
+        0
+      ],
+      "full_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "sector_indices_2_adic": [
+        2,
+        0
+      ],
+      "full_index_2_adic": 2,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.035642
+    },
+    {
+      "a": 3,
+      "k": 10,
+      "n": 13,
+      "polynomial_degree": 18,
+      "coordinate_rows": 42,
+      "square_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "Euler_exponents": [
+        0,
+        0,
+        0
+      ],
+      "full_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "sector_indices_2_adic": [
+        4,
+        0
+      ],
+      "full_index_2_adic": 4,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.055406
+    },
+    {
+      "a": 3,
+      "k": 10,
+      "n": 13,
+      "polynomial_degree": 20,
+      "coordinate_rows": 50,
+      "square_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "Euler_exponents": [
+        0,
+        0,
+        0
+      ],
+      "full_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "sector_indices_2_adic": [
+        6,
+        0
+      ],
+      "full_index_2_adic": 7,
+      "FULL_saturated_gluing_dimension": 1,
+      "original_image_mod2_overlap": 1,
+      "Gaussian_unit_overlap": 1,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 1
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": {
+        "square_head_partition": [
+          5,
+          5
+        ],
+        "Euler_head_partition": [
+          5
+        ],
+        "both_sector_classes_primitive": true,
+        "half_sum_integral": true,
+        "meaning": "A nonzero unit-gluing class (f_gamma+p*f_delta)/2."
+      },
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.090847
+    },
+    {
+      "a": 3,
+      "k": 10,
+      "n": 13,
+      "polynomial_degree": 22,
+      "coordinate_rows": 58,
+      "square_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "Euler_exponents": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "full_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "sector_indices_2_adic": [
+        9,
+        1
+      ],
+      "full_index_2_adic": 11,
+      "FULL_saturated_gluing_dimension": 1,
+      "original_image_mod2_overlap": 1,
+      "Gaussian_unit_overlap": 1,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 1
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": {
+        "square_head_partition": [
+          5,
+          5,
+          1
+        ],
+        "Euler_head_partition": [
+          5,
+          1
+        ],
+        "both_sector_classes_primitive": true,
+        "half_sum_integral": true,
+        "meaning": "A nonzero unit-gluing class (f_gamma+p*f_delta)/2."
+      },
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.162839
+    },
+    {
+      "a": 3,
+      "k": 10,
+      "n": 13,
+      "polynomial_degree": 24,
+      "coordinate_rows": 65,
+      "square_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "Euler_exponents": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "full_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "sector_indices_2_adic": [
+        12,
+        2
+      ],
+      "full_index_2_adic": 15,
+      "FULL_saturated_gluing_dimension": 1,
+      "original_image_mod2_overlap": 1,
+      "Gaussian_unit_overlap": 1,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 1
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": {
+        "square_head_partition": [
+          5,
+          5,
+          2
+        ],
+        "Euler_head_partition": [
+          5,
+          2
+        ],
+        "both_sector_classes_primitive": true,
+        "half_sum_integral": true,
+        "meaning": "A nonzero unit-gluing class (f_gamma+p*f_delta)/2."
+      },
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.289524
+    },
+    {
+      "a": 3,
+      "k": 10,
+      "n": 13,
+      "polynomial_degree": 26,
+      "coordinate_rows": 70,
+      "square_exponents": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "Euler_exponents": [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "full_exponents": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "sector_indices_2_adic": [
+        14,
+        3
+      ],
+      "full_index_2_adic": 18,
+      "FULL_saturated_gluing_dimension": 1,
+      "original_image_mod2_overlap": 1,
+      "Gaussian_unit_overlap": 1,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 1
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": {
+        "square_head_partition": [
+          5,
+          5,
+          3
+        ],
+        "Euler_head_partition": [
+          5,
+          3
+        ],
+        "both_sector_classes_primitive": true,
+        "half_sum_integral": true,
+        "meaning": "A nonzero unit-gluing class (f_gamma+p*f_delta)/2."
+      },
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.490074
+    },
+    {
+      "a": 3,
+      "k": 10,
+      "n": 13,
+      "polynomial_degree": 28,
+      "coordinate_rows": 74,
+      "square_exponents": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "Euler_exponents": [
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "full_exponents": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "sector_indices_2_adic": [
+        17,
+        4
+      ],
+      "full_index_2_adic": 22,
+      "FULL_saturated_gluing_dimension": 1,
+      "original_image_mod2_overlap": 1,
+      "Gaussian_unit_overlap": 1,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 1
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": {
+        "square_head_partition": [
+          5,
+          5,
+          4
+        ],
+        "Euler_head_partition": [
+          5,
+          4
+        ],
+        "both_sector_classes_primitive": true,
+        "half_sum_integral": true,
+        "meaning": "A nonzero unit-gluing class (f_gamma+p*f_delta)/2."
+      },
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.565959
+    },
+    {
+      "a": 3,
+      "k": 10,
+      "n": 13,
+      "polynomial_degree": 30,
+      "coordinate_rows": 77,
+      "square_exponents": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "Euler_exponents": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "full_exponents": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "candidate_exponents": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "sector_indices_2_adic": [
+        19,
+        5
+      ],
+      "full_index_2_adic": 25,
+      "FULL_saturated_gluing_dimension": 1,
+      "original_image_mod2_overlap": 1,
+      "Gaussian_unit_overlap": 1,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 1
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": {
+        "square_head_partition": [
+          5,
+          5,
+          5
+        ],
+        "Euler_head_partition": [
+          5,
+          5
+        ],
+        "both_sector_classes_primitive": true,
+        "half_sum_integral": true,
+        "meaning": "A nonzero unit-gluing class (f_gamma+p*f_delta)/2."
+      },
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.991706
+    },
+    {
+      "a": 3,
+      "k": 10,
+      "n": 13,
+      "polynomial_degree": 32,
+      "coordinate_rows": 77,
+      "square_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "Euler_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "full_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "candidate_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "sector_indices_2_adic": [
+        22,
+        5
+      ],
+      "full_index_2_adic": 27,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 1.122114
+    },
+    {
+      "a": 3,
+      "k": 10,
+      "n": 13,
+      "polynomial_degree": 34,
+      "coordinate_rows": 75,
+      "square_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "Euler_exponents": [
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "full_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "candidate_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "sector_indices_2_adic": [
+        23,
+        6
+      ],
+      "full_index_2_adic": 29,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 1.299683
+    },
+    {
+      "a": 3,
+      "k": 10,
+      "n": 13,
+      "polynomial_degree": 36,
+      "coordinate_rows": 72,
+      "square_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "Euler_exponents": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "full_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "candidate_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "sector_indices_2_adic": [
+        26,
+        5
+      ],
+      "full_index_2_adic": 31,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 1.549633
+    },
+    {
+      "a": 3,
+      "k": 10,
+      "n": 13,
+      "polynomial_degree": 38,
+      "coordinate_rows": 67,
+      "square_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "Euler_exponents": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "full_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "candidate_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "sector_indices_2_adic": [
+        25,
+        6
+      ],
+      "full_index_2_adic": 31,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 1.808995
+    },
+    {
+      "a": 3,
+      "k": 10,
+      "n": 13,
+      "polynomial_degree": 40,
+      "coordinate_rows": 61,
+      "square_exponents": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "Euler_exponents": [
+        1,
+        2,
+        2
+      ],
+      "full_exponents": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "candidate_exponents": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "sector_indices_2_adic": [
+        25,
+        5
+      ],
+      "full_index_2_adic": 30,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 2.186097
+    },
+    {
+      "a": 3,
+      "k": 10,
+      "n": 13,
+      "polynomial_degree": 42,
+      "coordinate_rows": 54,
+      "square_exponents": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "Euler_exponents": [
+        2,
+        2,
+        2
+      ],
+      "full_exponents": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "candidate_exponents": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "sector_indices_2_adic": [
+        24,
+        6
+      ],
+      "full_index_2_adic": 30,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 2.197597
+    },
+    {
+      "a": 3,
+      "k": 10,
+      "n": 13,
+      "polynomial_degree": 44,
+      "coordinate_rows": 45,
+      "square_exponents": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "Euler_exponents": [
+        2,
+        2
+      ],
+      "full_exponents": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "candidate_exponents": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "sector_indices_2_adic": [
+        21,
+        4
+      ],
+      "full_index_2_adic": 25,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 1.875259
+    },
+    {
+      "a": 3,
+      "k": 10,
+      "n": 13,
+      "polynomial_degree": 46,
+      "coordinate_rows": 37,
+      "square_exponents": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3
+      ],
+      "Euler_exponents": [
+        2,
+        2
+      ],
+      "full_exponents": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3
+      ],
+      "candidate_exponents": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3
+      ],
+      "sector_indices_2_adic": [
+        18,
+        4
+      ],
+      "full_index_2_adic": 22,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 1.798944
+    },
+    {
+      "a": 3,
+      "k": 10,
+      "n": 13,
+      "polynomial_degree": 48,
+      "coordinate_rows": 30,
+      "square_exponents": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3
+      ],
+      "Euler_exponents": [
+        2
+      ],
+      "full_exponents": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3
+      ],
+      "candidate_exponents": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3
+      ],
+      "sector_indices_2_adic": [
+        17,
+        2
+      ],
+      "full_index_2_adic": 19,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 1.847732
+    },
+    {
+      "a": 3,
+      "k": 10,
+      "n": 13,
+      "polynomial_degree": 50,
+      "coordinate_rows": 23,
+      "square_exponents": [
+        2,
+        2,
+        3,
+        3,
+        3
+      ],
+      "Euler_exponents": [
+        2
+      ],
+      "full_exponents": [
+        2,
+        2,
+        2,
+        3,
+        3,
+        3
+      ],
+      "candidate_exponents": [
+        2,
+        2,
+        2,
+        3,
+        3,
+        3
+      ],
+      "sector_indices_2_adic": [
+        13,
+        2
+      ],
+      "full_index_2_adic": 15,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 1.26633
+    },
+    {
+      "a": 3,
+      "k": 10,
+      "n": 13,
+      "polynomial_degree": 52,
+      "coordinate_rows": 17,
+      "square_exponents": [
+        2,
+        3,
+        3,
+        3
+      ],
+      "Euler_exponents": [],
+      "full_exponents": [
+        2,
+        3,
+        3,
+        3
+      ],
+      "candidate_exponents": [
+        2,
+        3,
+        3,
+        3
+      ],
+      "sector_indices_2_adic": [
+        11,
+        0
+      ],
+      "full_index_2_adic": 11,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.998062
+    },
+    {
+      "a": 3,
+      "k": 10,
+      "n": 13,
+      "polynomial_degree": 54,
+      "coordinate_rows": 12,
+      "square_exponents": [
+        3,
+        3,
+        3
+      ],
+      "Euler_exponents": [],
+      "full_exponents": [
+        3,
+        3,
+        3
+      ],
+      "candidate_exponents": [
+        3,
+        3,
+        3
+      ],
+      "sector_indices_2_adic": [
+        9,
+        0
+      ],
+      "full_index_2_adic": 9,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 1.006549
+    },
+    {
+      "a": 3,
+      "k": 10,
+      "n": 13,
+      "polynomial_degree": 56,
+      "coordinate_rows": 8,
+      "square_exponents": [
+        3,
+        3
+      ],
+      "Euler_exponents": [],
+      "full_exponents": [
+        3,
+        3
+      ],
+      "candidate_exponents": [
+        3,
+        3
+      ],
+      "sector_indices_2_adic": [
+        6,
+        0
+      ],
+      "full_index_2_adic": 6,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.77828
+    },
+    {
+      "a": 3,
+      "k": 10,
+      "n": 13,
+      "polynomial_degree": 58,
+      "coordinate_rows": 5,
+      "square_exponents": [
+        3
+      ],
+      "Euler_exponents": [],
+      "full_exponents": [
+        3
+      ],
+      "candidate_exponents": [
+        3
+      ],
+      "sector_indices_2_adic": [
+        3,
+        0
+      ],
+      "full_index_2_adic": 3,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.533186
+    },
+    {
+      "a": 3,
+      "k": 10,
+      "n": 13,
+      "polynomial_degree": 60,
+      "coordinate_rows": 3,
+      "square_exponents": [
+        3
+      ],
+      "Euler_exponents": [],
+      "full_exponents": [
+        3
+      ],
+      "candidate_exponents": [
+        3
+      ],
+      "sector_indices_2_adic": [
+        3,
+        0
+      ],
+      "full_index_2_adic": 3,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.432269
+    },
+    {
+      "a": 3,
+      "k": 12,
+      "n": 15,
+      "polynomial_degree": 0,
+      "coordinate_rows": 1,
+      "square_exponents": [
+        0
+      ],
+      "Euler_exponents": [],
+      "full_exponents": [
+        0
+      ],
+      "candidate_exponents": [
+        0
+      ],
+      "sector_indices_2_adic": [
+        0,
+        0
+      ],
+      "full_index_2_adic": 0,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.002762
+    },
+    {
+      "a": 3,
+      "k": 12,
+      "n": 15,
+      "polynomial_degree": 2,
+      "coordinate_rows": 2,
+      "square_exponents": [
+        0
+      ],
+      "Euler_exponents": [],
+      "full_exponents": [
+        0
+      ],
+      "candidate_exponents": [
+        0
+      ],
+      "sector_indices_2_adic": [
+        0,
+        0
+      ],
+      "full_index_2_adic": 0,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.00219
+    },
+    {
+      "a": 3,
+      "k": 12,
+      "n": 15,
+      "polynomial_degree": 4,
+      "coordinate_rows": 4,
+      "square_exponents": [
+        0,
+        0
+      ],
+      "Euler_exponents": [],
+      "full_exponents": [
+        0,
+        0
+      ],
+      "candidate_exponents": [
+        0,
+        0
+      ],
+      "sector_indices_2_adic": [
+        0,
+        0
+      ],
+      "full_index_2_adic": 0,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.0034
+    },
+    {
+      "a": 3,
+      "k": 12,
+      "n": 15,
+      "polynomial_degree": 6,
+      "coordinate_rows": 7,
+      "square_exponents": [
+        0,
+        0,
+        0
+      ],
+      "Euler_exponents": [],
+      "full_exponents": [
+        0,
+        0,
+        0
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        0
+      ],
+      "sector_indices_2_adic": [
+        0,
+        0
+      ],
+      "full_index_2_adic": 0,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.006852
+    },
+    {
+      "a": 3,
+      "k": 12,
+      "n": 15,
+      "polynomial_degree": 8,
+      "coordinate_rows": 10,
+      "square_exponents": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "Euler_exponents": [],
+      "full_exponents": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sector_indices_2_adic": [
+        0,
+        0
+      ],
+      "full_index_2_adic": 0,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.010261
+    },
+    {
+      "a": 3,
+      "k": 12,
+      "n": 15,
+      "polynomial_degree": 10,
+      "coordinate_rows": 14,
+      "square_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Euler_exponents": [],
+      "full_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sector_indices_2_adic": [
+        0,
+        0
+      ],
+      "full_index_2_adic": 0,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.013894
+    },
+    {
+      "a": 3,
+      "k": 12,
+      "n": 15,
+      "polynomial_degree": 12,
+      "coordinate_rows": 20,
+      "square_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Euler_exponents": [
+        0
+      ],
+      "full_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sector_indices_2_adic": [
+        0,
+        0
+      ],
+      "full_index_2_adic": 0,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.024755
+    },
+    {
+      "a": 3,
+      "k": 12,
+      "n": 15,
+      "polynomial_degree": 14,
+      "coordinate_rows": 26,
+      "square_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Euler_exponents": [
+        0
+      ],
+      "full_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sector_indices_2_adic": [
+        0,
+        0
+      ],
+      "full_index_2_adic": 0,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.029777
+    },
+    {
+      "a": 3,
+      "k": 12,
+      "n": 15,
+      "polynomial_degree": 16,
+      "coordinate_rows": 33,
+      "square_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "Euler_exponents": [
+        0,
+        0
+      ],
+      "full_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "sector_indices_2_adic": [
+        1,
+        0
+      ],
+      "full_index_2_adic": 1,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.040917
+    },
+    {
+      "a": 3,
+      "k": 12,
+      "n": 15,
+      "polynomial_degree": 18,
+      "coordinate_rows": 41,
+      "square_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "Euler_exponents": [
+        0,
+        0
+      ],
+      "full_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "sector_indices_2_adic": [
+        2,
+        0
+      ],
+      "full_index_2_adic": 2,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.04544
+    },
+    {
+      "a": 3,
+      "k": 12,
+      "n": 15,
+      "polynomial_degree": 20,
+      "coordinate_rows": 49,
+      "square_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "Euler_exponents": [
+        0,
+        0,
+        0
+      ],
+      "full_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "sector_indices_2_adic": [
+        4,
+        0
+      ],
+      "full_index_2_adic": 4,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.071805
+    },
+    {
+      "a": 3,
+      "k": 12,
+      "n": 15,
+      "polynomial_degree": 22,
+      "coordinate_rows": 58,
+      "square_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "Euler_exponents": [
+        0,
+        0,
+        0
+      ],
+      "full_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "sector_indices_2_adic": [
+        6,
+        0
+      ],
+      "full_index_2_adic": 6,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.431608
+    },
+    {
+      "a": 3,
+      "k": 12,
+      "n": 15,
+      "polynomial_degree": 24,
+      "coordinate_rows": 68,
+      "square_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "Euler_exponents": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "full_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "sector_indices_2_adic": [
+        9,
+        0
+      ],
+      "full_index_2_adic": 10,
+      "FULL_saturated_gluing_dimension": 1,
+      "original_image_mod2_overlap": 1,
+      "Gaussian_unit_overlap": 1,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 1
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": {
+        "square_head_partition": [
+          6,
+          6
+        ],
+        "Euler_head_partition": [
+          6
+        ],
+        "both_sector_classes_primitive": true,
+        "half_sum_integral": true,
+        "meaning": "A nonzero unit-gluing class (f_gamma+p*f_delta)/2."
+      },
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.17056
+    },
+    {
+      "a": 3,
+      "k": 12,
+      "n": 15,
+      "polynomial_degree": 26,
+      "coordinate_rows": 77,
+      "square_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "Euler_exponents": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "full_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "sector_indices_2_adic": [
+        12,
+        1
+      ],
+      "full_index_2_adic": 14,
+      "FULL_saturated_gluing_dimension": 1,
+      "original_image_mod2_overlap": 1,
+      "Gaussian_unit_overlap": 1,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 1
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": {
+        "square_head_partition": [
+          6,
+          6,
+          1
+        ],
+        "Euler_head_partition": [
+          6,
+          1
+        ],
+        "both_sector_classes_primitive": true,
+        "half_sum_integral": true,
+        "meaning": "A nonzero unit-gluing class (f_gamma+p*f_delta)/2."
+      },
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.284061
+    },
+    {
+      "a": 3,
+      "k": 12,
+      "n": 15,
+      "polynomial_degree": 28,
+      "coordinate_rows": 85,
+      "square_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "Euler_exponents": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "full_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "sector_indices_2_adic": [
+        16,
+        2
+      ],
+      "full_index_2_adic": 19,
+      "FULL_saturated_gluing_dimension": 1,
+      "original_image_mod2_overlap": 1,
+      "Gaussian_unit_overlap": 1,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 1
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": {
+        "square_head_partition": [
+          6,
+          6,
+          2
+        ],
+        "Euler_head_partition": [
+          6,
+          2
+        ],
+        "both_sector_classes_primitive": true,
+        "half_sum_integral": true,
+        "meaning": "A nonzero unit-gluing class (f_gamma+p*f_delta)/2."
+      },
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.384983
+    },
+    {
+      "a": 3,
+      "k": 12,
+      "n": 15,
+      "polynomial_degree": 30,
+      "coordinate_rows": 92,
+      "square_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "Euler_exponents": [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "full_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "sector_indices_2_adic": [
+        18,
+        3
+      ],
+      "full_index_2_adic": 22,
+      "FULL_saturated_gluing_dimension": 1,
+      "original_image_mod2_overlap": 1,
+      "Gaussian_unit_overlap": 1,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 1
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": {
+        "square_head_partition": [
+          6,
+          6,
+          3
+        ],
+        "Euler_head_partition": [
+          6,
+          3
+        ],
+        "both_sector_classes_primitive": true,
+        "half_sum_integral": true,
+        "meaning": "A nonzero unit-gluing class (f_gamma+p*f_delta)/2."
+      },
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.67088
+    },
+    {
+      "a": 3,
+      "k": 12,
+      "n": 15,
+      "polynomial_degree": 32,
+      "coordinate_rows": 97,
+      "square_exponents": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "Euler_exponents": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "full_exponents": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "sector_indices_2_adic": [
+        22,
+        4
+      ],
+      "full_index_2_adic": 27,
+      "FULL_saturated_gluing_dimension": 1,
+      "original_image_mod2_overlap": 1,
+      "Gaussian_unit_overlap": 1,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 1
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": {
+        "square_head_partition": [
+          6,
+          6,
+          4
+        ],
+        "Euler_head_partition": [
+          6,
+          4
+        ],
+        "both_sector_classes_primitive": true,
+        "half_sum_integral": true,
+        "meaning": "A nonzero unit-gluing class (f_gamma+p*f_delta)/2."
+      },
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.868552
+    },
+    {
+      "a": 3,
+      "k": 12,
+      "n": 15,
+      "polynomial_degree": 34,
+      "coordinate_rows": 101,
+      "square_exponents": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "Euler_exponents": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "full_exponents": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "sector_indices_2_adic": [
+        24,
+        5
+      ],
+      "full_index_2_adic": 30,
+      "FULL_saturated_gluing_dimension": 1,
+      "original_image_mod2_overlap": 1,
+      "Gaussian_unit_overlap": 1,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 1
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": {
+        "square_head_partition": [
+          6,
+          6,
+          5
+        ],
+        "Euler_head_partition": [
+          6,
+          5
+        ],
+        "both_sector_classes_primitive": true,
+        "half_sum_integral": true,
+        "meaning": "A nonzero unit-gluing class (f_gamma+p*f_delta)/2."
+      },
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 1.338859
+    },
+    {
+      "a": 3,
+      "k": 12,
+      "n": 15,
+      "polynomial_degree": 36,
+      "coordinate_rows": 104,
+      "square_exponents": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "Euler_exponents": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "full_exponents": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "candidate_exponents": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "sector_indices_2_adic": [
+        28,
+        6
+      ],
+      "full_index_2_adic": 35,
+      "FULL_saturated_gluing_dimension": 1,
+      "original_image_mod2_overlap": 1,
+      "Gaussian_unit_overlap": 1,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 1
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": {
+        "square_head_partition": [
+          6,
+          6,
+          6
+        ],
+        "Euler_head_partition": [
+          6,
+          6
+        ],
+        "both_sector_classes_primitive": true,
+        "half_sum_integral": true,
+        "meaning": "A nonzero unit-gluing class (f_gamma+p*f_delta)/2."
+      },
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 1.715624
+    },
+    {
+      "a": 3,
+      "k": 12,
+      "n": 15,
+      "polynomial_degree": 38,
+      "coordinate_rows": 104,
+      "square_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "Euler_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "full_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "candidate_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "sector_indices_2_adic": [
+        30,
+        6
+      ],
+      "full_index_2_adic": 36,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 1.941638
+    },
+    {
+      "a": 3,
+      "k": 12,
+      "n": 15,
+      "polynomial_degree": 40,
+      "coordinate_rows": 102,
+      "square_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "Euler_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "full_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "candidate_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "sector_indices_2_adic": [
+        33,
+        7
+      ],
+      "full_index_2_adic": 40,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 2.252149
+    },
+    {
+      "a": 3,
+      "k": 12,
+      "n": 15,
+      "polynomial_degree": 42,
+      "coordinate_rows": 99,
+      "square_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "Euler_exponents": [
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "full_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "candidate_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "sector_indices_2_adic": [
+        35,
+        6
+      ],
+      "full_index_2_adic": 41,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 3.373299
+    },
+    {
+      "a": 3,
+      "k": 12,
+      "n": 15,
+      "polynomial_degree": 44,
+      "coordinate_rows": 94,
+      "square_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "Euler_exponents": [
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "full_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "candidate_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "sector_indices_2_adic": [
+        36,
+        7
+      ],
+      "full_index_2_adic": 43,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 3.198884
+    },
+    {
+      "a": 3,
+      "k": 12,
+      "n": 15,
+      "polynomial_degree": 46,
+      "coordinate_rows": 88,
+      "square_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "Euler_exponents": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "full_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "candidate_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "sector_indices_2_adic": [
+        35,
+        6
+      ],
+      "full_index_2_adic": 41,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 3.780681
+    },
+    {
+      "a": 3,
+      "k": 12,
+      "n": 15,
+      "polynomial_degree": 48,
+      "coordinate_rows": 81,
+      "square_exponents": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "Euler_exponents": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "full_exponents": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "candidate_exponents": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "sector_indices_2_adic": [
+        36,
+        7
+      ],
+      "full_index_2_adic": 43,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 4.174807
+    },
+    {
+      "a": 3,
+      "k": 12,
+      "n": 15,
+      "polynomial_degree": 50,
+      "coordinate_rows": 72,
+      "square_exponents": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "Euler_exponents": [
+        2,
+        2,
+        2
+      ],
+      "full_exponents": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "candidate_exponents": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "sector_indices_2_adic": [
+        32,
+        6
+      ],
+      "full_index_2_adic": 38,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 4.250856
+    },
+    {
+      "a": 3,
+      "k": 12,
+      "n": 15,
+      "polynomial_degree": 52,
+      "coordinate_rows": 62,
+      "square_exponents": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3
+      ],
+      "Euler_exponents": [
+        2,
+        2,
+        2
+      ],
+      "full_exponents": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3
+      ],
+      "candidate_exponents": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3
+      ],
+      "sector_indices_2_adic": [
+        30,
+        6
+      ],
+      "full_index_2_adic": 36,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 5.515524
+    },
+    {
+      "a": 3,
+      "k": 12,
+      "n": 15,
+      "polynomial_degree": 54,
+      "coordinate_rows": 53,
+      "square_exponents": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3
+      ],
+      "Euler_exponents": [
+        2,
+        2
+      ],
+      "full_exponents": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3
+      ],
+      "candidate_exponents": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3
+      ],
+      "sector_indices_2_adic": [
+        27,
+        4
+      ],
+      "full_index_2_adic": 31,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 4.361628
+    },
+    {
+      "a": 3,
+      "k": 12,
+      "n": 15,
+      "polynomial_degree": 56,
+      "coordinate_rows": 44,
+      "square_exponents": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3
+      ],
+      "Euler_exponents": [
+        2,
+        2
+      ],
+      "full_exponents": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3
+      ],
+      "candidate_exponents": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3
+      ],
+      "sector_indices_2_adic": [
+        24,
+        4
+      ],
+      "full_index_2_adic": 28,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 3.659918
+    },
+    {
+      "a": 3,
+      "k": 12,
+      "n": 15,
+      "polynomial_degree": 58,
+      "coordinate_rows": 36,
+      "square_exponents": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3
+      ],
+      "Euler_exponents": [
+        2
+      ],
+      "full_exponents": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3
+      ],
+      "candidate_exponents": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3
+      ],
+      "sector_indices_2_adic": [
+        20,
+        2
+      ],
+      "full_index_2_adic": 22,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 3.141018
+    },
+    {
+      "a": 3,
+      "k": 12,
+      "n": 15,
+      "polynomial_degree": 60,
+      "coordinate_rows": 29,
+      "square_exponents": [
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "Euler_exponents": [
+        2
+      ],
+      "full_exponents": [
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "candidate_exponents": [
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "sector_indices_2_adic": [
+        19,
+        2
+      ],
+      "full_index_2_adic": 21,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 2.877436
+    },
+    {
+      "a": 3,
+      "k": 12,
+      "n": 15,
+      "polynomial_degree": 62,
+      "coordinate_rows": 22,
+      "square_exponents": [
+        2,
+        3,
+        3,
+        3,
+        3
+      ],
+      "Euler_exponents": [],
+      "full_exponents": [
+        2,
+        3,
+        3,
+        3,
+        3
+      ],
+      "candidate_exponents": [
+        2,
+        3,
+        3,
+        3,
+        3
+      ],
+      "sector_indices_2_adic": [
+        14,
+        0
+      ],
+      "full_index_2_adic": 14,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 2.982812
+    },
+    {
+      "a": 3,
+      "k": 12,
+      "n": 15,
+      "polynomial_degree": 64,
+      "coordinate_rows": 16,
+      "square_exponents": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "Euler_exponents": [],
+      "full_exponents": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "candidate_exponents": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "sector_indices_2_adic": [
+        12,
+        0
+      ],
+      "full_index_2_adic": 12,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 2.054646
+    },
+    {
+      "a": 3,
+      "k": 12,
+      "n": 15,
+      "polynomial_degree": 66,
+      "coordinate_rows": 12,
+      "square_exponents": [
+        3,
+        3,
+        3
+      ],
+      "Euler_exponents": [],
+      "full_exponents": [
+        3,
+        3,
+        3
+      ],
+      "candidate_exponents": [
+        3,
+        3,
+        3
+      ],
+      "sector_indices_2_adic": [
+        9,
+        0
+      ],
+      "full_index_2_adic": 9,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 1.799065
+    },
+    {
+      "a": 3,
+      "k": 12,
+      "n": 15,
+      "polynomial_degree": 68,
+      "coordinate_rows": 8,
+      "square_exponents": [
+        3,
+        3
+      ],
+      "Euler_exponents": [],
+      "full_exponents": [
+        3,
+        3
+      ],
+      "candidate_exponents": [
+        3,
+        3
+      ],
+      "sector_indices_2_adic": [
+        6,
+        0
+      ],
+      "full_index_2_adic": 6,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 1.362116
+    },
+    {
+      "a": 3,
+      "k": 12,
+      "n": 15,
+      "polynomial_degree": 70,
+      "coordinate_rows": 5,
+      "square_exponents": [
+        3
+      ],
+      "Euler_exponents": [],
+      "full_exponents": [
+        3
+      ],
+      "candidate_exponents": [
+        3
+      ],
+      "sector_indices_2_adic": [
+        3,
+        0
+      ],
+      "full_index_2_adic": 3,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 1.018149
+    },
+    {
+      "a": 3,
+      "k": 12,
+      "n": 15,
+      "polynomial_degree": 72,
+      "coordinate_rows": 3,
+      "square_exponents": [
+        3
+      ],
+      "Euler_exponents": [],
+      "full_exponents": [
+        3
+      ],
+      "candidate_exponents": [
+        3
+      ],
+      "sector_indices_2_adic": [
+        3,
+        0
+      ],
+      "full_index_2_adic": 3,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "Chern/typed-Schubert assembly",
+      "explicit_unit_gluing_generator": null,
+      "independent_FULL_Cartesian_row_module_crosscheck": false,
+      "seconds": 0.82344
+    }
+  ],
+  "higher_Cartesian_components": [
+    {
+      "a": 5,
+      "k": 4,
+      "n": 9,
+      "polynomial_degree": 14,
+      "coordinate_rows": 73,
+      "square_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "Euler_exponents": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "full_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "sector_indices_2_adic": [
+        4,
+        2
+      ],
+      "full_index_2_adic": 7,
+      "FULL_saturated_gluing_dimension": 1,
+      "original_image_mod2_overlap": 1,
+      "Gaussian_unit_overlap": 1,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 1
+      },
+      "method": "independent Cartesian D divided differences",
+      "supersedes_historical_fundamental_weight_timeout": true,
+      "seconds": 5.328853
+    },
+    {
+      "a": 5,
+      "k": 4,
+      "n": 9,
+      "polynomial_degree": 16,
+      "coordinate_rows": 99,
+      "square_exponents": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "Euler_exponents": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "full_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "candidate_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "sector_indices_2_adic": [
+        7,
+        4
+      ],
+      "full_index_2_adic": 13,
+      "FULL_saturated_gluing_dimension": 2,
+      "original_image_mod2_overlap": 2,
+      "Gaussian_unit_overlap": 2,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 2
+      },
+      "method": "independent Cartesian D divided differences",
+      "supersedes_historical_fundamental_weight_timeout": true,
+      "seconds": 9.930635
+    },
+    {
+      "a": 6,
+      "k": 2,
+      "n": 8,
+      "polynomial_degree": 22,
+      "coordinate_rows": 8,
+      "square_exponents": [
+        2
+      ],
+      "Euler_exponents": [
+        2
+      ],
+      "full_exponents": [
+        2,
+        2
+      ],
+      "candidate_exponents": [
+        2,
+        2
+      ],
+      "sector_indices_2_adic": [
+        2,
+        2
+      ],
+      "full_index_2_adic": 4,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "independent Cartesian D divided differences",
+      "supersedes_historical_fundamental_weight_timeout": false,
+      "seconds": 6.678731
+    },
+    {
+      "a": 4,
+      "k": 4,
+      "n": 8,
+      "polynomial_degree": 18,
+      "coordinate_rows": 47,
+      "square_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "Euler_exponents": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "full_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "candidate_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "sector_indices_2_adic": [
+        9,
+        4
+      ],
+      "full_index_2_adic": 13,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "independent Cartesian D divided differences",
+      "supersedes_historical_fundamental_weight_timeout": false,
+      "seconds": 5.16324
+    },
+    {
+      "a": 4,
+      "k": 4,
+      "n": 8,
+      "polynomial_degree": 24,
+      "coordinate_rows": 24,
+      "square_exponents": [
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "Euler_exponents": [
+        2,
+        2
+      ],
+      "full_exponents": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "candidate_exponents": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "sector_indices_2_adic": [
+        11,
+        4
+      ],
+      "full_index_2_adic": 15,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "independent Cartesian D divided differences",
+      "supersedes_historical_fundamental_weight_timeout": false,
+      "seconds": 13.905579
+    },
+    {
+      "a": 5,
+      "k": 4,
+      "n": 9,
+      "polynomial_degree": 22,
+      "coordinate_rows": 137,
+      "square_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "Euler_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "full_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "candidate_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "sector_indices_2_adic": [
+        13,
+        9
+      ],
+      "full_index_2_adic": 22,
+      "FULL_saturated_gluing_dimension": 0,
+      "original_image_mod2_overlap": 0,
+      "Gaussian_unit_overlap": 0,
+      "FULL_gluing_exhausted_by_unit_overlap": true,
+      "full_candidate_matches": true,
+      "base_ring": "ZZ",
+      "gluing_flag_pairs": {
+        "0,0": 0
+      },
+      "method": "independent Cartesian D divided differences",
+      "supersedes_historical_fundamental_weight_timeout": false,
+      "seconds": 72.239713
+    }
+  ],
+  "excluded_components": [],
+  "resource_limits": {
+    "Cartesian_component_seconds": 90,
+    "total_seconds": 480
+  },
+  "seconds": 215.477302,
+  "proof_snapshot_sha256_at_finalization": {
+    "TYPE_D_CANDIDATE.md": "419d410ab12e7520896cc819d198fad1363368113545ab6149d26fd4beb9f1b3",
+    "TYPE_D_FROBENIUS.md": "4a2e1272a2a3e7d51b41efdfe3a2099ccc6adcd7b49d296602a1141e30f26b0b",
+    "TYPE_D_SMITH.md": "e7323b70f600ff502715b395e25297324b6b87d80a5a03a3d6a9200934d8ff91",
+    "TYPE_D_SQUARE_THEOREM.md": "0d5f541a21e17d9e5560fb72ce789d3f1114e44405403f33a0c25a9ce446fb05",
+    "TYPE_D_EVEN_GLUING_THEOREM.md": "3224ef056357ecb6713adf003841e37692356c66a3a065fc44f5a66756fa6f58",
+    "TYPE_D_RELATIVE_EULER_EXTENSION.md": "6bbb89fb04b364ef0d2ae4e5097e58dd9c13debb52396d98e34f0ca1c7d613b9",
+    "TYPE_D_HEAD_EULER_B_COMPARISON.md": "5b6bb45086719a26851cf52d8086eeb45bf05a661f60f881d1b2a2ac5ac65a01"
+  },
+  "summary": {
+    "three_head_full_components": 132,
+    "independent_FULL_Cartesian_crosschecks": 16,
+    "higher_Cartesian_full_components": 6,
+    "FULL_saturated_gluing_dimensions_computed": 138,
+    "explicit_primitive_unit_gluing_generators": 27,
+    "old_timeouts_superseded": 2,
+    "excluded_components": 0,
+    "positive_level_gluing_counterexamples": 0,
+    "full_candidate_mismatches": 0
+  }
+}

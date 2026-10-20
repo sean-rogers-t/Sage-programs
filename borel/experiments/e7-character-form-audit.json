@@ -1,0 +1,22 @@
+{
+  "result": "passed",
+  "degrees_checked": 28,
+  "engine": "Python standard library only",
+  "weights": 56,
+  "moment_reflection_checks": 49,
+  "leading_characteristic_cases": 2,
+  "integral_permutation_reflections": 5,
+  "direct_laurent_lattices": 8,
+  "coefficient_positions": 164977,
+  "image_lattices_and_smith_lists": 84,
+  "embedded_sum_and_intersection_comparisons": 56,
+  "degree_five_witness_symbolic_and_lattice_checks": true,
+  "seconds": 1.516,
+  "source_hash_semantics": "SHA256 with CRLF normalized to LF.",
+  "source_sha256": {
+    "experiments/e7-character-form-results.json": "3ca87b95bedb7990b209e6d4094f4364862a334c34449c6e5969b7f41a45cf4d",
+    "experiments/exceptional-minuscule-results.json": "de3365d495630187405965aced0731e97b3846a3e8000f0b125f42bb38bd9f1c",
+    "experiments/audit_e7_character_form.py": "ae1f670ec4d7860a7c6fcdd6883e58199f82b42ef428b0e89af763f0e45c9e7c",
+    "experiments/audit_e6_character_form.py": "f5cb69082e8ad364f99333ec0d5079fb904c4cb01c106b1d2b1b918f6c026e31"
+  }
+}

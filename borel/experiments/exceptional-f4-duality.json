@@ -1,0 +1,16 @@
+{
+  "result": "passed",
+  "root_intertwining_identities": 64,
+  "independent_chevalley_image_identities": 20,
+  "paired_degree_matrices": 37,
+  "row_scaling_entries": 1556,
+  "scope": "Finite identities supporting the written root-duality proof, and complete original-form paired matrix comparison.",
+  "source_hash_semantics": "SHA256 of UTF-8 file bytes with CRLF normalized to LF, matching Git text blobs.",
+  "source_sha256": {
+    "experiments/exceptional-integral-results.json": "a0a8c282a26a9da03a46c9bfb755194fc2fbf71de90b700eec194b1e81e36c7f",
+    "experiments/exceptional_f4_duality.py": "c542e62ae591e2aebae9d2f75a52910e759209d231b44aa68db3ec45f8415fe8",
+    "tests/test_exceptional.py": "9f38f556e486149e303b84eaedb49a9de427602cd9ce3e86cb17ab62a1fc1e22",
+    "src/sage_borel/exceptional.py": "64ea1e3aeed113e517232cdaff6a09cc01a2c9b6a19fadd673e2630b5c01d1ec",
+    "src/sage_borel/data/exceptional_generators.json": "702bff624a8700d39567204c09f5365308e3f5b71817b476d0e8da38062b0a51"
+  }
+}

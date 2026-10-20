@@ -1,0 +1,62 @@
+{
+  "library_version": "0.7.0",
+  "sage_version": "9.5",
+  "python_version": "3.10.12",
+  "full_regression": {
+    "command": "PYTHONPATH=src BOREL_INTEGRAL_REPORT=integral-verification.json sage -python -m unittest discover -s tests -v",
+    "result": "passed",
+    "test_methods": 77,
+    "seconds": 56.232
+  },
+  "new_integral_suite": {
+    "test_methods": 12,
+    "result": "passed",
+    "seconds": 1.377,
+    "record": "integral-verification.json",
+    "independent_smith_reports_via_determinantal_divisors": 47,
+    "independent_cartesian_coefficient_matrices": 27,
+    "integer_preimages_checked": 38,
+    "sage_integer_scalar_regressions": 4
+  },
+  "bounded_springer_experiment": {
+    "script": "experiments/integral_springer_images.py",
+    "record": "experiments/integral-springer-results.json",
+    "result": "passed",
+    "chosen_forms": 23,
+    "degree_components": 159,
+    "integer_preimages_checked": 147,
+    "explicit_alternative_forms": 9,
+    "rejected_original_normalizations": 1,
+    "scope": "Finite A/B/C/D tail forms (D includes Euler), literal classical polynomial-character forms with explicit scales, G2/F4/E6/E7 catalogue cases. G2/P1 original quadratic rejected; explicit 4-times alternative recorded separately."
+  },
+  "documentation": {
+    "result": "passed",
+    "record": "documentation-verification.json",
+    "python_blocks_executed": 18,
+    "local_links_and_anchors_checked": 86,
+    "mathematical_guide": "INTEGRAL_IMAGES.md",
+    "literature_audit": "INTEGRAL_LITERATURE.md",
+    "example": "examples/integral_images.py"
+  },
+  "wheel": {
+    "filename": "sage_borel-0.7.0-py3-none-any.whl",
+    "bytes": 56232,
+    "sha256": "8133a03381d8bf713f6bf5fbafbee36651a70277c6eebad1f0e402fb17f2ebfd",
+    "isolated_import_verified": true,
+    "verified_import_path": "/tmp/sean-borel-070-isolated-20261019/sage_borel/__init__.py",
+    "import_check_tool": "tools/verify_wheel_import.py",
+    "installed_wheel_integral_example": "passed"
+  },
+  "historical_programs": {
+    "command": "python verify_legacy.py --checkout-bytes",
+    "result": "passed",
+    "unchanged_files": 35
+  },
+  "mathematical_scope": [
+    "Chosen generator normalizations determine the Z-algebra. Integral generator images are required, with no implicit denominator clearing.",
+    "Index is in saturation of the rational image, not necessarily full ambient cohomology.",
+    "Degreewise exact image lattices are not a complete integral kernel presentation; presentation() remains rational.",
+    "Normalized type-C saturation and classical literal-form scaling are deductions from established geometry and published normalizations.",
+    "No uniform exact selected B/D or exceptional Smith classification was located in the targeted literature audit; this is not a certification of novelty."
+  ]
+}

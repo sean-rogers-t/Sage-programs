@@ -1,0 +1,807 @@
+{
+  "result": "passed",
+  "sage_version": "9.5",
+  "seconds": 64.542,
+  "command": "PYTHONPATH=src sage -python experiments/type_c_joint_primitivity.py",
+  "scope": "Finite corroboration of the separate geometric proof; not a proof by enumeration.",
+  "historical_degree_rows_checked": 60,
+  "fresh_degree_rows": 78,
+  "simultaneous_basis_columns": 353,
+  "independent_cartesian_basis_columns": 12,
+  "cases": [
+    {
+      "a": 1,
+      "b": 1,
+      "k": 1,
+      "n": 3,
+      "degrees": [
+        {
+          "degree": 0,
+          "middle_rank": 1,
+          "tail_rank": 1,
+          "joint_rank": 1,
+          "mixed_quotient_rank": 0,
+          "basis_columns": 1,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 1,
+          "middle_rank": 1,
+          "tail_rank": 0,
+          "joint_rank": 1,
+          "mixed_quotient_rank": 0,
+          "basis_columns": 1,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 2,
+          "middle_rank": 1,
+          "tail_rank": 1,
+          "joint_rank": 2,
+          "mixed_quotient_rank": 0,
+          "basis_columns": 2,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 3,
+          "middle_rank": 1,
+          "tail_rank": 0,
+          "joint_rank": 2,
+          "mixed_quotient_rank": 1,
+          "basis_columns": 2,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 4,
+          "middle_rank": 1,
+          "tail_rank": 1,
+          "joint_rank": 2,
+          "mixed_quotient_rank": 0,
+          "basis_columns": 2,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 5,
+          "middle_rank": 1,
+          "tail_rank": 0,
+          "joint_rank": 2,
+          "mixed_quotient_rank": 1,
+          "basis_columns": 2,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 6,
+          "middle_rank": 0,
+          "tail_rank": 0,
+          "joint_rank": 1,
+          "mixed_quotient_rank": 1,
+          "basis_columns": 1,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 7,
+          "middle_rank": 0,
+          "tail_rank": 0,
+          "joint_rank": 1,
+          "mixed_quotient_rank": 1,
+          "basis_columns": 1,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 8,
+          "middle_rank": 0,
+          "tail_rank": 0,
+          "joint_rank": 0,
+          "mixed_quotient_rank": 0,
+          "basis_columns": 0,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 9,
+          "middle_rank": 0,
+          "tail_rank": 0,
+          "joint_rank": 0,
+          "mixed_quotient_rank": 0,
+          "basis_columns": 0,
+          "joint_and_sum_saturated": true
+        }
+      ]
+    },
+    {
+      "a": 1,
+      "b": 2,
+      "k": 1,
+      "n": 4,
+      "degrees": [
+        {
+          "degree": 0,
+          "middle_rank": 1,
+          "tail_rank": 1,
+          "joint_rank": 1,
+          "mixed_quotient_rank": 0,
+          "basis_columns": 1,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 1,
+          "middle_rank": 1,
+          "tail_rank": 0,
+          "joint_rank": 1,
+          "mixed_quotient_rank": 0,
+          "basis_columns": 1,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 2,
+          "middle_rank": 2,
+          "tail_rank": 1,
+          "joint_rank": 3,
+          "mixed_quotient_rank": 0,
+          "basis_columns": 3,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 3,
+          "middle_rank": 2,
+          "tail_rank": 0,
+          "joint_rank": 3,
+          "mixed_quotient_rank": 1,
+          "basis_columns": 3,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 4,
+          "middle_rank": 3,
+          "tail_rank": 1,
+          "joint_rank": 5,
+          "mixed_quotient_rank": 1,
+          "basis_columns": 5,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 5,
+          "middle_rank": 3,
+          "tail_rank": 0,
+          "joint_rank": 5,
+          "mixed_quotient_rank": 2,
+          "basis_columns": 5,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 6,
+          "middle_rank": 3,
+          "tail_rank": 1,
+          "joint_rank": 6,
+          "mixed_quotient_rank": 2,
+          "basis_columns": 6,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 7,
+          "middle_rank": 3,
+          "tail_rank": 0,
+          "joint_rank": 6,
+          "mixed_quotient_rank": 3,
+          "basis_columns": 6,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 8,
+          "middle_rank": 2,
+          "tail_rank": 0,
+          "joint_rank": 5,
+          "mixed_quotient_rank": 3,
+          "basis_columns": 5,
+          "joint_and_sum_saturated": true
+        }
+      ]
+    },
+    {
+      "a": 2,
+      "b": 2,
+      "k": 1,
+      "n": 5,
+      "degrees": [
+        {
+          "degree": 0,
+          "middle_rank": 1,
+          "tail_rank": 1,
+          "joint_rank": 1,
+          "mixed_quotient_rank": 0,
+          "basis_columns": 1,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 1,
+          "middle_rank": 1,
+          "tail_rank": 0,
+          "joint_rank": 1,
+          "mixed_quotient_rank": 0,
+          "basis_columns": 1,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 2,
+          "middle_rank": 2,
+          "tail_rank": 1,
+          "joint_rank": 3,
+          "mixed_quotient_rank": 0,
+          "basis_columns": 3,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 3,
+          "middle_rank": 2,
+          "tail_rank": 0,
+          "joint_rank": 3,
+          "mixed_quotient_rank": 1,
+          "basis_columns": 3,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 4,
+          "middle_rank": 3,
+          "tail_rank": 1,
+          "joint_rank": 6,
+          "mixed_quotient_rank": 2,
+          "basis_columns": 6,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 5,
+          "middle_rank": 3,
+          "tail_rank": 0,
+          "joint_rank": 6,
+          "mixed_quotient_rank": 3,
+          "basis_columns": 6,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 6,
+          "middle_rank": 4,
+          "tail_rank": 1,
+          "joint_rank": 9,
+          "mixed_quotient_rank": 4,
+          "basis_columns": 9,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 7,
+          "middle_rank": 4,
+          "tail_rank": 0,
+          "joint_rank": 9,
+          "mixed_quotient_rank": 5,
+          "basis_columns": 9,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 8,
+          "middle_rank": 4,
+          "tail_rank": 1,
+          "joint_rank": 11,
+          "mixed_quotient_rank": 6,
+          "basis_columns": 11,
+          "joint_and_sum_saturated": true
+        }
+      ]
+    },
+    {
+      "a": 1,
+      "b": 3,
+      "k": 1,
+      "n": 5,
+      "degrees": [
+        {
+          "degree": 0,
+          "middle_rank": 1,
+          "tail_rank": 1,
+          "joint_rank": 1,
+          "mixed_quotient_rank": 0,
+          "basis_columns": 1,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 1,
+          "middle_rank": 1,
+          "tail_rank": 0,
+          "joint_rank": 1,
+          "mixed_quotient_rank": 0,
+          "basis_columns": 1,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 2,
+          "middle_rank": 2,
+          "tail_rank": 1,
+          "joint_rank": 3,
+          "mixed_quotient_rank": 0,
+          "basis_columns": 3,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 3,
+          "middle_rank": 3,
+          "tail_rank": 0,
+          "joint_rank": 4,
+          "mixed_quotient_rank": 1,
+          "basis_columns": 4,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 4,
+          "middle_rank": 4,
+          "tail_rank": 1,
+          "joint_rank": 6,
+          "mixed_quotient_rank": 1,
+          "basis_columns": 6,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 5,
+          "middle_rank": 5,
+          "tail_rank": 0,
+          "joint_rank": 8,
+          "mixed_quotient_rank": 3,
+          "basis_columns": 8,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 6,
+          "middle_rank": 6,
+          "tail_rank": 1,
+          "joint_rank": 10,
+          "mixed_quotient_rank": 3,
+          "basis_columns": 10,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 7,
+          "middle_rank": 7,
+          "tail_rank": 0,
+          "joint_rank": 12,
+          "mixed_quotient_rank": 5,
+          "basis_columns": 12,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 8,
+          "middle_rank": 7,
+          "tail_rank": 1,
+          "joint_rank": 13,
+          "mixed_quotient_rank": 5,
+          "basis_columns": 13,
+          "joint_and_sum_saturated": true
+        }
+      ]
+    },
+    {
+      "a": 2,
+      "b": 1,
+      "k": 2,
+      "n": 5,
+      "degrees": [
+        {
+          "degree": 0,
+          "middle_rank": 1,
+          "tail_rank": 1,
+          "joint_rank": 1,
+          "mixed_quotient_rank": 0,
+          "basis_columns": 1,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 1,
+          "middle_rank": 1,
+          "tail_rank": 0,
+          "joint_rank": 1,
+          "mixed_quotient_rank": 0,
+          "basis_columns": 1,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 2,
+          "middle_rank": 1,
+          "tail_rank": 1,
+          "joint_rank": 2,
+          "mixed_quotient_rank": 0,
+          "basis_columns": 2,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 3,
+          "middle_rank": 1,
+          "tail_rank": 0,
+          "joint_rank": 2,
+          "mixed_quotient_rank": 1,
+          "basis_columns": 2,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 4,
+          "middle_rank": 1,
+          "tail_rank": 2,
+          "joint_rank": 4,
+          "mixed_quotient_rank": 1,
+          "basis_columns": 4,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 5,
+          "middle_rank": 1,
+          "tail_rank": 0,
+          "joint_rank": 4,
+          "mixed_quotient_rank": 3,
+          "basis_columns": 4,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 6,
+          "middle_rank": 1,
+          "tail_rank": 2,
+          "joint_rank": 5,
+          "mixed_quotient_rank": 2,
+          "basis_columns": 5,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 7,
+          "middle_rank": 1,
+          "tail_rank": 0,
+          "joint_rank": 5,
+          "mixed_quotient_rank": 4,
+          "basis_columns": 5,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 8,
+          "middle_rank": 1,
+          "tail_rank": 2,
+          "joint_rank": 6,
+          "mixed_quotient_rank": 3,
+          "basis_columns": 6,
+          "joint_and_sum_saturated": true
+        }
+      ]
+    },
+    {
+      "a": 1,
+      "b": 1,
+      "k": 3,
+      "n": 5,
+      "degrees": [
+        {
+          "degree": 0,
+          "middle_rank": 1,
+          "tail_rank": 1,
+          "joint_rank": 1,
+          "mixed_quotient_rank": 0,
+          "basis_columns": 1,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 1,
+          "middle_rank": 1,
+          "tail_rank": 0,
+          "joint_rank": 1,
+          "mixed_quotient_rank": 0,
+          "basis_columns": 1,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 2,
+          "middle_rank": 1,
+          "tail_rank": 1,
+          "joint_rank": 2,
+          "mixed_quotient_rank": 0,
+          "basis_columns": 2,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 3,
+          "middle_rank": 1,
+          "tail_rank": 0,
+          "joint_rank": 2,
+          "mixed_quotient_rank": 1,
+          "basis_columns": 2,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 4,
+          "middle_rank": 1,
+          "tail_rank": 2,
+          "joint_rank": 3,
+          "mixed_quotient_rank": 0,
+          "basis_columns": 3,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 5,
+          "middle_rank": 1,
+          "tail_rank": 0,
+          "joint_rank": 3,
+          "mixed_quotient_rank": 2,
+          "basis_columns": 3,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 6,
+          "middle_rank": 1,
+          "tail_rank": 2,
+          "joint_rank": 4,
+          "mixed_quotient_rank": 1,
+          "basis_columns": 4,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 7,
+          "middle_rank": 1,
+          "tail_rank": 0,
+          "joint_rank": 4,
+          "mixed_quotient_rank": 3,
+          "basis_columns": 4,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 8,
+          "middle_rank": 1,
+          "tail_rank": 2,
+          "joint_rank": 4,
+          "mixed_quotient_rank": 1,
+          "basis_columns": 4,
+          "joint_and_sum_saturated": true
+        }
+      ]
+    },
+    {
+      "a": 2,
+      "b": 2,
+      "k": 2,
+      "n": 6,
+      "degrees": [
+        {
+          "degree": 0,
+          "middle_rank": 1,
+          "tail_rank": 1,
+          "joint_rank": 1,
+          "mixed_quotient_rank": 0,
+          "basis_columns": 1,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 1,
+          "middle_rank": 1,
+          "tail_rank": 0,
+          "joint_rank": 1,
+          "mixed_quotient_rank": 0,
+          "basis_columns": 1,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 2,
+          "middle_rank": 2,
+          "tail_rank": 1,
+          "joint_rank": 3,
+          "mixed_quotient_rank": 0,
+          "basis_columns": 3,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 3,
+          "middle_rank": 2,
+          "tail_rank": 0,
+          "joint_rank": 3,
+          "mixed_quotient_rank": 1,
+          "basis_columns": 3,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 4,
+          "middle_rank": 3,
+          "tail_rank": 2,
+          "joint_rank": 7,
+          "mixed_quotient_rank": 2,
+          "basis_columns": 7,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 5,
+          "middle_rank": 3,
+          "tail_rank": 0,
+          "joint_rank": 7,
+          "mixed_quotient_rank": 4,
+          "basis_columns": 7,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 6,
+          "middle_rank": 4,
+          "tail_rank": 2,
+          "joint_rank": 12,
+          "mixed_quotient_rank": 6,
+          "basis_columns": 12,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 7,
+          "middle_rank": 4,
+          "tail_rank": 0,
+          "joint_rank": 12,
+          "mixed_quotient_rank": 8,
+          "basis_columns": 12,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 8,
+          "middle_rank": 5,
+          "tail_rank": 3,
+          "joint_rank": 18,
+          "mixed_quotient_rank": 10,
+          "basis_columns": 18,
+          "joint_and_sum_saturated": true
+        }
+      ]
+    },
+    {
+      "a": 1,
+      "b": 3,
+      "k": 2,
+      "n": 6,
+      "degrees": [
+        {
+          "degree": 0,
+          "middle_rank": 1,
+          "tail_rank": 1,
+          "joint_rank": 1,
+          "mixed_quotient_rank": 0,
+          "basis_columns": 1,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 1,
+          "middle_rank": 1,
+          "tail_rank": 0,
+          "joint_rank": 1,
+          "mixed_quotient_rank": 0,
+          "basis_columns": 1,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 2,
+          "middle_rank": 2,
+          "tail_rank": 1,
+          "joint_rank": 3,
+          "mixed_quotient_rank": 0,
+          "basis_columns": 3,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 3,
+          "middle_rank": 3,
+          "tail_rank": 0,
+          "joint_rank": 4,
+          "mixed_quotient_rank": 1,
+          "basis_columns": 4,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 4,
+          "middle_rank": 4,
+          "tail_rank": 2,
+          "joint_rank": 7,
+          "mixed_quotient_rank": 1,
+          "basis_columns": 7,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 5,
+          "middle_rank": 5,
+          "tail_rank": 0,
+          "joint_rank": 9,
+          "mixed_quotient_rank": 4,
+          "basis_columns": 9,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 6,
+          "middle_rank": 7,
+          "tail_rank": 2,
+          "joint_rank": 13,
+          "mixed_quotient_rank": 4,
+          "basis_columns": 13,
+          "joint_and_sum_saturated": true
+        }
+      ]
+    },
+    {
+      "a": 2,
+      "b": 3,
+      "k": 2,
+      "n": 7,
+      "degrees": [
+        {
+          "degree": 0,
+          "middle_rank": 1,
+          "tail_rank": 1,
+          "joint_rank": 1,
+          "mixed_quotient_rank": 0,
+          "basis_columns": 1,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 1,
+          "middle_rank": 1,
+          "tail_rank": 0,
+          "joint_rank": 1,
+          "mixed_quotient_rank": 0,
+          "basis_columns": 1,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 2,
+          "middle_rank": 2,
+          "tail_rank": 1,
+          "joint_rank": 3,
+          "mixed_quotient_rank": 0,
+          "basis_columns": 3,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 3,
+          "middle_rank": 3,
+          "tail_rank": 0,
+          "joint_rank": 4,
+          "mixed_quotient_rank": 1,
+          "basis_columns": 4,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 4,
+          "middle_rank": 4,
+          "tail_rank": 2,
+          "joint_rank": 8,
+          "mixed_quotient_rank": 2,
+          "basis_columns": 8,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 5,
+          "middle_rank": 5,
+          "tail_rank": 0,
+          "joint_rank": 10,
+          "mixed_quotient_rank": 5,
+          "basis_columns": 10,
+          "joint_and_sum_saturated": true
+        },
+        {
+          "degree": 6,
+          "middle_rank": 7,
+          "tail_rank": 2,
+          "joint_rank": 16,
+          "mixed_quotient_rank": 7,
+          "basis_columns": 16,
+          "joint_and_sum_saturated": true
+        }
+      ]
+    }
+  ],
+  "source_sha256": {
+    "experiments/type_c_joint_primitivity.py": "776e88522ef8f6cd0f152944ab709b7c12044cdee20af9d23f7b23fd386c196d",
+    "TYPE_C_JOINT_PRIMITIVITY.md": "2ff5b025cd077955b25082a6058db0673cc01c13c6e5df613dc5683f54dc45bf",
+    "tests/oracle.py": "01976367d70b5f0adc88c95ce1b4b7abf3019d9c704410ca8d266cd8562874ae",
+    "src/sage_borel/__init__.py": "e8b0258ef81770102e2ff0b4c9b734dde01ce6030f3145585ce9639219d41e9d",
+    "src/sage_borel/algebra.py": "7fdf2deb8808961e1c3964c077fd4930e16e0ad8924144f3f2910726a8c46a4d",
+    "src/sage_borel/classical.py": "745666cf40d86e0afd095e4139e7a66889b3c578fda743bde06969e15d7ae088",
+    "src/sage_borel/coinvariant.py": "76859a189bc4b20b8592adcca7250f8f7bde18738b3256c830d8bf0f938bf0d9",
+    "src/sage_borel/core.py": "c21a7b8893c5155efc71123264d698b7504dd89d8657b0612f57e0cb05118751",
+    "src/sage_borel/exceptional.py": "9d50124e41984f5fa8b96cb41c648886b4b4f08892de9faf7cf7e1bbd099800b",
+    "src/sage_borel/expansion.py": "ecaf6a4439b8ff916dfc54716f9a3d1fc6bc03fbb17e8f30b08351480573cc46",
+    "src/sage_borel/families.py": "8d4a0cd068b800ea67ae38041f8ad6e576b88924ca0c83e81213ffd95694a34c",
+    "src/sage_borel/integral.py": "5e406be9f94d851821c3aff387eb1d1f81ef0172b94841ae0c3def7be6b465b4",
+    "src/sage_borel/inverse.py": "e7c222ff9454589e8cffd8fccf0b01f7663d21140c24a83aab99bc7b9879c380",
+    "src/sage_borel/lattices.py": "8fe8cf54e87e984cd728f219f453f68592aa589d849c41b152f03ebbb735f715",
+    "src/sage_borel/operations.py": "0429729152ddebd67d0034cdb5ef4953ed2091468168bd24f97ced4f2254b857",
+    "src/sage_borel/orthogonal.py": "4583d17ec943c639b021238d1af50769dd7b6502d60cb209e6523a00c3b0efd5",
+    "src/sage_borel/presentation.py": "0d28e847571a18b0a819a45b9df582f6a62138c309c5c4bf152c7331c6bbfff0",
+    "src/sage_borel/products.py": "f0cd691c717a65f0ca4f288acb4d359b1f3f352ce1efc8d161eb3f3d0bca780b"
+  }
+}

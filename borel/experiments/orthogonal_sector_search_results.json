@@ -1,0 +1,6613 @@
+{
+  "schema_version": 1,
+  "sage_version": "9.5",
+  "generated_utc": "2026-10-19T16:13:45.123842+00:00",
+  "scope": "Finite sector and integral gluing experiment; no general Smith theorem assumed.",
+  "degree_convention": "polynomial degree d is cohomological degree 2d",
+  "normalization": "unscaled elementary squared tail generators and Euler product",
+  "ambient_basis_enumerated": false,
+  "cases": [
+    {
+      "n": 4,
+      "k": 2,
+      "a": 2,
+      "maximum_polynomial_degree": 9,
+      "euler_parity": "even",
+      "degrees": [
+        {
+          "polynomial_degree": 0,
+          "status": "computed",
+          "square": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "euler": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "combined": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 1,
+          "square_columns": 1,
+          "euler_columns": 0,
+          "seconds": 0.085567,
+          "agrees_with_full_generator_algebra_search": true
+        },
+        {
+          "polynomial_degree": 2,
+          "status": "computed",
+          "square": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "euler": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "combined": {
+            "rank": 2,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1",
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0,
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 2
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 3,
+          "square_columns": 1,
+          "euler_columns": 1,
+          "seconds": 0.055109,
+          "agrees_with_full_generator_algebra_search": true
+        },
+        {
+          "polynomial_degree": 4,
+          "status": "computed",
+          "square": {
+            "rank": 2,
+            "saturation_index": "2",
+            "smith_factors": [
+              "1",
+              "2"
+            ],
+            "power_of_two_exponents": [
+              0,
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1,
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1
+            ]
+          },
+          "euler": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "combined": {
+            "rank": 3,
+            "saturation_index": "4",
+            "smith_factors": [
+              "1",
+              "2",
+              "2"
+            ],
+            "power_of_two_exponents": [
+              0,
+              1,
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1,
+              "1": 2
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1,
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 2,
+            "saturation_index": "2",
+            "smith_factors": [
+              "1",
+              "2"
+            ],
+            "power_of_two_exponents": [
+              0,
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1,
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1
+            ]
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "2",
+          "schubert_support_size": 4,
+          "square_columns": 2,
+          "euler_columns": 1,
+          "seconds": 0.115848,
+          "agrees_with_full_generator_algebra_search": true,
+          "schubert_indices": [
+            [
+              2,
+              3,
+              1,
+              2
+            ],
+            [
+              2,
+              4,
+              1,
+              2
+            ],
+            [
+              2,
+              4,
+              3,
+              2
+            ],
+            [
+              4,
+              3,
+              1,
+              2
+            ]
+          ],
+          "square_matrix": {
+            "rows": 4,
+            "columns": 2,
+            "entries": [
+              {
+                "row": 0,
+                "column": 0,
+                "value": "1"
+              },
+              {
+                "row": 0,
+                "column": 1,
+                "value": "2"
+              },
+              {
+                "row": 1,
+                "column": 0,
+                "value": "1"
+              },
+              {
+                "row": 1,
+                "column": 1,
+                "value": "2"
+              },
+              {
+                "row": 2,
+                "column": 0,
+                "value": "2"
+              },
+              {
+                "row": 2,
+                "column": 1,
+                "value": "2"
+              },
+              {
+                "row": 3,
+                "column": 0,
+                "value": "-2"
+              },
+              {
+                "row": 3,
+                "column": 1,
+                "value": "-2"
+              }
+            ]
+          },
+          "euler_matrix": {
+            "rows": 4,
+            "columns": 1,
+            "entries": [
+              {
+                "row": 0,
+                "column": 0,
+                "value": "-1"
+              },
+              {
+                "row": 1,
+                "column": 0,
+                "value": "1"
+              }
+            ]
+          }
+        },
+        {
+          "polynomial_degree": 6,
+          "status": "computed",
+          "square": {
+            "rank": 1,
+            "saturation_index": "2",
+            "smith_factors": [
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "euler": {
+            "rank": 1,
+            "saturation_index": "2",
+            "smith_factors": [
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "combined": {
+            "rank": 2,
+            "saturation_index": "4",
+            "smith_factors": [
+              "2",
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1,
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 2
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 1,
+            "saturation_index": "2",
+            "smith_factors": [
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 1,
+            "saturation_index": "2",
+            "smith_factors": [
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 3,
+          "square_columns": 2,
+          "euler_columns": 2,
+          "seconds": 0.142469,
+          "agrees_with_full_generator_algebra_search": true
+        },
+        {
+          "polynomial_degree": 8,
+          "status": "computed",
+          "square": {
+            "rank": 1,
+            "saturation_index": "4",
+            "smith_factors": [
+              "4"
+            ],
+            "power_of_two_exponents": [
+              2
+            ],
+            "power_of_two_multiplicities": {
+              "2": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "euler": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "combined": {
+            "rank": 1,
+            "saturation_index": "4",
+            "smith_factors": [
+              "4"
+            ],
+            "power_of_two_exponents": [
+              2
+            ],
+            "power_of_two_multiplicities": {
+              "2": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 1,
+            "saturation_index": "4",
+            "smith_factors": [
+              "4"
+            ],
+            "power_of_two_exponents": [
+              2
+            ],
+            "power_of_two_multiplicities": {
+              "2": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 1,
+          "square_columns": 3,
+          "euler_columns": 2,
+          "seconds": 0.129679,
+          "agrees_with_full_generator_algebra_search": true
+        }
+      ],
+      "complete": true,
+      "total_seconds": 0.868339
+    },
+    {
+      "n": 4,
+      "k": 3,
+      "a": 1,
+      "maximum_polynomial_degree": 6,
+      "euler_parity": "odd",
+      "degrees": [
+        {
+          "polynomial_degree": 0,
+          "status": "computed",
+          "square": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "euler": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "combined": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 1,
+          "square_columns": 1,
+          "euler_columns": 0,
+          "seconds": 0.027948,
+          "agrees_with_full_generator_algebra_search": true
+        },
+        {
+          "polynomial_degree": 2,
+          "status": "computed",
+          "square": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "euler": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "combined": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 1,
+          "square_columns": 1,
+          "euler_columns": 0,
+          "seconds": 0.011524,
+          "agrees_with_full_generator_algebra_search": true
+        },
+        {
+          "polynomial_degree": 3,
+          "status": "computed",
+          "square": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "euler": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "combined": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 2,
+          "square_columns": 0,
+          "euler_columns": 1,
+          "seconds": 0.013731,
+          "agrees_with_full_generator_algebra_search": true
+        },
+        {
+          "polynomial_degree": 4,
+          "status": "computed",
+          "square": {
+            "rank": 1,
+            "saturation_index": "2",
+            "smith_factors": [
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "euler": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "combined": {
+            "rank": 1,
+            "saturation_index": "2",
+            "smith_factors": [
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 1,
+            "saturation_index": "2",
+            "smith_factors": [
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 1,
+          "square_columns": 2,
+          "euler_columns": 0,
+          "seconds": 0.031959,
+          "agrees_with_full_generator_algebra_search": true
+        },
+        {
+          "polynomial_degree": 5,
+          "status": "computed",
+          "square": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "euler": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "combined": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "B_n_reference": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 0,
+          "square_columns": 0,
+          "euler_columns": 1,
+          "seconds": 0.007174,
+          "agrees_with_full_generator_algebra_search": true
+        },
+        {
+          "polynomial_degree": 6,
+          "status": "computed",
+          "square": {
+            "rank": 1,
+            "saturation_index": "2",
+            "smith_factors": [
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "euler": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "combined": {
+            "rank": 1,
+            "saturation_index": "2",
+            "smith_factors": [
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 1,
+            "saturation_index": "2",
+            "smith_factors": [
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 1,
+          "square_columns": 3,
+          "euler_columns": 0,
+          "seconds": 0.064429,
+          "agrees_with_full_generator_algebra_search": true
+        }
+      ],
+      "complete": true,
+      "total_seconds": 0.221281
+    },
+    {
+      "n": 5,
+      "k": 2,
+      "a": 3,
+      "maximum_polynomial_degree": 12,
+      "euler_parity": "even",
+      "degrees": [
+        {
+          "polynomial_degree": 0,
+          "status": "computed",
+          "square": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "euler": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "combined": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 1,
+          "square_columns": 1,
+          "euler_columns": 0,
+          "seconds": 0.041163,
+          "agrees_with_full_generator_algebra_search": true
+        },
+        {
+          "polynomial_degree": 2,
+          "status": "computed",
+          "square": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "euler": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "combined": {
+            "rank": 2,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1",
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0,
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 2
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 3,
+          "square_columns": 1,
+          "euler_columns": 1,
+          "seconds": 0.034406,
+          "agrees_with_full_generator_algebra_search": true
+        },
+        {
+          "polynomial_degree": 4,
+          "status": "computed",
+          "square": {
+            "rank": 2,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1",
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0,
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 2
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1
+            ]
+          },
+          "euler": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "combined": {
+            "rank": 3,
+            "saturation_index": "2",
+            "smith_factors": [
+              "1",
+              "1",
+              "2"
+            ],
+            "power_of_two_exponents": [
+              0,
+              0,
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "0": 2,
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1,
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 2,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1",
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0,
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 2
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1
+            ]
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "2",
+          "schubert_support_size": 6,
+          "square_columns": 2,
+          "euler_columns": 1,
+          "seconds": 0.103235,
+          "agrees_with_full_generator_algebra_search": true
+        },
+        {
+          "polynomial_degree": 6,
+          "status": "computed",
+          "square": {
+            "rank": 2,
+            "saturation_index": "2",
+            "smith_factors": [
+              "1",
+              "2"
+            ],
+            "power_of_two_exponents": [
+              0,
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1,
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1
+            ]
+          },
+          "euler": {
+            "rank": 2,
+            "saturation_index": "2",
+            "smith_factors": [
+              "1",
+              "2"
+            ],
+            "power_of_two_exponents": [
+              0,
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1,
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1
+            ]
+          },
+          "combined": {
+            "rank": 4,
+            "saturation_index": "8",
+            "smith_factors": [
+              "1",
+              "2",
+              "2",
+              "2"
+            ],
+            "power_of_two_exponents": [
+              0,
+              1,
+              1,
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1,
+              "1": 3
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 2,
+            "saturation_index": "2",
+            "smith_factors": [
+              "1",
+              "2"
+            ],
+            "power_of_two_exponents": [
+              0,
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1,
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1
+            ]
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 2,
+            "saturation_index": "2",
+            "smith_factors": [
+              "1",
+              "2"
+            ],
+            "power_of_two_exponents": [
+              0,
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1,
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1
+            ]
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "2",
+          "schubert_support_size": 9,
+          "square_columns": 2,
+          "euler_columns": 2,
+          "seconds": 0.171052,
+          "agrees_with_full_generator_algebra_search": true
+        },
+        {
+          "polynomial_degree": 8,
+          "status": "computed",
+          "square": {
+            "rank": 2,
+            "saturation_index": "4",
+            "smith_factors": [
+              "2",
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1,
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 2
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1
+            ]
+          },
+          "euler": {
+            "rank": 1,
+            "saturation_index": "2",
+            "smith_factors": [
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "combined": {
+            "rank": 3,
+            "saturation_index": "8",
+            "smith_factors": [
+              "2",
+              "2",
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1,
+              1,
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 3
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1,
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 2,
+            "saturation_index": "4",
+            "smith_factors": [
+              "2",
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1,
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 2
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1
+            ]
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 1,
+            "saturation_index": "2",
+            "smith_factors": [
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 9,
+          "square_columns": 3,
+          "euler_columns": 2,
+          "seconds": 0.406319,
+          "agrees_with_full_generator_algebra_search": true
+        },
+        {
+          "polynomial_degree": 10,
+          "status": "computed",
+          "square": {
+            "rank": 1,
+            "saturation_index": "2",
+            "smith_factors": [
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "euler": {
+            "rank": 1,
+            "saturation_index": "4",
+            "smith_factors": [
+              "4"
+            ],
+            "power_of_two_exponents": [
+              2
+            ],
+            "power_of_two_multiplicities": {
+              "2": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "combined": {
+            "rank": 2,
+            "saturation_index": "8",
+            "smith_factors": [
+              "2",
+              "4"
+            ],
+            "power_of_two_exponents": [
+              1,
+              2
+            ],
+            "power_of_two_multiplicities": {
+              "1": 1,
+              "2": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 1,
+            "saturation_index": "2",
+            "smith_factors": [
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 1,
+            "saturation_index": "4",
+            "smith_factors": [
+              "4"
+            ],
+            "power_of_two_exponents": [
+              2
+            ],
+            "power_of_two_multiplicities": {
+              "2": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 5,
+          "square_columns": 3,
+          "euler_columns": 3,
+          "seconds": 0.430219,
+          "agrees_with_full_generator_algebra_search": true
+        },
+        {
+          "polynomial_degree": 12,
+          "status": "computed",
+          "square": {
+            "rank": 1,
+            "saturation_index": "4",
+            "smith_factors": [
+              "4"
+            ],
+            "power_of_two_exponents": [
+              2
+            ],
+            "power_of_two_multiplicities": {
+              "2": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "euler": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "combined": {
+            "rank": 1,
+            "saturation_index": "4",
+            "smith_factors": [
+              "4"
+            ],
+            "power_of_two_exponents": [
+              2
+            ],
+            "power_of_two_multiplicities": {
+              "2": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 1,
+            "saturation_index": "4",
+            "smith_factors": [
+              "4"
+            ],
+            "power_of_two_exponents": [
+              2
+            ],
+            "power_of_two_multiplicities": {
+              "2": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 2,
+          "square_columns": 4,
+          "euler_columns": 3,
+          "seconds": 0.628916,
+          "agrees_with_full_generator_algebra_search": true
+        }
+      ],
+      "complete": true,
+      "total_seconds": 1.927084
+    },
+    {
+      "n": 5,
+      "k": 3,
+      "a": 2,
+      "maximum_polynomial_degree": 12,
+      "euler_parity": "odd",
+      "degrees": [
+        {
+          "polynomial_degree": 0,
+          "status": "computed",
+          "square": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "euler": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "combined": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 1,
+          "square_columns": 1,
+          "euler_columns": 0,
+          "seconds": 0.069737,
+          "agrees_with_full_generator_algebra_search": true
+        },
+        {
+          "polynomial_degree": 2,
+          "status": "computed",
+          "square": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "euler": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "combined": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 2,
+          "square_columns": 1,
+          "euler_columns": 0,
+          "seconds": 0.01369,
+          "agrees_with_full_generator_algebra_search": true
+        },
+        {
+          "polynomial_degree": 3,
+          "status": "computed",
+          "square": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "euler": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "combined": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 2,
+          "square_columns": 0,
+          "euler_columns": 1,
+          "seconds": 0.015415,
+          "agrees_with_full_generator_algebra_search": true
+        },
+        {
+          "polynomial_degree": 4,
+          "status": "computed",
+          "square": {
+            "rank": 2,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1",
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0,
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 2
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1
+            ]
+          },
+          "euler": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "combined": {
+            "rank": 2,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1",
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0,
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 2
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 2,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1",
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0,
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 2
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1
+            ]
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 4,
+          "square_columns": 2,
+          "euler_columns": 0,
+          "seconds": 0.062334,
+          "agrees_with_full_generator_algebra_search": true
+        },
+        {
+          "polynomial_degree": 5,
+          "status": "computed",
+          "square": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "euler": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "combined": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 2,
+          "square_columns": 0,
+          "euler_columns": 1,
+          "seconds": 0.013871,
+          "agrees_with_full_generator_algebra_search": true
+        },
+        {
+          "polynomial_degree": 6,
+          "status": "computed",
+          "square": {
+            "rank": 2,
+            "saturation_index": "2",
+            "smith_factors": [
+              "1",
+              "2"
+            ],
+            "power_of_two_exponents": [
+              0,
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1,
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1
+            ]
+          },
+          "euler": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "combined": {
+            "rank": 2,
+            "saturation_index": "2",
+            "smith_factors": [
+              "1",
+              "2"
+            ],
+            "power_of_two_exponents": [
+              0,
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1,
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 2,
+            "saturation_index": "2",
+            "smith_factors": [
+              "1",
+              "2"
+            ],
+            "power_of_two_exponents": [
+              0,
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1,
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1
+            ]
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 5,
+          "square_columns": 3,
+          "euler_columns": 0,
+          "seconds": 0.154115,
+          "agrees_with_full_generator_algebra_search": true
+        },
+        {
+          "polynomial_degree": 7,
+          "status": "computed",
+          "square": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "euler": {
+            "rank": 1,
+            "saturation_index": "2",
+            "smith_factors": [
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "combined": {
+            "rank": 1,
+            "saturation_index": "2",
+            "smith_factors": [
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 1,
+            "saturation_index": "2",
+            "smith_factors": [
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 2,
+          "square_columns": 0,
+          "euler_columns": 2,
+          "seconds": 0.039738,
+          "agrees_with_full_generator_algebra_search": true
+        },
+        {
+          "polynomial_degree": 8,
+          "status": "computed",
+          "square": {
+            "rank": 2,
+            "saturation_index": "4",
+            "smith_factors": [
+              "2",
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1,
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 2
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1
+            ]
+          },
+          "euler": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "combined": {
+            "rank": 2,
+            "saturation_index": "4",
+            "smith_factors": [
+              "2",
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1,
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 2
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 2,
+            "saturation_index": "4",
+            "smith_factors": [
+              "2",
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1,
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 2
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1
+            ]
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 3,
+          "square_columns": 4,
+          "euler_columns": 0,
+          "seconds": 0.205157,
+          "agrees_with_full_generator_algebra_search": true
+        },
+        {
+          "polynomial_degree": 9,
+          "status": "computed",
+          "square": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "euler": {
+            "rank": 1,
+            "saturation_index": "2",
+            "smith_factors": [
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "combined": {
+            "rank": 1,
+            "saturation_index": "2",
+            "smith_factors": [
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 1,
+            "saturation_index": "2",
+            "smith_factors": [
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 2,
+          "square_columns": 0,
+          "euler_columns": 3,
+          "seconds": 0.083733,
+          "agrees_with_full_generator_algebra_search": true
+        },
+        {
+          "polynomial_degree": 10,
+          "status": "computed",
+          "square": {
+            "rank": 1,
+            "saturation_index": "2",
+            "smith_factors": [
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "euler": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "combined": {
+            "rank": 1,
+            "saturation_index": "2",
+            "smith_factors": [
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 1,
+            "saturation_index": "2",
+            "smith_factors": [
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 2,
+          "square_columns": 5,
+          "euler_columns": 0,
+          "seconds": 0.30513,
+          "agrees_with_full_generator_algebra_search": true
+        },
+        {
+          "polynomial_degree": 11,
+          "status": "computed",
+          "square": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "euler": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "combined": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "B_n_reference": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 0,
+          "square_columns": 0,
+          "euler_columns": 4,
+          "seconds": 0.133129,
+          "agrees_with_full_generator_algebra_search": true
+        },
+        {
+          "polynomial_degree": 12,
+          "status": "computed",
+          "square": {
+            "rank": 1,
+            "saturation_index": "4",
+            "smith_factors": [
+              "4"
+            ],
+            "power_of_two_exponents": [
+              2
+            ],
+            "power_of_two_multiplicities": {
+              "2": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "euler": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "combined": {
+            "rank": 1,
+            "saturation_index": "4",
+            "smith_factors": [
+              "4"
+            ],
+            "power_of_two_exponents": [
+              2
+            ],
+            "power_of_two_multiplicities": {
+              "2": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 1,
+            "saturation_index": "4",
+            "smith_factors": [
+              "4"
+            ],
+            "power_of_two_exponents": [
+              2
+            ],
+            "power_of_two_multiplicities": {
+              "2": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 1,
+          "square_columns": 7,
+          "euler_columns": 0,
+          "seconds": 0.669044,
+          "agrees_with_full_generator_algebra_search": true
+        }
+      ],
+      "complete": true,
+      "total_seconds": 1.886032
+    },
+    {
+      "n": 5,
+      "k": 4,
+      "a": 1,
+      "maximum_polynomial_degree": 8,
+      "euler_parity": "even",
+      "degrees": [
+        {
+          "polynomial_degree": 0,
+          "status": "computed",
+          "square": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "euler": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "combined": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 1,
+          "square_columns": 1,
+          "euler_columns": 0,
+          "seconds": 0.042526,
+          "agrees_with_full_generator_algebra_search": true
+        },
+        {
+          "polynomial_degree": 2,
+          "status": "computed",
+          "square": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "euler": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "combined": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 1,
+          "square_columns": 1,
+          "euler_columns": 0,
+          "seconds": 0.012918,
+          "agrees_with_full_generator_algebra_search": true
+        },
+        {
+          "polynomial_degree": 4,
+          "status": "computed",
+          "square": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "euler": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "combined": {
+            "rank": 2,
+            "saturation_index": "2",
+            "smith_factors": [
+              "1",
+              "2"
+            ],
+            "power_of_two_exponents": [
+              0,
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1,
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "2",
+          "schubert_support_size": 2,
+          "square_columns": 2,
+          "euler_columns": 1,
+          "seconds": 0.036212,
+          "agrees_with_full_generator_algebra_search": true
+        },
+        {
+          "polynomial_degree": 6,
+          "status": "computed",
+          "square": {
+            "rank": 1,
+            "saturation_index": "2",
+            "smith_factors": [
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "euler": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "combined": {
+            "rank": 1,
+            "saturation_index": "2",
+            "smith_factors": [
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 1,
+            "saturation_index": "2",
+            "smith_factors": [
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 1,
+          "square_columns": 3,
+          "euler_columns": 1,
+          "seconds": 0.052651,
+          "agrees_with_full_generator_algebra_search": true
+        },
+        {
+          "polynomial_degree": 8,
+          "status": "computed",
+          "square": {
+            "rank": 1,
+            "saturation_index": "2",
+            "smith_factors": [
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "euler": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "combined": {
+            "rank": 1,
+            "saturation_index": "2",
+            "smith_factors": [
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 1,
+            "saturation_index": "2",
+            "smith_factors": [
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 1,
+          "square_columns": 5,
+          "euler_columns": 2,
+          "seconds": 0.125983,
+          "agrees_with_full_generator_algebra_search": true
+        }
+      ],
+      "complete": true,
+      "total_seconds": 0.33109
+    },
+    {
+      "n": 6,
+      "k": 2,
+      "a": 4,
+      "maximum_polynomial_degree": 12,
+      "euler_parity": "even",
+      "degrees": [
+        {
+          "polynomial_degree": 0,
+          "status": "computed",
+          "square": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "euler": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "combined": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 1,
+          "square_columns": 1,
+          "euler_columns": 0,
+          "seconds": 0.036435,
+          "agrees_with_full_generator_algebra_search": true
+        },
+        {
+          "polynomial_degree": 2,
+          "status": "computed",
+          "square": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "euler": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "combined": {
+            "rank": 2,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1",
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0,
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 2
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 3,
+          "square_columns": 1,
+          "euler_columns": 1,
+          "seconds": 0.035062,
+          "agrees_with_full_generator_algebra_search": true
+        },
+        {
+          "polynomial_degree": 4,
+          "status": "computed",
+          "square": {
+            "rank": 2,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1",
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0,
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 2
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1
+            ]
+          },
+          "euler": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "combined": {
+            "rank": 3,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1",
+              "1",
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0,
+              0,
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 3
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1,
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 2,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1",
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0,
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 2
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1
+            ]
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 7,
+          "square_columns": 2,
+          "euler_columns": 1,
+          "seconds": 0.117788,
+          "agrees_with_full_generator_algebra_search": true
+        },
+        {
+          "polynomial_degree": 6,
+          "status": "computed",
+          "square": {
+            "rank": 2,
+            "saturation_index": "2",
+            "smith_factors": [
+              "1",
+              "2"
+            ],
+            "power_of_two_exponents": [
+              0,
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1,
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1
+            ]
+          },
+          "euler": {
+            "rank": 2,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1",
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0,
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 2
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1
+            ]
+          },
+          "combined": {
+            "rank": 4,
+            "saturation_index": "4",
+            "smith_factors": [
+              "1",
+              "1",
+              "2",
+              "2"
+            ],
+            "power_of_two_exponents": [
+              0,
+              0,
+              1,
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "0": 2,
+              "1": 2
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 2,
+            "saturation_index": "2",
+            "smith_factors": [
+              "1",
+              "2"
+            ],
+            "power_of_two_exponents": [
+              0,
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1,
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1
+            ]
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 2,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1",
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0,
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 2
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1
+            ]
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "2",
+          "schubert_support_size": 12,
+          "square_columns": 2,
+          "euler_columns": 2,
+          "seconds": 0.279233,
+          "agrees_with_full_generator_algebra_search": true
+        },
+        {
+          "polynomial_degree": 8,
+          "status": "computed",
+          "square": {
+            "rank": 3,
+            "saturation_index": "4",
+            "smith_factors": [
+              "1",
+              "2",
+              "2"
+            ],
+            "power_of_two_exponents": [
+              0,
+              1,
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1,
+              "1": 2
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1,
+              1
+            ]
+          },
+          "euler": {
+            "rank": 2,
+            "saturation_index": "2",
+            "smith_factors": [
+              "1",
+              "2"
+            ],
+            "power_of_two_exponents": [
+              0,
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1,
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1
+            ]
+          },
+          "combined": {
+            "rank": 5,
+            "saturation_index": "16",
+            "smith_factors": [
+              "1",
+              "2",
+              "2",
+              "2",
+              "2"
+            ],
+            "power_of_two_exponents": [
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1,
+              "1": 4
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 3,
+            "saturation_index": "4",
+            "smith_factors": [
+              "1",
+              "2",
+              "2"
+            ],
+            "power_of_two_exponents": [
+              0,
+              1,
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1,
+              "1": 2
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1,
+              1
+            ]
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 2,
+            "saturation_index": "2",
+            "smith_factors": [
+              "1",
+              "2"
+            ],
+            "power_of_two_exponents": [
+              0,
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1,
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1
+            ]
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "2",
+          "schubert_support_size": 17,
+          "square_columns": 3,
+          "euler_columns": 2,
+          "seconds": 0.773661,
+          "agrees_with_full_generator_algebra_search": true
+        },
+        {
+          "polynomial_degree": 10,
+          "status": "computed",
+          "square": {
+            "rank": 2,
+            "saturation_index": "4",
+            "smith_factors": [
+              "2",
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1,
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 2
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1
+            ]
+          },
+          "euler": {
+            "rank": 2,
+            "saturation_index": "4",
+            "smith_factors": [
+              "2",
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1,
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 2
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1
+            ]
+          },
+          "combined": {
+            "rank": 4,
+            "saturation_index": "16",
+            "smith_factors": [
+              "2",
+              "2",
+              "2",
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 4
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 2,
+            "saturation_index": "4",
+            "smith_factors": [
+              "2",
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1,
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 2
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1
+            ]
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 2,
+            "saturation_index": "4",
+            "smith_factors": [
+              "2",
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1,
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 2
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1
+            ]
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 16,
+          "square_columns": 3,
+          "euler_columns": 3,
+          "seconds": 1.003322,
+          "agrees_with_full_generator_algebra_search": true
+        },
+        {
+          "polynomial_degree": 12,
+          "status": "computed",
+          "square": {
+            "rank": 2,
+            "saturation_index": "8",
+            "smith_factors": [
+              "2",
+              "4"
+            ],
+            "power_of_two_exponents": [
+              1,
+              2
+            ],
+            "power_of_two_multiplicities": {
+              "1": 1,
+              "2": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1
+            ]
+          },
+          "euler": {
+            "rank": 1,
+            "saturation_index": "2",
+            "smith_factors": [
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "combined": {
+            "rank": 3,
+            "saturation_index": "16",
+            "smith_factors": [
+              "2",
+              "2",
+              "4"
+            ],
+            "power_of_two_exponents": [
+              1,
+              1,
+              2
+            ],
+            "power_of_two_multiplicities": {
+              "1": 2,
+              "2": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1,
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 2,
+            "saturation_index": "8",
+            "smith_factors": [
+              "2",
+              "4"
+            ],
+            "power_of_two_exponents": [
+              1,
+              2
+            ],
+            "power_of_two_multiplicities": {
+              "1": 1,
+              "2": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1
+            ]
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 1,
+            "saturation_index": "2",
+            "smith_factors": [
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 16,
+          "square_columns": 4,
+          "euler_columns": 3,
+          "seconds": 2.061744,
+          "agrees_with_full_generator_algebra_search": true
+        }
+      ],
+      "complete": true,
+      "total_seconds": 4.415532
+    },
+    {
+      "n": 6,
+      "k": 3,
+      "a": 3,
+      "maximum_polynomial_degree": 12,
+      "euler_parity": "odd",
+      "degrees": [
+        {
+          "polynomial_degree": 0,
+          "status": "computed",
+          "square": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "euler": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "combined": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 1,
+          "square_columns": 1,
+          "euler_columns": 0,
+          "seconds": 0.078831,
+          "agrees_with_full_generator_algebra_search": true
+        },
+        {
+          "polynomial_degree": 2,
+          "status": "computed",
+          "square": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "euler": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "combined": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 2,
+          "square_columns": 1,
+          "euler_columns": 0,
+          "seconds": 0.014034,
+          "agrees_with_full_generator_algebra_search": true
+        },
+        {
+          "polynomial_degree": 3,
+          "status": "computed",
+          "square": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "euler": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "combined": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 2,
+          "square_columns": 0,
+          "euler_columns": 1,
+          "seconds": 0.034224,
+          "agrees_with_full_generator_algebra_search": true
+        },
+        {
+          "polynomial_degree": 4,
+          "status": "computed",
+          "square": {
+            "rank": 2,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1",
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0,
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 2
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1
+            ]
+          },
+          "euler": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "combined": {
+            "rank": 2,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1",
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0,
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 2
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 2,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1",
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0,
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 2
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1
+            ]
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 5,
+          "square_columns": 2,
+          "euler_columns": 0,
+          "seconds": 0.073984,
+          "agrees_with_full_generator_algebra_search": true
+        },
+        {
+          "polynomial_degree": 5,
+          "status": "computed",
+          "square": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "euler": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "combined": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 4,
+          "square_columns": 0,
+          "euler_columns": 1,
+          "seconds": 0.033488,
+          "agrees_with_full_generator_algebra_search": true
+        },
+        {
+          "polynomial_degree": 6,
+          "status": "computed",
+          "square": {
+            "rank": 3,
+            "saturation_index": "2",
+            "smith_factors": [
+              "1",
+              "1",
+              "2"
+            ],
+            "power_of_two_exponents": [
+              0,
+              0,
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "0": 2,
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1,
+              1
+            ]
+          },
+          "euler": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "combined": {
+            "rank": 3,
+            "saturation_index": "2",
+            "smith_factors": [
+              "1",
+              "1",
+              "2"
+            ],
+            "power_of_two_exponents": [
+              0,
+              0,
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "0": 2,
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1,
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 3,
+            "saturation_index": "2",
+            "smith_factors": [
+              "1",
+              "1",
+              "2"
+            ],
+            "power_of_two_exponents": [
+              0,
+              0,
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "0": 2,
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1,
+              1
+            ]
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 7,
+          "square_columns": 3,
+          "euler_columns": 0,
+          "seconds": 0.227781,
+          "agrees_with_full_generator_algebra_search": true
+        },
+        {
+          "polynomial_degree": 7,
+          "status": "computed",
+          "square": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "euler": {
+            "rank": 2,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1",
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0,
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 2
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1
+            ]
+          },
+          "combined": {
+            "rank": 2,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1",
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0,
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 2
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 2,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1",
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0,
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 2
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1
+            ]
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 6,
+          "square_columns": 0,
+          "euler_columns": 2,
+          "seconds": 0.094809,
+          "agrees_with_full_generator_algebra_search": true
+        },
+        {
+          "polynomial_degree": 8,
+          "status": "computed",
+          "square": {
+            "rank": 3,
+            "saturation_index": "4",
+            "smith_factors": [
+              "1",
+              "2",
+              "2"
+            ],
+            "power_of_two_exponents": [
+              0,
+              1,
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1,
+              "1": 2
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1,
+              1
+            ]
+          },
+          "euler": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "combined": {
+            "rank": 3,
+            "saturation_index": "4",
+            "smith_factors": [
+              "1",
+              "2",
+              "2"
+            ],
+            "power_of_two_exponents": [
+              0,
+              1,
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1,
+              "1": 2
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1,
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 3,
+            "saturation_index": "4",
+            "smith_factors": [
+              "1",
+              "2",
+              "2"
+            ],
+            "power_of_two_exponents": [
+              0,
+              1,
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1,
+              "1": 2
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1,
+              1
+            ]
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 11,
+          "square_columns": 4,
+          "euler_columns": 0,
+          "seconds": 0.639845,
+          "agrees_with_full_generator_algebra_search": true
+        },
+        {
+          "polynomial_degree": 9,
+          "status": "computed",
+          "square": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "euler": {
+            "rank": 2,
+            "saturation_index": "2",
+            "smith_factors": [
+              "1",
+              "2"
+            ],
+            "power_of_two_exponents": [
+              0,
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1,
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1
+            ]
+          },
+          "combined": {
+            "rank": 2,
+            "saturation_index": "2",
+            "smith_factors": [
+              "1",
+              "2"
+            ],
+            "power_of_two_exponents": [
+              0,
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1,
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 2,
+            "saturation_index": "2",
+            "smith_factors": [
+              "1",
+              "2"
+            ],
+            "power_of_two_exponents": [
+              0,
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1,
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1
+            ]
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 8,
+          "square_columns": 0,
+          "euler_columns": 3,
+          "seconds": 0.256637,
+          "agrees_with_full_generator_algebra_search": true
+        },
+        {
+          "polynomial_degree": 10,
+          "status": "computed",
+          "square": {
+            "rank": 3,
+            "saturation_index": "8",
+            "smith_factors": [
+              "2",
+              "2",
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1,
+              1,
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 3
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1,
+              1
+            ]
+          },
+          "euler": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "combined": {
+            "rank": 3,
+            "saturation_index": "8",
+            "smith_factors": [
+              "2",
+              "2",
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1,
+              1,
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 3
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1,
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 3,
+            "saturation_index": "8",
+            "smith_factors": [
+              "2",
+              "2",
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1,
+              1,
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 3
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1,
+              1
+            ]
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 11,
+          "square_columns": 5,
+          "euler_columns": 0,
+          "seconds": 1.132755,
+          "agrees_with_full_generator_algebra_search": true
+        },
+        {
+          "polynomial_degree": 11,
+          "status": "computed",
+          "square": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "euler": {
+            "rank": 2,
+            "saturation_index": "4",
+            "smith_factors": [
+              "2",
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1,
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 2
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1
+            ]
+          },
+          "combined": {
+            "rank": 2,
+            "saturation_index": "4",
+            "smith_factors": [
+              "2",
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1,
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 2
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 2,
+            "saturation_index": "4",
+            "smith_factors": [
+              "2",
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1,
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 2
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1
+            ]
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 4,
+          "square_columns": 0,
+          "euler_columns": 4,
+          "seconds": 0.487828,
+          "agrees_with_full_generator_algebra_search": true
+        },
+        {
+          "polynomial_degree": 12,
+          "status": "computed",
+          "square": {
+            "rank": 3,
+            "saturation_index": "16",
+            "smith_factors": [
+              "2",
+              "2",
+              "4"
+            ],
+            "power_of_two_exponents": [
+              1,
+              1,
+              2
+            ],
+            "power_of_two_multiplicities": {
+              "1": 2,
+              "2": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1,
+              1
+            ]
+          },
+          "euler": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "combined": {
+            "rank": 3,
+            "saturation_index": "16",
+            "smith_factors": [
+              "2",
+              "2",
+              "4"
+            ],
+            "power_of_two_exponents": [
+              1,
+              1,
+              2
+            ],
+            "power_of_two_multiplicities": {
+              "1": 2,
+              "2": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1,
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 3,
+            "saturation_index": "16",
+            "smith_factors": [
+              "2",
+              "2",
+              "4"
+            ],
+            "power_of_two_exponents": [
+              1,
+              1,
+              2
+            ],
+            "power_of_two_multiplicities": {
+              "1": 2,
+              "2": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1,
+              1
+            ]
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 9,
+          "square_columns": 7,
+          "euler_columns": 0,
+          "seconds": 2.606552,
+          "agrees_with_full_generator_algebra_search": true
+        }
+      ],
+      "complete": true,
+      "total_seconds": 5.829777
+    },
+    {
+      "n": 6,
+      "k": 4,
+      "a": 2,
+      "maximum_polynomial_degree": 12,
+      "euler_parity": "even",
+      "degrees": [
+        {
+          "polynomial_degree": 0,
+          "status": "computed",
+          "square": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "euler": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "combined": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 1,
+          "square_columns": 1,
+          "euler_columns": 0,
+          "seconds": 0.168858,
+          "agrees_with_full_generator_algebra_search": true
+        },
+        {
+          "polynomial_degree": 2,
+          "status": "computed",
+          "square": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "euler": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "combined": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 2,
+          "square_columns": 1,
+          "euler_columns": 0,
+          "seconds": 0.015241,
+          "agrees_with_full_generator_algebra_search": true
+        },
+        {
+          "polynomial_degree": 4,
+          "status": "computed",
+          "square": {
+            "rank": 2,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1",
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0,
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 2
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1
+            ]
+          },
+          "euler": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "combined": {
+            "rank": 3,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1",
+              "1",
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0,
+              0,
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 3
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1,
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 2,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1",
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0,
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 2
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1
+            ]
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 4,
+          "square_columns": 2,
+          "euler_columns": 1,
+          "seconds": 0.111501,
+          "agrees_with_full_generator_algebra_search": true
+        },
+        {
+          "polynomial_degree": 6,
+          "status": "computed",
+          "square": {
+            "rank": 2,
+            "saturation_index": "2",
+            "smith_factors": [
+              "1",
+              "2"
+            ],
+            "power_of_two_exponents": [
+              0,
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1,
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1
+            ]
+          },
+          "euler": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "combined": {
+            "rank": 3,
+            "saturation_index": "2",
+            "smith_factors": [
+              "1",
+              "1",
+              "2"
+            ],
+            "power_of_two_exponents": [
+              0,
+              0,
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "0": 2,
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1,
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 2,
+            "saturation_index": "2",
+            "smith_factors": [
+              "1",
+              "2"
+            ],
+            "power_of_two_exponents": [
+              0,
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1,
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1
+            ]
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 5,
+          "square_columns": 3,
+          "euler_columns": 1,
+          "seconds": 0.202575,
+          "agrees_with_full_generator_algebra_search": true
+        },
+        {
+          "polynomial_degree": 8,
+          "status": "computed",
+          "square": {
+            "rank": 3,
+            "saturation_index": "4",
+            "smith_factors": [
+              "1",
+              "2",
+              "2"
+            ],
+            "power_of_two_exponents": [
+              0,
+              1,
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1,
+              "1": 2
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1,
+              1
+            ]
+          },
+          "euler": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "combined": {
+            "rank": 4,
+            "saturation_index": "8",
+            "smith_factors": [
+              "1",
+              "2",
+              "2",
+              "2"
+            ],
+            "power_of_two_exponents": [
+              0,
+              1,
+              1,
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1,
+              "1": 3
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 3,
+            "saturation_index": "4",
+            "smith_factors": [
+              "1",
+              "2",
+              "2"
+            ],
+            "power_of_two_exponents": [
+              0,
+              1,
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1,
+              "1": 2
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1,
+              1
+            ]
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "2",
+          "schubert_support_size": 6,
+          "square_columns": 5,
+          "euler_columns": 2,
+          "seconds": 0.615537,
+          "agrees_with_full_generator_algebra_search": true
+        },
+        {
+          "polynomial_degree": 10,
+          "status": "computed",
+          "square": {
+            "rank": 2,
+            "saturation_index": "4",
+            "smith_factors": [
+              "2",
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1,
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 2
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1
+            ]
+          },
+          "euler": {
+            "rank": 1,
+            "saturation_index": "2",
+            "smith_factors": [
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "combined": {
+            "rank": 3,
+            "saturation_index": "8",
+            "smith_factors": [
+              "2",
+              "2",
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1,
+              1,
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 3
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1,
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 2,
+            "saturation_index": "4",
+            "smith_factors": [
+              "2",
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1,
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 2
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1
+            ]
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 1,
+            "saturation_index": "2",
+            "smith_factors": [
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 4,
+          "square_columns": 6,
+          "euler_columns": 3,
+          "seconds": 0.826215,
+          "agrees_with_full_generator_algebra_search": true
+        },
+        {
+          "polynomial_degree": 12,
+          "status": "computed",
+          "square": {
+            "rank": 2,
+            "saturation_index": "8",
+            "smith_factors": [
+              "2",
+              "4"
+            ],
+            "power_of_two_exponents": [
+              1,
+              2
+            ],
+            "power_of_two_multiplicities": {
+              "1": 1,
+              "2": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1
+            ]
+          },
+          "euler": {
+            "rank": 1,
+            "saturation_index": "2",
+            "smith_factors": [
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "combined": {
+            "rank": 3,
+            "saturation_index": "16",
+            "smith_factors": [
+              "2",
+              "2",
+              "4"
+            ],
+            "power_of_two_exponents": [
+              1,
+              1,
+              2
+            ],
+            "power_of_two_multiplicities": {
+              "1": 2,
+              "2": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1,
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 2,
+            "saturation_index": "8",
+            "smith_factors": [
+              "2",
+              "4"
+            ],
+            "power_of_two_exponents": [
+              1,
+              2
+            ],
+            "power_of_two_multiplicities": {
+              "1": 1,
+              "2": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1,
+              1
+            ]
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 1,
+            "saturation_index": "2",
+            "smith_factors": [
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 4,
+          "square_columns": 9,
+          "euler_columns": 5,
+          "seconds": 3.326467,
+          "agrees_with_full_generator_algebra_search": true
+        }
+      ],
+      "complete": true,
+      "total_seconds": 5.365457
+    },
+    {
+      "n": 6,
+      "k": 5,
+      "a": 1,
+      "maximum_polynomial_degree": 10,
+      "euler_parity": "odd",
+      "degrees": [
+        {
+          "polynomial_degree": 0,
+          "status": "computed",
+          "square": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "euler": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "combined": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 1,
+          "square_columns": 1,
+          "euler_columns": 0,
+          "seconds": 0.089253,
+          "agrees_with_full_generator_algebra_search": true
+        },
+        {
+          "polynomial_degree": 2,
+          "status": "computed",
+          "square": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "euler": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "combined": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 1,
+          "square_columns": 1,
+          "euler_columns": 0,
+          "seconds": 0.010685,
+          "agrees_with_full_generator_algebra_search": true
+        },
+        {
+          "polynomial_degree": 4,
+          "status": "computed",
+          "square": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "euler": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "combined": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 1,
+          "square_columns": 2,
+          "euler_columns": 0,
+          "seconds": 0.025381,
+          "agrees_with_full_generator_algebra_search": true
+        },
+        {
+          "polynomial_degree": 5,
+          "status": "computed",
+          "square": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "euler": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "combined": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 1,
+            "saturation_index": "1",
+            "smith_factors": [
+              "1"
+            ],
+            "power_of_two_exponents": [
+              0
+            ],
+            "power_of_two_multiplicities": {
+              "0": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 2,
+          "square_columns": 0,
+          "euler_columns": 1,
+          "seconds": 0.017634,
+          "agrees_with_full_generator_algebra_search": true
+        },
+        {
+          "polynomial_degree": 6,
+          "status": "computed",
+          "square": {
+            "rank": 1,
+            "saturation_index": "2",
+            "smith_factors": [
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "euler": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "combined": {
+            "rank": 1,
+            "saturation_index": "2",
+            "smith_factors": [
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 1,
+            "saturation_index": "2",
+            "smith_factors": [
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 1,
+          "square_columns": 3,
+          "euler_columns": 0,
+          "seconds": 0.06511,
+          "agrees_with_full_generator_algebra_search": true
+        },
+        {
+          "polynomial_degree": 7,
+          "status": "computed",
+          "square": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "euler": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "combined": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "B_n_reference": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 0,
+          "square_columns": 0,
+          "euler_columns": 1,
+          "seconds": 0.007419,
+          "agrees_with_full_generator_algebra_search": true
+        },
+        {
+          "polynomial_degree": 8,
+          "status": "computed",
+          "square": {
+            "rank": 1,
+            "saturation_index": "2",
+            "smith_factors": [
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "euler": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "combined": {
+            "rank": 1,
+            "saturation_index": "2",
+            "smith_factors": [
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 1,
+            "saturation_index": "2",
+            "smith_factors": [
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 1,
+          "square_columns": 5,
+          "euler_columns": 0,
+          "seconds": 0.193187,
+          "agrees_with_full_generator_algebra_search": true
+        },
+        {
+          "polynomial_degree": 9,
+          "status": "computed",
+          "square": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "euler": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "combined": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "B_n_reference": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 0,
+          "square_columns": 0,
+          "euler_columns": 2,
+          "seconds": 0.037361,
+          "agrees_with_full_generator_algebra_search": true
+        },
+        {
+          "polynomial_degree": 10,
+          "status": "computed",
+          "square": {
+            "rank": 1,
+            "saturation_index": "2",
+            "smith_factors": [
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "euler": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "combined": {
+            "rank": 1,
+            "saturation_index": "2",
+            "smith_factors": [
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_reference": {
+            "rank": 1,
+            "saturation_index": "2",
+            "smith_factors": [
+              "2"
+            ],
+            "power_of_two_exponents": [
+              1
+            ],
+            "power_of_two_multiplicities": {
+              "1": 1
+            },
+            "odd_factor_present": false,
+            "odd_parts": [
+              1
+            ]
+          },
+          "B_n_minus_one_shifted_reference": {
+            "rank": 0,
+            "saturation_index": "1",
+            "smith_factors": [],
+            "power_of_two_exponents": [],
+            "power_of_two_multiplicities": {},
+            "odd_factor_present": false,
+            "odd_parts": []
+          },
+          "square_matches_B_n": true,
+          "euler_matches_B_n_minus_one_shifted": true,
+          "sector_ranks_add": true,
+          "integral_eigenspace_gluing_index": "1",
+          "schubert_support_size": 1,
+          "square_columns": 7,
+          "euler_columns": 0,
+          "seconds": 0.704367,
+          "agrees_with_full_generator_algebra_search": true
+        }
+      ],
+      "complete": true,
+      "total_seconds": 1.288976
+    }
+  ],
+  "runs": [
+    {
+      "arguments": {
+        "min_rank": 4,
+        "max_rank": 6,
+        "max_degree": 12,
+        "complete_through_rank": 4,
+        "seconds_per_degree": 45,
+        "include_matrices": false,
+        "resume": false,
+        "output": "/mnt/c/Users/Sean/OneDrive/Documents/ChatGPT/Career/research-review/Sage-programs-articles/borel/experiments/orthogonal_sector_search_results.json"
+      },
+      "started_utc": "2026-10-19T16:13:45.123872+00:00"
+    }
+  ],
+  "last_run_seconds": 22.334492,
+  "total_seconds": 22.133568,
+  "total_seconds_basis": "sum of case elapsed times across resumed runs; excludes process imports",
+  "updated_utc": "2026-10-19T16:14:07.453351+00:00",
+  "summary": {
+    "cases_recorded": 9,
+    "degrees_computed": 70,
+    "square_B_mismatches": 0,
+    "euler_smaller_B_mismatches": 0,
+    "sector_rank_additivity_failures": 0,
+    "nontrivial_gluing_degrees": 7,
+    "full_original_search_mismatches": 0,
+    "timeouts": 0,
+    "odd_factors_observed": false
+  }
+}

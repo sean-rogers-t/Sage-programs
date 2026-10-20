@@ -1,0 +1,979 @@
+{
+  "suite_result": "passed",
+  "test_methods_run": 9,
+  "sage_version": "9.5",
+  "python_version": "3.10.12",
+  "command": "PYTHONPATH=src sage -python -m unittest tests.test_algebra -v",
+  "seconds": 4.117,
+  "independent_checks": {
+    "groebner_rank_and_whole_kernel": 135,
+    "relations_independently_zero": 84,
+    "a2_explicit_invariant_relations": 2,
+    "projective_space_truncation": 22,
+    "inhomogeneous_and_weighted_regressions": 7,
+    "explicit_two_step_mixed_and_tail_relations": 4,
+    "two_step_parameter_validation": 10,
+    "two_step_readonly_configuration": 4,
+    "two_step_generator_mapping_copies": 2,
+    "two_step_explicit_levi_reflections": 36,
+    "two_step_explicit_coordinate_generators": 16,
+    "presentation_relations_independent_groebner": 16,
+    "partial_flag_ambient_poincare_coefficients": 42,
+    "whole_presentation_ideal_component": 42,
+    "presentation_hilbert_prefix": 6,
+    "factor_rank_bounded_by_joint": 48,
+    "invalid_generators_rejected": 5,
+    "strict_degree_validation": 30,
+    "immutable_and_cache_regressions": 12,
+    "weighted_monomial_generating_function": 52,
+    "zero_image_and_empty_domain": 7
+  },
+  "finite_rank_cases": [
+    {
+      "case": "A2 full flag",
+      "degree": 0,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "A2 full flag",
+      "degree": 1,
+      "domain_dimension": 2,
+      "rank": 2,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "A2 full flag",
+      "degree": 2,
+      "domain_dimension": 3,
+      "rank": 2,
+      "kernel_dimension": 1
+    },
+    {
+      "case": "A2 full flag",
+      "degree": 3,
+      "domain_dimension": 4,
+      "rank": 1,
+      "kernel_dimension": 3
+    },
+    {
+      "case": "A2 full flag",
+      "degree": 4,
+      "domain_dimension": 5,
+      "rank": 0,
+      "kernel_dimension": 5
+    },
+    {
+      "case": "A2 full flag",
+      "degree": 5,
+      "domain_dimension": 6,
+      "rank": 0,
+      "kernel_dimension": 6
+    },
+    {
+      "case": "A2 full flag",
+      "degree": 6,
+      "domain_dimension": 7,
+      "rank": 0,
+      "kernel_dimension": 7
+    },
+    {
+      "case": "A2 full flag",
+      "degree": 7,
+      "domain_dimension": 8,
+      "rank": 0,
+      "kernel_dimension": 8
+    },
+    {
+      "case": "P1",
+      "degree": 0,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "P1",
+      "degree": 1,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "P1",
+      "degree": 2,
+      "domain_dimension": 1,
+      "rank": 0,
+      "kernel_dimension": 1
+    },
+    {
+      "case": "P1",
+      "degree": 3,
+      "domain_dimension": 1,
+      "rank": 0,
+      "kernel_dimension": 1
+    },
+    {
+      "case": "P2",
+      "degree": 0,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "P2",
+      "degree": 1,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "P2",
+      "degree": 2,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "P2",
+      "degree": 3,
+      "domain_dimension": 1,
+      "rank": 0,
+      "kernel_dimension": 1
+    },
+    {
+      "case": "P2",
+      "degree": 4,
+      "domain_dimension": 1,
+      "rank": 0,
+      "kernel_dimension": 1
+    },
+    {
+      "case": "P3",
+      "degree": 0,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "P3",
+      "degree": 1,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "P3",
+      "degree": 2,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "P3",
+      "degree": 3,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "P3",
+      "degree": 4,
+      "domain_dimension": 1,
+      "rank": 0,
+      "kernel_dimension": 1
+    },
+    {
+      "case": "P3",
+      "degree": 5,
+      "domain_dimension": 1,
+      "rank": 0,
+      "kernel_dimension": 1
+    },
+    {
+      "case": "P4",
+      "degree": 0,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "P4",
+      "degree": 1,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "P4",
+      "degree": 2,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "P4",
+      "degree": 3,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "P4",
+      "degree": 4,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "P4",
+      "degree": 5,
+      "domain_dimension": 1,
+      "rank": 0,
+      "kernel_dimension": 1
+    },
+    {
+      "case": "P4",
+      "degree": 6,
+      "domain_dimension": 1,
+      "rank": 0,
+      "kernel_dimension": 1
+    },
+    {
+      "case": "redundant P3 generators",
+      "degree": 0,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "redundant P3 generators",
+      "degree": 1,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "redundant P3 generators",
+      "degree": 2,
+      "domain_dimension": 2,
+      "rank": 1,
+      "kernel_dimension": 1
+    },
+    {
+      "case": "redundant P3 generators",
+      "degree": 3,
+      "domain_dimension": 2,
+      "rank": 1,
+      "kernel_dimension": 1
+    },
+    {
+      "case": "redundant P3 generators",
+      "degree": 4,
+      "domain_dimension": 3,
+      "rank": 0,
+      "kernel_dimension": 3
+    },
+    {
+      "case": "redundant P3 generators",
+      "degree": 5,
+      "domain_dimension": 3,
+      "rank": 0,
+      "kernel_dimension": 3
+    },
+    {
+      "case": "redundant P3 generators",
+      "degree": 6,
+      "domain_dimension": 4,
+      "rank": 0,
+      "kernel_dimension": 4
+    },
+    {
+      "case": "redundant P3 generators",
+      "degree": 7,
+      "domain_dimension": 4,
+      "rank": 0,
+      "kernel_dimension": 4
+    },
+    {
+      "case": "C3 two-step b=1 k=1 joint",
+      "degree": 0,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C3 two-step b=1 k=1 joint",
+      "degree": 1,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C3 two-step b=1 k=1 joint",
+      "degree": 2,
+      "domain_dimension": 2,
+      "rank": 2,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C3 two-step b=1 k=1 joint",
+      "degree": 3,
+      "domain_dimension": 2,
+      "rank": 2,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C3 two-step b=1 k=1 joint",
+      "degree": 4,
+      "domain_dimension": 3,
+      "rank": 2,
+      "kernel_dimension": 1
+    },
+    {
+      "case": "C3 two-step b=1 k=1 joint",
+      "degree": 5,
+      "domain_dimension": 3,
+      "rank": 2,
+      "kernel_dimension": 1
+    },
+    {
+      "case": "C3 two-step b=1 k=1 joint",
+      "degree": 6,
+      "domain_dimension": 4,
+      "rank": 1,
+      "kernel_dimension": 3
+    },
+    {
+      "case": "C3 two-step b=1 k=1 middle",
+      "degree": 0,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C3 two-step b=1 k=1 middle",
+      "degree": 2,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C3 two-step b=1 k=1 middle",
+      "degree": 4,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C3 two-step b=1 k=1 middle",
+      "degree": 6,
+      "domain_dimension": 1,
+      "rank": 0,
+      "kernel_dimension": 1
+    },
+    {
+      "case": "C3 two-step b=1 k=1 tail",
+      "degree": 0,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C3 two-step b=1 k=1 tail",
+      "degree": 2,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C3 two-step b=1 k=1 tail",
+      "degree": 4,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C3 two-step b=1 k=1 tail",
+      "degree": 6,
+      "domain_dimension": 1,
+      "rank": 0,
+      "kernel_dimension": 1
+    },
+    {
+      "case": "C4 two-step b=1 k=1 joint",
+      "degree": 0,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C4 two-step b=1 k=1 joint",
+      "degree": 1,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C4 two-step b=1 k=1 joint",
+      "degree": 2,
+      "domain_dimension": 2,
+      "rank": 2,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C4 two-step b=1 k=1 joint",
+      "degree": 3,
+      "domain_dimension": 2,
+      "rank": 2,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C4 two-step b=1 k=1 joint",
+      "degree": 4,
+      "domain_dimension": 3,
+      "rank": 3,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C4 two-step b=1 k=1 joint",
+      "degree": 5,
+      "domain_dimension": 3,
+      "rank": 3,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C4 two-step b=1 k=1 joint",
+      "degree": 6,
+      "domain_dimension": 4,
+      "rank": 3,
+      "kernel_dimension": 1
+    },
+    {
+      "case": "C4 two-step b=1 k=1 middle",
+      "degree": 0,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C4 two-step b=1 k=1 middle",
+      "degree": 2,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C4 two-step b=1 k=1 middle",
+      "degree": 4,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C4 two-step b=1 k=1 middle",
+      "degree": 6,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C4 two-step b=1 k=1 tail",
+      "degree": 0,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C4 two-step b=1 k=1 tail",
+      "degree": 2,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C4 two-step b=1 k=1 tail",
+      "degree": 4,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C4 two-step b=1 k=1 tail",
+      "degree": 6,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C5 two-step b=1 k=1 joint",
+      "degree": 0,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C5 two-step b=1 k=1 joint",
+      "degree": 1,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C5 two-step b=1 k=1 joint",
+      "degree": 2,
+      "domain_dimension": 2,
+      "rank": 2,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C5 two-step b=1 k=1 joint",
+      "degree": 3,
+      "domain_dimension": 2,
+      "rank": 2,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C5 two-step b=1 k=1 joint",
+      "degree": 4,
+      "domain_dimension": 3,
+      "rank": 3,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C5 two-step b=1 k=1 joint",
+      "degree": 5,
+      "domain_dimension": 3,
+      "rank": 3,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C5 two-step b=1 k=1 joint",
+      "degree": 6,
+      "domain_dimension": 4,
+      "rank": 4,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C5 two-step b=1 k=1 middle",
+      "degree": 0,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C5 two-step b=1 k=1 middle",
+      "degree": 2,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C5 two-step b=1 k=1 middle",
+      "degree": 4,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C5 two-step b=1 k=1 middle",
+      "degree": 6,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C5 two-step b=1 k=1 tail",
+      "degree": 0,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C5 two-step b=1 k=1 tail",
+      "degree": 2,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C5 two-step b=1 k=1 tail",
+      "degree": 4,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C5 two-step b=1 k=1 tail",
+      "degree": 6,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C4 two-step b=1 k=2 joint",
+      "degree": 0,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C4 two-step b=1 k=2 joint",
+      "degree": 1,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C4 two-step b=1 k=2 joint",
+      "degree": 2,
+      "domain_dimension": 2,
+      "rank": 2,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C4 two-step b=1 k=2 joint",
+      "degree": 3,
+      "domain_dimension": 2,
+      "rank": 2,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C4 two-step b=1 k=2 joint",
+      "degree": 4,
+      "domain_dimension": 4,
+      "rank": 3,
+      "kernel_dimension": 1
+    },
+    {
+      "case": "C4 two-step b=1 k=2 joint",
+      "degree": 5,
+      "domain_dimension": 4,
+      "rank": 3,
+      "kernel_dimension": 1
+    },
+    {
+      "case": "C4 two-step b=1 k=2 joint",
+      "degree": 6,
+      "domain_dimension": 6,
+      "rank": 3,
+      "kernel_dimension": 3
+    },
+    {
+      "case": "C4 two-step b=1 k=2 middle",
+      "degree": 0,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C4 two-step b=1 k=2 middle",
+      "degree": 2,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C4 two-step b=1 k=2 middle",
+      "degree": 4,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C4 two-step b=1 k=2 middle",
+      "degree": 6,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C4 two-step b=1 k=2 tail",
+      "degree": 0,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C4 two-step b=1 k=2 tail",
+      "degree": 2,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C4 two-step b=1 k=2 tail",
+      "degree": 4,
+      "domain_dimension": 2,
+      "rank": 2,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C4 two-step b=1 k=2 tail",
+      "degree": 6,
+      "domain_dimension": 2,
+      "rank": 1,
+      "kernel_dimension": 1
+    },
+    {
+      "case": "C4 two-step b=2 k=1 joint",
+      "degree": 0,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C4 two-step b=2 k=1 joint",
+      "degree": 1,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C4 two-step b=2 k=1 joint",
+      "degree": 2,
+      "domain_dimension": 3,
+      "rank": 3,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C4 two-step b=2 k=1 joint",
+      "degree": 3,
+      "domain_dimension": 3,
+      "rank": 3,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C4 two-step b=2 k=1 joint",
+      "degree": 4,
+      "domain_dimension": 6,
+      "rank": 5,
+      "kernel_dimension": 1
+    },
+    {
+      "case": "C4 two-step b=2 k=1 joint",
+      "degree": 5,
+      "domain_dimension": 6,
+      "rank": 5,
+      "kernel_dimension": 1
+    },
+    {
+      "case": "C4 two-step b=2 k=1 joint",
+      "degree": 6,
+      "domain_dimension": 10,
+      "rank": 6,
+      "kernel_dimension": 4
+    },
+    {
+      "case": "C4 two-step b=2 k=1 middle",
+      "degree": 0,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C4 two-step b=2 k=1 middle",
+      "degree": 2,
+      "domain_dimension": 2,
+      "rank": 2,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C4 two-step b=2 k=1 middle",
+      "degree": 4,
+      "domain_dimension": 3,
+      "rank": 3,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C4 two-step b=2 k=1 middle",
+      "degree": 6,
+      "domain_dimension": 4,
+      "rank": 3,
+      "kernel_dimension": 1
+    },
+    {
+      "case": "C4 two-step b=2 k=1 tail",
+      "degree": 0,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C4 two-step b=2 k=1 tail",
+      "degree": 2,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C4 two-step b=2 k=1 tail",
+      "degree": 4,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C4 two-step b=2 k=1 tail",
+      "degree": 6,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C5 two-step b=2 k=2 joint",
+      "degree": 0,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C5 two-step b=2 k=2 joint",
+      "degree": 1,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C5 two-step b=2 k=2 joint",
+      "degree": 2,
+      "domain_dimension": 3,
+      "rank": 3,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C5 two-step b=2 k=2 joint",
+      "degree": 3,
+      "domain_dimension": 3,
+      "rank": 3,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C5 two-step b=2 k=2 joint",
+      "degree": 4,
+      "domain_dimension": 7,
+      "rank": 6,
+      "kernel_dimension": 1
+    },
+    {
+      "case": "C5 two-step b=2 k=2 joint",
+      "degree": 5,
+      "domain_dimension": 7,
+      "rank": 6,
+      "kernel_dimension": 1
+    },
+    {
+      "case": "C5 two-step b=2 k=2 joint",
+      "degree": 6,
+      "domain_dimension": 13,
+      "rank": 9,
+      "kernel_dimension": 4
+    },
+    {
+      "case": "C5 two-step b=2 k=2 middle",
+      "degree": 0,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C5 two-step b=2 k=2 middle",
+      "degree": 2,
+      "domain_dimension": 2,
+      "rank": 2,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C5 two-step b=2 k=2 middle",
+      "degree": 4,
+      "domain_dimension": 3,
+      "rank": 3,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C5 two-step b=2 k=2 middle",
+      "degree": 6,
+      "domain_dimension": 4,
+      "rank": 4,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C5 two-step b=2 k=2 tail",
+      "degree": 0,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C5 two-step b=2 k=2 tail",
+      "degree": 2,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C5 two-step b=2 k=2 tail",
+      "degree": 4,
+      "domain_dimension": 2,
+      "rank": 2,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "C5 two-step b=2 k=2 tail",
+      "degree": 6,
+      "domain_dimension": 2,
+      "rank": 2,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "A1 invariant zero-image generator",
+      "degree": 0,
+      "domain_dimension": 1,
+      "rank": 1,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "A1 invariant zero-image generator",
+      "degree": 1,
+      "domain_dimension": 0,
+      "rank": 0,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "A1 invariant zero-image generator",
+      "degree": 2,
+      "domain_dimension": 1,
+      "rank": 0,
+      "kernel_dimension": 1
+    },
+    {
+      "case": "A1 invariant zero-image generator",
+      "degree": 3,
+      "domain_dimension": 0,
+      "rank": 0,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "A1 invariant zero-image generator",
+      "degree": 4,
+      "domain_dimension": 1,
+      "rank": 0,
+      "kernel_dimension": 1
+    },
+    {
+      "case": "A1 invariant zero-image generator",
+      "degree": 5,
+      "domain_dimension": 0,
+      "rank": 0,
+      "kernel_dimension": 0
+    },
+    {
+      "case": "A1 invariant zero-image generator",
+      "degree": 6,
+      "domain_dimension": 1,
+      "rank": 0,
+      "kernel_dimension": 1
+    }
+  ],
+  "expected_values_source": "Explicit type A/C invariant ideals; exact independent Groebner reduction"
+}

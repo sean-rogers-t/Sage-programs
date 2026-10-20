@@ -1,0 +1,33 @@
+{
+  "suite_result": "passed",
+  "sage_version": "9.5",
+  "generated_utc": "2026-10-19T17:16:50.143013+00:00",
+  "maximum_long_block_symbolic_verification": 12,
+  "symbolic_checks": {
+    "two_variable_plethysm_identities": 451,
+    "pfaffian_telescoping_identities": 1540,
+    "high_degree_single_theta_identities_mod_relation": 202,
+    "closed_factors_vs_two_row_smith_matrices": 165,
+    "finite_high_complete_relation_identities": 77
+  },
+  "recorded_Borel_Smith_degrees_checked": 73,
+  "recorded_checks_by_input": {
+    "orthogonal_smith_search_results.json": 33,
+    "type_b_multiplicity_search_results.json": 40
+  },
+  "input_files": [
+    {
+      "name": "orthogonal_smith_search_results.json",
+      "sha256": "bbb2080a2c668b177008db2085962d76d23456e2ad1b5b4fbac9e136253645f7",
+      "bytes": 110765
+    },
+    {
+      "name": "type_b_multiplicity_search_results.json",
+      "sha256": "16cc7a959ec59493febe0e4b3c38a311a72e170c767025cf05c3a88a17a07bfb",
+      "bytes": 796807
+    }
+  ],
+  "source_script_sha256": "c69d2e4d870e791e77f930b9908d705abb28238dac863231d04aa720cd6b4f57",
+  "independence": "No sage_borel imports; polynomial and integer Smith arithmetic only",
+  "seconds": 0.722106
+}

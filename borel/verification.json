@@ -1,0 +1,60 @@
+{
+  "sage_version": "9.5",
+  "python_version": "3.10.12",
+  "independent_checks": {
+    "a1_boundary_cases": 8,
+    "arbitrary_parabolic_degree_sets": 7,
+    "parabolic_image_and_rejections": 6,
+    "tail_polynomial_and_expansion": 136,
+    "head_bgg_expansions": 72,
+    "d_euler_and_square": 10,
+    "classical_factory_conventions": 12,
+    "classical_factory_invalid_inputs": 6,
+    "legacy_d_regressions": 3,
+    "exceptional_linear_classes": 81,
+    "exceptional_quadratic_invariants": 5,
+    "expansion_arithmetic_and_cache_cases": 6,
+    "discriminant_chevalley_B2": 16,
+    "discriminant_chevalley_C2": 16,
+    "discriminant_chevalley_B3": 144,
+    "discriminant_chevalley_C3": 144,
+    "discriminant_chevalley_D4": 768,
+    "input_validation_cases": 29,
+    "a_poincare_regressions": 5,
+    "d_spin_poincare_classes": 16,
+    "d_spin_discriminant_intersection_pairings": 16,
+    "d_spin_middle_pairing_matrix_entries": 4,
+    "coordinate_reflection_and_difference": 26,
+    "inhomogeneous_bgg_expansions": 4,
+    "iterated_bgg_products": 24,
+    "typed_serialization_regressions": 11,
+    "signed_matrix_embedding_cases": 12,
+    "c_dissertation_sign_regression": 1,
+    "d_typed_middle_and_euler_formulas": 3,
+    "relabeled_classical_helpers": 3
+  },
+  "seconds": 49.3,
+  "exhaustive_divisor_products": true,
+  "test_runs": [
+    {
+      "command": "PYTHONPATH=src BOREL_EXHAUSTIVE=1 sage -python -m unittest discover -s tests -v",
+      "unit_tests": 16,
+      "passed": true,
+      "failures": 0,
+      "errors": 0,
+      "seconds": 49.3
+    },
+    {
+      "command": "PYTHONPATH=src sage -python -m unittest tests.test_library.BorelLibraryTests.test_relabeled_classical_coordinate_helpers_reject -v",
+      "unit_tests": 1,
+      "passed": true,
+      "failures": 0,
+      "errors": 0,
+      "seconds": 0.214
+    }
+  ],
+  "unit_tests_passed": 17,
+  "total_recorded_checks": 1594,
+  "passed": true,
+  "seconds_total": 49.514
+}

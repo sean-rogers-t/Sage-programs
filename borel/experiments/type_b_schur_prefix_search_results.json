@@ -1,0 +1,3827 @@
+{
+  "suite_result": "passed",
+  "generated_utc": "2026-10-19T17:08:27.003007+00:00",
+  "sage_version": "9.5",
+  "scope": "Finite exact integral Schur-product verification; general primitivity is not inferred",
+  "independence": "Ordinary LR multiplication and integer Smith forms; no sage_borel/Weyl/BGG imports",
+  "source_script_sha256": "226dfa12eee6c4764ec389da6d18805f6f178aaab08f0be4aa87c7aec4e4baf6",
+  "checks": {
+    "larger_LR_only_prefix_Smith_checks": 181
+  },
+  "cases": [
+    {
+      "family": "B",
+      "source": "larger_LR_only_search",
+      "tail": 5,
+      "head": 5,
+      "n": 10,
+      "maximum_half_polynomial_degree": 15,
+      "degrees": [
+        {
+          "half_polynomial_degree": 0,
+          "prefixes": [
+            {
+              "threshold": 0,
+              "rank": 1,
+              "source_rank": 1,
+              "distinct_nonzero_LR_rows": 1,
+              "smith_factors": [
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 1,
+              "rank": 1,
+              "source_rank": 1,
+              "distinct_nonzero_LR_rows": 1,
+              "smith_factors": [
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 2,
+              "rank": 1,
+              "source_rank": 1,
+              "distinct_nonzero_LR_rows": 1,
+              "smith_factors": [
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 3,
+              "rank": 1,
+              "source_rank": 1,
+              "distinct_nonzero_LR_rows": 1,
+              "smith_factors": [
+                1
+              ],
+              "primitive": true
+            }
+          ]
+        },
+        {
+          "half_polynomial_degree": 1,
+          "prefixes": [
+            {
+              "threshold": 0,
+              "rank": 1,
+              "source_rank": 1,
+              "distinct_nonzero_LR_rows": 1,
+              "smith_factors": [
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 1,
+              "rank": 1,
+              "source_rank": 1,
+              "distinct_nonzero_LR_rows": 1,
+              "smith_factors": [
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 2,
+              "rank": 1,
+              "source_rank": 1,
+              "distinct_nonzero_LR_rows": 1,
+              "smith_factors": [
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 3,
+              "rank": 1,
+              "source_rank": 1,
+              "distinct_nonzero_LR_rows": 1,
+              "smith_factors": [
+                1
+              ],
+              "primitive": true
+            }
+          ]
+        },
+        {
+          "half_polynomial_degree": 2,
+          "prefixes": [
+            {
+              "threshold": 0,
+              "rank": 2,
+              "source_rank": 2,
+              "distinct_nonzero_LR_rows": 3,
+              "smith_factors": [
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 1,
+              "rank": 2,
+              "source_rank": 2,
+              "distinct_nonzero_LR_rows": 3,
+              "smith_factors": [
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 2,
+              "rank": 2,
+              "source_rank": 2,
+              "distinct_nonzero_LR_rows": 3,
+              "smith_factors": [
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 3,
+              "rank": 2,
+              "source_rank": 2,
+              "distinct_nonzero_LR_rows": 3,
+              "smith_factors": [
+                1,
+                1
+              ],
+              "primitive": true
+            }
+          ]
+        },
+        {
+          "half_polynomial_degree": 3,
+          "prefixes": [
+            {
+              "threshold": 0,
+              "rank": 3,
+              "source_rank": 3,
+              "distinct_nonzero_LR_rows": 5,
+              "smith_factors": [
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 1,
+              "rank": 3,
+              "source_rank": 3,
+              "distinct_nonzero_LR_rows": 5,
+              "smith_factors": [
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 2,
+              "rank": 3,
+              "source_rank": 3,
+              "distinct_nonzero_LR_rows": 5,
+              "smith_factors": [
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 3,
+              "rank": 3,
+              "source_rank": 3,
+              "distinct_nonzero_LR_rows": 6,
+              "smith_factors": [
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            }
+          ]
+        },
+        {
+          "half_polynomial_degree": 4,
+          "prefixes": [
+            {
+              "threshold": 0,
+              "rank": 5,
+              "source_rank": 5,
+              "distinct_nonzero_LR_rows": 9,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 1,
+              "rank": 5,
+              "source_rank": 5,
+              "distinct_nonzero_LR_rows": 10,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 2,
+              "rank": 5,
+              "source_rank": 5,
+              "distinct_nonzero_LR_rows": 10,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 3,
+              "rank": 5,
+              "source_rank": 5,
+              "distinct_nonzero_LR_rows": 11,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            }
+          ]
+        },
+        {
+          "half_polynomial_degree": 5,
+          "prefixes": [
+            {
+              "threshold": 0,
+              "rank": 6,
+              "source_rank": 7,
+              "distinct_nonzero_LR_rows": 11,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 1,
+              "rank": 7,
+              "source_rank": 7,
+              "distinct_nonzero_LR_rows": 14,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 2,
+              "rank": 7,
+              "source_rank": 7,
+              "distinct_nonzero_LR_rows": 15,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 3,
+              "rank": 7,
+              "source_rank": 7,
+              "distinct_nonzero_LR_rows": 18,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            }
+          ]
+        },
+        {
+          "half_polynomial_degree": 6,
+          "prefixes": [
+            {
+              "threshold": 0,
+              "rank": 7,
+              "source_rank": 9,
+              "distinct_nonzero_LR_rows": 14,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 1,
+              "rank": 9,
+              "source_rank": 9,
+              "distinct_nonzero_LR_rows": 22,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 2,
+              "rank": 9,
+              "source_rank": 9,
+              "distinct_nonzero_LR_rows": 24,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 3,
+              "rank": 9,
+              "source_rank": 9,
+              "distinct_nonzero_LR_rows": 28,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            }
+          ]
+        },
+        {
+          "half_polynomial_degree": 7,
+          "prefixes": [
+            {
+              "threshold": 0,
+              "rank": 7,
+              "source_rank": 11,
+              "distinct_nonzero_LR_rows": 13,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 1,
+              "rank": 11,
+              "source_rank": 11,
+              "distinct_nonzero_LR_rows": 27,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 2,
+              "rank": 11,
+              "source_rank": 11,
+              "distinct_nonzero_LR_rows": 32,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 3,
+              "rank": 11,
+              "source_rank": 11,
+              "distinct_nonzero_LR_rows": 38,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            }
+          ]
+        },
+        {
+          "half_polynomial_degree": 8,
+          "prefixes": [
+            {
+              "threshold": 0,
+              "rank": 7,
+              "source_rank": 14,
+              "distinct_nonzero_LR_rows": 12,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 1,
+              "rank": 14,
+              "source_rank": 14,
+              "distinct_nonzero_LR_rows": 34,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 2,
+              "rank": 14,
+              "source_rank": 14,
+              "distinct_nonzero_LR_rows": 45,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 3,
+              "rank": 14,
+              "source_rank": 14,
+              "distinct_nonzero_LR_rows": 50,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            }
+          ]
+        },
+        {
+          "half_polynomial_degree": 9,
+          "prefixes": [
+            {
+              "threshold": 0,
+              "rank": 5,
+              "source_rank": 16,
+              "distinct_nonzero_LR_rows": 8,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 1,
+              "rank": 16,
+              "source_rank": 16,
+              "distinct_nonzero_LR_rows": 36,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 2,
+              "rank": 16,
+              "source_rank": 16,
+              "distinct_nonzero_LR_rows": 54,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 3,
+              "rank": 16,
+              "source_rank": 16,
+              "distinct_nonzero_LR_rows": 60,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            }
+          ]
+        },
+        {
+          "half_polynomial_degree": 10,
+          "prefixes": [
+            {
+              "threshold": 0,
+              "rank": 4,
+              "source_rank": 18,
+              "distinct_nonzero_LR_rows": 5,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 1,
+              "rank": 17,
+              "source_rank": 18,
+              "distinct_nonzero_LR_rows": 35,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 2,
+              "rank": 18,
+              "source_rank": 18,
+              "distinct_nonzero_LR_rows": 63,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 3,
+              "rank": 18,
+              "source_rank": 18,
+              "distinct_nonzero_LR_rows": 68,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            }
+          ]
+        },
+        {
+          "half_polynomial_degree": 11,
+          "prefixes": [
+            {
+              "threshold": 0,
+              "rank": 2,
+              "source_rank": 19,
+              "distinct_nonzero_LR_rows": 2,
+              "smith_factors": [
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 1,
+              "rank": 17,
+              "source_rank": 19,
+              "distinct_nonzero_LR_rows": 30,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 2,
+              "rank": 19,
+              "source_rank": 19,
+              "distinct_nonzero_LR_rows": 66,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 3,
+              "rank": 19,
+              "source_rank": 19,
+              "distinct_nonzero_LR_rows": 72,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            }
+          ]
+        },
+        {
+          "half_polynomial_degree": 12,
+          "prefixes": [
+            {
+              "threshold": 0,
+              "rank": 1,
+              "source_rank": 20,
+              "distinct_nonzero_LR_rows": 1,
+              "smith_factors": [
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 1,
+              "rank": 15,
+              "source_rank": 20,
+              "distinct_nonzero_LR_rows": 23,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 2,
+              "rank": 20,
+              "source_rank": 20,
+              "distinct_nonzero_LR_rows": 65,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 3,
+              "rank": 20,
+              "source_rank": 20,
+              "distinct_nonzero_LR_rows": 72,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            }
+          ]
+        },
+        {
+          "half_polynomial_degree": 13,
+          "prefixes": [
+            {
+              "threshold": 0,
+              "rank": 0,
+              "source_rank": 20,
+              "distinct_nonzero_LR_rows": 0,
+              "smith_factors": [],
+              "primitive": true
+            },
+            {
+              "threshold": 1,
+              "rank": 12,
+              "source_rank": 20,
+              "distinct_nonzero_LR_rows": 16,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 2,
+              "rank": 20,
+              "source_rank": 20,
+              "distinct_nonzero_LR_rows": 57,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 3,
+              "rank": 20,
+              "source_rank": 20,
+              "distinct_nonzero_LR_rows": 68,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            }
+          ]
+        },
+        {
+          "half_polynomial_degree": 14,
+          "prefixes": [
+            {
+              "threshold": 0,
+              "rank": 0,
+              "source_rank": 19,
+              "distinct_nonzero_LR_rows": 0,
+              "smith_factors": [],
+              "primitive": true
+            },
+            {
+              "threshold": 1,
+              "rank": 8,
+              "source_rank": 19,
+              "distinct_nonzero_LR_rows": 9,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 2,
+              "rank": 19,
+              "source_rank": 19,
+              "distinct_nonzero_LR_rows": 48,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 3,
+              "rank": 19,
+              "source_rank": 19,
+              "distinct_nonzero_LR_rows": 60,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            }
+          ]
+        },
+        {
+          "half_polynomial_degree": 15,
+          "prefixes": [
+            {
+              "threshold": 0,
+              "rank": 0,
+              "source_rank": 18,
+              "distinct_nonzero_LR_rows": 0,
+              "smith_factors": [],
+              "primitive": true
+            },
+            {
+              "threshold": 1,
+              "rank": 5,
+              "source_rank": 18,
+              "distinct_nonzero_LR_rows": 5,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 2,
+              "rank": 17,
+              "source_rank": 18,
+              "distinct_nonzero_LR_rows": 35,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 3,
+              "rank": 18,
+              "source_rank": 18,
+              "distinct_nonzero_LR_rows": 50,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "B",
+      "source": "larger_LR_only_search",
+      "tail": 6,
+      "head": 5,
+      "n": 11,
+      "maximum_half_polynomial_degree": 12,
+      "degrees": [
+        {
+          "half_polynomial_degree": 0,
+          "prefixes": [
+            {
+              "threshold": 0,
+              "rank": 1,
+              "source_rank": 1,
+              "distinct_nonzero_LR_rows": 1,
+              "smith_factors": [
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 1,
+              "rank": 1,
+              "source_rank": 1,
+              "distinct_nonzero_LR_rows": 1,
+              "smith_factors": [
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 2,
+              "rank": 1,
+              "source_rank": 1,
+              "distinct_nonzero_LR_rows": 1,
+              "smith_factors": [
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 3,
+              "rank": 1,
+              "source_rank": 1,
+              "distinct_nonzero_LR_rows": 1,
+              "smith_factors": [
+                1
+              ],
+              "primitive": true
+            }
+          ]
+        },
+        {
+          "half_polynomial_degree": 1,
+          "prefixes": [
+            {
+              "threshold": 0,
+              "rank": 1,
+              "source_rank": 1,
+              "distinct_nonzero_LR_rows": 1,
+              "smith_factors": [
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 1,
+              "rank": 1,
+              "source_rank": 1,
+              "distinct_nonzero_LR_rows": 1,
+              "smith_factors": [
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 2,
+              "rank": 1,
+              "source_rank": 1,
+              "distinct_nonzero_LR_rows": 1,
+              "smith_factors": [
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 3,
+              "rank": 1,
+              "source_rank": 1,
+              "distinct_nonzero_LR_rows": 1,
+              "smith_factors": [
+                1
+              ],
+              "primitive": true
+            }
+          ]
+        },
+        {
+          "half_polynomial_degree": 2,
+          "prefixes": [
+            {
+              "threshold": 0,
+              "rank": 2,
+              "source_rank": 2,
+              "distinct_nonzero_LR_rows": 3,
+              "smith_factors": [
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 1,
+              "rank": 2,
+              "source_rank": 2,
+              "distinct_nonzero_LR_rows": 3,
+              "smith_factors": [
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 2,
+              "rank": 2,
+              "source_rank": 2,
+              "distinct_nonzero_LR_rows": 3,
+              "smith_factors": [
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 3,
+              "rank": 2,
+              "source_rank": 2,
+              "distinct_nonzero_LR_rows": 3,
+              "smith_factors": [
+                1,
+                1
+              ],
+              "primitive": true
+            }
+          ]
+        },
+        {
+          "half_polynomial_degree": 3,
+          "prefixes": [
+            {
+              "threshold": 0,
+              "rank": 3,
+              "source_rank": 3,
+              "distinct_nonzero_LR_rows": 5,
+              "smith_factors": [
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 1,
+              "rank": 3,
+              "source_rank": 3,
+              "distinct_nonzero_LR_rows": 5,
+              "smith_factors": [
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 2,
+              "rank": 3,
+              "source_rank": 3,
+              "distinct_nonzero_LR_rows": 5,
+              "smith_factors": [
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 3,
+              "rank": 3,
+              "source_rank": 3,
+              "distinct_nonzero_LR_rows": 6,
+              "smith_factors": [
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            }
+          ]
+        },
+        {
+          "half_polynomial_degree": 4,
+          "prefixes": [
+            {
+              "threshold": 0,
+              "rank": 5,
+              "source_rank": 5,
+              "distinct_nonzero_LR_rows": 9,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 1,
+              "rank": 5,
+              "source_rank": 5,
+              "distinct_nonzero_LR_rows": 10,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 2,
+              "rank": 5,
+              "source_rank": 5,
+              "distinct_nonzero_LR_rows": 10,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 3,
+              "rank": 5,
+              "source_rank": 5,
+              "distinct_nonzero_LR_rows": 11,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            }
+          ]
+        },
+        {
+          "half_polynomial_degree": 5,
+          "prefixes": [
+            {
+              "threshold": 0,
+              "rank": 7,
+              "source_rank": 7,
+              "distinct_nonzero_LR_rows": 12,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 1,
+              "rank": 7,
+              "source_rank": 7,
+              "distinct_nonzero_LR_rows": 15,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 2,
+              "rank": 7,
+              "source_rank": 7,
+              "distinct_nonzero_LR_rows": 15,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 3,
+              "rank": 7,
+              "source_rank": 7,
+              "distinct_nonzero_LR_rows": 18,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            }
+          ]
+        },
+        {
+          "half_polynomial_degree": 6,
+          "prefixes": [
+            {
+              "threshold": 0,
+              "rank": 9,
+              "source_rank": 10,
+              "distinct_nonzero_LR_rows": 17,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 1,
+              "rank": 10,
+              "source_rank": 10,
+              "distinct_nonzero_LR_rows": 25,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 2,
+              "rank": 10,
+              "source_rank": 10,
+              "distinct_nonzero_LR_rows": 26,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 3,
+              "rank": 10,
+              "source_rank": 10,
+              "distinct_nonzero_LR_rows": 30,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            }
+          ]
+        },
+        {
+          "half_polynomial_degree": 7,
+          "prefixes": [
+            {
+              "threshold": 0,
+              "rank": 10,
+              "source_rank": 12,
+              "distinct_nonzero_LR_rows": 19,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 1,
+              "rank": 12,
+              "source_rank": 12,
+              "distinct_nonzero_LR_rows": 33,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 2,
+              "rank": 12,
+              "source_rank": 12,
+              "distinct_nonzero_LR_rows": 35,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 3,
+              "rank": 12,
+              "source_rank": 12,
+              "distinct_nonzero_LR_rows": 42,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            }
+          ]
+        },
+        {
+          "half_polynomial_degree": 8,
+          "prefixes": [
+            {
+              "threshold": 0,
+              "rank": 12,
+              "source_rank": 16,
+              "distinct_nonzero_LR_rows": 21,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 1,
+              "rank": 16,
+              "source_rank": 16,
+              "distinct_nonzero_LR_rows": 47,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 2,
+              "rank": 16,
+              "source_rank": 16,
+              "distinct_nonzero_LR_rows": 52,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 3,
+              "rank": 16,
+              "source_rank": 16,
+              "distinct_nonzero_LR_rows": 59,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            }
+          ]
+        },
+        {
+          "half_polynomial_degree": 9,
+          "prefixes": [
+            {
+              "threshold": 0,
+              "rank": 12,
+              "source_rank": 19,
+              "distinct_nonzero_LR_rows": 20,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 1,
+              "rank": 19,
+              "source_rank": 19,
+              "distinct_nonzero_LR_rows": 57,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 2,
+              "rank": 19,
+              "source_rank": 19,
+              "distinct_nonzero_LR_rows": 66,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 3,
+              "rank": 19,
+              "source_rank": 19,
+              "distinct_nonzero_LR_rows": 76,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            }
+          ]
+        },
+        {
+          "half_polynomial_degree": 10,
+          "prefixes": [
+            {
+              "threshold": 0,
+              "rank": 11,
+              "source_rank": 23,
+              "distinct_nonzero_LR_rows": 17,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 1,
+              "rank": 23,
+              "source_rank": 23,
+              "distinct_nonzero_LR_rows": 68,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 2,
+              "rank": 23,
+              "source_rank": 23,
+              "distinct_nonzero_LR_rows": 85,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 3,
+              "rank": 23,
+              "source_rank": 23,
+              "distinct_nonzero_LR_rows": 94,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            }
+          ]
+        },
+        {
+          "half_polynomial_degree": 11,
+          "prefixes": [
+            {
+              "threshold": 0,
+              "rank": 9,
+              "source_rank": 25,
+              "distinct_nonzero_LR_rows": 13,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 1,
+              "rank": 25,
+              "source_rank": 25,
+              "distinct_nonzero_LR_rows": 71,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 2,
+              "rank": 25,
+              "source_rank": 25,
+              "distinct_nonzero_LR_rows": 97,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 3,
+              "rank": 25,
+              "source_rank": 25,
+              "distinct_nonzero_LR_rows": 109,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            }
+          ]
+        },
+        {
+          "half_polynomial_degree": 12,
+          "prefixes": [
+            {
+              "threshold": 0,
+              "rank": 7,
+              "source_rank": 29,
+              "distinct_nonzero_LR_rows": 9,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 1,
+              "rank": 28,
+              "source_rank": 29,
+              "distinct_nonzero_LR_rows": 72,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 2,
+              "rank": 29,
+              "source_rank": 29,
+              "distinct_nonzero_LR_rows": 112,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 3,
+              "rank": 29,
+              "source_rank": 29,
+              "distinct_nonzero_LR_rows": 123,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "B",
+      "source": "larger_LR_only_search",
+      "tail": 6,
+      "head": 6,
+      "n": 12,
+      "maximum_half_polynomial_degree": 12,
+      "degrees": [
+        {
+          "half_polynomial_degree": 0,
+          "prefixes": [
+            {
+              "threshold": 0,
+              "rank": 1,
+              "source_rank": 1,
+              "distinct_nonzero_LR_rows": 1,
+              "smith_factors": [
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 1,
+              "rank": 1,
+              "source_rank": 1,
+              "distinct_nonzero_LR_rows": 1,
+              "smith_factors": [
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 2,
+              "rank": 1,
+              "source_rank": 1,
+              "distinct_nonzero_LR_rows": 1,
+              "smith_factors": [
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 3,
+              "rank": 1,
+              "source_rank": 1,
+              "distinct_nonzero_LR_rows": 1,
+              "smith_factors": [
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 4,
+              "rank": 1,
+              "source_rank": 1,
+              "distinct_nonzero_LR_rows": 1,
+              "smith_factors": [
+                1
+              ],
+              "primitive": true
+            }
+          ]
+        },
+        {
+          "half_polynomial_degree": 1,
+          "prefixes": [
+            {
+              "threshold": 0,
+              "rank": 1,
+              "source_rank": 1,
+              "distinct_nonzero_LR_rows": 1,
+              "smith_factors": [
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 1,
+              "rank": 1,
+              "source_rank": 1,
+              "distinct_nonzero_LR_rows": 1,
+              "smith_factors": [
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 2,
+              "rank": 1,
+              "source_rank": 1,
+              "distinct_nonzero_LR_rows": 1,
+              "smith_factors": [
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 3,
+              "rank": 1,
+              "source_rank": 1,
+              "distinct_nonzero_LR_rows": 1,
+              "smith_factors": [
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 4,
+              "rank": 1,
+              "source_rank": 1,
+              "distinct_nonzero_LR_rows": 1,
+              "smith_factors": [
+                1
+              ],
+              "primitive": true
+            }
+          ]
+        },
+        {
+          "half_polynomial_degree": 2,
+          "prefixes": [
+            {
+              "threshold": 0,
+              "rank": 2,
+              "source_rank": 2,
+              "distinct_nonzero_LR_rows": 3,
+              "smith_factors": [
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 1,
+              "rank": 2,
+              "source_rank": 2,
+              "distinct_nonzero_LR_rows": 3,
+              "smith_factors": [
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 2,
+              "rank": 2,
+              "source_rank": 2,
+              "distinct_nonzero_LR_rows": 3,
+              "smith_factors": [
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 3,
+              "rank": 2,
+              "source_rank": 2,
+              "distinct_nonzero_LR_rows": 3,
+              "smith_factors": [
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 4,
+              "rank": 2,
+              "source_rank": 2,
+              "distinct_nonzero_LR_rows": 3,
+              "smith_factors": [
+                1,
+                1
+              ],
+              "primitive": true
+            }
+          ]
+        },
+        {
+          "half_polynomial_degree": 3,
+          "prefixes": [
+            {
+              "threshold": 0,
+              "rank": 3,
+              "source_rank": 3,
+              "distinct_nonzero_LR_rows": 5,
+              "smith_factors": [
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 1,
+              "rank": 3,
+              "source_rank": 3,
+              "distinct_nonzero_LR_rows": 6,
+              "smith_factors": [
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 2,
+              "rank": 3,
+              "source_rank": 3,
+              "distinct_nonzero_LR_rows": 5,
+              "smith_factors": [
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 3,
+              "rank": 3,
+              "source_rank": 3,
+              "distinct_nonzero_LR_rows": 6,
+              "smith_factors": [
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 4,
+              "rank": 3,
+              "source_rank": 3,
+              "distinct_nonzero_LR_rows": 6,
+              "smith_factors": [
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            }
+          ]
+        },
+        {
+          "half_polynomial_degree": 4,
+          "prefixes": [
+            {
+              "threshold": 0,
+              "rank": 5,
+              "source_rank": 5,
+              "distinct_nonzero_LR_rows": 9,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 1,
+              "rank": 5,
+              "source_rank": 5,
+              "distinct_nonzero_LR_rows": 12,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 2,
+              "rank": 5,
+              "source_rank": 5,
+              "distinct_nonzero_LR_rows": 10,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 3,
+              "rank": 5,
+              "source_rank": 5,
+              "distinct_nonzero_LR_rows": 12,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 4,
+              "rank": 5,
+              "source_rank": 5,
+              "distinct_nonzero_LR_rows": 12,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            }
+          ]
+        },
+        {
+          "half_polynomial_degree": 5,
+          "prefixes": [
+            {
+              "threshold": 0,
+              "rank": 7,
+              "source_rank": 7,
+              "distinct_nonzero_LR_rows": 12,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 1,
+              "rank": 7,
+              "source_rank": 7,
+              "distinct_nonzero_LR_rows": 21,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 2,
+              "rank": 7,
+              "source_rank": 7,
+              "distinct_nonzero_LR_rows": 15,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 3,
+              "rank": 7,
+              "source_rank": 7,
+              "distinct_nonzero_LR_rows": 21,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 4,
+              "rank": 7,
+              "source_rank": 7,
+              "distinct_nonzero_LR_rows": 20,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            }
+          ]
+        },
+        {
+          "half_polynomial_degree": 6,
+          "prefixes": [
+            {
+              "threshold": 0,
+              "rank": 10,
+              "source_rank": 11,
+              "distinct_nonzero_LR_rows": 18,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 1,
+              "rank": 11,
+              "source_rank": 11,
+              "distinct_nonzero_LR_rows": 36,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 2,
+              "rank": 11,
+              "source_rank": 11,
+              "distinct_nonzero_LR_rows": 27,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 3,
+              "rank": 11,
+              "source_rank": 11,
+              "distinct_nonzero_LR_rows": 38,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 4,
+              "rank": 11,
+              "source_rank": 11,
+              "distinct_nonzero_LR_rows": 35,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            }
+          ]
+        },
+        {
+          "half_polynomial_degree": 7,
+          "prefixes": [
+            {
+              "threshold": 0,
+              "rank": 11,
+              "source_rank": 13,
+              "distinct_nonzero_LR_rows": 20,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 1,
+              "rank": 13,
+              "source_rank": 13,
+              "distinct_nonzero_LR_rows": 54,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 2,
+              "rank": 13,
+              "source_rank": 13,
+              "distinct_nonzero_LR_rows": 36,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 3,
+              "rank": 13,
+              "source_rank": 13,
+              "distinct_nonzero_LR_rows": 59,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 4,
+              "rank": 13,
+              "source_rank": 13,
+              "distinct_nonzero_LR_rows": 51,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            }
+          ]
+        },
+        {
+          "half_polynomial_degree": 8,
+          "prefixes": [
+            {
+              "threshold": 0,
+              "rank": 14,
+              "source_rank": 18,
+              "distinct_nonzero_LR_rows": 24,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 1,
+              "rank": 18,
+              "source_rank": 18,
+              "distinct_nonzero_LR_rows": 80,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 2,
+              "rank": 18,
+              "source_rank": 18,
+              "distinct_nonzero_LR_rows": 55,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 3,
+              "rank": 18,
+              "source_rank": 18,
+              "distinct_nonzero_LR_rows": 93,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 4,
+              "rank": 18,
+              "source_rank": 18,
+              "distinct_nonzero_LR_rows": 76,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            }
+          ]
+        },
+        {
+          "half_polynomial_degree": 9,
+          "prefixes": [
+            {
+              "threshold": 0,
+              "rank": 15,
+              "source_rank": 22,
+              "distinct_nonzero_LR_rows": 24,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 1,
+              "rank": 22,
+              "source_rank": 22,
+              "distinct_nonzero_LR_rows": 108,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 2,
+              "rank": 22,
+              "source_rank": 22,
+              "distinct_nonzero_LR_rows": 72,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 3,
+              "rank": 22,
+              "source_rank": 22,
+              "distinct_nonzero_LR_rows": 134,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 4,
+              "rank": 22,
+              "source_rank": 22,
+              "distinct_nonzero_LR_rows": 103,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            }
+          ]
+        },
+        {
+          "half_polynomial_degree": 10,
+          "prefixes": [
+            {
+              "threshold": 0,
+              "rank": 16,
+              "source_rank": 28,
+              "distinct_nonzero_LR_rows": 24,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 1,
+              "rank": 28,
+              "source_rank": 28,
+              "distinct_nonzero_LR_rows": 136,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 2,
+              "rank": 28,
+              "source_rank": 28,
+              "distinct_nonzero_LR_rows": 97,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 3,
+              "rank": 28,
+              "source_rank": 28,
+              "distinct_nonzero_LR_rows": 186,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 4,
+              "rank": 28,
+              "source_rank": 28,
+              "distinct_nonzero_LR_rows": 136,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            }
+          ]
+        },
+        {
+          "half_polynomial_degree": 11,
+          "prefixes": [
+            {
+              "threshold": 0,
+              "rank": 14,
+              "source_rank": 32,
+              "distinct_nonzero_LR_rows": 20,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 1,
+              "rank": 32,
+              "source_rank": 32,
+              "distinct_nonzero_LR_rows": 159,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 2,
+              "rank": 32,
+              "source_rank": 32,
+              "distinct_nonzero_LR_rows": 116,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 3,
+              "rank": 32,
+              "source_rank": 32,
+              "distinct_nonzero_LR_rows": 242,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 4,
+              "rank": 32,
+              "source_rank": 32,
+              "distinct_nonzero_LR_rows": 168,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            }
+          ]
+        },
+        {
+          "half_polynomial_degree": 12,
+          "prefixes": [
+            {
+              "threshold": 0,
+              "rank": 14,
+              "source_rank": 39,
+              "distinct_nonzero_LR_rows": 18,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 1,
+              "rank": 38,
+              "source_rank": 39,
+              "distinct_nonzero_LR_rows": 173,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 2,
+              "rank": 39,
+              "source_rank": 39,
+              "distinct_nonzero_LR_rows": 145,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 3,
+              "rank": 39,
+              "source_rank": 39,
+              "distinct_nonzero_LR_rows": 304,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            },
+            {
+              "threshold": 4,
+              "rank": 39,
+              "source_rank": 39,
+              "distinct_nonzero_LR_rows": 206,
+              "smith_factors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "primitive": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "counterexamples": [],
+  "seconds": 2.494324
+}
