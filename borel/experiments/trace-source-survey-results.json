@@ -362921,7 +362921,7 @@
   "representation_cases": 59,
   "prime_adapted_checks": 354,
   "bounded_relation_searches": 18,
-  "seconds": 11.984,
+  "seconds": 8.448,
   "scope": "Finite tests support the displayed all-degree proof; they do not replace it.",
   "source_hash_semantics": "SHA256 with CRLF normalized to LF.",
   "source_sha256": {
@@ -362930,6 +362930,6 @@
     "src/sage_borel/__init__.py": "ccc8a90b24dbf453743741fde238cd0916a6e93b9e5278ae033148327633600d",
     "src/sage_borel/character_invariants.py": "6a88572924fe9516b8609578483dcbbf016a953146149d65a6e1be6c2cd652d0",
     "tests/test_trace_source.py": "d0f3921e54bfb4f5fba6eca1348725afb80022f43c8bae6e58d0cdc2ebb774e4",
-    "TRACE_SOURCE_THEOREM.md": "5281a64df5892e8bdce55ea01a247b4459c45f3d6b2e6b00ad1e7d5676f93b31"
+    "TRACE_SOURCE_THEOREM.md": "abe121a04aa7449ba8b2b34b2f04d7d56bc0907d1f3a5899cdfbdd924fe1abc0"
   }
 }

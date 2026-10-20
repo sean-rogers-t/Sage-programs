@@ -517,3 +517,9 @@ logarithmic-gradient geometry appears in
 but that work is not cited as the all-primes integral theorem. Focused
 searches have not established priority for the displayed formulation;
 no claim of originality or of an open question in those papers is made.
+The [2026-10-20 detailed audit](TRACE_SOURCE_AUDIT.md) records the
+source-by-source comparison and search scope. The published
+weight-moment formula in Rogers' preprint is explicitly credited, as
+are the standard lattice and denominator arguments. The proof passed
+the audit; the exact integral statement was not located, and literature
+priority remains unresolved.

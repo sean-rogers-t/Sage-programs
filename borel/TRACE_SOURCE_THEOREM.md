@@ -17,6 +17,10 @@ The proof below is an elementary deduction from the trace formula and
 saturation. It replaces the previous need to find a separate all-primes
 leading-term basis for each representation. The old certificates remain
 valid independent checks. No assertion of literature priority is made.
+The [2026-10-20 proof and literature audit](TRACE_SOURCE_AUDIT.md) checks
+each step, its hypotheses, and the published inputs. No gap was found;
+the exact integral statement was not located in the reviewed sources,
+so its literature priority remains unresolved.
 
 ## The maps and the integral question
 
@@ -50,6 +54,14 @@ M is invertible under the stated hypotheses. This normalized trace
 construction is published in
 [Kostant--Michor, Sections 2.1 and 2.4](https://arxiv.org/pdf/math/0109066).
 In particular d(theta_rho)_1=id, so the pullback is injective.
+The weight-moment matrix formula above is also explicitly derived in
+[Rogers, Theorem 1 and Section 3, preprint](https://arxiv.org/pdf/1701.01538v1).
+It is a published input, not a new formula of this note.
+
+The rational linear coefficient matrix A has rank r. Clearing its
+denominators gives a full sublattice of Lambda_rho, and any nonsingular
+r-row submatrix of A bounds Lambda_rho inside a rational lattice.
+Thus Lambda_rho is a full, finitely generated lattice.
 
 Choose a Z-basis ell_1,...,ell_r of Lambda_rho, with coefficient columns
 in a matrix B, and put b_i=theta_rho^*(ell_i). Let C be the integer
@@ -101,6 +113,9 @@ integer minor of C is therefore nonzero over Q. By (1),
 \]
 
 Hence the exponent vectors mu_j are linearly independent over Q.
+The factorization is used only over Q; neither K nor M^(-1) is reduced
+modulo p. The change U may depend on p and need not lift to a unimodular
+integer matrix.
 Distinct monomials in the transformed b_i have distinct leading Laurent
 exponents: equality would give an integer linear relation among the mu_j.
 Their leading coefficients are nonzero in F_p. The transformed b_i,
