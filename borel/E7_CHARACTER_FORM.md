@@ -291,3 +291,5 @@ including its integral symmetric-coordinate compression. See the
 [API guide and complete replay](MINUSCULE_CHARACTER_API.md).
 The original catalogue and its normalization are preserved. Historical
 result files retain their original hashes with CRLF normalized to LF.
+Version 0.14 also exposes the [adjoint source and comparison](E7_REPRESENTATION_COMPARISON.md)
+as `e7_character_source(7, representation="adjoint")`.

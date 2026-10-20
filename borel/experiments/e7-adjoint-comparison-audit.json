@@ -1,0 +1,22 @@
+{
+  "result": "passed",
+  "engine": "Python standard library only",
+  "root_count": 126,
+  "leading_exponent_determinant": 2,
+  "compressed_generators": 7,
+  "direct_laurent_lattices": 8,
+  "adjoint_source_degrees": 28,
+  "image_comparison_degrees": 28,
+  "scope": "Fresh roots, trace, all-primes proof, integral P coordinates, Girard-formula symmetric inputs, all source coefficient lattices and image arithmetic. Borel columns independently checked by the separate Sage ordinary-ring calculation; historical minimal image tables reused.",
+  "seconds": 2432.147,
+  "source_hash_semantics": "SHA256 with CRLF normalized to LF.",
+  "source_sha256": {
+    "experiments/e7-adjoint-comparison-results.json": "78b6cc538883ec7537aef4edc13d0a16efe406433afa73d105598ecd047301dd",
+    "experiments/minuscule-character-api-results.json": "11fca1f68c734ab7055aa7d71ae7a9e02b2fbcae063398d8dd9f38303ab20545",
+    "experiments/e6-adjoint-api-audit.json": "3a18e5973b9da0034817d8ec8dc7195838dca89bc8e742d07f6c86a5f755cc4f",
+    "experiments/audit_e7_adjoint_comparison.py": "af3bb4b93be2a533c6c6db61b2e2db86381e1d0c1772488b52a01591a51b991a",
+    "experiments/audit_e6_character_form.py": "f5cb69082e8ad364f99333ec0d5079fb904c4cb01c106b1d2b1b918f6c026e31",
+    "experiments/audit_e7_character_form.py": "ae1f670ec4d7860a7c6fcdd6883e58199f82b42ef428b0e89af763f0e45c9e7c",
+    "experiments/audit_f4_character_form.py": "04565509a1cab386d4b0f777be7a2f6126a972422f1fd3efd76ad0f9cb8e7b0c"
+  }
+}

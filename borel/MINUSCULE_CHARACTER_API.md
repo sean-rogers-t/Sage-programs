@@ -1,13 +1,15 @@
 # E6/P1 and E7/P7: certified integral character APIs
 
 Version 0.13 packages the previously proved and audited minimal character
-sources, and adds the E6 adjoint comparison:
+sources and the E6 adjoint comparison.
+Version 0.14 also adds the E7 adjoint source.
 
 | Factory | Representation | Full torus source |
 |---|---|---|
 | `e6_character_source(1)` | V(omega1), dimension 27 | Sym_Z(6Q) |
 | `e6_character_source(1, representation="adjoint")` | V(omega2), dimension 78 | Sym_Z(24P) |
 | `e7_character_source(7)` | V(omega7), dimension 56 | Sym_Z(12Q) |
+| `e7_character_source(7, representation="adjoint")` | V(omega1), dimension 133 | Sym_Z(36P) |
 
 P is the full weight lattice of the simply connected group, and Q its root
 lattice. The source for the indicated Levi is the W_L-invariant subring of
@@ -15,9 +17,8 @@ the displayed torus source. Numbering and generator normalizations are
 unchanged from the catalogue and the Kumar papers.
 
 These helpers support only E6/P1 and E7/P7. They reject other nodes rather
-than imply that every exceptional parabolic has been certified. The E6
-selector accepts exactly `"minimal"` and `"adjoint"`; E7 currently packages
-only its minimal representation.
+than imply that every exceptional parabolic has been certified. The
+selectors for E6 and E7 accept exactly `"minimal"` and `"adjoint"`.
 
 ## Using the API
 
@@ -84,18 +85,20 @@ The [E6 minimal proof](E6_CHARACTER_FORM.md) and
 sources by algebraic independence of integral Laurent pullbacks modulo
 every prime. The [E6 adjoint proof](E6_REPRESENTATION_COMPARISON.md)
 uses a separate unit-leading-coefficient certificate.
+The [E7 adjoint proof](E7_REPRESENTATION_COMPARISON.md) separately certifies
+Sym_Z(36P), with all-Levi sum/intersection formulas.
 
 For E6 the coefficient constraints are computed in a root basis for the
 minimal representation and a weight basis for the adjoint. For E7 the
-integral A5 change of coordinates gives
-Z[E1,...,E6,u], where Ej is an elementary symmetric polynomial in six
-permuted root-lattice coordinates. This replaces large root-variable
+integral A5 change of coordinates gives Z[E1,...,E6,u] for Q and
+Z[E1,...,E6,z] for P, with u=2z+E1. Here Ej is an elementary symmetric
+polynomial in six permuted coordinates. This replaces large root-variable
 expansions with a smaller weighted coefficient matrix. The integral
 coordinate identification is proved in the E7 note; it is not an
 approximation.
 
 Exact Hermite reduction finds the preimage of the integer coefficient
-lattice. The source basis is then multiplied by 6^d, 24^d or 12^d as
+lattice. The source basis is then multiplied by 6^d, 24^d, 12^d or 36^d as
 appropriate. Every source basis still includes the Borel kernel.
 
 Images use ordinary fixed-point interpolation: evaluate invariant
@@ -143,3 +146,11 @@ Results: [full API replay](experiments/minuscule-character-api-results.json),
 [independent audit](experiments/e6-adjoint-api-audit.json).
 Historical reports retain their original dependency hashes; new reports
 bind the exact historical tables used.
+
+The subsequent [E7 adjoint comparison](E7_REPRESENTATION_COMPARISON.md)
+adds all 28 adjoint degrees and 1,967 fresh ordinary-ring/Borel-column
+comparisons. Its Python-only audit reconstructs the integral P model and
+compressed polynomials with a separate closed partition formula, all
+source coefficient constraints, eight direct Laurent lattices and all
+embedded comparisons. The previously certified minimal image tables
+are reused, with six fresh minimal API degree checks.

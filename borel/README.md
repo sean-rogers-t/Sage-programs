@@ -32,6 +32,7 @@ the mathematical guide for the Borel/Springer construction.
 | What is the literal F4 character form and its complete image? | [Proof, API and independent checks](F4_CHARACTER_FORM.md), [all four parabolic tables](F4_CHARACTER_TABLES.md) |
 | How does the F4 adjoint representation change the integral image? | [All-degree scaling theorem and comparison API](F4_REPRESENTATION_COMPARISON.md) |
 | How do I compute the certified E6/P1 and E7/P7 character images? | [Public character API](MINUSCULE_CHARACTER_API.md) and [E6 minimal/adjoint comparison](E6_REPRESENTATION_COMPARISON.md) |
+| How does E7's adjoint representation change the integral image? | [E7 source proof, complete comparisons and API](E7_REPRESENTATION_COMPARISON.md) |
 | How do the historical functions map to the new API? | [Migration guide](MIGRATION.md) |
 
 [examples/mathematical_methods.py](examples/mathematical_methods.py) is an
@@ -160,6 +161,13 @@ certified Sym_Z(24P) source. The minimal Sym_Z(6Q) and adjoint images
 are incomparable in every positive degree on E6/P1. Their sums and
 intersections satisfy the [proved all-Levi formulas](E6_REPRESENTATION_COMPARISON.md);
 the [API guide](MINUSCULE_CHARACTER_API.md) explains verification and limits.
+
+Version 0.14 adds `e7_character_source(7, representation="adjoint")`.
+Its [full-source proof](E7_REPRESENTATION_COMPARISON.md) gives
+Sym_Z(36P), compared with the minimal Sym_Z(12Q), and proves all-Levi
+sum/intersection formulas. The complete E7/P7 tables and independent
+audit distinguish degreewise containment from incomparability of the
+whole image rings. The original minimal factory default is preserved.
 
 The subsequent [type C joint-image proof](TYPE_C_JOINT_PRIMITIVITY.md)
 proves saturation of the normalized joint image for all positive block

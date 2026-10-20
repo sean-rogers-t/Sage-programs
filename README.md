@@ -14,6 +14,9 @@ compute the certified integral sources and their complete Borel images.
 The [E6 representation comparison](borel/E6_REPRESENTATION_COMPARISON.md)
 proves the minimal and adjoint source formulas, their all-Levi image sums
 and intersections, and records the independently checked E6/P1 tables.
+The [E7 minimal/adjoint comparison](borel/E7_REPRESENTATION_COMPARISON.md)
+now provides the corresponding full-source proof, complete E7/P7
+comparison and independent audit.
 
 The [graded image calculator](borel/IMAGE_RELATIONS.md) computes exact relations
 among chosen generator images, with two-step symplectic flag experiments and
