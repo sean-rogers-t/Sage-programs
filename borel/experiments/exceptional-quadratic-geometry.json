@@ -1,0 +1,67 @@
+{
+  "result": "passed",
+  "scope": "Quadratic coordinate only; exact Weyl invariance, Laurent reconstruction, and an independent tensor-Casimir identity. Not a full matrix audit.",
+  "cases": [
+    {
+      "cartan_type": "E6",
+      "representation": "minimal",
+      "dimension": 27,
+      "target_invariant": "w1^2 + w2^2 - w1*w3 + w3^2 - w2*w4 - w3*w4 + w4^2 - w4*w5 + w5^2 - w5*w6 + w6^2",
+      "character_pullback": "1/54*chi1^2 - 1/36*chi3 - 5/36*chi6",
+      "laurent_terms": 270,
+      "character_nodes_used": [
+        1,
+        3,
+        6
+      ],
+      "tensor_casimir_check": true,
+      "seconds": 0.42617406699997673
+    },
+    {
+      "cartan_type": "E6",
+      "representation": "adjoint",
+      "dimension": 78,
+      "target_invariant": "w1^2 + w2^2 - w1*w3 + w3^2 - w2*w4 - w3*w4 + w4^2 - w4*w5 + w5^2 - w5*w6 + w6^2",
+      "character_pullback": "1/576*chi2^2 - 1/144*chi1*chi6 - 1/192*chi2 - 1/576*chi4 - 1/64",
+      "laurent_terms": 865,
+      "character_nodes_used": [
+        1,
+        2,
+        4,
+        6
+      ],
+      "tensor_casimir_check": true,
+      "seconds": 0.23807821999997714
+    },
+    {
+      "cartan_type": "E7",
+      "representation": "minimal",
+      "dimension": 56,
+      "target_invariant": "w1^2 + w2^2 - w1*w3 + w3^2 - w2*w4 - w3*w4 + w4^2 - w4*w5 + w5^2 - w5*w6 + w6^2 - w6*w7 + w7^2",
+      "character_pullback": "1/192*chi7^2 - 1/24*chi1 - 1/144*chi6 - 5/48",
+      "laurent_terms": 939,
+      "character_nodes_used": [
+        1,
+        6,
+        7
+      ],
+      "tensor_casimir_check": true,
+      "seconds": 0.34779714500001546
+    },
+    {
+      "cartan_type": "E7",
+      "representation": "adjoint",
+      "dimension": 133,
+      "target_invariant": "w1^2 + w2^2 - w1*w3 + w3^2 - w2*w4 - w3*w4 + w4^2 - w4*w5 + w5^2 - w5*w6 + w6^2 - w6*w7 + w7^2",
+      "character_pullback": "1/1296*chi1^2 - 5/648*chi1 - 1/1296*chi3 - 5/1296*chi6 - 19/1296",
+      "laurent_terms": 2269,
+      "character_nodes_used": [
+        1,
+        3,
+        6
+      ],
+      "tensor_casimir_check": true,
+      "seconds": 0.7400885179999932
+    }
+  ]
+}

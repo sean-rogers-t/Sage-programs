@@ -1,0 +1,30 @@
+{
+  "result": "passed",
+  "version": "0.17.0",
+  "regression_tests": 140,
+  "failures": 0,
+  "errors": 0,
+  "documentation_examples": 37,
+  "local_links_and_anchors": 766,
+  "isolated_wheel_tests": 7,
+  "wheel_sha256": "fee5b0770068ce0af3c4a98fa31b2e38d60bd79956e4336f6cd86336f41ab5db",
+  "current_regression_dependency_hashes": 44,
+  "wheel_sources_match": true,
+  "independent_checks": [
+    "G2 rational Chevalley/Serre matrices and adjoint matrices; full differentials coefficientwise",
+    "G2 quotient generic fibers over QQ(a,b), Newton polygons and exact face nondegeneracy",
+    "G2 exact regular-to-nonregular witnesses",
+    "E6/E7 minimal and adjoint quadratic Laurent coordinates versus tensor-Casimir identity"
+  ],
+  "hash_semantics": "SHA256 after CRLF to LF normalization",
+  "audit_sha256": {
+    "SPRINGER_GEOMETRY.md": "d011a7dfd3bc54a62565520eeb8d5fff5bde1194be484b4a22ffb21aca0b9c79",
+    "experiments/springer_geometry.py": "7d6d4a545767342a9943bf7873b535bc29a3f0365564b973c9a798c3e17b8994",
+    "experiments/audit_springer_geometry.py": "eb5f27ba68bfd9de3c08fa8b4d4922e1d32888f8f336c6248b2846e14e8261f5",
+    "experiments/exceptional_quadratic_geometry.py": "5fb91f8b8e05be976dce84500f9edb3da3941788c8dd13ac53bd352165f32522",
+    "experiments/springer-geometry-results.json": "556db615ab5ca2f1f9a88ad1fdd2f9c537e38f57ab82473f4b25aa2b894eada1",
+    "experiments/springer-geometry-audit.json": "a2bf4fd88326b53b955babdd1fd25d5389b37c116238ca92136a4f5521a791be",
+    "experiments/exceptional-quadratic-geometry.json": "aae35ea0cf88c1bcc9d80930c7aa41f52b4497f6ac549f2f86b680af2fbce600",
+    "tools/verify_geometry_wheel.py": "569ce90d9df14261ef9780cec361be44cfe4f145c960cb3aae142d8dd06c863e"
+  }
+}
