@@ -294,8 +294,10 @@ and [the report](experiments/exceptional-quadratic-geometry.json).
 Version 0.17 computed only the quadratic coordinate for E6/E7. The subsequent
 [E6 extension](E6_GEOMETRY.md) now gives all six coordinates and both full
 determinants as explicit products for the minimal and adjoint maps, with
-independent matrix certificates. Their generic degrees remain uncomputed;
-higher E7 coordinates and full determinants remain further work. There is
+independent matrix certificates. The [E7 extension](E7_GEOMETRY.md) supplies
+all seven coordinates through degree 18 and both full determinant products,
+with separate 56/133-dimensional matrix constructions and exact certificates.
+Their generic degrees remain uncomputed. There is
 no E8 geometry result here.
 
 ## API and reproducibility

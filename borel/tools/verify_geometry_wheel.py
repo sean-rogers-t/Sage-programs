@@ -24,6 +24,7 @@ def main():
         tests.mkdir()
         shutil.copyfile(ROOT/'tests/test_geometry.py', tests/'test_geometry.py')
         shutil.copyfile(ROOT/'tests/test_e6_geometry.py', tests/'test_e6_geometry.py')
+        shutil.copyfile(ROOT/'tests/test_e7_geometry.py', tests/'test_e7_geometry.py')
         environment = dict(os.environ, PYTHONPATH=str(target))
         result = subprocess.run([sys.executable, '-m', 'unittest', 'discover',
                                  '-s', str(tests), '-v'], cwd=target,

@@ -112,7 +112,7 @@ class AdjointQuotient:
 
     ``character_polynomials`` use chi_i = character of V(omega_i).
     ``torus_pullbacks`` are Laurent polynomials, or PowerSumPullback objects
-    in the E6 helper to avoid enormous expansions. These are
+    in the E6/E7 helpers to avoid enormous expansions. These are
     characteristic-zero quotient coordinates, not integral-source
     generators. Basicness is checked by degrees and algebraic independence.
     """

@@ -295,5 +295,6 @@ PYTHONPATH=src sage -python -m unittest tests.test_e6_geometry -v
 All requested higher coordinates and full determinant products are complete
 for these two E6 representations. The generic degrees of the E6 maps, a
 single expanded invariant polynomial for each full determinant, target branch
-loci, and the higher E7 calculation have not been computed here. In particular
+loci have not been computed here. The corresponding higher E7 calculations
+are completed in the [E7 extension](E7_GEOMETRY.md). In particular
 the G2 polytope argument is not extrapolated to obtain an E6 degree.

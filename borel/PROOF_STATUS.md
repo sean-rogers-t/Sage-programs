@@ -42,7 +42,12 @@ basic-invariant list, all six minimal/adjoint quotient coordinates and both
 full determinant products. Dominance bounds and exact unisolvent matrices
 prove the large character formulas; independent 27- and 78-dimensional
 matrices check all 72 root directions coefficientwise in both cases.
-Higher E7 coordinates and determinants and E6/E7 generic degrees remain
+The [E7 extension](E7_GEOMETRY.md) supplies all seven coordinates through
+degree 18 and both full 133-dimensional determinant products. Its dominance
+bounds and exact unisolvent checks certify all coefficients; independent
+56/133-dimensional representations check all Cartan entries and 126 root
+directions for both maps. The 912-dimensional character is reconstructed
+separately by root strings and Freudenthal. E6/E7 generic degrees remain
 uncomputed. These are exact deductions and computations, without a
 novelty claim. They do not identify the minimal Cayley degree of a group.
 
