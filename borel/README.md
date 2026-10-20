@@ -31,6 +31,7 @@ the mathematical guide for the Borel/Springer construction.
 | How does the representation determine the integral polynomial-character source? | [General criterion and character API](CHARACTER_SOURCES.md), with [complete G2 sources and image rings](G2_CHARACTER_FORM.md) |
 | What is the literal F4 character form and its complete image? | [Proof, API and independent checks](F4_CHARACTER_FORM.md), [all four parabolic tables](F4_CHARACTER_TABLES.md) |
 | How does the F4 adjoint representation change the integral image? | [All-degree scaling theorem and comparison API](F4_REPRESENTATION_COMPARISON.md) |
+| How do I compute the certified E6/P1 and E7/P7 character images? | [Public character API](MINUSCULE_CHARACTER_API.md) and [E6 minimal/adjoint comparison](E6_REPRESENTATION_COMPARISON.md) |
 | How do the historical functions map to the new API? | [Migration guide](MIGRATION.md) |
 
 [examples/mathematical_methods.py](examples/mathematical_methods.py) is an
@@ -150,6 +151,15 @@ that the adjoint torus source is Sym_Z(18 Q_long), and its degree-d Levi
 sources and Borel images are 3^d times their minimal counterparts.
 The normalized Springer morphisms themselves are different; the equality
 compares lattices in common polynomial and cohomology coordinates.
+
+Version 0.13 adds `e6_character_source(1)` and `e7_character_source(7)`,
+with exact degreewise sources and embedded images. E7 uses integral
+symmetric coordinates to keep coefficient matrices manageable.
+`e6_character_source(1, representation="adjoint")` computes the newly
+certified Sym_Z(24P) source. The minimal Sym_Z(6Q) and adjoint images
+are incomparable in every positive degree on E6/P1. Their sums and
+intersections satisfy the [proved all-Levi formulas](E6_REPRESENTATION_COMPARISON.md);
+the [API guide](MINUSCULE_CHARACTER_API.md) explains verification and limits.
 
 The subsequent [type C joint-image proof](TYPE_C_JOINT_PRIMITIVITY.md)
 proves saturation of the normalized joint image for all positive block

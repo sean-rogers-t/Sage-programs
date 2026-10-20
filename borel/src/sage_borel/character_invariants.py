@@ -94,6 +94,7 @@ class IntegralCharacterSource:
         # Columns of B are linear forms: u = transpose(B)*w.
         substitutions = B.transpose().inverse()*vector(variables)
         self._inputs = tuple(f(*substitutions) for f in fs)
+        self._coefficient_weights = (1,)*springer_map.rank
         self._cache = {}
 
     def degree(self, degree, max_monomials=500, max_matrix_entries=2000000):
@@ -109,7 +110,15 @@ class IntegralCharacterSource:
         monomials = algebra.monomials(d)
         if len(monomials) > bound:
             raise ValueError("monomial budget exceeded; raise max_monomials explicitly")
-        possible_rows = comb(d+self.springer_map.rank-1, self.springer_map.rank-1)
+        weights = self._coefficient_weights
+        if all(w == 1 for w in weights):
+            possible_rows = comb(d+len(weights)-1, len(weights)-1)
+        else:
+            counts = [1]+[0]*d
+            for w in weights:
+                for k in range(w, d+1):
+                    counts[k] += counts[k-w]
+            possible_rows = counts[d]
         if possible_rows*len(monomials) > entries:
             raise ValueError("coefficient matrix budget exceeded; raise max_matrix_entries explicitly")
         if d not in self._cache:

@@ -245,6 +245,9 @@ python experiments/audit_e6_character_form.py
 python tools/render_e6_character_tables.py
 ```
 
-The result files include source hashes with CRLF normalized to LF. The
-calculation is currently a research experiment; the public exceptional
-catalogue and its existing normalization are unchanged.
+The result files include source hashes with CRLF normalized to LF.
+Version 0.13 packages this calculation as `e6_character_source(1)`; see
+the [API guide](MINUSCULE_CHARACTER_API.md). The original exceptional
+catalogue and its normalization are unchanged. A separate
+[adjoint comparison](E6_REPRESENTATION_COMPARISON.md) proves its source
+is Sym_Z(24P) and compares the complete images.

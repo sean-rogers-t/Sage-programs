@@ -9,6 +9,12 @@ The original program files are preserved unchanged.
 The [exceptional catalogue](borel/EXCEPTIONAL.md) supplies named generator
 calculations for G2, F4, E6 and E7, plus the displayed E8 dissertation cases.
 
+The [E6/P1 and E7/P7 character APIs](borel/MINUSCULE_CHARACTER_API.md)
+compute the certified integral sources and their complete Borel images.
+The [E6 representation comparison](borel/E6_REPRESENTATION_COMPARISON.md)
+proves the minimal and adjoint source formulas, their all-Levi image sums
+and intersections, and records the independently checked E6/P1 tables.
+
 The [graded image calculator](borel/IMAGE_RELATIONS.md) computes exact relations
 among chosen generator images, with two-step symplectic flag experiments and
 an invariant-theory derivation of their joint-image presentation.

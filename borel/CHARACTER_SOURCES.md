@@ -253,6 +253,11 @@ certifies the adjoint source Sym_Z(18 Q_long) and proves degreewise
 3^d scaling of every Levi source and image. Its general scaling argument
 requires full-source certificates for both representations, not just
 proportional linear lattices.
+The [E6/E7 factories](MINUSCULE_CHARACTER_API.md) now package the proved
+minimal sources and complete images. The [E6 adjoint comparison](E6_REPRESENTATION_COMPARISON.md)
+proves Sym_Z(24P), which is not homothetic to the minimal Sym_Z(6Q).
+It gives all-Levi sum/intersection formulas and complete incomparable
+images on E6/P1.
 A classification of representations
 satisfying the criterion remains open work in this repository. No claim
 that those questions are open in the literature, or explicitly posed by

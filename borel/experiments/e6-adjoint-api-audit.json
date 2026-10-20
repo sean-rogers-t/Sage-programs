@@ -1,0 +1,23 @@
+{
+  "result": "passed",
+  "engine": "Python standard library only",
+  "leading_exponent_determinant": 3,
+  "direct_laurent_lattices": 8,
+  "image_rows": 62,
+  "minimal_source_lattices": 45,
+  "adjoint_source_lattices": 17,
+  "seconds": 192.281,
+  "scope": "Fresh adjoint torus and source coefficients; all image and comparison arithmetic. Minimal source bases compared with historically audited tables. Independent Borel evaluation is the separate Sage published-ring check, with its documented BGG anchor dependencies.",
+  "source_hash_semantics": "SHA256 with CRLF normalized to LF.",
+  "source_sha256": {
+    "experiments/minuscule-character-api-results.json": "11fca1f68c734ab7055aa7d71ae7a9e02b2fbcae063398d8dd9f38303ab20545",
+    "experiments/e6-adjoint-certificate-results.json": "61509747e9b9b415bdf3ed570a3afbcca811a7bc88fa504433018d103546931d",
+    "experiments/audit_e6_adjoint_api.py": "3674189af514c92a7fd1da0fdb067bc9d8d20b5eb7cd39d77505c9e41a450544",
+    "experiments/audit_e6_character_form.py": "f5cb69082e8ad364f99333ec0d5079fb904c4cb01c106b1d2b1b918f6c026e31",
+    "experiments/audit_f4_character_form.py": "04565509a1cab386d4b0f777be7a2f6126a972422f1fd3efd76ad0f9cb8e7b0c",
+    "experiments/e6-character-form-results.json": "21df8e19cf96c2727f4228e35e52dd2c11e2fb1f71bef13f2695024dfaf01369",
+    "experiments/e6-character-form-audit.json": "1118d199bfade895478e96e33131c90031e98023679a4b59479280202a202f08",
+    "experiments/e7-character-form-results.json": "3ca87b95bedb7990b209e6d4094f4364862a334c34449c6e5969b7f41a45cf4d",
+    "experiments/e7-character-form-audit.json": "1d92d519693ce3c65abfa6b1736e2d22f38c1ca8dfdec7c97935856dfbbf399b"
+  }
+}
