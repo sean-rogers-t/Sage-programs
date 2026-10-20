@@ -55,6 +55,17 @@ asserted bases and checks their embedded lattices. No claim of novelty,
 external review, or extension to scaled characters or type B/D joint images
 is made.
 
+A subsequent [focused proof and literature audit](TYPE_C_JOINT_AUDIT.md)
+found no mathematical gap under these hypotheses. It classifies the result
+as a corollary of classical integral theory applied to the selected
+Springer/Borel generators, rather than an established new theorem.
+Borel's Proposition 30.2 independently supplies the intermediate ring.
+The exact combined statement was not located in the searched literature;
+no priority conclusion follows. The audit clarifies the global fiber lifts,
+compact homogeneous-space maps, integral elimination and necessary
+normalization, without changing the formulas. A separate formal-polynomial
+check tests the integral base-change basis without importing the library.
+
 ## General type-B comparison completed in these notes
 
 The subsequent [general proof](TYPE_B_GENERAL_SMITH.md) supplies the

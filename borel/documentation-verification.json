@@ -44,6 +44,10 @@
       "python_blocks_executed": 0
     },
     {
+      "file": "TYPE_C_JOINT_AUDIT.md",
+      "python_blocks_executed": 0
+    },
+    {
       "file": "IMAGE_RELATIONS.md",
       "python_blocks_executed": 2
     },
@@ -172,7 +176,7 @@
       "python_blocks_executed": 0
     }
   ],
-  "local_links_and_anchors_checked": 518,
+  "local_links_and_anchors_checked": 528,
   "python_blocks_executed": 24,
   "scope": "Python fences executed in reading order in a fresh namespace per document; local links and anchors checked. Shell snippets and external URLs were not automatically executed or crawled."
 }

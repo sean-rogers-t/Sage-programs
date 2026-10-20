@@ -149,7 +149,12 @@ two squared-factor subrings with Grassmannian pullbacks in one type A
 flag ring; a common integral basis then proves primitivity of the
 separate-image sum. The note cites Borel, Proposition 31.1 and case (31.2),
 and Pragacz–Ratajski explicitly, and separates these classical inputs
-from the deduction for the selected joint image. No novelty claim is made.
+from the deduction for the selected joint image. The subsequent
+[focused proof and literature audit](TYPE_C_JOINT_AUDIT.md) also checks
+Borel's Proposition 30.2 directly on the mixed homogeneous space. It
+classifies these statements as corollaries of classical integral theory.
+The exact combined formulation was not located in the sources searched;
+this is not a novelty finding.
 
 Here there is substantially more than an absence of a counterexample. Let
 `n=a+k`, with `a,k >= 1`, and take the normalized tail inputs

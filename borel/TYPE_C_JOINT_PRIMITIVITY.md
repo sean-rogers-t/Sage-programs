@@ -1,10 +1,11 @@
 # Integral joint images and primitive sums in type C
 
-Status: a complete geometric deduction under the normalization below, using
-classical integral cohomology and Leray–Hirsch. The argument and its hypotheses
-are audited at the end of this note. This is an unpublished repository proof;
-no priority or originality claim is made. The computations corroborate the
-argument but are not used to infer its validity in arbitrary rank.
+Status: an audited corollary of classical integral cohomology, Schubert bases,
+and Leray–Hirsch, applied to the normalized Springer/Borel generators below.
+The [proof and literature audit](TYPE_C_JOINT_AUDIT.md) found no mathematical
+gap under these hypotheses. It did not locate the exact joint-image statement
+in the sources searched; this does not establish novelty. The computations
+corroborate the argument but do not prove the arbitrary-rank assertion.
 
 ## Statement and conventions
 
@@ -57,7 +58,8 @@ The following standard results are used with integral coefficients.
   Proposition 31.1 and the following numbered case (31.2), journal p.202,
   give the integral block-symmetric presentations for complex and
   quaternionic partial flags. The latter is case (31.2), not Proposition
-  31.2, which concerns a different homogeneous space.
+  31.2, which concerns a different homogeneous space. Proposition 30.2,
+  p.201, also applies directly to the mixed homogeneous space Y below.
 - [Pragacz–Ratajski](https://arxiv.org/pdf/alg-geom/9602019), Theorem 2.1(i),
   gives the Lagrangian Schubert representatives Q-tilde_lambda in the Chern
   classes of the dual tautological bundle, indexed by strict partitions with
@@ -159,7 +161,11 @@ $$u_\lambda=\widetilde Q_\lambda(c_1(E_M^*),\ldots,c_b(E_M^*)),
 \qquad u_\varnothing=1.$$
 
 These are global integral classes restricting to the integral Schubert
-basis of each Lagrangian fiber. Integral Leray–Hirsch gives
+basis of each Lagrangian fiber. Only the absolute fiber statement in
+Pragacz–Ratajski, Theorem 2.1(i), is needed: the Chern polynomials exist
+globally without choosing an isotropic flag on the base. Over C, the
+cell decomposition identifies the fiber's integral Chow and cohomology
+bases. Integral topological Leray–Hirsch therefore gives
 
 $$H^*(Y;\mathbb Z)=\bigoplus_{\lambda\text{ strict},\,\lambda_1\le b}
                          u_\lambda\,\rho^*R.\tag{3}$$
@@ -184,8 +190,12 @@ $$g:Y\longrightarrow Z_M:=\operatorname{Sp}(n)/(U(b)\times
 
 which remembers only the middle complex isotropic b-plane. It fits into
 the commuting square with rho:Y->Q, the projection Q->HGr(b,n), and
-Z_M->HGr(b,n). The two vertical fibers in this square are LG(b,2b),
-and their Chern-polynomial lifts u_lambda agree under g^*.
+Z_M->HGr(b,n). This square is Cartesian: over an ordered quaternionic
+decomposition (A,M,T), the additional datum is precisely a complex
+Lagrangian b-plane in M. The two vertical fibers are LG(b,2b), and their
+Chern-polynomial lifts u_lambda agree under g^*. These are smooth maps
+of compact homogeneous spaces. In particular, g is not being identified
+with a holomorphic forgetting map for the original two-step complex flag.
 
 Applying Leray–Hirsch to Z_M->HGr(b,n) shows that H^*(Z_M;Z) is generated
 by its middle Chern classes: the base classes p^M are polynomials (4),
@@ -261,8 +271,23 @@ The natural map R tensor_(A_b) D_b -> H^*(Y) takes this free module basis
 to the Leray–Hirsch basis (3), so it is an integral ring isomorphism.
 Eliminate p_i^A from its presentation (1): the coefficient equations give
 p_i^A=(-1)^i h_i(M^2 union T^2), followed by the relations in (10).
-The elimination is triangular with unit coefficients. This proves (10)
-integrally, without averaging over a Weyl group or dividing by its order.
+Explicitly, put S(u)=P_M(u)P_T(u) and S(u)^(-1)=sum r_i u^i, so
+r_i=(-1)^i h_i. After eliminating p_1^A,...,p_a^A, the remaining
+coefficient of u^m in P_A S, for a<m<=n, is
+
+$$-r_m-\sum_{i=a+1}^{m-1}r_i S_{m-i}.$$
+
+Consequently these coefficients and r_(a+1),...,r_n generate the same
+ideal over Z, by induction on m. This proves (10) integrally, without
+averaging over a Weyl group or dividing by its order.
+
+There is also a direct source check: Borel, Proposition 30.2, applies to
+G=Sp(n) and K=Sp(a) x U(b) x Sp(k). Their ranks agree, and G, K,
+G/T and K/T have torsion-free integral cohomology. It gives H^*(Y;Z)
+as H^*(BK;Z) modulo the positive characteristic classes from BG.
+The standard Chern-class restrictions give exactly the same presentation
+before elimination. The mixed space Y need not be a complex flag variety
+for this theorem to apply.
 
 ## Closed rank formulas
 
@@ -315,6 +340,7 @@ containments, and the Smith factors. C3 basis columns also have an
 independent Cartesian BGG check. Exact ranges and source hashes are in
 [the verification report](experiments/type_c_joint_primitivity_verification.json).
 
-The published ingredients and the combination established here are separated
-above. A systematic search for this exact joint-image formulation, or a
-claim that it is new, is outside the scope of this proof check.
+The subsequent [audit](TYPE_C_JOINT_AUDIT.md) records the literature search,
+the precise relation to Kumar–Rogers Part II, and boundary counterexamples
+to removing the hypotheses. The appropriate attribution is a corollary of
+classical theory in these Springer/Borel coordinates, with no priority claim.

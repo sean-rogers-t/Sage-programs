@@ -124,8 +124,11 @@ The subsequent [type C joint-image proof](TYPE_C_JOINT_PRIMITIVITY.md)
 proves saturation of the normalized joint image for all positive block
 sizes. A common integral basis also proves primitivity of the separate-image
 sum and that the two separate images intersect only in the constants.
-The note gives the integral kernel and closed rank formulas, with a
-source audit and explicit basis checks; no originality claim is made.
+The note gives the integral kernel and closed rank formulas. A subsequent
+[proof and literature audit](TYPE_C_JOINT_AUDIT.md) found no gap under the
+stated hypotheses and classifies the results as corollaries of classical
+integral theory in these Springer/Borel coordinates. No originality claim
+is made; finite basis checks are recorded separately.
 
 The [extension roadmap](EXTENSIONS.md) separates proposed API work from
 further mathematical questions. The full-paper project is on hold.

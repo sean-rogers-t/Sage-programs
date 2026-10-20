@@ -1,7 +1,7 @@
 {
   "result": "passed",
   "sage_version": "9.5",
-  "seconds": 62.087,
+  "seconds": 64.542,
   "command": "PYTHONPATH=src sage -python experiments/type_c_joint_primitivity.py",
   "scope": "Finite corroboration of the separate geometric proof; not a proof by enumeration.",
   "historical_degree_rows_checked": 60,
@@ -786,7 +786,7 @@
   ],
   "source_sha256": {
     "experiments/type_c_joint_primitivity.py": "776e88522ef8f6cd0f152944ab709b7c12044cdee20af9d23f7b23fd386c196d",
-    "TYPE_C_JOINT_PRIMITIVITY.md": "7eb13917de4ff4545e9ab351370d75ce06d198cff7ec170830b34c707de0985c",
+    "TYPE_C_JOINT_PRIMITIVITY.md": "2ff5b025cd077955b25082a6058db0673cc01c13c6e5df613dc5683f54dc45bf",
     "tests/oracle.py": "01976367d70b5f0adc88c95ce1b4b7abf3019d9c704410ca8d266cd8562874ae",
     "src/sage_borel/__init__.py": "e8b0258ef81770102e2ff0b4c9b734dde01ce6030f3145585ce9639219d41e9d",
     "src/sage_borel/algebra.py": "7fdf2deb8808961e1c3964c077fd4930e16e0ad8924144f3f2910726a8c46a4d",
