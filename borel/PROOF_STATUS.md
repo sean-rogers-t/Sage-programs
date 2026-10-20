@@ -48,6 +48,18 @@ torus certificates, Laurent intersections and every image comparison.
 These are checked deductions, with no claim of originality. The abstract
 modular-obstruction example is not asserted to come from a representation.
 
+The [F4 character-form proof](F4_CHARACTER_FORM.md) identifies the entire
+26-dimensional torus source as Sym_Z(6 Q_long), hence the full integral
+character source for every Levi by taking invariants. A unit-coefficient
+leading-monomial certificate handles all primes simultaneously.
+All four maximal-parabolic images are computed in every degree (74 rows).
+Source lattices have integral-coefficient and gcd-one maximal-minor
+certificates; every Borel column is checked by localization and independent
+root/coroot Chevalley multiplication. A standard-library Python audit
+reconstructs all source lattices and checks their certificates and image
+arithmetic. This does not supply a finite integral invariant-ring
+presentation or a classification of representations, and no novelty is claimed.
+
 The [G2/F4 note](EXCEPTIONAL_INTEGRAL.md) studies all maximal parabolics and
 all degrees for two explicitly selected generator forms: least integer
 image-denominator clearing, and individual primitive-image rescaling.

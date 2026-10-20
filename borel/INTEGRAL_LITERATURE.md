@@ -475,3 +475,11 @@ sources and integral image presentations from that criterion and the
 published G2 Springer/Borel data in Part III, Section 5. Focused searches
 and those source readings do not establish that the exact integral
 statements are absent from the literature. No originality claim is made.
+
+The [F4 calculation](F4_CHARACTER_FORM.md) similarly identifies the
+26-dimensional literal torus source as Sym_Z(6 Q_long), takes Levi
+invariants, and computes all four complete maximal-parabolic images.
+The published inputs remain Part III, Lemma 6.1 and Theorem 6.2.
+The all-primes certificate and integral image comparisons are deductions
+recorded in this repository. This source check is not a comprehensive
+priority search for those exact integral statements.

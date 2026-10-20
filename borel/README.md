@@ -29,6 +29,7 @@ the mathematical guide for the Borel/Springer construction.
 | Which E6/P1 polynomials actually pull back to integral Levi characters? | [Character integral form and complete image comparisons](E6_CHARACTER_FORM.md) |
 | What is the E7/P7 character form, and does it contain the catalogue image? | [E7 character form, sums and intersections](E7_CHARACTER_FORM.md) |
 | How does the representation determine the integral polynomial-character source? | [General criterion and character API](CHARACTER_SOURCES.md), with [complete G2 sources and image rings](G2_CHARACTER_FORM.md) |
+| What is the literal F4 character form and its complete image? | [Proof, API and independent checks](F4_CHARACTER_FORM.md), [all four parabolic tables](F4_CHARACTER_TABLES.md) |
 | How do the historical functions map to the new API? | [Migration guide](MIGRATION.md) |
 
 [examples/mathematical_methods.py](examples/mathematical_methods.py) is an
@@ -133,6 +134,14 @@ test. `g2_character_algebra(1)` and `(2)` expose the proved full character
 sources and work with the existing Borel, image and lattice APIs.
 See the [mathematics and API](CHARACTER_SOURCES.md) and the
 [full regression record](character-verification.json).
+
+Version 0.11 adds `f4_character_source(node)` and the general
+`IntegralCharacterSource`: exact degreewise intersections with integral
+characters, retaining source elements with zero Borel image.
+`source.degree(d).image()` gives the embedded Schubert lattice and supports
+the existing comparison API. The [F4 proof](F4_CHARACTER_FORM.md) identifies
+the full torus source as Sym_Z(6 Q_long) and gives all four complete
+maximal-parabolic image tables.
 
 The subsequent [type C joint-image proof](TYPE_C_JOINT_PRIMITIVITY.md)
 proves saturation of the normalized joint image for all positive block

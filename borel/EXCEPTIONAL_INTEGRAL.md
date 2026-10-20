@@ -9,8 +9,10 @@ integral representation ring. Numbering is Sage/Bourbaki throughout.
 The subsequent [G2 character-form proof](G2_CHARACTER_FORM.md) now identifies
 the literal seven-dimensional character source and both complete image
 rings. Those images are properly contained in both forms studied here in
-every positive nonzero degree. F4 character-form identification remains
-separate work.
+every positive nonzero degree. The subsequent
+[F4 character-form proof](F4_CHARACTER_FORM.md) identifies its literal
+source as Sym_Z(6 Q_long)^(W_L) and supplies complete comparisons for all
+four maximal parabolics in [new tables](F4_CHARACTER_TABLES.md).
 
 ## Relation to the Springer papers
 

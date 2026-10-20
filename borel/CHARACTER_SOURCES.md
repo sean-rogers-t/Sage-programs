@@ -54,6 +54,37 @@ are integers, and d(theta)_1=id identifies them with the fundamental-weight
 coefficients of ell. This observation does not assert integrality of every
 higher-degree input in C_rho.
 
+## The linear lattice directly from weights
+
+Write a weight mu as an integer column in the fundamental-weight basis,
+with multiplicity m_mu, and put
+
+\[
+M_\rho=\sum_\mu m_\mu\mu\mu^t,\qquad
+D_\rho=\sum_\mu\mathbb Z(m_\mu\mu)\subset\mathbb Z^r.
+\]
+
+Let D_rho^#={v in Q^r : v^t D_rho is integral}, the dual lattice for the
+coordinate pairing. Then
+
+\[
+\boxed{\Lambda_\rho=M_\rho D_\rho^\#.}
+\]
+
+Indeed, the Laurent coefficient of theta*(ell) at e^mu is
+m_mu ell^t M_rho^(-1) mu. Requiring all of these coefficients to be
+integers is exactly M_rho^(-1)ell in D_rho^#, since M_rho is symmetric.
+This is a direct consequence of trace projection, not an additional
+all-degree theorem. Multiplicities must be included in D_rho.
+For example, repeating a representation m times multiplies both M_rho
+and D_rho by m and leaves Lambda_rho unchanged.
+
+In the minimal G2, F4, E6 and E7 cases the weighted coefficient lattice
+D_rho is the full coordinate lattice. The trace Gram matrix then directly
+gives Lambda_rho as its column lattice. The all-primes certificates are
+still needed to prove that this linear lattice generates the complete
+polynomial-character intersection.
+
 ## Exact criterion
 
 Choose a Z-basis ell_1,...,ell_r of Lambda_rho and put b_i=theta*(ell_i).
@@ -214,7 +245,10 @@ library suite and saves its result and source hashes in
 [character-verification.json](character-verification.json).
 
 The [G2 proof and independent audit](G2_CHARACTER_FORM.md) establish the
-first complete application. F4 and a classification of representations
-satisfying the criterion remain open work in this repository. No claim
+first complete application. The [F4 proof and API](F4_CHARACTER_FORM.md)
+add Sym_Z(6 Q_long), all four maximal-parabolic image tables, and the
+general `IntegralCharacterSource` degreewise intersection interface.
+A classification of representations
+satisfying the criterion remains open work in this repository. No claim
 that those questions are open in the literature, or explicitly posed by
 Kostant--Michor, is made.

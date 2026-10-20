@@ -1,0 +1,15 @@
+{
+  "result": "passed",
+  "polynomial_source_lattices": 74,
+  "source_basis_columns": 2844,
+  "image_lattices": 74,
+  "direct_laurent_lattices": 32,
+  "seconds": 367.541,
+  "scope": "Python standard library: independently reconstructed torus and all source coefficient lattices; exact integral combinations and gcd-one minor certificates; all image-lattice Smith factors and inclusion/quotient arithmetic. Borel columns independently checked by two algorithms in the Sage experiment.",
+  "source_hash_semantics": "SHA256 with CRLF normalized to LF.",
+  "source_sha256": {
+    "experiments/f4-character-form-results.json": "c9cfc559210417545444b8ad15341dbff3ed19048a3acc4a210625c6e4aeb157",
+    "experiments/audit_f4_character_form.py": "04565509a1cab386d4b0f777be7a2f6126a972422f1fd3efd76ad0f9cb8e7b0c",
+    "experiments/audit_e6_character_form.py": "f5cb69082e8ad364f99333ec0d5079fb904c4cb01c106b1d2b1b918f6c026e31"
+  }
+}
