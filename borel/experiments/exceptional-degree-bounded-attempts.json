@@ -1,0 +1,15 @@
+{
+  "result": "inconclusive",
+  "cartan_type": "E7",
+  "representation": "adjoint",
+  "scope": "Full specialized-fiber corroboration, separate from the geometric degree proof.",
+  "engine": "msolve 0.11.0, exact linear algebra option 2, two threads",
+  "attempts": [
+    {"prime": 32003, "seed": 20261020, "mode": "full seven-variable character fiber", "run_bound": "15 minutes", "fiber_length": null},
+    {"prime": 32003, "seed": 20261020, "mode": "constant-coefficient elimination to six variables", "run_bound": "15 minutes", "fiber_length": null},
+    {"prime": 65521, "seed": 20261021, "mode": "six-variable central-quotient chart", "run_bound": "approximately 15 minutes", "fiber_length": null},
+    {"prime": 32003, "seed": 20261020, "mode": "six-variable central-quotient chart", "run_bound": "approximately 15 minutes", "fiber_length": null}
+  ],
+  "completed_chart_checks": "Exact unit-ideal computations exclude chi7=0 in both original specialized fibers, and z=0 in both transformed quotient charts. The subsequent fiber-length computations did not finish within the bounded runs.",
+  "inference": "No numerical generic or specialized degree is inferred from an unfinished computation."
+}

@@ -336,6 +336,10 @@ is -4. The latter follows from the projective degrees (1,2,1,0) of
 \]
 
 This is [Aluffi, Proposition 3.1](https://www.math.fsu.edu/~aluffi/archive/paper173.pdf).
+To check the projective degrees directly, a general inverse hyperplane is
+a quadric, while the inverse image of a general point [a:b:c] in P2 has
+closure the line through [ab:ac:bc:0] and [0:0:0:1] in P3.
+Thus g_1=2 and g_2=1; g_0=1 and g_3=0 follow from the dimensions.
 Normal cones are local; adding the common regular normal directions does
 not change these point corrections relative to the separate branches.
 More intrinsically, c(TX) cap s(B,X) is Fulton's intrinsic class of B
@@ -381,12 +385,31 @@ The optional [msolve executable](https://msolve.proj.lip6.fr/binaries/index.html
 is version 0.11.0, used with its exact linear-algebra option `-l 2`;
 it is not a package dependency or included binary.
 
+The completed independent specialized-fiber checks are:
+
+| map | prime 32003, seed 20261020 | prime 65521, seed 20261021 |
+| --- | ---: | ---: |
+| E6 minimal | 1080 (Singular) | 1080 (msolve) |
+| E6 adjoint | 2754 (Singular) | 2754 (msolve) |
+| E7 minimal | 7272 (msolve) | 7272 (msolve) |
+
+The E7 adjoint degree has the separate exact geometric audit above;
+no completed full specialized-fiber count is recorded here. Bounded direct
+and central-quotient Groebner runs were inconclusive, and their lack of a
+result is not used as evidence for any numerical degree.
+Their scope is recorded in the [bounded-attempt report](experiments/exceptional-degree-bounded-attempts.json).
+For a faster optional E7 adjoint experiment, `eliminate-center` uses the
+chart chi_7 != 0 and coordinates chi_2/chi_7, chi_5/chi_7, chi_7^2, alongside
+the even characters. Exact unit-ideal checks exclude the omitted divisors
+in both source and quotient before a chart count is multiplied by two.
+
 ```sh
 PYTHONPATH=src sage -python experiments/exceptional_degree_geometry.py
 PYTHONPATH=src sage -python experiments/exceptional_degree_fibers.py E6 minimal 32003 20261020 weighted
 PYTHONPATH=src sage -python experiments/exceptional_degree_fibers.py E6 adjoint 32003 20261020 drl
 # Optional msolve executable, obtained separately from its official project:
 MSOLVE_BINARY=/path/to/msolve PYTHONPATH=src sage -python experiments/exceptional_degree_fibers.py E7 minimal 65521 20261021 msolve eliminate
+MSOLVE_BINARY=/path/to/msolve PYTHONPATH=src sage -python experiments/exceptional_degree_fibers.py E7 adjoint 32003 20261020 msolve eliminate-center
 ```
 
 The published inputs are the degree comparison, toric intersection formula,

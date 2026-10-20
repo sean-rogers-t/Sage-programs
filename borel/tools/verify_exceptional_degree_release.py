@@ -58,6 +58,9 @@ def main():
                    if 'leading_exponents' in f else [R(m) for m in f['leading_monomials']])
         length=int(R.ideal(monomials).vector_space_dimension())
         cover=(f.get('center_chart') or {}).get('cover_degree',1)
+        if f.get('center_chart'):
+            assert f['center_chart']['excluded_original_divisor_empty']
+            assert f['center_chart']['excluded_quotient_divisor_empty']
         assert cover*length==f['fiber_length'],path
         fibers.append(dict(file=path.relative_to(ROOT).as_posix(),cartan_type=key[0],
             representation=key[1],prime=f['characteristic'],seed=f['seed'],
@@ -65,6 +68,7 @@ def main():
     paths=fiber_paths+runtime+[ROOT/name for name in (
         'EXCEPTIONAL_DEGREES.md','experiments/exceptional_degree_geometry.py',
         'experiments/exceptional-degree-geometry.json','experiments/exceptional_degree_fibers.py',
+        'experiments/exceptional-degree-bounded-attempts.json',
         'experiments/e6_matrix_oracle.py','experiments/e7_matrix_oracle.py',
         'README.md','../README.md','E6_GEOMETRY.md','E7_GEOMETRY.md',
         'PROOF_STATUS.md','EXTENSIONS.md','SPRINGER_GEOMETRY.md',
@@ -74,6 +78,8 @@ def main():
     report=dict(result='passed',version=version,
         characteristic_zero_proof='EXCEPTIONAL_DEGREES.md; toric localized top Chern and explicit boundary Segre classes',
         degree_deductions=geometry['degree_deductions'],specialized_fibers=fibers,
+        full_fiber_cases_not_yet_corroborated=[list(key) for key in degrees
+            if key not in {(f['cartan_type'],f['representation']) for f in fibers}],
         finite_check_scope='Specialized lengths corroborate the separate geometric proof; no inference of characteristic-zero generic degree from specialization.',
         regression_tests=regression['test_methods_run'],documentation_examples=docs['python_blocks_executed'],
         local_links_and_anchors=docs['local_links_and_anchors_checked'],isolated_wheel_tests=wheel['tests'],
