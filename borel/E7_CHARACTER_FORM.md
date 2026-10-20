@@ -286,5 +286,8 @@ python experiments/audit_e7_character_form.py
 python tools/render_e7_character_tables.py
 ```
 
-The experimental calculation preserves the public catalogue and its
-normalization. Result files record source hashes with CRLF normalized to LF.
+Version 0.13 packages this calculation as `e7_character_source(7)`,
+including its integral symmetric-coordinate compression. See the
+[API guide and complete replay](MINUSCULE_CHARACTER_API.md).
+The original catalogue and its normalization are preserved. Historical
+result files retain their original hashes with CRLF normalized to LF.

@@ -490,3 +490,11 @@ The full-source certificates imply degree-d scaling by 3^d of every
 Levi source and Borel image. This is a deduction recorded here, not a
 statement attributed to Kostant--Michor or the Kumar papers. No exhaustive
 priority search or general classification of representations is claimed.
+
+The [E6 minimal/adjoint comparison](E6_REPRESENTATION_COMPARISON.md)
+likewise separates the published trace-projection and rational-generator
+inputs from the integral deduction. The full adjoint source Sym_Z(24P)
+is proved by its own unit-leading-term certificate. The sum/intersection
+formulas follow from P/Q having order 3 and its coprimality with the
+relative scalar 4. These exact integral assertions are not attributed
+to the cited papers. No specialist priority search has been completed.

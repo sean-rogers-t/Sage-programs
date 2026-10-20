@@ -29,6 +29,27 @@ separate work.
 
 ## Exceptional integral images: first complete finite tables
 
+The [E6 adjoint proof](E6_REPRESENTATION_COMPARISON.md) identifies the
+full torus source as Sym_Z(24P), while the minimal source is Sym_Z(6Q).
+A unit coefficient minor proves the linear lattice, and a unimodular
+change with six independent unit-leading monomials proves the full source
+in every characteristic. Since P/Q has order 3, a coprime-index argument
+proves J27^d intersect J78^d = 4^d J27^d and their sum = 4^(-d) J78^d
+for every standard Levi. These are checked deductions, with no novelty claim.
+Complete E6/P1 tables show incomparability in all 16 positive degrees;
+the divisor example alone proves incomparability of the full image rings.
+
+The [E6/E7 public APIs](MINUSCULE_CHARACTER_API.md) reproduce all 45
+historically audited minimal degree rows and compute all 17 adjoint rows.
+All 2,731 rational image columns are checked by the separate
+published-ring/Chevalley implementation, retaining its documented BGG
+anchor dependencies. A standard-library audit reconstructs every adjoint
+source coefficient lattice and eight direct Laurent certificates, and
+checks all image/comparison arithmetic. The finite checks are distinguished
+from the all-degree proof. The API is limited to E6/P1 and E7/P7; it does
+not classify arbitrary representations or supply finite integral source
+presentations.
+
 The [general character-source criterion](CHARACTER_SOURCES.md) proves that
 the entire integral torus source equals Sym_Z(Lambda_rho) exactly when
 the pullbacks of a basis of its integral linear lattice are algebraically
