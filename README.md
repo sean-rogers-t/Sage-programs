@@ -35,6 +35,9 @@ with exact unisolvent certificates and independent representation matrices.
 The [E7 geometry extension](borel/E7_GEOMETRY.md) supplies all seven
 coordinates through degree 18 and both full 133-dimensional determinant
 products, with exact certificates and independent 56/133-dimensional matrices.
+The [generic-degree calculation](borel/EXCEPTIONAL_DEGREES.md) gives E6
+degrees 1080/2754 and E7 degrees 7272/33664 for the minimal/adjoint Springer
+maps on simply connected groups, with geometric proofs and independent audits.
 
 The [graded image calculator](borel/IMAGE_RELATIONS.md) computes exact relations
 among chosen generator images, with two-step symplectic flag experiments and

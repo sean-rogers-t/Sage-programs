@@ -68,8 +68,10 @@ higher minimal/adjoint coordinates and both full determinant products, with
 independent matrices and exact unisolvent certificates. The
 [E7 extension](E7_GEOMETRY.md) supplies all seven coordinates through degree
 18 and both full 133-dimensional products, with independent matrices and
-exact certificates. E6/E7 generic degrees remain further work. No generic degree
-is inferred from the integral-source classification or polytope volume.
+exact certificates. The [generic-degree extension](EXCEPTIONAL_DEGREES.md)
+gives E6 degrees 1080/2754 and E7 degrees 7272/33664 for minimal/adjoint maps
+on simply connected groups, using the full toric boundary correction.
+Target branch loci and minimum Cayley degrees remain further work.
 
 **Current focus.** The [first complete G2/F4 tables](EXCEPTIONAL_INTEGRAL.md)
 now cover every maximal parabolic and every degree for two explicit source

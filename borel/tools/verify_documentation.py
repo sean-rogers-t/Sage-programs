@@ -29,6 +29,7 @@ DOCUMENTS = ("../README.md", "README.md", "MATHEMATICS.md", "METHODS.md", "SCHUB
              "SPRINGER_GEOMETRY.md",
              "E6_GEOMETRY.md",
              "E7_GEOMETRY.md",
+             "EXCEPTIONAL_DEGREES.md",
              "INTEGRAL_COMPARISONS.md", "TWO_STEP_INTEGRAL.md",
              "TYPE_C_JOINT_PRIMITIVITY.md", "TYPE_C_JOINT_AUDIT.md", "ORTHOGONAL_JOINT_IMAGES.md",
              "IMAGE_RELATIONS.md", "INTEGRAL_IMAGES.md", "INTEGRAL_LITERATURE.md",

@@ -297,8 +297,10 @@ determinants as explicit products for the minimal and adjoint maps, with
 independent matrix certificates. The [E7 extension](E7_GEOMETRY.md) supplies
 all seven coordinates through degree 18 and both full determinant products,
 with separate 56/133-dimensional matrix constructions and exact certificates.
-Their generic degrees remain uncomputed. There is
-no E8 geometry result here.
+The [generic-degree proof and API](EXCEPTIONAL_DEGREES.md) give 1080 and 2754
+for E6, and 7272 and 33664 for E7, in minimal/adjoint order. The proof subtracts
+the boundary Segre contributions from Newton volumes and restores the center
+factor for adjoint representations. There is no E8 geometry result here.
 
 ## API and reproducibility
 
@@ -329,8 +331,10 @@ polynomial in fundamental characters, constructing only the characters it
 actually needs. `adjoint_quotient(invariants)` checks a supplied basic list
 and returns both torus and character-coordinate pullbacks.
 `AdjointQuotient.character_jacobian()` differentiates that quotient map.
-`generic_degree()` computes an exact generic fiber over a rational function
-field, with a default rank guard of two. The determinant defaults to rank
+`generic_degree()` uses the bound geometric proof for packaged E6/E7 maps;
+otherwise it computes an exact generic fiber over a rational function field,
+with a default rank guard of two. `algorithm='elimination'` forces that
+calculation, including for the packaged maps. The determinant defaults to rank
 at most four. Explicit guards also bound intermediate Laurent supports,
 conversion steps, and the dimensions of needed fundamental characters.
 They do not impose wall-clock or peak-memory limits on individual Sage calls.

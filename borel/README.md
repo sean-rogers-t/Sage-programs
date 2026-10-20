@@ -34,6 +34,7 @@ the mathematical guide for the Borel/Springer construction.
 | What are the quotient map, generic degree and critical locus of a Springer morphism? | [Geometry API, complete G2 formulas, independent matrix audit and E6/E7 quadratic coordinates](SPRINGER_GEOMETRY.md) |
 | What are all higher E6 quotient coordinates and the full determinant? | [Minimal/adjoint formulas, exact interpolation proof, root products and independent matrices](E6_GEOMETRY.md) |
 | What are all higher E7 quotient coordinates and the full determinant? | [Minimal/adjoint formulas, certified degree-18 calculations and independent matrices](E7_GEOMETRY.md) |
+| What are the generic degrees of the E6/E7 minimal and adjoint Springer maps? | [Degree API, toric boundary proof and independent checks](EXCEPTIONAL_DEGREES.md) |
 | What is the literal F4 character form and its complete image? | [Proof, API and independent checks](F4_CHARACTER_FORM.md), [all four parabolic tables](F4_CHARACTER_TABLES.md) |
 | How does the F4 adjoint representation change the integral image? | [All-degree scaling theorem and comparison API](F4_REPRESENTATION_COMPARISON.md) |
 | How do I compute the certified E6/P1 and E7/P7 character images? | [Public character API](MINUSCULE_CHARACTER_API.md) and [E6 minimal/adjoint comparison](E6_REPRESENTATION_COMPARISON.md) |

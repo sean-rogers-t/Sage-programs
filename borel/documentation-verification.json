@@ -128,6 +128,10 @@
       "python_blocks_executed": 1
     },
     {
+      "file": "EXCEPTIONAL_DEGREES.md",
+      "python_blocks_executed": 1
+    },
+    {
       "file": "INTEGRAL_COMPARISONS.md",
       "python_blocks_executed": 2
     },
@@ -276,7 +280,7 @@
       "python_blocks_executed": 0
     }
   ],
-  "local_links_and_anchors_checked": 801,
-  "python_blocks_executed": 39,
+  "local_links_and_anchors_checked": 813,
+  "python_blocks_executed": 40,
   "scope": "Python fences executed in reading order in a fresh namespace per document; local links and anchors checked. Shell snippets and external URLs were not automatically executed or crawled."
 }

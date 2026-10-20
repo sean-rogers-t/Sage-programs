@@ -128,7 +128,7 @@ class E7GeometryTests(unittest.TestCase):
                 with self.assertRaises(ValueError):
                     q.torus_pullbacks[0].evaluate(point)
         with self.assertRaises(ValueError):
-            self.cases['minimal'][0].generic_degree()
+            self.cases['minimal'][0].generic_degree(algorithm='elimination')
 
 
 if __name__=='__main__':

@@ -47,8 +47,12 @@ degree 18 and both full 133-dimensional determinant products. Its dominance
 bounds and exact unisolvent checks certify all coefficients; independent
 56/133-dimensional representations check all Cartan entries and 126 root
 directions for both maps. The 912-dimensional character is reconstructed
-separately by root strings and Freudenthal. E6/E7 generic degrees remain
-uncomputed. These are exact deductions and computations, without a
+separately by root strings and Freudenthal. The [generic-degree deduction](EXCEPTIONAL_DEGREES.md)
+now gives E6 degrees 1080/2754 and E7 degrees 7272/33664 for minimal/adjoint
+maps on simply connected groups. It uses explicit toric boundary schemes
+and their localized intersection contributions. Separate specialized-fiber
+lengths provide finite corroboration, not the characteristic-zero proof.
+These are exact deductions and computations, without a
 novelty claim. They do not identify the minimal Cayley degree of a group.
 
 The [irreducible lattice classification](IRREDUCIBLE_CHARACTER_LATTICES.md)
