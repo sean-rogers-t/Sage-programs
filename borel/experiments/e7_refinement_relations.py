@@ -71,5 +71,3 @@ def main():
  out=dict(result='passed',method='56-weight Weyl orbit, sixth/eighth moments, monic quadratic reduction, primitive integer coefficient normalization',orbit_size=56,common_complement_index=3,quadratic_polar_rank_mod2=6,first_higher_relation_degree=6,odd_coefficient_2_valuation=int(odd_val),quadratic=encoded(quad),sextic=encoded(F),octic=encoded(H),octic_odd_valuation=int(val8),kernel_primitivity=kernel_checks,seconds=round(perf_counter()-start,3),scope='Coefficient certificate for the uniform proof through degree 9 on all 64 refinements, not an all-degree multiplicity calculation.',source_sha256={Path(__file__).relative_to(ROOT).as_posix():sha256(Path(__file__).read_bytes().replace(b'\r\n',b'\n')).hexdigest()})
  (ROOT/'experiments/e7-refinement-relations.json').write_text(json.dumps(out,indent=2)+'\n');print('PASSED',out['seconds'],'primitive kernel degrees 6..9',flush=True)
 if __name__=='__main__':main()
-
-

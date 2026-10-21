@@ -1665,6 +1665,6 @@
   "scope": "Uniform proved low-degree formula only; all-degree multiplicities remain open beyond P7.",
   "source_sha256": {
     "experiments/audit_e7_refinement_relations.py": "006dc61dce3129141d69f9dbd9834fbbd05543892072cae3b8fd560a50fab9c1",
-    "experiments/e7-refinement-relations.json": "100fb100cec2e7116fa80fc9ef8cb1dbdf0c5dc64edafa71204151a47ca9c65e"
+    "experiments/e7-refinement-relations.json": "b50bf42c1da2a0e1727639c20c0db8b0daa6e407dd83bbaa8609c59f8967e1a9"
   }
 }

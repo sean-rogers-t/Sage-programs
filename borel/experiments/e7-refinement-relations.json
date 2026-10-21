@@ -31943,9 +31943,9 @@
       "primitive_mod2_rank": 84
     }
   ],
-  "seconds": 3.573,
+  "seconds": 3.703,
   "scope": "Coefficient certificate for the uniform proof through degree 9 on all 64 refinements, not an all-degree multiplicity calculation.",
   "source_sha256": {
-    "experiments/e7_refinement_relations.py": "4342b3ed6b437e0dde09b23002b0f6976b81ab2b626fd58de0f34a9df94efc9e"
+    "experiments/e7_refinement_relations.py": "75f4693c7de309e22fc4b50f9f1366189f346dfd2af93f5902221f9e27b7a3ea"
   }
 }
