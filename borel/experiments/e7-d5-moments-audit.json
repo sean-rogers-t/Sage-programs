@@ -1,0 +1,65 @@
+{
+  "result": "passed",
+  "engine": "Fresh E7 and E6 Weyl orbits, explicit rational torus change, exact rational moments and independent mod-101 Gaussian ranks. No Sage or project imports.",
+  "weight_orbit": 56,
+  "E6_branching_orbit": 27,
+  "samples": 112,
+  "trace_jacobian_point": [
+    2,
+    3,
+    5,
+    7,
+    11,
+    13,
+    17
+  ],
+  "trace_jacobian_determinant": "125464924435195019425913283207915885526383078622997294973495559783721923828125/34359738368",
+  "basic_invariant_algebra_complete": true,
+  "identities": [
+    {
+      "degree": 6,
+      "rational_coefficient_dimension": 13,
+      "evaluation_rank_mod101": 13,
+      "exact_identity": true
+    },
+    {
+      "degree": 8,
+      "rational_coefficient_dimension": 23,
+      "evaluation_rank_mod101": 23,
+      "exact_identity": true
+    },
+    {
+      "degree": 10,
+      "rational_coefficient_dimension": 39,
+      "evaluation_rank_mod101": 39,
+      "exact_identity": true
+    },
+    {
+      "degree": 12,
+      "rational_coefficient_dimension": 62,
+      "evaluation_rank_mod101": 62,
+      "exact_identity": true
+    },
+    {
+      "degree": 14,
+      "rational_coefficient_dimension": 95,
+      "evaluation_rank_mod101": 95,
+      "exact_identity": true
+    },
+    {
+      "degree": 18,
+      "rational_coefficient_dimension": 201,
+      "evaluation_rank_mod101": 201,
+      "exact_identity": true
+    }
+  ],
+  "scope": "All six primitive characteristic-zero moment identities. Combined with the separate Buchberger/dimension audit, these prove the complete rational Borel ideal.",
+  "seconds": 2.64,
+  "source_sha256": {
+    "experiments/audit_e7_d5_moments.py": "542a4895b18df61663273a527267225310cd784a8b91412f287afd118c3ede2b",
+    "experiments/e7-d5-images.json": "349040145c7555d1a437950394c6b0e6b911609cb5b634b5c04f590fd20538c7"
+  },
+  "raw_sha256": {
+    "experiments/e7-d5-images-certificates.json.gz": "996c45c3d0b4f3c8a9ff0cd36853ce614157380da1e5536ad45b767c9070c4f5"
+  }
+}

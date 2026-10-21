@@ -1,0 +1,48 @@
+{
+  "result": "passed",
+  "engine": "Plain Python sparse rational and GF(2) polynomials; own Buchberger reductions, graph substitution, and monomial-ideal Hilbert numerator. SymPy only parses polynomials and checks six-dimensional lattice determinants.",
+  "integral_invariant_generators": 10,
+  "source_generator_degrees": [
+    1,
+    2,
+    4,
+    5,
+    6,
+    8,
+    8,
+    9,
+    12,
+    16
+  ],
+  "elimination_groebner_size": 40,
+  "buchberger_pairs_checked": 402,
+  "elimination_kernel_generators": 20,
+  "hilbert_numerator": {
+    "0": 1,
+    "29": -1,
+    "37": -1,
+    "28": 1,
+    "36": -1,
+    "33": -1,
+    "25": 1,
+    "24": 1,
+    "45": 1,
+    "21": 1,
+    "20": 1,
+    "17": 1,
+    "16": -1,
+    "12": -1,
+    "9": -1,
+    "8": -1
+  },
+  "full_source_complete_all_degrees": true,
+  "seconds": 10.148,
+  "source_sha256": {
+    "experiments/audit_e7_d5_source.py": "30dd31338d4fccd61e13ce966a864943487ea555bb14dcebb528288eeda8ae8b",
+    "experiments/e7-d5-source-algebra.json": "2aa1f5010a81f102c3bfaa67269a164e3f08a6fa0c41877b2a0fd294bcef92bb",
+    "experiments/e7-d5-images.json": "349040145c7555d1a437950394c6b0e6b911609cb5b634b5c04f590fd20538c7"
+  },
+  "raw_sha256": {
+    "experiments/e7-d5-images-certificates.json.gz": "996c45c3d0b4f3c8a9ff0cd36853ce614157380da1e5536ad45b767c9070c4f5"
+  }
+}

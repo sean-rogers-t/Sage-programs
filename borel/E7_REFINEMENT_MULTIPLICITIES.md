@@ -4,7 +4,8 @@ Status, 20 October 2026: a uniform computer-assisted deduction through
 polynomial degree 9 for all 64 retained subsets of the E6 Levi. The
 [A6 intermediary theorem](E7_FULL_FLAG_COMPARISON.md) now proves the
 full-flag polynomial and all-degree factors on 61 of these refinements.
-The D5 pair and D4 remain open in higher degrees. This note originally reduced
+The [D5 completion](E7_D5_REFINEMENT.md) adds both D5 refinements, making
+63/64 settled in all degrees. D4 alone remains. This note originally reduced
 the all-degree problem to three base polynomials and exhibits an integral
 invariant that obstructs a tempting polynomial-basis proof. No claim of
 literature priority is made.
@@ -197,8 +198,9 @@ preserve the full E7 quadratic form.
 
 The [A6 intermediary theorem](E7_FULL_FLAG_COMPARISON.md) now determines
 T_empty in all degrees. Equation (6) therefore settles all 60 type A
-refinements, and the known P7 answer makes 61. One D5 polynomial and
-the D4 polynomial remain as independent all-degree targets.
+refinements, and the known P7 answer makes 61. The subsequent
+[D5 completion](E7_D5_REFINEMENT.md) adds the two D5 refinements and
+leaves only D4 as an all-degree target in this family.
 This reduction is a deduction from known methods, not a new general
 Leray--Hirsch theorem.
 

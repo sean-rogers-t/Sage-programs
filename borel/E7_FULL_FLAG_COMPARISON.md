@@ -65,6 +65,8 @@ for 61 cases. The remaining three are I={2,3,4,5} and the two equivalent
 D5 cases {1,2,3,4,5}, {2,3,4,5,6}. Thus two independent all-degree
 polynomials remain in that family. Their earlier bounded-degree theorem
 remains valid; they are not settled by the present transfer argument.
+The subsequent [D5 source proof](E7_D5_REFINEMENT.md) settles the two
+D5 cases and leaves only D4 in that family.
 
 For the normalized minimal and adjoint Springer maps, the earlier source
 theorem gives J56,I^d=12^d M_I^d and J133,I^d=36^d N_I^d. The previously
@@ -330,8 +332,10 @@ is different from N/2N when N is nonprimitive; such mod-2 data alone do
 not supply the relative integral factors proved here. The source checks
 performed do not establish a novelty claim for (1)--(2).
 
-The next target in the original P7 refinement family is the D5 case,
-then D4. Their torsion-prime fiber prevents applying the common unit-index
+The subsequent [D5 completion](E7_D5_REFINEMENT.md) settles both D5
+refinements using their full integral invariant source, bringing the
+totals to 111 proper E7 parabolics and 63/64 P7 refinements. D4 remains.
+The torsion-prime fiber prevents applying the common unit-index
 argument as stated. The six-generator E6 source obstruction remains
 relevant to those routes. Other excluded E7 parabolics, ambient H/N
 factors, direct-sum representations and equivariant refinements remain

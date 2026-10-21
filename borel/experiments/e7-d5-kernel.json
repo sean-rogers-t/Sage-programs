@@ -1,0 +1,64 @@
+{
+  "result": "passed",
+  "retained_nodes": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "degrees": [
+    {
+      "degree": 10,
+      "invariant_rank": 16,
+      "kernel_rank": 10,
+      "odd_relation_rank": 3,
+      "multiplicity_2": 13,
+      "half_poincare_prediction": 13,
+      "prediction_agrees": true,
+      "saturation_rounds": 6,
+      "saturation_index_valuation": 18
+    },
+    {
+      "degree": 11,
+      "invariant_rank": 23,
+      "kernel_rank": 15,
+      "odd_relation_rank": 7,
+      "multiplicity_2": 16,
+      "half_poincare_prediction": 16,
+      "prediction_agrees": true,
+      "saturation_rounds": 8,
+      "saturation_index_valuation": 35
+    },
+    {
+      "degree": 12,
+      "invariant_rank": 26,
+      "kernel_rank": 23,
+      "odd_relation_rank": 8,
+      "multiplicity_2": 18,
+      "half_poincare_prediction": 18,
+      "prediction_agrees": true,
+      "saturation_rounds": 10,
+      "saturation_index_valuation": 74
+    },
+    {
+      "degree": 13,
+      "invariant_rank": 36,
+      "kernel_rank": 32,
+      "odd_relation_rank": 15,
+      "multiplicity_2": 21,
+      "half_poincare_prediction": 21,
+      "prediction_agrees": true,
+      "saturation_rounds": 11,
+      "saturation_index_valuation": 121
+    }
+  ],
+  "seconds": 237.423,
+  "certificate_archive": "experiments/e7-d5-kernel-certificates.json.gz",
+  "certificate_archive_sha256": "4d80ef9f4f295413f533dad65dd32ca518961ab5bd91ee01d1f921840af20c88",
+  "source_sha256": {
+    "experiments/e7_d5_kernel.py": "34aab9183272931c855b46f49f0744232f9b142ee60c3ceab6df07893d1527f1",
+    "experiments/e7-full-flag-kernel.json": "314525db493c03bad659992c2b1089156c215348ed9babc68a7d6c8d0e4ae087",
+    "experiments/e7_full_flag_kernel.py": "c45140aa3d176d34ebc63b9faf638c6fdae192f8a2ff23bf31bf38cbbb8ee8a3"
+  }
+}

@@ -1,0 +1,322 @@
+{
+  "result": "passed",
+  "engine": "Plain Python/gmpy2 sparse weighted reduction and Buchberger checks; own rational inverses and bit ranks. A separate native parser reads canonical polynomial text. No Sage or project imports.",
+  "degree_rows": [
+    {
+      "degree": 1,
+      "rank": 2,
+      "multiplicity_2": 1,
+      "both_image_closures_and_primitive_generation": true,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 2,
+      "rank": 3,
+      "multiplicity_2": 1,
+      "both_image_closures_and_primitive_generation": true,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 3,
+      "rank": 4,
+      "multiplicity_2": 2,
+      "both_image_closures_and_primitive_generation": true,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 4,
+      "rank": 6,
+      "multiplicity_2": 2,
+      "both_image_closures_and_primitive_generation": true,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 5,
+      "rank": 9,
+      "multiplicity_2": 4,
+      "both_image_closures_and_primitive_generation": true,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 6,
+      "rank": 12,
+      "multiplicity_2": 5,
+      "both_image_closures_and_primitive_generation": true,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 7,
+      "rank": 15,
+      "multiplicity_2": 7,
+      "both_image_closures_and_primitive_generation": true,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 8,
+      "rank": 19,
+      "multiplicity_2": 8,
+      "both_image_closures_and_primitive_generation": true,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 9,
+      "rank": 24,
+      "multiplicity_2": 11,
+      "both_image_closures_and_primitive_generation": true,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 10,
+      "rank": 29,
+      "multiplicity_2": 13,
+      "both_image_closures_and_primitive_generation": true,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 11,
+      "rank": 34,
+      "multiplicity_2": 16,
+      "both_image_closures_and_primitive_generation": true,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 12,
+      "rank": 39,
+      "multiplicity_2": 18,
+      "both_image_closures_and_primitive_generation": true,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 13,
+      "rank": 45,
+      "multiplicity_2": 21,
+      "both_image_closures_and_primitive_generation": true,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 14,
+      "rank": 50,
+      "multiplicity_2": 24,
+      "both_image_closures_and_primitive_generation": true,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 15,
+      "rank": 55,
+      "multiplicity_2": 26,
+      "both_image_closures_and_primitive_generation": true,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 16,
+      "rank": 60,
+      "multiplicity_2": 29,
+      "both_image_closures_and_primitive_generation": true,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 17,
+      "rank": 65,
+      "multiplicity_2": 31,
+      "both_image_closures_and_primitive_generation": true,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 18,
+      "rank": 68,
+      "multiplicity_2": 34,
+      "both_image_closures_and_primitive_generation": true,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 19,
+      "rank": 70,
+      "multiplicity_2": 34,
+      "both_image_closures_and_primitive_generation": true,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 20,
+      "rank": 72,
+      "multiplicity_2": 36,
+      "both_image_closures_and_primitive_generation": true,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 21,
+      "rank": 74,
+      "multiplicity_2": 36,
+      "both_image_closures_and_primitive_generation": true,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 22,
+      "rank": 74,
+      "multiplicity_2": 38,
+      "both_image_closures_and_primitive_generation": true,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 23,
+      "rank": 72,
+      "multiplicity_2": 36,
+      "both_image_closures_and_primitive_generation": true,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 24,
+      "rank": 70,
+      "multiplicity_2": 36,
+      "both_image_closures_and_primitive_generation": true,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 25,
+      "rank": 68,
+      "multiplicity_2": 34,
+      "both_image_closures_and_primitive_generation": true,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 26,
+      "rank": 65,
+      "multiplicity_2": 34,
+      "both_image_closures_and_primitive_generation": true,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 27,
+      "rank": 60,
+      "multiplicity_2": 31,
+      "both_image_closures_and_primitive_generation": true,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 28,
+      "rank": 55,
+      "multiplicity_2": 29,
+      "both_image_closures_and_primitive_generation": true,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 29,
+      "rank": 50,
+      "multiplicity_2": 26,
+      "both_image_closures_and_primitive_generation": true,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 30,
+      "rank": 45,
+      "multiplicity_2": 24,
+      "both_image_closures_and_primitive_generation": true,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 31,
+      "rank": 39,
+      "multiplicity_2": 21,
+      "both_image_closures_and_primitive_generation": true,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 32,
+      "rank": 34,
+      "multiplicity_2": 18,
+      "both_image_closures_and_primitive_generation": true,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 33,
+      "rank": 29,
+      "multiplicity_2": 16,
+      "both_image_closures_and_primitive_generation": true,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 34,
+      "rank": 24,
+      "multiplicity_2": 13,
+      "both_image_closures_and_primitive_generation": true,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 35,
+      "rank": 19,
+      "multiplicity_2": 11,
+      "both_image_closures_and_primitive_generation": true,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 36,
+      "rank": 15,
+      "multiplicity_2": 8,
+      "both_image_closures_and_primitive_generation": true,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 37,
+      "rank": 12,
+      "multiplicity_2": 7,
+      "both_image_closures_and_primitive_generation": true,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 38,
+      "rank": 9,
+      "multiplicity_2": 5,
+      "both_image_closures_and_primitive_generation": true,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 39,
+      "rank": 6,
+      "multiplicity_2": 4,
+      "both_image_closures_and_primitive_generation": true,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 40,
+      "rank": 4,
+      "multiplicity_2": 2,
+      "both_image_closures_and_primitive_generation": true,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 41,
+      "rank": 3,
+      "multiplicity_2": 2,
+      "both_image_closures_and_primitive_generation": true,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 42,
+      "rank": 2,
+      "multiplicity_2": 1,
+      "both_image_closures_and_primitive_generation": true,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 43,
+      "rank": 1,
+      "multiplicity_2": 1,
+      "both_image_closures_and_primitive_generation": true,
+      "twice_weight_image_in_root_image": true
+    }
+  ],
+  "total_rank": 1512,
+  "dimension": 43,
+  "buchberger_pairs_checked": 2888,
+  "buchberger_chain_pairs": 17060,
+  "buchberger_product_pairs": 2125,
+  "buchberger_above_top_degree_pairs": 22180,
+  "seconds": 579.949,
+  "scope": "Rational standard basis, every proposed image basis by closure and primitive generation, and every local comparison. Full-source completeness and the fresh-weight ideal identity are checked in separate audits.",
+  "source_sha256": {
+    "experiments/audit_e7_d5_images.py": "22302155c710eb7359f3ba34b3ea72641529ff6465ae76a9d5a26e23fd3e2a3c",
+    "experiments/e7-d5-images.json": "349040145c7555d1a437950394c6b0e6b911609cb5b634b5c04f590fd20538c7"
+  },
+  "raw_sha256": {
+    "experiments/e7-d5-images-certificates.json.gz": "996c45c3d0b4f3c8a9ff0cd36853ce614157380da1e5536ad45b767c9070c4f5"
+  }
+}

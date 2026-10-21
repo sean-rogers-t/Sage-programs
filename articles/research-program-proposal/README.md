@@ -70,7 +70,9 @@ finer-flag multiplicities.
 The [A6 intermediary proof](../../borel/E7_FULL_FLAG_COMPARISON.md) now
 settles the full-flag polynomial q P_W/(1+q) and all-degree relative
 factors on 109 proper E7 parabolics, including 61/64 refinements of P7.
-One D5 case and D4 remain independent refinement targets. General bad-prime
+The [D5 completion](../../borel/E7_D5_REFINEMENT.md) adds two cases, making
+111 proper parabolics and 63/64 refinements; only D4 remains in that family.
+General bad-prime
 structure beyond the covered E6/E7 cases, ambient weight-image cokernels and a structural
 criterion for the equivariant specialization kernel remain targets.
 

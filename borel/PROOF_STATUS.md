@@ -155,11 +155,28 @@ kernel completeness are justified before taking images.
 
 Classical common Artin/fiber bases transfer the result to the full flag
 and 108 proper good-Levi parabolics; the separate P7 theorem adds a 109th.
-This completes 61/64 P7 refinements; one D5 case and D4 remain independent
-all-degree targets. The degree-16 E6 invariant-ring obstruction is still
+This A6 argument completes 61/64 P7 refinements; the D5 completion below
+adds two, leaving D4 as the remaining all-degree target. The degree-16 E6
+invariant-ring obstruction is still
 valid. The new proof uses an A6 intermediary. Published inputs, shared
 arithmetic backends, finite scope and unresolved novelty are stated in
 the proof note. Ambient H/N and arbitrary direct sums are separate.
+
+## E7 D5 refinements: complete full-source comparison
+
+The [D5 proof and audit](E7_D5_REFINEMENT.md) proves
+T_D5=q P_(W(E7))/((1+q)P_(W(D5))) for retained sets {2,3,4,5,6} and
+{1,2,3,4,5}, with 756 factors 2 across degrees 0..43. A ten-generator
+2-local invariant source is proved complete by a mod-2 graph/Hilbert
+certificate and Nakayama, rather than assuming polynomiality at 2.
+The rational quotient of total dimension 1512 and both complete image
+lattices are exhausted. Plain-Python source, fresh-weight polynomial
+identity/Jacobian, Buchberger and image-generation audits use separate
+arithmetic implementations. E6 opposition transfers the result to the
+second D5 case. Classical inputs and unresolved priority are identified
+in the proof. The method now covers 111 proper E7 parabolics and 63/64
+P7 refinements; only D4 remains in that family. This does not classify
+ambient H/N or direct-sum sources and adds no runtime API.
 
 ## Exceptional integral images: first complete finite tables
 
