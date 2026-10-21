@@ -68,6 +68,10 @@
       "python_blocks_executed": 0
     },
     {
+      "file": "E7_FULL_FLAG_COMPARISON.md",
+      "python_blocks_executed": 0
+    },
+    {
       "file": "MATHEMATICS.md",
       "python_blocks_executed": 0
     },
@@ -336,7 +340,7 @@
       "python_blocks_executed": 0
     }
   ],
-  "local_links_and_anchors_checked": 1060,
+  "local_links_and_anchors_checked": 1082,
   "python_blocks_executed": 41,
   "scope": "Python fences executed in reading order in a fresh namespace per document; local links and anchors checked. Shell snippets and external URLs were not automatically executed or crawled."
 }

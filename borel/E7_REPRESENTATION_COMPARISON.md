@@ -8,6 +8,10 @@ prove exponent 2 on all 64 retained subsets of the E6 Levi. Their
 multiplicities are not supplied by that bound. See the separate
 [proof/source audit](E7_ROOT_WEIGHT_AUDIT.md).
 
+The [A6 intermediary theorem](E7_FULL_FLAG_COMPARISON.md) now determines
+the all-degree relative root/weight factors on the full flag and 109
+proper parabolics, supplying the corresponding scaled image comparisons.
+
 For simply connected E7, with root lattice Q and weight lattice P,
 the full integral polynomial-character sources are
 

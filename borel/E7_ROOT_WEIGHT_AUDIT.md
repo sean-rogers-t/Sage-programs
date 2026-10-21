@@ -117,8 +117,13 @@ authors posed this exact question.
 The P7 relative multiplicity formula is complete. The structural bound
 does not itself give multiplicities for its finer flags. The
 [refinement extension](E7_REFINEMENT_MULTIPLICITIES.md) separately proves
-a uniform formula through degree nine; its higher degrees remain open. The other retained
+a uniform formula through degree nine. The subsequent A6 theorem linked
+below completes 61 cases; D5 and D4 remain in higher degrees. The other retained
 sets containing node 7 are outside the complement argument as stated.
 Ambient weight-image cokernels H/N, general transfer corrections at
 torsion primes, and arbitrary representation direct sums remain separate
 questions. Runtime and the installed 0.20.0 wheel are unchanged.
+
+The subsequent [A6 intermediary proof](E7_FULL_FLAG_COMPARISON.md)
+settles the full flag and 61/64 refinements in all degrees. Its finite
+image certificate and separate audits have their own stated scope.

@@ -133,13 +133,33 @@ A direct full-source BGG/Hermite/Smith calculation on the A5 refinement
 checks all ten degrees. This is a uniform bounded-degree theorem, not
 a complete finer-flag multiplicity formula.
 
-The all-degree target reduces by classical good-Levi deconvolution and
-an integral D5 symmetry to three unknown base polynomials: full flag,
-D5 and D4. A separate degree-16 Chern invariant proves that six normalized
+The original all-degree target reduced by classical good-Levi deconvolution
+and an integral D5 symmetry to three base polynomials: full flag, D5 and
+D4. The subsequent A6 theorem below completes the full-flag polynomial. A separate degree-16 Chern invariant proves that six normalized
 rational-degree E6 generators do not generate the full invariant source
 at 2. Both coefficient completeness and the witness have a plain-integer
 audit. This does not disprove an image transfer formula. Known inputs,
 precise finite scope and unresolved novelty are recorded in the note.
+
+## E7 full flag: complete A6 intermediary proof
+
+The [new all-degree comparison](E7_FULL_FLAG_COMPARISON.md) proves
+T_full=q P_(W(E7))/(1+q). A common A6 complement at 2 makes both full
+invariant sources polynomial, and 576-dimensional exact image bases
+exhaust every degree of E7/P2. The independent checks include fresh
+126-root/Girard relations, plain-Python Buchberger and image closure with
+primitive generation, and direct full-flag saturated kernels in degrees
+10..13. The latter exhibit corrections missed by unsaturated rational
+relation multiples. Both complete A6 source identifications and rational
+kernel completeness are justified before taking images.
+
+Classical common Artin/fiber bases transfer the result to the full flag
+and 108 proper good-Levi parabolics; the separate P7 theorem adds a 109th.
+This completes 61/64 P7 refinements; one D5 case and D4 remain independent
+all-degree targets. The degree-16 E6 invariant-ring obstruction is still
+valid. The new proof uses an A6 intermediary. Published inputs, shared
+arithmetic backends, finite scope and unresolved novelty are stated in
+the proof note. Ambient H/N and arbitrary direct sums are separate.
 
 ## Exceptional integral images: first complete finite tables
 

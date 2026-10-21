@@ -325,8 +325,12 @@ e=1,r=2. It gives an exponent bound, not the finer-flag multiplicities.
 
 The [refinement extension](E7_REFINEMENT_MULTIPLICITIES.md) now supplies
 a uniform multiplicity formula through degree nine for all 64 cases.
-It also reduces the remaining all-degree task to three base polynomials
+It initially reduced the remaining all-degree task to three base polynomials
 and exhibits an obstruction to a polynomial common-source-basis shortcut.
+
+The [A6 intermediary theorem](E7_FULL_FLAG_COMPARISON.md) subsequently
+settles the full-flag multiplicities and all degrees on 61 of the 64
+refinements. D5 and D4 remain the two independent cases.
 
 ## 7. Connection to the Springer maps and attribution
 

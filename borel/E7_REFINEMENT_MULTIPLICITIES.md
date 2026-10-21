@@ -1,8 +1,10 @@
 # Refinements of E7/P7: multiplicities through degree nine
 
 Status, 20 October 2026: a uniform computer-assisted deduction through
-polynomial degree 9 for all 64 retained subsets of the E6 Levi. The full
-multiplicity polynomial beyond P7 is still open. This note also reduces
+polynomial degree 9 for all 64 retained subsets of the E6 Levi. The
+[A6 intermediary theorem](E7_FULL_FLAG_COMPARISON.md) now proves the
+full-flag polynomial and all-degree factors on 61 of these refinements.
+The D5 pair and D4 remain open in higher degrees. This note originally reduced
 the all-degree problem to three base polynomials and exhibits an integral
 invariant that obstructs a tempting polynomial-basis proof. No claim of
 literature priority is made.
@@ -193,9 +195,10 @@ characteristic maps. Hence the two D5 polynomials agree. The independent
 Cartan calculation verifies both lattice matrices are unimodular and
 preserve the full E7 quadratic form.
 
-Thus three all-degree polynomials remain as independent targets:
-T_empty, one D5 refinement, and the D4 refinement. Equation (6), the
-D5 symmetry and the known P7 answer would then supply all 64 cases.
+The [A6 intermediary theorem](E7_FULL_FLAG_COMPARISON.md) now determines
+T_empty in all degrees. Equation (6) therefore settles all 60 type A
+refinements, and the known P7 answer makes 61. One D5 polynomial and
+the D4 polynomial remain as independent all-degree targets.
 This reduction is a deduction from known methods, not a new general
 Leray--Hirsch theorem.
 
@@ -276,7 +279,9 @@ explicit obstruction certificate. The obstruction is not claimed to be
 new invariant theory. This turn checked these primary sources and a
 related [Baek--Neher--Zainoulline paper](https://arxiv.org/abs/1106.4332);
 none of these limited checks establishes novelty of the exact statements.
-No complete multiplicity polynomial for any finer E7 flag is claimed.
+The bounded-degree argument here is separate from the subsequent
+[A6 intermediary theorem](E7_FULL_FLAG_COMPARISON.md), which completes
+the full flag and 61 of the 64 refinements in all degrees.
 
 ## Reproduction
 

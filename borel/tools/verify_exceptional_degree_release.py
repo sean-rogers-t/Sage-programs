@@ -63,7 +63,20 @@ def main():
     assert row['multiplicity_2']==[r['multiplicity_2'] for r in e7_refinements[2]['degrees']]
     assert e7_refinements[3]['chern_invariant_value']==e7_refinements[4]['chern_invariant_value']==-696735
     assert e7_refinements[3]['basic_values']==e7_refinements[4]['basic_values']==[2,-4,88,954,-340,55780]
-    for check in e6_checks+e7_checks+e7_refinements:
+    e7_full=[read('experiments/'+name) for name in (
+        'e7-a6-images.json','e7-a6-ideal-audit.json','e7-a6-images-audit.json',
+        'e7-full-flag-kernel.json','e7-full-flag-kernel-audit.json','e7-full-flag-transfer.json')]
+    assert e7_full[0]['dimension']==e7_full[2]['dimension']==42
+    assert e7_full[0]['total_rank']==e7_full[2]['total_rank']==576
+    assert len(e7_full[2]['degree_rows'])==42 and e7_full[2]['buchberger_pairs_checked']==9731
+    assert e7_full[1]['primary_ideal_equals_adjoint_ideal']
+    assert [r['degree'] for r in e7_full[3]['degrees']]==[10,11,12,13]
+    assert [r['multiplicity_2'] for r in e7_full[3]['degrees']]==[1940,2855,4054,5578]
+    assert [r['multiplicity_2'] for r in e7_full[4]['degrees']]==[1940,2855,4054,5578]
+    assert e7_full[5]['proper_parabolics_settled']==109 and e7_full[5]['P7_refinements_settled']==61
+    assert len(e7_full[5]['good_levi_parabolics'])==108
+    assert sum(e7_full[5]['full_flag_multiplicity_coefficients'])==1451520
+    for check in e6_checks+e7_checks+e7_refinements+e7_full:
         for name,expected in check.get('source_sha256',{}).items():
             path=ROOT/name
             if not path.exists():path=ROOT/'experiments'/name
@@ -145,6 +158,14 @@ def main():
         'E6_REMAINING_CASES.md','E6_REMAINING_AUDIT.md','E6_REMAINING_TABLES.md',
         'E7_ROOT_WEIGHT_COMPARISON.md','E7_ROOT_WEIGHT_AUDIT.md',
         'E7_REFINEMENT_MULTIPLICITIES.md',
+        'E7_FULL_FLAG_COMPARISON.md',
+        'experiments/e7_full_flag_kernel.py','experiments/audit_e7_full_flag_kernel.py',
+        'experiments/e7_a6_images.py','experiments/audit_e7_a6_ideal.py','experiments/audit_e7_a6_images.py',
+        'experiments/e7_full_flag_transfer_check.py',
+        'experiments/e7-full-flag-kernel.json','experiments/e7-full-flag-kernel-audit.json',
+        'experiments/e7-a6-images.json','experiments/e7-a6-ideal-audit.json','experiments/e7-a6-images-audit.json',
+        'experiments/e7-full-flag-transfer.json','experiments/e7-a6-images-certificates.json.gz',
+        'experiments/e7-full-flag-kernel-certificates.json.gz',
         'experiments/e7_refinement_relations.py','experiments/audit_e7_refinement_relations.py',
         'experiments/e7_refinement_bgg_check.py','experiments/e7_refinement_invariant_obstruction.py',
         'experiments/audit_e7_refinement_obstruction.py',
@@ -204,8 +225,13 @@ def main():
             source_monomials=1967,refinement_exponent=2,refinement_count=64,
             scope='Full P7 multiplicities; exponent bound only on the other refinements. Shared Sage arithmetic in the independent source replay; separate BGG/Chevalley and plain Python structural checks.'),
         e7_refinement_progress=dict(refinements=64,multiplicity_degree_bound=9,
-            independent_relation_constructions=2,direct_bgg_degrees=10,all_degree_unknown_base_polynomials=3,
+            independent_relation_constructions=2,direct_bgg_degrees=10,all_degree_unknown_base_polynomials=2,all_degree_refinements_settled=61,
             source_obstruction_degree=16,scope='Uniform bounded-degree formula; no complete finer-flag multiplicity polynomial or novelty claim.'),
+        e7_full_flag_comparison=dict(formula='q P_W/(1+q)',intermediary='E7/P2 with A6 Levi',
+            intermediary_rank=576,intermediary_dimension=42,intermediary_all_degrees_audited=True,
+            full_flag_total_factors_2=1451520,proper_good_levi_parabolics=108,additional_P7_basis_case=1,
+            proper_parabolics_settled=109,P7_refinements_settled=61,
+            scope='Complete computer-assisted A6 image proof and classical common-fiber transfer. Remaining P7 refinement cases: D5 pair and D4. No novelty or ambient H/N classification claim.'),
         hash_semantics='SHA256 after CRLF to LF normalization for text; raw bytes for .gz archives',
         audit_sha256={p.relative_to(ROOT).as_posix():digest(p) for p in sorted(set(paths))})
     (ROOT/'release-0.20-verification.json').write_text(json.dumps(report,indent=2)+'\n')

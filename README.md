@@ -32,7 +32,10 @@ all 64 refinements of P7, with a separate [audit](borel/E7_ROOT_WEIGHT_AUDIT.md)
 The [E7 refinement extension](borel/E7_REFINEMENT_MULTIPLICITIES.md) proves
 multiplicities through degree nine on all 64 refinements, with independent
 checks and an explicit obstruction to a six-generator source shortcut.
-All-degree multiplicities on finer flags remain open here.
+The [A6 intermediary proof](borel/E7_FULL_FLAG_COMPARISON.md) now gives
+all-degree full-flag multiplicities and relative factors on 109 proper
+E7 parabolics, including 61 of those 64 refinements. D5 and D4 remain
+the two independent refinement targets.
 The [general trace-source theorem](borel/TRACE_SOURCE_THEOREM.md) now
 proves degree-one generation for every supported normalized representation
 map, with a 59-case independent weight/lattice audit and a public certificate.

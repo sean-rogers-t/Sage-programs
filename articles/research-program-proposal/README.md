@@ -65,9 +65,13 @@ separates published inputs from these deductions. The
 [E7/P7 basis theorem](../../borel/E7_ROOT_WEIGHT_COMPARISON.md) then gives
 a closed 2-primary multiplicity polynomial and a structural exponent-2
 bound on all 64 refinements of P7. It uses a stable common complement
-and a root quadratic lift; it does not yet give finer-flag multiplicities.
-General bad-prime
-structure beyond E6, ambient weight-image cokernels and a structural
+and a root quadratic lift; that exponent argument alone does not give
+finer-flag multiplicities.
+The [A6 intermediary proof](../../borel/E7_FULL_FLAG_COMPARISON.md) now
+settles the full-flag polynomial q P_W/(1+q) and all-degree relative
+factors on 109 proper E7 parabolics, including 61/64 refinements of P7.
+One D5 case and D4 remain independent refinement targets. General bad-prime
+structure beyond the covered E6/E7 cases, ambient weight-image cokernels and a structural
 criterion for the equivariant specialization kernel remain targets.
 
 These subsequent notes update the live program. The proposal PDF remains
