@@ -207,7 +207,7 @@ Borel/invariant/Nakayama inputs and the new finite deductions are
 separated; priority, ambient H/N and a structural explanation of the
 index equality remain unresolved. No runtime API changes.
 
-## E7 remaining family: D6 complete, D5+A1 first gap
+## E7 remaining family: D6 complete, D5+A1 exponent and bounded factors
 
 The [remaining-family note](E7_REMAINING_PARABOLICS.md) proves for E7/P1
 (D6 Levi) that every nonunit relative root/weight image factor is 2, with
@@ -227,7 +227,23 @@ diagrams represent ten distinct cases. For E7/P6 (D5+A1), explicit
 primitive bases give full degree-two sources and images N=R{h2,t},
 M=R{h2,2t}, with first relative group Z/2 in degree two. Direct full
 reflection kernels and an independent analytic/native audit corroborate
-this partial result. Higher D5+A1 multiplicities remain unresolved.
+this first gap. The [D5+A1 continuation](E7_D5_A1_COMPARISON.md) proves
+2N^d subset M^d in all degrees, using the full weight source A[t] and
+independently audited lower root images through top degree 42. Thus all
+nonunit relative factors on E7/P6 are 2. Complete primitive root-source components
+and image calculations determine multiplicities through degree 22;
+degree 41 also has equality by containment. Higher nonzero counts remain
+upper bounds, so the total of 113 complete parabolics is unchanged.
+
+Native Newton/coefficient audits verify all 22 root components; a fresh
+56-weight orbit, nonzero Jacobian, 333 unisolvent samples, and separate
+Buchberger/image reductions verify the quotient and image comparison.
+The earlier D5 source theorem is an explicitly shared input. A degree-32
+root-character orbit norm is checked separately. New necessary generators
+in degrees 21 and 22 disprove completeness of the degree-20 list, even
+after adjoining the norm. They do not change the previously bounded
+images in those two degrees. A finite-module trial has fiber rank 32
+but does not have the required degree numerator; it remains incomplete.
 
 The rational cohomology of E7/P1 is already known from Chaput--Perrin,
 Proposition 5.6; the Borel presentation, signed-permutation invariants,

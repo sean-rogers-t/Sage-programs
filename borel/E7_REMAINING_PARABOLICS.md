@@ -340,13 +340,27 @@ targeted check. That does not establish novelty or replace a comprehensive
 literature audit. A structural explanation and formulas for the unresolved
 representatives remain separate goals.
 
+## D5+A1 continuation
+
+The [subsequent D5+A1 note](E7_D5_A1_COMPARISON.md) extends the degree-two
+argument above. It proves 2N^d subset M^d in every degree on E7/P6 and
+determines full relative multiplicities through degree 22. Degree 41 also
+has equality by containment. The full weight source is the previously
+audited D5 algebra A with the variable t=w(h-w). Complete bounded root
+components, a fresh 56-weight quotient calculation and separate native
+arithmetic audits prove the stated scope. Necessary new root generators
+occur in degrees 21 and 22; a degree-20 cutoff is not an unbounded source
+presentation. Higher multiplicities are still bounds. Thus 113 parabolics
+remain complete, and 14 diagrams still lack full formulas.
+
 ## Next proof targets
 
-The next base case is D5+A1, retained {1,2,3,4,5,7}, with 756 Schubert
-classes. It can reuse the audited D5 invariant algebra while adjoining the
-commuting reflection s_7. Its fixed integral source must be computed before
-passing to the Borel image: invariants and quotient images need not commute
-at two. Averaging by two is unavailable here.
+The next target is to finish the multiplicity polynomial for D5+A1,
+retained {1,2,3,4,5,7}, with 756 Schubert classes. The continuation proves
+the exponent and degrees through 22. A complete higher root source, or a
+proof that a smaller root source has the same Borel image, is still needed.
+Invariants and quotient images need not commute at two; averaging by two
+is unavailable here.
 
 After that, A5+A1 (rank 2,016) and A5 (rank 4,032) provide smaller
 intermediaries for the other cases. A common integral relative basis would
@@ -357,6 +371,6 @@ The conjugacy reductions above can be used unconditionally.
 The general questions remain: does 2N_I lie in M_I for all proper E7
 parabolics, and what diagram/lattice data controls the first nonzero
 relative degree and its multiplicities when X^(W_I) lies in Q? The
-112-case theorem and the D6 computation do not prove an answer for all
-remaining diagrams. No uniform conjectural polynomial is asserted from
-this single additional base case.
+112-case theorem, the D6 computation and the D5+A1 exponent theorem do not
+prove an answer for all remaining diagrams. No uniform conjectural
+polynomial is asserted from these base cases.

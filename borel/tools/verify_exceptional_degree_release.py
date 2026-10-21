@@ -126,7 +126,31 @@ def main():
     assert e7_d6[6]['distinct_representatives_after_these_reductions']==e7_d6[7]['distinct_Weyl_conjugacy_classes']==11
     assert e7_d6[5]['multiplicity_coefficients']==[0]+[r['multiplicity_2'] for r in e7_d6[3]['degree_rows']]
     assert all(r['smith_multiplicities']==({'1':m} if m else {}) for r,m in zip(e7_d6[2]['degrees'],e7_d6[5]['multiplicity_coefficients'][1:]))
-    for check in e6_checks+e7_checks+e7_refinements+e7_full+e7_d5+e7_d4+e7_d6:
+    e7_d5a1=[read('experiments/'+name) for name in (
+        'e7-d5a1-sources.json','e7-d5a1-sources-audit.json',
+        'e7-d5a1-sources-22.json','e7-d5a1-sources-22-audit.json',
+        'e7-d5a1-norm.json','e7-d5a1-norm-audit.json',
+        'e7-d5a1-images.json','e7-d5a1-images-audit.json',
+        'e7-d5a1-moments-audit.json','e7-d5a1-summary.json')]
+    e7_d5a1_attempts=[json.loads((ROOT/'experiments'/name).read_text()) for name in (
+        'e7-d5a1-source-algebra.json','e7-d5a1-free-source.json')]
+    assert all(c['result']=='incomplete' and not c['full_source_complete_all_degrees'] for c in e7_d5a1_attempts)
+    assert e7_d5a1_attempts[0]['first_missing_degree']==21
+    assert e7_d5a1[0]['max_degree']==e7_d5a1[1]['max_degree']==20
+    assert e7_d5a1[2]['max_degree']==e7_d5a1[3]['max_degree']==22
+    assert [r['necessary_new_generators'] for r in e7_d5a1[3]['indecomposable_checks']]==[1,1]
+    assert e7_d5a1[4]['degree']==e7_d5a1[5]['degree']==32
+    assert e7_d5a1[6]['dimension']==e7_d5a1[7]['dimension']==42
+    assert e7_d5a1[6]['total_rank']==e7_d5a1[7]['total_rank']==756
+    assert e7_d5a1[6]['full_root_source_degree_bound']==e7_d5a1[7]['full_root_source_degree_bound']==22
+    assert not e7_d5a1[6]['complete'] and not e7_d5a1[7]['full_multiplicities_proved']
+    assert e7_d5a1[7]['all_degree_exponent_divides_2'] and len(e7_d5a1[7]['degree_rows'])==42
+    assert all(r['twice_full_weight_image_in_root_image'] for r in e7_d5a1[7]['degree_rows'])
+    assert e7_d5a1[8]['samples']==333 and e7_d5a1[8]['basic_invariant_algebra_complete']
+    assert e7_d5a1[9]['exact_multiplicities'][21:23]==[17,19]
+    assert e7_d5a1[9]['unknown_multiplicity_degrees']==list(range(23,41))+[42]
+    assert e7_d5a1[9]['proper_E7_parabolics_with_complete_formulas']==113
+    for check in e6_checks+e7_checks+e7_refinements+e7_full+e7_d5+e7_d4+e7_d6+e7_d5a1+e7_d5a1_attempts:
         for name,expected in check.get('source_sha256',{}).items():
             path=ROOT/name
             if not path.exists():path=ROOT/'experiments'/name
@@ -212,7 +236,19 @@ def main():
         'E6_REMAINING_CASES.md','E6_REMAINING_AUDIT.md','E6_REMAINING_TABLES.md',
         'E7_ROOT_WEIGHT_COMPARISON.md','E7_ROOT_WEIGHT_AUDIT.md',
         'E7_REFINEMENT_MULTIPLICITIES.md',
-        'E7_FULL_FLAG_COMPARISON.md','E7_D5_REFINEMENT.md','E7_D4_REFINEMENT.md','E7_REMAINING_PARABOLICS.md',
+        'E7_FULL_FLAG_COMPARISON.md','E7_D5_REFINEMENT.md','E7_D4_REFINEMENT.md','E7_REMAINING_PARABOLICS.md','E7_D5_A1_COMPARISON.md',
+        'experiments/e7_d5a1_sources.py','experiments/extend_e7_d5a1_sources.py',
+        'experiments/audit_e7_d5a1_sources.py','experiments/e7_d5a1_norm.py','experiments/audit_e7_d5a1_norm.py',
+        'experiments/e7_d5a1_images.py','experiments/audit_e7_d5a1_images.py','experiments/audit_e7_d5a1_moments.py',
+        'experiments/e7_d5a1_source_algebra.py','experiments/e7_d5a1_free_source.py','experiments/summarize_e7_d5a1.py',
+        'experiments/e7-d5a1-sources.json','experiments/e7-d5a1-sources-audit.json',
+        'experiments/e7-d5a1-sources-22.json','experiments/e7-d5a1-sources-22-audit.json',
+        'experiments/e7-d5a1-norm.json','experiments/e7-d5a1-norm-audit.json',
+        'experiments/e7-d5a1-images.json','experiments/e7-d5a1-images-audit.json','experiments/e7-d5a1-moments-audit.json',
+        'experiments/e7-d5a1-source-algebra.json','experiments/e7-d5a1-free-source.json','experiments/e7-d5a1-summary.json',
+        'experiments/e7-d5a1-sources-certificates.json.gz','experiments/e7-d5a1-sources-22-certificates.json.gz',
+        'experiments/e7-d5a1-norm-certificates.json.gz','experiments/e7-d5a1-images-certificates.json.gz',
+        'experiments/e7-d5a1-free-source-certificates.json.gz',
         'experiments/e7_d6_sources.py','experiments/extend_e7_d6_sources.py','experiments/pack_e7_d6_sources.py','experiments/e7_d6_images.py',
         'experiments/e7_d5a1_degree_two.py','experiments/audit_e7_d5a1_degree_two.py',
         'experiments/e7-d5a1-degree-two.json','experiments/e7-d5a1-degree-two-audit.json',
@@ -322,6 +358,13 @@ def main():
             proper_parabolics_settled=113,other_proper_parabolics_remaining=14,remaining_distinct_Weyl_conjugacy_classes=10,
             partial_D5_A1_first_gap_degree=2,partial_D5_A1_first_relative_group='Z/2',
             scope='Full component saturation and primitive-product certificates establish the sources in their required bounds. In degrees 28..33, root-generator lower images equal the full weight images, so the full images agree. Independent native source, fresh-weight, Buchberger and image audits verify the arithmetic. Four Weyl-conjugacy reductions are checked in a second basis. No formula for the other 14 diagrams or novelty claim.'),
+        e7_d5a1_progress=dict(parabolic='E7/P6',levi_type='D5+A1',dimension=42,schubert_rank=756,
+            all_degree_exponent_divides_2=True,full_source_multiplicity_degree_bound=22,
+            independent_image_degrees=42,new_necessary_source_generator_degrees=[21,22],
+            incomplete_generator_algebra_first_missing_degree=21,
+            higher_multiplicity_unknown_degrees=e7_d5a1[9]['unknown_multiplicity_degrees'],
+            proper_parabolics_with_complete_formulas=113,
+            scope='Full weight source A[t] reuses the audited D5 theorem. Independent native source, fresh-weight, norm and image audits prove exponent 2 in all degrees and exact multiplicities through 22, with equality in degree 41. Higher counts are upper bounds. Both unbounded source attempts are explicitly incomplete; no full-formula or priority claim.'),
         hash_semantics='SHA256 after CRLF to LF normalization for text; raw bytes for .gz archives',
         audit_sha256={p.relative_to(ROOT).as_posix():digest(p) for p in sorted(set(paths))})
     (ROOT/'release-0.20-verification.json').write_text(json.dumps(report,indent=2)+'\n')
