@@ -1,11 +1,12 @@
 # Refinements of E7/P7: multiplicities through degree nine
 
-Status, 20 October 2026: a uniform computer-assisted deduction through
+Original degree-nine theorem, with progress updated 21 October 2026: a uniform computer-assisted deduction through
 polynomial degree 9 for all 64 retained subsets of the E6 Levi. The
 [A6 intermediary theorem](E7_FULL_FLAG_COMPARISON.md) now proves the
 full-flag polynomial and all-degree factors on 61 of these refinements.
 The [D5 completion](E7_D5_REFINEMENT.md) adds both D5 refinements, making
-63/64 settled in all degrees. D4 alone remains. This note originally reduced
+63/64 settled in all degrees. The [D4 completion](E7_D4_REFINEMENT.md)
+now settles all 64. This note originally reduced
 the all-degree problem to three base polynomials and exhibits an integral
 invariant that obstructs a tempting polynomial-basis proof. No claim of
 literature priority is made.
@@ -200,7 +201,8 @@ The [A6 intermediary theorem](E7_FULL_FLAG_COMPARISON.md) now determines
 T_empty in all degrees. Equation (6) therefore settles all 60 type A
 refinements, and the known P7 answer makes 61. The subsequent
 [D5 completion](E7_D5_REFINEMENT.md) adds the two D5 refinements and
-leaves only D4 as an all-degree target in this family.
+leaves D4 at that stage. The subsequent [D4 proof](E7_D4_REFINEMENT.md)
+completes this final case, hence all 64 refinements.
 This reduction is a deduction from known methods, not a new general
 Leray--Hirsch theorem.
 

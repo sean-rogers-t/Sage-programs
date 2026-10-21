@@ -36,7 +36,10 @@ The [A6 intermediary proof](borel/E7_FULL_FLAG_COMPARISON.md) now gives
 all-degree full-flag multiplicities and relative factors on 109 proper
 E7 parabolics, including 61 of those 64 refinements. The
 [D5 completion](borel/E7_D5_REFINEMENT.md) adds both D5 cases, making
-111 proper parabolics and 63/64 refinements. Only D4 remains in that family.
+111 proper parabolics and 63/64 refinements. The
+[D4 completion](borel/E7_D4_REFINEMENT.md) now proves the common formula
+q P_W/((1+q)P_WI) for all 64 refinements in all degrees, and makes
+112 proper parabolics in total. The other 15 proper E7 parabolics remain.
 The [general trace-source theorem](borel/TRACE_SOURCE_THEOREM.md) now
 proves degree-one generation for every supported normalized representation
 map, with a 59-case independent weight/lattice audit and a public certificate.

@@ -330,7 +330,8 @@ and exhibits an obstruction to a polynomial common-source-basis shortcut.
 
 The [A6 intermediary theorem](E7_FULL_FLAG_COMPARISON.md) subsequently
 settles the full-flag multiplicities and all degrees on 61 of the 64
-refinements. D5 and D4 remain the two independent cases.
+refinements. The subsequent [D5](E7_D5_REFINEMENT.md) and
+[D4 proofs](E7_D4_REFINEMENT.md) now settle all 64.
 
 ## 7. Connection to the Springer maps and attribution
 

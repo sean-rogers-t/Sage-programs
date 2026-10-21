@@ -90,7 +90,25 @@ def main():
     assert [0]+[r['multiplicity_2'] for r in e7_d5[4]['degree_rows']]==e7_d5[1]['multiplicity_coefficients']
     assert all(r['multiplicity_2']==e7_d5[1]['multiplicity_coefficients'][r['degree']] for r in e7_d5[5]['degrees'])
     assert e7_d5[6]['proper_parabolics_settled']==111 and e7_d5[6]['P7_refinements_settled']==63
-    for check in e6_checks+e7_checks+e7_refinements+e7_full+e7_d5:
+    e7_d4=[read('experiments/'+name) for name in (
+        'e7-d4-source-algebra.json','e7-d4-images.json','e7-d4-source-audit.json',
+        'e7-d4-images-audit.json','e7-d4-summary.json')]
+    d4_bounded=json.loads((ROOT/'experiments/e7-d4-source.json').read_text())
+    assert d4_bounded['source_sha256']==digest(ROOT/'experiments/e7_d4_source.py')
+    assert e7_d4[0]['generator_degrees']==[1,1,2,4,4,5,6,8,8,8]
+    assert e7_d4[0]['relative_quotient_dimension']==e7_d4[2]['relative_module_generators']==34
+    assert e7_d4[2]['full_source_complete_all_degrees'] and e7_d4[1]['complete']
+    assert e7_d4[1]['dimension']==e7_d4[3]['dimension']==51
+    assert e7_d4[1]['total_rank']==e7_d4[3]['total_rank']==15120
+    assert len(e7_d4[1]['degrees'])==len(e7_d4[3]['degree_rows'])==52
+    assert e7_d4[4]['total_relative_factors_2']==7560
+    assert e7_d4[4]['proper_parabolics_settled']==112 and e7_d4[4]['P7_refinements_settled']==64
+    assert len(e7_d4[4]['other_proper_parabolics_remaining'])==15
+    assert [r['weight_and_root_split_odd_index'] for r in e7_d4[4]['quadratic_lifts']]==[7,15,3]
+    assert all(r['all_coefficients_integral'] and r['all_simple_reflections_checked'] for r in e7_d4[4]['quadratic_lifts'])
+    assert [r['indices'] for r in e7_d4[1]['degrees']]==[r['indices'] for r in e7_d4[3]['degree_rows']]
+    assert all(r['indices']['N']==r['indices']['M'] and r['prediction_agrees'] for r in e7_d4[1]['degrees'])
+    for check in e6_checks+e7_checks+e7_refinements+e7_full+e7_d5+e7_d4:
         for name,expected in check.get('source_sha256',{}).items():
             path=ROOT/name
             if not path.exists():path=ROOT/'experiments'/name
@@ -99,6 +117,8 @@ def main():
             assert sha256((ROOT/name).read_bytes()).hexdigest()==expected,name
         if 'certificate_archive' in check:
             assert sha256((ROOT/check['certificate_archive']).read_bytes()).hexdigest()==check['certificate_archive_sha256']
+        if 'tower_archive' in check:
+            assert sha256((ROOT/check['tower_archive']).read_bytes()).hexdigest()==check['tower_archive_sha256']
     assert regression['version']==wheel['version']==version=='0.20.0'
     for name,expected in regression['source_sha256'].items():
         assert digest(ROOT/name)==expected,name
@@ -172,7 +192,12 @@ def main():
         'E6_REMAINING_CASES.md','E6_REMAINING_AUDIT.md','E6_REMAINING_TABLES.md',
         'E7_ROOT_WEIGHT_COMPARISON.md','E7_ROOT_WEIGHT_AUDIT.md',
         'E7_REFINEMENT_MULTIPLICITIES.md',
-        'E7_FULL_FLAG_COMPARISON.md','E7_D5_REFINEMENT.md',
+        'E7_FULL_FLAG_COMPARISON.md','E7_D5_REFINEMENT.md','E7_D4_REFINEMENT.md',
+        'experiments/e7_d4_source.py','experiments/e7_d4_source_algebra.py','experiments/e7_d4_images.py',
+        'experiments/audit_e7_d4_source.py','experiments/audit_e7_d4_images.py','experiments/e7_d4_summary_check.py',
+        'experiments/e7-d4-source.json','experiments/e7-d4-source-algebra.json','experiments/e7-d4-images.json',
+        'experiments/e7-d4-source-audit.json','experiments/e7-d4-images-audit.json','experiments/e7-d4-summary.json',
+        'experiments/e7-d4-tower-certificates.json.gz','experiments/e7-d4-index-certificates.jsonl.gz',
         'experiments/e7_d5_source.py','experiments/e7_d5_source_algebra.py','experiments/e7_d5_images.py',
         'experiments/e7_d5_kernel.py','experiments/e7_d5_summary_check.py','experiments/e7-d5-summary.json','experiments/audit_e7_d5_source.py','experiments/audit_e7_d5_images.py',
         'experiments/audit_e7_d5_moments.py','experiments/e7-d5-source.json',
@@ -246,16 +271,21 @@ def main():
             source_monomials=1967,refinement_exponent=2,refinement_count=64,
             scope='Full P7 multiplicities; exponent bound only on the other refinements. Shared Sage arithmetic in the independent source replay; separate BGG/Chevalley and plain Python structural checks.'),
         e7_refinement_progress=dict(refinements=64,multiplicity_degree_bound=9,
-            independent_relation_constructions=2,direct_bgg_degrees=10,all_degree_unknown_base_polynomials=1,all_degree_refinements_settled=63,
-            source_obstruction_degree=16,scope='Uniform degree-nine formula; A6/P7 and D5 source proofs settle 63/64 refinements in all degrees. D4 remains; no novelty claim.'),
+            independent_relation_constructions=2,direct_bgg_degrees=10,all_degree_unknown_base_polynomials=0,all_degree_refinements_settled=64,
+            source_obstruction_degree=16,scope='Uniform degree-nine theorem extended to all degrees on all 64 P7 refinements by separate P7/A6/D5/D4 proofs. No novelty claim.'),
         e7_full_flag_comparison=dict(formula='q P_W/(1+q)',intermediary='E7/P2 with A6 Levi',
             intermediary_rank=576,intermediary_dimension=42,intermediary_all_degrees_audited=True,
             full_flag_total_factors_2=1451520,proper_good_levi_parabolics=108,additional_P7_basis_case=1,
             proper_parabolics_settled=109,P7_refinements_settled=61,
-            scope='Complete computer-assisted A6 image proof and classical common-fiber transfer. A6-transfer scope only; the D5 pair is completed separately below, and D4 remains. No novelty or ambient H/N classification claim.'),
+            scope='Complete computer-assisted A6 image proof and classical common-fiber transfer. A6-transfer scope only; the D5 pair and D4 are completed separately below. No novelty or ambient H/N classification claim.'),
         e7_d5_refinement=dict(source_generators=10,source_complete_all_degrees=True,quotient_rank=1512,dimension=43,
             independent_image_degrees=43,total_relative_factors_2=756,proper_parabolics_settled=111,P7_refinements_settled=63,
-            scope='Complete computer-assisted D5 full-source comparison, with separate native-Python source, weight and image audits. E6 opposition gives the second D5 case; D4 remains.'),
+            scope='Complete computer-assisted D5 full-source comparison, with separate native-Python source, weight and image audits. E6 opposition gives the second D5 case; D4 is completed separately below.'),
+        e7_d4_completion=dict(source_generators=10,source_complete_all_degrees=True,relative_module_generators=34,
+            quotient_rank=15120,dimension=51,independently_audited_degrees=52,total_relative_factors_2=7560,
+            proper_parabolics_settled=112,P7_refinements_settled=64,other_proper_parabolics_remaining=15,
+            central_character_nodes=[2,5,7],remaining_parabolics_have_zero_degree_one_gap=True,
+            scope='The 112 cases omitting at least one of nodes 2,5,7 have polynomial q P_W/((1+q)P_WI), including all 64 P7 refinements. D4 uses the full finite module and equal image-index corrections, independently audited by source/Buchberger and native Smith elimination. The D5 base is a shared audited input. The other 15 require a different formula. Structural explanation, ambient H/N and priority remain separate.'),
         hash_semantics='SHA256 after CRLF to LF normalization for text; raw bytes for .gz archives',
         audit_sha256={p.relative_to(ROOT).as_posix():digest(p) for p in sorted(set(paths))})
     (ROOT/'release-0.20-verification.json').write_text(json.dumps(report,indent=2)+'\n')

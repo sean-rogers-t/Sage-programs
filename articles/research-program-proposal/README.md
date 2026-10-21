@@ -71,7 +71,13 @@ The [A6 intermediary proof](../../borel/E7_FULL_FLAG_COMPARISON.md) now
 settles the full-flag polynomial q P_W/(1+q) and all-degree relative
 factors on 109 proper E7 parabolics, including 61/64 refinements of P7.
 The [D5 completion](../../borel/E7_D5_REFINEMENT.md) adds two cases, making
-111 proper parabolics and 63/64 refinements; only D4 remains in that family.
+111 proper parabolics and 63/64 refinements. The
+[D4 completion](../../borel/E7_D4_REFINEMENT.md) now closes the entire
+64-refinement family, with polynomial q P_W/((1+q)P_WI) in every case.
+This makes 112 proper E7 parabolics. Its 34-generator module certificate
+also records a failure of a free rank-10 integral source transfer.
+A structural explanation of the equal index corrections and the other
+15 proper E7 parabolics remain targets.
 General bad-prime
 structure beyond the covered E6/E7 cases, ambient weight-image cokernels and a structural
 criterion for the equivariant specialization kernel remain targets.

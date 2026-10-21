@@ -1,0 +1,438 @@
+{
+  "result": "passed",
+  "engine": "No Sage/project imports. Own sparse rational torus substitutions and normal reductions; FLINT rational block matrices. Own unit-pivot Smith elimination over Z/(2^k), using bounded exact NumPy int64 arithmetic, independently replays PARI modular-column HNF. SymPy checks both nontrivial rational quadric S-pairs.",
+  "shared_inputs": "Previously independently audited D5 rational quotient and complete image bases; ten new D4 preimages audited separately by the native source audit.",
+  "degree_rows": [
+    {
+      "degree": 0,
+      "rank": 1,
+      "indices": {
+        "N": 0,
+        "M": 0
+      }
+    },
+    {
+      "degree": 1,
+      "rank": 3,
+      "indices": {
+        "N": 0,
+        "M": 0
+      }
+    },
+    {
+      "degree": 2,
+      "rank": 6,
+      "indices": {
+        "N": 0,
+        "M": 0
+      }
+    },
+    {
+      "degree": 3,
+      "rank": 10,
+      "indices": {
+        "N": 0,
+        "M": 0
+      }
+    },
+    {
+      "degree": 4,
+      "rank": 17,
+      "indices": {
+        "N": 1,
+        "M": 1
+      }
+    },
+    {
+      "degree": 5,
+      "rank": 27,
+      "indices": {
+        "N": 3,
+        "M": 3
+      }
+    },
+    {
+      "degree": 6,
+      "rank": 40,
+      "indices": {
+        "N": 6,
+        "M": 6
+      }
+    },
+    {
+      "degree": 7,
+      "rank": 56,
+      "indices": {
+        "N": 10,
+        "M": 10
+      }
+    },
+    {
+      "degree": 8,
+      "rank": 77,
+      "indices": {
+        "N": 18,
+        "M": 18
+      }
+    },
+    {
+      "degree": 9,
+      "rank": 103,
+      "indices": {
+        "N": 29,
+        "M": 29
+      }
+    },
+    {
+      "degree": 10,
+      "rank": 133,
+      "indices": {
+        "N": 42,
+        "M": 42
+      }
+    },
+    {
+      "degree": 11,
+      "rank": 167,
+      "indices": {
+        "N": 57,
+        "M": 57
+      }
+    },
+    {
+      "degree": 12,
+      "rank": 206,
+      "indices": {
+        "N": 75,
+        "M": 75
+      }
+    },
+    {
+      "degree": 13,
+      "rank": 250,
+      "indices": {
+        "N": 97,
+        "M": 97
+      }
+    },
+    {
+      "degree": 14,
+      "rank": 296,
+      "indices": {
+        "N": 121,
+        "M": 121
+      }
+    },
+    {
+      "degree": 15,
+      "rank": 344,
+      "indices": {
+        "N": 147,
+        "M": 147
+      }
+    },
+    {
+      "degree": 16,
+      "rank": 394,
+      "indices": {
+        "N": 176,
+        "M": 176
+      }
+    },
+    {
+      "degree": 17,
+      "rank": 446,
+      "indices": {
+        "N": 208,
+        "M": 208
+      }
+    },
+    {
+      "degree": 18,
+      "rank": 495,
+      "indices": {
+        "N": 239,
+        "M": 239
+      }
+    },
+    {
+      "degree": 19,
+      "rank": 541,
+      "indices": {
+        "N": 270,
+        "M": 270
+      }
+    },
+    {
+      "degree": 20,
+      "rank": 584,
+      "indices": {
+        "N": 300,
+        "M": 300
+      }
+    },
+    {
+      "degree": 21,
+      "rank": 624,
+      "indices": {
+        "N": 330,
+        "M": 330
+      }
+    },
+    {
+      "degree": 22,
+      "rank": 656,
+      "indices": {
+        "N": 355,
+        "M": 355
+      }
+    },
+    {
+      "degree": 23,
+      "rank": 680,
+      "indices": {
+        "N": 376,
+        "M": 376
+      }
+    },
+    {
+      "degree": 24,
+      "rank": 697,
+      "indices": {
+        "N": 395,
+        "M": 395
+      }
+    },
+    {
+      "degree": 25,
+      "rank": 707,
+      "indices": {
+        "N": 411,
+        "M": 411
+      }
+    },
+    {
+      "degree": 26,
+      "rank": 707,
+      "indices": {
+        "N": 420,
+        "M": 420
+      }
+    },
+    {
+      "degree": 27,
+      "rank": 697,
+      "indices": {
+        "N": 422,
+        "M": 422
+      }
+    },
+    {
+      "degree": 28,
+      "rank": 680,
+      "indices": {
+        "N": 420,
+        "M": 420
+      }
+    },
+    {
+      "degree": 29,
+      "rank": 656,
+      "indices": {
+        "N": 414,
+        "M": 414
+      }
+    },
+    {
+      "degree": 30,
+      "rank": 624,
+      "indices": {
+        "N": 402,
+        "M": 402
+      }
+    },
+    {
+      "degree": 31,
+      "rank": 584,
+      "indices": {
+        "N": 383,
+        "M": 383
+      }
+    },
+    {
+      "degree": 32,
+      "rank": 541,
+      "indices": {
+        "N": 362,
+        "M": 362
+      }
+    },
+    {
+      "degree": 33,
+      "rank": 495,
+      "indices": {
+        "N": 338,
+        "M": 338
+      }
+    },
+    {
+      "degree": 34,
+      "rank": 446,
+      "indices": {
+        "N": 311,
+        "M": 311
+      }
+    },
+    {
+      "degree": 35,
+      "rank": 394,
+      "indices": {
+        "N": 280,
+        "M": 280
+      }
+    },
+    {
+      "degree": 36,
+      "rank": 344,
+      "indices": {
+        "N": 249,
+        "M": 249
+      }
+    },
+    {
+      "degree": 37,
+      "rank": 296,
+      "indices": {
+        "N": 218,
+        "M": 218
+      }
+    },
+    {
+      "degree": 38,
+      "rank": 250,
+      "indices": {
+        "N": 187,
+        "M": 187
+      }
+    },
+    {
+      "degree": 39,
+      "rank": 206,
+      "indices": {
+        "N": 156,
+        "M": 156
+      }
+    },
+    {
+      "degree": 40,
+      "rank": 167,
+      "indices": {
+        "N": 129,
+        "M": 129
+      }
+    },
+    {
+      "degree": 41,
+      "rank": 133,
+      "indices": {
+        "N": 105,
+        "M": 105
+      }
+    },
+    {
+      "degree": 42,
+      "rank": 103,
+      "indices": {
+        "N": 83,
+        "M": 83
+      }
+    },
+    {
+      "degree": 43,
+      "rank": 77,
+      "indices": {
+        "N": 63,
+        "M": 63
+      }
+    },
+    {
+      "degree": 44,
+      "rank": 56,
+      "indices": {
+        "N": 46,
+        "M": 46
+      }
+    },
+    {
+      "degree": 45,
+      "rank": 40,
+      "indices": {
+        "N": 33,
+        "M": 33
+      }
+    },
+    {
+      "degree": 46,
+      "rank": 27,
+      "indices": {
+        "N": 22,
+        "M": 22
+      }
+    },
+    {
+      "degree": 47,
+      "rank": 17,
+      "indices": {
+        "N": 13,
+        "M": 13
+      }
+    },
+    {
+      "degree": 48,
+      "rank": 10,
+      "indices": {
+        "N": 7,
+        "M": 7
+      }
+    },
+    {
+      "degree": 49,
+      "rank": 6,
+      "indices": {
+        "N": 4,
+        "M": 4
+      }
+    },
+    {
+      "degree": 50,
+      "rank": 3,
+      "indices": {
+        "N": 2,
+        "M": 2
+      }
+    },
+    {
+      "degree": 51,
+      "rank": 1,
+      "indices": {
+        "N": 1,
+        "M": 1
+      }
+    }
+  ],
+  "total_rank": 15120,
+  "dimension": 51,
+  "all_extension_indices_agree": true,
+  "seconds": 1110.06,
+  "source_sha256": {
+    "experiments/audit_e7_d4_images.py": "1dfc9cbc81593a4b26598422cae054e42bbe9e2e23c15ce5116762eb19db23b4",
+    "experiments/e7-d4-images.json": "0f2aceda1111662f4545acddc4488b70c12b71b27db0e2c2098e2f309d9b1d59",
+    "experiments/e7-d4-source-audit.json": "3199cab7c211e14f9d34dd43fa4aafa357ffa6491024158f4b1608199b9ab4f7",
+    "experiments/e7-d5-images-audit.json": "5bdc2cf43308d16ad70b6ea617095091ed6a237fc61e88909607e01e7d228508"
+  },
+  "raw_sha256": {
+    "experiments/e7-d5-images-certificates.json.gz": "996c45c3d0b4f3c8a9ff0cd36853ce614157380da1e5536ad45b767c9070c4f5",
+    "experiments/e7-d4-tower-certificates.json.gz": "d19a939295408a5dcbf2f834196f6cc85d86f5f2f029f2b8d657a226b46ba80a",
+    "experiments/e7-d4-index-certificates.jsonl.gz": "f72520a047c0b2d8cbdcf104390cbc0b64c1e8b1dd4da510c95a606c3ba6bd11"
+  }
+}

@@ -66,7 +66,7 @@ D5 cases {1,2,3,4,5}, {2,3,4,5,6}. Thus two independent all-degree
 polynomials remain in that family. Their earlier bounded-degree theorem
 remains valid; they are not settled by the present transfer argument.
 The subsequent [D5 source proof](E7_D5_REFINEMENT.md) settles the two
-D5 cases and leaves only D4 in that family.
+D5 cases; the [D4 completion](E7_D4_REFINEMENT.md) now closes the family.
 
 For the normalized minimal and adjoint Springer maps, the earlier source
 theorem gives J56,I^d=12^d M_I^d and J133,I^d=36^d N_I^d. The previously
@@ -334,7 +334,10 @@ performed do not establish a novelty claim for (1)--(2).
 
 The subsequent [D5 completion](E7_D5_REFINEMENT.md) settles both D5
 refinements using their full integral invariant source, bringing the
-totals to 111 proper E7 parabolics and 63/64 P7 refinements. D4 remains.
+totals to 111 proper E7 parabolics and 63/64 P7 refinements. The
+[D4 proof](E7_D4_REFINEMENT.md) then makes 112 proper parabolics and
+all 64 refinements; the remaining 15 proper parabolics have no degree-one
+root/weight gap and require a different formula.
 The torsion-prime fiber prevents applying the common unit-index
 argument as stated. The six-generator E6 source obstruction remains
 relevant to those routes. Other excluded E7 parabolics, ambient H/N

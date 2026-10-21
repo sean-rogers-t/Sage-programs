@@ -312,6 +312,10 @@ source and image-completeness method here is a candidate route for D4;
 no D4 all-degree claim follows from the D5 computation. Runtime/API
 version remains 0.20.0.
 
+The subsequent [D4 completion](E7_D4_REFINEMENT.md) now closes this last
+refinement case using all 34 relative module generators and an index
+comparison; it does not assume a free integral source transfer.
+
 ## Reproduction
 
 From borel/:

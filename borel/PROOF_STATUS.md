@@ -175,8 +175,37 @@ identity/Jacobian, Buchberger and image-generation audits use separate
 arithmetic implementations. E6 opposition transfers the result to the
 second D5 case. Classical inputs and unresolved priority are identified
 in the proof. The method now covers 111 proper E7 parabolics and 63/64
-P7 refinements; only D4 remains in that family. This does not classify
+P7 refinements at this stage; the D4 theorem below completes the family. This does not classify
 ambient H/N or direct-sum sources and adds no runtime API.
+
+## E7 D4 completion: all 64 P7 refinements
+
+The [D4 proof and audit](E7_D4_REFINEMENT.md) completes retained
+I={2,3,4,5}: the relative factors are all 2, with multiplicity polynomial
+q P_W(E7)/((1+q)P_W(D4)) and 7,560 factors across degrees 0..51.
+Its ten-generator full integral source is certified by an independent
+mod-2 graph/Hilbert and lattice audit. The relative source quotient over
+D5 has dimension 34, so a free rank-10 invariant-source transfer fails.
+Instead all 34 integral module generators enter a rational quadric tower.
+The reference root and weight lattices enlarge by equal indices in every
+degree, checked by PARI HNF and independently reconstructed matrices with
+native unit-pivot Smith elimination. The previously audited D5 rational
+quotient and full image bases are shared inputs, explicitly identified.
+
+Together with the P7/A6/D5 proofs, this proves
+T_I=q P_W(E7)/((1+q)P_WI) for all 64 I contained in {1,...,6}.
+The common source split and these Hilbert dimensions also imply that
+N/2N is a free quadratic algebra on (1,w) over C=image(M -> N/2N),
+with w^2=beta(B_i), choosing any omitted i in {2,5,7} and
+w=beta(omega_i). The three common complements have odd indices 7,15,3,
+and the integral quadratic lifts are checked separately. This C is not M/2M.
+The combined scope is exactly the 112 proper E7 parabolics omitting at
+least one of nodes 2,5,7. The other 15 retain all three and have N^1=M^1,
+so the same polynomial cannot extend unchanged to them. This is an exhaustive computer-assisted proof for the stated
+finite family, not a uniform theorem for arbitrary root data. Known
+Borel/invariant/Nakayama inputs and the new finite deductions are
+separated; priority, ambient H/N and a structural explanation of the
+index equality remain unresolved. No runtime API changes.
 
 ## Exceptional integral images: first complete finite tables
 
