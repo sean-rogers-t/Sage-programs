@@ -1,0 +1,46 @@
+{
+  "result": "passed",
+  "engine": "Plain Python integer multinomial expansions, sparse convolution and bit elimination; no Sage, SymPy, or project imports",
+  "basic_values": [
+    2,
+    -4,
+    88,
+    954,
+    -340,
+    55780
+  ],
+  "basic_degree_ranks": [
+    {
+      "degree": 2,
+      "rank": 1
+    },
+    {
+      "degree": 5,
+      "rank": 1
+    },
+    {
+      "degree": 6,
+      "rank": 2
+    },
+    {
+      "degree": 8,
+      "rank": 3
+    },
+    {
+      "degree": 9,
+      "rank": 2
+    },
+    {
+      "degree": 12,
+      "rank": 6
+    }
+  ],
+  "chern_invariant_degree": 16,
+  "chern_invariant_value": -696735,
+  "permutation_reflections": 6,
+  "scope": "Independent certificate for the source-ring obstruction. No assertion that the proposed all-degree image formula is false.",
+  "source_sha256": {
+    "experiments/audit_e7_refinement_obstruction.py": "1f4b04d65a54603f34ad0f287b267f5cb46414564ea5195df42c25c82f69ab17",
+    "experiments/e7-refinement-invariant-obstruction.json": "a527be19df41c5ecb7c079c276e0573e3f1ded9928a31b9d4bf7e7db78601d3a"
+  }
+}

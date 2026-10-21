@@ -51,7 +51,19 @@ def main():
     assert all(r['multiplicity_4']==r['multiplicity_8']==0 for r in e7_checks[0]['degrees'])
     assert sum(r['source_certificates']['M']['rank'] for r in e7_checks[0]['degrees'])==1967
     assert sum(r['source_certificates']['N']['rank'] for r in e7_checks[0]['degrees'])==1967
-    for check in e6_checks+e7_checks:
+    e7_refinements=[read('experiments/'+name) for name in (
+        'e7-refinement-relations.json','e7-refinement-independent.json',
+        'e7-refinement-bgg-check.json','e7-refinement-invariant-obstruction.json',
+        'e7-refinement-invariant-obstruction-audit.json')]
+    assert e7_refinements[1]['degree_bound']==9 and len(e7_refinements[1]['refinements'])==64
+    assert [r['columns'] for r in e7_refinements[0]['kernel_primitivity']]==[1,7,28,84]
+    assert all(r['columns']==r['primitive_mod2_rank'] for r in e7_refinements[0]['kernel_primitivity'])
+    assert e7_refinements[2]['degree_interval']==[0,9] and len(e7_refinements[2]['degrees'])==10
+    row=next(r for r in e7_refinements[1]['refinements'] if r['retained_nodes']==[1,3,4,5,6])
+    assert row['multiplicity_2']==[r['multiplicity_2'] for r in e7_refinements[2]['degrees']]
+    assert e7_refinements[3]['chern_invariant_value']==e7_refinements[4]['chern_invariant_value']==-696735
+    assert e7_refinements[3]['basic_values']==e7_refinements[4]['basic_values']==[2,-4,88,954,-340,55780]
+    for check in e6_checks+e7_checks+e7_refinements:
         for name,expected in check.get('source_sha256',{}).items():
             path=ROOT/name
             if not path.exists():path=ROOT/'experiments'/name
@@ -132,6 +144,13 @@ def main():
         'E6_ROOT_WEIGHT_COMPARISON.md','E6_ROOT_WEIGHT_AUDIT.md',
         'E6_REMAINING_CASES.md','E6_REMAINING_AUDIT.md','E6_REMAINING_TABLES.md',
         'E7_ROOT_WEIGHT_COMPARISON.md','E7_ROOT_WEIGHT_AUDIT.md',
+        'E7_REFINEMENT_MULTIPLICITIES.md',
+        'experiments/e7_refinement_relations.py','experiments/audit_e7_refinement_relations.py',
+        'experiments/e7_refinement_bgg_check.py','experiments/e7_refinement_invariant_obstruction.py',
+        'experiments/audit_e7_refinement_obstruction.py',
+        'experiments/e7-refinement-relations.json','experiments/e7-refinement-independent.json',
+        'experiments/e7-refinement-bgg-check.json','experiments/e7-refinement-invariant-obstruction.json',
+        'experiments/e7-refinement-invariant-obstruction-audit.json',
         'E7_REPRESENTATION_COMPARISON.md',
         'experiments/e7_two_primary_basis.py','experiments/audit_e7_two_primary_basis.py',
         'experiments/e7_two_primary_schubert_check.py','experiments/e7_two_primary_ring_check.py',
@@ -184,6 +203,9 @@ def main():
             relative_factors='Only 2; polynomial q[14]_(q2)+(q6+q10)[7]_(q2).',
             source_monomials=1967,refinement_exponent=2,refinement_count=64,
             scope='Full P7 multiplicities; exponent bound only on the other refinements. Shared Sage arithmetic in the independent source replay; separate BGG/Chevalley and plain Python structural checks.'),
+        e7_refinement_progress=dict(refinements=64,multiplicity_degree_bound=9,
+            independent_relation_constructions=2,direct_bgg_degrees=10,all_degree_unknown_base_polynomials=3,
+            source_obstruction_degree=16,scope='Uniform bounded-degree formula; no complete finer-flag multiplicity polynomial or novelty claim.'),
         hash_semantics='SHA256 after CRLF to LF normalization for text; raw bytes for .gz archives',
         audit_sha256={p.relative_to(ROOT).as_posix():digest(p) for p in sorted(set(paths))})
     (ROOT/'release-0.20-verification.json').write_text(json.dumps(report,indent=2)+'\n')

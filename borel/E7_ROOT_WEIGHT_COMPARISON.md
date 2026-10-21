@@ -323,6 +323,11 @@ the actual stable lattice splitting and the root-image lift of h^r;
 an index condition on its own is insufficient. The E7 application has
 e=1,r=2. It gives an exponent bound, not the finer-flag multiplicities.
 
+The [refinement extension](E7_REFINEMENT_MULTIPLICITIES.md) now supplies
+a uniform multiplicity formula through degree nine for all 64 cases.
+It also reduces the remaining all-degree task to three base polynomials
+and exhibits an obstruction to a polynomial common-source-basis shortcut.
+
 ## 7. Connection to the Springer maps and attribution
 
 For the normalized minimal and adjoint Springer morphisms, the earlier

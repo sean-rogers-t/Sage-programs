@@ -123,6 +123,24 @@ Totaro's general exponent bound 8 is published background; priority
 of the sharper application and explicit basis statement remains
 unestablished. Runtime and the installed wheel remain 0.20.0.
 
+## E7/P7 refinements: a uniform truncation and a source obstruction
+
+The [refinement note](E7_REFINEMENT_MULTIPLICITIES.md) proves the multiplicity
+formula [q^(d-1)] (1-q6)(1-q8)H_I(q) for every retained I in {1,...,6}
+and 0<=d<=9. The 56-weight and independent 27-form constructions yield
+primitive quadratic/sextic/octic kernel certificates in this range.
+A direct full-source BGG/Hermite/Smith calculation on the A5 refinement
+checks all ten degrees. This is a uniform bounded-degree theorem, not
+a complete finer-flag multiplicity formula.
+
+The all-degree target reduces by classical good-Levi deconvolution and
+an integral D5 symmetry to three unknown base polynomials: full flag,
+D5 and D4. A separate degree-16 Chern invariant proves that six normalized
+rational-degree E6 generators do not generate the full invariant source
+at 2. Both coefficient completeness and the witness have a plain-integer
+audit. This does not disprove an image transfer formula. Known inputs,
+precise finite scope and unresolved novelty are recorded in the note.
+
 ## Exceptional integral images: first complete finite tables
 
 The [Springer geometry extension](SPRINGER_GEOMETRY.md) concerns a separate
