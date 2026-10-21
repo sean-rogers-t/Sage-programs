@@ -1,5 +1,16 @@
 # E6: minimal and adjoint character sources have incomparable images
 
+Progress, 20 October 2026: the [sharp root-to-weight theorem](E6_ROOT_WEIGHT_COMPARISON.md)
+now proves the relative 3-primary multiplicities below and supplies a
+uniform formula for 60 proper standard parabolics, including shared-prime
+scalar comparisons. The [three-case completion](E6_REMAINING_CASES.md)
+settles the other cases, so the relative comparison now covers all 63
+proper standard parabolics. Its [tables](E6_REMAINING_TABLES.md) and
+[audit](E6_REMAINING_AUDIT.md) distinguish finite certificates from
+published ingredients; ambient H/N factors remain separate.
+The historical complete P1 table and all-Levi coprime identities below
+retain their stated scope.
+
 For simply connected E6, changing from V(omega1), dimension 27, to the
 adjoint V(omega2), dimension 78, does not give the uniform scaling found
 in G2 and F4. The full torus sources are

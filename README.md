@@ -18,6 +18,11 @@ compute the certified integral sources and their complete Borel images.
 The [E6 representation comparison](borel/E6_REPRESENTATION_COMPARISON.md)
 proves the minimal and adjoint source formulas, their all-Levi image sums
 and intersections, and records the independently checked E6/P1 tables.
+The [sharp E6 root-to-weight comparison](borel/E6_ROOT_WEIGHT_COMPARISON.md)
+and its [three-case completion](borel/E6_REMAINING_CASES.md) now determine
+the relative 3-primary image factors on all 63 proper standard parabolics,
+with [complete new tables](borel/E6_REMAINING_TABLES.md) and a separate
+[proof/source audit](borel/E6_REMAINING_AUDIT.md).
 The [E7 minimal/adjoint comparison](borel/E7_REPRESENTATION_COMPARISON.md)
 now provides the corresponding full-source proof, complete E7/P7
 comparison and independent audit.

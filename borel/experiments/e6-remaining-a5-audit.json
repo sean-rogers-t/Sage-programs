@@ -1,0 +1,370 @@
+{
+  "result": "passed",
+  "case": "A5",
+  "source_rows": [
+    {
+      "degree": 0,
+      "rank": 1,
+      "complete": true,
+      "input_sha256": "f2d917f02d749934e6ef62612abddc6701d82e54a5e9e0a9a240bee2cf16942d"
+    },
+    {
+      "degree": 1,
+      "rank": 0,
+      "complete": true,
+      "input_sha256": "73ee3028e45b90ad402449eab6152df695588a6e8c17e490d971b4aeca040eda"
+    },
+    {
+      "degree": 2,
+      "rank": 1,
+      "complete": true,
+      "input_sha256": "5f6b08f27202b321c01b48f7c181230280a4e6583b8c179ea2a0f4cbbf46abc5"
+    },
+    {
+      "degree": 3,
+      "rank": 1,
+      "complete": true,
+      "input_sha256": "3b1510292c4ce2124a827f38f3662caf861619a4754345e52737138e4131bb43"
+    },
+    {
+      "degree": 4,
+      "rank": 2,
+      "complete": true,
+      "input_sha256": "312981d2d82ed93251176924ca755bfe0b9446e943e7f6eca6e6a824a872ca64"
+    },
+    {
+      "degree": 5,
+      "rank": 2,
+      "complete": true,
+      "input_sha256": "91bce44501535a805d2a24eab7d659394a51d4bd1f1b9db2315a44d1823f9730"
+    },
+    {
+      "degree": 6,
+      "rank": 4,
+      "complete": true,
+      "input_sha256": "4bc8bf3d1439d1070b0ba0d6140e2a5e0b5d0006d08b97a0925bf0ce16349894"
+    },
+    {
+      "degree": 7,
+      "rank": 3,
+      "complete": true,
+      "input_sha256": "9ef6d6fcf5bdd87c5e4d9885451c6080283c19e6832b5160d66c8d8165a3eb8c"
+    },
+    {
+      "degree": 8,
+      "rank": 6,
+      "complete": true,
+      "input_sha256": "2a8e76eac00103c9652a1fd76119fb2b8775c567a0989360f71a59f788fc86a0"
+    },
+    {
+      "degree": 9,
+      "rank": 6,
+      "complete": true,
+      "input_sha256": "14bc8ca54a876e039ff88955874d6a2481c073643a5068829d09222f5b01ae4c"
+    },
+    {
+      "degree": 10,
+      "rank": 9,
+      "complete": true,
+      "input_sha256": "61f7c07c5c258aca323e10f7d789577d4db0b94ff017021aeefb4776a10a6c36"
+    },
+    {
+      "degree": 11,
+      "rank": 9,
+      "complete": true,
+      "input_sha256": "53b10d0b1dc42dee18d8445c61d76bab44cb4a18090432a725ab3f0418c13925"
+    },
+    {
+      "degree": 12,
+      "rank": 14,
+      "complete": true,
+      "input_sha256": "9c8faebd3fed078ca1ca80d7d2e47c76776448f98550f50b729eb101a056ce5c"
+    },
+    {
+      "degree": 13,
+      "rank": 13,
+      "complete": true,
+      "input_sha256": "ef67f9b0970f041e9c25777463b491b22171d9230ef3331f0af5891d523783ce"
+    },
+    {
+      "degree": 14,
+      "rank": 19,
+      "complete": true,
+      "input_sha256": "a7c701cdbfc294faf07c2debf5cfef14693edb309f656c9d681473f647f16b35"
+    },
+    {
+      "degree": 15,
+      "rank": 20,
+      "complete": true,
+      "input_sha256": "1eb11778d43b6a6899e167bf44c4eba77b5fbc5cfab319ed3f4420e5faaabce1"
+    },
+    {
+      "degree": 16,
+      "rank": 26,
+      "complete": true,
+      "input_sha256": "c1f4253dc91f2d8fc336b01f9bf914632d7ef935c30b462f2de1c8d0b581c550"
+    },
+    {
+      "degree": 17,
+      "rank": 27,
+      "complete": true,
+      "input_sha256": "423407e706736e556a6dd4b3afe8ccccc70793771a4b395253f9535e1af18b77"
+    },
+    {
+      "degree": 18,
+      "rank": 36,
+      "complete": true,
+      "input_sha256": "01a84a04f8c961d0dfa0fc73a47cb25dfe88320302ed00430deeb970a441fefe"
+    },
+    {
+      "degree": 19,
+      "rank": 36,
+      "complete": true,
+      "input_sha256": "7b0caeee013f84d88f24645ccfd9cab95c8e81c15d6e0653a60af32974708ddc"
+    },
+    {
+      "degree": 20,
+      "rank": 47,
+      "complete": true,
+      "input_sha256": "a249b8c03f9f26cab22a1b5b44dcb0a32008a8d029c4c445c33589d974d40e42"
+    },
+    {
+      "degree": 21,
+      "rank": 49,
+      "complete": true,
+      "input_sha256": "9dcd18a00a6ebe606fb48904bf7fe22d052766802cf0e0ae0768ab0ba07e5fb6"
+    }
+  ],
+  "degree_rows": [
+    {
+      "degree": 0,
+      "rank": 1,
+      "multiplicities": [
+        0,
+        0,
+        0
+      ],
+      "input_sha256": "0b4e2e373c446059369595173faf993a7a6fb589a77511f69ea42eec025558bc"
+    },
+    {
+      "degree": 1,
+      "rank": 1,
+      "multiplicities": [
+        0,
+        0,
+        0
+      ],
+      "input_sha256": "eac17397529c128b098b0c4902a451e6cdee96fdba79ff9c9db521c355e32e4e"
+    },
+    {
+      "degree": 2,
+      "rank": 1,
+      "multiplicities": [
+        0,
+        0,
+        0
+      ],
+      "input_sha256": "f2592b6ad0bb734e863a1f7917d0a7bd8c72b0f420c52b47a34aa3e7d3b10966"
+    },
+    {
+      "degree": 3,
+      "rank": 2,
+      "multiplicities": [
+        0,
+        0,
+        1
+      ],
+      "input_sha256": "120a5cc85b9c06594ddba3de6220a3275a3f875db46cfc0cbd899e626a6f342b"
+    },
+    {
+      "degree": 4,
+      "rank": 3,
+      "multiplicities": [
+        0,
+        0,
+        1
+      ],
+      "input_sha256": "d2efab6493220966aeb258f7f0897d893276c63258bf8272ae3717183a5824cb"
+    },
+    {
+      "degree": 5,
+      "rank": 3,
+      "multiplicities": [
+        0,
+        1,
+        0
+      ],
+      "input_sha256": "898be2413122b4724f7804aa63fe3336533444a48e37aae9a1356c08eb6cdacd"
+    },
+    {
+      "degree": 6,
+      "rank": 4,
+      "multiplicities": [
+        0,
+        2,
+        0
+      ],
+      "input_sha256": "bf331440e60ddb6e6326d3c269c6c073678a2db4fe251b81cdce8daaa7e5ee41"
+    },
+    {
+      "degree": 7,
+      "rank": 5,
+      "multiplicities": [
+        0,
+        3,
+        0
+      ],
+      "input_sha256": "a9e6bf6e11203a741aa62fdd8c33d3863f0236fcc0f511db714e94d9f88fd1ee"
+    },
+    {
+      "degree": 8,
+      "rank": 5,
+      "multiplicities": [
+        0,
+        3,
+        0
+      ],
+      "input_sha256": "c093ae12297b119661f006ae93086747ccf9ae1b3b39135d34cd43bb43202bf7"
+    },
+    {
+      "degree": 9,
+      "rank": 5,
+      "multiplicities": [
+        0,
+        3,
+        0
+      ],
+      "input_sha256": "6efa3b8ab55254dd09daa4d1faab481f8741f4c9ba7ab00ef3e4e1c158eaa3b2"
+    },
+    {
+      "degree": 10,
+      "rank": 6,
+      "multiplicities": [
+        1,
+        3,
+        0
+      ],
+      "input_sha256": "886b2128865e5bb752436fab157a09559de412c37e10620f0ced4f2ae70bff4a"
+    },
+    {
+      "degree": 11,
+      "rank": 6,
+      "multiplicities": [
+        1,
+        3,
+        0
+      ],
+      "input_sha256": "d393ce20607f2d8d4fad91153afa610271ca37d88e9adfba289e76a3f3678e6e"
+    },
+    {
+      "degree": 12,
+      "rank": 5,
+      "multiplicities": [
+        1,
+        3,
+        0
+      ],
+      "input_sha256": "ee9441f5a59e1d9b8b6a38039ac91f688d6133e1485ce7e4f4dc0e9edc7666e2"
+    },
+    {
+      "degree": 13,
+      "rank": 5,
+      "multiplicities": [
+        1,
+        3,
+        0
+      ],
+      "input_sha256": "36684c40b6761bb24b650b0f3ec8ea1b1c4cb31bf9332f4c16cee571ed30d1a8"
+    },
+    {
+      "degree": 14,
+      "rank": 5,
+      "multiplicities": [
+        1,
+        3,
+        0
+      ],
+      "input_sha256": "a7bd895aaabd3ab032a03f78af07863b6fea7c4aea9128d6b09fb3ce50b85a1f"
+    },
+    {
+      "degree": 15,
+      "rank": 4,
+      "multiplicities": [
+        1,
+        2,
+        0
+      ],
+      "input_sha256": "cf7d888fca514c755fe66ad0be98e995b064462f9101edb2ebc9b8904f30e165"
+    },
+    {
+      "degree": 16,
+      "rank": 3,
+      "multiplicities": [
+        2,
+        1,
+        0
+      ],
+      "input_sha256": "a612eb4a2f497741ed9a4e06af9525611b8f5505d158ee51da11c91a689559dd"
+    },
+    {
+      "degree": 17,
+      "rank": 3,
+      "multiplicities": [
+        2,
+        1,
+        0
+      ],
+      "input_sha256": "37ba5b38e85fb736f9aec3a6538c5ae6d00b2bad5509aca7fdf5976afbf6c978"
+    },
+    {
+      "degree": 18,
+      "rank": 2,
+      "multiplicities": [
+        1,
+        1,
+        0
+      ],
+      "input_sha256": "976ada193ca93a3050096d19bed97c0b7c8d1a9907161af1ea72160a2c6d488c"
+    },
+    {
+      "degree": 19,
+      "rank": 1,
+      "multiplicities": [
+        1,
+        0,
+        0
+      ],
+      "input_sha256": "e552998773b25bf0182cba64ea8627703638339be5742e9a657e2e4f3472940c"
+    },
+    {
+      "degree": 20,
+      "rank": 1,
+      "multiplicities": [
+        1,
+        0,
+        0
+      ],
+      "input_sha256": "271e0d5846d7f89b3be7b2a843375cae8907c0d1014ce1d86994be8b2f1dcce3"
+    },
+    {
+      "degree": 21,
+      "rank": 1,
+      "multiplicities": [
+        1,
+        0,
+        0
+      ],
+      "input_sha256": "ea464f0e5129a83563008e976be17d1011b66495caae7cf4f7c1b9363c511cca"
+    }
+  ],
+  "runtime_imported": false,
+  "main_experiment_imported": false,
+  "auditor_sha256": "a3bb9f307b8550cf6134162995ca5d421803ac30afaf9bd6b28a96c6a870805c",
+  "seconds": 0.799,
+  "source_sha256": {
+    "experiments/e6-remaining-a5.json": "6843f9d84887cbb7bcc8d7c5f7395c7f00481e45753a3951f9d6d634f5328760",
+    "experiments/audit_e6_remaining_images.py": "a3bb9f307b8550cf6134162995ca5d421803ac30afaf9bd6b28a96c6a870805c",
+    "experiments/e6-independent-rational-base.json": "789e953ae3d1630e5078cc026b6e97cdc569c9129177d0dbfe9fb562a7350c64"
+  },
+  "method": "SymPy grlex Groebner bases, independent sparse normal forms, Newton coefficient lattices, primitive lattice certificates, and independent Python local diagonalization modulo 81; Sage arithmetic is shared."
+}

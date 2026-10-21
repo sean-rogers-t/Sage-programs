@@ -55,9 +55,15 @@ SL_n/P1 factors are exactly n/gcd(n,d). The SL4 equivariant image has a
 degree-five specialization kernel Z/2, independently checked with
 integer lattices. Good primes recover the full equivariant image, and
 each graded specialization kernel is finite with primes dividing t_G e_rho.
-The next main task is a sharp bad-prime comparison
-outside this projective family; the exploratory task is a structural
-criterion for the specialization kernel.
+The sharp bad-prime benchmark is now supplied by the
+[E6 transfer theorem](../../borel/E6_ROOT_WEIGHT_COMPARISON.md) and
+[three-case completion](../../borel/E6_REMAINING_CASES.md): together they
+determine root-to-weight image factors on all 63 proper standard E6
+parabolics. The completion has 52 independently audited base degrees
+and a structural P1 extension; [the audit](../../borel/E6_REMAINING_AUDIT.md)
+separates published inputs from these deductions. General bad-prime
+structure beyond E6, ambient weight-image cokernels and a structural
+criterion for the equivariant specialization kernel remain targets.
 
 These subsequent notes update the live program. The proposal PDF remains
 the source-grounded baseline described below, rather than a claim that its

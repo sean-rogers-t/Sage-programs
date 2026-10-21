@@ -21,6 +21,7 @@ the mathematical guide for the Borel/Springer construction.
 | Can I get the B/D Smith factors without a matrix? | [Fast orthogonal formula API](ORTHOGONAL_API.md) |
 | What is already known about integral Springer images? | [Literature and normalization audit](INTEGRAL_LITERATURE.md) |
 | Which primes can obstruct a full literal Springer–Borel image? | [Local bound, all-Levi proof and defining SL_n projective factors](LOCAL_IMAGE_BOUND.md) |
+| Can the E6 root-to-weight factors be determined sharply? | [60-case transfer theorem](E6_ROOT_WEIGHT_COMPARISON.md) and [three-case completion](E6_REMAINING_CASES.md) cover all 63 proper parabolics; [tables](E6_REMAINING_TABLES.md), [completion audit](E6_REMAINING_AUDIT.md) |
 | Does an equivariant image always specialize faithfully? | [SL4/P1 counterexample and independent integer-lattice checks](EQUIVARIANT_IMAGE_PILOT.md) |
 | Which claims are published, deductions here, or conjectures? | [Proof and literature status](PROOF_STATUS.md) |
 | What general Smith-factor formulas can be proved in types B and D? | [Orthogonal formulas and proofs](ORTHOGONAL_SMITH.md) |

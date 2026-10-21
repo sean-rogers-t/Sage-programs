@@ -62,6 +62,36 @@ The integral proof and independent Sage/SymPy rank-52 lattice calculations
 agree. Higher-degree defects and a general equivariant backend remain open.
 Runtime sources and the 0.20.0 wheel are unchanged.
 
+## Sharp E6 root-to-weight comparison
+
+Update, 20 October 2026. The [comparison theorem](E6_ROOT_WEIGHT_COMPARISON.md)
+and [stepwise audit](E6_ROOT_WEIGHT_AUDIT.md), together with the
+[three-case completion](E6_REMAINING_CASES.md) and its
+[audit](E6_REMAINING_AUDIT.md), prove exact 3-primary factors for all 63
+proper standard E6 parabolics. The Cayley-plane image
+has a complete local source-monomial basis. A common relative Schubert
+basis transfers its factors to finer flags; at a good adjoint Levi,
+Leray--Hirsch deconvolves full-flag multiplicities by the Levi length
+polynomial, covering 60 cases. The three retained sets containing
+{1,3,5,6} use a different proof: an A5+A1 subsystem at 3 and full
+source coefficient lattices. The two base cases have 52 independently
+audited degrees in total; the third follows from a common (1,z) basis.
+The [complete tables](E6_REMAINING_TABLES.md) include all three cases.
+
+The ring presentation and characteristic-map framework are published
+inputs. Totaro's adjoint torsion index already implies the uniform
+exponent bound 27 and the full-flag top-degree ratio 9. The exact
+all-degree multiplicity formulas and their all-parabolic application
+are deductions recorded here; no literature-priority claim is made.
+An independent Python/SymPy implementation reconstructs the base
+lattices, BGG coefficients, Levi Weyl polynomials and deconvolutions;
+additional direct BGG checks test other flags. The completion independently
+reconstructs the rational quotient and every source/image column, and has
+20 further direct BGG degree/case checks. Sage exact arithmetic is shared
+in this replay; the structural and literal-weight checks use plain
+Python/SymPy. These are computer-assisted deductions, not an ambient H/N
+classification. Runtime remains 0.20.0.
+
 ## Exceptional integral images: first complete finite tables
 
 The [Springer geometry extension](SPRINGER_GEOMETRY.md) concerns a separate

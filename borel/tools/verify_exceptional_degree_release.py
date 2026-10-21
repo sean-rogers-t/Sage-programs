@@ -11,7 +11,8 @@ ROOT=Path(__file__).resolve().parents[1]
 
 
 def digest(path):
-    return sha256(path.read_bytes().replace(b'\r\n',b'\n')).hexdigest()
+    raw=path.read_bytes()
+    return sha256(raw if path.suffix=='.gz' else raw.replace(b'\r\n',b'\n')).hexdigest()
 
 
 def read(name):
@@ -29,6 +30,23 @@ def main():
     docs=read('documentation-verification.json')
     wheel=read('geometry-wheel-verification.json')
     geometry=read('experiments/exceptional-degree-geometry.json')
+    e6_checks=[read('experiments/'+name) for name in (
+        'e6-remaining-a5.json','e6-remaining-a2a2a1.json',
+        'e6-remaining-a5-audit.json','e6-remaining-a2a2a1-audit.json',
+        'e6-remaining-bgg-check.json','e6-remaining-structure.json',
+        'e6-independent-rational-base.json')]
+    assert len(e6_checks[2]['degree_rows'])==len(e6_checks[2]['source_rows'])==22
+    assert len(e6_checks[3]['degree_rows'])==len(e6_checks[3]['source_rows'])==30
+    assert len(e6_checks[4]['cases'])==20
+    for check in e6_checks:
+        for name,expected in check.get('source_sha256',{}).items():
+            path=ROOT/name
+            if not path.exists():path=ROOT/'experiments'/name
+            assert digest(path)==expected,name
+        for name,expected in check.get('raw_sha256',{}).items():
+            assert sha256((ROOT/name).read_bytes()).hexdigest()==expected,name
+        if 'certificate_archive' in check:
+            assert sha256((ROOT/check['certificate_archive']).read_bytes()).hexdigest()==check['certificate_archive_sha256']
     assert regression['version']==wheel['version']==version=='0.20.0'
     for name,expected in regression['source_sha256'].items():
         assert digest(ROOT/name)==expected,name
@@ -98,6 +116,24 @@ def main():
         'README.md','../README.md','E6_GEOMETRY.md','E7_GEOMETRY.md',
         'RESEARCH_LEDGER.md','AGENTS.md',
         'LOCAL_IMAGE_BOUND.md','EQUIVARIANT_IMAGE_PILOT.md','LOCAL_IMAGE_AUDIT.md',
+        'E6_ROOT_WEIGHT_COMPARISON.md','E6_ROOT_WEIGHT_AUDIT.md',
+        'E6_REMAINING_CASES.md','E6_REMAINING_AUDIT.md','E6_REMAINING_TABLES.md',
+        'experiments/e6_remaining_images.py','experiments/audit_e6_remaining_images.py',
+        'experiments/build_e6_independent_base.py','experiments/e6_remaining_structure_check.py',
+        'experiments/e6_remaining_bgg_check.py','experiments/package_e6_remaining.py',
+        'experiments/summarize_e6_remaining.py',
+        'experiments/e6-independent-rational-base.json','experiments/e6-remaining-structure.json',
+        'experiments/e6-remaining-a5.json','experiments/e6-remaining-a2a2a1.json',
+        'experiments/e6-remaining-a2a2a1-certificates.json.gz',
+        'experiments/e6-remaining-a5-audit.json','experiments/e6-remaining-a2a2a1-audit.json',
+        'experiments/e6-remaining-bgg-check.json',
+        'E6_REPRESENTATION_COMPARISON.md',
+        'experiments/e6_root_weight_comparison.py',
+        'experiments/verify_e6_root_weight_independent.py',
+        'experiments/e6_root_weight_refinement_check.py',
+        'experiments/e6-root-weight-comparison.json',
+        'experiments/e6-root-weight-independent.json',
+        'experiments/e6-root-weight-refinements.json',
         'experiments/local_image_equivariant_pilot.py',
         'experiments/verify_local_image_independent.py',
         'experiments/local-image-equivariant-pilot.json',
@@ -119,7 +155,11 @@ def main():
         regression_tests=regression['test_methods_run'],documentation_examples=docs['python_blocks_executed'],
         local_links_and_anchors=docs['local_links_and_anchors_checked'],isolated_wheel_tests=wheel['tests'],
         wheel_sha256=wheel['wheel_sha256'],wheel_sources_and_data_match=True,
-        hash_semantics='SHA256 after CRLF to LF normalization',
+        e6_root_weight_completion=dict(proper_parabolics=63,previous_transfer_family=60,
+            new_base_degrees_independently_audited=52,direct_bgg_degree_cases=20,
+            third_case='Proved common (1,z) basis; multiplicity polynomials multiplied by 1+q.',
+            scope='Relative root/weight image factors; ambient H/N and literature priority are separate.'),
+        hash_semantics='SHA256 after CRLF to LF normalization for text; raw bytes for .gz archives',
         audit_sha256={p.relative_to(ROOT).as_posix():digest(p) for p in sorted(set(paths))})
     (ROOT/'release-0.20-verification.json').write_text(json.dumps(report,indent=2)+'\n')
     print(json.dumps({k:v for k,v in report.items() if k!='audit_sha256'},indent=2))

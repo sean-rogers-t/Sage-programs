@@ -1,0 +1,215 @@
+{
+  "result": "passed",
+  "cases": [
+    {
+      "case": "A5",
+      "degree": 0,
+      "rank": 1,
+      "multiplicities": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "case": "A5",
+      "degree": 1,
+      "rank": 1,
+      "multiplicities": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "case": "A5",
+      "degree": 2,
+      "rank": 1,
+      "multiplicities": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "case": "A5",
+      "degree": 3,
+      "rank": 2,
+      "multiplicities": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "case": "A5",
+      "degree": 4,
+      "rank": 3,
+      "multiplicities": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "case": "A5",
+      "degree": 5,
+      "rank": 3,
+      "multiplicities": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "case": "A5",
+      "degree": 6,
+      "rank": 4,
+      "multiplicities": [
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "case": "A2A2A1",
+      "degree": 0,
+      "rank": 1,
+      "multiplicities": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "case": "A2A2A1",
+      "degree": 1,
+      "rank": 1,
+      "multiplicities": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "case": "A2A2A1",
+      "degree": 2,
+      "rank": 3,
+      "multiplicities": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "case": "A2A2A1",
+      "degree": 3,
+      "rank": 5,
+      "multiplicities": [
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "case": "A2A2A1",
+      "degree": 4,
+      "rank": 8,
+      "multiplicities": [
+        3,
+        1,
+        0
+      ]
+    },
+    {
+      "case": "A2A2A1",
+      "degree": 5,
+      "rank": 11,
+      "multiplicities": [
+        4,
+        3,
+        0
+      ]
+    },
+    {
+      "case": "A2A2A1",
+      "degree": 6,
+      "rank": 17,
+      "multiplicities": [
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "case": "A2A2",
+      "degree": 0,
+      "rank": 1,
+      "multiplicities": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "case": "A2A2",
+      "degree": 1,
+      "rank": 2,
+      "multiplicities": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "case": "A2A2",
+      "degree": 2,
+      "rank": 4,
+      "multiplicities": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "case": "A2A2",
+      "degree": 3,
+      "rank": 8,
+      "multiplicities": [
+        3,
+        0,
+        1
+      ]
+    },
+    {
+      "case": "A2A2",
+      "degree": 4,
+      "rank": 13,
+      "multiplicities": [
+        5,
+        1,
+        1
+      ]
+    },
+    {
+      "case": "A2A2",
+      "degree": 5,
+      "rank": 19,
+      "multiplicities": [
+        7,
+        4,
+        0
+      ]
+    }
+  ],
+  "seconds": 13.221,
+  "raw_sha256": {
+    "experiments/e6-remaining-a2a2a1-certificates.json.gz": "e32912c267d0e0a614915dad64c9d67fe3b77813e18bb8e0278bb5653d473154"
+  },
+  "scope": "20 direct low-degree BGG comparisons across all three remaining parabolics, not all degrees.",
+  "source_sha256": {
+    "experiments/e6_remaining_bgg_check.py": "dbcfdee5fae922fd46da091cea19109a8620df8c95e5d29455eddb153220e524",
+    "experiments/e6-remaining-a5.json": "6843f9d84887cbb7bcc8d7c5f7395c7f00481e45753a3951f9d6d634f5328760",
+    "experiments/e6-remaining-a2a2a1.json": "f5b746d3b52fed049bfe3853c1d5f30190902c20ac711672554879a3dc56815e"
+  }
+}
