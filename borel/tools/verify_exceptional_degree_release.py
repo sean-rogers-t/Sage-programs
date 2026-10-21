@@ -38,7 +38,20 @@ def main():
     assert len(e6_checks[2]['degree_rows'])==len(e6_checks[2]['source_rows'])==22
     assert len(e6_checks[3]['degree_rows'])==len(e6_checks[3]['source_rows'])==30
     assert len(e6_checks[4]['cases'])==20
-    for check in e6_checks:
+    e7_checks=[read('experiments/'+name) for name in (
+        'e7-two-primary-basis.json','e7-two-primary-basis-audit.json',
+        'e7-two-primary-schubert-check.json','e7-two-primary-ring-check.json')]
+    assert len(e7_checks[0]['degrees'])==len(e7_checks[1]['degrees'])==28
+    assert e7_checks[2]['fresh_bgg_generators']==7 and e7_checks[2]['total_basis_classes']==56
+    assert e7_checks[3]['ring_identities']==6 and e7_checks[3]['total_relative_factors_2']==28
+    coefficients=e7_checks[3]['multiplicity_coefficients']
+    assert [r['multiplicity_2'] for r in e7_checks[0]['degrees']]==coefficients
+    assert [r['multiplicity_2'] for r in e7_checks[1]['degrees']]==coefficients
+    assert sum(coefficients)==28
+    assert all(r['multiplicity_4']==r['multiplicity_8']==0 for r in e7_checks[0]['degrees'])
+    assert sum(r['source_certificates']['M']['rank'] for r in e7_checks[0]['degrees'])==1967
+    assert sum(r['source_certificates']['N']['rank'] for r in e7_checks[0]['degrees'])==1967
+    for check in e6_checks+e7_checks:
         for name,expected in check.get('source_sha256',{}).items():
             path=ROOT/name
             if not path.exists():path=ROOT/'experiments'/name
@@ -118,6 +131,14 @@ def main():
         'LOCAL_IMAGE_BOUND.md','EQUIVARIANT_IMAGE_PILOT.md','LOCAL_IMAGE_AUDIT.md',
         'E6_ROOT_WEIGHT_COMPARISON.md','E6_ROOT_WEIGHT_AUDIT.md',
         'E6_REMAINING_CASES.md','E6_REMAINING_AUDIT.md','E6_REMAINING_TABLES.md',
+        'E7_ROOT_WEIGHT_COMPARISON.md','E7_ROOT_WEIGHT_AUDIT.md',
+        'E7_REPRESENTATION_COMPARISON.md',
+        'experiments/e7_two_primary_basis.py','experiments/audit_e7_two_primary_basis.py',
+        'experiments/e7_two_primary_schubert_check.py','experiments/e7_two_primary_ring_check.py',
+        'experiments/e7-two-primary-basis.json','experiments/e7-two-primary-basis-audit.json',
+        'experiments/e7-two-primary-schubert-check.json','experiments/e7-two-primary-ring-check.json',
+        'experiments/e7-character-form-results.json','experiments/e7-adjoint-comparison-results.json',
+        'tests/test_exceptional.py',
         'experiments/e6_remaining_images.py','experiments/audit_e6_remaining_images.py',
         'experiments/build_e6_independent_base.py','experiments/e6_remaining_structure_check.py',
         'experiments/e6_remaining_bgg_check.py','experiments/package_e6_remaining.py',
@@ -159,6 +180,10 @@ def main():
             new_base_degrees_independently_audited=52,direct_bgg_degree_cases=20,
             third_case='Proved common (1,z) basis; multiplicity polynomials multiplied by 1+q.',
             scope='Relative root/weight image factors; ambient H/N and literature priority are separate.'),
+        e7_root_weight_basis=dict(parabolic='E7/P7',basis_elements=56,full_sources=2,all_degrees=28,
+            relative_factors='Only 2; polynomial q[14]_(q2)+(q6+q10)[7]_(q2).',
+            source_monomials=1967,refinement_exponent=2,refinement_count=64,
+            scope='Full P7 multiplicities; exponent bound only on the other refinements. Shared Sage arithmetic in the independent source replay; separate BGG/Chevalley and plain Python structural checks.'),
         hash_semantics='SHA256 after CRLF to LF normalization for text; raw bytes for .gz archives',
         audit_sha256={p.relative_to(ROOT).as_posix():digest(p) for p in sorted(set(paths))})
     (ROOT/'release-0.20-verification.json').write_text(json.dumps(report,indent=2)+'\n')

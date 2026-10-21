@@ -61,7 +61,12 @@ The sharp bad-prime benchmark is now supplied by the
 determine root-to-weight image factors on all 63 proper standard E6
 parabolics. The completion has 52 independently audited base degrees
 and a structural P1 extension; [the audit](../../borel/E6_REMAINING_AUDIT.md)
-separates published inputs from these deductions. General bad-prime
+separates published inputs from these deductions. The
+[E7/P7 basis theorem](../../borel/E7_ROOT_WEIGHT_COMPARISON.md) then gives
+a closed 2-primary multiplicity polynomial and a structural exponent-2
+bound on all 64 refinements of P7. It uses a stable common complement
+and a root quadratic lift; it does not yet give finer-flag multiplicities.
+General bad-prime
 structure beyond E6, ambient weight-image cokernels and a structural
 criterion for the equivariant specialization kernel remain targets.
 

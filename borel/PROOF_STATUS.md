@@ -92,6 +92,37 @@ in this replay; the structural and literal-weight checks use plain
 Python/SymPy. These are computer-assisted deductions, not an ambient H/N
 classification. Runtime remains 0.20.0.
 
+## E7/P7 simultaneous bases and the refinement exponent
+
+Update, 20 October 2026. The [2-primary comparison](E7_ROOT_WEIGHT_COMPARISON.md)
+and [audit](E7_ROOT_WEIGHT_AUDIT.md) identify the full local images as
+N=R[h,2s,2t] and M=R[2h,h2,2s,2t], with R=Z_(2). A common 56-element
+basis consists of h^i for i<=27 and h^i(2s),h^i(2t) for i<=13;
+the root image doubles exactly the elements with odd h exponent.
+Thus N^d/M^d is elementary 2-primary, with multiplicity polynomial
+q[14]_(q2)+(q6+q10)[7]_(q2). The old finite tables already recorded
+these factors; the extension is their explicit basis proof.
+
+The candidate-ring basis and its closure follow by explicit identities
+in Duan--Zhao's published integral ring. Four root-invariant lifts give
+the candidate generators. The full-image identification is a finite
+computer-assisted step: both complete invariant sources are freshly
+certified in all 28 degrees, retaining the rational kernel before
+integrality and image formation. An independent Girard/SymPy/bit-elimination
+replay checks every source and image column; Sage exact arithmetic is
+shared in that replay. Fresh BGG checks verify all seven generators,
+and Chevalley multiplication checks all 56 basis classes. A plain
+Python/SymPy check separately verifies lattice and ring identities.
+
+An index-3 common E6 complement at 2, with omega7 fixed and a root
+quadratic lifting h2, gives N_I=M_I+hM_I and hence 2N_I contained in M_I
+for all 64 retained subsets I of {1,...,6}. This is a structural
+adjoining-generator deduction, not an application of a non-torsion
+Levi-fiber theorem. It supplies no multiplicities on those finer flags.
+Totaro's general exponent bound 8 is published background; priority
+of the sharper application and explicit basis statement remains
+unestablished. Runtime and the installed wheel remain 0.20.0.
+
 ## Exceptional integral images: first complete finite tables
 
 The [Springer geometry extension](SPRINGER_GEOMETRY.md) concerns a separate

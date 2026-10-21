@@ -1,0 +1,188 @@
+{
+  "result": "passed",
+  "degrees": [
+    {
+      "degree": 0,
+      "rank": 1,
+      "multiplicity_2": 0,
+      "full_sources_checked": 2
+    },
+    {
+      "degree": 1,
+      "rank": 1,
+      "multiplicity_2": 1,
+      "full_sources_checked": 2
+    },
+    {
+      "degree": 2,
+      "rank": 1,
+      "multiplicity_2": 0,
+      "full_sources_checked": 2
+    },
+    {
+      "degree": 3,
+      "rank": 1,
+      "multiplicity_2": 1,
+      "full_sources_checked": 2
+    },
+    {
+      "degree": 4,
+      "rank": 1,
+      "multiplicity_2": 0,
+      "full_sources_checked": 2
+    },
+    {
+      "degree": 5,
+      "rank": 2,
+      "multiplicity_2": 1,
+      "full_sources_checked": 2
+    },
+    {
+      "degree": 6,
+      "rank": 2,
+      "multiplicity_2": 1,
+      "full_sources_checked": 2
+    },
+    {
+      "degree": 7,
+      "rank": 2,
+      "multiplicity_2": 1,
+      "full_sources_checked": 2
+    },
+    {
+      "degree": 8,
+      "rank": 2,
+      "multiplicity_2": 1,
+      "full_sources_checked": 2
+    },
+    {
+      "degree": 9,
+      "rank": 3,
+      "multiplicity_2": 1,
+      "full_sources_checked": 2
+    },
+    {
+      "degree": 10,
+      "rank": 3,
+      "multiplicity_2": 2,
+      "full_sources_checked": 2
+    },
+    {
+      "degree": 11,
+      "rank": 3,
+      "multiplicity_2": 1,
+      "full_sources_checked": 2
+    },
+    {
+      "degree": 12,
+      "rank": 3,
+      "multiplicity_2": 2,
+      "full_sources_checked": 2
+    },
+    {
+      "degree": 13,
+      "rank": 3,
+      "multiplicity_2": 1,
+      "full_sources_checked": 2
+    },
+    {
+      "degree": 14,
+      "rank": 3,
+      "multiplicity_2": 2,
+      "full_sources_checked": 2
+    },
+    {
+      "degree": 15,
+      "rank": 3,
+      "multiplicity_2": 1,
+      "full_sources_checked": 2
+    },
+    {
+      "degree": 16,
+      "rank": 3,
+      "multiplicity_2": 2,
+      "full_sources_checked": 2
+    },
+    {
+      "degree": 17,
+      "rank": 3,
+      "multiplicity_2": 1,
+      "full_sources_checked": 2
+    },
+    {
+      "degree": 18,
+      "rank": 3,
+      "multiplicity_2": 2,
+      "full_sources_checked": 2
+    },
+    {
+      "degree": 19,
+      "rank": 2,
+      "multiplicity_2": 1,
+      "full_sources_checked": 2
+    },
+    {
+      "degree": 20,
+      "rank": 2,
+      "multiplicity_2": 1,
+      "full_sources_checked": 2
+    },
+    {
+      "degree": 21,
+      "rank": 2,
+      "multiplicity_2": 1,
+      "full_sources_checked": 2
+    },
+    {
+      "degree": 22,
+      "rank": 2,
+      "multiplicity_2": 1,
+      "full_sources_checked": 2
+    },
+    {
+      "degree": 23,
+      "rank": 1,
+      "multiplicity_2": 1,
+      "full_sources_checked": 2
+    },
+    {
+      "degree": 24,
+      "rank": 1,
+      "multiplicity_2": 0,
+      "full_sources_checked": 2
+    },
+    {
+      "degree": 25,
+      "rank": 1,
+      "multiplicity_2": 1,
+      "full_sources_checked": 2
+    },
+    {
+      "degree": 26,
+      "rank": 1,
+      "multiplicity_2": 0,
+      "full_sources_checked": 2
+    },
+    {
+      "degree": 27,
+      "rank": 1,
+      "multiplicity_2": 1,
+      "full_sources_checked": 2
+    }
+  ],
+  "root_complement_index": 3,
+  "weight_complement_index": 3,
+  "explicit_source_lifts_checked": 4,
+  "refinement_exponent_bound": 2,
+  "refinement_count": 64,
+  "no_runtime_import": true,
+  "no_main_experiment_import": true,
+  "seconds": 68.01,
+  "method": "Closed Girard sums; SymPy grlex and separate sparse normal forms; Python bit elimination; Sage exact polynomial/matrix products shared.",
+  "source_sha256": {
+    "experiments/audit_e7_two_primary_basis.py": "2ed57d754c7348e39fd1cae0651c626d889c90e13d501b753332b4bc1bed3add",
+    "experiments/e7-two-primary-basis.json": "d21ff928da43b240fe8ed374c3155cc5e09eb218c4f048c26706afbbd74f10df",
+    "experiments/e7-character-form-results.json": "3ca87b95bedb7990b209e6d4094f4364862a334c34449c6e5969b7f41a45cf4d",
+    "experiments/e7-adjoint-comparison-results.json": "78b6cc538883ec7537aef4edc13d0a16efe406433afa73d105598ecd047301dd"
+  }
+}

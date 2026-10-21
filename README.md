@@ -26,6 +26,9 @@ with [complete new tables](borel/E6_REMAINING_TABLES.md) and a separate
 The [E7 minimal/adjoint comparison](borel/E7_REPRESENTATION_COMPARISON.md)
 now provides the corresponding full-source proof, complete E7/P7
 comparison and independent audit.
+The [E7/P7 root-to-weight basis theorem](borel/E7_ROOT_WEIGHT_COMPARISON.md)
+explains all its relative 2-primary factors and proves exponent 2 for
+all 64 refinements of P7, with a separate [audit](borel/E7_ROOT_WEIGHT_AUDIT.md).
 The [general trace-source theorem](borel/TRACE_SOURCE_THEOREM.md) now
 proves degree-one generation for every supported normalized representation
 map, with a 59-case independent weight/lattice audit and a public certificate.
