@@ -3,7 +3,7 @@
 All coordinates use the simply connected weight lattice. No Borel quotient
 is taken: positive-degree Weyl invariants are retained here.
 """
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 
 from sage.all import (PolynomialRing, QQ, ZZ, RootSystem, WeylCharacterRing,
                       matrix, prod, vector)
@@ -120,21 +120,33 @@ class AdjointQuotient:
     degrees: tuple
     torus_pullbacks: tuple
     character_polynomials: tuple
+    degree_certificate: object = None
+    _degree_binding: tuple = field(default=(),repr=False,compare=False)
 
     def character_jacobian(self):
         """Jacobian in quotient coordinates chi_i, distinct from d theta."""
         xs = self.character_polynomials[0].parent().gens()
         return matrix([[f.derivative(x) for x in xs] for f in self.character_polynomials])
 
-    def generic_degree(self, *, max_rank=2):
-        """Exact generic fiber length over QQ(a_1,...,a_rank).
+    def generic_degree(self, *, max_rank=2, algorithm='auto'):
+        """Exact characteristic-zero generic degree.
 
-        Uses Groebner bases over a rational function field, rather than a
-        specialized fiber or a numerical root count. The rank guard bounds
-        scope, not running time; high-rank elimination may be impractical.
+        Packaged E6/E7 maps use their bound toric-intersection certificate.
+        Otherwise compute a Groebner basis over a rational function field.
+        Set algorithm='elimination' to force that computation; max_rank then
+        bounds scope, not running time. Specialized fibers are never used
+        as a substitute for a characteristic-zero generic-degree proof.
         """
+        if algorithm not in ('auto','elimination'):
+            raise ValueError("algorithm must be 'auto' or 'elimination'")
+        budget=_integer(max_rank,"max_rank",1)
+        if algorithm=='auto' and self.degree_certificate is not None:
+            if self._degree_binding!=(self.invariants,self.degrees,self.character_polynomials):
+                raise ValueError("degree certificate is not bound to these coordinates; "
+                                 "use algorithm='elimination' for a modified map")
+            return self.degree_certificate.degree
         n = len(self.invariants)
-        if n > _integer(max_rank, "max_rank", 1):
+        if n > budget:
             raise ValueError("rank budget exceeded; raise max_rank explicitly")
         K = PolynomialRing(QQ, n, names=["a%d" % (i+1) for i in range(n)]).fraction_field()
         R = PolynomialRing(K, n, names=["x%d" % (i+1) for i in range(n)])

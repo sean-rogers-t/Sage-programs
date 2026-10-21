@@ -1,0 +1,59 @@
+{
+  "result": "passed",
+  "coefficient_ring": "Z_(2)",
+  "retained_nodes": [],
+  "degrees": [
+    {
+      "degree": 10,
+      "coefficient_rows": 5005,
+      "kernel_rank": 210,
+      "saturation_rounds": 0,
+      "saturation_index_valuation": 0,
+      "odd_relation_rank": 62,
+      "multiplicity_2": 1940,
+      "half_poincare_prediction": 1940,
+      "prediction_agrees": true
+    },
+    {
+      "degree": 11,
+      "coefficient_rows": 7371,
+      "kernel_rank": 462,
+      "saturation_rounds": 1,
+      "saturation_index_valuation": 1,
+      "odd_relation_rank": 148,
+      "multiplicity_2": 2855,
+      "half_poincare_prediction": 2855,
+      "prediction_agrees": true
+    },
+    {
+      "degree": 12,
+      "coefficient_rows": 10556,
+      "kernel_rank": 924,
+      "saturation_rounds": 1,
+      "saturation_index_valuation": 8,
+      "odd_relation_rank": 314,
+      "multiplicity_2": 4054,
+      "half_poincare_prediction": 4054,
+      "prediction_agrees": true
+    },
+    {
+      "degree": 13,
+      "coefficient_rows": 14756,
+      "kernel_rank": 1716,
+      "saturation_rounds": 1,
+      "saturation_index_valuation": 35,
+      "odd_relation_rank": 610,
+      "multiplicity_2": 5578,
+      "half_poincare_prediction": 5578,
+      "prediction_agrees": true
+    }
+  ],
+  "seconds": 152.698,
+  "certificate_archive": "experiments/e7-full-flag-kernel-certificates.json.gz",
+  "certificate_archive_sha256": "6f870ee628bf72704fefad772c00322569950a7f19773684b1dde800ed6cba4e",
+  "scope": "Exact full-flag relative image multiplicities only in the recorded degrees. Agreement with q P_W/(1+q) is evidence, not an all-degree theorem.",
+  "source_sha256": {
+    "experiments/e7_full_flag_kernel.py": "c45140aa3d176d34ebc63b9faf638c6fdae192f8a2ff23bf31bf38cbbb8ee8a3",
+    "experiments/e7-refinement-relations.json": "b50bf42c1da2a0e1727639c20c0db8b0daa6e407dd83bbaa8609c59f8967e1a9"
+  }
+}

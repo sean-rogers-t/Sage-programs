@@ -1,0 +1,597 @@
+{
+  "result": "passed",
+  "retained_nodes": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "dimension": 51,
+  "total_rank": 15120,
+  "degrees": [
+    {
+      "degree": 0,
+      "rank": 1,
+      "indices": {
+        "N": 0,
+        "M": 0
+      },
+      "reference_multiplicity": 0,
+      "multiplicity_2": 0,
+      "prediction_agrees": true
+    },
+    {
+      "degree": 1,
+      "rank": 3,
+      "indices": {
+        "N": 0,
+        "M": 0
+      },
+      "reference_multiplicity": 1,
+      "multiplicity_2": 1,
+      "prediction_agrees": true
+    },
+    {
+      "degree": 2,
+      "rank": 6,
+      "indices": {
+        "N": 0,
+        "M": 0
+      },
+      "reference_multiplicity": 2,
+      "multiplicity_2": 2,
+      "prediction_agrees": true
+    },
+    {
+      "degree": 3,
+      "rank": 10,
+      "indices": {
+        "N": 0,
+        "M": 0
+      },
+      "reference_multiplicity": 4,
+      "multiplicity_2": 4,
+      "prediction_agrees": true
+    },
+    {
+      "degree": 4,
+      "rank": 17,
+      "indices": {
+        "N": 1,
+        "M": 1
+      },
+      "reference_multiplicity": 6,
+      "multiplicity_2": 6,
+      "prediction_agrees": true
+    },
+    {
+      "degree": 5,
+      "rank": 27,
+      "indices": {
+        "N": 3,
+        "M": 3
+      },
+      "reference_multiplicity": 11,
+      "multiplicity_2": 11,
+      "prediction_agrees": true
+    },
+    {
+      "degree": 6,
+      "rank": 40,
+      "indices": {
+        "N": 6,
+        "M": 6
+      },
+      "reference_multiplicity": 16,
+      "multiplicity_2": 16,
+      "prediction_agrees": true
+    },
+    {
+      "degree": 7,
+      "rank": 56,
+      "indices": {
+        "N": 10,
+        "M": 10
+      },
+      "reference_multiplicity": 24,
+      "multiplicity_2": 24,
+      "prediction_agrees": true
+    },
+    {
+      "degree": 8,
+      "rank": 77,
+      "indices": {
+        "N": 18,
+        "M": 18
+      },
+      "reference_multiplicity": 32,
+      "multiplicity_2": 32,
+      "prediction_agrees": true
+    },
+    {
+      "degree": 9,
+      "rank": 103,
+      "indices": {
+        "N": 29,
+        "M": 29
+      },
+      "reference_multiplicity": 45,
+      "multiplicity_2": 45,
+      "prediction_agrees": true
+    },
+    {
+      "degree": 10,
+      "rank": 133,
+      "indices": {
+        "N": 42,
+        "M": 42
+      },
+      "reference_multiplicity": 58,
+      "multiplicity_2": 58,
+      "prediction_agrees": true
+    },
+    {
+      "degree": 11,
+      "rank": 167,
+      "indices": {
+        "N": 57,
+        "M": 57
+      },
+      "reference_multiplicity": 75,
+      "multiplicity_2": 75,
+      "prediction_agrees": true
+    },
+    {
+      "degree": 12,
+      "rank": 206,
+      "indices": {
+        "N": 75,
+        "M": 75
+      },
+      "reference_multiplicity": 92,
+      "multiplicity_2": 92,
+      "prediction_agrees": true
+    },
+    {
+      "degree": 13,
+      "rank": 250,
+      "indices": {
+        "N": 97,
+        "M": 97
+      },
+      "reference_multiplicity": 114,
+      "multiplicity_2": 114,
+      "prediction_agrees": true
+    },
+    {
+      "degree": 14,
+      "rank": 296,
+      "indices": {
+        "N": 121,
+        "M": 121
+      },
+      "reference_multiplicity": 136,
+      "multiplicity_2": 136,
+      "prediction_agrees": true
+    },
+    {
+      "degree": 15,
+      "rank": 344,
+      "indices": {
+        "N": 147,
+        "M": 147
+      },
+      "reference_multiplicity": 160,
+      "multiplicity_2": 160,
+      "prediction_agrees": true
+    },
+    {
+      "degree": 16,
+      "rank": 394,
+      "indices": {
+        "N": 176,
+        "M": 176
+      },
+      "reference_multiplicity": 184,
+      "multiplicity_2": 184,
+      "prediction_agrees": true
+    },
+    {
+      "degree": 17,
+      "rank": 446,
+      "indices": {
+        "N": 208,
+        "M": 208
+      },
+      "reference_multiplicity": 210,
+      "multiplicity_2": 210,
+      "prediction_agrees": true
+    },
+    {
+      "degree": 18,
+      "rank": 495,
+      "indices": {
+        "N": 239,
+        "M": 239
+      },
+      "reference_multiplicity": 236,
+      "multiplicity_2": 236,
+      "prediction_agrees": true
+    },
+    {
+      "degree": 19,
+      "rank": 541,
+      "indices": {
+        "N": 270,
+        "M": 270
+      },
+      "reference_multiplicity": 259,
+      "multiplicity_2": 259,
+      "prediction_agrees": true
+    },
+    {
+      "degree": 20,
+      "rank": 584,
+      "indices": {
+        "N": 300,
+        "M": 300
+      },
+      "reference_multiplicity": 282,
+      "multiplicity_2": 282,
+      "prediction_agrees": true
+    },
+    {
+      "degree": 21,
+      "rank": 624,
+      "indices": {
+        "N": 330,
+        "M": 330
+      },
+      "reference_multiplicity": 302,
+      "multiplicity_2": 302,
+      "prediction_agrees": true
+    },
+    {
+      "degree": 22,
+      "rank": 656,
+      "indices": {
+        "N": 355,
+        "M": 355
+      },
+      "reference_multiplicity": 322,
+      "multiplicity_2": 322,
+      "prediction_agrees": true
+    },
+    {
+      "degree": 23,
+      "rank": 680,
+      "indices": {
+        "N": 376,
+        "M": 376
+      },
+      "reference_multiplicity": 334,
+      "multiplicity_2": 334,
+      "prediction_agrees": true
+    },
+    {
+      "degree": 24,
+      "rank": 697,
+      "indices": {
+        "N": 395,
+        "M": 395
+      },
+      "reference_multiplicity": 346,
+      "multiplicity_2": 346,
+      "prediction_agrees": true
+    },
+    {
+      "degree": 25,
+      "rank": 707,
+      "indices": {
+        "N": 411,
+        "M": 411
+      },
+      "reference_multiplicity": 351,
+      "multiplicity_2": 351,
+      "prediction_agrees": true
+    },
+    {
+      "degree": 26,
+      "rank": 707,
+      "indices": {
+        "N": 420,
+        "M": 420
+      },
+      "reference_multiplicity": 356,
+      "multiplicity_2": 356,
+      "prediction_agrees": true
+    },
+    {
+      "degree": 27,
+      "rank": 697,
+      "indices": {
+        "N": 422,
+        "M": 422
+      },
+      "reference_multiplicity": 351,
+      "multiplicity_2": 351,
+      "prediction_agrees": true
+    },
+    {
+      "degree": 28,
+      "rank": 680,
+      "indices": {
+        "N": 420,
+        "M": 420
+      },
+      "reference_multiplicity": 346,
+      "multiplicity_2": 346,
+      "prediction_agrees": true
+    },
+    {
+      "degree": 29,
+      "rank": 656,
+      "indices": {
+        "N": 414,
+        "M": 414
+      },
+      "reference_multiplicity": 334,
+      "multiplicity_2": 334,
+      "prediction_agrees": true
+    },
+    {
+      "degree": 30,
+      "rank": 624,
+      "indices": {
+        "N": 402,
+        "M": 402
+      },
+      "reference_multiplicity": 322,
+      "multiplicity_2": 322,
+      "prediction_agrees": true
+    },
+    {
+      "degree": 31,
+      "rank": 584,
+      "indices": {
+        "N": 383,
+        "M": 383
+      },
+      "reference_multiplicity": 302,
+      "multiplicity_2": 302,
+      "prediction_agrees": true
+    },
+    {
+      "degree": 32,
+      "rank": 541,
+      "indices": {
+        "N": 362,
+        "M": 362
+      },
+      "reference_multiplicity": 282,
+      "multiplicity_2": 282,
+      "prediction_agrees": true
+    },
+    {
+      "degree": 33,
+      "rank": 495,
+      "indices": {
+        "N": 338,
+        "M": 338
+      },
+      "reference_multiplicity": 259,
+      "multiplicity_2": 259,
+      "prediction_agrees": true
+    },
+    {
+      "degree": 34,
+      "rank": 446,
+      "indices": {
+        "N": 311,
+        "M": 311
+      },
+      "reference_multiplicity": 236,
+      "multiplicity_2": 236,
+      "prediction_agrees": true
+    },
+    {
+      "degree": 35,
+      "rank": 394,
+      "indices": {
+        "N": 280,
+        "M": 280
+      },
+      "reference_multiplicity": 210,
+      "multiplicity_2": 210,
+      "prediction_agrees": true
+    },
+    {
+      "degree": 36,
+      "rank": 344,
+      "indices": {
+        "N": 249,
+        "M": 249
+      },
+      "reference_multiplicity": 184,
+      "multiplicity_2": 184,
+      "prediction_agrees": true
+    },
+    {
+      "degree": 37,
+      "rank": 296,
+      "indices": {
+        "N": 218,
+        "M": 218
+      },
+      "reference_multiplicity": 160,
+      "multiplicity_2": 160,
+      "prediction_agrees": true
+    },
+    {
+      "degree": 38,
+      "rank": 250,
+      "indices": {
+        "N": 187,
+        "M": 187
+      },
+      "reference_multiplicity": 136,
+      "multiplicity_2": 136,
+      "prediction_agrees": true
+    },
+    {
+      "degree": 39,
+      "rank": 206,
+      "indices": {
+        "N": 156,
+        "M": 156
+      },
+      "reference_multiplicity": 114,
+      "multiplicity_2": 114,
+      "prediction_agrees": true
+    },
+    {
+      "degree": 40,
+      "rank": 167,
+      "indices": {
+        "N": 129,
+        "M": 129
+      },
+      "reference_multiplicity": 92,
+      "multiplicity_2": 92,
+      "prediction_agrees": true
+    },
+    {
+      "degree": 41,
+      "rank": 133,
+      "indices": {
+        "N": 105,
+        "M": 105
+      },
+      "reference_multiplicity": 75,
+      "multiplicity_2": 75,
+      "prediction_agrees": true
+    },
+    {
+      "degree": 42,
+      "rank": 103,
+      "indices": {
+        "N": 83,
+        "M": 83
+      },
+      "reference_multiplicity": 58,
+      "multiplicity_2": 58,
+      "prediction_agrees": true
+    },
+    {
+      "degree": 43,
+      "rank": 77,
+      "indices": {
+        "N": 63,
+        "M": 63
+      },
+      "reference_multiplicity": 45,
+      "multiplicity_2": 45,
+      "prediction_agrees": true
+    },
+    {
+      "degree": 44,
+      "rank": 56,
+      "indices": {
+        "N": 46,
+        "M": 46
+      },
+      "reference_multiplicity": 32,
+      "multiplicity_2": 32,
+      "prediction_agrees": true
+    },
+    {
+      "degree": 45,
+      "rank": 40,
+      "indices": {
+        "N": 33,
+        "M": 33
+      },
+      "reference_multiplicity": 24,
+      "multiplicity_2": 24,
+      "prediction_agrees": true
+    },
+    {
+      "degree": 46,
+      "rank": 27,
+      "indices": {
+        "N": 22,
+        "M": 22
+      },
+      "reference_multiplicity": 16,
+      "multiplicity_2": 16,
+      "prediction_agrees": true
+    },
+    {
+      "degree": 47,
+      "rank": 17,
+      "indices": {
+        "N": 13,
+        "M": 13
+      },
+      "reference_multiplicity": 11,
+      "multiplicity_2": 11,
+      "prediction_agrees": true
+    },
+    {
+      "degree": 48,
+      "rank": 10,
+      "indices": {
+        "N": 7,
+        "M": 7
+      },
+      "reference_multiplicity": 6,
+      "multiplicity_2": 6,
+      "prediction_agrees": true
+    },
+    {
+      "degree": 49,
+      "rank": 6,
+      "indices": {
+        "N": 4,
+        "M": 4
+      },
+      "reference_multiplicity": 4,
+      "multiplicity_2": 4,
+      "prediction_agrees": true
+    },
+    {
+      "degree": 50,
+      "rank": 3,
+      "indices": {
+        "N": 2,
+        "M": 2
+      },
+      "reference_multiplicity": 2,
+      "multiplicity_2": 2,
+      "prediction_agrees": true
+    },
+    {
+      "degree": 51,
+      "rank": 1,
+      "indices": {
+        "N": 1,
+        "M": 1
+      },
+      "reference_multiplicity": 1,
+      "multiplicity_2": 1,
+      "prediction_agrees": true
+    }
+  ],
+  "complete": true,
+  "seconds": 1372.114,
+  "tower_archive": "experiments/e7-d4-tower-certificates.json.gz",
+  "tower_archive_sha256": "d19a939295408a5dcbf2f834196f6cc85d86f5f2f029f2b8d657a226b46ba80a",
+  "certificate_archive": "experiments/e7-d4-index-certificates.jsonl.gz",
+  "certificate_archive_sha256": "f72520a047c0b2d8cbdcf104390cbc0b64c1e8b1dd4da510c95a606c3ba6bd11",
+  "source_sha256": {
+    "experiments/e7_d4_images.py": "ba9dbb8125709181c12e24549b3b808bec8b5b186eacf9be920329ee4def5953",
+    "experiments/e7_d4_source.py": "aefdff1e804e6ab5b464a921ae023146986157200d1311d8e2522842243914fb",
+    "experiments/e7-d5-images.json": "349040145c7555d1a437950394c6b0e6b911609cb5b634b5c04f590fd20538c7",
+    "experiments/e7-d4-source-algebra.json": "cfaf232a15f8b24f7d80ad61a9284025bc88ec7fa9b6ca695b619367f9779aed"
+  }
+}

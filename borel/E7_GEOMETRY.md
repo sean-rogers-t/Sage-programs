@@ -322,7 +322,9 @@ not compile or interpolate anything. A failed or inconclusive reconstruction
 raises an error; it does not write a passed certificate.
 
 The higher quotient coordinates and full determinant products are complete
-for these two E7 representations. Generic degrees, target branch loci and
-single expanded invariant expressions for the full determinants are not
-computed here. No generic degree is inferred from Newton-polytope volume,
-and no conclusion about the minimal Cayley degree of E7 is claimed.
+for these two E7 representations. The subsequent [degree calculation](EXCEPTIONAL_DEGREES.md)
+gives degrees **7272** (minimal) and **33664** (adjoint) on simply connected E7,
+including all boundary contributions. The API returns these through
+`generic_degree()`. Target branch loci and single expanded invariant
+expressions for the full determinants remain uncomputed. These degrees
+do not determine the minimum Cayley degree of E7.

@@ -4,6 +4,50 @@ The full-paper project is on hold. The priorities below concern useful library
 features and mathematical experiments. Proposed extensions are not claims of
 new theorems or novelty; each needs its own proof and literature check.
 
+The [research ledger](RESEARCH_LEDGER.md) is the maintained index of results,
+partial results, counterexamples and open questions. The user's priority is
+generalizable statements. New exceptional cases should test a stated general
+question rather than become the default endpoint of the project.
+
+## Other cohomology theories and groups
+
+The [research proposal](../articles/research-program-proposal/README.md) now
+includes extension track E. The following projects are adopted research
+directions, not implemented backends or new general theorems.
+
+| Project | First target | Dependency or limitation |
+| --- | --- | --- |
+| E1: equivariant cohomology | First literal-source pilot complete: SL4/P1 has a degree-five specialization kernel Z/2 | General criteria for the kernel and a generic backend remain open; automatic faithful specialization is false |
+| E2: K-theory | Restricted associated-bundle image and a filtered comparison with ordinary cohomology | The literal source lies in R(L); Springer polynomial grading need not equal the augmentation/gamma filtration |
+| E3: oriented cohomology | A compatible source and specialization theorem, starting with connective K-theory | Use a formal group algebra and explicit coefficients/completion; additive generation is not a theorem for every formal group law |
+| E4: quantum cohomology | A multiplicative lift with q=0 recovery, then its kernel/image | Define the source and generator lifts; ordinary quotient relations generally deform |
+| E5: affine Grassmannians | Transport an E4 image through the localized Peterson correspondence | The target uses Pontryagin homology; record quotient and localization losses |
+| E6: affine/Kac–Moody flags | Degree-bounded nil-Hecke calculations and a separate definition/obstruction for a Springer analogue | Published flag-cohomology operators extend; ordinary finite-dimensional faithful trace projection does not |
+
+Published starting points include
+[equivariant oriented characteristic maps](https://arxiv.org/abs/1409.7111),
+[equivariant K-Schubert calculus](https://arxiv.org/abs/1101.5911),
+[quantum Borel/Toda presentations](https://arxiv.org/abs/alg-geom/9607001),
+[Lam–Shimozono's Peterson correspondence](https://arxiv.org/abs/0705.1386),
+[Mare–Mihalcea's specified affine quantum deformations](https://arxiv.org/abs/1409.3587)
+and [Kostant–Kumar's nil-Hecke construction](https://doi.org/10.1073/pnas.83.6.1543).
+The prospective contribution is the representation-dependent image theory,
+not the ambient frameworks. Exact literature comparisons remain necessary.
+
+Activate E1 first, followed by E2/E3 and then E4/E5. E6's characteristic-map
+calculations can proceed independently of its foundational Springer question.
+The ledger preserves OPEN-14/15 and adds OPEN-17 through OPEN-20 for the
+new questions. Other isogeny forms and reductive groups remain OPEN-10.
+
+The first work package is now complete in the
+[local bound/projective-family note](LOCAL_IMAGE_BOUND.md) and the
+[equivariant counterexample](EQUIVARIANT_IMAGE_PILOT.md), with a
+[stepwise audit](LOCAL_IMAGE_AUDIT.md) and independent integer calculations.
+The ordinary bound is a classical torsion-index consequence in the literal
+source setting. Equivariant good-prime recovery follows by triangular
+Schubert induction, and graded specialization kernels have primes dividing
+t_G e_rho. Sharp bad-prime comparisons remain the main next target.
+
 ## Implemented: fast B/D multiplicities
 
 [orthogonal_smith](ORTHOGONAL_API.md) exposes the proved closed formulas,
@@ -68,10 +112,12 @@ higher minimal/adjoint coordinates and both full determinant products, with
 independent matrices and exact unisolvent certificates. The
 [E7 extension](E7_GEOMETRY.md) supplies all seven coordinates through degree
 18 and both full 133-dimensional products, with independent matrices and
-exact certificates. E6/E7 generic degrees remain further work. No generic degree
-is inferred from the integral-source classification or polytope volume.
+exact certificates. The [generic-degree extension](EXCEPTIONAL_DEGREES.md)
+gives E6 degrees 1080/2754 and E7 degrees 7272/33664 for minimal/adjoint maps
+on simply connected groups, using the full toric boundary correction.
+Target branch loci and minimum Cayley degrees remain further work.
 
-**Current focus.** The [first complete G2/F4 tables](EXCEPTIONAL_INTEGRAL.md)
+**Completed case studies.** The [first complete G2/F4 tables](EXCEPTIONAL_INTEGRAL.md)
 now cover every maximal parabolic and every degree for two explicit source
 forms, with the `exceptional_algebra` helper and independent matrix checks.
 The [E6/P1 and E7/P7 extension](EXCEPTIONAL_MINUSCULE.md) now covers every
@@ -131,8 +177,10 @@ character lattice.
 ## Equivariant calculations
 
 An equivariant backend would retain torus parameters, evaluate fixed-point
-restrictions, multiply equivariant Schubert classes, and specialize those
-parameters to zero to recover ordinary calculations. Published inputs include
+restrictions and multiply equivariant Schubert classes. Ambient classes
+specialize to ordinary classes when the parameters vanish, but an image
+module's faithful specialization requires its own comparison, including
+possible kernel/base-change effects. Published inputs include
 [double theta polynomials](https://math.umd.edu/~harryt/papers/dbltheta.pdf)
 and [double eta polynomials](https://math.umd.edu/~harryt/papers/dbleta.pdf).
 
@@ -143,7 +191,12 @@ Ordinary Smith normal form therefore does not apply unchanged; Fitting
 ideals, carefully specified specializations, or finite graded Z-lattices
 would be appropriate objects to investigate.
 
-## Later: quantum products
+The [SL4/P1 pilot](EQUIVARIANT_IMAGE_PILOT.md) now exhibits the base-change
+issue explicitly for the full literal defining-representation source.
+Its first specialization kernel is Z/2 in polynomial degree five. This is
+an exact counterexample and proof note, not a completed equivariant backend.
+
+## Quantum products and affine transport
 
 Quantum multiplication adds curve-degree parameters and Gromov-Witten
 corrections to the ordinary cup product. A focused implementation could
@@ -151,28 +204,29 @@ start with a Grassmannian family and published
 [quantum Pieri rules](https://arxiv.org/abs/0809.4966).
 The ordinary Springer-image formulas do not automatically define a quantum
 Springer map or prove corresponding integral image results.
+Track E4 now specifies a source/lift/specialization milestone before those
+image claims. Once a lift exists, E5 asks for its image under the published
+localized Peterson correspondence, with the quotient and inverted classes
+explicit. This route does not require first inventing a trace Springer
+morphism on an infinite-dimensional group.
 
-## Suggested order
+## Generalization priorities
 
-1. Completed: F4's 26-dimensional character source, independent lattice audit,
-   and complete comparisons with the existing images. See
-   [the F4 proof and API](F4_CHARACTER_FORM.md).
-2. Completed: the [F4 minimal/adjoint comparison](F4_REPRESENTATION_COMPARISON.md),
-   including all-degree 3^d scaling and the representation selector.
-   Also completed: E6/P1 and E7/P7 public character helpers, and the
-   [E6 minimal/adjoint comparison](E6_REPRESENTATION_COMPARISON.md).
-   Also completed: the [E7 minimal/adjoint comparison](E7_REPRESENTATION_COMPARISON.md),
-   with its own all-primes certificate, integral weight coordinates and
-   complete P7 image audit. The E6/E7 comparisons illustrate a general
-   coprime-index lemma for certified sources.
-   Also completed: the [general trace-source theorem](TRACE_SOURCE_THEOREM.md)
-   proves degree-one generation for every supported representation, and a
-   separate Python audit reconstructs all 59 surveyed representation cases.
-   Next: calculate new linear lattices and their integral Levi/Borel images,
-   particularly representation comparisons where scalar and lattice-index
-   coprimality fails, and extend coverage to further exceptional parabolics.
-3. Equivariant computations after choosing the coefficient-ring API.
+1. A uniform generic-degree method that accounts for representation lattices,
+   degenerate faces and boundary multiplicities; use additional exceptional
+   cases to test its hypotheses.
+2. Structural criteria for integral Borel-image saturation, prime support and
+   exponents, starting from the general source-lattice theorem.
+3. A precise integral bridge from Hiller-type chains to the Smith filtration,
+   extending the existing incidence and primitive-prefix mechanisms if possible.
+4. Representation comparisons beyond the coprime-index lemma, including direct
+   sums and overlapping weight spaces.
+5. Uniform critical-divisor and harmonic-localization statements, followed by
+   target branch/nonproperness calculations where the source data suffice.
 
-Further classical multi-block work, packaging the proved joint formulas and
-closed ambient B/D joint multiplicities are deferred. Equivariant and quantum
-work require separate mathematical specifications and checks.
+The ledger also retains the many-block joint-image questions, closed ambient
+B/D joint multiplicities and further exceptional parabolics. Track E gives
+equivariant, K-theoretic, oriented, quantum and affine/Kac–Moody extensions
+their own ordered milestones and missing definitions. The existing degree-one source and irreducible
+lattice classifications are completed general results, not questions to
+reopen by merely surveying more representations.

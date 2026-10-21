@@ -12,6 +12,7 @@ the mathematical guide for the Borel/Springer construction.
 
 | Question | Guide |
 | --- | --- |
+| What general results do we have, and which structural questions remain? | [Research ledger: results, partial results, counterexamples and open problems](RESEARCH_LEDGER.md) |
 | What mathematical map does each method compute? | [Methods and worked examples](METHODS.md) |
 | Why do the Borel, BGG, Chevalley and coinvariant methods work? | [Mathematical framework and conventions](MATHEMATICS.md) |
 | How do I multiply Schubert classes or lift them to polynomials? | [Schubert multiplication and inverse Borel calculations](SCHUBERT_CALCULUS.md) |
@@ -19,6 +20,11 @@ the mathematical guide for the Borel/Springer construction.
 | How do two integral images compare, and what do mixed products add? | [Lattice comparisons](INTEGRAL_COMPARISONS.md) and [two-step joint-image tables](TWO_STEP_INTEGRAL.md) |
 | Can I get the B/D Smith factors without a matrix? | [Fast orthogonal formula API](ORTHOGONAL_API.md) |
 | What is already known about integral Springer images? | [Literature and normalization audit](INTEGRAL_LITERATURE.md) |
+| Which primes can obstruct a full literal Springer–Borel image? | [Local bound, all-Levi proof and defining SL_n projective factors](LOCAL_IMAGE_BOUND.md) |
+| Can the E6 root-to-weight factors be determined sharply? | [60-case transfer theorem](E6_ROOT_WEIGHT_COMPARISON.md) and [three-case completion](E6_REMAINING_CASES.md) cover all 63 proper parabolics; [tables](E6_REMAINING_TABLES.md), [completion audit](E6_REMAINING_AUDIT.md) |
+| What happens to the E7 root-to-weight factors at 2? | [Explicit P7 simultaneous bases and multiplicity polynomial](E7_ROOT_WEIGHT_COMPARISON.md); exponent 2 on all 64 refinements, with [proof/source audit](E7_ROOT_WEIGHT_AUDIT.md) |
+| What is proved for finer E7/P7 flags? | [Full flag and A6 transfer](E7_FULL_FLAG_COMPARISON.md), [D5 proof](E7_D5_REFINEMENT.md), [D4 completion: all 64 refinements in all degrees](E7_D4_REFINEMENT.md) |
+| Does an equivariant image always specialize faithfully? | [SL4/P1 counterexample and independent integer-lattice checks](EQUIVARIANT_IMAGE_PILOT.md) |
 | Which claims are published, deductions here, or conjectures? | [Proof and literature status](PROOF_STATUS.md) |
 | What general Smith-factor formulas can be proved in types B and D? | [Orthogonal formulas and proofs](ORTHOGONAL_SMITH.md) |
 | Why is the returned kernel complete? How do backends and normal forms work? | [Complete presentations and proofs](PRESENTATIONS.md) |
@@ -34,6 +40,7 @@ the mathematical guide for the Borel/Springer construction.
 | What are the quotient map, generic degree and critical locus of a Springer morphism? | [Geometry API, complete G2 formulas, independent matrix audit and E6/E7 quadratic coordinates](SPRINGER_GEOMETRY.md) |
 | What are all higher E6 quotient coordinates and the full determinant? | [Minimal/adjoint formulas, exact interpolation proof, root products and independent matrices](E6_GEOMETRY.md) |
 | What are all higher E7 quotient coordinates and the full determinant? | [Minimal/adjoint formulas, certified degree-18 calculations and independent matrices](E7_GEOMETRY.md) |
+| What are the generic degrees of the E6/E7 minimal and adjoint Springer maps? | [Degree API, toric boundary proof and independent checks](EXCEPTIONAL_DEGREES.md) |
 | What is the literal F4 character form and its complete image? | [Proof, API and independent checks](F4_CHARACTER_FORM.md), [all four parabolic tables](F4_CHARACTER_TABLES.md) |
 | How does the F4 adjoint representation change the integral image? | [All-degree scaling theorem and comparison API](F4_REPRESENTATION_COMPARISON.md) |
 | How do I compute the certified E6/P1 and E7/P7 character images? | [Public character API](MINUSCULE_CHARACTER_API.md) and [E6 minimal/adjoint comparison](E6_REPRESENTATION_COMPARISON.md) |

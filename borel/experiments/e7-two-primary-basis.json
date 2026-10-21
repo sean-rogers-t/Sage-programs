@@ -1,0 +1,1265 @@
+{
+  "result": "passed",
+  "coefficient_ring": "Z_(2)",
+  "degrees": [
+    {
+      "degree": 0,
+      "basis": [
+        {
+          "h_exponent": 0,
+          "birth": 0,
+          "polynomial": "1",
+          "root_multiplier": 1
+        }
+      ],
+      "source_certificates": {
+        "M": {
+          "rank": 1,
+          "coefficient_rows": 1,
+          "integral": true,
+          "primitive_mod2": true
+        },
+        "N": {
+          "rank": 1,
+          "coefficient_rows": 1,
+          "integral": true,
+          "primitive_mod2": true
+        }
+      },
+      "image_certificates": {
+        "M": {
+          "integral": true,
+          "primitive_mod2": true
+        },
+        "N": {
+          "integral": true,
+          "primitive_mod2": true
+        }
+      },
+      "multiplicity_2": 0,
+      "multiplicity_4": 0,
+      "multiplicity_8": 0
+    },
+    {
+      "degree": 1,
+      "basis": [
+        {
+          "h_exponent": 1,
+          "birth": 0,
+          "polynomial": "h",
+          "root_multiplier": 2
+        }
+      ],
+      "source_certificates": {
+        "M": {
+          "rank": 1,
+          "coefficient_rows": 2,
+          "integral": true,
+          "primitive_mod2": true
+        },
+        "N": {
+          "rank": 1,
+          "coefficient_rows": 2,
+          "integral": true,
+          "primitive_mod2": true
+        }
+      },
+      "image_certificates": {
+        "M": {
+          "integral": true,
+          "primitive_mod2": true
+        },
+        "N": {
+          "integral": true,
+          "primitive_mod2": true
+        }
+      },
+      "multiplicity_2": 1,
+      "multiplicity_4": 0,
+      "multiplicity_8": 0
+    },
+    {
+      "degree": 2,
+      "basis": [
+        {
+          "h_exponent": 2,
+          "birth": 0,
+          "polynomial": "h^2",
+          "root_multiplier": 1
+        }
+      ],
+      "source_certificates": {
+        "M": {
+          "rank": 2,
+          "coefficient_rows": 4,
+          "integral": true,
+          "primitive_mod2": true
+        },
+        "N": {
+          "rank": 2,
+          "coefficient_rows": 4,
+          "integral": true,
+          "primitive_mod2": true
+        }
+      },
+      "image_certificates": {
+        "M": {
+          "integral": true,
+          "primitive_mod2": true
+        },
+        "N": {
+          "integral": true,
+          "primitive_mod2": true
+        }
+      },
+      "multiplicity_2": 0,
+      "multiplicity_4": 0,
+      "multiplicity_8": 0
+    },
+    {
+      "degree": 3,
+      "basis": [
+        {
+          "h_exponent": 3,
+          "birth": 0,
+          "polynomial": "h^3",
+          "root_multiplier": 2
+        }
+      ],
+      "source_certificates": {
+        "M": {
+          "rank": 2,
+          "coefficient_rows": 6,
+          "integral": true,
+          "primitive_mod2": true
+        },
+        "N": {
+          "rank": 2,
+          "coefficient_rows": 6,
+          "integral": true,
+          "primitive_mod2": true
+        }
+      },
+      "image_certificates": {
+        "M": {
+          "integral": true,
+          "primitive_mod2": true
+        },
+        "N": {
+          "integral": true,
+          "primitive_mod2": true
+        }
+      },
+      "multiplicity_2": 1,
+      "multiplicity_4": 0,
+      "multiplicity_8": 0
+    },
+    {
+      "degree": 4,
+      "basis": [
+        {
+          "h_exponent": 4,
+          "birth": 0,
+          "polynomial": "h^4",
+          "root_multiplier": 1
+        }
+      ],
+      "source_certificates": {
+        "M": {
+          "rank": 3,
+          "coefficient_rows": 9,
+          "integral": true,
+          "primitive_mod2": true
+        },
+        "N": {
+          "rank": 3,
+          "coefficient_rows": 9,
+          "integral": true,
+          "primitive_mod2": true
+        }
+      },
+      "image_certificates": {
+        "M": {
+          "integral": true,
+          "primitive_mod2": true
+        },
+        "N": {
+          "integral": true,
+          "primitive_mod2": true
+        }
+      },
+      "multiplicity_2": 0,
+      "multiplicity_4": 0,
+      "multiplicity_8": 0
+    },
+    {
+      "degree": 5,
+      "basis": [
+        {
+          "h_exponent": 5,
+          "birth": 0,
+          "polynomial": "h^5",
+          "root_multiplier": 2
+        },
+        {
+          "h_exponent": 0,
+          "birth": 5,
+          "polynomial": "2*s",
+          "root_multiplier": 1
+        }
+      ],
+      "source_certificates": {
+        "M": {
+          "rank": 4,
+          "coefficient_rows": 16,
+          "integral": true,
+          "primitive_mod2": true
+        },
+        "N": {
+          "rank": 4,
+          "coefficient_rows": 17,
+          "integral": true,
+          "primitive_mod2": true
+        }
+      },
+      "image_certificates": {
+        "M": {
+          "integral": true,
+          "primitive_mod2": true
+        },
+        "N": {
+          "integral": true,
+          "primitive_mod2": true
+        }
+      },
+      "multiplicity_2": 1,
+      "multiplicity_4": 0,
+      "multiplicity_8": 0
+    },
+    {
+      "degree": 6,
+      "basis": [
+        {
+          "h_exponent": 6,
+          "birth": 0,
+          "polynomial": "h^6",
+          "root_multiplier": 1
+        },
+        {
+          "h_exponent": 1,
+          "birth": 5,
+          "polynomial": "2*h*s",
+          "root_multiplier": 2
+        }
+      ],
+      "source_certificates": {
+        "M": {
+          "rank": 6,
+          "coefficient_rows": 28,
+          "integral": true,
+          "primitive_mod2": true
+        },
+        "N": {
+          "rank": 6,
+          "coefficient_rows": 29,
+          "integral": true,
+          "primitive_mod2": true
+        }
+      },
+      "image_certificates": {
+        "M": {
+          "integral": true,
+          "primitive_mod2": true
+        },
+        "N": {
+          "integral": true,
+          "primitive_mod2": true
+        }
+      },
+      "multiplicity_2": 1,
+      "multiplicity_4": 0,
+      "multiplicity_8": 0
+    },
+    {
+      "degree": 7,
+      "basis": [
+        {
+          "h_exponent": 7,
+          "birth": 0,
+          "polynomial": "h^7",
+          "root_multiplier": 2
+        },
+        {
+          "h_exponent": 2,
+          "birth": 5,
+          "polynomial": "2*h^2*s",
+          "root_multiplier": 1
+        }
+      ],
+      "source_certificates": {
+        "M": {
+          "rank": 7,
+          "coefficient_rows": 40,
+          "integral": true,
+          "primitive_mod2": true
+        },
+        "N": {
+          "rank": 7,
+          "coefficient_rows": 42,
+          "integral": true,
+          "primitive_mod2": true
+        }
+      },
+      "image_certificates": {
+        "M": {
+          "integral": true,
+          "primitive_mod2": true
+        },
+        "N": {
+          "integral": true,
+          "primitive_mod2": true
+        }
+      },
+      "multiplicity_2": 1,
+      "multiplicity_4": 0,
+      "multiplicity_8": 0
+    },
+    {
+      "degree": 8,
+      "basis": [
+        {
+          "h_exponent": 8,
+          "birth": 0,
+          "polynomial": "h^8",
+          "root_multiplier": 1
+        },
+        {
+          "h_exponent": 3,
+          "birth": 5,
+          "polynomial": "2*h^3*s",
+          "root_multiplier": 2
+        }
+      ],
+      "source_certificates": {
+        "M": {
+          "rank": 10,
+          "coefficient_rows": 60,
+          "integral": true,
+          "primitive_mod2": true
+        },
+        "N": {
+          "rank": 10,
+          "coefficient_rows": 62,
+          "integral": true,
+          "primitive_mod2": true
+        }
+      },
+      "image_certificates": {
+        "M": {
+          "integral": true,
+          "primitive_mod2": true
+        },
+        "N": {
+          "integral": true,
+          "primitive_mod2": true
+        }
+      },
+      "multiplicity_2": 1,
+      "multiplicity_4": 0,
+      "multiplicity_8": 0
+    },
+    {
+      "degree": 9,
+      "basis": [
+        {
+          "h_exponent": 9,
+          "birth": 0,
+          "polynomial": "h^9",
+          "root_multiplier": 2
+        },
+        {
+          "h_exponent": 4,
+          "birth": 5,
+          "polynomial": "2*h^4*s",
+          "root_multiplier": 1
+        },
+        {
+          "h_exponent": 0,
+          "birth": 9,
+          "polynomial": "2*t",
+          "root_multiplier": 1
+        }
+      ],
+      "source_certificates": {
+        "M": {
+          "rank": 12,
+          "coefficient_rows": 86,
+          "integral": true,
+          "primitive_mod2": true
+        },
+        "N": {
+          "rank": 12,
+          "coefficient_rows": 87,
+          "integral": true,
+          "primitive_mod2": true
+        }
+      },
+      "image_certificates": {
+        "M": {
+          "integral": true,
+          "primitive_mod2": true
+        },
+        "N": {
+          "integral": true,
+          "primitive_mod2": true
+        }
+      },
+      "multiplicity_2": 1,
+      "multiplicity_4": 0,
+      "multiplicity_8": 0
+    },
+    {
+      "degree": 10,
+      "basis": [
+        {
+          "h_exponent": 10,
+          "birth": 0,
+          "polynomial": "h^10",
+          "root_multiplier": 1
+        },
+        {
+          "h_exponent": 5,
+          "birth": 5,
+          "polynomial": "2*h^5*s",
+          "root_multiplier": 2
+        },
+        {
+          "h_exponent": 1,
+          "birth": 9,
+          "polynomial": "2*h*t",
+          "root_multiplier": 2
+        }
+      ],
+      "source_certificates": {
+        "M": {
+          "rank": 16,
+          "coefficient_rows": 117,
+          "integral": true,
+          "primitive_mod2": true
+        },
+        "N": {
+          "rank": 16,
+          "coefficient_rows": 119,
+          "integral": true,
+          "primitive_mod2": true
+        }
+      },
+      "image_certificates": {
+        "M": {
+          "integral": true,
+          "primitive_mod2": true
+        },
+        "N": {
+          "integral": true,
+          "primitive_mod2": true
+        }
+      },
+      "multiplicity_2": 2,
+      "multiplicity_4": 0,
+      "multiplicity_8": 0
+    },
+    {
+      "degree": 11,
+      "basis": [
+        {
+          "h_exponent": 11,
+          "birth": 0,
+          "polynomial": "h^11",
+          "root_multiplier": 2
+        },
+        {
+          "h_exponent": 6,
+          "birth": 5,
+          "polynomial": "2*h^6*s",
+          "root_multiplier": 1
+        },
+        {
+          "h_exponent": 2,
+          "birth": 9,
+          "polynomial": "2*h^2*t",
+          "root_multiplier": 1
+        }
+      ],
+      "source_certificates": {
+        "M": {
+          "rank": 19,
+          "coefficient_rows": 161,
+          "integral": true,
+          "primitive_mod2": true
+        },
+        "N": {
+          "rank": 19,
+          "coefficient_rows": 163,
+          "integral": true,
+          "primitive_mod2": true
+        }
+      },
+      "image_certificates": {
+        "M": {
+          "integral": true,
+          "primitive_mod2": true
+        },
+        "N": {
+          "integral": true,
+          "primitive_mod2": true
+        }
+      },
+      "multiplicity_2": 1,
+      "multiplicity_4": 0,
+      "multiplicity_8": 0
+    },
+    {
+      "degree": 12,
+      "basis": [
+        {
+          "h_exponent": 12,
+          "birth": 0,
+          "polynomial": "h^12",
+          "root_multiplier": 1
+        },
+        {
+          "h_exponent": 7,
+          "birth": 5,
+          "polynomial": "2*h^7*s",
+          "root_multiplier": 2
+        },
+        {
+          "h_exponent": 3,
+          "birth": 9,
+          "polynomial": "2*h^3*t",
+          "root_multiplier": 2
+        }
+      ],
+      "source_certificates": {
+        "M": {
+          "rank": 25,
+          "coefficient_rows": 221,
+          "integral": true,
+          "primitive_mod2": true
+        },
+        "N": {
+          "rank": 25,
+          "coefficient_rows": 223,
+          "integral": true,
+          "primitive_mod2": true
+        }
+      },
+      "image_certificates": {
+        "M": {
+          "integral": true,
+          "primitive_mod2": true
+        },
+        "N": {
+          "integral": true,
+          "primitive_mod2": true
+        }
+      },
+      "multiplicity_2": 2,
+      "multiplicity_4": 0,
+      "multiplicity_8": 0
+    },
+    {
+      "degree": 13,
+      "basis": [
+        {
+          "h_exponent": 13,
+          "birth": 0,
+          "polynomial": "h^13",
+          "root_multiplier": 2
+        },
+        {
+          "h_exponent": 8,
+          "birth": 5,
+          "polynomial": "2*h^8*s",
+          "root_multiplier": 1
+        },
+        {
+          "h_exponent": 4,
+          "birth": 9,
+          "polynomial": "2*h^4*t",
+          "root_multiplier": 1
+        }
+      ],
+      "source_certificates": {
+        "M": {
+          "rank": 29,
+          "coefficient_rows": 288,
+          "integral": true,
+          "primitive_mod2": true
+        },
+        "N": {
+          "rank": 29,
+          "coefficient_rows": 292,
+          "integral": true,
+          "primitive_mod2": true
+        }
+      },
+      "image_certificates": {
+        "M": {
+          "integral": true,
+          "primitive_mod2": true
+        },
+        "N": {
+          "integral": true,
+          "primitive_mod2": true
+        }
+      },
+      "multiplicity_2": 1,
+      "multiplicity_4": 0,
+      "multiplicity_8": 0
+    },
+    {
+      "degree": 14,
+      "basis": [
+        {
+          "h_exponent": 14,
+          "birth": 0,
+          "polynomial": "h^14",
+          "root_multiplier": 1
+        },
+        {
+          "h_exponent": 9,
+          "birth": 5,
+          "polynomial": "2*h^9*s",
+          "root_multiplier": 2
+        },
+        {
+          "h_exponent": 5,
+          "birth": 9,
+          "polynomial": "2*h^5*t",
+          "root_multiplier": 2
+        }
+      ],
+      "source_certificates": {
+        "M": {
+          "rank": 37,
+          "coefficient_rows": 379,
+          "integral": true,
+          "primitive_mod2": true
+        },
+        "N": {
+          "rank": 37,
+          "coefficient_rows": 382,
+          "integral": true,
+          "primitive_mod2": true
+        }
+      },
+      "image_certificates": {
+        "M": {
+          "integral": true,
+          "primitive_mod2": true
+        },
+        "N": {
+          "integral": true,
+          "primitive_mod2": true
+        }
+      },
+      "multiplicity_2": 2,
+      "multiplicity_4": 0,
+      "multiplicity_8": 0
+    },
+    {
+      "degree": 15,
+      "basis": [
+        {
+          "h_exponent": 15,
+          "birth": 0,
+          "polynomial": "h^15",
+          "root_multiplier": 2
+        },
+        {
+          "h_exponent": 10,
+          "birth": 5,
+          "polynomial": "2*h^10*s",
+          "root_multiplier": 1
+        },
+        {
+          "h_exponent": 6,
+          "birth": 9,
+          "polynomial": "2*h^6*t",
+          "root_multiplier": 1
+        }
+      ],
+      "source_certificates": {
+        "M": {
+          "rank": 43,
+          "coefficient_rows": 488,
+          "integral": true,
+          "primitive_mod2": true
+        },
+        "N": {
+          "rank": 43,
+          "coefficient_rows": 491,
+          "integral": true,
+          "primitive_mod2": true
+        }
+      },
+      "image_certificates": {
+        "M": {
+          "integral": true,
+          "primitive_mod2": true
+        },
+        "N": {
+          "integral": true,
+          "primitive_mod2": true
+        }
+      },
+      "multiplicity_2": 1,
+      "multiplicity_4": 0,
+      "multiplicity_8": 0
+    },
+    {
+      "degree": 16,
+      "basis": [
+        {
+          "h_exponent": 16,
+          "birth": 0,
+          "polynomial": "h^16",
+          "root_multiplier": 1
+        },
+        {
+          "h_exponent": 11,
+          "birth": 5,
+          "polynomial": "2*h^11*s",
+          "root_multiplier": 2
+        },
+        {
+          "h_exponent": 7,
+          "birth": 9,
+          "polynomial": "2*h^7*t",
+          "root_multiplier": 2
+        }
+      ],
+      "source_certificates": {
+        "M": {
+          "rank": 53,
+          "coefficient_rows": 618,
+          "integral": true,
+          "primitive_mod2": true
+        },
+        "N": {
+          "rank": 53,
+          "coefficient_rows": 622,
+          "integral": true,
+          "primitive_mod2": true
+        }
+      },
+      "image_certificates": {
+        "M": {
+          "integral": true,
+          "primitive_mod2": true
+        },
+        "N": {
+          "integral": true,
+          "primitive_mod2": true
+        }
+      },
+      "multiplicity_2": 2,
+      "multiplicity_4": 0,
+      "multiplicity_8": 0
+    },
+    {
+      "degree": 17,
+      "basis": [
+        {
+          "h_exponent": 17,
+          "birth": 0,
+          "polynomial": "h^17",
+          "root_multiplier": 2
+        },
+        {
+          "h_exponent": 12,
+          "birth": 5,
+          "polynomial": "2*h^12*s",
+          "root_multiplier": 1
+        },
+        {
+          "h_exponent": 8,
+          "birth": 9,
+          "polynomial": "2*h^8*t",
+          "root_multiplier": 1
+        }
+      ],
+      "source_certificates": {
+        "M": {
+          "rank": 62,
+          "coefficient_rows": 782,
+          "integral": true,
+          "primitive_mod2": true
+        },
+        "N": {
+          "rank": 62,
+          "coefficient_rows": 786,
+          "integral": true,
+          "primitive_mod2": true
+        }
+      },
+      "image_certificates": {
+        "M": {
+          "integral": true,
+          "primitive_mod2": true
+        },
+        "N": {
+          "integral": true,
+          "primitive_mod2": true
+        }
+      },
+      "multiplicity_2": 1,
+      "multiplicity_4": 0,
+      "multiplicity_8": 0
+    },
+    {
+      "degree": 18,
+      "basis": [
+        {
+          "h_exponent": 18,
+          "birth": 0,
+          "polynomial": "h^18",
+          "root_multiplier": 1
+        },
+        {
+          "h_exponent": 13,
+          "birth": 5,
+          "polynomial": "2*h^13*s",
+          "root_multiplier": 2
+        },
+        {
+          "h_exponent": 9,
+          "birth": 9,
+          "polynomial": "2*h^9*t",
+          "root_multiplier": 2
+        }
+      ],
+      "source_certificates": {
+        "M": {
+          "rank": 76,
+          "coefficient_rows": 985,
+          "integral": true,
+          "primitive_mod2": true
+        },
+        "N": {
+          "rank": 76,
+          "coefficient_rows": 988,
+          "integral": true,
+          "primitive_mod2": true
+        }
+      },
+      "image_certificates": {
+        "M": {
+          "integral": true,
+          "primitive_mod2": true
+        },
+        "N": {
+          "integral": true,
+          "primitive_mod2": true
+        }
+      },
+      "multiplicity_2": 2,
+      "multiplicity_4": 0,
+      "multiplicity_8": 0
+    },
+    {
+      "degree": 19,
+      "basis": [
+        {
+          "h_exponent": 19,
+          "birth": 0,
+          "polynomial": "h^19",
+          "root_multiplier": 2
+        },
+        {
+          "h_exponent": 10,
+          "birth": 9,
+          "polynomial": "2*h^10*t",
+          "root_multiplier": 1
+        }
+      ],
+      "source_certificates": {
+        "M": {
+          "rank": 87,
+          "coefficient_rows": 1215,
+          "integral": true,
+          "primitive_mod2": true
+        },
+        "N": {
+          "rank": 87,
+          "coefficient_rows": 1219,
+          "integral": true,
+          "primitive_mod2": true
+        }
+      },
+      "image_certificates": {
+        "M": {
+          "integral": true,
+          "primitive_mod2": true
+        },
+        "N": {
+          "integral": true,
+          "primitive_mod2": true
+        }
+      },
+      "multiplicity_2": 1,
+      "multiplicity_4": 0,
+      "multiplicity_8": 0
+    },
+    {
+      "degree": 20,
+      "basis": [
+        {
+          "h_exponent": 20,
+          "birth": 0,
+          "polynomial": "h^20",
+          "root_multiplier": 1
+        },
+        {
+          "h_exponent": 11,
+          "birth": 9,
+          "polynomial": "2*h^11*t",
+          "root_multiplier": 2
+        }
+      ],
+      "source_certificates": {
+        "M": {
+          "rank": 105,
+          "coefficient_rows": 1497,
+          "integral": true,
+          "primitive_mod2": true
+        },
+        "N": {
+          "rank": 105,
+          "coefficient_rows": 1501,
+          "integral": true,
+          "primitive_mod2": true
+        }
+      },
+      "image_certificates": {
+        "M": {
+          "integral": true,
+          "primitive_mod2": true
+        },
+        "N": {
+          "integral": true,
+          "primitive_mod2": true
+        }
+      },
+      "multiplicity_2": 1,
+      "multiplicity_4": 0,
+      "multiplicity_8": 0
+    },
+    {
+      "degree": 21,
+      "basis": [
+        {
+          "h_exponent": 21,
+          "birth": 0,
+          "polynomial": "h^21",
+          "root_multiplier": 2
+        },
+        {
+          "h_exponent": 12,
+          "birth": 9,
+          "polynomial": "2*h^12*t",
+          "root_multiplier": 1
+        }
+      ],
+      "source_certificates": {
+        "M": {
+          "rank": 120,
+          "coefficient_rows": 1827,
+          "integral": true,
+          "primitive_mod2": true
+        },
+        "N": {
+          "rank": 120,
+          "coefficient_rows": 1831,
+          "integral": true,
+          "primitive_mod2": true
+        }
+      },
+      "image_certificates": {
+        "M": {
+          "integral": true,
+          "primitive_mod2": true
+        },
+        "N": {
+          "integral": true,
+          "primitive_mod2": true
+        }
+      },
+      "multiplicity_2": 1,
+      "multiplicity_4": 0,
+      "multiplicity_8": 0
+    },
+    {
+      "degree": 22,
+      "basis": [
+        {
+          "h_exponent": 22,
+          "birth": 0,
+          "polynomial": "h^22",
+          "root_multiplier": 1
+        },
+        {
+          "h_exponent": 13,
+          "birth": 9,
+          "polynomial": "2*h^13*t",
+          "root_multiplier": 2
+        }
+      ],
+      "source_certificates": {
+        "M": {
+          "rank": 142,
+          "coefficient_rows": 2211,
+          "integral": true,
+          "primitive_mod2": true
+        },
+        "N": {
+          "rank": 142,
+          "coefficient_rows": 2217,
+          "integral": true,
+          "primitive_mod2": true
+        }
+      },
+      "image_certificates": {
+        "M": {
+          "integral": true,
+          "primitive_mod2": true
+        },
+        "N": {
+          "integral": true,
+          "primitive_mod2": true
+        }
+      },
+      "multiplicity_2": 1,
+      "multiplicity_4": 0,
+      "multiplicity_8": 0
+    },
+    {
+      "degree": 23,
+      "basis": [
+        {
+          "h_exponent": 23,
+          "birth": 0,
+          "polynomial": "h^23",
+          "root_multiplier": 2
+        }
+      ],
+      "source_certificates": {
+        "M": {
+          "rank": 162,
+          "coefficient_rows": 2666,
+          "integral": true,
+          "primitive_mod2": true
+        },
+        "N": {
+          "rank": 162,
+          "coefficient_rows": 2671,
+          "integral": true,
+          "primitive_mod2": true
+        }
+      },
+      "image_certificates": {
+        "M": {
+          "integral": true,
+          "primitive_mod2": true
+        },
+        "N": {
+          "integral": true,
+          "primitive_mod2": true
+        }
+      },
+      "multiplicity_2": 1,
+      "multiplicity_4": 0,
+      "multiplicity_8": 0
+    },
+    {
+      "degree": 24,
+      "basis": [
+        {
+          "h_exponent": 24,
+          "birth": 0,
+          "polynomial": "h^24",
+          "root_multiplier": 1
+        }
+      ],
+      "source_certificates": {
+        "M": {
+          "rank": 191,
+          "coefficient_rows": 3203,
+          "integral": true,
+          "primitive_mod2": true
+        },
+        "N": {
+          "rank": 191,
+          "coefficient_rows": 3207,
+          "integral": true,
+          "primitive_mod2": true
+        }
+      },
+      "image_certificates": {
+        "M": {
+          "integral": true,
+          "primitive_mod2": true
+        },
+        "N": {
+          "integral": true,
+          "primitive_mod2": true
+        }
+      },
+      "multiplicity_2": 0,
+      "multiplicity_4": 0,
+      "multiplicity_8": 0
+    },
+    {
+      "degree": 25,
+      "basis": [
+        {
+          "h_exponent": 25,
+          "birth": 0,
+          "polynomial": "h^25",
+          "root_multiplier": 2
+        }
+      ],
+      "source_certificates": {
+        "M": {
+          "rank": 216,
+          "coefficient_rows": 3809,
+          "integral": true,
+          "primitive_mod2": true
+        },
+        "N": {
+          "rank": 216,
+          "coefficient_rows": 3814,
+          "integral": true,
+          "primitive_mod2": true
+        }
+      },
+      "image_certificates": {
+        "M": {
+          "integral": true,
+          "primitive_mod2": true
+        },
+        "N": {
+          "integral": true,
+          "primitive_mod2": true
+        }
+      },
+      "multiplicity_2": 1,
+      "multiplicity_4": 0,
+      "multiplicity_8": 0
+    },
+    {
+      "degree": 26,
+      "basis": [
+        {
+          "h_exponent": 26,
+          "birth": 0,
+          "polynomial": "h^26",
+          "root_multiplier": 1
+        }
+      ],
+      "source_certificates": {
+        "M": {
+          "rank": 252,
+          "coefficient_rows": 4518,
+          "integral": true,
+          "primitive_mod2": true
+        },
+        "N": {
+          "rank": 252,
+          "coefficient_rows": 4523,
+          "integral": true,
+          "primitive_mod2": true
+        }
+      },
+      "image_certificates": {
+        "M": {
+          "integral": true,
+          "primitive_mod2": true
+        },
+        "N": {
+          "integral": true,
+          "primitive_mod2": true
+        }
+      },
+      "multiplicity_2": 0,
+      "multiplicity_4": 0,
+      "multiplicity_8": 0
+    },
+    {
+      "degree": 27,
+      "basis": [
+        {
+          "h_exponent": 27,
+          "birth": 0,
+          "polynomial": "h^27",
+          "root_multiplier": 2
+        }
+      ],
+      "source_certificates": {
+        "M": {
+          "rank": 284,
+          "coefficient_rows": 5329,
+          "integral": true,
+          "primitive_mod2": true
+        },
+        "N": {
+          "rank": 284,
+          "coefficient_rows": 5334,
+          "integral": true,
+          "primitive_mod2": true
+        }
+      },
+      "image_certificates": {
+        "M": {
+          "integral": true,
+          "primitive_mod2": true
+        },
+        "N": {
+          "integral": true,
+          "primitive_mod2": true
+        }
+      },
+      "multiplicity_2": 1,
+      "multiplicity_4": 0,
+      "multiplicity_8": 0
+    }
+  ],
+  "closure_checks": [
+    {
+      "module": "N",
+      "checks": 168
+    },
+    {
+      "module": "M",
+      "checks": 224
+    }
+  ],
+  "source_lifts": {
+    "2h": "-E1 + 3*u",
+    "h2": "-2*E1^2 + 3*E1*u - 3*u^2 + 3*E2",
+    "2s": "-16/9*E1^5 + 95/9*E1^4*u - 670/27*E1^3*u^2 + 35*E1^2*u^3 - 245/9*E1*u^4 + 35/3*u^5 + 145/27*E1^3*E2 - 24*E1^2*E2*u + 286/9*E1*E2*u^2 - 70/3*E2*u^3 - 35/9*E1*E2^2 - 1/3*E1^2*E3 + 35/3*E2^2*u + E1*E3*u - E3*u^2 + 1/3*E1*E4 - E5",
+    "2t": "-3116/2187*E1^9 + 28117/2187*E1^8*u - 352274/6561*E1^7*u^2 + 310625/2187*E1^6*u^3 - 189131/729*E1^5*u^4 + 83162/243*E1^4*u^5 - 237239/729*E1^3*u^6 + 17710/81*E1^2*u^7 - 23023/243*E1*u^8 + 1771/81*u^9 + 56015/6561*E1^7*E2 - 140348/2187*E1^6*E2*u + 154693/729*E1^5*E2*u^2 - 11744/27*E1^4*E2*u^3 + 141173/243*E1^3*E2*u^4 - 14138/27*E1^2*E2*u^5 + 70750/243*E1*E2*u^6 - 7084/81*E2*u^7 - 14027/729*E1^5*E2^2 + 1/9*E1^6*E3 + 28099/243*E1^4*E2^2*u - 2/3*E1^5*E3*u - 66827/243*E1^3*E2^2*u^2 + 49/27*E1^4*E3*u^2 + 10574/27*E1^2*E2^2*u^3 - 77/27*E1^3*E3*u^3 - 24716/81*E1*E2^2*u^4 + 76/27*E1^2*E3*u^4 + 3542/27*E2^2*u^5 - 5/3*E1*E3*u^5 + 5/9*E3*u^6 + 14093/729*E1^3*E2^3 - 1/3*E1^4*E2*E3 - 1/9*E1^5*E4 - 7054/81*E1^2*E2^3*u + 14/9*E1^3*E2*E3*u + 4/9*E1^4*E4*u + 28246/243*E1*E2^3*u^2 - 3*E1^2*E2*E3*u^2 - 26/27*E1^3*E4*u^2 - 7084/81*E2^3*u^3 + 26/9*E1*E2*E3*u^3 + 28/27*E1^2*E4*u^3 - 13/9*E2*E3*u^4 - 14/27*E1*E4*u^4 - 1771/243*E1*E2^4 + 5/27*E1^2*E2^2*E3 + 2/27*E1^3*E3^2 + 8/27*E1^3*E2*E4 + 7/27*E1^4*E5 + 1771/81*E2^4*u - 5/9*E1*E2^2*E3*u - 1/3*E1^2*E3^2*u - 16/27*E1^2*E2*E4*u - 26/27*E1^3*E5*u + 5/9*E2^2*E3*u^2 + 1/3*E1*E3^2*u^2 + 16/27*E1*E2*E4*u^2 + 68/27*E1^2*E5*u^2 - 28/9*E1*E5*u^3 + 14/9*E5*u^4 - 5/27*E1*E2^2*E4 - 1/9*E1^2*E3*E4 - 17/27*E1^2*E2*E5 - 5/27*E1^3*E6 + 2/3*E1*E3*E4*u + 4/9*E1*E2*E5*u - 2/3*E3*E4*u^2 - 4/9*E2*E5*u^2 - 1/9*E1*E4^2 + 5/9*E2^2*E5 + 2/3*E1*E2*E6 + 1/3*E4*E5 - E3*E6"
+  },
+  "primitive_inputs": {
+    "psi5_over_5760": "4*E1^5 - 15*E1^4*u + 15*E1^3*u^2 - 15*E1^3*E2 + 54*E1^2*E2*u - 54*E1*E2*u^2 + 27*E1^2*E3 - 81*E1*E3*u + 81*E3*u^2 - 27*E1*E4 + 81*E5",
+    "psi9_over_387072": "340*E1^9 - 2295*E1^8*u + 6750*E1^7*u^2 - 11340*E1^6*u^3 + 11745*E1^5*u^4 - 7290*E1^4*u^5 + 2430*E1^3*u^6 - 2295*E1^7*E2 + 13932*E1^6*E2*u - 36288*E1^5*E2*u^2 + 53460*E1^4*E2*u^3 - 48600*E1^3*E2*u^4 + 26244*E1^2*E2*u^5 - 8748*E1*E2*u^6 + 4455*E1^5*E2^2 + 2511*E1^6*E3 - 22356*E1^4*E2^2*u - 15066*E1^5*E3*u + 44226*E1^3*E2^2*u^2 + 41310*E1^4*E3*u^2 - 43740*E1^2*E2^2*u^3 - 65610*E1^3*E3*u^3 + 21870*E1*E2^2*u^4 + 65610*E1^2*E3*u^4 - 39366*E1*E3*u^5 + 13122*E3*u^6 - 2430*E1^3*E2^3 - 7533*E1^4*E2*E3 - 2511*E1^5*E4 + 8748*E1^2*E2^3*u + 34992*E1^3*E2*E3*u + 9720*E1^4*E4*u - 8748*E1*E2^3*u^2 - 67797*E1^2*E2*E3*u^2 - 20655*E1^3*E4*u^2 + 65610*E1*E2*E3*u^3 + 21870*E1^2*E4*u^3 - 32805*E2*E3*u^4 - 10935*E1*E4*u^4 + 4374*E1^2*E2^2*E3 + 1458*E1^3*E3^2 + 6804*E1^3*E2*E4 + 6075*E1^4*E5 - 13122*E1*E2^2*E3*u - 6561*E1^2*E3^2*u - 13122*E1^2*E2*E4*u - 21870*E1^3*E5*u + 13122*E2^2*E3*u^2 + 6561*E1*E3^2*u^2 + 13122*E1*E2*E4*u^2 + 54675*E1^2*E5*u^2 - 65610*E1*E5*u^3 + 32805*E5*u^4 - 4374*E1*E2^2*E4 - 2187*E1^2*E3*E4 - 15309*E1^2*E2*E5 - 3645*E1^3*E6 + 13122*E1*E3*E4*u + 13122*E1*E2*E5*u - 13122*E3*E4*u^2 - 13122*E2*E5*u^2 - 2187*E1*E4^2 + 13122*E2^2*E5 + 13122*E1*E2*E6 + 6561*E4*E5 - 19683*E3*E6"
+  },
+  "seconds": 102.736,
+  "source_sha256": {
+    "experiments/e7_two_primary_basis.py": "c8cb2fb28a750be3a90f461d40ce3c9303855e2f82519a4d856d84c56bfc804f",
+    "experiments/e7-character-form-results.json": "3ca87b95bedb7990b209e6d4094f4364862a334c34449c6e5969b7f41a45cf4d",
+    "experiments/e7-adjoint-comparison-results.json": "78b6cc538883ec7537aef4edc13d0a16efe406433afa73d105598ecd047301dd"
+  },
+  "method": "Fresh Newton coefficient expansions; full-source membership and mod-2 primitivity; explicit simultaneous image bases and algebra closure in the published rational ring."
+}

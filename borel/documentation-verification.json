@@ -8,8 +8,76 @@
       "python_blocks_executed": 0
     },
     {
+      "file": "../articles/research-program-proposal/README.md",
+      "python_blocks_executed": 0
+    },
+    {
       "file": "README.md",
       "python_blocks_executed": 2
+    },
+    {
+      "file": "RESEARCH_LEDGER.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "AGENTS.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "LOCAL_IMAGE_BOUND.md",
+      "python_blocks_executed": 1
+    },
+    {
+      "file": "EQUIVARIANT_IMAGE_PILOT.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "LOCAL_IMAGE_AUDIT.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "E6_ROOT_WEIGHT_COMPARISON.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "E6_ROOT_WEIGHT_AUDIT.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "E6_REMAINING_CASES.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "E6_REMAINING_AUDIT.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "E6_REMAINING_TABLES.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "E7_ROOT_WEIGHT_COMPARISON.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "E7_ROOT_WEIGHT_AUDIT.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "E7_REFINEMENT_MULTIPLICITIES.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "E7_FULL_FLAG_COMPARISON.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "E7_D5_REFINEMENT.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "E7_D4_REFINEMENT.md",
+      "python_blocks_executed": 0
     },
     {
       "file": "MATHEMATICS.md",
@@ -125,6 +193,10 @@
     },
     {
       "file": "E7_GEOMETRY.md",
+      "python_blocks_executed": 1
+    },
+    {
+      "file": "EXCEPTIONAL_DEGREES.md",
       "python_blocks_executed": 1
     },
     {
@@ -276,7 +348,7 @@
       "python_blocks_executed": 0
     }
   ],
-  "local_links_and_anchors_checked": 801,
-  "python_blocks_executed": 39,
+  "local_links_and_anchors_checked": 1128,
+  "python_blocks_executed": 41,
   "scope": "Python fences executed in reading order in a fresh namespace per document; local links and anchors checked. Shell snippets and external URLs were not automatically executed or crawled."
 }

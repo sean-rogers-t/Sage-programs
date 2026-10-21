@@ -1,0 +1,419 @@
+{
+  "result": "passed",
+  "basic_degrees": [
+    2,
+    5,
+    6,
+    8,
+    9,
+    12
+  ],
+  "basic_values": [
+    2,
+    -4,
+    88,
+    954,
+    -340,
+    55780
+  ],
+  "point": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "primitive_basic_degree_certificates": [
+    {
+      "degree": 2,
+      "rational_invariant_monomials": [
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "coefficient_rows": 21,
+      "primitive_mod2_rank": 1
+    },
+    {
+      "degree": 5,
+      "rational_invariant_monomials": [
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "coefficient_rows": 194,
+      "primitive_mod2_rank": 1
+    },
+    {
+      "degree": 6,
+      "rational_invariant_monomials": [
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "coefficient_rows": 462,
+      "primitive_mod2_rank": 2
+    },
+    {
+      "degree": 8,
+      "rational_invariant_monomials": [
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          4,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "coefficient_rows": 1287,
+      "primitive_mod2_rank": 3
+    },
+    {
+      "degree": 9,
+      "rational_invariant_monomials": [
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "coefficient_rows": 1850,
+      "primitive_mod2_rank": 2
+    },
+    {
+      "degree": 12,
+      "rational_invariant_monomials": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          6,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "coefficient_rows": 6188,
+      "primitive_mod2_rank": 6
+    }
+  ],
+  "weight_forms": [
+    [
+      4,
+      3,
+      5,
+      6,
+      4,
+      2
+    ],
+    [
+      1,
+      -3,
+      -1,
+      -3,
+      -2,
+      -1
+    ],
+    [
+      1,
+      3,
+      5,
+      6,
+      4,
+      2
+    ],
+    [
+      -2,
+      -3,
+      -1,
+      -3,
+      -2,
+      -1
+    ],
+    [
+      1,
+      3,
+      2,
+      6,
+      4,
+      2
+    ],
+    [
+      -2,
+      -3,
+      -4,
+      -3,
+      -2,
+      -1
+    ],
+    [
+      1,
+      3,
+      2,
+      3,
+      4,
+      2
+    ],
+    [
+      -2,
+      -3,
+      -4,
+      -6,
+      -2,
+      -1
+    ],
+    [
+      1,
+      3,
+      2,
+      3,
+      1,
+      2
+    ],
+    [
+      -2,
+      -3,
+      -4,
+      -6,
+      -5,
+      -1
+    ],
+    [
+      1,
+      3,
+      2,
+      3,
+      1,
+      -1
+    ],
+    [
+      -2,
+      -3,
+      -4,
+      -6,
+      -5,
+      -4
+    ],
+    [
+      -2,
+      0,
+      -4,
+      -3,
+      -2,
+      -1
+    ],
+    [
+      -2,
+      0,
+      -1,
+      -3,
+      -2,
+      -1
+    ],
+    [
+      -2,
+      0,
+      -1,
+      0,
+      -2,
+      -1
+    ],
+    [
+      -2,
+      0,
+      -1,
+      0,
+      1,
+      -1
+    ],
+    [
+      -2,
+      0,
+      -1,
+      0,
+      1,
+      2
+    ],
+    [
+      1,
+      0,
+      -1,
+      -3,
+      -2,
+      -1
+    ],
+    [
+      1,
+      0,
+      -1,
+      0,
+      -2,
+      -1
+    ],
+    [
+      1,
+      0,
+      -1,
+      0,
+      1,
+      -1
+    ],
+    [
+      1,
+      0,
+      -1,
+      0,
+      1,
+      2
+    ],
+    [
+      1,
+      0,
+      2,
+      0,
+      -2,
+      -1
+    ],
+    [
+      1,
+      0,
+      2,
+      0,
+      1,
+      -1
+    ],
+    [
+      1,
+      0,
+      2,
+      0,
+      1,
+      2
+    ],
+    [
+      1,
+      0,
+      2,
+      3,
+      1,
+      -1
+    ],
+    [
+      1,
+      0,
+      2,
+      3,
+      1,
+      2
+    ],
+    [
+      1,
+      0,
+      2,
+      3,
+      4,
+      2
+    ]
+  ],
+  "permutation_reflections": 6,
+  "chern_invariant_degree": 16,
+  "chern_invariant_value": -696735,
+  "odd_weight_values": 16,
+  "seconds": 0.765,
+  "scope": "The six normalized rational-degree generators do not generate the full 2-local E6 invariant ring. This obstructs that polynomial common-basis proof, not the conjectured E7 image transfer formula.",
+  "source_sha256": {
+    "experiments/e7_refinement_invariant_obstruction.py": "4d1ff10f8dc87e8e82936ad2cb0f32d03e9f40062b441278b78baf39b1d18608",
+    "experiments/e7_two_primary_basis.py": "c8cb2fb28a750be3a90f461d40ce3c9303855e2f82519a4d856d84c56bfc804f"
+  }
+}

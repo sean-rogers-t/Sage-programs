@@ -1,5 +1,17 @@
 # E7: minimal and adjoint integral Springer/Borel images
 
+Update, 20 October 2026: the [2-primary basis theorem](E7_ROOT_WEIGHT_COMPARISON.md)
+now explains the P7 relative factors by explicit simultaneous bases.
+Only factors 2 occur, with polynomial q[14]_(q2)+(q6+q10)[7]_(q2).
+A stable common lattice complement and a root-image quadratic also
+prove exponent 2 on all 64 retained subsets of the E6 Levi. Their
+multiplicities are not supplied by that bound. See the separate
+[proof/source audit](E7_ROOT_WEIGHT_AUDIT.md).
+
+The [A6 intermediary theorem](E7_FULL_FLAG_COMPARISON.md) now determines
+the all-degree relative root/weight factors on the full flag and 109
+proper parabolics, supplying the corresponding scaled image comparisons.
+
 For simply connected E7, with root lattice Q and weight lattice P,
 the full integral polynomial-character sources are
 

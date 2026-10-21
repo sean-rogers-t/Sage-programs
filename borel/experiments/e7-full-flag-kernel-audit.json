@@ -1,0 +1,43 @@
+{
+  "result": "passed",
+  "engine": "Plain Python integer moments and NumPy 2^64 coefficient congruences; own Python bit ranks; no Sage or project imports",
+  "degrees": [
+    {
+      "degree": 10,
+      "kernel_rank": 210,
+      "odd_relation_rank": 62,
+      "multiplicity_2": 1940,
+      "minimum_exact_binary_precision": 64
+    },
+    {
+      "degree": 11,
+      "kernel_rank": 462,
+      "odd_relation_rank": 148,
+      "multiplicity_2": 2855,
+      "minimum_exact_binary_precision": 63
+    },
+    {
+      "degree": 12,
+      "kernel_rank": 924,
+      "odd_relation_rank": 314,
+      "multiplicity_2": 4054,
+      "minimum_exact_binary_precision": 63
+    },
+    {
+      "degree": 13,
+      "kernel_rank": 1716,
+      "odd_relation_rank": 610,
+      "multiplicity_2": 5578,
+      "minimum_exact_binary_precision": 63
+    }
+  ],
+  "seconds": 21.466,
+  "scope": "Rebuilds all initial relations and coefficients, replays every integral saturation witness, and checks full and odd ranks in the recorded degrees only.",
+  "source_sha256": {
+    "experiments/audit_e7_full_flag_kernel.py": "14d611048c4059f8542dcc9aee82a64200339f97b5ea2b1c0507880db426d1aa",
+    "experiments/e7-full-flag-kernel.json": "314525db493c03bad659992c2b1089156c215348ed9babc68a7d6c8d0e4ae087"
+  },
+  "raw_sha256": {
+    "experiments/e7-full-flag-kernel-certificates.json.gz": "6f870ee628bf72704fefad772c00322569950a7f19773684b1dde800ed6cba4e"
+  }
+}

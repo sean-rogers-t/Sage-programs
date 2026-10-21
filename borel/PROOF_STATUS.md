@@ -1,5 +1,9 @@
 # Proof and literature status of the integral image notes
 
+The [research ledger](RESEARCH_LEDGER.md) indexes the program's uniform
+results, finite cases, conditional routes, counterexamples and open questions.
+The detailed statements and source audits below retain their original scope.
+
 Audit date: 2026-10-19. Scope: the type B/D Smith notes, the subsequent
 type C joint-image argument, and their
 normalization, lattice, geometric, and symmetric-function dependencies.
@@ -27,6 +31,182 @@ The conclusions below are based on the displayed arguments and checked
 source statements. External expert review and any claim of priority remain
 separate work.
 
+## First local-image benchmark and equivariant pilot
+
+Update, 20 October 2026. The [new proof/source audit](LOCAL_IMAGE_AUDIT.md)
+checks the [local image bound and projective family](LOCAL_IMAGE_BOUND.md)
+and [equivariant specialization counterexample](EQUIVARIANT_IMAGE_PILOT.md).
+The normalized source lattice lies in X(T), by differentiating its integral
+Laurent pullbacks at 1. Primitive Schubert pullback then proves integrality
+of every full literal Levi Borel image in the source theorem's scope.
+
+Classical torsion-index divided differences supply integral Levi-invariant
+lifts of t_G times every parabolic Schubert class. Hence each degree-d
+full-source cokernel is killed by t_G e_rho^d, with
+e_rho=exp(X/Lambda_rho). There is no extra Levi Weyl-order factor.
+This is an explicit application of published characteristic-map machinery,
+not a new general good-prime theorem.
+
+The standard free equivariant Schubert basis and triangular induction
+also recover the whole equivariant image at these good primes. Each
+fixed-degree specialization kernel is finite with primes dividing
+t_G e_rho. This does not force faithful specialization at the bad primes.
+
+For defining SL_n on P^(n-1), the literal factors are n/gcd(n,d).
+The proof uses elementary root-difference invariants, binomial generator
+images and a p-adic gcd argument. Its root-characteristic interpretation
+requires further literature comparison; priority is not established.
+The equivariant SL4/P1 image gives a nonzero specialization kernel:
+exactly Z/2 in polynomial degree five, with no defects in smaller degrees.
+The integral proof and independent Sage/SymPy rank-52 lattice calculations
+agree. Higher-degree defects and a general equivariant backend remain open.
+Runtime sources and the 0.20.0 wheel are unchanged.
+
+## Sharp E6 root-to-weight comparison
+
+Update, 20 October 2026. The [comparison theorem](E6_ROOT_WEIGHT_COMPARISON.md)
+and [stepwise audit](E6_ROOT_WEIGHT_AUDIT.md), together with the
+[three-case completion](E6_REMAINING_CASES.md) and its
+[audit](E6_REMAINING_AUDIT.md), prove exact 3-primary factors for all 63
+proper standard E6 parabolics. The Cayley-plane image
+has a complete local source-monomial basis. A common relative Schubert
+basis transfers its factors to finer flags; at a good adjoint Levi,
+Leray--Hirsch deconvolves full-flag multiplicities by the Levi length
+polynomial, covering 60 cases. The three retained sets containing
+{1,3,5,6} use a different proof: an A5+A1 subsystem at 3 and full
+source coefficient lattices. The two base cases have 52 independently
+audited degrees in total; the third follows from a common (1,z) basis.
+The [complete tables](E6_REMAINING_TABLES.md) include all three cases.
+
+The ring presentation and characteristic-map framework are published
+inputs. Totaro's adjoint torsion index already implies the uniform
+exponent bound 27 and the full-flag top-degree ratio 9. The exact
+all-degree multiplicity formulas and their all-parabolic application
+are deductions recorded here; no literature-priority claim is made.
+An independent Python/SymPy implementation reconstructs the base
+lattices, BGG coefficients, Levi Weyl polynomials and deconvolutions;
+additional direct BGG checks test other flags. The completion independently
+reconstructs the rational quotient and every source/image column, and has
+20 further direct BGG degree/case checks. Sage exact arithmetic is shared
+in this replay; the structural and literal-weight checks use plain
+Python/SymPy. These are computer-assisted deductions, not an ambient H/N
+classification. Runtime remains 0.20.0.
+
+## E7/P7 simultaneous bases and the refinement exponent
+
+Update, 20 October 2026. The [2-primary comparison](E7_ROOT_WEIGHT_COMPARISON.md)
+and [audit](E7_ROOT_WEIGHT_AUDIT.md) identify the full local images as
+N=R[h,2s,2t] and M=R[2h,h2,2s,2t], with R=Z_(2). A common 56-element
+basis consists of h^i for i<=27 and h^i(2s),h^i(2t) for i<=13;
+the root image doubles exactly the elements with odd h exponent.
+Thus N^d/M^d is elementary 2-primary, with multiplicity polynomial
+q[14]_(q2)+(q6+q10)[7]_(q2). The old finite tables already recorded
+these factors; the extension is their explicit basis proof.
+
+The candidate-ring basis and its closure follow by explicit identities
+in Duan--Zhao's published integral ring. Four root-invariant lifts give
+the candidate generators. The full-image identification is a finite
+computer-assisted step: both complete invariant sources are freshly
+certified in all 28 degrees, retaining the rational kernel before
+integrality and image formation. An independent Girard/SymPy/bit-elimination
+replay checks every source and image column; Sage exact arithmetic is
+shared in that replay. Fresh BGG checks verify all seven generators,
+and Chevalley multiplication checks all 56 basis classes. A plain
+Python/SymPy check separately verifies lattice and ring identities.
+
+An index-3 common E6 complement at 2, with omega7 fixed and a root
+quadratic lifting h2, gives N_I=M_I+hM_I and hence 2N_I contained in M_I
+for all 64 retained subsets I of {1,...,6}. This is a structural
+adjoining-generator deduction, not an application of a non-torsion
+Levi-fiber theorem. It supplies no multiplicities on those finer flags.
+Totaro's general exponent bound 8 is published background; priority
+of the sharper application and explicit basis statement remains
+unestablished. Runtime and the installed wheel remain 0.20.0.
+
+## E7/P7 refinements: a uniform truncation and a source obstruction
+
+The [refinement note](E7_REFINEMENT_MULTIPLICITIES.md) proves the multiplicity
+formula [q^(d-1)] (1-q6)(1-q8)H_I(q) for every retained I in {1,...,6}
+and 0<=d<=9. The 56-weight and independent 27-form constructions yield
+primitive quadratic/sextic/octic kernel certificates in this range.
+A direct full-source BGG/Hermite/Smith calculation on the A5 refinement
+checks all ten degrees. This is a uniform bounded-degree theorem, not
+a complete finer-flag multiplicity formula.
+
+The original all-degree target reduced by classical good-Levi deconvolution
+and an integral D5 symmetry to three base polynomials: full flag, D5 and
+D4. The subsequent A6 theorem below completes the full-flag polynomial. A separate degree-16 Chern invariant proves that six normalized
+rational-degree E6 generators do not generate the full invariant source
+at 2. Both coefficient completeness and the witness have a plain-integer
+audit. This does not disprove an image transfer formula. Known inputs,
+precise finite scope and unresolved novelty are recorded in the note.
+
+## E7 full flag: complete A6 intermediary proof
+
+The [new all-degree comparison](E7_FULL_FLAG_COMPARISON.md) proves
+T_full=q P_(W(E7))/(1+q). A common A6 complement at 2 makes both full
+invariant sources polynomial, and 576-dimensional exact image bases
+exhaust every degree of E7/P2. The independent checks include fresh
+126-root/Girard relations, plain-Python Buchberger and image closure with
+primitive generation, and direct full-flag saturated kernels in degrees
+10..13. The latter exhibit corrections missed by unsaturated rational
+relation multiples. Both complete A6 source identifications and rational
+kernel completeness are justified before taking images.
+
+Classical common Artin/fiber bases transfer the result to the full flag
+and 108 proper good-Levi parabolics; the separate P7 theorem adds a 109th.
+This A6 argument completes 61/64 P7 refinements; the D5 completion below
+adds two, leaving D4 as the remaining all-degree target. The degree-16 E6
+invariant-ring obstruction is still
+valid. The new proof uses an A6 intermediary. Published inputs, shared
+arithmetic backends, finite scope and unresolved novelty are stated in
+the proof note. Ambient H/N and arbitrary direct sums are separate.
+
+## E7 D5 refinements: complete full-source comparison
+
+The [D5 proof and audit](E7_D5_REFINEMENT.md) proves
+T_D5=q P_(W(E7))/((1+q)P_(W(D5))) for retained sets {2,3,4,5,6} and
+{1,2,3,4,5}, with 756 factors 2 across degrees 0..43. A ten-generator
+2-local invariant source is proved complete by a mod-2 graph/Hilbert
+certificate and Nakayama, rather than assuming polynomiality at 2.
+The rational quotient of total dimension 1512 and both complete image
+lattices are exhausted. Plain-Python source, fresh-weight polynomial
+identity/Jacobian, Buchberger and image-generation audits use separate
+arithmetic implementations. E6 opposition transfers the result to the
+second D5 case. Classical inputs and unresolved priority are identified
+in the proof. The method now covers 111 proper E7 parabolics and 63/64
+P7 refinements at this stage; the D4 theorem below completes the family. This does not classify
+ambient H/N or direct-sum sources and adds no runtime API.
+
+## E7 D4 completion: all 64 P7 refinements
+
+The [D4 proof and audit](E7_D4_REFINEMENT.md) completes retained
+I={2,3,4,5}: the relative factors are all 2, with multiplicity polynomial
+q P_W(E7)/((1+q)P_W(D4)) and 7,560 factors across degrees 0..51.
+Its ten-generator full integral source is certified by an independent
+mod-2 graph/Hilbert and lattice audit. The relative source quotient over
+D5 has dimension 34, so a free rank-10 invariant-source transfer fails.
+Instead all 34 integral module generators enter a rational quadric tower.
+The reference root and weight lattices enlarge by equal indices in every
+degree, checked by PARI HNF and independently reconstructed matrices with
+native unit-pivot Smith elimination. The previously audited D5 rational
+quotient and full image bases are shared inputs, explicitly identified.
+
+Together with the P7/A6/D5 proofs, this proves
+T_I=q P_W(E7)/((1+q)P_WI) for all 64 I contained in {1,...,6}.
+The common source split and these Hilbert dimensions also imply that
+N/2N is a free quadratic algebra on (1,w) over C=image(M -> N/2N),
+with w^2=beta(B_i), choosing any omitted i in {2,5,7} and
+w=beta(omega_i). The three common complements have odd indices 7,15,3,
+and the integral quadratic lifts are checked separately. This C is not M/2M.
+The combined scope is exactly the 112 proper E7 parabolics omitting at
+least one of nodes 2,5,7. The other 15 retain all three and have N^1=M^1,
+so the same polynomial cannot extend unchanged to them. This is an exhaustive computer-assisted proof for the stated
+finite family, not a uniform theorem for arbitrary root data. Known
+Borel/invariant/Nakayama inputs and the new finite deductions are
+separated; priority, ambient H/N and a structural explanation of the
+index equality remain unresolved. No runtime API changes.
+
 ## Exceptional integral images: first complete finite tables
 
 The [Springer geometry extension](SPRINGER_GEOMETRY.md) concerns a separate
@@ -47,8 +227,12 @@ degree 18 and both full 133-dimensional determinant products. Its dominance
 bounds and exact unisolvent checks certify all coefficients; independent
 56/133-dimensional representations check all Cartan entries and 126 root
 directions for both maps. The 912-dimensional character is reconstructed
-separately by root strings and Freudenthal. E6/E7 generic degrees remain
-uncomputed. These are exact deductions and computations, without a
+separately by root strings and Freudenthal. The [generic-degree deduction](EXCEPTIONAL_DEGREES.md)
+now gives E6 degrees 1080/2754 and E7 degrees 7272/33664 for minimal/adjoint
+maps on simply connected groups. It uses explicit toric boundary schemes
+and their localized intersection contributions. Separate specialized-fiber
+lengths provide finite corroboration, not the characteristic-zero proof.
+These are exact deductions and computations, without a
 novelty claim. They do not identify the minimal Cayley degree of a group.
 
 The [irreducible lattice classification](IRREDUCIBLE_CHARACTER_LATTICES.md)

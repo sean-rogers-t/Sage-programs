@@ -1,0 +1,345 @@
+{
+  "result": "passed",
+  "cases": [
+    {
+      "omitted_nodes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "degree": 0,
+      "rank": 1,
+      "source_columns": 1,
+      "multiplicities": {
+        "1": 0,
+        "2": 0,
+        "3": 0
+      }
+    },
+    {
+      "omitted_nodes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "degree": 1,
+      "rank": 6,
+      "source_columns": 6,
+      "multiplicities": {
+        "1": 1,
+        "2": 0,
+        "3": 0
+      }
+    },
+    {
+      "omitted_nodes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "degree": 2,
+      "rank": 20,
+      "source_columns": 21,
+      "multiplicities": {
+        "1": 6,
+        "2": 0,
+        "3": 0
+      }
+    },
+    {
+      "omitted_nodes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "degree": 3,
+      "rank": 50,
+      "source_columns": 56,
+      "multiplicities": {
+        "1": 19,
+        "2": 1,
+        "3": 0
+      }
+    },
+    {
+      "omitted_nodes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "degree": 4,
+      "rank": 105,
+      "source_columns": 126,
+      "multiplicities": {
+        "1": 44,
+        "2": 6,
+        "3": 0
+      }
+    },
+    {
+      "omitted_nodes": [
+        1,
+        6
+      ],
+      "degree": 0,
+      "rank": 1,
+      "source_columns": 1,
+      "multiplicities": {
+        "1": 0,
+        "2": 0,
+        "3": 0
+      }
+    },
+    {
+      "omitted_nodes": [
+        1,
+        6
+      ],
+      "degree": 1,
+      "rank": 2,
+      "source_columns": 2,
+      "multiplicities": {
+        "1": 1,
+        "2": 0,
+        "3": 0
+      }
+    },
+    {
+      "omitted_nodes": [
+        1,
+        6
+      ],
+      "degree": 2,
+      "rank": 3,
+      "source_columns": 4,
+      "multiplicities": {
+        "1": 2,
+        "2": 0,
+        "3": 0
+      }
+    },
+    {
+      "omitted_nodes": [
+        1,
+        6
+      ],
+      "degree": 3,
+      "rank": 4,
+      "source_columns": 6,
+      "multiplicities": {
+        "1": 2,
+        "2": 1,
+        "3": 0
+      }
+    },
+    {
+      "omitted_nodes": [
+        1,
+        6
+      ],
+      "degree": 4,
+      "rank": 7,
+      "source_columns": 11,
+      "multiplicities": {
+        "1": 2,
+        "2": 2,
+        "3": 0
+      }
+    },
+    {
+      "omitted_nodes": [
+        1,
+        6
+      ],
+      "degree": 5,
+      "rank": 9,
+      "source_columns": 16,
+      "multiplicities": {
+        "1": 3,
+        "2": 2,
+        "3": 1
+      }
+    },
+    {
+      "omitted_nodes": [
+        1,
+        6
+      ],
+      "degree": 6,
+      "rank": 11,
+      "source_columns": 25,
+      "multiplicities": {
+        "1": 3,
+        "2": 3,
+        "3": 1
+      }
+    },
+    {
+      "omitted_nodes": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "degree": 0,
+      "rank": 1,
+      "source_columns": 1,
+      "multiplicities": {
+        "1": 0,
+        "2": 0,
+        "3": 0
+      }
+    },
+    {
+      "omitted_nodes": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "degree": 1,
+      "rank": 4,
+      "source_columns": 4,
+      "multiplicities": {
+        "1": 1,
+        "2": 0,
+        "3": 0
+      }
+    },
+    {
+      "omitted_nodes": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "degree": 2,
+      "rank": 11,
+      "source_columns": 12,
+      "multiplicities": {
+        "1": 4,
+        "2": 0,
+        "3": 0
+      }
+    },
+    {
+      "omitted_nodes": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "degree": 3,
+      "rank": 24,
+      "source_columns": 28,
+      "multiplicities": {
+        "1": 10,
+        "2": 1,
+        "3": 0
+      }
+    },
+    {
+      "omitted_nodes": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "degree": 4,
+      "rank": 46,
+      "source_columns": 58,
+      "multiplicities": {
+        "1": 20,
+        "2": 4,
+        "3": 0
+      }
+    },
+    {
+      "omitted_nodes": [
+        3
+      ],
+      "degree": 0,
+      "rank": 1,
+      "source_columns": 1,
+      "multiplicities": {
+        "1": 0,
+        "2": 0,
+        "3": 0
+      }
+    },
+    {
+      "omitted_nodes": [
+        3
+      ],
+      "degree": 1,
+      "rank": 1,
+      "source_columns": 1,
+      "multiplicities": {
+        "1": 1,
+        "2": 0,
+        "3": 0
+      }
+    },
+    {
+      "omitted_nodes": [
+        3
+      ],
+      "degree": 2,
+      "rank": 2,
+      "source_columns": 3,
+      "multiplicities": {
+        "1": 1,
+        "2": 0,
+        "3": 0
+      }
+    },
+    {
+      "omitted_nodes": [
+        3
+      ],
+      "degree": 3,
+      "rank": 3,
+      "source_columns": 4,
+      "multiplicities": {
+        "1": 1,
+        "2": 1,
+        "3": 0
+      }
+    },
+    {
+      "omitted_nodes": [
+        3
+      ],
+      "degree": 4,
+      "rank": 5,
+      "source_columns": 8,
+      "multiplicities": {
+        "1": 2,
+        "2": 1,
+        "3": 0
+      }
+    }
+  ],
+  "seconds": 38.23,
+  "scope": "22 direct BGG image comparisons on full flags, the D4 refinement, retained A1+A1 and maximal A4+A1. The last uses full integral invariant kernels; not all 60 parabolics are directly recomputed.",
+  "source_sha256": {
+    "experiments/e6_root_weight_refinement_check.py": "b3e0003e39b4c8fe11cc38a77fb95aa18862e9e8caef3be44b90ed8ff7f1fd77",
+    "experiments/e6-root-weight-comparison.json": "eaecbcc26a14c9318794d0286f7edd72378c7fe187ad365173eef9d3173afef8",
+    "experiments/e6_root_weight_comparison.py": "06c2f2b08c1eb97d27f1a9019bcf30a56b6752e5223147e1f64aa017c5ea1099"
+  }
+}

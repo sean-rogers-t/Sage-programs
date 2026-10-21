@@ -1,0 +1,17 @@
+{
+  "result": "passed",
+  "engine": "SymPy 1.12 and Python stdlib",
+  "sage_imported": false,
+  "runtime_imported": false,
+  "independently_rebuilt_degree5_ambient_rank": 52,
+  "degree5_quotient_nonunit_factors": [
+    2
+  ],
+  "witness_in_image": true,
+  "witness_not_in_parameter_times_image": true,
+  "twice_witness_in_parameter_times_image": true,
+  "fixed_point_generator_checks": 12,
+  "polynomial_identities": 6,
+  "ordinary_family_positive_degree_rows": 3160,
+  "source_scope": "Symbolic quotient and integer-lattice checks; separate written arguments prove the general statements and identify the literal source."
+}

@@ -5,6 +5,17 @@ original article PDFs are preserved byte for byte. The verification note is a
 separate local review prepared on 16 October 2026; its proposed corrections are
 not a published erratum and do not modify the source articles.
 
+## Research program proposal
+
+The [research proposal and progress inventory](research-program-proposal/README.md)
+connects the source papers and completed work to four core research aims:
+integral images, generic degrees, regularity and geometric Smith filtrations.
+A six-part extension track covers equivariant cohomology, K-theory, oriented
+theories, quantum lifts, affine Grassmannians and Kac–Moody groups.
+It includes proof routes, milestone gates and a bibliography, with an editable
+LaTeX source and compiled PDF. Proposed goals are separated from established
+inputs and internally audited deductions.
+
 ## Articles
 
 | Article | Local PDF | Published citation and original source |

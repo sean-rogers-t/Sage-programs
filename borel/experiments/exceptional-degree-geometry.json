@@ -1,0 +1,352 @@
+{
+  "result": "passed",
+  "scope": "Finite inputs to the written toric-intersection proof; not a formal proof assistant certificate.",
+  "polytopes": [
+    {
+      "cartan_type": "E6",
+      "representation": "minimal",
+      "lattice": "weight lattice P",
+      "vertices": 27,
+      "facet_vertex_counts": {
+        "6": 72,
+        "10": 27
+      },
+      "normalized_volume": 1080,
+      "facets": [
+        {
+          "label": "root",
+          "facets": 72,
+          "height": 1,
+          "vertices": 6,
+          "lattice_index": 3,
+          "cone_volume": "3",
+          "normal": [
+            -1,
+            -2,
+            -2,
+            -3,
+            -2,
+            -1
+          ]
+        },
+        {
+          "label": "coweight",
+          "facets": 27,
+          "height": 2,
+          "vertices": 10,
+          "lattice_index": 1,
+          "cone_volume": "32",
+          "normal": [
+            -4,
+            -3,
+            -5,
+            -6,
+            -4,
+            -2
+          ]
+        }
+      ],
+      "exact_H_V_equality": true,
+      "determinant_volume_agreement": true
+    },
+    {
+      "cartan_type": "E6",
+      "representation": "adjoint",
+      "lattice": "root lattice Q",
+      "vertices": 72,
+      "facet_vertex_counts": {
+        "16": 54
+      },
+      "normalized_volume": 2808,
+      "facets": [
+        {
+          "label": "node_1",
+          "facets": 27,
+          "height": 1,
+          "vertices": 16,
+          "lattice_index": 1,
+          "cone_volume": "52",
+          "normal": [
+            -1,
+            -1,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "label": "node_6",
+          "facets": 27,
+          "height": 1,
+          "vertices": 16,
+          "lattice_index": 1,
+          "cone_volume": "52",
+          "normal": [
+            -1,
+            -1,
+            0,
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "exact_H_V_equality": true,
+      "determinant_volume_agreement": true,
+      "codimension_two_faces": {
+        "simplex": 432,
+        "cross": 270,
+        "cross_lattice_index": 1,
+        "cross_incident_facets": 2,
+        "smooth_cross_normal_cones": true
+      }
+    },
+    {
+      "cartan_type": "E7",
+      "representation": "minimal",
+      "lattice": "weight lattice P",
+      "vertices": 56,
+      "facet_vertex_counts": {
+        "7": 576,
+        "12": 126
+      },
+      "normalized_volume": 9792,
+      "facets": [
+        {
+          "label": "root",
+          "facets": 126,
+          "height": 1,
+          "vertices": 12,
+          "lattice_index": 2,
+          "cone_volume": "64",
+          "normal": [
+            -2,
+            -2,
+            -3,
+            -4,
+            -3,
+            -2,
+            -1
+          ]
+        },
+        {
+          "label": "coweight",
+          "facets": 576,
+          "height": 3,
+          "vertices": 7,
+          "lattice_index": 1,
+          "cone_volume": "3",
+          "normal": [
+            -4,
+            -7,
+            -8,
+            -12,
+            -9,
+            -6,
+            -3
+          ]
+        }
+      ],
+      "exact_H_V_equality": true,
+      "determinant_volume_agreement": true
+    },
+    {
+      "cartan_type": "E7",
+      "representation": "adjoint",
+      "lattice": "root lattice Q",
+      "vertices": 126,
+      "facet_vertex_counts": {
+        "7": 576,
+        "27": 56
+      },
+      "normalized_volume": 21312,
+      "facets": [
+        {
+          "label": "node_2",
+          "facets": 576,
+          "height": 2,
+          "vertices": 7,
+          "lattice_index": 1,
+          "cone_volume": "2",
+          "normal": [
+            -2,
+            -1,
+            0,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "label": "node_7",
+          "facets": 56,
+          "height": 1,
+          "vertices": 27,
+          "lattice_index": 1,
+          "cone_volume": "360",
+          "normal": [
+            -1,
+            -1,
+            0,
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "exact_H_V_equality": true,
+      "determinant_volume_agreement": true
+    }
+  ],
+  "half_spin": {
+    "character_terms": 16,
+    "exact_Jacobian_ideal_equals_30_line_union": true,
+    "D5_half_spin_facet_identification": true,
+    "curves_per_facet": 15,
+    "triples_per_facet": 10,
+    "curve_hessian_rank": 4,
+    "exceptional_parameters": [
+      -1,
+      1
+    ],
+    "triple_hessian_rank": 2,
+    "transverse_hessian_determinant": "16*t^4 - 32*t^2 + 16",
+    "double_point_segre_correction": -2,
+    "triple_point_segre_correction": -4,
+    "curve_section_degree": 1,
+    "anticanonical_curve_degree": 1,
+    "smooth_curve_contribution": 7
+  },
+  "E6_critical_zero": {
+    "unique_character_point": [
+      0,
+      -3,
+      0,
+      9,
+      0,
+      0
+    ],
+    "coordinate_nilpotence_exponents": [
+      1,
+      7,
+      6,
+      7,
+      5,
+      6
+    ],
+    "exact_radical_support_certificate": true,
+    "cartan_determinant": "1/64",
+    "torsion_order": 3,
+    "torus_points": 240,
+    "one_Weyl_orbit": true,
+    "centralizer_root_system": "A2^3",
+    "centralizer_Weyl_order": 216,
+    "independent_orbit_stabilizer_count": 240,
+    "torsion_representative": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      2
+    ],
+    "central_quotient_degree": 3,
+    "E6_root_torus_critical_points": 80,
+    "E7_Levi_face_identification": true
+  },
+  "E6_boundary_node_sections": {
+    "unimodular_normal_chart": true,
+    "cross_face_Weyl_orbit": 270,
+    "node_count_per_face": 3,
+    "nodes": [
+      {
+        "point": [
+          1,
+          -1,
+          -1,
+          -1
+        ],
+        "hessian_determinant": "4",
+        "reduced_normal_leading_terms": [
+          "-b1*s*t",
+          "-b2*s*t"
+        ]
+      },
+      {
+        "point": [
+          1,
+          -1,
+          1,
+          -1
+        ],
+        "hessian_determinant": "4",
+        "reduced_normal_leading_terms": [
+          "-b1*s*t",
+          "-b2*s*t"
+        ]
+      },
+      {
+        "point": [
+          1,
+          1,
+          -1,
+          1
+        ],
+        "hessian_determinant": "4",
+        "reduced_normal_leading_terms": [
+          "-b1*s*t",
+          "-b2*s*t"
+        ]
+      }
+    ],
+    "full_section_Schur_complement_checked": true
+  },
+  "E6_adjoint_boundary": {
+    "curves": 810,
+    "triple_points": 540,
+    "double_points": 810,
+    "excess_intersection": 1890
+  },
+  "degree_deductions": [
+    {
+      "cartan_type": "E6",
+      "representation": "minimal",
+      "torus_lattice": "P",
+      "normalized_volume": 1080,
+      "boundary_correction": 0,
+      "central_cover": 1,
+      "degree": 1080
+    },
+    {
+      "cartan_type": "E6",
+      "representation": "adjoint",
+      "torus_lattice": "Q",
+      "normalized_volume": 2808,
+      "boundary_correction": 1890,
+      "central_cover": 3,
+      "degree": 2754
+    },
+    {
+      "cartan_type": "E7",
+      "representation": "minimal",
+      "torus_lattice": "P",
+      "normalized_volume": 9792,
+      "boundary_correction": 2520,
+      "central_cover": 1,
+      "degree": 7272
+    },
+    {
+      "cartan_type": "E7",
+      "representation": "adjoint",
+      "torus_lattice": "Q",
+      "normalized_volume": 21312,
+      "boundary_correction": 4480,
+      "central_cover": 2,
+      "degree": 33664
+    }
+  ],
+  "seconds": 16.650108671999988
+}

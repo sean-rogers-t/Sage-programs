@@ -1,0 +1,39 @@
+{
+  "result": "passed",
+  "sage_imported": false,
+  "runtime_imported": false,
+  "generator_bgg_coefficients": 11,
+  "independently_checked_minuscule_labels": 27,
+  "independently_rebuilt_image_lattices": 17,
+  "independently_enumerated_d5_refinements": 32,
+  "independently_enumerated_e6_levi_polynomials": 63,
+  "sharp_deconvolution_cases": 60,
+  "exceptional_retained_sets": [
+    [
+      1,
+      3,
+      5,
+      6
+    ],
+    [
+      1,
+      2,
+      3,
+      5,
+      6
+    ],
+    [
+      1,
+      3,
+      4,
+      5,
+      6
+    ]
+  ],
+  "scope": "Independent arithmetic, source-coordinate and BGG checks; geometric source/transfer theorems are separately proved, not inferred from the finite checks.",
+  "seconds": 2.5,
+  "source_sha256": {
+    "experiments/e6-root-weight-comparison.json": "eaecbcc26a14c9318794d0286f7edd72378c7fe187ad365173eef9d3173afef8",
+    "experiments/verify_e6_root_weight_independent.py": "6aa061c0c03b7e4cfed45beb72ee4b511bb0a879ba615c127775a1f27a0d0e7b"
+  }
+}

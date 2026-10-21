@@ -1,0 +1,156 @@
+{
+  "result": "passed",
+  "fresh_bgg_generators": 7,
+  "chevalley_basis_degrees": 28,
+  "total_basis_classes": 56,
+  "degrees": [
+    {
+      "degree": 0,
+      "rank": 1,
+      "basis_change_2_unit": true
+    },
+    {
+      "degree": 1,
+      "rank": 1,
+      "basis_change_2_unit": true
+    },
+    {
+      "degree": 2,
+      "rank": 1,
+      "basis_change_2_unit": true
+    },
+    {
+      "degree": 3,
+      "rank": 1,
+      "basis_change_2_unit": true
+    },
+    {
+      "degree": 4,
+      "rank": 1,
+      "basis_change_2_unit": true
+    },
+    {
+      "degree": 5,
+      "rank": 2,
+      "basis_change_2_unit": true
+    },
+    {
+      "degree": 6,
+      "rank": 2,
+      "basis_change_2_unit": true
+    },
+    {
+      "degree": 7,
+      "rank": 2,
+      "basis_change_2_unit": true
+    },
+    {
+      "degree": 8,
+      "rank": 2,
+      "basis_change_2_unit": true
+    },
+    {
+      "degree": 9,
+      "rank": 3,
+      "basis_change_2_unit": true
+    },
+    {
+      "degree": 10,
+      "rank": 3,
+      "basis_change_2_unit": true
+    },
+    {
+      "degree": 11,
+      "rank": 3,
+      "basis_change_2_unit": true
+    },
+    {
+      "degree": 12,
+      "rank": 3,
+      "basis_change_2_unit": true
+    },
+    {
+      "degree": 13,
+      "rank": 3,
+      "basis_change_2_unit": true
+    },
+    {
+      "degree": 14,
+      "rank": 3,
+      "basis_change_2_unit": true
+    },
+    {
+      "degree": 15,
+      "rank": 3,
+      "basis_change_2_unit": true
+    },
+    {
+      "degree": 16,
+      "rank": 3,
+      "basis_change_2_unit": true
+    },
+    {
+      "degree": 17,
+      "rank": 3,
+      "basis_change_2_unit": true
+    },
+    {
+      "degree": 18,
+      "rank": 3,
+      "basis_change_2_unit": true
+    },
+    {
+      "degree": 19,
+      "rank": 2,
+      "basis_change_2_unit": true
+    },
+    {
+      "degree": 20,
+      "rank": 2,
+      "basis_change_2_unit": true
+    },
+    {
+      "degree": 21,
+      "rank": 2,
+      "basis_change_2_unit": true
+    },
+    {
+      "degree": 22,
+      "rank": 2,
+      "basis_change_2_unit": true
+    },
+    {
+      "degree": 23,
+      "rank": 1,
+      "basis_change_2_unit": true
+    },
+    {
+      "degree": 24,
+      "rank": 1,
+      "basis_change_2_unit": true
+    },
+    {
+      "degree": 25,
+      "rank": 1,
+      "basis_change_2_unit": true
+    },
+    {
+      "degree": 26,
+      "rank": 1,
+      "basis_change_2_unit": true
+    },
+    {
+      "degree": 27,
+      "rank": 1,
+      "basis_change_2_unit": true
+    }
+  ],
+  "seconds": 51.669,
+  "scope": "Direct divided differences for all seven catalogue generators; positive-root Chevalley multiplication from published h,s,t Schubert anchors for every proposed image basis. Historical image lattices are compared, not taken as a new source proof.",
+  "source_sha256": {
+    "experiments/e7_two_primary_schubert_check.py": "0f0503b5a4230cff2fdf98d36e4faceec111bc08934d4fa1588e4cb1870b9242",
+    "tests/test_exceptional.py": "9f38f556e486149e303b84eaedb49a9de427602cd9ce3e86cb17ab62a1fc1e22",
+    "experiments/e7-character-form-results.json": "3ca87b95bedb7990b209e6d4094f4364862a334c34449c6e5969b7f41a45cf4d",
+    "experiments/e7-adjoint-comparison-results.json": "78b6cc538883ec7537aef4edc13d0a16efe406433afa73d105598ecd047301dd"
+  }
+}

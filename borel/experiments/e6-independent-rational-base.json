@@ -1,0 +1,24 @@
+{
+  "result": "passed",
+  "sympy_version": "1.12",
+  "sage_imported": false,
+  "degrees": [
+    5,
+    6,
+    8,
+    9,
+    12
+  ],
+  "relations": [
+    "-60*c2*c3 - 60*c5",
+    "-144*c2*c4 + 18*c3**2 + 144*c6",
+    "80*c2**4 - 160*c2**2*c4 + 120*c2*c3**2 - 960*c2*c6 - 120*c3*c5 + 80*c4**2",
+    "252*c2**3*c3 - 1260*c2**2*c5 + 504*c2*c3*c4 + 756*c3*c6 - 252*c4*c5",
+    "-240*c2**6 + 720*c2**4*c4 - 540*c2**3*c3**2 - 8640*c2**3*c6 + 3780*c2**2*c3*c5 + 3672*c2**2*c4**2 - 1368*c2*c3**2*c4 - 144*c2*c4*c6 - 3240*c2*c5**2 + 18*c3**4 + 1908*c3**2*c6 - 540*c3*c4*c5 + 240*c4**3 + 4392*c6**2"
+  ],
+  "recipe": "sum_(i<j)(xi+xj)^k + sum_i[(-xi+z/2)^k+(-xi-z/2)^k]; elementary e1=0; z^2=4c2",
+  "seconds": 14.952,
+  "source_sha256": {
+    "build_e6_independent_base.py": "a1ec357ce6bc85c006305aa5a6eadeaeeeac401975a966b0b7df91906fc7a1ee"
+  }
+}

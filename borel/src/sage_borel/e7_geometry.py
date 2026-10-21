@@ -6,6 +6,7 @@ import json
 from sage.all import QQ, prod
 
 from .characters import springer_character_map
+from .degrees import exceptional_springer_degree
 from .geometry import (AdjointQuotient, FactoredCayleyDeterminant,
                        PowerSumPullback, SpringerGeometry, _torus_point)
 
@@ -62,7 +63,7 @@ def e7_adjoint_quotient(*, representation='minimal'):
     Target: p_2/24,p_6,p_8,p_10,p_12,p_14,p_18, with p_d(h)=tr_56(h^d).
     Returns certified exact fundamental-character polynomials. Torus pullbacks
     stay as PowerSumPullback objects with evaluate() and guarded expand().
-    This constructor does not compute the generic degree of the E7 map.
+    generic_degree() uses the proved toric-intersection degree certificate.
     """
     weight = _representation(representation)
     data = _data()
@@ -76,7 +77,11 @@ def e7_adjoint_quotient(*, representation='minimal'):
         normalization = QQ(24 if degree == 2 else 1)
         pulled.append(PowerSumPullback(pulled_forms, degree, normalization))
         coordinates.append(_polynomial(g.character_ring,record)/normalization)
-    return AdjointQuotient(invariants, tuple(data['degrees']), tuple(pulled), tuple(coordinates))
+    degrees=tuple(data['degrees'])
+    coordinates=tuple(coordinates)
+    return AdjointQuotient(invariants,degrees,tuple(pulled),coordinates,
+        exceptional_springer_degree('E7',representation=representation),
+        (invariants,degrees,coordinates))
 
 
 def e7_cayley_determinant(*, representation='minimal'):

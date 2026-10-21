@@ -1,0 +1,1003 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[margin=0.78in,headheight=15pt,headsep=17pt]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,amsmath,amssymb,mathtools,microtype}
+\usepackage{booktabs,tabularx,array,enumitem,xcolor,fancyhdr}
+\definecolor{inkblue}{RGB}{27,56,82}
+\usepackage[colorlinks=true,allcolors=inkblue]{hyperref}
+\hypersetup{pdftitle={Springer--Borel maps: a structural research program},
+pdfauthor={Research program for Sean Rogers},
+pdfsubject={Integral sources, characteristic images, generic degrees, equivariant and generalized cohomology}}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\small Springer--Borel maps: research proposal}
+\fancyhead[R]{\small Working program}
+\fancyfoot[L]{\footnotesize 20 October 2026}
+\fancyfoot[R]{\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+\setlength{\parindent}{1em}\setlength{\parskip}{4pt}
+\setlength{\emergencystretch}{2em}
+\setlist{nosep,leftmargin=1.5em}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\C}{\mathbb C}
+\newcommand{\Sym}{\operatorname{Sym}}
+\newcommand{\Rep}{\operatorname{Rep}}
+\newcommand{\Sat}{\operatorname{Sat}}
+\newcommand{\ad}{\mathrm{ad}}
+\newcommand{\minrep}{\mathrm{min}}
+\newcommand{\OG}{\operatorname{OG}}
+\newcommand{\IG}{\operatorname{IG}}
+\newcommand{\repo}{https://github.com/sean-rogers-t/Sage-programs/blob/e9fcb7f3b7d28bea9c248abab1f01d8de28250aa/}
+\newcommand{\record}[2]{\href{\repo#1}{#2}}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\newcommand{\status}[1]{\noindent\textbf{Status:} #1\par}
+\begin{document}
+\begin{center}
+{\LARGE\bfseries Springer--Borel maps}\\[5pt]
+{\Large Integral images and the geometry of representation maps}\\[7pt]
+{\normalsize A structural research program for Sean Rogers}\\[3pt]
+{\small Proposal and progress inventory, 20 October 2026}
+\end{center}
+
+\section*{Purpose and central question}
+The published Springer-morphism and Levi-character papers make a
+representation-dependent map from characters to flag cohomology explicit.
+The proposed program asks for structural control of the arithmetic and
+geometry of that map:
+\begin{quote}
+\emph{How much of a Springer--Borel map can be predicted from the root datum,
+the representation, the character lattice and the Levi subgroup, before
+expanding its Schubert coefficients?}
+\end{quote}
+The first objective is a theory of integral images. The second studies the
+generic degree and regularity of the underlying Springer morphism. These
+share the same explicit map but retain different information: the Borel
+quotient kills positive-degree global invariants, while the adjoint-quotient
+map preserves the invariant functions needed for degree calculations.
+
+\noindent\begin{tabularx}{\linewidth}{@{}p{0.45in}YY@{}}
+\toprule
+Aim & Goal & First meaningful deliverable\\
+\midrule
+A & Explain primes, saturation and Smith factors in integral images.
+& A precise local comparison theorem and a source/parabolic criterion
+for possible torsion primes.\\
+B & Compute generic degrees by a uniform, effective boundary method.
+& A certified face-scheme procedure, proved for a coherent family.\\
+C & Determine when Springer maps preserve regular elements.
+& A reusable obstruction or sufficient criterion, beyond individual examples.\\
+D & Give geometric meaning to Smith filtrations.
+& An integral comparison for one chain/incidence model, including primitivity.\\
+E & Extend image questions to other theories and groups.
+& An equivariant pilot, followed by filtered K-theory and compatible
+quantum/affine constructions.\\
+\bottomrule
+\end{tabularx}
+
+\paragraph{What is already available.}
+The repository contains internally audited source-lattice arguments, general
+normalized type B and D single-tail Smith formulas, two-step joint-image
+theorems, exceptional integral-image calculations, and explicit quotient maps,
+critical determinants and degree calculations for selected exceptional
+representations. These are substantial starting points, with their precise
+scope recorded below. They are not all published results.
+
+\paragraph{What success means.}
+A satisfactory outcome is a theorem with checkable hypotheses, a proof of the
+mechanism, and independent exact examples. A counterexample delimiting a
+plausible generalization, or a theorem for a well-chosen family, also counts
+as progress. More tables without a question they distinguish are secondary.
+This proposal organizes research; it does not commit to writing a full paper
+or claim priority for the repository deductions.
+Track E is now part of the program, with six dependent subprojects rather
+than six simultaneous implementations.
+
+\newpage
+\section{Published foundations and common notation}
+Kumar introduced the map from polynomial characters of a Levi subgroup to
+flag cohomology~\cite{K}. Rogers determined the torus coordinates of the
+Springer morphism by its weights~\cite{R}. Kumar--Rogers, Part II, treat
+the symplectic and odd orthogonal constructions and stable injectivity;
+Kumar--Xie, Part III, supply the even orthogonal analogue and exceptional
+generator calculations~\cite{KR,KX}. The present program refines the
+integral arithmetic and studies the geometry of the same trace map.
+
+Let \(G\) initially be a simply connected simple complex group, with
+\(T\subset B\subset G\), Weyl group \(W\), and Lie algebra
+\(\mathfrak g\). Write \(X=X(T)\) for the weight lattice, \(Q_{\rm rt}\)
+for the root lattice, and \(V=X\otimes\Q\). Put \(r=\operatorname{rank}G\).
+We reserve \(P\) for a standard parabolic, with Levi \(L\supset T\)
+and Weyl group \(W_L\). This avoids confusing the parabolic with a lattice.
+Other isogeny forms are separate extensions; the orthogonal papers use their
+specified \(\mathrm{SO}\) forms.
+
+For a representation \(\rho\) with faithful differential,
+\(\theta_\rho:G\to\mathfrak g\) is normalized trace projection,
+so \(d\theta_\rho|_1=\mathrm{id}\). For irreducible \(V(\lambda)\)
+write \(\theta_\lambda\). In the fundamental-weight/simple-coroot
+coordinates of Rogers's formula,
+\[
+ M_\rho=\sum_\mu m_\mu\mu\mu^t,\qquad
+ \theta_\rho(t)=M_\rho^{-1}\sum_\mu m_\mu\mu e^\mu(t).
+\]
+Here \(\mu\) is a weight column, \(m_\mu\) its multiplicity, and \(e^\mu\)
+a Laurent character. This is a published coordinate method, not a new
+construction of this proposal.
+
+The pullback embeds \(\Sym_\C(\mathfrak t^*)^{W_L}\) into the character
+algebra. Its image is
+\(\Rep^\C_{\lambda\text{-}\mathrm{poly}}(L)\) in the papers. Their map is
+\[
+ \xi_\lambda^P
+ =\beta^P\circ(\theta_\lambda^*)^{-1}:
+ \Rep^\C_{\lambda\text{-}\mathrm{poly}}(L)
+ \longrightarrow H^*(G/P,\C).
+\]
+The inverse is defined on the image of the injective pullback. It is not
+a birational inverse of \(\theta_\lambda\).
+The rational Borel map in polynomial coordinates is
+\(\beta^P:\Sym_\Q(V)^{W_L}\to H^{2*}(G/P,\Q)\).
+Define
+\[
+ \mathcal C_\rho=
+ \{f\in\Sym_\Q(V):\theta_\rho^*f\in\Z[X]\},\quad
+ \Lambda_\rho=(\mathcal C_\rho)_1,\quad
+ \mathcal A_{\rho,L}=\mathcal C_\rho^{W_L}.
+\]
+Thus the literal integral character source corresponds to
+\(\mathcal A_{\rho,L}\). Where integrality of \(\beta^P\) on this source
+has been justified, put \(J_{\rho,L}=\beta^P(\mathcal A_{\rho,L})\).
+
+For any specified integral image \(J_d\subset H^{2d}(G/P,\Z)\), set
+\[
+ S_d=\Sat(J_d)=(J_d\otimes\Q)\cap H^{2d}(G/P,\Z),\qquad
+ D_d=S_d/J_d.
+\]
+The nonzero Smith factors describe \(D_d\), including unit factors when
+recording ranks. For selected generator subalgebras, \(S_d\) need not be
+all cohomology. Polynomial degree \(d\) means cohomological degree \(2d\);
+it is not Laurent total degree.
+
+\newpage
+\section{Completed source work: the starting point for Aim A}
+\status{The following are written, internally audited repository deductions.
+Their exact literature priority and external expert review remain unresolved.}
+
+\subsection*{2.1 The full torus source is controlled in degree one}
+Under the hypotheses above, including reducible \(\rho\), the current
+argument gives
+\[
+ \boxed{\mathcal C_\rho=\Sym_\Z(\Lambda_\rho),\qquad
+ \mathcal A_{\rho,L}=\Sym_\Z(\Lambda_\rho)^{W_L}.}
+\]
+This includes inhomogeneous polynomials. The proof uses the full linear
+integrality lattice, primitive Laurent coefficient columns and the trace
+factorization to control independence modulo primes; it does not assume
+that the trace form remains nondegenerate in every characteristic.
+The theorem concerns characteristic-zero maps and integral coefficients,
+not a universal finite-field trace-projection construction.
+See \record{borel/TRACE_SOURCE_THEOREM.md}{the source theorem} and
+\record{borel/TRACE_SOURCE_AUDIT.md}{its proof/source audit}
+(ledger SRC-01/03).
+
+This resolves the torus-source generation question. It does not imply that
+Levi invariants are generated by invariant linear elements, or that their
+Borel images are saturated. Those are the next stages of the program.
+
+\subsection*{2.2 An irreducible highest-weight formula in every simple type}
+With long roots of squared length two, let \(I_\lambda\) be the trace
+index, normalized by \(I_\ad=2h^\vee\), and use the invariant inner product
+to define lattice duals. The audited formula is
+\[
+ D_\lambda^{\rm wt}:=\sum_\mu\Z(m_\mu\mu)
+       =Q_{\rm rt}+\Z\lambda,\qquad
+ \boxed{\Lambda_\lambda
+       =I_\lambda(Q_{\rm rt}+\Z\lambda)^*.}
+\]
+Multiplicity weighting means multiplying a weight by \(m_\mu\), not merely
+repeating it in a list. This reduces the irreducible source calculation to
+root-lattice, central-character and index data, without enumerating a large
+representation. The proof uses multiplicity-one weights along suitable
+lowering paths. See
+\record{borel/IRREDUCIBLE_CHARACTER_LATTICES.md}{the classification} and
+\record{borel/IRREDUCIBLE_LATTICE_AUDIT.md}{its audit} (SRC-02).
+
+For \(G_2,F_4\) it specializes to \(I_\lambda Q_{\rm long}\).
+For \(E_6,E_7\) it gives \(I_\lambda X\) if
+\(\lambda\in Q_{\rm rt}\), and \(I_\lambda Q_{\rm rt}\) otherwise.
+For \(E_8\), \(X=Q_{\rm rt}\). Here \(Q_{\rm long}\) is the lattice
+generated by the long roots, in this inner-product convention.
+
+\subsection*{2.3 Comparisons and limitations already established}
+The coprime lattice/scaling lemma gives all-degree, all-Levi source and
+image comparisons for the specified \(E_6/E_7\) minimal/adjoint pairs.
+The \(F_4\) pair has the recorded degree-\(d\) scaling \(3^d\).
+Repeating the same representation leaves normalized trace projection
+unchanged. Arbitrary direct sums are subtler: three copies of the \(F_4\)
+minimal module and the adjoint both have index \(18\), but their linear
+sources are \(6Q_{\rm long}\) and \(18Q_{\rm long}\), respectively.
+An exact combined-coefficient algorithm exists; a closed summand-level
+formula remains a supporting question (SRC-04/05/07, OPEN-04/05).
+
+\newpage
+\section{Completed image work and the link to Parts II and III}
+\subsection*{3.1 Classical generator formulas and integral refinements}
+In the notation of the papers, type C uses \(\xi_{n,k}\), type B uses
+\(\bar\xi_{n,k}\), and type D uses \(\xi^D_{n,k}\).
+The targets are \(\IG(n-k,2n)\), \(\OG(n-k,2n+1)\), and
+\(\OG(n-k,2n)\), respectively. The published generator and stable-injectivity
+results are inputs~\cite{KR,KX}; the repository's combinatorial note gives
+alternative arguments and completes the dissertation proof route in its
+stated scope. It does not repair a missing proof of the published main theorems.
+
+Our Smith results use the specified normalized tail generators
+\[
+ q_i=e_i(x_{n-k+1}^2,\ldots,x_n^2),\qquad
+ p=x_{n-k+1}\cdots x_n,\quad p^2=q_k\quad\hbox{in type D}.
+\]
+They address the arithmetic of their selected image, which is additional
+information beyond the complex generator formulas.
+
+\begin{itemize}
+\item \textbf{Type B:} a closed positive partition/Gaussian formula for every
+nonzero Smith multiplicity, in all allowed ranks and blocks, with the
+required integral primitive-prefix argument (IMG-03).
+\item \textbf{Type D:} the square-sector factors agree with type B; the full
+square/Euler formula includes the even-tail gluing step. The audited proof
+places gluing at unit levels, with no further positive-level correction
+(IMG-04/05).
+\item \textbf{Two-step flags:} normalized type C joint images are saturated
+and the separate-image sum is primitive. In B/D the separate sum is primitive
+inside the joint image, and the ambient factors are powers of \(2\);
+ambient saturation is false in general (IMG-08/09).
+\end{itemize}
+Here the B single-tail range has \(a=n-k\ge1,\ k\ge1\).
+For D use \(n\ge4,\ a\ge1,\ k\ge2\), matching Part III.
+The literal defining/vector character forms and the normalized polynomial
+forms are distinguished explicitly; in the specified SO/Sp conventions the
+degree-\(d\) rescaling is \(2^d\), not an implicit change of lattice.
+
+\subsection*{3.2 Exceptional images and independent checks}
+The completed finite cases include selected integral-image tables for all
+\(G_2/F_4\) maximal parabolics, and the \(E_6/P_1,E_7/P_7\) cases.
+The latter have primitive-generator subalgebras
+\[
+ \Z[h,16s]\quad\hbox{and}\quad\Z[h,81s,19683t]
+\]
+inside their known integral cohomology rings, with inherited relations.
+Here \(h\) is the Schubert divisor; \(s\) has polynomial degree \(4\) in
+\(E_6/P_1\), while \(s,t\) have polynomial degrees \(5,9\) in \(E_7/P_7\).
+They are not free polynomial rings and need not be saturated.
+Literal-character images and embedded minimal/adjoint comparisons are
+also computed for these two spaces. Minimal and adjoint images can already
+be incomparable in divisor degree.
+
+Separately regenerated minimal-representation Springer coordinates agree
+with the printed \(F_4/E_7\) formulas. The \(E_6\) comparison proposes
+replacing the six denominators \(6\) by \(18\) in Part III, Lemma 7.1,
+with numerators unchanged. This is a documented proposed correction,
+not a published erratum. The original articles are preserved.
+
+The \record{borel/RESEARCH_LEDGER.md}{research ledger}, entries IMG-01--09,
+CASE-01--05 and LIMIT-01--05, links the exact proofs, source choices,
+tables and counterexamples. None of these finite tables is being used
+as an arbitrary-rank proof.
+
+\newpage
+\section{Completed geometry and the connection to Kostant--Michor}
+The normalized trace construction is the generalized Cayley map considered
+by Kostant--Michor~\cite{KM}. Their quotient-degree comparison and harmonic
+localization theorem supply the geometric motivation. The same
+\(\theta_\rho\) is being studied before passing to the Borel quotient.
+
+\subsection*{4.1 Uniform formulas already available}
+In logarithmic torus coordinates, exact differentiation gives
+\[
+ J_T=M_\rho^{-1}\sum_\mu m_\mu\mu\mu^t e^\mu.
+\]
+Equivariance determines the root-direction factors of the full,
+left-translated differential:
+\[
+ \boxed{\left.\Psi_\rho\right|_T
+ =\det(J_T)\prod_{\alpha>0}
+ e^\alpha\left(\frac{\alpha(\theta_\rho)}{e^\alpha-1}\right)^2.}
+\]
+The root quotients extend as Laurent polynomials. Thus the Cartan Jacobian
+alone is not the full determinant. A tensor-Casimir identity also provides
+the quadratic invariant pullback; this applies standard representation
+theory rather than asserting a new Casimir identity (GEO-02--04).
+
+\subsection*{4.2 Exact exceptional calculations already completed}
+Complete basic-invariant pullbacks and full determinant products are
+packaged for \(G_2,E_6,E_7\), minimal and adjoint representations. The
+\(E_6/E_7\) coordinates were checked against independent representation
+matrices and exact support/unisolvence certificates. Generic degrees
+on simply connected groups are recorded as follows:
+\[
+\begin{array}{c|rr}
+ &\minrep&\ad\\ \hline
+G_2&6&18\\
+E_6&1080&2754\\
+E_7&7272&33664
+\end{array}
+\]
+The \(E_6/E_7\) degree arguments use normalized weight-polytope volumes,
+boundary zero schemes and intersection contributions, restoring central
+cover factors where appropriate. Newton volume without correction gives
+the wrong answer in three of these four cases.
+
+Seven specialized finite-field fiber reports corroborate the \(E_6/E_7\)
+calculations: two primes for each of the first three cases and one for
+\(E_7\) adjoint. The completed adjoint \(E_7\) root-chart fiber has length
+\(16832\) at prime \(32003\); the central factor gives \(33664\).
+Its staircase length was recounted independently. These reports check
+specialized calculations; they are not the characteristic-zero degree proof.
+See \record{borel/EXCEPTIONAL_DEGREES.md}{the degree derivation and coverage}
+and the \(E_6/E_7\) geometry notes (CASE-06--08).
+
+\subsection*{4.3 What these computations do not settle}
+The source critical divisor is computed; its image is not automatically
+a target branch-locus calculation, and nonproperness must be treated
+separately. The degree of a particular Springer morphism is not the
+minimum Cayley degree of the group. The two \(G_2\) examples have
+regular-to-nonregular witnesses giving the recorded obstruction to
+removing harmonic localization. Comparable general criteria remain a goal.
+These distinctions define Aims B and C.
+
+\newpage
+\section{Aim A: a local theory of integral Springer--Borel images}
+\status{Primary project. General source classification and several image
+families are available; a uniform image criterion is not.}
+
+\paragraph{Question.}
+For the literal source \(\mathcal A_{\rho,L}\), or a separately declared
+normalized generator algebra, predict the prime support of \(D_d\), give
+saturation criteria, and then determine selected prime-power multiplicities.
+The source choice is part of the problem, not an interchangeable convention.
+
+\paragraph{A1. Establish a local benchmark and attribute its known content.}
+Put \(K=X\cap\Lambda_\rho\) and
+\(\delta_\rho=[X:K][\Lambda_\rho:K]\).
+At a prime \(p\nmid\delta_\rho\), the two linear lattices agree after
+localization at \(p\). The first target is a precise comparison of their Levi
+invariant sources and characteristic images. Determine which additional
+hypotheses, involving the characteristic map and Levi descent, imply
+\[
+ \beta^P\!\left(\Sym_{\Z_{(p)}}(\Lambda_\rho\otimes\Z_{(p)})^{W_L}\right)
+       =H^{2*}(G/P,\Z_{(p)}).
+\]
+This is a \emph{target statement with hypotheses to be supplied}, not a
+theorem asserted here. Classical torsion-index results and averaging at
+primes not dividing \(|W_L|\) give a conservative proof route
+\cite{CPZ}. First identify the part that is already a standard corollary.
+The research question is how far one can remove conservative exclusions,
+and what happens at the remaining primes.
+
+\paragraph{A2. Separate three possible arithmetic obstructions.}
+Compare, in fixed coordinates, the change \(X\rightsquigarrow\Lambda_\rho\),
+the integral invariant-ring calculation for \(W_L\), and the Borel kernel
+and integral Schubert lattice. Localize before taking a Smith form.
+Use explicit invariant presentations or compatible bases to show which
+obstructions survive in the image; do not assume their valuations simply add.
+Work degreewise initially, and seek a ring-level criterion when possible.
+
+\paragraph{A3. Resolve the first genuinely difficult shared-prime comparison.}
+The coprime comparison lemma is already proved. Choose an exceptional
+representation pair with a shared-prime obstruction and derive image
+containment, sums or intersections over \(\Z_{(p)}\), accounting for the
+Borel kernel. Begin on \(E_6/P_1\) or \(E_7/P_7\), where ambient rings
+and independent calculations are available. Only then test additional
+parabolics that distinguish competing mechanisms.
+
+\paragraph{Proof tools and deliverables.}
+Use the highest-weight lattice formula, integral invariant theory,
+characteristic-map/torsion-index results, Schubert evaluation, and exact
+lattice comparisons. Deliver (i) a proved local comparison with exact scope,
+(ii) a finite set of possible obstruction primes under stated hypotheses,
+and (iii) one sharp exceptional example with an explanation of its exponents.
+A counterexample to a stronger saturation statement is a valid alternative
+to (iii), provided its mechanism is proved.
+
+\paragraph{Decision gate.}
+If the first prime bound follows entirely from existing results, record
+it as such and proceed to shared-prime exponents or remove an unnecessary
+prime exclusion. Do not present a standard good-prime corollary as the main
+new result. Related ledger questions: OPEN-02/04/05/09/10/13.
+
+\newpage
+\section{Aim B: effective generic-degree formulas from boundary geometry}
+\status{The general intersection framework is available, and selected
+exceptional cases are worked out; an effective uniform evaluation is missing.}
+
+\paragraph{Question.}
+Compute \(\deg\theta_\rho\) from weight and root data with an explicit account
+of face degeneracies and their multiplicities. Seek a family theorem or a
+certified algorithm whose output is a proof certificate, not a guessed volume.
+
+Write \(\chi_\rho=\sum m_\mu e^\mu\) and
+\(D\chi_\rho=\sum m_\mu\mu e^\mu\).
+The invertible trace matrix does not affect a generic degree. On the
+appropriate character lattice \(M\), the equations are
+\(D\chi_\rho=b\) for generic \(b\).
+Kostant--Michor identifies the full degree with the adjoint-quotient degree;
+the two Weyl quotients have the same order, so no extra division by \(|W|\)
+is made~\cite{KM}.
+
+\paragraph{B1. Turn the known reduction into an effective procedure.}
+For \(\Delta=\operatorname{conv}(\operatorname{supp}D\chi_\rho)\),
+toric intersection theory supplies total degree
+\(r!\operatorname{vol}_M(\Delta)\)~\cite{FS}.
+The task is to compute all boundary contributions. On an exposed proper
+face \(F\), study the scheme cut out by the face character and its
+logarithmic derivatives:
+\[
+ \chi_F=0,\qquad D\chi_F=0.
+\]
+Account for the face lattice and finite covers, nonreduced structure,
+positive-dimensional loci, and overlaps of strata. A symbolic
+\emph{volume minus boundary} identity is a starting framework; the desired
+result makes its correction terms independently evaluable.
+
+\paragraph{B2. Prove the mechanism for a coherent family.}
+Begin with minuscule representations. The \(E_6/E_7\) examples already
+distinguish vanishing and nonvanishing face contributions, so
+minuscule weights do not automatically mean no boundary correction.
+Compare their faces with type A exterior-power weight polytopes.
+Classify the singular face schemes in a restricted family before claiming
+a formula for every minuscule representation. Adjoint root polytopes give
+a second family once the first mechanism is understood.
+
+\paragraph{B3. Validate the degree without conflating evidence and proof.}
+Check lattice volumes by determinant triangulation, face orbits by exact
+root combinatorics, and local multiplicities by an independent algebraic
+description where feasible. Use exact specialized fibers, retaining
+nilpotents, as corroboration. Specialization requires separate justification
+if it is to enter a characteristic-zero proof. Restore a central-isogeny
+degree only when the map actually factors through that cover.
+
+\paragraph{Deliverable and fallback.}
+The preferred result is a finite face-scheme/intersection procedure with
+proved correctness for the selected family, plus a closed formula when its
+strata admit one. A useful fallback is a complete theorem for simplex and
+cross-polytope face patterns under explicit smoothness and intersection
+hypotheses. \(F_4\), additional minuscule cases or \(E_8\) are tests selected
+for their face geometry; an expensive \(E_8\) computation is not a milestone
+by itself. Related questions: OPEN-01/11/13/16.
+
+\newpage
+\section{Aim C: regularity, critical divisors and harmonic separation}
+\status{A universal determinant product and two \(G_2\) obstruction witnesses
+are available. No general representation criterion is claimed.}
+
+\paragraph{Question and consequence.}
+A regular element has centralizer dimension \(\operatorname{rank}G\).
+When does \(\theta_\rho\) send every regular group element to a regular
+Lie-algebra element? Kostant--Michor's Theorem 3.2 identifies this condition
+with their unlocalized harmonic-separation identity~\cite{KM}.
+The target is a classification for a family, or a reusable obstruction,
+rather than a repeated determinant expansion.
+
+\paragraph{Route.}
+For regular semisimple \(t\in T\), failure is witnessed by
+\(e^\beta(t)\ne1\) for every root \(\beta\), but
+\(\alpha(\theta_\rho(t))=0\) for some root \(\alpha\).
+Analyze these Laurent equations and seek a root-subsystem construction
+that lifts from small rank. Any lifting must prove that unwanted
+root directions remain regular and that the full representation restricts
+as required; a small-rank example alone does not supply this.
+
+A semisimple witness disproves preservation. A positive theorem must also
+treat regular elements with nontrivial unipotent part, using Jordan
+decomposition and the published structure theory. Neither nonvanishing of
+the Cartan Jacobian nor a list of full critical factors is equivalent to
+that classification.
+
+\paragraph{Deliverables.}
+First recover the \(G_2\) obstruction through a formulation usable in other
+types. Then prove a sufficient condition or an obstruction for a specified
+representation family, using \(F_4/E_6/E_7\) as tests. Target branch and
+nonproperness loci are subsequent projects, not prerequisites.
+Related questions: OPEN-06/11/12.
+
+\section{Aim D: an integral geometric explanation of Smith filtrations}
+\status{Supporting project, activated when it helps explain Aim A.
+The B incidence/defect interpretation is a concrete starting point.}
+
+Hiller's chain viewpoint relates Schubert combinatorics to intersections
+\cite{H}. The proposed bridge is more demanding than matching Betti numbers:
+one needs a map to the \emph{integral coefficient-row filtration} of the
+Springer image, with primitive prefixes and the correct powers of \(2\).
+
+Choose one chain/incidence model and one B single-tail family. Construct
+an integral comparison to the existing Schur-product prefixes, prove
+primitivity geometrically, and recover the known Smith formula as a test.
+Only after that attempt D's Euler gluing or B/D two-step multiplicities.
+The completed even-tail theorem is not being reopened; the goal is a
+conceptual explanation or a transferable proof. If only rational ranks
+match, record that as insufficient, and keep the current proof.
+Related questions: OPEN-03/07/08.
+
+\newpage
+\section{Track E: other cohomology theories and groups}
+\status{Newly adopted research directions. The ambient theories cited below
+are established; representation-dependent image extensions are proposed.
+No new backend or general extension theorem is claimed.}
+
+\subsection*{E1. Equivariant integral images: first extension to activate}
+Retain the same finite-dimensional group and Springer source, but replace
+ordinary cohomology by \(H_T^*(G/P,\Z)\). Put
+\(S=H_T^*(\mathrm{pt},\Z)=\Sym_\Z(X)\).
+The rational equivariant characteristic map
+\(\beta_T^P:\Sym_\Q(V)^{W_L}\to H_T^{2*}(G/P,\Q)\)
+gives a candidate \(S\)-subalgebra generated by
+\(\beta_T^P(\mathcal A_{\rho,L})\), provided integrality is justified.
+The equivariant parameters and polynomial Cartan inputs are different
+copies of the weight variables.
+
+The objective is to describe this embedded image as an \(S\)-module or
+algebra, and explain its specialization to the ordinary image.
+Positive-degree global invariant polynomials no longer simply vanish:
+in the rational equivariant Borel presentation, their Cartan values agree
+with the corresponding equivariant-parameter values.
+Fixed-point restrictions and generalized Demazure operators provide
+established computational methods~\cite{CZZ}.
+
+\paragraph{Route and first test.}
+Start with one small complete flag, then a parabolic already understood
+integrally. Construct equivariant generator restrictions and a certified
+module presentation. Compare exact fixed-point data with independent
+equivariant Schubert multiplication. Check both the ordinary
+specialization and the source normalization. Use \(G_2\) or a low-rank
+classical example to distinguish mechanisms before returning to large
+exceptional groups.
+
+\paragraph{Arithmetic and the specialization problem.}
+The polynomial ring \(S\) is not generally a PID, so there is no ordinary
+Smith classification over \(S\). Investigate Fitting ideals, local
+presentations and finite total-degree \(\Z\)-lattices. Distinguish torsion
+as an \(S\)-module from torsion over \(\Z\).
+The natural specialization of the image maps onto the ordinary image
+when the chosen source generators specialize as intended; it need not
+identify the specialized image module injectively. Kernel/base-change
+phenomena must be recorded rather than inferred from a matching table.
+
+\paragraph{Milestone and gate.}
+Deliver a precisely defined integral equivariant image in one family,
+its module presentation, and a proved specialization comparison.
+A specialization defect with an exact explanation is an acceptable result.
+Activate after Aim A's local diagram has fixed the source and integrality
+conventions; do not wait for every ordinary Smith factor to be classified.
+Proposed API objects should preserve the coefficient ring, parameters,
+presentation and specialization maps (OPEN-14).
+
+\paragraph{Longer objective.}
+Determine whether equivariant data explains the ordinary prime support
+or filtration. A claim of equivariant saturation must specify the relevant
+module property; it is not an automatic translation of an ordinary
+integer-lattice statement.
+
+\newpage
+\subsection*{E2. K-theory: compare character images through filtrations}
+The associated-bundle map
+\[
+ \kappa^P:R(L)\longrightarrow K^0(G/P),\qquad
+ [U]\longmapsto[G\times_P U]
+\]
+is defined by extending an \(L\)-representation trivially across the
+unipotent radical of \(P\). Restrict it to the literal integral
+Springer polynomial-character subring
+\[
+ R_{\rho,\mathrm{poly}}(L)
+   =\theta_\rho^*(\mathcal A_{\rho,L})\subset R(L).
+\]
+This produces an integral image to investigate without postulating a new
+Springer morphism. Its equivariant version takes values in \(K_T^0(G/P)\),
+over the character ring \(R(T)=\Z[X]\). Existing equivariant K-Schubert
+calculus supplies the ambient operators and classes~\cite{Uma}.
+
+\paragraph{Question and route.}
+Do the cohomological divisibility factors occur as associated-graded
+features of this K-image? Compare the induced augmentation/gamma or
+geometric filtrations, with the rational Chern character as a diagnostic.
+The Springer polynomial grading is not automatically the augmentation
+filtration, and the rational Chern character does not prove an integral
+identification. State the filtration, prove its compatibility, and
+measure any discrepancy.
+
+\paragraph{Milestone.}
+For one family already covered by the ordinary API, construct the
+restricted K-image and compute the filtered comparison.
+An exact obstruction to identifying its associated graded with
+\(J_{\rho,L}\) is as valuable as a positive theorem.
+Proposed library support comprises associated-bundle evaluation,
+K-Demazure operations, filtered image presentations and comparison reports.
+This is OPEN-17, and can start after the source conventions in Aim A
+without depending on a complete equivariant implementation.
+
+\subsection*{E3. Oriented theories: a formal-group-law framework}
+An oriented theory uses
+\[
+ c_1(\mathcal L\otimes\mathcal M)
+   =F(c_1(\mathcal L),c_1(\mathcal M)).
+\]
+Ordinary cohomology has \(F(u,v)=u+v\);
+connective K-theory has \(F(u,v)=u+v-\beta uv\).
+Algebraic cobordism supplies a universal formal group law.
+Formal group algebras and formal Demazure operators already organize
+characteristic maps for these theories~\cite{CPZ,CZZ}.
+
+\paragraph{Main problem and first target.}
+Define a representation-dependent source inside this framework and compare
+its images under coefficient specialization. Our degree-one theorem
+concerns the additive symmetric algebra; it is not already a theorem
+for every formal group law. A rational logarithm may guide the comparison
+but introduces denominators and does not settle integral sources.
+Start with connective K-theory, explicitly specifying the coefficient
+ring, completion and group-form hypotheses. Prove either a compatible
+source/image specialization to the additive case or an obstruction to
+such compatibility. Extend to algebraic cobordism only after that pilot
+succeeds. This is the unifying longer goal behind E1/E2 (OPEN-18).
+
+\newpage
+\subsection*{E4. Quantum images: deform the map and its kernel}
+The proposed target is a lift \(\xi_{\rho,q}^P\) with specialization
+at \(q=0\) equal to our ordinary map. This notation denotes a goal,
+not a currently defined general homomorphism. Specify its source,
+coefficient ring and generator lifts before asking for its integral image.
+Ordinary relations cannot be retained unchanged; for example,
+\[
+ H^*(\mathbb P^1,\Z)=\Z[h]/(h^2),\qquad
+ QH^*(\mathbb P^1)=\Z[h,q]/(h^2-q).
+\]
+A map from an appropriate polynomial source can exist while its classical
+kernel changes. A ring section from ordinary to quantum cohomology is
+not provided by identifying their Schubert bases.
+
+\paragraph{Route and benchmark.}
+Begin with complete flags and the published quantum Borel/Toda
+presentations~\cite{Kim}. Fix divisor conventions and restrict a certified
+polynomial-source evaluation using quantum products. Then address a
+partial-flag family, where higher-degree generator lifts need compatible
+relations. Use quantum Giambelli/Pieri or Chevalley formulas as established
+ambient input, not as proof that the Springer-image construction has lifted.
+Track the integral normalization inherited from the original source.
+
+\paragraph{Milestone and gate.}
+Construct one multiplicative lift with a proved \(q=0\) specialization,
+then compare its kernel and image with the classical ones. Study flatness
+or base-change defects rather than assuming them away. Total-degree
+pieces can support finite integer-lattice checks when the chosen grading
+and coefficient ring make those pieces finite free. A failed candidate
+lift should yield an exact relation obstruction. E4 starts after a source
+and presentation are fixed, not after merely implementing quantum products
+(OPEN-15).
+
+\subsection*{E5. Affine Grassmannians: transport image questions}
+The Peterson correspondence, proved by Lam--Shimozono, relates
+\(QH_T^*(G/P)\) to a quotient of equivariant affine-Grassmannian homology
+after specified localizations~\cite{LS}. Its product is the Pontryagin
+homology product. This is not an identification with ordinary cup-product
+cohomology of the affine Grassmannian.
+
+\paragraph{Route and milestone.}
+Once E4 supplies an image, transport it across the established
+correspondence for a chosen \(G/P\). Record the exact quotient, inverted
+classes and coefficient lattice. Describe the transported generators,
+then determine what image information is lost under localization.
+An integral image statement before localization requires additional
+justification; a localized correspondence alone does not recover it.
+The first deliverable is a commutative comparison and an exact localized
+image description for one family (OPEN-19).
+
+Separately, Mare--Mihalcea construct particular affine quantum deformations
+related to periodic Toda systems~\cite{MM}. These are relevant test
+frameworks, not a claim that every desired quantum theory of an arbitrary
+infinite-dimensional flag variety has already been defined.
+
+\newpage
+\subsection*{E6. Kac--Moody flag varieties and extensions of the group}
+There are two distinct projects. The BGG/nil-Hecke characteristic-map
+side already has Kac--Moody foundations through Kostant--Kumar~\cite{KK}.
+A degree-bounded backend can use nil-Hecke operators, finite Schubert
+varieties or specified graded completions, with the root datum and
+coefficient lattice retained. The finite-type coinvariant presentation
+must not be imposed unchanged on an infinite Weyl group.
+
+The Springer side needs a new construction. An infinite-dimensional
+Kac--Moody Lie algebra cannot inject into the endomorphisms of a
+finite-dimensional vector space. Highest-weight modules are typically
+infinite-dimensional, so ordinary finite traces and the finite matrix
+\(M_\rho=\sum m_\mu\mu\mu^t\) do not transfer directly.
+An invariant bilinear form on a symmetrizable algebra by itself does
+not define the desired group-to-Lie-algebra trace projection.
+
+\paragraph{Route and first deliverable.}
+First distinguish affine loop groups from general symmetrizable
+Kac--Moody groups and choose a precise Cartan realization, weight lattice,
+topology/completion and class of representations. Develop the
+characteristic-map calculation independently of a new Springer map.
+If a completed or graded-character analogue of \(\theta_\rho\) is proposed,
+prove that it is well defined, equivariant and compatible with a
+finite-type test or restriction. Do not call a formal infinite sum a
+regular morphism. The deliverable can be a rigorous domain and
+obstruction statement before any image theorem (OPEN-20).
+
+\paragraph{Finite-dimensional group changes remain useful.}
+The other-isogeny and reductive questions in OPEN-10 are closer extensions:
+replace \(X(T)\) by the actual character lattice, handle central torus
+directions, and state trace-nondegeneracy hypotheses.
+Changing from SO to Spin is an arithmetic change of source, even when
+the underlying flag varieties agree. Positive-characteristic analogues
+would require separate existence, separability and trace-form analysis;
+they are not supplied by reducing our characteristic-zero formulas.
+
+\paragraph{Activation order and success criteria.}
+Start E1 after Aim A fixes its local source diagram. Use E2 as a filtered
+comparison pilot and E3 as the longer unifying direction.
+Define E4 carefully, then use E5 as the affine bridge. E6's nil-Hecke
+computations may proceed independently, but its Springer construction
+is a separate foundational project.
+At each stage, distinguish a known ambient theory from a new
+representation-image assertion. Each pilot must yield a proved
+comparison, an exact obstruction, or a precisely defined remaining gap.
+None of E1--E6 is marked as implemented or proved by this proposal.
+
+\newpage
+\section{Execution plan, milestones and computational support}
+The stages below are dependency gates, not elapsed-time promises.
+Start with Aim A; advance B as a distinct geometric project once its next
+proof obstruction is precise. C and D begin with bounded conceptual tests.
+Track E follows the activation order above, starting with equivariant
+images. Its later subprojects depend on their own source-definition and
+specialization gates, rather than launching together.
+
+\noindent\begin{tabularx}{\linewidth}{@{}p{0.65in}YY@{}}
+\toprule
+Stage & Work and output & Gate for moving on\\
+\midrule
+0 & Freeze notation/source forms; build theorem-to-source comparison
+against Demazure/CPZ, Kumar, Hiller and Kostant--Michor. &
+Each proposed claim has explicit hypotheses and a published/repository/open label.\\
+1 & Prove Aim A's conservative local benchmark; compute the candidate prime
+set from lattice and characteristic-map data. &
+Proof separates the three arithmetic stages and identifies standard content.\\
+2 & Resolve one shared-prime exceptional comparison; derive or disprove a
+sharper exponent/saturation prediction. &
+Independent embedded-lattice verification; theorem or exact counterexample.\\
+3 & Audit and generalize the face mechanism for Aim B in a chosen family. &
+All contributing strata and multiplicities accounted for; no raw-volume shortcut.\\
+4 & Run the regularity-obstruction and chain-filtration pilot arguments. &
+Reusable criterion/comparison, or a precise obstruction to the proposed route.\\
+5 & Package established statements, certificates and limitations. &
+Documentation and API expose proof scope; open questions remain separate.\\
+\bottomrule
+\end{tabularx}
+
+\paragraph{First concrete work package.}
+The next research session should (1) specify the local source/image diagram,
+(2) identify the exact characteristic-map and Levi-descent hypotheses,
+(3) prove the conservative comparison, and (4) use the existing exceptional
+images to test whether each excluded prime is necessary.
+The output should be a short proof note and an exact example matrix, not
+a new large table campaign.
+
+\paragraph{Existing infrastructure.}
+The \texttt{sage\_borel} library already supplies Borel/BGG evaluation,
+classical coinvariant normal forms, arbitrary supported standard parabolics,
+rational kernels and finite-border certificates, Schubert multiplication,
+inverse Borel lifts, integral image matrices and Smith forms, membership
+and integer preimages, and embedded sums/intersections. Highest-weight
+source lattices and the packaged exceptional geometry connect these tools
+to the representation input (API-01--06).
+
+\paragraph{Proposed API additions, conditional on the mathematics.}
+Add a local source comparison report containing \(\rho\), lattice bases,
+normalization, \(W_L\), degree, coefficient ring and proved prime exclusions.
+Add a prime-specific image comparison returning embedded lattices and quotient
+invariants, and a boundary certificate listing face lattices, scheme equations
+and multiplicity justifications. A regularity witness should record the
+exact torus point, root evaluations and characteristic-zero verification.
+Return an explicit unresolved status when the requisite theorem is absent.
+These are proposed interfaces; this document does not claim they are implemented.
+
+\paragraph{Resources.}
+Ordinary lattice and low-degree checks use existing Sage routines.
+Exceptional elimination uses optional exact solvers with retained inputs,
+leading ideals and logs. No external computation budget is committed.
+Choose an alternative formulation or smaller discriminating case when an
+elimination becomes costly; a stalled run is not a result.
+
+\newpage
+\section{Risk control, scope and evidence standards}
+\paragraph{Mathematical risks and useful fallback results.}
+Integral invariant rings can obscure a simple source classification.
+Fallback: a prime-local theorem or one Levi family.
+Boundary schemes may be nonisolated or overlap. Fallback: a family with
+proved transversality/local models, rather than dropping those strata.
+Regularity preservation may fail broadly. Fallback: a general obstruction
+with exact witnesses, rather than seeking a positive theorem at all costs.
+A chain model may recover ranks without integral primitivity. Fallback:
+identify the missing comparison explicitly and retain the existing proof.
+
+\paragraph{Verification and literature.}
+Every general theorem needs a written argument with its integral steps
+exposed. Verify decisive examples through a different realization:
+character/coefficient calculations versus representation matrices;
+coinvariant arithmetic versus independent cohomology presentations;
+geometric degree arguments versus exact fiber calculations.
+Agreement between implementations sharing the same input is a weaker check.
+Before a novelty claim, compare the exact statement and hypotheses with the
+relevant literature; an unsuccessful search does not establish originality.
+
+The current baseline is repository commit
+\texttt{e9fcb7f} (20 October 2026), not an assertion about what has merged
+to the default branch. The runtime is version \(0.20.0\).
+The existing release record binds 157 regression checks and 24 isolated-wheel
+checks to runtime hashes; documentation verification records 40 executable
+examples and 908 local links/anchors. These establish computational coverage,
+not proof validity, external review or research priority.
+
+\paragraph{Tracking progress.}
+Use the \record{borel/RESEARCH_LEDGER.md}{research ledger} and
+\record{borel/PROOF_STATUS.md}{detailed proof-status record}.
+For each milestone record: exact question; hypotheses; proof status;
+independent checks; source/novelty comparison; remaining obstruction;
+next discriminating test. Mark a theorem complete only when its general
+argument is supplied. A finite example stays a finite example.
+The proposal itself adds no mathematical theorem.
+
+\noindent\begin{tabularx}{\linewidth}{@{}p{1.4in}Y@{}}
+\toprule
+Ledger questions & Role in this program\\
+\midrule
+OPEN-02/05/09 & Core Aim A: arithmetic, shared primes and Levi images.\\
+OPEN-04/10 & Source extensions supporting A: direct sums and isogeny/reductive scope.\\
+OPEN-01 & Core Aim B: effective generic-degree calculation.\\
+OPEN-06/12 & Core Aim C: critical divisors and regularity/localization.\\
+OPEN-03 & Core Aim D: integral chain/incidence explanation.\\
+OPEN-07/08 & Conditional next applications: B/D joint factors and many Levi blocks.\\
+OPEN-11/13 & Target geometry and further exceptional tests, chosen by a mechanism.\\
+OPEN-14/17/18 & Track E1--E3: equivariant, filtered K-theoretic
+and formal-group-law images.\\
+OPEN-15/19/20 & Track E4--E6: quantum lifts, affine transport and
+Kac--Moody characteristic/Springer constructions.\\
+OPEN-16 & Deferred: comparisons with minimum Cayley degrees.\\
+\bottomrule
+\end{tabularx}
+
+\paragraph{Expected contribution.}
+The intended advance is a passage from explicit maps to a local arithmetic
+theory of their images, together with an effective geometric degree method.
+The completed source classification provides the representation input;
+the classical and exceptional examples provide demanding tests.
+A successful program explains which arithmetic and geometric features are
+forced, which depend on the representation or parabolic, and where a proposed
+general rule fails.
+
+\newpage
+\section*{Sources and reproducible starting material}
+The published bibliography below supplies the construction and background.
+Repository notes are unpublished working documents, with internal audits.
+Their presence here does not establish priority. The original article PDFs
+and their provenance are indexed in the
+\record{articles/README.md}{article collection}.
+The detailed literature tasks at Stage 0 remain necessary; this is a
+source-grounded proposal, not an exhaustive literature review.
+
+\begin{thebibliography}{99}\small\raggedright
+\setlength{\itemsep}{1pt}
+\bibitem{K}
+S.~Kumar, \emph{Representation ring of Levi subgroups versus cohomology ring
+of flag varieties}, Math.\ Ann.\ \textbf{366} (2016), 395--415.
+\href{https://doi.org/10.1007/s00208-015-1325-6}{DOI};
+\href{https://kumar.math.unc.edu/papers/kumar76.pdf}{author PDF}.
+
+\bibitem{R}
+S.~Rogers, \emph{An explicit determination of the Springer morphism},
+Comm.\ Algebra \textbf{46} (2018), 4233--4242.
+\href{https://doi.org/10.1080/00927872.2017.1407418}{DOI};
+\href{https://arxiv.org/abs/1701.01538}{arXiv:1701.01538}.
+The repository copy consulted is the 2017 preprint, not the final journal PDF.
+
+\bibitem{KR}
+S.~Kumar and S.~Rogers, \emph{Representation ring of Levi subgroups versus
+cohomology ring of flag varieties II}, J.\ Algebra \textbf{556} (2020), 340--362.
+\href{https://doi.org/10.1016/j.jalgebra.2020.02.029}{DOI};
+\href{https://arxiv.org/abs/1907.10089}{arXiv:1907.10089}.
+
+\bibitem{KX}
+S.~Kumar and J.~Xie, \emph{Representation ring of Levi subgroups versus
+cohomology ring of flag varieties III}, J.\ Pure Appl.\ Algebra
+\textbf{228} (2024), 107539.
+\href{https://doi.org/10.1016/j.jpaa.2023.107539}{DOI};
+\href{https://kumar.math.unc.edu/papers/kumar86.pdf}{author PDF}.
+
+\bibitem{KM}
+B.~Kostant and P.~W.~Michor, \emph{The generalized Cayley map from an
+algebraic group to its Lie algebra}, in \emph{The Orbit Method in Geometry
+and Physics}, Progress in Mathematics \textbf{213} (2003), 259--296.
+\href{https://arxiv.org/abs/math/0109066}{arXiv:math/0109066};
+especially Theorem 3.2 and Corollary 3.3.
+
+\bibitem{CPZ}
+B.~Calm\`es, V.~Petrov and K.~Zainoulline,
+\emph{Invariants, torsion indices and oriented cohomology of complete flags},
+Ann.\ Sci.\ \'{E}c.\ Norm.\ Sup\'er.\ (4) \textbf{46} (2013), no.~3.
+\href{https://arxiv.org/abs/0905.1341}{arXiv:0905.1341}.
+Includes the relation to Demazure's characteristic-map theory;
+all coefficient hypotheses must be retained when applying it.
+
+\bibitem{H}
+H.~Hiller, \emph{Combinatorics and intersections of Schubert varieties},
+Comment.\ Math.\ Helv.\ \textbf{57} (1982), 41--59.
+\href{https://www.e-periodica.ch/cntmng?pid=com-001:1982:57::10}{journal archive}.
+A chain/intersection background source; an integral Smith comparison
+is a proposed task, not a theorem attributed to this paper.
+
+\bibitem{FS}
+W.~Fulton and B.~Sturmfels, \emph{Intersection theory on toric varieties},
+\href{https://arxiv.org/abs/alg-geom/9403002}{arXiv:alg-geom/9403002}.
+Toric intersection background; the representation-specific boundary
+analysis is recorded separately.
+
+\bibitem{CZZ}
+B.~Calm\`es, K.~Zainoulline and C.~Zhong,
+\emph{Equivariant oriented cohomology of flag varieties},
+Documenta Math., Extra Volume: Alexander S.~Merkurjev's Sixtieth Birthday
+(2015), 113--144.
+\href{https://arxiv.org/abs/1409.7111}{arXiv:1409.7111}.
+
+\bibitem{Uma}
+V.~Uma, \emph{Equivariant K-theory of flag varieties revisited and
+related results}, Colloq.\ Math.\ \textbf{132} (2013), 151--175.
+\href{https://arxiv.org/abs/1101.5911}{arXiv:1101.5911}.
+
+\bibitem{Kim}
+B.~Kim, \emph{Quantum cohomology of flag manifolds \(G/B\) and quantum
+Toda lattices}, Ann.\ of Math.\ (2) \textbf{149} (1999), 129--148.
+\href{https://arxiv.org/abs/alg-geom/9607001}{arXiv:alg-geom/9607001}.
+
+\bibitem{LS}
+T.~Lam and M.~Shimozono, \emph{Quantum cohomology of \(G/P\) and homology
+of affine Grassmannian}.
+\href{https://arxiv.org/abs/0705.1386}{arXiv:0705.1386}.
+
+\bibitem{MM}
+A.-L.~Mare and L.~C.~Mihalcea,
+\emph{An affine deformation of the quantum cohomology ring of flag
+manifolds and periodic Toda lattice}.
+\href{https://arxiv.org/abs/1409.3587}{arXiv:1409.3587};
+\href{https://doi.org/10.1112/plms.12077}{DOI}.
+
+\bibitem{KK}
+B.~Kostant and S.~Kumar, \emph{The nil Hecke ring and cohomology of
+\(G/P\) for a Kac--Moody group \(G\)}, Proc.\ Natl.\ Acad.\ Sci.\ USA
+\textbf{83} (1986), 1543--1545.
+\href{https://doi.org/10.1073/pnas.83.6.1543}{DOI};
+\href{https://pubmed.ncbi.nlm.nih.gov/16593661/}{article record}.
+\end{thebibliography}
+
+\noindent\textbf{Working-note map at the baseline commit.}
+\begin{itemize}\small
+\item Source arguments: \record{borel/TRACE_SOURCE_THEOREM.md}{degree-one theorem},
+\record{borel/TRACE_SOURCE_AUDIT.md}{source audit},
+\record{borel/IRREDUCIBLE_CHARACTER_LATTICES.md}{irreducible lattice formula},
+\record{borel/IRREDUCIBLE_LATTICE_AUDIT.md}{lattice audit}.
+\item Classical arithmetic:
+\record{borel/TYPE_B_GENERAL_SMITH.md}{B theorem},
+\record{borel/TYPE_D_SQUARE_THEOREM.md}{D square comparison},
+\record{borel/TYPE_D_EVEN_GLUING_THEOREM.md}{D full gluing theorem},
+\record{borel/TYPE_C_JOINT_PRIMITIVITY.md}{C joint images},
+\record{borel/ORTHOGONAL_JOINT_IMAGES.md}{B/D joint images}.
+\item Exceptional arithmetic:
+\record{borel/EXCEPTIONAL_MINUSCULE.md}{selected minuscule images},
+\record{borel/E6_CHARACTER_FORM.md}{E6 character form},
+\record{borel/E7_CHARACTER_FORM.md}{E7 character form}.
+\item Geometry and computation:
+\record{borel/SPRINGER_GEOMETRY.md}{general/G2 geometry},
+\record{borel/E6_GEOMETRY.md}{E6 geometry},
+\record{borel/E7_GEOMETRY.md}{E7 geometry},
+\record{borel/EXCEPTIONAL_DEGREES.md}{degrees and verification coverage},
+\record{borel/release-0.20-verification.json}{release audit}.
+\end{itemize}
+\end{document}

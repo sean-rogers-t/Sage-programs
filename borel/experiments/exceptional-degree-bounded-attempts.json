@@ -1,0 +1,30 @@
+{
+  "result": "inconclusive",
+  "historical_status": "These stopped runs precede a completed follow-up with no running-time cutoff; their missing results are not the current verification status.",
+  "completed_follow_up": ["e7-adjoint-fiber-msolve-32003-20261020-center.json"],
+  "supplementary_follow_up": {
+    "status": "stopped-after-required-check-completed",
+    "reason": "The full exact prime-32003 fiber count completed and its leading-ideal length was independently recounted. Remaining experimental runs were stopped when that verification was finalized, without a running-time cutoff. No count is inferred from these unfinished alternatives.",
+    "fiber_length": null,
+    "methods": [
+      {"prime": 32003, "mode": "square completion, exact msolve option 1, 256-pair batches"},
+      {"prime": 65521, "mode": "square completion, exact msolve option 2, 512-pair batches"},
+      {"prime": 65521, "mode": "original central chart, exact msolve option 1, 256-pair batches"},
+      {"prime": 65521, "mode": "weighted rank-two Singular module"},
+      {"prime": 32003, "mode": "weighted rank-four Singular module"},
+      {"prime": 32003, "mode": "weighted Singular polynomial ideal"}
+    ]
+  },
+  "cartan_type": "E7",
+  "representation": "adjoint",
+  "scope": "Full specialized-fiber corroboration, separate from the geometric degree proof.",
+  "engine": "msolve 0.11.0, exact linear algebra option 2, two threads",
+  "attempts": [
+    {"prime": 32003, "seed": 20261020, "mode": "full seven-variable character fiber", "run_bound": "15 minutes", "fiber_length": null},
+    {"prime": 32003, "seed": 20261020, "mode": "constant-coefficient elimination to six variables", "run_bound": "15 minutes", "fiber_length": null},
+    {"prime": 65521, "seed": 20261021, "mode": "six-variable central-quotient chart", "run_bound": "approximately 15 minutes", "fiber_length": null},
+    {"prime": 32003, "seed": 20261020, "mode": "six-variable central-quotient chart", "run_bound": "approximately 15 minutes", "fiber_length": null}
+  ],
+  "completed_chart_checks": "Exact unit-ideal computations exclude chi7=0 in both original specialized fibers, and z=0 in both transformed quotient charts. The subsequent fiber-length computations did not finish within the bounded runs.",
+  "inference": "No numerical generic or specialized degree is inferred from an unfinished computation."
+}

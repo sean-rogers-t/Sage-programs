@@ -1,6 +1,10 @@
 # Sage-programs
 This is a repository of functions I used to explicitly compute the Borel Morphism.
 
+The [research ledger](borel/RESEARCH_LEDGER.md) tracks uniform results, exact
+cases, partial arguments, counterexamples and open questions. The priority
+is generalizable mathematics, with case calculations supporting that goal.
+
 The new [sage-borel library](borel/README.md) packages the corrected calculations,
 supports arbitrary parabolics and finite Lie types, and avoids full Weyl-group
 enumeration. It includes independent tests and benchmarks through rank 20.
@@ -14,9 +18,28 @@ compute the certified integral sources and their complete Borel images.
 The [E6 representation comparison](borel/E6_REPRESENTATION_COMPARISON.md)
 proves the minimal and adjoint source formulas, their all-Levi image sums
 and intersections, and records the independently checked E6/P1 tables.
+The [sharp E6 root-to-weight comparison](borel/E6_ROOT_WEIGHT_COMPARISON.md)
+and its [three-case completion](borel/E6_REMAINING_CASES.md) now determine
+the relative 3-primary image factors on all 63 proper standard parabolics,
+with [complete new tables](borel/E6_REMAINING_TABLES.md) and a separate
+[proof/source audit](borel/E6_REMAINING_AUDIT.md).
 The [E7 minimal/adjoint comparison](borel/E7_REPRESENTATION_COMPARISON.md)
 now provides the corresponding full-source proof, complete E7/P7
 comparison and independent audit.
+The [E7/P7 root-to-weight basis theorem](borel/E7_ROOT_WEIGHT_COMPARISON.md)
+explains all its relative 2-primary factors and proves exponent 2 for
+all 64 refinements of P7, with a separate [audit](borel/E7_ROOT_WEIGHT_AUDIT.md).
+The [E7 refinement extension](borel/E7_REFINEMENT_MULTIPLICITIES.md) proves
+multiplicities through degree nine on all 64 refinements, with independent
+checks and an explicit obstruction to a six-generator source shortcut.
+The [A6 intermediary proof](borel/E7_FULL_FLAG_COMPARISON.md) now gives
+all-degree full-flag multiplicities and relative factors on 109 proper
+E7 parabolics, including 61 of those 64 refinements. The
+[D5 completion](borel/E7_D5_REFINEMENT.md) adds both D5 cases, making
+111 proper parabolics and 63/64 refinements. The
+[D4 completion](borel/E7_D4_REFINEMENT.md) now proves the common formula
+q P_W/((1+q)P_WI) for all 64 refinements in all degrees, and makes
+112 proper parabolics in total. The other 15 proper E7 parabolics remain.
 The [general trace-source theorem](borel/TRACE_SOURCE_THEOREM.md) now
 proves degree-one generation for every supported normalized representation
 map, with a 59-case independent weight/lattice audit and a public certificate.
@@ -35,6 +58,9 @@ with exact unisolvent certificates and independent representation matrices.
 The [E7 geometry extension](borel/E7_GEOMETRY.md) supplies all seven
 coordinates through degree 18 and both full 133-dimensional determinant
 products, with exact certificates and independent 56/133-dimensional matrices.
+The [generic-degree calculation](borel/EXCEPTIONAL_DEGREES.md) gives E6
+degrees 1080/2754 and E7 degrees 7272/33664 for the minimal/adjoint Springer
+maps on simply connected groups, with geometric proofs and independent audits.
 
 The [graded image calculator](borel/IMAGE_RELATIONS.md) computes exact relations
 among chosen generator images, with two-step symplectic flag experiments and
