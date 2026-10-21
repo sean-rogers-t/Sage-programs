@@ -207,6 +207,36 @@ Borel/invariant/Nakayama inputs and the new finite deductions are
 separated; priority, ambient H/N and a structural explanation of the
 index equality remain unresolved. No runtime API changes.
 
+## E7 remaining family: D6 complete, D5+A1 first gap
+
+The [remaining-family note](E7_REMAINING_PARABOLICS.md) proves for E7/P1
+(D6 Levi) that every nonunit relative root/weight image factor is 2, with
+multiplicity polynomial q8(1+q)([10]_(q2)+q4[6]_(q2)+q12), totaling 34.
+Full weight-source components are certified through top degree 33, root
+components through 27; in degrees 28..33 an explicit root lower image
+equals the full weight image. No unbounded invariant-algebra generation
+claim is used. Native Python/FLINT source reconstruction, fresh 56-weight
+moment/Jacobian identities, and native Buchberger/image audits verify
+the finite proof. Higher root invariants change the truncated-generator
+answer, so selected rational/integral generators alone are insufficient.
+
+Four Weyl-conjugacy words are checked independently in root-mask and
+root-matrix implementations. They reduce the initially excluded 15 diagrams
+to 11 cases. D6 makes 113 complete proper E7 parabolics; the other 14
+diagrams represent ten distinct cases. For E7/P6 (D5+A1), explicit
+primitive bases give full degree-two sources and images N=R{h2,t},
+M=R{h2,2t}, with first relative group Z/2 in degree two. Direct full
+reflection kernels and an independent analytic/native audit corroborate
+this partial result. Higher D5+A1 multiplicities remain unresolved.
+
+The rational cohomology of E7/P1 is already known from Chaput--Perrin,
+Proposition 5.6; the Borel presentation, signed-permutation invariants,
+Weyl conjugacy and lattice primitivity criteria are classical inputs.
+The relative Smith calculations and first-gap deductions are what is
+established here. No exact matching formula was located in the targeted
+literature check; priority, a structural uniform formula and ambient H/N
+remain separate. No runtime or public API changes.
+
 ## Exceptional integral images: first complete finite tables
 
 The [Springer geometry extension](SPRINGER_GEOMETRY.md) concerns a separate

@@ -108,7 +108,25 @@ def main():
     assert all(r['all_coefficients_integral'] and r['all_simple_reflections_checked'] for r in e7_d4[4]['quadratic_lifts'])
     assert [r['indices'] for r in e7_d4[1]['degrees']]==[r['indices'] for r in e7_d4[3]['degree_rows']]
     assert all(r['indices']['N']==r['indices']['M'] and r['prediction_agrees'] for r in e7_d4[1]['degrees'])
-    for check in e6_checks+e7_checks+e7_refinements+e7_full+e7_d5+e7_d4:
+    e7_d6=[read('experiments/'+name) for name in (
+        'e7-d6-sources.json','e7-d6-sources-audit.json','e7-d6-images.json',
+        'e7-d6-images-audit.json','e7-d6-moments-audit.json','e7-d6-summary.json',
+        'e7-remaining-conjugacy.json','e7-remaining-conjugacy-audit.json',
+        'e7-d5a1-degree-two.json','e7-d5a1-degree-two-audit.json')]
+    assert e7_d6[0]['source_degree_bounds']==e7_d6[1]['source_degree_bounds']==dict(N=33,M=27)
+    assert len(e7_d6[1]['degrees'])==60 and e7_d6[2]['complete']
+    assert e7_d6[2]['max_degree']==e7_d6[3]['max_degree']==33
+    assert len(e7_d6[2]['degrees'])==len(e7_d6[3]['degree_rows'])==33
+    assert e7_d6[4]['basic_invariant_algebra_complete'] and e7_d6[4]['weight_orbit']==56
+    assert e7_d6[5]['proper_parabolics_settled']==113
+    assert len(e7_d6[5]['other_proper_parabolics_remaining'])==14
+    assert e7_d6[5]['remaining_distinct_Weyl_conjugacy_classes']==10
+    assert e7_d6[5]['total_relative_factors_2']==34
+    assert e7_d6[8]['relative_smith_2_valuations']==[0,1] and e7_d6[9]['first_nonzero_relative_degree']==2
+    assert e7_d6[6]['distinct_representatives_after_these_reductions']==e7_d6[7]['distinct_Weyl_conjugacy_classes']==11
+    assert e7_d6[5]['multiplicity_coefficients']==[0]+[r['multiplicity_2'] for r in e7_d6[3]['degree_rows']]
+    assert all(r['smith_multiplicities']==({'1':m} if m else {}) for r,m in zip(e7_d6[2]['degrees'],e7_d6[5]['multiplicity_coefficients'][1:]))
+    for check in e6_checks+e7_checks+e7_refinements+e7_full+e7_d5+e7_d4+e7_d6:
         for name,expected in check.get('source_sha256',{}).items():
             path=ROOT/name
             if not path.exists():path=ROOT/'experiments'/name
@@ -119,6 +137,8 @@ def main():
             assert sha256((ROOT/check['certificate_archive']).read_bytes()).hexdigest()==check['certificate_archive_sha256']
         if 'tower_archive' in check:
             assert sha256((ROOT/check['tower_archive']).read_bytes()).hexdigest()==check['tower_archive_sha256']
+        if 'seed_certificate_archive' in check:
+            assert sha256((ROOT/check['seed_certificate_archive']).read_bytes()).hexdigest()==check['seed_archive_sha256']
     assert regression['version']==wheel['version']==version=='0.20.0'
     for name,expected in regression['source_sha256'].items():
         assert digest(ROOT/name)==expected,name
@@ -192,7 +212,16 @@ def main():
         'E6_REMAINING_CASES.md','E6_REMAINING_AUDIT.md','E6_REMAINING_TABLES.md',
         'E7_ROOT_WEIGHT_COMPARISON.md','E7_ROOT_WEIGHT_AUDIT.md',
         'E7_REFINEMENT_MULTIPLICITIES.md',
-        'E7_FULL_FLAG_COMPARISON.md','E7_D5_REFINEMENT.md','E7_D4_REFINEMENT.md',
+        'E7_FULL_FLAG_COMPARISON.md','E7_D5_REFINEMENT.md','E7_D4_REFINEMENT.md','E7_REMAINING_PARABOLICS.md',
+        'experiments/e7_d6_sources.py','experiments/extend_e7_d6_sources.py','experiments/pack_e7_d6_sources.py','experiments/e7_d6_images.py',
+        'experiments/e7_d5a1_degree_two.py','experiments/audit_e7_d5a1_degree_two.py',
+        'experiments/e7-d5a1-degree-two.json','experiments/e7-d5a1-degree-two-audit.json',
+        'experiments/audit_e7_d6_sources.py','experiments/audit_e7_d6_moments.py','experiments/audit_e7_d6_images.py',
+        'experiments/e7_remaining_conjugacy.py','experiments/audit_e7_remaining_conjugacy.py','experiments/summarize_e7_d6.py',
+        'experiments/e7-d6-sources.json','experiments/e7-d6-sources-audit.json','experiments/e7-d6-images.json',
+        'experiments/e7-d6-images-audit.json','experiments/e7-d6-moments-audit.json','experiments/e7-d6-summary.json',
+        'experiments/e7-remaining-conjugacy.json','experiments/e7-remaining-conjugacy-audit.json',
+        'experiments/e7-d6-source-seed20.json.gz','experiments/e7-d6-sources-certificates.json.gz','experiments/e7-d6-images-certificates.json.gz',
         'experiments/e7_d4_source.py','experiments/e7_d4_source_algebra.py','experiments/e7_d4_images.py',
         'experiments/audit_e7_d4_source.py','experiments/audit_e7_d4_images.py','experiments/e7_d4_summary_check.py',
         'experiments/e7-d4-source.json','experiments/e7-d4-source-algebra.json','experiments/e7-d4-images.json',
@@ -286,6 +315,13 @@ def main():
             proper_parabolics_settled=112,P7_refinements_settled=64,other_proper_parabolics_remaining=15,
             central_character_nodes=[2,5,7],remaining_parabolics_have_zero_degree_one_gap=True,
             scope='The 112 cases omitting at least one of nodes 2,5,7 have polynomial q P_W/((1+q)P_WI), including all 64 P7 refinements. D4 uses the full finite module and equal image-index corrections, independently audited by source/Buchberger and native Smith elimination. The D5 base is a shared audited input. The other 15 require a different formula. Structural explanation, ambient H/N and priority remain separate.'),
+        e7_remaining_progress=dict(new_parabolic='E7/P1, D6 Levi',quotient_rank=126,dimension=33,
+            full_weight_source_degree_bound=33,full_root_source_degree_bound=27,
+            all_33_image_degrees_independently_audited=True,
+            multiplicity_polynomial=e7_d6[5]['multiplicity_polynomial'],total_relative_factors_2=e7_d6[5]['total_relative_factors_2'],
+            proper_parabolics_settled=113,other_proper_parabolics_remaining=14,remaining_distinct_Weyl_conjugacy_classes=10,
+            partial_D5_A1_first_gap_degree=2,partial_D5_A1_first_relative_group='Z/2',
+            scope='Full component saturation and primitive-product certificates establish the sources in their required bounds. In degrees 28..33, root-generator lower images equal the full weight images, so the full images agree. Independent native source, fresh-weight, Buchberger and image audits verify the arithmetic. Four Weyl-conjugacy reductions are checked in a second basis. No formula for the other 14 diagrams or novelty claim.'),
         hash_semantics='SHA256 after CRLF to LF normalization for text; raw bytes for .gz archives',
         audit_sha256={p.relative_to(ROOT).as_posix():digest(p) for p in sorted(set(paths))})
     (ROOT/'release-0.20-verification.json').write_text(json.dumps(report,indent=2)+'\n')

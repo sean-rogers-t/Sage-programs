@@ -1,0 +1,288 @@
+{
+  "result": "passed",
+  "engine": "Plain Python/gmpy2 sparse weighted reduction and Buchberger checks; independent reconstruction of every full-component image, own rational inverses and bit ranks. No Sage or project imports.",
+  "degree_rows": [
+    {
+      "degree": 1,
+      "rank": 1,
+      "multiplicity_2": 0,
+      "both_image_containments_and_primitive_generation": true,
+      "root_image_full_by_weight_equality": false,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 2,
+      "rank": 1,
+      "multiplicity_2": 0,
+      "both_image_containments_and_primitive_generation": true,
+      "root_image_full_by_weight_equality": false,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 3,
+      "rank": 1,
+      "multiplicity_2": 0,
+      "both_image_containments_and_primitive_generation": true,
+      "root_image_full_by_weight_equality": false,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 4,
+      "rank": 2,
+      "multiplicity_2": 0,
+      "both_image_containments_and_primitive_generation": true,
+      "root_image_full_by_weight_equality": false,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 5,
+      "rank": 2,
+      "multiplicity_2": 0,
+      "both_image_containments_and_primitive_generation": true,
+      "root_image_full_by_weight_equality": false,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 6,
+      "rank": 3,
+      "multiplicity_2": 0,
+      "both_image_containments_and_primitive_generation": true,
+      "root_image_full_by_weight_equality": false,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 7,
+      "rank": 3,
+      "multiplicity_2": 0,
+      "both_image_containments_and_primitive_generation": true,
+      "root_image_full_by_weight_equality": false,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 8,
+      "rank": 4,
+      "multiplicity_2": 1,
+      "both_image_containments_and_primitive_generation": true,
+      "root_image_full_by_weight_equality": false,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 9,
+      "rank": 4,
+      "multiplicity_2": 1,
+      "both_image_containments_and_primitive_generation": true,
+      "root_image_full_by_weight_equality": false,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 10,
+      "rank": 5,
+      "multiplicity_2": 1,
+      "both_image_containments_and_primitive_generation": true,
+      "root_image_full_by_weight_equality": false,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 11,
+      "rank": 5,
+      "multiplicity_2": 1,
+      "both_image_containments_and_primitive_generation": true,
+      "root_image_full_by_weight_equality": false,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 12,
+      "rank": 6,
+      "multiplicity_2": 2,
+      "both_image_containments_and_primitive_generation": true,
+      "root_image_full_by_weight_equality": false,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 13,
+      "rank": 6,
+      "multiplicity_2": 2,
+      "both_image_containments_and_primitive_generation": true,
+      "root_image_full_by_weight_equality": false,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 14,
+      "rank": 6,
+      "multiplicity_2": 2,
+      "both_image_containments_and_primitive_generation": true,
+      "root_image_full_by_weight_equality": false,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 15,
+      "rank": 6,
+      "multiplicity_2": 2,
+      "both_image_containments_and_primitive_generation": true,
+      "root_image_full_by_weight_equality": false,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 16,
+      "rank": 7,
+      "multiplicity_2": 2,
+      "both_image_containments_and_primitive_generation": true,
+      "root_image_full_by_weight_equality": false,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 17,
+      "rank": 7,
+      "multiplicity_2": 2,
+      "both_image_containments_and_primitive_generation": true,
+      "root_image_full_by_weight_equality": false,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 18,
+      "rank": 6,
+      "multiplicity_2": 2,
+      "both_image_containments_and_primitive_generation": true,
+      "root_image_full_by_weight_equality": false,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 19,
+      "rank": 6,
+      "multiplicity_2": 2,
+      "both_image_containments_and_primitive_generation": true,
+      "root_image_full_by_weight_equality": false,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 20,
+      "rank": 6,
+      "multiplicity_2": 3,
+      "both_image_containments_and_primitive_generation": true,
+      "root_image_full_by_weight_equality": false,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 21,
+      "rank": 6,
+      "multiplicity_2": 3,
+      "both_image_containments_and_primitive_generation": true,
+      "root_image_full_by_weight_equality": false,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 22,
+      "rank": 5,
+      "multiplicity_2": 2,
+      "both_image_containments_and_primitive_generation": true,
+      "root_image_full_by_weight_equality": false,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 23,
+      "rank": 5,
+      "multiplicity_2": 2,
+      "both_image_containments_and_primitive_generation": true,
+      "root_image_full_by_weight_equality": false,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 24,
+      "rank": 4,
+      "multiplicity_2": 1,
+      "both_image_containments_and_primitive_generation": true,
+      "root_image_full_by_weight_equality": false,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 25,
+      "rank": 4,
+      "multiplicity_2": 1,
+      "both_image_containments_and_primitive_generation": true,
+      "root_image_full_by_weight_equality": false,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 26,
+      "rank": 3,
+      "multiplicity_2": 1,
+      "both_image_containments_and_primitive_generation": true,
+      "root_image_full_by_weight_equality": false,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 27,
+      "rank": 3,
+      "multiplicity_2": 1,
+      "both_image_containments_and_primitive_generation": true,
+      "root_image_full_by_weight_equality": false,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 28,
+      "rank": 2,
+      "multiplicity_2": 0,
+      "both_image_containments_and_primitive_generation": true,
+      "root_image_full_by_weight_equality": true,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 29,
+      "rank": 2,
+      "multiplicity_2": 0,
+      "both_image_containments_and_primitive_generation": true,
+      "root_image_full_by_weight_equality": true,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 30,
+      "rank": 1,
+      "multiplicity_2": 0,
+      "both_image_containments_and_primitive_generation": true,
+      "root_image_full_by_weight_equality": true,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 31,
+      "rank": 1,
+      "multiplicity_2": 0,
+      "both_image_containments_and_primitive_generation": true,
+      "root_image_full_by_weight_equality": true,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 32,
+      "rank": 1,
+      "multiplicity_2": 0,
+      "both_image_containments_and_primitive_generation": true,
+      "root_image_full_by_weight_equality": true,
+      "twice_weight_image_in_root_image": true
+    },
+    {
+      "degree": 33,
+      "rank": 1,
+      "multiplicity_2": 0,
+      "both_image_containments_and_primitive_generation": true,
+      "root_image_full_by_weight_equality": true,
+      "twice_weight_image_in_root_image": true
+    }
+  ],
+  "max_degree": 33,
+  "total_rank": 126,
+  "dimension": 33,
+  "buchberger_pairs_checked": 173,
+  "buchberger_chain_pairs": 120,
+  "buchberger_product_pairs": 339,
+  "buchberger_above_top_degree_pairs": 643,
+  "seconds": 11.571,
+  "scope": "Rational standard basis, every proposed bounded image basis by containment and primitive generation, and every local comparison. Full-source completeness and the fresh-weight ideal identity are checked in separate audits.",
+  "source_sha256": {
+    "experiments/audit_e7_d6_images.py": "7b2279ab27efebb94ad22c0cf5f8259081ac206fef61e7b31c3404fff888c9ad",
+    "experiments/e7-d6-images.json": "15975f9d33f31648c300fa11ef2dfb856139ca47664b4af9a01189e8036178b4",
+    "experiments/e7-d6-sources.json": "689f017051f0479bec9355e54c03a1dde58bc5b35d95725ad8d0694d02e947fc"
+  },
+  "raw_sha256": {
+    "experiments/e7-d6-images-certificates.json.gz": "90ff12d8c75e942433fdea48343824fc9616873a3e8fe267aa6e03e0a12c4899",
+    "experiments/e7-d6-sources-certificates.json.gz": "4f1b87e24e28270c7fb83a9789dfaa2bf421ead9427b6386ebcf5a1767071d0b"
+  }
+}

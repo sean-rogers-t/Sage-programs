@@ -76,8 +76,13 @@ The [D5 completion](../../borel/E7_D5_REFINEMENT.md) adds two cases, making
 64-refinement family, with polynomial q P_W/((1+q)P_WI) in every case.
 This makes 112 proper E7 parabolics. Its 34-generator module certificate
 also records a failure of a free rank-10 integral source transfer.
-A structural explanation of the equal index corrections and the other
-15 proper E7 parabolics remain targets.
+The [remaining-family extension](../../borel/E7_REMAINING_PARABOLICS.md)
+adds a complete E7/P1 (D6) formula with 34 relative factors 2, making
+113 complete proper parabolics. Four independently verified Weyl conjugacies
+reduce the other 14 diagrams to ten distinct cases. E7/P6 (D5+A1) has an
+explicit degree-two first gap Z/2, with higher degrees still unresolved.
+A structural explanation of the equal index corrections and full formulas
+for those remaining cases are targets.
 General bad-prime
 structure beyond the covered E6/E7 cases, ambient weight-image cokernels and a structural
 criterion for the equivariant specialization kernel remain targets.
