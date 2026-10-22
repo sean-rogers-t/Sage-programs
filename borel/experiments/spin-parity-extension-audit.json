@@ -1,0 +1,87 @@
+{
+  "result": "passed",
+  "date": "2026-10-22",
+  "method": "SymPy rational Groebner membership, independent modular Groebner and staircase, finite-flatness proof",
+  "shared_inputs": "Root datum, rational Borel theorem and integer certificate polynomials; no Sage, integer saturation or runtime Smith data.",
+  "all_rank_quartic_statement": "The written symmetric-source proof establishes failure in degree four iff n=3; the finite certificates do not prove the arbitrary-rank assertion.",
+  "Spin9_closed_presentation_checked": true,
+  "source_sha256": {
+    "experiments/audit_spin_parity_extension.py": "5cf15c83c10b96ccb84da250dbbfec41374b675f666fc2e33a33be2337b9dc7b",
+    "experiments/spin-parity-extension.json": "859ff265e4bff2bd2bd5bc52d1e23746602f8ca767c9702365dcc03997781c56"
+  },
+  "cases": [
+    {
+      "rank": 3,
+      "entire_kernel_preserved": false,
+      "first_failure_degree": 4,
+      "rational_memberships": 3,
+      "reduced_quotient_length": 8,
+      "finite_flatness_certificate": true,
+      "failures": [
+        {
+          "degree": 4,
+          "derivative_remainder": "c3"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "entire_kernel_preserved": true,
+      "first_failure_degree": null,
+      "rational_memberships": 4,
+      "reduced_quotient_length": 16,
+      "finite_flatness_certificate": true,
+      "failures": []
+    },
+    {
+      "rank": 5,
+      "entire_kernel_preserved": true,
+      "first_failure_degree": null,
+      "rational_memberships": 8,
+      "reduced_quotient_length": 32,
+      "finite_flatness_certificate": true,
+      "failures": []
+    },
+    {
+      "rank": 6,
+      "entire_kernel_preserved": true,
+      "first_failure_degree": null,
+      "rational_memberships": 9,
+      "reduced_quotient_length": 64,
+      "finite_flatness_certificate": true,
+      "failures": []
+    },
+    {
+      "rank": 7,
+      "entire_kernel_preserved": false,
+      "first_failure_degree": 11,
+      "rational_memberships": 10,
+      "reduced_quotient_length": 128,
+      "finite_flatness_certificate": true,
+      "failures": [
+        {
+          "degree": 11,
+          "derivative_remainder": "c3*c7"
+        },
+        {
+          "degree": 13,
+          "derivative_remainder": "c5*c7"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "entire_kernel_preserved": false,
+      "first_failure_degree": 16,
+      "rational_memberships": 8,
+      "reduced_quotient_length": 256,
+      "finite_flatness_certificate": true,
+      "failures": [
+        {
+          "degree": 16,
+          "derivative_remainder": "c7*c8"
+        }
+      ]
+    }
+  ]
+}

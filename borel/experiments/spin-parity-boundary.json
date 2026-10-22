@@ -1,0 +1,934 @@
+{
+  "result": "passed",
+  "date": "2026-10-22",
+  "coefficient_ring": "Z_(2)",
+  "parabolic": "B",
+  "source": "Full Spin weight lattice, after free Artin symmetric-source reduction",
+  "method": "Adjacent-rank image Hermite blocks, boundary lowering, rank of twice-boundary coordinates modulo two",
+  "closed_numerical_rank_classification_proved": false,
+  "certificate_archive": "experiments/spin-parity-boundary-certificates.json.gz",
+  "certificate_archive_sha256": "8e5c940355d734fc363759f9ccfa9ca43543d180d0d9854039c9d00974e2c536",
+  "source_sha256": {
+    "experiments/spin_parity_boundary.py": "6e43c36ce6ab1d2a8357eaa5b412831b116cef0d8e6c2b89de7011341d062572"
+  },
+  "cases": [
+    {
+      "rank": 3,
+      "adjacent_rank": 4,
+      "tested_through_degree": 4,
+      "entire_kernel_decision": true,
+      "entire_kernel_preserved": false,
+      "first_failure_degree": 4,
+      "degree_rows": [
+        {
+          "degree": 1,
+          "adjacent_schubert_rank": 1,
+          "boundary_lattice_rank": 0,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 2,
+          "adjacent_schubert_rank": 1,
+          "boundary_lattice_rank": 0,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 3,
+          "adjacent_schubert_rank": 2,
+          "boundary_lattice_rank": 0,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 4,
+          "adjacent_schubert_rank": 2,
+          "boundary_lattice_rank": 1,
+          "obstruction_rank": 1
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "adjacent_rank": 5,
+      "tested_through_degree": 11,
+      "entire_kernel_decision": true,
+      "entire_kernel_preserved": true,
+      "first_failure_degree": null,
+      "degree_rows": [
+        {
+          "degree": 1,
+          "adjacent_schubert_rank": 1,
+          "boundary_lattice_rank": 0,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 2,
+          "adjacent_schubert_rank": 1,
+          "boundary_lattice_rank": 0,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 3,
+          "adjacent_schubert_rank": 2,
+          "boundary_lattice_rank": 0,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 4,
+          "adjacent_schubert_rank": 2,
+          "boundary_lattice_rank": 0,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 5,
+          "adjacent_schubert_rank": 3,
+          "boundary_lattice_rank": 1,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 6,
+          "adjacent_schubert_rank": 3,
+          "boundary_lattice_rank": 1,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 7,
+          "adjacent_schubert_rank": 3,
+          "boundary_lattice_rank": 1,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 8,
+          "adjacent_schubert_rank": 3,
+          "boundary_lattice_rank": 2,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 9,
+          "adjacent_schubert_rank": 3,
+          "boundary_lattice_rank": 2,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 10,
+          "adjacent_schubert_rank": 3,
+          "boundary_lattice_rank": 2,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 11,
+          "adjacent_schubert_rank": 2,
+          "boundary_lattice_rank": 2,
+          "obstruction_rank": 0
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "adjacent_rank": 8,
+      "tested_through_degree": 11,
+      "entire_kernel_decision": true,
+      "entire_kernel_preserved": false,
+      "first_failure_degree": 11,
+      "degree_rows": [
+        {
+          "degree": 1,
+          "adjacent_schubert_rank": 1,
+          "boundary_lattice_rank": 0,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 2,
+          "adjacent_schubert_rank": 1,
+          "boundary_lattice_rank": 0,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 3,
+          "adjacent_schubert_rank": 2,
+          "boundary_lattice_rank": 0,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 4,
+          "adjacent_schubert_rank": 2,
+          "boundary_lattice_rank": 0,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 5,
+          "adjacent_schubert_rank": 3,
+          "boundary_lattice_rank": 0,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 6,
+          "adjacent_schubert_rank": 4,
+          "boundary_lattice_rank": 0,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 7,
+          "adjacent_schubert_rank": 5,
+          "boundary_lattice_rank": 0,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 8,
+          "adjacent_schubert_rank": 6,
+          "boundary_lattice_rank": 1,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 9,
+          "adjacent_schubert_rank": 7,
+          "boundary_lattice_rank": 1,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 10,
+          "adjacent_schubert_rank": 8,
+          "boundary_lattice_rank": 1,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 11,
+          "adjacent_schubert_rank": 9,
+          "boundary_lattice_rank": 2,
+          "obstruction_rank": 1
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "adjacent_rank": 9,
+      "tested_through_degree": 16,
+      "entire_kernel_decision": true,
+      "entire_kernel_preserved": false,
+      "first_failure_degree": 16,
+      "degree_rows": [
+        {
+          "degree": 1,
+          "adjacent_schubert_rank": 1,
+          "boundary_lattice_rank": 0,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 2,
+          "adjacent_schubert_rank": 1,
+          "boundary_lattice_rank": 0,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 3,
+          "adjacent_schubert_rank": 2,
+          "boundary_lattice_rank": 0,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 4,
+          "adjacent_schubert_rank": 2,
+          "boundary_lattice_rank": 0,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 5,
+          "adjacent_schubert_rank": 3,
+          "boundary_lattice_rank": 0,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 6,
+          "adjacent_schubert_rank": 4,
+          "boundary_lattice_rank": 0,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 7,
+          "adjacent_schubert_rank": 5,
+          "boundary_lattice_rank": 0,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 8,
+          "adjacent_schubert_rank": 6,
+          "boundary_lattice_rank": 0,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 9,
+          "adjacent_schubert_rank": 8,
+          "boundary_lattice_rank": 1,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 10,
+          "adjacent_schubert_rank": 9,
+          "boundary_lattice_rank": 1,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 11,
+          "adjacent_schubert_rank": 10,
+          "boundary_lattice_rank": 1,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 12,
+          "adjacent_schubert_rank": 12,
+          "boundary_lattice_rank": 2,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 13,
+          "adjacent_schubert_rank": 13,
+          "boundary_lattice_rank": 2,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 14,
+          "adjacent_schubert_rank": 15,
+          "boundary_lattice_rank": 3,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 15,
+          "adjacent_schubert_rank": 17,
+          "boundary_lattice_rank": 4,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 16,
+          "adjacent_schubert_rank": 18,
+          "boundary_lattice_rank": 5,
+          "obstruction_rank": 1
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "adjacent_rank": 12,
+      "tested_through_degree": 67,
+      "entire_kernel_decision": true,
+      "entire_kernel_preserved": true,
+      "first_failure_degree": null,
+      "degree_rows": [
+        {
+          "degree": 1,
+          "adjacent_schubert_rank": 1,
+          "boundary_lattice_rank": 0,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 2,
+          "adjacent_schubert_rank": 1,
+          "boundary_lattice_rank": 0,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 3,
+          "adjacent_schubert_rank": 2,
+          "boundary_lattice_rank": 0,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 4,
+          "adjacent_schubert_rank": 2,
+          "boundary_lattice_rank": 0,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 5,
+          "adjacent_schubert_rank": 3,
+          "boundary_lattice_rank": 0,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 6,
+          "adjacent_schubert_rank": 4,
+          "boundary_lattice_rank": 0,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 7,
+          "adjacent_schubert_rank": 5,
+          "boundary_lattice_rank": 0,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 8,
+          "adjacent_schubert_rank": 6,
+          "boundary_lattice_rank": 0,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 9,
+          "adjacent_schubert_rank": 8,
+          "boundary_lattice_rank": 0,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 10,
+          "adjacent_schubert_rank": 10,
+          "boundary_lattice_rank": 0,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 11,
+          "adjacent_schubert_rank": 12,
+          "boundary_lattice_rank": 0,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 12,
+          "adjacent_schubert_rank": 15,
+          "boundary_lattice_rank": 1,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 13,
+          "adjacent_schubert_rank": 17,
+          "boundary_lattice_rank": 1,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 14,
+          "adjacent_schubert_rank": 20,
+          "boundary_lattice_rank": 1,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 15,
+          "adjacent_schubert_rank": 24,
+          "boundary_lattice_rank": 2,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 16,
+          "adjacent_schubert_rank": 27,
+          "boundary_lattice_rank": 2,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 17,
+          "adjacent_schubert_rank": 31,
+          "boundary_lattice_rank": 3,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 18,
+          "adjacent_schubert_rank": 36,
+          "boundary_lattice_rank": 4,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 19,
+          "adjacent_schubert_rank": 40,
+          "boundary_lattice_rank": 5,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 20,
+          "adjacent_schubert_rank": 45,
+          "boundary_lattice_rank": 6,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 21,
+          "adjacent_schubert_rank": 51,
+          "boundary_lattice_rank": 8,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 22,
+          "adjacent_schubert_rank": 56,
+          "boundary_lattice_rank": 10,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 23,
+          "adjacent_schubert_rank": 61,
+          "boundary_lattice_rank": 12,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 24,
+          "adjacent_schubert_rank": 67,
+          "boundary_lattice_rank": 14,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 25,
+          "adjacent_schubert_rank": 72,
+          "boundary_lattice_rank": 16,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 26,
+          "adjacent_schubert_rank": 78,
+          "boundary_lattice_rank": 19,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 27,
+          "adjacent_schubert_rank": 84,
+          "boundary_lattice_rank": 22,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 28,
+          "adjacent_schubert_rank": 89,
+          "boundary_lattice_rank": 25,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 29,
+          "adjacent_schubert_rank": 94,
+          "boundary_lattice_rank": 28,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 30,
+          "adjacent_schubert_rank": 100,
+          "boundary_lattice_rank": 32,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 31,
+          "adjacent_schubert_rank": 104,
+          "boundary_lattice_rank": 35,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 32,
+          "adjacent_schubert_rank": 108,
+          "boundary_lattice_rank": 39,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 33,
+          "adjacent_schubert_rank": 113,
+          "boundary_lattice_rank": 43,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 34,
+          "adjacent_schubert_rank": 115,
+          "boundary_lattice_rank": 46,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 35,
+          "adjacent_schubert_rank": 118,
+          "boundary_lattice_rank": 49,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 36,
+          "adjacent_schubert_rank": 121,
+          "boundary_lattice_rank": 53,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 37,
+          "adjacent_schubert_rank": 122,
+          "boundary_lattice_rank": 56,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 38,
+          "adjacent_schubert_rank": 123,
+          "boundary_lattice_rank": 59,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 39,
+          "adjacent_schubert_rank": 124,
+          "boundary_lattice_rank": 62,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 40,
+          "adjacent_schubert_rank": 123,
+          "boundary_lattice_rank": 64,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 41,
+          "adjacent_schubert_rank": 122,
+          "boundary_lattice_rank": 66,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 42,
+          "adjacent_schubert_rank": 121,
+          "boundary_lattice_rank": 68,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 43,
+          "adjacent_schubert_rank": 118,
+          "boundary_lattice_rank": 69,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 44,
+          "adjacent_schubert_rank": 115,
+          "boundary_lattice_rank": 69,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 45,
+          "adjacent_schubert_rank": 113,
+          "boundary_lattice_rank": 70,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 46,
+          "adjacent_schubert_rank": 108,
+          "boundary_lattice_rank": 69,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 47,
+          "adjacent_schubert_rank": 104,
+          "boundary_lattice_rank": 69,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 48,
+          "adjacent_schubert_rank": 100,
+          "boundary_lattice_rank": 68,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 49,
+          "adjacent_schubert_rank": 94,
+          "boundary_lattice_rank": 66,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 50,
+          "adjacent_schubert_rank": 89,
+          "boundary_lattice_rank": 64,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 51,
+          "adjacent_schubert_rank": 84,
+          "boundary_lattice_rank": 62,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 52,
+          "adjacent_schubert_rank": 78,
+          "boundary_lattice_rank": 59,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 53,
+          "adjacent_schubert_rank": 72,
+          "boundary_lattice_rank": 56,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 54,
+          "adjacent_schubert_rank": 67,
+          "boundary_lattice_rank": 53,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 55,
+          "adjacent_schubert_rank": 61,
+          "boundary_lattice_rank": 49,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 56,
+          "adjacent_schubert_rank": 56,
+          "boundary_lattice_rank": 46,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 57,
+          "adjacent_schubert_rank": 51,
+          "boundary_lattice_rank": 43,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 58,
+          "adjacent_schubert_rank": 45,
+          "boundary_lattice_rank": 39,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 59,
+          "adjacent_schubert_rank": 40,
+          "boundary_lattice_rank": 35,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 60,
+          "adjacent_schubert_rank": 36,
+          "boundary_lattice_rank": 32,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 61,
+          "adjacent_schubert_rank": 31,
+          "boundary_lattice_rank": 28,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 62,
+          "adjacent_schubert_rank": 27,
+          "boundary_lattice_rank": 25,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 63,
+          "adjacent_schubert_rank": 24,
+          "boundary_lattice_rank": 22,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 64,
+          "adjacent_schubert_rank": 20,
+          "boundary_lattice_rank": 19,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 65,
+          "adjacent_schubert_rank": 17,
+          "boundary_lattice_rank": 16,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 66,
+          "adjacent_schubert_rank": 15,
+          "boundary_lattice_rank": 14,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 67,
+          "adjacent_schubert_rank": 12,
+          "boundary_lattice_rank": 12,
+          "obstruction_rank": 0
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "adjacent_rank": 13,
+      "tested_through_degree": 34,
+      "entire_kernel_decision": true,
+      "entire_kernel_preserved": false,
+      "first_failure_degree": 34,
+      "degree_rows": [
+        {
+          "degree": 1,
+          "adjacent_schubert_rank": 1,
+          "boundary_lattice_rank": 0,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 2,
+          "adjacent_schubert_rank": 1,
+          "boundary_lattice_rank": 0,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 3,
+          "adjacent_schubert_rank": 2,
+          "boundary_lattice_rank": 0,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 4,
+          "adjacent_schubert_rank": 2,
+          "boundary_lattice_rank": 0,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 5,
+          "adjacent_schubert_rank": 3,
+          "boundary_lattice_rank": 0,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 6,
+          "adjacent_schubert_rank": 4,
+          "boundary_lattice_rank": 0,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 7,
+          "adjacent_schubert_rank": 5,
+          "boundary_lattice_rank": 0,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 8,
+          "adjacent_schubert_rank": 6,
+          "boundary_lattice_rank": 0,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 9,
+          "adjacent_schubert_rank": 8,
+          "boundary_lattice_rank": 0,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 10,
+          "adjacent_schubert_rank": 10,
+          "boundary_lattice_rank": 0,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 11,
+          "adjacent_schubert_rank": 12,
+          "boundary_lattice_rank": 0,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 12,
+          "adjacent_schubert_rank": 15,
+          "boundary_lattice_rank": 0,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 13,
+          "adjacent_schubert_rank": 18,
+          "boundary_lattice_rank": 1,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 14,
+          "adjacent_schubert_rank": 21,
+          "boundary_lattice_rank": 1,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 15,
+          "adjacent_schubert_rank": 25,
+          "boundary_lattice_rank": 1,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 16,
+          "adjacent_schubert_rank": 29,
+          "boundary_lattice_rank": 2,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 17,
+          "adjacent_schubert_rank": 33,
+          "boundary_lattice_rank": 2,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 18,
+          "adjacent_schubert_rank": 39,
+          "boundary_lattice_rank": 3,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 19,
+          "adjacent_schubert_rank": 44,
+          "boundary_lattice_rank": 4,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 20,
+          "adjacent_schubert_rank": 50,
+          "boundary_lattice_rank": 5,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 21,
+          "adjacent_schubert_rank": 57,
+          "boundary_lattice_rank": 6,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 22,
+          "adjacent_schubert_rank": 64,
+          "boundary_lattice_rank": 8,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 23,
+          "adjacent_schubert_rank": 71,
+          "boundary_lattice_rank": 10,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 24,
+          "adjacent_schubert_rank": 79,
+          "boundary_lattice_rank": 12,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 25,
+          "adjacent_schubert_rank": 87,
+          "boundary_lattice_rank": 15,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 26,
+          "adjacent_schubert_rank": 95,
+          "boundary_lattice_rank": 17,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 27,
+          "adjacent_schubert_rank": 104,
+          "boundary_lattice_rank": 20,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 28,
+          "adjacent_schubert_rank": 113,
+          "boundary_lattice_rank": 24,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 29,
+          "adjacent_schubert_rank": 121,
+          "boundary_lattice_rank": 27,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 30,
+          "adjacent_schubert_rank": 131,
+          "boundary_lattice_rank": 31,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 31,
+          "adjacent_schubert_rank": 140,
+          "boundary_lattice_rank": 36,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 32,
+          "adjacent_schubert_rank": 148,
+          "boundary_lattice_rank": 40,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 33,
+          "adjacent_schubert_rank": 158,
+          "boundary_lattice_rank": 45,
+          "obstruction_rank": 0
+        },
+        {
+          "degree": 34,
+          "adjacent_schubert_rank": 166,
+          "boundary_lattice_rank": 51,
+          "obstruction_rank": 1
+        }
+      ]
+    }
+  ]
+}

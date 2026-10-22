@@ -210,6 +210,34 @@ restriction needed for the quadratic image formula. Next test whether
 a stable root complement plus a unit quadratic lift suffices on actual
 root data, or identify an additional necessary saturation hypothesis.
 
+The [odd spin test](../../borel/SPIN_PARITY_EXTENSION.md) now gives a
+different general step: an every-rank symmetric-source reduction, and a
+proof that the quartic failure occurs exactly at rank 3. Entire kernels
+are stable in ranks 4--6 but fail later in ranks 7 and 8, in degrees 11
+and 16. Independent finite-flatness certificates establish these entire
+finite-rank assertions. Uniform failure in all ranks >=3 is false.
+The next target is an arbitrary-rank recursive presentation and a criterion
+for the first failure, rather than extrapolation of a pattern from these
+cases. These are deductions from known Borel/symmetric-polynomial inputs;
+no priority claim or new root-image Smith formula follows.
+
+The [recursive spin step](../../borel/SPIN_PARITY_RECURSION.md) now replaces
+multivariate saturation by an arbitrary-rank strict-partition lattice
+recurrence. It proves all-degree kernel stability for n=1,2 modulo 4 and
+stability through degree n in every rank. Independent full calculations
+add stable rank 11 and first failure at degree 34 in rank 12. The remaining
+structural target is to simplify the exact relation criterion when
+T=n(n+1)/2 is even; a closed classification and first-failure formula there
+are still missing. This is a new uniform deduction in the program from
+classical Schur-P/Q and Pieri inputs, not an established originality claim.
+
+The [boundary step](../../borel/SPIN_PARITY_BOUNDARY.md) isolates the
+obstruction in ker(N_(n+1) -> N_n). Lowering its boundary part gives an
+elementary two-group whose dimension is an explicit matrix rank, and
+whose first nonzero degree is exactly the first failure. This is a uniform
+structural criterion; evaluating it in closed form for n=0,3 modulo four
+remains the next mathematical gap. It does not yet classify those ranks.
+
 ### 2. Replace the case tables with a structural mechanism
 
 Work over R=Z_(2) for E7. Let A_X=(Sym_R X_R)^(W_I),
@@ -310,6 +338,24 @@ flag. The next main mathematical target is **2**,
 with **3** as its focused test. Begin **4** after inventorying the existing
 absolute tables. This roadmap adds no theorem, and the frozen proposal
 PDF is unchanged.
+
+## Current extension focus: other theories and affine groups
+
+The 22 October [exploration report](../../borel/OTHER_THEORIES_PROGRAM.md)
+records the current direction; the Spin parity classification is shelved.
+It supplies written K/oriented comparisons, complete all-representation
+SL3 K factors, symplectic height and largest-factor formulas, quantum
+projective lifts, affine A/C divisor-content formulas and an
+all-parabolic equivariant K determinant theorem linked to the existing
+Cayley calculations. These use published ambient theories and are
+deductions with stated hypotheses, not claims of established originality.
+
+The next implementation is primitive character data and a K/CK image API
+using the complete SL3 and G2 benchmarks. The next exceptional mathematical
+target is higher equivariant Fitting data on E6/P1, followed by E7/P7;
+their zeroth determinant powers are already explained structurally in
+the new note. No new full paper is being drafted, and the frozen proposal
+PDF is unchanged. The ledger tracks subsequent proof status.
 
 ## Status and provenance
 

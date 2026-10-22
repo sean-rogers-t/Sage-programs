@@ -1,0 +1,1959 @@
+{
+  "result": "passed",
+  "date": "2026-10-22",
+  "coefficient_ring": "Z_(2)",
+  "parabolic": "B",
+  "source": "Full Spin weight lattice; auxiliary symmetric image M[z]",
+  "method": "Schur-Q root-image lattice, classical one-box Pieri rule, integral Hermite bases and derivative relation matrices",
+  "uniform_results": [
+    "arbitrary-rank recursive presentation and exact decision procedure",
+    "kernel preserved in every degree for n=1 or 2 modulo 4",
+    "kernel preserved through polynomial degree n for every n"
+  ],
+  "arbitrary_rank_closed_classification_complete": false,
+  "certificate_archive": "experiments/spin-parity-recursion-certificates.json.gz",
+  "certificate_archive_sha256": "1ea667383db66a69724cb75d68bff612590c4122b924bdbe851b7ab5436ee65e",
+  "source_sha256": {
+    "experiments/spin_parity_recursion.py": "8f9a97ccd6192d2e3a1d3839fdd9153b0ad725a51948563cd4ab9911f3c349e7"
+  },
+  "cases": [
+    {
+      "rank": 1,
+      "group": "Spin(3)",
+      "top_symmetric_degree": 1,
+      "tested_through_degree": 2,
+      "entire_kernel_decision": true,
+      "entire_kernel_preserved": true,
+      "first_failure_degree": null,
+      "degree_rows": [
+        {
+          "degree": 0,
+          "rank": 1,
+          "lattice_index_valuation_2": 0,
+          "defect_rank": 0
+        },
+        {
+          "degree": 1,
+          "rank": 1,
+          "lattice_index_valuation_2": 0,
+          "defect_rank": 0
+        },
+        {
+          "degree": 2,
+          "rank": 0,
+          "lattice_index_valuation_2": 0,
+          "defect_rank": 0
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "group": "Spin(5)",
+      "top_symmetric_degree": 3,
+      "tested_through_degree": 4,
+      "entire_kernel_decision": true,
+      "entire_kernel_preserved": true,
+      "first_failure_degree": null,
+      "degree_rows": [
+        {
+          "degree": 0,
+          "rank": 1,
+          "lattice_index_valuation_2": 0,
+          "defect_rank": 0
+        },
+        {
+          "degree": 1,
+          "rank": 1,
+          "lattice_index_valuation_2": 0,
+          "defect_rank": 0
+        },
+        {
+          "degree": 2,
+          "rank": 1,
+          "lattice_index_valuation_2": 0,
+          "defect_rank": 0
+        },
+        {
+          "degree": 3,
+          "rank": 1,
+          "lattice_index_valuation_2": 0,
+          "defect_rank": 0
+        },
+        {
+          "degree": 4,
+          "rank": 0,
+          "lattice_index_valuation_2": 0,
+          "defect_rank": 0
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "group": "Spin(7)",
+      "top_symmetric_degree": 6,
+      "tested_through_degree": 4,
+      "entire_kernel_decision": true,
+      "entire_kernel_preserved": false,
+      "first_failure_degree": 4,
+      "degree_rows": [
+        {
+          "degree": 0,
+          "rank": 1,
+          "lattice_index_valuation_2": 0,
+          "defect_rank": 0
+        },
+        {
+          "degree": 1,
+          "rank": 1,
+          "lattice_index_valuation_2": 0,
+          "defect_rank": 0
+        },
+        {
+          "degree": 2,
+          "rank": 1,
+          "lattice_index_valuation_2": 0,
+          "defect_rank": 0
+        },
+        {
+          "degree": 3,
+          "rank": 2,
+          "lattice_index_valuation_2": 1,
+          "defect_rank": 0
+        },
+        {
+          "degree": 4,
+          "rank": 1,
+          "lattice_index_valuation_2": 1,
+          "defect_rank": 1
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "group": "Spin(9)",
+      "top_symmetric_degree": 10,
+      "tested_through_degree": 11,
+      "entire_kernel_decision": true,
+      "entire_kernel_preserved": true,
+      "first_failure_degree": null,
+      "degree_rows": [
+        {
+          "degree": 0,
+          "rank": 1,
+          "lattice_index_valuation_2": 0,
+          "defect_rank": 0
+        },
+        {
+          "degree": 1,
+          "rank": 1,
+          "lattice_index_valuation_2": 0,
+          "defect_rank": 0
+        },
+        {
+          "degree": 2,
+          "rank": 1,
+          "lattice_index_valuation_2": 0,
+          "defect_rank": 0
+        },
+        {
+          "degree": 3,
+          "rank": 2,
+          "lattice_index_valuation_2": 1,
+          "defect_rank": 0
+        },
+        {
+          "degree": 4,
+          "rank": 2,
+          "lattice_index_valuation_2": 1,
+          "defect_rank": 0
+        },
+        {
+          "degree": 5,
+          "rank": 2,
+          "lattice_index_valuation_2": 1,
+          "defect_rank": 0
+        },
+        {
+          "degree": 6,
+          "rank": 2,
+          "lattice_index_valuation_2": 1,
+          "defect_rank": 0
+        },
+        {
+          "degree": 7,
+          "rank": 2,
+          "lattice_index_valuation_2": 1,
+          "defect_rank": 0
+        },
+        {
+          "degree": 8,
+          "rank": 1,
+          "lattice_index_valuation_2": 1,
+          "defect_rank": 0
+        },
+        {
+          "degree": 9,
+          "rank": 1,
+          "lattice_index_valuation_2": 1,
+          "defect_rank": 0
+        },
+        {
+          "degree": 10,
+          "rank": 1,
+          "lattice_index_valuation_2": 1,
+          "defect_rank": 0
+        },
+        {
+          "degree": 11,
+          "rank": 0,
+          "lattice_index_valuation_2": 0,
+          "defect_rank": 0
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "group": "Spin(11)",
+      "top_symmetric_degree": 15,
+      "tested_through_degree": 16,
+      "entire_kernel_decision": true,
+      "entire_kernel_preserved": true,
+      "first_failure_degree": null,
+      "degree_rows": [
+        {
+          "degree": 0,
+          "rank": 1,
+          "lattice_index_valuation_2": 0,
+          "defect_rank": 0
+        },
+        {
+          "degree": 1,
+          "rank": 1,
+          "lattice_index_valuation_2": 0,
+          "defect_rank": 0
+        },
+        {
+          "degree": 2,
+          "rank": 1,
+          "lattice_index_valuation_2": 0,
+          "defect_rank": 0
+        },
+        {
+          "degree": 3,
+          "rank": 2,
+          "lattice_index_valuation_2": 1,
+          "defect_rank": 0
+        },
+        {
+          "degree": 4,
+          "rank": 2,
+          "lattice_index_valuation_2": 1,
+          "defect_rank": 0
+        },
+        {
+          "degree": 5,
+          "rank": 3,
+          "lattice_index_valuation_2": 2,
+          "defect_rank": 0
+        },
+        {
+          "degree": 6,
+          "rank": 3,
+          "lattice_index_valuation_2": 2,
+          "defect_rank": 0
+        },
+        {
+          "degree": 7,
+          "rank": 3,
+          "lattice_index_valuation_2": 2,
+          "defect_rank": 0
+        },
+        {
+          "degree": 8,
+          "rank": 3,
+          "lattice_index_valuation_2": 3,
+          "defect_rank": 0
+        },
+        {
+          "degree": 9,
+          "rank": 3,
+          "lattice_index_valuation_2": 3,
+          "defect_rank": 0
+        },
+        {
+          "degree": 10,
+          "rank": 3,
+          "lattice_index_valuation_2": 3,
+          "defect_rank": 0
+        },
+        {
+          "degree": 11,
+          "rank": 2,
+          "lattice_index_valuation_2": 2,
+          "defect_rank": 0
+        },
+        {
+          "degree": 12,
+          "rank": 2,
+          "lattice_index_valuation_2": 2,
+          "defect_rank": 0
+        },
+        {
+          "degree": 13,
+          "rank": 1,
+          "lattice_index_valuation_2": 1,
+          "defect_rank": 0
+        },
+        {
+          "degree": 14,
+          "rank": 1,
+          "lattice_index_valuation_2": 1,
+          "defect_rank": 0
+        },
+        {
+          "degree": 15,
+          "rank": 1,
+          "lattice_index_valuation_2": 1,
+          "defect_rank": 0
+        },
+        {
+          "degree": 16,
+          "rank": 0,
+          "lattice_index_valuation_2": 0,
+          "defect_rank": 0
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "group": "Spin(13)",
+      "top_symmetric_degree": 21,
+      "tested_through_degree": 22,
+      "entire_kernel_decision": true,
+      "entire_kernel_preserved": true,
+      "first_failure_degree": null,
+      "degree_rows": [
+        {
+          "degree": 0,
+          "rank": 1,
+          "lattice_index_valuation_2": 0,
+          "defect_rank": 0
+        },
+        {
+          "degree": 1,
+          "rank": 1,
+          "lattice_index_valuation_2": 0,
+          "defect_rank": 0
+        },
+        {
+          "degree": 2,
+          "rank": 1,
+          "lattice_index_valuation_2": 0,
+          "defect_rank": 0
+        },
+        {
+          "degree": 3,
+          "rank": 2,
+          "lattice_index_valuation_2": 1,
+          "defect_rank": 0
+        },
+        {
+          "degree": 4,
+          "rank": 2,
+          "lattice_index_valuation_2": 1,
+          "defect_rank": 0
+        },
+        {
+          "degree": 5,
+          "rank": 3,
+          "lattice_index_valuation_2": 2,
+          "defect_rank": 0
+        },
+        {
+          "degree": 6,
+          "rank": 4,
+          "lattice_index_valuation_2": 3,
+          "defect_rank": 0
+        },
+        {
+          "degree": 7,
+          "rank": 4,
+          "lattice_index_valuation_2": 3,
+          "defect_rank": 0
+        },
+        {
+          "degree": 8,
+          "rank": 4,
+          "lattice_index_valuation_2": 4,
+          "defect_rank": 0
+        },
+        {
+          "degree": 9,
+          "rank": 5,
+          "lattice_index_valuation_2": 6,
+          "defect_rank": 0
+        },
+        {
+          "degree": 10,
+          "rank": 5,
+          "lattice_index_valuation_2": 6,
+          "defect_rank": 0
+        },
+        {
+          "degree": 11,
+          "rank": 5,
+          "lattice_index_valuation_2": 7,
+          "defect_rank": 0
+        },
+        {
+          "degree": 12,
+          "rank": 5,
+          "lattice_index_valuation_2": 7,
+          "defect_rank": 0
+        },
+        {
+          "degree": 13,
+          "rank": 4,
+          "lattice_index_valuation_2": 6,
+          "defect_rank": 0
+        },
+        {
+          "degree": 14,
+          "rank": 4,
+          "lattice_index_valuation_2": 7,
+          "defect_rank": 0
+        },
+        {
+          "degree": 15,
+          "rank": 4,
+          "lattice_index_valuation_2": 7,
+          "defect_rank": 0
+        },
+        {
+          "degree": 16,
+          "rank": 3,
+          "lattice_index_valuation_2": 6,
+          "defect_rank": 0
+        },
+        {
+          "degree": 17,
+          "rank": 2,
+          "lattice_index_valuation_2": 4,
+          "defect_rank": 0
+        },
+        {
+          "degree": 18,
+          "rank": 2,
+          "lattice_index_valuation_2": 4,
+          "defect_rank": 0
+        },
+        {
+          "degree": 19,
+          "rank": 1,
+          "lattice_index_valuation_2": 2,
+          "defect_rank": 0
+        },
+        {
+          "degree": 20,
+          "rank": 1,
+          "lattice_index_valuation_2": 2,
+          "defect_rank": 0
+        },
+        {
+          "degree": 21,
+          "rank": 1,
+          "lattice_index_valuation_2": 2,
+          "defect_rank": 0
+        },
+        {
+          "degree": 22,
+          "rank": 0,
+          "lattice_index_valuation_2": 0,
+          "defect_rank": 0
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "group": "Spin(15)",
+      "top_symmetric_degree": 28,
+      "tested_through_degree": 11,
+      "entire_kernel_decision": true,
+      "entire_kernel_preserved": false,
+      "first_failure_degree": 11,
+      "degree_rows": [
+        {
+          "degree": 0,
+          "rank": 1,
+          "lattice_index_valuation_2": 0,
+          "defect_rank": 0
+        },
+        {
+          "degree": 1,
+          "rank": 1,
+          "lattice_index_valuation_2": 0,
+          "defect_rank": 0
+        },
+        {
+          "degree": 2,
+          "rank": 1,
+          "lattice_index_valuation_2": 0,
+          "defect_rank": 0
+        },
+        {
+          "degree": 3,
+          "rank": 2,
+          "lattice_index_valuation_2": 1,
+          "defect_rank": 0
+        },
+        {
+          "degree": 4,
+          "rank": 2,
+          "lattice_index_valuation_2": 1,
+          "defect_rank": 0
+        },
+        {
+          "degree": 5,
+          "rank": 3,
+          "lattice_index_valuation_2": 2,
+          "defect_rank": 0
+        },
+        {
+          "degree": 6,
+          "rank": 4,
+          "lattice_index_valuation_2": 3,
+          "defect_rank": 0
+        },
+        {
+          "degree": 7,
+          "rank": 5,
+          "lattice_index_valuation_2": 4,
+          "defect_rank": 0
+        },
+        {
+          "degree": 8,
+          "rank": 5,
+          "lattice_index_valuation_2": 5,
+          "defect_rank": 0
+        },
+        {
+          "degree": 9,
+          "rank": 6,
+          "lattice_index_valuation_2": 7,
+          "defect_rank": 0
+        },
+        {
+          "degree": 10,
+          "rank": 7,
+          "lattice_index_valuation_2": 9,
+          "defect_rank": 0
+        },
+        {
+          "degree": 11,
+          "rank": 7,
+          "lattice_index_valuation_2": 10,
+          "defect_rank": 1
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "group": "Spin(17)",
+      "top_symmetric_degree": 36,
+      "tested_through_degree": 16,
+      "entire_kernel_decision": true,
+      "entire_kernel_preserved": false,
+      "first_failure_degree": 16,
+      "degree_rows": [
+        {
+          "degree": 0,
+          "rank": 1,
+          "lattice_index_valuation_2": 0,
+          "defect_rank": 0
+        },
+        {
+          "degree": 1,
+          "rank": 1,
+          "lattice_index_valuation_2": 0,
+          "defect_rank": 0
+        },
+        {
+          "degree": 2,
+          "rank": 1,
+          "lattice_index_valuation_2": 0,
+          "defect_rank": 0
+        },
+        {
+          "degree": 3,
+          "rank": 2,
+          "lattice_index_valuation_2": 1,
+          "defect_rank": 0
+        },
+        {
+          "degree": 4,
+          "rank": 2,
+          "lattice_index_valuation_2": 1,
+          "defect_rank": 0
+        },
+        {
+          "degree": 5,
+          "rank": 3,
+          "lattice_index_valuation_2": 2,
+          "defect_rank": 0
+        },
+        {
+          "degree": 6,
+          "rank": 4,
+          "lattice_index_valuation_2": 3,
+          "defect_rank": 0
+        },
+        {
+          "degree": 7,
+          "rank": 5,
+          "lattice_index_valuation_2": 4,
+          "defect_rank": 0
+        },
+        {
+          "degree": 8,
+          "rank": 6,
+          "lattice_index_valuation_2": 6,
+          "defect_rank": 0
+        },
+        {
+          "degree": 9,
+          "rank": 7,
+          "lattice_index_valuation_2": 8,
+          "defect_rank": 0
+        },
+        {
+          "degree": 10,
+          "rank": 8,
+          "lattice_index_valuation_2": 10,
+          "defect_rank": 0
+        },
+        {
+          "degree": 11,
+          "rank": 9,
+          "lattice_index_valuation_2": 12,
+          "defect_rank": 0
+        },
+        {
+          "degree": 12,
+          "rank": 10,
+          "lattice_index_valuation_2": 14,
+          "defect_rank": 0
+        },
+        {
+          "degree": 13,
+          "rank": 11,
+          "lattice_index_valuation_2": 16,
+          "defect_rank": 0
+        },
+        {
+          "degree": 14,
+          "rank": 12,
+          "lattice_index_valuation_2": 19,
+          "defect_rank": 0
+        },
+        {
+          "degree": 15,
+          "rank": 13,
+          "lattice_index_valuation_2": 22,
+          "defect_rank": 0
+        },
+        {
+          "degree": 16,
+          "rank": 13,
+          "lattice_index_valuation_2": 25,
+          "defect_rank": 1
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "group": "Spin(19)",
+      "top_symmetric_degree": 45,
+      "tested_through_degree": 46,
+      "entire_kernel_decision": true,
+      "entire_kernel_preserved": true,
+      "first_failure_degree": null,
+      "degree_rows": [
+        {
+          "degree": 0,
+          "rank": 1,
+          "lattice_index_valuation_2": 0,
+          "defect_rank": 0
+        },
+        {
+          "degree": 1,
+          "rank": 1,
+          "lattice_index_valuation_2": 0,
+          "defect_rank": 0
+        },
+        {
+          "degree": 2,
+          "rank": 1,
+          "lattice_index_valuation_2": 0,
+          "defect_rank": 0
+        },
+        {
+          "degree": 3,
+          "rank": 2,
+          "lattice_index_valuation_2": 1,
+          "defect_rank": 0
+        },
+        {
+          "degree": 4,
+          "rank": 2,
+          "lattice_index_valuation_2": 1,
+          "defect_rank": 0
+        },
+        {
+          "degree": 5,
+          "rank": 3,
+          "lattice_index_valuation_2": 2,
+          "defect_rank": 0
+        },
+        {
+          "degree": 6,
+          "rank": 4,
+          "lattice_index_valuation_2": 3,
+          "defect_rank": 0
+        },
+        {
+          "degree": 7,
+          "rank": 5,
+          "lattice_index_valuation_2": 4,
+          "defect_rank": 0
+        },
+        {
+          "degree": 8,
+          "rank": 6,
+          "lattice_index_valuation_2": 6,
+          "defect_rank": 0
+        },
+        {
+          "degree": 9,
+          "rank": 8,
+          "lattice_index_valuation_2": 9,
+          "defect_rank": 0
+        },
+        {
+          "degree": 10,
+          "rank": 9,
+          "lattice_index_valuation_2": 11,
+          "defect_rank": 0
+        },
+        {
+          "degree": 11,
+          "rank": 10,
+          "lattice_index_valuation_2": 13,
+          "defect_rank": 0
+        },
+        {
+          "degree": 12,
+          "rank": 12,
+          "lattice_index_valuation_2": 17,
+          "defect_rank": 0
+        },
+        {
+          "degree": 13,
+          "rank": 13,
+          "lattice_index_valuation_2": 19,
+          "defect_rank": 0
+        },
+        {
+          "degree": 14,
+          "rank": 15,
+          "lattice_index_valuation_2": 24,
+          "defect_rank": 0
+        },
+        {
+          "degree": 15,
+          "rank": 17,
+          "lattice_index_valuation_2": 29,
+          "defect_rank": 0
+        },
+        {
+          "degree": 16,
+          "rank": 18,
+          "lattice_index_valuation_2": 33,
+          "defect_rank": 0
+        },
+        {
+          "degree": 17,
+          "rank": 19,
+          "lattice_index_valuation_2": 36,
+          "defect_rank": 0
+        },
+        {
+          "degree": 18,
+          "rank": 21,
+          "lattice_index_valuation_2": 42,
+          "defect_rank": 0
+        },
+        {
+          "degree": 19,
+          "rank": 21,
+          "lattice_index_valuation_2": 43,
+          "defect_rank": 0
+        },
+        {
+          "degree": 20,
+          "rank": 22,
+          "lattice_index_valuation_2": 46,
+          "defect_rank": 0
+        },
+        {
+          "degree": 21,
+          "rank": 23,
+          "lattice_index_valuation_2": 51,
+          "defect_rank": 0
+        },
+        {
+          "degree": 22,
+          "rank": 23,
+          "lattice_index_valuation_2": 52,
+          "defect_rank": 0
+        },
+        {
+          "degree": 23,
+          "rank": 23,
+          "lattice_index_valuation_2": 55,
+          "defect_rank": 0
+        },
+        {
+          "degree": 24,
+          "rank": 23,
+          "lattice_index_valuation_2": 56,
+          "defect_rank": 0
+        },
+        {
+          "degree": 25,
+          "rank": 22,
+          "lattice_index_valuation_2": 56,
+          "defect_rank": 0
+        },
+        {
+          "degree": 26,
+          "rank": 21,
+          "lattice_index_valuation_2": 54,
+          "defect_rank": 0
+        },
+        {
+          "degree": 27,
+          "rank": 21,
+          "lattice_index_valuation_2": 55,
+          "defect_rank": 0
+        },
+        {
+          "degree": 28,
+          "rank": 19,
+          "lattice_index_valuation_2": 51,
+          "defect_rank": 0
+        },
+        {
+          "degree": 29,
+          "rank": 18,
+          "lattice_index_valuation_2": 49,
+          "defect_rank": 0
+        },
+        {
+          "degree": 30,
+          "rank": 17,
+          "lattice_index_valuation_2": 48,
+          "defect_rank": 0
+        },
+        {
+          "degree": 31,
+          "rank": 15,
+          "lattice_index_valuation_2": 43,
+          "defect_rank": 0
+        },
+        {
+          "degree": 32,
+          "rank": 13,
+          "lattice_index_valuation_2": 39,
+          "defect_rank": 0
+        },
+        {
+          "degree": 33,
+          "rank": 12,
+          "lattice_index_valuation_2": 36,
+          "defect_rank": 0
+        },
+        {
+          "degree": 34,
+          "rank": 10,
+          "lattice_index_valuation_2": 30,
+          "defect_rank": 0
+        },
+        {
+          "degree": 35,
+          "rank": 9,
+          "lattice_index_valuation_2": 28,
+          "defect_rank": 0
+        },
+        {
+          "degree": 36,
+          "rank": 8,
+          "lattice_index_valuation_2": 25,
+          "defect_rank": 0
+        },
+        {
+          "degree": 37,
+          "rank": 6,
+          "lattice_index_valuation_2": 19,
+          "defect_rank": 0
+        },
+        {
+          "degree": 38,
+          "rank": 5,
+          "lattice_index_valuation_2": 17,
+          "defect_rank": 0
+        },
+        {
+          "degree": 39,
+          "rank": 4,
+          "lattice_index_valuation_2": 13,
+          "defect_rank": 0
+        },
+        {
+          "degree": 40,
+          "rank": 3,
+          "lattice_index_valuation_2": 10,
+          "defect_rank": 0
+        },
+        {
+          "degree": 41,
+          "rank": 2,
+          "lattice_index_valuation_2": 7,
+          "defect_rank": 0
+        },
+        {
+          "degree": 42,
+          "rank": 2,
+          "lattice_index_valuation_2": 7,
+          "defect_rank": 0
+        },
+        {
+          "degree": 43,
+          "rank": 1,
+          "lattice_index_valuation_2": 4,
+          "defect_rank": 0
+        },
+        {
+          "degree": 44,
+          "rank": 1,
+          "lattice_index_valuation_2": 4,
+          "defect_rank": 0
+        },
+        {
+          "degree": 45,
+          "rank": 1,
+          "lattice_index_valuation_2": 4,
+          "defect_rank": 0
+        },
+        {
+          "degree": 46,
+          "rank": 0,
+          "lattice_index_valuation_2": 0,
+          "defect_rank": 0
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "group": "Spin(21)",
+      "top_symmetric_degree": 55,
+      "tested_through_degree": 56,
+      "entire_kernel_decision": true,
+      "entire_kernel_preserved": true,
+      "first_failure_degree": null,
+      "degree_rows": [
+        {
+          "degree": 0,
+          "rank": 1,
+          "lattice_index_valuation_2": 0,
+          "defect_rank": 0
+        },
+        {
+          "degree": 1,
+          "rank": 1,
+          "lattice_index_valuation_2": 0,
+          "defect_rank": 0
+        },
+        {
+          "degree": 2,
+          "rank": 1,
+          "lattice_index_valuation_2": 0,
+          "defect_rank": 0
+        },
+        {
+          "degree": 3,
+          "rank": 2,
+          "lattice_index_valuation_2": 1,
+          "defect_rank": 0
+        },
+        {
+          "degree": 4,
+          "rank": 2,
+          "lattice_index_valuation_2": 1,
+          "defect_rank": 0
+        },
+        {
+          "degree": 5,
+          "rank": 3,
+          "lattice_index_valuation_2": 2,
+          "defect_rank": 0
+        },
+        {
+          "degree": 6,
+          "rank": 4,
+          "lattice_index_valuation_2": 3,
+          "defect_rank": 0
+        },
+        {
+          "degree": 7,
+          "rank": 5,
+          "lattice_index_valuation_2": 4,
+          "defect_rank": 0
+        },
+        {
+          "degree": 8,
+          "rank": 6,
+          "lattice_index_valuation_2": 6,
+          "defect_rank": 0
+        },
+        {
+          "degree": 9,
+          "rank": 8,
+          "lattice_index_valuation_2": 9,
+          "defect_rank": 0
+        },
+        {
+          "degree": 10,
+          "rank": 10,
+          "lattice_index_valuation_2": 12,
+          "defect_rank": 0
+        },
+        {
+          "degree": 11,
+          "rank": 11,
+          "lattice_index_valuation_2": 14,
+          "defect_rank": 0
+        },
+        {
+          "degree": 12,
+          "rank": 13,
+          "lattice_index_valuation_2": 18,
+          "defect_rank": 0
+        },
+        {
+          "degree": 13,
+          "rank": 15,
+          "lattice_index_valuation_2": 22,
+          "defect_rank": 0
+        },
+        {
+          "degree": 14,
+          "rank": 17,
+          "lattice_index_valuation_2": 27,
+          "defect_rank": 0
+        },
+        {
+          "degree": 15,
+          "rank": 20,
+          "lattice_index_valuation_2": 34,
+          "defect_rank": 0
+        },
+        {
+          "degree": 16,
+          "rank": 22,
+          "lattice_index_valuation_2": 40,
+          "defect_rank": 0
+        },
+        {
+          "degree": 17,
+          "rank": 24,
+          "lattice_index_valuation_2": 45,
+          "defect_rank": 0
+        },
+        {
+          "degree": 18,
+          "rank": 27,
+          "lattice_index_valuation_2": 54,
+          "defect_rank": 0
+        },
+        {
+          "degree": 19,
+          "rank": 29,
+          "lattice_index_valuation_2": 60,
+          "defect_rank": 0
+        },
+        {
+          "degree": 20,
+          "rank": 31,
+          "lattice_index_valuation_2": 66,
+          "defect_rank": 0
+        },
+        {
+          "degree": 21,
+          "rank": 33,
+          "lattice_index_valuation_2": 74,
+          "defect_rank": 0
+        },
+        {
+          "degree": 22,
+          "rank": 35,
+          "lattice_index_valuation_2": 81,
+          "defect_rank": 0
+        },
+        {
+          "degree": 23,
+          "rank": 36,
+          "lattice_index_valuation_2": 86,
+          "defect_rank": 0
+        },
+        {
+          "degree": 24,
+          "rank": 38,
+          "lattice_index_valuation_2": 94,
+          "defect_rank": 0
+        },
+        {
+          "degree": 25,
+          "rank": 39,
+          "lattice_index_valuation_2": 100,
+          "defect_rank": 0
+        },
+        {
+          "degree": 26,
+          "rank": 39,
+          "lattice_index_valuation_2": 102,
+          "defect_rank": 0
+        },
+        {
+          "degree": 27,
+          "rank": 40,
+          "lattice_index_valuation_2": 107,
+          "defect_rank": 0
+        },
+        {
+          "degree": 28,
+          "rank": 40,
+          "lattice_index_valuation_2": 109,
+          "defect_rank": 0
+        },
+        {
+          "degree": 29,
+          "rank": 39,
+          "lattice_index_valuation_2": 108,
+          "defect_rank": 0
+        },
+        {
+          "degree": 30,
+          "rank": 39,
+          "lattice_index_valuation_2": 110,
+          "defect_rank": 0
+        },
+        {
+          "degree": 31,
+          "rank": 38,
+          "lattice_index_valuation_2": 110,
+          "defect_rank": 0
+        },
+        {
+          "degree": 32,
+          "rank": 36,
+          "lattice_index_valuation_2": 107,
+          "defect_rank": 0
+        },
+        {
+          "degree": 33,
+          "rank": 35,
+          "lattice_index_valuation_2": 106,
+          "defect_rank": 0
+        },
+        {
+          "degree": 34,
+          "rank": 33,
+          "lattice_index_valuation_2": 101,
+          "defect_rank": 0
+        },
+        {
+          "degree": 35,
+          "rank": 31,
+          "lattice_index_valuation_2": 98,
+          "defect_rank": 0
+        },
+        {
+          "degree": 36,
+          "rank": 29,
+          "lattice_index_valuation_2": 92,
+          "defect_rank": 0
+        },
+        {
+          "degree": 37,
+          "rank": 27,
+          "lattice_index_valuation_2": 87,
+          "defect_rank": 0
+        },
+        {
+          "degree": 38,
+          "rank": 24,
+          "lattice_index_valuation_2": 79,
+          "defect_rank": 0
+        },
+        {
+          "degree": 39,
+          "rank": 22,
+          "lattice_index_valuation_2": 73,
+          "defect_rank": 0
+        },
+        {
+          "degree": 40,
+          "rank": 20,
+          "lattice_index_valuation_2": 68,
+          "defect_rank": 0
+        },
+        {
+          "degree": 41,
+          "rank": 17,
+          "lattice_index_valuation_2": 59,
+          "defect_rank": 0
+        },
+        {
+          "degree": 42,
+          "rank": 15,
+          "lattice_index_valuation_2": 54,
+          "defect_rank": 0
+        },
+        {
+          "degree": 43,
+          "rank": 13,
+          "lattice_index_valuation_2": 47,
+          "defect_rank": 0
+        },
+        {
+          "degree": 44,
+          "rank": 11,
+          "lattice_index_valuation_2": 41,
+          "defect_rank": 0
+        },
+        {
+          "degree": 45,
+          "rank": 10,
+          "lattice_index_valuation_2": 38,
+          "defect_rank": 0
+        },
+        {
+          "degree": 46,
+          "rank": 8,
+          "lattice_index_valuation_2": 31,
+          "defect_rank": 0
+        },
+        {
+          "degree": 47,
+          "rank": 6,
+          "lattice_index_valuation_2": 24,
+          "defect_rank": 0
+        },
+        {
+          "degree": 48,
+          "rank": 5,
+          "lattice_index_valuation_2": 21,
+          "defect_rank": 0
+        },
+        {
+          "degree": 49,
+          "rank": 4,
+          "lattice_index_valuation_2": 17,
+          "defect_rank": 0
+        },
+        {
+          "degree": 50,
+          "rank": 3,
+          "lattice_index_valuation_2": 13,
+          "defect_rank": 0
+        },
+        {
+          "degree": 51,
+          "rank": 2,
+          "lattice_index_valuation_2": 9,
+          "defect_rank": 0
+        },
+        {
+          "degree": 52,
+          "rank": 2,
+          "lattice_index_valuation_2": 9,
+          "defect_rank": 0
+        },
+        {
+          "degree": 53,
+          "rank": 1,
+          "lattice_index_valuation_2": 5,
+          "defect_rank": 0
+        },
+        {
+          "degree": 54,
+          "rank": 1,
+          "lattice_index_valuation_2": 5,
+          "defect_rank": 0
+        },
+        {
+          "degree": 55,
+          "rank": 1,
+          "lattice_index_valuation_2": 5,
+          "defect_rank": 0
+        },
+        {
+          "degree": 56,
+          "rank": 0,
+          "lattice_index_valuation_2": 0,
+          "defect_rank": 0
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "group": "Spin(23)",
+      "top_symmetric_degree": 66,
+      "tested_through_degree": 67,
+      "entire_kernel_decision": true,
+      "entire_kernel_preserved": true,
+      "first_failure_degree": null,
+      "degree_rows": [
+        {
+          "degree": 0,
+          "rank": 1,
+          "lattice_index_valuation_2": 0,
+          "defect_rank": 0
+        },
+        {
+          "degree": 1,
+          "rank": 1,
+          "lattice_index_valuation_2": 0,
+          "defect_rank": 0
+        },
+        {
+          "degree": 2,
+          "rank": 1,
+          "lattice_index_valuation_2": 0,
+          "defect_rank": 0
+        },
+        {
+          "degree": 3,
+          "rank": 2,
+          "lattice_index_valuation_2": 1,
+          "defect_rank": 0
+        },
+        {
+          "degree": 4,
+          "rank": 2,
+          "lattice_index_valuation_2": 1,
+          "defect_rank": 0
+        },
+        {
+          "degree": 5,
+          "rank": 3,
+          "lattice_index_valuation_2": 2,
+          "defect_rank": 0
+        },
+        {
+          "degree": 6,
+          "rank": 4,
+          "lattice_index_valuation_2": 3,
+          "defect_rank": 0
+        },
+        {
+          "degree": 7,
+          "rank": 5,
+          "lattice_index_valuation_2": 4,
+          "defect_rank": 0
+        },
+        {
+          "degree": 8,
+          "rank": 6,
+          "lattice_index_valuation_2": 6,
+          "defect_rank": 0
+        },
+        {
+          "degree": 9,
+          "rank": 8,
+          "lattice_index_valuation_2": 9,
+          "defect_rank": 0
+        },
+        {
+          "degree": 10,
+          "rank": 10,
+          "lattice_index_valuation_2": 12,
+          "defect_rank": 0
+        },
+        {
+          "degree": 11,
+          "rank": 12,
+          "lattice_index_valuation_2": 15,
+          "defect_rank": 0
+        },
+        {
+          "degree": 12,
+          "rank": 14,
+          "lattice_index_valuation_2": 19,
+          "defect_rank": 0
+        },
+        {
+          "degree": 13,
+          "rank": 16,
+          "lattice_index_valuation_2": 23,
+          "defect_rank": 0
+        },
+        {
+          "degree": 14,
+          "rank": 19,
+          "lattice_index_valuation_2": 30,
+          "defect_rank": 0
+        },
+        {
+          "degree": 15,
+          "rank": 22,
+          "lattice_index_valuation_2": 37,
+          "defect_rank": 0
+        },
+        {
+          "degree": 16,
+          "rank": 25,
+          "lattice_index_valuation_2": 45,
+          "defect_rank": 0
+        },
+        {
+          "degree": 17,
+          "rank": 28,
+          "lattice_index_valuation_2": 52,
+          "defect_rank": 0
+        },
+        {
+          "degree": 18,
+          "rank": 32,
+          "lattice_index_valuation_2": 63,
+          "defect_rank": 0
+        },
+        {
+          "degree": 19,
+          "rank": 35,
+          "lattice_index_valuation_2": 72,
+          "defect_rank": 0
+        },
+        {
+          "degree": 20,
+          "rank": 39,
+          "lattice_index_valuation_2": 83,
+          "defect_rank": 0
+        },
+        {
+          "degree": 21,
+          "rank": 43,
+          "lattice_index_valuation_2": 96,
+          "defect_rank": 0
+        },
+        {
+          "degree": 22,
+          "rank": 46,
+          "lattice_index_valuation_2": 106,
+          "defect_rank": 0
+        },
+        {
+          "degree": 23,
+          "rank": 49,
+          "lattice_index_valuation_2": 117,
+          "defect_rank": 0
+        },
+        {
+          "degree": 24,
+          "rank": 53,
+          "lattice_index_valuation_2": 131,
+          "defect_rank": 0
+        },
+        {
+          "degree": 25,
+          "rank": 56,
+          "lattice_index_valuation_2": 144,
+          "defect_rank": 0
+        },
+        {
+          "degree": 26,
+          "rank": 59,
+          "lattice_index_valuation_2": 156,
+          "defect_rank": 0
+        },
+        {
+          "degree": 27,
+          "rank": 62,
+          "lattice_index_valuation_2": 169,
+          "defect_rank": 0
+        },
+        {
+          "degree": 28,
+          "rank": 64,
+          "lattice_index_valuation_2": 178,
+          "defect_rank": 0
+        },
+        {
+          "degree": 29,
+          "rank": 66,
+          "lattice_index_valuation_2": 188,
+          "defect_rank": 0
+        },
+        {
+          "degree": 30,
+          "rank": 68,
+          "lattice_index_valuation_2": 198,
+          "defect_rank": 0
+        },
+        {
+          "degree": 31,
+          "rank": 69,
+          "lattice_index_valuation_2": 205,
+          "defect_rank": 0
+        },
+        {
+          "degree": 32,
+          "rank": 69,
+          "lattice_index_valuation_2": 210,
+          "defect_rank": 0
+        },
+        {
+          "degree": 33,
+          "rank": 70,
+          "lattice_index_valuation_2": 217,
+          "defect_rank": 0
+        },
+        {
+          "degree": 34,
+          "rank": 69,
+          "lattice_index_valuation_2": 217,
+          "defect_rank": 0
+        },
+        {
+          "degree": 35,
+          "rank": 69,
+          "lattice_index_valuation_2": 222,
+          "defect_rank": 0
+        },
+        {
+          "degree": 36,
+          "rank": 68,
+          "lattice_index_valuation_2": 222,
+          "defect_rank": 0
+        },
+        {
+          "degree": 37,
+          "rank": 66,
+          "lattice_index_valuation_2": 219,
+          "defect_rank": 0
+        },
+        {
+          "degree": 38,
+          "rank": 64,
+          "lattice_index_valuation_2": 216,
+          "defect_rank": 0
+        },
+        {
+          "degree": 39,
+          "rank": 62,
+          "lattice_index_valuation_2": 212,
+          "defect_rank": 0
+        },
+        {
+          "degree": 40,
+          "rank": 59,
+          "lattice_index_valuation_2": 205,
+          "defect_rank": 0
+        },
+        {
+          "degree": 41,
+          "rank": 56,
+          "lattice_index_valuation_2": 198,
+          "defect_rank": 0
+        },
+        {
+          "degree": 42,
+          "rank": 53,
+          "lattice_index_valuation_2": 192,
+          "defect_rank": 0
+        },
+        {
+          "degree": 43,
+          "rank": 49,
+          "lattice_index_valuation_2": 180,
+          "defect_rank": 0
+        },
+        {
+          "degree": 44,
+          "rank": 46,
+          "lattice_index_valuation_2": 172,
+          "defect_rank": 0
+        },
+        {
+          "degree": 45,
+          "rank": 43,
+          "lattice_index_valuation_2": 163,
+          "defect_rank": 0
+        },
+        {
+          "degree": 46,
+          "rank": 39,
+          "lattice_index_valuation_2": 151,
+          "defect_rank": 0
+        },
+        {
+          "degree": 47,
+          "rank": 35,
+          "lattice_index_valuation_2": 137,
+          "defect_rank": 0
+        },
+        {
+          "degree": 48,
+          "rank": 32,
+          "lattice_index_valuation_2": 128,
+          "defect_rank": 0
+        },
+        {
+          "degree": 49,
+          "rank": 28,
+          "lattice_index_valuation_2": 114,
+          "defect_rank": 0
+        },
+        {
+          "degree": 50,
+          "rank": 25,
+          "lattice_index_valuation_2": 103,
+          "defect_rank": 0
+        },
+        {
+          "degree": 51,
+          "rank": 22,
+          "lattice_index_valuation_2": 93,
+          "defect_rank": 0
+        },
+        {
+          "degree": 52,
+          "rank": 19,
+          "lattice_index_valuation_2": 82,
+          "defect_rank": 0
+        },
+        {
+          "degree": 53,
+          "rank": 16,
+          "lattice_index_valuation_2": 71,
+          "defect_rank": 0
+        },
+        {
+          "degree": 54,
+          "rank": 14,
+          "lattice_index_valuation_2": 63,
+          "defect_rank": 0
+        },
+        {
+          "degree": 55,
+          "rank": 12,
+          "lattice_index_valuation_2": 55,
+          "defect_rank": 0
+        },
+        {
+          "degree": 56,
+          "rank": 10,
+          "lattice_index_valuation_2": 46,
+          "defect_rank": 0
+        },
+        {
+          "degree": 57,
+          "rank": 8,
+          "lattice_index_valuation_2": 37,
+          "defect_rank": 0
+        },
+        {
+          "degree": 58,
+          "rank": 6,
+          "lattice_index_valuation_2": 28,
+          "defect_rank": 0
+        },
+        {
+          "degree": 59,
+          "rank": 5,
+          "lattice_index_valuation_2": 24,
+          "defect_rank": 0
+        },
+        {
+          "degree": 60,
+          "rank": 4,
+          "lattice_index_valuation_2": 19,
+          "defect_rank": 0
+        },
+        {
+          "degree": 61,
+          "rank": 3,
+          "lattice_index_valuation_2": 14,
+          "defect_rank": 0
+        },
+        {
+          "degree": 62,
+          "rank": 2,
+          "lattice_index_valuation_2": 9,
+          "defect_rank": 0
+        },
+        {
+          "degree": 63,
+          "rank": 2,
+          "lattice_index_valuation_2": 9,
+          "defect_rank": 0
+        },
+        {
+          "degree": 64,
+          "rank": 1,
+          "lattice_index_valuation_2": 5,
+          "defect_rank": 0
+        },
+        {
+          "degree": 65,
+          "rank": 1,
+          "lattice_index_valuation_2": 5,
+          "defect_rank": 0
+        },
+        {
+          "degree": 66,
+          "rank": 1,
+          "lattice_index_valuation_2": 5,
+          "defect_rank": 0
+        },
+        {
+          "degree": 67,
+          "rank": 0,
+          "lattice_index_valuation_2": 0,
+          "defect_rank": 0
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "group": "Spin(25)",
+      "top_symmetric_degree": 78,
+      "tested_through_degree": 34,
+      "entire_kernel_decision": true,
+      "entire_kernel_preserved": false,
+      "first_failure_degree": 34,
+      "degree_rows": [
+        {
+          "degree": 0,
+          "rank": 1,
+          "lattice_index_valuation_2": 0,
+          "defect_rank": 0
+        },
+        {
+          "degree": 1,
+          "rank": 1,
+          "lattice_index_valuation_2": 0,
+          "defect_rank": 0
+        },
+        {
+          "degree": 2,
+          "rank": 1,
+          "lattice_index_valuation_2": 0,
+          "defect_rank": 0
+        },
+        {
+          "degree": 3,
+          "rank": 2,
+          "lattice_index_valuation_2": 1,
+          "defect_rank": 0
+        },
+        {
+          "degree": 4,
+          "rank": 2,
+          "lattice_index_valuation_2": 1,
+          "defect_rank": 0
+        },
+        {
+          "degree": 5,
+          "rank": 3,
+          "lattice_index_valuation_2": 2,
+          "defect_rank": 0
+        },
+        {
+          "degree": 6,
+          "rank": 4,
+          "lattice_index_valuation_2": 3,
+          "defect_rank": 0
+        },
+        {
+          "degree": 7,
+          "rank": 5,
+          "lattice_index_valuation_2": 4,
+          "defect_rank": 0
+        },
+        {
+          "degree": 8,
+          "rank": 6,
+          "lattice_index_valuation_2": 6,
+          "defect_rank": 0
+        },
+        {
+          "degree": 9,
+          "rank": 8,
+          "lattice_index_valuation_2": 9,
+          "defect_rank": 0
+        },
+        {
+          "degree": 10,
+          "rank": 10,
+          "lattice_index_valuation_2": 12,
+          "defect_rank": 0
+        },
+        {
+          "degree": 11,
+          "rank": 12,
+          "lattice_index_valuation_2": 15,
+          "defect_rank": 0
+        },
+        {
+          "degree": 12,
+          "rank": 15,
+          "lattice_index_valuation_2": 20,
+          "defect_rank": 0
+        },
+        {
+          "degree": 13,
+          "rank": 17,
+          "lattice_index_valuation_2": 24,
+          "defect_rank": 0
+        },
+        {
+          "degree": 14,
+          "rank": 20,
+          "lattice_index_valuation_2": 31,
+          "defect_rank": 0
+        },
+        {
+          "degree": 15,
+          "rank": 24,
+          "lattice_index_valuation_2": 40,
+          "defect_rank": 0
+        },
+        {
+          "degree": 16,
+          "rank": 27,
+          "lattice_index_valuation_2": 48,
+          "defect_rank": 0
+        },
+        {
+          "degree": 17,
+          "rank": 31,
+          "lattice_index_valuation_2": 57,
+          "defect_rank": 0
+        },
+        {
+          "degree": 18,
+          "rank": 36,
+          "lattice_index_valuation_2": 70,
+          "defect_rank": 0
+        },
+        {
+          "degree": 19,
+          "rank": 40,
+          "lattice_index_valuation_2": 81,
+          "defect_rank": 0
+        },
+        {
+          "degree": 20,
+          "rank": 45,
+          "lattice_index_valuation_2": 95,
+          "defect_rank": 0
+        },
+        {
+          "degree": 21,
+          "rank": 51,
+          "lattice_index_valuation_2": 113,
+          "defect_rank": 0
+        },
+        {
+          "degree": 22,
+          "rank": 56,
+          "lattice_index_valuation_2": 128,
+          "defect_rank": 0
+        },
+        {
+          "degree": 23,
+          "rank": 61,
+          "lattice_index_valuation_2": 144,
+          "defect_rank": 0
+        },
+        {
+          "degree": 24,
+          "rank": 67,
+          "lattice_index_valuation_2": 164,
+          "defect_rank": 0
+        },
+        {
+          "degree": 25,
+          "rank": 72,
+          "lattice_index_valuation_2": 183,
+          "defect_rank": 0
+        },
+        {
+          "degree": 26,
+          "rank": 78,
+          "lattice_index_valuation_2": 205,
+          "defect_rank": 0
+        },
+        {
+          "degree": 27,
+          "rank": 84,
+          "lattice_index_valuation_2": 228,
+          "defect_rank": 0
+        },
+        {
+          "degree": 28,
+          "rank": 89,
+          "lattice_index_valuation_2": 248,
+          "defect_rank": 0
+        },
+        {
+          "degree": 29,
+          "rank": 94,
+          "lattice_index_valuation_2": 268,
+          "defect_rank": 0
+        },
+        {
+          "degree": 30,
+          "rank": 100,
+          "lattice_index_valuation_2": 293,
+          "defect_rank": 0
+        },
+        {
+          "degree": 31,
+          "rank": 104,
+          "lattice_index_valuation_2": 312,
+          "defect_rank": 0
+        },
+        {
+          "degree": 32,
+          "rank": 108,
+          "lattice_index_valuation_2": 332,
+          "defect_rank": 0
+        },
+        {
+          "degree": 33,
+          "rank": 113,
+          "lattice_index_valuation_2": 356,
+          "defect_rank": 0
+        },
+        {
+          "degree": 34,
+          "rank": 115,
+          "lattice_index_valuation_2": 369,
+          "defect_rank": 1
+        }
+      ]
+    }
+  ]
+}

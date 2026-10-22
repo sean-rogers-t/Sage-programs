@@ -13,6 +13,10 @@ the mathematical guide for the Borel/Springer construction.
 | Question | Guide |
 | --- | --- |
 | What general results do we have, and which structural questions remain? | [Research ledger: results, partial results, counterexamples and open problems](RESEARCH_LEDGER.md) |
+| What did the exploration of other cohomologies and affine groups produce? | [Research report, theorem inventory, known inputs and prioritized API path](OTHER_THEORIES_PROGRAM.md) |
+| How does the actual Springer-character image change in K-theory? | [General filtered comparison and counterexamples](OTHER_THEORIES_FINITE.md), [complete SL3 formulas](OTHER_THEORIES_SL3.md), [primitive character data](OTHER_THEORIES_COTANGENT.md) |
+| Can the earlier Cayley determinants control equivariant K-images? | [All-parabolic determinant theorem, local Smith patterns and an integral symplectic family](OTHER_THEORIES_EQUIVARIANT_K.md) |
+| What can already be proved for quantum and affine images? | [Flat quantum projective families](OTHER_THEORIES_QUANTUM.md), [all-rank affine A/C divisor contents and evaluation/level images](OTHER_THEORIES_AFFINE.md) |
 | What comes after the complete E6/E7 relative classification? | [Prioritized next milestones, proposed API and structural proof targets](../articles/research-program-proposal/README.md#next-milestones-after-the-e7-completion) |
 | What mathematical map does each method compute? | [Methods and worked examples](METHODS.md) |
 | Why do the Borel, BGG, Chevalley and coinvariant methods work? | [Mathematical framework and conventions](MATHEMATICS.md) |
@@ -29,6 +33,9 @@ the mathematical guide for the Borel/Springer construction.
 | What could explain the E7 multiplicities structurally? | [Quadratic-derivation criterion, bounded 112-case proof and arbitrary-rank type A model](E7_QUADRATIC_DERIVATION.md) |
 | Does the first integral E7 half-sum respect Levi invariants? | [Degree-eleven lifting theorem for all 112 cases and cubic nonlifting obstructions](E7_DEGREE11_LIFTING.md) |
 | When does central parity preserve an entire integral Borel kernel? | [Sufficient integral hypotheses, all-rank type C theorem and Spin7 counterexample](CENTRAL_PARITY_KERNEL.md) |
+| Does the Spin7 obstruction persist for every odd spin group? | [Every-rank quartic theorem, stable Spin9 presentation and complete ranks 3–8](SPIN_PARITY_EXTENSION.md) |
+| Is there an arbitrary-rank recurrence for the odd-spin kernels? | [Integral Pieri lattice recurrence, uniform stable family and remaining classification gap](SPIN_PARITY_RECURSION.md) |
+| Can the remaining odd-spin obstruction be isolated at the rank boundary? | [Exact adjacent-rank boundary criterion and obstruction-rank formula](SPIN_PARITY_BOUNDARY.md) |
 | How do I query all E7 relative Smith factors and compare representations? | [Compressed all-parabolic API, source scaling and minimal/adjoint comparisons](E7_RELATIVE_IMAGE_API.md) |
 | Can I query all E6 relative factors, including 9 and 27? | [All 63 parabolics, representation comparisons and shared-prime scaling](E6_RELATIVE_IMAGE_API.md) |
 | What is the complete literal G2 full-flag image? | [Integral kernel, all Smith factors, API and independent Chevalley audit](G2_FULL_FLAG.md) |

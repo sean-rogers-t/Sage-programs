@@ -6,6 +6,13 @@ These address a general question beyond the completed E7 image tables.
 There is no necessary-and-sufficient root-data classification here and
 no claim of literature priority.
 
+Update, 22 October 2026: the [odd spin extension](SPIN_PARITY_EXTENSION.md)
+proves that this failure does **not** extend to every Spin(2n+1)/B.
+Spin9/B has an explicit all-degree stable presentation; complete independent
+certificates also give stability in ranks 5 and 6, and first failures in
+ranks 7 and 8 at degrees 11 and 16. In every rank, degree-four failure
+occurs exactly at n=3. An arbitrary-rank classification remains unresolved.
+
 ## 1. The exact question
 
 Let G be simply connected complex semisimple, X=X(T) its character

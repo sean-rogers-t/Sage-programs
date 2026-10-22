@@ -1,0 +1,185 @@
+{
+  "result": "passed",
+  "date": "2026-10-22",
+  "rank_two_determinants": [
+    {
+      "cartan_type": "A2",
+      "flag_rank": 6,
+      "points": [
+        {
+          "point": [
+            "2",
+            "3"
+          ],
+          "minimal_root_quotient": "1",
+          "adjoint_root_quotient": "414001/139968",
+          "fixed_point_vs_Steinberg_determinant_verified": true,
+          "independent_Demazure_determinant_ratio_verified": true
+        },
+        {
+          "point": [
+            "3",
+            "5"
+          ],
+          "minimal_root_quotient": "1",
+          "adjoint_root_quotient": "12603976/1366875",
+          "fixed_point_vs_Steinberg_determinant_verified": true,
+          "independent_Demazure_determinant_ratio_verified": true
+        },
+        {
+          "point": [
+            "2",
+            "5"
+          ],
+          "minimal_root_quotient": "1",
+          "adjoint_root_quotient": "342057/40000",
+          "fixed_point_vs_Steinberg_determinant_verified": true,
+          "independent_Demazure_determinant_ratio_verified": true
+        }
+      ]
+    },
+    {
+      "cartan_type": "C2",
+      "flag_rank": 8,
+      "points": [
+        {
+          "point": [
+            "2",
+            "3"
+          ],
+          "minimal_root_quotient": "7/6",
+          "adjoint_root_quotient": "5936021/2519424",
+          "fixed_point_vs_Steinberg_determinant_verified": true,
+          "independent_Demazure_determinant_ratio_verified": true
+        },
+        {
+          "point": [
+            "3",
+            "5"
+          ],
+          "minimal_root_quotient": "7/5",
+          "adjoint_root_quotient": "129527951/20503125",
+          "fixed_point_vs_Steinberg_determinant_verified": true,
+          "independent_Demazure_determinant_ratio_verified": true
+        },
+        {
+          "point": [
+            "2",
+            "5"
+          ],
+          "minimal_root_quotient": "27/20",
+          "adjoint_root_quotient": "12399287/2400000",
+          "fixed_point_vs_Steinberg_determinant_verified": true,
+          "independent_Demazure_determinant_ratio_verified": true
+        }
+      ]
+    },
+    {
+      "cartan_type": "G2",
+      "flag_rank": 12,
+      "points": [
+        {
+          "point": [
+            "2",
+            "3"
+          ],
+          "minimal_root_quotient": "632555/497664",
+          "adjoint_root_quotient": "476556868259/220150628352",
+          "fixed_point_vs_Steinberg_determinant_verified": true,
+          "independent_Demazure_determinant_ratio_verified": true
+        },
+        {
+          "point": [
+            "3",
+            "5"
+          ],
+          "minimal_root_quotient": "886144/492075",
+          "adjoint_root_quotient": "1346651142784/207594140625",
+          "fixed_point_vs_Steinberg_determinant_verified": true,
+          "independent_Demazure_determinant_ratio_verified": true
+        },
+        {
+          "point": [
+            "2",
+            "5"
+          ],
+          "minimal_root_quotient": "80073/51200",
+          "adjoint_root_quotient": "1751683329372861/419430400000000",
+          "fixed_point_vs_Steinberg_determinant_verified": true,
+          "independent_Demazure_determinant_ratio_verified": true
+        }
+      ]
+    }
+  ],
+  "independent_coset_orbit_counts": [
+    {
+      "cartan_type": "G2",
+      "omitted_node": 1,
+      "cosets": 6,
+      "moved_pair_exponents": {
+        "2": 3,
+        "6": 2
+      }
+    },
+    {
+      "cartan_type": "G2",
+      "omitted_node": 2,
+      "cosets": 6,
+      "moved_pair_exponents": {
+        "2": 2,
+        "6": 3
+      }
+    },
+    {
+      "cartan_type": "F4",
+      "omitted_node": 1,
+      "cosets": 24,
+      "moved_pair_exponents": {
+        "1": 6,
+        "2": 9
+      }
+    },
+    {
+      "cartan_type": "F4",
+      "omitted_node": 4,
+      "cosets": 24,
+      "moved_pair_exponents": {
+        "1": 9,
+        "2": 6
+      }
+    },
+    {
+      "cartan_type": "E6",
+      "omitted_node": 1,
+      "cosets": 27,
+      "moved_pair_exponents": {
+        "2": 6
+      }
+    },
+    {
+      "cartan_type": "E7",
+      "omitted_node": 7,
+      "cosets": 56,
+      "moved_pair_exponents": {
+        "2": 12
+      }
+    },
+    {
+      "cartan_type": "E8",
+      "omitted_node": 8,
+      "cosets": 240,
+      "moved_pair_exponents": {
+        "2": 57
+      }
+    }
+  ],
+  "scope": "Finite exact characteristic-zero determinant corroboration and independent exceptional orbit counts. The all-parabolic theorem is the separate discriminant/localization proof; no integral exceptional Smith classification follows.",
+  "source_sha256": {
+    "experiments/other_theories_equivariant_k_pilot.py": "14a1e16f6d2cb3c862efe1a733598c9adaaf7a165442bfd9fed3634c2831a5ff",
+    "experiments/other_theories_k_pilot.py": "7affb322dc5cede152b334fed1fe10fae3767eee19fd0dbe8f3bd720151c6386"
+  },
+  "raw_sha256": {
+    "experiments/other-theories-k-pilot.json": "f253cdcc04e7901430c485ed8c116a12b4289b8c101b56d99c6bc289eac2cf56",
+    "experiments/other-theories-k-certificates.json": "2f4ac5d9c163b6c40a29f575bbc60f1ae7e647383d76bd03a04e579822676781"
+  }
+}

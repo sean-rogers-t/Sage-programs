@@ -31,6 +31,46 @@ The conclusions below are based on the displayed arguments and checked
 source statements. External expert review and any claim of priority remain
 separate work.
 
+## Other cohomology theories and affine groups: 22 October exploration
+
+The [exploration report](OTHER_THEORIES_PROGRAM.md) records a new direction;
+Spin parity is shelved at the user's request. The
+[finite comparison](OTHER_THEORIES_FINITE.md) proves a common integral
+K/Borel kernel and a strict support filtration for literal sources, then
+constructs a specified oriented trace-coordinate lift. The universal MU
+inclusion is triangular with the old integer determinant. This controls
+prime support, while higher Fitting ideals and modular Tor kernels can
+change. No gamma-filtration identification or arbitrary normalized-source
+integrality is assumed. The [SL3 theorem](OTHER_THEORIES_SL3.md) gives
+complete factors for every representation and parabolic from its source
+scale and cubic correction; independent actual-character calculations
+check 41 representations on all three proper flags.
+
+The [type A coordinate comparison](OTHER_THEORIES_TYPE_A.md),
+[symplectic height/K recurrence](OTHER_THEORIES_HEIGHT.md),
+[quantum projective lifts](OTHER_THEORIES_QUANTUM.md) and
+[affine A/C contents](OTHER_THEORIES_AFFINE.md) give written uniform
+deductions with exact coefficient/source hypotheses. Formal group height,
+the ambient quantum rings and Hopf models are known inputs. Independent
+Euler, elliptic-curve and affine Chevalley calculations corroborate the
+new image formulas. The [equivariant K note](OTHER_THEORIES_EQUIVARIANT_K.md)
+uses deformed rational source freeness and reflection/localization
+determinants for every parabolic; its local Smith patterns state their
+regularity and DVR hypotheses. An integral Sp/P1 family is proved
+separately, without promoting rational determinant formulas to general
+integral source freeness. The [folding note](OTHER_THEORIES_FOLDING.md)
+proves compatible trace projections under stable representations while
+retaining exact integral source defects.
+
+All are repository deductions and research prototypes. The cited ambient
+characteristic-map, primitive K, oriented, quantum and affine theories are
+published; the K-theoretic Peterson theorem is established. Exact
+literature priority for these specified arithmetic/image formulations
+has not been established. No new production runtime API, full exceptional
+K Smith tables or central/rotation-compatible affine Springer construction
+is asserted. The pointwise untwisted/twisted loop maps already follow by
+base change; an explicit constant-loop example blocks naive flag descent.
+
 ## General central-parity kernels: positive families and counterexample
 
 The [general kernel note](CENTRAL_PARITY_KERNEL.md) proves a sufficient
@@ -55,8 +95,60 @@ integer BGG calculation and an independent polynomial identity/monic
 division proof establish the counterexample. Ambient mod-two cohomology
 would miss it. No unit quadratic lift is available in this example.
 
-This general question takes priority over further degree-by-degree E7
-structural checks. The existing all-degree E7 image theorem is unchanged.
+The [odd spin extension](SPIN_PARITY_EXTENSION.md), audited 22 October
+2026, disproves uniform failure on Spin(2n+1)/B. An Artin-basis base change
+reduces the entire kernel in every rank to the auxiliary symmetric source
+R[z,c2,...,cn], with c1=2z. Its primitive quartic relation proves that
+degree-four failure occurs exactly at rank 3. A closed four-relation
+presentation proves all-degree stability on Spin9/B. Independent rational
+membership, modular Groebner and finite-flatness certificates prove complete
+stability on Spin11/B and Spin13/B, and first failures on Spin15/B and
+Spin17/B in polynomial degrees 11 and 16. These exhaust the stated spaces;
+they do not classify arbitrary rank or assert novelty. The rational Borel
+presentation, torsion-free Schubert basis and symmetric polynomial freeness
+are known inputs; the derivative conclusions are deductions here.
+
+The [recursive follow-up](SPIN_PARITY_RECURSION.md) proves an arbitrary-rank
+image-lattice recurrence and exact derivative factorization criterion using
+the classical Schur-Q root lattice and one-box Pieri rule. A lowering
+operator satisfying [L,U]=(n(n+1)/2-2d) proves all-degree stability whenever
+n=1,2 modulo 4; its preservation of the actual integral image lattice is
+proved, rather than inferred from rational Lefschetz theory. An infinite
+Schur-P derivation proves stability through degree n for every n. Native
+Hermite/bit certificates check the recurrence through rank 12; a separate
+quadratic straightening calculation independently gives stability in rank
+11 and first failure at degree 34 in rank 12. The closed classification
+for n=0,3 modulo 4 and a closed first-failure formula remain unresolved.
+The Schur-P/Q presentation, Pieri rule and raising/lowering framework are
+known; the central-parity conclusions are deductions, without a novelty
+claim. No runtime API is changed by these proof and audit files.
+
+This general question was the earlier structural priority and is now
+shelved at the user's request. The existing all-degree E7 image theorem
+is unchanged.
+
+The [adjacent-rank boundary theorem](SPIN_PARITY_BOUNDARY.md) isolates the
+whole obstruction without assuming that a derivative has descended in
+earlier degrees. The boundary lattice is the entire kernel of
+N_(n+1) -> N_n; lowering its largest part n+1 to n gives b_n. The derivative
+obstruction is exactly (b_n L+N_n)/N_n, an elementary two-group, and its
+dimension is rank over F2 of 2 F^(-1)b_n L. This is a proved general
+criterion and an effective first-failure formula. A closed evaluation
+depending only on n, particularly for n=0,3 modulo four, remains missing.
+Classical Schur-P/Q identities supply the infinite derivation used in the
+proof; they do not alone evaluate the boundary-image index. The new note
+does not assert a literature-priority claim or an E7 all-degree structural
+proof.
+
+The same note proves a second, elementary source-parity formula. With
+C=M[z^2], N=M[z], and e_d=log2[N_d:C_d], the exact degree-d obstruction
+has dimension a_(d-1)-e_d-e_(d-1). Thus the entire kernel is preserved
+if and only if log2[N:C]=2^(n-1). This does not evaluate that index in
+closed form. New adjacent-rank certificates, audited by exact inclusion
+and mod-two row rank without HNF software, agree with an independent
+replay of the original derivative criterion. They establish the new
+rank-15 first failure in polynomial degree 37 (Spin31/B, cohomology 74).
+A separate Pfaffian calculation verifies 94 Schur-P lowering identities.
 
 ## Structural E7 multiplicities: scope of the new argument
 

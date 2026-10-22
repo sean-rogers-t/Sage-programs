@@ -29,7 +29,14 @@ def main():
     version=sage_borel.__version__
     regression=read('character-verification.json')
     docs=read('documentation-verification.json')
-    assert {'E6_RELATIVE_IMAGE_API.md','G2_FULL_FLAG.md','E7_QUADRATIC_DERIVATION.md','E7_DEGREE11_LIFTING.md','CENTRAL_PARITY_KERNEL.md'} <= {r['file'] for r in docs['documents']}
+    other=read('other-theories-verification.json')
+    assert other['reports_checked']==13 and other['proof_notes_and_program']==10
+    assert other['symbolic_all_parameter_SL3_integral_block_reductions']
+    for name,expected in other['source_sha256'].items():
+        assert digest(ROOT/name)==expected,name
+    other_notes={name for name in other['source_sha256'] if name.startswith('OTHER_THEORIES_') and name.endswith('.md')}
+    assert other_notes <= {r['file'] for r in docs['documents']}
+    assert {'E6_RELATIVE_IMAGE_API.md','G2_FULL_FLAG.md','E7_QUADRATIC_DERIVATION.md','E7_DEGREE11_LIFTING.md','CENTRAL_PARITY_KERNEL.md','SPIN_PARITY_EXTENSION.md','SPIN_PARITY_RECURSION.md','SPIN_PARITY_BOUNDARY.md'} <= {r['file'] for r in docs['documents']}
     wheel=read('geometry-wheel-verification.json')
     relative_api=read('relative-image-verification.json')
     assert relative_api['version']==version
@@ -101,6 +108,62 @@ def main():
     for record in central:
         for name,expected in record['source_sha256'].items():
             assert digest(ROOT/name)==expected,name
+    spin=[read('experiments/'+name) for name in (
+        'spin-parity-extension.json','spin-parity-extension-audit.json')]
+    for record in spin:
+        assert [c['rank'] for c in record['cases']]==list(range(3,9))
+        assert [c['entire_kernel_preserved'] for c in record['cases']]==[False,True,True,True,False,False]
+        assert [c['first_failure_degree'] for c in record['cases']]==[4,None,None,None,11,16]
+        for name,expected in record['source_sha256'].items():
+            assert digest(ROOT/name)==expected,name
+    assert spin[1]['Spin9_closed_presentation_checked']
+    assert all(c['finite_flatness_certificate'] and c['reduced_quotient_length']==2**c['rank']
+               for c in spin[1]['cases'])
+    spin_recursive=[read('experiments/'+name) for name in (
+        'spin-parity-recursion.json','spin-parity-recursion-audit.json',
+        'spin-parity-quadratic-check.json')]
+    for record in spin_recursive[:2]:
+        assert [c['rank'] for c in record['cases']]==list(range(1,13))
+        assert [c['first_failure_degree'] for c in record['cases']]==[None,None,4,None,None,None,11,16,None,None,None,34]
+        assert record['arbitrary_rank_closed_classification_complete'] is False
+    assert spin_recursive[1]['lowering_proof']['symbolic_commutator_coefficients']
+    assert spin_recursive[1]['lowering_proof']['strict_partitions_checked']==1022
+    assert spin_recursive[1]['lowering_proof']['infinite_quadratic_derivation_identities_checked']==9
+    assert [c['rank'] for c in spin_recursive[2]['cases']]==[3,4,7,8,11,12]
+    assert [c['first_failure_degree'] for c in spin_recursive[2]['cases']]==[4,None,11,16,None,34]
+    for record in spin_recursive:
+        for name,expected in record['source_sha256'].items():
+            assert digest(ROOT/name)==expected,name
+    assert digest(ROOT/spin_recursive[0]['certificate_archive'])==spin_recursive[0]['certificate_archive_sha256']
+    spin_boundary=[read('experiments/'+name) for name in (
+        'spin-parity-boundary.json','spin-parity-boundary-audit.json',
+        'spin-parity-boundary-rank15.json','spin-parity-boundary-rank15-audit.json',
+        'spin-parity-even-source-check.json')]
+    for record in spin_boundary[:2]:
+        assert [c['rank'] for c in record['cases']]==[3,4,7,8,11,12]
+        assert [c['first_failure_degree'] for c in record['cases']]==[4,None,11,16,None,34]
+    for record in spin_boundary[2:4]:
+        assert len(record['cases'])==1
+        assert record['cases'][0]['rank']==15
+        assert record['cases'][0]['first_failure_degree']==37
+        assert record['cases'][0]['tested_through_degree']==37
+    for record in spin_boundary:
+        assert record['closed_numerical_rank_classification_proved'] is False
+        for key in ('source_sha256','raw_sha256'):
+            for name,expected in record.get(key,{}).items():
+                assert digest(ROOT/name)==expected,name
+    for record in (spin_boundary[0],spin_boundary[2]):
+        assert digest(ROOT/record['certificate_archive'])==record['certificate_archive_sha256']
+    for record in (spin_boundary[1],spin_boundary[3]):
+        assert record['independent_derivative_factorization']
+        assert record['schur_P_pfaffian_lowering_checks']==94
+    assert [c['rank'] for c in spin_boundary[4]['cases']]==[3,4,7,8,11,12,15]
+    for c in spin_boundary[4]['cases']:
+        if c['rank']==15:
+            assert not c['complete_index_polynomial'] and c['first_failure_degree']==37
+        else:
+            assert c['complete_index_polynomial']
+            assert sum(r['obstruction_rank'] for r in c['degree_rows'])==2**c['rank']-2*c['total_index_exponent']
     geometry=read('experiments/exceptional-degree-geometry.json')
     e6_checks=[read('experiments/'+name) for name in (
         'e6-remaining-a5.json','e6-remaining-a2a2a1.json',
@@ -365,7 +428,7 @@ def main():
         fibers.append(dict(file=path.relative_to(ROOT).as_posix(),cartan_type=key[0],
             representation=key[1],prime=f['characteristic'],seed=f['seed'],
             length=f['fiber_length'],engine=f['engine']))
-    paths=fiber_paths+runtime+completion_paths+[ROOT/name for name in (
+    paths=fiber_paths+runtime+completion_paths+[ROOT/name for name in other['source_sha256']]+[ROOT/'other-theories-verification.json']+[ROOT/name for name in (
         'EXCEPTIONAL_DEGREES.md','experiments/exceptional_degree_geometry.py',
         'experiments/exceptional-degree-geometry.json','experiments/exceptional_degree_fibers.py',
         'experiments/exceptional-degree-bounded-attempts.json',
@@ -466,6 +529,21 @@ def main():
         'E6_RELATIVE_IMAGE_API.md','G2_FULL_FLAG.md','E7_QUADRATIC_DERIVATION.md','E7_DEGREE11_LIFTING.md','CENTRAL_PARITY_KERNEL.md',
         'experiments/central_parity_kernel.py','experiments/audit_central_parity_kernel.py',
         'experiments/central-parity-kernel.json','experiments/central-parity-kernel-audit.json',
+        'SPIN_PARITY_EXTENSION.md',
+        'experiments/spin_parity_extension.py','experiments/audit_spin_parity_extension.py',
+        'experiments/spin-parity-extension.json','experiments/spin-parity-extension-audit.json',
+        'SPIN_PARITY_RECURSION.md',
+        'experiments/spin_parity_recursion.py','experiments/audit_spin_parity_recursion.py',
+        'experiments/check_spin_parity_quadratic.py',
+        'experiments/spin-parity-recursion.json','experiments/spin-parity-recursion-audit.json',
+        'experiments/spin-parity-quadratic-check.json','experiments/spin-parity-recursion-certificates.json.gz',
+        'SPIN_PARITY_BOUNDARY.md',
+        'experiments/spin_parity_boundary.py','experiments/audit_spin_parity_boundary.py',
+        'experiments/check_spin_parity_even_source.py',
+        'experiments/spin-parity-boundary.json','experiments/spin-parity-boundary-audit.json',
+        'experiments/spin-parity-boundary-certificates.json.gz',
+        'experiments/spin-parity-boundary-rank15.json','experiments/spin-parity-boundary-rank15-audit.json',
+        'experiments/spin-parity-boundary-rank15-certificates.json.gz','experiments/spin-parity-even-source-check.json',
         'experiments/e7_degree11_lifting.py','experiments/audit_e7_degree11_lifting.py',
         'experiments/e7-degree11-lifting.json','experiments/e7-degree11-lifting-audit.json',
         'experiments/e7-degree11-lifting-certificates.json.gz',
@@ -482,6 +560,31 @@ def main():
         'tests/test_exceptional_degrees.py','character-verification.json',
         'documentation-verification.json','geometry-wheel-verification.json')]+[Path(__file__).resolve()]
     report=dict(result='passed',version=version,
+        odd_spin_boundary=dict(adjacent_rank_obstruction_theorem=True,
+            boundary_obstructions_elementary_two_groups=True,
+            exact_degreewise_obstruction_rank_and_first_failure_formula=True,
+            even_source_C='M[z^2]',
+            entire_kernel_criterion='log2[N:C]=2^(n-1)',
+            degreewise_obstruction_formula='a_(d-1)-e_d-e_(d-1)',
+            new_rank15_first_failure=37,independent_original_derivative_replay=True,
+            lattice_audit='exact inclusion, diagonal 2-primary bound, full row rank modulo two; no HNF software',
+            separate_same_rank_even_source_check=True,
+            closed_numerical_rank_classification_proved=False,runtime_unchanged=True),
+        odd_spin_recursive_kernel=dict(arbitrary_rank_recursive_presentation=True,
+            positive_all_degree_rank_residues_modulo_4=[1,2],
+            every_rank_stable_through_polynomial_degree_n=True,
+            finite_entire_kernel_decisions_through_rank=12,
+            additional_stable_rank=11,additional_first_failure={'12':34},
+            native_Hermite_and_bit_certificate_audit=True,
+            separate_quadratic_straightening_check=True,
+            arbitrary_rank_closed_classification_complete=False,runtime_unchanged=True),
+        odd_spin_central_parity=dict(coefficient_ring='Z_(2)',parabolic='B',
+            all_rank_symmetric_source_reduction=True,
+            degree_four_failure_exactly_rank_three=True,
+            stable_entire_kernel_ranks=[4,5,6],
+            first_failure_degrees={'3':4,'7':11,'8':16},
+            independent_finite_flatness_certificates=True,
+            arbitrary_rank_classification_complete=False,runtime_unchanged=True),
         central_parity_kernel=dict(type_C_all_rank_all_parabolic_theorem=True,
             type_A_sufficient_family='SL_(2r), any r, at least one odd Levi block',
             Spin7_full_flag_degree_four_counterexample=True,
@@ -514,6 +617,11 @@ def main():
             independent_formula_and_lattice_audit=relative_api,
             scope='Packages the previously proved finite E7 theorem and elementary scalar consequences; no new image theorem or absolute Schubert embedding.'),
         current_e7_relative_image_status='Complete formulas in all degrees for all 127 proper standard E7 parabolics. Earlier progress fields record the stated proof stages; the final completion field is authoritative for current scope.',
+        other_theories_exploration=dict(reports_checked=other['reports_checked'],
+            proof_notes=other['proof_notes_and_program'],ledger_entries=other['ledger_entries'],
+            source_hashes_checked=True,symbolic_SL3_integral_reductions=True,
+            production_runtime_changed=False,
+            scope='Finite K/oriented comparisons, representation-dependent arithmetic, equivariant determinants/local patterns, quantum projective and affine A/C families, controlled folding and pointwise loop functoriality. Proof notes and finite exact corroboration; no priority certificate, full exceptional K Smith tables or central/rotation-compatible Kac-Moody construction.'),
         characteristic_zero_proof='EXCEPTIONAL_DEGREES.md; toric localized top Chern and explicit boundary Segre classes',
         degree_deductions=geometry['degree_deductions'],specialized_fibers=fibers,
         full_fiber_cases_not_yet_corroborated=[list(key) for key in degrees

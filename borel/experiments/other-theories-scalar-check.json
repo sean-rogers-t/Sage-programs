@@ -1,0 +1,26 @@
+{
+  "result": "passed",
+  "date": "2026-10-22",
+  "group": "SL3",
+  "parabolic": "B",
+  "representation": "V tensor V",
+  "global_Laurent_column_scaling_verified": true,
+  "reference_equivariant_matrix_is_unit": true,
+  "diagonal_character_exponents": [
+    0,
+    1,
+    1,
+    2,
+    2,
+    3
+  ],
+  "scope": "Independent exact actual-character/Demazure corroboration of the homogeneous-basis proof. The arbitrary-m,k,P theorem is the separate argument, not an extrapolation from A2.",
+  "source_sha256": {
+    "experiments/check_other_theories_scalar.py": "be409a283d4195a1a9f5ce696c1dd876f309321e86d9ea0474b8ca9447bdf05d",
+    "experiments/other_theories_k_pilot.py": "7affb322dc5cede152b334fed1fe10fae3767eee19fd0dbe8f3bd720151c6386"
+  },
+  "raw_sha256": {
+    "experiments/other-theories-k-pilot.json": "f253cdcc04e7901430c485ed8c116a12b4289b8c101b56d99c6bc289eac2cf56",
+    "experiments/other-theories-k-certificates.json": "2f4ac5d9c163b6c40a29f575bbc60f1ae7e647383d76bd03a04e579822676781"
+  }
+}

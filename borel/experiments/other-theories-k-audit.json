@@ -1,0 +1,342 @@
+{
+  "result": "passed",
+  "date": "2026-10-22",
+  "cases": [
+    {
+      "cartan_type": "A2",
+      "highest_weights": [
+        [
+          1,
+          0
+        ]
+      ],
+      "columns_checked": 10,
+      "same_source_kernel": true,
+      "K_smith_factors": [
+        1,
+        1,
+        3,
+        3,
+        3,
+        3
+      ],
+      "ordinary_total_smith_factors": [
+        1,
+        1,
+        3,
+        3,
+        3,
+        3
+      ],
+      "type_A_ambient_unimodular_comparison": true
+    },
+    {
+      "cartan_type": "A2",
+      "highest_weights": [
+        [
+          1,
+          1
+        ]
+      ],
+      "columns_checked": 10,
+      "same_source_kernel": true,
+      "K_smith_factors": [
+        1,
+        3,
+        3,
+        72,
+        72,
+        216
+      ],
+      "ordinary_total_smith_factors": [
+        1,
+        6,
+        6,
+        36,
+        36,
+        216
+      ]
+    },
+    {
+      "cartan_type": "C2",
+      "highest_weights": [
+        [
+          1,
+          0
+        ]
+      ],
+      "columns_checked": 15,
+      "same_source_kernel": true,
+      "K_smith_factors": [
+        1,
+        1,
+        2,
+        2,
+        8,
+        8,
+        16,
+        16
+      ],
+      "ordinary_total_smith_factors": [
+        1,
+        2,
+        2,
+        4,
+        4,
+        8,
+        8,
+        16
+      ]
+    },
+    {
+      "cartan_type": "G2",
+      "highest_weights": [
+        [
+          1,
+          0
+        ]
+      ],
+      "columns_checked": 28,
+      "same_source_kernel": true,
+      "K_smith_factors": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        8,
+        432,
+        3456,
+        3456,
+        3456,
+        3456,
+        3456
+      ],
+      "ordinary_total_smith_factors": [
+        1,
+        2,
+        6,
+        12,
+        12,
+        24,
+        144,
+        288,
+        288,
+        576,
+        1728,
+        3456
+      ],
+      "normalized_quintic_rows": [
+        [
+          "1/60",
+          "0"
+        ],
+        [
+          "0",
+          "-1/60"
+        ]
+      ]
+    },
+    {
+      "cartan_type": "G2",
+      "highest_weights": [
+        [
+          0,
+          1
+        ]
+      ],
+      "columns_checked": 28,
+      "same_source_kernel": true,
+      "K_smith_factors": [
+        1,
+        1,
+        1,
+        32,
+        32,
+        512,
+        27648,
+        442368,
+        442368,
+        14155776,
+        14155776,
+        14155776
+      ],
+      "ordinary_total_smith_factors": [
+        1,
+        8,
+        24,
+        192,
+        192,
+        1536,
+        9216,
+        73728,
+        73728,
+        589824,
+        1769472,
+        14155776
+      ],
+      "normalized_quintic_rows": [
+        [
+          "-13/120",
+          "0"
+        ],
+        [
+          "0",
+          "13/120"
+        ]
+      ]
+    },
+    {
+      "cartan_type": "A3",
+      "highest_weights": [
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "columns_checked": 84,
+      "same_source_kernel": true,
+      "K_smith_factors": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "ordinary_total_smith_factors": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "type_A_ambient_unimodular_comparison": true
+    }
+  ],
+  "same_lattice_pair": [
+    {
+      "lattice": "9Q",
+      "dimension": 18,
+      "dynkin_index": 9,
+      "coefficient_of_v_squared": 3,
+      "K_smith_factors": [
+        1,
+        3,
+        2187
+      ]
+    },
+    {
+      "lattice": "9Q",
+      "dimension": 18,
+      "dynkin_index": 9,
+      "coefficient_of_v_squared": -18,
+      "K_smith_factors": [
+        1,
+        9,
+        729
+      ]
+    }
+  ],
+  "fresh_G2_representation_inputs": [
+    {
+      "representation": "minimal",
+      "dimension": 7,
+      "fresh_weight_and_source_reconstruction": true,
+      "linear_basis_rows": [
+        [
+          6,
+          0
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "representation": "adjoint",
+      "dimension": 14,
+      "fresh_weight_and_source_reconstruction": true,
+      "linear_basis_rows": [
+        [
+          24,
+          0
+        ],
+        [
+          0,
+          8
+        ]
+      ]
+    }
+  ],
+  "independent_method": "Native SymPy weight moments, rational Todd/BGG matrices and Smith forms; no Sage or Laurent Demazure string sum",
+  "G2_adjoint_not_contained_in_minimal": {
+    "row": 0,
+    "column": 1,
+    "nonintegral_coordinate": "53/576"
+  },
+  "G2_Davis_primitive_comparison": {
+    "psi_R_squared_rows": [
+      [
+        12,
+        -208
+      ],
+      [
+        -2,
+        56
+      ]
+    ],
+    "trace_indices": [
+      2,
+      8
+    ],
+    "normalized_quintic_ratio": "-13/2",
+    "verified": true
+  },
+  "source_sha256": {
+    "experiments/audit_other_theories_k.py": "9b6fa8332b60ff5e828a19896320229250ff3aeb875a5ef1df94cf7dd27891ef"
+  },
+  "raw_sha256": {
+    "experiments/other-theories-k-pilot.json": "f253cdcc04e7901430c485ed8c116a12b4289b8c101b56d99c6bc289eac2cf56",
+    "experiments/other-theories-k-certificates.json": "2f4ac5d9c163b6c40a29f575bbc60f1ae7e647383d76bd03a04e579822676781"
+  }
+}

@@ -124,6 +124,58 @@
       "python_blocks_executed": 0
     },
     {
+      "file": "SPIN_PARITY_EXTENSION.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "SPIN_PARITY_RECURSION.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "SPIN_PARITY_BOUNDARY.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "OTHER_THEORIES_PROGRAM.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "OTHER_THEORIES_FINITE.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "OTHER_THEORIES_SL3.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "OTHER_THEORIES_TYPE_A.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "OTHER_THEORIES_HEIGHT.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "OTHER_THEORIES_COTANGENT.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "OTHER_THEORIES_EQUIVARIANT_K.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "OTHER_THEORIES_QUANTUM.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "OTHER_THEORIES_AFFINE.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "OTHER_THEORIES_FOLDING.md",
+      "python_blocks_executed": 0
+    },
+    {
       "file": "MATHEMATICS.md",
       "python_blocks_executed": 0
     },
@@ -396,7 +448,7 @@
       "python_blocks_executed": 0
     }
   ],
-  "local_links_and_anchors_checked": 1333,
+  "local_links_and_anchors_checked": 1481,
   "python_blocks_executed": 48,
   "scope": "Python fences executed in reading order in a fresh namespace per document; local links and anchors checked. Shell snippets and external URLs were not automatically executed or crawled."
 }

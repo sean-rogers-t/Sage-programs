@@ -1,0 +1,31 @@
+{
+  "result": "passed",
+  "date": "2026-10-22",
+  "cases": [
+    {
+      "symplectic_rank": 1,
+      "matrix_size": 2,
+      "determinant": "2",
+      "full_source_characteristic_relation_verified": true,
+      "integral_augmentation_index": "2"
+    },
+    {
+      "symplectic_rank": 2,
+      "matrix_size": 4,
+      "determinant": "4*(s1 + s2)**2",
+      "full_source_characteristic_relation_verified": true,
+      "integral_augmentation_index": "64"
+    },
+    {
+      "symplectic_rank": 3,
+      "matrix_size": 6,
+      "determinant": "8*(s1 + s2)**2*(s1 + s3)**2*(s2 + s3)**2",
+      "full_source_characteristic_relation_verified": true,
+      "integral_augmentation_index": "32768"
+    }
+  ],
+  "scope": "Exact symbolic projective-bundle K-ring multiplication, independent of root-discriminant or fixed-point proof; finite corroboration of the written all-rank integral formula.",
+  "source_sha256": {
+    "experiments/other_theories_symplectic_equivariant_pilot.py": "e29173ab35cfd71067575cde5cf7e7b675ed86e96ed725a70e39170beb961404"
+  }
+}

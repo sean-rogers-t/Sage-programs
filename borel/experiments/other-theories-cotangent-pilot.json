@@ -1,0 +1,390 @@
+{
+  "result": "passed",
+  "date": "2026-10-22",
+  "cases": [
+    {
+      "cartan_type": "A2",
+      "fundamental_dimensions": [
+        3,
+        3
+      ],
+      "fundamental_indices": [
+        "1",
+        "1"
+      ],
+      "irreducibles": [
+        {
+          "highest_weight": [
+            2,
+            0
+          ],
+          "dimension": 6,
+          "trace_index": "5",
+          "cotangent_coordinates": [
+            6,
+            -1
+          ],
+          "normalized_coordinates": [
+            "6/5",
+            "-1/5"
+          ]
+        },
+        {
+          "highest_weight": [
+            0,
+            2
+          ],
+          "dimension": 6,
+          "trace_index": "5",
+          "cotangent_coordinates": [
+            -1,
+            6
+          ],
+          "normalized_coordinates": [
+            "-1/5",
+            "6/5"
+          ]
+        },
+        {
+          "highest_weight": [
+            1,
+            1
+          ],
+          "dimension": 8,
+          "trace_index": "6",
+          "cotangent_coordinates": [
+            3,
+            3
+          ],
+          "normalized_coordinates": [
+            "1/2",
+            "1/2"
+          ]
+        },
+        {
+          "highest_weight": [
+            3,
+            0
+          ],
+          "dimension": 10,
+          "trace_index": "15",
+          "cotangent_coordinates": [
+            21,
+            -6
+          ],
+          "normalized_coordinates": [
+            "7/5",
+            "-2/5"
+          ]
+        }
+      ],
+      "tensor_square_normalized_cotangent_unchanged": true,
+      "seconds": 0.271
+    },
+    {
+      "cartan_type": "G2",
+      "fundamental_dimensions": [
+        7,
+        14
+      ],
+      "fundamental_indices": [
+        "2",
+        "8"
+      ],
+      "irreducibles": [
+        {
+          "highest_weight": [
+            2,
+            0
+          ],
+          "dimension": 27,
+          "trace_index": "18",
+          "cotangent_coordinates": [
+            13,
+            -1
+          ],
+          "normalized_coordinates": [
+            "13/18",
+            "-1/18"
+          ]
+        },
+        {
+          "highest_weight": [
+            1,
+            1
+          ],
+          "dimension": 64,
+          "trace_index": "64",
+          "cotangent_coordinates": [
+            0,
+            8
+          ],
+          "normalized_coordinates": [
+            "0",
+            "1/8"
+          ]
+        },
+        {
+          "highest_weight": [
+            3,
+            0
+          ],
+          "dimension": 77,
+          "trace_index": "88",
+          "cotangent_coordinates": [
+            104,
+            -15
+          ],
+          "normalized_coordinates": [
+            "13/11",
+            "-15/88"
+          ]
+        }
+      ],
+      "tensor_square_normalized_cotangent_unchanged": true,
+      "seconds": 0.016
+    },
+    {
+      "cartan_type": "F4",
+      "fundamental_dimensions": [
+        52,
+        1274,
+        273,
+        26
+      ],
+      "fundamental_indices": [
+        "18",
+        "882",
+        "126",
+        "6"
+      ],
+      "irreducibles": [
+        {
+          "highest_weight": [
+            0,
+            0,
+            0,
+            2
+          ],
+          "dimension": 324,
+          "trace_index": "162",
+          "cotangent_coordinates": [
+            -1,
+            0,
+            -1,
+            51
+          ],
+          "normalized_coordinates": [
+            "-1/162",
+            "0",
+            "-1/162",
+            "17/54"
+          ]
+        }
+      ],
+      "tensor_square_normalized_cotangent_unchanged": true,
+      "seconds": 0.029
+    },
+    {
+      "cartan_type": "E6",
+      "fundamental_dimensions": [
+        27,
+        78,
+        351,
+        2925,
+        351,
+        27
+      ],
+      "fundamental_indices": [
+        "6",
+        "24",
+        "150",
+        "1800",
+        "150",
+        "6"
+      ],
+      "irreducibles": [
+        {
+          "highest_weight": [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "dimension": 351,
+          "trace_index": "168",
+          "cotangent_coordinates": [
+            54,
+            0,
+            -1,
+            0,
+            0,
+            -1
+          ],
+          "normalized_coordinates": [
+            "9/28",
+            "0",
+            "-1/168",
+            "0",
+            "0",
+            "-1/168"
+          ]
+        },
+        {
+          "highest_weight": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "dimension": 650,
+          "trace_index": "300",
+          "cotangent_coordinates": [
+            27,
+            -1,
+            0,
+            0,
+            0,
+            27
+          ],
+          "normalized_coordinates": [
+            "9/100",
+            "-1/300",
+            "0",
+            "0",
+            "0",
+            "9/100"
+          ]
+        }
+      ],
+      "tensor_square_normalized_cotangent_unchanged": true,
+      "seconds": 0.08
+    },
+    {
+      "cartan_type": "E7",
+      "fundamental_dimensions": [
+        133,
+        912,
+        8645,
+        365750,
+        27664,
+        1539,
+        56
+      ],
+      "fundamental_indices": [
+        "36",
+        "360",
+        "4680",
+        "297000",
+        "17160",
+        "648",
+        "12"
+      ],
+      "irreducibles": [
+        {
+          "highest_weight": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2
+          ],
+          "dimension": 1463,
+          "trace_index": "660",
+          "cotangent_coordinates": [
+            -1,
+            0,
+            0,
+            0,
+            0,
+            -1,
+            112
+          ],
+          "normalized_coordinates": [
+            "-1/660",
+            "0",
+            "0",
+            "0",
+            "0",
+            "-1/660",
+            "28/165"
+          ]
+        }
+      ],
+      "tensor_square_normalized_cotangent_unchanged": true,
+      "seconds": 0.097
+    },
+    {
+      "cartan_type": "E8",
+      "fundamental_dimensions": [
+        3875,
+        147250,
+        6696000,
+        6899079264,
+        146325270,
+        2450240,
+        30380,
+        248
+      ],
+      "fundamental_indices": [
+        "1500",
+        "85500",
+        "5292000",
+        "8345660400",
+        "141605100",
+        "1778400",
+        "14700",
+        "60"
+      ],
+      "irreducibles": [
+        {
+          "highest_weight": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2
+          ],
+          "dimension": 27000,
+          "trace_index": "13500",
+          "cotangent_coordinates": [
+            -1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            -1,
+            495
+          ],
+          "normalized_coordinates": [
+            "-1/13500",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "-1/13500",
+            "11/300"
+          ]
+        }
+      ],
+      "tensor_square_normalized_cotangent_unchanged": true,
+      "seconds": 0.216
+    }
+  ],
+  "seconds": 0.709,
+  "scope": "Finite differentiated tensor-product checks of known indecomposable representation data used by the new image comparison; not an exceptional K-image classification.",
+  "source_sha256": {
+    "experiments/other_theories_cotangent_pilot.py": "5cdf2908db504c0d1d56feec314bf9e5e2effc59036dbe9f67461b829cdd6be5"
+  }
+}
