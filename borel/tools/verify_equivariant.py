@@ -97,6 +97,13 @@ def main():
     assert balancing["original_inclusion_checks"]==68
     for name,expected in balancing["source_sha256"].items():
         assert digest(ROOT/name)==expected,name
+    ordinary = json.loads((ROOT/"symplectic-ordinary-verification.json").read_text())
+    assert ordinary["result"]=="passed"
+    assert len(ordinary["half_block_and_API_cases"])==128
+    assert ordinary["original_projective_inclusion_ranks"]==list(range(1,65))
+    assert len(ordinary["exact_2_local_Gram_certificates"])==31
+    for name,expected in ordinary["source_sha256"].items():
+        assert digest(ROOT/name)==expected,name
     doubling_ranks = [verify_doubling(n) for n in range(1,9)]
     rank_four_ideals = verify_rank_four_minor_ideals()
 
@@ -138,6 +145,8 @@ def main():
         "symplectic-minors-verification.json",
         "SYMPLECTIC_K_BALANCING.md","tools/verify_symplectic_balancing.py",
         "symplectic-balancing-verification.json",
+        "SYMPLECTIC_K_ORDINARY_SMITH.md","tools/verify_symplectic_ordinary.py",
+        "symplectic-ordinary-verification.json",
         "character-verification.json",
     ]
     report = dict(
@@ -157,7 +166,10 @@ def main():
         hankel_balancing=dict(universal_quartic_integer_identities=70,
             original_inclusion_checks=68,all_rank_integral_proof=True,
             literature_input="Published generic Hankel product/monic Groebner theorems; coefficient-pairing equivalence and integral lift"),
-        proof_scope="All-rank doubled half-size presentation, initial-column/Schur generators and a single balanced product for every Fitting ideal; explicit lists through rank nine. Global cyclic decompositions only in ranks 1-3; specialized primary structure and full ordinary Smith multiplicities remain.",
+        ordinary_smith=dict(all_rank_closed_formula=True,half_block_and_API_ranks=128,
+            original_inclusion_ranks=64,exact_2_local_Gram_certificates=31,
+            literature_input="Euler E750 VI-VII and Miller-Stanton Theorem 1; 2-local moment identification is the application here, without a priority claim"),
+        proof_scope="All-rank doubled half-size presentation, initial-column/Schur generators and a single balanced product for every Fitting ideal; explicit lists through rank nine. Complete ordinary projective Smith list by a closed binary-digit formula. Global equivariant cyclic decompositions only in ranks 1-3; specialized primary structure remains.",
         API_scope="Type A all-parabolic input evaluation and literal integrality; automatic complete source generators only on full flags and P1. Type C projective integral image/cokernel.",
         source_sha256={name:digest(ROOT/name) for name in paths},
     )

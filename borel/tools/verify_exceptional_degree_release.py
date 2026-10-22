@@ -39,6 +39,10 @@ def main():
     assert classical_equivariant['initial_column_minor_theorem']['original_inclusion_checks']==72
     assert classical_equivariant['hankel_balancing']['universal_quartic_integer_identities']==70
     assert classical_equivariant['hankel_balancing']['original_inclusion_checks']==68
+    assert classical_equivariant['ordinary_smith']['all_rank_closed_formula']
+    assert classical_equivariant['ordinary_smith']['half_block_and_API_ranks']==128
+    assert classical_equivariant['ordinary_smith']['original_inclusion_ranks']==64
+    assert classical_equivariant['ordinary_smith']['exact_2_local_Gram_certificates']==31
     assert classical_equivariant['type_A']['fixed_points']==10
     assert classical_equivariant['type_C']['index_exponent']==153
     assert classical_equivariant['type_C']['symbolic_matrix_avoided']
@@ -468,6 +472,8 @@ def main():
         'tools/verify_symplectic_minors.py',
         'SYMPLECTIC_K_BALANCING.md','symplectic-balancing-verification.json',
         'tools/verify_symplectic_balancing.py',
+        'SYMPLECTIC_K_ORDINARY_SMITH.md','symplectic-ordinary-verification.json',
+        'tools/verify_symplectic_ordinary.py',
         'equivariant-verification.json','tools/verify_equivariant.py',
         'tests/test_equivariant.py',
         '../articles/classical-equivariant-exposition/README.md',

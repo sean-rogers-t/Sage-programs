@@ -4,7 +4,7 @@ from itertools import combinations
 from math import prod as integer_product
 from sage.all import ZZ, QQ, PolynomialRing, matrix, prod, gcd
 from sage_borel import (BorelMap, type_a_equivariant, symplectic_projective_k_image)
-from sage_borel.equivariant import _word
+from sage_borel.equivariant import _word, SymplecticProjectiveKImage
 
 
 def original_projective_matrix(values):
@@ -291,6 +291,19 @@ class SymplecticChecks(unittest.TestCase):
         factors = c.ordinary_smith_factors()
         self.assertIsNone(c._matrix)
         self.assertEqual(factors,tuple(abs(int(s)) for s in original_projective_matrix([2]*9).elementary_divisors()))
+        # A direct ordinary polynomial block supplies an independent
+        # regression for both parities beyond the symbolic constructor.
+        ring=PolynomialRing(ZZ,"u");u=ring.gen()
+        from math import comb
+        for n in (10,11,16,17,31,32):
+            r=n//2
+            E=sum(comb(n,2*j)*(-2)**(n-2*j)*u**j for j in range(r+1))
+            O=sum(comb(n,2*j+1)*(-2)**(n-2*j-1)*u**j for j in range((n+1)//2))
+            p,q=(E,O) if n%2==0 else (O,E)
+            M=matrix(ZZ,r,r,lambda i,j:((2*q*u**j)%p)[i])
+            expected=(1,)*n+((2,) if n%2 else ())+tuple(abs(int(s)) for s in M.elementary_divisors() for _ in range(2))
+            ordinary=object.__new__(SymplecticProjectiveKImage);ordinary.rank=n
+            self.assertEqual(ordinary.ordinary_smith_factors(),expected)
 
 
 if __name__=="__main__":

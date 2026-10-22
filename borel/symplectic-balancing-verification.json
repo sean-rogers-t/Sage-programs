@@ -1909,6 +1909,6 @@
   "proof_scope": "All-rank deduction from published generic Hankel product theorems and a monic integral lift. Universal quartic Z identities and finite fibers are checked separately; no primary decomposition is asserted after specialization.",
   "source_sha256": {
     "tools/verify_symplectic_balancing.py": "f97ffaff97320d8f82040f3c60e712f7281c330a803df8af4b455a2e8739412f",
-    "SYMPLECTIC_K_BALANCING.md": "24118c787f543fab24d6b7021506045b4b9b5a890ee30abf7cc4030851cdda9c"
+    "SYMPLECTIC_K_BALANCING.md": "4d5ab7e8d5b684d3cc450b26271c09601e076018ef29cdbfe6b6eec36dbdee58"
   }
 }

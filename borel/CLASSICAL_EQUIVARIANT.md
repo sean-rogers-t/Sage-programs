@@ -227,12 +227,25 @@ returns exact, possibly redundant generators. Generic Hankel primary
 decompositions are not automatically primary decompositions after moment
 substitution. Large spectral-polynomial expansions may still be costly.
 
-ordinary_smith_factors() augments before constructing the half-size
-integer matrix. It duplicates that block's factors and adds a single
-2 when n is odd, then n units for the full inclusion. It never builds
-either symbolic presentation. This matters in rank nine and above.
+ordinary_smith_factors() now uses the [closed binary-digit formula](SYMPLECTIC_K_ORDINARY_SMITH.md).
+It constructs no integer or symbolic matrix. For n=2r+epsilon and
+0<=j<r the paired exponents are
+4+4epsilon+8j+s_2(r-j-1)-s_2(r+j+epsilon), where s_2 counts binary ones.
+It adds a single 2 when n is odd, then n units for the full inclusion.
+Ordinary means forgetting the torus-equivariant structure (t_i=1),
+while retaining integral K-theory. The class constructor still constructs
+spectral polynomials; the matrix-free claim concerns this method.
 
 ## 5. Checks and limits
+
+The [ordinary audit](symplectic-ordinary-verification.json) compares the
+closed list with independently constructed binomial half blocks through
+n=128, original projective inclusions through n=64, Euler-characteristic
+bases through n=32, exact finite continued fractions through n=40 and
+explicit 2-local orthogonal Gram identities in ranks 2 through 32.
+The uniform proof uses Euler's known finite fraction and the published
+Miller-Stanton Hankel diagonalization, with all basis denominators odd.
+It is a deduction for the specified Springer image; priority is not established.
 
 The new tests compare projective restrictions with Newton bundle
 polynomials, full-flag K divisors with line-bundle formulas, H

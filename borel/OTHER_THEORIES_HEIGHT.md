@@ -145,10 +145,13 @@ For this same source on CP^(2r-1), ordinary integral K-theory gives
 \]
 
 Its abstract source image is still Z[z]/z^(2r), but its ambient quotient
-has different factors from the ordinary list 1,2,4,...,2^(2r-1).
+has different factors from the cohomological list 1,2,4,...,2^(2r-1).
 The following is a complete recursive presentation of that quotient,
 plus a closed formula for its exponent. It does not give a closed list
-of all Smith multiplicities.
+of all Smith multiplicities. That remaining even-dimensional-lattice
+case is now completed by the [closed ordinary Hankel formula](SYMPLECTIC_K_ORDINARY_SMITH.md).
+The older argument below also treats odd lattice lengths m, which are
+outside that symplectic projective theorem.
 
 **Proposition.** For m>=2 put c_0=0, c_1=1 and
 
@@ -224,7 +227,8 @@ and checks 1,000 exact inverse-coordinate denominators.
 [Report](experiments/other-theories-symplectic-k-pilot.json).
 
 The general quotient presentation and exponent are deductions here;
-their literature priority has not been established. The remaining
-closed full Smith multiplicity problem is a concrete oriented-image
-question with an arbitrary-rank recurrence, rather than another
-unstructured exceptional table request.
+their literature priority has not been established. The
+[subsequent ordinary Hankel theorem](SYMPLECTIC_K_ORDINARY_SMITH.md)
+now completes the full multiplicity list for even m=2r, the symplectic
+projective family. The analogous full list for odd truncation length m
+is not asserted in that theorem.

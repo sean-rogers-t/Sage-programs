@@ -152,6 +152,11 @@ decompositions need not survive the moment substitution as primary
 decompositions; intersections and primary components do not generally
 commute with arbitrary base change.
 
+The separate [ordinary Hankel specialization](SYMPLECTIC_K_ORDINARY_SMITH.md)
+now completes all ordinary multiplicities, using Euler's finite binomial
+continued fraction and the known orthogonal Hankel diagonalization.
+That arithmetic step is additional to the ideal-balancing theorem here.
+
 More generally, for m copies of a monic multiplication presentation,
 write ell=md+s, 0<=s<m. Repeated pair balancing gives
 

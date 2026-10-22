@@ -502,17 +502,19 @@ class SymplecticProjectiveKImage:
         raise NotImplementedError("global cyclic decompositions are proved here only for n<=3")
 
     def ordinary_smith_factors(self):
-        # Augment before constructing matrices; no symbolic Laurent matrix
-        # or minors are needed for this integral specialization.
+        """Complete ordinary inclusion factors, from the closed Hankel formula.
+
+        Euler's finite binomial fraction and 2-local orthogonal Hankel
+        diagonalization give the binary-digit exponents. See
+        SYMPLECTIC_K_ORDINARY_SMITH.md; no matrix or minors are built.
+        """
         n = self.rank
-        ring = PolynomialRing(ZZ,"u")
-        u = ring.gen()
-        even = ring(sum(comb(n,2*j)*(-2)**(n-2*j)*u**j for j in range(n//2+1)))
-        odd = ring(sum(comb(n,2*j+1)*(-2)**(n-2*j-1)*u**j for j in range((n+1)//2)))
-        modulus,multiplier = (even,odd) if n%2==0 else (odd,even)
         r = n//2
-        M = matrix(ZZ,r,r,lambda i,j:((2*multiplier*u**j)%modulus)[i])
-        paired = tuple(abs(int(s)) for s in M.elementary_divisors() for _ in range(2))
+        def binary_ones(value):
+            return bin(value).count("1")
+        exponents = (4+4*(n%2)+8*j+binary_ones(r-j-1)
+                     -binary_ones(r+j+n%2) for j in range(r))
+        paired = tuple(2**e for e in exponents for _ in range(2))
         return (1,)*n+((2,) if n%2 else ())+paired
 
 

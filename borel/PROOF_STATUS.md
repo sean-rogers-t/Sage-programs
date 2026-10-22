@@ -102,8 +102,26 @@ checks for the complete n=8,9 lists and polynomial-fiber tests in
 characteristics two and three. The all-rank quantifier rests on the cited
 theorems and the written lift, not on finite cases. Arithmetic primary
 structure after moment substitution, minimal larger-block generators
-and full ordinary Smith multiplicities remain; generic primary
-decompositions have not been carried through arbitrary specialization.
+remain; generic primary decompositions have not been carried through
+arbitrary specialization. The ordinary multiplicity question from that
+stage is now completed as follows.
+
+The [closed ordinary Smith theorem](SYMPLECTIC_K_ORDINARY_SMITH.md)
+identifies the augmented Hankel moments with Euler E750, VI--VII's
+finite binomial continued fraction. S-to-J contraction yields recurrence
+coefficients with only odd denominators. The published monic orthogonal
+Hankel diagonalization (Miller-Stanton, Theorem 1) is therefore unimodular
+over Z_(2), and gives every 2-primary factor, rather than only determinants.
+The original triangular inclusion has power-of-two determinant, excluding
+odd-primary factors. For n=2r+epsilon the paired exponents are
+4+4epsilon+8j+s_2(r-j-1)-s_2(r+j+epsilon), 0<=j<r. There are n units
+and one extra factor 2 for odd n. This completes all multiplicities for
+the defining Sp_(2n)/P1 ordinary K-image, in all ranks. The written proof
+is a deduction from classical inputs, not a claim of a new continued
+fraction or Hankel theorem. Its priority is undetermined. Independent
+integer half-block checks reach n=128, original inclusions n=64,
+Euler-basis checks n=32, and explicit 2-local Gram identities n=32.
+No equivariant primary decomposition or larger-flag formula follows.
 
 ## Other cohomology theories and affine groups: 22 October exploration
 

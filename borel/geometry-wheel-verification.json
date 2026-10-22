@@ -5,5 +5,5 @@
   "command": "sage -python tools/verify_geometry_wheel.py",
   "isolated_import_verified": true,
   "wheel": "sage_borel-0.22.0-py3-none-any.whl",
-  "wheel_sha256": "19302eb85eff25bf3816fa6db374888d3f5bcef47a1c7c40137333a6655d6625"
+  "wheel_sha256": "b40f49338c7d2fa339fe676b22164e3e90c5a2d9d585940dc2f34d942dc18fbf"
 }

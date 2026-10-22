@@ -14,6 +14,7 @@ the mathematical guide for the Borel/Springer construction.
 | --- | --- |
 | Can I compute classical equivariant Springer images? | [Type A partial flags in H/K and the integral symplectic projective K-cokernel](CLASSICAL_EQUIVARIANT.md) |
 | What higher type C Fitting formulas are proved? | [Doubled presentation](SYMPLECTIC_K_FITTING.md), [Schur generators](SYMPLECTIC_K_MINORS.md), [all-rank integral Hankel balancing and complete ranks 1-9](SYMPLECTIC_K_BALANCING.md) |
+| What are all ordinary type C projective K Smith factors? | [Closed binary-digit multiplicities, Hankel proof and known inputs](SYMPLECTIC_K_ORDINARY_SMITH.md) |
 | What general results do we have, and which structural questions remain? | [Research ledger: results, partial results, counterexamples and open problems](RESEARCH_LEDGER.md) |
 | What did the exploration of other cohomologies and affine groups produce? | [Research report, theorem inventory, known inputs and prioritized API path](OTHER_THEORIES_PROGRAM.md) |
 | How does the actual Springer-character image change in K-theory? | [General filtered comparison and counterexamples](OTHER_THEORIES_FINITE.md), [complete SL3 formulas](OTHER_THEORIES_SL3.md), [primitive character data](OTHER_THEORIES_COTANGENT.md) |
