@@ -20,7 +20,7 @@ Track E adds equivariant, K-theoretic, formal-group-law, quantum, affine and
 Kac–Moody projects. The first local-image benchmark and an equivariant
 specialization counterexample are now recorded in SRC-08, IMG-10/11 and
 LIMIT-06. General extension backends remain unimplemented. The expanded
-ledger has 84 entries, including 20 open questions. The proposal itself
+ledger has 85 entries, including 20 open questions. The proposal itself
 adds no theorem; subsequent progress is tracked here and in its README.
 
 ## Status and maintenance
@@ -199,6 +199,7 @@ substitutes for a uniform theorem.
 | API-04 | Integral images, nonzero Smith factors, saturation, membership and integer preimages. | Computes the embedded image for explicitly integral generator images, preserving source normalization. | [Integral images](INTEGRAL_IMAGES.md) |
 | API-05 | Image containment, equality, sums, intersections and quotient groups; compressed all-rank B/D formulas. | Embedded comparisons retain directions, while the closed orthogonal calculator avoids constructing enormous Schubert matrices. | [Comparisons](INTEGRAL_COMPARISONS.md), [orthogonal API](ORTHOGONAL_API.md) |
 | API-06 | Representation sources, highest-weight-only irreducible lattices, quotient coordinates and determinant evaluation. | The general constructors and the packaged exceptional cases have different computational costs and guards. A packaged degree certificate is bound to its actual map. | [Lattice API](IRREDUCIBLE_CHARACTER_LATTICES.md), [geometry API](SPRINGER_GEOMETRY.md), [degree API](EXCEPTIONAL_DEGREES.md) |
+| API-07 | Compressed relative Smith factors for all 127 proper E7 parabolics and G/G, scaled root/weight-source comparisons and normalized minimal/adjoint comparisons. | Implemented method in version 0.21, using IMG-20 and the earlier representation source theorem. Independently reconstructed formula arithmetic, transformed integer-lattice comparisons and fresh E7/P7 overlaps verify the implementation. It returns abstract relative groups with provenance; absolute H/N and explicit Schubert embeddings remain separate. | [API and mathematics](E7_RELATIVE_IMAGE_API.md), [API audit](relative-image-verification.json), [release audit](release-0.21-verification.json) |
 
 ## Open questions organized by generalization
 

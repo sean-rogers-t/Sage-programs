@@ -31,6 +31,26 @@ The conclusions below are based on the displayed arguments and checked
 source statements. External expert review and any claim of priority remain
 separate work.
 
+## All-parabolic E7 API packaging
+
+Update, 21 October 2026. Version 0.21 packages the existing complete
+relative E7 theorem in a [compressed summary API](E7_RELATIVE_IMAGE_API.md).
+It includes all retained node sets, relative Smith multiplicities and the
+normalized minimal/adjoint comparison from sources 12Q and 36X.
+The gcd/lcm formulas for scaled image sums and intersections follow from
+ordinary simultaneous Smith normal form. This adds no new image theorem
+or literature-priority claim.
+
+The [independent API check](relative-image-verification.json) reconstructs
+the formulas and verifies scaled comparisons using integer matrix kernels;
+fresh E7/P7 character-image overlaps cover degrees 0,1,2,3,6,10.
+Previously audited full-source theorems, the A5 intermediary polynomial
+and two native base image lists are shared inputs, explicitly identified.
+The [0.21 release record](release-0.21-verification.json) binds these checks
+to the runtime and installed wheel. Earlier version references below
+describe their historical checkpoints. Absolute image cokernels and
+structural generalizations are unchanged.
+
 ## First local-image benchmark and equivariant pilot
 
 Update, 20 October 2026. The [new proof/source audit](LOCAL_IMAGE_AUDIT.md)

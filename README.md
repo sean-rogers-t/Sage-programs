@@ -13,6 +13,12 @@ supports arbitrary parabolics and finite Lie types, and avoids full Weyl-group
 enumeration. It includes independent tests and benchmarks through rank 20.
 The original program files are preserved unchanged.
 
+The [all-parabolic E7 summary API](borel/E7_RELATIVE_IMAGE_API.md) now packages
+the complete relative Smith data and minimal/adjoint representation
+comparisons, with source normalization and proof provenance. It avoids
+Schubert matrices for summary queries; absolute cohomology/image cokernels
+remain a separate calculation.
+
 The [exceptional catalogue](borel/EXCEPTIONAL.md) supplies named generator
 calculations for G2, F4, E6 and E7, plus the displayed E8 dissertation cases.
 

@@ -110,7 +110,8 @@ is merged into master as `df20de9`. The
 [complete relative E7 theorem](../../borel/E7_ALL_PARABOLICS.md) covers all
 127 proper standard parabolics; the E6 comparison already covers all 63.
 This closes the finite relative-classification benchmark in Aim A.
-The following items are proposed work, not additional proved results.
+The E7 software part of item 1 is now implemented in version 0.21;
+the other items remain proposed work, not additional proved results.
 The full-paper project remains on hold.
 
 For a simply connected G, write X=X(T), Q_rt for the root lattice, and
@@ -143,7 +144,7 @@ affine and Kac–Moody projects retain the dependency gates in Track E.
 The current `e6_character_source` and `e7_character_source` factories
 package embedded images only for E6/P1 and E7/P7. The new all-parabolic
 relative theorem does not automatically extend those constructors.
-Start with a separate summary API. A possible interface is:
+The [separate summary API](../../borel/E7_RELATIVE_IMAGE_API.md) is now available:
 
 ```text
 exceptional_root_weight_comparison("E7", retained_nodes=(1,2,3,4,5,7))
@@ -151,21 +152,25 @@ comparison.degree(d)
 comparison.compare_scaled_sources(root_scale=a, weight_scale=b, degree=d)
 ```
 
-These names are a design proposal and are not implemented. A degree
-summary should return the cohomology rank, compressed relative factor
+Version 0.21 implements this interface for every E7 retained set and adds
+`comparison.compare_representations(degree=d)` for the normalized minimal
+and adjoint sources. A degree summary returns the cohomology rank, compressed relative factor
 multiplicities, coefficient-ring/source conventions, proof family and
 certificate provenance. The scalar comparison uses gcd/lcm on the
 simultaneous relative Smith basis, as proved in the completion note.
 It gives abstract relative groups; an embedded Schubert basis or an
 integral polynomial preimage requires a separate calculation.
 
-Make retained nodes explicit; validate node sets and degrees, handle G/G
-and degrees outside cohomology, and avoid expanding thousands of equal
-Smith factors by default. Ship E7 first from its complete 127-case
-manifest, then normalize the E6 records to the same schema, retaining
-all 3-power factors. Compare with existing minimal/adjoint image APIs
-on their overlapping minuscule cases and test both containment and
-incomparability. This is a software consequence of proved mathematics.
+Retained nodes and degrees are validated; G/G and vanishing degrees are
+handled without large calculations. Smith factors remain compressed by
+default. All 127 E7 records agree with independent formula arithmetic or
+the audited native base lists. Fresh E7/P7 minimal/adjoint images check
+containment and incomparability on the overlapping cases. The
+[verification](../../borel/relative-image-verification.json) records the
+shared mathematical inputs and the exact independent checks.
+This is a software consequence of proved mathematics. The remaining
+software task is to normalize the E6 records to the same schema, retaining
+all 3-power factors. Item 2 remains the next main mathematical target.
 
 ### 2. Replace the case tables with a structural mechanism
 
@@ -262,10 +267,11 @@ are starting points checked for this roadmap, not a completed novelty
 audit. Preserve the distinction between the known inputs, the existing
 computer-assisted E6/E7 deductions and proposed generalizations.
 
-The recommended next work package is **1**, followed by the mathematical
-core **2**, with **3** as its focused test. Begin **4** after inventorying
-the existing absolute tables. No new API or theorem is asserted by this
-roadmap, and the frozen proposal PDF is unchanged.
+The E7 part of work package **1** is complete. Its analogous E6 interface
+is a further software task; the next main mathematical target is **2**,
+with **3** as its focused test. Begin **4** after inventorying the existing
+absolute tables. This roadmap adds no theorem, and the frozen proposal
+PDF is unchanged.
 
 ## Status and provenance
 

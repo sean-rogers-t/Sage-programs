@@ -23,7 +23,8 @@ def main():
     files = sorted((ROOT/'src/sage_borel').glob('*.py'))
     files += sorted((ROOT/'tests').glob('*.py'))
     files += sorted((ROOT/'src/sage_borel/data').glob('*.json'))
-    files += [ROOT/'tests/data/exceptional_expected.json', ROOT/'pyproject.toml',
+    files += [ROOT/'tests/data/exceptional_expected.json',
+              ROOT/'tests/data/e7_relative_audited_bases.json', ROOT/'pyproject.toml',
               Path(__file__).resolve()]
     report = dict(result='passed' if result.wasSuccessful() else 'failed',
                   version=sage_borel.__version__, sage_version=SAGE_VERSION,
