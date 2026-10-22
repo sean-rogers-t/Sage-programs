@@ -1,7 +1,7 @@
 {
   "result": "passed",
-  "new_test_methods": 15,
-  "full_regression_methods": 185,
+  "new_test_methods": 16,
+  "full_regression_methods": 186,
   "type_A": {
     "group": "SL10",
     "parabolic": "P1",
@@ -9,7 +9,7 @@
     "fixed_points": 10,
     "theory": "K",
     "exact_restriction_roundtrip": true,
-    "seconds": 0.0326
+    "seconds": 0.0354
   },
   "type_C": {
     "group": "Sp18",
@@ -37,7 +37,7 @@
     ],
     "index_exponent": 153,
     "symbolic_matrix_avoided": true,
-    "seconds": 0.0044
+    "seconds": 0.0045
   },
   "symbolic_rank_three_unimodular_reduction": true,
   "symbolic_doubling_unimodular_certificates": [
@@ -56,18 +56,27 @@
     "original_inclusion_checks": 72,
     "literature_input": "Integral Schur cyclicity of exterior powers; Laksov-Thorup and Gatto-Santiago"
   },
-  "proof_scope": "Written all-rank doubled half-size presentation and initial-column/Schur-content generators for all Fitting ideals; complete closed ideal lists through rank seven. Global cyclic decompositions only in ranks 1-3; larger-block simplification and full ordinary Smith multiplicities remain.",
+  "hankel_balancing": {
+    "universal_quartic_integer_identities": 70,
+    "original_inclusion_checks": 68,
+    "all_rank_integral_proof": true,
+    "literature_input": "Published generic Hankel product/monic Groebner theorems; coefficient-pairing equivalence and integral lift"
+  },
+  "proof_scope": "All-rank doubled half-size presentation, initial-column/Schur generators and a single balanced product for every Fitting ideal; explicit lists through rank nine. Global cyclic decompositions only in ranks 1-3; specialized primary structure and full ordinary Smith multiplicities remain.",
   "API_scope": "Type A all-parabolic input evaluation and literal integrality; automatic complete source generators only on full flags and P1. Type C projective integral image/cokernel.",
   "source_sha256": {
-    "src/sage_borel/equivariant.py": "90ac098adff2f51452af3e63c5dd603ae52abd3fc3aa2fcbead7d50ccbb01046",
+    "src/sage_borel/equivariant.py": "5d87c7782d9351b43f414ad4e8b3f52a7aa12e9e2e2d06e72553007513d7e090",
     "src/sage_borel/__init__.py": "6af60b492c10b78a88dce9c28945a9888429b83e9ae8d71ddccc6b7b487d3473",
-    "tests/test_equivariant.py": "d9e961044ea634715f30bc58b1fcedcb1774bdf83f112dcbf93caf4faf65e5dc",
-    "CLASSICAL_EQUIVARIANT.md": "ca51cfa5d95961a239ca0959b5d0555e05a8fe60599dfaff486c4a6d835481d9",
-    "SYMPLECTIC_K_FITTING.md": "6859194fd47f5b6b986f155e2f14025e3f48ccf652e5f3a4fe9ca01b5af7827d",
-    "tools/verify_equivariant.py": "24af562b6ac1d65701a00ee45ccc3a586bec36f96350d7c77d5079d1501bf8b5",
-    "SYMPLECTIC_K_MINORS.md": "6f4f6e417638acbf862a0e944c6764d4de9894555595cfa7d56b9c1d51ce1b0e",
+    "tests/test_equivariant.py": "232b3aa9d60556d048cbb01df93165257eaea52a1265b33a0e16e37bef200bc3",
+    "CLASSICAL_EQUIVARIANT.md": "7e7fa7bb4b72e1b80f78d0e98578402fbbc9de14b387767f686b2ec3c02cffc4",
+    "SYMPLECTIC_K_FITTING.md": "a5a6058763e7c552fe1abdf949f137138a1a157fe30e38aa49aa8533886e9be2",
+    "tools/verify_equivariant.py": "6f4ae2669422cf5af59bde8d872076f122d0b2e5d5eeed7e308cf6bf2f396eb5",
+    "SYMPLECTIC_K_MINORS.md": "90f263533e94a7a01922655a0c6c210fb29182048a6256257677ef094d8c6d54",
     "tools/verify_symplectic_minors.py": "959e596e57377716ea5d71bf219fdd84ca0a2ae70eeaff3b3e371a99b6170fc6",
-    "symplectic-minors-verification.json": "03a62ae1772ba628b0d9aa93c6b97d63dfe305cdde514f8a41eb06da43aeb9f8",
-    "character-verification.json": "892c57aae93fdc8f9defe3178e66c411992d906452c50eb62f94e133dae309ba"
+    "symplectic-minors-verification.json": "84ed00b617afdcec004c3f1ab9ca2c05ec2d0d2732264ad46ff9d02e3885c447",
+    "SYMPLECTIC_K_BALANCING.md": "24118c787f543fab24d6b7021506045b4b9b5a890ee30abf7cc4030851cdda9c",
+    "tools/verify_symplectic_balancing.py": "f97ffaff97320d8f82040f3c60e712f7281c330a803df8af4b455a2e8739412f",
+    "symplectic-balancing-verification.json": "1950570b9318e950ff87b5012578e816693eb9d5a40ac14bbf48076f669d2c81",
+    "character-verification.json": "f577617558927dcaa354f1efefc19089410a57dcdd302538a1d4eda508521cec"
   }
 }

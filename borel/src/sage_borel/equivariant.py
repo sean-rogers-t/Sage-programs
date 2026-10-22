@@ -316,6 +316,7 @@ class SymplecticProjectiveKImage:
         self.image_relation = prod(self.b**2-(value**2-4) for value in self.s)
         self._matrix = None
         self._half_matrix = None
+        self._half_hankel_matrix = None
         self._half_minors = {0:(self.coefficient_ring.one(),)}
 
     def half_presentation_matrix(self):
@@ -343,6 +344,23 @@ class SymplecticProjectiveKImage:
         answer = block_diagonal_matrix(blocks)
         answer.set_immutable()
         return answer
+
+    def half_hankel_presentation_matrix(self):
+        """Integral Hankel presentation equivalent to the half block 2H.
+
+        Moments extract the u^(r-1) coefficient of 2q*u^k modulo monic p.
+        The coefficient pairing is unimodular even in characteristic two;
+        this uses no field trace or division by a discriminant.
+        """
+        if self._half_hankel_matrix is None:
+            r = self.rank//2
+            p,q = ((self.half_even,self.half_odd) if self.rank%2==0
+                   else (self.half_odd,self.half_even))
+            u = self.half_ring.gen()
+            moments = [((2*q*u**j)%p)[r-1] for j in range(max(2*r-1,0))]
+            self._half_hankel_matrix = matrix(self.coefficient_ring,r,r,lambda i,j:moments[i+j])
+            self._half_hankel_matrix.set_immutable()
+        return self._half_hankel_matrix
 
     def half_minor_generators(self, j, max_minors=10000):
         """Generate I_j(2H) using only the first j columns.
@@ -441,15 +459,16 @@ class SymplecticProjectiveKImage:
                          for j in range(1,n,2))
         if n in (5,6,7):
             return self._closed_small_block_fitting(i)
-        # I_k(H+H) is the convolution of the half-block minor ideals.
-        # A unit block in the unscaled odd-rank matrix lowers k by one.
+        # Integral Hankel balancing reduces the entire convolution to
+        # one product of equal or adjacent half-block minor ideals.
         size = n-i
         r = n//2
         degree = size-n%2
-        pairs = [(a,degree-a) for a in range(r+1) if a<=degree-a<=r]
+        a,b = degree//2,(degree+1)//2
+        pairs = [(a,b)]
         sizes = {j for pair in pairs for j in pair}
         count = sum(comb(r,j) for j in sizes if j)
-        count += sum(comb(r,a)*comb(r,b) for a,b in pairs)
+        count += comb(comb(r,a)+1,2) if a==b else comb(r,a)*comb(r,b)
         if count>_integer(max_minors,"max_minors",1):
             raise ValueError("{} half-block minor/product operations required; raise max_minors explicitly".format(count))
         ideals = {j:self.half_minor_generators(j,max_minors) for j in sizes}
@@ -458,8 +477,8 @@ class SymplecticProjectiveKImage:
         scale = 2 if n%2 else 1
         answer,seen = [],set()
         for a,b in pairs:
-            for left in ideals[a]:
-                for right in ideals[b]:
+            for index,left in enumerate(ideals[a]):
+                for right in ideals[b][index if a==b else 0:]:
                     value = scale*left*right
                     if value and value not in seen and -value not in seen:
                         answer.append(value)

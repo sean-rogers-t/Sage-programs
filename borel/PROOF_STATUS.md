@@ -86,9 +86,24 @@ Fitting generators, plus complete explicit lists through ranks five,
 six and seven. The cubic lists use a three-generator two-minor ideal
 and adj(adj(H))=det(H)H to prove the required product containments.
 There are 94 exact polynomial matrix identities and 72 independent
-original-inclusion Fitting checks. Further simplification at block size
-four (n=8,9), primary arithmetic structure and full ordinary Smith
-multiplicities remain. Priority of the specific application is not established.
+original-inclusion Fitting checks. Priority of the specific application is not established.
+
+The subsequent [Hankel balancing proof](SYMPLECTIC_K_BALANCING.md)
+settles the quartic simplification and proves the stronger arbitrary-rank
+formula Fitt_i(C)=2^(n-i) I_floor(ell/2)(H) I_ceil(ell/2)(H),
+ell=n-i-(n mod 2). A unimodular coefficient pairing makes every monic
+multiplication matrix Hankel. Published generic Hankel product and monic
+Groebner results (Le Dinh Nam, Theorem 3.25 and Corollary 3.26, c=1,
+building on Conca) give rational containment; division by monic integer
+generators proves the integral lift. This is not the false assertion
+that generic unstructured matrix ideals balance in characteristic two.
+There are 70 exact universal quartic Z identities, 68 original-inclusion
+checks for the complete n=8,9 lists and polynomial-fiber tests in
+characteristics two and three. The all-rank quantifier rests on the cited
+theorems and the written lift, not on finite cases. Arithmetic primary
+structure after moment substitution, minimal larger-block generators
+and full ordinary Smith multiplicities remain; generic primary
+decompositions have not been carried through arbitrary specialization.
 
 ## Other cohomology theories and affine groups: 22 October exploration
 

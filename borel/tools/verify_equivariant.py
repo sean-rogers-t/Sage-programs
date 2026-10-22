@@ -92,6 +92,11 @@ def main():
     assert minors["original_inclusion_closed_ideal_checks"]==72
     for name,expected in minors["source_sha256"].items():
         assert digest(ROOT/name)==expected,name
+    balancing = json.loads((ROOT/"symplectic-balancing-verification.json").read_text())
+    assert balancing["result"]=="passed" and balancing["quartic"]["identity_count"]==70
+    assert balancing["original_inclusion_checks"]==68
+    for name,expected in balancing["source_sha256"].items():
+        assert digest(ROOT/name)==expected,name
     doubling_ranks = [verify_doubling(n) for n in range(1,9)]
     rank_four_ideals = verify_rank_four_minor_ideals()
 
@@ -131,10 +136,12 @@ def main():
         "SYMPLECTIC_K_FITTING.md","tools/verify_equivariant.py",
         "SYMPLECTIC_K_MINORS.md","tools/verify_symplectic_minors.py",
         "symplectic-minors-verification.json",
+        "SYMPLECTIC_K_BALANCING.md","tools/verify_symplectic_balancing.py",
+        "symplectic-balancing-verification.json",
         "character-verification.json",
     ]
     report = dict(
-        result="passed",new_test_methods=15,
+        result="passed",new_test_methods=16,
         full_regression_methods=regression["test_methods_run"],
         type_A=dict(group="SL10",parabolic="P1",root_rank=9,fixed_points=10,
                     theory="K",exact_restriction_roundtrip=True,seconds=round(type_a_seconds,4)),
@@ -147,7 +154,10 @@ def main():
         initial_column_minor_theorem=dict(symbolic_identities=minors["full_minor_identities"],
             original_inclusion_checks=minors["original_inclusion_closed_ideal_checks"],
             literature_input="Integral Schur cyclicity of exterior powers; Laksov-Thorup and Gatto-Santiago"),
-        proof_scope="Written all-rank doubled half-size presentation and initial-column/Schur-content generators for all Fitting ideals; complete closed ideal lists through rank seven. Global cyclic decompositions only in ranks 1-3; larger-block simplification and full ordinary Smith multiplicities remain.",
+        hankel_balancing=dict(universal_quartic_integer_identities=70,
+            original_inclusion_checks=68,all_rank_integral_proof=True,
+            literature_input="Published generic Hankel product/monic Groebner theorems; coefficient-pairing equivalence and integral lift"),
+        proof_scope="All-rank doubled half-size presentation, initial-column/Schur generators and a single balanced product for every Fitting ideal; explicit lists through rank nine. Global cyclic decompositions only in ranks 1-3; specialized primary structure and full ordinary Smith multiplicities remain.",
         API_scope="Type A all-parabolic input evaluation and literal integrality; automatic complete source generators only on full flags and P1. Type C projective integral image/cokernel.",
         source_sha256={name:digest(ROOT/name) for name in paths},
     )

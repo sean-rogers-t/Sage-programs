@@ -183,12 +183,14 @@ evaluation in H/K with literal integrality checks, complete source
 generators on full flags and P1, and the type C projective image/cokernel.
 The latter now has a proved all-rank doubled half-size presentation,
 an extra R/(2) summand in odd rank, a top Fitting parity formula,
-complete closed Fitting ideals through rank seven and global cyclic
+complete closed Fitting ideals through rank nine and global cyclic
 decompositions in ranks one to three.
 Integral Schur cyclicity now gives uniform partition-indexed generators
-for every C ideal using initial-column minors. Further simplification
-and primary arithmetic at block size four (n=8,9), closed ordinary
-Smith multiplicities and full type A image modules remain targets.
+for every C ideal using initial-column minors. Integral Hankel balancing
+now reduces each entire convolution to a single product of equal or
+adjacent half-block ideals, in every rank and including at two.
+Primary arithmetic after moment substitution, closed ordinary Smith
+multiplicities and full type A image modules remain targets.
 
 The user's subsequent choice is to prioritize uniform classical-series
 statements. This replaces the exceptional-first sequencing below; the
@@ -206,7 +208,7 @@ changing to SO is an explicit isogeny comparison, not a silent convention.
 | Family | Established starting point here | Next target, not yet asserted |
 | --- | --- | --- |
 | A_(m-1) | Defining ordinary/oriented all-parabolic comparison; rational equivariant K isomorphism for the defining representation and a complete tensor-power family | Actual integral equivariant source image, higher Fitting ideals and specialization for Grassmannians, then general partial flags |
-| C_n | Complete integral projective source/kernel; doubled floor(n/2) cokernel blocks with an extra R/(2) for odd n; uniform Schur-content/initial-column generators for all Fitting ideals; complete closed lists through rank seven | Simplification and primary structure of quartic blocks at n=8,9, complete ordinary Smith multiplicities, then larger isotropic Grassmannians |
+| C_n | Complete integral projective source/kernel; doubled floor(n/2) cokernel blocks with an extra R/(2) for odd n; every Fitting ideal is one balanced product of Schur/initial-column ideals; complete closed lists through rank nine | Primary structure after moment substitution, complete ordinary Smith multiplicities, then larger isotropic Grassmannians |
 | B_n | General rational determinant theorem and earlier ordinary Borel-image calculations | Integral vector-source image on the odd quadric Spin_(2n+1)/P1, then isotropic Grassmannians |
 | D_n | General rational determinant theorem and earlier ordinary Borel-image calculations | Integral vector-source image on the even quadric Spin_(2n)/P1, retaining both middle Schubert classes, then isotropic Grassmannians |
 

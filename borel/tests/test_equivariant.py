@@ -226,7 +226,7 @@ class SymplecticChecks(unittest.TestCase):
             c.half_minor_generators(2,max_minors=2)
         self.assertIsNone(c._matrix)
         # Exercise the general even/odd convolution beyond the closed ranks.
-        for n,i,guard in ((8,6,32),(9,7,8)):
+        for n,i,guard in ((8,6,14),(9,7,8)):
             c = symplectic_projective_k_image(n,spectral=True)
             generators = c.fitting_generators(i,max_minors=guard)
             evaluated = [sum(int(coefficient)*2**sum(exponent) for exponent,coefficient in f.dict().items())
@@ -234,6 +234,25 @@ class SymplecticChecks(unittest.TestCase):
             factors = original_projective_matrix([2]*n).elementary_divisors()[n:]
             self.assertEqual(abs(gcd(evaluated)),abs(prod(factors[:n-i])))
             self.assertIsNone(c._matrix)
+
+    def test_integral_hankel_presentation(self):
+        for n in range(1,8):
+            c = symplectic_projective_k_image(n,spectral=True)
+            r = n//2
+            u = c.half_ring.gen()
+            p = c.half_even if n%2==0 else c.half_odd
+            T = matrix(c.coefficient_ring,r,r,lambda i,j:((u**(i+j))%p)[r-1])
+            H = c.half_hankel_presentation_matrix()
+            self.assertEqual(T*c.half_presentation_matrix(),H)
+            self.assertTrue(H.is_symmetric())
+            self.assertTrue(H.is_immutable())
+            self.assertEqual(T.det(),(-1)**(r*(r-1)//2))
+            for i in range(r-1):
+                for j in range(1,r):
+                    self.assertEqual(H[i,j],H[i+1,j-1])
+        c = symplectic_projective_k_image(8,spectral=True)
+        with self.assertRaises(ValueError):
+            c.fitting_generators(6,max_minors=13)
 
     def test_rank_five_and_cubic_closed_formulas(self):
         c = symplectic_projective_k_image(5,spectral=True)

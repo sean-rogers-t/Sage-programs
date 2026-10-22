@@ -332,8 +332,10 @@ It proves that the minors using only the first j columns generate the
 entire ideal I_j(H), over every coefficient ring. Integral Schur cyclicity
 is the published input. Consequently all Fitting ideals have uniform
 partition-indexed Schur-content generators, and explicit closed lists
-are now proved through n=7. The first larger block size is four, at
-n=8,9. Further generator simplification, arithmetic primary structure,
+were first proved through n=7. The subsequent [Hankel balancing theorem](SYMPLECTIC_K_BALANCING.md)
+collapses the convolution to one product in every rank and gives explicit
+quartic lists for n=8,9, including at two. Further generator simplification,
+primary structure after moment substitution,
 complete ordinary Smith multiplicities and larger isotropic flags
 remain unresolved here. The initial-column formula is exact; it is not
 a claim that every resulting list is minimal.

@@ -155,6 +155,11 @@ c6 = symplectic_projective_k_image(6, spectral=True)
 assert len(c6.half_minor_generators(2, max_minors=3)) == 3
 assert len(c6.fitting_generators(2, max_minors=1)) == 6
 assert c6._matrix is None
+assert c6.half_hankel_presentation_matrix().is_symmetric()
+
+c8 = symplectic_projective_k_image(8, spectral=True)
+# Balancing needs four entry generators and ten unordered products.
+assert len(c8.fitting_generators(6, max_minors=14)) == 10
 ```
 
 The default coefficient ring is the actual torus ring Z[t_i^+-1].
@@ -179,9 +184,10 @@ decomposition, not a splitting compatible with the source coordinate b.
 | --- | --- |
 | presentation_matrix() | Original reduced rank-n multiplication presentation |
 | half_presentation_matrix() | Single r-by-r block 2H, occurring twice |
+| half_hankel_presentation_matrix() | Integrally equivalent r-by-r Hankel block from the coefficient pairing |
 | block_presentation_matrix() | Equivalent rank-n block diagonal matrix, with optional scalar 2 |
 | half_minor_generators(j) | Exact ideal I_j(2H), using only the first j columns |
-| fitting_generators(i) | Exact ideal generators; closed through rank seven, compressed half-block minors otherwise |
+| fitting_generators(i) | Exact ideal generators; one balanced product of compressed half-block minor ideals |
 | ordinary_smith_factors() | Full integer inclusion factors after augmentation, including n units |
 
 For rank four put F=product_(i<j)(s_i+s_j), J=(e1(s),e3(s)).
@@ -197,18 +203,29 @@ In every rank, integral Schur cyclicity proves that only the first j
 columns of the half block are needed for its size-j minor ideal.
 Thus half_minor_generators(j) computes binomial(floor(n/2),j) determinants
 instead of its square. The general fallback convolves these compressed
-ideals. The max_minors guard bounds the required initial-column
+ideals. The subsequent [integral Hankel proof](SYMPLECTIC_K_BALANCING.md)
+reduces the full convolution to one product in every rank. If k=n-i,
+epsilon=n mod 2 and ell=k-epsilon, the ideal is
+2^k I_floor(ell/2)(H) I_ceil(ell/2)(H). A coefficient pairing makes H
+integrally equivalent to a Hankel matrix; published Hankel product
+theorems and a monic integer lift prove the balancing, including at two.
+The API enumerates unordered generator products for squares.
+The max_minors guard bounds the required initial-column
 minor and generator-product operations; it is conservative
 and is not a count of distinct final generators.
 
 These are Fitting ideals over a multivariable ring, not a global
 Smith diagonalization. Global cyclic decompositions are proved only
 for n<=3; cyclic_cokernel_factors() raises NotImplementedError for n>3.
-The all-rank generators are also the Schur coordinates of a product
+Explicit closed ideal lists now extend through n=9, with six polynomial
+generators for the quartic two-minor ideal and four for its three-minor
+ideal, displayed in the Hankel proof. The all-rank generators are also the Schur coordinates of a product
 of q at the roots of a universal factor of p, as proved in the companion
-note. They need not be a minimal family. A further simplification and
-arithmetic classification for larger blocks, beginning with n=8,9,
-remain open here; the fallback returns exact, possibly redundant generators.
+note. They need not be a minimal family. Further minimal-generator and
+specialized primary arithmetic classifications remain open; the fallback
+returns exact, possibly redundant generators. Generic Hankel primary
+decompositions are not automatically primary decompositions after moment
+substitution. Large spectral-polynomial expansions may still be costly.
 
 ordinary_smith_factors() augments before constructing the half-size
 integer matrix. It duplicates that block's factors and adds a single
@@ -231,6 +248,9 @@ five and six, symbolic determinants and torus base change also agree.
 The new verifier supplies 94 explicit integral Schur matrix identities,
 72 original-inclusion checks of all rank-five/six/seven Fitting formulas,
 and integer and finite-field checks including characteristic two.
+The Hankel verifier supplies 70 universal quartic integer polynomial
+identities, 68 original-inclusion checks of every rank-eight/nine ideal,
+and polynomial-fiber checks over characteristics two and three.
 
 The proof note supplies the uniform mathematical argument; finite
 matrix checks are corroboration. Full integral type A image modules,

@@ -295,10 +295,12 @@ The original production program files are retained.
 
 What is now resolved is a uniform integral Schur-coordinate generator
 formula in every rank, plus explicit closed ideal lists through n=7.
-What remains is a further simplification/classification of those
-generators for larger blocks, their arithmetic primary structure and
-closed ordinary Smith multiplicities. The first new block size is
-four, occurring at n=8,9. Larger isotropic Grassmannians and B/D quadric
+The subsequent [integral Hankel theorem](SYMPLECTIC_K_BALANCING.md)
+simplifies the convolution to one balanced product in every rank and
+gives complete explicit quartic lists for n=8,9. What remains is a
+minimal or simpler generator classification for larger blocks,
+primary structure after the moment substitution and closed ordinary
+Smith multiplicities. Larger isotropic Grassmannians and B/D quadric
 backends remain separate projects.
 
 The literature distinction is substantive: integral Schur cyclicity,
