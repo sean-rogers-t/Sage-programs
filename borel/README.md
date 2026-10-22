@@ -13,6 +13,7 @@ the mathematical guide for the Borel/Springer construction.
 | Question | Guide |
 | --- | --- |
 | What general results do we have, and which structural questions remain? | [Research ledger: results, partial results, counterexamples and open problems](RESEARCH_LEDGER.md) |
+| What comes after the complete E6/E7 relative classification? | [Prioritized next milestones, proposed API and structural proof targets](../articles/research-program-proposal/README.md#next-milestones-after-the-e7-completion) |
 | What mathematical map does each method compute? | [Methods and worked examples](METHODS.md) |
 | Why do the Borel, BGG, Chevalley and coinvariant methods work? | [Mathematical framework and conventions](MATHEMATICS.md) |
 | How do I multiply Schubert classes or lift them to polynomials? | [Schubert multiplication and inverse Borel calculations](SCHUBERT_CALCULUS.md) |

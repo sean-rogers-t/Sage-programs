@@ -205,8 +205,11 @@ substitutes for a uniform theorem.
 These are questions for the program. A fresh literature check is required
 before presenting any as an unsolved problem in the wider literature.
 The E6/E7 relative comparison benchmarks in OPEN-05 are complete.
-Structural explanations and general source/image methods in OPEN-02/09/13
-are now natural next targets; OPEN-14 remains a bounded exploratory
+The [post-completion roadmap](../articles/research-program-proposal/README.md#next-milestones-after-the-e7-completion)
+prioritizes a compressed relative-comparison API, then a structural
+mod-two image/lifting theorem in OPEN-02/09 and the folding test in
+OPEN-13. An absolute E7/P1 benchmark follows an inventory of the existing
+minuscule embedded-image tables. OPEN-14 remains a bounded exploratory
 project. OPEN-01 remains
 the principal separate geometric direction. Row order is not a priority
 ranking, and partial progress below does not close an entire question.

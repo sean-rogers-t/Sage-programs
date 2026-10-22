@@ -4,6 +4,9 @@ This is a repository of functions I used to explicitly compute the Borel Morphis
 The [research ledger](borel/RESEARCH_LEDGER.md) tracks uniform results, exact
 cases, partial arguments, counterexamples and open questions. The priority
 is generalizable mathematics, with case calculations supporting that goal.
+The [next milestones](articles/research-program-proposal/README.md#next-milestones-after-the-e7-completion)
+prioritize packaging the complete relative formulas, explaining their
+structure, and then extending the absolute and equivariant image results.
 
 The new [sage-borel library](borel/README.md) packages the corrected calculations,
 supports arbitrary parabolics and finite Lie types, and avoids full Weyl-group
