@@ -289,7 +289,11 @@ degree 10; the new kernel can add constant-sector relations in degree 11.
 Quadratic splitting does not assert that this older three-relation
 presentation holds unchanged.
 
-**Next target:** determine the degree-12 correction module and its Levi
+The degree-by-degree continuation is now deferred in favor of the
+[general root-data question](CENTRAL_PARITY_KERNEL.md), which has an
+all-rank type C theorem and an actual Spin7 counterexample.
+
+**Deferred E7 target:** determine the degree-12 correction module and its Levi
 invariant behavior. The full-flag saturation index valuation is eight
 there, so the rank-one lemma alone does not cover it. An invariant-compatible
 description of the new relations is required before extending the proof

@@ -120,6 +120,10 @@
       "python_blocks_executed": 0
     },
     {
+      "file": "CENTRAL_PARITY_KERNEL.md",
+      "python_blocks_executed": 0
+    },
+    {
       "file": "MATHEMATICS.md",
       "python_blocks_executed": 0
     },
@@ -392,7 +396,7 @@
       "python_blocks_executed": 0
     }
   ],
-  "local_links_and_anchors_checked": 1322,
+  "local_links_and_anchors_checked": 1333,
   "python_blocks_executed": 48,
   "scope": "Python fences executed in reading order in a fresh namespace per document; local links and anchors checked. Shell snippets and external URLs were not automatically executed or crawled."
 }

@@ -28,6 +28,7 @@ the mathematical guide for the Borel/Springer construction.
 | What about the other E7 parabolics? | [Complete theorem for all 127 proper E7 parabolics](E7_ALL_PARABOLICS.md), including [D5+A1](E7_D5_A1_COMPARISON.md), [D4+A1](E7_D4_A1_COMPARISON.md) and the [uniform even-block formula](E7_A5_FAMILY.md) |
 | What could explain the E7 multiplicities structurally? | [Quadratic-derivation criterion, bounded 112-case proof and arbitrary-rank type A model](E7_QUADRATIC_DERIVATION.md) |
 | Does the first integral E7 half-sum respect Levi invariants? | [Degree-eleven lifting theorem for all 112 cases and cubic nonlifting obstructions](E7_DEGREE11_LIFTING.md) |
+| When does central parity preserve an entire integral Borel kernel? | [Sufficient integral hypotheses, all-rank type C theorem and Spin7 counterexample](CENTRAL_PARITY_KERNEL.md) |
 | How do I query all E7 relative Smith factors and compare representations? | [Compressed all-parabolic API, source scaling and minimal/adjoint comparisons](E7_RELATIVE_IMAGE_API.md) |
 | Can I query all E6 relative factors, including 9 and 27? | [All 63 parabolics, representation comparisons and shared-prime scaling](E6_RELATIVE_IMAGE_API.md) |
 | What is the complete literal G2 full-flag image? | [Integral kernel, all Smith factors, API and independent Chevalley audit](G2_FULL_FLAG.md) |

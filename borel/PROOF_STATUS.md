@@ -31,6 +31,33 @@ The conclusions below are based on the displayed arguments and checked
 source statements. External expert review and any claim of priority remain
 separate work.
 
+## General central-parity kernels: positive families and counterexample
+
+The [general kernel note](CENTRAL_PARITY_KERNEL.md) proves a sufficient
+criterion using a torsion-free integral Borel presentation, a free actual
+Levi source decomposition containing 1, and compatibility of the source
+generators and relations with differentiation modulo two. This is a
+sufficient criterion, not a necessary-and-sufficient root-data classification.
+
+For the actual Cartesian weight lattice of Sp_(2n), symmetric-square
+relations and ordinary/signed Artin bases prove the criterion for every
+rank and every standard parabolic, in every degree. An odd-block type A
+application works for SL_(2r) with arbitrary r, extending the scope of
+kernel stability beyond the earlier odd-r quadratic-image theorem. The
+kernel assertions alone do not extend the root-image Smith formula.
+The positive proofs are elementary deductions from published integral
+presentations, not novelty claims.
+
+The naive index-two/fixed-odd-weight hypothesis fails on Spin7/B in degree
+four. An explicit quartic is in the actual integral kernel, but its
+derivative is outside the reduced primitive cubic kernel. A fresh
+integer BGG calculation and an independent polynomial identity/monic
+division proof establish the counterexample. Ambient mod-two cohomology
+would miss it. No unit quadratic lift is available in this example.
+
+This general question takes priority over further degree-by-degree E7
+structural checks. The existing all-degree E7 image theorem is unchanged.
+
 ## Structural E7 multiplicities: scope of the new argument
 
 The [quadratic-derivation note](E7_QUADRATIC_DERIVATION.md) isolates a

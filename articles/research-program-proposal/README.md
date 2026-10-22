@@ -197,9 +197,18 @@ a rank-one saturation lemma handles the first integral half-sum without
 assuming modular invariants lift. The structural criterion reaches degree
 11 for all 112 cases and 13 for the 108 good-Levi cases. On the four
 exceptional Levis, a cubic nonlifting obstruction excludes this half-sum
-coset from the invariant kernel. Next isolate the degree-12 corrections
-after quotienting out linear multiples of the degree-11 relation, and
-prove their invariant-compatible derivative identities.
+coset from the invariant kernel. Further degree-by-degree E7 checks are
+on hold in favor of the general root-data question.
+
+The [general central-parity note](../../borel/CENTRAL_PARITY_KERNEL.md)
+now gives an integral presentation/cofree-source criterion, an all-rank
+all-parabolic type C theorem, and a Spin7/B counterexample in degree four.
+Thus index two and a fixed odd weight alone are insufficient: the actual
+character lattice and integral saturation matter. The odd-block type A
+kernel theorem also works for all SL_(2r), without the older odd-r
+restriction needed for the quadratic image formula. Next test whether
+a stable root complement plus a unit quadratic lift suffices on actual
+root data, or identify an additional necessary saturation hypothesis.
 
 ### 2. Replace the case tables with a structural mechanism
 
