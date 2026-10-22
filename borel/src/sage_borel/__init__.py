@@ -6,6 +6,8 @@ historical scripts elsewhere in this repository are not imported or changed.
 
 from .core import BorelMap
 from .expansion import Expansion
+from .equivariant import (EquivariantExpansion, TypeAEquivariantMap, type_a_equivariant,
+                          SymplecticProjectiveKImage, symplectic_projective_k_image)
 from .classical import classical_borel, to_type_a
 from .algebra import DegreeAnalysis, GeneratorAlgebra
 from .integral import IntegralDegreeAnalysis
@@ -38,6 +40,8 @@ from .exceptional import (ExceptionalBorel, GeneratorInfo, exceptional_borel, ex
 
 __version__ = "0.22.0"
 __all__ = ["BorelMap", "Expansion", "classical_borel", "to_type_a",
+           "EquivariantExpansion", "TypeAEquivariantMap", "type_a_equivariant",
+           "SymplecticProjectiveKImage", "symplectic_projective_k_image",
            "ExceptionalBorel", "GeneratorInfo", "exceptional_borel",
            "exceptional_generators", "exceptional_polynomial", "exceptional_image",
            "exceptional_algebra",

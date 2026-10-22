@@ -8,6 +8,14 @@
       "python_blocks_executed": 0
     },
     {
+      "file": "../articles/README.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "../articles/classical-equivariant-exposition/README.md",
+      "python_blocks_executed": 0
+    },
+    {
       "file": "../articles/research-program-proposal/README.md",
       "python_blocks_executed": 0
     },
@@ -21,6 +29,18 @@
     },
     {
       "file": "AGENTS.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "CLASSICAL_EQUIVARIANT.md",
+      "python_blocks_executed": 2
+    },
+    {
+      "file": "SYMPLECTIC_K_FITTING.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "SYMPLECTIC_K_MINORS.md",
       "python_blocks_executed": 0
     },
     {
@@ -448,7 +468,7 @@
       "python_blocks_executed": 0
     }
   ],
-  "local_links_and_anchors_checked": 1481,
-  "python_blocks_executed": 48,
+  "local_links_and_anchors_checked": 1541,
+  "python_blocks_executed": 50,
   "scope": "Python fences executed in reading order in a fresh namespace per document; local links and anchors checked. Shell snippets and external URLs were not automatically executed or crawled."
 }

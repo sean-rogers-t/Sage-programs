@@ -16,8 +16,12 @@ from sage.env import SAGE_VERSION
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DOCUMENTS = ("../README.md", "../articles/research-program-proposal/README.md",
+DOCUMENTS = ("../README.md", "../articles/README.md",
+             "../articles/classical-equivariant-exposition/README.md",
+             "../articles/research-program-proposal/README.md",
              "README.md", "RESEARCH_LEDGER.md", "AGENTS.md",
+             "CLASSICAL_EQUIVARIANT.md", "SYMPLECTIC_K_FITTING.md",
+             "SYMPLECTIC_K_MINORS.md",
              "LOCAL_IMAGE_BOUND.md", "EQUIVARIANT_IMAGE_PILOT.md", "LOCAL_IMAGE_AUDIT.md",
              "E6_ROOT_WEIGHT_COMPARISON.md", "E6_ROOT_WEIGHT_AUDIT.md",
              "E6_REMAINING_CASES.md", "E6_REMAINING_AUDIT.md", "E6_REMAINING_TABLES.md", "E6_RELATIVE_IMAGE_API.md",

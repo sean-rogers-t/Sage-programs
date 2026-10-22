@@ -4,8 +4,11 @@
 the requested exploration of other cohomology theories and affine groups.
 The linked notes contain statements, proofs, sources and exact checks.
 They are working research deductions, not external peer review or claims
-of originality. The full-paper project remains on hold. No production API
-or release version is changed by these research prototypes.
+of originality. The full-paper project remains on hold. The original
+exploration changed no production API. The subsequent
+[classical equivariant backend](CLASSICAL_EQUIVARIANT.md) now implements
+the first H/K maps and a [symplectic cokernel reduction](SYMPLECTIC_K_FITTING.md);
+it does not make every proposed extension a completed backend.
 
 ## 1. What we are extending
 
@@ -169,6 +172,82 @@ their missing affine-flag source/descent is stated explicitly.
 
 ## 5. Recommended program and API path
 
+For a self-contained introduction to the geometry, notation, integral
+results and these new targets, see the
+[classical expository paper](../articles/classical-equivariant-exposition/README.md).
+
+### Current focus: equivariant images in the classical A-D families
+
+The first implementation is available: all-parabolic type A input
+evaluation in H/K with literal integrality checks, complete source
+generators on full flags and P1, and the type C projective image/cokernel.
+The latter now has a proved all-rank doubled half-size presentation,
+an extra R/(2) summand in odd rank, a top Fitting parity formula,
+complete closed Fitting ideals through rank seven and global cyclic
+decompositions in ranks one to three.
+Integral Schur cyclicity now gives uniform partition-indexed generators
+for every C ideal using initial-column minors. Further simplification
+and primary arithmetic at block size four (n=8,9), closed ordinary
+Smith multiplicities and full type A image modules remain targets.
+
+The user's subsequent choice is to prioritize uniform classical-series
+statements. This replaces the exceptional-first sequencing below; the
+exceptional, quantum and affine directions remain in the inventory.
+The Spin central-parity classification remains shelved.
+
+Fix the defining/vector representation first, with its normalized trace
+Springer map and literal source A_(rho,L)=Sym_Z(Lambda_rho)^(W_L).
+Use SL_m in type A, Sp_(2n) in type C, and Spin_(2n+1), Spin_(2n) in
+types B and D. The latter vector representations factor through SO and
+have faithful differential, rather than being faithful representations
+of Spin. Keep the full Spin character lattice in the coefficient ring;
+changing to SO is an explicit isogeny comparison, not a silent convention.
+
+| Family | Established starting point here | Next target, not yet asserted |
+| --- | --- | --- |
+| A_(m-1) | Defining ordinary/oriented all-parabolic comparison; rational equivariant K isomorphism for the defining representation and a complete tensor-power family | Actual integral equivariant source image, higher Fitting ideals and specialization for Grassmannians, then general partial flags |
+| C_n | Complete integral projective source/kernel; doubled floor(n/2) cokernel blocks with an extra R/(2) for odd n; uniform Schur-content/initial-column generators for all Fitting ideals; complete closed lists through rank seven | Simplification and primary structure of quartic blocks at n=8,9, complete ordinary Smith multiplicities, then larger isotropic Grassmannians |
+| B_n | General rational determinant theorem and earlier ordinary Borel-image calculations | Integral vector-source image on the odd quadric Spin_(2n+1)/P1, then isotropic Grassmannians |
+| D_n | General rational determinant theorem and earlier ordinary Borel-image calculations | Integral vector-source image on the even quadric Spin_(2n)/P1, retaining both middle Schubert classes, then isotropic Grassmannians |
+
+For equivariant ordinary cohomology, study the coefficient-span image
+J_(rho,T)^H=S_Z beta_T^P(A_(rho,L)), with
+S_Z=Sym_Z(X(T)), whenever the specified integral characteristic lift
+has been established. For equivariant K-theory the unambiguous literal
+character construction is
+
+\[
+ J_{\rho,T}^{K,P}
+ =R(T)\,\kappa_T^P(\theta_\rho^*A_{\rho,L})
+ \ \subset K_T^0(G/P).
+\]
+
+The common goal is a uniform presentation of this embedded image and
+its cokernel, including higher Fitting ideals and the kernel of
+augmentation to the ordinary image. The rational deformed source and
+zeroth determinant are already proved; recomputing those alone is not
+the next milestone. A multivariable coefficient ring does not in general
+admit Smith normal form. Integer Smith factors belong to the specialized
+finite lattice calculation; DVR Smith factors require a specified prime.
+
+Implementation order: (1) package the defining type A equivariant map
+with its integral source and independent restrictions/Schubert checks;
+(2) add the already-proved symplectic projective model and attack its
+higher Fitting ideals; (3) construct B/D quadric targets with the full
+Schubert or spinor-bundle information; (4) extend to isotropic
+Grassmannians and arbitrary partial flags. Type D maximal isotropic
+components must be specified separately. Tensor and exterior powers,
+adjoint and spin representations are later comparison inputs, not
+assumed to have the defining representation's image.
+
+Completion of the first stage means a documented classical equivariant
+API returning source lattice, coefficient ring, image presentation,
+cokernel/Fitting data and augmentation map, with independent exact
+checks. Neither a production backend nor a uniform B/D equivariant
+integral-image theorem is claimed by this roadmap update.
+
+### Broader exploration inventory and earlier sequencing
+
 1. **Package primitive character data and a K/CK image backend.** Start
    with the completed SL3 formulas and G2 source/image cases. Return
    source lattice, normalization, actual K matrix, support filtration,
@@ -198,7 +277,7 @@ their missing affine-flag source/descent is stated explicitly.
    Existing generalized Kac--Moody Schubert theories are starting inputs,
    not missing theories for us to invent.
 
-The next implementation should be item 1. It adds a genuinely different
-target calculation while building on the existing programs. The Spin
-classification and the full-paper project remain paused in the research
-sense; their files and unresolved questions are preserved.
+The current classical sequence above takes precedence over this earlier
+broader ordering. The Spin classification and the full-paper project
+remain paused in the research sense; their files and unresolved questions
+are preserved.

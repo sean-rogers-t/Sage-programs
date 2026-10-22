@@ -7,6 +7,13 @@ not a published erratum and do not modify the source articles.
 
 ## Research program proposal
 
+The [classical expository paper](classical-equivariant-exposition/README.md)
+develops the Bruhat and representation-ring background, the published
+Springer-Borel maps, the normalized integral A-D results, and the
+equivariant cohomology/K-theory extension program. It includes a
+twelve-page PDF, editable LaTeX and checked examples, with published
+inputs, repository deductions and proposed work distinguished.
+
 The [research proposal and progress inventory](research-program-proposal/README.md)
 connects the source papers and completed work to four core research aims:
 integral images, generic degrees, regularity and geometric Smith filtrations.

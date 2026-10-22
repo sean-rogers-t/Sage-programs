@@ -29,6 +29,7 @@ def main():
         shutil.copyfile(ROOT/'tests/test_relative_images.py', tests/'test_relative_images.py')
         shutil.copyfile(ROOT/'tests/test_e6_relative_images.py', tests/'test_e6_relative_images.py')
         shutil.copyfile(ROOT/'tests/test_g2_full_flag.py', tests/'test_g2_full_flag.py')
+        shutil.copyfile(ROOT/'tests/test_equivariant.py', tests/'test_equivariant.py')
         (tests/'data').mkdir()
         shutil.copyfile(ROOT/'tests/data/e7_relative_audited_bases.json',
                         tests/'data/e7_relative_audited_bases.json')

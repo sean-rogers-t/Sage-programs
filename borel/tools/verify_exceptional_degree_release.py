@@ -13,7 +13,7 @@ ROOT=Path(__file__).resolve().parents[1]
 
 def digest(path):
     raw=path.read_bytes()
-    return sha256(raw if path.suffix=='.gz' else raw.replace(b'\r\n',b'\n')).hexdigest()
+    return sha256(raw if path.suffix in ('.gz','.pdf') else raw.replace(b'\r\n',b'\n')).hexdigest()
 
 
 def read(name):
@@ -30,12 +30,36 @@ def main():
     regression=read('character-verification.json')
     docs=read('documentation-verification.json')
     other=read('other-theories-verification.json')
+    classical_equivariant=read('equivariant-verification.json')
+    assert classical_equivariant['full_regression_methods']==regression['test_methods_run']
+    assert classical_equivariant['symbolic_rank_three_unimodular_reduction']
+    assert classical_equivariant['symbolic_doubling_unimodular_certificates']==list(range(1,9))
+    assert classical_equivariant['symbolic_rank_four_minor_ideal_certificates']
+    assert classical_equivariant['initial_column_minor_theorem']['symbolic_identities']==94
+    assert classical_equivariant['initial_column_minor_theorem']['original_inclusion_checks']==72
+    assert classical_equivariant['type_A']['fixed_points']==10
+    assert classical_equivariant['type_C']['index_exponent']==153
+    assert classical_equivariant['type_C']['symbolic_matrix_avoided']
+    for name,expected in classical_equivariant['source_sha256'].items():
+        assert digest(ROOT/name)==expected,name
     assert other['reports_checked']==13 and other['proof_notes_and_program']==10
     assert other['symbolic_all_parameter_SL3_integral_block_reductions']
     for name,expected in other['source_sha256'].items():
         assert digest(ROOT/name)==expected,name
     other_notes={name for name in other['source_sha256'] if name.startswith('OTHER_THEORIES_') and name.endswith('.md')}
     assert other_notes <= {r['file'] for r in docs['documents']}
+    exposition_prefix='../articles/classical-equivariant-exposition/'
+    exposition=read(exposition_prefix+'verification.json')
+    exposition_examples=read(exposition_prefix+'examples-verification.json')
+    assert exposition['pages']==12 and exposition['numbered_equations']==43
+    assert exposition['page_layout']=='SinglePage' and exposition['manuscript_pages_per_pdf_page']==1
+    assert exposition['bibliography_items']==13 and exposition['characters_outside_page']==0
+    assert exposition['overfull_boxes_or_undefined_references']==0
+    assert len(exposition_examples['cases'])==6
+    assert digest(ROOT/(exposition_prefix+'main.tex'))==exposition['source_sha256']==exposition_examples['tex_sha256']
+    assert digest(ROOT/(exposition_prefix+'verify_examples.py'))==exposition_examples['source_sha256']
+    assert digest(ROOT/(exposition_prefix+'output/pdf/Classical_Springer_Borel_equivariant_exposition.pdf'))==exposition['pdf_sha256']
+    assert exposition_prefix+'README.md' in {r['file'] for r in docs['documents']}
     assert {'E6_RELATIVE_IMAGE_API.md','G2_FULL_FLAG.md','E7_QUADRATIC_DERIVATION.md','E7_DEGREE11_LIFTING.md','CENTRAL_PARITY_KERNEL.md','SPIN_PARITY_EXTENSION.md','SPIN_PARITY_RECURSION.md','SPIN_PARITY_BOUNDARY.md'} <= {r['file'] for r in docs['documents']}
     wheel=read('geometry-wheel-verification.json')
     relative_api=read('relative-image-verification.json')
@@ -436,7 +460,20 @@ def main():
         'experiments/e7_adjoint_shifted_fiber.py',
         'experiments/e7_adjoint_tower_fiber.py',
         'experiments/e6_matrix_oracle.py','experiments/e7_matrix_oracle.py',
-        'README.md','../README.md','E6_GEOMETRY.md','E7_GEOMETRY.md',
+        'README.md','../README.md','../articles/README.md',
+        'CLASSICAL_EQUIVARIANT.md','SYMPLECTIC_K_FITTING.md',
+        'SYMPLECTIC_K_MINORS.md','symplectic-minors-verification.json',
+        'tools/verify_symplectic_minors.py',
+        'equivariant-verification.json','tools/verify_equivariant.py',
+        'tests/test_equivariant.py',
+        '../articles/classical-equivariant-exposition/README.md',
+        '../articles/classical-equivariant-exposition/main.tex',
+        '../articles/classical-equivariant-exposition/verify_pdf.py',
+        '../articles/classical-equivariant-exposition/verify_examples.py',
+        '../articles/classical-equivariant-exposition/verification.json',
+        '../articles/classical-equivariant-exposition/examples-verification.json',
+        '../articles/classical-equivariant-exposition/output/pdf/Classical_Springer_Borel_equivariant_exposition.pdf',
+        'E6_GEOMETRY.md','E7_GEOMETRY.md',
         'RESEARCH_LEDGER.md','AGENTS.md',
         'LOCAL_IMAGE_BOUND.md','EQUIVARIANT_IMAGE_PILOT.md','LOCAL_IMAGE_AUDIT.md',
         'E6_ROOT_WEIGHT_COMPARISON.md','E6_ROOT_WEIGHT_AUDIT.md',
@@ -620,8 +657,9 @@ def main():
         other_theories_exploration=dict(reports_checked=other['reports_checked'],
             proof_notes=other['proof_notes_and_program'],ledger_entries=other['ledger_entries'],
             source_hashes_checked=True,symbolic_SL3_integral_reductions=True,
-            production_runtime_changed=False,
+            historical_exploration_runtime_changed=False,
             scope='Finite K/oriented comparisons, representation-dependent arithmetic, equivariant determinants/local patterns, quantum projective and affine A/C families, controlled folding and pointwise loop functoriality. Proof notes and finite exact corroboration; no priority certificate, full exceptional K Smith tables or central/rotation-compatible Kac-Moody construction.'),
+        classical_equivariant_API=classical_equivariant,
         characteristic_zero_proof='EXCEPTIONAL_DEGREES.md; toric localized top Chern and explicit boundary Segre classes',
         degree_deductions=geometry['degree_deductions'],specialized_fibers=fibers,
         full_fiber_cases_not_yet_corroborated=[list(key) for key in degrees
@@ -680,7 +718,7 @@ def main():
             full_embedded_image_calculations_independently_verified=True,
             printed_multiplicity_lists_match_audited_data=True,
             scope='Current complete relative full root/weight comparison in every degree for all proper E7 parabolics. Earlier counts above record historical proof stages. The even-block common formula is exact for the finite E7 family; geometric folding, arbitrary-rank generalizations, ambient H/N and literature priority remain separate. Version 0.22 packages both E6 and E7 relative classifications.'),
-        hash_semantics='SHA256 after CRLF to LF normalization for text; raw bytes for .gz archives',
+        hash_semantics='SHA256 after CRLF to LF normalization for text; raw bytes for .gz archives and .pdf documents',
         audit_sha256={p.relative_to(ROOT).as_posix():digest(p) for p in sorted(set(paths))})
     (ROOT/'release-0.22-verification.json').write_text(json.dumps(report,indent=2)+'\n')
     print(json.dumps({k:v for k,v in report.items() if k!='audit_sha256'},indent=2))

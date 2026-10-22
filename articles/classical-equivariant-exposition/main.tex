@@ -1,0 +1,1030 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[margin=0.82in,headheight=14pt,headsep=15pt]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,amsmath,amssymb,amsthm,mathtools,microtype}
+\usepackage{booktabs,tabularx,array,enumitem,xcolor,fancyhdr}
+\definecolor{inkblue}{RGB}{24,58,88}
+\usepackage[colorlinks=true,allcolors=inkblue]{hyperref}
+\hypersetup{pdfpagelayout=SinglePage,pdfpagemode=UseNone,pdfstartview=Fit,
+pdftitle={Springer--Borel images in classical type: from Bruhat geometry to equivariant K-theory},
+pdfsubject={Published foundations, integral image deductions, and a classical equivariant research program}}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\small Springer--Borel images in classical type}
+\fancyhead[R]{\small Expository research note}
+\fancyfoot[L]{\footnotesize 22 October 2026}\fancyfoot[R]{\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+\setlength{\parindent}{1em}\setlength{\parskip}{3pt}
+\setlength{\emergencystretch}{2em}
+\setlength{\abovedisplayskip}{7pt plus 2pt minus 2pt}
+\setlength{\belowdisplayskip}{7pt plus 2pt minus 2pt}
+\setlist{nosep,leftmargin=1.5em}
+\newcommand{\Z}{\mathbb Z}\newcommand{\Q}{\mathbb Q}\newcommand{\C}{\mathbb C}
+\newcommand{\Sym}{\operatorname{Sym}}\newcommand{\Rep}{\operatorname{Rep}}
+\newcommand{\SL}{\operatorname{SL}}\newcommand{\GL}{\operatorname{GL}}
+\newcommand{\SO}{\operatorname{SO}}\newcommand{\Sp}{\operatorname{Sp}}
+\newcommand{\Spin}{\operatorname{Spin}}\newcommand{\IG}{\operatorname{IG}}
+\newcommand{\OG}{\operatorname{OG}}\newcommand{\Gr}{\operatorname{Gr}}
+\newcommand{\Sat}{\operatorname{Sat}}\newcommand{\Fitt}{\operatorname{Fitt}}
+\newcommand{\ch}{\operatorname{ch}}\newcommand{\im}{\operatorname{im}}
+\newcommand{\rk}{\operatorname{rank}}\newcommand{\Tor}{\operatorname{Tor}}
+\newcommand{\eps}{\epsilon}\newcommand{\poly}{\mathrm{poly}}
+\newcommand{\qb}[3]{\genfrac{[}{]}{0pt}{}{#1}{#2}_{#3}}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{example}[theorem]{Example}
+\theoremstyle{definition}\newtheorem{definition}[theorem]{Definition}
+\newcommand{\record}[2]{\href{https://github.com/sean-rogers-t/Sage-programs/blob/2bc20702f142d6124a22ab97aaa511caf227f916/borel/#1}{#2}}
+\begin{document}
+\begin{center}
+{\LARGE\bfseries Springer--Borel images in classical type}\\[6pt]
+{\Large From Bruhat geometry to equivariant K-theory}\\[7pt]
+{\small An exposition of the published maps, integral refinements, and a research program}
+\end{center}
+\begin{abstract}
+Springer morphisms turn a representation of a reductive group into a
+polynomial subring of its Levi representation rings. The Borel
+characteristic map then sends these polynomial characters to flag
+cohomology. We explain the geometry and algebra behind this construction,
+including Bruhat cells, Schubert bases, Weyl invariants, the meaning of the
+classical parameters, and the distinction between normalized and literal
+integral sources. We review the published results of Kumar,
+Kumar--Rogers, and Kumar--Xie, and the subsequent internally audited
+integral-image deductions. We then introduce equivariant cohomology,
+ordinary and equivariant K-theory, and the precise image problems these
+theories suggest. The immediate emphasis is on uniform results in the
+classical families \(A,B,C,D\).
+\end{abstract}
+\noindent\textbf{Reading guide and status.}
+Sections~1--5 develop the background and published construction.
+Section~6 explains the integral refinements; Sections~7--9 develop the
+new targets and the available comparison results. Section~10 states the
+remaining program. A statement labeled a \emph{repository deduction}
+means that a proof is written in the cited companion notes and has been
+checked internally. It does not mean external peer review or an
+established claim of originality. Proposed extensions are stated as
+problems, not as completed theorems.
+
+\section{Groups, weights, and the meaning of a parabolic}
+Let \(G\) be a connected complex reductive group, \(T\subset B\subset G\)
+a maximal torus and a Borel subgroup, and \(P\supset B\) a standard
+parabolic. Let \(L\supset T\) be its Levi subgroup. We write
+\[
+ X=X(T)=\operatorname{Hom}(T,\C^\times),\qquad
+ W=N_G(T)/T,\qquad W_L=N_L(T)/T.
+\]
+A weight \(\lambda\in X\) is a multiplicative character of \(T\).
+Its differential is a linear function on
+\(\mathfrak t=\operatorname{Lie}(T)\). Thus the same weight gives both
+a function \(e^\lambda\) on the torus and a linear function \(\lambda\)
+on its Lie algebra. Keeping these two functions distinct is essential.
+The roots describe the conjugation action on \(\mathfrak g\); the
+simple roots \(\alpha_i\) determine the simple reflections \(s_i\).
+The fundamental weights \(\omega_j\) satisfy
+\(\langle\omega_j,\alpha_i^\vee\rangle=\delta_{ij}\).
+
+For most integral comparisons we take \(G\) simple and simply connected.
+Then \(X\) is the full weight lattice. The root lattice
+\(Q_{\rm rt}=\sum_i\Z\alpha_i\) is a finite-index sublattice of \(X\).
+The Lie algebra and Weyl group do not determine this character lattice:
+\(\Spin_N\) and \(\SO_N\), for example, have different character lattices.
+Their complex flag varieties can agree while their specified
+representation sources and equivariant coefficient rings differ.
+
+A standard parabolic is specified by its \emph{retained} simple nodes,
+which generate \(W_L\). The omitted nodes specify the steps of a
+partial flag. One omitted node means a maximal parabolic, several
+omitted nodes mean a more general partial flag, all nodes omitted
+give \(G/B\), and none omitted give a point. The word parabolic
+therefore does not restrict the discussion to Grassmannians.
+
+In type \(A_{m-1}\), take \(G=\SL_m\). The quotient for steps
+\(0<r_1<\cdots<r_s<m\) parametrizes chains
+\[
+ U_{r_1}\subset\cdots\subset U_{r_s}\subset\C^m,\qquad
+ \dim U_{r_j}=r_j.
+\]
+The Levi block sizes are \(r_1,r_2-r_1,\ldots,m-r_s\), and its Weyl
+group permutes coordinates within each block. For one step \(r\),
+the variety is \(\Gr(r,m)\), of complex dimension \(r(m-r)\).
+
+The notation in Parts II and III instead emphasizes the size of a
+remaining classical factor. Put \(a=n-k\). The parameter dictionary is
+\[
+\begin{array}{c|c|c|c}
+\text{type}&\text{published group}&G/P_{n-k}&\text{Levi factor}\\ \hline
+C_n&\Sp(2n)&\IG(n-k,2n)&\GL(n-k)\times\Sp(2k)\\
+B_n&\SO(2n+1)&\OG(n-k,2n+1)&\GL(n-k)\times\SO(2k+1)\\
+D_n&\SO(2n)&\OG(n-k,2n)&\GL(n-k)\times\SO(2k)
+\end{array}
+\]
+Here \(\IG\) uses an alternating form and \(\OG\) a symmetric form;
+the subspace must be isotropic for that form. Thus \(n\) is the rank,
+\(n-k=a\) is the isotropic subspace dimension, and \(k\) is the residual
+classical rank. In the stated published ranges \(1\le k<n\) in B/C
+and \(n\ge4,\ 2\le k<n\) in D. Maximal isotropic varieties require
+their own boundary conventions; in even orthogonal type there are
+two maximal isotropic components.
+
+\section{Bruhat decomposition: where the cohomology basis comes from}
+The Bruhat decomposition is the finite stratification
+\[
+ G/P=\coprod_{w\in W^P} C_w,\qquad
+ C_w=BwP/P\simeq\C^{\ell(w)}.
+ \tag{1}
+\]
+Here \(W^P\) is the set of minimal representatives for the right cosets
+\(W/W_L\), and \(\ell(w)\) is Coxeter length, the minimum number of
+simple reflections in an expression for \(w\). Minimality is equivalent
+to having no right descent in a retained Levi node. The closure
+relations among the cells define Bruhat order:
+\(\overline{C_w}=\bigcup_{v\le w}C_v\).
+An algebraic filtration by these closures gives a cellular description
+with only even real dimensions.
+
+There is also the opposite decomposition for the opposite Borel
+\(B^-\). The opposite Schubert variety
+\(X^w=\overline{B^-wP/P}\) has complex codimension \(\ell(w)\).
+We use the notation of the Kumar papers:
+\[
+ \eps_w=[X^w]\in H^{2\ell(w)}(G/P;\Z),\qquad w\in W^P.
+ \tag{2}
+\]
+These classes form an integral basis. In particular, odd cohomology
+vanishes and even cohomology is torsion-free. The generating polynomial
+\(\sum_{w\in W^P}z^{\ell(w)}\) counts the ranks of \(H^{2d}\).
+Torsion in a quotient by a selected image is consequently a property
+of that image, not torsion in flag cohomology itself.
+
+For \(G=\SL_3\) and \(P=B\), the six indices have lengths
+\[
+\begin{array}{c|cccc}
+\ell&0&1&2&3\\ \hline
+w&1&s_1,s_2&s_1s_2,s_2s_1&s_1s_2s_1
+\end{array}
+\]
+and the rank polynomial is \(1+2z+2z^2+z^3\).
+For \(\Gr(r,m)\), the same indices can be encoded by partitions
+\(\lambda\subseteq(m-r)^r\): there are at most \(r\) parts, each at
+most \(m-r\), and \(\eps_\lambda\) lies in degree \(2|\lambda|\).
+Partitions are thus finite-dimensional geometric coordinates for the
+Schubert basis, not parameters of the ambient group.
+
+This basis is the bridge to exact computation. A characteristic
+polynomial is expanded in the \(\eps_w\), producing a column of integers
+or rationals. Products of specified source generators give a matrix
+whose column lattice is exactly the image we wish to understand.
+The use of Schubert coordinates is geometric, not an arbitrary
+choice of a numerical basis. Background on these decompositions and
+their compatibility with parabolic projections is given in
+Brion's lectures~\cite{Brion}.
+
+\section{Representation rings and two kinds of variables}
+The representation ring \(R(L)=\Rep(L)\) is the Grothendieck ring of
+finite-dimensional algebraic representations: direct sum gives addition
+and tensor product gives multiplication. Its elements are virtual
+representations, so negative coefficients are allowed. Restriction of
+characters to \(T\) identifies it with
+\[
+ R(T)=\Z[X],\qquad R(L)=\Z[X]^{W_L},\qquad R(G)=\Z[X]^W.
+ \tag{3}
+\]
+The group ring has basis \(e^\lambda\), with
+\(e^\lambda e^\mu=e^{\lambda+\mu}\).
+Choosing a lattice basis makes it a Laurent polynomial ring.
+For a simply connected semisimple \(G\), \(R(G)\) is a polynomial
+ring in the fundamental irreducible characters. This does not say
+that every Levi ring is a polynomial ring in arbitrary torus variables.
+
+For example, on \(\GL_r\) let \(t_i=e^{\eps_i}\). Then
+\[
+ R(\GL_r)=
+ \Z[t_1^{\pm1},\ldots,t_r^{\pm1}]^{S_r}
+ =\Z[e_1(t),\ldots,e_r(t),e_r(t)^{-1}].
+ \tag{4}
+\]
+The generator \(e_i(t)\) is the character of the \(i\)-th exterior
+power, and \(e_r(t)\) is the determinant character. The ordinary
+polynomial representation ring omits the determinant inverse.
+For \(\SL_m\) the torus relation is \(\prod_i t_i=1\).
+
+Irreducible representations are indexed by dominant highest weights.
+In the polynomial representation ring of the general linear group,
+these weights are partitions \(\lambda_1\ge\cdots\ge\lambda_r\ge0\).
+Their characters are Schur polynomials \(s_\lambda(t)\).
+The classical Grassmannian map produces the corresponding Schubert
+classes for partitions fitting its rectangle. This symmetric-function
+model is the type A construction generalized by Springer morphisms.
+
+By contrast, put \(S_\Q=\Sym_\Q(X\otimes\Q)\). Its coordinates
+\(x_i=\eps_i\) are additive linear functions on \(\mathfrak t\).
+In type A they satisfy \(\sum_i x_i=0\). The basic global invariant
+presentations over \(\Q\) are
+\[
+\begin{array}{c|l|l}
+\text{type}&S_\Q^W&\text{polynomial degrees}\\ \hline
+A_{m-1}&\Q[e_2(x),\ldots,e_m(x)]&2,3,\ldots,m\\
+B_n,C_n&\Q[e_1(x^2),\ldots,e_n(x^2)]&2,4,\ldots,2n\\
+D_n&\Q[e_1(x^2),\ldots,e_{n-1}(x^2),p]&2,4,\ldots,2n-2,n
+\end{array}
+\tag{5}
+\]
+Here \(p=x_1\cdots x_n\), and \(p^2=e_n(x^2)\).
+The B/C Weyl group allows arbitrary coordinate sign changes; type D
+allows only an even number. That distinction explains the Euler
+invariant \(p\). Levi invariant rings combine symmetric blocks with
+the relevant smaller signed-permutation group.
+
+The three expressions \(e_i(t)\), \(e_i(x)\), and \(e_i(x^2)\) are
+different. They are, respectively, a torus character, a polynomial of
+degree \(i\), and a polynomial of degree \(2i\). Under the Borel map,
+polynomial degree \(d\) becomes cohomological degree \(2d\).
+In particular, the squared-alphabet generator \(e_i(x^2)\)
+has cohomological degree \(4i\).
+
+\section{The Borel presentation and characteristic classes}
+Each weight determines an associated line bundle on \(G/B\).
+Choose the line-bundle convention so that
+\(\beta(\omega_i)=\eps_{s_i}\). The assignment of a weight to its first
+Chern class extends multiplicatively to the Borel characteristic map.
+Over \(\Q\) its full- and partial-flag presentations are
+\[
+\begin{split}
+ H^{2*}(G/B;\Q)&\simeq S_\Q/(S_{\Q,+}^W S_\Q),\\
+ H^{2*}(G/P;\Q)&\simeq
+ S_\Q^{W_L}/(S_{\Q,+}^W S_\Q^{W_L}).
+\end{split}
+\tag{6}
+\]
+The subscript \(+\) means positive polynomial degree. The relations
+say that positive-degree characteristic classes of global \(G\)-data
+vanish on the flag. Indeed, the associated bundle of a representation
+of the whole group is an ordinary trivial bundle.
+
+For \(\Gr(r,m)\), let \(c_i\) and \(d_j\) be the Chern classes of
+the dual tautological subbundle and dual quotient bundle, with the
+corresponding sign convention. An integral presentation is
+\[
+ H^*(\Gr(r,m);\Z)=
+ \frac{\Z[c_1,\ldots,c_r,d_1,\ldots,d_{m-r}]}
+ {((1+c_1z+\cdots+c_rz^r)(1+d_1z+\cdots+d_{m-r}z^{m-r})=1)}.
+ \tag{7}
+\]
+The denominator denotes all positive-degree coefficient relations.
+Here \(z\) is a formal bookkeeping variable; it is not an additional
+cohomology generator. The degree of \(c_i\) or \(d_i\) is \(2i\).
+Eliminating one block gives the familiar complete-symmetric-function
+presentation and the rectangular Schur basis.
+
+The rational presentation (6) must not be used indiscriminately over
+\(\Z\). In B/D, integral Schubert classes can require factors of two
+relative to simple Chern-polynomial representatives. A rational
+invariant calculation determines a rational image, not automatically
+its integral lattice. Nor can one average over \(W_L\) integrally
+without accounting for division by \(|W_L|\).
+
+For actual calculations, the BGG operator
+\[
+ \partial_i f=\frac{f-s_i f}{\alpha_i}
+ \tag{8}
+\]
+lowers polynomial degree by one. The braid relations make
+\(\partial_w\) independent of a reduced word. For homogeneous
+\(f\) of degree \(d\), its coefficient at \(\eps_w\), \(\ell(w)=d\),
+is obtained by the corresponding constant divided difference, with
+the chosen operator-order convention. Independently, divisor
+multiplication can be computed by the Chevalley formula. Agreement
+between these routes is a useful exact check; counting reduced words
+as independent contributions would give the wrong answer.
+
+\section{The Springer morphism and the published maps}
+Let \(\rho:G\to\GL(V)\) have faithful differential. For simple \(G\),
+the trace form
+\(B_\rho(H,K)=\operatorname{Tr}(d\rho(H)d\rho(K))\)
+is nondegenerate. Identify \(\mathfrak g\) with its image in
+\(\operatorname{End}(V)\), and project \(\rho(g)\) orthogonally onto
+this image. The resulting regular conjugation-equivariant map is
+\[
+ \theta_\rho:G\longrightarrow\mathfrak g.
+ \tag{9}
+\]
+In the semisimple normalization used here,
+\(\theta_\rho(1)=0\) and \(d\theta_\rho|_1=\mathrm{id}\).
+Its torus restriction \(\Theta_\rho:T\to\mathfrak t\) is
+\(W\)-equivariant and dominant. The construction is also the
+trace-projection generalized Cayley map studied by
+Kostant--Michor~\cite{KM}.
+
+Rogers's explicit weight formula makes (9) computable~\cite{Rogers}.
+Write a representation weight as the column
+\(\mu=(\mu(\alpha_1^\vee),\ldots,\mu(\alpha_r^\vee))^t\), with
+multiplicity \(m_\mu\), and put
+\[
+ M_\rho=\sum_\mu m_\mu\,\mu\mu^t,\qquad
+ v_\rho(t)=\sum_\mu m_\mu e^\mu(t)\mu.
+ \tag{10}
+\]
+If \(\Theta_\rho(t)=\sum_i a_i(t)\alpha_i^\vee\), then
+\(a(t)=M_\rho^{-1}v_\rho(t)\).
+The matrix entries measure the trace pairing; the vector entries
+are explicit Laurent polynomials. Differentiation at the identity
+provides a direct normalization check.
+
+For the defining/vector representations of B/C/D,
+\[
+ \Theta_\rho^*(x_i)=\bar t_i=\frac{t_i-t_i^{-1}}2.
+ \tag{11}
+\]
+For the defining representation of \(\SL_m\), the corresponding
+formula is \(x_i\mapsto t_i-\frac1m\sum_jt_j\).
+The common B/C/D formula does not identify their image lattices:
+the Weyl groups, character lattices and integral Schubert geometries
+are different.
+
+Kumar defines the polynomial representation subring by
+\[
+ \Rep_{\rho\text{-}\poly}^{\C}(L)
+   =\Theta_\rho^*\bigl(\Sym_\C(\mathfrak t^*)^{W_L}\bigr)
+   \subset R(L)\otimes\C,
+ \qquad
+ \xi_\rho^P=\beta_\C^P\circ(\Theta_\rho^*)^{-1}.
+ \tag{12}
+\]
+This inverse is the inverse of an injective algebra map onto its
+image. It is not a claim that \(\Theta_\rho\) has a global inverse
+as a morphism of varieties. Part I proves the construction and
+complex surjectivity for the full Levi polynomial source
+\cite[Definition 4 and Theorem 5]{Kumar}.
+
+Part II restricts to the residual symplectic or odd orthogonal factor
+in the displayed Levi, giving maps \(\xi_{n,k}\) and
+\(\bar\xi_{n,k}\). Part III gives the even orthogonal map
+\(\xi^D_{n,k}\)~\cite{KR,KX}. These restricted sources need not generate the whole
+cohomology of the ambient flag. In the B/D notation, set
+\[
+ e_i=e_i(\bar h_1^2,\ldots,\bar h_k^2),\qquad
+ p=\bar h_1\cdots\bar h_k\quad\text{in D},\qquad p^2=e_k.
+ \tag{13}
+\]
+The variables \(\bar h_j=(h_j-h_j^{-1})/2\) are the tail torus
+coordinates, corresponding to \(\bar t_{n-k+j}\).
+The published squared-generator formula, also valid in C with its
+corresponding quotient bundle, is
+\[
+ e_i\longmapsto
+ c_i^2+2\sum_{j=1}^{i}(-1)^j c_{i+j}c_{i-j}.
+ \tag{14}
+\]
+The \(c_j\) are the Chern classes of the indicated quotient of the
+trivial defining bundle by the tautological isotropic subbundle;
+\(c_0=1\), and classes outside its rank are zero.
+This is Part II, Proposition 11 in C and Proposition 24 in B,
+and Part III, Theorem 3.6 in D.
+
+The stable theorems keep \(k\) fixed and let \(n\) tend to infinity.
+They use a graded inverse limit of cohomology under the standard
+embeddings. Part II, Theorems 16 and 29, and Part III, Theorem 3.8,
+prove stable injectivity of the respective maps. Finite-rank kernels
+remain: a finite-dimensional flag cannot support nonzero classes in
+arbitrarily high degree. Stable injectivity and finite integral
+saturation are consequently different assertions.
+
+\section{Integral refinements: what our calculations determine}
+\subsection{The source and the saturation must both be specified}
+Parts II and III use useful normalized polynomial \(\Z\)-forms:
+\[
+ \Z[e_1,\ldots,e_k]\quad\text{in B/C},\qquad
+ \Z[e_1,\ldots,e_k]\oplus p\Z[e_1,\ldots,e_k]\quad\text{in D}.
+ \tag{15}
+\]
+The second expression is additive, with multiplication determined by
+\(p^2=e_k\). These are not automatically subrings of the ordinary
+integral representation ring: the halves in (11) matter.
+For the stated SO/Sp tail forms, the literal character intersection
+instead uses \(4^ie_i\), and in D also \(2^kp\). In polynomial
+degree \(d\), its image is \(2^d\) times the normalized image.
+This precise rescaling is part of the source audit~\cite{Companions}.
+It must not be silently transferred to arbitrary Spin invariant
+sources or arbitrary representations.
+
+More generally, for the normalized trace construction on simply
+connected simple \(G\), define
+\[
+ \Lambda_\rho=\{\ell\in X\otimes\Q:
+                 \Theta_\rho^*\ell\in\Z[X]\},\qquad
+ A_{\rho,L}=\Sym_\Z(\Lambda_\rho)^{W_L}.
+ \tag{16}
+\]
+Our torus-source deduction identifies the full integral polynomial
+source with the symmetric algebra of this linear lattice, in that
+scope. Taking integral Levi invariants and taking a Borel image are
+further operations: degree-one generation of the torus source does
+not settle either of them. In particular, (16) records the group
+isogeny and representation as part of the input.
+
+Let \(L_d\subset H^{2d}(G/P;\Z)\) be an image of any specified integral
+source and define
+\[
+ S_d=\Sat(L_d)=(L_d\otimes\Q)\cap H^{2d}(G/P;\Z).
+ \tag{17}
+\]
+Integer basis changes diagonalize its inclusion with positive Smith
+factors \(s_1\mid\cdots\mid s_r\). Thus
+\(S_d/L_d\simeq\bigoplus_i\Z/s_i\), with unit factors retained.
+The product of the factors is the index in the selected saturation.
+If \(r<\rk H^{2d}\), the full ambient quotient also has a free part.
+For example, the image generated by \(2h\) in projective cohomology
+has factor \(2^d\) in degree \(2d\), although \(h\) and \(2h\)
+generate the same rational algebra.
+
+\subsection{A type A integral baseline}
+For defining \(\SL_m\), the literal linear lattice is \(Q_{\rm rt}\).
+On \(G/P_1=\mathbb P^{m-1}\), its full Levi source is generated by
+the elementary symmetric functions in \(x_1-x_2,\ldots,x_1-x_m\).
+Their ordinary images are \(\binom mj h^j\), and our integral
+projective-family deduction gives
+\[
+ J_H=\bigoplus_{d=0}^{m-1}\frac{m}{\gcd(m,d)}\Z h^d,
+ \qquad \gcd(m,0)=m.
+\]
+Thus the degree-\(2d\) factor is \(m/\gcd(m,d)\). This concerns
+the literal SL source; it is not the assertion that the usual
+GL polynomial-representation map fails to be surjective.
+
+\subsection{Type C: primitivity from quaternionic geometry}
+For \(a=n-k\ge1\), the normalized tail image in
+\(H^*(\IG(a,2n);\Z)\) is saturated in every degree.
+Its factors in degree \(4m\) are all one, indexed by partitions
+of \(m\) inside the \(k\)-by-\(a\) rectangle.
+This is a deduction from classical geometry, not an assertion that
+the literal rescaled source is saturated.
+
+The explanation is the compact homogeneous fibration
+\[
+ \frac{\Sp(n)}{U(a)\times\Sp(k)}
+ \longrightarrow
+ \frac{\Sp(n)}{\Sp(a)\times\Sp(k)}
+       =\operatorname{HGr}(k,n).
+ \tag{18}
+\]
+Here \(\Sp(n)\) is compact notation, whose complexification is
+\(\Sp(2n)\). The fiber is \(\Sp(a)/U(a)\).
+The quaternionic base has integral cohomology
+\(\Z[e_1,\ldots,e_k]/(h_{a+1},\ldots,h_n)\), with \(\deg e_i=4i\);
+the \(h_j\) are complete symmetric functions in the squared-root
+alphabet. Its generators pull back to the squared-tail generators.
+The integral Serre spectral sequence has free terms in even
+bidegrees only. It collapses, and its edge image is primitive
+because the other filtration quotients are free.
+The ingredients are classical quaternionic Schubert theory;
+see~\cite{PR,PW}. Our selected-image formulation is recorded with
+its source audit in~\cite{Companions}.
+
+The two-step type C extension uses normalized middle Chern generators
+and squared-tail generators. The joint image is saturated, the sum
+of the two separate images is primitive, and their intersection is
+the constants. Compatible integral bases, rather than rational
+dimension counts, prove these statements. They are applications of
+published integral Schubert and Leray--Hirsch theory.
+
+\subsection{Type B: a complete partition formula}
+The audited type B deduction determines every factor for the normalized
+map \(\bar\xi_{n,k}^{\Z}\). Put
+\[
+ \ell=\min(k,n-k),\quad A=\max(k,n-k),\quad
+ r=\lfloor n/2\rfloor,\quad c=\lceil n/2\rceil.
+\]
+For \(\gamma\subseteq A^\ell\), including zero parts, define
+\[
+ b_i=\gamma_i+\ell-i,\qquad
+ u(\gamma)=\#\{i:b_i<r\},\qquad
+ E_{n,k}(\gamma)=\#\{i:b_i\ge c+u(\gamma)\}.
+ \tag{19}
+\]
+\begin{theorem}[Repository deduction: normalized type B]
+For \(1\le k<n\), the nonzero Smith factors in cohomological degree
+\(4m\) are
+\[
+ \left\{2^{E_{n,k}(\gamma)}:
+     \gamma\subseteq A^\ell,\ |\gamma|=m\right\}.
+ \tag{20}
+\]
+The image vanishes in degrees not divisible by four.
+\end{theorem}
+This counts multiplicities; it does not claim that the original
+Schur polynomials themselves form a Smith basis.
+For instance \(n=3,k=1\) gives the factors \(1,1,2\) in degrees
+\(0,4,8\), respectively. The proof constructs primitive
+Schur-product prefix lattices, identifies their ranks geometrically,
+and uses an adapted integral basis to recover the powers of two.
+Published partition counts and character identities supply inputs;
+the additional assertion is their integral-image interpretation.
+
+\subsection{Type D: the Euler sector and integral gluing}
+Define
+\(\mathcal B_{n,k,e}(z)=
+\sum_{\gamma\subseteq A^\ell,\ E_{n,k}(\gamma)=e}z^{2|\gamma|}\),
+and use \(\mathcal B_{k,k,0}=1\), all other
+\(\mathcal B_{k,k,e}=0\).
+The variable \(z^d\) records cohomological degree \(2d\).
+Set \(\mathcal I_{n,k}=0\) for odd \(k\). For \(k=2h\), put
+\[
+ \mathcal I_{n,2h}(z)=
+ z^{2h(\lfloor(n-2h)/2\rfloor+1)}
+ \qb{h+\lceil(n-2h)/2\rceil-1}{h}{z^2}.
+ \tag{21}
+\]
+Here \(\qb{v}{u}{q}=\sum_{\lambda\subseteq(v-u)^u}q^{|\lambda|}\)
+is the Gaussian polynomial.
+
+\begin{theorem}[Repository deduction: normalized type D]
+For \(n\ge4,\ 2\le k<n\), let \(M_D(n,k;e,d)\) count the factor
+\(2^e\) in degree \(2d\). Then
+\[
+ \sum_dM_D(n,k;e,d)z^d
+ =\mathcal B_{n,k,e}(z)+z^k\mathcal B_{n-1,k,e}(z)
+   +(\delta_{e,1}-\delta_{e,0})\mathcal I_{n,k}(z).
+ \tag{22}
+\]
+\end{theorem}
+The first two terms are the square and Euler sectors. Their rational
+spans are independent, but their separate integral saturations need
+not sum to the saturation of the combined image. This is
+\emph{integral gluing}. Every gluing direction changes
+\((1,1)\) into \((1,2)\); there is no further higher-factor correction.
+For \(n=4,k=2\), degree eight has factors \((1,2,2)\).
+The image has rank three in an ambient rank-four group, so the
+ambient cokernel also has one free direction.
+
+These refinements answer finite-rank arithmetic questions left
+undetermined by complex generator formulas and stable injectivity.
+They do not replace the published theorems. The companion proofs,
+dependency audits and source-normalization qualifications are
+listed in~\cite{Companions}. Separately, the repository has complete
+relative root-to-weight image calculations for all proper E6 and E7
+parabolics. Those compare two images, not their absolute ambient
+cokernels; our present priority is the classical uniform program.
+
+\section{Equivariant cohomology: retaining the torus parameters}
+The left action of \(T\) on \(G/P\) leads to the Borel construction
+\[
+ H_T^*(G/P;\Z)=H^*(ET\times_TG/P;\Z),\qquad
+ S_\Z=H_T^*(\mathrm{pt};\Z)=\Sym_\Z X.
+ \tag{23}
+\]
+The space \(ET\) is contractible with a free \(T\)-action, and \(BT=ET/T\).
+The equivariant parameters are the first Chern classes of universal
+torus characters over \(BT\). They have degree two. They are formal
+coefficient classes, not a choice of a numerical torus point.
+Equivariant Schubert classes form an \(S_\Z\)-basis indexed by \(W^P\).
+
+Over \(\Q\) the presentation is
+\[
+ H_T^{2*}(G/P;\Q)\simeq
+ S_\Q\otimes_{S_\Q^W}S_\Q^{W_L}.
+ \tag{24}
+\]
+Write \(u\) for the left coefficient variables and \(x\) for the
+right characteristic variables. The balancing relations are
+\(f(x)=f(u)\) for \(f\in S_\Q^W\).
+Thus the ordinary global-invariant relations \(f(x)=0\) are replaced
+by parameter-dependent relations. Setting \(u=0\) recovers (6).
+For integral calculations one uses an established integral
+characteristic lift or a geometric presentation, rather than
+assuming (24) without its rational coefficients.
+
+\begin{example}[Projective space]
+For the defining \(\SL_m\) action, choose compatible signs and write
+\[
+ H_T^*(\mathbb P^{m-1};\Z)
+ =\Z[u_1,\ldots,u_m,h]/\left(\sum_i u_i,\prod_i(h-u_i)\right).
+ \tag{25}
+\]
+The fixed points are the coordinate lines, and restriction sends
+\(h\) to \(u_i\) at the \(i\)-th point. For \(m=2\), the relation is
+\(h^2=u^2\). Forgetting equivariance gives \(h^2=0\).
+\end{example}
+
+The torus fixed points of a general \(G/P\) are indexed by \(W/W_L\).
+Characteristic classes restrict by Weyl substitution; in compatible
+coordinates this is \(f(w^{-1}u)\).
+Restrictions along an invariant curve differ by a multiple of its
+root label. After appropriate localization these restrictions
+determine the class. They provide an independent route to the
+same equivariant Schubert coefficients.
+
+The equivariant extension of the original construction is
+\[
+ \xi_{\rho,T}^P(\Theta_\rho^*f)=\beta_T^P(f).
+ \tag{26}
+\]
+For a specified integral source its coefficient-span image is
+\(J_T^H=S_\Z\beta_T^P(A_{\rho,L})\).
+Let \(I=(X)\subset S_\Z\) be the parameter augmentation ideal,
+\(H_T=H_T^{2*}(G/P;\Z)\), and \(J_H\) the ordinary image.
+There is a surjection \(J_T^H/IJ_T^H\to J_H\), but its injectivity is
+a separate question. Since \(H_T\) is free over \(S_\Z\), its kernel is
+\[
+ \ker(J_T^H/IJ_T^H\longrightarrow J_H)
+ \simeq \Tor_1^{S_\Z}(H_T/J_T^H,\Z).
+ \tag{27}
+\]
+Freeness of ambient equivariant cohomology does not force freeness
+of the quotient by the image.
+
+Our integral \(\SL_4/P_1=\mathbb P^3\) example makes the issue concrete.
+The defining literal source is \(\Sym_\Z(Q_{\rm rt})^{W_L}\).
+Set \(a=e_2(u), b=e_3(u)\). Its elementary root-difference generators
+have images
+\[
+ f_1=4h,\qquad f_2=6h^2+a,\qquad f_3=4h^3+2ah-b.
+ \tag{28}
+\]
+The ordinary image is
+\(\Z\oplus4\Z h\oplus2\Z h^2\oplus4\Z h^3\).
+Nevertheless \(J_T^H/IJ_T^H\to J_H\) first has a \(\Z/2\) kernel
+in polynomial degree five. This is an internally proved and
+independently computed specialization defect~\cite{Exploration}.
+It shows why a classical equivariant program must compute the
+augmentation map, not only ambient ring presentations.
+
+\section{K-theory: replacing additive classes by bundles}
+The ring \(K^0(G/P)\) is generated by vector bundles, with the relation
+\([E]=[E']+[E'']\) for an exact sequence and multiplication by tensor
+product. A line bundle is invertible: \([L^{-1}]=[L]^{-1}\).
+Unlike cohomology, ordinary \(K^0\) is not naturally graded by
+codimension. It has a support, or even skeletal, filtration.
+For a complex flag variety its associated graded is integral
+Chow cohomology, identified with \(H^{2*}\).
+This is the support filtration, not an assertion about the gamma
+filtration of a representation ring.
+
+The characteristic homomorphism is the associated-bundle map
+\[
+ \kappa_P:R(L)\longrightarrow K^0(G/P).
+ \tag{29}
+\]
+For the simply connected groups in our integral setup, its
+representation-ring presentation is
+\[
+ K^0(G/P)\simeq\Z\otimes_{R(G)}R(L).
+ \tag{30}
+\]
+The map \(R(G)\to\Z\) is dimension. Thus a global representation
+becomes an ordinary trivial bundle of its dimension. This is the
+multiplicative-character counterpart of the invariant relations
+in (6); it is not the same polynomial quotient.
+The characteristic and Schubert frameworks are classical
+\cite{GR,Karpenko}.
+
+For projective space, take \(L=[\mathcal O(1)]\) and \(v=L-1\).
+Then
+\[
+ K^0(\mathbb P^{m-1})=\Z[v]/(v^m),\qquad
+ \ch(L)=e^h=1+h+\frac{h^2}{2!}+\cdots .
+ \tag{31}
+\]
+The Chern character identifies K-theory with even cohomology
+rationally, with higher-degree corrections. It is not generally
+an integral identification in these coordinates.
+
+The Springer-character source already supplies a canonical integral
+map whenever the source characters are literal:
+\[
+ \eta_\rho^P:A_{\rho,L}\longrightarrow K^0(G/P),\qquad
+ f\longmapsto\kappa_P(\Theta_\rho^*f).
+ \tag{32}
+\]
+This map keeps the actual virtual character. The old map first
+undoes \(\Theta_\rho^*\) and then applies \(\beta^P\).
+Their relationship is a leading-filtration comparison, not the
+equality of \(\ch\eta_\rho^P(f)\) with \(\beta^P(f)\) in all degrees.
+
+On \(\Sp_4/P_1=\mathbb P^3\), for example, the normalized coordinate
+\(x_1\) has integral cohomology image \(h\), but its rational
+K-class is
+\[
+ \frac{L-L^{-1}}2=v-\frac{v^2}{2}+\frac{v^3}{2}.
+ \tag{33}
+\]
+It is not integral. The literal generator \(2x_1\) is integral.
+This is why a normalized cohomological source cannot be imported
+into K-theory merely because its old Schubert coefficients were integers.
+
+\begin{proposition}[Repository deduction: the finite filtered comparison]
+For the full literal source (16), with normalized trace Springer map
+on simply connected simple \(G\), the maps \(\beta^P\) and
+\(\eta_\rho^P\) have the same integral source kernel.
+Their images \(J_H\) and \(J_K\) are isomorphic as rings, strictly
+for polynomial degree and the induced support filtration, with
+\[
+ \operatorname{gr}J_K=J_H,\qquad
+ [K^0(G/P):J_K]=\prod_d[H^{2d}(G/P;\Z):J_H^d].
+ \tag{34}
+\]
+\end{proposition}
+\noindent
+For the proof, positive global invariants pull back to virtual
+global characters of dimension zero, hence vanish under \(\kappa\).
+The identity first jet of \(\Theta_\rho\) makes the induced rational
+map triangular with identity diagonal in the support filtration.
+It is therefore invertible rationally; torsion-free integral targets
+give equality of kernels on the literal source.
+Homogeneous image lifts with independent leading classes establish
+strictness. The determinant then gives the index identity.
+The detailed argument and its qualifications are in~\cite{Exploration}.
+
+The order of a finite cokernel does not determine its Smith factors.
+Filtration layers can join by extensions, as two \(\Z/2\) layers can
+form either \((\Z/2)^2\) or \(\Z/4\).
+For the literal defining source on \(\Sp_4/P_1=\mathbb P^3\), put
+\(b=L-L^{-1}=2v-v^2+v^3\). The image has basis \(1,b,b^2,b^3\).
+Its inclusion matrix in \(1,v,v^2,v^3\) is
+\[
+ \begin{pmatrix}
+ 1&0&0&0\\0&2&0&0\\0&-1&4&0\\0&1&-4&8
+ \end{pmatrix}.
+\]
+Its factors are \((1,1,8,8)\), whereas the ordinary cohomological
+factors are \((1,2,4,8)\). Both indices are \(64\).
+The type A defining-coordinate comparison does preserve the total
+ordinary Smith factors for every parabolic, but that is a
+representation-specific result. The completed SL3 calculations
+also show that equal linear lattices for two representations need
+not give equal embedded K-images~\cite{Exploration}.
+
+\section{Equivariant K-images and the explicit quotient map}
+Equivariant K-theory remembers \(T\)-actions on bundles. Its coefficient
+ring is \(R(T)=\Z[X]\), rather than \(\Sym_\Z X\), and its characteristic
+presentation for our simply connected setup is
+\[
+ K_T^0(G/P)\simeq R(T)\otimes_{R(G)}R(L).
+ \tag{35}
+\]
+The left coefficient map sends a global representation to its
+restricted torus character, not its dimension.
+Forgetting equivariance is \(e^\lambda\mapsto1\).
+This is distinct from setting the additive parameters of equivariant
+cohomology to zero, although the augmentation-filtration comparison
+connects them. Schubert structure sheaves give an \(R(T)\)-basis;
+Laurent Demazure operators and fixed-point restriction formulas
+provide established calculation methods~\cite{GR,Willems}.
+
+For the Springer map, define the integral image
+\[
+ J_{\rho,T}^{K,P}
+ =R(T)\,\kappa_T^P(\Theta_\rho^*A_{\rho,L})
+       \subset K_T^0(G/P).
+ \tag{36}
+\]
+It is this embedded submodule and subring that we seek to present.
+There is already a useful rational source family.
+Put \(R_\Q=\Q[X]\), \(A=S_\Q^{W_L}\), and \(B_0=S_\Q^W\). Then
+\[
+ \mathcal A_{\rho,T}^P
+ =R_\Q\otimes_{B_0,\,f\mapsto f(\Theta_\rho(t))}A
+ \longrightarrow K_T^0(G/P)_\Q,\qquad
+ 1\otimes f\longmapsto\kappa_T^P(\Theta_\rho^*f).
+ \tag{37}
+\]
+The map from \(B_0\) is essential: the basic invariant values
+\(f_i(\Theta_\rho(t))\) are exactly the coordinates of the induced
+adjoint-quotient map \(T/W\to\mathfrak t/W\).
+The previous quotient-coordinate computations therefore become
+coefficients of relations in a characteristic-image problem.
+At \(t=1\) these positive-degree coefficients vanish, giving the
+rational ordinary source quotient. A general integral freeness
+statement is not being inferred from (37).
+
+\subsection{A determinant theorem and its geometric meaning}
+For each root-length orbit \(a\), define
+\[
+ \Delta_a(x)=\prod_{\alpha>0,\ {\rm length}=a}\alpha(x),\quad
+ \varpi_a=\tfrac12\sum_{\alpha>0,\ {\rm length}=a}\alpha,\quad
+ \delta_a(t)=e^{\varpi_a}\prod_{\alpha>0,\ {\rm length}=a}(1-e^{-\alpha}).
+\]
+The root quotient
+\(\mathcal J_{\rho,a}=\Delta_a(\Theta_\rho(t))/\delta_a(t)\)
+is a regular invariant Laurent polynomial over \(\Q\), with value
+one at the identity. Let \(N=|W/W_L|\), and let \(N_a,N_{L,a}\)
+count positive roots of that length in \(G,L\). Define
+\[
+ m_{P,a}=\frac N2\left(1-\frac{N_{L,a}}{N_a}\right).
+ \tag{38}
+\]
+This integer is half the number of cosets moved by a reflection
+of that length.
+
+\begin{theorem}[Repository deduction over \(R_\Q\)]
+The map (37) is injective between finite free \(R_\Q\)-modules of
+rank \(N\). If \(C_{\rho,T}^P\) is its cokernel, then
+\[
+ \Fitt_0(C_{\rho,T}^P)
+   =\left(\prod_a\mathcal J_{\rho,a}^{\,m_{P,a}}\right).
+ \tag{39}
+\]
+\end{theorem}
+The proof compares two fixed-point matrices. A homogeneous polynomial
+basis evaluates as \(f_j(w^{-1}\Theta_\rho(t))\); each reflection
+wall forces coincident row pairs. Divisibility and the total degree
+determine its root-product determinant. The target Schubert
+restriction matrix has the torus Euler root products as determinant.
+Their ratio is (39), up to a unit.
+
+For a presentation \(R^b\to R^a\to C\to0\),
+\(\Fitt_i(C)\) is generated by the \((a-i)\)-minors.
+Thus \(\Fitt_0\) is the determinant ideal in the square case;
+higher Fitting ideals record finer degeneracy information.
+The rings \(\Z[X]\) and \(\Sym_\Z X\) are multivariable rings, so
+there is no general Smith normal form over them.
+Smith factors are appropriate after passing to a specified DVR
+or to a finite integer-lattice specialization.
+
+Write \(\mathcal J_\rho=\prod_a\mathcal J_{\rho,a}\).
+The full Springer differential determinant has torus restriction
+\[
+ D_\rho|_T=\det(d\Theta_\rho)\,\mathcal J_\rho^2.
+ \tag{40}
+\]
+Consequently (39) detects the root-direction factors of the generalized
+Cayley determinant. The Cartan Jacobian is a separate factor; these
+image calculations do not by themselves determine the full critical
+divisor, target branch locus, or generic degree.
+
+\subsection{Two arbitrary-rank classical families already available}
+For the defining \(\SL_m\)-module \(V\), the rational equivariant map
+(37) is an isomorphism for every \(P\).
+The trace formula gives
+\(\Theta_{V^{\otimes j}}=(\chi_V/m)^{j-1}\Theta_V\).
+A homogeneous basis of degrees \(\ell(w)\) therefore yields
+the complete rational cokernel decomposition
+\[
+ C_{V^{\otimes j},T}^P
+ \simeq\bigoplus_{w\in W^P}
+       R_\Q/(\chi_V^{(j-1)\ell(w)}),\qquad j\ge1.
+ \tag{41}
+\]
+A term with exponent zero is the zero module.
+This supplies every higher Fitting ideal in this family, not just
+the determinant. The literal integral source remains an additional
+arithmetic input.
+
+There is also a complete integral source model for defining
+\(\Sp_{2n}/P_1=\mathbb P^{2n-1}\).
+Put
+\[
+ R=\Z[t_1^{\pm1},\ldots,t_n^{\pm1}],\quad
+ s_i=t_i+t_i^{-1},\quad B_i=t_i-t_i^{-1},\quad b=L-L^{-1}.
+\]
+Then
+\[
+ K_T^0(\mathbb P^{2n-1})
+ =R[L]/\prod_i(L-t_i)(L-t_i^{-1}),\qquad
+ J_{\rho,T}^{K,P_1}=R[b]
+ \simeq R[z]/\prod_i(z^2-B_i^2).
+ \tag{42}
+\]
+The omitted tail source generators are eliminated by the global
+squared-symmetric relations. The image is free on
+\(1,b,\ldots,b^{2n-1}\), and the integral determinant is
+\[
+ \Fitt_0\bigl(K_T^0/J_{\rho,T}^{K,P_1}\bigr)
+   =\left(2^n\prod_{i<j}(s_i+s_j)^2\right).
+ \tag{43}
+\]
+To see the factors, compare the Vandermonde matrices for
+\(L\) and \(L-L^{-1}\) at
+\(t_1,t_1^{-1},\ldots,t_n,t_n^{-1}\).
+Each reciprocal pair contributes two; the four cross-pairs
+for \(i<j\) contribute \((s_i+s_j)^2\).
+At \(t_i=1\), the determinant is \(2^{n(2n-1)}\).
+This family's image specializes faithfully to its ordinary K-image.
+Its arbitrary-rank higher Fitting ideals remain a substantive next
+problem. Proofs and independent finite checks of (34), (39),
+(41)--(43) are recorded in~\cite{Exploration}.
+
+\section{A classical program with precise next goals}
+The common goal is to determine the embedded integral image (36),
+its module presentation, its Fitting ideals and its augmentation
+to ordinary K-theory, for the defining/vector representation in
+the classical families. Equivariant ordinary cohomology is a parallel
+comparison target. The determinant theorem is an established starting
+point within the companion notes, not the remaining classification.
+
+Type A supplies a controlled baseline: construct the actual integral
+source image on Grassmannians and general partial flags, retaining
+the difference between the root and weight lattices. The rational
+answer alone cannot see the integral specialization defects of
+Section~7. Type C next asks for all higher Fitting ideals in (42),
+and then for isotropic Grassmannians with subspace dimension greater
+than one. The known quaternionic arguments explain ordinary
+primitivity, but do not automatically give this equivariant
+multiplicative classification.
+
+For B and D, begin with isotropic lines. The targets are the odd
+quadric \(\Spin_{2n+1}/P_1\) of dimension \(2n-1\) and the even
+quadric \(\Spin_{2n}/P_1\) of dimension \(2n-2\).
+Their K-theory must retain the full Schubert or spinor-bundle data.
+In D the two middle Schubert classes must both be retained.
+The vector representations factor through SO and have faithful
+differential on Spin; the coefficient lattice still records which
+group is chosen. A polynomial projective-bundle model cannot simply
+be substituted for a quadric target.
+
+These first models should lead to isotropic Grassmannians and then
+arbitrary partial flags. Type D maximal isotropic components must
+be specified separately. Comparisons involving adjoint, tensor,
+exterior-power and spin representations are later tests of which
+features depend only on the linear source and which depend on the
+full Springer character.
+
+An effective computational implementation should return the source
+lattice and normalization, the coefficient ring, the actual image
+matrix or relations, Fitting data, and the augmentation map.
+Verification should compare fixed-point restrictions with
+Schubert/Demazure calculations, and recover the appropriate old
+ordinary image with its stated source. Exact small-rank checks test
+a proposed uniform argument; they do not replace its proof.
+
+The resulting picture extends the maps of Parts I--III in a precise
+way. Their polynomial characters and Borel images remain the source
+of the construction. The integral work asks which lattice of
+cohomology those characters generate. Equivariance retains the torus
+parameters that ordinary cohomology discards; K-theory retains the
+multiplicative character and extension information that the leading
+Chern-class calculation discards. The unfinished task is to explain
+these integral images uniformly across the classical root data.
+
+\begin{thebibliography}{99}
+\small\raggedright\setlength{\itemsep}{2pt}
+\bibitem{Kumar}
+S.~Kumar, \emph{Representation ring of Levi subgroups versus cohomology
+ring of flag varieties}, Math.\ Ann.\ \textbf{366} (2016), 395--415.
+\href{https://kumar.math.unc.edu/papers/kumar76.pdf}{Author's text}.
+\bibitem{KR}
+S.~Kumar and S.~Rogers, \emph{Representation ring of Levi subgroups versus
+cohomology ring of flag varieties II}, J.\ Algebra \textbf{556} (2020),
+340--362. \href{https://kumar.math.unc.edu/papers/kumar81.pdf}{Author's text}.
+\bibitem{KX}
+S.~Kumar and J.~Xie, \emph{Representation ring of Levi subgroups versus
+cohomology ring of flag varieties III}, J.\ Pure Appl.\ Algebra
+\textbf{228} (2024), 107539.
+\href{https://kumar.math.unc.edu/papers/kumar86.pdf}{Author's text}.
+\bibitem{Rogers}
+S.~Rogers, \emph{An explicit determination of the Springer morphism},
+Comm.\ Algebra \textbf{46} (2018), 4233--4242.
+\href{https://arxiv.org/abs/1701.01538}{Available preprint}.
+The preprint is distinct from the final journal text.
+\bibitem{Brion}
+M.~Brion, \emph{Lectures on the geometry of flag varieties},
+\href{https://arxiv.org/abs/math/0410240}{arXiv:math/0410240}.
+\bibitem{PR}
+P.~Pragacz and J.~Ratajski, \emph{Formulas for Lagrangian and orthogonal
+degeneracy loci; \(\widetilde Q\)-polynomial approach},
+Compositio Math.\ \textbf{107} (1997), 11--87.
+\href{https://arxiv.org/abs/alg-geom/9602019}{Preprint}, especially Appendix A.
+\bibitem{PW}
+I.~Panin and C.~Walter, \emph{Quaternionic Grassmannians and Borel classes
+in algebraic geometry},
+\href{https://arxiv.org/abs/1011.0649}{arXiv:1011.0649}, Theorem 11.2.
+\bibitem{GR}
+S.~Griffeth and A.~Ram, \emph{Affine Hecke algebras and the Schubert
+calculus}, \href{https://arxiv.org/abs/math/0405333}{arXiv:math/0405333},
+especially Sections 1--4.
+\bibitem{Willems}
+M.~Willems, \emph{K-th\'eorie \'equivariante des vari\'et\'es de drapeaux
+et des vari\'et\'es de Bott--Samelson},
+\href{https://arxiv.org/abs/math/0204265}{arXiv:math/0204265}.
+\bibitem{Karpenko}
+N.~Karpenko, \emph{A remark on connective K-theory},
+\href{https://sites.ualberta.ca/~karpenko/publ/connective.pdf}{Author's text},
+especially Theorems 2.2 and 3.1.
+\bibitem{KM}
+B.~Kostant and P.~W.~Michor, \emph{The generalized Cayley map from an
+algebraic group to its Lie algebra}, in \emph{The Orbit Method in Geometry
+and Physics}, Progress in Mathematics \textbf{213} (2003), 259--296.
+\href{https://arxiv.org/abs/math/0109066}{arXiv:math/0109066}.
+\bibitem{Companions}
+\emph{Integral Springer--Borel companion proofs}, unpublished repository
+notes, internally audited October 2026:
+\record{TRACE_SOURCE_THEOREM.md}{torus source theorem};
+\record{INTEGRAL_LITERATURE.md}{normalization and source audit};
+\record{TYPE_B_GENERAL_SMITH.md}{type B multiplicities};
+\record{TYPE_D_EVEN_GLUING_THEOREM.md}{type D gluing};
+\record{TYPE_C_JOINT_AUDIT.md}{type C proof and literature audit};
+\record{PROOF_STATUS.md}{proof status}.
+These deductions have not received external expert review, and priority
+for their exact formulations has not been established.
+\bibitem{Exploration}
+\emph{Other cohomology theories and affine groups}, unpublished repository
+exploration, 22 October 2026:
+\record{OTHER_THEORIES_FINITE.md}{finite K comparison};
+\record{OTHER_THEORIES_SL3.md}{SL3 formulas};
+\record{OTHER_THEORIES_TYPE_A.md}{type A coordinate comparison};
+\record{EQUIVARIANT_IMAGE_PILOT.md}{integral specialization defect};
+\record{OTHER_THEORIES_EQUIVARIANT_K.md}{equivariant K source and determinants};
+\record{other-theories-verification.json}{bound calculation reports}.
+The general arguments and finite independent checks have different scopes;
+neither is a certificate of originality.
+\end{thebibliography}
+\end{document}

@@ -31,6 +31,65 @@ The conclusions below are based on the displayed arguments and checked
 source statements. External expert review and any claim of priority remain
 separate work.
 
+## Classical equivariant API and symplectic higher Fitting ideals
+
+The [classical backend](CLASSICAL_EQUIVARIANT.md) now evaluates defining
+SL_m literal sources on every standard partial flag in equivariant
+cohomology or K-theory. It uses published restriction formulas and
+checks actual Laurent integrality. Full integral source generators
+are enumerated only on G/B and P1; other parabolics support specified
+invariant inputs. No complete type A image-module or augmentation-kernel
+classification is claimed.
+
+The [symplectic even/odd argument](SYMPLECTIC_K_FITTING.md) identifies
+the entire defining Sp_(2n)/P1 integral cokernel, as a module over the
+source coordinate z, with R[z]/(E(z^2+4)+zO(z^2+4),2O(z^2+4)).
+Here product(s-s_i)=E(s^2)+sO(s^2). This gives an n-by-n presentation
+in all ranks, a determinantal formula for every Fitting ideal, and
+the closed last ideal (2) in odd rank and 2(e1,e3,...,e_(n-1))
+in even rank. Explicit unimodular operations give global cyclic
+decompositions for ranks one, two and three. The argument is
+elementary algebra applied to the prior literal image; the ambient
+K-theory, Fitting framework and source identification are inputs.
+There is now a uniform stronger reduction: the cokernel is two copies
+of an r-by-r block cokernel, r=floor(n/2), and an extra R/(2) if n is
+odd. The block is multiplication by 2O modulo E for even rank, or
+2E modulo O for odd rank. Monic division gives explicit integral
+unimodular equivalences; parity and translation give the two copies.
+This is an R-module splitting, not a source-coordinate module splitting.
+It explains paired Smith factors under integer and DVR specializations.
+For rank four, J=(e1,e3), F=product(s_i+s_j), the full Fitting list is
+(16F^2), 8FJ, 4J^2, 2J, then R. Higher closed formulas were unresolved
+at that stage; the subsequent Schur-minor result below advances them. The classical
+Orlando resultant identity is a known input, not a claimed new result;
+the specific image-module application has no priority determination.
+No priority or external-review claim is made.
+
+The software checks include BGG, Newton projective and line-bundle
+restrictions, an explicit nonreduced-subword sum, and comparisons
+against the original 2n projective inclusion at regular and singular
+points through rank eight, plus rank-nine ordinary augmentation.
+Independent coefficient variables give exact matrix certificates through
+rank eight and all rank-four minor-ideal identities. The proof is
+uniform; these finite checks are corroboration.
+
+The subsequent [Schur-minor argument](SYMPLECTIC_K_MINORS.md) resolves a
+uniform generator problem: for multiplication by q on A[u]/p with p
+monic, the first j columns generate the entire ideal of j-minors.
+This holds over arbitrary commutative A, by the published integral
+Schur cyclicity of exterior powers (Laksov-Thorup; Gatto-Santiago).
+It is an application of known Schubert algebra, with a full integral
+argument supplied, rather than a claim of a new exterior-power theory.
+The ideals are the content of a universal norm class in Schur coordinates.
+For the defining symplectic image this gives all-rank partition-indexed
+Fitting generators, plus complete explicit lists through ranks five,
+six and seven. The cubic lists use a three-generator two-minor ideal
+and adj(adj(H))=det(H)H to prove the required product containments.
+There are 94 exact polynomial matrix identities and 72 independent
+original-inclusion Fitting checks. Further simplification at block size
+four (n=8,9), primary arithmetic structure and full ordinary Smith
+multiplicities remain. Priority of the specific application is not established.
+
 ## Other cohomology theories and affine groups: 22 October exploration
 
 The [exploration report](OTHER_THEORIES_PROGRAM.md) records a new direction;
