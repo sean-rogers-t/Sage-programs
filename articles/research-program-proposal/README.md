@@ -181,6 +181,17 @@ native root/coroot Chevalley multiplication. Together with the existing
 maximal cases, all proper standard G2 parabolics are covered. The full
 source theorem is a shared input. Item 2 remains the next main mathematical target.
 
+The first [structural step](../../borel/E7_QUADRATIC_DERIVATION.md) is now
+recorded: a derivative-stability criterion forces the quadratic mod-two
+image and hence the uniform multiplicity polynomial. Fresh saturated
+kernel checks prove it for the E7 full flag through degree 13; unique
+primitive invariant relation multiples give a uniform proof through degree
+10 for all 112 cases. A type A model proves the same mechanism in every
+degree for SL_(2r), r odd, with an odd Levi block, independently checked
+on five complete Grassmannians. The all-degree E7 kernel-stability and
+invariant-lifting step is still missing. The previous all-degree E7
+classification retains its case/transfer proofs.
+
 ### 2. Replace the case tables with a structural mechanism
 
 Work over R=Z_(2) for E7. Let A_X=(Sym_R X_R)^(W_I),

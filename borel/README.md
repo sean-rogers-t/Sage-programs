@@ -26,6 +26,7 @@ the mathematical guide for the Borel/Springer construction.
 | What happens to the E7 root-to-weight factors at 2? | [Explicit P7 simultaneous bases and multiplicity polynomial](E7_ROOT_WEIGHT_COMPARISON.md); exponent 2 on all 64 refinements, with [proof/source audit](E7_ROOT_WEIGHT_AUDIT.md) |
 | What is proved for finer E7/P7 flags? | [Full flag and A6 transfer](E7_FULL_FLAG_COMPARISON.md), [D5 proof](E7_D5_REFINEMENT.md), [D4 completion: all 64 refinements in all degrees](E7_D4_REFINEMENT.md) |
 | What about the other E7 parabolics? | [Complete theorem for all 127 proper E7 parabolics](E7_ALL_PARABOLICS.md), including [D5+A1](E7_D5_A1_COMPARISON.md), [D4+A1](E7_D4_A1_COMPARISON.md) and the [uniform even-block formula](E7_A5_FAMILY.md) |
+| What could explain the E7 multiplicities structurally? | [Quadratic-derivation criterion, bounded 112-case proof and arbitrary-rank type A model](E7_QUADRATIC_DERIVATION.md) |
 | How do I query all E7 relative Smith factors and compare representations? | [Compressed all-parabolic API, source scaling and minimal/adjoint comparisons](E7_RELATIVE_IMAGE_API.md) |
 | Can I query all E6 relative factors, including 9 and 27? | [All 63 parabolics, representation comparisons and shared-prime scaling](E6_RELATIVE_IMAGE_API.md) |
 | What is the complete literal G2 full-flag image? | [Integral kernel, all Smith factors, API and independent Chevalley audit](G2_FULL_FLAG.md) |

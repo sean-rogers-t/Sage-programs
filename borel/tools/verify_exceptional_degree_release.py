@@ -29,7 +29,7 @@ def main():
     version=sage_borel.__version__
     regression=read('character-verification.json')
     docs=read('documentation-verification.json')
-    assert {'E6_RELATIVE_IMAGE_API.md','G2_FULL_FLAG.md'} <= {r['file'] for r in docs['documents']}
+    assert {'E6_RELATIVE_IMAGE_API.md','G2_FULL_FLAG.md','E7_QUADRATIC_DERIVATION.md'} <= {r['file'] for r in docs['documents']}
     wheel=read('geometry-wheel-verification.json')
     relative_api=read('relative-image-verification.json')
     assert relative_api['version']==version
@@ -53,6 +53,24 @@ def main():
     for record in (e6_api_summary,g2_full,g2_full_audit):
         for name,expected in record['source_sha256'].items():
             assert digest(ROOT/name)==expected,name
+    structural=[read('experiments/'+name) for name in (
+        'e7-quadratic-derivation.json','e7-quadratic-derivation-audit.json',
+        'type-a-quadratic-derivation-audit.json')]
+    assert structural[0]['maximum_degree']==structural[1]['maximum_degree']==13
+    assert structural[1]['uniform_family_maximum_degree']==10
+    assert structural[1]['uniform_family_size']==112
+    assert structural[1]['primitive_relation_odd_valuations']=={'6':2,'8':1,'10':2,'12':2}
+    for report0 in structural[:2]:
+        assert [r['degree'] for r in report0['degrees']]==list(range(14))
+        assert all(r['derivative_preserves_full_kernel'] for r in report0['degrees'])
+        assert report0['degrees'][13]['kernel_rank']==1716
+        assert report0['degrees'][13]['even_projection_rank']==1106
+    assert [c['rank'] for c in structural[2]['cases']]==[6,20,10,120,252]
+    for record in structural:
+        for key in ('source_sha256','raw_sha256'):
+            for name,expected in record.get(key,{}).items():
+                assert digest(ROOT/name)==expected,name
+    assert digest(ROOT/structural[0]['certificate_archive'])==structural[0]['certificate_archive_sha256']
     geometry=read('experiments/exceptional-degree-geometry.json')
     e6_checks=[read('experiments/'+name) for name in (
         'e6-remaining-a5.json','e6-remaining-a2a2a1.json',
@@ -415,7 +433,11 @@ def main():
         'tools/package_e7_relative_images.py','tools/verify_relative_images.py',
         'tests/test_relative_images.py','tests/data/e7_relative_audited_bases.json',
         'relative-image-verification.json',
-        'E6_RELATIVE_IMAGE_API.md','G2_FULL_FLAG.md',
+        'E6_RELATIVE_IMAGE_API.md','G2_FULL_FLAG.md','E7_QUADRATIC_DERIVATION.md',
+        'experiments/e7_quadratic_derivation.py','experiments/audit_e7_quadratic_derivation.py',
+        'experiments/e7-quadratic-derivation.json','experiments/e7-quadratic-derivation-audit.json',
+        'experiments/e7-quadratic-derivation-certificates.json.gz',
+        'experiments/audit_type_a_quadratic_derivation.py','experiments/type-a-quadratic-derivation-audit.json',
         'tools/package_e6_relative_images.py','tests/test_e6_relative_images.py',
         'tests/test_g2_full_flag.py','tests/data/e6_relative_audited_base.json',
         'experiments/summarize_e6_all_parabolics.py','experiments/e6-all-parabolics-summary.json',
@@ -425,6 +447,12 @@ def main():
         'tests/test_exceptional_degrees.py','character-verification.json',
         'documentation-verification.json','geometry-wheel-verification.json')]+[Path(__file__).resolve()]
     report=dict(result='passed',version=version,
+        structural_quadratic_derivation=dict(E7_full_flag_maximum_degree=13,
+            E7_uniform_family_size=112,E7_uniform_family_maximum_degree=10,
+            E7_uniform_all_degree_proof=False,
+            type_A_arbitrary_rank_theorem='SL_(2r), r odd, odd Levi block; 2-local',
+            type_A_independent_Grassmannian_ranks=[6,20,10,120,252],
+            runtime_unchanged=True),
         e6_relative_image_api=dict(proper_standard_parabolics=63,nonunit_factors=[3,9,27],
             certificate='experiments/e6-all-parabolics-summary.json',
             independent_verification=relative_api['E6'],abstract_relative_groups_only=True),

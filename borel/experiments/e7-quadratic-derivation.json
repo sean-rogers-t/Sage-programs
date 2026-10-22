@@ -1,0 +1,142 @@
+{
+  "result": "passed",
+  "maximum_degree": 13,
+  "full_flag_only": true,
+  "orbit_size": 56,
+  "degrees": [
+    {
+      "degree": 0,
+      "kernel_rank": 0,
+      "saturation_index_valuation": 0,
+      "even_projection_rank": 0,
+      "odd_projection_rank": 0,
+      "derivative_preserves_full_kernel": true,
+      "parity_split": true
+    },
+    {
+      "degree": 1,
+      "kernel_rank": 0,
+      "saturation_index_valuation": 0,
+      "even_projection_rank": 0,
+      "odd_projection_rank": 0,
+      "derivative_preserves_full_kernel": true,
+      "parity_split": true
+    },
+    {
+      "degree": 2,
+      "kernel_rank": 0,
+      "saturation_index_valuation": 0,
+      "even_projection_rank": 0,
+      "odd_projection_rank": 0,
+      "derivative_preserves_full_kernel": true,
+      "parity_split": true
+    },
+    {
+      "degree": 3,
+      "kernel_rank": 0,
+      "saturation_index_valuation": 0,
+      "even_projection_rank": 0,
+      "odd_projection_rank": 0,
+      "derivative_preserves_full_kernel": true,
+      "parity_split": true
+    },
+    {
+      "degree": 4,
+      "kernel_rank": 0,
+      "saturation_index_valuation": 0,
+      "even_projection_rank": 0,
+      "odd_projection_rank": 0,
+      "derivative_preserves_full_kernel": true,
+      "parity_split": true
+    },
+    {
+      "degree": 5,
+      "kernel_rank": 0,
+      "saturation_index_valuation": 0,
+      "even_projection_rank": 0,
+      "odd_projection_rank": 0,
+      "derivative_preserves_full_kernel": true,
+      "parity_split": true
+    },
+    {
+      "degree": 6,
+      "kernel_rank": 1,
+      "saturation_index_valuation": 0,
+      "even_projection_rank": 1,
+      "odd_projection_rank": 0,
+      "derivative_preserves_full_kernel": true,
+      "parity_split": true
+    },
+    {
+      "degree": 7,
+      "kernel_rank": 7,
+      "saturation_index_valuation": 0,
+      "even_projection_rank": 6,
+      "odd_projection_rank": 1,
+      "derivative_preserves_full_kernel": true,
+      "parity_split": true
+    },
+    {
+      "degree": 8,
+      "kernel_rank": 28,
+      "saturation_index_valuation": 0,
+      "even_projection_rank": 22,
+      "odd_projection_rank": 6,
+      "derivative_preserves_full_kernel": true,
+      "parity_split": true
+    },
+    {
+      "degree": 9,
+      "kernel_rank": 84,
+      "saturation_index_valuation": 0,
+      "even_projection_rank": 62,
+      "odd_projection_rank": 22,
+      "derivative_preserves_full_kernel": true,
+      "parity_split": true
+    },
+    {
+      "degree": 10,
+      "kernel_rank": 210,
+      "saturation_index_valuation": 0,
+      "even_projection_rank": 148,
+      "odd_projection_rank": 62,
+      "derivative_preserves_full_kernel": true,
+      "parity_split": true
+    },
+    {
+      "degree": 11,
+      "kernel_rank": 462,
+      "saturation_index_valuation": 1,
+      "even_projection_rank": 314,
+      "odd_projection_rank": 148,
+      "derivative_preserves_full_kernel": true,
+      "parity_split": true
+    },
+    {
+      "degree": 12,
+      "kernel_rank": 924,
+      "saturation_index_valuation": 8,
+      "even_projection_rank": 610,
+      "odd_projection_rank": 314,
+      "derivative_preserves_full_kernel": true,
+      "parity_split": true
+    },
+    {
+      "degree": 13,
+      "kernel_rank": 1716,
+      "saturation_index_valuation": 35,
+      "even_projection_rank": 1106,
+      "odd_projection_rank": 610,
+      "derivative_preserves_full_kernel": true,
+      "parity_split": true
+    }
+  ],
+  "seconds": 230.314,
+  "scope": "Derivation and parity splitting on the actual integral full-flag kernel through degree 13, without relative Smith counts. No all-degree or bad-Levi invariant-lifting conclusion.",
+  "certificate_archive": "experiments/e7-quadratic-derivation-certificates.json.gz",
+  "certificate_archive_sha256": "cf65b5ee8ddd8f27bdfd32c0d1d3a6a85bc5c86f922ab703a8b723c98e41a1f5",
+  "source_sha256": {
+    "experiments/e7_quadratic_derivation.py": "22c9ea379f7feba43ee290ed7befbe16ae899fa2b9511b5d6329bebe01841440",
+    "experiments/e7_full_flag_kernel.py": "c45140aa3d176d34ebc63b9faf638c6fdae192f8a2ff23bf31bf38cbbb8ee8a3"
+  }
+}

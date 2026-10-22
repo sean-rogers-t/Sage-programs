@@ -31,6 +31,35 @@ The conclusions below are based on the displayed arguments and checked
 source statements. External expert review and any claim of priority remain
 separate work.
 
+## Structural E7 multiplicities: scope of the new argument
+
+The [quadratic-derivation note](E7_QUADRATIC_DERIVATION.md) isolates a
+general kernel-stability criterion for the specified quadratic
+presentation of N/2N over the reduced actual root image. The common E7
+quadratic lift alone does not imply this criterion; an explicit algebra
+counterexample is included.
+
+Fresh primitive kernel columns prove the criterion through degree 10
+uniformly for all 112 retained subsets with a fixed odd weight. The
+integral relation expression is unique in that range, which justifies
+passing to Levi invariants. The full-flag calculation separately reaches
+degree 13, including saturated half-sums. Its independent audit uses
+27 E6 forms rather than the primary Weyl orbit and its own exact bit
+membership arithmetic. It reads no relative multiplicity table.
+
+The same criterion gives an arbitrary-rank theorem for SL_(2r), r odd,
+with at least one odd Levi block, over Z_(2): the usual integral Chern
+presentation supplies full source/image and all-degree kernel stability.
+Five complete Grassmannian images are independently checked by native
+Schur/Pieri multiplication closure. This is a deduction from published
+type A presentations, not a priority claim. It concerns 2-primary factors.
+
+A uniform all-degree E7 kernel-stability and invariant-lifting proof is
+still missing. Its all-degree multiplicity theorem retains the earlier
+case/transfer proofs. Constructing the derivation from that theorem's
+dimension count is valid as a corollary but would not independently
+explain the counts. Runtime/API version remains 0.22.0.
+
 ## All-parabolic E7 API packaging
 
 Version 0.22 also packages the existing complete E6 classification in the
