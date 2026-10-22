@@ -1,0 +1,280 @@
+{
+  "result": "passed",
+  "scope": "Full image comparison in every recorded degree. N uses complete components; M uses complete components through 27, then a lower-image/full-weight-image equality. No unbounded source-generation assumption.",
+  "max_degree": 33,
+  "complete": true,
+  "source_degree_bounds": {
+    "N": 33,
+    "M": 27
+  },
+  "retained_nodes": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "dimension": 33,
+  "total_rank": 126,
+  "first_nonroot_weight_image": {
+    "degree": 8,
+    "source_column": 0,
+    "integral_weight_invariant": "80*z^8 - 252*z^7*c1 + 352*z^6*c1^2 - 275*z^5*c1^3 + 125*z^4*c1^4 - 30*z^3*c1^5 + 3*z^2*c1^6 - 100*z^6*c2 + 204*z^5*c1*c2 - 161*z^4*c1^2*c2 + 50*z^3*c1^3*c2 - 6*z^2*c1^4*c2 + 12*z^4*c2^2 + 4*z^3*c1*c2^2 - z^2*c1^2*c2^2 + 176*z^5*c3 - 412*z^4*c1*c3 + 388*z^3*c1^2*c3 - 169*z^2*c1^3*c3 + 36*z*c1^4*c3 - 3*c1^5*c3 - 44*z^3*c2*c3 + 4*z^2*c1*c2*c3 + z*c1^2*c2*c3 + 32*z^2*c3^2 - 8*z*c1*c3^2 - 4*z^3*c1*c4 - z*c1^3*c4 + 16*z^2*c2*c4 - 30*z*c3*c4 + 7*c1*c3*c4 + c4^2 + 120*z^3*c5 - 146*z^2*c1*c5 + 53*z*c1^2*c5 - 5*c1^3*c5 + 24*z*c2*c5 - 12*c1*c2*c5 + 6*c3*c5 - 60*z^2*c6 + 24*z*c1*c6",
+    "borel_normal_form": "25/256*v4^2 + 1871/768*h^2*v6 - 83/6*h^2*p6 + 285/256*v8",
+    "root_basis_coordinates": [
+      "-767/6",
+      "-449/3",
+      "-332/3",
+      "1871/6"
+    ],
+    "nonzero_relative_class_of_order": 2
+  },
+  "degrees": [
+    {
+      "degree": 1,
+      "rank": 1,
+      "smith_multiplicities": {},
+      "root_image_completeness": "complete source component"
+    },
+    {
+      "degree": 2,
+      "rank": 1,
+      "smith_multiplicities": {},
+      "root_image_completeness": "complete source component"
+    },
+    {
+      "degree": 3,
+      "rank": 1,
+      "smith_multiplicities": {},
+      "root_image_completeness": "complete source component"
+    },
+    {
+      "degree": 4,
+      "rank": 2,
+      "smith_multiplicities": {},
+      "root_image_completeness": "complete source component"
+    },
+    {
+      "degree": 5,
+      "rank": 2,
+      "smith_multiplicities": {},
+      "root_image_completeness": "complete source component"
+    },
+    {
+      "degree": 6,
+      "rank": 3,
+      "smith_multiplicities": {},
+      "root_image_completeness": "complete source component"
+    },
+    {
+      "degree": 7,
+      "rank": 3,
+      "smith_multiplicities": {},
+      "root_image_completeness": "complete source component"
+    },
+    {
+      "degree": 8,
+      "rank": 4,
+      "smith_multiplicities": {
+        "1": 1
+      },
+      "root_image_completeness": "complete source component"
+    },
+    {
+      "degree": 9,
+      "rank": 4,
+      "smith_multiplicities": {
+        "1": 1
+      },
+      "root_image_completeness": "complete source component"
+    },
+    {
+      "degree": 10,
+      "rank": 5,
+      "smith_multiplicities": {
+        "1": 1
+      },
+      "root_image_completeness": "complete source component"
+    },
+    {
+      "degree": 11,
+      "rank": 5,
+      "smith_multiplicities": {
+        "1": 1
+      },
+      "root_image_completeness": "complete source component"
+    },
+    {
+      "degree": 12,
+      "rank": 6,
+      "smith_multiplicities": {
+        "1": 2
+      },
+      "root_image_completeness": "complete source component"
+    },
+    {
+      "degree": 13,
+      "rank": 6,
+      "smith_multiplicities": {
+        "1": 2
+      },
+      "root_image_completeness": "complete source component"
+    },
+    {
+      "degree": 14,
+      "rank": 6,
+      "smith_multiplicities": {
+        "1": 2
+      },
+      "root_image_completeness": "complete source component"
+    },
+    {
+      "degree": 15,
+      "rank": 6,
+      "smith_multiplicities": {
+        "1": 2
+      },
+      "root_image_completeness": "complete source component"
+    },
+    {
+      "degree": 16,
+      "rank": 7,
+      "smith_multiplicities": {
+        "1": 2
+      },
+      "root_image_completeness": "complete source component"
+    },
+    {
+      "degree": 17,
+      "rank": 7,
+      "smith_multiplicities": {
+        "1": 2
+      },
+      "root_image_completeness": "complete source component"
+    },
+    {
+      "degree": 18,
+      "rank": 6,
+      "smith_multiplicities": {
+        "1": 2
+      },
+      "root_image_completeness": "complete source component"
+    },
+    {
+      "degree": 19,
+      "rank": 6,
+      "smith_multiplicities": {
+        "1": 2
+      },
+      "root_image_completeness": "complete source component"
+    },
+    {
+      "degree": 20,
+      "rank": 6,
+      "smith_multiplicities": {
+        "1": 3
+      },
+      "root_image_completeness": "complete source component"
+    },
+    {
+      "degree": 21,
+      "rank": 6,
+      "smith_multiplicities": {
+        "1": 3
+      },
+      "root_image_completeness": "complete source component"
+    },
+    {
+      "degree": 22,
+      "rank": 5,
+      "smith_multiplicities": {
+        "1": 2
+      },
+      "root_image_completeness": "complete source component"
+    },
+    {
+      "degree": 23,
+      "rank": 5,
+      "smith_multiplicities": {
+        "1": 2
+      },
+      "root_image_completeness": "complete source component"
+    },
+    {
+      "degree": 24,
+      "rank": 4,
+      "smith_multiplicities": {
+        "1": 1
+      },
+      "root_image_completeness": "complete source component"
+    },
+    {
+      "degree": 25,
+      "rank": 4,
+      "smith_multiplicities": {
+        "1": 1
+      },
+      "root_image_completeness": "complete source component"
+    },
+    {
+      "degree": 26,
+      "rank": 3,
+      "smith_multiplicities": {
+        "1": 1
+      },
+      "root_image_completeness": "complete source component"
+    },
+    {
+      "degree": 27,
+      "rank": 3,
+      "smith_multiplicities": {
+        "1": 1
+      },
+      "root_image_completeness": "complete source component"
+    },
+    {
+      "degree": 28,
+      "rank": 2,
+      "smith_multiplicities": {},
+      "root_image_completeness": "root-generator lower image equals full weight image"
+    },
+    {
+      "degree": 29,
+      "rank": 2,
+      "smith_multiplicities": {},
+      "root_image_completeness": "root-generator lower image equals full weight image"
+    },
+    {
+      "degree": 30,
+      "rank": 1,
+      "smith_multiplicities": {},
+      "root_image_completeness": "root-generator lower image equals full weight image"
+    },
+    {
+      "degree": 31,
+      "rank": 1,
+      "smith_multiplicities": {},
+      "root_image_completeness": "root-generator lower image equals full weight image"
+    },
+    {
+      "degree": 32,
+      "rank": 1,
+      "smith_multiplicities": {},
+      "root_image_completeness": "root-generator lower image equals full weight image"
+    },
+    {
+      "degree": 33,
+      "rank": 1,
+      "smith_multiplicities": {},
+      "root_image_completeness": "root-generator lower image equals full weight image"
+    }
+  ],
+  "seconds": 27.087,
+  "certificate_archive": "experiments/e7-d6-images-certificates.json.gz",
+  "certificate_archive_sha256": "90ff12d8c75e942433fdea48343824fc9616873a3e8fe267aa6e03e0a12c4899",
+  "source_sha256": {
+    "experiments/e7_d6_images.py": "666b3126565047b8a5b044c652f11683dbca78834b6a1220465b3961104068c9",
+    "experiments/e7-d6-sources.json": "689f017051f0479bec9355e54c03a1dde58bc5b35d95725ad8d0694d02e947fc"
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "result": "passed",
+  "retained_nodes": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "parabolic": "E7/P1",
+  "levi_type": "D6",
+  "dimension": 33,
+  "schubert_rank": 126,
+  "multiplicity_coefficients": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    3,
+    3,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "multiplicity_polynomial": "q**8*(q + 1)*(q**18 + q**16 + 2*q**14 + 3*q**12 + 2*q**10 + 2*q**8 + 2*q**6 + 2*q**4 + q**2 + 1)",
+  "total_relative_factors_2": 34,
+  "first_nonzero_degree": 8,
+  "last_nonzero_degree": 27,
+  "relative_exponent": 2,
+  "source_degree_bounds": {
+    "N": 33,
+    "M": 27
+  },
+  "bounded_N_generator_degrees": [
+    1,
+    2,
+    4,
+    6,
+    6,
+    8,
+    8,
+    10,
+    10,
+    12,
+    12,
+    14,
+    16
+  ],
+  "proper_parabolics_settled": 113,
+  "other_proper_parabolics_remaining": [
+    [
+      2,
+      5,
+      7
+    ],
+    [
+      1,
+      2,
+      5,
+      7
+    ],
+    [
+      2,
+      3,
+      5,
+      7
+    ],
+    [
+      2,
+      4,
+      5,
+      7
+    ],
+    [
+      2,
+      5,
+      6,
+      7
+    ],
+    [
+      1,
+      2,
+      3,
+      5,
+      7
+    ],
+    [
+      1,
+      2,
+      4,
+      5,
+      7
+    ],
+    [
+      1,
+      2,
+      5,
+      6,
+      7
+    ],
+    [
+      2,
+      3,
+      4,
+      5,
+      7
+    ],
+    [
+      2,
+      3,
+      5,
+      6,
+      7
+    ],
+    [
+      2,
+      4,
+      5,
+      6,
+      7
+    ],
+    [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7
+    ],
+    [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7
+    ],
+    [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7
+    ]
+  ],
+  "remaining_distinct_Weyl_conjugacy_classes": 10,
+  "full_unbounded_source_generation_claim": false,
+  "scope": "Computer-assisted all-degree relative image theorem on E7/P1 only, with full components in the required bounds and equality sandwich above degree 27. Four independently checked Weyl conjugacies reduce the other 14 diagrams to ten distinct cases; their formulas remain unresolved here. Classical Borel and Weyl-invariant inputs are separated. No ambient-image classification, structural explanation or novelty claim.",
+  "source_sha256": {
+    "experiments/summarize_e7_d6.py": "41f3a793a305294e4da7ef9227060333e0d42de841274766d3c9bc4a335c2db1",
+    "experiments/e7-d6-sources.json": "689f017051f0479bec9355e54c03a1dde58bc5b35d95725ad8d0694d02e947fc",
+    "experiments/e7-d6-sources-audit.json": "2079712a7c234c0f177b0c2fc62c8130ecf891dce379f1cbffb3b6949cd76519",
+    "experiments/e7-d6-images.json": "15975f9d33f31648c300fa11ef2dfb856139ca47664b4af9a01189e8036178b4",
+    "experiments/e7-d6-images-audit.json": "4c4c74c9ec9901ccf642abea188f4f7023e30e27414f70a68a45aa2661eadce7",
+    "experiments/e7-d6-moments-audit.json": "0395bd9ce563306bbdbeaf852c369435b947f57da44a4f3943c424ca9461e8c4",
+    "experiments/e7-remaining-conjugacy.json": "e2c9894eb55fc6276ba7cd8f9cd8d8fad5ce7b1220b0bbe01a1af66f2e9c406a",
+    "experiments/e7-remaining-conjugacy-audit.json": "973f08e279d6964b78a66326ff718c97d3ea518227f1a1bb26c75878b058f0ca",
+    "experiments/e7-d5a1-degree-two.json": "07fc4cf3077c92af50746b69cfb3e02c3b8943cd1db41ba7831ec46b92cec080",
+    "experiments/e7-d5a1-degree-two-audit.json": "d614bfd43c540c67525d50cd0919a346e2b6c170d0d96fa82c7c5fb2b688b797",
+    "experiments/e7-d4-summary.json": "98eeaee39e73a2c73eaae6fc409ca5de34f0433acd136b322b77e15ad06b6413"
+  },
+  "partial_D5_A1": {
+    "retained_nodes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7
+    ],
+    "first_nonzero_relative_degree": 2,
+    "relative_group_in_degree_two": "Z/2",
+    "higher_multiplicities_unresolved": true
+  },
+  "first_gap_not_determined_by_degree_one_equality": true
+}

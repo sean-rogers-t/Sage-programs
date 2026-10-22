@@ -1,0 +1,500 @@
+{
+  "result": "passed",
+  "engine": "Native Python/python-flint: independently constructed Newton identities, exact integer matrix products and own GF(2) bit ranks. The full-rank identity F C=A implies the rational basis change is nonsingular. No Sage or project imports.",
+  "max_degree": 33,
+  "source_degree_bounds": {
+    "N": 33,
+    "M": 27
+  },
+  "degrees": [
+    {
+      "source": "N",
+      "degree": 1,
+      "rank": 1,
+      "integral_invariant_identity": true,
+      "rational_basis": true,
+      "primitive_mod2": true
+    },
+    {
+      "source": "N",
+      "degree": 2,
+      "rank": 2,
+      "integral_invariant_identity": true,
+      "rational_basis": true,
+      "primitive_mod2": true
+    },
+    {
+      "source": "N",
+      "degree": 3,
+      "rank": 2,
+      "integral_invariant_identity": true,
+      "rational_basis": true,
+      "primitive_mod2": true
+    },
+    {
+      "source": "N",
+      "degree": 4,
+      "rank": 4,
+      "integral_invariant_identity": true,
+      "rational_basis": true,
+      "primitive_mod2": true
+    },
+    {
+      "source": "N",
+      "degree": 5,
+      "rank": 4,
+      "integral_invariant_identity": true,
+      "rational_basis": true,
+      "primitive_mod2": true
+    },
+    {
+      "source": "N",
+      "degree": 6,
+      "rank": 8,
+      "integral_invariant_identity": true,
+      "rational_basis": true,
+      "primitive_mod2": true
+    },
+    {
+      "source": "N",
+      "degree": 7,
+      "rank": 8,
+      "integral_invariant_identity": true,
+      "rational_basis": true,
+      "primitive_mod2": true
+    },
+    {
+      "source": "N",
+      "degree": 8,
+      "rank": 14,
+      "integral_invariant_identity": true,
+      "rational_basis": true,
+      "primitive_mod2": true
+    },
+    {
+      "source": "N",
+      "degree": 9,
+      "rank": 14,
+      "integral_invariant_identity": true,
+      "rational_basis": true,
+      "primitive_mod2": true
+    },
+    {
+      "source": "N",
+      "degree": 10,
+      "rank": 23,
+      "integral_invariant_identity": true,
+      "rational_basis": true,
+      "primitive_mod2": true
+    },
+    {
+      "source": "N",
+      "degree": 11,
+      "rank": 23,
+      "integral_invariant_identity": true,
+      "rational_basis": true,
+      "primitive_mod2": true
+    },
+    {
+      "source": "N",
+      "degree": 12,
+      "rank": 37,
+      "integral_invariant_identity": true,
+      "rational_basis": true,
+      "primitive_mod2": true
+    },
+    {
+      "source": "N",
+      "degree": 13,
+      "rank": 37,
+      "integral_invariant_identity": true,
+      "rational_basis": true,
+      "primitive_mod2": true
+    },
+    {
+      "source": "N",
+      "degree": 14,
+      "rank": 56,
+      "integral_invariant_identity": true,
+      "rational_basis": true,
+      "primitive_mod2": true
+    },
+    {
+      "source": "N",
+      "degree": 15,
+      "rank": 56,
+      "integral_invariant_identity": true,
+      "rational_basis": true,
+      "primitive_mod2": true
+    },
+    {
+      "source": "N",
+      "degree": 16,
+      "rank": 83,
+      "integral_invariant_identity": true,
+      "rational_basis": true,
+      "primitive_mod2": true
+    },
+    {
+      "source": "N",
+      "degree": 17,
+      "rank": 83,
+      "integral_invariant_identity": true,
+      "rational_basis": true,
+      "primitive_mod2": true
+    },
+    {
+      "source": "N",
+      "degree": 18,
+      "rank": 120,
+      "integral_invariant_identity": true,
+      "rational_basis": true,
+      "primitive_mod2": true
+    },
+    {
+      "source": "N",
+      "degree": 19,
+      "rank": 120,
+      "integral_invariant_identity": true,
+      "rational_basis": true,
+      "primitive_mod2": true
+    },
+    {
+      "source": "N",
+      "degree": 20,
+      "rank": 169,
+      "integral_invariant_identity": true,
+      "rational_basis": true,
+      "primitive_mod2": true
+    },
+    {
+      "source": "N",
+      "degree": 21,
+      "rank": 169,
+      "integral_invariant_identity": true,
+      "rational_basis": true,
+      "primitive_mod2": true
+    },
+    {
+      "source": "N",
+      "degree": 22,
+      "rank": 233,
+      "integral_invariant_identity": true,
+      "rational_basis": true,
+      "primitive_mod2": true
+    },
+    {
+      "source": "N",
+      "degree": 23,
+      "rank": 233,
+      "integral_invariant_identity": true,
+      "rational_basis": true,
+      "primitive_mod2": true
+    },
+    {
+      "source": "N",
+      "degree": 24,
+      "rank": 317,
+      "integral_invariant_identity": true,
+      "rational_basis": true,
+      "primitive_mod2": true
+    },
+    {
+      "source": "N",
+      "degree": 25,
+      "rank": 317,
+      "integral_invariant_identity": true,
+      "rational_basis": true,
+      "primitive_mod2": true
+    },
+    {
+      "source": "N",
+      "degree": 26,
+      "rank": 423,
+      "integral_invariant_identity": true,
+      "rational_basis": true,
+      "primitive_mod2": true
+    },
+    {
+      "source": "N",
+      "degree": 27,
+      "rank": 423,
+      "integral_invariant_identity": true,
+      "rational_basis": true,
+      "primitive_mod2": true
+    },
+    {
+      "source": "N",
+      "degree": 28,
+      "rank": 557,
+      "integral_invariant_identity": true,
+      "rational_basis": true,
+      "primitive_mod2": true
+    },
+    {
+      "source": "N",
+      "degree": 29,
+      "rank": 557,
+      "integral_invariant_identity": true,
+      "rational_basis": true,
+      "primitive_mod2": true
+    },
+    {
+      "source": "N",
+      "degree": 30,
+      "rank": 725,
+      "integral_invariant_identity": true,
+      "rational_basis": true,
+      "primitive_mod2": true
+    },
+    {
+      "source": "N",
+      "degree": 31,
+      "rank": 725,
+      "integral_invariant_identity": true,
+      "rational_basis": true,
+      "primitive_mod2": true
+    },
+    {
+      "source": "N",
+      "degree": 32,
+      "rank": 932,
+      "integral_invariant_identity": true,
+      "rational_basis": true,
+      "primitive_mod2": true
+    },
+    {
+      "source": "N",
+      "degree": 33,
+      "rank": 932,
+      "integral_invariant_identity": true,
+      "rational_basis": true,
+      "primitive_mod2": true
+    },
+    {
+      "source": "M",
+      "degree": 1,
+      "rank": 1,
+      "integral_invariant_identity": true,
+      "rational_basis": true,
+      "primitive_mod2": true
+    },
+    {
+      "source": "M",
+      "degree": 2,
+      "rank": 2,
+      "integral_invariant_identity": true,
+      "rational_basis": true,
+      "primitive_mod2": true
+    },
+    {
+      "source": "M",
+      "degree": 3,
+      "rank": 2,
+      "integral_invariant_identity": true,
+      "rational_basis": true,
+      "primitive_mod2": true
+    },
+    {
+      "source": "M",
+      "degree": 4,
+      "rank": 4,
+      "integral_invariant_identity": true,
+      "rational_basis": true,
+      "primitive_mod2": true
+    },
+    {
+      "source": "M",
+      "degree": 5,
+      "rank": 4,
+      "integral_invariant_identity": true,
+      "rational_basis": true,
+      "primitive_mod2": true
+    },
+    {
+      "source": "M",
+      "degree": 6,
+      "rank": 8,
+      "integral_invariant_identity": true,
+      "rational_basis": true,
+      "primitive_mod2": true
+    },
+    {
+      "source": "M",
+      "degree": 7,
+      "rank": 8,
+      "integral_invariant_identity": true,
+      "rational_basis": true,
+      "primitive_mod2": true
+    },
+    {
+      "source": "M",
+      "degree": 8,
+      "rank": 14,
+      "integral_invariant_identity": true,
+      "rational_basis": true,
+      "primitive_mod2": true
+    },
+    {
+      "source": "M",
+      "degree": 9,
+      "rank": 14,
+      "integral_invariant_identity": true,
+      "rational_basis": true,
+      "primitive_mod2": true
+    },
+    {
+      "source": "M",
+      "degree": 10,
+      "rank": 23,
+      "integral_invariant_identity": true,
+      "rational_basis": true,
+      "primitive_mod2": true
+    },
+    {
+      "source": "M",
+      "degree": 11,
+      "rank": 23,
+      "integral_invariant_identity": true,
+      "rational_basis": true,
+      "primitive_mod2": true
+    },
+    {
+      "source": "M",
+      "degree": 12,
+      "rank": 37,
+      "integral_invariant_identity": true,
+      "rational_basis": true,
+      "primitive_mod2": true
+    },
+    {
+      "source": "M",
+      "degree": 13,
+      "rank": 37,
+      "integral_invariant_identity": true,
+      "rational_basis": true,
+      "primitive_mod2": true
+    },
+    {
+      "source": "M",
+      "degree": 14,
+      "rank": 56,
+      "integral_invariant_identity": true,
+      "rational_basis": true,
+      "primitive_mod2": true
+    },
+    {
+      "source": "M",
+      "degree": 15,
+      "rank": 56,
+      "integral_invariant_identity": true,
+      "rational_basis": true,
+      "primitive_mod2": true
+    },
+    {
+      "source": "M",
+      "degree": 16,
+      "rank": 83,
+      "integral_invariant_identity": true,
+      "rational_basis": true,
+      "primitive_mod2": true
+    },
+    {
+      "source": "M",
+      "degree": 17,
+      "rank": 83,
+      "integral_invariant_identity": true,
+      "rational_basis": true,
+      "primitive_mod2": true
+    },
+    {
+      "source": "M",
+      "degree": 18,
+      "rank": 120,
+      "integral_invariant_identity": true,
+      "rational_basis": true,
+      "primitive_mod2": true
+    },
+    {
+      "source": "M",
+      "degree": 19,
+      "rank": 120,
+      "integral_invariant_identity": true,
+      "rational_basis": true,
+      "primitive_mod2": true
+    },
+    {
+      "source": "M",
+      "degree": 20,
+      "rank": 169,
+      "integral_invariant_identity": true,
+      "rational_basis": true,
+      "primitive_mod2": true
+    },
+    {
+      "source": "M",
+      "degree": 21,
+      "rank": 169,
+      "integral_invariant_identity": true,
+      "rational_basis": true,
+      "primitive_mod2": true
+    },
+    {
+      "source": "M",
+      "degree": 22,
+      "rank": 233,
+      "integral_invariant_identity": true,
+      "rational_basis": true,
+      "primitive_mod2": true
+    },
+    {
+      "source": "M",
+      "degree": 23,
+      "rank": 233,
+      "integral_invariant_identity": true,
+      "rational_basis": true,
+      "primitive_mod2": true
+    },
+    {
+      "source": "M",
+      "degree": 24,
+      "rank": 317,
+      "integral_invariant_identity": true,
+      "rational_basis": true,
+      "primitive_mod2": true
+    },
+    {
+      "source": "M",
+      "degree": 25,
+      "rank": 317,
+      "integral_invariant_identity": true,
+      "rational_basis": true,
+      "primitive_mod2": true
+    },
+    {
+      "source": "M",
+      "degree": 26,
+      "rank": 423,
+      "integral_invariant_identity": true,
+      "rational_basis": true,
+      "primitive_mod2": true
+    },
+    {
+      "source": "M",
+      "degree": 27,
+      "rank": 423,
+      "integral_invariant_identity": true,
+      "rational_basis": true,
+      "primitive_mod2": true
+    }
+  ],
+  "seconds": 251.919,
+  "scope": "Full localized invariant components in every recorded degree; no unbounded algebra-generation claim.",
+  "source_sha256": {
+    "experiments/audit_e7_d6_sources.py": "62a0336a91026cfcd2fb99fb98610c62a76f496906200619ea2369a6983c630f",
+    "experiments/e7-d6-sources.json": "689f017051f0479bec9355e54c03a1dde58bc5b35d95725ad8d0694d02e947fc"
+  },
+  "raw_sha256": {
+    "experiments/e7-d6-sources-certificates.json.gz": "4f1b87e24e28270c7fb83a9789dfaa2bf421ead9427b6386ebcf5a1767071d0b"
+  }
+}

@@ -1,0 +1,473 @@
+{
+  "result": "passed",
+  "complete": false,
+  "top_polynomial_degree": 50,
+  "total_rank": 7560,
+  "degrees": [
+    {
+      "degree": 1,
+      "rank": 2,
+      "smith_multiplicities": {},
+      "full_root_image_proved": true,
+      "refinement_intersection_multiplicity": 0
+    },
+    {
+      "degree": 2,
+      "rank": 4,
+      "smith_multiplicities": {
+        "1": 1
+      },
+      "full_root_image_proved": true,
+      "refinement_intersection_multiplicity": 1
+    },
+    {
+      "degree": 3,
+      "rank": 6,
+      "smith_multiplicities": {
+        "1": 2
+      },
+      "full_root_image_proved": true,
+      "refinement_intersection_multiplicity": 2
+    },
+    {
+      "degree": 4,
+      "rank": 11,
+      "smith_multiplicities": {
+        "1": 3
+      },
+      "full_root_image_proved": true,
+      "refinement_intersection_multiplicity": 3
+    },
+    {
+      "degree": 5,
+      "rank": 16,
+      "smith_multiplicities": {
+        "1": 5
+      },
+      "full_root_image_proved": true,
+      "refinement_intersection_multiplicity": 5
+    },
+    {
+      "degree": 6,
+      "rank": 24,
+      "smith_multiplicities": {
+        "1": 8
+      },
+      "full_root_image_proved": true,
+      "refinement_intersection_multiplicity": 8
+    },
+    {
+      "degree": 7,
+      "rank": 32,
+      "smith_multiplicities": {
+        "1": 12
+      },
+      "full_root_image_proved": true,
+      "refinement_intersection_multiplicity": 12
+    },
+    {
+      "degree": 8,
+      "rank": 45,
+      "smith_multiplicities": {
+        "1": 17
+      },
+      "full_root_image_proved": true,
+      "refinement_intersection_multiplicity": 17
+    },
+    {
+      "degree": 9,
+      "rank": 58,
+      "smith_multiplicities": {
+        "1": 22
+      },
+      "full_root_image_proved": true,
+      "refinement_intersection_multiplicity": 22
+    },
+    {
+      "degree": 10,
+      "rank": 75,
+      "smith_multiplicities": {
+        "1": 30
+      },
+      "full_root_image_proved": true,
+      "refinement_intersection_multiplicity": 30
+    },
+    {
+      "degree": 11,
+      "rank": 92,
+      "smith_multiplicities": {
+        "1": 39
+      },
+      "full_root_image_proved": true,
+      "refinement_intersection_multiplicity": 39
+    },
+    {
+      "degree": 12,
+      "rank": 114,
+      "smith_multiplicities": {
+        "1": 48
+      },
+      "full_root_image_proved": true,
+      "refinement_intersection_multiplicity": 48
+    },
+    {
+      "degree": 13,
+      "rank": 136,
+      "smith_multiplicities": {
+        "1": 59
+      },
+      "full_root_image_proved": true,
+      "refinement_intersection_multiplicity": 58
+    },
+    {
+      "degree": 14,
+      "rank": 160,
+      "smith_multiplicities": {
+        "1": 70
+      },
+      "full_root_image_proved": true,
+      "refinement_intersection_multiplicity": 69
+    },
+    {
+      "degree": 15,
+      "rank": 184,
+      "smith_multiplicities": {
+        "1": 84
+      },
+      "full_root_image_proved": true,
+      "refinement_intersection_multiplicity": 82
+    },
+    {
+      "degree": 16,
+      "rank": 210,
+      "smith_multiplicities": {
+        "1": 94
+      },
+      "full_root_image_proved": true,
+      "refinement_intersection_multiplicity": 93
+    },
+    {
+      "degree": 17,
+      "rank": 236,
+      "smith_multiplicities": {
+        "1": 106
+      },
+      "full_root_image_proved": false,
+      "refinement_intersection_multiplicity": 104
+    },
+    {
+      "degree": 18,
+      "rank": 259,
+      "smith_multiplicities": {
+        "1": 119
+      },
+      "full_root_image_proved": false,
+      "refinement_intersection_multiplicity": 118
+    },
+    {
+      "degree": 19,
+      "rank": 282,
+      "smith_multiplicities": {
+        "1": 134
+      },
+      "full_root_image_proved": false,
+      "refinement_intersection_multiplicity": 131
+    },
+    {
+      "degree": 20,
+      "rank": 302,
+      "smith_multiplicities": {
+        "1": 142
+      },
+      "full_root_image_proved": false,
+      "refinement_intersection_multiplicity": 139
+    },
+    {
+      "degree": 21,
+      "rank": 322,
+      "smith_multiplicities": {
+        "1": 151
+      },
+      "full_root_image_proved": false,
+      "refinement_intersection_multiplicity": 146
+    },
+    {
+      "degree": 22,
+      "rank": 334,
+      "smith_multiplicities": {
+        "1": 159
+      },
+      "full_root_image_proved": false,
+      "refinement_intersection_multiplicity": 157
+    },
+    {
+      "degree": 23,
+      "rank": 346,
+      "smith_multiplicities": {
+        "1": 168
+      },
+      "full_root_image_proved": false,
+      "refinement_intersection_multiplicity": 164
+    },
+    {
+      "degree": 24,
+      "rank": 351,
+      "smith_multiplicities": {
+        "1": 170
+      },
+      "full_root_image_proved": false,
+      "refinement_intersection_multiplicity": 167
+    },
+    {
+      "degree": 25,
+      "rank": 356,
+      "smith_multiplicities": {
+        "1": 169
+      },
+      "full_root_image_proved": false,
+      "refinement_intersection_multiplicity": 164
+    },
+    {
+      "degree": 26,
+      "rank": 351,
+      "smith_multiplicities": {
+        "1": 172
+      },
+      "full_root_image_proved": false,
+      "refinement_intersection_multiplicity": 170
+    },
+    {
+      "degree": 27,
+      "rank": 346,
+      "smith_multiplicities": {
+        "1": 170
+      },
+      "full_root_image_proved": false,
+      "refinement_intersection_multiplicity": 167
+    },
+    {
+      "degree": 28,
+      "rank": 334,
+      "smith_multiplicities": {
+        "1": 166
+      },
+      "full_root_image_proved": false,
+      "refinement_intersection_multiplicity": 164
+    },
+    {
+      "degree": 29,
+      "rank": 322,
+      "smith_multiplicities": {
+        "1": 156
+      },
+      "full_root_image_proved": false,
+      "refinement_intersection_multiplicity": 152
+    },
+    {
+      "degree": 30,
+      "rank": 302,
+      "smith_multiplicities": {
+        "1": 153
+      },
+      "full_root_image_proved": false,
+      "refinement_intersection_multiplicity": 151
+    },
+    {
+      "degree": 31,
+      "rank": 282,
+      "smith_multiplicities": {
+        "1": 141
+      },
+      "full_root_image_proved": false,
+      "refinement_intersection_multiplicity": 139
+    },
+    {
+      "degree": 32,
+      "rank": 259,
+      "smith_multiplicities": {
+        "1": 131
+      },
+      "full_root_image_proved": true,
+      "refinement_intersection_multiplicity": 131
+    },
+    {
+      "degree": 33,
+      "rank": 236,
+      "smith_multiplicities": {
+        "1": 114
+      },
+      "full_root_image_proved": false,
+      "refinement_intersection_multiplicity": 113
+    },
+    {
+      "degree": 34,
+      "rank": 210,
+      "smith_multiplicities": {
+        "1": 110
+      },
+      "full_root_image_proved": false,
+      "refinement_intersection_multiplicity": 108
+    },
+    {
+      "degree": 35,
+      "rank": 184,
+      "smith_multiplicities": {
+        "1": 94
+      },
+      "full_root_image_proved": false,
+      "refinement_intersection_multiplicity": 92
+    },
+    {
+      "degree": 36,
+      "rank": 160,
+      "smith_multiplicities": {
+        "1": 83
+      },
+      "full_root_image_proved": false,
+      "refinement_intersection_multiplicity": 82
+    },
+    {
+      "degree": 37,
+      "rank": 136,
+      "smith_multiplicities": {
+        "1": 66
+      },
+      "full_root_image_proved": true,
+      "refinement_intersection_multiplicity": 66
+    },
+    {
+      "degree": 38,
+      "rank": 114,
+      "smith_multiplicities": {
+        "1": 61
+      },
+      "full_root_image_proved": false,
+      "refinement_intersection_multiplicity": 60
+    },
+    {
+      "degree": 39,
+      "rank": 92,
+      "smith_multiplicities": {
+        "1": 48
+      },
+      "full_root_image_proved": false,
+      "refinement_intersection_multiplicity": 47
+    },
+    {
+      "degree": 40,
+      "rank": 75,
+      "smith_multiplicities": {
+        "1": 40
+      },
+      "full_root_image_proved": false,
+      "refinement_intersection_multiplicity": 39
+    },
+    {
+      "degree": 41,
+      "rank": 58,
+      "smith_multiplicities": {
+        "1": 27
+      },
+      "full_root_image_proved": true,
+      "refinement_intersection_multiplicity": 27
+    },
+    {
+      "degree": 42,
+      "rank": 45,
+      "smith_multiplicities": {
+        "1": 25
+      },
+      "full_root_image_proved": false,
+      "refinement_intersection_multiplicity": 24
+    },
+    {
+      "degree": 43,
+      "rank": 32,
+      "smith_multiplicities": {
+        "1": 17
+      },
+      "full_root_image_proved": false,
+      "refinement_intersection_multiplicity": 16
+    },
+    {
+      "degree": 44,
+      "rank": 24,
+      "smith_multiplicities": {
+        "1": 13
+      },
+      "full_root_image_proved": false,
+      "refinement_intersection_multiplicity": 12
+    },
+    {
+      "degree": 45,
+      "rank": 16,
+      "smith_multiplicities": {
+        "1": 7
+      },
+      "full_root_image_proved": true,
+      "refinement_intersection_multiplicity": 7
+    },
+    {
+      "degree": 46,
+      "rank": 11,
+      "smith_multiplicities": {
+        "1": 6
+      },
+      "full_root_image_proved": true,
+      "refinement_intersection_multiplicity": 6
+    },
+    {
+      "degree": 47,
+      "rank": 6,
+      "smith_multiplicities": {
+        "1": 3
+      },
+      "full_root_image_proved": true,
+      "refinement_intersection_multiplicity": 3
+    },
+    {
+      "degree": 48,
+      "rank": 4,
+      "smith_multiplicities": {
+        "1": 2
+      },
+      "full_root_image_proved": true,
+      "refinement_intersection_multiplicity": 2
+    },
+    {
+      "degree": 49,
+      "rank": 2,
+      "smith_multiplicities": {},
+      "full_root_image_proved": true,
+      "refinement_intersection_multiplicity": 0
+    },
+    {
+      "degree": 50,
+      "rank": 1,
+      "smith_multiplicities": {
+        "1": 1
+      },
+      "full_root_image_proved": true,
+      "refinement_intersection_multiplicity": 1
+    }
+  ],
+  "seconds": 4014.523,
+  "scope": "Full weight source using the complete D4 finite module and common A1 norm variable. Root algebra generated by full source components through degree 16; higher nonzero counts are bounds until a full-source or upper-image proof.",
+  "certificate_archive": "experiments/e7-d4a1-tower-final-certificates.json.gz",
+  "certificate_archive_sha256": "30122caec0d93b4a4aabf299aad9620ae99749eabb63870927029da6afcd5768",
+  "source_sha256": {
+    "experiments/e7_d4a1_tower_final.py": "ad8e0bf64b6391974eb34506c8e7f5ee631305bde733d512343aec630a511141",
+    "experiments/e7-d5a1-images.json": "5eb3b6dfb42f416873fb76e51661d2906851b0d276cdae4c61c40d48b551102c",
+    "experiments/e7-d4a1-sources.json": "cf9511030fec39dfed7bf99a237f6b09a3117a2993bc8257813f6ea27ba6fc83",
+    "experiments/e7-d5-images.json": "349040145c7555d1a437950394c6b0e6b911609cb5b634b5c04f590fd20538c7",
+    "experiments/e7-d5a1-refinement-bound.json": "1843be303b5dbe96adb205aa66550470a8a4c18ab876fd1352eeacca5215da9b"
+  },
+  "raw_sha256": {
+    "experiments/e7-d5a1-images-certificates.json.gz": "78024d04ee22c39655565e4197548422d9f63d2d00485af20e03bc43b5da39d4",
+    "experiments/e7-d4-tower-certificates.json.gz": "d19a939295408a5dcbf2f834196f6cc85d86f5f2f029f2b8d657a226b46ba80a",
+    "experiments/e7-d4a1-sources-certificates.json.gz": "43b389166d8c0c819dbaddfa7704b44473b0b283458fa66f4bd532ac2faf7a1f",
+    "experiments/e7-d5-images-certificates.json.gz": "996c45c3d0b4f3c8a9ff0cd36853ce614157380da1e5536ad45b767c9070c4f5",
+    "experiments/e7-d5a1-refinement-bound-certificates.json.gz": "3e2801bcfc61399479a93a87fd50fd36f2de5d0f27d98611023d50d2288c1b16",
+    "experiments/e7-d4-index-certificates.jsonl.gz": "f72520a047c0b2d8cbdcf104390cbc0b64c1e8b1dd4da510c95a606c3ba6bd11"
+  }
+}

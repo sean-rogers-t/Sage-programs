@@ -1,0 +1,147 @@
+{
+  "result": "passed",
+  "full_source_complete_all_degrees": true,
+  "all_required_source_components_complete": true,
+  "max_complete_degree": 16,
+  "first_missing_degree": null,
+  "degrees": [
+    {
+      "degree": 1,
+      "rational_source_rank": 2,
+      "generated_mod_two_rank": 2,
+      "full_source_component": true,
+      "products_tested": 2,
+      "seconds": 4.474
+    },
+    {
+      "degree": 2,
+      "rational_source_rank": 5,
+      "generated_mod_two_rank": 5,
+      "full_source_component": true,
+      "products_tested": 6,
+      "seconds": 4.475
+    },
+    {
+      "degree": 3,
+      "rational_source_rank": 8,
+      "generated_mod_two_rank": 8,
+      "full_source_component": true,
+      "products_tested": 10,
+      "seconds": 4.475
+    },
+    {
+      "degree": 4,
+      "rational_source_rank": 16,
+      "generated_mod_two_rank": 16,
+      "full_source_component": true,
+      "products_tested": 29,
+      "seconds": 4.477
+    },
+    {
+      "degree": 5,
+      "rational_source_rank": 24,
+      "generated_mod_two_rank": 24,
+      "full_source_component": true,
+      "products_tested": 32,
+      "seconds": 4.477
+    },
+    {
+      "degree": 6,
+      "rational_source_rank": 41,
+      "generated_mod_two_rank": 41,
+      "full_source_component": true,
+      "products_tested": 98,
+      "seconds": 4.482
+    },
+    {
+      "degree": 7,
+      "rational_source_rank": 58,
+      "generated_mod_two_rank": 58,
+      "full_source_component": true,
+      "products_tested": 82,
+      "seconds": 4.484
+    },
+    {
+      "degree": 8,
+      "rational_source_rank": 91,
+      "generated_mod_two_rank": 91,
+      "full_source_component": true,
+      "products_tested": 264,
+      "seconds": 4.509
+    },
+    {
+      "degree": 9,
+      "rational_source_rank": 124,
+      "generated_mod_two_rank": 124,
+      "full_source_component": true,
+      "products_tested": 401,
+      "seconds": 4.552
+    },
+    {
+      "degree": 10,
+      "rational_source_rank": 182,
+      "generated_mod_two_rank": 182,
+      "full_source_component": true,
+      "products_tested": 619,
+      "seconds": 4.629
+    },
+    {
+      "degree": 11,
+      "rational_source_rank": 240,
+      "generated_mod_two_rank": 240,
+      "full_source_component": true,
+      "products_tested": 488,
+      "seconds": 4.655
+    },
+    {
+      "degree": 12,
+      "rational_source_rank": 337,
+      "generated_mod_two_rank": 337,
+      "full_source_component": true,
+      "products_tested": 1302,
+      "seconds": 4.905
+    },
+    {
+      "degree": 13,
+      "rational_source_rank": 434,
+      "generated_mod_two_rank": 434,
+      "full_source_component": true,
+      "products_tested": 1526,
+      "seconds": 5.057
+    },
+    {
+      "degree": 14,
+      "rational_source_rank": 587,
+      "generated_mod_two_rank": 587,
+      "full_source_component": true,
+      "products_tested": 2530,
+      "seconds": 5.764
+    },
+    {
+      "degree": 15,
+      "rational_source_rank": 740,
+      "generated_mod_two_rank": 740,
+      "full_source_component": true,
+      "products_tested": 3134,
+      "seconds": 6.415
+    },
+    {
+      "degree": 16,
+      "rational_source_rank": 973,
+      "generated_mod_two_rank": 973,
+      "full_source_component": true,
+      "products_tested": 4605,
+      "seconds": 8.365
+    }
+  ],
+  "extra_source_generators": [],
+  "seconds": 8.663,
+  "scope": "Actual integral invariant product witnesses give an initial-monoid Hilbert lower bound equal to the full rational invariant Hilbert series. Saturation and degreewise Nakayama prove integral source generation in all degrees.",
+  "certificate_archive": "experiments/e7-d4a1-initial-source-certificates.json.gz",
+  "certificate_archive_sha256": "9d4248a7cba95dd191eadad6cfcc0ed5f3944aa12bde754422b10b3592936a00",
+  "source_sha256": {
+    "experiments/e7_d4a1_initial_source.py": "852dc2a95f0aafdc8f43257c572eaeba91c1e35494e8febdc114225bce55b867",
+    "experiments/e7-d4a1-sources.json": "cf9511030fec39dfed7bf99a237f6b09a3117a2993bc8257813f6ea27ba6fc83"
+  },
+  "raw_sha256": {}
+}

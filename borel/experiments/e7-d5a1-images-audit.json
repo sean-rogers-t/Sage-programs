@@ -1,0 +1,408 @@
+{
+  "result": "passed",
+  "engine": "Native Python/gmpy2: separate sparse rational reducer, Buchberger criteria, standard-monomial enumeration, all source images reconstructed, rational inverses and mod-two ranks. No Sage or project imports.",
+  "dimension": 42,
+  "total_rank": 756,
+  "full_root_source_degree_bound": 22,
+  "all_degree_exponent_divides_2": true,
+  "full_multiplicities_proved": false,
+  "degree_rows": [
+    {
+      "degree": 1,
+      "rank": 1,
+      "multiplicity_2": 0,
+      "full_relative_multiplicity_proved": true,
+      "twice_full_weight_image_in_root_image": true,
+      "new_source_generator_image_already_in_lower_image": false,
+      "status": "full source comparison"
+    },
+    {
+      "degree": 2,
+      "rank": 2,
+      "multiplicity_2": 1,
+      "full_relative_multiplicity_proved": true,
+      "twice_full_weight_image_in_root_image": true,
+      "new_source_generator_image_already_in_lower_image": false,
+      "status": "full source comparison"
+    },
+    {
+      "degree": 3,
+      "rank": 2,
+      "multiplicity_2": 1,
+      "full_relative_multiplicity_proved": true,
+      "twice_full_weight_image_in_root_image": true,
+      "new_source_generator_image_already_in_lower_image": false,
+      "status": "full source comparison"
+    },
+    {
+      "degree": 4,
+      "rank": 4,
+      "multiplicity_2": 1,
+      "full_relative_multiplicity_proved": true,
+      "twice_full_weight_image_in_root_image": true,
+      "new_source_generator_image_already_in_lower_image": false,
+      "status": "full source comparison"
+    },
+    {
+      "degree": 5,
+      "rank": 5,
+      "multiplicity_2": 2,
+      "full_relative_multiplicity_proved": true,
+      "twice_full_weight_image_in_root_image": true,
+      "new_source_generator_image_already_in_lower_image": false,
+      "status": "full source comparison"
+    },
+    {
+      "degree": 6,
+      "rank": 7,
+      "multiplicity_2": 3,
+      "full_relative_multiplicity_proved": true,
+      "twice_full_weight_image_in_root_image": true,
+      "new_source_generator_image_already_in_lower_image": false,
+      "status": "full source comparison"
+    },
+    {
+      "degree": 7,
+      "rank": 8,
+      "multiplicity_2": 4,
+      "full_relative_multiplicity_proved": true,
+      "twice_full_weight_image_in_root_image": true,
+      "new_source_generator_image_already_in_lower_image": false,
+      "status": "full source comparison"
+    },
+    {
+      "degree": 8,
+      "rank": 11,
+      "multiplicity_2": 4,
+      "full_relative_multiplicity_proved": true,
+      "twice_full_weight_image_in_root_image": true,
+      "new_source_generator_image_already_in_lower_image": false,
+      "status": "full source comparison"
+    },
+    {
+      "degree": 9,
+      "rank": 13,
+      "multiplicity_2": 5,
+      "full_relative_multiplicity_proved": true,
+      "twice_full_weight_image_in_root_image": true,
+      "new_source_generator_image_already_in_lower_image": false,
+      "status": "full source comparison"
+    },
+    {
+      "degree": 10,
+      "rank": 16,
+      "multiplicity_2": 7,
+      "full_relative_multiplicity_proved": true,
+      "twice_full_weight_image_in_root_image": true,
+      "new_source_generator_image_already_in_lower_image": false,
+      "status": "full source comparison"
+    },
+    {
+      "degree": 11,
+      "rank": 18,
+      "multiplicity_2": 9,
+      "full_relative_multiplicity_proved": true,
+      "twice_full_weight_image_in_root_image": true,
+      "new_source_generator_image_already_in_lower_image": false,
+      "status": "full source comparison"
+    },
+    {
+      "degree": 12,
+      "rank": 21,
+      "multiplicity_2": 9,
+      "full_relative_multiplicity_proved": true,
+      "twice_full_weight_image_in_root_image": true,
+      "new_source_generator_image_already_in_lower_image": false,
+      "status": "full source comparison"
+    },
+    {
+      "degree": 13,
+      "rank": 24,
+      "multiplicity_2": 11,
+      "full_relative_multiplicity_proved": true,
+      "twice_full_weight_image_in_root_image": true,
+      "new_source_generator_image_already_in_lower_image": false,
+      "status": "full source comparison"
+    },
+    {
+      "degree": 14,
+      "rank": 26,
+      "multiplicity_2": 12,
+      "full_relative_multiplicity_proved": true,
+      "twice_full_weight_image_in_root_image": true,
+      "new_source_generator_image_already_in_lower_image": false,
+      "status": "full source comparison"
+    },
+    {
+      "degree": 15,
+      "rank": 29,
+      "multiplicity_2": 15,
+      "full_relative_multiplicity_proved": true,
+      "twice_full_weight_image_in_root_image": true,
+      "new_source_generator_image_already_in_lower_image": false,
+      "status": "full source comparison"
+    },
+    {
+      "degree": 16,
+      "rank": 31,
+      "multiplicity_2": 14,
+      "full_relative_multiplicity_proved": true,
+      "twice_full_weight_image_in_root_image": true,
+      "new_source_generator_image_already_in_lower_image": false,
+      "status": "full source comparison"
+    },
+    {
+      "degree": 17,
+      "rank": 34,
+      "multiplicity_2": 15,
+      "full_relative_multiplicity_proved": true,
+      "twice_full_weight_image_in_root_image": true,
+      "new_source_generator_image_already_in_lower_image": false,
+      "status": "full source comparison"
+    },
+    {
+      "degree": 18,
+      "rank": 34,
+      "multiplicity_2": 17,
+      "full_relative_multiplicity_proved": true,
+      "twice_full_weight_image_in_root_image": true,
+      "new_source_generator_image_already_in_lower_image": false,
+      "status": "full source comparison"
+    },
+    {
+      "degree": 19,
+      "rank": 36,
+      "multiplicity_2": 19,
+      "full_relative_multiplicity_proved": true,
+      "twice_full_weight_image_in_root_image": true,
+      "new_source_generator_image_already_in_lower_image": false,
+      "status": "full source comparison"
+    },
+    {
+      "degree": 20,
+      "rank": 36,
+      "multiplicity_2": 17,
+      "full_relative_multiplicity_proved": true,
+      "twice_full_weight_image_in_root_image": true,
+      "new_source_generator_image_already_in_lower_image": false,
+      "status": "full source comparison"
+    },
+    {
+      "degree": 21,
+      "rank": 38,
+      "multiplicity_2": 17,
+      "full_relative_multiplicity_proved": true,
+      "twice_full_weight_image_in_root_image": true,
+      "new_source_generator_image_already_in_lower_image": true,
+      "status": "full source comparison"
+    },
+    {
+      "degree": 22,
+      "rank": 36,
+      "multiplicity_2": 19,
+      "full_relative_multiplicity_proved": true,
+      "twice_full_weight_image_in_root_image": true,
+      "new_source_generator_image_already_in_lower_image": true,
+      "status": "full source comparison"
+    },
+    {
+      "degree": 23,
+      "rank": 36,
+      "multiplicity_2": 19,
+      "full_relative_multiplicity_proved": false,
+      "twice_full_weight_image_in_root_image": true,
+      "new_source_generator_image_already_in_lower_image": false,
+      "status": "upper bound using lower root image only"
+    },
+    {
+      "degree": 24,
+      "rank": 34,
+      "multiplicity_2": 17,
+      "full_relative_multiplicity_proved": false,
+      "twice_full_weight_image_in_root_image": true,
+      "new_source_generator_image_already_in_lower_image": false,
+      "status": "upper bound using lower root image only"
+    },
+    {
+      "degree": 25,
+      "rank": 34,
+      "multiplicity_2": 14,
+      "full_relative_multiplicity_proved": false,
+      "twice_full_weight_image_in_root_image": true,
+      "new_source_generator_image_already_in_lower_image": false,
+      "status": "upper bound using lower root image only"
+    },
+    {
+      "degree": 26,
+      "rank": 31,
+      "multiplicity_2": 17,
+      "full_relative_multiplicity_proved": false,
+      "twice_full_weight_image_in_root_image": true,
+      "new_source_generator_image_already_in_lower_image": false,
+      "status": "upper bound using lower root image only"
+    },
+    {
+      "degree": 27,
+      "rank": 29,
+      "multiplicity_2": 15,
+      "full_relative_multiplicity_proved": false,
+      "twice_full_weight_image_in_root_image": true,
+      "new_source_generator_image_already_in_lower_image": false,
+      "status": "upper bound using lower root image only"
+    },
+    {
+      "degree": 28,
+      "rank": 26,
+      "multiplicity_2": 14,
+      "full_relative_multiplicity_proved": false,
+      "twice_full_weight_image_in_root_image": true,
+      "new_source_generator_image_already_in_lower_image": false,
+      "status": "upper bound using lower root image only"
+    },
+    {
+      "degree": 29,
+      "rank": 24,
+      "multiplicity_2": 10,
+      "full_relative_multiplicity_proved": false,
+      "twice_full_weight_image_in_root_image": true,
+      "new_source_generator_image_already_in_lower_image": false,
+      "status": "upper bound using lower root image only"
+    },
+    {
+      "degree": 30,
+      "rank": 21,
+      "multiplicity_2": 12,
+      "full_relative_multiplicity_proved": false,
+      "twice_full_weight_image_in_root_image": true,
+      "new_source_generator_image_already_in_lower_image": false,
+      "status": "upper bound using lower root image only"
+    },
+    {
+      "degree": 31,
+      "rank": 18,
+      "multiplicity_2": 9,
+      "full_relative_multiplicity_proved": false,
+      "twice_full_weight_image_in_root_image": true,
+      "new_source_generator_image_already_in_lower_image": false,
+      "status": "upper bound using lower root image only"
+    },
+    {
+      "degree": 32,
+      "rank": 16,
+      "multiplicity_2": 9,
+      "full_relative_multiplicity_proved": false,
+      "twice_full_weight_image_in_root_image": true,
+      "new_source_generator_image_already_in_lower_image": false,
+      "status": "upper bound using lower root image only"
+    },
+    {
+      "degree": 33,
+      "rank": 13,
+      "multiplicity_2": 5,
+      "full_relative_multiplicity_proved": false,
+      "twice_full_weight_image_in_root_image": true,
+      "new_source_generator_image_already_in_lower_image": false,
+      "status": "upper bound using lower root image only"
+    },
+    {
+      "degree": 34,
+      "rank": 11,
+      "multiplicity_2": 7,
+      "full_relative_multiplicity_proved": false,
+      "twice_full_weight_image_in_root_image": true,
+      "new_source_generator_image_already_in_lower_image": false,
+      "status": "upper bound using lower root image only"
+    },
+    {
+      "degree": 35,
+      "rank": 8,
+      "multiplicity_2": 4,
+      "full_relative_multiplicity_proved": false,
+      "twice_full_weight_image_in_root_image": true,
+      "new_source_generator_image_already_in_lower_image": false,
+      "status": "upper bound using lower root image only"
+    },
+    {
+      "degree": 36,
+      "rank": 7,
+      "multiplicity_2": 4,
+      "full_relative_multiplicity_proved": false,
+      "twice_full_weight_image_in_root_image": true,
+      "new_source_generator_image_already_in_lower_image": false,
+      "status": "upper bound using lower root image only"
+    },
+    {
+      "degree": 37,
+      "rank": 5,
+      "multiplicity_2": 2,
+      "full_relative_multiplicity_proved": false,
+      "twice_full_weight_image_in_root_image": true,
+      "new_source_generator_image_already_in_lower_image": false,
+      "status": "upper bound using lower root image only"
+    },
+    {
+      "degree": 38,
+      "rank": 4,
+      "multiplicity_2": 3,
+      "full_relative_multiplicity_proved": false,
+      "twice_full_weight_image_in_root_image": true,
+      "new_source_generator_image_already_in_lower_image": false,
+      "status": "upper bound using lower root image only"
+    },
+    {
+      "degree": 39,
+      "rank": 2,
+      "multiplicity_2": 1,
+      "full_relative_multiplicity_proved": false,
+      "twice_full_weight_image_in_root_image": true,
+      "new_source_generator_image_already_in_lower_image": false,
+      "status": "upper bound using lower root image only"
+    },
+    {
+      "degree": 40,
+      "rank": 2,
+      "multiplicity_2": 1,
+      "full_relative_multiplicity_proved": false,
+      "twice_full_weight_image_in_root_image": true,
+      "new_source_generator_image_already_in_lower_image": false,
+      "status": "upper bound using lower root image only"
+    },
+    {
+      "degree": 41,
+      "rank": 1,
+      "multiplicity_2": 0,
+      "full_relative_multiplicity_proved": true,
+      "twice_full_weight_image_in_root_image": true,
+      "new_source_generator_image_already_in_lower_image": false,
+      "status": "full images equal by sandwich"
+    },
+    {
+      "degree": 42,
+      "rank": 1,
+      "multiplicity_2": 1,
+      "full_relative_multiplicity_proved": false,
+      "twice_full_weight_image_in_root_image": true,
+      "new_source_generator_image_already_in_lower_image": false,
+      "status": "upper bound using lower root image only"
+    }
+  ],
+  "buchberger_pairs_checked": 1555,
+  "buchberger_chain_pairs": 6774,
+  "buchberger_product_pairs": 1675,
+  "buchberger_above_top_degree_pairs": 11941,
+  "seconds": 195.078,
+  "scope": "All-degree exponent bound from 2N contained in an explicitly generated lower root image. Multiplicities above the source bound are upper bounds unless the lower root and full weight images coincide. Shared full D5 source and fresh-weight rational ideal are checked separately.",
+  "source_sha256": {
+    "experiments/audit_e7_d5a1_images.py": "a70c9347521e963bbdbf8a91de970a687539aab8883ce1353f5b0d772853bcf7",
+    "experiments/e7-d5a1-images.json": "5eb3b6dfb42f416873fb76e51661d2906851b0d276cdae4c61c40d48b551102c",
+    "experiments/e7-d5a1-sources-22.json": "87af9b74a7fa8b2bc08a6a73082029099c72b77944cf766d5e61ea18540380e8",
+    "experiments/e7-d5-images.json": "349040145c7555d1a437950394c6b0e6b911609cb5b634b5c04f590fd20538c7",
+    "experiments/e7-d5a1-norm.json": "2afc7280f2580cb55d7ba5375929f98a5a2d0b36fbf5e6b25817fe4fc8bad39d"
+  },
+  "raw_sha256": {
+    "experiments/e7-d5a1-images-certificates.json.gz": "78024d04ee22c39655565e4197548422d9f63d2d00485af20e03bc43b5da39d4",
+    "experiments/e7-d5a1-sources-22-certificates.json.gz": "68203c51b2a92e4cc3633268a1a3473b54e212f8a20dcadc07698eca95cd391f",
+    "experiments/e7-d5-images-certificates.json.gz": "996c45c3d0b4f3c8a9ff0cd36853ce614157380da1e5536ad45b767c9070c4f5",
+    "experiments/e7-d5a1-norm-certificates.json.gz": "cddded435270c181f7be26ee979c07d0cc4c0a384db481bc4f94ab40191f7ea8"
+  }
+}

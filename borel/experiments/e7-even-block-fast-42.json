@@ -1,0 +1,454 @@
+{
+  "result": "passed",
+  "complete": true,
+  "blocks": "42",
+  "total_rank": 10080,
+  "top_polynomial_degree": 53,
+  "degrees": [
+    {
+      "degree": 0,
+      "rank": 1,
+      "multiplicity_2": 0,
+      "mod_four_unit_rank": 1,
+      "mod_four_even_rank": 0,
+      "columns": 1
+    },
+    {
+      "degree": 1,
+      "rank": 1,
+      "multiplicity_2": 0,
+      "mod_four_unit_rank": 1,
+      "mod_four_even_rank": 0,
+      "columns": 1
+    },
+    {
+      "degree": 2,
+      "rank": 3,
+      "multiplicity_2": 1,
+      "mod_four_unit_rank": 2,
+      "mod_four_even_rank": 1,
+      "columns": 3
+    },
+    {
+      "degree": 3,
+      "rank": 5,
+      "multiplicity_2": 1,
+      "mod_four_unit_rank": 4,
+      "mod_four_even_rank": 1,
+      "columns": 5
+    },
+    {
+      "degree": 4,
+      "rank": 9,
+      "multiplicity_2": 3,
+      "mod_four_unit_rank": 6,
+      "mod_four_even_rank": 3,
+      "columns": 9
+    },
+    {
+      "degree": 5,
+      "rank": 13,
+      "multiplicity_2": 4,
+      "mod_four_unit_rank": 9,
+      "mod_four_even_rank": 4,
+      "columns": 14
+    },
+    {
+      "degree": 6,
+      "rank": 21,
+      "multiplicity_2": 8,
+      "mod_four_unit_rank": 13,
+      "mod_four_even_rank": 8,
+      "columns": 23
+    },
+    {
+      "degree": 7,
+      "rank": 29,
+      "multiplicity_2": 11,
+      "mod_four_unit_rank": 18,
+      "mod_four_even_rank": 11,
+      "columns": 33
+    },
+    {
+      "degree": 8,
+      "rank": 41,
+      "multiplicity_2": 16,
+      "mod_four_unit_rank": 25,
+      "mod_four_even_rank": 16,
+      "columns": 49
+    },
+    {
+      "degree": 9,
+      "rank": 55,
+      "multiplicity_2": 22,
+      "mod_four_unit_rank": 33,
+      "mod_four_even_rank": 22,
+      "columns": 68
+    },
+    {
+      "degree": 10,
+      "rank": 72,
+      "multiplicity_2": 31,
+      "mod_four_unit_rank": 41,
+      "mod_four_even_rank": 31,
+      "columns": 93
+    },
+    {
+      "degree": 11,
+      "rank": 92,
+      "multiplicity_2": 38,
+      "mod_four_unit_rank": 54,
+      "mod_four_even_rank": 38,
+      "columns": 125
+    },
+    {
+      "degree": 12,
+      "rank": 115,
+      "multiplicity_2": 50,
+      "mod_four_unit_rank": 65,
+      "mod_four_even_rank": 50,
+      "columns": 163
+    },
+    {
+      "degree": 13,
+      "rank": 141,
+      "multiplicity_2": 61,
+      "mod_four_unit_rank": 80,
+      "mod_four_even_rank": 61,
+      "columns": 208
+    },
+    {
+      "degree": 14,
+      "rank": 168,
+      "multiplicity_2": 76,
+      "mod_four_unit_rank": 92,
+      "mod_four_even_rank": 76,
+      "columns": 261
+    },
+    {
+      "degree": 15,
+      "rank": 200,
+      "multiplicity_2": 88,
+      "mod_four_unit_rank": 112,
+      "mod_four_even_rank": 88,
+      "columns": 324
+    },
+    {
+      "degree": 16,
+      "rank": 230,
+      "multiplicity_2": 106,
+      "mod_four_unit_rank": 124,
+      "mod_four_even_rank": 106,
+      "columns": 391
+    },
+    {
+      "degree": 17,
+      "rank": 264,
+      "multiplicity_2": 118,
+      "mod_four_unit_rank": 146,
+      "mod_four_even_rank": 118,
+      "columns": 469
+    },
+    {
+      "degree": 18,
+      "rank": 295,
+      "multiplicity_2": 141,
+      "mod_four_unit_rank": 154,
+      "mod_four_even_rank": 141,
+      "columns": 550
+    },
+    {
+      "degree": 19,
+      "rank": 329,
+      "multiplicity_2": 150,
+      "mod_four_unit_rank": 179,
+      "mod_four_even_rank": 150,
+      "columns": 640
+    },
+    {
+      "degree": 20,
+      "rank": 357,
+      "multiplicity_2": 172,
+      "mod_four_unit_rank": 185,
+      "mod_four_even_rank": 172,
+      "columns": 731
+    },
+    {
+      "degree": 21,
+      "rank": 387,
+      "multiplicity_2": 178,
+      "mod_four_unit_rank": 209,
+      "mod_four_even_rank": 178,
+      "columns": 828
+    },
+    {
+      "degree": 22,
+      "rank": 410,
+      "multiplicity_2": 202,
+      "mod_four_unit_rank": 208,
+      "mod_four_even_rank": 202,
+      "columns": 921
+    },
+    {
+      "degree": 23,
+      "rank": 432,
+      "multiplicity_2": 201,
+      "mod_four_unit_rank": 231,
+      "mod_four_even_rank": 201,
+      "columns": 1017
+    },
+    {
+      "degree": 24,
+      "rank": 447,
+      "multiplicity_2": 223,
+      "mod_four_unit_rank": 224,
+      "mod_four_even_rank": 223,
+      "columns": 1106
+    },
+    {
+      "degree": 25,
+      "rank": 459,
+      "multiplicity_2": 216,
+      "mod_four_unit_rank": 243,
+      "mod_four_even_rank": 216,
+      "columns": 1191
+    },
+    {
+      "degree": 26,
+      "rank": 464,
+      "multiplicity_2": 235,
+      "mod_four_unit_rank": 229,
+      "mod_four_even_rank": 235,
+      "columns": 1267
+    },
+    {
+      "degree": 27,
+      "rank": 464,
+      "multiplicity_2": 220,
+      "mod_four_unit_rank": 244,
+      "mod_four_even_rank": 220,
+      "columns": 1334
+    },
+    {
+      "degree": 28,
+      "rank": 459,
+      "multiplicity_2": 235,
+      "mod_four_unit_rank": 224,
+      "mod_four_even_rank": 235,
+      "columns": 1388
+    },
+    {
+      "degree": 29,
+      "rank": 447,
+      "multiplicity_2": 216,
+      "mod_four_unit_rank": 231,
+      "mod_four_even_rank": 216,
+      "columns": 1428
+    },
+    {
+      "degree": 30,
+      "rank": 432,
+      "multiplicity_2": 223,
+      "mod_four_unit_rank": 209,
+      "mod_four_even_rank": 223,
+      "columns": 1456
+    },
+    {
+      "degree": 31,
+      "rank": 410,
+      "multiplicity_2": 198,
+      "mod_four_unit_rank": 212,
+      "mod_four_even_rank": 198,
+      "columns": 1466
+    },
+    {
+      "degree": 32,
+      "rank": 387,
+      "multiplicity_2": 202,
+      "mod_four_unit_rank": 185,
+      "mod_four_even_rank": 202,
+      "columns": 1463
+    },
+    {
+      "degree": 33,
+      "rank": 357,
+      "multiplicity_2": 176,
+      "mod_four_unit_rank": 181,
+      "mod_four_even_rank": 176,
+      "columns": 1441
+    },
+    {
+      "degree": 34,
+      "rank": 329,
+      "multiplicity_2": 174,
+      "mod_four_unit_rank": 155,
+      "mod_four_even_rank": 174,
+      "columns": 1408
+    },
+    {
+      "degree": 35,
+      "rank": 295,
+      "multiplicity_2": 146,
+      "mod_four_unit_rank": 149,
+      "mod_four_even_rank": 146,
+      "columns": 1357
+    },
+    {
+      "degree": 36,
+      "rank": 264,
+      "multiplicity_2": 140,
+      "mod_four_unit_rank": 124,
+      "mod_four_even_rank": 140,
+      "columns": 1298
+    },
+    {
+      "degree": 37,
+      "rank": 230,
+      "multiplicity_2": 116,
+      "mod_four_unit_rank": 114,
+      "mod_four_even_rank": 116,
+      "columns": 1224
+    },
+    {
+      "degree": 38,
+      "rank": 200,
+      "multiplicity_2": 108,
+      "mod_four_unit_rank": 92,
+      "mod_four_even_rank": 108,
+      "columns": 1144
+    },
+    {
+      "degree": 39,
+      "rank": 168,
+      "multiplicity_2": 86,
+      "mod_four_unit_rank": 82,
+      "mod_four_even_rank": 86,
+      "columns": 1054
+    },
+    {
+      "degree": 40,
+      "rank": 141,
+      "multiplicity_2": 76,
+      "mod_four_unit_rank": 65,
+      "mod_four_even_rank": 76,
+      "columns": 963
+    },
+    {
+      "degree": 41,
+      "rank": 115,
+      "multiplicity_2": 59,
+      "mod_four_unit_rank": 56,
+      "mod_four_even_rank": 59,
+      "columns": 867
+    },
+    {
+      "degree": 42,
+      "rank": 92,
+      "multiplicity_2": 51,
+      "mod_four_unit_rank": 41,
+      "mod_four_even_rank": 51,
+      "columns": 772
+    },
+    {
+      "degree": 43,
+      "rank": 72,
+      "multiplicity_2": 37,
+      "mod_four_unit_rank": 35,
+      "mod_four_even_rank": 37,
+      "columns": 678
+    },
+    {
+      "degree": 44,
+      "rank": 55,
+      "multiplicity_2": 31,
+      "mod_four_unit_rank": 24,
+      "mod_four_even_rank": 31,
+      "columns": 587
+    },
+    {
+      "degree": 45,
+      "rank": 41,
+      "multiplicity_2": 21,
+      "mod_four_unit_rank": 20,
+      "mod_four_even_rank": 21,
+      "columns": 502
+    },
+    {
+      "degree": 46,
+      "rank": 29,
+      "multiplicity_2": 16,
+      "mod_four_unit_rank": 13,
+      "mod_four_even_rank": 16,
+      "columns": 423
+    },
+    {
+      "degree": 47,
+      "rank": 21,
+      "multiplicity_2": 11,
+      "mod_four_unit_rank": 10,
+      "mod_four_even_rank": 11,
+      "columns": 351
+    },
+    {
+      "degree": 48,
+      "rank": 13,
+      "multiplicity_2": 8,
+      "mod_four_unit_rank": 5,
+      "mod_four_even_rank": 8,
+      "columns": 285
+    },
+    {
+      "degree": 49,
+      "rank": 9,
+      "multiplicity_2": 4,
+      "mod_four_unit_rank": 5,
+      "mod_four_even_rank": 4,
+      "columns": 230
+    },
+    {
+      "degree": 50,
+      "rank": 5,
+      "multiplicity_2": 3,
+      "mod_four_unit_rank": 2,
+      "mod_four_even_rank": 3,
+      "columns": 180
+    },
+    {
+      "degree": 51,
+      "rank": 3,
+      "multiplicity_2": 1,
+      "mod_four_unit_rank": 2,
+      "mod_four_even_rank": 1,
+      "columns": 139
+    },
+    {
+      "degree": 52,
+      "rank": 1,
+      "multiplicity_2": 1,
+      "mod_four_unit_rank": 0,
+      "mod_four_even_rank": 1,
+      "columns": 105
+    },
+    {
+      "degree": 53,
+      "rank": 1,
+      "multiplicity_2": 0,
+      "mod_four_unit_rank": 1,
+      "mod_four_even_rank": 0,
+      "columns": 78
+    }
+  ],
+  "seconds": 129.385,
+  "scope": "Complete primary integral source images for the indicated A5 block Levi times the complementary A2; common A2 fibers transfer the results to standard E7 parabolics. Separate source, lattice and image audits are required.",
+  "certificate_archive": "experiments/e7-even-block-fast-42-certificates.json.gz",
+  "certificate_archive_sha256": "243a651b3c3e6ad498265a55419ce6b3330ee044a71e01e318a607ae6c143713",
+  "source_sha256": {
+    "experiments/e7_even_block_images_fast.py": "bd9317116cec2e2c06b1556dd5650745c3a158024362398a974a9ebc50558e5b",
+    "experiments/e7-a5a2-images.json": "8544e9dc35481c22e07c241fda678ac31b688527a6a0aaed2430422037f6e64e",
+    "experiments/a5-even-block-sources.json": "322272cb1eec4a02331442955310feab257811f170480cc7aa5e949307fd0cab"
+  },
+  "raw_sha256": {
+    "experiments/e7-a5a2-images-certificates.json.gz": "d1eaa63d34b8dffb078f937287b6fb81b6ebd674c60a71f6fcffd24dcfa725e7",
+    "experiments/a5-even-block-sources-certificates.json.gz": "33170fa6fa284f3ad89bf37fe835c954d6e8dfc192a99512481da36270cd8d77"
+  }
+}

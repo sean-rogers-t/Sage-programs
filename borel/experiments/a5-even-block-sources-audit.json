@@ -1,0 +1,30 @@
+{
+  "result": "passed",
+  "full_sources_complete_all_degrees": true,
+  "cases": [
+    {
+      "blocks": "42",
+      "source_complete_all_degrees": true,
+      "finite_source_module_verified": true,
+      "module_generators": 51,
+      "independent_groebner_size": 28
+    },
+    {
+      "blocks": "222",
+      "source_complete_all_degrees": true,
+      "finite_source_module_verified": true,
+      "module_generators": 342,
+      "independent_groebner_size": 137
+    }
+  ],
+  "seconds": 38.443,
+  "engine": "Native SymPy exact coefficient substitutions, free eight-term ambient normal forms, diagonalization/saturation proof and independent GF(2) grevlex Groebner computations. No Sage or primary project imports.",
+  "source_sha256": {
+    "experiments/audit_a5_even_block_sources.py": "6badac321e45828606266a68e2ed12be5906a2dfe498077726d7c4f00064dc8b",
+    "experiments/a5-even-block-sources.json": "322272cb1eec4a02331442955310feab257811f170480cc7aa5e949307fd0cab",
+    "experiments/a5-two-local-source.json": "debe2e7a0a33dc29029c8401e8b3655a4d11b84f92838e007c75e8641f16fc20"
+  },
+  "raw_sha256": {
+    "experiments/a5-even-block-sources-certificates.json.gz": "33170fa6fa284f3ad89bf37fe835c954d6e8dfc192a99512481da36270cd8d77"
+  }
+}

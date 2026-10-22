@@ -76,8 +76,19 @@ The [D5 completion](../../borel/E7_D5_REFINEMENT.md) adds two cases, making
 64-refinement family, with polynomial q P_W/((1+q)P_WI) in every case.
 This makes 112 proper E7 parabolics. Its 34-generator module certificate
 also records a failure of a free rank-10 integral source transfer.
-A structural explanation of the equal index corrections and the other
-15 proper E7 parabolics remain targets.
+The [complete E7 theorem](../../borel/E7_ALL_PARABOLICS.md) now settles
+the relative full root/weight image factors on all **127 proper standard
+parabolics**, with every nonunit relative factor equal to two. The
+[D5+A1 completion](../../borel/E7_D5_A1_COMPARISON.md) uses a full
+25-generator local source and has 366 factors; the
+[D4+A1 completion](../../borel/E7_D4_A1_COMPARISON.md) uses eighteen root
+generators and a full 34-generator weight-source module and has 3,618.
+The [A5-family proof](../../borel/E7_A5_FAMILY.md) gives a common
+even-block formula for twelve diagrams, with a halved-block correction.
+All-degree source Hilbert identities and separate native image audits
+complete the finite classification. A structural explanation of the equal
+index corrections and halved-block pattern, and extensions beyond E7,
+remain targets.
 General bad-prime
 structure beyond the covered E6/E7 cases, ambient weight-image cokernels and a structural
 criterion for the equivariant specialization kernel remain targets.

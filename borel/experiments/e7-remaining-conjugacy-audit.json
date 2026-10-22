@@ -1,0 +1,417 @@
+{
+  "result": "passed",
+  "engine": "Independent SymPy root-basis reflection matrices, unimodular sublattice tests, inverse Cartan matrix and direct diagram classification. Does not use the primary root-mask search.",
+  "central_character_nodes": [
+    2,
+    5,
+    7
+  ],
+  "remaining_diagrams": 15,
+  "distinct_Weyl_conjugacy_classes": 11,
+  "rows": [
+    {
+      "retained_nodes": [
+        2,
+        5,
+        7
+      ],
+      "levi_type": "A1+A1+A1",
+      "levi_basic_degrees": [
+        2,
+        2,
+        2
+      ],
+      "dimension": 60,
+      "schubert_rank": 362880,
+      "representative": [
+        2,
+        5,
+        7
+      ],
+      "degree_one_root_and_weight_images_equal": true
+    },
+    {
+      "retained_nodes": [
+        1,
+        2,
+        5,
+        7
+      ],
+      "levi_type": "A1+A1+A1+A1",
+      "levi_basic_degrees": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "dimension": 59,
+      "schubert_rank": 181440,
+      "representative": [
+        1,
+        2,
+        5,
+        7
+      ],
+      "degree_one_root_and_weight_images_equal": true
+    },
+    {
+      "retained_nodes": [
+        2,
+        3,
+        5,
+        7
+      ],
+      "levi_type": "A1+A1+A1+A1",
+      "levi_basic_degrees": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "dimension": 59,
+      "schubert_rank": 181440,
+      "representative": [
+        1,
+        2,
+        5,
+        7
+      ],
+      "degree_one_root_and_weight_images_equal": true
+    },
+    {
+      "retained_nodes": [
+        2,
+        4,
+        5,
+        7
+      ],
+      "levi_type": "A1+A3",
+      "levi_basic_degrees": [
+        2,
+        2,
+        3,
+        4
+      ],
+      "dimension": 56,
+      "schubert_rank": 60480,
+      "representative": [
+        2,
+        4,
+        5,
+        7
+      ],
+      "degree_one_root_and_weight_images_equal": true
+    },
+    {
+      "retained_nodes": [
+        2,
+        5,
+        6,
+        7
+      ],
+      "levi_type": "A1+A3",
+      "levi_basic_degrees": [
+        2,
+        2,
+        3,
+        4
+      ],
+      "dimension": 56,
+      "schubert_rank": 60480,
+      "representative": [
+        2,
+        4,
+        5,
+        7
+      ],
+      "degree_one_root_and_weight_images_equal": true
+    },
+    {
+      "retained_nodes": [
+        1,
+        2,
+        3,
+        5,
+        7
+      ],
+      "levi_type": "A1+A1+A1+A2",
+      "levi_basic_degrees": [
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "dimension": 57,
+      "schubert_rank": 60480,
+      "representative": [
+        1,
+        2,
+        3,
+        5,
+        7
+      ],
+      "degree_one_root_and_weight_images_equal": true
+    },
+    {
+      "retained_nodes": [
+        1,
+        2,
+        4,
+        5,
+        7
+      ],
+      "levi_type": "A1+A1+A3",
+      "levi_basic_degrees": [
+        2,
+        2,
+        2,
+        3,
+        4
+      ],
+      "dimension": 55,
+      "schubert_rank": 30240,
+      "representative": [
+        1,
+        2,
+        4,
+        5,
+        7
+      ],
+      "degree_one_root_and_weight_images_equal": true
+    },
+    {
+      "retained_nodes": [
+        1,
+        2,
+        5,
+        6,
+        7
+      ],
+      "levi_type": "A1+A1+A3",
+      "levi_basic_degrees": [
+        2,
+        2,
+        2,
+        3,
+        4
+      ],
+      "dimension": 55,
+      "schubert_rank": 30240,
+      "representative": [
+        1,
+        2,
+        4,
+        5,
+        7
+      ],
+      "degree_one_root_and_weight_images_equal": true
+    },
+    {
+      "retained_nodes": [
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "levi_type": "A1+D4",
+      "levi_basic_degrees": [
+        2,
+        2,
+        4,
+        4,
+        6
+      ],
+      "dimension": 50,
+      "schubert_rank": 7560,
+      "representative": [
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "degree_one_root_and_weight_images_equal": true
+    },
+    {
+      "retained_nodes": [
+        2,
+        3,
+        5,
+        6,
+        7
+      ],
+      "levi_type": "A1+A1+A3",
+      "levi_basic_degrees": [
+        2,
+        2,
+        2,
+        3,
+        4
+      ],
+      "dimension": 55,
+      "schubert_rank": 30240,
+      "representative": [
+        1,
+        2,
+        4,
+        5,
+        7
+      ],
+      "degree_one_root_and_weight_images_equal": true
+    },
+    {
+      "retained_nodes": [
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "levi_type": "A5",
+      "levi_basic_degrees": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "dimension": 48,
+      "schubert_rank": 4032,
+      "representative": [
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "degree_one_root_and_weight_images_equal": true
+    },
+    {
+      "retained_nodes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "levi_type": "A1+D5",
+      "levi_basic_degrees": [
+        2,
+        2,
+        4,
+        5,
+        6,
+        8
+      ],
+      "dimension": 42,
+      "schubert_rank": 756,
+      "representative": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "degree_one_root_and_weight_images_equal": true
+    },
+    {
+      "retained_nodes": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7
+      ],
+      "levi_type": "A1+A2+A3",
+      "levi_basic_degrees": [
+        2,
+        2,
+        2,
+        3,
+        3,
+        4
+      ],
+      "dimension": 53,
+      "schubert_rank": 10080,
+      "representative": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7
+      ],
+      "degree_one_root_and_weight_images_equal": true
+    },
+    {
+      "retained_nodes": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "levi_type": "A1+A5",
+      "levi_basic_degrees": [
+        2,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "dimension": 47,
+      "schubert_rank": 2016,
+      "representative": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "degree_one_root_and_weight_images_equal": true
+    },
+    {
+      "retained_nodes": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "levi_type": "D6",
+      "levi_basic_degrees": [
+        2,
+        4,
+        6,
+        6,
+        8,
+        10
+      ],
+      "dimension": 33,
+      "schubert_rank": 126,
+      "representative": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "degree_one_root_and_weight_images_equal": true
+    }
+  ],
+  "scope": "Four exact conjugacies and degree-one equality for all 15 excluded parabolics. No higher-degree formula follows from this reduction alone.",
+  "source_sha256": {
+    "experiments/audit_e7_remaining_conjugacy.py": "4d7c389a51f6b16b12932dfc4ab32813205ca45089bb68c0fb37cc8763786096",
+    "experiments/e7-remaining-conjugacy.json": "e2c9894eb55fc6276ba7cd8f9cd8d8fad5ce7b1220b0bbe01a1af66f2e9c406a"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "result": "passed",
+  "engine": "Native integer E7 root reflections and exact root-subsystem bit masks; no Sage or project imports.",
+  "positive_roots": 63,
+  "conjugacies": [
+    {
+      "left": [
+        1,
+        2,
+        5,
+        7
+      ],
+      "right": [
+        2,
+        3,
+        5,
+        7
+      ],
+      "simple_reflections_in_application_order": [
+        3,
+        1
+      ],
+      "root_lines": 4,
+      "search_states": 7
+    },
+    {
+      "left": [
+        2,
+        4,
+        5,
+        7
+      ],
+      "right": [
+        2,
+        5,
+        6,
+        7
+      ],
+      "simple_reflections_in_application_order": [
+        6,
+        5,
+        4,
+        2,
+        7,
+        6,
+        5,
+        4
+      ],
+      "root_lines": 7,
+      "search_states": 173
+    },
+    {
+      "left": [
+        1,
+        2,
+        4,
+        5,
+        7
+      ],
+      "right": [
+        1,
+        2,
+        5,
+        6,
+        7
+      ],
+      "simple_reflections_in_application_order": [
+        6,
+        5,
+        4,
+        2,
+        7,
+        6,
+        5,
+        4
+      ],
+      "root_lines": 8,
+      "search_states": 242
+    },
+    {
+      "left": [
+        1,
+        2,
+        4,
+        5,
+        7
+      ],
+      "right": [
+        2,
+        3,
+        5,
+        6,
+        7
+      ],
+      "simple_reflections_in_application_order": [
+        6,
+        5,
+        4,
+        2,
+        7,
+        6,
+        5,
+        4,
+        3,
+        1
+      ],
+      "root_lines": 8,
+      "search_states": 492
+    }
+  ],
+  "remaining_diagrams": 15,
+  "distinct_representatives_after_these_reductions": 11,
+  "scope": "Exact Weyl conjugacies give graded isomorphisms of root/weight Borel-image comparisons; they do not determine the common unknown multiplicity polynomials.",
+  "seconds": 0.012,
+  "source_sha256": {
+    "experiments/e7_remaining_conjugacy.py": "330227705a96b646c609b0061ef49fecfa76617ab74c3f4c86a5a3563f40e251"
+  }
+}

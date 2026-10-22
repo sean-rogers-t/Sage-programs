@@ -54,6 +54,9 @@ for **every** I contained in {1,...,6},
 Thus all 64 standard refinements of E7/P7 are covered in all degrees.
 Across the existing transfer scope this makes 112 proper E7 parabolics;
 the other 15 proper parabolics remain outside this proof.
+The subsequent [remaining-family note](E7_REMAINING_PARABOLICS.md) settles
+D6 separately and records a partial D5+A1 first-gap result; it leaves 14
+diagrams without a complete formula.
 
 **Scope criterion.** Formula (2) holds more generally for exactly the
 112 retained sets I that omit at least one of nodes **2,5,7**. Equivalently,

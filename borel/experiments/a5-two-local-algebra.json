@@ -1,0 +1,27 @@
+{
+  "result": "passed",
+  "full_source_complete_all_degrees": true,
+  "generator_degrees": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10,
+    12
+  ],
+  "hilbert_series": "1/(-t^20 + t^18 + t^17 + t^16 - 2*t^13 - 2*t^12 - t^11 + t^9 + 2*t^8 + 2*t^7 - t^4 - t^3 - t^2 + 1)",
+  "target_hilbert_series": "1/(-t^20 + t^18 + t^17 + t^16 - 2*t^13 - 2*t^12 - t^11 + t^9 + 2*t^8 + 2*t^7 - t^4 - t^3 - t^2 + 1)",
+  "groebner_elements": 92,
+  "kernel_relations": 56,
+  "seconds": 4.909,
+  "scope": "Exact equality of the mod-two algebra Hilbert series with the rational invariant Hilbert series proves full localized source generation by primitivity and degreewise Nakayama. Independent replay is required separately.",
+  "certificate_archive": "experiments/a5-two-local-algebra-certificates.json.gz",
+  "certificate_archive_sha256": "fba54adb7195852326cecea355abef6ad05da44c3f05f156273ab36b801c0637",
+  "source_sha256": {
+    "experiments/a5_two_local_algebra.py": "7066812e91a455333219bf5b1653a9bdcb0cc925a41e97a30e7728b3180438b8",
+    "experiments/a5-two-local-source.json": "debe2e7a0a33dc29029c8401e8b3655a4d11b84f92838e007c75e8641f16fc20"
+  }
+}

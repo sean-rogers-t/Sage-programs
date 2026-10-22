@@ -1,0 +1,269 @@
+{
+  "result": "passed",
+  "degrees": [
+    {
+      "degree": 1,
+      "intersection_cokernel_multiplicity": 0,
+      "matching_lower_image": true
+    },
+    {
+      "degree": 2,
+      "intersection_cokernel_multiplicity": 1,
+      "matching_lower_image": true
+    },
+    {
+      "degree": 3,
+      "intersection_cokernel_multiplicity": 1,
+      "matching_lower_image": true
+    },
+    {
+      "degree": 4,
+      "intersection_cokernel_multiplicity": 1,
+      "matching_lower_image": true
+    },
+    {
+      "degree": 5,
+      "intersection_cokernel_multiplicity": 2,
+      "matching_lower_image": true
+    },
+    {
+      "degree": 6,
+      "intersection_cokernel_multiplicity": 3,
+      "matching_lower_image": true
+    },
+    {
+      "degree": 7,
+      "intersection_cokernel_multiplicity": 4,
+      "matching_lower_image": true
+    },
+    {
+      "degree": 8,
+      "intersection_cokernel_multiplicity": 4,
+      "matching_lower_image": true
+    },
+    {
+      "degree": 9,
+      "intersection_cokernel_multiplicity": 5,
+      "matching_lower_image": true
+    },
+    {
+      "degree": 10,
+      "intersection_cokernel_multiplicity": 7,
+      "matching_lower_image": true
+    },
+    {
+      "degree": 11,
+      "intersection_cokernel_multiplicity": 9,
+      "matching_lower_image": true
+    },
+    {
+      "degree": 12,
+      "intersection_cokernel_multiplicity": 9,
+      "matching_lower_image": true
+    },
+    {
+      "degree": 13,
+      "intersection_cokernel_multiplicity": 10,
+      "matching_lower_image": false
+    },
+    {
+      "degree": 14,
+      "intersection_cokernel_multiplicity": 12,
+      "matching_lower_image": true
+    },
+    {
+      "degree": 15,
+      "intersection_cokernel_multiplicity": 14,
+      "matching_lower_image": false
+    },
+    {
+      "degree": 16,
+      "intersection_cokernel_multiplicity": 14,
+      "matching_lower_image": true
+    },
+    {
+      "degree": 17,
+      "intersection_cokernel_multiplicity": 14,
+      "matching_lower_image": false
+    },
+    {
+      "degree": 18,
+      "intersection_cokernel_multiplicity": 17,
+      "matching_lower_image": true
+    },
+    {
+      "degree": 19,
+      "intersection_cokernel_multiplicity": 17,
+      "matching_lower_image": false
+    },
+    {
+      "degree": 20,
+      "intersection_cokernel_multiplicity": 17,
+      "matching_lower_image": true
+    },
+    {
+      "degree": 21,
+      "intersection_cokernel_multiplicity": 16,
+      "matching_lower_image": false
+    },
+    {
+      "degree": 22,
+      "intersection_cokernel_multiplicity": 19,
+      "matching_lower_image": true
+    },
+    {
+      "degree": 23,
+      "intersection_cokernel_multiplicity": 17,
+      "matching_lower_image": false
+    },
+    {
+      "degree": 24,
+      "intersection_cokernel_multiplicity": 17,
+      "matching_lower_image": true
+    },
+    {
+      "degree": 25,
+      "intersection_cokernel_multiplicity": 14,
+      "matching_lower_image": true
+    },
+    {
+      "degree": 26,
+      "intersection_cokernel_multiplicity": 17,
+      "matching_lower_image": true
+    },
+    {
+      "degree": 27,
+      "intersection_cokernel_multiplicity": 14,
+      "matching_lower_image": false
+    },
+    {
+      "degree": 28,
+      "intersection_cokernel_multiplicity": 14,
+      "matching_lower_image": true
+    },
+    {
+      "degree": 29,
+      "intersection_cokernel_multiplicity": 10,
+      "matching_lower_image": true
+    },
+    {
+      "degree": 30,
+      "intersection_cokernel_multiplicity": 12,
+      "matching_lower_image": true
+    },
+    {
+      "degree": 31,
+      "intersection_cokernel_multiplicity": 9,
+      "matching_lower_image": true
+    },
+    {
+      "degree": 32,
+      "intersection_cokernel_multiplicity": 9,
+      "matching_lower_image": true
+    },
+    {
+      "degree": 33,
+      "intersection_cokernel_multiplicity": 5,
+      "matching_lower_image": true
+    },
+    {
+      "degree": 34,
+      "intersection_cokernel_multiplicity": 6,
+      "matching_lower_image": false
+    },
+    {
+      "degree": 35,
+      "intersection_cokernel_multiplicity": 4,
+      "matching_lower_image": true
+    },
+    {
+      "degree": 36,
+      "intersection_cokernel_multiplicity": 4,
+      "matching_lower_image": true
+    },
+    {
+      "degree": 37,
+      "intersection_cokernel_multiplicity": 2,
+      "matching_lower_image": true
+    },
+    {
+      "degree": 38,
+      "intersection_cokernel_multiplicity": 2,
+      "matching_lower_image": false
+    },
+    {
+      "degree": 39,
+      "intersection_cokernel_multiplicity": 1,
+      "matching_lower_image": true
+    },
+    {
+      "degree": 40,
+      "intersection_cokernel_multiplicity": 1,
+      "matching_lower_image": true
+    },
+    {
+      "degree": 41,
+      "intersection_cokernel_multiplicity": 0,
+      "matching_lower_image": true
+    },
+    {
+      "degree": 42,
+      "intersection_cokernel_multiplicity": 0,
+      "matching_lower_image": false
+    },
+    {
+      "degree": 43,
+      "intersection_cokernel_multiplicity": 0,
+      "matching_lower_image": true
+    }
+  ],
+  "all_recorded_upper_bounds_verified": true,
+  "full_image_components_by_sandwich": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    14,
+    16,
+    18,
+    20,
+    22,
+    24,
+    25,
+    26,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    35,
+    36,
+    37,
+    39,
+    40,
+    41,
+    43
+  ],
+  "engine": "Native FLINT rational polynomial identities, separate weighted reducer and block matrix inverses; own mod-two augmented column ranks. Fresh SymPy opposition lattice check. No Sage or primary experiment imports.",
+  "seconds": 4.628,
+  "source_sha256": {
+    "experiments/audit_e7_d5a1_refinement_bound.py": "0d76be3a99663ef2742bdc7068d03dd19c719e3c01571bc343ace71a40d712af",
+    "experiments/e7-d5a1-refinement-bound.json": "1843be303b5dbe96adb205aa66550470a8a4c18ab876fd1352eeacca5215da9b",
+    "experiments/e7-d5a1-images.json": "5eb3b6dfb42f416873fb76e51661d2906851b0d276cdae4c61c40d48b551102c",
+    "experiments/e7-d5-images.json": "349040145c7555d1a437950394c6b0e6b911609cb5b634b5c04f590fd20538c7"
+  },
+  "raw_sha256": {
+    "experiments/e7-d5a1-refinement-bound-certificates.json.gz": "3e2801bcfc61399479a93a87fd50fd36f2de5d0f27d98611023d50d2288c1b16",
+    "experiments/e7-d5a1-images-certificates.json.gz": "78024d04ee22c39655565e4197548422d9f63d2d00485af20e03bc43b5da39d4",
+    "experiments/e7-d5-images-certificates.json.gz": "996c45c3d0b4f3c8a9ff0cd36853ce614157380da1e5536ad45b767c9070c4f5"
+  }
+}

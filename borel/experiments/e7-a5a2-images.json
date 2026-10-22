@@ -1,0 +1,322 @@
+{
+  "result": "passed",
+  "complete": true,
+  "subsystem": "A5+A2",
+  "top_polynomial_degree": 45,
+  "total_rank": 672,
+  "subsystem_index": 3,
+  "branch_sign": -1,
+  "degrees": [
+    {
+      "degree": 1,
+      "rank": 0,
+      "smith_multiplicities": {}
+    },
+    {
+      "degree": 2,
+      "rank": 1,
+      "smith_multiplicities": {}
+    },
+    {
+      "degree": 3,
+      "rank": 2,
+      "smith_multiplicities": {}
+    },
+    {
+      "degree": 4,
+      "rank": 2,
+      "smith_multiplicities": {
+        "1": 1
+      }
+    },
+    {
+      "degree": 5,
+      "rank": 3,
+      "smith_multiplicities": {}
+    },
+    {
+      "degree": 6,
+      "rank": 5,
+      "smith_multiplicities": {
+        "1": 2
+      }
+    },
+    {
+      "degree": 7,
+      "rank": 5,
+      "smith_multiplicities": {
+        "1": 2
+      }
+    },
+    {
+      "degree": 8,
+      "rank": 7,
+      "smith_multiplicities": {
+        "1": 2
+      }
+    },
+    {
+      "degree": 9,
+      "rank": 10,
+      "smith_multiplicities": {
+        "1": 4
+      }
+    },
+    {
+      "degree": 10,
+      "rank": 10,
+      "smith_multiplicities": {
+        "1": 5
+      }
+    },
+    {
+      "degree": 11,
+      "rank": 13,
+      "smith_multiplicities": {
+        "1": 4
+      }
+    },
+    {
+      "degree": 12,
+      "rank": 16,
+      "smith_multiplicities": {
+        "1": 7
+      }
+    },
+    {
+      "degree": 13,
+      "rank": 17,
+      "smith_multiplicities": {
+        "1": 7
+      }
+    },
+    {
+      "degree": 14,
+      "rank": 19,
+      "smith_multiplicities": {
+        "1": 8
+      }
+    },
+    {
+      "degree": 15,
+      "rank": 24,
+      "smith_multiplicities": {
+        "1": 9
+      }
+    },
+    {
+      "degree": 16,
+      "rank": 23,
+      "smith_multiplicities": {
+        "1": 12
+      }
+    },
+    {
+      "degree": 17,
+      "rank": 26,
+      "smith_multiplicities": {
+        "1": 8
+      }
+    },
+    {
+      "degree": 18,
+      "rank": 29,
+      "smith_multiplicities": {
+        "1": 16
+      }
+    },
+    {
+      "degree": 19,
+      "rank": 29,
+      "smith_multiplicities": {
+        "1": 12
+      }
+    },
+    {
+      "degree": 20,
+      "rank": 30,
+      "smith_multiplicities": {
+        "1": 15
+      }
+    },
+    {
+      "degree": 21,
+      "rank": 33,
+      "smith_multiplicities": {
+        "1": 13
+      }
+    },
+    {
+      "degree": 22,
+      "rank": 31,
+      "smith_multiplicities": {
+        "1": 17
+      }
+    },
+    {
+      "degree": 23,
+      "rank": 31,
+      "smith_multiplicities": {
+        "1": 10
+      }
+    },
+    {
+      "degree": 24,
+      "rank": 33,
+      "smith_multiplicities": {
+        "1": 18
+      }
+    },
+    {
+      "degree": 25,
+      "rank": 30,
+      "smith_multiplicities": {
+        "1": 12
+      }
+    },
+    {
+      "degree": 26,
+      "rank": 29,
+      "smith_multiplicities": {
+        "1": 15
+      }
+    },
+    {
+      "degree": 27,
+      "rank": 29,
+      "smith_multiplicities": {
+        "1": 10
+      }
+    },
+    {
+      "degree": 28,
+      "rank": 26,
+      "smith_multiplicities": {
+        "1": 15
+      }
+    },
+    {
+      "degree": 29,
+      "rank": 23,
+      "smith_multiplicities": {
+        "1": 8
+      }
+    },
+    {
+      "degree": 30,
+      "rank": 24,
+      "smith_multiplicities": {
+        "1": 13
+      }
+    },
+    {
+      "degree": 31,
+      "rank": 19,
+      "smith_multiplicities": {
+        "1": 8
+      }
+    },
+    {
+      "degree": 32,
+      "rank": 17,
+      "smith_multiplicities": {
+        "1": 8
+      }
+    },
+    {
+      "degree": 33,
+      "rank": 16,
+      "smith_multiplicities": {
+        "1": 6
+      }
+    },
+    {
+      "degree": 34,
+      "rank": 13,
+      "smith_multiplicities": {
+        "1": 8
+      }
+    },
+    {
+      "degree": 35,
+      "rank": 10,
+      "smith_multiplicities": {
+        "1": 3
+      }
+    },
+    {
+      "degree": 36,
+      "rank": 10,
+      "smith_multiplicities": {
+        "1": 5
+      }
+    },
+    {
+      "degree": 37,
+      "rank": 7,
+      "smith_multiplicities": {
+        "1": 3
+      }
+    },
+    {
+      "degree": 38,
+      "rank": 5,
+      "smith_multiplicities": {
+        "1": 2
+      }
+    },
+    {
+      "degree": 39,
+      "rank": 5,
+      "smith_multiplicities": {
+        "1": 2
+      }
+    },
+    {
+      "degree": 40,
+      "rank": 3,
+      "smith_multiplicities": {
+        "1": 2
+      }
+    },
+    {
+      "degree": 41,
+      "rank": 2,
+      "smith_multiplicities": {}
+    },
+    {
+      "degree": 42,
+      "rank": 2,
+      "smith_multiplicities": {
+        "1": 1
+      }
+    },
+    {
+      "degree": 43,
+      "rank": 1,
+      "smith_multiplicities": {}
+    },
+    {
+      "degree": 44,
+      "rank": 0,
+      "smith_multiplicities": {}
+    },
+    {
+      "degree": 45,
+      "rank": 1,
+      "smith_multiplicities": {}
+    }
+  ],
+  "seconds": 78.346,
+  "scope": "Complete primary Borel images of full invariants for the odd-index maximal-rank A5+A2 subgroup, embedded in full-flag cohomology. It is an intermediary, not a standard parabolic. Common integral A2 fibers transfer the comparison to A5+A1 and A5 parabolics. Independent audits are required separately.",
+  "certificate_archive": "experiments/e7-a5a2-images-certificates.json.gz",
+  "certificate_archive_sha256": "d1eaa63d34b8dffb078f937287b6fb81b6ebd674c60a71f6fcffd24dcfa725e7",
+  "source_sha256": {
+    "experiments/e7_a5a2_images.py": "be759591d83c927fa3d0e76a8af710d1bb779c294ed4e7debef675411a9565d6",
+    "experiments/a5-two-local-source.json": "debe2e7a0a33dc29029c8401e8b3655a4d11b84f92838e007c75e8641f16fc20",
+    "experiments/a5-two-local-algebra.json": "d24bf6b0cc292b1de54db4e9db959dc5777935c430532e6bbd7dbd7f46907cf7"
+  },
+  "raw_sha256": {
+    "experiments/a5-two-local-source-certificates.json.gz": "c60f4471530932a40c4abe10fa328251902d4a10d7ee3b4188207afe87879200"
+  }
+}

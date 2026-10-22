@@ -1,0 +1,48 @@
+{
+  "result": "passed",
+  "full_source_complete_all_degrees": true,
+  "generator_degrees": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10,
+    12
+  ],
+  "root_basis_index_in_weights": 6,
+  "groebner_certified_by_exact_graph_hilbert_series": true,
+  "graph_groebner_size": 92,
+  "kernel_relations": 56,
+  "hilbert_numerator": {
+    "0": 1,
+    "9": -1,
+    "8": -1,
+    "30": -1,
+    "19": 1,
+    "10": -1,
+    "12": -1,
+    "17": 1,
+    "18": 1,
+    "22": 1,
+    "20": 1,
+    "21": 1,
+    "29": -1,
+    "39": 1,
+    "27": -1,
+    "31": -1
+  },
+  "seconds": 10.188,
+  "engine": "Native FLINT rational identities and integer lattice determinant; own sparse GF(2) substitution and recursive monomial Hilbert numerators, certifying the graph Groebner basis by exact Hilbert equality. No Sage or primary project imports.",
+  "source_sha256": {
+    "experiments/audit_a5_two_local_source.py": "ae9729604264286145907c01e39425f969f362c959f9b61cbbb8bf773e4b2678",
+    "experiments/a5-two-local-source.json": "debe2e7a0a33dc29029c8401e8b3655a4d11b84f92838e007c75e8641f16fc20",
+    "experiments/a5-two-local-algebra.json": "d24bf6b0cc292b1de54db4e9db959dc5777935c430532e6bbd7dbd7f46907cf7"
+  },
+  "raw_sha256": {
+    "experiments/a5-two-local-source-certificates.json.gz": "c60f4471530932a40c4abe10fa328251902d4a10d7ee3b4188207afe87879200",
+    "experiments/a5-two-local-algebra-certificates.json.gz": "fba54adb7195852326cecea355abef6ad05da44c3f05f156273ab36b801c0637"
+  }
+}

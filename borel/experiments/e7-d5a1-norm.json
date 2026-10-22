@@ -1,0 +1,17 @@
+{
+  "result": "passed",
+  "degree": 32,
+  "orbit_size": 32,
+  "rational_terms": 3055,
+  "root_coefficient_terms": 12611,
+  "mod2_terms": 2950,
+  "monic_on_last_axis": "r^16",
+  "seconds": 12.684,
+  "scope": "Explicit integral root-orbit norm; this alone does not establish a complete invariant generating set.",
+  "certificate_archive": "experiments/e7-d5a1-norm-certificates.json.gz",
+  "certificate_archive_sha256": "cddded435270c181f7be26ee979c07d0cc4c0a384db481bc4f94ab40191f7ea8",
+  "source_sha256": {
+    "experiments/e7_d5a1_norm.py": "03f84874dd4af03a8775e09e04ee2aec09611b86e5c601197748c985da1b915a",
+    "experiments/e7_d5a1_sources.py": "e648cb557ea85af768c7ed9961f5be9b7bfea6c9b8731e859809597a9e16f1c7"
+  }
+}

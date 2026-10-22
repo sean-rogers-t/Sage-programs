@@ -24,6 +24,7 @@ the mathematical guide for the Borel/Springer construction.
 | Can the E6 root-to-weight factors be determined sharply? | [60-case transfer theorem](E6_ROOT_WEIGHT_COMPARISON.md) and [three-case completion](E6_REMAINING_CASES.md) cover all 63 proper parabolics; [tables](E6_REMAINING_TABLES.md), [completion audit](E6_REMAINING_AUDIT.md) |
 | What happens to the E7 root-to-weight factors at 2? | [Explicit P7 simultaneous bases and multiplicity polynomial](E7_ROOT_WEIGHT_COMPARISON.md); exponent 2 on all 64 refinements, with [proof/source audit](E7_ROOT_WEIGHT_AUDIT.md) |
 | What is proved for finer E7/P7 flags? | [Full flag and A6 transfer](E7_FULL_FLAG_COMPARISON.md), [D5 proof](E7_D5_REFINEMENT.md), [D4 completion: all 64 refinements in all degrees](E7_D4_REFINEMENT.md) |
+| What about the other E7 parabolics? | [Complete theorem for all 127 proper E7 parabolics](E7_ALL_PARABOLICS.md), including [D5+A1](E7_D5_A1_COMPARISON.md), [D4+A1](E7_D4_A1_COMPARISON.md) and the [uniform even-block formula](E7_A5_FAMILY.md) |
 | Does an equivariant image always specialize faithfully? | [SL4/P1 counterexample and independent integer-lattice checks](EQUIVARIANT_IMAGE_PILOT.md) |
 | Which claims are published, deductions here, or conjectures? | [Proof and literature status](PROOF_STATUS.md) |
 | What general Smith-factor formulas can be proved in types B and D? | [Orthogonal formulas and proofs](ORTHOGONAL_SMITH.md) |

@@ -1,0 +1,66 @@
+{
+  "result": "passed",
+  "engine": "Native Python/SymPy/gmpy2; fresh Weyl orbit, exact rational evaluations and independent finite-field ranks. No Sage or project imports.",
+  "weight_orbit": 56,
+  "weight_lattice_basis_determinant": 1,
+  "root_lattice_basis_index": 2,
+  "permutation_subgroup": "A5 = S6",
+  "levi_action": "even signed permutations of six coordinates",
+  "trace_jacobian_point": [
+    2,
+    3,
+    5,
+    7,
+    11,
+    13,
+    17
+  ],
+  "trace_jacobian_determinant": "329202371671483368234076217147619605924636435156250000000000",
+  "basic_invariant_algebra_complete": true,
+  "samples": 120,
+  "identities": [
+    {
+      "degree": 2,
+      "coefficient_space_dimension": 2,
+      "evaluation_rank_mod101": 2
+    },
+    {
+      "degree": 6,
+      "coefficient_space_dimension": 8,
+      "evaluation_rank_mod101": 8
+    },
+    {
+      "degree": 8,
+      "coefficient_space_dimension": 14,
+      "evaluation_rank_mod101": 14
+    },
+    {
+      "degree": 10,
+      "coefficient_space_dimension": 23,
+      "evaluation_rank_mod101": 23
+    },
+    {
+      "degree": 12,
+      "coefficient_space_dimension": 37,
+      "evaluation_rank_mod101": 37
+    },
+    {
+      "degree": 14,
+      "coefficient_space_dimension": 56,
+      "evaluation_rank_mod101": 56
+    },
+    {
+      "degree": 18,
+      "coefficient_space_dimension": 120,
+      "evaluation_rank_mod101": 120
+    }
+  ],
+  "seconds": 0.957,
+  "source_sha256": {
+    "experiments/audit_e7_d6_moments.py": "f8175f254e6392df6eed59ba8c762aefffa14c92eb13481806f7f7af9852e414",
+    "experiments/e7-d6-images.json": "15975f9d33f31648c300fa11ef2dfb856139ca47664b4af9a01189e8036178b4"
+  },
+  "raw_sha256": {
+    "experiments/e7-d6-images-certificates.json.gz": "90ff12d8c75e942433fdea48343824fc9616873a3e8fe267aa6e03e0a12c4899"
+  }
+}

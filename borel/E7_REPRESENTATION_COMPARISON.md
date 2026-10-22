@@ -8,9 +8,12 @@ prove exponent 2 on all 64 retained subsets of the E6 Levi. Their
 multiplicities are not supplied by that bound. See the separate
 [proof/source audit](E7_ROOT_WEIGHT_AUDIT.md).
 
-The [A6 intermediary theorem](E7_FULL_FLAG_COMPARISON.md) now determines
-the all-degree relative root/weight factors on the full flag and 109
-proper parabolics, supplying the corresponding scaled image comparisons.
+The subsequent [complete E7 theorem](E7_ALL_PARABOLICS.md) now determines
+the relative full root/weight factors on all 127 proper standard
+parabolics, supplying the corresponding scaled image comparisons.
+The [A6 intermediary theorem](E7_FULL_FLAG_COMPARISON.md) was the first
+109-case step. The completion retains the source normalization below;
+every nonunit relative root/weight image factor is two.
 
 For simply connected E7, with root lattice Q and weight lattice P,
 the full integral polynomial-character sources are

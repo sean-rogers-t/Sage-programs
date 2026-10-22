@@ -1,0 +1,18 @@
+{
+  "result": "passed",
+  "engine": "Native SymPy/python-flint: fresh root-character orbit, exact spin moment identities by unisolvence, Newton recurrence, quadratic resultant, and full coefficient integrality. No Sage or project imports.",
+  "root_character": "omega7-omega5",
+  "root_orbit": 32,
+  "spin_orbit": 16,
+  "degree": 32,
+  "monic_last_axis": "r^16",
+  "unisolvent_samples": 79,
+  "seconds": 0.879,
+  "source_sha256": {
+    "experiments/audit_e7_d5a1_norm.py": "e2073bb3bbae6ae93c079da8e21c10bf6b9e454ab214182b4270169c90bf5b1a",
+    "experiments/e7-d5a1-norm.json": "2afc7280f2580cb55d7ba5375929f98a5a2d0b36fbf5e6b25817fe4fc8bad39d"
+  },
+  "raw_sha256": {
+    "experiments/e7-d5a1-norm-certificates.json.gz": "cddded435270c181f7be26ee979c07d0cc4c0a384db481bc4f94ab40191f7ea8"
+  }
+}

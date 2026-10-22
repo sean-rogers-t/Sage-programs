@@ -1,0 +1,121 @@
+{
+  "result": "passed",
+  "actual_root_basis_determinant": 1,
+  "actual_weight_basis_determinant": 1,
+  "full_coefficient_rings_verified": true,
+  "coefficient_rings": {
+    "M": "R[h,y,b,c2,c3,c4,r], sum(u)=b-y, r=(w-z)(h-2z-(w-z))",
+    "N": "R[h,y,z,c2,c3,c4,t], sum(u)=2z-y, t=w(h-w)"
+  },
+  "rational_invariant_degrees": [
+    1,
+    1,
+    2,
+    2,
+    4,
+    4,
+    6
+  ],
+  "generators": [
+    {
+      "degree": 1,
+      "integral_actual_invariant": true,
+      "terms": 1
+    },
+    {
+      "degree": 1,
+      "integral_actual_invariant": true,
+      "terms": 1
+    },
+    {
+      "degree": 2,
+      "integral_actual_invariant": true,
+      "terms": 7
+    },
+    {
+      "degree": 2,
+      "integral_actual_invariant": true,
+      "terms": 3
+    },
+    {
+      "degree": 4,
+      "integral_actual_invariant": true,
+      "terms": 29
+    },
+    {
+      "degree": 4,
+      "integral_actual_invariant": true,
+      "terms": 33
+    },
+    {
+      "degree": 4,
+      "integral_actual_invariant": true,
+      "terms": 29
+    },
+    {
+      "degree": 6,
+      "integral_actual_invariant": true,
+      "terms": 105
+    },
+    {
+      "degree": 6,
+      "integral_actual_invariant": true,
+      "terms": 104
+    },
+    {
+      "degree": 6,
+      "integral_actual_invariant": true,
+      "terms": 102
+    },
+    {
+      "degree": 8,
+      "integral_actual_invariant": true,
+      "terms": 267
+    },
+    {
+      "degree": 8,
+      "integral_actual_invariant": true,
+      "terms": 267
+    },
+    {
+      "degree": 8,
+      "integral_actual_invariant": true,
+      "terms": 267
+    },
+    {
+      "degree": 9,
+      "integral_actual_invariant": true,
+      "terms": 364
+    },
+    {
+      "degree": 10,
+      "integral_actual_invariant": true,
+      "terms": 594
+    },
+    {
+      "degree": 12,
+      "integral_actual_invariant": true,
+      "terms": 1196
+    },
+    {
+      "degree": 14,
+      "integral_actual_invariant": true,
+      "terms": 2235
+    },
+    {
+      "degree": 16,
+      "integral_actual_invariant": true,
+      "terms": 3927
+    }
+  ],
+  "seconds": 0.404,
+  "scope": "Each recorded root generator is an actual integral invariant in the exact root coefficient ring. This audit alone does not prove that they generate the full invariant algebra.",
+  "engine": "Native FLINT Newton identities and exact rational source preimages; fresh SymPy Cartan lattice determinants and S4, even-sign and A1 actions. No Sage or primary experiment imports.",
+  "source_sha256": {
+    "experiments/audit_e7_d4a1_generators.py": "c9d58a7bce93ef3f856901f93cd52a48ff8c941032d94c9cceaa69924cac908b",
+    "experiments/e7-d4a1-sources.json": "cf9511030fec39dfed7bf99a237f6b09a3117a2993bc8257813f6ea27ba6fc83"
+  },
+  "raw_sha256": {
+    "experiments/e7-d4a1-sources-certificates.json.gz": "43b389166d8c0c819dbaddfa7704b44473b0b283458fa66f4bd532ac2faf7a1f"
+  }
+}

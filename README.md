@@ -39,7 +39,15 @@ E7 parabolics, including 61 of those 64 refinements. The
 111 proper parabolics and 63/64 refinements. The
 [D4 completion](borel/E7_D4_REFINEMENT.md) now proves the common formula
 q P_W/((1+q)P_WI) for all 64 refinements in all degrees, and makes
-112 proper parabolics in total. The other 15 proper E7 parabolics remain.
+112 proper parabolics in total. The [complete E7 theorem](borel/E7_ALL_PARABOLICS.md)
+now determines the relative full root/weight image factors on **all 127
+proper standard parabolics**. Every nonunit relative factor is two.
+The completion includes [E7/P6](borel/E7_D5_A1_COMPARISON.md), with 366
+factors, [D4+A1](borel/E7_D4_A1_COMPARISON.md), with 3,618, and a common
+[even-block formula](borel/E7_A5_FAMILY.md) for twelve A5-family diagrams.
+All-degree integral source proofs and separate native image audits support
+the formulas. Published inputs, finite E7 deductions and unresolved
+structural generalizations are distinguished.
 The [general trace-source theorem](borel/TRACE_SOURCE_THEOREM.md) now
 proves degree-one generation for every supported normalized representation
 map, with a 59-case independent weight/lattice audit and a public certificate.

@@ -1,0 +1,23 @@
+{
+  "result": "passed",
+  "degree": 23,
+  "source_generator_coefficient_integral": true,
+  "rational_invariance_preserved_by_exact_operations": true,
+  "borel_image_in_constructed_root_image": true,
+  "source_terms": 5135,
+  "seconds": 40.491,
+  "engine": "Independent replay of the fixed source transcript with exact integer polynomials and rational Borel vectors, starting at the independently verified full degree-22 coefficient basis. Each halving is checked coefficientwise. The primary rank-discovery algorithm is not called; native FLINT is shared generic arithmetic.",
+  "certificate_archive": "experiments/e7-d5a1-extra23-certificates.json.gz",
+  "certificate_archive_sha256": "d94942c91d16a86abadf0e352db433a66f6941f810822fee9e2f5eff2e7123ca",
+  "source_sha256": {
+    "experiments/audit_e7_d5a1_extra23.py": "1bb8c9c4e7efdb20c6cedd68fb11449fd7a854fb502eb5f3a44af1b1e3a6cfaa",
+    "experiments/e7-d5a1-sources-22.json": "87af9b74a7fa8b2bc08a6a73082029099c72b77944cf766d5e61ea18540380e8",
+    "experiments/e7-d5a1-images.json": "5eb3b6dfb42f416873fb76e51661d2906851b0d276cdae4c61c40d48b551102c",
+    "experiments/e7-d5a1-sources-22-audit.json": "61e38dd6521ab42b766f04ea8b02030891b4bc74bc030bb65526c0c9705a0683",
+    "experiments/e7-d5a1-images-audit.json": "ebcb829e37749f6adf5cdf5dd462b430c5bf786373306725e6b4b60187282c90"
+  },
+  "raw_sha256": {
+    "experiments/e7-d5a1-sources-22-certificates.json.gz": "68203c51b2a92e4cc3633268a1a3473b54e212f8a20dcadc07698eca95cd391f",
+    "experiments/e7-d5a1-images-certificates.json.gz": "78024d04ee22c39655565e4197548422d9f63d2d00485af20e03bc43b5da39d4"
+  }
+}

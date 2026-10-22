@@ -207,6 +207,74 @@ Borel/invariant/Nakayama inputs and the new finite deductions are
 separated; priority, ambient H/N and a structural explanation of the
 index equality remain unresolved. No runtime API changes.
 
+## E7 completion: all 127 proper standard parabolics
+
+The [complete E7 theorem](E7_ALL_PARABOLICS.md) determines the relative
+full root/weight Borel-image groups in every degree on all 127 proper
+standard parabolics. Every nonunit relative factor is two. The preceding
+112-case polynomial q P_W/((1+q)P_WI) applies exactly to the retained
+sets omitting at least one of 2,5,7; the other fifteen have the separate
+formulas tabulated in the theorem. Their first gaps occur in degree two
+(twelve cases), four (two cases), or eight (D6).
+
+The [remaining-family note](E7_REMAINING_PARABOLICS.md) proves for E7/P1
+(D6 Levi) that every nonunit relative root/weight image factor is 2, with
+multiplicity polynomial q8(1+q)([10]_(q2)+q4[6]_(q2)+q12), totaling 34.
+Full weight-source components are certified through top degree 33, root
+components through 27; in degrees 28..33 an explicit root lower image
+equals the full weight image. No unbounded invariant-algebra generation
+claim is used. Native Python/FLINT source reconstruction, fresh 56-weight
+moment/Jacobian identities, and native Buchberger/image audits verify
+the finite proof. Higher root invariants change the truncated-generator
+answer, so selected rational/integral generators alone are insufficient.
+
+Four Weyl-conjugacy words are checked independently in root-mask and
+root-matrix implementations. They reduce the initially excluded fifteen
+diagrams to eleven types. The [D5+A1 completion](E7_D5_A1_COMPARISON.md)
+now proves the complete E7/P6 polynomial, totaling 366 factors two.
+Its full 25-generator root source uses a necessary degree-23 correction
+and the degree-32 root-orbit norm. The correction's Borel image is
+redundant, so the earlier independently audited lower image is the full
+image. The fresh 56-weight orbit, exact Jacobian and 333 unisolvent
+samples independently establish the base relations. The earlier D5
+source theorem is an explicitly shared input.
+
+The [all-degree source argument](E7_LOCAL_SOURCES.md) proves both this
+25-generator source and the 18-generator D4+A1 root source. It compares
+an explicitly witnessed leading-monomial algebra with the rational Weyl
+invariant Hilbert series as a full rational-function identity. Independent
+audits verify the product witnesses, nonnegative monoid expressions,
+closure and monomial-ideal Hilbert recursion. It therefore proves
+generation in all degrees, rather than extrapolating from a cutoff.
+
+The [A5-family proof](E7_A5_FAMILY.md) completes twelve diagrams. An
+odd-index A5+A2 intermediary has 293 factors two; common integral A2
+source bases give two transfers. A uniform involution lemma supplies
+the full even-block root sources, with 51- and 342-generator modules.
+Separate rational reducers and mod-four row/column eliminations agree
+on every image column through top degrees 53 and 57. Their complete
+formulas have 4,911 and 29,982 factors and a common Gaussian-multinomial
+expression with a halved-block correction. The expression is an exact
+finite E7 deduction; a geometric folding explanation or an arbitrary-rank
+generalization is not proved.
+
+The [D4+A1 completion](E7_D4_A1_COMPARISON.md) uses the rank-ten quadric
+tower over P6 and the full 34-generator weight-source module. A native
+FLINT audit reconstructs all source images and checks full local lattices
+in every degree through 50. It gives 3,618 factors two. The supplementary
+finer-flag intersection bound can be strict; invariants after Borel are
+not used as a full-source substitute.
+
+The rational cohomology of E7/P1 is already known from Chaput--Perrin,
+Proposition 5.6; the Borel presentation, signed-permutation invariants,
+Weyl conjugacy and lattice primitivity criteria are classical inputs.
+The relative Smith calculations and source-completeness deductions are
+what is established here. Earlier targeted literature checks are retained
+in the linked notes; the completion does not assert a new comprehensive
+search or establish priority. Structural explanations beyond this finite
+classification and ambient H/N remain separate. No runtime or public API
+changes were needed for this completion.
+
 ## Exceptional integral images: first complete finite tables
 
 The [Springer geometry extension](SPRINGER_GEOMETRY.md) concerns a separate

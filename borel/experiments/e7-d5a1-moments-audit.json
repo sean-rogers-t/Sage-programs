@@ -1,0 +1,72 @@
+{
+  "result": "passed",
+  "engine": "Native SymPy/gmpy2: actual lattice/action, fresh 56-weight Weyl orbit, exact unisolvent evaluations and independent ranks; no Sage or project imports.",
+  "weight_orbit": 56,
+  "weight_basis_determinant": 1,
+  "root_basis_determinant_in_roots": 1,
+  "centered_A4_basis_index": 5,
+  "coefficient_rings": {
+    "N": "R[h,z,c2,c3,c4,c5,t], e1(u)=2z",
+    "M": "R[h,b,c2,c3,c4,c5,r], e1(u)=b"
+  },
+  "full_weight_source": "Previously audited D5 algebra A with a polynomial variable t=w(h-w); D5 fixes w, and s7 fixes every D5 coefficient and sends w to h-w.",
+  "trace_jacobian_point": [
+    2,
+    3,
+    5,
+    7,
+    11,
+    13,
+    17
+  ],
+  "trace_jacobian_determinant": "2372771657054221291843323327016533843726689631954087089243144233637274800255584716796875/8589934592",
+  "basic_invariant_algebra_complete": true,
+  "samples": 333,
+  "identities": [
+    {
+      "degree": 2,
+      "coefficient_space_dimension": 3,
+      "evaluation_rank_mod101": 3
+    },
+    {
+      "degree": 6,
+      "coefficient_space_dimension": 15,
+      "evaluation_rank_mod101": 15
+    },
+    {
+      "degree": 8,
+      "coefficient_space_dimension": 29,
+      "evaluation_rank_mod101": 29
+    },
+    {
+      "degree": 10,
+      "coefficient_space_dimension": 52,
+      "evaluation_rank_mod101": 52
+    },
+    {
+      "degree": 12,
+      "coefficient_space_dimension": 88,
+      "evaluation_rank_mod101": 88
+    },
+    {
+      "degree": 14,
+      "coefficient_space_dimension": 142,
+      "evaluation_rank_mod101": 142
+    },
+    {
+      "degree": 18,
+      "coefficient_space_dimension": 333,
+      "evaluation_rank_mod101": 333
+    }
+  ],
+  "seconds": 6.076,
+  "source_sha256": {
+    "experiments/audit_e7_d5a1_moments.py": "7a9ca521248d237d0a49d14ae47ca731a5686192cf1441509441d45095a12629",
+    "experiments/e7-d5a1-images.json": "5eb3b6dfb42f416873fb76e51661d2906851b0d276cdae4c61c40d48b551102c",
+    "experiments/e7-d5-source-algebra.json": "2aa1f5010a81f102c3bfaa67269a164e3f08a6fa0c41877b2a0fd294bcef92bb",
+    "experiments/e7-d5-source-audit.json": "967b6be934ad3007cff880794b5bdac0f7755507db07af1a4542ea87d569a1f5"
+  },
+  "raw_sha256": {
+    "experiments/e7-d5a1-images-certificates.json.gz": "78024d04ee22c39655565e4197548422d9f63d2d00485af20e03bc43b5da39d4"
+  }
+}

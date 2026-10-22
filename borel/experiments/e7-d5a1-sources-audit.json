@@ -1,0 +1,137 @@
+{
+  "result": "passed",
+  "engine": "Native Python/python-flint: fresh Newton identities, exact integer matrix products, independent mod-two ranks and products. No Sage or project imports.",
+  "max_degree": 20,
+  "degrees": [
+    {
+      "degree": 1,
+      "rank": 1,
+      "integral_invariant_columns": true,
+      "primitive_mod2": true
+    },
+    {
+      "degree": 2,
+      "rank": 3,
+      "integral_invariant_columns": true,
+      "primitive_mod2": true
+    },
+    {
+      "degree": 3,
+      "rank": 3,
+      "integral_invariant_columns": true,
+      "primitive_mod2": true
+    },
+    {
+      "degree": 4,
+      "rank": 7,
+      "integral_invariant_columns": true,
+      "primitive_mod2": true
+    },
+    {
+      "degree": 5,
+      "rank": 8,
+      "integral_invariant_columns": true,
+      "primitive_mod2": true
+    },
+    {
+      "degree": 6,
+      "rank": 15,
+      "integral_invariant_columns": true,
+      "primitive_mod2": true
+    },
+    {
+      "degree": 7,
+      "rank": 17,
+      "integral_invariant_columns": true,
+      "primitive_mod2": true
+    },
+    {
+      "degree": 8,
+      "rank": 29,
+      "integral_invariant_columns": true,
+      "primitive_mod2": true
+    },
+    {
+      "degree": 9,
+      "rank": 33,
+      "integral_invariant_columns": true,
+      "primitive_mod2": true
+    },
+    {
+      "degree": 10,
+      "rank": 52,
+      "integral_invariant_columns": true,
+      "primitive_mod2": true
+    },
+    {
+      "degree": 11,
+      "rank": 59,
+      "integral_invariant_columns": true,
+      "primitive_mod2": true
+    },
+    {
+      "degree": 12,
+      "rank": 88,
+      "integral_invariant_columns": true,
+      "primitive_mod2": true
+    },
+    {
+      "degree": 13,
+      "rank": 100,
+      "integral_invariant_columns": true,
+      "primitive_mod2": true
+    },
+    {
+      "degree": 14,
+      "rank": 142,
+      "integral_invariant_columns": true,
+      "primitive_mod2": true
+    },
+    {
+      "degree": 15,
+      "rank": 161,
+      "integral_invariant_columns": true,
+      "primitive_mod2": true
+    },
+    {
+      "degree": 16,
+      "rank": 221,
+      "integral_invariant_columns": true,
+      "primitive_mod2": true
+    },
+    {
+      "degree": 17,
+      "rank": 250,
+      "integral_invariant_columns": true,
+      "primitive_mod2": true
+    },
+    {
+      "degree": 18,
+      "rank": 333,
+      "integral_invariant_columns": true,
+      "primitive_mod2": true
+    },
+    {
+      "degree": 19,
+      "rank": 375,
+      "integral_invariant_columns": true,
+      "primitive_mod2": true
+    },
+    {
+      "degree": 20,
+      "rank": 488,
+      "integral_invariant_columns": true,
+      "primitive_mod2": true
+    }
+  ],
+  "indecomposable_checks": [],
+  "seconds": 8.089,
+  "scope": "Full localized root invariant components through the stated bound only. The coefficient ring and Weyl action are checked in the coordinate/moment audit. Additional mod-two product ranks prove the displayed generator truncations fail; no unbounded generation claim.",
+  "source_sha256": {
+    "experiments/audit_e7_d5a1_sources.py": "95f9b59e0720cd84da92ea5cdd65e0fcc94deed204d5e4860dfe9750bffa7dd7",
+    "experiments/e7-d5a1-sources.json": "87cf4b35440e6fd889863f7c00f29ad74291605b3dabcc91c6a793c35f32c10d"
+  },
+  "raw_sha256": {
+    "experiments/e7-d5a1-sources-certificates.json.gz": "0654997fbb0d3d7df2e488620fd270b36dd1fc64b4e64692c5e95d68083047dc"
+  }
+}

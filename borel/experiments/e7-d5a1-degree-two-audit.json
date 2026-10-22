@@ -1,0 +1,44 @@
+{
+  "result": "passed",
+  "retained_nodes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7
+  ],
+  "first_nonzero_relative_degree": 2,
+  "cohomological_degree": 4,
+  "degree_two_relative_group": "Z/2",
+  "degree_two_full_source_bases": {
+    "N": [
+      "h^2",
+      "(E-5*h^2)/8",
+      "t"
+    ],
+    "M": [
+      "h^2",
+      "(E-5*h^2)/4",
+      "4*t"
+    ]
+  },
+  "degree_two_image_bases": {
+    "N": [
+      "h^2",
+      "t"
+    ],
+    "M": [
+      "h^2",
+      "2*t"
+    ]
+  },
+  "quadratic_relation": "E+3*h^2-8*t=0",
+  "weight_orbit": 56,
+  "engine": "Native SymPy: independent integral lattice bases, analytic full-source bases with primitive coefficient ranks, fresh 56-weight quadratic, and complete reconstruction of the Sage image certificate. No Sage or project imports.",
+  "scope": "All degrees 0,1,2 only: fixed characters agree in degree one; the first relative class is Z/2 in degree two. Higher multiplicities remain unresolved.",
+  "source_sha256": {
+    "experiments/audit_e7_d5a1_degree_two.py": "b2fe249e1c18c8b903c2a5ec6bb9c68213251f43bea1dd501e54b8faac0d601e",
+    "experiments/e7-d5a1-degree-two.json": "07fc4cf3077c92af50746b69cfb3e02c3b8943cd1db41ba7831ec46b92cec080"
+  }
+}

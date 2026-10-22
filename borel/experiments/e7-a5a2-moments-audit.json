@@ -1,0 +1,70 @@
+{
+  "result": "passed",
+  "engine": "Native SymPy/gmpy2; fresh E7 orbit and subsystem lattices, independent exact quadratic-algebra evaluations and finite-field unisolvence. No Sage or primary project imports.",
+  "subsystem_index": 3,
+  "root_and_weight_splittings_at_two": true,
+  "weight_orbit": 56,
+  "branch_sign": -1,
+  "trace_jacobian_determinant": "17502111626144971135827670966402805859139430887825386632212324924960146456576000000000000000",
+  "basic_global_invariants_complete": true,
+  "samples": 82,
+  "identities": [
+    {
+      "degree": 6,
+      "coefficient_space_dimension": 6,
+      "rank_mod101": 6
+    },
+    {
+      "degree": 8,
+      "coefficient_space_dimension": 9,
+      "rank_mod101": 9
+    },
+    {
+      "degree": 10,
+      "coefficient_space_dimension": 14,
+      "rank_mod101": 14
+    },
+    {
+      "degree": 12,
+      "coefficient_space_dimension": 26,
+      "rank_mod101": 26
+    },
+    {
+      "degree": 14,
+      "coefficient_space_dimension": 37,
+      "rank_mod101": 37
+    },
+    {
+      "degree": 18,
+      "coefficient_space_dimension": 82,
+      "rank_mod101": 82
+    }
+  ],
+  "A2_common_fiber_bases": {
+    "A1": [
+      "1",
+      "h",
+      "h^2"
+    ],
+    "trivial": [
+      "1",
+      "h",
+      "h^2",
+      "u",
+      "u*h",
+      "u*h^2"
+    ]
+  },
+  "A2_relations": [
+    "h^3+q2*h+q3=0",
+    "u^2-h*u+q2+h^2=0"
+  ],
+  "seconds": 1.156,
+  "source_sha256": {
+    "experiments/audit_e7_a5a2_moments.py": "f7190fdbffe6a633eb24377bbe886b20d15f417a30b986f901f78582921e256d",
+    "experiments/e7-a5a2-images.json": "8544e9dc35481c22e07c241fda678ac31b688527a6a0aaed2430422037f6e64e"
+  },
+  "raw_sha256": {
+    "experiments/e7-a5a2-images-certificates.json.gz": "d1eaa63d34b8dffb078f937287b6fb81b6ebd674c60a71f6fcffd24dcfa725e7"
+  }
+}
