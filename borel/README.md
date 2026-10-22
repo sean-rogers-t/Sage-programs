@@ -26,6 +26,7 @@ the mathematical guide for the Borel/Springer construction.
 | What happens to the E7 root-to-weight factors at 2? | [Explicit P7 simultaneous bases and multiplicity polynomial](E7_ROOT_WEIGHT_COMPARISON.md); exponent 2 on all 64 refinements, with [proof/source audit](E7_ROOT_WEIGHT_AUDIT.md) |
 | What is proved for finer E7/P7 flags? | [Full flag and A6 transfer](E7_FULL_FLAG_COMPARISON.md), [D5 proof](E7_D5_REFINEMENT.md), [D4 completion: all 64 refinements in all degrees](E7_D4_REFINEMENT.md) |
 | What about the other E7 parabolics? | [Complete theorem for all 127 proper E7 parabolics](E7_ALL_PARABOLICS.md), including [D5+A1](E7_D5_A1_COMPARISON.md), [D4+A1](E7_D4_A1_COMPARISON.md) and the [uniform even-block formula](E7_A5_FAMILY.md) |
+| How do I query all E7 relative Smith factors and compare representations? | [Compressed all-parabolic API, source scaling and minimal/adjoint comparisons](E7_RELATIVE_IMAGE_API.md) |
 | Does an equivariant image always specialize faithfully? | [SL4/P1 counterexample and independent integer-lattice checks](EQUIVARIANT_IMAGE_PILOT.md) |
 | Which claims are published, deductions here, or conjectures? | [Proof and literature status](PROOF_STATUS.md) |
 | What general Smith-factor formulas can be proved in types B and D? | [Orthogonal formulas and proofs](ORTHOGONAL_SMITH.md) |
@@ -67,6 +68,13 @@ The [complete-kernel calculator](PRESENTATIONS.md) adds `A.presentation()` for
 any chosen generator algebra. It returns the full defining ideal as a reduced
 Groebner basis, a quotient basis, the exact Hilbert series, and a finite
 completeness certificate. No guessed degree cutoff is required.
+
+Version 0.21 adds `exceptional_root_weight_comparison("E7", retained_nodes=...)`
+for all 127 proper parabolics and G/G. It returns compressed relative Smith
+factors, proof provenance, and comparisons of scaled root/weight sources,
+including the normalized minimal and adjoint Springer representations.
+The [guide](E7_RELATIVE_IMAGE_API.md) explains the mathematics and the
+distinction between these relative groups and absolute Schubert-image factors.
 
 Version 0.5 uses direct coinvariant normal forms by default for standard-numbered
 types A/B/C/D. This avoids Schubert expansion when computing kernel relations;

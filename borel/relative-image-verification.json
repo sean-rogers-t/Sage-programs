@@ -1,0 +1,31 @@
+{
+  "result": "passed",
+  "version": "0.21.0",
+  "tests": 6,
+  "proper_standard_parabolics": 127,
+  "cohomology_polynomials_reconstructed": 127,
+  "multiplicity_polynomials_reconstructed": 125,
+  "multiplicity_polynomials_from_independent_image_audits": 2,
+  "transformed_integer_lattice_cases": 28,
+  "fresh_e7_p7_character_degrees": [
+    0,
+    1,
+    2,
+    3,
+    6,
+    10
+  ],
+  "containment_and_four_quotients_checked": true,
+  "scope": "Independent formula arithmetic, integer-lattice operations and bounded fresh Schubert images. Shared full-source theorems, A5 intermediary polynomial and previously audited D5+A1/D4+A1 base coefficients; no new source proof or novelty claim.",
+  "seconds": 50.451,
+  "source_hash_semantics": "SHA256 with CRLF normalized to LF",
+  "source_sha256": {
+    "src/sage_borel/data/e7_relative_images.json": "f2f2498eefa94862c3318441c49f7d9d9d8abd8d420aba7c37229085bc1b72e4",
+    "tests/data/e7_relative_audited_bases.json": "dcd7e7d630999f8ebc82e39026ffd289fb66995a79f115e6afec74a6407bd8e3",
+    "tests/test_relative_images.py": "348fdab7d5103b2efcdda4424f08111ccb8b650433b9284a516e51419d75d524",
+    "tools/verify_relative_images.py": "51a5a244d5cef9db81702cf4c1f18ca3757ff6fa1331c8fc152635c2d99af73f",
+    "tools/package_e7_relative_images.py": "e11c39eae18d54c8b3e26ae812359cded5d25e94da3dfd2e8842e2641d42cad0",
+    "src/sage_borel/relative_images.py": "60e5a77bd353bc1c3aa4104905c3477d537a787e6cf00abf058b7e3d2348df06",
+    "experiments/e7-all-parabolics-summary.json": "b172b8f7f387ef0697e9691a52e599a6af1da7b65009af433ea1d412b6f89a04"
+  }
+}

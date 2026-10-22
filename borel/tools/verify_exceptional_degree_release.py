@@ -30,6 +30,15 @@ def main():
     regression=read('character-verification.json')
     docs=read('documentation-verification.json')
     wheel=read('geometry-wheel-verification.json')
+    relative_api=read('relative-image-verification.json')
+    assert relative_api['version']==version
+    assert relative_api['proper_standard_parabolics']==127
+    assert relative_api['cohomology_polynomials_reconstructed']==127
+    assert relative_api['multiplicity_polynomials_reconstructed']==125
+    assert relative_api['multiplicity_polynomials_from_independent_image_audits']==2
+    assert relative_api['fresh_e7_p7_character_degrees']==[0,1,2,3,6,10]
+    for name,expected in relative_api['source_sha256'].items():
+        assert digest(ROOT/name)==expected,name
     geometry=read('experiments/exceptional-degree-geometry.json')
     e6_checks=[read('experiments/'+name) for name in (
         'e6-remaining-a5.json','e6-remaining-a2a2a1.json',
@@ -232,7 +241,7 @@ def main():
         for field in ('certificate_archive','tower_archive'):
             if field in check:
                 assert digest(ROOT/check[field])==check[field+'_sha256'],check[field]
-    assert regression['version']==wheel['version']==version=='0.20.0'
+    assert regression['version']==wheel['version']==version=='0.21.0'
     for name,expected in regression['source_sha256'].items():
         assert digest(ROOT/name)==expected,name
     wheel_path=ROOT/'dist'/wheel['wheel']
@@ -388,10 +397,18 @@ def main():
         '../articles/research-program-proposal/README.md',
         'PROOF_STATUS.md','EXTENSIONS.md','SPRINGER_GEOMETRY.md',
         'tools/verify_documentation.py','tools/verify_geometry_wheel.py',
-        'tools/monomial_staircase.py',
+        'tools/monomial_staircase.py','E7_RELATIVE_IMAGE_API.md',
+        'tools/package_e7_relative_images.py','tools/verify_relative_images.py',
+        'tests/test_relative_images.py','tests/data/e7_relative_audited_bases.json',
+        'relative-image-verification.json',
         'tests/test_exceptional_degrees.py','character-verification.json',
         'documentation-verification.json','geometry-wheel-verification.json')]+[Path(__file__).resolve()]
     report=dict(result='passed',version=version,
+        e7_relative_image_api=dict(proper_standard_parabolics=127,improper_G_over_G=True,
+            compressed_smith_multiplicities=True,scaled_root_weight_comparisons=True,
+            named_representations=['minimal','adjoint'],abstract_relative_groups_only=True,
+            independent_formula_and_lattice_audit=relative_api,
+            scope='Packages the previously proved finite E7 theorem and elementary scalar consequences; no new image theorem or absolute Schubert embedding.'),
         current_e7_relative_image_status='Complete formulas in all degrees for all 127 proper standard E7 parabolics. Earlier progress fields record the stated proof stages; the final completion field is authoritative for current scope.',
         characteristic_zero_proof='EXCEPTIONAL_DEGREES.md; toric localized top Chern and explicit boundary Segre classes',
         degree_deductions=geometry['degree_deductions'],specialized_fibers=fibers,
@@ -450,10 +467,10 @@ def main():
             all_degree_source_hilbert_identities_independently_verified=True,
             full_embedded_image_calculations_independently_verified=True,
             printed_multiplicity_lists_match_audited_data=True,
-            scope='Current complete relative full root/weight comparison in every degree for all proper E7 parabolics. Earlier counts above record historical proof stages. The even-block common formula is exact for the finite E7 family; geometric folding, arbitrary-rank generalizations, ambient H/N and literature priority remain separate. Runtime and public API unchanged.'),
+            scope='Current complete relative full root/weight comparison in every degree for all proper E7 parabolics. Earlier counts above record historical proof stages. The even-block common formula is exact for the finite E7 family; geometric folding, arbitrary-rank generalizations, ambient H/N and literature priority remain separate. Version 0.21 packages the existing results in the relative-image API.'),
         hash_semantics='SHA256 after CRLF to LF normalization for text; raw bytes for .gz archives',
         audit_sha256={p.relative_to(ROOT).as_posix():digest(p) for p in sorted(set(paths))})
-    (ROOT/'release-0.20-verification.json').write_text(json.dumps(report,indent=2)+'\n')
+    (ROOT/'release-0.21-verification.json').write_text(json.dumps(report,indent=2)+'\n')
     print(json.dumps({k:v for k,v in report.items() if k!='audit_sha256'},indent=2))
 
 
