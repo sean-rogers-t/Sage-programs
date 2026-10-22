@@ -56,6 +56,10 @@
       "python_blocks_executed": 0
     },
     {
+      "file": "E6_RELATIVE_IMAGE_API.md",
+      "python_blocks_executed": 2
+    },
+    {
       "file": "E7_ROOT_WEIGHT_COMPARISON.md",
       "python_blocks_executed": 0
     },
@@ -170,6 +174,10 @@
     {
       "file": "G2_CHARACTER_FORM.md",
       "python_blocks_executed": 0
+    },
+    {
+      "file": "G2_FULL_FLAG.md",
+      "python_blocks_executed": 1
     },
     {
       "file": "F4_CHARACTER_FORM.md",
@@ -376,7 +384,7 @@
       "python_blocks_executed": 0
     }
   ],
-  "local_links_and_anchors_checked": 1267,
-  "python_blocks_executed": 45,
+  "local_links_and_anchors_checked": 1297,
+  "python_blocks_executed": 48,
   "scope": "Python fences executed in reading order in a fresh namespace per document; local links and anchors checked. Shell snippets and external URLs were not automatically executed or crawled."
 }

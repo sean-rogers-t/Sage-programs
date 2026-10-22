@@ -27,6 +27,8 @@ the mathematical guide for the Borel/Springer construction.
 | What is proved for finer E7/P7 flags? | [Full flag and A6 transfer](E7_FULL_FLAG_COMPARISON.md), [D5 proof](E7_D5_REFINEMENT.md), [D4 completion: all 64 refinements in all degrees](E7_D4_REFINEMENT.md) |
 | What about the other E7 parabolics? | [Complete theorem for all 127 proper E7 parabolics](E7_ALL_PARABOLICS.md), including [D5+A1](E7_D5_A1_COMPARISON.md), [D4+A1](E7_D4_A1_COMPARISON.md) and the [uniform even-block formula](E7_A5_FAMILY.md) |
 | How do I query all E7 relative Smith factors and compare representations? | [Compressed all-parabolic API, source scaling and minimal/adjoint comparisons](E7_RELATIVE_IMAGE_API.md) |
+| Can I query all E6 relative factors, including 9 and 27? | [All 63 parabolics, representation comparisons and shared-prime scaling](E6_RELATIVE_IMAGE_API.md) |
+| What is the complete literal G2 full-flag image? | [Integral kernel, all Smith factors, API and independent Chevalley audit](G2_FULL_FLAG.md) |
 | Does an equivariant image always specialize faithfully? | [SL4/P1 counterexample and independent integer-lattice checks](EQUIVARIANT_IMAGE_PILOT.md) |
 | Which claims are published, deductions here, or conjectures? | [Proof and literature status](PROOF_STATUS.md) |
 | What general Smith-factor formulas can be proved in types B and D? | [Orthogonal formulas and proofs](ORTHOGONAL_SMITH.md) |
@@ -68,6 +70,12 @@ The [complete-kernel calculator](PRESENTATIONS.md) adds `A.presentation()` for
 any chosen generator algebra. It returns the full defining ideal as a reduced
 Groebner basis, a quotient basis, the exact Hilbert series, and a finite
 completeness certificate. No guessed degree cutoff is required.
+
+Version 0.22 adds the all-parabolic E6 interface to
+`exceptional_root_weight_comparison`, retaining factors 3,9,27. It also
+adds `g2_character_algebra()` for G2/B and an adjoint selector for all
+supported G2 spaces. The [G2 full-flag note](G2_FULL_FLAG.md) proves the
+complete integral kernel and gives the absolute Smith factors in every degree.
 
 Version 0.21 adds `exceptional_root_weight_comparison("E7", retained_nodes=...)`
 for all 127 proper parabolics and G/G. It returns compressed relative Smith

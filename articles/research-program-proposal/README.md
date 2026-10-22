@@ -110,8 +110,9 @@ is merged into master as `df20de9`. The
 [complete relative E7 theorem](../../borel/E7_ALL_PARABOLICS.md) covers all
 127 proper standard parabolics; the E6 comparison already covers all 63.
 This closes the finite relative-classification benchmark in Aim A.
-The E7 software part of item 1 is now implemented in version 0.21;
-the other items remain proposed work, not additional proved results.
+Version 0.22 completes the E6 and E7 software parts of item 1 and adds
+the full G2/B integral-image calculation. The structural items remain
+proposed work, not additional proved results.
 The full-paper project remains on hold.
 
 For a simply connected G, write X=X(T), Q_rt for the root lattice, and
@@ -128,7 +129,7 @@ The absolute quotient H^(2d)(G/P_I;Z)/N_I^d remains a separate target.
 
 | Priority | Work package | Concrete deliverable | Completion test |
 | --- | --- | --- | --- |
-| 1, bounded software step | Package the certified relative formulas | A compressed all-parabolic E7 API, then the analogous E6 interface, with representation scaling and proof provenance | Every retained set has a verified record; overlap with existing embedded-image APIs agrees independently; no Schubert matrix is built for a summary query |
+| 1, bounded software step, complete | Package the certified relative formulas and finish the small G2 benchmark | All-parabolic E6/E7 APIs with representation scaling and provenance; full G2/B integral kernel and Smith factors | All 190 proper retained sets verified; fresh embedded-image overlaps agree; independent native Chevalley audit checks G2 |
 | 2, main mathematical effort | Explain the two-primary image algebra structurally | A reusable integral lifting criterion and a mod-two image presentation recovering the E7 exponent and multiplicities by families | Prove the stated lattice/Levi hypotheses and source completeness; identify exactly where the criterion applies and give obstructions outside its hypotheses |
 | 3, focused generalization | Explain the halved-block correction | An explicit algebraic filtration, exact sequence or complex accounting for the correction and its q^4 grading | Construct the comparison and prove its integral or local properties; a Weyl-polynomial identity alone is insufficient |
 | 4, next arithmetic benchmark | Determine an uncompleted absolute weight-image cokernel | A Schubert-coordinate Smith calculation for E7/P1, degree by degree at 2 and 3 | Reuse all previously available minuscule tables, prove full required sources, and independently check the actual integral embedding |
@@ -152,7 +153,7 @@ comparison.degree(d)
 comparison.compare_scaled_sources(root_scale=a, weight_scale=b, degree=d)
 ```
 
-Version 0.21 implements this interface for every E7 retained set and adds
+Version 0.22 implements this interface for every E6 and E7 retained set and includes
 `comparison.compare_representations(degree=d)` for the normalized minimal
 and adjoint sources. A degree summary returns the cohomology rank, compressed relative factor
 multiplicities, coefficient-ring/source conventions, proof family and
@@ -168,9 +169,17 @@ the audited native base lists. Fresh E7/P7 minimal/adjoint images check
 containment and incomparability on the overlapping cases. The
 [verification](../../borel/relative-image-verification.json) records the
 shared mathematical inputs and the exact independent checks.
-This is a software consequence of proved mathematics. The remaining
-software task is to normalize the E6 records to the same schema, retaining
-all 3-power factors. Item 2 remains the next main mathematical target.
+The [E6 guide](../../borel/E6_RELATIVE_IMAGE_API.md) gives its factor-to-polynomial
+dictionary, retaining 3,9,27 separately. Fresh E6/P1 image comparisons and
+a degree-three A5 full integer-invariant-kernel calculation agree with the
+packaged data. This is a software consequence of proved mathematics.
+
+The [G2 full-flag theorem](../../borel/G2_FULL_FLAG.md) completes the small
+absolute-image benchmark: the literal image is
+Z[X,Y]/(X^2-3XY+3Y^2,Y^6), with all Smith factors independently checked by
+native root/coroot Chevalley multiplication. Together with the existing
+maximal cases, all proper standard G2 parabolics are covered. The full
+source theorem is a shared input. Item 2 remains the next main mathematical target.
 
 ### 2. Replace the case tables with a structural mechanism
 
@@ -267,8 +276,8 @@ are starting points checked for this roadmap, not a completed novelty
 audit. Preserve the distinction between the known inputs, the existing
 computer-assisted E6/E7 deductions and proposed generalizations.
 
-The E7 part of work package **1** is complete. Its analogous E6 interface
-is a further software task; the next main mathematical target is **2**,
+Work package **1** is complete for the requested E6/E7 APIs and G2 full
+flag. The next main mathematical target is **2**,
 with **3** as its focused test. Begin **4** after inventorying the existing
 absolute tables. This roadmap adds no theorem, and the frozen proposal
 PDF is unchanged.

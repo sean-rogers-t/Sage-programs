@@ -315,17 +315,29 @@ def springer_character_map(cartan_type, highest_weight):
     return SpringerCharacterMap(cartan_type, (highest_weight,))
 
 
-def g2_character_algebra(parabolic):
-    """Full seven-dimensional G2 character source for P1 or P2, then Borel.
+def g2_character_algebra(parabolic=None, *, representation="minimal"):
+    """Full G2 integral character source, followed by Borel.
 
     In x=6*w1, y=2*w2, the integral invariant rings are
     Z[x,y*(x-y)] for P1 and Z[y,x*(3*y-x)] for P2.
     These are literal character forms, not primitive-image rescalings.
+    ``parabolic=None`` gives G2/B with source Z[x,y]. ``representation`` is
+    'minimal' (dimension 7) or 'adjoint' (dimension 14); the latter scales
+    every polynomial-degree-d source/image lattice by 4^d.
     """
     from .algebra import GeneratorAlgebra
     from .exceptional import exceptional_borel
-    borel = exceptional_borel("G2", parabolic)
-    x, y = 6*borel.weights[0], 2*borel.weights[1]
+    if representation not in ("minimal", "adjoint"):
+        raise ValueError("representation must be 'minimal' or 'adjoint'")
+    if parabolic is None:
+        from .core import BorelMap
+        borel = BorelMap("G2")
+    else:
+        borel = exceptional_borel("G2", parabolic)
+    scale = 4 if representation == "adjoint" else 1
+    x, y = scale*6*borel.weights[0], scale*2*borel.weights[1]
+    if parabolic is None:
+        return GeneratorAlgebra(borel, {"x": x, "y": y})
     if borel.omitted_nodes == (1,):
         return GeneratorAlgebra(borel, {"x": x, "q": y*(x-y)})
     return GeneratorAlgebra(borel, {"y": y, "p": x*(3*y-x)})

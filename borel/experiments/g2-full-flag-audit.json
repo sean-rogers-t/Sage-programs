@@ -1,0 +1,22 @@
+{
+  "result": "passed",
+  "complete": true,
+  "sage_imported": false,
+  "runtime_imported": false,
+  "algorithm": "Independent rank-two Weyl matrices, positive-root/coroot Chevalley products and gcds of all rank-one/two minors",
+  "group_elements": 12,
+  "positive_roots": 6,
+  "checked_monomial_columns": 72,
+  "representations": [
+    "minimal",
+    "adjoint"
+  ],
+  "all_degrees": true,
+  "integral_kernel_verified": true,
+  "scope": "All arithmetic reconstructed independently. Shared Cartan datum, characteristic-map theorem and previously proved full torus source; no independent reproof of that source theorem or novelty claim.",
+  "seconds": 0.005,
+  "source_sha256": {
+    "experiments/audit_g2_full_flag.py": "be318058a66ebbb3633f76b1edaa06020861dc1c67305691f88ca04db37d7c18",
+    "experiments/g2-full-flag.json": "6fd1597fd7428deefc71a0391db8df79fc45ed8ab43ff0ed9031f9450e08ff06"
+  }
+}

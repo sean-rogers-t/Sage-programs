@@ -20,7 +20,7 @@ Track E adds equivariant, K-theoretic, formal-group-law, quantum, affine and
 Kac–Moody projects. The first local-image benchmark and an equivariant
 specialization counterexample are now recorded in SRC-08, IMG-10/11 and
 LIMIT-06. General extension backends remain unimplemented. The expanded
-ledger has 85 entries, including 20 open questions. The proposal itself
+ledger has 86 entries, including 20 open questions. The proposal itself
 adds no theorem; subsequent progress is tracked here and in its README.
 
 ## Status and maintenance
@@ -167,6 +167,7 @@ substitutes for a uniform theorem.
 | CASE-06 | Complete G2 minimal/adjoint quotient maps, full determinants, degrees 6 and 18, and regular-to-nonregular witnesses. | Exact calculations and written degree arguments. The witnesses establish the localization obstruction for these two maps using the published criterion. | [G2 geometry](SPRINGER_GEOMETRY.md) |
 | CASE-07 | Complete E6/E7 minimal/adjoint quotient coordinates and full determinant products. | Exact character formulas with support/unisolvence certificates and independent representation matrices. The determinants are explicit products rather than single expanded character polynomials. | [E6](E6_GEOMETRY.md), [E7](E7_GEOMETRY.md) |
 | CASE-08 | Generic degrees E6 1080/2754 and E7 7272/33664, in minimal/adjoint order on simply connected groups. | Repository geometric deductions with explicit boundary contributions. Seven exact specialized-fiber reports corroborate them: two primes each for the first three cases, one for E7 adjoint. Finite-field agreement is not the characteristic-zero proof. | [Proof and coverage](EXCEPTIONAL_DEGREES.md), [release audit](release-0.20-verification.json) |
+| CASE-09 | Complete literal G2/B minimal/adjoint images, integral kernel and absolute Smith factors in every degree. | Exact finite result: J7 is Z[X,Y]/(X^2-3XY+3Y^2,Y^6), free of rank twelve; factors by degree are (1), (2,6), (12,12), (24,144), (288,288), (576,1728), (3456). Monic relations and twelve independent basis images prove the full integral kernel. A native audit independently reconstructs all 72 minimal/adjoint columns by Chevalley multiplication and minor gcds. The adjoint image scales by 4^d; the earlier classification supplies other irreducible scales. Together with CASE-03 this covers all proper G2 parabolics. Shared source theorems are identified; priority is unresolved. | [Theorem and API](G2_FULL_FLAG.md), [independent audit](experiments/g2-full-flag-audit.json) |
 
 ## Counterexamples and limits that a general theorem must respect
 
@@ -199,7 +200,7 @@ substitutes for a uniform theorem.
 | API-04 | Integral images, nonzero Smith factors, saturation, membership and integer preimages. | Computes the embedded image for explicitly integral generator images, preserving source normalization. | [Integral images](INTEGRAL_IMAGES.md) |
 | API-05 | Image containment, equality, sums, intersections and quotient groups; compressed all-rank B/D formulas. | Embedded comparisons retain directions, while the closed orthogonal calculator avoids constructing enormous Schubert matrices. | [Comparisons](INTEGRAL_COMPARISONS.md), [orthogonal API](ORTHOGONAL_API.md) |
 | API-06 | Representation sources, highest-weight-only irreducible lattices, quotient coordinates and determinant evaluation. | The general constructors and the packaged exceptional cases have different computational costs and guards. A packaged degree certificate is bound to its actual map. | [Lattice API](IRREDUCIBLE_CHARACTER_LATTICES.md), [geometry API](SPRINGER_GEOMETRY.md), [degree API](EXCEPTIONAL_DEGREES.md) |
-| API-07 | Compressed relative Smith factors for all 127 proper E7 parabolics and G/G, scaled root/weight-source comparisons and normalized minimal/adjoint comparisons. | Implemented method in version 0.21, using IMG-20 and the earlier representation source theorem. Independently reconstructed formula arithmetic, transformed integer-lattice comparisons and fresh E7/P7 overlaps verify the implementation. It returns abstract relative groups with provenance; absolute H/N and explicit Schubert embeddings remain separate. | [API and mathematics](E7_RELATIVE_IMAGE_API.md), [API audit](relative-image-verification.json), [release audit](release-0.21-verification.json) |
+| API-07 | Compressed relative Smith factors for all 63 E6 and 127 E7 proper parabolics and G/G, scaled root/weight-source comparisons and minimal/adjoint comparisons. | E7 was implemented in version 0.21; version 0.22 adds E6, preserving separate factors 3,9,27. Independent formula arithmetic, transformed integer lattices, fresh E6/P1 and E7/P7 overlaps and a fresh A5 integer invariant-kernel check verify the implementation. It packages IMG-12/20 and the source/scaling theorems, returning abstract relative groups with provenance; absolute H/N and explicit Schubert embeddings remain separate. | [E6 API](E6_RELATIVE_IMAGE_API.md), [E7 API](E7_RELATIVE_IMAGE_API.md), [API audit](relative-image-verification.json), [release audit](release-0.22-verification.json) |
 
 ## Open questions organized by generalization
 

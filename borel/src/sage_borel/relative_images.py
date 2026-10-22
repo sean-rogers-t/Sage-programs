@@ -1,4 +1,4 @@
-"""Compressed, certificate-backed relative Borel images for all E7 parabolics.
+"""Compressed, certificate-backed relative Borel images for E6/E7 parabolics.
 
 These summaries describe sublattices of the weight-source image N, not their
 embedding in integral Schubert cohomology. No Weyl group is enumerated here.
@@ -101,6 +101,7 @@ class ExceptionalSourceComparison:
     left_scale: int
     right_scale: int
     diagonal_blocks: tuple
+    cartan_type: str = "E7"
 
     @property
     def rank(self):
@@ -139,7 +140,7 @@ class ExceptionalSourceComparison:
         return self.sum_mod_left
 
     def as_dict(self):
-        return dict(degree=self.degree, cohomological_degree=2*self.degree,
+        return dict(cartan_type=self.cartan_type, degree=self.degree, cohomological_degree=2*self.degree,
                     retained_nodes=list(self.retained_nodes), rank=self.rank,
                     left_source=self.left_source, right_source=self.right_source,
                     left_scale=self.left_scale, right_scale=self.right_scale,
@@ -154,7 +155,7 @@ class ExceptionalSourceComparison:
 
 @dataclass(frozen=True)
 class ExceptionalRelativeDegree:
-    """One degree of the full root/weight-source comparison on E7/P_I."""
+    """One degree of the full root/weight-source comparison on E6/P_I or E7/P_I."""
     retained_nodes: tuple
     degree: int
     cohomology_rank: int
@@ -162,6 +163,8 @@ class ExceptionalRelativeDegree:
     proof_family: str
     proof_references: tuple = ()
     certificate_sha256: str = ""
+    cartan_type: str = "E7"
+    prime_power_multiplicities: tuple = ()
 
     @property
     def cohomological_degree(self):
@@ -170,8 +173,15 @@ class ExceptionalRelativeDegree:
     @property
     def relative_smith(self):
         """Smith factors of M -> N; units retained in the compressed rank."""
-        return _summary(((1, self.cohomology_rank-self.multiplicity_2),
-                         (2, self.multiplicity_2)))
+        counts = self.nonunit_multiplicities
+        return _summary([(1, self.cohomology_rank-sum(counts.values()))]+list(counts.items()))
+
+    @property
+    def nonunit_multiplicities(self):
+        """Fresh factor-to-count dictionary, preserving 3, 9 and 27 separately."""
+        if self.prime_power_multiplicities:
+            return {factor: count for factor, count in self.prime_power_multiplicities if count}
+        return {2: self.multiplicity_2} if self.multiplicity_2 else {}
 
     def _compare(self, left_source, left_scale, right_source, right_scale):
         left_scale = _integer(left_scale, "left_scale", minimum=1)
@@ -179,21 +189,21 @@ class ExceptionalRelativeDegree:
         # Vanishing cohomology must stay cheap even for an enormous degree.
         a, b = ((left_scale**self.degree, right_scale**self.degree)
                 if self.cohomology_rank else (1, 1))
-        blocks = tuple((a*(2**epsilon if left_source == "root" else 1),
-                        b*(2**epsilon if right_source == "root" else 1), count)
-                       for epsilon, count in ((0, self.cohomology_rank-self.multiplicity_2),
-                                              (1, self.multiplicity_2)) if count)
+        blocks = tuple((a*(factor if left_source == "root" else 1),
+                        b*(factor if right_source == "root" else 1), count)
+                       for factor, count in self.relative_smith.factor_multiplicities)
         return ExceptionalSourceComparison(self.degree, self.retained_nodes,
                                            left_source, right_source,
-                                           left_scale, right_scale, blocks)
+                                           left_scale, right_scale, blocks, self.cartan_type)
 
     def compare_scaled_sources(self, *, root_scale=1, weight_scale=1):
         """Compare beta(Sym^d(aQ)^WI) on the left with beta(Sym^d(bX)^WI)."""
         return self._compare("root", root_scale, "weight", weight_scale)
 
     def compare_representations(self, *, left="minimal", right="adjoint"):
-        """Normalized full character images: minimal56=12Q, adjoint133=36X."""
-        sources = {"minimal": ("root", 12), "adjoint": ("weight", 36)}
+        """Full sources: E6 minimal27=6Q/adjoint78=24X; E7 56=12Q/133=36X."""
+        scales = (6, 24) if self.cartan_type == "E6" else (12, 36)
+        sources = {"minimal": ("root", scales[0]), "adjoint": ("weight", scales[1])}
         if (not isinstance(left, str) or not isinstance(right, str)
                 or left not in sources or right not in sources):
             raise ValueError("representations must be 'minimal' or 'adjoint'")
@@ -203,14 +213,15 @@ class ExceptionalRelativeDegree:
 
     def as_dict(self):
         return dict(retained_nodes=list(self.retained_nodes), degree=self.degree,
-                    cartan_type="E7", coefficient_ring="Z",
+                    cartan_type=self.cartan_type, coefficient_ring="Z",
                     root_source="(Sym_Z^d Q)^W_I", weight_source="(Sym_Z^d X)^W_I",
                     polynomial_degree_convention="d means H^(2d)",
                     cohomological_degree=self.cohomological_degree,
                     cohomology_rank=self.cohomology_rank, multiplicity_2=self.multiplicity_2,
+                    nonunit_multiplicities={str(k): v for k, v in self.nonunit_multiplicities.items()},
                     relative_smith=self.relative_smith.as_dict(), proof_family=self.proof_family,
                     proof_references=list(self.proof_references),
-                    certificate="experiments/e7-all-parabolics-summary.json",
+                    certificate="experiments/%s-all-parabolics-summary.json" % self.cartan_type.lower(),
                     certificate_sha256=self.certificate_sha256,
                     scope="Relative N/M only; no absolute H/N or Schubert embedding")
 
@@ -226,14 +237,22 @@ class ExceptionalRootWeightComparison:
     proof_family: str
     proof_references: tuple
     certificate_sha256: str
+    _cartan_type: str = "E7"
+    prime_power_coefficients: tuple = ()
 
     @property
     def cartan_type(self):
-        return "E7"
+        return self._cartan_type
 
     @property
     def omitted_nodes(self):
-        return tuple(i for i in range(1, 8) if i not in self.retained_nodes)
+        return tuple(i for i in range(1, int(self.cartan_type[1:])+1) if i not in self.retained_nodes)
+
+    @property
+    def smith_multiplicity_polynomials(self):
+        """Nonunit Smith factor -> immutable coefficient tuple (fresh dictionary)."""
+        return (dict(self.prime_power_coefficients) if self.prime_power_coefficients
+                else {2: self.multiplicity_coefficients})
 
     @property
     def schubert_rank(self):
@@ -242,9 +261,12 @@ class ExceptionalRootWeightComparison:
     def degree(self, degree):
         degree = _integer(degree, "degree")
         rank = self.cohomology_ranks[degree] if degree <= self.dimension else 0
-        m = self.multiplicity_coefficients[degree] if degree <= self.dimension else 0
-        return ExceptionalRelativeDegree(self.retained_nodes, degree, rank, m, self.proof_family,
-                                         self.proof_references, self.certificate_sha256)
+        counts = tuple((factor, coefficients[degree] if degree <= self.dimension else 0)
+                       for factor, coefficients in self.smith_multiplicity_polynomials.items())
+        m2 = dict(counts).get(2, 0)
+        return ExceptionalRelativeDegree(self.retained_nodes, degree, rank, m2, self.proof_family,
+                                         self.proof_references, self.certificate_sha256,
+                                         self.cartan_type, counts)
 
     def compare_scaled_sources(self, *, degree, root_scale=1, weight_scale=1):
         return self.degree(degree).compare_scaled_sources(root_scale=root_scale,
@@ -254,53 +276,66 @@ class ExceptionalRootWeightComparison:
         return self.degree(degree).compare_representations(left=left, right=right)
 
     def as_dict(self):
-        return dict(cartan_type="E7", group="simply connected E7",
+        return dict(cartan_type=self.cartan_type, group="simply connected "+self.cartan_type,
                     retained_nodes=list(self.retained_nodes), omitted_nodes=list(self.omitted_nodes),
                     levi_type=self.levi_type, dimension=self.dimension,
                     schubert_rank=self.schubert_rank,
                     cohomology_ranks=list(self.cohomology_ranks),
                     multiplicity_coefficients=list(self.multiplicity_coefficients),
+                    smith_multiplicity_polynomials={str(k): list(v) for k, v in
+                                                    self.smith_multiplicity_polynomials.items()},
                     coefficient_ring="Z", polynomial_degree_convention="d means H^(2d)",
                     root_source="(Sym_Z Q)^W_I", weight_source="(Sym_Z X)^W_I",
                     proof_family=self.proof_family, proof_references=list(self.proof_references),
-                    certificate="experiments/e7-all-parabolics-summary.json",
+                    certificate="experiments/%s-all-parabolics-summary.json" % self.cartan_type.lower(),
                     certificate_sha256=self.certificate_sha256,
                     scope="Relative N/M only; no absolute H/N or Schubert embedding")
 
 
-@lru_cache(maxsize=1)
-def _catalogue():
-    data = json.loads(files("sage_borel").joinpath("data/e7_relative_images.json").read_text())
-    if data["schema_version"] != 1 or len(data["parabolics"]) != 127:
-        raise ValueError("invalid E7 relative-image catalogue")
+@lru_cache(maxsize=2)
+def _catalogue(cartan_type="E7"):
+    data = json.loads(files("sage_borel").joinpath("data/%s_relative_images.json" % cartan_type.lower()).read_text())
+    expected_schema = 2 if cartan_type == "E6" else 1
+    if data["schema_version"] != expected_schema or len(data["parabolics"]) != 2**int(cartan_type[1:])-1:
+        raise ValueError("invalid %s relative-image catalogue" % cartan_type)
     records = {}
     for row in data["parabolics"]:
         nodes = tuple(row["retained_nodes"])
-        ranks, counts = tuple(row["cohomology_ranks"]), tuple(row["multiplicity_coefficients"])
+        ranks = tuple(row["cohomology_ranks"])
+        powers = (tuple((factor, tuple(row["multiplicity_coefficients"][str(factor)]))
+                        for factor in (3, 9, 27)) if cartan_type == "E6" else ())
+        counts = (tuple(sum(coefficients[d] for _, coefficients in powers) for d in range(len(ranks)))
+                  if powers else tuple(row["multiplicity_coefficients"]))
         if (nodes in records or len(ranks) != row["dimension"]+1 or len(counts) != len(ranks)
-                or any(not 0 <= m <= n for m, n in zip(counts, ranks))):
-            raise ValueError("invalid E7 relative-image row")
+                or any(not 0 <= m <= n for m, n in zip(counts, ranks))
+                or any(c < 0 for _, coefficients in powers for c in coefficients)):
+            raise ValueError("invalid %s relative-image row" % cartan_type)
         records[nodes] = ExceptionalRootWeightComparison(
             nodes, row["levi_type"], row["dimension"], ranks, counts,
-            row["proof_family"], tuple(row["proof_references"]), data["certificate_sha256"])
+            row["proof_family"], tuple(row["proof_references"]), data["certificate_sha256"],
+            cartan_type, powers)
     return records
 
 
 def exceptional_root_weight_comparison(cartan_type, *, retained_nodes):
-    """Relative integral Borel images for every standard E7 parabolic.
+    """Relative integral Borel images for every standard E6 or E7 parabolic.
 
     ``retained_nodes`` are Bourbaki Levi nodes: () is G/B and (1,...,7)
-    is G/G. Only simply connected E7 is currently packaged. Nonnegative
-    polynomial degree d means cohomology degree 2d. See E7_RELATIVE_IMAGE_API.md.
+    is G/G in E7 (use 1,...,6 in E6). Nonnegative polynomial degree d means
+    cohomology degree 2d. See E6_RELATIVE_IMAGE_API.md and E7_RELATIVE_IMAGE_API.md.
     """
-    if cartan_type != "E7":
-        raise ValueError("only simply connected 'E7' is currently packaged")
+    if cartan_type not in ("E6", "E7"):
+        raise ValueError("only simply connected 'E6' and 'E7' are currently packaged")
+    rank = int(cartan_type[1:])
     nodes = tuple(_integer(i, "retained node", minimum=1) for i in retained_nodes)
-    if len(set(nodes)) != len(nodes) or any(i > 7 for i in nodes):
-        raise ValueError("retained_nodes must be distinct nodes in 1,...,7")
+    if len(set(nodes)) != len(nodes) or any(i > rank for i in nodes):
+        raise ValueError("retained_nodes must be distinct nodes in 1,...,%d" % rank)
     nodes = tuple(sorted(nodes))
-    if nodes == tuple(range(1, 8)):
-        return ExceptionalRootWeightComparison(nodes, "E7", 0, (1,), (0,),
-                                               "G/G", ("E7_ALL_PARABOLICS.md",),
-                                               _catalogue()[()].certificate_sha256)
-    return _catalogue()[nodes]
+    if nodes == tuple(range(1, rank+1)):
+        references = ("E6_REMAINING_CASES.md",) if cartan_type == "E6" else ("E7_ALL_PARABOLICS.md",)
+        powers = tuple((factor, (0,)) for factor in (3, 9, 27)) if cartan_type == "E6" else ()
+        return ExceptionalRootWeightComparison(nodes, cartan_type, 0, (1,), (0,),
+                                               "G/G", references,
+                                               _catalogue(cartan_type)[()].certificate_sha256,
+                                               cartan_type, powers)
+    return _catalogue(cartan_type)[nodes]

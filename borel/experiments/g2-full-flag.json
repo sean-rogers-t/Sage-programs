@@ -1,0 +1,978 @@
+{
+  "result": "passed",
+  "complete": true,
+  "group": "G2",
+  "parabolic": "B",
+  "source": "Full literal integral polynomial-character source for normalized trace projection",
+  "polynomial_degree_convention": "d means H^(2d)",
+  "cohomology_ranks": [
+    1,
+    2,
+    2,
+    2,
+    2,
+    2,
+    1
+  ],
+  "cases": [
+    {
+      "representation": "minimal",
+      "dimension": 7,
+      "polynomial_source": "Z[x,y]",
+      "linear_generators": [
+        6,
+        2
+      ],
+      "integral_kernel": [
+        "x^2-3*x*y+3*y^2",
+        "y^6"
+      ],
+      "free_quotient_rank": 12,
+      "degrees": [
+        {
+          "degree": 0,
+          "cohomological_degree": 0,
+          "rank": 1,
+          "ambient_rank": 1,
+          "source_exponents": [
+            [
+              0,
+              0
+            ]
+          ],
+          "schubert_words": [
+            []
+          ],
+          "coefficient_matrix": [
+            [
+              1
+            ]
+          ],
+          "quotient_basis_exponents": [
+            [
+              0,
+              0
+            ]
+          ],
+          "smith_factors": [
+            1
+          ]
+        },
+        {
+          "degree": 1,
+          "cohomological_degree": 2,
+          "rank": 2,
+          "ambient_rank": 2,
+          "source_exponents": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "schubert_words": [
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "coefficient_matrix": [
+            [
+              0,
+              6
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "quotient_basis_exponents": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "smith_factors": [
+            2,
+            6
+          ]
+        },
+        {
+          "degree": 2,
+          "cohomological_degree": 4,
+          "rank": 2,
+          "ambient_rank": 2,
+          "source_exponents": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "schubert_words": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "coefficient_matrix": [
+            [
+              12,
+              12,
+              0
+            ],
+            [
+              0,
+              12,
+              36
+            ]
+          ],
+          "quotient_basis_exponents": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "smith_factors": [
+            12,
+            12
+          ]
+        },
+        {
+          "degree": 3,
+          "cohomological_degree": 6,
+          "rank": 2,
+          "ambient_rank": 2,
+          "source_exponents": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              0
+            ]
+          ],
+          "schubert_words": [
+            [
+              1,
+              2,
+              1
+            ],
+            [
+              2,
+              1,
+              2
+            ]
+          ],
+          "coefficient_matrix": [
+            [
+              0,
+              72,
+              216,
+              432
+            ],
+            [
+              48,
+              72,
+              72,
+              0
+            ]
+          ],
+          "quotient_basis_exponents": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "smith_factors": [
+            24,
+            144
+          ]
+        },
+        {
+          "degree": 4,
+          "cohomological_degree": 8,
+          "rank": 2,
+          "ambient_rank": 2,
+          "source_exponents": [
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              4,
+              0
+            ]
+          ],
+          "schubert_words": [
+            [
+              1,
+              2,
+              1,
+              2
+            ],
+            [
+              2,
+              1,
+              2,
+              1
+            ]
+          ],
+          "coefficient_matrix": [
+            [
+              288,
+              576,
+              864,
+              864,
+              0
+            ],
+            [
+              0,
+              288,
+              864,
+              1728,
+              2592
+            ]
+          ],
+          "quotient_basis_exponents": [
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "smith_factors": [
+            288,
+            288
+          ]
+        },
+        {
+          "degree": 5,
+          "cohomological_degree": 10,
+          "rank": 2,
+          "ambient_rank": 2,
+          "source_exponents": [
+            [
+              0,
+              5
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              5,
+              0
+            ]
+          ],
+          "schubert_words": [
+            [
+              1,
+              2,
+              1,
+              2,
+              1
+            ],
+            [
+              2,
+              1,
+              2,
+              1,
+              2
+            ]
+          ],
+          "coefficient_matrix": [
+            [
+              0,
+              1728,
+              5184,
+              10368,
+              15552,
+              15552
+            ],
+            [
+              576,
+              1728,
+              3456,
+              5184,
+              5184,
+              0
+            ]
+          ],
+          "quotient_basis_exponents": [
+            [
+              0,
+              5
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          "smith_factors": [
+            576,
+            1728
+          ]
+        },
+        {
+          "degree": 6,
+          "cohomological_degree": 12,
+          "rank": 1,
+          "ambient_rank": 1,
+          "source_exponents": [
+            [
+              0,
+              6
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              6,
+              0
+            ]
+          ],
+          "schubert_words": [
+            [
+              2,
+              1,
+              2,
+              1,
+              2,
+              1
+            ]
+          ],
+          "coefficient_matrix": [
+            [
+              0,
+              3456,
+              10368,
+              20736,
+              31104,
+              31104,
+              0
+            ]
+          ],
+          "quotient_basis_exponents": [
+            [
+              1,
+              5
+            ]
+          ],
+          "smith_factors": [
+            3456
+          ]
+        },
+        {
+          "degree": 7,
+          "cohomological_degree": 14,
+          "rank": 0,
+          "ambient_rank": 0,
+          "source_exponents": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              5,
+              2
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              7,
+              0
+            ]
+          ],
+          "schubert_words": [],
+          "coefficient_matrix": [],
+          "quotient_basis_exponents": [],
+          "smith_factors": []
+        }
+      ]
+    },
+    {
+      "representation": "adjoint",
+      "dimension": 14,
+      "polynomial_source": "Z[x,y]",
+      "linear_generators": [
+        24,
+        8
+      ],
+      "integral_kernel": [
+        "x^2-3*x*y+3*y^2",
+        "y^6"
+      ],
+      "free_quotient_rank": 12,
+      "degrees": [
+        {
+          "degree": 0,
+          "cohomological_degree": 0,
+          "rank": 1,
+          "ambient_rank": 1,
+          "source_exponents": [
+            [
+              0,
+              0
+            ]
+          ],
+          "schubert_words": [
+            []
+          ],
+          "coefficient_matrix": [
+            [
+              1
+            ]
+          ],
+          "quotient_basis_exponents": [
+            [
+              0,
+              0
+            ]
+          ],
+          "smith_factors": [
+            1
+          ]
+        },
+        {
+          "degree": 1,
+          "cohomological_degree": 2,
+          "rank": 2,
+          "ambient_rank": 2,
+          "source_exponents": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "schubert_words": [
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "coefficient_matrix": [
+            [
+              0,
+              24
+            ],
+            [
+              8,
+              0
+            ]
+          ],
+          "quotient_basis_exponents": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "smith_factors": [
+            8,
+            24
+          ]
+        },
+        {
+          "degree": 2,
+          "cohomological_degree": 4,
+          "rank": 2,
+          "ambient_rank": 2,
+          "source_exponents": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "schubert_words": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "coefficient_matrix": [
+            [
+              192,
+              192,
+              0
+            ],
+            [
+              0,
+              192,
+              576
+            ]
+          ],
+          "quotient_basis_exponents": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "smith_factors": [
+            192,
+            192
+          ]
+        },
+        {
+          "degree": 3,
+          "cohomological_degree": 6,
+          "rank": 2,
+          "ambient_rank": 2,
+          "source_exponents": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              0
+            ]
+          ],
+          "schubert_words": [
+            [
+              1,
+              2,
+              1
+            ],
+            [
+              2,
+              1,
+              2
+            ]
+          ],
+          "coefficient_matrix": [
+            [
+              0,
+              4608,
+              13824,
+              27648
+            ],
+            [
+              3072,
+              4608,
+              4608,
+              0
+            ]
+          ],
+          "quotient_basis_exponents": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "smith_factors": [
+            1536,
+            9216
+          ]
+        },
+        {
+          "degree": 4,
+          "cohomological_degree": 8,
+          "rank": 2,
+          "ambient_rank": 2,
+          "source_exponents": [
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              4,
+              0
+            ]
+          ],
+          "schubert_words": [
+            [
+              1,
+              2,
+              1,
+              2
+            ],
+            [
+              2,
+              1,
+              2,
+              1
+            ]
+          ],
+          "coefficient_matrix": [
+            [
+              73728,
+              147456,
+              221184,
+              221184,
+              0
+            ],
+            [
+              0,
+              73728,
+              221184,
+              442368,
+              663552
+            ]
+          ],
+          "quotient_basis_exponents": [
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "smith_factors": [
+            73728,
+            73728
+          ]
+        },
+        {
+          "degree": 5,
+          "cohomological_degree": 10,
+          "rank": 2,
+          "ambient_rank": 2,
+          "source_exponents": [
+            [
+              0,
+              5
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              5,
+              0
+            ]
+          ],
+          "schubert_words": [
+            [
+              1,
+              2,
+              1,
+              2,
+              1
+            ],
+            [
+              2,
+              1,
+              2,
+              1,
+              2
+            ]
+          ],
+          "coefficient_matrix": [
+            [
+              0,
+              1769472,
+              5308416,
+              10616832,
+              15925248,
+              15925248
+            ],
+            [
+              589824,
+              1769472,
+              3538944,
+              5308416,
+              5308416,
+              0
+            ]
+          ],
+          "quotient_basis_exponents": [
+            [
+              0,
+              5
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          "smith_factors": [
+            589824,
+            1769472
+          ]
+        },
+        {
+          "degree": 6,
+          "cohomological_degree": 12,
+          "rank": 1,
+          "ambient_rank": 1,
+          "source_exponents": [
+            [
+              0,
+              6
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              6,
+              0
+            ]
+          ],
+          "schubert_words": [
+            [
+              2,
+              1,
+              2,
+              1,
+              2,
+              1
+            ]
+          ],
+          "coefficient_matrix": [
+            [
+              0,
+              14155776,
+              42467328,
+              84934656,
+              127401984,
+              127401984,
+              0
+            ]
+          ],
+          "quotient_basis_exponents": [
+            [
+              1,
+              5
+            ]
+          ],
+          "smith_factors": [
+            14155776
+          ]
+        },
+        {
+          "degree": 7,
+          "cohomological_degree": 14,
+          "rank": 0,
+          "ambient_rank": 0,
+          "source_exponents": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              5,
+              2
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              7,
+              0
+            ]
+          ],
+          "schubert_words": [],
+          "coefficient_matrix": [],
+          "quotient_basis_exponents": [],
+          "smith_factors": []
+        }
+      ]
+    }
+  ],
+  "integral_kernel_proof": "Monic relations with coprime leading monomials; free rank-12 quotient; all 12 basis images rationally independent. Hence no additional integer kernel. Source completeness is the earlier full torus-source theorem.",
+  "scope": "Complete absolute embedded images in all degrees for minimal and adjoint G2/B; no literature-priority claim.",
+  "seconds": 1.385,
+  "source_sha256": {
+    "experiments/g2_full_flag.py": "cd24ada7b7d283d4919e0672b62178bca74f80e040c96dfb1cb017f04433c9ab",
+    "src/sage_borel/characters.py": "91f09485c079c14c66e9753920c74e774a7cbfe5fc1a871bbae7925e189662dc",
+    "G2_CHARACTER_FORM.md": "d022c600f115dd92bd8ede95afc22378ef5ba57822ec56d07ee8ecfbaf5e9109",
+    "experiments/g2-character-form-audit.json": "0b1d1bae01a1a8d8f3ac39109089e13d4bc0001a69436c910d87d13297c004f5"
+  }
+}

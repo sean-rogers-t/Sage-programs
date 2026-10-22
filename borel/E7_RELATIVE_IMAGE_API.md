@@ -5,6 +5,10 @@ for all 127 proper standard parabolics of the simply connected E7 group,
 and the trivial quotient G/G. Queries read a small installed data file;
 they construct neither a Weyl group nor a Schubert matrix.
 
+Version 0.22 adds the [analogous E6 interface](E6_RELATIVE_IMAGE_API.md),
+preserving its separate factors 3,9,27. The E7 calls and coefficient
+conventions below remain supported.
+
 ## Maps, lattices and conventions
 
 Let X=X(T) be the weight lattice, Q the root lattice, and I the **retained
@@ -62,7 +66,8 @@ including source conventions, proof references and the SHA256 of the
 source conventions and certificate provenance. A degree above the dimension has zero rank; negative,
 nonintegral and boolean degrees are rejected. Repeated, boolean or
 out-of-range nodes are rejected; node order is immaterial. The current
-factory accepts the type string `"E7"`; E6 is a subsequent software task.
+factory accepts the type strings `"E7"` and `"E6"`; use six-node retained
+sets and the E6 guide's multiplicity dictionaries for E6.
 
 `relative_smith.multiplicities` includes the n-m unit factors and m
 factors equal to two. Its `rank` counts all n slots in the inclusion;
@@ -190,7 +195,8 @@ mathematical inputs. It does not
 reprove every source-completeness theorem or establish literature priority.
 
 The [API audit](relative-image-verification.json), full regression and
-isolated-wheel checks are bound by the [0.21 release audit](release-0.21-verification.json).
+isolated-wheel checks are bound by the [current 0.22 release audit](release-0.22-verification.json).
+The [0.21 record](release-0.21-verification.json) is the historical E7-only release.
 Run from `borel/` in Sage:
 
 ```sh

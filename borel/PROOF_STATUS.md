@@ -33,6 +33,25 @@ separate work.
 
 ## All-parabolic E7 API packaging
 
+Version 0.22 also packages the existing complete E6 classification in the
+[same relative API](E6_RELATIVE_IMAGE_API.md), preserving 3,9,27 separately.
+The audit reconstructs all 63 cohomology/formula records, checks fresh
+E6/P1 images in degrees 0,1,2,3,5,8 and rebuilds full A5 root/weight
+invariants as integer reflection kernels in degree three, recovering Z/27.
+This is implementation of the earlier image theorem, not a new E6 theorem.
+
+The [G2 full-flag note](G2_FULL_FLAG.md) adds a complete finite image
+calculation: Z[X,Y]/(X^2-3XY+3Y^2,Y^6), with the full literal minimal
+source X=6omega1,Y=2omega2 transported through xi_(omega1)^B. The quotient
+is free of rank twelve and all twelve basis images are independent;
+this proves the integral kernel in every degree. A native root/coroot
+Chevalley audit independently reconstructs all minimal/adjoint image
+columns and all Smith factors. The earlier source theorem is shared.
+All proper standard G2 parabolics are now covered for these literal
+sources, and other irreducibles follow by the proved source-scaling law.
+The [0.22 release record](release-0.22-verification.json) binds the new
+checks. Literature priority remains unresolved.
+
 Update, 21 October 2026. Version 0.21 packages the existing complete
 relative E7 theorem in a [compressed summary API](E7_RELATIVE_IMAGE_API.md).
 It includes all retained node sets, relative Smith multiplicities and the
