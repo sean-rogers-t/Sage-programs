@@ -2,6 +2,7 @@
 from hashlib import sha256
 from pathlib import Path
 import json
+import re
 import zipfile
 from sage.all import GF, PolynomialRing
 import sage_borel
@@ -150,6 +151,65 @@ def main():
     assert e7_d5a1[9]['exact_multiplicities'][21:23]==[17,19]
     assert e7_d5a1[9]['unknown_multiplicity_degrees']==list(range(23,41))+[42]
     assert e7_d5a1[9]['proper_E7_parabolics_with_complete_formulas']==113
+    # Historical bounded reports above remain reproducible. The source
+    # Hilbert certificates and complete image audits below supersede their
+    # conservative incomplete flags; none are promoted by a cutoff alone.
+    completion_patterns=(
+        'a5*','audit_a5*','audit_e7_a5*','e7-a5*','e7_a5*',
+        '*even_block*','e7-even-block*','*d4a1*',
+        '*d5a1_initial_source*','e7-d5a1-initial-source*',
+        '*d5a1_extra23*','e7-d5a1-extra23*',
+        '*d5a1_orbit_chern*','e7-d5a1-orbit-chern*',
+        '*d5a1_refinement_bound*','e7-d5a1-refinement-bound*',
+        'audit_e7_initial_sources.py','summarize_e7_d5a1_complete.py',
+        'e7-d5a1-complete-summary.json','summarize_e7_all_parabolics.py',
+        'e7-all-parabolics-summary.json')
+    completion_paths=sorted({p for pattern in completion_patterns
+        for p in (ROOT/'experiments').glob(pattern) if p.is_file()
+        and (p.suffix in ('.py','.json') or p.name.endswith('.json.gz'))})
+    completion_checks=[]
+    for path in completion_paths:
+        if path.suffix!='.json':continue
+        check=json.loads(path.read_text())
+        assert check['result'] in ('passed','prepared'),path
+        if check['result']=='prepared':assert not check['complete']
+        completion_checks.append(check)
+    complete_e7=read('experiments/e7-all-parabolics-summary.json')
+    complete_d5a1=read('experiments/e7-d5a1-complete-summary.json')
+    complete_d4a1=read('experiments/e7-d4a1-tower-images-audit.json')
+    assert complete_e7['complete'] and complete_e7['proper_standard_parabolics']==127
+    assert complete_e7['all_nonunit_relative_factors']==2
+    assert complete_e7['first_gap_counts']=={'1':112,'2':12,'4':2,'8':1}
+    assert len({tuple(row['retained_nodes']) for row in complete_e7['parabolics']})==127
+    assert complete_d5a1['complete_multiplicity_formula']
+    assert complete_d5a1['full_root_source_generators']==25
+    assert complete_d5a1['unknown_multiplicity_degrees']==[]
+    assert complete_d5a1['total_nonunit_factors']==366
+    assert complete_d4a1['complete'] and complete_d4a1['degree_bound']==50
+    assert complete_d4a1['total_rank']==7560
+    assert complete_d4a1['total_nonunit_factors']==3618
+    assert read('experiments/e7-d4a1-weight-transfer-audit.json')['full_weight_source_transfer_verified']
+    for levi,count in (('d5a1',25),('d4a1',18)):
+        check=read('experiments/e7-'+levi+'-initial-source-audit.json')
+        assert check['full_source_complete_all_degrees']
+        assert check['entire_hilbert_series_verified']
+        assert len(check['generator_degrees'])==count
+    for blocks,total in (('42',4911),('222',29982)):
+        check=read('experiments/e7-even-block-'+blocks+'-comparison-audit.json')
+        assert check['complete'] and check['total_nonunit_factors']==total
+    assert read('experiments/e7-even-block-formula.json')['uniform_even_block_formula_verified']
+    # Bind the printed coefficient lists as well as their proof data.
+    def numeric_blocks(note):
+        return [list(map(int,re.findall(r'\d+',block))) for block in
+            re.findall(r'^```\n([0-9,\s.]+)\n```',(ROOT/note).read_text(),re.MULTILINE)]
+    assert numeric_blocks('E7_D4_A1_COMPARISON.md')[0]==complete_d4a1['multiplicity_coefficients']
+    p6_rows=re.findall(r'^\| \d+ through \d+ \| ([0-9, ]+) \|',
+        (ROOT/'E7_D5_A1_COMPARISON.md').read_text(),re.MULTILINE)
+    assert [int(value) for row in p6_rows for value in row.split(',')]==complete_d5a1['multiplicity_coefficients']
+    a5_lists=numeric_blocks('E7_A5_FAMILY.md')
+    a5_formula=read('experiments/e7-even-block-formula.json')
+    assert a5_lists[0]==a5_formula['base_multiplicity_polynomial']
+    assert a5_lists[1]==a5_formula['cases'][0]['multiplicity_coefficients']
     for check in e6_checks+e7_checks+e7_refinements+e7_full+e7_d5+e7_d4+e7_d6+e7_d5a1+e7_d5a1_attempts:
         for name,expected in check.get('source_sha256',{}).items():
             path=ROOT/name
@@ -163,6 +223,15 @@ def main():
             assert sha256((ROOT/check['tower_archive']).read_bytes()).hexdigest()==check['tower_archive_sha256']
         if 'seed_certificate_archive' in check:
             assert sha256((ROOT/check['seed_certificate_archive']).read_bytes()).hexdigest()==check['seed_archive_sha256']
+    for check in completion_checks:
+        for field in ('source_sha256','raw_sha256'):
+            for name,expected in check.get(field,{}).items():
+                path=ROOT/name
+                if not path.exists():path=ROOT/'experiments'/name
+                assert digest(path)==expected,(field,name)
+        for field in ('certificate_archive','tower_archive'):
+            if field in check:
+                assert digest(ROOT/check[field])==check[field+'_sha256'],check[field]
     assert regression['version']==wheel['version']==version=='0.20.0'
     for name,expected in regression['source_sha256'].items():
         assert digest(ROOT/name)==expected,name
@@ -182,7 +251,11 @@ def main():
             entry['normalized_volume'],entry['boundary_correction'],entry['central_cover'],entry['degree'])
         degrees[key]=c.degree
     fibers=[]
-    fiber_paths=sorted((ROOT/'experiments').glob('e[67]-*-fiber-*.json'))
+    # Restrict to the actual representation cases: a Levi fiber-transfer
+    # audit is a different artifact from a specialized Springer-map fiber.
+    fiber_paths=sorted({p for cartan_type,representation in degrees
+        for p in (ROOT/'experiments').glob(
+            cartan_type.lower()+'-'+representation+'-fiber-*.json')})
     for path in fiber_paths:
         f=json.loads(path.read_text())
         key=(f['cartan_type'],f['representation'])
@@ -221,7 +294,7 @@ def main():
         fibers.append(dict(file=path.relative_to(ROOT).as_posix(),cartan_type=key[0],
             representation=key[1],prime=f['characteristic'],seed=f['seed'],
             length=f['fiber_length'],engine=f['engine']))
-    paths=fiber_paths+runtime+[ROOT/name for name in (
+    paths=fiber_paths+runtime+completion_paths+[ROOT/name for name in (
         'EXCEPTIONAL_DEGREES.md','experiments/exceptional_degree_geometry.py',
         'experiments/exceptional-degree-geometry.json','experiments/exceptional_degree_fibers.py',
         'experiments/exceptional-degree-bounded-attempts.json',
@@ -237,6 +310,7 @@ def main():
         'E7_ROOT_WEIGHT_COMPARISON.md','E7_ROOT_WEIGHT_AUDIT.md',
         'E7_REFINEMENT_MULTIPLICITIES.md',
         'E7_FULL_FLAG_COMPARISON.md','E7_D5_REFINEMENT.md','E7_D4_REFINEMENT.md','E7_REMAINING_PARABOLICS.md','E7_D5_A1_COMPARISON.md',
+        'E7_LOCAL_SOURCES.md','E7_A5_FAMILY.md','E7_D4_A1_COMPARISON.md','E7_ALL_PARABOLICS.md',
         'experiments/e7_d5a1_sources.py','experiments/extend_e7_d5a1_sources.py',
         'experiments/audit_e7_d5a1_sources.py','experiments/e7_d5a1_norm.py','experiments/audit_e7_d5a1_norm.py',
         'experiments/e7_d5a1_images.py','experiments/audit_e7_d5a1_images.py','experiments/audit_e7_d5a1_moments.py',
@@ -318,6 +392,7 @@ def main():
         'tests/test_exceptional_degrees.py','character-verification.json',
         'documentation-verification.json','geometry-wheel-verification.json')]+[Path(__file__).resolve()]
     report=dict(result='passed',version=version,
+        current_e7_relative_image_status='Complete formulas in all degrees for all 127 proper standard E7 parabolics. Earlier progress fields record the stated proof stages; the final completion field is authoritative for current scope.',
         characteristic_zero_proof='EXCEPTIONAL_DEGREES.md; toric localized top Chern and explicit boundary Segre classes',
         degree_deductions=geometry['degree_deductions'],specialized_fibers=fibers,
         full_fiber_cases_not_yet_corroborated=[list(key) for key in degrees
@@ -351,20 +426,31 @@ def main():
             proper_parabolics_settled=112,P7_refinements_settled=64,other_proper_parabolics_remaining=15,
             central_character_nodes=[2,5,7],remaining_parabolics_have_zero_degree_one_gap=True,
             scope='The 112 cases omitting at least one of nodes 2,5,7 have polynomial q P_W/((1+q)P_WI), including all 64 P7 refinements. D4 uses the full finite module and equal image-index corrections, independently audited by source/Buchberger and native Smith elimination. The D5 base is a shared audited input. The other 15 require a different formula. Structural explanation, ambient H/N and priority remain separate.'),
-        e7_remaining_progress=dict(new_parabolic='E7/P1, D6 Levi',quotient_rank=126,dimension=33,
+        e7_d6_historical_checkpoint=dict(new_parabolic='E7/P1, D6 Levi',quotient_rank=126,dimension=33,
             full_weight_source_degree_bound=33,full_root_source_degree_bound=27,
             all_33_image_degrees_independently_audited=True,
             multiplicity_polynomial=e7_d6[5]['multiplicity_polynomial'],total_relative_factors_2=e7_d6[5]['total_relative_factors_2'],
             proper_parabolics_settled=113,other_proper_parabolics_remaining=14,remaining_distinct_Weyl_conjugacy_classes=10,
             partial_D5_A1_first_gap_degree=2,partial_D5_A1_first_relative_group='Z/2',
-            scope='Full component saturation and primitive-product certificates establish the sources in their required bounds. In degrees 28..33, root-generator lower images equal the full weight images, so the full images agree. Independent native source, fresh-weight, Buchberger and image audits verify the arithmetic. Four Weyl-conjugacy reductions are checked in a second basis. No formula for the other 14 diagrams or novelty claim.'),
-        e7_d5a1_progress=dict(parabolic='E7/P6',levi_type='D5+A1',dimension=42,schubert_rank=756,
+            scope='Historical D6 step: full source components and a full-image sandwich prove the stated formula, with separate native audits. Four Weyl-conjugacy reductions are checked in a second basis. The then-remaining fourteen diagrams are now completed in the final field below.'),
+        e7_d5a1_historical_bounds=dict(parabolic='E7/P6',levi_type='D5+A1',dimension=42,schubert_rank=756,
             all_degree_exponent_divides_2=True,full_source_multiplicity_degree_bound=22,
             independent_image_degrees=42,new_necessary_source_generator_degrees=[21,22],
             incomplete_generator_algebra_first_missing_degree=21,
             higher_multiplicity_unknown_degrees=e7_d5a1[9]['unknown_multiplicity_degrees'],
             proper_parabolics_with_complete_formulas=113,
-            scope='Full weight source A[t] reuses the audited D5 theorem. Independent native source, fresh-weight, norm and image audits prove exponent 2 in all degrees and exact multiplicities through 22, with equality in degree 41. Higher counts are upper bounds. Both unbounded source attempts are explicitly incomplete; no full-formula or priority claim.'),
+            scope='Historical checkpoint: bounded reports remain unchanged. The new all-degree Hilbert source theorem and degree-23 witness below make the earlier image bounds exact. Earlier free-source trials remain incomplete and are not used as proof.'),
+        e7_all_parabolics_completion=dict(proper_standard_parabolics=127,
+            uniform_formula_parabolics=112,remaining_formula_parabolics=15,
+            all_nonunit_relative_factors=2,first_gap_counts=complete_e7['first_gap_counts'],
+            d5a1_full_root_source_generators=25,d5a1_total_factors_2=366,
+            d4a1_full_root_source_generators=18,d4a1_weight_source_module_generators=34,
+            d4a1_independently_audited_degrees=50,d4a1_total_factors_2=3618,
+            a5_family_standard_diagrams=12,even_block_base_totals=[4911,29982],
+            all_degree_source_hilbert_identities_independently_verified=True,
+            full_embedded_image_calculations_independently_verified=True,
+            printed_multiplicity_lists_match_audited_data=True,
+            scope='Current complete relative full root/weight comparison in every degree for all proper E7 parabolics. Earlier counts above record historical proof stages. The even-block common formula is exact for the finite E7 family; geometric folding, arbitrary-rank generalizations, ambient H/N and literature priority remain separate. Runtime and public API unchanged.'),
         hash_semantics='SHA256 after CRLF to LF normalization for text; raw bytes for .gz archives',
         audit_sha256={p.relative_to(ROOT).as_posix():digest(p) for p in sorted(set(paths))})
     (ROOT/'release-0.20-verification.json').write_text(json.dumps(report,indent=2)+'\n')

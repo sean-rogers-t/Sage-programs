@@ -1,0 +1,13 @@
+"""Exact unbounded completeness certificate for the A5 root invariant ring."""
+from pathlib import Path
+from hashlib import sha256
+from time import perf_counter
+import gzip,json
+from sage.all import GF,PolynomialRing,TermOrder,prod
+ROOT=Path(__file__).resolve().parents[1]
+
+def main():
+ start=perf_counter();sp=ROOT/'experiments/a5-two-local-source.json';data=json.loads(sp.read_text());P=PolynomialRing(GF(2),names=('c1','c2','c3','c4','c5'));gs=[(P(f),d) for f,d in data['generators']];ds=[d for f,d in gs];names=('c1','c2','c4')+tuple('b'+str(i) for i in range(len(gs)));S=PolynomialRing(GF(2),len(names),names=names,order=TermOrder('wdegrevlex',(1,2,4))+TermOrder('wdegrevlex',ds));c1,c2,c4=S.gens()[:3];vv=S.gens()[3:];c3=vv[1]+c1**3;c5=vv[3]+c1*c1*c3+c2*c3+c1*c4;phi=P.hom([c1,c2,c3,c4,c5],S);assert phi(gs[1][0])==vv[1] and phi(gs[3][0])==vv[3];I=S.ideal([vv[i]-phi(f) for i,(f,d) in enumerate(gs) if i not in (1,3)]);G=I.groebner_basis(algorithm='singular:slimgb');out=[f for f in G if not any(any(e[:3]) for e in f.exponents())];T=PolynomialRing(GF(2),len(gs),names=names[3:],order=TermOrder('wdegrevlex',ds));rho=S.hom([T.zero()]*3+list(T.gens()),T);J=T.ideal([rho(f) for f in out]);H=J.hilbert_series(grading=ds);q=H.parent().gen();target=1/prod(1-q**d for d in (2,3,4,5,6));complete=H==target
+ cert=dict(generators=list(map(lambda a:str(a[0]),gs)),generator_degrees=ds,elimination_variables=list(names),elimination_grading=[1,2,4]+ds,elimination_relations=list(map(str,I.gens())),elimination_groebner=list(map(str,G)),kernel=[str(rho(f)) for f in out],coefficient_substitution=list(map(str,(c1,c2,c3,c4,c5))));archive=ROOT/'experiments/a5-two-local-algebra-certificates.json.gz';archive.write_bytes(gzip.compress(json.dumps(cert,separators=(',',':')).encode(),mtime=0));report=dict(result='passed' if complete else 'incomplete',full_source_complete_all_degrees=complete,generator_degrees=ds,hilbert_series=str(H),target_hilbert_series=str(target),groebner_elements=len(G),kernel_relations=len(out),seconds=round(perf_counter()-start,3),scope='Exact equality of the mod-two algebra Hilbert series with the rational invariant Hilbert series proves full localized source generation by primitivity and degreewise Nakayama. Independent replay is required separately.',certificate_archive=archive.relative_to(ROOT).as_posix(),certificate_archive_sha256=sha256(archive.read_bytes()).hexdigest(),source_sha256={p.relative_to(ROOT).as_posix():sha256(p.read_bytes().replace(b'\r\n',b'\n')).hexdigest() for p in (Path(__file__).resolve(),sp)});(ROOT/'experiments/a5-two-local-algebra.json').write_text(json.dumps(report,indent=2)+'\n');print(report,flush=True)
+
+if __name__=='__main__':main()

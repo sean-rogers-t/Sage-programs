@@ -1,0 +1,149 @@
+{
+  "result": "passed",
+  "odd_index_subsystem": 3,
+  "full_local_lattice_splittings": true,
+  "common_A2_partial_fiber_degrees": [
+    0,
+    1,
+    2
+  ],
+  "common_A2_full_fiber_degrees": [
+    0,
+    1,
+    1,
+    2,
+    2,
+    3
+  ],
+  "fiber_relations": [
+    "h^3+q2*h+q3",
+    "u^2-h*u+t"
+  ],
+  "conjugacies": [
+    {
+      "blocks": "42",
+      "source_A5_nodes": [
+        2,
+        4,
+        5,
+        7
+      ],
+      "source_A2_roots": [
+        [
+          "2",
+          "0",
+          "-1",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "-1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "standard_retained_nodes": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7
+      ],
+      "application_order_word": [
+        3,
+        1,
+        4,
+        2,
+        3,
+        4,
+        5,
+        4,
+        2,
+        3,
+        1,
+        4,
+        3,
+        6,
+        5,
+        4,
+        2,
+        7,
+        6,
+        5,
+        4
+      ],
+      "levi_root_count": 20
+    },
+    {
+      "blocks": "222",
+      "source_A5_nodes": [
+        2,
+        5,
+        7
+      ],
+      "source_A2_roots": [
+        [
+          "2",
+          "0",
+          "-1",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "-1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "standard_retained_nodes": [
+        1,
+        2,
+        3,
+        5,
+        7
+      ],
+      "application_order_word": [
+        3,
+        1,
+        4,
+        2,
+        3,
+        4,
+        5,
+        4,
+        2,
+        3,
+        1,
+        4,
+        3,
+        6,
+        5,
+        4,
+        2,
+        7,
+        6,
+        5,
+        4
+      ],
+      "levi_root_count": 12
+    }
+  ],
+  "scope": "Exact root/weight local splittings and Weyl conjugacies. The monic common A2 source bases transfer full-image comparisons by direct sums; they do not assume invariants commute with the Borel quotient.",
+  "engine": "Native SymPy independent Cartan lattice determinants, fresh root orbit and full Levi root-mask equality.",
+  "source_sha256": {
+    "experiments/audit_e7_a5_fiber_transfers.py": "14397034c539518f5a27b7e81aa64261177ab259588df69babd533a97241e3b6"
+  }
+}

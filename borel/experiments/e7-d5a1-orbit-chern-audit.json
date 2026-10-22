@@ -1,0 +1,74 @@
+{
+  "result": "passed",
+  "all_characteristic_coefficients_verified": true,
+  "primitive_integral_root_generators_through": 32,
+  "all_additional_generators_in_constructed_root_image": true,
+  "generators": [
+    {
+      "degree": 23,
+      "primitive_integral_source_verified": true,
+      "contained_in_constructed_root_image": true
+    },
+    {
+      "degree": 24,
+      "primitive_integral_source_verified": true,
+      "contained_in_constructed_root_image": true
+    },
+    {
+      "degree": 25,
+      "primitive_integral_source_verified": true,
+      "contained_in_constructed_root_image": true
+    },
+    {
+      "degree": 26,
+      "primitive_integral_source_verified": true,
+      "contained_in_constructed_root_image": true
+    },
+    {
+      "degree": 27,
+      "primitive_integral_source_verified": true,
+      "contained_in_constructed_root_image": true
+    },
+    {
+      "degree": 28,
+      "primitive_integral_source_verified": true,
+      "contained_in_constructed_root_image": true
+    },
+    {
+      "degree": 29,
+      "primitive_integral_source_verified": true,
+      "contained_in_constructed_root_image": true
+    },
+    {
+      "degree": 30,
+      "primitive_integral_source_verified": true,
+      "contained_in_constructed_root_image": true
+    },
+    {
+      "degree": 31,
+      "primitive_integral_source_verified": true,
+      "contained_in_constructed_root_image": true
+    },
+    {
+      "degree": 32,
+      "primitive_integral_source_verified": true,
+      "contained_in_constructed_root_image": true
+    }
+  ],
+  "seconds": 24.158,
+  "engine": "Native FLINT Horner calculation in a quadratic algebra, independently audited spin moments, actual root coefficient expansions and separate Borel normal forms with exact local membership.",
+  "source_sha256": {
+    "experiments/audit_e7_d5a1_orbit_chern.py": "6cb0c57a15b92aedc7633b15b766446de78f307521aa11d83448aeef679f2f46",
+    "experiments/e7-d5a1-orbit-chern.json": "00c168be697bfa4eb2a8f44d8b295c87355f21d863a58ccaace5246707a8d3a2",
+    "experiments/e7-d5a1-norm.json": "2afc7280f2580cb55d7ba5375929f98a5a2d0b36fbf5e6b25817fe4fc8bad39d",
+    "experiments/e7-d5a1-norm-audit.json": "ca75876f3293d3a1dc7915a7d512dc29fc42f5d2c43fc9e37ee21fd258ef3607",
+    "experiments/e7-d5a1-images.json": "5eb3b6dfb42f416873fb76e51661d2906851b0d276cdae4c61c40d48b551102c",
+    "experiments/e7-d5a1-sources-22.json": "87af9b74a7fa8b2bc08a6a73082029099c72b77944cf766d5e61ea18540380e8"
+  },
+  "raw_sha256": {
+    "experiments/e7-d5a1-orbit-chern-certificates.json.gz": "b264700aca5d652abcde06f872725c6b58866bd995740618d677c62e816f2448",
+    "experiments/e7-d5a1-norm-certificates.json.gz": "cddded435270c181f7be26ee979c07d0cc4c0a384db481bc4f94ab40191f7ea8",
+    "experiments/e7-d5a1-images-certificates.json.gz": "78024d04ee22c39655565e4197548422d9f63d2d00485af20e03bc43b5da39d4",
+    "experiments/e7-d5a1-sources-22-certificates.json.gz": "68203c51b2a92e4cc3633268a1a3473b54e212f8a20dcadc07698eca95cd391f"
+  }
+}

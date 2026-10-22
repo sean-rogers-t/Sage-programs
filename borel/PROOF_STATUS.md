@@ -207,7 +207,15 @@ Borel/invariant/Nakayama inputs and the new finite deductions are
 separated; priority, ambient H/N and a structural explanation of the
 index equality remain unresolved. No runtime API changes.
 
-## E7 remaining family: D6 complete, D5+A1 exponent and bounded factors
+## E7 completion: all 127 proper standard parabolics
+
+The [complete E7 theorem](E7_ALL_PARABOLICS.md) determines the relative
+full root/weight Borel-image groups in every degree on all 127 proper
+standard parabolics. Every nonunit relative factor is two. The preceding
+112-case polynomial q P_W/((1+q)P_WI) applies exactly to the retained
+sets omitting at least one of 2,5,7; the other fifteen have the separate
+formulas tabulated in the theorem. Their first gaps occur in degree two
+(twelve cases), four (two cases), or eight (D6).
 
 The [remaining-family note](E7_REMAINING_PARABOLICS.md) proves for E7/P1
 (D6 Levi) that every nonunit relative root/weight image factor is 2, with
@@ -221,37 +229,51 @@ the finite proof. Higher root invariants change the truncated-generator
 answer, so selected rational/integral generators alone are insufficient.
 
 Four Weyl-conjugacy words are checked independently in root-mask and
-root-matrix implementations. They reduce the initially excluded 15 diagrams
-to 11 cases. D6 makes 113 complete proper E7 parabolics; the other 14
-diagrams represent ten distinct cases. For E7/P6 (D5+A1), explicit
-primitive bases give full degree-two sources and images N=R{h2,t},
-M=R{h2,2t}, with first relative group Z/2 in degree two. Direct full
-reflection kernels and an independent analytic/native audit corroborate
-this first gap. The [D5+A1 continuation](E7_D5_A1_COMPARISON.md) proves
-2N^d subset M^d in all degrees, using the full weight source A[t] and
-independently audited lower root images through top degree 42. Thus all
-nonunit relative factors on E7/P6 are 2. Complete primitive root-source components
-and image calculations determine multiplicities through degree 22;
-degree 41 also has equality by containment. Higher nonzero counts remain
-upper bounds, so the total of 113 complete parabolics is unchanged.
+root-matrix implementations. They reduce the initially excluded fifteen
+diagrams to eleven types. The [D5+A1 completion](E7_D5_A1_COMPARISON.md)
+now proves the complete E7/P6 polynomial, totaling 366 factors two.
+Its full 25-generator root source uses a necessary degree-23 correction
+and the degree-32 root-orbit norm. The correction's Borel image is
+redundant, so the earlier independently audited lower image is the full
+image. The fresh 56-weight orbit, exact Jacobian and 333 unisolvent
+samples independently establish the base relations. The earlier D5
+source theorem is an explicitly shared input.
 
-Native Newton/coefficient audits verify all 22 root components; a fresh
-56-weight orbit, nonzero Jacobian, 333 unisolvent samples, and separate
-Buchberger/image reductions verify the quotient and image comparison.
-The earlier D5 source theorem is an explicitly shared input. A degree-32
-root-character orbit norm is checked separately. New necessary generators
-in degrees 21 and 22 disprove completeness of the degree-20 list, even
-after adjoining the norm. They do not change the previously bounded
-images in those two degrees. A finite-module trial has fiber rank 32
-but does not have the required degree numerator; it remains incomplete.
+The [all-degree source argument](E7_LOCAL_SOURCES.md) proves both this
+25-generator source and the 18-generator D4+A1 root source. It compares
+an explicitly witnessed leading-monomial algebra with the rational Weyl
+invariant Hilbert series as a full rational-function identity. Independent
+audits verify the product witnesses, nonnegative monoid expressions,
+closure and monomial-ideal Hilbert recursion. It therefore proves
+generation in all degrees, rather than extrapolating from a cutoff.
+
+The [A5-family proof](E7_A5_FAMILY.md) completes twelve diagrams. An
+odd-index A5+A2 intermediary has 293 factors two; common integral A2
+source bases give two transfers. A uniform involution lemma supplies
+the full even-block root sources, with 51- and 342-generator modules.
+Separate rational reducers and mod-four row/column eliminations agree
+on every image column through top degrees 53 and 57. Their complete
+formulas have 4,911 and 29,982 factors and a common Gaussian-multinomial
+expression with a halved-block correction. The expression is an exact
+finite E7 deduction; a geometric folding explanation or an arbitrary-rank
+generalization is not proved.
+
+The [D4+A1 completion](E7_D4_A1_COMPARISON.md) uses the rank-ten quadric
+tower over P6 and the full 34-generator weight-source module. A native
+FLINT audit reconstructs all source images and checks full local lattices
+in every degree through 50. It gives 3,618 factors two. The supplementary
+finer-flag intersection bound can be strict; invariants after Borel are
+not used as a full-source substitute.
 
 The rational cohomology of E7/P1 is already known from Chaput--Perrin,
 Proposition 5.6; the Borel presentation, signed-permutation invariants,
 Weyl conjugacy and lattice primitivity criteria are classical inputs.
-The relative Smith calculations and first-gap deductions are what is
-established here. No exact matching formula was located in the targeted
-literature check; priority, a structural uniform formula and ambient H/N
-remain separate. No runtime or public API changes.
+The relative Smith calculations and source-completeness deductions are
+what is established here. Earlier targeted literature checks are retained
+in the linked notes; the completion does not assert a new comprehensive
+search or establish priority. Structural explanations beyond this finite
+classification and ambient H/N remain separate. No runtime or public API
+changes were needed for this completion.
 
 ## Exceptional integral images: first complete finite tables
 

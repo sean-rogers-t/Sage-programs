@@ -1,0 +1,280 @@
+{
+  "result": "passed",
+  "full_source_complete_all_degrees": true,
+  "all_required_source_components_complete": true,
+  "max_complete_degree": 32,
+  "first_missing_degree": null,
+  "degrees": [
+    {
+      "degree": 1,
+      "rational_source_rank": 1,
+      "generated_mod_two_rank": 1,
+      "full_source_component": true,
+      "products_tested": 1,
+      "seconds": 6.171
+    },
+    {
+      "degree": 2,
+      "rational_source_rank": 3,
+      "generated_mod_two_rank": 3,
+      "full_source_component": true,
+      "products_tested": 3,
+      "seconds": 6.172
+    },
+    {
+      "degree": 3,
+      "rational_source_rank": 3,
+      "generated_mod_two_rank": 3,
+      "full_source_component": true,
+      "products_tested": 3,
+      "seconds": 6.172
+    },
+    {
+      "degree": 4,
+      "rational_source_rank": 7,
+      "generated_mod_two_rank": 7,
+      "full_source_component": true,
+      "products_tested": 11,
+      "seconds": 6.174
+    },
+    {
+      "degree": 5,
+      "rational_source_rank": 8,
+      "generated_mod_two_rank": 8,
+      "full_source_component": true,
+      "products_tested": 16,
+      "seconds": 6.176
+    },
+    {
+      "degree": 6,
+      "rational_source_rank": 15,
+      "generated_mod_two_rank": 15,
+      "full_source_component": true,
+      "products_tested": 31,
+      "seconds": 6.178
+    },
+    {
+      "degree": 7,
+      "rational_source_rank": 17,
+      "generated_mod_two_rank": 17,
+      "full_source_component": true,
+      "products_tested": 43,
+      "seconds": 6.18
+    },
+    {
+      "degree": 8,
+      "rational_source_rank": 29,
+      "generated_mod_two_rank": 29,
+      "full_source_component": true,
+      "products_tested": 73,
+      "seconds": 6.188
+    },
+    {
+      "degree": 9,
+      "rational_source_rank": 33,
+      "generated_mod_two_rank": 33,
+      "full_source_component": true,
+      "products_tested": 98,
+      "seconds": 6.194
+    },
+    {
+      "degree": 10,
+      "rational_source_rank": 52,
+      "generated_mod_two_rank": 52,
+      "full_source_component": true,
+      "products_tested": 154,
+      "seconds": 6.207
+    },
+    {
+      "degree": 11,
+      "rational_source_rank": 59,
+      "generated_mod_two_rank": 59,
+      "full_source_component": true,
+      "products_tested": 167,
+      "seconds": 6.215
+    },
+    {
+      "degree": 12,
+      "rational_source_rank": 88,
+      "generated_mod_two_rank": 88,
+      "full_source_component": true,
+      "products_tested": 297,
+      "seconds": 6.247
+    },
+    {
+      "degree": 13,
+      "rational_source_rank": 100,
+      "generated_mod_two_rank": 100,
+      "full_source_component": true,
+      "products_tested": 378,
+      "seconds": 6.289
+    },
+    {
+      "degree": 14,
+      "rational_source_rank": 142,
+      "generated_mod_two_rank": 142,
+      "full_source_component": true,
+      "products_tested": 538,
+      "seconds": 6.368
+    },
+    {
+      "degree": 15,
+      "rational_source_rank": 161,
+      "generated_mod_two_rank": 161,
+      "full_source_component": true,
+      "products_tested": 672,
+      "seconds": 6.484
+    },
+    {
+      "degree": 16,
+      "rational_source_rank": 221,
+      "generated_mod_two_rank": 221,
+      "full_source_component": true,
+      "products_tested": 922,
+      "seconds": 6.681
+    },
+    {
+      "degree": 17,
+      "rational_source_rank": 250,
+      "generated_mod_two_rank": 250,
+      "full_source_component": true,
+      "products_tested": 1136,
+      "seconds": 6.936
+    },
+    {
+      "degree": 18,
+      "rational_source_rank": 333,
+      "generated_mod_two_rank": 333,
+      "full_source_component": true,
+      "products_tested": 1515,
+      "seconds": 7.347
+    },
+    {
+      "degree": 19,
+      "rational_source_rank": 375,
+      "generated_mod_two_rank": 375,
+      "full_source_component": true,
+      "products_tested": 1755,
+      "seconds": 7.708
+    },
+    {
+      "degree": 20,
+      "rational_source_rank": 488,
+      "generated_mod_two_rank": 488,
+      "full_source_component": true,
+      "products_tested": 2398,
+      "seconds": 8.599
+    },
+    {
+      "degree": 21,
+      "rational_source_rank": 548,
+      "generated_mod_two_rank": 548,
+      "full_source_component": true,
+      "products_tested": 2884,
+      "seconds": 10.181
+    },
+    {
+      "degree": 22,
+      "rational_source_rank": 698,
+      "generated_mod_two_rank": 698,
+      "full_source_component": true,
+      "products_tested": 3681,
+      "seconds": 12.855
+    },
+    {
+      "degree": 23,
+      "rational_source_rank": 781,
+      "generated_mod_two_rank": 781,
+      "full_source_component": true,
+      "products_tested": 4383,
+      "seconds": 15.681
+    },
+    {
+      "degree": 24,
+      "rational_source_rank": 978,
+      "generated_mod_two_rank": 978,
+      "full_source_component": true,
+      "products_tested": 5047,
+      "seconds": 17.545
+    },
+    {
+      "degree": 25,
+      "rational_source_rank": 1091,
+      "generated_mod_two_rank": 1091,
+      "full_source_component": true,
+      "products_tested": 6089,
+      "seconds": 20.297
+    },
+    {
+      "degree": 26,
+      "rational_source_rank": 1345,
+      "generated_mod_two_rank": 1345,
+      "full_source_component": true,
+      "products_tested": 7479,
+      "seconds": 24.365
+    },
+    {
+      "degree": 27,
+      "rational_source_rank": 1495,
+      "generated_mod_two_rank": 1495,
+      "full_source_component": true,
+      "products_tested": 8704,
+      "seconds": 29.972
+    },
+    {
+      "degree": 28,
+      "rational_source_rank": 1819,
+      "generated_mod_two_rank": 1819,
+      "full_source_component": true,
+      "products_tested": 10550,
+      "seconds": 38.606
+    },
+    {
+      "degree": 29,
+      "rational_source_rank": 2016,
+      "generated_mod_two_rank": 2016,
+      "full_source_component": true,
+      "products_tested": 11813,
+      "seconds": 49.967
+    },
+    {
+      "degree": 30,
+      "rational_source_rank": 2424,
+      "generated_mod_two_rank": 2424,
+      "full_source_component": true,
+      "products_tested": 14604,
+      "seconds": 65.958
+    },
+    {
+      "degree": 31,
+      "rational_source_rank": 2678,
+      "generated_mod_two_rank": 2678,
+      "full_source_component": true,
+      "products_tested": 16759,
+      "seconds": 87.321
+    },
+    {
+      "degree": 32,
+      "rational_source_rank": 3187,
+      "generated_mod_two_rank": 3187,
+      "full_source_component": true,
+      "products_tested": 22078,
+      "seconds": 154.112
+    }
+  ],
+  "extra_source_generators": [],
+  "seconds": 158.315,
+  "scope": "Actual integral invariant product witnesses give an initial-monoid Hilbert lower bound equal to the full rational invariant Hilbert series. Saturation and degreewise Nakayama prove integral source generation in all degrees.",
+  "certificate_archive": "experiments/e7-d5a1-initial-source-certificates.json.gz",
+  "certificate_archive_sha256": "3e9cd36d414a4c8803627b8825ce5f502ed66af1715d46de830ae34e459f1d21",
+  "source_sha256": {
+    "experiments/e7_d5a1_initial_source.py": "466304432f07754f6ef05bfb9d24cea1d2565917fd3105f085db1f2439c9d38f",
+    "experiments/e7-d5a1-sources-22.json": "87af9b74a7fa8b2bc08a6a73082029099c72b77944cf766d5e61ea18540380e8",
+    "experiments/e7-d5a1-norm.json": "2afc7280f2580cb55d7ba5375929f98a5a2d0b36fbf5e6b25817fe4fc8bad39d",
+    "experiments/e7-d5a1-extra23-audit.json": "96ca5606982f40e546ecc2be01213306715db47759b0847d78dc0f15f7971868"
+  },
+  "raw_sha256": {
+    "experiments/e7-d5a1-norm-certificates.json.gz": "cddded435270c181f7be26ee979c07d0cc4c0a384db481bc4f94ab40191f7ea8",
+    "experiments/e7-d5a1-extra23-certificates.json.gz": "d94942c91d16a86abadf0e352db433a66f6941f810822fee9e2f5eff2e7123ca"
+  }
+}

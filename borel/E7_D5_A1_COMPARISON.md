@@ -1,9 +1,12 @@
-# E7/P6: an all-degree exponent theorem and bounded multiplicities
+# E7/P6: the complete integral root-to-weight image comparison
 
 This continues the [remaining-parabolic comparison](E7_REMAINING_PARABOLICS.md).
-It proves an exponent theorem for the full integral images on E7/P6.
-The multiplicity formula is still incomplete. A finite list of integral
-generators is used as a lower image, without assuming it is the whole source.
+The full multiplicity formula is now proved. The
+[complete local-source argument](E7_LOCAL_SOURCES.md) supplies an audited
+25-generator root source in all degrees. Its degree-23 correction has
+Borel image in the earlier constructed image, which therefore equals the
+full root image. The earlier bounded calculations are retained below as
+inputs to this completion.
 
 ## Statement and relation to the Springer maps
 
@@ -27,10 +30,12 @@ embedded in it. Polynomial degree d means cohomological degree 2d.
                   2N^d\subseteq M^d\subseteq N^d.
 \]
 
-Consequently N^d/M^d is an elementary abelian 2-group. There are no
-relative factors 4, 8, or higher powers of two. The first nonzero quotient
-is N^2/M^2=Z/2. The exact number of factors is proved in the bounded
-degrees recorded below; it is not yet proved in all degrees.
+More precisely, N^d/M^d=(Z/2)^(m_d), where m_d is given by the complete
+table below. Its sum is 366. The first nonzero quotient is
+N^2/M^2=Z/2, and all m_d vanish above degree 42. The
+[complete summary](experiments/e7-d5a1-complete-summary.json) binds the
+source proof, degree-23 witness, orbit norm and independently audited
+embedded image calculation.
 
 Since Q and X become equal at odd primes, this also describes the possible
 nonunit factors of the integral relative comparison. It does not compute
@@ -167,12 +172,12 @@ must both have odd denominators. This proves the theorem by
 2N^d subset L^d subset M^d subset N^d. Degree zero is trivial and all
 images vanish above 42.
 
-In degrees with full root components, rank(T mod 2) also gives the exact
-relative multiplicity m_d=rank(N^d)-rank(T mod 2). In other degrees it gives
-an upper bound, which is not promoted to the full answer. Degree 41 has
-L^41=N^41, and hence full equality M^41=N^41 by containment.
+The original component calculation gave exact multiplicities through 22
+and bounds afterwards. The all-degree source theorem now proves L=M in
+every degree: all 25 source generators map to L, including the additional
+degree-23 generator. Thus m_d=rank(N^d)-rank(T mod 2) is exact throughout.
 
-The exact prefix is as follows. Each entry m_d means (Z/2)^(m_d), not
+The complete formula is as follows. Each entry m_d means (Z/2)^(m_d), not
 the index in ambient cohomology.
 
 | Polynomial degrees d | Multiplicities m_d in the same order |
@@ -180,7 +185,9 @@ the index in ambient cohomology.
 | 0 through 7 | 0, 0, 1, 1, 1, 2, 3, 4 |
 | 8 through 15 | 4, 5, 7, 9, 9, 11, 12, 15 |
 | 16 through 22 | 14, 15, 17, 19, 17, 17, 19 |
-| 41 | 0 |
+| 23 through 30 | 19, 17, 14, 17, 15, 14, 10, 12 |
+| 31 through 38 | 9, 9, 5, 7, 4, 4, 2, 3 |
+| 39 through 42 | 1, 1, 0, 1 |
 
 The new root generators in degrees 21 and 22 have Borel images already
 in the previously generated root image in their own degrees. The previous
@@ -188,7 +195,7 @@ upper bounds 17 and 19 are therefore the exact multiplicities. This
 illustrates why source generation and generation after the Borel map must
 be checked separately.
 
-## A root-orbit norm and what remains
+## The root-orbit norm and completion of the source proof
 
 The actual root-lattice character p=w-z has a 32-element D5+A1 orbit.
 If z_epsilon=(5h+sum epsilon_i y_i)/4, product epsilon_i=1, its norm is
@@ -208,13 +215,10 @@ polynomial S16(Z). If S16(Z)=A Z+B modulo Z^2-hZ+t, then
 The [independent norm audit](experiments/e7-d5a1-norm-audit.json) checks
 the fresh root orbit, spin moment identities, Newton recurrence, quadratic
 resultant and all root-coefficient integrality. Modulo two its restriction
-to the r-axis is r^16. This supplies a useful parameter for an attempted
-finite-module source presentation. An orbit norm and an unbounded source
-presentation are different conclusions.
+to the r-axis is r^16. Together with the degree-23 correction and the
+generators through 22, it gives the complete 25-generator root source.
 
-The remaining target is an exact multiplicity polynomial in all degrees,
-with an explicit integral source or a direct proof that a smaller source
-has the same Borel image. The degree-20 generating list is incomplete:
+The degree-20 generating list is incomplete:
 the component extension finds another necessary generator in each of degrees
 21 and 22. Independent mod-two product ranks are 547 versus full rank 548
 in degree 21, and 697 versus 698 in degree 22. Thus the degree-20 list,
@@ -223,8 +227,14 @@ even with a degree-32 norm added, cannot generate the full source. The
 this obstruction. A separate finite-module attempt obtains fiber rank 32
 but the wrong degree numerator; it is
 [recorded as incomplete](experiments/e7-d5a1-free-source.json), with no
-inference that the full source is nonfree. Neither attempt supplies the
-missing higher-degree multiplicities.
+inference that the full source is nonfree. These earlier failed attempts
+are superseded by the [initial-monoid proof](E7_LOCAL_SOURCES.md): 25
+leading-polynomial witnesses through degree 32 give a monoid whose entire
+Hilbert series equals the rational invariant Hilbert series. Explicit
+residue ideals retain its holes. Independent product, monoid and Hilbert
+checks then prove source completeness by saturation and degreewise
+Nakayama. The degree-23 generator's exact source/Borel transcript proves
+that its image was already in L. This closes every higher multiplicity.
 
 ## Published inputs, deductions and reproduction
 
@@ -233,8 +243,8 @@ for E7 basic invariants, the symmetric-polynomial theorem, and elementary
 commutative algebra are established inputs. The full D5 integral algebra
 and the normalized Springer source classification are earlier audited
 repository deductions reused here. The all-degree exponent comparison on
-this particular parabolic and its bounded multiplicities are the current
-computer-assisted deductions. No new literature search or priority claim
+this particular parabolic, the complete two-local root source and the
+full multiplicity formula are computer-assisted deductions. No new literature search or priority claim
 is made in this continuation. See the [earlier targeted literature check](E7_REMAINING_PARABOLICS.md#independent-checks-reproduction-and-literature).
 
 From borel/, the primary and independent commands are:
@@ -249,6 +259,10 @@ python experiments/audit_e7_d5a1_norm.py
 sage -python experiments/e7_d5a1_images.py
 python experiments/audit_e7_d5a1_moments.py
 python experiments/audit_e7_d5a1_images.py
+python experiments/audit_e7_d5a1_extra23.py
+python experiments/e7_d5a1_initial_source.py
+python experiments/audit_e7_initial_sources.py --levi d5a1
+python experiments/summarize_e7_d5a1_complete.py
 ```
 
 The source/norm audits require python-flint (optionally through

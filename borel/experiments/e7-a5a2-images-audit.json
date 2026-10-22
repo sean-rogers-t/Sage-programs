@@ -1,0 +1,341 @@
+{
+  "result": "passed",
+  "complete": true,
+  "subsystem": "A5+A2",
+  "top_polynomial_degree": 45,
+  "total_rank": 672,
+  "degrees": [
+    {
+      "degree": 1,
+      "rank": 0,
+      "multiplicity_2": 0,
+      "full_source_image_verified": true,
+      "twice_weight_in_root": true
+    },
+    {
+      "degree": 2,
+      "rank": 1,
+      "multiplicity_2": 0,
+      "full_source_image_verified": true,
+      "twice_weight_in_root": true
+    },
+    {
+      "degree": 3,
+      "rank": 2,
+      "multiplicity_2": 0,
+      "full_source_image_verified": true,
+      "twice_weight_in_root": true
+    },
+    {
+      "degree": 4,
+      "rank": 2,
+      "multiplicity_2": 1,
+      "full_source_image_verified": true,
+      "twice_weight_in_root": true
+    },
+    {
+      "degree": 5,
+      "rank": 3,
+      "multiplicity_2": 0,
+      "full_source_image_verified": true,
+      "twice_weight_in_root": true
+    },
+    {
+      "degree": 6,
+      "rank": 5,
+      "multiplicity_2": 2,
+      "full_source_image_verified": true,
+      "twice_weight_in_root": true
+    },
+    {
+      "degree": 7,
+      "rank": 5,
+      "multiplicity_2": 2,
+      "full_source_image_verified": true,
+      "twice_weight_in_root": true
+    },
+    {
+      "degree": 8,
+      "rank": 7,
+      "multiplicity_2": 2,
+      "full_source_image_verified": true,
+      "twice_weight_in_root": true
+    },
+    {
+      "degree": 9,
+      "rank": 10,
+      "multiplicity_2": 4,
+      "full_source_image_verified": true,
+      "twice_weight_in_root": true
+    },
+    {
+      "degree": 10,
+      "rank": 10,
+      "multiplicity_2": 5,
+      "full_source_image_verified": true,
+      "twice_weight_in_root": true
+    },
+    {
+      "degree": 11,
+      "rank": 13,
+      "multiplicity_2": 4,
+      "full_source_image_verified": true,
+      "twice_weight_in_root": true
+    },
+    {
+      "degree": 12,
+      "rank": 16,
+      "multiplicity_2": 7,
+      "full_source_image_verified": true,
+      "twice_weight_in_root": true
+    },
+    {
+      "degree": 13,
+      "rank": 17,
+      "multiplicity_2": 7,
+      "full_source_image_verified": true,
+      "twice_weight_in_root": true
+    },
+    {
+      "degree": 14,
+      "rank": 19,
+      "multiplicity_2": 8,
+      "full_source_image_verified": true,
+      "twice_weight_in_root": true
+    },
+    {
+      "degree": 15,
+      "rank": 24,
+      "multiplicity_2": 9,
+      "full_source_image_verified": true,
+      "twice_weight_in_root": true
+    },
+    {
+      "degree": 16,
+      "rank": 23,
+      "multiplicity_2": 12,
+      "full_source_image_verified": true,
+      "twice_weight_in_root": true
+    },
+    {
+      "degree": 17,
+      "rank": 26,
+      "multiplicity_2": 8,
+      "full_source_image_verified": true,
+      "twice_weight_in_root": true
+    },
+    {
+      "degree": 18,
+      "rank": 29,
+      "multiplicity_2": 16,
+      "full_source_image_verified": true,
+      "twice_weight_in_root": true
+    },
+    {
+      "degree": 19,
+      "rank": 29,
+      "multiplicity_2": 12,
+      "full_source_image_verified": true,
+      "twice_weight_in_root": true
+    },
+    {
+      "degree": 20,
+      "rank": 30,
+      "multiplicity_2": 15,
+      "full_source_image_verified": true,
+      "twice_weight_in_root": true
+    },
+    {
+      "degree": 21,
+      "rank": 33,
+      "multiplicity_2": 13,
+      "full_source_image_verified": true,
+      "twice_weight_in_root": true
+    },
+    {
+      "degree": 22,
+      "rank": 31,
+      "multiplicity_2": 17,
+      "full_source_image_verified": true,
+      "twice_weight_in_root": true
+    },
+    {
+      "degree": 23,
+      "rank": 31,
+      "multiplicity_2": 10,
+      "full_source_image_verified": true,
+      "twice_weight_in_root": true
+    },
+    {
+      "degree": 24,
+      "rank": 33,
+      "multiplicity_2": 18,
+      "full_source_image_verified": true,
+      "twice_weight_in_root": true
+    },
+    {
+      "degree": 25,
+      "rank": 30,
+      "multiplicity_2": 12,
+      "full_source_image_verified": true,
+      "twice_weight_in_root": true
+    },
+    {
+      "degree": 26,
+      "rank": 29,
+      "multiplicity_2": 15,
+      "full_source_image_verified": true,
+      "twice_weight_in_root": true
+    },
+    {
+      "degree": 27,
+      "rank": 29,
+      "multiplicity_2": 10,
+      "full_source_image_verified": true,
+      "twice_weight_in_root": true
+    },
+    {
+      "degree": 28,
+      "rank": 26,
+      "multiplicity_2": 15,
+      "full_source_image_verified": true,
+      "twice_weight_in_root": true
+    },
+    {
+      "degree": 29,
+      "rank": 23,
+      "multiplicity_2": 8,
+      "full_source_image_verified": true,
+      "twice_weight_in_root": true
+    },
+    {
+      "degree": 30,
+      "rank": 24,
+      "multiplicity_2": 13,
+      "full_source_image_verified": true,
+      "twice_weight_in_root": true
+    },
+    {
+      "degree": 31,
+      "rank": 19,
+      "multiplicity_2": 8,
+      "full_source_image_verified": true,
+      "twice_weight_in_root": true
+    },
+    {
+      "degree": 32,
+      "rank": 17,
+      "multiplicity_2": 8,
+      "full_source_image_verified": true,
+      "twice_weight_in_root": true
+    },
+    {
+      "degree": 33,
+      "rank": 16,
+      "multiplicity_2": 6,
+      "full_source_image_verified": true,
+      "twice_weight_in_root": true
+    },
+    {
+      "degree": 34,
+      "rank": 13,
+      "multiplicity_2": 8,
+      "full_source_image_verified": true,
+      "twice_weight_in_root": true
+    },
+    {
+      "degree": 35,
+      "rank": 10,
+      "multiplicity_2": 3,
+      "full_source_image_verified": true,
+      "twice_weight_in_root": true
+    },
+    {
+      "degree": 36,
+      "rank": 10,
+      "multiplicity_2": 5,
+      "full_source_image_verified": true,
+      "twice_weight_in_root": true
+    },
+    {
+      "degree": 37,
+      "rank": 7,
+      "multiplicity_2": 3,
+      "full_source_image_verified": true,
+      "twice_weight_in_root": true
+    },
+    {
+      "degree": 38,
+      "rank": 5,
+      "multiplicity_2": 2,
+      "full_source_image_verified": true,
+      "twice_weight_in_root": true
+    },
+    {
+      "degree": 39,
+      "rank": 5,
+      "multiplicity_2": 2,
+      "full_source_image_verified": true,
+      "twice_weight_in_root": true
+    },
+    {
+      "degree": 40,
+      "rank": 3,
+      "multiplicity_2": 2,
+      "full_source_image_verified": true,
+      "twice_weight_in_root": true
+    },
+    {
+      "degree": 41,
+      "rank": 2,
+      "multiplicity_2": 0,
+      "full_source_image_verified": true,
+      "twice_weight_in_root": true
+    },
+    {
+      "degree": 42,
+      "rank": 2,
+      "multiplicity_2": 1,
+      "full_source_image_verified": true,
+      "twice_weight_in_root": true
+    },
+    {
+      "degree": 43,
+      "rank": 1,
+      "multiplicity_2": 0,
+      "full_source_image_verified": true,
+      "twice_weight_in_root": true
+    },
+    {
+      "degree": 44,
+      "rank": 0,
+      "multiplicity_2": 0,
+      "full_source_image_verified": true,
+      "twice_weight_in_root": true
+    },
+    {
+      "degree": 45,
+      "rank": 1,
+      "multiplicity_2": 0,
+      "full_source_image_verified": true,
+      "twice_weight_in_root": true
+    }
+  ],
+  "buchberger_pairs": 1994,
+  "buchberger_chain_pairs": 9772,
+  "buchberger_product_pairs": 1726,
+  "buchberger_above_top_degree_pairs": 17633,
+  "seconds": 22.563,
+  "engine": "Native Python/gmpy2: separate sparse rational normal forms, Buchberger criteria, source reconstruction, exact inverses and mod-two primitive ranks. No Sage or primary project imports.",
+  "scope": "Complete embedded full-source Borel images for the odd-index maximal-rank subgroup. Lattice, fresh-weight invariants and unbounded source completeness are audited separately.",
+  "source_sha256": {
+    "experiments/audit_e7_a5a2_images.py": "d5a9cc3503d248024a3c3216f074c79913db3d29a988283d2c9bc25ac69864c0",
+    "experiments/e7-a5a2-images.json": "8544e9dc35481c22e07c241fda678ac31b688527a6a0aaed2430422037f6e64e",
+    "experiments/a5-two-local-source.json": "debe2e7a0a33dc29029c8401e8b3655a4d11b84f92838e007c75e8641f16fc20",
+    "experiments/a5-two-local-audit.json": "22f49ea3f7e6a5c6e9f282da8ea93e64cca044d3335a93f5a08a8ca6e8722391"
+  },
+  "raw_sha256": {
+    "experiments/e7-a5a2-images-certificates.json.gz": "d1eaa63d34b8dffb078f937287b6fb81b6ebd674c60a71f6fcffd24dcfa725e7",
+    "experiments/a5-two-local-source-certificates.json.gz": "c60f4471530932a40c4abe10fa328251902d4a10d7ee3b4188207afe87879200"
+  }
+}

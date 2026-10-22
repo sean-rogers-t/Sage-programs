@@ -6,6 +6,14 @@ literature-priority claim is made. The preceding D4 work was merged into
 master through [PR 9](https://github.com/sean-rogers-t/Sage-programs/pull/9),
 merge commit `2cee8aa`.
 
+**Completion update.** The [complete E7 theorem](E7_ALL_PARABOLICS.md)
+now settles all 127 proper standard parabolics. This note retains the
+D6 proof and the initial reductions. The later
+[D5+A1 proof](E7_D5_A1_COMPARISON.md), [A5 family](E7_A5_FAMILY.md) and
+[D4+A1 proof](E7_D4_A1_COMPARISON.md) complete the fifteen initially
+excluded diagrams. Counts below describing the initial D6 step are
+historical intermediate scope.
+
 ## Objects and scope
 
 Let G be simply connected of type E7 over C, with Bourbaki edges
@@ -103,9 +111,9 @@ There are **34** nonunit factors in total. Explicitly m_d is 1 in
 degrees 8--11 and 24--27, 2 in degrees 12--19 and 22--23, 3 in
 degrees 20--21, and zero otherwise. This is a computer-assisted all-degree
 deduction for this one flag, with separate native arithmetic checks.
-The new scope is **113** proper E7 parabolics. The remaining **14**
+The scope of this D6 step was **113** proper E7 parabolics. The other **14**
 diagrams reduce to **ten** distinct cases under the conjugacies above;
-their complete formulas are not proved here.
+their complete formulas are proved in the subsequent notes linked above.
 
 The sources are certified componentwise for N through degree 33 and M
 through degree 27. Thirteen integral N generators have primitive products
@@ -342,35 +350,26 @@ representatives remain separate goals.
 
 ## D5+A1 continuation
 
-The [subsequent D5+A1 note](E7_D5_A1_COMPARISON.md) extends the degree-two
-argument above. It proves 2N^d subset M^d in every degree on E7/P6 and
-determines full relative multiplicities through degree 22. Degree 41 also
-has equality by containment. The full weight source is the previously
-audited D5 algebra A with the variable t=w(h-w). Complete bounded root
-components, a fresh 56-weight quotient calculation and separate native
-arithmetic audits prove the stated scope. Necessary new root generators
-occur in degrees 21 and 22; a degree-20 cutoff is not an unbounded source
-presentation. Higher multiplicities are still bounds. Thus 113 parabolics
-remain complete, and 14 diagrams still lack full formulas.
+The [D5+A1 note](E7_D5_A1_COMPARISON.md) now proves the complete E7/P6
+multiplicity polynomial, with 366 factors two. Its full weight source is
+the audited D5 algebra A with t=w(h-w). A full 25-generator root source
+is established by an [all-degree Hilbert argument](E7_LOCAL_SOURCES.md).
+The additional necessary degree-23 source invariant has Borel image in
+the earlier constructed image, making every earlier bound exact.
 
-## Next proof targets
+The [A5-family proof](E7_A5_FAMILY.md) establishes the required common
+integral A2 bases and completes twelve more diagrams, including all even
+block refinements, with a common polynomial formula. The
+[D4+A1 proof](E7_D4_A1_COMPARISON.md) completes the last case. Thus
+2N_I lies in M_I for every proper E7 parabolic, and all the corresponding
+multiplicities are determined. Invariants and quotient images still need
+not commute at two; none of these completions assumes they do.
 
-The next target is to finish the multiplicity polynomial for D5+A1,
-retained {1,2,3,4,5,7}, with 756 Schubert classes. The continuation proves
-the exponent and degrees through 22. A complete higher root source, or a
-proof that a smaller root source has the same Borel image, is still needed.
-Invariants and quotient images need not commute at two; averaging by two
-is unavailable here.
+## Questions after the finite classification
 
-After that, A5+A1 (rank 2,016) and A5 (rank 4,032) provide smaller
-intermediaries for the other cases. A common integral relative basis would
-transfer formulas to finer parabolics, but such a basis must be proved;
-rational Leray--Hirsch alone does not compare these integral image lattices.
-The conjugacy reductions above can be used unconditionally.
-
-The general questions remain: does 2N_I lie in M_I for all proper E7
-parabolics, and what diagram/lattice data controls the first nonzero
-relative degree and its multiplicities when X^(W_I) lies in Q? The
-112-case theorem, the D6 computation and the D5+A1 exponent theorem do not
-prove an answer for all remaining diagrams. No uniform conjectural
-polynomial is asserted from these base cases.
+The [complete theorem](E7_ALL_PARABOLICS.md) separates the now-resolved
+E7 comparison from its structural extensions. A diagram/lattice proof of
+the exceptional first gaps, a geometric interpretation of the halved-block
+correction, ambient weight-image cokernels and analogues in other root
+data remain targets. The exact finite formulas do not alone supply a
+uniform theorem in arbitrary rank.

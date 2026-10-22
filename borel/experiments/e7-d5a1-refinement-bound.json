@@ -1,0 +1,379 @@
+{
+  "result": "passed",
+  "complete": false,
+  "all_degree_multiplicities_proved": false,
+  "retained_nodes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7
+  ],
+  "refinement_nodes": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "degrees": [
+    {
+      "degree": 1,
+      "rank": 1,
+      "refinement_rank": 2,
+      "constructed_root_cokernel_multiplicity": 0,
+      "refinement_intersection_cokernel_multiplicity": 0,
+      "full_image_proved": true
+    },
+    {
+      "degree": 2,
+      "rank": 2,
+      "refinement_rank": 3,
+      "constructed_root_cokernel_multiplicity": 1,
+      "refinement_intersection_cokernel_multiplicity": 1,
+      "full_image_proved": true
+    },
+    {
+      "degree": 3,
+      "rank": 2,
+      "refinement_rank": 4,
+      "constructed_root_cokernel_multiplicity": 1,
+      "refinement_intersection_cokernel_multiplicity": 1,
+      "full_image_proved": true
+    },
+    {
+      "degree": 4,
+      "rank": 4,
+      "refinement_rank": 6,
+      "constructed_root_cokernel_multiplicity": 1,
+      "refinement_intersection_cokernel_multiplicity": 1,
+      "full_image_proved": true
+    },
+    {
+      "degree": 5,
+      "rank": 5,
+      "refinement_rank": 9,
+      "constructed_root_cokernel_multiplicity": 2,
+      "refinement_intersection_cokernel_multiplicity": 2,
+      "full_image_proved": true
+    },
+    {
+      "degree": 6,
+      "rank": 7,
+      "refinement_rank": 12,
+      "constructed_root_cokernel_multiplicity": 3,
+      "refinement_intersection_cokernel_multiplicity": 3,
+      "full_image_proved": true
+    },
+    {
+      "degree": 7,
+      "rank": 8,
+      "refinement_rank": 15,
+      "constructed_root_cokernel_multiplicity": 4,
+      "refinement_intersection_cokernel_multiplicity": 4,
+      "full_image_proved": true
+    },
+    {
+      "degree": 8,
+      "rank": 11,
+      "refinement_rank": 19,
+      "constructed_root_cokernel_multiplicity": 4,
+      "refinement_intersection_cokernel_multiplicity": 4,
+      "full_image_proved": true
+    },
+    {
+      "degree": 9,
+      "rank": 13,
+      "refinement_rank": 24,
+      "constructed_root_cokernel_multiplicity": 5,
+      "refinement_intersection_cokernel_multiplicity": 5,
+      "full_image_proved": true
+    },
+    {
+      "degree": 10,
+      "rank": 16,
+      "refinement_rank": 29,
+      "constructed_root_cokernel_multiplicity": 7,
+      "refinement_intersection_cokernel_multiplicity": 7,
+      "full_image_proved": true
+    },
+    {
+      "degree": 11,
+      "rank": 18,
+      "refinement_rank": 34,
+      "constructed_root_cokernel_multiplicity": 9,
+      "refinement_intersection_cokernel_multiplicity": 9,
+      "full_image_proved": true
+    },
+    {
+      "degree": 12,
+      "rank": 21,
+      "refinement_rank": 39,
+      "constructed_root_cokernel_multiplicity": 9,
+      "refinement_intersection_cokernel_multiplicity": 9,
+      "full_image_proved": true
+    },
+    {
+      "degree": 13,
+      "rank": 24,
+      "refinement_rank": 45,
+      "constructed_root_cokernel_multiplicity": 11,
+      "refinement_intersection_cokernel_multiplicity": 10,
+      "full_image_proved": false
+    },
+    {
+      "degree": 14,
+      "rank": 26,
+      "refinement_rank": 50,
+      "constructed_root_cokernel_multiplicity": 12,
+      "refinement_intersection_cokernel_multiplicity": 12,
+      "full_image_proved": true
+    },
+    {
+      "degree": 15,
+      "rank": 29,
+      "refinement_rank": 55,
+      "constructed_root_cokernel_multiplicity": 15,
+      "refinement_intersection_cokernel_multiplicity": 14,
+      "full_image_proved": false
+    },
+    {
+      "degree": 16,
+      "rank": 31,
+      "refinement_rank": 60,
+      "constructed_root_cokernel_multiplicity": 14,
+      "refinement_intersection_cokernel_multiplicity": 14,
+      "full_image_proved": true
+    },
+    {
+      "degree": 17,
+      "rank": 34,
+      "refinement_rank": 65,
+      "constructed_root_cokernel_multiplicity": 15,
+      "refinement_intersection_cokernel_multiplicity": 14,
+      "full_image_proved": false
+    },
+    {
+      "degree": 18,
+      "rank": 34,
+      "refinement_rank": 68,
+      "constructed_root_cokernel_multiplicity": 17,
+      "refinement_intersection_cokernel_multiplicity": 17,
+      "full_image_proved": true
+    },
+    {
+      "degree": 19,
+      "rank": 36,
+      "refinement_rank": 70,
+      "constructed_root_cokernel_multiplicity": 19,
+      "refinement_intersection_cokernel_multiplicity": 17,
+      "full_image_proved": false
+    },
+    {
+      "degree": 20,
+      "rank": 36,
+      "refinement_rank": 72,
+      "constructed_root_cokernel_multiplicity": 17,
+      "refinement_intersection_cokernel_multiplicity": 17,
+      "full_image_proved": true
+    },
+    {
+      "degree": 21,
+      "rank": 38,
+      "refinement_rank": 74,
+      "constructed_root_cokernel_multiplicity": 17,
+      "refinement_intersection_cokernel_multiplicity": 16,
+      "full_image_proved": false
+    },
+    {
+      "degree": 22,
+      "rank": 36,
+      "refinement_rank": 74,
+      "constructed_root_cokernel_multiplicity": 19,
+      "refinement_intersection_cokernel_multiplicity": 19,
+      "full_image_proved": true
+    },
+    {
+      "degree": 23,
+      "rank": 36,
+      "refinement_rank": 72,
+      "constructed_root_cokernel_multiplicity": 19,
+      "refinement_intersection_cokernel_multiplicity": 17,
+      "full_image_proved": false
+    },
+    {
+      "degree": 24,
+      "rank": 34,
+      "refinement_rank": 70,
+      "constructed_root_cokernel_multiplicity": 17,
+      "refinement_intersection_cokernel_multiplicity": 17,
+      "full_image_proved": true
+    },
+    {
+      "degree": 25,
+      "rank": 34,
+      "refinement_rank": 68,
+      "constructed_root_cokernel_multiplicity": 14,
+      "refinement_intersection_cokernel_multiplicity": 14,
+      "full_image_proved": true
+    },
+    {
+      "degree": 26,
+      "rank": 31,
+      "refinement_rank": 65,
+      "constructed_root_cokernel_multiplicity": 17,
+      "refinement_intersection_cokernel_multiplicity": 17,
+      "full_image_proved": true
+    },
+    {
+      "degree": 27,
+      "rank": 29,
+      "refinement_rank": 60,
+      "constructed_root_cokernel_multiplicity": 15,
+      "refinement_intersection_cokernel_multiplicity": 14,
+      "full_image_proved": false
+    },
+    {
+      "degree": 28,
+      "rank": 26,
+      "refinement_rank": 55,
+      "constructed_root_cokernel_multiplicity": 14,
+      "refinement_intersection_cokernel_multiplicity": 14,
+      "full_image_proved": true
+    },
+    {
+      "degree": 29,
+      "rank": 24,
+      "refinement_rank": 50,
+      "constructed_root_cokernel_multiplicity": 10,
+      "refinement_intersection_cokernel_multiplicity": 10,
+      "full_image_proved": true
+    },
+    {
+      "degree": 30,
+      "rank": 21,
+      "refinement_rank": 45,
+      "constructed_root_cokernel_multiplicity": 12,
+      "refinement_intersection_cokernel_multiplicity": 12,
+      "full_image_proved": true
+    },
+    {
+      "degree": 31,
+      "rank": 18,
+      "refinement_rank": 39,
+      "constructed_root_cokernel_multiplicity": 9,
+      "refinement_intersection_cokernel_multiplicity": 9,
+      "full_image_proved": true
+    },
+    {
+      "degree": 32,
+      "rank": 16,
+      "refinement_rank": 34,
+      "constructed_root_cokernel_multiplicity": 9,
+      "refinement_intersection_cokernel_multiplicity": 9,
+      "full_image_proved": true
+    },
+    {
+      "degree": 33,
+      "rank": 13,
+      "refinement_rank": 29,
+      "constructed_root_cokernel_multiplicity": 5,
+      "refinement_intersection_cokernel_multiplicity": 5,
+      "full_image_proved": true
+    },
+    {
+      "degree": 34,
+      "rank": 11,
+      "refinement_rank": 24,
+      "constructed_root_cokernel_multiplicity": 7,
+      "refinement_intersection_cokernel_multiplicity": 6,
+      "full_image_proved": false
+    },
+    {
+      "degree": 35,
+      "rank": 8,
+      "refinement_rank": 19,
+      "constructed_root_cokernel_multiplicity": 4,
+      "refinement_intersection_cokernel_multiplicity": 4,
+      "full_image_proved": true
+    },
+    {
+      "degree": 36,
+      "rank": 7,
+      "refinement_rank": 15,
+      "constructed_root_cokernel_multiplicity": 4,
+      "refinement_intersection_cokernel_multiplicity": 4,
+      "full_image_proved": true
+    },
+    {
+      "degree": 37,
+      "rank": 5,
+      "refinement_rank": 12,
+      "constructed_root_cokernel_multiplicity": 2,
+      "refinement_intersection_cokernel_multiplicity": 2,
+      "full_image_proved": true
+    },
+    {
+      "degree": 38,
+      "rank": 4,
+      "refinement_rank": 9,
+      "constructed_root_cokernel_multiplicity": 3,
+      "refinement_intersection_cokernel_multiplicity": 2,
+      "full_image_proved": false
+    },
+    {
+      "degree": 39,
+      "rank": 2,
+      "refinement_rank": 6,
+      "constructed_root_cokernel_multiplicity": 1,
+      "refinement_intersection_cokernel_multiplicity": 1,
+      "full_image_proved": true
+    },
+    {
+      "degree": 40,
+      "rank": 2,
+      "refinement_rank": 4,
+      "constructed_root_cokernel_multiplicity": 1,
+      "refinement_intersection_cokernel_multiplicity": 1,
+      "full_image_proved": true
+    },
+    {
+      "degree": 41,
+      "rank": 1,
+      "refinement_rank": 3,
+      "constructed_root_cokernel_multiplicity": 0,
+      "refinement_intersection_cokernel_multiplicity": 0,
+      "full_image_proved": true
+    },
+    {
+      "degree": 42,
+      "rank": 1,
+      "refinement_rank": 2,
+      "constructed_root_cokernel_multiplicity": 1,
+      "refinement_intersection_cokernel_multiplicity": 0,
+      "full_image_proved": false
+    },
+    {
+      "degree": 43,
+      "rank": 0,
+      "refinement_rank": 1,
+      "constructed_root_cokernel_multiplicity": 0,
+      "refinement_intersection_cokernel_multiplicity": 0,
+      "full_image_proved": true
+    }
+  ],
+  "seconds": 15.692,
+  "scope": "An unconditional upper image from a known finer parabolic and an independently constructed lower image. Equality proves each recorded full image; inequalities remain unresolved. No invariant-lifting exactness is assumed.",
+  "certificate_archive": "experiments/e7-d5a1-refinement-bound-certificates.json.gz",
+  "certificate_archive_sha256": "3e2801bcfc61399479a93a87fd50fd36f2de5d0f27d98611023d50d2288c1b16",
+  "source_sha256": {
+    "experiments/e7_d5a1_refinement_bound.py": "38037f8709255d5619349f6fa4967813146bcc91f27412cb79aecd57e9603e9a",
+    "experiments/e7-d5a1-images.json": "5eb3b6dfb42f416873fb76e51661d2906851b0d276cdae4c61c40d48b551102c",
+    "experiments/e7-d5-images.json": "349040145c7555d1a437950394c6b0e6b911609cb5b634b5c04f590fd20538c7"
+  },
+  "raw_sha256": {
+    "experiments/e7-d5a1-images-certificates.json.gz": "78024d04ee22c39655565e4197548422d9f63d2d00485af20e03bc43b5da39d4",
+    "experiments/e7-d5-images-certificates.json.gz": "996c45c3d0b4f3c8a9ff0cd36853ce614157380da1e5536ad45b767c9070c4f5"
+  }
+}

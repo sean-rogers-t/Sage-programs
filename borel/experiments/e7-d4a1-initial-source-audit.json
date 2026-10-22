@@ -1,0 +1,62 @@
+{
+  "result": "passed",
+  "full_source_complete_all_degrees": true,
+  "levi": "d4a1",
+  "generator_degrees": [
+    1,
+    1,
+    2,
+    2,
+    4,
+    4,
+    4,
+    6,
+    6,
+    6,
+    8,
+    8,
+    8,
+    9,
+    10,
+    12,
+    14,
+    16
+  ],
+  "finite_polynomial_witness_degree": 16,
+  "initial_monoid_generators": 18,
+  "periods": [
+    1,
+    1,
+    2,
+    2,
+    2,
+    2,
+    8
+  ],
+  "polynomial_parameter_weights": [
+    1,
+    1,
+    2,
+    4,
+    6,
+    8,
+    16
+  ],
+  "nonempty_residue_modules": 16,
+  "module_minima": 21,
+  "necessary_source_corrections": [],
+  "all_monoid_module_witnesses_and_closure_verified": true,
+  "entire_hilbert_series_verified": true,
+  "seconds": 0.827,
+  "engine": "Native reverse-order integral-product reconstruction and opposite Gaussian pivots; exact nonnegative monoid witnesses and module closure; independent recursive monomial-ideal Hilbert numerators. No Sage or primary project imports.",
+  "scope": "An all-degree Hilbert lower bound equals the rational invariant Hilbert upper bound. Saturation of the full invariant lattice and degreewise Nakayama prove unbounded integral source generation. Finite polynomial witnesses are not a conjectural generator cutoff.",
+  "source_sha256": {
+    "experiments/audit_e7_initial_sources.py": "f32a5e39c1167d5feabc3b9efb6db6b41d5c44d20b9d81dd128f611ba78dae81",
+    "experiments/e7-d4a1-initial-source.json": "8bccd3ce3a2dfea9f96244669433c7fe34f598c5bbf4b07f01fcf23e13197d2a",
+    "experiments/e7-d4a1-sources.json": "cf9511030fec39dfed7bf99a237f6b09a3117a2993bc8257813f6ea27ba6fc83",
+    "experiments/e7-d4a1-generators-audit.json": "75a0a797d26432d8ce25bf4f935d655fdd4eecd8f61ca7fac2056b050b170061"
+  },
+  "raw_sha256": {
+    "experiments/e7-d4a1-initial-source-certificates.json.gz": "9d4248a7cba95dd191eadad6cfcc0ed5f3944aa12bde754422b10b3592936a00"
+  }
+}

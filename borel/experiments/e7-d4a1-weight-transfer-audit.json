@@ -1,0 +1,43 @@
+{
+  "result": "passed",
+  "full_weight_source_transfer_verified": true,
+  "old_E6_root_span_index": 3,
+  "opposition": [
+    6,
+    2,
+    5,
+    4,
+    3,
+    1
+  ],
+  "target_weight_submodule": "Z_(2){omega_1,...,omega_6}",
+  "integral_basis_determinant": 1,
+  "D5_reflection_intertwiners": 5,
+  "D4_retained_nodes": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "D5_retained_nodes": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "old_u_coordinates_map_to_reversed_new_u": true,
+  "full_weight_source": "A_D4[t], t=omega_7*(omega_6-omega_7)",
+  "complete_module_generators": 34,
+  "scope": "An exact local lattice and reflection isomorphism transports the earlier full D4/D5 source module before Borel. The A1 reflection fixes the six-dimensional coefficient lattice and acts by w -> h-w, giving the full norm-variable extension. The earlier all-degree source/module theorems are shared audited inputs.",
+  "engine": "Native SymPy exact Cartan lattice and full reflection-matrix identities; no Sage or primary experiment imports.",
+  "source_sha256": {
+    "experiments/audit_e7_d4a1_weight_transfer.py": "f05bb07bef416996fc0ad4b22b058273344b642ff6f96797edfe55296638e1e6",
+    "experiments/e7-d4-source-audit.json": "3199cab7c211e14f9d34dd43fa4aafa357ffa6491024158f4b1608199b9ab4f7",
+    "experiments/e7-d5-source-audit.json": "967b6be934ad3007cff880794b5bdac0f7755507db07af1a4542ea87d569a1f5",
+    "experiments/e7-d4a1-generators-audit.json": "75a0a797d26432d8ce25bf4f935d655fdd4eecd8f61ca7fac2056b050b170061"
+  },
+  "raw_sha256": {
+    "experiments/e7-d4-tower-certificates.json.gz": "d19a939295408a5dcbf2f834196f6cc85d86f5f2f029f2b8d657a226b46ba80a"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "result": "passed",
+  "full_sources_complete_all_degrees": true,
+  "cases": [
+    {
+      "blocks": "42",
+      "generator_degrees": [
+        1,
+        3,
+        2,
+        4,
+        8,
+        2,
+        4,
+        5,
+        6
+      ],
+      "module_generators": 51,
+      "rational_module_rank": 15
+    },
+    {
+      "blocks": "222",
+      "generator_degrees": [
+        1,
+        1,
+        2,
+        4,
+        4,
+        2,
+        2,
+        3,
+        4
+      ],
+      "module_generators": 342,
+      "rational_module_rank": 90
+    }
+  ],
+  "seconds": 0.353,
+  "scope": "Uniform involution presentation gives full integral sources; zero-dimensional mod-two source quotients give complete finite modules over the full A5 invariant source by graded Nakayama. Independent audit remains required.",
+  "certificate_archive": "experiments/a5-even-block-sources-certificates.json.gz",
+  "certificate_archive_sha256": "33170fa6fa284f3ad89bf37fe835c954d6e8dfc192a99512481da36270cd8d77",
+  "source_sha256": {
+    "experiments/a5_even_block_sources.py": "b2e64d16975f1e5adf32c5b271a34317aae6d1d5626fb98bb1331366d64273bf",
+    "experiments/a5-two-local-source.json": "debe2e7a0a33dc29029c8401e8b3655a4d11b84f92838e007c75e8641f16fc20"
+  }
+}

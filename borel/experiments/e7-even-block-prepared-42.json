@@ -1,0 +1,21 @@
+{
+  "result": "prepared",
+  "complete": false,
+  "blocks": "42",
+  "total_rank": 10080,
+  "top_polynomial_degree": 53,
+  "degrees": [],
+  "seconds": 1.258,
+  "scope": "Complete primary integral source images for the indicated A5 block Levi times the complementary A2; common A2 fibers transfer the results to standard E7 parabolics. Separate source, lattice and image audits are required.",
+  "certificate_archive": "experiments/e7-even-block-prepared-42-certificates.json.gz",
+  "certificate_archive_sha256": "5110502ff99f47814d32c3ac78b41125bf341064519349019a4093292c199e45",
+  "source_sha256": {
+    "experiments/prepare_e7_even_block_images.py": "f25e0eacd4cb6883c4cb8a0b97132977db7af70c301ebd7463e75340dbb4a656",
+    "experiments/e7-a5a2-images.json": "8544e9dc35481c22e07c241fda678ac31b688527a6a0aaed2430422037f6e64e",
+    "experiments/a5-even-block-sources.json": "322272cb1eec4a02331442955310feab257811f170480cc7aa5e949307fd0cab"
+  },
+  "raw_sha256": {
+    "experiments/e7-a5a2-images-certificates.json.gz": "d1eaa63d34b8dffb078f937287b6fb81b6ebd674c60a71f6fcffd24dcfa725e7",
+    "experiments/a5-even-block-sources-certificates.json.gz": "33170fa6fa284f3ad89bf37fe835c954d6e8dfc192a99512481da36270cd8d77"
+  }
+}

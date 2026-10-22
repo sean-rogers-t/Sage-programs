@@ -1,0 +1,103 @@
+{
+  "result": "passed",
+  "complete": false,
+  "degree_bound": 8,
+  "retained_nodes": [
+    2,
+    3,
+    4,
+    5,
+    7
+  ],
+  "levi_type": "D4+A1",
+  "dimension": 50,
+  "total_rank": 7560,
+  "degrees": [
+    {
+      "degree": 1,
+      "rank": 2,
+      "multiplicity_2": 0,
+      "full_weight_image_verified": true,
+      "full_root_image_verified": true
+    },
+    {
+      "degree": 2,
+      "rank": 4,
+      "multiplicity_2": 1,
+      "full_weight_image_verified": true,
+      "full_root_image_verified": true
+    },
+    {
+      "degree": 3,
+      "rank": 6,
+      "multiplicity_2": 2,
+      "full_weight_image_verified": true,
+      "full_root_image_verified": true
+    },
+    {
+      "degree": 4,
+      "rank": 11,
+      "multiplicity_2": 3,
+      "full_weight_image_verified": true,
+      "full_root_image_verified": true
+    },
+    {
+      "degree": 5,
+      "rank": 16,
+      "multiplicity_2": 5,
+      "full_weight_image_verified": true,
+      "full_root_image_verified": true
+    },
+    {
+      "degree": 6,
+      "rank": 24,
+      "multiplicity_2": 8,
+      "full_weight_image_verified": true,
+      "full_root_image_verified": true
+    },
+    {
+      "degree": 7,
+      "rank": 32,
+      "multiplicity_2": 12,
+      "full_weight_image_verified": true,
+      "full_root_image_verified": true
+    },
+    {
+      "degree": 8,
+      "rank": 45,
+      "multiplicity_2": 17,
+      "full_weight_image_verified": true,
+      "full_root_image_verified": true
+    }
+  ],
+  "multiplicity_coefficients": [
+    0,
+    0,
+    1,
+    2,
+    3,
+    5,
+    8,
+    12,
+    17
+  ],
+  "total_nonunit_factors": 48,
+  "all_nonunit_factors": 2,
+  "seconds": 10.514,
+  "engine": "Native FLINT reconstruction of the exact quadric tower, all source images and 34 full weight-source modules. Exact full weight primitive ranks and independent mod-four root-lattice verification with row operations. Uses only ring addition/multiplication over composite residues. No Sage or primary experiment imports.",
+  "scope": "Full-source images in every recorded degree; pilot mode stops at degree eight. The separately audited all-degree root source theorem supplies generator completeness. The integral 34-generator weight source module is a shared audited input; integral fiber freeness is not assumed.",
+  "source_sha256": {
+    "experiments/audit_e7_d4a1_tower_images.py": "5226d415238d068b792dcde75ccc39f046ba418e3f950a442dde91ba7d6b9716",
+    "experiments/e7-d4a1-tower-pilot.json": "8ffbc92f9d055b34743f5131ad9c445930079c0227fe68c2cf187d2cc25115a3",
+    "experiments/e7-d5a1-images.json": "5eb3b6dfb42f416873fb76e51661d2906851b0d276cdae4c61c40d48b551102c",
+    "experiments/e7-d4a1-sources.json": "cf9511030fec39dfed7bf99a237f6b09a3117a2993bc8257813f6ea27ba6fc83",
+    "experiments/e7-d4a1-initial-source-audit.json": "8659ae9e9570b96d1e026f8815738924965e21e9dcde0ee372d2e1b782cb6bbd",
+    "experiments/e7-d4a1-generators-audit.json": "75a0a797d26432d8ce25bf4f935d655fdd4eecd8f61ca7fac2056b050b170061"
+  },
+  "raw_sha256": {
+    "experiments/e7-d4a1-tower-pilot-certificates.json.gz": "20a7e1543f75d511cf4d8cb88d72d0334d4fe758642207b6a7129678f88789da",
+    "experiments/e7-d5a1-images-certificates.json.gz": "78024d04ee22c39655565e4197548422d9f63d2d00485af20e03bc43b5da39d4",
+    "experiments/e7-d4-tower-certificates.json.gz": "d19a939295408a5dcbf2f834196f6cc85d86f5f2f029f2b8d657a226b46ba80a",
+    "experiments/e7-d4a1-sources-certificates.json.gz": "43b389166d8c0c819dbaddfa7704b44473b0b283458fa66f4bd532ac2faf7a1f"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "result": "passed",
+  "full_source_complete_all_degrees": true,
+  "levi": "d5a1",
+  "generator_degrees": [
+    1,
+    2,
+    2,
+    4,
+    4,
+    5,
+    6,
+    6,
+    7,
+    8,
+    8,
+    9,
+    10,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    20,
+    21,
+    22,
+    32,
+    23
+  ],
+  "finite_polynomial_witness_degree": 32,
+  "initial_monoid_generators": 25,
+  "periods": [
+    1,
+    2,
+    2,
+    2,
+    2,
+    2,
+    16
+  ],
+  "polynomial_parameter_weights": [
+    1,
+    2,
+    4,
+    6,
+    8,
+    10,
+    32
+  ],
+  "nonempty_residue_modules": 32,
+  "module_minima": 43,
+  "necessary_source_corrections": [
+    {
+      "degree": 23,
+      "lower_generator_products_rank": 780,
+      "full_source_rank": 781,
+      "necessary_new_generators": 1
+    }
+  ],
+  "all_monoid_module_witnesses_and_closure_verified": true,
+  "entire_hilbert_series_verified": true,
+  "seconds": 20.351,
+  "engine": "Native reverse-order integral-product reconstruction and opposite Gaussian pivots; exact nonnegative monoid witnesses and module closure; independent recursive monomial-ideal Hilbert numerators. No Sage or primary project imports.",
+  "scope": "An all-degree Hilbert lower bound equals the rational invariant Hilbert upper bound. Saturation of the full invariant lattice and degreewise Nakayama prove unbounded integral source generation. Finite polynomial witnesses are not a conjectural generator cutoff.",
+  "source_sha256": {
+    "experiments/audit_e7_initial_sources.py": "f32a5e39c1167d5feabc3b9efb6db6b41d5c44d20b9d81dd128f611ba78dae81",
+    "experiments/e7-d5a1-initial-source.json": "752f34d20f6ceafc53e85ea71ff7ef29bbfe823ffca35790180bc02e0986adb7",
+    "experiments/e7-d5a1-sources-22.json": "87af9b74a7fa8b2bc08a6a73082029099c72b77944cf766d5e61ea18540380e8",
+    "experiments/e7-d5a1-norm.json": "2afc7280f2580cb55d7ba5375929f98a5a2d0b36fbf5e6b25817fe4fc8bad39d",
+    "experiments/e7-d5a1-norm-audit.json": "ca75876f3293d3a1dc7915a7d512dc29fc42f5d2c43fc9e37ee21fd258ef3607",
+    "experiments/e7-d5a1-sources-22-audit.json": "61e38dd6521ab42b766f04ea8b02030891b4bc74bc030bb65526c0c9705a0683",
+    "experiments/e7-d5a1-extra23-audit.json": "96ca5606982f40e546ecc2be01213306715db47759b0847d78dc0f15f7971868"
+  },
+  "raw_sha256": {
+    "experiments/e7-d5a1-initial-source-certificates.json.gz": "3e9cd36d414a4c8803627b8825ce5f502ed66af1715d46de830ae34e459f1d21",
+    "experiments/e7-d5a1-norm-certificates.json.gz": "cddded435270c181f7be26ee979c07d0cc4c0a384db481bc4f94ab40191f7ea8",
+    "experiments/e7-d5a1-extra23-certificates.json.gz": "d94942c91d16a86abadf0e352db433a66f6941f810822fee9e2f5eff2e7123ca"
+  }
+}
