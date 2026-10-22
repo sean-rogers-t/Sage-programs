@@ -192,6 +192,15 @@ on five complete Grassmannians. The all-degree E7 kernel-stability and
 invariant-lifting step is still missing. The previous all-degree E7
 classification retains its case/transfer proofs.
 
+The [degree-eleven step](../../borel/E7_DEGREE11_LIFTING.md) is now proved:
+a rank-one saturation lemma handles the first integral half-sum without
+assuming modular invariants lift. The structural criterion reaches degree
+11 for all 112 cases and 13 for the 108 good-Levi cases. On the four
+exceptional Levis, a cubic nonlifting obstruction excludes this half-sum
+coset from the invariant kernel. Next isolate the degree-12 corrections
+after quotienting out linear multiples of the degree-11 relation, and
+prove their invariant-compatible derivative identities.
+
 ### 2. Replace the case tables with a structural mechanism
 
 Work over R=Z_(2) for E7. Let A_X=(Sym_R X_R)^(W_I),

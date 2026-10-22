@@ -2,6 +2,10 @@
 
 Status, 21 October 2026: a general quadratic-derivation criterion, a
 noncircular bounded E7 proof, and an arbitrary-rank type A test theorem.
+The subsequent [degree-eleven lifting proof](E7_DEGREE11_LIFTING.md)
+extends the structural argument uniformly through degree 11 and, by
+common-fiber descent, through 13 on the 108 good-Levi cases. This note
+retains the original degree-10 argument and certificates below.
 The existing all-degree E7 multiplicity theorem remains proved by the
 earlier case/transfer arguments. This note does **not** replace those
 arguments by a uniform all-degree proof. Literature priority is unestablished.
@@ -291,6 +295,9 @@ and the nonfree D5-to-D4 transfer remain relevant.
 
 A useful next target is an invariant-compatible generating or saturation
 procedure for this kernel, proving derivative stability at every stage.
+The [first rank-one half-sum](E7_DEGREE11_LIFTING.md) is now handled
+without assuming modular invariant lifting. Degree 12 is the next step
+for the four exceptional Levis.
 That would replace the earlier separate E6/D5/D4 image-index checks by
 one mechanism. It is unresolved here. The other fifteen E7 parabolics
 have no such fixed odd degree-one class and need a different mechanism.

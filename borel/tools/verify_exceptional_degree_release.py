@@ -29,7 +29,7 @@ def main():
     version=sage_borel.__version__
     regression=read('character-verification.json')
     docs=read('documentation-verification.json')
-    assert {'E6_RELATIVE_IMAGE_API.md','G2_FULL_FLAG.md','E7_QUADRATIC_DERIVATION.md'} <= {r['file'] for r in docs['documents']}
+    assert {'E6_RELATIVE_IMAGE_API.md','G2_FULL_FLAG.md','E7_QUADRATIC_DERIVATION.md','E7_DEGREE11_LIFTING.md'} <= {r['file'] for r in docs['documents']}
     wheel=read('geometry-wheel-verification.json')
     relative_api=read('relative-image-verification.json')
     assert relative_api['version']==version
@@ -71,6 +71,22 @@ def main():
             for name,expected in record.get(key,{}).items():
                 assert digest(ROOT/name)==expected,name
     assert digest(ROOT/structural[0]['certificate_archive'])==structural[0]['certificate_archive_sha256']
+    lifting11=[read('experiments/'+name) for name in (
+        'e7-degree11-lifting.json','e7-degree11-lifting-audit.json')]
+    for record in lifting11:
+        assert record['degree']==11 and record['uniform_family_size']==112
+        assert record['initial_kernel_rank_mod2']==461
+        assert record['primitive_kernel_rank_mod2']==462
+        assert record['mod2_syzygy_dimension']==1 and record['good_Levi_count']==108
+        assert record['quadratic_Frobenius_identities_verified']
+        assert record['half_sum_derivative_identity_verified']
+        assert len(record['exceptional_noncubic_lifting_cases'])==4
+        assert all(c['cubic_does_not_lift'] for c in record['exceptional_noncubic_lifting_cases'])
+        for key in ('source_sha256','raw_sha256'):
+            for name,expected in record.get(key,{}).items():
+                assert digest(ROOT/name)==expected,name
+    assert lifting11[0]['saturation_quotient_order']==2
+    assert digest(ROOT/lifting11[0]['certificate_archive'])==lifting11[0]['certificate_archive_sha256']
     geometry=read('experiments/exceptional-degree-geometry.json')
     e6_checks=[read('experiments/'+name) for name in (
         'e6-remaining-a5.json','e6-remaining-a2a2a1.json',
@@ -433,7 +449,10 @@ def main():
         'tools/package_e7_relative_images.py','tools/verify_relative_images.py',
         'tests/test_relative_images.py','tests/data/e7_relative_audited_bases.json',
         'relative-image-verification.json',
-        'E6_RELATIVE_IMAGE_API.md','G2_FULL_FLAG.md','E7_QUADRATIC_DERIVATION.md',
+        'E6_RELATIVE_IMAGE_API.md','G2_FULL_FLAG.md','E7_QUADRATIC_DERIVATION.md','E7_DEGREE11_LIFTING.md',
+        'experiments/e7_degree11_lifting.py','experiments/audit_e7_degree11_lifting.py',
+        'experiments/e7-degree11-lifting.json','experiments/e7-degree11-lifting-audit.json',
+        'experiments/e7-degree11-lifting-certificates.json.gz',
         'experiments/e7_quadratic_derivation.py','experiments/audit_e7_quadratic_derivation.py',
         'experiments/e7-quadratic-derivation.json','experiments/e7-quadratic-derivation-audit.json',
         'experiments/e7-quadratic-derivation-certificates.json.gz',
@@ -448,11 +467,19 @@ def main():
         'documentation-verification.json','geometry-wheel-verification.json')]+[Path(__file__).resolve()]
     report=dict(result='passed',version=version,
         structural_quadratic_derivation=dict(E7_full_flag_maximum_degree=13,
-            E7_uniform_family_size=112,E7_uniform_family_maximum_degree=10,
+            E7_uniform_family_size=112,E7_initial_uniform_family_certificate_maximum_degree=10,
+            E7_uniform_family_maximum_degree=11,E7_good_Levi_maximum_degree=13,
             E7_uniform_all_degree_proof=False,
             type_A_arbitrary_rank_theorem='SL_(2r), r odd, odd Levi block; 2-local',
             type_A_independent_Grassmannian_ranks=[6,20,10,120,252],
             runtime_unchanged=True),
+        E7_degree_eleven_lifting=dict(degree=11,uniform_family_size=112,
+            initial_kernel_rank_mod2=461,primitive_kernel_rank_mod2=462,
+            coefficient_syzygy_dimension=1,saturation_quotient_order=2,
+            exceptional_cubic_nonlifting_cases=4,good_Levi_count=108,
+            certificate='experiments/e7-degree11-lifting.json',
+            independent_audit='experiments/e7-degree11-lifting-audit.json',
+            uniform_all_degree_proof=False),
         e6_relative_image_api=dict(proper_standard_parabolics=63,nonunit_factors=[3,9,27],
             certificate='experiments/e6-all-parabolics-summary.json',
             independent_verification=relative_api['E6'],abstract_relative_groups_only=True),

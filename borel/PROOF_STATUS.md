@@ -54,6 +54,21 @@ Five complete Grassmannian images are independently checked by native
 Schur/Pieri multiplication closure. This is a deduction from published
 type A presentations, not a priority claim. It concerns 2-primary factors.
 
+A subsequent [degree-eleven proof](E7_DEGREE11_LIFTING.md) handles the
+first rank-one saturation correction uniformly. The mod-two cubic and
+quintic are obtained by formal Frobenius derivatives of the common
+quadratic. Explicit coefficient identities show that the half-sum's
+derivative has an integral invariant lower-kernel lift. The argument
+lifts only coefficients forced by an already invariant element; it does
+not assume that every modular invariant lifts. A separate cubic
+nonlifting obstruction shows that the half-sum coset is absent on E6,
+the two D5 Levis and D4. Common-fiber descent covers the 108 good-Levi
+cases and transfers the old full-flag derivative check through degree 13.
+Thus the structural theorem now reaches degree 11 on all 112, and 13
+on 108. Fresh 56-weight versus 27-form constructions independently
+verify the rank-one kernel, coefficient identities, four obstructions
+and family inventory. No relative Smith table is an input.
+
 A uniform all-degree E7 kernel-stability and invariant-lifting proof is
 still missing. Its all-degree multiplicity theorem retains the earlier
 case/transfer proofs. Constructing the derivation from that theorem's
