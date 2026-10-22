@@ -29,6 +29,192 @@ def main():
     version=sage_borel.__version__
     regression=read('character-verification.json')
     docs=read('documentation-verification.json')
+    literature=read('cayley-literature-verification.json')
+    assert literature['bibliographic_entries']==8
+    assert literature['notebook']['saved_SInv_rank']==7
+    assert literature['proposed_Part_I_Example_3_scalar_correction']['corrected_identity_derivative']==1
+    for name,expected in literature['source_sha256'].items():
+        assert digest(ROOT/name)==expected,name
+    exterior=read('exterior-regularity-verification.json')
+    assert exterior['regular_test_point_projection_checks']==66
+    assert exterior['rational_interior_counterexamples']==45
+    assert exterior['nonsemisimple_full_matrix_trace_checks']==8
+    assert not exterior['novelty_claim'] and not exterior['runtime_API_changed']
+    for name,expected in exterior['source_sha256'].items():
+        assert digest(ROOT/name)==expected,name
+    type_a_regularity=read('type-a-regularity-verification.json')
+    assert type_a_regularity['character_cases']==149
+    assert type_a_regularity['algebraic_witness_polynomials']==134
+    assert type_a_regularity['symmetric_power_cases']==50
+    assert type_a_regularity['symmetric_power_complete_factor_checks']==50
+    assert type_a_regularity['nontrivial_central_quotient_descent_cases']==82
+    assert not type_a_regularity['novelty_claim'] and not type_a_regularity['runtime_API_changed']
+    for name,expected in type_a_regularity['source_sha256'].items():
+        assert digest(ROOT/name)==expected,name
+    type_c_regularity=read('type-c-fundamental-regularity-verification.json')
+    assert type_c_regularity['primitive_kernel_cases']==36
+    assert type_c_regularity['exact_contraction_weight_blocks']==19676
+    assert type_c_regularity['quadratic_algebra_counterexamples']==28
+    assert type_c_regularity['rational_defining_counterexamples']==7
+    assert not type_c_regularity['novelty_claim'] and not type_c_regularity['runtime_API_changed']
+    for name,expected in type_c_regularity['source_sha256'].items():
+        assert digest(ROOT/name)==expected,name
+    all_c_regularity=read('type-c-regularity-verification.json')
+    assert all_c_regularity['character_cases']==79
+    assert all_c_regularity['universal_Qi_trace_checks']==73
+    assert all_c_regularity['nonfundamental_exact_algebraic_witnesses']==68
+    assert all_c_regularity['same_central_parity_reducible_checks']==8
+    assert not all_c_regularity['novelty_claim'] and not all_c_regularity['runtime_API_changed']
+    for name,expected in all_c_regularity['source_sha256'].items():
+        assert digest(ROOT/name)==expected,name
+    type_b_regularity=read('type-b-regularity-verification.json')
+    assert type_b_regularity['character_cases']==55
+    assert type_b_regularity['positive_and_witness_alternant_checks']==110
+    assert type_b_regularity['universal_Qi_trace_checks']==55
+    assert type_b_regularity['integer_weight_cases']==34
+    assert type_b_regularity['spinorial_cases']==21
+    assert type_b_regularity['exterior_monomial_character_checks']==13
+    assert type_b_regularity['independent_spin_sign_cube_checks']==7
+    assert type_b_regularity['same_central_parity_reducible_checks']==8
+    assert type_b_regularity['closed_spin_formula_checks']==8
+    assert type_b_regularity['rank_one_spin_positive_control']
+    assert not type_b_regularity['novelty_claim'] and not type_b_regularity['runtime_API_changed']
+    for name,expected in type_b_regularity['source_sha256'].items():
+        assert digest(ROOT/name)==expected,name
+    mixed_regularity=read('mixed-regularity-verification.json')
+    assert mixed_regularity['Sp_tensor_character_cases']==9
+    assert mixed_regularity['Sp_regular_torus_trace_checks']==27
+    assert mixed_regularity['independent_tensor_binomial_models']==9
+    assert mixed_regularity['Sp_nonsemisimple_boundary_ranks']==5
+    assert mixed_regularity['Sp_regular_nonsemisimple_good_open_checks']==15
+    assert mixed_regularity['full_exterior_matrix_boundary_ranks']==2
+    assert mixed_regularity['full_exterior_matrix_Lie_basis_checks']==31
+    assert mixed_regularity['mixed_B_direct_finite_algebra_witnesses']==18
+    assert mixed_regularity['mixed_B_boundary_linear_factor_exclusions']==372
+    assert mixed_regularity['B2_torus_positive_control']['dimension']==16
+    assert not mixed_regularity['novelty_claim'] and not mixed_regularity['runtime_API_changed']
+    for name,expected in mixed_regularity['source_sha256'].items():
+        assert digest(ROOT/name)==expected,name
+    harmonic_localization=read('symplectic-harmonic-localization-verification.json')
+    assert harmonic_localization['full_matrix_differential_checks']==48
+    assert harmonic_localization['independent_Cayley_coordinate_Jacobian_checks']==24
+    assert harmonic_localization['regular_critical_corank_one_checks']==12
+    assert harmonic_localization['actual_exterior_tensor_differential_checks']==12
+    assert harmonic_localization['low_degree_harmonic_checks']['dimensions']==[1,10,54,210]
+    assert harmonic_localization['low_degree_harmonic_checks']['actual_exterior_trace_pullback_evaluations']==1650
+    assert harmonic_localization['explicit_necessity_conjugacy_pairs']==15
+    harmonic_audit=harmonic_localization['torus_boundary_audit']
+    assert len(harmonic_audit['regular_torus_subspace_checks'])==48
+    assert len(harmonic_audit['boundary_strata_checks'])==36
+    assert len(harmonic_audit['actual_boundary_trace_checks'])==9
+    assert len(harmonic_audit['rank_one_boundary_controls'])==3
+    assert harmonic_localization['known_input_corollary']
+    assert not harmonic_localization['novelty_claim'] and not harmonic_localization['runtime_API_changed']
+    for name,expected in harmonic_localization['source_sha256'].items():
+        assert digest(ROOT/name)==expected,name
+    symplectic_degree=read('symplectic-cayley-degrees-verification.json')
+    assert symplectic_degree['scalar_fiber_cases']==80
+    assert symplectic_degree['independent_weight_fiber_cases']==24
+    assert symplectic_degree['original_Laurent_Groebner_fibers']==10
+    assert symplectic_degree['singular_target_degree_cases']==108
+    assert symplectic_degree['full_exterior_matrix_fiber_cases']==9
+    assert symplectic_degree['polynomial_character_extension']
+    assert symplectic_degree['surjectivity_proved']
+    assert symplectic_degree['finite_flat_over_invertible_targets']
+    assert not symplectic_degree['novelty_claim']
+    assert not symplectic_degree['externally_reviewed'] and not symplectic_degree['runtime_API_changed']
+    for name,expected in symplectic_degree['source_sha256'].items():
+        assert digest(ROOT/name)==expected,name
+    spin_degree=read('spin-cayley-degrees-verification.json')
+    assert spin_degree['scalar_fiber_cases']==48
+    assert spin_degree['independent_weight_fiber_cases']==16
+    assert spin_degree['original_Spin_Laurent_Groebner_fibers']==11
+    assert spin_degree['original_SO_Laurent_Groebner_fibers']==5
+    assert spin_degree['finite_flat_over_explicit_open']
+    assert not spin_degree['novelty_claim'] and not spin_degree['externally_reviewed']
+    assert not spin_degree['runtime_API_changed']
+    for name,expected in spin_degree['source_sha256'].items():
+        assert digest(ROOT/name)==expected,name
+    spin_polynomial=read('spin-polynomial-cayley-degrees-verification.json')
+    assert spin_polynomial['scalar_fiber_cases']==48
+    assert spin_polynomial['independent_weight_fiber_cases']==24
+    assert spin_polynomial['original_Spin_Laurent_Groebner_fibers']==14
+    assert spin_polynomial['original_SO_Laurent_Groebner_fibers']==5
+    assert spin_polynomial['collapsed_character_level_checks']==6
+    assert spin_polynomial['finite_flat_over_explicit_open']
+    assert spin_polynomial['SO_descent_iff_F_even']
+    assert not spin_polynomial['novelty_claim'] and not spin_polynomial['externally_reviewed']
+    assert not spin_polynomial['runtime_API_changed']
+    for name,expected in spin_polynomial['source_sha256'].items():
+        assert digest(ROOT/name)==expected,name
+    spin_geometry=read('spin-cayley-geometry-verification.json')
+    assert spin_geometry['maximal_finite_locus_uniform_written_proof']
+    assert spin_geometry['full_global_Jacobian_written_proof']
+    assert spin_geometry['weight_root_Jacobian_checks']==48
+    assert spin_geometry['Clifford_boundary_Jacobian_checks']==33
+    assert spin_geometry['finite_algebra_ramification_checks']==32
+    assert spin_geometry['nonfinite_boundary_target_checks']==8
+    assert spin_geometry['regular_semisimple_critical_invariant_checks']==42
+    assert spin_geometry['Spin4_discriminant_control']['primitive_element_artifact']=='p-v'
+    assert not spin_geometry['novelty_claim'] and not spin_geometry['externally_reviewed']
+    assert not spin_geometry['runtime_API_changed']
+    for name,expected in spin_geometry['source_sha256'].items():
+        assert digest(ROOT/name)==expected,name
+    half_spin=read('half-spin-cayley-verification.json')
+    assert half_spin['uniform_Pfaffian_formula']
+    assert half_spin['complete_chart_zero_fiber_written_proof']
+    assert half_spin['chart_zero_fiber_smooth_written_proof']
+    assert half_spin['global_boundary_dimension_lower_bound']
+    assert half_spin['highest_weight_moment_checks']==12
+    assert half_spin['full_chiral_Clifford_checks']==18
+    assert half_spin['exact_zero_weight_checks']==42
+    assert half_spin['full_zero_differential_rank_checks']==12
+    assert half_spin['boundary_family_checks']==10
+    assert half_spin['central_kernel_checks']==16
+    assert half_spin['Spin10']==dict(chart_noncentral_classes_per_half_spin=4,
+        chart_class_dimension=20,differential_rank=25,boundary_zero_family_dimension=33,
+        generic_degree_determined=False,full_zero_fiber_classified=False)
+    assert all(row['Spin8_degree']==32 for row in half_spin['triality_controls'])
+    assert all(row['Spin6_original_torus_fiber_length']==4 for row in half_spin['Spin6_fibers'])
+    assert not half_spin['novelty_claim'] and not half_spin['externally_reviewed']
+    assert not half_spin['runtime_API_changed']
+    for name,expected in half_spin['source_sha256'].items():
+        assert digest(ROOT/name)==expected,name
+    half_boundary=read('half-spin-boundary-verification.json')
+    assert half_boundary['all_rank_underlying_zero_fiber_written_proof']
+    assert half_boundary['all_rank_dimension_written_proof']
+    assert half_boundary['Spin10_zero_fiber_dimension']==33
+    assert half_boundary['semisimple_weight_checks']==322
+    assert half_boundary['partition_sl2_checks']==3266
+    assert half_boundary['direct_matrix_centralizer_checks']==34
+    assert half_boundary['GL_partition_bounds']==683
+    assert half_boundary['full_chiral_boundary_checks']==112
+    assert half_boundary['finite_rank_dimension_checks']==17
+    assert len(half_boundary['Spin10_Jordan_strata'])==7
+    assert sorted(row['stratum_dimension'] for row in half_boundary['Spin10_Jordan_strata'])==[24,24,30,30,32,32,33]
+    assert not half_boundary['boundary_scheme_reduced_proved']
+    assert not half_boundary['boundary_irreducible_components_classified']
+    assert not half_boundary['generic_degree_determined']
+    assert not half_boundary['novelty_claim'] and not half_boundary['externally_reviewed']
+    assert not half_boundary['runtime_API_changed']
+    for name,expected in half_boundary['source_sha256'].items():
+        assert digest(ROOT/name)==expected,name
+    regularity_classification=read('regularity-classification-verification.json')
+    assert regularity_classification['all_simply_connected_rows_classified']
+    assert regularity_classification['central_quotients_corollary']
+    assert regularity_classification['root_system_cases']==32
+    assert regularity_classification['root_lattice_weight_lattice_checks']==1942
+    assert regularity_classification['abstract_endpoint_patterns']==dict(root_string_paths=2,fork_orientations=8,passing_fork_orientations=0)
+    assert regularity_classification['A_independent_GT_Freudenthal_cases']==48
+    assert regularity_classification['A_positive_reducible_trace_controls']==8
+    assert regularity_classification['A_mixed_exact_witnesses']==4
+    assert regularity_classification['remaining_classical_exceptional_exact_witnesses']==30
+    assert regularity_classification['positive_root_wall_trace_checks']==2146
+    assert regularity_classification['rank_one_determinant_character_controls']==8
+    assert not regularity_classification['novelty_claim'] and not regularity_classification['externally_reviewed']
+    assert not regularity_classification['runtime_API_changed']
+    for name,expected in regularity_classification['source_sha256'].items():
+        assert digest(ROOT/name)==expected,name
     other=read('other-theories-verification.json')
     classical_equivariant=read('equivariant-verification.json')
     assert classical_equivariant['full_regression_methods']==regression['test_methods_run']
@@ -474,6 +660,36 @@ def main():
         'tools/verify_symplectic_balancing.py',
         'SYMPLECTIC_K_ORDINARY_SMITH.md','symplectic-ordinary-verification.json',
         'tools/verify_symplectic_ordinary.py',
+        'CAYLEY_LITERATURE_AUDIT.md','cayley-literature-verification.json',
+        'tools/verify_cayley_literature.py','experiments/cayley-literature-source-record.json',
+        'EXTERIOR_REGULARITY.md','exterior-regularity-verification.json',
+        'tools/verify_exterior_regularity.py',
+        'TYPE_A_REGULARITY.md','type-a-regularity-verification.json',
+        'tools/verify_type_a_regularity.py',
+        'TYPE_C_FUNDAMENTAL_REGULARITY.md','type-c-fundamental-regularity-verification.json',
+        'tools/verify_type_c_fundamental_regularity.py',
+        'TYPE_C_REGULARITY.md','type-c-regularity-verification.json',
+        'tools/verify_type_c_regularity.py',
+        'TYPE_B_REGULARITY.md','type-b-regularity-verification.json',
+        'tools/verify_type_b_regularity.py',
+        'MIXED_REGULARITY.md','mixed-regularity-verification.json',
+        'tools/verify_mixed_regularity.py',
+        'SYMPLECTIC_HARMONIC_LOCALIZATION.md','symplectic-harmonic-localization-verification.json',
+        'tools/verify_symplectic_harmonic_localization.py',
+        'SYMPLECTIC_CAYLEY_DEGREES.md','symplectic-cayley-degrees-verification.json',
+        'tools/verify_symplectic_cayley_degree.py',
+        'SPIN_CAYLEY_DEGREES.md','spin-cayley-degrees-verification.json',
+        'tools/verify_spin_cayley_degree.py',
+        'SPIN_POLYNOMIAL_CAYLEY_DEGREES.md','spin-polynomial-cayley-degrees-verification.json',
+        'tools/verify_spin_polynomial_degree.py',
+        'SPIN_CAYLEY_GEOMETRY.md','spin-cayley-geometry-verification.json',
+        'tools/verify_spin_cayley_geometry.py',
+        'HALF_SPIN_CAYLEY.md','half-spin-cayley-verification.json',
+        'tools/verify_half_spin_cayley.py',
+        'HALF_SPIN_BOUNDARY.md','half-spin-boundary-verification.json',
+        'tools/verify_half_spin_boundary.py',
+        'REGULARITY_CLASSIFICATION.md','regularity-classification-verification.json',
+        'tools/verify_regularity_classification.py',
         'equivariant-verification.json','tools/verify_equivariant.py',
         'tests/test_equivariant.py',
         '../articles/classical-equivariant-exposition/README.md',

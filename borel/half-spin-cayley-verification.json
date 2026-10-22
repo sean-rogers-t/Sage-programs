@@ -1,0 +1,891 @@
+{
+  "result": "passed",
+  "date": "2026-10-22",
+  "sage_version": "9.5",
+  "uniform_Pfaffian_formula": true,
+  "complete_chart_zero_fiber_written_proof": true,
+  "chart_zero_fiber_smooth_written_proof": true,
+  "global_boundary_dimension_lower_bound": true,
+  "highest_weight_moment_checks": 12,
+  "full_chiral_Clifford_checks": 18,
+  "exact_zero_weight_checks": 42,
+  "full_zero_differential_rank_checks": 12,
+  "boundary_family_checks": 10,
+  "central_kernel_checks": 16,
+  "Spin10": {
+    "chart_noncentral_classes_per_half_spin": 4,
+    "chart_class_dimension": 20,
+    "differential_rank": 25,
+    "boundary_zero_family_dimension": 33,
+    "generic_degree_determined": false,
+    "full_zero_fiber_classified": false
+  },
+  "weight_checks": [
+    {
+      "rank": 3,
+      "chirality": 1,
+      "dimension": 4,
+      "highest_weight_comparison": true,
+      "trace_formula": true,
+      "not_radial": true
+    },
+    {
+      "rank": 3,
+      "chirality": -1,
+      "dimension": 4,
+      "highest_weight_comparison": true,
+      "trace_formula": true,
+      "not_radial": true
+    },
+    {
+      "rank": 4,
+      "chirality": 1,
+      "dimension": 8,
+      "highest_weight_comparison": true,
+      "trace_formula": true,
+      "not_radial": true
+    },
+    {
+      "rank": 4,
+      "chirality": -1,
+      "dimension": 8,
+      "highest_weight_comparison": true,
+      "trace_formula": true,
+      "not_radial": true
+    },
+    {
+      "rank": 5,
+      "chirality": 1,
+      "dimension": 16,
+      "highest_weight_comparison": true,
+      "trace_formula": true,
+      "not_radial": true
+    },
+    {
+      "rank": 5,
+      "chirality": -1,
+      "dimension": 16,
+      "highest_weight_comparison": true,
+      "trace_formula": true,
+      "not_radial": true
+    },
+    {
+      "rank": 6,
+      "chirality": 1,
+      "dimension": 32,
+      "highest_weight_comparison": true,
+      "trace_formula": true,
+      "not_radial": true
+    },
+    {
+      "rank": 6,
+      "chirality": -1,
+      "dimension": 32,
+      "highest_weight_comparison": true,
+      "trace_formula": true,
+      "not_radial": true
+    },
+    {
+      "rank": 7,
+      "chirality": 1,
+      "dimension": 64,
+      "highest_weight_comparison": true,
+      "trace_formula": true,
+      "not_radial": true
+    },
+    {
+      "rank": 7,
+      "chirality": -1,
+      "dimension": 64,
+      "highest_weight_comparison": true,
+      "trace_formula": true,
+      "not_radial": true
+    },
+    {
+      "rank": 8,
+      "chirality": 1,
+      "dimension": 128,
+      "highest_weight_comparison": true,
+      "trace_formula": true,
+      "not_radial": true
+    },
+    {
+      "rank": 8,
+      "chirality": -1,
+      "dimension": 128,
+      "highest_weight_comparison": true,
+      "trace_formula": true,
+      "not_radial": true
+    }
+  ],
+  "Clifford_checks": [
+    {
+      "rank": 3,
+      "chirality": 1,
+      "point": "torus",
+      "full_chiral_trace_verified": true
+    },
+    {
+      "rank": 3,
+      "chirality": -1,
+      "point": "torus",
+      "full_chiral_trace_verified": true
+    },
+    {
+      "rank": 3,
+      "chirality": 1,
+      "point": "conjugated_torus",
+      "full_chiral_trace_verified": true
+    },
+    {
+      "rank": 3,
+      "chirality": -1,
+      "point": "conjugated_torus",
+      "full_chiral_trace_verified": true
+    },
+    {
+      "rank": 3,
+      "chirality": 1,
+      "point": "unipotent",
+      "full_chiral_trace_verified": true
+    },
+    {
+      "rank": 3,
+      "chirality": -1,
+      "point": "unipotent",
+      "full_chiral_trace_verified": true
+    },
+    {
+      "rank": 4,
+      "chirality": 1,
+      "point": "torus",
+      "full_chiral_trace_verified": true
+    },
+    {
+      "rank": 4,
+      "chirality": -1,
+      "point": "torus",
+      "full_chiral_trace_verified": true
+    },
+    {
+      "rank": 4,
+      "chirality": 1,
+      "point": "conjugated_torus",
+      "full_chiral_trace_verified": true
+    },
+    {
+      "rank": 4,
+      "chirality": -1,
+      "point": "conjugated_torus",
+      "full_chiral_trace_verified": true
+    },
+    {
+      "rank": 4,
+      "chirality": 1,
+      "point": "unipotent",
+      "full_chiral_trace_verified": true
+    },
+    {
+      "rank": 4,
+      "chirality": -1,
+      "point": "unipotent",
+      "full_chiral_trace_verified": true
+    },
+    {
+      "rank": 5,
+      "chirality": 1,
+      "point": "torus",
+      "full_chiral_trace_verified": true
+    },
+    {
+      "rank": 5,
+      "chirality": -1,
+      "point": "torus",
+      "full_chiral_trace_verified": true
+    },
+    {
+      "rank": 5,
+      "chirality": 1,
+      "point": "conjugated_torus",
+      "full_chiral_trace_verified": true
+    },
+    {
+      "rank": 5,
+      "chirality": -1,
+      "point": "conjugated_torus",
+      "full_chiral_trace_verified": true
+    },
+    {
+      "rank": 5,
+      "chirality": 1,
+      "point": "unipotent",
+      "full_chiral_trace_verified": true
+    },
+    {
+      "rank": 5,
+      "chirality": -1,
+      "point": "unipotent",
+      "full_chiral_trace_verified": true
+    }
+  ],
+  "zero_checks": [
+    {
+      "rank": 4,
+      "chirality": 1,
+      "root_index": 1,
+      "direct_weight_image_zero": true,
+      "half_character_nonzero": true,
+      "two_lifts": true,
+      "orbit_dimension": 12
+    },
+    {
+      "rank": 4,
+      "chirality": -1,
+      "root_index": 1,
+      "direct_weight_image_zero": true,
+      "half_character_nonzero": true,
+      "two_lifts": true,
+      "orbit_dimension": 12
+    },
+    {
+      "rank": 5,
+      "chirality": 1,
+      "root_index": 1,
+      "direct_weight_image_zero": true,
+      "half_character_nonzero": true,
+      "two_lifts": true,
+      "orbit_dimension": 20
+    },
+    {
+      "rank": 5,
+      "chirality": 1,
+      "root_index": 2,
+      "direct_weight_image_zero": true,
+      "half_character_nonzero": true,
+      "two_lifts": true,
+      "orbit_dimension": 20
+    },
+    {
+      "rank": 5,
+      "chirality": -1,
+      "root_index": 1,
+      "direct_weight_image_zero": true,
+      "half_character_nonzero": true,
+      "two_lifts": true,
+      "orbit_dimension": 20
+    },
+    {
+      "rank": 5,
+      "chirality": -1,
+      "root_index": 2,
+      "direct_weight_image_zero": true,
+      "half_character_nonzero": true,
+      "two_lifts": true,
+      "orbit_dimension": 20
+    },
+    {
+      "rank": 6,
+      "chirality": 1,
+      "root_index": 1,
+      "direct_weight_image_zero": true,
+      "half_character_nonzero": true,
+      "two_lifts": true,
+      "orbit_dimension": 30
+    },
+    {
+      "rank": 6,
+      "chirality": 1,
+      "root_index": 2,
+      "direct_weight_image_zero": true,
+      "half_character_nonzero": true,
+      "two_lifts": true,
+      "orbit_dimension": 30
+    },
+    {
+      "rank": 6,
+      "chirality": 1,
+      "root_index": 3,
+      "direct_weight_image_zero": true,
+      "half_character_nonzero": true,
+      "two_lifts": true,
+      "orbit_dimension": 30
+    },
+    {
+      "rank": 6,
+      "chirality": -1,
+      "root_index": 1,
+      "direct_weight_image_zero": true,
+      "half_character_nonzero": true,
+      "two_lifts": true,
+      "orbit_dimension": 30
+    },
+    {
+      "rank": 6,
+      "chirality": -1,
+      "root_index": 2,
+      "direct_weight_image_zero": true,
+      "half_character_nonzero": true,
+      "two_lifts": true,
+      "orbit_dimension": 30
+    },
+    {
+      "rank": 6,
+      "chirality": -1,
+      "root_index": 3,
+      "direct_weight_image_zero": true,
+      "half_character_nonzero": true,
+      "two_lifts": true,
+      "orbit_dimension": 30
+    },
+    {
+      "rank": 7,
+      "chirality": 1,
+      "root_index": 1,
+      "direct_weight_image_zero": true,
+      "half_character_nonzero": true,
+      "two_lifts": true,
+      "orbit_dimension": 42
+    },
+    {
+      "rank": 7,
+      "chirality": 1,
+      "root_index": 2,
+      "direct_weight_image_zero": true,
+      "half_character_nonzero": true,
+      "two_lifts": true,
+      "orbit_dimension": 42
+    },
+    {
+      "rank": 7,
+      "chirality": 1,
+      "root_index": 3,
+      "direct_weight_image_zero": true,
+      "half_character_nonzero": true,
+      "two_lifts": true,
+      "orbit_dimension": 42
+    },
+    {
+      "rank": 7,
+      "chirality": 1,
+      "root_index": 4,
+      "direct_weight_image_zero": true,
+      "half_character_nonzero": true,
+      "two_lifts": true,
+      "orbit_dimension": 42
+    },
+    {
+      "rank": 7,
+      "chirality": -1,
+      "root_index": 1,
+      "direct_weight_image_zero": true,
+      "half_character_nonzero": true,
+      "two_lifts": true,
+      "orbit_dimension": 42
+    },
+    {
+      "rank": 7,
+      "chirality": -1,
+      "root_index": 2,
+      "direct_weight_image_zero": true,
+      "half_character_nonzero": true,
+      "two_lifts": true,
+      "orbit_dimension": 42
+    },
+    {
+      "rank": 7,
+      "chirality": -1,
+      "root_index": 3,
+      "direct_weight_image_zero": true,
+      "half_character_nonzero": true,
+      "two_lifts": true,
+      "orbit_dimension": 42
+    },
+    {
+      "rank": 7,
+      "chirality": -1,
+      "root_index": 4,
+      "direct_weight_image_zero": true,
+      "half_character_nonzero": true,
+      "two_lifts": true,
+      "orbit_dimension": 42
+    },
+    {
+      "rank": 8,
+      "chirality": 1,
+      "root_index": 1,
+      "direct_weight_image_zero": true,
+      "half_character_nonzero": true,
+      "two_lifts": true,
+      "orbit_dimension": 56
+    },
+    {
+      "rank": 8,
+      "chirality": 1,
+      "root_index": 2,
+      "direct_weight_image_zero": true,
+      "half_character_nonzero": true,
+      "two_lifts": true,
+      "orbit_dimension": 56
+    },
+    {
+      "rank": 8,
+      "chirality": 1,
+      "root_index": 3,
+      "direct_weight_image_zero": true,
+      "half_character_nonzero": true,
+      "two_lifts": true,
+      "orbit_dimension": 56
+    },
+    {
+      "rank": 8,
+      "chirality": 1,
+      "root_index": 4,
+      "direct_weight_image_zero": true,
+      "half_character_nonzero": true,
+      "two_lifts": true,
+      "orbit_dimension": 56
+    },
+    {
+      "rank": 8,
+      "chirality": 1,
+      "root_index": 5,
+      "direct_weight_image_zero": true,
+      "half_character_nonzero": true,
+      "two_lifts": true,
+      "orbit_dimension": 56
+    },
+    {
+      "rank": 8,
+      "chirality": -1,
+      "root_index": 1,
+      "direct_weight_image_zero": true,
+      "half_character_nonzero": true,
+      "two_lifts": true,
+      "orbit_dimension": 56
+    },
+    {
+      "rank": 8,
+      "chirality": -1,
+      "root_index": 2,
+      "direct_weight_image_zero": true,
+      "half_character_nonzero": true,
+      "two_lifts": true,
+      "orbit_dimension": 56
+    },
+    {
+      "rank": 8,
+      "chirality": -1,
+      "root_index": 3,
+      "direct_weight_image_zero": true,
+      "half_character_nonzero": true,
+      "two_lifts": true,
+      "orbit_dimension": 56
+    },
+    {
+      "rank": 8,
+      "chirality": -1,
+      "root_index": 4,
+      "direct_weight_image_zero": true,
+      "half_character_nonzero": true,
+      "two_lifts": true,
+      "orbit_dimension": 56
+    },
+    {
+      "rank": 8,
+      "chirality": -1,
+      "root_index": 5,
+      "direct_weight_image_zero": true,
+      "half_character_nonzero": true,
+      "two_lifts": true,
+      "orbit_dimension": 56
+    },
+    {
+      "rank": 9,
+      "chirality": 1,
+      "root_index": 1,
+      "direct_weight_image_zero": true,
+      "half_character_nonzero": true,
+      "two_lifts": true,
+      "orbit_dimension": 72
+    },
+    {
+      "rank": 9,
+      "chirality": 1,
+      "root_index": 2,
+      "direct_weight_image_zero": true,
+      "half_character_nonzero": true,
+      "two_lifts": true,
+      "orbit_dimension": 72
+    },
+    {
+      "rank": 9,
+      "chirality": 1,
+      "root_index": 3,
+      "direct_weight_image_zero": true,
+      "half_character_nonzero": true,
+      "two_lifts": true,
+      "orbit_dimension": 72
+    },
+    {
+      "rank": 9,
+      "chirality": 1,
+      "root_index": 4,
+      "direct_weight_image_zero": true,
+      "half_character_nonzero": true,
+      "two_lifts": true,
+      "orbit_dimension": 72
+    },
+    {
+      "rank": 9,
+      "chirality": 1,
+      "root_index": 5,
+      "direct_weight_image_zero": true,
+      "half_character_nonzero": true,
+      "two_lifts": true,
+      "orbit_dimension": 72
+    },
+    {
+      "rank": 9,
+      "chirality": 1,
+      "root_index": 6,
+      "direct_weight_image_zero": true,
+      "half_character_nonzero": true,
+      "two_lifts": true,
+      "orbit_dimension": 72
+    },
+    {
+      "rank": 9,
+      "chirality": -1,
+      "root_index": 1,
+      "direct_weight_image_zero": true,
+      "half_character_nonzero": true,
+      "two_lifts": true,
+      "orbit_dimension": 72
+    },
+    {
+      "rank": 9,
+      "chirality": -1,
+      "root_index": 2,
+      "direct_weight_image_zero": true,
+      "half_character_nonzero": true,
+      "two_lifts": true,
+      "orbit_dimension": 72
+    },
+    {
+      "rank": 9,
+      "chirality": -1,
+      "root_index": 3,
+      "direct_weight_image_zero": true,
+      "half_character_nonzero": true,
+      "two_lifts": true,
+      "orbit_dimension": 72
+    },
+    {
+      "rank": 9,
+      "chirality": -1,
+      "root_index": 4,
+      "direct_weight_image_zero": true,
+      "half_character_nonzero": true,
+      "two_lifts": true,
+      "orbit_dimension": 72
+    },
+    {
+      "rank": 9,
+      "chirality": -1,
+      "root_index": 5,
+      "direct_weight_image_zero": true,
+      "half_character_nonzero": true,
+      "two_lifts": true,
+      "orbit_dimension": 72
+    },
+    {
+      "rank": 9,
+      "chirality": -1,
+      "root_index": 6,
+      "direct_weight_image_zero": true,
+      "half_character_nonzero": true,
+      "two_lifts": true,
+      "orbit_dimension": 72
+    }
+  ],
+  "zero_differentials": [
+    {
+      "rank": 4,
+      "chirality": 1,
+      "root_index": 1,
+      "actual_half_spin_trace_differential_rank": 16,
+      "orbit_tangent_dimension": 12
+    },
+    {
+      "rank": 4,
+      "chirality": -1,
+      "root_index": 1,
+      "actual_half_spin_trace_differential_rank": 16,
+      "orbit_tangent_dimension": 12
+    },
+    {
+      "rank": 5,
+      "chirality": 1,
+      "root_index": 1,
+      "actual_half_spin_trace_differential_rank": 25,
+      "orbit_tangent_dimension": 20
+    },
+    {
+      "rank": 5,
+      "chirality": 1,
+      "root_index": 2,
+      "actual_half_spin_trace_differential_rank": 25,
+      "orbit_tangent_dimension": 20
+    },
+    {
+      "rank": 5,
+      "chirality": -1,
+      "root_index": 1,
+      "actual_half_spin_trace_differential_rank": 25,
+      "orbit_tangent_dimension": 20
+    },
+    {
+      "rank": 5,
+      "chirality": -1,
+      "root_index": 2,
+      "actual_half_spin_trace_differential_rank": 25,
+      "orbit_tangent_dimension": 20
+    },
+    {
+      "rank": 6,
+      "chirality": 1,
+      "root_index": 1,
+      "actual_half_spin_trace_differential_rank": 36,
+      "orbit_tangent_dimension": 30
+    },
+    {
+      "rank": 6,
+      "chirality": 1,
+      "root_index": 2,
+      "actual_half_spin_trace_differential_rank": 36,
+      "orbit_tangent_dimension": 30
+    },
+    {
+      "rank": 6,
+      "chirality": 1,
+      "root_index": 3,
+      "actual_half_spin_trace_differential_rank": 36,
+      "orbit_tangent_dimension": 30
+    },
+    {
+      "rank": 6,
+      "chirality": -1,
+      "root_index": 1,
+      "actual_half_spin_trace_differential_rank": 36,
+      "orbit_tangent_dimension": 30
+    },
+    {
+      "rank": 6,
+      "chirality": -1,
+      "root_index": 2,
+      "actual_half_spin_trace_differential_rank": 36,
+      "orbit_tangent_dimension": 30
+    },
+    {
+      "rank": 6,
+      "chirality": -1,
+      "root_index": 3,
+      "actual_half_spin_trace_differential_rank": 36,
+      "orbit_tangent_dimension": 30
+    }
+  ],
+  "boundary_checks": [
+    {
+      "rank": 4,
+      "chirality": 1,
+      "direct_boundary_weight_image_zero": true,
+      "family_dimension": 16
+    },
+    {
+      "rank": 4,
+      "chirality": -1,
+      "direct_boundary_weight_image_zero": true,
+      "family_dimension": 16
+    },
+    {
+      "rank": 5,
+      "chirality": 1,
+      "direct_boundary_weight_image_zero": true,
+      "family_dimension": 33
+    },
+    {
+      "rank": 5,
+      "chirality": -1,
+      "direct_boundary_weight_image_zero": true,
+      "family_dimension": 33
+    },
+    {
+      "rank": 6,
+      "chirality": 1,
+      "direct_boundary_weight_image_zero": true,
+      "family_dimension": 54
+    },
+    {
+      "rank": 6,
+      "chirality": -1,
+      "direct_boundary_weight_image_zero": true,
+      "family_dimension": 54
+    },
+    {
+      "rank": 7,
+      "chirality": 1,
+      "direct_boundary_weight_image_zero": true,
+      "family_dimension": 79
+    },
+    {
+      "rank": 7,
+      "chirality": -1,
+      "direct_boundary_weight_image_zero": true,
+      "family_dimension": 79
+    },
+    {
+      "rank": 8,
+      "chirality": 1,
+      "direct_boundary_weight_image_zero": true,
+      "family_dimension": 108
+    },
+    {
+      "rank": 8,
+      "chirality": -1,
+      "direct_boundary_weight_image_zero": true,
+      "family_dimension": 108
+    }
+  ],
+  "kernel_checks": [
+    {
+      "rank": 3,
+      "chirality": 1,
+      "kernel_order": 1,
+      "standard_cover_kernel_acts": -1
+    },
+    {
+      "rank": 3,
+      "chirality": -1,
+      "kernel_order": 1,
+      "standard_cover_kernel_acts": -1
+    },
+    {
+      "rank": 4,
+      "chirality": 1,
+      "kernel_order": 2,
+      "standard_cover_kernel_acts": -1
+    },
+    {
+      "rank": 4,
+      "chirality": -1,
+      "kernel_order": 2,
+      "standard_cover_kernel_acts": -1
+    },
+    {
+      "rank": 5,
+      "chirality": 1,
+      "kernel_order": 1,
+      "standard_cover_kernel_acts": -1
+    },
+    {
+      "rank": 5,
+      "chirality": -1,
+      "kernel_order": 1,
+      "standard_cover_kernel_acts": -1
+    },
+    {
+      "rank": 6,
+      "chirality": 1,
+      "kernel_order": 2,
+      "standard_cover_kernel_acts": -1
+    },
+    {
+      "rank": 6,
+      "chirality": -1,
+      "kernel_order": 2,
+      "standard_cover_kernel_acts": -1
+    },
+    {
+      "rank": 7,
+      "chirality": 1,
+      "kernel_order": 1,
+      "standard_cover_kernel_acts": -1
+    },
+    {
+      "rank": 7,
+      "chirality": -1,
+      "kernel_order": 1,
+      "standard_cover_kernel_acts": -1
+    },
+    {
+      "rank": 8,
+      "chirality": 1,
+      "kernel_order": 2,
+      "standard_cover_kernel_acts": -1
+    },
+    {
+      "rank": 8,
+      "chirality": -1,
+      "kernel_order": 2,
+      "standard_cover_kernel_acts": -1
+    },
+    {
+      "rank": 9,
+      "chirality": 1,
+      "kernel_order": 1,
+      "standard_cover_kernel_acts": -1
+    },
+    {
+      "rank": 9,
+      "chirality": -1,
+      "kernel_order": 1,
+      "standard_cover_kernel_acts": -1
+    },
+    {
+      "rank": 10,
+      "chirality": 1,
+      "kernel_order": 2,
+      "standard_cover_kernel_acts": -1
+    },
+    {
+      "rank": 10,
+      "chirality": -1,
+      "kernel_order": 2,
+      "standard_cover_kernel_acts": -1
+    }
+  ],
+  "triality_controls": [
+    {
+      "chirality": 1,
+      "torus_cover_index": 2,
+      "vector_degree": 16,
+      "Spin8_degree": 32
+    },
+    {
+      "chirality": -1,
+      "torus_cover_index": 2,
+      "vector_degree": 16,
+      "Spin8_degree": 32
+    }
+  ],
+  "Spin6_fibers": [
+    {
+      "chirality": 1,
+      "Spin6_original_torus_fiber_length": 4
+    },
+    {
+      "chirality": -1,
+      "Spin6_original_torus_fiber_length": 4
+    }
+  ],
+  "novelty_claim": false,
+  "externally_reviewed": false,
+  "runtime_API_changed": false,
+  "scope": "Finite independent checks corroborate separate uniform proofs. No half-spin generic degree beyond known low-rank controls or maximal finite target locus is asserted.",
+  "source_sha256": {
+    "HALF_SPIN_CAYLEY.md": "a7fc096ccc128a26a2917b95326760c348dc45eef13ea440d082f47c79b7ffa5",
+    "tools/verify_half_spin_cayley.py": "e939afed9734fcc095cf25d47b5a0c0fb74e5e211bf7ac764f5329c78e74b8b2",
+    "tools/verify_spin_cayley_geometry.py": "848fa6492ca8f8893e227ccd3efc8ce579a86b3c65929024e4c283054168c00f",
+    "tools/monomial_staircase.py": "3750c1f52486bc126d9d3e95add55457ac1c474fad596b68db18f7f120c99793"
+  }
+}

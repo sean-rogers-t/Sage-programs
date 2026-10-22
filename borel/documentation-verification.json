@@ -52,6 +52,66 @@
       "python_blocks_executed": 0
     },
     {
+      "file": "CAYLEY_LITERATURE_AUDIT.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "EXTERIOR_REGULARITY.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "TYPE_A_REGULARITY.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "TYPE_C_FUNDAMENTAL_REGULARITY.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "TYPE_C_REGULARITY.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "TYPE_B_REGULARITY.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "MIXED_REGULARITY.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "SYMPLECTIC_HARMONIC_LOCALIZATION.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "SYMPLECTIC_CAYLEY_DEGREES.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "SPIN_CAYLEY_DEGREES.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "SPIN_POLYNOMIAL_CAYLEY_DEGREES.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "SPIN_CAYLEY_GEOMETRY.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "HALF_SPIN_CAYLEY.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "HALF_SPIN_BOUNDARY.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "REGULARITY_CLASSIFICATION.md",
+      "python_blocks_executed": 0
+    },
+    {
       "file": "LOCAL_IMAGE_BOUND.md",
       "python_blocks_executed": 1
     },
@@ -476,7 +536,7 @@
       "python_blocks_executed": 0
     }
   ],
-  "local_links_and_anchors_checked": 1565,
+  "local_links_and_anchors_checked": 1693,
   "python_blocks_executed": 50,
   "scope": "Python fences executed in reading order in a fresh namespace per document; local links and anchors checked. Shell snippets and external URLs were not automatically executed or crawled."
 }

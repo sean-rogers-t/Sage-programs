@@ -16,6 +16,21 @@ the mathematical guide for the Borel/Springer construction.
 | What higher type C Fitting formulas are proved? | [Doubled presentation](SYMPLECTIC_K_FITTING.md), [Schur generators](SYMPLECTIC_K_MINORS.md), [all-rank integral Hankel balancing and complete ranks 1-9](SYMPLECTIC_K_BALANCING.md) |
 | What are all ordinary type C projective K Smith factors? | [Closed binary-digit multiplicities, Hankel proof and known inputs](SYMPLECTIC_K_ORDINARY_SMITH.md) |
 | What general results do we have, and which structural questions remain? | [Research ledger: results, partial results, counterexamples and open problems](RESEARCH_LEDGER.md) |
+| Which Springer and Cayley questions are already covered by the literature? | [Audit of all eight brief references, the linked notebook, related work and current-status limits](CAYLEY_LITERATURE_AUDIT.md) |
+| Which exterior-power Springer maps preserve regularity? | [All-rank SL_n classification, uniform rational counterexamples and independent trace checks](EXTERIOR_REGULARITY.md) |
+| Which irreducible SL_n Springer maps preserve regularity? | [Complete highest-weight classification, symmetric-power corollary and independent character checks](TYPE_A_REGULARITY.md) |
+| Which fundamental Sp_(2n) Springer maps preserve regularity? | [All-rank obstruction, constructive character zeros and contraction-kernel verification](TYPE_C_FUNDAMENTAL_REGULARITY.md) |
+| What about every irreducible Sp_(2n) highest weight? | [Universal central--Weyl obstruction, independent branching proof, symmetric powers and central quotients](TYPE_C_REGULARITY.md) |
+| What about type B, including spinorial highest weights? | [All irreducible Spin_(2n+1) and all SO_(2n+1) representations fail regularity for n>=2](TYPE_B_REGULARITY.md) |
+| Can mixing central characters repair regularity? | [Complete B/C answer: symplectic torus-positive characters, nonsemisimple failure, and arbitrary-sum type B obstruction](MIXED_REGULARITY.md) |
+| How much localization does symplectic harmonic separation need? | [Exactly det(1+g): minimal invariant principal localization and full Cayley determinant](SYMPLECTIC_HARMONIC_LOCALIZATION.md) |
+| How do symplectic generalized Cayley degrees change under tensor powers and mixtures? | [Degree 2n deg(F) for actual characters F(det(1+g)), explicit fibers and representation-operation laws](SYMPLECTIC_CAYLEY_DEGREES.md) |
+| How do Spin generalized Cayley degrees change under tensor powers? | [Degree 2m floor(N/2), an explicit fiber presentation, and parity-dependent descent to SO](SPIN_CAYLEY_DEGREES.md) |
+| What happens when even and odd spin characters are mixed? | [Degree 2 floor(N/2) deg(F), precise SO descent, representation operations and collapsed character levels](SPIN_POLYNOMIAL_CAYLEY_DEGREES.md) |
+| Where are polynomial Spin maps finite, and where do their inverses branch? | [Maximal finite target locus, full Jacobian, boundary rank bound and a false discriminant factor](SPIN_CAYLEY_GEOMETRY.md) |
+| What changes for one half-spin representation? | [Pfaffian formula, complete zero fiber in the Cayley chart and a large boundary zero family](HALF_SPIN_CAYLEY.md) |
+| What is the entire half-spin zero fiber, including nonsemisimple points? | [All-rank four-eigenvector criterion and sharp dimension r(2r-1)-12](HALF_SPIN_BOUNDARY.md) |
+| Is the simple-group regularity table complete, including reducible representations and exceptional types? | [Complete table and uniform primitive-root obstruction, with rank-one and isogeny qualifications](REGULARITY_CLASSIFICATION.md) |
 | What did the exploration of other cohomologies and affine groups produce? | [Research report, theorem inventory, known inputs and prioritized API path](OTHER_THEORIES_PROGRAM.md) |
 | How does the actual Springer-character image change in K-theory? | [General filtered comparison and counterexamples](OTHER_THEORIES_FINITE.md), [complete SL3 formulas](OTHER_THEORIES_SL3.md), [primitive character data](OTHER_THEORIES_COTANGENT.md) |
 | Can the earlier Cayley determinants control equivariant K-images? | [All-parabolic determinant theorem, local Smith patterns and an integral symplectic family](OTHER_THEORIES_EQUIVARIANT_K.md) |

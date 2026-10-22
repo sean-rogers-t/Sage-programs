@@ -1,0 +1,2129 @@
+{
+  "result": "passed",
+  "date": "2026-10-22",
+  "group": "Sp_(2n)(C)",
+  "representation": "primitive exterior^k of the defining representation, 1<=k<=n",
+  "theorem": "No fundamental map preserves torus/global regularity for n>=2; rank-one defining case is positive",
+  "all_rank_proof": "TYPE_C_FUNDAMENTAL_REGULARITY.md, Sections 2-5",
+  "finite_n_range": [
+    1,
+    8
+  ],
+  "primitive_kernel_cases": 36,
+  "exact_contraction_weight_blocks": 19676,
+  "largest_weight_block_columns": 70,
+  "independent_Weyl_alternant_characters": 36,
+  "trace_Gram_and_coordinate_checks": 36,
+  "short_root_pair_formula_checks": 546,
+  "rational_defining_counterexamples": 7,
+  "quadratic_algebra_counterexamples": 28,
+  "symbolic_ballot_characters": 55,
+  "symbolic_ballot_maximum_rank": 10,
+  "auxiliary_zero_lemma_cases": 210,
+  "auxiliary_maximum_rank": 20,
+  "maximum_bounded_search_trials": 1,
+  "auxiliary_trials": [
+    {
+      "r": 1,
+      "s": 1,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 2,
+      "s": 1,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 2,
+      "s": 2,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 3,
+      "s": 1,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 3,
+      "s": 2,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 3,
+      "s": 3,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 4,
+      "s": 1,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 4,
+      "s": 2,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 4,
+      "s": 3,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 4,
+      "s": 4,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 5,
+      "s": 1,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 5,
+      "s": 2,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 5,
+      "s": 3,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 5,
+      "s": 4,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 5,
+      "s": 5,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 6,
+      "s": 1,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 6,
+      "s": 2,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 6,
+      "s": 3,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 6,
+      "s": 4,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 6,
+      "s": 5,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 6,
+      "s": 6,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 7,
+      "s": 1,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 7,
+      "s": 2,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 7,
+      "s": 3,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 7,
+      "s": 4,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 7,
+      "s": 5,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 7,
+      "s": 6,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 7,
+      "s": 7,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 8,
+      "s": 1,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 8,
+      "s": 2,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 8,
+      "s": 3,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 8,
+      "s": 4,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 8,
+      "s": 5,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 8,
+      "s": 6,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 8,
+      "s": 7,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 8,
+      "s": 8,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 9,
+      "s": 1,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 9,
+      "s": 2,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 9,
+      "s": 3,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 9,
+      "s": 4,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 9,
+      "s": 5,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 9,
+      "s": 6,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 9,
+      "s": 7,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 9,
+      "s": 8,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 9,
+      "s": 9,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 10,
+      "s": 1,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 10,
+      "s": 2,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 10,
+      "s": 3,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 10,
+      "s": 4,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 10,
+      "s": 5,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 10,
+      "s": 6,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 10,
+      "s": 7,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 10,
+      "s": 8,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 10,
+      "s": 9,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 10,
+      "s": 10,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 11,
+      "s": 1,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 11,
+      "s": 2,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 11,
+      "s": 3,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 11,
+      "s": 4,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 11,
+      "s": 5,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 11,
+      "s": 6,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 11,
+      "s": 7,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 11,
+      "s": 8,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 11,
+      "s": 9,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 11,
+      "s": 10,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 11,
+      "s": 11,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 12,
+      "s": 1,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 12,
+      "s": 2,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 12,
+      "s": 3,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 12,
+      "s": 4,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 12,
+      "s": 5,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 12,
+      "s": 6,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 12,
+      "s": 7,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 12,
+      "s": 8,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 12,
+      "s": 9,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 12,
+      "s": 10,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 12,
+      "s": 11,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 12,
+      "s": 12,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 13,
+      "s": 1,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 13,
+      "s": 2,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 13,
+      "s": 3,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 13,
+      "s": 4,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 13,
+      "s": 5,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 13,
+      "s": 6,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 13,
+      "s": 7,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 13,
+      "s": 8,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 13,
+      "s": 9,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 13,
+      "s": 10,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 13,
+      "s": 11,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 13,
+      "s": 12,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 13,
+      "s": 13,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 14,
+      "s": 1,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 14,
+      "s": 2,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 14,
+      "s": 3,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 14,
+      "s": 4,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 14,
+      "s": 5,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 14,
+      "s": 6,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 14,
+      "s": 7,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 14,
+      "s": 8,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 14,
+      "s": 9,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 14,
+      "s": 10,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 14,
+      "s": 11,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 14,
+      "s": 12,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 14,
+      "s": 13,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 14,
+      "s": 14,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 15,
+      "s": 1,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 15,
+      "s": 2,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 15,
+      "s": 3,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 15,
+      "s": 4,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 15,
+      "s": 5,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 15,
+      "s": 6,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 15,
+      "s": 7,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 15,
+      "s": 8,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 15,
+      "s": 9,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 15,
+      "s": 10,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 15,
+      "s": 11,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 15,
+      "s": 12,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 15,
+      "s": 13,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 15,
+      "s": 14,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 15,
+      "s": 15,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 16,
+      "s": 1,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 16,
+      "s": 2,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 16,
+      "s": 3,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 16,
+      "s": 4,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 16,
+      "s": 5,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 16,
+      "s": 6,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 16,
+      "s": 7,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 16,
+      "s": 8,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 16,
+      "s": 9,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 16,
+      "s": 10,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 16,
+      "s": 11,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 16,
+      "s": 12,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 16,
+      "s": 13,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 16,
+      "s": 14,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 16,
+      "s": 15,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 16,
+      "s": 16,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 17,
+      "s": 1,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 17,
+      "s": 2,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 17,
+      "s": 3,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 17,
+      "s": 4,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 17,
+      "s": 5,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 17,
+      "s": 6,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 17,
+      "s": 7,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 17,
+      "s": 8,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 17,
+      "s": 9,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 17,
+      "s": 10,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 17,
+      "s": 11,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 17,
+      "s": 12,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 17,
+      "s": 13,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 17,
+      "s": 14,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 17,
+      "s": 15,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 17,
+      "s": 16,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 17,
+      "s": 17,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 18,
+      "s": 1,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 18,
+      "s": 2,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 18,
+      "s": 3,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 18,
+      "s": 4,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 18,
+      "s": 5,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 18,
+      "s": 6,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 18,
+      "s": 7,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 18,
+      "s": 8,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 18,
+      "s": 9,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 18,
+      "s": 10,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 18,
+      "s": 11,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 18,
+      "s": 12,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 18,
+      "s": 13,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 18,
+      "s": 14,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 18,
+      "s": 15,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 18,
+      "s": 16,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 18,
+      "s": 17,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 18,
+      "s": 18,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 19,
+      "s": 1,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 19,
+      "s": 2,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 19,
+      "s": 3,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 19,
+      "s": 4,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 19,
+      "s": 5,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 19,
+      "s": 6,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 19,
+      "s": 7,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 19,
+      "s": 8,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 19,
+      "s": 9,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 19,
+      "s": 10,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 19,
+      "s": 11,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 19,
+      "s": 12,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 19,
+      "s": 13,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 19,
+      "s": 14,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 19,
+      "s": 15,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 19,
+      "s": 16,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 19,
+      "s": 17,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 19,
+      "s": 18,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 19,
+      "s": 19,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 20,
+      "s": 1,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 20,
+      "s": 2,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 20,
+      "s": 3,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 20,
+      "s": 4,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 20,
+      "s": 5,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 20,
+      "s": 6,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 20,
+      "s": 7,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 20,
+      "s": 8,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 20,
+      "s": 9,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 20,
+      "s": 10,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 20,
+      "s": 11,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 20,
+      "s": 12,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 20,
+      "s": 13,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 20,
+      "s": 14,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 20,
+      "s": 15,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 20,
+      "s": 16,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 20,
+      "s": 17,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 20,
+      "s": 18,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 20,
+      "s": 19,
+      "chosen_t": 2,
+      "trials": 1
+    },
+    {
+      "r": 20,
+      "s": 20,
+      "chosen_t": 2,
+      "trials": 1
+    }
+  ],
+  "witnesses": [
+    {
+      "n": 2,
+      "k": 1,
+      "trace_index": 1,
+      "method": "rational defining collision",
+      "torus": [
+        "2",
+        "-1/2"
+      ],
+      "image": [
+        "3/4",
+        "3/4"
+      ],
+      "root": "epsilon_1-epsilon_2"
+    },
+    {
+      "n": 2,
+      "k": 2,
+      "trace_index": 2,
+      "method": "exact primitive-kernel trace in a free quadratic algebra",
+      "first_torus_entry": "2",
+      "remaining_pair_sums": [
+        "0"
+      ],
+      "trials": [
+        {
+          "t": 2,
+          "A": "1",
+          "B": "0"
+        }
+      ],
+      "vanished_coordinate": "y_1",
+      "all_branches_regular": true,
+      "algebra_dimension": 2
+    },
+    {
+      "n": 3,
+      "k": 1,
+      "trace_index": 1,
+      "method": "rational defining collision",
+      "torus": [
+        "2",
+        "-1/2",
+        "3"
+      ],
+      "image": [
+        "3/4",
+        "3/4",
+        "4/3"
+      ],
+      "root": "epsilon_1-epsilon_2"
+    },
+    {
+      "n": 3,
+      "k": 2,
+      "trace_index": 4,
+      "method": "exact primitive-kernel trace in a free quadratic algebra",
+      "first_torus_entry": "2",
+      "remaining_pair_sums": [
+        "-4",
+        "4"
+      ],
+      "trials": [
+        {
+          "t": 2,
+          "A": "1",
+          "B": "4"
+        }
+      ],
+      "vanished_coordinate": "y_1",
+      "all_branches_regular": true,
+      "algebra_dimension": 4
+    },
+    {
+      "n": 3,
+      "k": 3,
+      "trace_index": 5,
+      "method": "exact primitive-kernel trace in a free quadratic algebra",
+      "first_torus_entry": "2",
+      "remaining_pair_sums": [
+        "-1/4",
+        "4"
+      ],
+      "trials": [
+        {
+          "t": 2,
+          "A": "4",
+          "B": "1"
+        }
+      ],
+      "vanished_coordinate": "y_1",
+      "all_branches_regular": true,
+      "algebra_dimension": 4
+    },
+    {
+      "n": 4,
+      "k": 1,
+      "trace_index": 1,
+      "method": "rational defining collision",
+      "torus": [
+        "2",
+        "-1/2",
+        "3",
+        "4"
+      ],
+      "image": [
+        "3/4",
+        "3/4",
+        "4/3",
+        "15/8"
+      ],
+      "root": "epsilon_1-epsilon_2"
+    },
+    {
+      "n": 4,
+      "k": 2,
+      "trace_index": 6,
+      "method": "exact primitive-kernel trace in a free quadratic algebra",
+      "first_torus_entry": "2",
+      "remaining_pair_sums": [
+        "-10",
+        "4",
+        "6"
+      ],
+      "trials": [
+        {
+          "t": 2,
+          "A": "1",
+          "B": "10"
+        }
+      ],
+      "vanished_coordinate": "y_1",
+      "all_branches_regular": true,
+      "algebra_dimension": 8
+    },
+    {
+      "n": 4,
+      "k": 3,
+      "trace_index": 14,
+      "method": "exact primitive-kernel trace in a free quadratic algebra",
+      "first_torus_entry": "2",
+      "remaining_pair_sums": [
+        "-13/5",
+        "4",
+        "6"
+      ],
+      "trials": [
+        {
+          "t": 2,
+          "A": "10",
+          "B": "26"
+        }
+      ],
+      "vanished_coordinate": "y_1",
+      "all_branches_regular": true,
+      "algebra_dimension": 8
+    },
+    {
+      "n": 4,
+      "k": 4,
+      "trace_index": 14,
+      "method": "exact primitive-kernel trace in a free quadratic algebra",
+      "first_torus_entry": "2",
+      "remaining_pair_sums": [
+        "-2/5",
+        "4",
+        "6"
+      ],
+      "trials": [
+        {
+          "t": 2,
+          "A": "25",
+          "B": "10"
+        }
+      ],
+      "vanished_coordinate": "y_1",
+      "all_branches_regular": true,
+      "algebra_dimension": 8
+    },
+    {
+      "n": 5,
+      "k": 1,
+      "trace_index": 1,
+      "method": "rational defining collision",
+      "torus": [
+        "2",
+        "-1/2",
+        "3",
+        "4",
+        "5"
+      ],
+      "image": [
+        "3/4",
+        "3/4",
+        "4/3",
+        "15/8",
+        "12/5"
+      ],
+      "root": "epsilon_1-epsilon_2"
+    },
+    {
+      "n": 5,
+      "k": 2,
+      "trace_index": 8,
+      "method": "exact primitive-kernel trace in a free quadratic algebra",
+      "first_torus_entry": "2",
+      "remaining_pair_sums": [
+        "-18",
+        "4",
+        "6",
+        "8"
+      ],
+      "trials": [
+        {
+          "t": 2,
+          "A": "1",
+          "B": "18"
+        }
+      ],
+      "vanished_coordinate": "y_1",
+      "all_branches_regular": true,
+      "algebra_dimension": 16
+    },
+    {
+      "n": 5,
+      "k": 3,
+      "trace_index": 27,
+      "method": "exact primitive-kernel trace in a free quadratic algebra",
+      "first_torus_entry": "2",
+      "remaining_pair_sums": [
+        "-107/18",
+        "4",
+        "6",
+        "8"
+      ],
+      "trials": [
+        {
+          "t": 2,
+          "A": "18",
+          "B": "107"
+        }
+      ],
+      "vanished_coordinate": "y_1",
+      "all_branches_regular": true,
+      "algebra_dimension": 16
+    },
+    {
+      "n": 5,
+      "k": 4,
+      "trace_index": 48,
+      "method": "exact primitive-kernel trace in a free quadratic algebra",
+      "first_torus_entry": "2",
+      "remaining_pair_sums": [
+        "-114/53",
+        "4",
+        "6",
+        "8"
+      ],
+      "trials": [
+        {
+          "t": 2,
+          "A": "106",
+          "B": "228"
+        }
+      ],
+      "vanished_coordinate": "y_1",
+      "all_branches_regular": true,
+      "algebra_dimension": 16
+    },
+    {
+      "n": 5,
+      "k": 5,
+      "trace_index": 42,
+      "method": "exact primitive-kernel trace in a free quadratic algebra",
+      "first_torus_entry": "2",
+      "remaining_pair_sums": [
+        "-53/105",
+        "4",
+        "6",
+        "8"
+      ],
+      "trials": [
+        {
+          "t": 2,
+          "A": "210",
+          "B": "106"
+        }
+      ],
+      "vanished_coordinate": "y_1",
+      "all_branches_regular": true,
+      "algebra_dimension": 16
+    },
+    {
+      "n": 6,
+      "k": 1,
+      "trace_index": 1,
+      "method": "rational defining collision",
+      "torus": [
+        "2",
+        "-1/2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "image": [
+        "3/4",
+        "3/4",
+        "4/3",
+        "15/8",
+        "12/5",
+        "35/12"
+      ],
+      "root": "epsilon_1-epsilon_2"
+    },
+    {
+      "n": 6,
+      "k": 2,
+      "trace_index": 10,
+      "method": "exact primitive-kernel trace in a free quadratic algebra",
+      "first_torus_entry": "2",
+      "remaining_pair_sums": [
+        "-28",
+        "4",
+        "6",
+        "8",
+        "10"
+      ],
+      "trials": [
+        {
+          "t": 2,
+          "A": "1",
+          "B": "28"
+        }
+      ],
+      "vanished_coordinate": "y_1",
+      "all_branches_regular": true,
+      "algebra_dimension": 32
+    },
+    {
+      "n": 6,
+      "k": 3,
+      "trace_index": 44,
+      "method": "exact primitive-kernel trace in a free quadratic algebra",
+      "first_torus_entry": "2",
+      "remaining_pair_sums": [
+        "-72/7",
+        "4",
+        "6",
+        "8",
+        "10"
+      ],
+      "trials": [
+        {
+          "t": 2,
+          "A": "28",
+          "B": "288"
+        }
+      ],
+      "vanished_coordinate": "y_1",
+      "all_branches_regular": true,
+      "algebra_dimension": 32
+    },
+    {
+      "n": 6,
+      "k": 4,
+      "trace_index": 110,
+      "method": "exact primitive-kernel trace in a free quadratic algebra",
+      "first_torus_entry": "2",
+      "remaining_pair_sums": [
+        "-188/41",
+        "4",
+        "6",
+        "8",
+        "10"
+      ],
+      "trials": [
+        {
+          "t": 2,
+          "A": "287",
+          "B": "1316"
+        }
+      ],
+      "vanished_coordinate": "y_1",
+      "all_branches_regular": true,
+      "algebra_dimension": 32
+    },
+    {
+      "n": 6,
+      "k": 5,
+      "trace_index": 165,
+      "method": "exact primitive-kernel trace in a free quadratic algebra",
+      "first_torus_entry": "2",
+      "remaining_pair_sums": [
+        "-2493/1288",
+        "4",
+        "6",
+        "8",
+        "10"
+      ],
+      "trials": [
+        {
+          "t": 2,
+          "A": "1288",
+          "B": "2493"
+        }
+      ],
+      "vanished_coordinate": "y_1",
+      "all_branches_regular": true,
+      "algebra_dimension": 32
+    },
+    {
+      "n": 6,
+      "k": 6,
+      "trace_index": 132,
+      "method": "exact primitive-kernel trace in a free quadratic algebra",
+      "first_torus_entry": "2",
+      "remaining_pair_sums": [
+        "-644/1103",
+        "4",
+        "6",
+        "8",
+        "10"
+      ],
+      "trials": [
+        {
+          "t": 2,
+          "A": "2206",
+          "B": "1288"
+        }
+      ],
+      "vanished_coordinate": "y_1",
+      "all_branches_regular": true,
+      "algebra_dimension": 32
+    },
+    {
+      "n": 7,
+      "k": 1,
+      "trace_index": 1,
+      "method": "rational defining collision",
+      "torus": [
+        "2",
+        "-1/2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "image": [
+        "3/4",
+        "3/4",
+        "4/3",
+        "15/8",
+        "12/5",
+        "35/12",
+        "24/7"
+      ],
+      "root": "epsilon_1-epsilon_2"
+    },
+    {
+      "n": 7,
+      "k": 2,
+      "trace_index": 12,
+      "method": "exact primitive-kernel trace in a free quadratic algebra",
+      "first_torus_entry": "2",
+      "remaining_pair_sums": [
+        "-40",
+        "4",
+        "6",
+        "8",
+        "10",
+        "12"
+      ],
+      "trials": [
+        {
+          "t": 2,
+          "A": "1",
+          "B": "40"
+        }
+      ],
+      "vanished_coordinate": "y_1",
+      "all_branches_regular": true,
+      "algebra_dimension": 64
+    },
+    {
+      "n": 7,
+      "k": 3,
+      "trace_index": 65,
+      "method": "exact primitive-kernel trace in a free quadratic algebra",
+      "first_torus_entry": "2",
+      "remaining_pair_sums": [
+        "-125/8",
+        "4",
+        "6",
+        "8",
+        "10",
+        "12"
+      ],
+      "trials": [
+        {
+          "t": 2,
+          "A": "40",
+          "B": "625"
+        }
+      ],
+      "vanished_coordinate": "y_1",
+      "all_branches_regular": true,
+      "algebra_dimension": 64
+    },
+    {
+      "n": 7,
+      "k": 4,
+      "trace_index": 208,
+      "method": "exact primitive-kernel trace in a free quadratic algebra",
+      "first_torus_entry": "2",
+      "remaining_pair_sums": [
+        "-100/13",
+        "4",
+        "6",
+        "8",
+        "10",
+        "12"
+      ],
+      "trials": [
+        {
+          "t": 2,
+          "A": "624",
+          "B": "4800"
+        }
+      ],
+      "vanished_coordinate": "y_1",
+      "all_branches_regular": true,
+      "algebra_dimension": 64
+    },
+    {
+      "n": 7,
+      "k": 5,
+      "trace_index": 429,
+      "method": "exact primitive-kernel trace in a free quadratic algebra",
+      "first_torus_entry": "2",
+      "remaining_pair_sums": [
+        "-18573/4760",
+        "4",
+        "6",
+        "8",
+        "10",
+        "12"
+      ],
+      "trials": [
+        {
+          "t": 2,
+          "A": "4760",
+          "B": "18573"
+        }
+      ],
+      "vanished_coordinate": "y_1",
+      "all_branches_regular": true,
+      "algebra_dimension": 64
+    },
+    {
+      "n": 7,
+      "k": 6,
+      "trace_index": 572,
+      "method": "exact primitive-kernel trace in a free quadratic algebra",
+      "first_torus_entry": "2",
+      "remaining_pair_sums": [
+        "-10840/5983",
+        "4",
+        "6",
+        "8",
+        "10",
+        "12"
+      ],
+      "trials": [
+        {
+          "t": 2,
+          "A": "17949",
+          "B": "32520"
+        }
+      ],
+      "vanished_coordinate": "y_1",
+      "all_branches_regular": true,
+      "algebra_dimension": 64
+    },
+    {
+      "n": 7,
+      "k": 7,
+      "trace_index": 429,
+      "method": "exact primitive-kernel trace in a free quadratic algebra",
+      "first_torus_entry": "2",
+      "remaining_pair_sums": [
+        "-17949/27760",
+        "4",
+        "6",
+        "8",
+        "10",
+        "12"
+      ],
+      "trials": [
+        {
+          "t": 2,
+          "A": "27760",
+          "B": "17949"
+        }
+      ],
+      "vanished_coordinate": "y_1",
+      "all_branches_regular": true,
+      "algebra_dimension": 64
+    },
+    {
+      "n": 8,
+      "k": 1,
+      "trace_index": 1,
+      "method": "rational defining collision",
+      "torus": [
+        "2",
+        "-1/2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "image": [
+        "3/4",
+        "3/4",
+        "4/3",
+        "15/8",
+        "12/5",
+        "35/12",
+        "24/7",
+        "63/16"
+      ],
+      "root": "epsilon_1-epsilon_2"
+    },
+    {
+      "n": 8,
+      "k": 2,
+      "trace_index": 14,
+      "method": "exact primitive-kernel trace in a free quadratic algebra",
+      "first_torus_entry": "2",
+      "remaining_pair_sums": [
+        "-54",
+        "4",
+        "6",
+        "8",
+        "10",
+        "12",
+        "14"
+      ],
+      "trials": [
+        {
+          "t": 2,
+          "A": "1",
+          "B": "54"
+        }
+      ],
+      "vanished_coordinate": "y_1",
+      "all_branches_regular": true,
+      "algebra_dimension": 128
+    },
+    {
+      "n": 8,
+      "k": 3,
+      "trace_index": 90,
+      "method": "exact primitive-kernel trace in a free quadratic algebra",
+      "first_torus_entry": "2",
+      "remaining_pair_sums": [
+        "-593/27",
+        "4",
+        "6",
+        "8",
+        "10",
+        "12",
+        "14"
+      ],
+      "trials": [
+        {
+          "t": 2,
+          "A": "54",
+          "B": "1186"
+        }
+      ],
+      "vanished_coordinate": "y_1",
+      "all_branches_regular": true,
+      "algebra_dimension": 128
+    },
+    {
+      "n": 8,
+      "k": 4,
+      "trace_index": 350,
+      "method": "exact primitive-kernel trace in a free quadratic algebra",
+      "first_torus_entry": "2",
+      "remaining_pair_sums": [
+        "-906/79",
+        "4",
+        "6",
+        "8",
+        "10",
+        "12",
+        "14"
+      ],
+      "trials": [
+        {
+          "t": 2,
+          "A": "1185",
+          "B": "13590"
+        }
+      ],
+      "vanished_coordinate": "y_1",
+      "all_branches_regular": true,
+      "algebra_dimension": 128
+    },
+    {
+      "n": 8,
+      "k": 5,
+      "trace_index": 910,
+      "method": "exact primitive-kernel trace in a free quadratic algebra",
+      "first_torus_entry": "2",
+      "remaining_pair_sums": [
+        "-43199/6768",
+        "4",
+        "6",
+        "8",
+        "10",
+        "12",
+        "14"
+      ],
+      "trials": [
+        {
+          "t": 2,
+          "A": "13536",
+          "B": "86398"
+        }
+      ],
+      "vanished_coordinate": "y_1",
+      "all_branches_regular": true,
+      "algebra_dimension": 128
+    },
+    {
+      "n": 8,
+      "k": 6,
+      "trace_index": 1638,
+      "method": "exact primitive-kernel trace in a free quadratic algebra",
+      "first_torus_entry": "2",
+      "remaining_pair_sums": [
+        "-297342/85213",
+        "4",
+        "6",
+        "8",
+        "10",
+        "12",
+        "14"
+      ],
+      "trials": [
+        {
+          "t": 2,
+          "A": "85213",
+          "B": "297342"
+        }
+      ],
+      "vanished_coordinate": "y_1",
+      "all_branches_regular": true,
+      "algebra_dimension": 128
+    },
+    {
+      "n": 8,
+      "k": 7,
+      "trace_index": 2002,
+      "method": "exact primitive-kernel trace in a free quadratic algebra",
+      "first_torus_entry": "2",
+      "remaining_pair_sums": [
+        "-81967/47301",
+        "4",
+        "6",
+        "8",
+        "10",
+        "12",
+        "14"
+      ],
+      "trials": [
+        {
+          "t": 2,
+          "A": "283806",
+          "B": "491802"
+        }
+      ],
+      "vanished_coordinate": "y_1",
+      "all_branches_regular": true,
+      "algebra_dimension": 128
+    },
+    {
+      "n": 8,
+      "k": 8,
+      "trace_index": 1430,
+      "method": "exact primitive-kernel trace in a free quadratic algebra",
+      "first_torus_entry": "2",
+      "remaining_pair_sums": [
+        "-283806/406589",
+        "4",
+        "6",
+        "8",
+        "10",
+        "12",
+        "14"
+      ],
+      "trials": [
+        {
+          "t": 2,
+          "A": "406589",
+          "B": "283806"
+        }
+      ],
+      "vanished_coordinate": "y_1",
+      "all_branches_regular": true,
+      "algebra_dimension": 128
+    }
+  ],
+  "Sp4_omega2_example": {
+    "pair_sums": [
+      "5/2",
+      "0"
+    ],
+    "torus": [
+      "2",
+      "i"
+    ],
+    "image": [
+      "0",
+      "5*i/4"
+    ]
+  },
+  "scope": "Independent exact finite corroboration of the written arbitrary-rank proof, not a novelty certificate or classification of all type C irreducibles.",
+  "runtime_API_changed": false,
+  "novelty_claim": false,
+  "source_sha256": {
+    "TYPE_C_FUNDAMENTAL_REGULARITY.md": "6b9ccd58c411fbdf03ce9cbf096e26e788bc6ff9d4897673623a0ebc18f6fd13",
+    "tools/verify_type_c_fundamental_regularity.py": "0585b630d6ab5af1f3a7ed358cf22fc9bb40f951df3413708850ae80f548e7a8"
+  }
+}

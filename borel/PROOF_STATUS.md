@@ -1,5 +1,261 @@
 # Proof and literature status of the integral image notes
 
+The [half-spin boundary note](HALF_SPIN_BOUNDARY.md) now completes the
+underlying zero fiber for either half-spin of Spin_(2r), r>=3. Besides
+the four central points and the preceding chart classes, it is exactly
+the Spin inverse image of the SO matrices having at least four ordinary
+eigenvectors at each of +1 and -1. Jordan decomposition and the chiral
+character restriction reduce the boundary condition to vanishing
+Pfaffian cofactors on the two unipotent sign blocks. Standard nilpotent
+centralizer dimensions then prove dim theta^(-1)(0)=r(2r-1)-12 for r>=4.
+Thus Spin_10's zero fiber has dimension exactly 33; all seven boundary
+Jordan strata are listed. Independent exact chiral-matrix tests include
+nonsemisimple points and negative controls, with separate weight,
+commutator-kernel and partition/sl_2 dimension checks. These are uniform
+written deductions from published inputs, with no established priority
+or external review. Boundary scheme structure, component incidences,
+generic degree and maximal finite target locus remain separate questions.
+The next priority is generic degree; further zero-fiber scheme analysis
+is not a prerequisite for it. The preceding checkpoint below retains
+the narrower scope of its own chart note.
+
+The [individual half-spin note](HALF_SPIN_CAYLEY.md) treats S_sigma of
+Spin_(2r), r>=3, with its actual trace normalization. On the full-spin
+Cayley chart it proves theta_sigma=2c(X+sigma J(X)), where J is the
+Pfaffian cofactor. Its scheme zero fiber in that chart is smooth:
+two central points and 2(r-3) semisimple conjugacy classes of dimension
+r(r-1). A separate boundary family has dimension r(2r-1)-12 for r>=4.
+Thus Spin_10 has four 20-dimensional chart classes and a 33-dimensional
+boundary zero family; no maximality assertion is made for the latter.
+The all-rank arguments are written deductions from standard character,
+Pfaffian and Cayley-chart inputs. Independent checks include 12
+highest-weight/moment comparisons, 18 full chiral Clifford calculations,
+42 exact zero witnesses, 12 full differential ranks and ten boundary
+checks. Known low-rank identifications give degrees 4 and 32 for Spin_6
+and Spin_8. The subsequent boundary note completes the underlying zero
+fiber; Spin_10's generic degree and maximal finite target locus remain
+unresolved. Priority and external review are not
+established; the scalar full-spin finite-locus theorem is not transferred.
+
+The [Spin geometry note](SPIN_CAYLEY_GEOMETRY.md) proves that for N>=5
+the full polynomial-spin Springer map is finite precisely over the
+complement of a_r(Y)=0, where a_r is the last even characteristic
+coefficient. It includes the exact N=3,4 exceptions, a full normalized
+Jacobian valid across the Cayley boundary, and corank-one regular
+semisimple critical points. The essential finiteness obstruction is
+the rank-at-most-two boundary image, combined with lying over for the
+integral scalar model. A Spin_4 calculation demonstrates a false branch
+factor produced by using that model outside its valid chart. Exact
+checks include 48 weight/root Jacobians, 33 Clifford boundary Jacobians,
+32 fiber-algebra derivative identities, eight boundary target matrices
+and 42 regular critical invariant tuples. This is a uniform repository
+deduction using published KM and standard algebra inputs; no priority
+claim, external review, complete exceptional-fiber classification or
+adjoint-quotient finite-locus theorem is asserted.
+
+The [polynomial spin-character note](SPIN_POLYNOMIAL_CAYLEY_DEGREES.md)
+extends the Spin tensor law to every actual character F(chi_S), with
+S as specified below: degree 2 floor(N/2) deg(F). Character differentiation
+and the KM double-cover chart give an explicit scalar fiber polynomial;
+its leading term cannot cancel. It proves finite flatness over a stated
+open target and descent to SO exactly for even F, with half the degree.
+Within this family direct sums take the maximum degree and tensor
+products add degrees. Nonzero roots of F' give collapsed character
+levels over zero; S direct-sum S tensor S collapses chi_S=-1/2.
+Independent checks include 48 scalar fibers, 24 weight-fiber algebras,
+14 original Spin Laurent fibers, five SO fibers and six direct
+collapsed-level witnesses. Actual negative-coefficient examples are
+justified by removing a trivial summand from S tensor S. These are
+written deductions from known inputs, not an all-representation formula,
+novelty claim, external review or runtime API extension.
+
+The [Spin tensor-power degree note](SPIN_CAYLEY_DEGREES.md) deduces
+deg(theta_(S tensor m))=2m floor(N/2) for Spin_N, N>=3 and m>=1.
+Here S is irreducible spin in odd dimension and the sum of both half-spin
+representations in even dimension. It supplies a monic scalar fiber
+presentation over an explicit open target and proves finite flatness
+there. Even powers descend to SO_N with half this degree; odd powers do
+not descend through the double cover. The argument extends the published
+KM Spin Cayley chart and m=1 degree proof using their tensor identity;
+it is not a claimed resolution of a published open problem. Independent
+checks comprise 48 scalar polynomials, 16 weight-moment fiber algebras,
+11 original Spin Laurent fibers and five original SO Laurent fibers.
+No single-half-spin formula, global finiteness, external review,
+established novelty, minimum Cayley degree or runtime API change is claimed.
+
+The [symplectic generalized Cayley degree note](SYMPLECTIC_CAYLEY_DEGREES.md)
+proves deg(theta_F)=2n deg(F) for Sp_(2n), n>=1, whenever F(det(I+g))
+is an actual nontrivial character. It includes tensor powers of the
+total exterior algebra, with degree 2nm, and polynomial mixtures with
+negative coefficients when the resulting representation is actual.
+The proof uses Cayley coordinates and the degree of a reduced rational
+function on a generic radial line. It supplies an explicit scalar
+fiber polynomial, proves surjectivity, and proves finite flatness of
+degree 2n deg(F) over invertible target matrices. Within this character
+subring, direct sums take the maximum of degrees and tensor products
+add degrees. These are short deductions from standard ingredients;
+KM's tensor-scaling identity and analogous Spin fiber method are
+published inputs. Exact corroboration includes 80 scalar fibers, 24
+independent weight-moment fiber algebras, ten original Laurent Groebner
+fibers, 108 singular-target polynomial checks and nine full Sp4
+exterior-matrix checks. No general representation degree law, minimum
+Cayley degree, external review, novelty or global finiteness is claimed.
+Current research remains confined to generalized Cayley maps; the earlier
+suggestion of constructing an unrelated global Sp4 harmonic complement
+is shelved in accordance with the user's scope clarification.
+
+The [complete simple-group regularity note](REGULARITY_CLASSIFICATION.md)
+now closes the type D, exceptional and arbitrary reducible A gaps in the
+table, for actual nontrivial finite-dimensional rational representations
+over C. It is a uniform written deduction with internal exact corroboration;
+external review and publication priority remain unverified. When roots
+are primitive in the weight lattice, positivity on real root walls and
+Laurent factorization force every root coordinate to be a normalized
+two-monomial difference. Root strings contradict this in B (rank>=3),
+F4 and G2; Dynkin forks contradict it in D (rank>=4) and E6/E7/E8.
+For SL_N, N>=3, positive weight support then leaves only copies of
+defining or copies of dual defining, plus trivial summands, with no
+mixture of the two. These known defining/dual maps preserve global
+regularity. SL2 has the additional torus-positive determinant-power
+characters but only its defining-copy family is globally positive.
+Together with GEO-11 for Sp, this completes every simply connected
+simple row; a descent argument covers the other simple isogeny forms.
+No nontrivial central quotient admits a positive case. Exact corroboration
+checks 1,942 roots in 32 root systems, both local endpoint patterns,
+48 independent GT/Freudenthal A characters, 30 exact D/exceptional
+witnesses including E8, four A-mixture witnesses and eight rank-one
+controls. These computations supplement the all-rank proof; they do
+not exhaust all representations. Earlier statements below leaving the
+simple-group rows unfinished describe historical proof scopes. The
+classification makes no claim about general reductive/product groups,
+virtual characters, characteristic p, minimal localization of arbitrary
+negative maps or publication novelty. No runtime API changes.
+
+The [symplectic harmonic localization note](SYMPLECTIC_HARMONIC_LOCALIZATION.md)
+proves that the determinant-family maps theta_m give multiplication
+C[G]^G[D^(-1)] tensor theta_m^*Harm(g) -> C[G][D^(-1)] as a module
+isomorphism for D=det(1+g), G=Sp_(2n), n>=2. This sufficiency is an
+explicit corollary of the known graded Kostant separation theorem and
+the classical Cayley isomorphism: a degree-d harmonic is multiplied by
+the invariant unit 2^d delta^(-md). For any nonzero invariant f the
+same multiplication is an isomorphism iff D divides f. Necessity follows
+from explicit conjugate pairs on D=0 with equal Springer images but
+different matrix entries. The full normalized Jacobian is
+(D/4^n)^((nm-1)(2n+1)) times (1-nm+(m/2)tr(g)); its additional trace
+factor need not be inverted for separation. Exact checks cover 48 full
+matrix differentials, 12 independent exterior/tensor trace differentials,
+12 regular critical corank-one points, 15 conjugacy pairs, and genuine
+Sp4 harmonic bases through degree three. These corroborate a uniform
+written argument, not a new general separation theorem, external proof
+review or established novelty. Inverse-differential vector fields still
+need the additional critical factor in general. No runtime API changes.
+
+An additional internal audit of that note's Sections 2-3 found no gap
+under the stated hypotheses. Section 7 proves the exact pointwise locus
+theta_m^(-1)(g_reg)=G_reg intersect {D!=0} for n>=2. It adds 48
+centralizer-subspace torus checks, 36 boundary-stratum checks, nine
+actual exterior/tensor trace checks on the Sp4 boundary and three Sp2
+rank controls. Section 8 records the important published distinction:
+Richardson already gives some global complement for every simply
+connected semisimple group, including Sp and the exceptional groups.
+The regularity classification concerns only Springer-pulled harmonics.
+Agricola--Goodman's SL2 differential-operator construction is known and
+uses the same defining pullback; GL defining and orthogonal classical
+Cayley-open separation follow by localizing Kostant's theorem. The
+orthogonal classical Cayley map is not identified here with its defining
+trace-projection Springer map. The earlier proposed explicit global
+alternative for Sp4 is outside the user's current generalized-Cayley
+scope and is not being pursued. It was not an unresolved existence
+claim or an established new open problem.
+
+The [mixed-character regularity classification](MIXED_REGULARITY.md)
+now treats every nontrivial finite-dimensional rational representation of
+Sp_(2n) and Spin_(2n+1) at n>=2, without a central-scalar hypothesis.
+For Sp, torus regularity holds precisely for actual characters
+A det(1+g)^m+B, with positive integers A,m and an allowed trivial-character
+adjustment B. These arise from total exterior algebras and tensor powers.
+Their normalized maps are polynomial multiples of the classical Cayley
+transform. They still fail global regularity at an explicit regular element
+with a size-two Jordan block at eigenvalue -1. For Spin of type B at
+n>=3, positive-cone character derivatives and even-sign symmetry exclude
+torus regularity even for mixed sums. Spin5=Sp4 has the torus-positive
+symplectic exception, and still no globally positive representation.
+Exact checks include nine symplectic tensor characters, 27 torus traces,
+five nonsemisimple boundary ranks, actual exterior matrices against 31
+Lie basis elements, and 18 mixed B witnesses evaluated directly in finite
+algebras. These are uniform written deductions, not externally reviewed
+or established novel results. The exterior/Cayley identity is elementary
+from known inputs. Earlier statements below leaving mixtures unresolved
+describe the scope of those earlier proofs; they are superseded here.
+
+The [type B regularity proof](TYPE_B_REGULARITY.md) now excludes every
+nontrivial irreducible Spin_(2n+1) representation at n>=2, including
+spinorial highest weights. It also excludes all same-central-parity
+Spin sums and every nontrivial SO_(2n+1) representation. At the regular
+Spin torus lift with auxiliary coordinates (i,2,3,...,n), inversion of
+the first coordinate is the central -1 translate. The central character
+forces y_1=0 or y_2=...=y_n=0, giving a short-root zero. A direct
+integer/half-integer character factorization independently proves those
+zeros. Exact Freudenthal/Weyl-alternant comparisons cover 55 irreducibles,
+with 13 exterior-monomial checks, seven spin sign-cube comparisons and
+eight reducible controls. The basic spin formula and trace equivariance
+have published antecedents in Kostant--Michor; priority for the uniform
+classification is unverified. Mixed-parity Spin sums remain unresolved
+here; the rank-one defining spin representation is a positive exception.
+This is separate from the shelved integral Spin-kernel project.
+
+The [full type C regularity proof](TYPE_C_REGULARITY.md) now excludes
+every nontrivial irreducible Sp_(2n) representation at n>=2. A single
+regular tuple (2,-2,3,-3,...), appending i in odd rank, is taken to its
+central -I translate by a signed permutation. The central character
+therefore forces y_1=+/-y_2. This argument also covers all representations
+with a single central scalar and, by pullback, every nontrivial PSp
+representation. Mixed central parities on Sp are outside its scope.
+An independent Sp2-branching/positive-torus proof treats every nonfundamental
+highest weight and the negative rank-one cases. The rank-one defining
+case is positive as already known for SL2. Exact alternant/Freudenthal
+character checks cover 79 irreducibles, with 73 universal Q(i) trace
+witnesses, 68 polynomial-root witnesses, 30 direct symmetric-monomial
+checks and eight same-parity reducible controls. The general proof is
+not extrapolated from this finite scope. Trace equivariance, character
+theory and the harmonic criterion are known inputs; priority and external
+review remain unverified. Type B is addressed separately above; degrees and integral
+images are not classified by this theorem.
+
+The [type C fundamental regularity proof](TYPE_C_FUNDAMENTAL_REGULARITY.md)
+excludes every omega_k representation of Sp_(2n) at n>=2. These are
+primitive exterior kernels. A positive multiaffine expansion in inverse-pair
+sums yields a bounded rational construction of a smaller regular torus
+character zero; the full input uses quadratic algebraic entries and has
+y_1=0. The defining case uses the existing Sp4 repeated-coordinate
+witness extended by generic positive entries. The representation and
+character inputs are classical; the defining map is already Part II
+Lemma 5, and the harmonic consequence uses KM Theorem 3.2. Independent
+contraction matrices in 19,676 weight blocks, Weyl alternants, complete
+trace coordinates and exact quadratic-algebra witnesses corroborate all
+36 fundamental cases through rank eight (35 negative and one rank-one
+control). The all-rank proof is not extrapolation from these checks.
+Arbitrary type C highest weights, novelty, other root systems, degrees
+and integral images are outside this theorem's scope.
+
+The [irreducible type A regularity proof](TYPE_A_REGULARITY.md), added
+22 October, completes every nontrivial SL_n highest weight: torus and
+global regularity preservation hold exactly at omega_1,omega_(n-1).
+A nonnegative divided-root character expansion gives a nonconstant
+algebraic witness polynomial whenever sum_i a_i>=2; the earlier exterior
+argument covers the remaining fundamental weights. It includes the
+symmetric-power criterion d=1. Character facts, the trace construction,
+KM's standard case and harmonic criterion are published inputs.
+Independent GT/Jacobi--Trudi character and derivative calculations, plus
+full trace solves, corroborate 149 representations through n=6, including
+50 symmetric powers and 134 algebraic-witness polynomials. These checks
+do not replace the all-rank proof or certify novelty. Reducible cases,
+other groups, generic degrees and integral images remain outside its scope.
+The stated central-isogeny corollary also excludes every nontrivial
+irreducible representation on SL_n/C when C is a nontrivial central
+subgroup; neither positive endpoint descends. This is an elementary
+corollary, not a classification for other root systems.
+
 The [research ledger](RESEARCH_LEDGER.md) indexes the program's uniform
 results, finite cases, conditional routes, counterexamples and open questions.
 The detailed statements and source audits below retain their original scope.
@@ -12,6 +268,19 @@ duality deduction and explicit primitive-image subalgebras.
 This is a repository proof/source audit, not external peer review or a
 formal proof certificate. It does not certify originality. It does not
 re-audit every article or the earlier dissertation proof in this repository.
+
+The [22 October exterior-power regularity proof](EXTERIOR_REGULARITY.md)
+classifies all SL_n fundamental representations: torus regularity and
+global regularity preservation hold exactly for the defining and dual
+representations. A uniform rational construction obstructs every interior
+power. The standard case is published in KM Section 6.2; the trace formula,
+dual endpoint argument and interior cancellation give the recorded deduction.
+The proof includes the nonsemisimple endpoints, not just torus tests.
+Actual-weight trace solves independently corroborate 66 representations
+through n=12 and 45 rational counterexamples, plus eight full-matrix
+nonsemisimple endpoint checks. These finite checks do not replace the
+all-rank proof or certify originality. Other highest weights, root systems,
+degrees and integral images are outside this theorem's scope.
 
 ## How to read the claims
 
@@ -32,6 +301,22 @@ source statements. External expert review and any claim of priority remain
 separate work.
 
 ## Classical equivariant API and symplectic higher Fitting ideals
+
+The separate [22 October Cayley literature audit](CAYLEY_LITERATURE_AUDIT.md)
+checks every bibliography entry in the supplied brief and the linked
+notebook, with claim-specific primary-source locators. The common
+trace map, quotient-degree comparison and regularity criterion are known
+inputs. Agricola-Goodman's Theorem 4.1 already supplies a global gradient
+basis of equivariant regular maps; their Theorem 5.3 gives an explicit
+SL2 differential-operator harmonic complement. A general representation
+classification preserving regularity was not located, but neither its
+novelty nor the present openness of Popov's historical minimum-degree
+problems is certified. The notebook's saved E8 inverse matrix has rank
+seven and the file mixes E8/E7 settings. Part I's adjoint SL2 Example 3
+has a proposed scalar correction from denominator two to four, checked
+directly against its trace definition and KM Section 6.1. These are
+specific source/reproducibility observations, not an invalidation of the
+main source theorems. No external notebook code was executed.
 
 The [classical backend](CLASSICAL_EQUIVARIANT.md) now evaluates defining
 SL_m literal sources on every standard partial flag in equivariant

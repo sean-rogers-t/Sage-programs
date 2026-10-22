@@ -1,0 +1,870 @@
+{
+  "result": "passed",
+  "date": "2026-10-22",
+  "sage_version": "9.5",
+  "arbitrary_rank_proof": "MIXED_REGULARITY.md, Sections 2-6",
+  "Sp_torus_character_classification": "A det(1+g)^m+B, m>=1; actual representation characters",
+  "Sp_global_regularity_preserving_representations": "none at rank >=2",
+  "Spin_B_torus_regularity_preserving_representations": "none at rank >=3; rank two classified via Sp4",
+  "Spin_B_global_regularity_preserving_representations": "none at rank >=2",
+  "exterior_character_decomposition_ranks": [
+    2,
+    3,
+    4
+  ],
+  "Sp_tensor_character_cases": 9,
+  "Sp_regular_torus_trace_checks": 27,
+  "independent_tensor_binomial_models": 9,
+  "Sp_nonsemisimple_boundary_ranks": 5,
+  "Sp_regular_nonsemisimple_good_open_checks": 15,
+  "full_exterior_matrix_boundary_ranks": 2,
+  "full_exterior_matrix_Lie_basis_checks": 31,
+  "mixed_B_direct_finite_algebra_witnesses": 18,
+  "mixed_B_boundary_linear_factor_exclusions": 372,
+  "B2_torus_positive_control": {
+    "character": "(b1+b2)^2",
+    "dimension": 16,
+    "image_at_a_i_2": [
+      "5/4*ii",
+      "15/16"
+    ]
+  },
+  "symplectic_cases": [
+    {
+      "rank": 2,
+      "tensor_power": 1,
+      "dimension": 16,
+      "trace_Gram_scalar": "8",
+      "torus_points": 3
+    },
+    {
+      "rank": 2,
+      "tensor_power": 2,
+      "dimension": 256,
+      "trace_Gram_scalar": "256",
+      "torus_points": 3
+    },
+    {
+      "rank": 2,
+      "tensor_power": 3,
+      "dimension": 4096,
+      "trace_Gram_scalar": "6144",
+      "torus_points": 3
+    },
+    {
+      "rank": 3,
+      "tensor_power": 1,
+      "dimension": 64,
+      "trace_Gram_scalar": "32",
+      "torus_points": 3
+    },
+    {
+      "rank": 3,
+      "tensor_power": 2,
+      "dimension": 4096,
+      "trace_Gram_scalar": "4096",
+      "torus_points": 3
+    },
+    {
+      "rank": 3,
+      "tensor_power": 3,
+      "dimension": 262144,
+      "trace_Gram_scalar": "393216",
+      "torus_points": 3
+    },
+    {
+      "rank": 4,
+      "tensor_power": 1,
+      "dimension": 256,
+      "trace_Gram_scalar": "128",
+      "torus_points": 3
+    },
+    {
+      "rank": 4,
+      "tensor_power": 2,
+      "dimension": 65536,
+      "trace_Gram_scalar": "65536",
+      "torus_points": 3
+    },
+    {
+      "rank": 4,
+      "tensor_power": 3,
+      "dimension": 16777216,
+      "trace_Gram_scalar": "25165824",
+      "torus_points": 3
+    }
+  ],
+  "boundary_centralizers": [
+    {
+      "rank": 2,
+      "input_centralizer": 2,
+      "output_centralizer_m1": 6,
+      "output_centralizer_m_ge2": 10,
+      "good_open_output_centralizers_m_1_2_3": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "rank": 3,
+      "input_centralizer": 3,
+      "output_centralizer_m1": 15,
+      "output_centralizer_m_ge2": 21,
+      "good_open_output_centralizers_m_1_2_3": [
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "rank": 4,
+      "input_centralizer": 4,
+      "output_centralizer_m1": 28,
+      "output_centralizer_m_ge2": 36,
+      "good_open_output_centralizers_m_1_2_3": [
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "rank": 5,
+      "input_centralizer": 5,
+      "output_centralizer_m1": 45,
+      "output_centralizer_m_ge2": 55,
+      "good_open_output_centralizers_m_1_2_3": [
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "rank": 6,
+      "input_centralizer": 6,
+      "output_centralizer_m1": 66,
+      "output_centralizer_m_ge2": 78,
+      "good_open_output_centralizers_m_1_2_3": [
+        6,
+        6,
+        6
+      ]
+    }
+  ],
+  "exterior_matrix_checks": [
+    {
+      "rank": 2,
+      "Lie_basis_checks": 10,
+      "exterior_dimension": 16,
+      "trace_Gram_scalar": "8"
+    },
+    {
+      "rank": 3,
+      "Lie_basis_checks": 21,
+      "exterior_dimension": 64,
+      "trace_Gram_scalar": "32"
+    }
+  ],
+  "mixed_B_witnesses": [
+    {
+      "variable": 1,
+      "fixed_b": [
+        null,
+        "3",
+        "4"
+      ],
+      "root_polynomial": "X + 6",
+      "root_polynomial_degree": 1,
+      "grid_trials": 1,
+      "finite_algebra_dimension": 8,
+      "direct_weight_trace_zero": true,
+      "boundary_factor_exclusions": 12,
+      "rank": 3,
+      "summands": [
+        {
+          "multiplicity": 1,
+          "labels": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "multiplicity": 1,
+          "labels": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "dimension": 15
+    },
+    {
+      "variable": 1,
+      "fixed_b": [
+        null,
+        "3",
+        "4"
+      ],
+      "root_polynomial": "X + 12",
+      "root_polynomial_degree": 1,
+      "grid_trials": 1,
+      "finite_algebra_dimension": 8,
+      "direct_weight_trace_zero": true,
+      "boundary_factor_exclusions": 12,
+      "rank": 3,
+      "summands": [
+        {
+          "multiplicity": 1,
+          "labels": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "multiplicity": 2,
+          "labels": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "multiplicity": 3,
+          "labels": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "dimension": 26
+    },
+    {
+      "variable": 1,
+      "fixed_b": [
+        null,
+        "3",
+        "4"
+      ],
+      "root_polynomial": "X + 3/11",
+      "root_polynomial_degree": 1,
+      "grid_trials": 1,
+      "finite_algebra_dimension": 8,
+      "direct_weight_trace_zero": true,
+      "boundary_factor_exclusions": 12,
+      "rank": 3,
+      "summands": [
+        {
+          "multiplicity": 1,
+          "labels": [
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "multiplicity": 1,
+          "labels": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "dimension": 29
+    },
+    {
+      "variable": 1,
+      "fixed_b": [
+        null,
+        "3",
+        "4"
+      ],
+      "root_polynomial": "X^3 + 9*X + 3",
+      "root_polynomial_degree": 3,
+      "grid_trials": 1,
+      "finite_algebra_dimension": 24,
+      "direct_weight_trace_zero": true,
+      "boundary_factor_exclusions": 12,
+      "rank": 3,
+      "summands": [
+        {
+          "multiplicity": 1,
+          "labels": [
+            2,
+            0,
+            0
+          ]
+        },
+        {
+          "multiplicity": 1,
+          "labels": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "dimension": 35
+    },
+    {
+      "variable": 1,
+      "fixed_b": [
+        null,
+        "3",
+        "4"
+      ],
+      "root_polynomial": "X^2 + 1/18*X + 19/3",
+      "root_polynomial_degree": 2,
+      "grid_trials": 1,
+      "finite_algebra_dimension": 16,
+      "direct_weight_trace_zero": true,
+      "boundary_factor_exclusions": 12,
+      "rank": 3,
+      "summands": [
+        {
+          "multiplicity": 1,
+          "labels": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "multiplicity": 1,
+          "labels": [
+            1,
+            0,
+            1
+          ]
+        }
+      ],
+      "dimension": 55
+    },
+    {
+      "variable": 1,
+      "fixed_b": [
+        null,
+        "3",
+        "4"
+      ],
+      "root_polynomial": "X + 6/121",
+      "root_polynomial_degree": 1,
+      "grid_trials": 1,
+      "finite_algebra_dimension": 8,
+      "direct_weight_trace_zero": true,
+      "boundary_factor_exclusions": 12,
+      "rank": 3,
+      "summands": [
+        {
+          "multiplicity": 1,
+          "labels": [
+            0,
+            0,
+            2
+          ]
+        },
+        {
+          "multiplicity": 1,
+          "labels": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "dimension": 43
+    },
+    {
+      "variable": 1,
+      "fixed_b": [
+        null,
+        "3",
+        "4",
+        "5"
+      ],
+      "root_polynomial": "X + 30",
+      "root_polynomial_degree": 1,
+      "grid_trials": 1,
+      "finite_algebra_dimension": 16,
+      "direct_weight_trace_zero": true,
+      "boundary_factor_exclusions": 20,
+      "rank": 4,
+      "summands": [
+        {
+          "multiplicity": 1,
+          "labels": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "multiplicity": 1,
+          "labels": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "dimension": 25
+    },
+    {
+      "variable": 1,
+      "fixed_b": [
+        null,
+        "3",
+        "4",
+        "5"
+      ],
+      "root_polynomial": "X + 60",
+      "root_polynomial_degree": 1,
+      "grid_trials": 1,
+      "finite_algebra_dimension": 16,
+      "direct_weight_trace_zero": true,
+      "boundary_factor_exclusions": 20,
+      "rank": 4,
+      "summands": [
+        {
+          "multiplicity": 1,
+          "labels": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "multiplicity": 2,
+          "labels": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "multiplicity": 3,
+          "labels": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "dimension": 44
+    },
+    {
+      "variable": 1,
+      "fixed_b": [
+        null,
+        "3",
+        "4",
+        "5"
+      ],
+      "root_polynomial": "X + 2/3",
+      "root_polynomial_degree": 1,
+      "grid_trials": 1,
+      "finite_algebra_dimension": 16,
+      "direct_weight_trace_zero": true,
+      "boundary_factor_exclusions": 20,
+      "rank": 4,
+      "summands": [
+        {
+          "multiplicity": 1,
+          "labels": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "multiplicity": 1,
+          "labels": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "dimension": 52
+    },
+    {
+      "variable": 1,
+      "fixed_b": [
+        null,
+        "3",
+        "4",
+        "5"
+      ],
+      "root_polynomial": "X^3 + 41/2*X + 15",
+      "root_polynomial_degree": 3,
+      "grid_trials": 1,
+      "finite_algebra_dimension": 48,
+      "direct_weight_trace_zero": true,
+      "boundary_factor_exclusions": 20,
+      "rank": 4,
+      "summands": [
+        {
+          "multiplicity": 1,
+          "labels": [
+            2,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "multiplicity": 1,
+          "labels": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "dimension": 60
+    },
+    {
+      "variable": 1,
+      "fixed_b": [
+        null,
+        "3",
+        "4",
+        "5"
+      ],
+      "root_polynomial": "X^2 + 1/90*X + 14",
+      "root_polynomial_degree": 2,
+      "grid_trials": 1,
+      "finite_algebra_dimension": 32,
+      "direct_weight_trace_zero": true,
+      "boundary_factor_exclusions": 20,
+      "rank": 4,
+      "summands": [
+        {
+          "multiplicity": 1,
+          "labels": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "multiplicity": 1,
+          "labels": [
+            1,
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "dimension": 137
+    },
+    {
+      "variable": 1,
+      "fixed_b": [
+        null,
+        "3",
+        "4",
+        "5"
+      ],
+      "root_polynomial": "X + 15/1463",
+      "root_polynomial_degree": 1,
+      "grid_trials": 1,
+      "finite_algebra_dimension": 16,
+      "direct_weight_trace_zero": true,
+      "boundary_factor_exclusions": 20,
+      "rank": 4,
+      "summands": [
+        {
+          "multiplicity": 1,
+          "labels": [
+            0,
+            0,
+            0,
+            2
+          ]
+        },
+        {
+          "multiplicity": 1,
+          "labels": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "dimension": 142
+    },
+    {
+      "variable": 1,
+      "fixed_b": [
+        null,
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "root_polynomial": "X + 180",
+      "root_polynomial_degree": 1,
+      "grid_trials": 1,
+      "finite_algebra_dimension": 32,
+      "direct_weight_trace_zero": true,
+      "boundary_factor_exclusions": 30,
+      "rank": 5,
+      "summands": [
+        {
+          "multiplicity": 1,
+          "labels": [
+            1,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "multiplicity": 1,
+          "labels": [
+            0,
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "dimension": 43
+    },
+    {
+      "variable": 1,
+      "fixed_b": [
+        null,
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "root_polynomial": "X + 360",
+      "root_polynomial_degree": 1,
+      "grid_trials": 1,
+      "finite_algebra_dimension": 32,
+      "direct_weight_trace_zero": true,
+      "boundary_factor_exclusions": 30,
+      "rank": 5,
+      "summands": [
+        {
+          "multiplicity": 1,
+          "labels": [
+            1,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "multiplicity": 2,
+          "labels": [
+            0,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "multiplicity": 3,
+          "labels": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "dimension": 78
+    },
+    {
+      "variable": 1,
+      "fixed_b": [
+        null,
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "root_polynomial": "X + 180/79",
+      "root_polynomial_degree": 1,
+      "grid_trials": 1,
+      "finite_algebra_dimension": 32,
+      "direct_weight_trace_zero": true,
+      "boundary_factor_exclusions": 30,
+      "rank": 5,
+      "summands": [
+        {
+          "multiplicity": 1,
+          "labels": [
+            0,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "multiplicity": 1,
+          "labels": [
+            0,
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "dimension": 87
+    },
+    {
+      "variable": 1,
+      "fixed_b": [
+        null,
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "root_polynomial": "X^3 + 75/2*X + 90",
+      "root_polynomial_degree": 3,
+      "grid_trials": 1,
+      "finite_algebra_dimension": 96,
+      "direct_weight_trace_zero": true,
+      "boundary_factor_exclusions": 30,
+      "rank": 5,
+      "summands": [
+        {
+          "multiplicity": 1,
+          "labels": [
+            2,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "multiplicity": 1,
+          "labels": [
+            0,
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "dimension": 97
+    },
+    {
+      "variable": 1,
+      "fixed_b": [
+        null,
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "root_polynomial": "X^2 + 1/540*X + 76/3",
+      "root_polynomial_degree": 2,
+      "grid_trials": 1,
+      "finite_algebra_dimension": 64,
+      "direct_weight_trace_zero": true,
+      "boundary_factor_exclusions": 30,
+      "rank": 5,
+      "summands": [
+        {
+          "multiplicity": 1,
+          "labels": [
+            1,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "multiplicity": 1,
+          "labels": [
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "dimension": 331
+    },
+    {
+      "variable": 1,
+      "fixed_b": [
+        null,
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "root_polynomial": "X + 30/17173",
+      "root_polynomial_degree": 1,
+      "grid_trials": 1,
+      "finite_algebra_dimension": 32,
+      "direct_weight_trace_zero": true,
+      "boundary_factor_exclusions": 30,
+      "rank": 5,
+      "summands": [
+        {
+          "multiplicity": 1,
+          "labels": [
+            0,
+            0,
+            0,
+            0,
+            2
+          ]
+        },
+        {
+          "multiplicity": 1,
+          "labels": [
+            0,
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "dimension": 494
+    }
+  ],
+  "runtime_API_changed": false,
+  "novelty_claim": false,
+  "scope": "Exact finite independent corroboration of a written all-representation proof; no external review or priority claim.",
+  "source_sha256": {
+    "MIXED_REGULARITY.md": "7c76b0df76abe38631ebed8eb9d71795905a7224f58e22e6a495f89a0a9257a9",
+    "tools/verify_mixed_regularity.py": "37d932df901247a3b1028d741f3c5e81a1c03c2c342415ecf8de8cc85508f2c5"
+  }
+}

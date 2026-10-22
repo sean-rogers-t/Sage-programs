@@ -1,0 +1,1359 @@
+{
+  "result": "passed",
+  "date": "2026-10-22",
+  "sage_version": "9.5",
+  "maximal_finite_locus_uniform_written_proof": true,
+  "full_global_Jacobian_written_proof": true,
+  "weight_root_Jacobian_checks": 48,
+  "Clifford_boundary_Jacobian_checks": 33,
+  "finite_algebra_ramification_checks": 32,
+  "nonfinite_boundary_target_checks": 8,
+  "regular_semisimple_critical_invariant_checks": 42,
+  "weight_root_checks": [
+    {
+      "N": 3,
+      "polynomial": "u",
+      "dimension": 2,
+      "original_weight_Hessian_and_all_root_directions": true
+    },
+    {
+      "N": 3,
+      "polynomial": "u^2",
+      "dimension": 2,
+      "original_weight_Hessian_and_all_root_directions": true
+    },
+    {
+      "N": 3,
+      "polynomial": "u^3",
+      "dimension": 2,
+      "original_weight_Hessian_and_all_root_directions": true
+    },
+    {
+      "N": 3,
+      "polynomial": "u^2 + u",
+      "dimension": 2,
+      "original_weight_Hessian_and_all_root_directions": true
+    },
+    {
+      "N": 3,
+      "polynomial": "u^3 + 3*u^2 + 3*u + 1",
+      "dimension": 2,
+      "original_weight_Hessian_and_all_root_directions": true
+    },
+    {
+      "N": 3,
+      "polynomial": "u^3 + u^2 - u - 1",
+      "dimension": 2,
+      "original_weight_Hessian_and_all_root_directions": true
+    },
+    {
+      "N": 4,
+      "polynomial": "u",
+      "dimension": 4,
+      "original_weight_Hessian_and_all_root_directions": true
+    },
+    {
+      "N": 4,
+      "polynomial": "u^2",
+      "dimension": 4,
+      "original_weight_Hessian_and_all_root_directions": true
+    },
+    {
+      "N": 4,
+      "polynomial": "u^3",
+      "dimension": 4,
+      "original_weight_Hessian_and_all_root_directions": true
+    },
+    {
+      "N": 4,
+      "polynomial": "u^2 + u",
+      "dimension": 4,
+      "original_weight_Hessian_and_all_root_directions": true
+    },
+    {
+      "N": 4,
+      "polynomial": "u^3 + 3*u^2 + 3*u + 1",
+      "dimension": 4,
+      "original_weight_Hessian_and_all_root_directions": true
+    },
+    {
+      "N": 4,
+      "polynomial": "u^3 + u^2 - u - 1",
+      "dimension": 4,
+      "original_weight_Hessian_and_all_root_directions": true
+    },
+    {
+      "N": 5,
+      "polynomial": "u",
+      "dimension": 4,
+      "original_weight_Hessian_and_all_root_directions": true
+    },
+    {
+      "N": 5,
+      "polynomial": "u^2",
+      "dimension": 4,
+      "original_weight_Hessian_and_all_root_directions": true
+    },
+    {
+      "N": 5,
+      "polynomial": "u^3",
+      "dimension": 4,
+      "original_weight_Hessian_and_all_root_directions": true
+    },
+    {
+      "N": 5,
+      "polynomial": "u^2 + u",
+      "dimension": 4,
+      "original_weight_Hessian_and_all_root_directions": true
+    },
+    {
+      "N": 5,
+      "polynomial": "u^3 + 3*u^2 + 3*u + 1",
+      "dimension": 4,
+      "original_weight_Hessian_and_all_root_directions": true
+    },
+    {
+      "N": 5,
+      "polynomial": "u^3 + u^2 - u - 1",
+      "dimension": 4,
+      "original_weight_Hessian_and_all_root_directions": true
+    },
+    {
+      "N": 6,
+      "polynomial": "u",
+      "dimension": 8,
+      "original_weight_Hessian_and_all_root_directions": true
+    },
+    {
+      "N": 6,
+      "polynomial": "u^2",
+      "dimension": 8,
+      "original_weight_Hessian_and_all_root_directions": true
+    },
+    {
+      "N": 6,
+      "polynomial": "u^3",
+      "dimension": 8,
+      "original_weight_Hessian_and_all_root_directions": true
+    },
+    {
+      "N": 6,
+      "polynomial": "u^2 + u",
+      "dimension": 8,
+      "original_weight_Hessian_and_all_root_directions": true
+    },
+    {
+      "N": 6,
+      "polynomial": "u^3 + 3*u^2 + 3*u + 1",
+      "dimension": 8,
+      "original_weight_Hessian_and_all_root_directions": true
+    },
+    {
+      "N": 6,
+      "polynomial": "u^3 + u^2 - u - 1",
+      "dimension": 8,
+      "original_weight_Hessian_and_all_root_directions": true
+    },
+    {
+      "N": 7,
+      "polynomial": "u",
+      "dimension": 8,
+      "original_weight_Hessian_and_all_root_directions": true
+    },
+    {
+      "N": 7,
+      "polynomial": "u^2",
+      "dimension": 8,
+      "original_weight_Hessian_and_all_root_directions": true
+    },
+    {
+      "N": 7,
+      "polynomial": "u^3",
+      "dimension": 8,
+      "original_weight_Hessian_and_all_root_directions": true
+    },
+    {
+      "N": 7,
+      "polynomial": "u^2 + u",
+      "dimension": 8,
+      "original_weight_Hessian_and_all_root_directions": true
+    },
+    {
+      "N": 7,
+      "polynomial": "u^3 + 3*u^2 + 3*u + 1",
+      "dimension": 8,
+      "original_weight_Hessian_and_all_root_directions": true
+    },
+    {
+      "N": 7,
+      "polynomial": "u^3 + u^2 - u - 1",
+      "dimension": 8,
+      "original_weight_Hessian_and_all_root_directions": true
+    },
+    {
+      "N": 8,
+      "polynomial": "u",
+      "dimension": 16,
+      "original_weight_Hessian_and_all_root_directions": true
+    },
+    {
+      "N": 8,
+      "polynomial": "u^2",
+      "dimension": 16,
+      "original_weight_Hessian_and_all_root_directions": true
+    },
+    {
+      "N": 8,
+      "polynomial": "u^3",
+      "dimension": 16,
+      "original_weight_Hessian_and_all_root_directions": true
+    },
+    {
+      "N": 8,
+      "polynomial": "u^2 + u",
+      "dimension": 16,
+      "original_weight_Hessian_and_all_root_directions": true
+    },
+    {
+      "N": 8,
+      "polynomial": "u^3 + 3*u^2 + 3*u + 1",
+      "dimension": 16,
+      "original_weight_Hessian_and_all_root_directions": true
+    },
+    {
+      "N": 8,
+      "polynomial": "u^3 + u^2 - u - 1",
+      "dimension": 16,
+      "original_weight_Hessian_and_all_root_directions": true
+    },
+    {
+      "N": 9,
+      "polynomial": "u",
+      "dimension": 16,
+      "original_weight_Hessian_and_all_root_directions": true
+    },
+    {
+      "N": 9,
+      "polynomial": "u^2",
+      "dimension": 16,
+      "original_weight_Hessian_and_all_root_directions": true
+    },
+    {
+      "N": 9,
+      "polynomial": "u^3",
+      "dimension": 16,
+      "original_weight_Hessian_and_all_root_directions": true
+    },
+    {
+      "N": 9,
+      "polynomial": "u^2 + u",
+      "dimension": 16,
+      "original_weight_Hessian_and_all_root_directions": true
+    },
+    {
+      "N": 9,
+      "polynomial": "u^3 + 3*u^2 + 3*u + 1",
+      "dimension": 16,
+      "original_weight_Hessian_and_all_root_directions": true
+    },
+    {
+      "N": 9,
+      "polynomial": "u^3 + u^2 - u - 1",
+      "dimension": 16,
+      "original_weight_Hessian_and_all_root_directions": true
+    },
+    {
+      "N": 10,
+      "polynomial": "u",
+      "dimension": 32,
+      "original_weight_Hessian_and_all_root_directions": true
+    },
+    {
+      "N": 10,
+      "polynomial": "u^2",
+      "dimension": 32,
+      "original_weight_Hessian_and_all_root_directions": true
+    },
+    {
+      "N": 10,
+      "polynomial": "u^3",
+      "dimension": 32,
+      "original_weight_Hessian_and_all_root_directions": true
+    },
+    {
+      "N": 10,
+      "polynomial": "u^2 + u",
+      "dimension": 32,
+      "original_weight_Hessian_and_all_root_directions": true
+    },
+    {
+      "N": 10,
+      "polynomial": "u^3 + 3*u^2 + 3*u + 1",
+      "dimension": 32,
+      "original_weight_Hessian_and_all_root_directions": true
+    },
+    {
+      "N": 10,
+      "polynomial": "u^3 + u^2 - u - 1",
+      "dimension": 32,
+      "original_weight_Hessian_and_all_root_directions": true
+    }
+  ],
+  "Clifford_checks": [
+    {
+      "N": 3,
+      "zero_rotation_blocks": 1,
+      "polynomial": "u",
+      "boundary_image_rank": 2,
+      "full_Clifford_trace_Jacobian": "0"
+    },
+    {
+      "N": 3,
+      "zero_rotation_blocks": 1,
+      "polynomial": "u^2",
+      "boundary_image_rank": 0,
+      "full_Clifford_trace_Jacobian": "0"
+    },
+    {
+      "N": 3,
+      "zero_rotation_blocks": 1,
+      "polynomial": "u^2 + u",
+      "boundary_image_rank": 2,
+      "full_Clifford_trace_Jacobian": "-4/125"
+    },
+    {
+      "N": 4,
+      "zero_rotation_blocks": 1,
+      "polynomial": "u",
+      "boundary_image_rank": 2,
+      "full_Clifford_trace_Jacobian": "-16/25"
+    },
+    {
+      "N": 4,
+      "zero_rotation_blocks": 1,
+      "polynomial": "u^2",
+      "boundary_image_rank": 0,
+      "full_Clifford_trace_Jacobian": "0"
+    },
+    {
+      "N": 4,
+      "zero_rotation_blocks": 1,
+      "polynomial": "u^2 + u",
+      "boundary_image_rank": 2,
+      "full_Clifford_trace_Jacobian": "-16/13286025"
+    },
+    {
+      "N": 4,
+      "zero_rotation_blocks": 2,
+      "polynomial": "u",
+      "boundary_image_rank": 0,
+      "full_Clifford_trace_Jacobian": "-1"
+    },
+    {
+      "N": 4,
+      "zero_rotation_blocks": 2,
+      "polynomial": "u^2",
+      "boundary_image_rank": 0,
+      "full_Clifford_trace_Jacobian": "0"
+    },
+    {
+      "N": 4,
+      "zero_rotation_blocks": 2,
+      "polynomial": "u^2 + u",
+      "boundary_image_rank": 0,
+      "full_Clifford_trace_Jacobian": "-1/531441"
+    },
+    {
+      "N": 5,
+      "zero_rotation_blocks": 1,
+      "polynomial": "u",
+      "boundary_image_rank": 2,
+      "full_Clifford_trace_Jacobian": "0"
+    },
+    {
+      "N": 5,
+      "zero_rotation_blocks": 1,
+      "polynomial": "u^2",
+      "boundary_image_rank": 0,
+      "full_Clifford_trace_Jacobian": "0"
+    },
+    {
+      "N": 5,
+      "zero_rotation_blocks": 1,
+      "polynomial": "u^2 + u",
+      "boundary_image_rank": 2,
+      "full_Clifford_trace_Jacobian": "0"
+    },
+    {
+      "N": 5,
+      "zero_rotation_blocks": 2,
+      "polynomial": "u",
+      "boundary_image_rank": 0,
+      "full_Clifford_trace_Jacobian": "0"
+    },
+    {
+      "N": 5,
+      "zero_rotation_blocks": 2,
+      "polynomial": "u^2",
+      "boundary_image_rank": 0,
+      "full_Clifford_trace_Jacobian": "0"
+    },
+    {
+      "N": 5,
+      "zero_rotation_blocks": 2,
+      "polynomial": "u^2 + u",
+      "boundary_image_rank": 0,
+      "full_Clifford_trace_Jacobian": "0"
+    },
+    {
+      "N": 6,
+      "zero_rotation_blocks": 1,
+      "polynomial": "u",
+      "boundary_image_rank": 2,
+      "full_Clifford_trace_Jacobian": "0"
+    },
+    {
+      "N": 6,
+      "zero_rotation_blocks": 1,
+      "polynomial": "u^2",
+      "boundary_image_rank": 0,
+      "full_Clifford_trace_Jacobian": "0"
+    },
+    {
+      "N": 6,
+      "zero_rotation_blocks": 1,
+      "polynomial": "u^2 + u",
+      "boundary_image_rank": 2,
+      "full_Clifford_trace_Jacobian": "0"
+    },
+    {
+      "N": 6,
+      "zero_rotation_blocks": 2,
+      "polynomial": "u",
+      "boundary_image_rank": 0,
+      "full_Clifford_trace_Jacobian": "0"
+    },
+    {
+      "N": 6,
+      "zero_rotation_blocks": 2,
+      "polynomial": "u^2",
+      "boundary_image_rank": 0,
+      "full_Clifford_trace_Jacobian": "0"
+    },
+    {
+      "N": 6,
+      "zero_rotation_blocks": 2,
+      "polynomial": "u^2 + u",
+      "boundary_image_rank": 0,
+      "full_Clifford_trace_Jacobian": "0"
+    },
+    {
+      "N": 7,
+      "zero_rotation_blocks": 1,
+      "polynomial": "u",
+      "boundary_image_rank": 2,
+      "full_Clifford_trace_Jacobian": "0"
+    },
+    {
+      "N": 7,
+      "zero_rotation_blocks": 1,
+      "polynomial": "u^2",
+      "boundary_image_rank": 0,
+      "full_Clifford_trace_Jacobian": "0"
+    },
+    {
+      "N": 7,
+      "zero_rotation_blocks": 1,
+      "polynomial": "u^2 + u",
+      "boundary_image_rank": 2,
+      "full_Clifford_trace_Jacobian": "0"
+    },
+    {
+      "N": 7,
+      "zero_rotation_blocks": 2,
+      "polynomial": "u",
+      "boundary_image_rank": 0,
+      "full_Clifford_trace_Jacobian": "0"
+    },
+    {
+      "N": 7,
+      "zero_rotation_blocks": 2,
+      "polynomial": "u^2",
+      "boundary_image_rank": 0,
+      "full_Clifford_trace_Jacobian": "0"
+    },
+    {
+      "N": 7,
+      "zero_rotation_blocks": 2,
+      "polynomial": "u^2 + u",
+      "boundary_image_rank": 0,
+      "full_Clifford_trace_Jacobian": "0"
+    },
+    {
+      "N": 8,
+      "zero_rotation_blocks": 1,
+      "polynomial": "u",
+      "boundary_image_rank": 2,
+      "full_Clifford_trace_Jacobian": "0"
+    },
+    {
+      "N": 8,
+      "zero_rotation_blocks": 1,
+      "polynomial": "u^2",
+      "boundary_image_rank": 0,
+      "full_Clifford_trace_Jacobian": "0"
+    },
+    {
+      "N": 8,
+      "zero_rotation_blocks": 1,
+      "polynomial": "u^2 + u",
+      "boundary_image_rank": 2,
+      "full_Clifford_trace_Jacobian": "0"
+    },
+    {
+      "N": 8,
+      "zero_rotation_blocks": 2,
+      "polynomial": "u",
+      "boundary_image_rank": 0,
+      "full_Clifford_trace_Jacobian": "0"
+    },
+    {
+      "N": 8,
+      "zero_rotation_blocks": 2,
+      "polynomial": "u^2",
+      "boundary_image_rank": 0,
+      "full_Clifford_trace_Jacobian": "0"
+    },
+    {
+      "N": 8,
+      "zero_rotation_blocks": 2,
+      "polynomial": "u^2 + u",
+      "boundary_image_rank": 0,
+      "full_Clifford_trace_Jacobian": "0"
+    }
+  ],
+  "ramification_checks": [
+    {
+      "rank": 1,
+      "character": "mixed_1_2",
+      "ramification_identity_verified": true
+    },
+    {
+      "rank": 1,
+      "character": "odd_1_3",
+      "ramification_identity_verified": true
+    },
+    {
+      "rank": 1,
+      "character": "even_2_4",
+      "ramification_identity_verified": true
+    },
+    {
+      "rank": 1,
+      "character": "shifted_cube",
+      "ramification_identity_verified": true
+    },
+    {
+      "rank": 1,
+      "character": "removed_trivial",
+      "ramification_identity_verified": true
+    },
+    {
+      "rank": 1,
+      "character": "mixed_removed",
+      "ramification_identity_verified": true
+    },
+    {
+      "rank": 1,
+      "character": "removed_square",
+      "ramification_identity_verified": true
+    },
+    {
+      "rank": 1,
+      "character": "odd_removed",
+      "ramification_identity_verified": true
+    },
+    {
+      "rank": 2,
+      "character": "mixed_1_2",
+      "ramification_identity_verified": true
+    },
+    {
+      "rank": 2,
+      "character": "odd_1_3",
+      "ramification_identity_verified": true
+    },
+    {
+      "rank": 2,
+      "character": "even_2_4",
+      "ramification_identity_verified": true
+    },
+    {
+      "rank": 2,
+      "character": "shifted_cube",
+      "ramification_identity_verified": true
+    },
+    {
+      "rank": 2,
+      "character": "removed_trivial",
+      "ramification_identity_verified": true
+    },
+    {
+      "rank": 2,
+      "character": "mixed_removed",
+      "ramification_identity_verified": true
+    },
+    {
+      "rank": 2,
+      "character": "removed_square",
+      "ramification_identity_verified": true
+    },
+    {
+      "rank": 2,
+      "character": "odd_removed",
+      "ramification_identity_verified": true
+    },
+    {
+      "rank": 3,
+      "character": "mixed_1_2",
+      "ramification_identity_verified": true
+    },
+    {
+      "rank": 3,
+      "character": "odd_1_3",
+      "ramification_identity_verified": true
+    },
+    {
+      "rank": 3,
+      "character": "even_2_4",
+      "ramification_identity_verified": true
+    },
+    {
+      "rank": 3,
+      "character": "shifted_cube",
+      "ramification_identity_verified": true
+    },
+    {
+      "rank": 3,
+      "character": "removed_trivial",
+      "ramification_identity_verified": true
+    },
+    {
+      "rank": 3,
+      "character": "mixed_removed",
+      "ramification_identity_verified": true
+    },
+    {
+      "rank": 3,
+      "character": "removed_square",
+      "ramification_identity_verified": true
+    },
+    {
+      "rank": 3,
+      "character": "odd_removed",
+      "ramification_identity_verified": true
+    },
+    {
+      "rank": 4,
+      "character": "mixed_1_2",
+      "ramification_identity_verified": true
+    },
+    {
+      "rank": 4,
+      "character": "odd_1_3",
+      "ramification_identity_verified": true
+    },
+    {
+      "rank": 4,
+      "character": "even_2_4",
+      "ramification_identity_verified": true
+    },
+    {
+      "rank": 4,
+      "character": "shifted_cube",
+      "ramification_identity_verified": true
+    },
+    {
+      "rank": 4,
+      "character": "removed_trivial",
+      "ramification_identity_verified": true
+    },
+    {
+      "rank": 4,
+      "character": "mixed_removed",
+      "ramification_identity_verified": true
+    },
+    {
+      "rank": 4,
+      "character": "removed_square",
+      "ramification_identity_verified": true
+    },
+    {
+      "rank": 4,
+      "character": "odd_removed",
+      "ramification_identity_verified": true
+    }
+  ],
+  "boundary_targets": [
+    {
+      "N": 5,
+      "matrix_rank": 4,
+      "last_even_characteristic_coefficient_zero": true,
+      "odd_zero_block_nonsemisimple": true
+    },
+    {
+      "N": 6,
+      "matrix_rank": 4,
+      "last_even_characteristic_coefficient_zero": true,
+      "odd_zero_block_nonsemisimple": false
+    },
+    {
+      "N": 7,
+      "matrix_rank": 6,
+      "last_even_characteristic_coefficient_zero": true,
+      "odd_zero_block_nonsemisimple": true
+    },
+    {
+      "N": 8,
+      "matrix_rank": 6,
+      "last_even_characteristic_coefficient_zero": true,
+      "odd_zero_block_nonsemisimple": false
+    },
+    {
+      "N": 9,
+      "matrix_rank": 8,
+      "last_even_characteristic_coefficient_zero": true,
+      "odd_zero_block_nonsemisimple": true
+    },
+    {
+      "N": 10,
+      "matrix_rank": 8,
+      "last_even_characteristic_coefficient_zero": true,
+      "odd_zero_block_nonsemisimple": false
+    },
+    {
+      "N": 11,
+      "matrix_rank": 10,
+      "last_even_characteristic_coefficient_zero": true,
+      "odd_zero_block_nonsemisimple": true
+    },
+    {
+      "N": 12,
+      "matrix_rank": 10,
+      "last_even_characteristic_coefficient_zero": true,
+      "odd_zero_block_nonsemisimple": false
+    }
+  ],
+  "Spin4_discriminant_control": {
+    "monic_scalar_discriminant": "(v + 1)^2 * (-p + v)^2 * (p + 1)^2",
+    "genuine_branch_factors": [
+      "p+1",
+      "v+1"
+    ],
+    "primitive_element_artifact": "p-v",
+    "unramified_product_fiber_points": 4,
+    "distinct_c_values": 3
+  },
+  "regular_critical_invariants": [
+    {
+      "rank": 2,
+      "tensor_power": 1,
+      "pair_traces": [
+        "10",
+        "-10"
+      ],
+      "regular_semisimple": true,
+      "critical": true,
+      "in_finite_target_locus": true
+    },
+    {
+      "rank": 2,
+      "tensor_power": 2,
+      "pair_traces": [
+        "10",
+        "-8"
+      ],
+      "regular_semisimple": true,
+      "critical": true,
+      "in_finite_target_locus": true
+    },
+    {
+      "rank": 2,
+      "tensor_power": 3,
+      "pair_traces": [
+        "10",
+        "-22/3"
+      ],
+      "regular_semisimple": true,
+      "critical": true,
+      "in_finite_target_locus": true
+    },
+    {
+      "rank": 2,
+      "tensor_power": 4,
+      "pair_traces": [
+        "10",
+        "-7"
+      ],
+      "regular_semisimple": true,
+      "critical": true,
+      "in_finite_target_locus": true
+    },
+    {
+      "rank": 2,
+      "tensor_power": 5,
+      "pair_traces": [
+        "10",
+        "-34/5"
+      ],
+      "regular_semisimple": true,
+      "critical": true,
+      "in_finite_target_locus": true
+    },
+    {
+      "rank": 2,
+      "tensor_power": 6,
+      "pair_traces": [
+        "10",
+        "-20/3"
+      ],
+      "regular_semisimple": true,
+      "critical": true,
+      "in_finite_target_locus": true
+    },
+    {
+      "rank": 3,
+      "tensor_power": 1,
+      "pair_traces": [
+        "10",
+        "11",
+        "-19"
+      ],
+      "regular_semisimple": true,
+      "critical": true,
+      "in_finite_target_locus": true
+    },
+    {
+      "rank": 3,
+      "tensor_power": 2,
+      "pair_traces": [
+        "10",
+        "11",
+        "-17"
+      ],
+      "regular_semisimple": true,
+      "critical": true,
+      "in_finite_target_locus": true
+    },
+    {
+      "rank": 3,
+      "tensor_power": 3,
+      "pair_traces": [
+        "10",
+        "11",
+        "-49/3"
+      ],
+      "regular_semisimple": true,
+      "critical": true,
+      "in_finite_target_locus": true
+    },
+    {
+      "rank": 3,
+      "tensor_power": 4,
+      "pair_traces": [
+        "10",
+        "11",
+        "-16"
+      ],
+      "regular_semisimple": true,
+      "critical": true,
+      "in_finite_target_locus": true
+    },
+    {
+      "rank": 3,
+      "tensor_power": 5,
+      "pair_traces": [
+        "10",
+        "11",
+        "-79/5"
+      ],
+      "regular_semisimple": true,
+      "critical": true,
+      "in_finite_target_locus": true
+    },
+    {
+      "rank": 3,
+      "tensor_power": 6,
+      "pair_traces": [
+        "10",
+        "11",
+        "-47/3"
+      ],
+      "regular_semisimple": true,
+      "critical": true,
+      "in_finite_target_locus": true
+    },
+    {
+      "rank": 4,
+      "tensor_power": 1,
+      "pair_traces": [
+        "10",
+        "11",
+        "12",
+        "-29"
+      ],
+      "regular_semisimple": true,
+      "critical": true,
+      "in_finite_target_locus": true
+    },
+    {
+      "rank": 4,
+      "tensor_power": 2,
+      "pair_traces": [
+        "10",
+        "11",
+        "12",
+        "-27"
+      ],
+      "regular_semisimple": true,
+      "critical": true,
+      "in_finite_target_locus": true
+    },
+    {
+      "rank": 4,
+      "tensor_power": 3,
+      "pair_traces": [
+        "10",
+        "11",
+        "12",
+        "-79/3"
+      ],
+      "regular_semisimple": true,
+      "critical": true,
+      "in_finite_target_locus": true
+    },
+    {
+      "rank": 4,
+      "tensor_power": 4,
+      "pair_traces": [
+        "10",
+        "11",
+        "12",
+        "-26"
+      ],
+      "regular_semisimple": true,
+      "critical": true,
+      "in_finite_target_locus": true
+    },
+    {
+      "rank": 4,
+      "tensor_power": 5,
+      "pair_traces": [
+        "10",
+        "11",
+        "12",
+        "-129/5"
+      ],
+      "regular_semisimple": true,
+      "critical": true,
+      "in_finite_target_locus": true
+    },
+    {
+      "rank": 4,
+      "tensor_power": 6,
+      "pair_traces": [
+        "10",
+        "11",
+        "12",
+        "-77/3"
+      ],
+      "regular_semisimple": true,
+      "critical": true,
+      "in_finite_target_locus": true
+    },
+    {
+      "rank": 5,
+      "tensor_power": 1,
+      "pair_traces": [
+        "10",
+        "11",
+        "12",
+        "13",
+        "-40"
+      ],
+      "regular_semisimple": true,
+      "critical": true,
+      "in_finite_target_locus": true
+    },
+    {
+      "rank": 5,
+      "tensor_power": 2,
+      "pair_traces": [
+        "10",
+        "11",
+        "12",
+        "13",
+        "-38"
+      ],
+      "regular_semisimple": true,
+      "critical": true,
+      "in_finite_target_locus": true
+    },
+    {
+      "rank": 5,
+      "tensor_power": 3,
+      "pair_traces": [
+        "10",
+        "11",
+        "12",
+        "13",
+        "-112/3"
+      ],
+      "regular_semisimple": true,
+      "critical": true,
+      "in_finite_target_locus": true
+    },
+    {
+      "rank": 5,
+      "tensor_power": 4,
+      "pair_traces": [
+        "10",
+        "11",
+        "12",
+        "13",
+        "-37"
+      ],
+      "regular_semisimple": true,
+      "critical": true,
+      "in_finite_target_locus": true
+    },
+    {
+      "rank": 5,
+      "tensor_power": 5,
+      "pair_traces": [
+        "10",
+        "11",
+        "12",
+        "13",
+        "-184/5"
+      ],
+      "regular_semisimple": true,
+      "critical": true,
+      "in_finite_target_locus": true
+    },
+    {
+      "rank": 5,
+      "tensor_power": 6,
+      "pair_traces": [
+        "10",
+        "11",
+        "12",
+        "13",
+        "-110/3"
+      ],
+      "regular_semisimple": true,
+      "critical": true,
+      "in_finite_target_locus": true
+    },
+    {
+      "rank": 6,
+      "tensor_power": 1,
+      "pair_traces": [
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "-52"
+      ],
+      "regular_semisimple": true,
+      "critical": true,
+      "in_finite_target_locus": true
+    },
+    {
+      "rank": 6,
+      "tensor_power": 2,
+      "pair_traces": [
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "-50"
+      ],
+      "regular_semisimple": true,
+      "critical": true,
+      "in_finite_target_locus": true
+    },
+    {
+      "rank": 6,
+      "tensor_power": 3,
+      "pair_traces": [
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "-148/3"
+      ],
+      "regular_semisimple": true,
+      "critical": true,
+      "in_finite_target_locus": true
+    },
+    {
+      "rank": 6,
+      "tensor_power": 4,
+      "pair_traces": [
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "-49"
+      ],
+      "regular_semisimple": true,
+      "critical": true,
+      "in_finite_target_locus": true
+    },
+    {
+      "rank": 6,
+      "tensor_power": 5,
+      "pair_traces": [
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "-244/5"
+      ],
+      "regular_semisimple": true,
+      "critical": true,
+      "in_finite_target_locus": true
+    },
+    {
+      "rank": 6,
+      "tensor_power": 6,
+      "pair_traces": [
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "-146/3"
+      ],
+      "regular_semisimple": true,
+      "critical": true,
+      "in_finite_target_locus": true
+    },
+    {
+      "rank": 7,
+      "tensor_power": 1,
+      "pair_traces": [
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "-65"
+      ],
+      "regular_semisimple": true,
+      "critical": true,
+      "in_finite_target_locus": true
+    },
+    {
+      "rank": 7,
+      "tensor_power": 2,
+      "pair_traces": [
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "-63"
+      ],
+      "regular_semisimple": true,
+      "critical": true,
+      "in_finite_target_locus": true
+    },
+    {
+      "rank": 7,
+      "tensor_power": 3,
+      "pair_traces": [
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "-187/3"
+      ],
+      "regular_semisimple": true,
+      "critical": true,
+      "in_finite_target_locus": true
+    },
+    {
+      "rank": 7,
+      "tensor_power": 4,
+      "pair_traces": [
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "-62"
+      ],
+      "regular_semisimple": true,
+      "critical": true,
+      "in_finite_target_locus": true
+    },
+    {
+      "rank": 7,
+      "tensor_power": 5,
+      "pair_traces": [
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "-309/5"
+      ],
+      "regular_semisimple": true,
+      "critical": true,
+      "in_finite_target_locus": true
+    },
+    {
+      "rank": 7,
+      "tensor_power": 6,
+      "pair_traces": [
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "-185/3"
+      ],
+      "regular_semisimple": true,
+      "critical": true,
+      "in_finite_target_locus": true
+    },
+    {
+      "rank": 8,
+      "tensor_power": 1,
+      "pair_traces": [
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "-79"
+      ],
+      "regular_semisimple": true,
+      "critical": true,
+      "in_finite_target_locus": true
+    },
+    {
+      "rank": 8,
+      "tensor_power": 2,
+      "pair_traces": [
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "-77"
+      ],
+      "regular_semisimple": true,
+      "critical": true,
+      "in_finite_target_locus": true
+    },
+    {
+      "rank": 8,
+      "tensor_power": 3,
+      "pair_traces": [
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "-229/3"
+      ],
+      "regular_semisimple": true,
+      "critical": true,
+      "in_finite_target_locus": true
+    },
+    {
+      "rank": 8,
+      "tensor_power": 4,
+      "pair_traces": [
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "-76"
+      ],
+      "regular_semisimple": true,
+      "critical": true,
+      "in_finite_target_locus": true
+    },
+    {
+      "rank": 8,
+      "tensor_power": 5,
+      "pair_traces": [
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "-379/5"
+      ],
+      "regular_semisimple": true,
+      "critical": true,
+      "in_finite_target_locus": true
+    },
+    {
+      "rank": 8,
+      "tensor_power": 6,
+      "pair_traces": [
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "-227/3"
+      ],
+      "regular_semisimple": true,
+      "critical": true,
+      "in_finite_target_locus": true
+    }
+  ],
+  "novelty_claim": false,
+  "externally_reviewed": false,
+  "runtime_API_changed": false,
+  "scope": "Independent finite trace/weight corroboration; the uniform finiteness theorem uses a separate boundary-rank and integral-extension proof. No complete exceptional-fiber classification.",
+  "source_sha256": {
+    "SPIN_CAYLEY_GEOMETRY.md": "3bf72a4dd7e8c0db64213b50f56f47fbc7775b76c2cb168215be06ff3d94cf07",
+    "tools/verify_spin_cayley_geometry.py": "848fa6492ca8f8893e227ccd3efc8ce579a86b3c65929024e4c283054168c00f",
+    "SPIN_POLYNOMIAL_CAYLEY_DEGREES.md": "cfd454bc3a7b8512561df5f63fa98f778b347f19ef7ce6c8f99718f2140ba9f4",
+    "tools/verify_spin_polynomial_degree.py": "5e61ef2d30a131ef1def08bfc5cb27d8df9ac2cca6566f0f1c15a5d420fde828",
+    "SPIN_CAYLEY_DEGREES.md": "b38d93a60bed0c20ab7147e53aac2805644f8fcc49f04445a002edfca3a6ad67",
+    "tools/verify_spin_cayley_degree.py": "4fc0d8fd0607f6271291dd3b47e1ecaa3b0acba648b5ac68cc0f369324509b25"
+  }
+}

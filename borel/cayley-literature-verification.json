@@ -1,0 +1,81 @@
+{
+  "result": "passed",
+  "date": "2026-10-22",
+  "bibliographic_entries": 8,
+  "notebook": {
+    "cells": 30,
+    "static_inspection_only": true,
+    "cartan_rank": 8,
+    "saved_SInv_rank": 7,
+    "duplicate_rows_zero_based": [
+      1,
+      7
+    ],
+    "correct_inverse_last_row": [
+      2,
+      3,
+      4,
+      6,
+      5,
+      4,
+      3,
+      2
+    ],
+    "cell20_dimensions_incompatible": true,
+    "external_data_file_required": true
+  },
+  "proposed_Part_I_Example_3_scalar_correction": {
+    "weights": [
+      2,
+      0,
+      -2
+    ],
+    "trace_gram": 8,
+    "corrected_z2_coefficient": "1/4",
+    "printed_z2_coefficient": "1/2",
+    "corrected_identity_derivative": 1,
+    "printed_identity_derivative": 2,
+    "agrees_with_KM_6_1_general_formula": true,
+    "author_approved_erratum": false
+  },
+  "regularity_witnesses": {
+    "Sp4": {
+      "torus": [
+        "2",
+        "-1/2"
+      ],
+      "positive_root_characters": [
+        "-4",
+        "-1",
+        "4",
+        "1/4"
+      ],
+      "image": [
+        "3/4",
+        "3/4"
+      ],
+      "torus_derivative_determinant": "-25/16"
+    },
+    "SL4_exterior_square": {
+      "torus": [
+        "2",
+        "-1/2",
+        "1",
+        "-1"
+      ],
+      "image_diagonal": [
+        "0",
+        "0",
+        "3/4",
+        "-3/4"
+      ],
+      "method": "Six representation eigenvalues and the simple-coroot trace Gram matrix"
+    }
+  },
+  "scope": "Exact elementary normalization, matrix and witness checks; source-record integrity. No proof of literature-search completeness, novelty or 2026 openness, and no execution of external notebook cells.",
+  "source_sha256": {
+    "CAYLEY_LITERATURE_AUDIT.md": "40400efaf20ae78fd1eecacb20bd20578ff25574dcc1af9a3444288ba7c6ef99",
+    "tools/verify_cayley_literature.py": "56066228924290a6b31fa5f94897665625e9e96f2619193212ed82a13341a811",
+    "experiments/cayley-literature-source-record.json": "f9a92c5326e8e7d1c8024c2e2b47b944674438942a82243da7088dc618e742b1"
+  }
+}

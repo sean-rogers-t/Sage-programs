@@ -3,6 +3,9 @@
 The user's priority is generalizable mathematics: uniform formulas,
 structural explanations, exact hypotheses and counterexamples.
 
+- When completing research work, suggest a next step and explain its goal,
+  why it advances the program, and what would count as progress. Avoid
+  extending a case calculation merely because more cases can be computed.
 - Read the [research ledger](RESEARCH_LEDGER.md) when choosing or reporting
   mathematical extensions. Update it when a substantial result, limitation,
   proof status or research question changes. Preserve stable entry IDs.
