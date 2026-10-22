@@ -186,7 +186,7 @@ class E7RelativeImageTests(unittest.TestCase):
         for nodes in ((1,1), (0,), (8,), (True,), (1.0,), ('1',)):
             with self.assertRaises((TypeError, ValueError)):
                 f('E7', retained_nodes=nodes)
-        for kind in ('E6', 'E8', 'e7', None):
+        for kind in ('E5', 'E8', 'e7', None):
             with self.assertRaises(ValueError):
                 f(kind, retained_nodes=())
         s = f('E7', retained_nodes=(7,5,2))

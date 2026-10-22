@@ -25,6 +25,7 @@ def main():
     files += sorted((ROOT/'src/sage_borel/data').glob('*.json'))
     files += [ROOT/'tests/data/exceptional_expected.json',
               ROOT/'tests/data/e7_relative_audited_bases.json', ROOT/'pyproject.toml',
+              ROOT/'tests/data/e6_relative_audited_base.json',
               Path(__file__).resolve()]
     report = dict(result='passed' if result.wasSuccessful() else 'failed',
                   version=sage_borel.__version__, sage_version=SAGE_VERSION,

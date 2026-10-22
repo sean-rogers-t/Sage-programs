@@ -13,11 +13,18 @@ supports arbitrary parabolics and finite Lie types, and avoids full Weyl-group
 enumeration. It includes independent tests and benchmarks through rank 20.
 The original program files are preserved unchanged.
 
-The [all-parabolic E7 summary API](borel/E7_RELATIVE_IMAGE_API.md) now packages
+The all-parabolic [E7](borel/E7_RELATIVE_IMAGE_API.md) and
+[E6](borel/E6_RELATIVE_IMAGE_API.md) summary APIs now package
 the complete relative Smith data and minimal/adjoint representation
 comparisons, with source normalization and proof provenance. It avoids
 Schubert matrices for summary queries; absolute cohomology/image cokernels
 remain a separate calculation.
+
+The [G2 full-flag calculation](borel/G2_FULL_FLAG.md) completes the
+minimal-representation images on every proper standard G2 parabolic.
+It proves the integral image presentation and records all absolute Smith
+factors, with an independent native root/coroot Chevalley audit. Adjoint
+and other irreducible images follow by the proved source-scaling law.
 
 The [exceptional catalogue](borel/EXCEPTIONAL.md) supplies named generator
 calculations for G2, F4, E6 and E7, plus the displayed E8 dissertation cases.

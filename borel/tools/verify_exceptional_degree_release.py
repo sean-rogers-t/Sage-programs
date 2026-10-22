@@ -29,16 +29,30 @@ def main():
     version=sage_borel.__version__
     regression=read('character-verification.json')
     docs=read('documentation-verification.json')
+    assert {'E6_RELATIVE_IMAGE_API.md','G2_FULL_FLAG.md'} <= {r['file'] for r in docs['documents']}
     wheel=read('geometry-wheel-verification.json')
     relative_api=read('relative-image-verification.json')
     assert relative_api['version']==version
-    assert relative_api['proper_standard_parabolics']==127
-    assert relative_api['cohomology_polynomials_reconstructed']==127
-    assert relative_api['multiplicity_polynomials_reconstructed']==125
-    assert relative_api['multiplicity_polynomials_from_independent_image_audits']==2
-    assert relative_api['fresh_e7_p7_character_degrees']==[0,1,2,3,6,10]
+    assert relative_api['proper_standard_parabolics']==190
+    assert relative_api['E7']['cohomology_polynomials_reconstructed']==127
+    assert relative_api['E7']['multiplicity_polynomials_reconstructed']==125
+    assert relative_api['E7']['multiplicity_polynomials_from_independent_image_audits']==2
+    assert relative_api['E7']['fresh_character_degrees']==[0,1,2,3,6,10]
+    assert relative_api['E6']['proper_standard_parabolics']==63
+    assert relative_api['E6']['nonunit_factors']==[3,9,27]
+    assert relative_api['E6']['fresh_a5_full_integer_invariant_kernel_degrees']==[3]
     for name,expected in relative_api['source_sha256'].items():
         assert digest(ROOT/name)==expected,name
+    e6_api_summary=read('experiments/e6-all-parabolics-summary.json')
+    assert e6_api_summary['complete'] and len(e6_api_summary['parabolics'])==63
+    g2_full=read('experiments/g2-full-flag.json')
+    g2_full_audit=read('experiments/g2-full-flag-audit.json')
+    assert g2_full['complete'] and g2_full_audit['complete']
+    assert g2_full_audit['checked_monomial_columns']==72
+    assert g2_full['cases'][0]['degrees'][6]['smith_factors']==[3456]
+    for record in (e6_api_summary,g2_full,g2_full_audit):
+        for name,expected in record['source_sha256'].items():
+            assert digest(ROOT/name)==expected,name
     geometry=read('experiments/exceptional-degree-geometry.json')
     e6_checks=[read('experiments/'+name) for name in (
         'e6-remaining-a5.json','e6-remaining-a2a2a1.json',
@@ -241,7 +255,7 @@ def main():
         for field in ('certificate_archive','tower_archive'):
             if field in check:
                 assert digest(ROOT/check[field])==check[field+'_sha256'],check[field]
-    assert regression['version']==wheel['version']==version=='0.21.0'
+    assert regression['version']==wheel['version']==version=='0.22.0'
     for name,expected in regression['source_sha256'].items():
         assert digest(ROOT/name)==expected,name
     wheel_path=ROOT/'dist'/wheel['wheel']
@@ -401,9 +415,23 @@ def main():
         'tools/package_e7_relative_images.py','tools/verify_relative_images.py',
         'tests/test_relative_images.py','tests/data/e7_relative_audited_bases.json',
         'relative-image-verification.json',
+        'E6_RELATIVE_IMAGE_API.md','G2_FULL_FLAG.md',
+        'tools/package_e6_relative_images.py','tests/test_e6_relative_images.py',
+        'tests/test_g2_full_flag.py','tests/data/e6_relative_audited_base.json',
+        'experiments/summarize_e6_all_parabolics.py','experiments/e6-all-parabolics-summary.json',
+        'experiments/g2_full_flag.py','experiments/audit_g2_full_flag.py',
+        'experiments/g2-full-flag.json','experiments/g2-full-flag-audit.json',
+        'G2_CHARACTER_FORM.md','experiments/g2-character-form-audit.json',
         'tests/test_exceptional_degrees.py','character-verification.json',
         'documentation-verification.json','geometry-wheel-verification.json')]+[Path(__file__).resolve()]
     report=dict(result='passed',version=version,
+        e6_relative_image_api=dict(proper_standard_parabolics=63,nonunit_factors=[3,9,27],
+            certificate='experiments/e6-all-parabolics-summary.json',
+            independent_verification=relative_api['E6'],abstract_relative_groups_only=True),
+        g2_full_flag=dict(complete_absolute_images=True,representations=['minimal','adjoint'],
+            integral_kernel=['X^2-3XY+3Y^2','Y^6'],free_image_rank=12,
+            minimal_smith_factors=[r['smith_factors'] for r in g2_full['cases'][0]['degrees']],
+            independent_chevalley_columns=72,shared_full_source_theorem=True),
         e7_relative_image_api=dict(proper_standard_parabolics=127,improper_G_over_G=True,
             compressed_smith_multiplicities=True,scaled_root_weight_comparisons=True,
             named_representations=['minimal','adjoint'],abstract_relative_groups_only=True,
@@ -467,10 +495,10 @@ def main():
             all_degree_source_hilbert_identities_independently_verified=True,
             full_embedded_image_calculations_independently_verified=True,
             printed_multiplicity_lists_match_audited_data=True,
-            scope='Current complete relative full root/weight comparison in every degree for all proper E7 parabolics. Earlier counts above record historical proof stages. The even-block common formula is exact for the finite E7 family; geometric folding, arbitrary-rank generalizations, ambient H/N and literature priority remain separate. Version 0.21 packages the existing results in the relative-image API.'),
+            scope='Current complete relative full root/weight comparison in every degree for all proper E7 parabolics. Earlier counts above record historical proof stages. The even-block common formula is exact for the finite E7 family; geometric folding, arbitrary-rank generalizations, ambient H/N and literature priority remain separate. Version 0.22 packages both E6 and E7 relative classifications.'),
         hash_semantics='SHA256 after CRLF to LF normalization for text; raw bytes for .gz archives',
         audit_sha256={p.relative_to(ROOT).as_posix():digest(p) for p in sorted(set(paths))})
-    (ROOT/'release-0.21-verification.json').write_text(json.dumps(report,indent=2)+'\n')
+    (ROOT/'release-0.22-verification.json').write_text(json.dumps(report,indent=2)+'\n')
     print(json.dumps({k:v for k,v in report.items() if k!='audit_sha256'},indent=2))
 
 

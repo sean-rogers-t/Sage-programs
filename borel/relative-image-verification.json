@@ -1,31 +1,63 @@
 {
   "result": "passed",
-  "version": "0.21.0",
-  "tests": 6,
-  "proper_standard_parabolics": 127,
-  "cohomology_polynomials_reconstructed": 127,
-  "multiplicity_polynomials_reconstructed": 125,
-  "multiplicity_polynomials_from_independent_image_audits": 2,
-  "transformed_integer_lattice_cases": 28,
-  "fresh_e7_p7_character_degrees": [
-    0,
-    1,
-    2,
-    3,
-    6,
-    10
-  ],
+  "version": "0.22.0",
+  "tests": 11,
+  "proper_standard_parabolics": 190,
+  "E7": {
+    "proper_standard_parabolics": 127,
+    "cohomology_polynomials_reconstructed": 127,
+    "multiplicity_polynomials_reconstructed": 125,
+    "multiplicity_polynomials_from_independent_image_audits": 2,
+    "transformed_integer_lattice_cases": 28,
+    "fresh_character_degrees": [
+      0,
+      1,
+      2,
+      3,
+      6,
+      10
+    ]
+  },
+  "E6": {
+    "proper_standard_parabolics": 63,
+    "cohomology_polynomials_reconstructed": 63,
+    "multiplicity_formula_cases": 62,
+    "independent_audited_base_cases": 1,
+    "nonunit_factors": [
+      3,
+      9,
+      27
+    ],
+    "transformed_integer_lattice_cases": 8,
+    "fresh_a5_full_integer_invariant_kernel_degrees": [
+      3
+    ],
+    "fresh_character_degrees": [
+      0,
+      1,
+      2,
+      3,
+      5,
+      8
+    ]
+  },
   "containment_and_four_quotients_checked": true,
-  "scope": "Independent formula arithmetic, integer-lattice operations and bounded fresh Schubert images. Shared full-source theorems, A5 intermediary polynomial and previously audited D5+A1/D4+A1 base coefficients; no new source proof or novelty claim.",
-  "seconds": 50.451,
+  "scope": "Independent formula arithmetic, integer-lattice operations and bounded fresh Schubert images. Shared source theorems, E7 A5 intermediary and D5+A1/D4+A1 base coefficients, and E6 A2+A2+A1 audited coefficients; no new source proof or novelty claim.",
+  "seconds": 46.585,
   "source_hash_semantics": "SHA256 with CRLF normalized to LF",
   "source_sha256": {
     "src/sage_borel/data/e7_relative_images.json": "f2f2498eefa94862c3318441c49f7d9d9d8abd8d420aba7c37229085bc1b72e4",
     "tests/data/e7_relative_audited_bases.json": "dcd7e7d630999f8ebc82e39026ffd289fb66995a79f115e6afec74a6407bd8e3",
-    "tests/test_relative_images.py": "348fdab7d5103b2efcdda4424f08111ccb8b650433b9284a516e51419d75d524",
-    "tools/verify_relative_images.py": "51a5a244d5cef9db81702cf4c1f18ca3757ff6fa1331c8fc152635c2d99af73f",
+    "tests/test_relative_images.py": "eaf09d30d7a8e2a9793e8f40f40cf447fd7b77ed0f504f299296327952999f39",
+    "tools/verify_relative_images.py": "0bad330a58ad84df9daeb54933cee539ac0175e3d543c6ae581139989e444e9a",
     "tools/package_e7_relative_images.py": "e11c39eae18d54c8b3e26ae812359cded5d25e94da3dfd2e8842e2641d42cad0",
-    "src/sage_borel/relative_images.py": "60e5a77bd353bc1c3aa4104905c3477d537a787e6cf00abf058b7e3d2348df06",
-    "experiments/e7-all-parabolics-summary.json": "b172b8f7f387ef0697e9691a52e599a6af1da7b65009af433ea1d412b6f89a04"
+    "src/sage_borel/relative_images.py": "a3092a203b61a152092acb7198b218304f761a6a3b59d73424adb6d5038ad9c1",
+    "experiments/e7-all-parabolics-summary.json": "b172b8f7f387ef0697e9691a52e599a6af1da7b65009af433ea1d412b6f89a04",
+    "src/sage_borel/data/e6_relative_images.json": "97a7b7168fa63dca0fe4007d23c4edb74374e3cf112994df1ef5320a4469c710",
+    "tests/data/e6_relative_audited_base.json": "ff8850aade5f9476dc39323e8cb33eeae1c25a86e70a573d91ca48a03404eecd",
+    "tests/test_e6_relative_images.py": "7ea43ab57d3dc43eb93e18628cfbed7141f396d85ea29009313ee0b84071c4ab",
+    "tools/package_e6_relative_images.py": "d52860055a5a2d9d407f5b3cb560f641571edefd5db636da573ff40e9fde4023",
+    "experiments/e6-all-parabolics-summary.json": "d22927d27c9ca17c3ba068b0a95890d2ddef872b440f787ed75b2ba459e43c0f",
+    "experiments/summarize_e6_all_parabolics.py": "485b475821ab829270ae97c65cc5ac2f45a0d02302e64ca52b18a2d522dc4d19"
   }
 }

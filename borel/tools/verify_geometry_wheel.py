@@ -27,9 +27,13 @@ def main():
         shutil.copyfile(ROOT/'tests/test_e7_geometry.py', tests/'test_e7_geometry.py')
         shutil.copyfile(ROOT/'tests/test_exceptional_degrees.py', tests/'test_exceptional_degrees.py')
         shutil.copyfile(ROOT/'tests/test_relative_images.py', tests/'test_relative_images.py')
+        shutil.copyfile(ROOT/'tests/test_e6_relative_images.py', tests/'test_e6_relative_images.py')
+        shutil.copyfile(ROOT/'tests/test_g2_full_flag.py', tests/'test_g2_full_flag.py')
         (tests/'data').mkdir()
         shutil.copyfile(ROOT/'tests/data/e7_relative_audited_bases.json',
                         tests/'data/e7_relative_audited_bases.json')
+        shutil.copyfile(ROOT/'tests/data/e6_relative_audited_base.json',
+                        tests/'data/e6_relative_audited_base.json')
         environment = dict(os.environ, PYTHONPATH=str(target))
         result = subprocess.run([sys.executable, '-m', 'unittest', 'discover',
                                  '-s', str(tests), '-v'], cwd=target,
