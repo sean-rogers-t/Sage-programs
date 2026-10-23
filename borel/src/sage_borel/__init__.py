@@ -39,9 +39,12 @@ from .exceptional import (ExceptionalBorel, GeneratorInfo, exceptional_borel, ex
                           exceptional_polynomial)
 
 from .borel_coordinates import BorelSpringerMap, borel_springer_map
+from .borel_reconstruction import (ReconstructedBorelMap, reconstruct_borel_map,
+                                   reconstruct_root_coordinates)
 
 __version__ = "0.22.0"
-__all__ = ["BorelSpringerMap", "borel_springer_map", "BorelMap", "Expansion", "classical_borel", "to_type_a",
+__all__ = ["ReconstructedBorelMap", "reconstruct_borel_map", "reconstruct_root_coordinates",
+           "BorelSpringerMap", "borel_springer_map", "BorelMap", "Expansion", "classical_borel", "to_type_a",
            "EquivariantExpansion", "TypeAEquivariantMap", "type_a_equivariant",
            "SymplecticProjectiveKImage", "symplectic_projective_k_image",
            "ExceptionalBorel", "GeneratorInfo", "exceptional_borel",

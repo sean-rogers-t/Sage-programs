@@ -140,6 +140,10 @@
       "python_blocks_executed": 1
     },
     {
+      "file": "BOREL_RECONSTRUCTION.md",
+      "python_blocks_executed": 1
+    },
+    {
       "file": "REGULARITY_CLASSIFICATION.md",
       "python_blocks_executed": 0
     },
@@ -568,7 +572,7 @@
       "python_blocks_executed": 0
     }
   ],
-  "local_links_and_anchors_checked": 1765,
-  "python_blocks_executed": 51,
+  "local_links_and_anchors_checked": 1773,
+  "python_blocks_executed": 52,
   "scope": "Python fences executed in reading order in a fresh namespace per document; local links and anchors checked. Shell snippets and external URLs were not automatically executed or crawled."
 }

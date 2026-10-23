@@ -23,6 +23,7 @@ def main():
         tests = target/'wheel_tests'
         tests.mkdir()
         shutil.copyfile(ROOT/'tests/test_borel_coordinates.py', tests/'test_borel_coordinates.py')
+        shutil.copyfile(ROOT/'tests/test_borel_reconstruction.py', tests/'test_borel_reconstruction.py')
         shutil.copyfile(ROOT/'tests/test_geometry.py', tests/'test_geometry.py')
         shutil.copyfile(ROOT/'tests/test_e6_geometry.py', tests/'test_e6_geometry.py')
         shutil.copyfile(ROOT/'tests/test_e7_geometry.py', tests/'test_e7_geometry.py')

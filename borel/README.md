@@ -12,6 +12,7 @@ the mathematical guide for the Borel/Springer construction.
 
 | Question | Guide |
 | --- | --- |
+| Can I reconstruct Borel coordinates from a torus formula for other representations? | [Uniform root-commutator recurrence, SL3/Sp4 character API and independent representation checks](BOREL_RECONSTRUCTION.md) |
 | Can I evaluate the Springer map on B, including unipotent coordinates? | [SL3/Sp4 defining formulas, exact collapse fibers, general triangular mechanism and API](BOREL_COORDINATES.md) |
 | What are the defining-adjoint degrees in arbitrary type B/C rank? | [Closed formulas, binomial boundary corrections, Spin/SO and Sp/PSp distinctions](BC_MIXTURE_DEGREES.md) |
 | How do F4 degrees change for minimal-adjoint direct sums? | [All-multiplicity formula, exceptional ratios a=b and a=5b, and height-two corrections](F4_MIXTURE_DEGREES.md) |

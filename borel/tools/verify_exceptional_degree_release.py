@@ -29,6 +29,15 @@ def main():
     version=sage_borel.__version__
     regression=read('character-verification.json')
     docs=read('documentation-verification.json')
+    borel_reconstruction=read('borel-reconstruction-verification.json')
+    assert borel_reconstruction['test_methods']==8
+    assert borel_reconstruction['symbolic_full_representation_projection_cases']==9
+    assert borel_reconstruction['low_level_additional_defining_matrix_checks']==['SL2','SL4']
+    assert not borel_reconstruction['representation_matrices_used_by_runtime']
+    assert borel_reconstruction['regular_extension_checked']
+    assert borel_reconstruction['changed_collapse_loci_checked']
+    for name,expected in borel_reconstruction['source_sha256'].items():
+        assert digest(ROOT/name)==expected,name
     borel_coordinates=read('borel-coordinates-verification.json')
     assert borel_coordinates['test_methods']==6
     assert borel_coordinates['independent_full_trace_gram_dimensions']==[8,10]
@@ -973,8 +982,10 @@ def main():
         'tests/test_exceptional_degrees.py','character-verification.json',
         'documentation-verification.json','geometry-wheel-verification.json')]+[Path(__file__).resolve()]
     paths += [ROOT/'borel-coordinates-verification.json']
+    paths += [ROOT/'borel-reconstruction-verification.json']
     report=dict(result='passed',version=version,
         borel_coordinate_API=borel_coordinates,
+        borel_reconstruction_API=borel_reconstruction,
         general_degree_audit=general_degree,
         e6_adjoint_deformation=e6_deformation,
         f4_minimal_degree=f4_degree,

@@ -1,5 +1,21 @@
 # Proof and literature status of the integral image notes
 
+The [torus/root reconstruction theorem](BOREL_RECONSTRUCTION.md) is a
+uniform characteristic-zero written deduction: equivariance forces
+Ad(tu)theta(tu)=theta(tu), and root height makes this a triangular system
+with prescribed toral part theta(t). For a genuine regular map its
+apparent root-character poles cancel. The recurrence needs positive-root
+brackets and the torus formula, without representation matrices. Ready
+backends cover SL3/Sp4 with named or supplied characters and supplied
+torus maps. Nine all-variable full-representation trace solves, additional
+SL2/SL4 low-level matrix checks, normalization and collapse checks agree.
+The SL3 adjoint map collapses at diag(1,-1,-1), with ranks two or one;
+Sp4 omega_2 adds the divisors z1^2+1=0 and z2^2+1=0 to the defining
+vertical critical locus. These are explicit deductions and an API,
+not novelty claims, a general singular-fiber classification, or an
+automatic adapter for every finite root type. Custom-character positivity
+and global extension of arbitrary torus-map input are not certified.
+
 The [Borel-coordinate calculation](BOREL_COORDINATES.md) implements the
 defining SL3 and Sp4 Springer maps on B=T U. The SL3 fixed-t map is always
 a polynomial isomorphism. The Sp4 vertical determinant is

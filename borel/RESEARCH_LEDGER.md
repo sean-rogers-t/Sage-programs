@@ -36,7 +36,7 @@ projective model before B/D quadrics and isotropic Grassmannians. The
 [current sequence](OTHER_THEORIES_PROGRAM.md#current-focus-equivariant-images-in-the-classical-a-d-families)
 retains the Spin/SO lattice distinction; it adds no completed theorem.
 The Spin parity classification is shelved at the user's request. The expanded
-ledger has 135 entries, including 20 open questions. The proposal itself
+ledger has 136 entries, including 20 open questions. The proposal itself
 adds no theorem; subsequent progress is tracked here and in its README.
 
 The current focus is the geometry and representation-dependent degrees
@@ -120,8 +120,10 @@ fixed compactification base points.
 GEO-26 implements defining SL3/Sp4 Borel coordinates and classifies all
 fixed-t unipotent fibers. Sp4 has two collapse divisors; at their crossings
 mixed terms distinguish rank three from rank two and the image is not
-closed. The next structural goal is reconstructing these triangular maps
-from torus data and root commutators for other representations.
+closed. GEO-27 now reconstructs these triangular maps from torus data and
+root commutators, with a uniform proof and independent checks for other
+representations. Automatic root-data adapters across finite types and
+general singular-fiber classifications remain separate goals.
 Full-group inverse presentations remain a later goal toward branch and
 non-finite target equations.
 Boundary scheme structure and maximal finite target loci remain open
@@ -298,6 +300,8 @@ theorems have a>=1,k>=2. Changes of integral source are explicit, not implicit.
 | GEO-25 | For a defining and b adjoint summands, SO_(2n+1) has degree 2^n for b=0; for b>0 its degree is 2^n(2^n-n), minus 2n binomial(n-1,k) when a=(4k-2n+1)b. Sp_(2n) has degree 2^n for b=0 and 4^n otherwise, with no correction. | All-rank characteristic-zero written deduction: height-one crosspolytope Morse zeros give the binomial corrections; every hypersimplex subface is nondegenerate; C face characters h_2 have no singular zeros. Explicit zero-fiber curves prove torus and quotient non-finiteness at every exceptional B ratio; elsewhere both are finite flat. Actual lattices give twice the B degree on Spin and half the pure-adjoint C degree on PSp. Independent highest-weight and geometry checks through rank six, sign counts through rank ten, 68 reduced fibers from two constructions over two primes, plus two isogeny controls corroborate the proof. Published root geometry and KM/toric inputs are separated from these deductions. No arbitrary-representation, novelty, external-review or runtime API claim. | [Full formulas, proof and next goal](BC_MIXTURE_DEGREES.md), [exact checks](bc-mixture-degrees-verification.json) |
 
 | GEO-26 | Defining SL3 and Sp4 Springer maps on B=T U have explicit triangular root-coordinate formulas and complete fixed-t fiber classifications. SL3 never collapses along U. Sp4 collapses precisely on z1 z2=-1 or z1+z2=0, with affine-line fibers except for affine-plane fibers at their crossings with b=0. | Written characteristic-zero deduction and API. The crossing image is not closed; mixed ab terms retain rank three when b!=0. T-equivariance gives the general triangular leading factors q_alpha=e^alpha alpha(theta)/(e^alpha-1), with regular extension and q_alpha(1)=1. Independent all-variable full trace Gram solves in dimensions 8 and 10, symbolic stratum ranks and exact fiber parametrizations verify the implementation. Published trace-projection/equivariance/unipotent inputs are separated from the coordinate deductions. Rational point API; defining representations only. No full B/G differential, target branch-locus, external-review or novelty claim. | [Formulas, proof and API](BOREL_COORDINATES.md), [exact checks](borel-coordinates-verification.json) |
+
+| GEO-27 | A conjugation-equivariant regular map G -> g is reconstructed on B=T U from its torus restriction and positive-root brackets by a height-triangular fixed-vector solve. For genuine Springer maps, the apparent root-character poles cancel. | Uniform characteristic-zero written deduction from equivariance and standard root-space theory, not a novelty claim. The generic recurrence uses N+1 formal coordinates and no matrices of the representation. Ready SL3/Sp4 adapters support named representations, supplied characters and torus maps; nine symbolic full-representation Gram solves and separate SL2/SL4 low-level checks agree. SL3 adjoint has ranks two/one at diag(1,-1,-1) according as b!=0/b=0. Sp4 omega_2 adds z1^2+1 and z2^2+1 to the vertical determinant. Custom-character positivity, arbitrary torus-input extension to G, full singular-fiber classifications and automatic all-type adapters are not certified. | [Theorem, API and exact examples](BOREL_RECONSTRUCTION.md), [independent verification](borel-reconstruction-verification.json) |
 
 GEO-07 also implies that no nontrivial irreducible representation of a
 nontrivial central quotient SL_n/C preserves torus regularity: the only
