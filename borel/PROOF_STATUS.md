@@ -1,5 +1,29 @@
 # Proof and literature status of the integral image notes
 
+The [affine Levi-branching criterion](AFFINE_BRANCHING_FIBERS.md) now proves
+generic smoothness of the regular Springer fiber whenever the restricted
+character is jointly affine-linear in all semisimple fundamental-character
+coordinates on the central cover. If ell is the semisimple Levi rank and
+a contributing coefficient-zero component has codimension q in the central
+torus, the dimension is dim K-rank G+ell-q. The quotient-critical locus
+is Morse-Bott. No smoothness assumption on the coefficient scheme is needed:
+the Jacobian criterion bounds the target image of its nonsmooth locus below
+the dimension of the target center. Generic smoothness applies to the
+remaining incidence scheme. These are deductions from classical tools;
+universal affinity for fundamental representations is not asserted.
+Uniform consequences give generic regular fibers that are empty or smooth
+of dimension m(m-1) for exterior^k of SL_N with one target eigenvalue of
+multiplicity m<=min(k,N-k), and dimension 2p^2 for V_(omega_n) of Sp_(2n)
+with zero block 2p<=2 floor(n/2) and distinct nonzero target pairs. This
+includes generic reducedness in odd symplectic boundary strata and smaller
+zero blocks. Nonemptiness in every admissible stratum, counts, exceptional
+target values, nonlinear branchings and wholly nonregular components remain
+unresolved here. Independent checks cover 158 A coefficient identities,
+78 C ideals and 17 original-weight/Weyl-weight full differential ranks.
+Singular and nonreduced coefficient controls corroborate the exclusions;
+a nonlinear abstract potential shows persistent double structure can occur
+without affinity, but is not claimed to be a fundamental character.
+
 The [fundamental-spin counterexample](SPIN_FIBER_EXCESS.md) refutes the
 candidate that every fundamental representation has isolated nondegenerate
 quotient-critical points over generic semisimple targets in each Levi stratum.

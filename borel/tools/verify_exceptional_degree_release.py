@@ -29,6 +29,23 @@ def main():
     version=sage_borel.__version__
     regression=read('character-verification.json')
     docs=read('documentation-verification.json')
+    affine_branching=read('affine-branching-fibers-verification.json')
+    assert len(affine_branching['type_A_coefficient_checks'])==158
+    assert len(affine_branching['type_C_coefficient_checks'])==78
+    assert len(affine_branching['type_A_weight_differentials'])==5
+    assert len(affine_branching['type_C_Weyl_weight_differentials'])==12
+    assert all(affine_branching['algebraic_controls'].values())
+    assert not affine_branching['all_fundamental_branchings_affine']
+    assert not affine_branching['nonempty_generic_fibers_proved_for_all_admissible_cases']
+    assert not affine_branching['exceptional_target_values_classified']
+    for row in affine_branching['type_A_weight_differentials']:
+        assert row['fiber_tangent_dimension']==row['m']*(row['m']-1)
+        assert row['full_differential_rank']==row['N']**2-1-row['fiber_tangent_dimension']
+    for row in affine_branching['type_C_Weyl_weight_differentials']:
+        assert row['fiber_tangent_dimension']==2*row['p']**2
+        assert row['full_differential_rank']==row['n']*(2*row['n']+1)-row['fiber_tangent_dimension']
+    for name,expected in affine_branching['source_sha256'].items():
+        assert digest(ROOT/name)==expected,name
     spin_excess=read('spin-fiber-excess-verification.json')
     assert len(spin_excess['original_matrix_checks'])==8
     assert len(spin_excess['independent_weyl_characters'])==6
@@ -1117,11 +1134,13 @@ def main():
     paths += [ROOT/'simple-group-cayley-branching-verification.json']
     paths += [ROOT/'symplectic-target-strata-verification.json']
     paths += [ROOT/'spin-fiber-excess-verification.json']
+    paths += [ROOT/'affine-branching-fibers-verification.json']
     report=dict(result='passed',version=version,
         general_cayley_fiber_critical=critical_fiber,
         simple_group_branching=simple_branching,
         symplectic_target_strata=symplectic_strata,
         spin_fiber_excess=spin_excess,
+        affine_branching_fibers=affine_branching,
         symplectic_fiber_component=symplectic_fiber,
         symplectic_centralizer_realization=symplectic_realization,
         middle_exterior_fiber_component=middle_fiber,
