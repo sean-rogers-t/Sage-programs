@@ -29,6 +29,42 @@ def main():
     version=sage_borel.__version__
     regression=read('character-verification.json')
     docs=read('documentation-verification.json')
+    affine_classification=read('affine-branching-classification-verification.json')
+    affine_classification_audit=read('affine-branching-classification-audit.json')
+    assert len(affine_classification['classical_comparisons'])==2453
+    assert affine_classification['exceptional_negative_pairs']==3240
+    assert affine_classification['exceptional_affine_pairs']==133
+    assert affine_classification['independent_full_character_comparisons']==1462
+    assert len(affine_classification['built_in_branching_checks'])==3
+    assert affine_classification['E7_all_fundamentals_classified']
+    assert affine_classification['E8_all_fundamentals_classified']
+    assert affine_classification['nonaffinity_is_not_a_fiber_singularity_proof']
+    assert affine_classification_audit['exceptional_pairs']==3373
+    assert affine_classification_audit['negative_pairs']==3240
+    assert affine_classification_audit['affine_pairs']==133
+    assert affine_classification_audit['reflection_word_certificates']==637
+    assert not affine_classification_audit['uses_Sage']
+    assert affine_classification_audit['cartan_matrices_independently_specified']
+    assert affine_classification_audit['norms_and_Weyl_dimensions_recomputed_with_fractions']
+    expected_affine_counts={'G2':[2,1],'F4':[2,1,1,7],
+                           'E6':[25,4,1,1,1,25],'E7':[6,2,1,1,1,1,34],
+                           'E8':[2,1,1,1,1,1,1,8]}
+    summaries={(r['type'],r['node']):r for r in affine_classification['exceptional_summary']}
+    certificates={(r['type'],r['node']):r for r in affine_classification['exceptional_certificates']}
+    expected_pairs={(kind,k) for kind,counts in expected_affine_counts.items()
+                    for k in range(1,len(counts)+1)}
+    assert set(summaries)==set(certificates)==expected_pairs
+    assert len(affine_classification['exceptional_summary'])==len(expected_pairs)
+    assert len(affine_classification['exceptional_certificates'])==len(expected_pairs)
+    for pair in expected_pairs:
+        kind,k=pair; summary=summaries[pair]; record=certificates[pair]
+        assert summary['affine_count']==expected_affine_counts[kind][k-1]
+        assert summary['proper_standard_Levis']==2**int(kind[1:])-1
+        assert sorted(summary['affine_node_sets'])==sorted(r['levi_nodes'] for r in record['positive_restrictions'])
+        assert len(summary['affine_node_sets'])==summary['affine_count']
+    for report in (affine_classification,affine_classification_audit):
+        for name,expected in report['source_sha256'].items():
+            assert digest(ROOT/name)==expected,name
     affine_branching=read('affine-branching-fibers-verification.json')
     assert len(affine_branching['type_A_coefficient_checks'])==158
     assert len(affine_branching['type_C_coefficient_checks'])==78
@@ -1135,12 +1171,24 @@ def main():
     paths += [ROOT/'symplectic-target-strata-verification.json']
     paths += [ROOT/'spin-fiber-excess-verification.json']
     paths += [ROOT/'affine-branching-fibers-verification.json']
+    paths += [ROOT/name for name in ('AFFINE_BRANCHING_CLASSIFICATION.md',
+        'affine-branching-classification-verification.json','affine-branching-classification-audit.json',
+        'tools/verify_affine_branching_classification.py','tools/audit_affine_branching_certificates.py')]
     report=dict(result='passed',version=version,
         general_cayley_fiber_critical=critical_fiber,
         simple_group_branching=simple_branching,
         symplectic_target_strata=symplectic_strata,
         spin_fiber_excess=spin_excess,
         affine_branching_fibers=affine_branching,
+        affine_branching_classification=dict(classical_all_rank_written_proof=True,
+            classical_full_character_checks=2453,exceptional_pairs=3373,
+            exceptional_affine_pairs=133,exceptional_nonaffine_pairs=3240,
+            exceptional_full_character_checks=1462,native_branching_checks=3,
+            all_exceptional_certificates_independently_audited_without_Sage=True,
+            distinct_extremal_word_certificates=637,
+            certificate='affine-branching-classification-verification.json',
+            independent_audit='affine-branching-classification-audit.json',
+            scope='Every fundamental representation and proper standard Levi of a simple complex simply connected group. All-rank classical proof and exhaustive finite exceptional norm-gap/extremal-weight certificates. Nonaffinity does not imply fiber singularity. Standard representation-theory inputs; novelty unverified; runtime unchanged.'),
         symplectic_fiber_component=symplectic_fiber,
         symplectic_centralizer_realization=symplectic_realization,
         middle_exterior_fiber_component=middle_fiber,

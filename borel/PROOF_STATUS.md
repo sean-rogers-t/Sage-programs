@@ -1,5 +1,23 @@
 # Proof and literature status of the integral image notes
 
+The [fundamental affine-branching classification](AFFINE_BRANCHING_CLASSIFICATION.md)
+now determines exactly when the preceding generic-fiber criterion applies
+for every fundamental representation of a simple complex simply connected
+group and every proper standard Levi. The classical A-D formulas have
+written all-rank proofs, including the D4 half-spin chirality exception.
+The exceptional classification covers 3,373 pairs: 133 affine, 3,240 not
+affine. Every positive non-torus case has a strict norm-gap certificate;
+every negative case has an explicit Levi-dominant extremal-weight witness.
+A separate Sage-free rational-arithmetic auditor checks all exceptional
+certificates and coverage. Full-character restrictions independently check
+2,453 classical and 1,462 exceptional pairs, with three additional native
+branching comparisons. These are deductions from standard representation
+theory and a complete finite exceptional proof, not a priority claim.
+Nonaffinity does not prove singularity or nonreducedness of a Springer fiber.
+Coefficient-zero codimensions and dominance still need to be determined
+to compute dimensions and nonemptiness in newly covered affine cases;
+extending the geometric criterion to nonlinear branching is the next gate.
+
 The [affine Levi-branching criterion](AFFINE_BRANCHING_FIBERS.md) now proves
 generic smoothness of the regular Springer fiber whenever the restricted
 character is jointly affine-linear in all semisimple fundamental-character
