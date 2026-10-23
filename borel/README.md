@@ -12,6 +12,7 @@ the mathematical guide for the Borel/Springer construction.
 
 | Question | Guide |
 | --- | --- |
+| Can a single irreducible representation realize these degenerations? | [All type A nilpotent polynomial maps occur on proper centralizers in the fixed middle-exterior family](IRREDUCIBLE_CENTRALIZER_REALIZATION.md) |
 | Which degeneration orders can actual representations realize? | [Type A character criterion, closed exterior-mixture classification and every-order realization in even dimension](TYPE_A_CHARACTER_DEGENERATION.md) |
 | Can I reconstruct on B for larger classical and exceptional groups? | [Automatic Chevalley data, general character integration, exact torus-wall evaluation and independent checks through E8](ROOT_BOREL_API.md) |
 | When do mixed root terms recover vertical rank? | [General centralizer rank reduction and the complete G2 minimal/adjoint rank rules](G2_BOREL_RANK.md) |

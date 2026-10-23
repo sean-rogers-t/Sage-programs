@@ -1,0 +1,153 @@
+{
+  "result": "passed",
+  "date": "2026-10-23",
+  "sage_version": "9.5",
+  "symbolic_pascal_inverse_ranks": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "actual_irreducible_matrix_cases": [
+    {
+      "m": 2,
+      "ambient_n": 4,
+      "label": "power_1",
+      "scalar": "2",
+      "exterior_dimension": 6,
+      "spectrum_polynomial": "z^2 - 4*z + 1",
+      "semisimple": true,
+      "centralizer": "S(GL_2 x (C*)^2)"
+    },
+    {
+      "m": 2,
+      "ambient_n": 4,
+      "label": "mixed",
+      "scalar": "1",
+      "exterior_dimension": 6,
+      "spectrum_polynomial": "z^2 + 4*z + 1",
+      "semisimple": true,
+      "centralizer": "S(GL_2 x (C*)^2)"
+    },
+    {
+      "m": 2,
+      "ambient_n": 4,
+      "label": "zero",
+      "scalar": "1",
+      "exterior_dimension": 6,
+      "spectrum_polynomial": "z^2 + 1",
+      "semisimple": true,
+      "centralizer": "S(GL_2 x (C*)^2)"
+    },
+    {
+      "m": 3,
+      "ambient_n": 6,
+      "label": "power_1",
+      "scalar": "1",
+      "exterior_dimension": 20,
+      "spectrum_polynomial": "-z^3 + 6*zeta4*z^2 + 1",
+      "semisimple": true,
+      "centralizer": "S(GL_3 x (C*)^3)"
+    },
+    {
+      "m": 3,
+      "ambient_n": 6,
+      "label": "power_2",
+      "scalar": "1",
+      "exterior_dimension": 20,
+      "spectrum_polynomial": "-z^3 + 6*zeta4*z^2 - 6*zeta4*z + 1",
+      "semisimple": true,
+      "centralizer": "S(GL_3 x (C*)^3)"
+    },
+    {
+      "m": 3,
+      "ambient_n": 6,
+      "label": "mixed",
+      "scalar": "1",
+      "exterior_dimension": 20,
+      "spectrum_polynomial": "-z^3 + 6*zeta4*z^2 - 18*zeta4*z + 1",
+      "semisimple": true,
+      "centralizer": "S(GL_3 x (C*)^3)"
+    },
+    {
+      "m": 3,
+      "ambient_n": 6,
+      "label": "zero",
+      "scalar": "1",
+      "exterior_dimension": 20,
+      "spectrum_polynomial": "-z^3 + 1",
+      "semisimple": true,
+      "centralizer": "S(GL_3 x (C*)^3)"
+    },
+    {
+      "m": 4,
+      "ambient_n": 8,
+      "label": "power_1",
+      "scalar": "1",
+      "exterior_dimension": 70,
+      "spectrum_polynomial": "z^4 + 20*z^3 + 1",
+      "semisimple": true,
+      "centralizer": "S(GL_4 x (C*)^4)"
+    },
+    {
+      "m": 4,
+      "ambient_n": 8,
+      "label": "power_2",
+      "scalar": "1",
+      "exterior_dimension": 70,
+      "spectrum_polynomial": "z^4 + 40*z^3 - 20*z^2 + 1",
+      "semisimple": true,
+      "centralizer": "S(GL_4 x (C*)^4)"
+    },
+    {
+      "m": 4,
+      "ambient_n": 8,
+      "label": "power_3",
+      "scalar": "1",
+      "exterior_dimension": 70,
+      "spectrum_polynomial": "z^4 + 20*z^3 - 20*z^2 + 20*z + 1",
+      "semisimple": true,
+      "centralizer": "S(GL_4 x (C*)^4)"
+    },
+    {
+      "m": 4,
+      "ambient_n": 8,
+      "label": "mixed",
+      "scalar": "1",
+      "exterior_dimension": 70,
+      "spectrum_polynomial": "z^4 + 20*z^2 - 80*z + 1",
+      "semisimple": true,
+      "centralizer": "S(GL_4 x (C*)^4)"
+    },
+    {
+      "m": 4,
+      "ambient_n": 8,
+      "label": "zero",
+      "scalar": "1",
+      "exterior_dimension": 70,
+      "spectrum_polynomial": "z^4 + 1",
+      "semisimple": true,
+      "centralizer": "S(GL_4 x (C*)^4)"
+    }
+  ],
+  "exact_ambient_tangent_pairings": 500,
+  "symbolic_SL6_tangent_pairings": 35,
+  "group_determinants_and_exact_centralizers_checked": true,
+  "zero_map_does_not_mean_constant_representation_matrix": true,
+  "uses_character_or_borel_runtime": false,
+  "scope": "Finite exact companion/compound/wedge matrix corroboration of the separate arbitrary-rank proof. Shared Sage arithmetic and earlier wedge helpers; not an external audit or priority certificate.",
+  "source_sha256": {
+    "IRREDUCIBLE_CENTRALIZER_REALIZATION.md": "52df254bb5c83e67b4d69a4746ac98fb5961c359b85736ed1387cdcf099b2e17",
+    "tools/verify_irreducible_centralizer_realization.py": "def7fdf655827255fb14fa679f61af92f572f51e60ff35f14c63a0e11f047a9d",
+    "tools/verify_type_a_character_degeneration.py": "446748b54d7a71aaed000610d0236389e820d443c155a406acbb0526b78dbf87"
+  }
+}

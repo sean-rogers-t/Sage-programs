@@ -29,6 +29,14 @@ def main():
     version=sage_borel.__version__
     regression=read('character-verification.json')
     docs=read('documentation-verification.json')
+    irreducible_realization=read('irreducible-centralizer-realization-verification.json')
+    assert len(irreducible_realization['actual_irreducible_matrix_cases'])==12
+    assert irreducible_realization['exact_ambient_tangent_pairings']==500
+    assert irreducible_realization['symbolic_SL6_tangent_pairings']==35
+    assert irreducible_realization['group_determinants_and_exact_centralizers_checked']
+    assert not irreducible_realization['uses_character_or_borel_runtime']
+    for name,expected in irreducible_realization['source_sha256'].items():
+        assert digest(ROOT/name)==expected,name
     character_degeneration=read('type-a-character-degeneration-verification.json')
     assert character_degeneration['exterior_matrix_trace_moments']==140
     assert character_degeneration['exact_cyclotomic_central_checks']==203
@@ -1020,7 +1028,9 @@ def main():
     paths += [ROOT/'g2-borel-rank-verification.json']
     paths += [ROOT/'cayley-fiber-assessment-verification.json']
     paths += [ROOT/'type-a-character-degeneration-verification.json']
+    paths += [ROOT/'irreducible-centralizer-realization-verification.json']
     report=dict(result='passed',version=version,
+        irreducible_centralizer_realization=irreducible_realization,
         type_A_character_degeneration=character_degeneration,
         Cayley_fiber_assessment=fiber_assessment,
         G2_vertical_rank=g2_rank,

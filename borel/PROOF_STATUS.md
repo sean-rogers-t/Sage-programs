@@ -1,5 +1,20 @@
 # Proof and literature status of the integral image notes
 
+The [irreducible-centralizer realization theorem](IRREDUCIBLE_CENTRALIZER_REALIZATION.md)
+now proves that the fixed irreducible representation exterior^m of SL_(2m)
+realizes every equivariant nilpotent polynomial map on an sl_m centralizer,
+up to a nonzero target scalar, by varying a noncentral semisimple point.
+The centralizer is exactly S(GL_m x (C*)^m). This includes all orders and
+the zero map, whose ambient fiber contains a translated unipotent variety
+of dimension m^2-m. The proof inverts a Pascal coefficient transform and
+avoids a finite discriminant set. Full exterior matrices verify 500
+ambient tangent pairings and 35 further symbolic SL6 pairings, with exact
+determinants and centralizers. This is an arbitrary-rank written deduction
+from established character identities, not a priority claim. The representation
+has kernel mu_m and is infinitesimally faithful as required by KM; it is
+faithful on the corresponding central quotient. Full fiber components and
+transverse geometry remain unresolved here.
+
 The [type A character-degeneration theorem](TYPE_A_CHARACTER_DEGENERATION.md)
 now settles a uniform representation-realization family. For every exterior
 mixture on SL_m the central translated map has an explicit binomial formula.
