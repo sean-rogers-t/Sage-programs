@@ -29,6 +29,15 @@ def main():
     version=sage_borel.__version__
     regression=read('character-verification.json')
     docs=read('documentation-verification.json')
+    symplectic_realization=read('symplectic-centralizer-realization-verification.json')
+    assert len(symplectic_realization['coefficient_isomorphisms'])==10
+    assert len(symplectic_realization['actual_primitive_cases'])==7
+    assert symplectic_realization['actual_primitive_tangent_pairings']==174
+    assert symplectic_realization['contraction_kernels_and_invariance_checked']
+    assert symplectic_realization['trace_indices_and_exact_centralizers_checked']
+    assert not symplectic_realization['full_fiber_component_theorem']
+    for name,expected in symplectic_realization['source_sha256'].items():
+        assert digest(ROOT/name)==expected,name
     middle_fiber=read('middle-exterior-fiber-component-verification.json')
     assert sum(x['pairings'] for x in middle_fiber['independent_exterior_derivatives'])==5419
     assert len(middle_fiber['differential_checks'])==5
@@ -1039,7 +1048,9 @@ def main():
     paths += [ROOT/'type-a-character-degeneration-verification.json']
     paths += [ROOT/'irreducible-centralizer-realization-verification.json']
     paths += [ROOT/'middle-exterior-fiber-component-verification.json']
+    paths += [ROOT/'symplectic-centralizer-realization-verification.json']
     report=dict(result='passed',version=version,
+        symplectic_centralizer_realization=symplectic_realization,
         middle_exterior_fiber_component=middle_fiber,
         irreducible_centralizer_realization=irreducible_realization,
         type_A_character_degeneration=character_degeneration,

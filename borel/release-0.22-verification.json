@@ -1,6 +1,139 @@
 {
   "result": "passed",
   "version": "0.22.0",
+  "symplectic_centralizer_realization": {
+    "result": "passed",
+    "date": "2026-10-23",
+    "sage_version": "9.5",
+    "coefficient_isomorphisms": [
+      {
+        "m": 1,
+        "index": 2,
+        "determinant": "1"
+      },
+      {
+        "m": 2,
+        "index": 14,
+        "determinant": "-4/49"
+      },
+      {
+        "m": 3,
+        "index": 132,
+        "determinant": "-8/35937"
+      },
+      {
+        "m": 4,
+        "index": 1430,
+        "determinant": "4096/261351000625"
+      },
+      {
+        "m": 5,
+        "index": 16796,
+        "determinant": "32768/1305357212703620999"
+      },
+      {
+        "m": 6,
+        "index": 208012,
+        "determinant": "-16777216/19777454323720091605435816729"
+      },
+      {
+        "m": 7,
+        "index": 2674440,
+        "determinant": "-268435456/466659492997669850196648857271845390625"
+      },
+      {
+        "m": 8,
+        "index": 35357670,
+        "determinant": "72057594037927936/9541774305225277099712612245414249912578720540814625390625"
+      },
+      {
+        "m": 9,
+        "index": 477638700,
+        "determinant": "9223372036854775808/4935778328933858988887947707597593490017554250327131279145153045654296875"
+      },
+      {
+        "m": 10,
+        "index": 6564120420,
+        "determinant": "-1208925819614629174706176/141633335621327760478680650353345126459678902817088047715480318187652422054241580451181640625"
+      }
+    ],
+    "actual_primitive_cases": [
+      {
+        "m": 1,
+        "label": "power_1",
+        "primitive_dimension": 5,
+        "scalar": "1",
+        "spectral_polynomial": "z^2 + z + 1",
+        "ambient_tangent_pairings": 10,
+        "centralizer_dimension": 4
+      },
+      {
+        "m": 1,
+        "label": "mixed",
+        "primitive_dimension": 5,
+        "scalar": "1",
+        "spectral_polynomial": "z^2 + z + 1",
+        "ambient_tangent_pairings": 10,
+        "centralizer_dimension": 4
+      },
+      {
+        "m": 1,
+        "label": "zero",
+        "primitive_dimension": 5,
+        "scalar": "1",
+        "spectral_polynomial": "z^2 + 1",
+        "ambient_tangent_pairings": 10,
+        "centralizer_dimension": 4
+      },
+      {
+        "m": 2,
+        "label": "power_1",
+        "primitive_dimension": 42,
+        "scalar": "1",
+        "spectral_polynomial": "z^4 + 7/2*z^3 + 11/4*z^2 + 7/2*z + 1",
+        "ambient_tangent_pairings": 36,
+        "centralizer_dimension": 12
+      },
+      {
+        "m": 2,
+        "label": "power_3",
+        "primitive_dimension": 42,
+        "scalar": "1",
+        "spectral_polynomial": "z^4 + 7/2*z^3 - 3/4*z^2 + 7/2*z + 1",
+        "ambient_tangent_pairings": 36,
+        "centralizer_dimension": 12
+      },
+      {
+        "m": 2,
+        "label": "mixed",
+        "primitive_dimension": 42,
+        "scalar": "1",
+        "spectral_polynomial": "z^4 + 21/2*z^3 - 3/4*z^2 + 21/2*z + 1",
+        "ambient_tangent_pairings": 36,
+        "centralizer_dimension": 12
+      },
+      {
+        "m": 2,
+        "label": "zero",
+        "primitive_dimension": 42,
+        "scalar": "1",
+        "spectral_polynomial": "z^4 + z^2 + 1",
+        "ambient_tangent_pairings": 36,
+        "centralizer_dimension": 12
+      }
+    ],
+    "actual_primitive_tangent_pairings": 174,
+    "contraction_kernels_and_invariance_checked": true,
+    "trace_indices_and_exact_centralizers_checked": true,
+    "used_runtime_character_or_borel_api": false,
+    "full_fiber_component_theorem": false,
+    "scope": "Finite exact primitive-kernel trace corroboration of the separate written all-rank proof; shared Sage arithmetic and signed-wedge helpers; no external audit or novelty certificate.",
+    "source_sha256": {
+      "SYMPLECTIC_CENTRALIZER_REALIZATION.md": "0bb9a55fa5b418a5e99ff1dc9128e1d4c25c8a38e8b9fb71f64a2d959fa92de8",
+      "tools/verify_symplectic_centralizer_realization.py": "fbaf9477120867e1168914e62b1139e8c578197c95363253a1b3dd3e77fd1fff",
+      "tools/verify_type_a_character_degeneration.py": "446748b54d7a71aaed000610d0236389e820d443c155a406acbb0526b78dbf87"
+    }
+  },
   "middle_exterior_fiber_component": {
     "result": "passed",
     "date": "2026-10-23",
@@ -5051,7 +5184,7 @@
   "other_theories_exploration": {
     "reports_checked": 13,
     "proof_notes": 10,
-    "ledger_entries": 142,
+    "ledger_entries": 143,
     "source_hashes_checked": true,
     "symbolic_SL3_integral_reductions": true,
     "historical_exploration_runtime_changed": false,
@@ -5258,7 +5391,7 @@
   "standard_monomial_counts_rechecked": "Singular vdim and independent integer exponent-slice recursion",
   "regression_tests": 208,
   "documentation_examples": 54,
-  "local_links_and_anchors": 1817,
+  "local_links_and_anchors": 1825,
   "isolated_wheel_tests": 75,
   "wheel_sha256": "943ca8b76c628251b8ce6073c76c9b156ae71194fd8c81162fd259df2e1a4ba8",
   "wheel_sources_and_data_match": true,
@@ -5484,10 +5617,10 @@
     "OTHER_THEORIES_QUANTUM.md": "97c5dad8add109648feb25bcd0fb35efc6d5eaa52d9b49dc52f7f30fadd70712",
     "OTHER_THEORIES_SL3.md": "e9fc1b6a3092532b08513193c6d6e87ea338948ae42de3031296438f822f6c99",
     "OTHER_THEORIES_TYPE_A.md": "54269c7e04730b556364b0beff633aae7b2a39620983875969b11c38ad3280e3",
-    "PROOF_STATUS.md": "1545e5201018b1f85657ea916121bf93553ffaa98a5124bc34b2d581a29cae17",
-    "README.md": "577baa8e6c6b2e6a620e82b70c1d13b51bafbb46e611074ae353ad3826ff16cf",
+    "PROOF_STATUS.md": "cbd03fc7866242007bef67f4f2d56c7dff643d65688b0ceed9a2485444e47c53",
+    "README.md": "7207e549e1f91f18ad1809ba7d94a9be03c7f1274370e81fa9f96a1607a91295",
     "REGULARITY_CLASSIFICATION.md": "5f22fb431145bf438148d74544beb51da78e6cae03c80745c2c9768d8922cf54",
-    "RESEARCH_LEDGER.md": "d3b453f0335aa6ecaf308809e69bdc6fe0374711f1a8cfd8c3e9f2fcd67852a1",
+    "RESEARCH_LEDGER.md": "7aec22fb969fde336597975c8237479ea2746e95bd3ca65d43a0c4d155bdfe49",
     "SPIN_CAYLEY_DEGREES.md": "b38d93a60bed0c20ab7147e53aac2805644f8fcc49f04445a002edfca3a6ad67",
     "SPIN_CAYLEY_GEOMETRY.md": "3bf72a4dd7e8c0db64213b50f56f47fbc7775b76c2cb168215be06ff3d94cf07",
     "SPIN_PARITY_BOUNDARY.md": "8758219bb76b777529e244cd77de7e3cf4d70fd51f0d6b54166e8ed47b31d130",
@@ -5511,7 +5644,7 @@
     "cayley-fiber-assessment-verification.json": "ee52a710ff9a9e49eb72428e440d731aadaf78a084dd130f1bf7cd154a084c9a",
     "cayley-literature-verification.json": "3a8b165adfe5736bcc7f9aea80c9afbc221e1248f8d6af64b1fbe5efe5dfe01c",
     "character-verification.json": "e28a6dbfbcfd3ed980a070a4de6793eba6d90320c32c9437a53bab048c614909",
-    "documentation-verification.json": "fdbee1109363f98fd787f9353f60af248768208af78765b0694be26430b5f80c",
+    "documentation-verification.json": "8a3e5537161ebc38ba277e9185c4079480ea9c51f0233a29c9400f1254ac70f3",
     "e6-adjoint-deformation-verification.json": "bffa1a623b82690b298598b33c6069628011031c03cfd57d572473a9d54ede13",
     "equivariant-verification.json": "546b24595dc0c2529889baf70b31d325e91233f0dfde80bef85bf936fc7d8bcf",
     "experiments/a5-even-block-sources-audit.json": "545505e1e6644975343977f2e44ee2937d9e9a555987f50ae9b1a4d6658b6bdd",
@@ -5842,7 +5975,7 @@
     "irreducible-centralizer-realization-verification.json": "ee400333909ce7566eae57c749f5ff4a287c60c2ff7e2d005bca2eb33dd180dd",
     "middle-exterior-fiber-component-verification.json": "078dcc0a6133f48def8dd169ae1f2977284fda08bbba851e9b81077d31735f48",
     "mixed-regularity-verification.json": "98684d563c2af2d09b7a01ee3f2d77e4a42d9cf4620cdd5358df94066d1fd1ec",
-    "other-theories-verification.json": "ab3754f03c3cc351bd0d2687d66c3303be1eda6c77df78ad6618c387cacd73a2",
+    "other-theories-verification.json": "740714758d59eb31a5d2e26b89c6bf27b549ac04ce06fbc72c924b7aa676b162",
     "regularity-classification-verification.json": "7f25f0ae569530ee5a7f71848e8bceb545ea9ecd7dd50a7898e362d0adece9d0",
     "relative-image-verification.json": "77de36bd2b4e74e8a76f0f05bbac78cf556f5ec121becbdad2e716202addbe3d",
     "root-borel-verification.json": "4528981e7cdb4198a82036d383fcedfa675898503ec4309a77b14563032ad954",
@@ -5885,6 +6018,7 @@
     "src/sage_borel/root_borel.py": "0bc1aa676ac3e139e86aa1b8c771cdf108868c9e32ad5b2db481a60cff1e0349",
     "symplectic-balancing-verification.json": "85705ebf3624954dc01cfe30bac050114daf20d35a86cdab9068fc47bc34ba1b",
     "symplectic-cayley-degrees-verification.json": "166280095add147d455ce821f19de255535b3889032df9c142afab56a93fd87b",
+    "symplectic-centralizer-realization-verification.json": "a857f3afc07f912ecd5d71fe42ed4d6949a1f63cdbe5790da3fad2ba33a1ee66",
     "symplectic-harmonic-localization-verification.json": "ef18b0c1907e1fc11703690027b8cc217a59920d20618efcea69ac487e5b4ba5",
     "symplectic-minors-verification.json": "84ed00b617afdcec004c3f1ab9ca2c05ec2d0d2732264ad46ff9d02e3885c447",
     "symplectic-ordinary-verification.json": "ed39417606bd1ff121dc29583c6471e916f3a5bc7d2d0f8e79be90ca8271ea1e",
@@ -5902,10 +6036,10 @@
     "tools/package_e7_relative_images.py": "e11c39eae18d54c8b3e26ae812359cded5d25e94da3dfd2e8842e2641d42cad0",
     "tools/verify_bc_mixture_degrees.py": "b37e4aee9e569d59c84bdd6ca9fb3ab598098fb332db2a3b40c3416b9ddef355",
     "tools/verify_cayley_literature.py": "56066228924290a6b31fa5f94897665625e9e96f2619193212ed82a13341a811",
-    "tools/verify_documentation.py": "d80619f197ba57c354d308ae13f8a6e66174f2bcec785cc11821e4666a396b6c",
+    "tools/verify_documentation.py": "13ba41f638db03ff8f55fc250e563d72abca572c69c47e929c3a562c722ab07b",
     "tools/verify_e6_adjoint_deformation.py": "c1a8c12d12e410d41cab05d3d0c3fd26a48c20ef8c33d12c25de1eadd91fb46e",
     "tools/verify_equivariant.py": "360a4b0825394205da56515b31b77abf25fa0de751901b360431faed370cf498",
-    "tools/verify_exceptional_degree_release.py": "41bce3cfe101431e7fe506bed1e47cd7fd1cea2a9145c6d2c73d74ab056dabac",
+    "tools/verify_exceptional_degree_release.py": "a919a6042a691a92f417c1e0fcd4d72eb623d8c778fa88a267bb1c9d5eab2dac",
     "tools/verify_exterior_regularity.py": "453130eb8b8cd3f8a53f7a9ddf1fb299c80e320d0dd03eff04d9b6fb73fa3ad3",
     "tools/verify_f4_minimal_degree.py": "8b7b895c0aecccaaf8451203289efed9f9a322dfc7103be525e4902fcba4486e",
     "tools/verify_f4_mixture_degree.py": "45a15eb0f884de3127a1d0b30eca6e5cc7ccd70a9842b7801ee183fd2a53d2fe",
@@ -5916,7 +6050,7 @@
     "tools/verify_half_spin_degree.py": "733805ad3a709862ddd25b9628530555204429b0b7d53833a5fad07b0c54b171",
     "tools/verify_half_spin_rank_degrees.py": "e46e37af63bed412041bc12b7b218359787ba081967a38145e7a924dce2d319f",
     "tools/verify_mixed_regularity.py": "37d932df901247a3b1028d741f3c5e81a1c03c2c342415ecf8de8cc85508f2c5",
-    "tools/verify_other_theories.py": "830f720507cab9c5df88b272cdc2d4dddc91884ec1b630ffdb9b37492183d217",
+    "tools/verify_other_theories.py": "86091ed0be495a00de48a15f503c1b16121e544379702835ea15cc6445e3c6bf",
     "tools/verify_regularity_classification.py": "e9e66ecc61bb8308db6f8f9729bf7b2bbc19f344a6978e87f7fc0088e563c8b1",
     "tools/verify_relative_images.py": "0bad330a58ad84df9daeb54933cee539ac0175e3d543c6ae581139989e444e9a",
     "tools/verify_spin_cayley_degree.py": "4fc0d8fd0607f6271291dd3b47e1ecaa3b0acba648b5ac68cc0f369324509b25",

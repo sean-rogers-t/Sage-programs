@@ -36,7 +36,7 @@ projective model before B/D quadrics and isotropic Grassmannians. The
 [current sequence](OTHER_THEORIES_PROGRAM.md#current-focus-equivariant-images-in-the-classical-a-d-families)
 retains the Spin/SO lattice distinction; it adds no completed theorem.
 The Spin parity classification is shelved at the user's request. The expanded
-ledger has 142 entries, including 20 open questions. The proposal itself
+ledger has 143 entries, including 20 open questions. The proposal itself
 adds no theorem; subsequent progress is tracked here and in its README.
 
 The current focus is the geometry and representation-dependent degrees
@@ -142,9 +142,15 @@ nilpotent polynomial map, up to scalar, in the fixed irreducible
 middle-exterior family by varying a noncentral semisimple point.
 GEO-32 now identifies a full-fiber component: for even block size m it is the
 collapsed unipotent variety and is generically reduced; for odd m it
-is a larger target-centralizer sweep with multiplicity two. The next
-gate is its local structure at nonregular unipotent points, where the
-cyclic-block proof no longer applies. Novelty remains unverified.
+is a larger target-centralizer sweep with multiplicity two. Its local
+structure at nonregular unipotent points remains open here.
+GEO-33 extends realization to genuine type C centralizers: the primitive
+middle-exterior representation of Sp_(4m) realizes every odd nilpotent
+polynomial on sp_(2m), up to scalar, by varying the semisimple point.
+The zero case gives a 2m^2-dimensional collapsed unipotent variety.
+The next gate is its full-fiber component and transverse scheme structure;
+the type A component theorem does not automatically transfer. Novelty
+remains unverified.
 Full-group inverse presentations remain a later goal toward branch and
 non-finite target equations.
 Boundary scheme structure and maximal finite target loci remain open
@@ -329,6 +335,7 @@ theorems have a>=1,k>=2. Changes of integral source are explicit, not implicit.
 | GEO-30 | Exterior-mixture translated Springer maps on SL_m have explicit central binomial coordinates. For even m at -I their order is m-1 minus the interpolation degree of the multiplicities. Every order 1,...,m-1, and the zero map, occurs in faithful representations. | Written arbitrary-rank proof using determinant differentiation, finite differences and the tensor square of the exterior algebra. General type A centralizer coefficients are twisted primitive trace indices divided by the quadratic index and k!. Published character/index theory supplies the inputs; no novelty claim. Independent wedge matrices check 140 trace moments, 203 cyclotomic central comparisons, 16 every-order witnesses, 45 symbolic SL4 tangent pairings and an explicit SL2 tensor square. Zero maps cannot occur within a nontrivial exterior direct sum itself. Irreducible central representations have order one; proper-centralizer branching remains the next question. | [Theorems, proofs and literature scope](TYPE_A_CHARACTER_DEGENERATION.md), [matrix audit](type-a-character-degeneration-verification.json) |
 | GEO-31 | For every m>=2 the fixed irreducible exterior^m representation of SL_(2m) realizes every sl_m-equivariant nilpotent polynomial map, up to nonzero target scalar, as a full translated centralizer map at suitable noncentral semisimple points. | Written all-rank proof: invertible binomial transform and a finite discriminant exclusion give precisely S(GL_m x (C*)^m) centralizers. All orders 1,...,m-1 and the zero map occur. The zero case places a closed translated unipotent variety of dimension m^2-m in a full Springer fiber; component status is not established. The representation has finite kernel mu_m and nondegenerate trace form; faithful on its central quotient. Independent irreducible compound/wedge matrices verify 12 cases with 500 full ambient tangent pairings, plus 35 symbolic SL6 pairings. Published character and KM constructions are inputs; no priority claim, full ambient-fiber classification, generic-degree result or integral-image consequence. | [Realization theorem, proof and limits](IRREDUCIBLE_CENTRALIZER_REALIZATION.md), [independent matrix audit](irreducible-centralizer-realization-verification.json) |
 | GEO-32 | In the middle-exterior zero model, the target-centralizer sweep C of t U(H) is a full Springer-fiber component. For even m, C=t U(H), dimension m^2-m, generic multiplicity one. For odd m, C is larger, dimension m^2-1, generic multiplicity two. | Written arbitrary-rank scheme proof: commutation confines the ambient fiber to the target centralizer; cyclic-block coefficient elimination yields the residual equations 1-s^(2m) and (s^m-1)^2. Completed local rings on the regular-unipotent locus are a power-series ring, or that ring with one square-zero variable. Independent actual exterior matrices check 5419 derivative pairings; polynomial ranks through m=6, curve identities through m=8 and cyclotomic collisions through m=16 agree. These are deductions from established inputs with unverified novelty. Other components and the scheme at nonregular points are not classified. | [Component and local-scheme theorem](MIDDLE_EXTERIOR_FIBER_COMPONENT.md), [independent audit](middle-exterior-fiber-component-verification.json) |
+| GEO-33 | For each m>=1, the fixed irreducible primitive middle-exterior representation of Sp_(4m) realizes every odd nilpotent polynomial on sp_(2m), up to nonzero scalar, as a translated centralizer map with H=Sp_(2m) x (C*)^m. The zero case gives a closed 2m^2-dimensional subvariety in a Springer fiber. | Written all-rank proof from an invertible reciprocal coefficient pairing and a squarefree zero spectrum. Independent contraction-kernel representation matrices in dimensions 5 and 42 check 174 ambient trace pairings; exact coefficient checks through m=10. Classical character and nilpotent-map inputs are separated from the realization deduction. Novelty is unverified; full-fiber components and multiplicities in type C are not established. | [Symplectic realization proof](SYMPLECTIC_CENTRALIZER_REALIZATION.md), [independent audit](symplectic-centralizer-realization-verification.json) |
 
 GEO-07 also implies that no nontrivial irreducible representation of a
 nontrivial central quotient SL_n/C preserves torus regularity: the only

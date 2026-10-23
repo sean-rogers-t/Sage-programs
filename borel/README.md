@@ -12,6 +12,7 @@ the mathematical guide for the Borel/Springer construction.
 
 | Question | Guide |
 | --- | --- |
+| Does the realization theorem extend beyond type A? | [Every odd nilpotent map occurs on a symplectic centralizer in the fixed primitive middle-exterior family](SYMPLECTIC_CENTRALIZER_REALIZATION.md) |
 | Are the collapsed unipotent varieties actual full-fiber components? | [Middle-exterior component theorem: parity of the block size determines enlargement and multiplicity](MIDDLE_EXTERIOR_FIBER_COMPONENT.md) |
 | Can a single irreducible representation realize these degenerations? | [All type A nilpotent polynomial maps occur on proper centralizers in the fixed middle-exterior family](IRREDUCIBLE_CENTRALIZER_REALIZATION.md) |
 | Which degeneration orders can actual representations realize? | [Type A character criterion, closed exterior-mixture classification and every-order realization in even dimension](TYPE_A_CHARACTER_DEGENERATION.md) |

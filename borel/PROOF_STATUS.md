@@ -1,5 +1,20 @@
 # Proof and literature status of the integral image notes
 
+The [symplectic realization theorem](SYMPLECTIC_CENTRALIZER_REALIZATION.md)
+extends realization to genuine type C centralizers. In the fixed irreducible
+primitive middle-exterior representation V_(omega_(2m)) of Sp_(4m), every
+odd polynomial map on the nilpotent cone of sp_(2m) occurs, up to a nonzero
+target scalar, as a translated centralizer map at a noncentral semisimple
+point with centralizer Sp_(2m) x (C*)^m. This includes zero, giving a closed
+2m^2-dimensional unipotent subvariety in a Springer fiber. The all-rank proof
+inverts a palindromic/anti-reciprocal coefficient pairing and deforms a
+squarefree root-of-unity spectrum. Independent actual primitive-kernel
+matrices in dimensions 5 and 42 check 174 ambient trace pairings; coefficient
+matrices are checked exactly through m=10. Classical character identities,
+Cayley coordinates and nilpotent centralizers are inputs; novelty is
+unverified. No type C full-fiber component or multiplicity theorem follows
+yet. These are complex group-map statements, not integral Borel-image claims.
+
 The [middle-exterior full-fiber theorem](MIDDLE_EXTERIOR_FIBER_COMPONENT.md)
 now identifies the zero model's component and generic scheme structure in
 every rank m>=2. For even m, t U(H) itself is a component of dimension
