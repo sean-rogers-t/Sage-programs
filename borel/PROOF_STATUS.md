@@ -1,5 +1,25 @@
 # Proof and literature status of the integral image notes
 
+The [classical adjoint fiber theorem](CLASSICAL_ADJOINT_FIBERS.md) closes
+the B1/D2 cubic gaps and completes generic regular-fiber smoothness,
+nonemptiness and dimension for every proper Levi in types A-D. In B/C/D
+every GL block must have size at most four, with residual rank at most
+two/one/three, respectively; these bounds are also sufficient generically.
+The D statement uses n>=4; the D3 isomorphism is handled by type A.
+Every nonempty generic regular fiber has pure dimension dim K-rank G.
+A square-substitution criterion controls ramification, a quartic spectral
+identity excludes dominating bad loci and excess quotient parameters,
+and an explicit deformation at zero target proves dominance for every
+permitted block pattern. The last step does not assume that the starting
+source is G-regular: K-regularity suffices until the target is moved into
+its proper centralizer stratum. Independent tensor-square matrices check
+1,425 trace-form, 69 Springer trace and 1,425 full differential pairings;
+symbolic checks cover all proof mechanisms without a rank sweep.
+These are written deductions from standard inputs, not an established
+novelty claim or an external referee report. Nonregular parts of fibers,
+special targets, orbit counts and arbitrary representations remain separate.
+No public API or PDF change accompanies this proof work.
+
 The [quadratic branching theorem](QUADRATIC_BRANCHING_FIBERS.md) now proves
 generic Morse-Bott behavior for every character quadratic in the semisimple
 Levi fundamental characters, with no constant-rank hypothesis. For
@@ -14,8 +34,9 @@ one singleton; with t double blocks their dimension is 2t. Excluded proper
 Levis have no regular fiber points for any target in that stratum. This
 does not classify wholly nonregular components. The adjoint is quadratic
 on every type C Levi; in B and D the only cubic exceptions are residual
-B1 or D2 with a nontrivial SL block. Those exceptions remain unresolved
-geometrically. Eight exact scheme controls, 58 type A partitions, 24
+B1 or D2 with a nontrivial SL block. These were the remaining cases at
+that checkpoint; the new classical adjoint theorem resolves them.
+Eight exact scheme controls, 58 type A partitions, 24
 dominance checks, 347 root restrictions and a Sage-free original-adjoint
 matrix audit corroborate the written proofs. Standard inputs and deductions
 are separated; literature priority is unverified and the public API is unchanged.

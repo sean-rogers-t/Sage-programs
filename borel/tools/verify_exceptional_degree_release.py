@@ -29,6 +29,22 @@ def main():
     version=sage_borel.__version__
     regression=read('character-verification.json')
     docs=read('documentation-verification.json')
+    classical_adjoint=read('classical-adjoint-fibers-verification.json')
+    assert not classical_adjoint['uses_Sage']
+    assert classical_adjoint['classical_all_rank_smoothness_written_proof']
+    assert classical_adjoint['mixed_block_nonemptiness_classified']
+    assert classical_adjoint['generic_regular_dimension']=='dim K-rank G'
+    assert not classical_adjoint['public_API_changed']
+    assert not classical_adjoint['literature_priority_claim']
+    assert len(classical_adjoint['matrix_checks'])==4
+    assert sum(r['trace_form_pairings'] for r in classical_adjoint['matrix_checks'])==1425
+    assert sum(r['Springer_trace_pairings'] for r in classical_adjoint['matrix_checks'])==69
+    assert sum(r['full_differential_pairings'] for r in classical_adjoint['matrix_checks'])==1425
+    assert sum(r['regular_unipotent_control'] for r in classical_adjoint['matrix_checks'])==1
+    assert len(classical_adjoint['deformation']['symbolic_deformation_branches'])==11
+    assert not classical_adjoint['deformation']['rank_sweep']
+    for name,expected in classical_adjoint['source_sha256'].items():
+        assert digest(ROOT/name)==expected,name
     quadratic_branching=read('quadratic-branching-fibers-verification.json')
     adjoint_matrix_audit=read('type-a-adjoint-fibers-audit.json')
     assert len(quadratic_branching['scheme_controls'])==8
@@ -1204,7 +1220,20 @@ def main():
     paths += [ROOT/name for name in ('QUADRATIC_BRANCHING_FIBERS.md',
         'quadratic-branching-fibers-verification.json','type-a-adjoint-fibers-audit.json',
         'tools/verify_quadratic_branching_fibers.py','tools/audit_type_a_adjoint_fibers.py')]
+    paths += [ROOT/name for name in ('CLASSICAL_ADJOINT_FIBERS.md',
+        'classical-adjoint-fibers-verification.json','tools/verify_classical_adjoint_fibers.py')]
     report=dict(result='passed',version=version,
+        classical_adjoint_fibers=dict(all_rank_generic_smoothness=True,
+            all_rank_generic_nonemptiness_classified=True,
+            generic_regular_dimension='dim K-rank G',
+            BCD_criterion='GL blocks <=4; residual rank <=2/1/3, D_n with n>=4',
+            proof_mechanisms=['controlled square substitution','quartic spectral lemma',
+                              'zero-target deformation with nonzero trace derivative'],
+            independent_matrix_cases=4,trace_form_pairings=1425,
+            Springer_trace_pairings=69,full_differential_pairings=1425,
+            symbolic_deformation_branches=11,rank_sweep=False,
+            certificate='classical-adjoint-fibers-verification.json',
+            scope='Written complete classical adjoint theorem for generic regular parts over proper Levi strata. Whole fibers, special targets, counts, other representations and priority remain separate. Public API unchanged.'),
         general_cayley_fiber_critical=critical_fiber,
         simple_group_branching=simple_branching,
         symplectic_target_strata=symplectic_strata,

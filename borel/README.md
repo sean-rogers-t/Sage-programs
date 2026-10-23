@@ -12,6 +12,7 @@ the mathematical guide for the Borel/Springer construction.
 
 | Question | Guide |
 | --- | --- |
+| What are the generic regular fibers of the adjoint Springer maps in every classical rank? | [Complete smoothness, nonemptiness and dimension theorem; square-substitution criterion](CLASSICAL_ADJOINT_FIBERS.md) |
 | When does Levi branching prove generic smoothness and predict excess dimension? | [Affine branching theorem, singular-coefficient exclusion and uniform A/C consequences](AFFINE_BRANCHING_FIBERS.md) |
 | Exactly which fundamental representations and Levis satisfy that affine hypothesis? | [All-rank classical classification and complete exceptional certificates](AFFINE_BRANCHING_CLASSIFICATION.md) |
 | Does generic smoothness extend beyond affine branching, including rank changes? | [Quadratic theorem, complete SL_N adjoint regular-fiber criterion, and classical transfer](QUADRATIC_BRANCHING_FIBERS.md) |
