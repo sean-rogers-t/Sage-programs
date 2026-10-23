@@ -1,6 +1,6 @@
 # Springer and Borel research ledger
 
-Updated 2026-10-22. The research priority is **generalizable statements**:
+Updated 2026-10-23. The research priority is **generalizable statements**:
 uniform formulas, structural explanations, sharp hypotheses and counterexamples.
 Individual group calculations serve as tests of those statements and remain
 valuable exact results with their own stated scope.
@@ -36,7 +36,7 @@ projective model before B/D quadrics and isotropic Grassmannians. The
 [current sequence](OTHER_THEORIES_PROGRAM.md#current-focus-equivariant-images-in-the-classical-a-d-families)
 retains the Spin/SO lattice distinction; it adds no completed theorem.
 The Spin parity classification is shelved at the user's request. The expanded
-ledger has 138 entries, including 20 open questions. The proposal itself
+ledger has 139 entries, including 20 open questions. The proposal itself
 adds no theorem; subsequent progress is tracked here and in its README.
 
 The current focus is the geometry and representation-dependent degrees
@@ -129,9 +129,14 @@ adjoint coordinates. GEO-29 now proves a general centralizer formula for
 the vertical rank and completes the G2 minimal/adjoint rank rules. Full
 symbolic 7- and 14-dimensional trace checks agree. Mixed terms can recover
 rank on root hypertori; away from them the rank is constant on tU.
-The next goal is to implement this reduction using smaller centralizer
-root systems and test a proper nonabelian F4 centralizer. General
-singular-fiber classifications remain separate.
+The [2026-10-23 assessment](CAYLEY_FIBER_ASSESSMENT.md) now pauses further
+rank tables and the proposed F4 rank API. KM 4.12 already defines the
+translated centralizer map; known nilpotent-map theory handles much of
+the proposed extension. The uniform fiber reduction and type A power-map
+normal form are explanatory deductions. LIMIT-13 disproves a universal
+affine-fiber hope. The next gate is a literature audit and uniform
+representation-realization criterion for degenerate translated maps,
+not another group calculation. Its novelty and wider openness are unverified.
 Full-group inverse presentations remain a later goal toward branch and
 non-finite target equations.
 Boundary scheme structure and maximal finite target loci remain open
@@ -355,6 +360,7 @@ substitutes for a uniform theorem.
 | LIMIT-10 | The Spin7 failure persists for every odd spin full flag of rank at least 3, or disappears for every rank at least 4. | Both are false. Spin9/B has an explicit derivative-stable entire kernel, independently certified by a torsion-free rank-16 symmetric-source presentation. Spin15/B and Spin17/B have actual integral relations with derivative remainders c3*c7 and c7*c8 outside the whole reduced kernel. Their first failure degrees are 11 and 16. These are complete finite-rank proofs, not a congruence classification. | [Stable presentation and later obstructions](SPIN_PARITY_EXTENSION.md), [independent audit](experiments/spin-parity-extension-audit.json) |
 | LIMIT-11 | The full linear lattice alone classifies the K-image, or old ambient Smith factors transfer automatically. | False. For a=6k+4, the SL3 modules aV+Sym^2(V) and aV+Sym^2(V*) have identical full source I*Q, I=a+5, and identical ordinary images on P2. Their positive K factors are (3,3I^3) and (9,I^3), versus ordinary (3I,3I^2). This is a proved infinite family. | [Proof and exact first pair](OTHER_THEORIES_FINITE.md) |
 | LIMIT-12 | An ordinarily integral rationally normalized generator automatically gives an integral K/character source. | False. On Sp4/P1 the normalized coordinate epsilon_1 maps to h in H, but its associated rational K-class is v-v^2/2+v^3/2. The literal generator 2epsilon_1 is integral. The full-source hypothesis of IMG-27/28 cannot be dropped on that basis. | [Normalization counterexample](OTHER_THEORIES_FINITE.md#1-a-direct-k-theory-map-already-exists) |
+| LIMIT-13 | All fixed-t Springer fibers are affine spaces, or a vanishing centralizer linear term forces the translated map to vanish. | Both are false. For standard plus dual on SL_(4k), t=iI gives a translated map polynomially equivalent to (i/2)Y^2. In SL4 the zero fiber is reduced with two four-dimensional components meeting in dimension three. Full 8-dimensional trace projection and exact ideal decomposition agree. The accompanying literature assessment identifies KM 4.12/4.13 and established nilpotent-map/square-zero theory; the general fiber reduction and type A normal form are written deductions, not novelty claims. Further rank tables are paused pending a substantive representation-realization question. | [Assessment, proofs and revised research gate](CAYLEY_FIBER_ASSESSMENT.md), [symbolic check](cayley-fiber-assessment-verification.json) |
 
 ## Partial results and conditional routes
 

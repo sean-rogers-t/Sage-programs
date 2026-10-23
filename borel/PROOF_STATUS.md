@@ -1,5 +1,19 @@
 # Proof and literature status of the integral image notes
 
+The 2026-10-23 [fiber-program assessment](CAYLEY_FIBER_ASSESSMENT.md)
+supersedes the proposed F4 rank-table next step. KM 4.12 already defines
+the translated centralizer map, and KM 4.13 supplies an isomorphism
+criterion. The contracted-product fiber reduction and type A matrix-power
+normal form are elementary deductions from known theory, with explicit
+proofs here and no novelty claim. Actual Springer maps can have reducible
+fixed-t fibers: standard plus dual for SL_(4k), at t=iI, reduces to the
+matrix square map; an independent SL4 trace/ideal check verifies two
+four-dimensional components. This refutes a universal affine-fiber
+claim. Square-zero geometry is already studied by Melnikov. The remaining
+candidate is representation-realization of degenerations, not the
+abstract existence of nilpotent polynomial maps; its literature openness
+is unverified. More group rank tables and the F4 rank API are paused.
+
 The [G2 vertical-rank theorem](G2_BOREL_RANK.md) gives all ranks for the
 minimal and adjoint Springer maps on tU, using a centralizer normal form
 on root hypertori. Its general reduction is

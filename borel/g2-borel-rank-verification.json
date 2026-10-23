@@ -285,7 +285,7 @@
   "independence": "Minimal matrices are built from explicit sl2 weight strings and checked against Chevalley-Serre relations. Adjoint trace uses full Lie matrices. Both avoid the fixed-vector recurrence; sign alignment and the adjoint route share Sage root constants. Not a separate CAS or external review.",
   "limitations": "No full B/G differential, scheme-theoretic fiber or target branch-locus classification; no novelty claim.",
   "source_sha256": {
-    "G2_BOREL_RANK.md": "c9e35a12801122b44bb2ff141dac9a82b0efa7f249ed086385cc352bd6793446",
+    "G2_BOREL_RANK.md": "6e4c6ea3324c177bbcf3795f8d0f2949552b0deb7d76a4160f6af78928e261ce",
     "tools/verify_g2_borel_rank.py": "c31adb288200114a72c1d5e431ab8994b77859b62d399c2973c46f385c326eae",
     "src/sage_borel/root_borel.py": "0bc1aa676ac3e139e86aa1b8c771cdf108868c9e32ad5b2db481a60cff1e0349",
     "src/sage_borel/characters.py": "99a77451324b4ab09aed65952cc3cce50dbc93e650333d35a6f79bbe5618e419",

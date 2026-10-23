@@ -295,10 +295,11 @@ the rank-two simplification in (4) must not be used without modification.
 
 ## Next step and purpose
 
-Turn (1) into a centralizer-based rank evaluator that avoids expanding
-all Borel coordinates. Its first test should be a singular F4 torus
-point with a proper, nonabelian centralizer. Agreement with a full
-adjoint trace derivative would establish that the reduction scales
-beyond a rank-two table. The goal is reusable rank and collapse
-calculations from smaller root systems, not another list of generic
-determinants. Full fiber geometry remains a later, separate objective.
+The initially proposed F4 rank evaluator is postponed following the
+2026-10-23 [theorem and literature assessment](CAYLEY_FIBER_ASSESSMENT.md).
+KM already defines the translated centralizer map in Section 4.12.
+Generic rank reduction and its affine-fiber consequence are explanatory
+deductions. The next research gate is a representation-dependent
+classification of degenerate translated maps, after auditing the known
+nilpotent-covariant literature. No new group table is needed merely to
+repeat the established mechanism.

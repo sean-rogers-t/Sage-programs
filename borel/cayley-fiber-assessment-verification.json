@@ -1,0 +1,24 @@
+{
+  "result": "passed",
+  "date": "2026-10-23",
+  "sage_version": "9.5",
+  "actual_representation": "SL4: standard direct sum dual; central t=iI",
+  "full_trace_dimension": 8,
+  "lie_gram_dimension": 15,
+  "symbolic_trace_projection_checked": true,
+  "square_map_coordinate_change_and_inverse_checked": true,
+  "zero_linear_nonzero_quadratic_moment_checked": true,
+  "zero_fiber_reduced": true,
+  "zero_fiber_components": 2,
+  "component_dimensions": [
+    4,
+    4
+  ],
+  "intersection_dimension": 3,
+  "uniform_proofs": "Written in the assessment; finite calculations do not prove their all-rank scope.",
+  "literature_scope": "Known translated maps, Springer isomorphism structure and square-zero geometry identified; no exhaustive search or novelty certificate.",
+  "source_sha256": {
+    "CAYLEY_FIBER_ASSESSMENT.md": "77f39420cf1175d5e87d391ca0d68baef915730c0eed486e833e5ba6cf888c4e",
+    "tools/verify_cayley_fiber_assessment.py": "54e9a128f9e2f7019afd1e1eb2f8e9ec419cf6a6995414e0a0e90a32aec3edad"
+  }
+}
