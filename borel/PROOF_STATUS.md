@@ -1,5 +1,24 @@
 # Proof and literature status of the integral image notes
 
+The [fundamental-spin counterexample](SPIN_FIBER_EXCESS.md) refutes the
+candidate that every fundamental representation has isolated nondegenerate
+quotient-critical points over generic semisimple targets in each Levi stratum.
+For Spin_(2n+1), V_(omega_n), and every nonzero rank-two semisimple vector
+target, K has derived group Spin_(2n-1). The corrected potential on its
+central cover is (z+z^(-1))y-2^n lambda log z. Its critical ideal is
+(z^2+1,2y+2^n lambda z), leaving n-2 independent quotient coordinates free.
+The regular part of the full fiber is nonempty and smooth of dimension
+n(2n-3), exceeding dim K-n by n-2. Spin_7 gives dimension 9 instead of 8.
+The normal Hessian determinant is -4, so this does not refute generic
+reducedness. A general unused-coordinate proposition explains the excess
+whenever the corrected potential factors through fewer smooth quotient
+coordinates. Original Clifford matrices independently check 244 trace
+pairings and 9,724 differential entries in ranks 2..5, including exact
+centralizers; Weyl characters are checked through rank 7. These are written
+deductions from standard spin branching and quotient theory; priority is
+unverified. Nonregular strata and universal generic Morse-Bott behavior
+remain unresolved. Previous A/C stratum theorems are unchanged.
+
 The [symplectic target-stratum theorem](SYMPLECTIC_TARGET_STRATA.md) now
 treats every semisimple h with dim ker(h)=2m for the primitive middle
 representation of Sp_(4m). If K=Sp_(2m) x product GL_(r_j), sum r_j=m,

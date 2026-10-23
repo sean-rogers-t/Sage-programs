@@ -29,6 +29,22 @@ def main():
     version=sage_borel.__version__
     regression=read('character-verification.json')
     docs=read('documentation-verification.json')
+    spin_excess=read('spin-fiber-excess-verification.json')
+    assert len(spin_excess['original_matrix_checks'])==8
+    assert len(spin_excess['independent_weyl_characters'])==6
+    assert spin_excess['total_trace_pairings']==244
+    assert spin_excess['total_differential_pairings']==9724
+    assert spin_excess['symbolic_critical_scheme']['normal_hessian_determinant']==-4
+    assert spin_excess['generic_morse_candidate_refuted']
+    assert not spin_excess['generic_reducedness_refuted']
+    assert not spin_excess['nonregular_fibers_classified']
+    for row in spin_excess['original_matrix_checks']:
+        n=row['rank']
+        assert row['differential_rank']==4*n
+        assert row['actual_tangent_dimension']==n*(2*n-3)
+        assert row['actual_tangent_dimension']-row['proposed_fiber_dimension']==n-2
+    for name,expected in spin_excess['source_sha256'].items():
+        assert digest(ROOT/name)==expected,name
     symplectic_strata=read('symplectic-target-strata-verification.json')
     assert len(symplectic_strata['first_block_ideal_checks'])==136
     assert len(symplectic_strata['even_pairing_checks'])==16
@@ -1100,10 +1116,12 @@ def main():
     paths += [ROOT/'general-cayley-fiber-critical-verification.json']
     paths += [ROOT/'simple-group-cayley-branching-verification.json']
     paths += [ROOT/'symplectic-target-strata-verification.json']
+    paths += [ROOT/'spin-fiber-excess-verification.json']
     report=dict(result='passed',version=version,
         general_cayley_fiber_critical=critical_fiber,
         simple_group_branching=simple_branching,
         symplectic_target_strata=symplectic_strata,
+        spin_fiber_excess=spin_excess,
         symplectic_fiber_component=symplectic_fiber,
         symplectic_centralizer_realization=symplectic_realization,
         middle_exterior_fiber_component=middle_fiber,

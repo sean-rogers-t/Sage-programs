@@ -12,6 +12,7 @@ the mathematical guide for the Borel/Springer construction.
 
 | Question | Guide |
 | --- | --- |
+| Do fundamental representations always give isolated quotient-critical points? | [No: an all-rank spin counterexample, smooth excess fibers, and the general unused-coordinate criterion](SPIN_FIBER_EXCESS.md) |
 | Is there a general character criterion for fiber components and multiplicities? | [Corrected quotient potentials, exact local Jacobian algebras, linear elimination and the limits at nonregular points](GENERAL_CAYLEY_FIBER_CRITICAL.md) |
 | What can we prove uniformly for simple groups and whole target strata? | [All-type fundamental zero fibers, classical target bounds, and exact middle-exterior component counts and multiplicities](SIMPLE_GROUP_CAYLEY_BRANCHING.md) |
 | Does the component formula extend to primitive symplectic representations? | [All even-rank equality strata: signed component counts, multiplicity one, a stronger kernel bound, and the odd-rank residual equation](SYMPLECTIC_TARGET_STRATA.md) |
