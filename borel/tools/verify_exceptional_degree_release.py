@@ -29,6 +29,15 @@ def main():
     version=sage_borel.__version__
     regression=read('character-verification.json')
     docs=read('documentation-verification.json')
+    middle_fiber=read('middle-exterior-fiber-component-verification.json')
+    assert sum(x['pairings'] for x in middle_fiber['independent_exterior_derivatives'])==5419
+    assert len(middle_fiber['differential_checks'])==5
+    assert len(middle_fiber['exact_transverse_curve_checks'])==7
+    assert len(middle_fiber['cyclotomic_collision_checks'])==15
+    for x in middle_fiber['exact_transverse_curve_checks']:
+        assert x['order_at_one']==(2 if x['m']%2 else 1)
+    for name,expected in middle_fiber['source_sha256'].items():
+        assert digest(ROOT/name)==expected,name
     irreducible_realization=read('irreducible-centralizer-realization-verification.json')
     assert len(irreducible_realization['actual_irreducible_matrix_cases'])==12
     assert irreducible_realization['exact_ambient_tangent_pairings']==500
@@ -1029,7 +1038,9 @@ def main():
     paths += [ROOT/'cayley-fiber-assessment-verification.json']
     paths += [ROOT/'type-a-character-degeneration-verification.json']
     paths += [ROOT/'irreducible-centralizer-realization-verification.json']
+    paths += [ROOT/'middle-exterior-fiber-component-verification.json']
     report=dict(result='passed',version=version,
+        middle_exterior_fiber_component=middle_fiber,
         irreducible_centralizer_realization=irreducible_realization,
         type_A_character_degeneration=character_degeneration,
         Cayley_fiber_assessment=fiber_assessment,

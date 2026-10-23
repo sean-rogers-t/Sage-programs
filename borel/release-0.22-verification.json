@@ -1,6 +1,182 @@
 {
   "result": "passed",
   "version": "0.22.0",
+  "middle_exterior_fiber_component": {
+    "result": "passed",
+    "date": "2026-10-23",
+    "sage_version": "9.5",
+    "differential_checks": [
+      {
+        "m": 2,
+        "component_dimension": 2,
+        "tangent_dimension": 2,
+        "differential_rank": 13,
+        "target_centralizer_dimension": 5
+      },
+      {
+        "m": 3,
+        "component_dimension": 8,
+        "tangent_dimension": 9,
+        "differential_rank": 26,
+        "target_centralizer_dimension": 13
+      },
+      {
+        "m": 4,
+        "component_dimension": 12,
+        "tangent_dimension": 12,
+        "differential_rank": 51,
+        "target_centralizer_dimension": 19
+      },
+      {
+        "m": 5,
+        "component_dimension": 24,
+        "tangent_dimension": 25,
+        "differential_rank": 74,
+        "target_centralizer_dimension": 33
+      },
+      {
+        "m": 6,
+        "component_dimension": 30,
+        "tangent_dimension": 30,
+        "differential_rank": 113,
+        "target_centralizer_dimension": 41
+      }
+    ],
+    "independent_exterior_derivatives": [
+      {
+        "m": 2,
+        "exterior_dimension": 6,
+        "pairings": 225,
+        "rank": 13
+      },
+      {
+        "m": 3,
+        "exterior_dimension": 20,
+        "pairings": 1225,
+        "rank": 26
+      },
+      {
+        "m": 4,
+        "exterior_dimension": 70,
+        "pairings": 3969,
+        "rank": 51
+      }
+    ],
+    "exact_transverse_curve_checks": [
+      {
+        "m": 2,
+        "residual": "1 - s^4",
+        "order_at_one": 1,
+        "direct_exterior_trace_checked": true
+      },
+      {
+        "m": 3,
+        "residual": "1 - 2*s^3 + s^6",
+        "order_at_one": 2,
+        "direct_exterior_trace_checked": true
+      },
+      {
+        "m": 4,
+        "residual": "1 - s^8",
+        "order_at_one": 1,
+        "direct_exterior_trace_checked": false
+      },
+      {
+        "m": 5,
+        "residual": "1 - 2*s^5 + s^10",
+        "order_at_one": 2,
+        "direct_exterior_trace_checked": false
+      },
+      {
+        "m": 6,
+        "residual": "1 - s^12",
+        "order_at_one": 1,
+        "direct_exterior_trace_checked": false
+      },
+      {
+        "m": 7,
+        "residual": "1 - 2*s^7 + s^14",
+        "order_at_one": 2,
+        "direct_exterior_trace_checked": false
+      },
+      {
+        "m": 8,
+        "residual": "1 - s^16",
+        "order_at_one": 1,
+        "direct_exterior_trace_checked": false
+      }
+    ],
+    "cyclotomic_collision_checks": [
+      {
+        "m": 2,
+        "equal_pairs": 0
+      },
+      {
+        "m": 3,
+        "equal_pairs": 1
+      },
+      {
+        "m": 4,
+        "equal_pairs": 0
+      },
+      {
+        "m": 5,
+        "equal_pairs": 2
+      },
+      {
+        "m": 6,
+        "equal_pairs": 0
+      },
+      {
+        "m": 7,
+        "equal_pairs": 3
+      },
+      {
+        "m": 8,
+        "equal_pairs": 0
+      },
+      {
+        "m": 9,
+        "equal_pairs": 4
+      },
+      {
+        "m": 10,
+        "equal_pairs": 0
+      },
+      {
+        "m": 11,
+        "equal_pairs": 5
+      },
+      {
+        "m": 12,
+        "equal_pairs": 0
+      },
+      {
+        "m": 13,
+        "equal_pairs": 6
+      },
+      {
+        "m": 14,
+        "equal_pairs": 0
+      },
+      {
+        "m": 15,
+        "equal_pairs": 7
+      },
+      {
+        "m": 16,
+        "equal_pairs": 0
+      }
+    ],
+    "scheme_multiplicity_scope": "The double multiplicity uses the written local elimination proof; tangent ranks alone do not prove it.",
+    "scope": "Exact finite corroboration, original wedge traces versus polynomial differentiation, and exact curve identities. Separate arbitrary-rank local scheme proof; shared Sage arithmetic, no external audit or novelty claim.",
+    "source_sha256": {
+      "MIDDLE_EXTERIOR_FIBER_COMPONENT.md": "b7eeb554a5439c0df9aa0617e34d14edbe1fad26ecd788b54a57ebe90ac7864a",
+      "tools/verify_middle_exterior_fiber_component.py": "8646057c983799681b567729faa1e9cb1a373a73a411e6be1ade7ab2e9fc7174",
+      "tools/verify_irreducible_centralizer_realization.py": "def7fdf655827255fb14fa679f61af92f572f51e60ff35f14c63a0e11f047a9d",
+      "tools/verify_type_a_character_degeneration.py": "446748b54d7a71aaed000610d0236389e820d443c155a406acbb0526b78dbf87"
+    }
+  },
   "irreducible_centralizer_realization": {
     "result": "passed",
     "date": "2026-10-23",
@@ -4875,7 +5051,7 @@
   "other_theories_exploration": {
     "reports_checked": 13,
     "proof_notes": 10,
-    "ledger_entries": 141,
+    "ledger_entries": 142,
     "source_hashes_checked": true,
     "symbolic_SL3_integral_reductions": true,
     "historical_exploration_runtime_changed": false,
@@ -5082,7 +5258,7 @@
   "standard_monomial_counts_rechecked": "Singular vdim and independent integer exponent-slice recursion",
   "regression_tests": 208,
   "documentation_examples": 54,
-  "local_links_and_anchors": 1810,
+  "local_links_and_anchors": 1817,
   "isolated_wheel_tests": 75,
   "wheel_sha256": "943ca8b76c628251b8ce6073c76c9b156ae71194fd8c81162fd259df2e1a4ba8",
   "wheel_sources_and_data_match": true,
@@ -5308,10 +5484,10 @@
     "OTHER_THEORIES_QUANTUM.md": "97c5dad8add109648feb25bcd0fb35efc6d5eaa52d9b49dc52f7f30fadd70712",
     "OTHER_THEORIES_SL3.md": "e9fc1b6a3092532b08513193c6d6e87ea338948ae42de3031296438f822f6c99",
     "OTHER_THEORIES_TYPE_A.md": "54269c7e04730b556364b0beff633aae7b2a39620983875969b11c38ad3280e3",
-    "PROOF_STATUS.md": "3b7c3e0a68bd52fa196a69c622cc6e28f2dfd97551a365c6404b7a705b2733bf",
-    "README.md": "2bfa0cfa640070411281e943324fa7e29a2bca8086b458e046069adb3b9d43ac",
+    "PROOF_STATUS.md": "1545e5201018b1f85657ea916121bf93553ffaa98a5124bc34b2d581a29cae17",
+    "README.md": "577baa8e6c6b2e6a620e82b70c1d13b51bafbb46e611074ae353ad3826ff16cf",
     "REGULARITY_CLASSIFICATION.md": "5f22fb431145bf438148d74544beb51da78e6cae03c80745c2c9768d8922cf54",
-    "RESEARCH_LEDGER.md": "805ba7984b4849344c256c14d2b2188c0a96800725d899e5e11fee954c218b14",
+    "RESEARCH_LEDGER.md": "d3b453f0335aa6ecaf308809e69bdc6fe0374711f1a8cfd8c3e9f2fcd67852a1",
     "SPIN_CAYLEY_DEGREES.md": "b38d93a60bed0c20ab7147e53aac2805644f8fcc49f04445a002edfca3a6ad67",
     "SPIN_CAYLEY_GEOMETRY.md": "3bf72a4dd7e8c0db64213b50f56f47fbc7775b76c2cb168215be06ff3d94cf07",
     "SPIN_PARITY_BOUNDARY.md": "8758219bb76b777529e244cd77de7e3cf4d70fd51f0d6b54166e8ed47b31d130",
@@ -5335,7 +5511,7 @@
     "cayley-fiber-assessment-verification.json": "ee52a710ff9a9e49eb72428e440d731aadaf78a084dd130f1bf7cd154a084c9a",
     "cayley-literature-verification.json": "3a8b165adfe5736bcc7f9aea80c9afbc221e1248f8d6af64b1fbe5efe5dfe01c",
     "character-verification.json": "e28a6dbfbcfd3ed980a070a4de6793eba6d90320c32c9437a53bab048c614909",
-    "documentation-verification.json": "cfdade69c9ab8e41a714641f58dc7008e455756b2a75db79829e86e3b973dec5",
+    "documentation-verification.json": "fdbee1109363f98fd787f9353f60af248768208af78765b0694be26430b5f80c",
     "e6-adjoint-deformation-verification.json": "bffa1a623b82690b298598b33c6069628011031c03cfd57d572473a9d54ede13",
     "equivariant-verification.json": "546b24595dc0c2529889baf70b31d325e91233f0dfde80bef85bf936fc7d8bcf",
     "experiments/a5-even-block-sources-audit.json": "545505e1e6644975343977f2e44ee2937d9e9a555987f50ae9b1a4d6658b6bdd",
@@ -5664,8 +5840,9 @@
     "half-spin-degree-verification.json": "47bfc74e980c3c8cc27b07df222585377b8290bd01ba01d16c7b4658503d8907",
     "half-spin-rank-degrees-verification.json": "86c2348a8a432dfaab2e46db3bd5cc92fbd3b5facea2c76533d03ac2f42ebb68",
     "irreducible-centralizer-realization-verification.json": "ee400333909ce7566eae57c749f5ff4a287c60c2ff7e2d005bca2eb33dd180dd",
+    "middle-exterior-fiber-component-verification.json": "078dcc0a6133f48def8dd169ae1f2977284fda08bbba851e9b81077d31735f48",
     "mixed-regularity-verification.json": "98684d563c2af2d09b7a01ee3f2d77e4a42d9cf4620cdd5358df94066d1fd1ec",
-    "other-theories-verification.json": "d6895e838b20e3a5d19265214ad9654f48aba24bff43b2f8cc58f2c125311308",
+    "other-theories-verification.json": "ab3754f03c3cc351bd0d2687d66c3303be1eda6c77df78ad6618c387cacd73a2",
     "regularity-classification-verification.json": "7f25f0ae569530ee5a7f71848e8bceb545ea9ecd7dd50a7898e362d0adece9d0",
     "relative-image-verification.json": "77de36bd2b4e74e8a76f0f05bbac78cf556f5ec121becbdad2e716202addbe3d",
     "root-borel-verification.json": "4528981e7cdb4198a82036d383fcedfa675898503ec4309a77b14563032ad954",
@@ -5725,10 +5902,10 @@
     "tools/package_e7_relative_images.py": "e11c39eae18d54c8b3e26ae812359cded5d25e94da3dfd2e8842e2641d42cad0",
     "tools/verify_bc_mixture_degrees.py": "b37e4aee9e569d59c84bdd6ca9fb3ab598098fb332db2a3b40c3416b9ddef355",
     "tools/verify_cayley_literature.py": "56066228924290a6b31fa5f94897665625e9e96f2619193212ed82a13341a811",
-    "tools/verify_documentation.py": "9caa1a1ed84fd92167b6c608b9892af3e7f64cbc31c11f19cefba104cb3def93",
+    "tools/verify_documentation.py": "d80619f197ba57c354d308ae13f8a6e66174f2bcec785cc11821e4666a396b6c",
     "tools/verify_e6_adjoint_deformation.py": "c1a8c12d12e410d41cab05d3d0c3fd26a48c20ef8c33d12c25de1eadd91fb46e",
     "tools/verify_equivariant.py": "360a4b0825394205da56515b31b77abf25fa0de751901b360431faed370cf498",
-    "tools/verify_exceptional_degree_release.py": "68e1640394aa8ee2c8f088ac8be7a8e978be13d21d863ed2abd41a67d1341ad1",
+    "tools/verify_exceptional_degree_release.py": "41bce3cfe101431e7fe506bed1e47cd7fd1cea2a9145c6d2c73d74ab056dabac",
     "tools/verify_exterior_regularity.py": "453130eb8b8cd3f8a53f7a9ddf1fb299c80e320d0dd03eff04d9b6fb73fa3ad3",
     "tools/verify_f4_minimal_degree.py": "8b7b895c0aecccaaf8451203289efed9f9a322dfc7103be525e4902fcba4486e",
     "tools/verify_f4_mixture_degree.py": "45a15eb0f884de3127a1d0b30eca6e5cc7ccd70a9842b7801ee183fd2a53d2fe",
@@ -5739,7 +5916,7 @@
     "tools/verify_half_spin_degree.py": "733805ad3a709862ddd25b9628530555204429b0b7d53833a5fad07b0c54b171",
     "tools/verify_half_spin_rank_degrees.py": "e46e37af63bed412041bc12b7b218359787ba081967a38145e7a924dce2d319f",
     "tools/verify_mixed_regularity.py": "37d932df901247a3b1028d741f3c5e81a1c03c2c342415ecf8de8cc85508f2c5",
-    "tools/verify_other_theories.py": "6b4c668a0c1b1ce60366bf0ee4e977ea01b611281d6840dd523a3fb4bff42c19",
+    "tools/verify_other_theories.py": "830f720507cab9c5df88b272cdc2d4dddc91884ec1b630ffdb9b37492183d217",
     "tools/verify_regularity_classification.py": "e9e66ecc61bb8308db6f8f9729bf7b2bbc19f344a6978e87f7fc0088e563c8b1",
     "tools/verify_relative_images.py": "0bad330a58ad84df9daeb54933cee539ac0175e3d543c6ae581139989e444e9a",
     "tools/verify_spin_cayley_degree.py": "4fc0d8fd0607f6271291dd3b47e1ecaa3b0acba648b5ac68cc0f369324509b25",

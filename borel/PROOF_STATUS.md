@@ -1,5 +1,20 @@
 # Proof and literature status of the integral image notes
 
+The [middle-exterior full-fiber theorem](MIDDLE_EXTERIOR_FIBER_COMPONENT.md)
+now identifies the zero model's component and generic scheme structure in
+every rank m>=2. For even m, t U(H) itself is a component of dimension
+m^2-m and is generically reduced. For odd m, the larger target centralizer
+sweeps it into a component of dimension m^2-1 and generic multiplicity two;
+the original collapsed variety is not a component. A scheme-theoretic
+centralizer reduction and cyclic-block elimination leave 1-s^(2m) in
+even m and (s^m-1)^2 for odd m. The completed local rings on the
+regular-unipotent locus are explicitly proved. Independent exterior traces
+check 5419 derivative pairings; exact curve, cyclotomic-collision and
+higher-rank differential checks agree. Known character and regular
+adjoint-quotient facts are inputs, and novelty is unverified. The local
+fiber at nonregular unipotent points, other components and global fiber
+classification remain outside this theorem.
+
 The [irreducible-centralizer realization theorem](IRREDUCIBLE_CENTRALIZER_REALIZATION.md)
 now proves that the fixed irreducible representation exterior^m of SL_(2m)
 realizes every equivariant nilpotent polynomial map on an sl_m centralizer,
