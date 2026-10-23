@@ -29,6 +29,28 @@ def main():
     version=sage_borel.__version__
     regression=read('character-verification.json')
     docs=read('documentation-verification.json')
+    norm_fibers=read('branching-norm-fibers-verification.json')
+    norm_audit=read('branching-norm-fibers-audit.json')
+    assert len(norm_fibers['adjoint_mechanism_tests'])==3
+    assert all(row['max_degree']==3 for row in norm_fibers['adjoint_mechanism_tests'])
+    assert norm_fibers['E6_minimal_quadratic_control']['max_degree']==2
+    assert norm_fibers['E6_minimal_quadratic_control']['dimension']==27
+    assert all(norm_fibers['exact_suspension_checks'][key] for key in (
+        'E6_original_gradient_ideal_equals_scalar_model',
+        'E6_formula_matches_root_reconstructed_character',
+        'suspension_uniform_on_nonzero_target','E6_generic_quotient_finite_smooth',
+        'two_pair_suspension_free_coordinate_preserved'))
+    assert norm_fibers['E6_direct_root_differential']['full_rank']==64
+    assert norm_fibers['E6_direct_root_differential']['kernel_dimension']==14
+    assert not norm_audit['uses_Sage']
+    assert len(norm_audit['independent_character_reconstructions'])==4
+    assert norm_audit['symbolic_transfer']['generic_regular_K_orbits']==2
+    assert norm_audit['independent_finite_root_control']['full_rank']==64
+    for record in (norm_fibers,norm_audit):
+        assert not record['all_exceptional_adjoint_Levis_resolved']
+        assert not record['literature_priority_claim']
+        for name,expected in record['source_sha256'].items():
+            assert digest(ROOT/name)==expected,name
     contact=read('exceptional-adjoint-contact-verification.json')
     contact_audit=read('exceptional-adjoint-contact-audit.json')
     assert len(contact['contact_gradings'])==len(contact_audit['contact_gradings'])==5
@@ -1243,7 +1265,22 @@ def main():
     paths += [ROOT/name for name in ('EXCEPTIONAL_ADJOINT_CONTACT_FIBERS.md',
         'exceptional-adjoint-contact-verification.json','exceptional-adjoint-contact-audit.json',
         'tools/verify_exceptional_adjoint_contact.py','tools/audit_exceptional_adjoint_contact.py')]
+    paths += [ROOT/name for name in ('BRANCHING_NORM_FIBERS.md',
+        'branching-norm-fibers-verification.json','branching-norm-fibers-audit.json',
+        'tools/verify_branching_norm_fibers.py','tools/audit_branching_norm_fibers.py')]
     report=dict(result='passed',version=version,
+        branching_norm_fibers=dict(charge_sensitive_degree_bound_written_proof=True,
+            simply_laced_low_radius_all_Levi_quadraticity=True,
+            E6_minimal_all_Levi_generic_regular_smoothness=True,
+            adjoint_cubic_shape_written_proof=True,
+            exact_nonzero_target_suspension_written_proof=True,
+            adjoint_mechanism_tests=3,unresolved_test_mechanisms=['A1^3','A1^2+A2'],
+            E6_A2A1A2_actual_quotient='3*w^2+2*c*w-3=0, c=144*t',
+            E6_A2A1A2_generic_regular_orbits=2,E6_A2A1A2_orbit_dimension=14,
+            all_exceptional_adjoint_Levis_resolved=False,literature_priority_claim=False,
+            certificate='branching-norm-fibers-verification.json',
+            independent_audit='branching-norm-fibers-audit.json',
+            scope='Structural norm deductions and exact suspension; all-Levi minimal E6 smoothness allows emptiness and excess. No full adjoint classification or public API change.'),
         exceptional_adjoint_contact=dict(contact_gradings_checked=5,
             independent_native_module_and_root_reconstruction=True,
             E6_actual_quotient_critical_scheme='A^2',E6_regular_fiber_dimension=32,

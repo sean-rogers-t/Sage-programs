@@ -1,5 +1,25 @@
 # Proof and literature status of the integral image notes
 
+The [branching norm and fiber note](BRANCHING_NORM_FIBERS.md) adds a
+charge-sensitive bound on character-polynomial monomials, proved by
+weight convexity and triangular inversion. In simply laced groups,
+highest-weight norm squared <3/2 gives quadratic restrictions to every
+Levi. In particular both E6 minimal 27-dimensional maps have smooth,
+possibly empty, generic regular fibers for every Levi. Nonemptiness
+and excess dimensions are not classified by that bound alone.
+For adjoint maps the remaining simply laced obstruction is confined
+to cubic couplings on at least three A-factors, including A1; all-A
+Levis with no A1 or at most two factors are quadratic. A separate exact
+suspension theorem handles characters beyond degree two. It gives the
+E6/A2+A1+A2 quotient equation 3w^2+2cw-3=0 after central mu6 descent,
+where c=144t for h=tH. Generic nonzero targets have two regular
+K-orbits, each of dimension 14. The A1^3 and A1^2+A2 mechanism tests
+remain unresolved here. Characteristic-zero trace calculations and
+independent native root/subset models corroborate the statements;
+the native point check is over F_1009 and is not a characteristic-zero
+proof. Published inputs, deductions, and the pending novelty question
+are separated; no full exceptional adjoint classification is claimed.
+
 The [exceptional contact-fiber note](EXCEPTIONAL_ADJOINT_CONTACT_FIBERS.md)
 now proves an adjoint excess example: for E6 and its A5 contact Levi,
 every nonzero central target has a nonempty smooth regular fiber of
