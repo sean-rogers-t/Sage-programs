@@ -29,6 +29,14 @@ def main():
     version=sage_borel.__version__
     regression=read('character-verification.json')
     docs=read('documentation-verification.json')
+    borel_coordinates=read('borel-coordinates-verification.json')
+    assert borel_coordinates['test_methods']==6
+    assert borel_coordinates['independent_full_trace_gram_dimensions']==[8,10]
+    assert borel_coordinates['symbolic_all_parameter_matrix_identities']
+    assert borel_coordinates['symbolic_collapse_stratum_ranks']
+    assert borel_coordinates['exact_empty_and_positive_dimensional_fibers']
+    for name,expected in borel_coordinates['source_sha256'].items():
+        assert digest(ROOT/name)==expected,name
     literature=read('cayley-literature-verification.json')
     assert literature['bibliographic_entries']==8
     assert literature['notebook']['saved_SInv_rank']==7
@@ -198,6 +206,133 @@ def main():
     assert not half_boundary['novelty_claim'] and not half_boundary['externally_reviewed']
     assert not half_boundary['runtime_API_changed']
     for name,expected in half_boundary['source_sha256'].items():
+        assert digest(ROOT/name)==expected,name
+    half_degree=read('half-spin-degree-verification.json')
+    assert half_degree['Spin10_half_spin_generic_degree']==148
+    assert half_degree['characteristic_zero_toric_written_proof']
+    assert half_degree['toric_intersection_number']==208
+    assert half_degree['toric_boundary_length']==60
+    assert half_degree['actual_Spin_character_lattice']
+    assert half_degree['group_torus_quotient_degrees_agree']
+    assert len(half_degree['polytope_checks'])==6
+    assert half_degree['boundary_algebra']['facet_critical_algebra_length']==6
+    assert len(half_degree['boundary_algebra']['symbolic_local_checks'])==6
+    assert half_degree['finite_field_fiber_checks']==12
+    assert len(half_degree['finite_field_original_fibers'])==12
+    assert {r['model'] for r in half_degree['finite_field_original_fibers']}=={
+        'actual_P_D5_basis','original_Spin_cover'}
+    assert all(r['length']==148 and r['squarefree_multiplication_characteristic_polynomial']
+               for r in half_degree['finite_field_original_fibers'])
+    assert len(half_degree['separate_exceptional_specializations'])==2
+    assert all(r['length']==148 and r['geometric_distinct_point_count']==147
+               and r['nonreduced_cyclic_algebra_certified']
+               for r in half_degree['separate_exceptional_specializations'])
+    assert not half_degree['all_rank_degree_formula_proved']
+    assert not half_degree['novelty_claim'] and not half_degree['externally_reviewed']
+    assert not half_degree['runtime_API_changed']
+    for name,expected in half_degree['source_sha256'].items():
+        assert digest(ROOT/name)==expected,name
+    half_rank=read('half-spin-rank-degrees-verification.json')
+    assert half_rank['all_rank_characteristic_zero_written_proof']
+    assert half_rank['deeper_face_noncontribution_written_proof']
+    assert half_rank['rank_minimum']==3
+    assert half_rank['Spin12_degree']==536
+    assert half_rank['Spin12_total_intersection']==1376
+    assert half_rank['Spin12_boundary_correction']==840
+    assert half_rank['even_rank_representation_kernel_order']==2
+    assert half_rank['finite_fiber_checks']==4
+    assert half_rank['squarefree_fiber_certificates']==4
+    assert half_rank['additional_completed_rank7_fiber']['fiber_length']==1692
+    assert all(r['length']==536 for r in half_rank['independent_fibers'])
+    assert len(half_rank['combinatorial_checks'])==38
+    assert half_rank['local_checks']['Spin12_curve_contribution']==360
+    assert half_rank['local_checks']['Spin12_triple_contribution']==480
+    assert not half_rank['novelty_claim'] and not half_rank['externally_reviewed']
+    assert not half_rank['runtime_API_changed']
+    for name,expected in half_rank['source_sha256'].items():
+        assert digest(ROOT/name)==expected,name
+    general_degree=read('general-cayley-degree-verification.json')
+    assert general_degree['E6_minimal']['degree']==1080
+    assert general_degree['E6_minimal']['boundary_correction']==0
+    assert general_degree['E6_minimal']['weight_lattice_index']==1
+    assert [r['generic_degree'] for r in general_degree['generic_character_examples']]==[8,6,8,12,14]
+    assert all(r['base_field']=='QQ(b1,b2)' for r in general_degree['generic_character_examples'])
+    assert not general_degree['finite_field_inference']
+    assert not general_degree['novelty_claim'] and not general_degree['external_review']
+    for name,expected in general_degree['source_sha256'].items():
+        assert digest(ROOT/name)==expected,name
+    e6_deformation=read('e6-adjoint-deformation-verification.json')
+    assert e6_deformation['boundary_correction']==1890
+    assert e6_deformation['root_torus_degree']==918
+    assert e6_deformation['simply_connected_degree']==2754
+    assert e6_deformation['geometry']['facet_cover_degree']==2
+    assert e6_deformation['geometry']['root_layers']==[16,40,16]
+    assert e6_deformation['local']['middle_layer_full_gradient_zero']
+    assert e6_deformation['local']['generic_crossing_escape_count']==0
+    assert not e6_deformation['Segre_formula_used_to_derive_result']
+    assert not e6_deformation['novelty_claim'] and not e6_deformation['external_review']
+    for name,expected in e6_deformation['source_sha256'].items():
+        assert digest(ROOT/name)==expected,name
+    f4_degree=read('f4-minimal-degree-verification.json')
+    assert f4_degree['geometry']['group_torus_and_quotient_degree']==96
+    assert f4_degree['geometry']['boundary_correction']==0
+    assert f4_degree['geometry']['normalized_cone_volumes']==[4]*24
+    assert f4_degree['geometry']['noncentral_zero_witness']['conjugacy_class_dimension']==16
+    assert f4_degree['finite_flat_torus_and_quotient_written_corollary']
+    assert f4_degree['full_group_map_not_finite']
+    assert len(f4_degree['independent_fibers'])==4
+    assert all(r['saturated_fiber_length']==96 and r['reduced_by_squarefree_multiplication'] for r in f4_degree['independent_fibers'])
+    assert f4_degree['same_target_multiplication_polynomials_agree']
+    for prime in [32003,32009]:
+        rows=[r for r in f4_degree['independent_fibers'] if r['prime']==prime]
+        assert len(rows)==2 and rows[0]['characteristic_polynomial_coefficients']==rows[1]['characteristic_polynomial_coefficients']
+    assert not f4_degree['finite_fibers_used_as_proof_of_generic_degree']
+    assert not f4_degree['novelty_claim'] and not f4_degree['externally_reviewed']
+    for name,expected in f4_degree['source_sha256'].items():
+        assert digest(ROOT/name)==expected,name
+    f4_mixture=read('f4-mixture-degree-verification.json')
+    assert f4_mixture['formula']=={'b=0':96,'b>0,a=b':240,'b>0,a=5b':336,'b>0,other':384}
+    assert f4_mixture['geometry']['primitive_facet_height']==2
+    assert f4_mixture['geometry']['facet_cone_volumes']==[16]*24
+    assert f4_mixture['geometry']['nonnegative_exceptional_ratios']==['a=b','a=5*b']
+    assert len(f4_mixture['independent_fibers'])==20
+    for prime in [32003,32009]:
+        for a,b,expected_degree in [(0,1,384),(1,1,240),(5,1,336),(2,1,384),(1,0,96)]:
+            rows=[r for r in f4_mixture['independent_fibers'] if (r['a'],r['b'],r['prime'])==(a,b,prime)]
+            assert len(rows)==2 and {r['model'] for r in rows}=={'weight_lattice','product_character'}
+            assert all(r['saturated_fiber_length']==expected_degree and r['reduced_by_squarefree_multiplication'] for r in rows)
+            assert rows[0]['characteristic_polynomial_coefficients']==rows[1]['characteristic_polynomial_coefficients']
+    assert not f4_mixture['finite_fibers_used_as_proof_of_generic_degree']
+    assert not f4_mixture['novelty_claim'] and not f4_mixture['externally_reviewed']
+    for name,expected in f4_mixture['source_sha256'].items():
+        assert digest(ROOT/name)==expected,name
+    bc_mixture=read('bc-mixture-degrees-verification.json')
+    assert len(bc_mixture['independent_fibers'])==68
+    assert len(bc_mixture['geometry']['polytope_and_character_checks'])==10
+    assert bc_mixture['spin_degree_multiplier']==2
+    assert bc_mixture['pure_C_adjoint_form_degree_divisor']==2
+    assert bc_mixture['exceptional_B_torus_and_quotient_nonfinite_by_zero_curves']
+    assert all(r['exceptional_zero_curves_in_both_constructions'] for r in bc_mixture['geometry']['sign_checks'])
+    grouped={}
+    for row in bc_mixture['independent_fibers']:
+        key=(row['kind'],row['rank'],row['a'],row['b'],row['prime'])
+        grouped.setdefault(key,[]).append(row)
+        assert row['reduced_by_squarefree_multiplication']
+    assert len(grouped)==34
+    for (kind,n,a,b,prime),rows in grouped.items():
+        assert len(rows)==2 and {r['model'] for r in rows}=={'weight_lattice','trace_coordinates'}
+        assert rows[0]['characteristic_polynomial_coefficients']==rows[1]['characteristic_polynomial_coefficients']
+        if b==0: expected_degree=2**n
+        elif kind=='C': expected_degree=4**n
+        else:
+            from math import comb
+            expected_degree=2**n*(2**n-n)-sum(2*n*comb(n-1,k) for k in range(n) if a==(4*k-2*n+1)*b)
+        assert all(r['saturated_fiber_length']==expected_degree for r in rows)
+    assert [r['saturated_fiber_length'] for r in bc_mixture['isogeny_controls']]==[68,8]
+    assert all(r['reduced_by_squarefree_multiplication'] for r in bc_mixture['isogeny_controls'])
+    assert not bc_mixture['finite_fibers_used_as_proof_of_generic_degree']
+    assert not bc_mixture['novelty_claim'] and not bc_mixture['externally_reviewed']
+    for name,expected in bc_mixture['source_sha256'].items():
         assert digest(ROOT/name)==expected,name
     regularity_classification=read('regularity-classification-verification.json')
     assert regularity_classification['all_simply_connected_rows_classified']
@@ -688,6 +823,21 @@ def main():
         'tools/verify_half_spin_cayley.py',
         'HALF_SPIN_BOUNDARY.md','half-spin-boundary-verification.json',
         'tools/verify_half_spin_boundary.py',
+        'HALF_SPIN_DEGREE.md','half-spin-degree-verification.json',
+        'tools/verify_half_spin_degree.py',
+        'HALF_SPIN_RANK_DEGREES.md','half-spin-rank-degrees-verification.json',
+        'tools/verify_half_spin_rank_degrees.py',
+        'GENERAL_CAYLEY_DEGREE.md','general-cayley-degree-verification.json',
+        'E6_ADJOINT_DEFORMATION.md','e6-adjoint-deformation-verification.json',
+        'F4_MINIMAL_DEGREE.md','f4-minimal-degree-verification.json',
+        'tools/verify_f4_minimal_degree.py',
+        'F4_MIXTURE_DEGREES.md','f4-mixture-degree-verification.json',
+        'tools/verify_f4_mixture_degree.py',
+        'BC_MIXTURE_DEGREES.md','bc-mixture-degrees-verification.json',
+        'tools/verify_bc_mixture_degrees.py',
+        'tools/verify_e6_adjoint_deformation.py',
+        'tools/verify_general_cayley_degree.py',
+        'tools/explore_half_spin_rank6_product.py','experiments/half-spin-rank7-fiber.json',
         'REGULARITY_CLASSIFICATION.md','regularity-classification-verification.json',
         'tools/verify_regularity_classification.py',
         'equivariant-verification.json','tools/verify_equivariant.py',
@@ -822,7 +972,33 @@ def main():
         'G2_CHARACTER_FORM.md','experiments/g2-character-form-audit.json',
         'tests/test_exceptional_degrees.py','character-verification.json',
         'documentation-verification.json','geometry-wheel-verification.json')]+[Path(__file__).resolve()]
+    paths += [ROOT/'borel-coordinates-verification.json']
     report=dict(result='passed',version=version,
+        borel_coordinate_API=borel_coordinates,
+        general_degree_audit=general_degree,
+        e6_adjoint_deformation=e6_deformation,
+        f4_minimal_degree=f4_degree,
+        BC_defining_adjoint_degrees=dict(formula_B=bc_mixture['formula_B'],
+            formula_C=bc_mixture['formula_C'],independent_reduced_fibers=68,
+            isogeny_controls=2,arbitrary_rank_written_proof=True,
+            exceptional_B_nonfinite_zero_curves=True,
+            spin_degree_multiplier=2,pure_C_adjoint_form_degree_divisor=2,
+            novelty_claim=False,runtime_API_changed=False),
+        f4_mixture_degree=dict(formula=f4_mixture['formula'],primitive_facet_height=2,
+            exceptional_boundary_corrections={'a=b':144,'a=5b':48},
+            independent_reduced_fibers=20,same_target_multiplication_polynomials_agree=True,
+            characteristic_zero_written_proof=True,novelty_claim=False,runtime_API_changed=False),
+        half_spin_rank_degree=dict(rank_minimum=3,
+            formula='2^(r-1)*(r^2-3*r-2)+4*r',
+            characteristic_zero_deformation_written_proof=True,
+            deeper_faces_excluded=True,Spin12_degree=536,
+            independent_reduced_Spin12_fibers=4,novelty_claim=False),
+        Spin10_half_spin_degree=dict(generic_degree=148,
+            characteristic_zero_toric_written_proof=True,
+            toric_intersection_number=208,boundary_length=60,
+            exact_reduced_fibers_in_two_models=12,
+            nonreduced_specialization_controls=2,
+            all_rank_degree_formula=False,novelty_claim=False),
         odd_spin_boundary=dict(adjacent_rank_obstruction_theorem=True,
             boundary_obstructions_elementary_two_groups=True,
             exact_degreewise_obstruction_rank_and_first_failure_formula=True,

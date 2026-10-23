@@ -108,6 +108,38 @@
       "python_blocks_executed": 0
     },
     {
+      "file": "HALF_SPIN_DEGREE.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "HALF_SPIN_RANK_DEGREES.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "GENERAL_CAYLEY_DEGREE.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "E6_ADJOINT_DEFORMATION.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "F4_MINIMAL_DEGREE.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "F4_MIXTURE_DEGREES.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "BC_MIXTURE_DEGREES.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "BOREL_COORDINATES.md",
+      "python_blocks_executed": 1
+    },
+    {
       "file": "REGULARITY_CLASSIFICATION.md",
       "python_blocks_executed": 0
     },
@@ -536,7 +568,7 @@
       "python_blocks_executed": 0
     }
   ],
-  "local_links_and_anchors_checked": 1693,
-  "python_blocks_executed": 50,
+  "local_links_and_anchors_checked": 1765,
+  "python_blocks_executed": 51,
   "scope": "Python fences executed in reading order in a fresh namespace per document; local links and anchors checked. Shell snippets and external URLs were not automatically executed or crawled."
 }

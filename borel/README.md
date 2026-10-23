@@ -12,6 +12,12 @@ the mathematical guide for the Borel/Springer construction.
 
 | Question | Guide |
 | --- | --- |
+| Can I evaluate the Springer map on B, including unipotent coordinates? | [SL3/Sp4 defining formulas, exact collapse fibers, general triangular mechanism and API](BOREL_COORDINATES.md) |
+| What are the defining-adjoint degrees in arbitrary type B/C rank? | [Closed formulas, binomial boundary corrections, Spin/SO and Sp/PSp distinctions](BC_MIXTURE_DEGREES.md) |
+| How do F4 degrees change for minimal-adjoint direct sums? | [All-multiplicity formula, exceptional ratios a=b and a=5b, and height-two corrections](F4_MIXTURE_DEGREES.md) |
+| What is the F4 minimal Springer degree, and is its torus map finite? | [Degree 96, odd-crosspolytope criterion, finite-flat corollary and independent fibers](F4_MINIMAL_DEGREE.md) |
+| Does the half-spin deformation method transfer to an exceptional group? | [E6 adjoint correction 1890, stationary middle layer and all-orders crossing exclusion](E6_ADJOINT_DEFORMATION.md) |
+| Which degree arguments extend beyond Spin, and what can fail? | [General criteria, normal-layer corrections, exact counterexamples and independent E6 audit](GENERAL_CAYLEY_DEGREE.md) |
 | Can I compute classical equivariant Springer images? | [Type A partial flags in H/K and the integral symplectic projective K-cokernel](CLASSICAL_EQUIVARIANT.md) |
 | What higher type C Fitting formulas are proved? | [Doubled presentation](SYMPLECTIC_K_FITTING.md), [Schur generators](SYMPLECTIC_K_MINORS.md), [all-rank integral Hankel balancing and complete ranks 1-9](SYMPLECTIC_K_BALANCING.md) |
 | What are all ordinary type C projective K Smith factors? | [Closed binary-digit multiplicities, Hankel proof and known inputs](SYMPLECTIC_K_ORDINARY_SMITH.md) |
@@ -30,6 +36,8 @@ the mathematical guide for the Borel/Springer construction.
 | Where are polynomial Spin maps finite, and where do their inverses branch? | [Maximal finite target locus, full Jacobian, boundary rank bound and a false discriminant factor](SPIN_CAYLEY_GEOMETRY.md) |
 | What changes for one half-spin representation? | [Pfaffian formula, complete zero fiber in the Cayley chart and a large boundary zero family](HALF_SPIN_CAYLEY.md) |
 | What is the entire half-spin zero fiber, including nonsemisimple points? | [All-rank four-eigenvector criterion and sharp dimension r(2r-1)-12](HALF_SPIN_BOUNDARY.md) |
+| What is the generic degree of either individual half-spin map of Spin_10? | [Degree 148: a toric intersection proof and independent original-weight checks](HALF_SPIN_DEGREE.md) |
+| Is there a half-spin degree formula across ranks? | [Degree 2^(r-1)(r^2-3r-2)+4r on Spin_(2r), with a deformation proof and independent Spin_12 checks](HALF_SPIN_RANK_DEGREES.md) |
 | Is the simple-group regularity table complete, including reducible representations and exceptional types? | [Complete table and uniform primitive-root obstruction, with rank-one and isogeny qualifications](REGULARITY_CLASSIFICATION.md) |
 | What did the exploration of other cohomologies and affine groups produce? | [Research report, theorem inventory, known inputs and prioritized API path](OTHER_THEORIES_PROGRAM.md) |
 | How does the actual Springer-character image change in K-theory? | [General filtered comparison and counterexamples](OTHER_THEORIES_FINITE.md), [complete SL3 formulas](OTHER_THEORIES_SL3.md), [primitive character data](OTHER_THEORIES_COTANGENT.md) |

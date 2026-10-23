@@ -1,5 +1,134 @@
 # Proof and literature status of the integral image notes
 
+The [Borel-coordinate calculation](BOREL_COORDINATES.md) implements the
+defining SL3 and Sp4 Springer maps on B=T U. The SL3 fixed-t map is always
+a polynomial isomorphism. The Sp4 vertical determinant is
+z1(z1 z2+1)(z1+z2)/4; complete image/fiber formulas distinguish affine-line
+collapse from affine-plane fibers at the two crossing torus points with
+b=0. At a crossing with b!=0 the mixed ab term keeps rank three.
+The crossing image is constructible and not closed. A general triangular
+argument derives the diagonal factors from the torus map by equivariance.
+These are characteristic-zero written deductions from standard
+trace-projection theory, checked by independent symbolic full-Lie-algebra
+Gram solves and exact fiber parametrizations within Sage. No novelty,
+external review, arbitrary-representation implementation or full B/G
+critical/branch-locus classification is claimed.
+
+The [arbitrary-rank B/C mixture proof](BC_MIXTURE_DEGREES.md) treats a
+defining and b adjoint summands, with nonnegative multiplicities and
+a+b>0. On SO_(2n+1), b=0 gives degree 2^n; for b>0 the degree is
+2^n(2^n-n), minus 2n binomial(n-1,k) precisely when
+a=(4k-2n+1)b for 0<=k<=n-1. The positive ratios are 1,5,...,2n-3
+in even rank and 3,7,...,2n-3 in odd rank. On Sp_(2n), b=0 gives
+2^n and every b>0 gives 4^n, with no boundary corrections. These are
+written characteristic-zero deductions: crosspolytope Morse points
+give the B corrections, all hypersimplex subfaces are excluded, and
+the C complete homogeneous quadratic excludes zeros on every face.
+Spin pullback doubles the B degrees; pure adjoint descent to PSp halves
+the C degree. Independent character/polytope checks through rank six,
+sign counts through rank ten, 68 reduced original fibers in two models
+and two additional isogeny controls corroborate the proof. Finite tests
+do not establish its arbitrary-rank scope. Known inputs are KM degree
+reduction, classical root-polytope geometry and toric intersection
+theory. Novelty and external review remain unverified. No runtime API
+changed. Explicit torus curves collapse to zero at every exceptional
+B ratio, proving both torus and quotient maps are then non-finite;
+outside those ratios they are finite flat. Next is the full non-finite
+target locus, to go beyond this zero-fiber witness.
+
+The [F4 minimal-adjoint mixture proof](F4_MIXTURE_DEGREES.md) gives the
+complete formula for nonnegative multiplicities a,b with a+b>0: degree
+96 if b=0; for b>0, degree 240 at a=b, 336 at a=5b, and 384 otherwise.
+All three degrees (group, torus, quotient) agree. The long-root polytope
+has normalized volume 384 in the actual F4 lattice. Its 24 facets have
+primitive height two, with three Morse zeros each at a=b and one each
+at a=5b. The first normal layer and its tangent gradient vanish there,
+so each point contributes length two. Lower faces have no zeros.
+This is a characteristic-zero written deduction from standard toric
+intersection theory. Twenty reduced finite-field fibers from two
+independent equation constructions corroborate it, including agreement
+of multiplication characteristic polynomials at matching targets.
+The reusable height-two lemma is stated with hypotheses; arbitrary
+representations, global finiteness on the exceptional ratios, literature
+priority and external review remain separate. No runtime API changed.
+The next goal is a coefficient-discriminant criterion for families with
+Morse facet zeros, using normal jets to determine degree jumps.
+
+The [F4 minimal degree proof](F4_MINIMAL_DEGREE.md) gives degree 96 for
+V(omega_4), its torus restriction and its adjoint quotient. All 24 facets
+are octahedra with no singular zero of their equal-coefficient characters;
+every lower face is a simplex. The actual lattice gives normalized volume
+96 and no boundary correction. Independent highest-weight/explicit weights,
+determinant volumes and four reduced specialized fibers in two equation
+models corroborate the proof. The common multiplication characteristic
+polynomial agrees across the models at each prime. The general no-boundary
+criterion also gives global finite flatness on the torus; the F4 quotient
+is finite flat as well. The full group map is not finite: an explicit
+noncentral zero has a 16-dimensional conjugacy class. Odd-crosspolytope
+coefficient hypotheses and the use of known properness/flatness results
+are stated explicitly. Novelty and external review remain unverified.
+Its proposed minimal/adjoint multiplicity follow-up is completed above.
+
+The [E6 adjoint deformation proof](E6_ADJOINT_DEFORMATION.md) now
+reproduces the boundary correction 1890 independently of the earlier
+Segre formula: 810 branches approach open curve strata and 1080 approach
+triple points; two-facet crossings receive none. The middle D5 root layer
+has value -8 and zero full gradient on the facet critical locus. At a
+crossing, tangent elimination gives two equations st U_i+eta V_i, whose
+unit combination excludes eta nonzero. The actual root lattice, index-two
+facet cover and final central factor three are kept separate. Fresh root,
+facet, layer and local-algebra checks support this written deduction.
+The degree 2754 is an existing repository result, not a new value. Two
+local transfer principles are stated with hypotheses; arbitrary boundary
+singularities, external review and priority remain separate. Its proposed
+F4 minimal test is completed in the proof above.
+
+The [general degree audit](GENERAL_CAYLEY_DEGREE.md) separates standard
+toric degree criteria from the special half-spin product argument.
+It proves a sufficient no-boundary criterion and an isolated-Morse
+normal-layer formula, both deductions from known intersection methods.
+An independent E6 weight-orbit/facet reconstruction confirms the already
+recorded minimal degree 1080. Five exact generic fibers over QQ(b1,b2)
+check examples showing that neither unweighted support nor facet
+characters alone determine degree. The half-spin argument was reinspected
+without a contradiction found; its positive-dimensional correction is
+not asserted for arbitrary representations. The E6 adjoint transfer test
+is now completed in the proof above. This adds no novelty
+claim, external review, exceptional degree value or runtime API.
+
+The [half-spin rank formula](HALF_SPIN_RANK_DEGREES.md) now gives a
+written characteristic-zero proof of degree 2^(r-1)(r^2-3r-2)+4r
+for either individual half-spin Springer map on Spin_(2r), r>=3.
+The proof deforms the weight coefficients, counts branches on every
+facet critical stratum using two product-gradient systems and a
+generic cube polynomial, and excludes every deeper face by a
+Puiseux-order argument at a general target. Thus Spin_12 has degree
+536, with correction 840 from volume 1376. Four exact reduced
+Spin_12 fibers, covering two coordinate models, two primes and both
+chiralities, corroborate it. Local algebra and combinatorial checks
+are separate from the all-rank proof. The actual Spin lattice is
+retained, including the index-two representation kernel in even rank.
+No novelty, external review or runtime API change is claimed. An
+effective inverse-fiber presentation and the branch/non-finite loci
+remain open here. The earlier degree notes below retain their own
+scope; GEO-20 supersedes their higher-rank degree questions.
+
+The [half-spin degree note](HALF_SPIN_DEGREE.md) proves generic degree
+148 for either individual half-spin Springer map of Spin_10, including
+its torus restriction and adjoint quotient. This is a characteristic-zero
+written deduction: the actual Spin weight polytope has normalized volume
+208, and ten coordinate facets each contribute six simple boundary
+intersections; all remaining boundary strata have none. Independent
+checks use the rational facet critical algebra, symbolic local Jacobians,
+and twelve reduced finite-field fibers in two original torus models.
+The finite-field counts corroborate rather than prove the complex degree.
+Known inputs are the toric intersection formula and Kostant--Michor's
+degree reduction. Priority and external review are unestablished.
+The next goal is an excess-intersection correction in Spin_12, where
+the facet critical loci become positive-dimensional, toward a rank law.
+The earlier notes below retain their historical scope; their statements
+that degree was unresolved are superseded for Spin_10 by this result.
+
 The [half-spin boundary note](HALF_SPIN_BOUNDARY.md) now completes the
 underlying zero fiber for either half-spin of Spin_(2r), r>=3. Besides
 the four central points and the preceding chart classes, it is exactly

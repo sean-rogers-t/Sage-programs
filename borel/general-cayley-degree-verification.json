@@ -1,0 +1,89 @@
+{
+  "result": "passed",
+  "date": "2026-10-22",
+  "sage_version": "9.5",
+  "E6_minimal": {
+    "weights": 27,
+    "lattice": "P(E6)",
+    "weight_lattice_index": 1,
+    "facets": [
+      {
+        "kind": "crosspolytope",
+        "height": 2,
+        "count": 27
+      },
+      {
+        "kind": "simplex",
+        "height": 1,
+        "count": 72
+      }
+    ],
+    "normalized_volume": 1080,
+    "boundary_correction": 0,
+    "degree": 1080,
+    "cross_cover_critical_values": [
+      -10,
+      -6,
+      -2,
+      2,
+      6,
+      10
+    ],
+    "independent_constructions": "Sage root-system orbit; actual facet enumeration; every cone triangulated; separate polytope volume"
+  },
+  "generic_character_examples": [
+    {
+      "m": 1,
+      "c": 1,
+      "a": 0,
+      "base_field": "QQ(b1,b2)",
+      "generic_degree": 8,
+      "normalized_volume": 8,
+      "boundary_correction": 0
+    },
+    {
+      "m": 1,
+      "c": 2,
+      "a": 0,
+      "base_field": "QQ(b1,b2)",
+      "generic_degree": 6,
+      "normalized_volume": 8,
+      "boundary_correction": 2
+    },
+    {
+      "m": 1,
+      "c": 3,
+      "a": 0,
+      "base_field": "QQ(b1,b2)",
+      "generic_degree": 8,
+      "normalized_volume": 8,
+      "boundary_correction": 0
+    },
+    {
+      "m": 2,
+      "c": 2,
+      "a": 0,
+      "base_field": "QQ(b1,b2)",
+      "generic_degree": 12,
+      "normalized_volume": 16,
+      "boundary_correction": 4
+    },
+    {
+      "m": 2,
+      "c": 2,
+      "a": 1,
+      "base_field": "QQ(b1,b2)",
+      "generic_degree": 14,
+      "normalized_volume": 16,
+      "boundary_correction": 2
+    }
+  ],
+  "finite_field_inference": false,
+  "novelty_claim": false,
+  "external_review": false,
+  "scope": "Independent finite E6 geometry and characteristic-zero generic rank-two fibers; theorem proofs are in the note, not certified by this script.",
+  "source_sha256": {
+    "GENERAL_CAYLEY_DEGREE.md": "972be7cd38688f360f5e16872fbeae28df386f96fcfcbc7c72ff3e04f664f72a",
+    "tools/verify_general_cayley_degree.py": "14f88e02d161cab1701a2262dcd049459209f26d7f2501698bace74c90558707"
+  }
+}
