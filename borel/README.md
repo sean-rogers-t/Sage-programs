@@ -12,6 +12,7 @@ the mathematical guide for the Borel/Springer construction.
 
 | Question | Guide |
 | --- | --- |
+| Which degeneration orders can actual representations realize? | [Type A character criterion, closed exterior-mixture classification and every-order realization in even dimension](TYPE_A_CHARACTER_DEGENERATION.md) |
 | Can I reconstruct on B for larger classical and exceptional groups? | [Automatic Chevalley data, general character integration, exact torus-wall evaluation and independent checks through E8](ROOT_BOREL_API.md) |
 | When do mixed root terms recover vertical rank? | [General centralizer rank reduction and the complete G2 minimal/adjoint rank rules](G2_BOREL_RANK.md) |
 | Does the fiber program go beyond known theory? | [Literature assessment, uniform deductions, a reducible-fiber obstruction and the decision to pause more rank tables](CAYLEY_FIBER_ASSESSMENT.md) |

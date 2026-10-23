@@ -29,6 +29,14 @@ def main():
     version=sage_borel.__version__
     regression=read('character-verification.json')
     docs=read('documentation-verification.json')
+    character_degeneration=read('type-a-character-degeneration-verification.json')
+    assert character_degeneration['exterior_matrix_trace_moments']==140
+    assert character_degeneration['exact_cyclotomic_central_checks']==203
+    assert character_degeneration['full_symbolic_SL4_tangent_pairings']==45
+    assert len(character_degeneration['all_order_witnesses'])==16
+    assert character_degeneration['explicit_tensor_square_zero_map_checked']
+    for name,expected in character_degeneration['source_sha256'].items():
+        assert digest(ROOT/name)==expected,name
     fiber_assessment=read('cayley-fiber-assessment-verification.json')
     assert fiber_assessment['symbolic_trace_projection_checked']
     assert fiber_assessment['square_map_coordinate_change_and_inverse_checked']
@@ -1011,7 +1019,9 @@ def main():
     paths += [ROOT/'root-borel-verification.json']
     paths += [ROOT/'g2-borel-rank-verification.json']
     paths += [ROOT/'cayley-fiber-assessment-verification.json']
+    paths += [ROOT/'type-a-character-degeneration-verification.json']
     report=dict(result='passed',version=version,
+        type_A_character_degeneration=character_degeneration,
         Cayley_fiber_assessment=fiber_assessment,
         G2_vertical_rank=g2_rank,
         borel_coordinate_API=borel_coordinates,

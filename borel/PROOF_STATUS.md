@@ -1,5 +1,19 @@
 # Proof and literature status of the integral image notes
 
+The [type A character-degeneration theorem](TYPE_A_CHARACTER_DEGENERATION.md)
+now settles a uniform representation-realization family. For every exterior
+mixture on SL_m the central translated map has an explicit binomial formula.
+At -I for even m its order is m-1 minus the degree of the interpolation
+polynomial of the nontrivial exterior multiplicities. All orders 1,...,m-1
+occur in faithful representations; the tensor square of the full exterior
+algebra realizes the zero map. Twisted primitive trace indices give the
+general type A centralizer coefficient criterion. These are written
+deductions using published character/index identities, with no priority
+claim. Independent wedge matrices check 140 moments and 203 central
+comparisons; full symbolic SL4 trace projection and an explicit SL2 tensor
+square agree. The next gate concerns irreducible ambient representations
+restricted to proper centralizers, not additional central mixture examples.
+
 The 2026-10-23 [fiber-program assessment](CAYLEY_FIBER_ASSESSMENT.md)
 supersedes the proposed F4 rank-table next step. KM 4.12 already defines
 the translated centralizer map, and KM 4.13 supplies an isomorphism

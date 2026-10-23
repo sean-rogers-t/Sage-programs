@@ -1,0 +1,123 @@
+{
+  "result": "passed",
+  "date": "2026-10-23",
+  "sage_version": "9.5",
+  "exterior_matrix_trace_moments": 140,
+  "matrix_sizes_m": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "exact_cyclotomic_central_checks": 203,
+  "arbitrary_interpolation_checks": 4,
+  "all_order_witnesses": [
+    {
+      "m": 2,
+      "s": 0,
+      "r": 1,
+      "leading": "-1"
+    },
+    {
+      "m": 4,
+      "s": 0,
+      "r": 3,
+      "leading": "-1/4"
+    },
+    {
+      "m": 4,
+      "s": 1,
+      "r": 2,
+      "leading": "1/8"
+    },
+    {
+      "m": 4,
+      "s": 2,
+      "r": 1,
+      "leading": "-1/9"
+    },
+    {
+      "m": 6,
+      "s": 0,
+      "r": 5,
+      "leading": "-1/16"
+    },
+    {
+      "m": 6,
+      "s": 1,
+      "r": 4,
+      "leading": "1/48"
+    },
+    {
+      "m": 6,
+      "s": 2,
+      "r": 3,
+      "leading": "-1/80"
+    },
+    {
+      "m": 6,
+      "s": 3,
+      "r": 2,
+      "leading": "1/96"
+    },
+    {
+      "m": 6,
+      "s": 4,
+      "r": 1,
+      "leading": "-3/275"
+    },
+    {
+      "m": 8,
+      "s": 0,
+      "r": 7,
+      "leading": "-1/64"
+    },
+    {
+      "m": 8,
+      "s": 1,
+      "r": 6,
+      "leading": "1/256"
+    },
+    {
+      "m": 8,
+      "s": 2,
+      "r": 5,
+      "leading": "-1/560"
+    },
+    {
+      "m": 8,
+      "s": 3,
+      "r": 4,
+      "leading": "3/2624"
+    },
+    {
+      "m": 8,
+      "s": 4,
+      "r": 3,
+      "leading": "-3/3248"
+    },
+    {
+      "m": 8,
+      "s": 5,
+      "r": 2,
+      "leading": "15/16832"
+    },
+    {
+      "m": 8,
+      "s": 6,
+      "r": 1,
+      "leading": "-9/9065"
+    }
+  ],
+  "full_symbolic_SL4_tangent_pairings": 45,
+  "explicit_tensor_square_zero_map_checked": true,
+  "independent_of_character_and_borel_runtime": true,
+  "scope": "Finite exact matrix corroboration of separate written arbitrary-rank proofs; shared Sage arithmetic; no priority certification.",
+  "source_sha256": {
+    "TYPE_A_CHARACTER_DEGENERATION.md": "995b0ec71a5e582ed3e75f2575acfb1169688e4808d8234bb66287168fad063c",
+    "tools/verify_type_a_character_degeneration.py": "446748b54d7a71aaed000610d0236389e820d443c155a406acbb0526b78dbf87"
+  }
+}

@@ -36,7 +36,7 @@ projective model before B/D quadrics and isotropic Grassmannians. The
 [current sequence](OTHER_THEORIES_PROGRAM.md#current-focus-equivariant-images-in-the-classical-a-d-families)
 retains the Spin/SO lattice distinction; it adds no completed theorem.
 The Spin parity classification is shelved at the user's request. The expanded
-ledger has 139 entries, including 20 open questions. The proposal itself
+ledger has 140 entries, including 20 open questions. The proposal itself
 adds no theorem; subsequent progress is tracked here and in its README.
 
 The current focus is the geometry and representation-dependent degrees
@@ -134,9 +134,12 @@ rank tables and the proposed F4 rank API. KM 4.12 already defines the
 translated centralizer map; known nilpotent-map theory handles much of
 the proposed extension. The uniform fiber reduction and type A power-map
 normal form are explanatory deductions. LIMIT-13 disproves a universal
-affine-fiber hope. The next gate is a literature audit and uniform
-representation-realization criterion for degenerate translated maps,
-not another group calculation. Its novelty and wider openness are unverified.
+affine-fiber hope. GEO-30 now supplies a uniform exterior-mixture
+classification and realizes every matrix-power order in even dimension,
+as well as the zero map using a tensor square. The higher-index bridge
+uses established character theory. The next gate is a uniform criterion
+for irreducible ambient representations on proper centralizers; novelty
+and wider openness remain unverified.
 Full-group inverse presentations remain a later goal toward branch and
 non-finite target equations.
 Boundary scheme structure and maximal finite target loci remain open
@@ -318,6 +321,7 @@ theorems have a>=1,k>=2. Changes of integral source are explicit, not implicit.
 
 | GEO-28 | Automatic Chevalley data and the general character API reconstruct Borel Springer coordinates in finite irreducible types. Exact torus jets of precision H+1, where H is maximum positive-root height, recover every coordinate on root hypertori. | Written characteristic-zero precision proof and a sparse exact rational evaluator, retaining the simply connected weight lattice and simple-coroot output. Symbolic expansion is separately budgeted. Independent classical matrices cover A3/B3/C3/D4, a larger symmetric-square trace solve, fifteen exceptional adjoint traces, four exceptional minimal conjugation checks, and a dense 120-coordinate E8 identity-torus case. Exceptional checks share Sage Chevalley constants; no external-review, separate-CAS or novelty claim. Root factors reuse the geometry API. Singular-fiber/rank-stratum classification, other isogeny-form adapters and affine extensions are not supplied. | [Proof, conventions, API and next goal](ROOT_BOREL_API.md), [exact source-bound audit](root-borel-verification.json) |
 | GEO-29 | At a centralizer normal form tz, the vertical Springer rank is dim([u,theta(tz)] + im d(theta restricted to tU_t)). Off all root hypertori it is constant on tU and counts nonzero root factors. Complete G2 minimal/adjoint rank rules follow. | Characteristic-zero written deduction from equivariance and a surjective conjugation/centralizer tangent map. The G2 classification uses full weight coordinates and normalized trace projection; it includes involutions, order-three points, the six extra adjoint zero-toral points, and all single-root curves. Exact symbolic traces in independently built seven-dimensional matrices and full adjoint matrices agree; minor ideals check every normal-form stratum. Shared Chevalley sign conventions are explicit. No novelty claim, full B/G derivative, fiber-scheme or branch-locus classification follows. The regular-torus rule evaluates h(t) without classifying its zero scheme. | [Theorem, full rank rules and next goal](G2_BOREL_RANK.md), [source-bound symbolic audit](g2-borel-rank-verification.json) |
+| GEO-30 | Exterior-mixture translated Springer maps on SL_m have explicit central binomial coordinates. For even m at -I their order is m-1 minus the interpolation degree of the multiplicities. Every order 1,...,m-1, and the zero map, occurs in faithful representations. | Written arbitrary-rank proof using determinant differentiation, finite differences and the tensor square of the exterior algebra. General type A centralizer coefficients are twisted primitive trace indices divided by the quadratic index and k!. Published character/index theory supplies the inputs; no novelty claim. Independent wedge matrices check 140 trace moments, 203 cyclotomic central comparisons, 16 every-order witnesses, 45 symbolic SL4 tangent pairings and an explicit SL2 tensor square. Zero maps cannot occur within a nontrivial exterior direct sum itself. Irreducible central representations have order one; proper-centralizer branching remains the next question. | [Theorems, proofs and literature scope](TYPE_A_CHARACTER_DEGENERATION.md), [matrix audit](type-a-character-degeneration-verification.json) |
 
 GEO-07 also implies that no nontrivial irreducible representation of a
 nontrivial central quotient SL_n/C preserves torus regularity: the only
