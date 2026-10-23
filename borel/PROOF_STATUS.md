@@ -1,5 +1,25 @@
 # Proof and literature status of the integral image notes
 
+The [general critical-potential theorem](GENERAL_CAYLEY_FIBER_CRITICAL.md)
+now treats semisimple targets across group types. For K=Z_G(h), the full
+fiber is scheme-theoretically inside K and is locally the critical scheme
+of the character minus a target-dependent sum of logarithms of K-characters.
+Where K -> K//K is smooth with smooth quotient, the completed fiber is a
+smooth factor times the quotient potential's Jacobian algebra. This holds
+at regular fiber points for simply connected semisimple G. Isolated critical
+points characterize collapsed quotient-fiber components; their Jacobian
+lengths give generic multiplicities, with nonsingular Hessian equivalent
+to multiplicity one. A general linear-in-invariants elimination lemma
+recovers the A parity and C reducedness results. At nonregular points only
+the critical-pullback statement persists; a PGL_2 example also shows why
+regularity without the isogeny/smoothness qualification is insufficient.
+Tensor-power scaling and defining SL_n fibers are explicitly attributed to
+KM 2.8(3) and 6.2. Smooth character-level thickness and unbounded generic
+multiplicity on each fixed semisimple group are elementary corollaries,
+using generally reducible representations. These are written deductions
+from established ingredients; novelty is unverified. Nonsemisimple targets
+and a classification for irreducible characters remain outside the result.
+
 The [symplectic component theorem](SYMPLECTIC_FIBER_COMPONENT.md) proves that
 the target-centralizer sweep C=Z_G(theta(t)).(t U(H)) in the primitive
 middle-exterior zero model is a full-fiber component of dimension

@@ -29,6 +29,17 @@ def main():
     version=sage_borel.__version__
     regression=read('character-verification.json')
     docs=read('documentation-verification.json')
+    critical_fiber=read('general-cayley-fiber-critical-verification.json')
+    assert len(critical_fiber['linear_eliminations'])==6
+    assert len(critical_fiber['type_A_potentials'])==11
+    assert len(critical_fiber['type_C_perfect_pairings'])==12
+    assert len(critical_fiber['defining_SLn_baselines'])==9
+    assert sum(x['trace_pairings'] for x in critical_fiber['actual_tensor_matrix_checks'])==12
+    assert critical_fiber['symbolic_Sp4_corrected_potential_pairings']==4
+    assert critical_fiber['nonregular_SL2_control'] and critical_fiber['ramified_PGL2_control']
+    assert not critical_fiber['nonregular_product_theorem_claimed']
+    for name,expected in critical_fiber['source_sha256'].items():
+        assert digest(ROOT/name)==expected,name
     symplectic_fiber=read('symplectic-fiber-component-verification.json')
     assert len(symplectic_fiber['unimodular_pairings'])==20
     assert len(symplectic_fiber['cyclotomic_target_checks'])==40
@@ -1061,7 +1072,9 @@ def main():
     paths += [ROOT/'middle-exterior-fiber-component-verification.json']
     paths += [ROOT/'symplectic-centralizer-realization-verification.json']
     paths += [ROOT/'symplectic-fiber-component-verification.json']
+    paths += [ROOT/'general-cayley-fiber-critical-verification.json']
     report=dict(result='passed',version=version,
+        general_cayley_fiber_critical=critical_fiber,
         symplectic_fiber_component=symplectic_fiber,
         symplectic_centralizer_realization=symplectic_realization,
         middle_exterior_fiber_component=middle_fiber,

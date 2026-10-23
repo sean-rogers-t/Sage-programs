@@ -1,0 +1,242 @@
+{
+  "result": "passed",
+  "date": "2026-10-23",
+  "sage_version": "9.5",
+  "linear_eliminations": [
+    {
+      "residual_order": 1,
+      "exact_gradient_ideal": true
+    },
+    {
+      "residual_order": 2,
+      "exact_gradient_ideal": true
+    },
+    {
+      "residual_order": 3,
+      "exact_gradient_ideal": true
+    },
+    {
+      "residual_order": 4,
+      "exact_gradient_ideal": true
+    },
+    {
+      "residual_order": 5,
+      "exact_gradient_ideal": true
+    },
+    {
+      "residual_order": 6,
+      "exact_gradient_ideal": true
+    }
+  ],
+  "type_A_potentials": [
+    {
+      "m": 2,
+      "multiplicity": 1,
+      "potential_order": 2
+    },
+    {
+      "m": 3,
+      "multiplicity": 2,
+      "potential_order": 3
+    },
+    {
+      "m": 4,
+      "multiplicity": 1,
+      "potential_order": 2
+    },
+    {
+      "m": 5,
+      "multiplicity": 2,
+      "potential_order": 3
+    },
+    {
+      "m": 6,
+      "multiplicity": 1,
+      "potential_order": 2
+    },
+    {
+      "m": 7,
+      "multiplicity": 2,
+      "potential_order": 3
+    },
+    {
+      "m": 8,
+      "multiplicity": 1,
+      "potential_order": 2
+    },
+    {
+      "m": 9,
+      "multiplicity": 2,
+      "potential_order": 3
+    },
+    {
+      "m": 10,
+      "multiplicity": 1,
+      "potential_order": 2
+    },
+    {
+      "m": 11,
+      "multiplicity": 2,
+      "potential_order": 3
+    },
+    {
+      "m": 12,
+      "multiplicity": 1,
+      "potential_order": 2
+    }
+  ],
+  "type_C_perfect_pairings": [
+    {
+      "m": 1,
+      "mixed_determinant": 1,
+      "hessian_rank": 2
+    },
+    {
+      "m": 2,
+      "mixed_determinant": 1,
+      "hessian_rank": 4
+    },
+    {
+      "m": 3,
+      "mixed_determinant": 1,
+      "hessian_rank": 6
+    },
+    {
+      "m": 4,
+      "mixed_determinant": 1,
+      "hessian_rank": 8
+    },
+    {
+      "m": 5,
+      "mixed_determinant": 1,
+      "hessian_rank": 10
+    },
+    {
+      "m": 6,
+      "mixed_determinant": 1,
+      "hessian_rank": 12
+    },
+    {
+      "m": 7,
+      "mixed_determinant": 1,
+      "hessian_rank": 14
+    },
+    {
+      "m": 8,
+      "mixed_determinant": 1,
+      "hessian_rank": 16
+    },
+    {
+      "m": 9,
+      "mixed_determinant": 1,
+      "hessian_rank": 18
+    },
+    {
+      "m": 10,
+      "mixed_determinant": 1,
+      "hessian_rank": 20
+    },
+    {
+      "m": 11,
+      "mixed_determinant": 1,
+      "hessian_rank": 22
+    },
+    {
+      "m": 12,
+      "mixed_determinant": 1,
+      "hessian_rank": 24
+    }
+  ],
+  "defining_SLn_baselines": [
+    {
+      "n": 2,
+      "fiber_length": 2,
+      "quotient_hessian_corank": 1
+    },
+    {
+      "n": 3,
+      "fiber_length": 3,
+      "quotient_hessian_corank": 1
+    },
+    {
+      "n": 4,
+      "fiber_length": 4,
+      "quotient_hessian_corank": 1
+    },
+    {
+      "n": 5,
+      "fiber_length": 5,
+      "quotient_hessian_corank": 1
+    },
+    {
+      "n": 6,
+      "fiber_length": 6,
+      "quotient_hessian_corank": 1
+    },
+    {
+      "n": 7,
+      "fiber_length": 7,
+      "quotient_hessian_corank": 1
+    },
+    {
+      "n": 8,
+      "fiber_length": 8,
+      "quotient_hessian_corank": 1
+    },
+    {
+      "n": 9,
+      "fiber_length": 9,
+      "quotient_hessian_corank": 1
+    },
+    {
+      "n": 10,
+      "fiber_length": 10,
+      "quotient_hessian_corank": 1
+    }
+  ],
+  "actual_tensor_matrix_checks": [
+    {
+      "tensor_power": 2,
+      "dimension": 4,
+      "trace_pairings": 3,
+      "zero_level_multiplicity": 1
+    },
+    {
+      "tensor_power": 3,
+      "dimension": 8,
+      "trace_pairings": 3,
+      "zero_level_multiplicity": 2
+    },
+    {
+      "tensor_power": 4,
+      "dimension": 16,
+      "trace_pairings": 3,
+      "zero_level_multiplicity": 3
+    },
+    {
+      "tensor_power": 5,
+      "dimension": 32,
+      "trace_pairings": 3,
+      "zero_level_multiplicity": 4
+    }
+  ],
+  "nonregular_SL2_control": true,
+  "ramified_PGL2_control": true,
+  "symbolic_Sp4_corrected_potential_pairings": 4,
+  "Sp4_group_hessian_rank": 0,
+  "Sp4_quotient_hessian_rank": 2,
+  "general_proof_scope": "Written separately; these are finite exact corroborations.",
+  "published_baselines": [
+    "KM 2.8(3) tensor scaling",
+    "KM 6.2 defining SLn fibers",
+    "Steinberg regular quotient smoothness"
+  ],
+  "novelty_established": false,
+  "nonregular_product_theorem_claimed": false,
+  "source_sha256": {
+    "GENERAL_CAYLEY_FIBER_CRITICAL.md": "1cffec1488cc51c792939382111003bf82394fb195c62c6c97670c6aee2a1483",
+    "tools/verify_general_cayley_fiber_critical.py": "38de6414073d06cbcf3544162b48598d5a8a668a6101791b39b3753450df62d9",
+    "tools/verify_type_a_character_degeneration.py": "446748b54d7a71aaed000610d0236389e820d443c155a406acbb0526b78dbf87",
+    "tools/verify_symplectic_centralizer_realization.py": "fbaf9477120867e1168914e62b1139e8c578197c95363253a1b3dd3e77fd1fff"
+  }
+}
