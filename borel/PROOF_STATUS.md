@@ -1,5 +1,20 @@
 # Proof and literature status of the integral image notes
 
+The [G2 vertical-rank theorem](G2_BOREL_RANK.md) gives all ranks for the
+minimal and adjoint Springer maps on tU, using a centralizer normal form
+on root hypertori. Its general reduction is
+rank dF_t at tz = dim([u,theta(tz)] + im d(theta|tU_t) at z).
+This is a written consequence of equivariance and unipotent conjugation,
+not a claimed new general theorem in the literature. Off the root
+hypertori the rank is constant on tU and counts nonzero root factors.
+The G2 table includes all three involutions, both order-three points,
+six additional adjoint points, and the single-root curves. Full symbolic
+trace calculations in explicit 7-dimensional weight-string matrices and
+14-dimensional adjoint matrices agree with the recurrence. Exact minor
+ideals check the normal-form rank strata; no floating-point inference
+or novelty claim is made. The result concerns the vertical derivative,
+not the full B/G differential, fiber schemes or target branch loci.
+
 The [automatic root Borel API](ROOT_BOREL_API.md) connects the general
 SpringerCharacterMap to finite irreducible Chevalley root data, retaining
 fundamental-weight torus and simple-coroot toral coordinates. Sparse

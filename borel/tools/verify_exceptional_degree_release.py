@@ -29,6 +29,13 @@ def main():
     version=sage_borel.__version__
     regression=read('character-verification.json')
     docs=read('documentation-verification.json')
+    g2_rank=read('g2-borel-rank-verification.json')
+    assert g2_rank['full_symbolic_trace_representations']==[7,14]
+    assert g2_rank['centralizer_curves_checked']==12
+    assert g2_rank['rational_normal_form_rank_checks']==24
+    assert g2_rank['determinantal_strata_verified']
+    for name,expected in g2_rank['source_sha256'].items():
+        assert digest(ROOT/name)==expected,name
     root_borel=read('root-borel-verification.json')
     assert root_borel['test_methods']==8
     assert root_borel['classical_standard_matrix_cases']==12
@@ -993,7 +1000,9 @@ def main():
     paths += [ROOT/'borel-coordinates-verification.json']
     paths += [ROOT/'borel-reconstruction-verification.json']
     paths += [ROOT/'root-borel-verification.json']
+    paths += [ROOT/'g2-borel-rank-verification.json']
     report=dict(result='passed',version=version,
+        G2_vertical_rank=g2_rank,
         borel_coordinate_API=borel_coordinates,
         borel_reconstruction_API=borel_reconstruction,
         automatic_root_borel_API=root_borel,

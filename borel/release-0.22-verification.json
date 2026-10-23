@@ -1,6 +1,303 @@
 {
   "result": "passed",
   "version": "0.22.0",
+  "G2_vertical_rank": {
+    "result": "passed",
+    "sage_version": "9.5",
+    "coefficient_field": "characteristic zero; exact QQ and quadratic fields",
+    "full_symbolic_trace_representations": [
+      7,
+      14
+    ],
+    "centralizer_curves_checked": 12,
+    "rational_normal_form_rank_checks": 24,
+    "determinantal_strata_verified": true,
+    "root_hypertorus_intersections_exhausted": true,
+    "records": [
+      {
+        "representation": "minimal",
+        "curves": [
+          {
+            "root": [
+              1,
+              0
+            ],
+            "parameter": [
+              "s",
+              "s^2"
+            ],
+            "central_factor": "(1/6) * s^-1 * (s^2 + 4*s + 1)",
+            "toral_zero_polynomial": "(s - 1) * (s + 1)"
+          },
+          {
+            "root": [
+              0,
+              1
+            ],
+            "parameter": [
+              "s^2",
+              "s^3"
+            ],
+            "central_factor": "(1/2) * s^-1 * (s^2 + 1)",
+            "toral_zero_polynomial": "(s - 1) * (s + 1) * (s^2 + s + 1)"
+          },
+          {
+            "root": [
+              1,
+              1
+            ],
+            "parameter": [
+              "s",
+              "s"
+            ],
+            "central_factor": "(1/6) * s^-1 * (s^2 + 4*s + 1)",
+            "toral_zero_polynomial": "(s - 1) * (s + 1)"
+          },
+          {
+            "root": [
+              2,
+              1
+            ],
+            "parameter": [
+              "1",
+              "s"
+            ],
+            "central_factor": "(1/6) * s^-1 * (s^2 + 4*s + 1)",
+            "toral_zero_polynomial": "(s - 1) * (s + 1)"
+          },
+          {
+            "root": [
+              3,
+              1
+            ],
+            "parameter": [
+              "s",
+              "s^3"
+            ],
+            "central_factor": "(1/2) * s^-1 * (s^2 + 1)",
+            "toral_zero_polynomial": "(s - 1) * (s + 1) * (s^2 + s + 1)"
+          },
+          {
+            "root": [
+              3,
+              2
+            ],
+            "parameter": [
+              "s",
+              "1"
+            ],
+            "central_factor": "(1/2) * s^-1 * (s^2 + 1)",
+            "toral_zero_polynomial": "(s - 1) * (s + 1) * (s^2 + s + 1)"
+          }
+        ],
+        "involutions": [
+          {
+            "torus": [
+              "-1",
+              "1"
+            ],
+            "short_root": 1,
+            "long_root": 6,
+            "ranks": {
+              "(0, 0)": 2,
+              "(0, 1)": 2,
+              "(1, 0)": 5,
+              "(1, 1)": 5
+            },
+            "determinantal_ideals_verified": true
+          },
+          {
+            "torus": [
+              "1",
+              "-1"
+            ],
+            "short_root": 4,
+            "long_root": 2,
+            "ranks": {
+              "(0, 0)": 2,
+              "(0, 1)": 4,
+              "(1, 0)": 4,
+              "(1, 1)": 4
+            },
+            "determinantal_ideals_verified": true
+          },
+          {
+            "torus": [
+              "-1",
+              "-1"
+            ],
+            "short_root": 3,
+            "long_root": 5,
+            "ranks": {
+              "(0, 0)": 2,
+              "(0, 1)": 3,
+              "(1, 0)": 4,
+              "(1, 1)": 4
+            },
+            "determinantal_ideals_verified": true
+          }
+        ],
+        "order_three_rank": "4 if b != 0; 3 otherwise",
+        "extra_long_A1": []
+      },
+      {
+        "representation": "adjoint",
+        "curves": [
+          {
+            "root": [
+              1,
+              0
+            ],
+            "parameter": [
+              "s",
+              "s^2"
+            ],
+            "central_factor": "(5/12) * s^-1 * (s^2 + 2/5*s + 1)",
+            "toral_zero_polynomial": "(s - 1) * (s + 1)^3"
+          },
+          {
+            "root": [
+              0,
+              1
+            ],
+            "parameter": [
+              "s^2",
+              "s^3"
+            ],
+            "central_factor": "(1/8) * s^-3 * (s + 1)^2 * (s^4 - 2*s^3 + 4*s^2 - 2*s + 1)",
+            "toral_zero_polynomial": "(s - 1) * (s + 1) * (s^2 - 2/3*s + 1) * (s^2 + s + 1)"
+          },
+          {
+            "root": [
+              1,
+              1
+            ],
+            "parameter": [
+              "s",
+              "s"
+            ],
+            "central_factor": "(5/12) * s^-1 * (s^2 + 2/5*s + 1)",
+            "toral_zero_polynomial": "(s - 1) * (s + 1)^3"
+          },
+          {
+            "root": [
+              2,
+              1
+            ],
+            "parameter": [
+              "1",
+              "s"
+            ],
+            "central_factor": "(5/12) * s^-1 * (s^2 + 2/5*s + 1)",
+            "toral_zero_polynomial": "(s - 1) * (s + 1)^3"
+          },
+          {
+            "root": [
+              3,
+              1
+            ],
+            "parameter": [
+              "s",
+              "s^3"
+            ],
+            "central_factor": "(1/8) * s^-3 * (s + 1)^2 * (s^4 - 2*s^3 + 4*s^2 - 2*s + 1)",
+            "toral_zero_polynomial": "(s - 1) * (s + 1) * (s^2 - 2/3*s + 1) * (s^2 + s + 1)"
+          },
+          {
+            "root": [
+              3,
+              2
+            ],
+            "parameter": [
+              "s",
+              "1"
+            ],
+            "central_factor": "(1/8) * s^-3 * (s + 1)^2 * (s^4 - 2*s^3 + 4*s^2 - 2*s + 1)",
+            "toral_zero_polynomial": "(s - 1) * (s + 1) * (s^2 - 2/3*s + 1) * (s^2 + s + 1)"
+          }
+        ],
+        "involutions": [
+          {
+            "torus": [
+              "-1",
+              "1"
+            ],
+            "short_root": 1,
+            "long_root": 6,
+            "ranks": {
+              "(0, 0)": 1,
+              "(0, 1)": 1,
+              "(1, 0)": 4,
+              "(1, 1)": 4
+            },
+            "determinantal_ideals_verified": true
+          },
+          {
+            "torus": [
+              "1",
+              "-1"
+            ],
+            "short_root": 4,
+            "long_root": 2,
+            "ranks": {
+              "(0, 0)": 1,
+              "(0, 1)": 1,
+              "(1, 0)": 3,
+              "(1, 1)": 3
+            },
+            "determinantal_ideals_verified": true
+          },
+          {
+            "torus": [
+              "-1",
+              "-1"
+            ],
+            "short_root": 3,
+            "long_root": 5,
+            "ranks": {
+              "(0, 0)": 1,
+              "(0, 1)": 1,
+              "(1, 0)": 3,
+              "(1, 1)": 3
+            },
+            "determinantal_ideals_verified": true
+          }
+        ],
+        "order_three_rank": "4 if b != 0; 3 otherwise",
+        "extra_long_A1": [
+          {
+            "root": 2,
+            "nonzero_parameter_rank": 3,
+            "zero_parameter_rank": 1
+          },
+          {
+            "root": 5,
+            "nonzero_parameter_rank": 2,
+            "zero_parameter_rank": 1
+          },
+          {
+            "root": 6,
+            "nonzero_parameter_rank": 1,
+            "zero_parameter_rank": 1
+          }
+        ]
+      }
+    ],
+    "theorem_scope": "All G2 vertical ranks, using torus evaluation off the root hypertori and centralizer normal forms on them",
+    "general_deduction": "rank D_U theta(tz) = dim([u,theta(tz)] + d(theta|tU_t)_z(T_z U_t))",
+    "independence": "Minimal matrices are built from explicit sl2 weight strings and checked against Chevalley-Serre relations. Adjoint trace uses full Lie matrices. Both avoid the fixed-vector recurrence; sign alignment and the adjoint route share Sage root constants. Not a separate CAS or external review.",
+    "limitations": "No full B/G differential, scheme-theoretic fiber or target branch-locus classification; no novelty claim.",
+    "source_sha256": {
+      "G2_BOREL_RANK.md": "c9e35a12801122b44bb2ff141dac9a82b0efa7f249ed086385cc352bd6793446",
+      "tools/verify_g2_borel_rank.py": "c31adb288200114a72c1d5e431ab8994b77859b62d399c2973c46f385c326eae",
+      "src/sage_borel/root_borel.py": "0bc1aa676ac3e139e86aa1b8c771cdf108868c9e32ad5b2db481a60cff1e0349",
+      "src/sage_borel/characters.py": "99a77451324b4ab09aed65952cc3cce50dbc93e650333d35a6f79bbe5618e419",
+      "src/sage_borel/borel_reconstruction.py": "2a85bf2b353d191055f7a1123e83a5a1d79d58211414d7e8b1170e33a1639348",
+      "src/sage_borel/geometry.py": "41806a10f815088783171b52f6e91543d297fe410c0b534bf83877c6e0c6ca32",
+      "src/sage_borel/__init__.py": "dd678287ede5d2bbfd72619401054b523f5624fba701c121849e03ab99d49935",
+      "tests/test_root_borel.py": "1f9122568cf474dd877b582e74d42fb0cb0a0b478ece5bc1ba6d9742ae6eb159"
+    }
+  },
   "borel_coordinate_API": {
     "result": "passed",
     "sage_version": "9.5",
@@ -4278,7 +4575,7 @@
   "other_theories_exploration": {
     "reports_checked": 13,
     "proof_notes": 10,
-    "ledger_entries": 137,
+    "ledger_entries": 138,
     "source_hashes_checked": true,
     "symbolic_SL3_integral_reductions": true,
     "historical_exploration_runtime_changed": false,
@@ -4485,7 +4782,7 @@
   "standard_monomial_counts_rechecked": "Singular vdim and independent integer exponent-slice recursion",
   "regression_tests": 208,
   "documentation_examples": 54,
-  "local_links_and_anchors": 1782,
+  "local_links_and_anchors": 1790,
   "isolated_wheel_tests": 75,
   "wheel_sha256": "943ca8b76c628251b8ce6073c76c9b156ae71194fd8c81162fd259df2e1a4ba8",
   "wheel_sources_and_data_match": true,
@@ -4711,10 +5008,10 @@
     "OTHER_THEORIES_QUANTUM.md": "97c5dad8add109648feb25bcd0fb35efc6d5eaa52d9b49dc52f7f30fadd70712",
     "OTHER_THEORIES_SL3.md": "e9fc1b6a3092532b08513193c6d6e87ea338948ae42de3031296438f822f6c99",
     "OTHER_THEORIES_TYPE_A.md": "54269c7e04730b556364b0beff633aae7b2a39620983875969b11c38ad3280e3",
-    "PROOF_STATUS.md": "29a15de29ad00fbe3020a47988162661e46afeb1836c9860ebd06dfbea70b049",
-    "README.md": "ce3aec658c7d2cfc81b5c12c3eaaf169c8f988d364c8e42adb6db5d6714e6f46",
+    "PROOF_STATUS.md": "9d89d01765e1c9a66e78fb4afaaefce67102f22835278fed5f23ea560040313a",
+    "README.md": "25643668ff3ec46009a5d9f700ae897845b116a95a02f724e490c23f35d452d2",
     "REGULARITY_CLASSIFICATION.md": "5f22fb431145bf438148d74544beb51da78e6cae03c80745c2c9768d8922cf54",
-    "RESEARCH_LEDGER.md": "816abd0f2df10d8a0d50f50bf11a0698dc119cbd0c9eed02f47515ac7ea3f392",
+    "RESEARCH_LEDGER.md": "1e192842ed95aaf1cc21196e34d2ab331ff06807bd86f9b19737331cca0a0d74",
     "SPIN_CAYLEY_DEGREES.md": "b38d93a60bed0c20ab7147e53aac2805644f8fcc49f04445a002edfca3a6ad67",
     "SPIN_CAYLEY_GEOMETRY.md": "3bf72a4dd7e8c0db64213b50f56f47fbc7775b76c2cb168215be06ff3d94cf07",
     "SPIN_PARITY_BOUNDARY.md": "8758219bb76b777529e244cd77de7e3cf4d70fd51f0d6b54166e8ed47b31d130",
@@ -4737,7 +5034,7 @@
     "borel-reconstruction-verification.json": "f0d24e2ab4f903051d5e5dcf1f98f38d62ee7cb4378cc323e08dce7cf4809c3d",
     "cayley-literature-verification.json": "3a8b165adfe5736bcc7f9aea80c9afbc221e1248f8d6af64b1fbe5efe5dfe01c",
     "character-verification.json": "e28a6dbfbcfd3ed980a070a4de6793eba6d90320c32c9437a53bab048c614909",
-    "documentation-verification.json": "51a0219415207f231758b0f5f2da455465c94a98b085a7e28121016c300e05e5",
+    "documentation-verification.json": "dbff65d97279a71e410bca9d258fc2cb7c307d61374d485d77011127f911b984",
     "e6-adjoint-deformation-verification.json": "bffa1a623b82690b298598b33c6069628011031c03cfd57d572473a9d54ede13",
     "equivariant-verification.json": "546b24595dc0c2529889baf70b31d325e91233f0dfde80bef85bf936fc7d8bcf",
     "experiments/a5-even-block-sources-audit.json": "545505e1e6644975343977f2e44ee2937d9e9a555987f50ae9b1a4d6658b6bdd",
@@ -5058,6 +5355,7 @@
     "exterior-regularity-verification.json": "09033f8df68b8a03f5870c48b6aea60dcae976311305ca02d57bf60cbbabc8dd",
     "f4-minimal-degree-verification.json": "16f9bad22148747bc8e6955efcbc45f4c6b0ff8ee761396f30d47a8ba4990787",
     "f4-mixture-degree-verification.json": "b521ba9a800d7c577a9ffbd2d0d77d82bbf5e9d36cd063a492a1e7b5e9bbde1f",
+    "g2-borel-rank-verification.json": "287e63a1402aba915929d36fbf2e2b9e95a603dd03c44259d64b7195ef45071b",
     "general-cayley-degree-verification.json": "7cd0bc3a4432bc52279acf1b63bcbdc0a7ff918655e1cd79572e3a016b5c8b13",
     "geometry-wheel-verification.json": "75a525a515e939588b202c9f35f47ed6209c7f30bd06d2d8cf7fe0a6a7944a49",
     "half-spin-boundary-verification.json": "a6abdf16613ae513d613f767b94fb012895dbfb092c48087830ba103f5c5dae2",
@@ -5065,7 +5363,7 @@
     "half-spin-degree-verification.json": "47bfc74e980c3c8cc27b07df222585377b8290bd01ba01d16c7b4658503d8907",
     "half-spin-rank-degrees-verification.json": "86c2348a8a432dfaab2e46db3bd5cc92fbd3b5facea2c76533d03ac2f42ebb68",
     "mixed-regularity-verification.json": "98684d563c2af2d09b7a01ee3f2d77e4a42d9cf4620cdd5358df94066d1fd1ec",
-    "other-theories-verification.json": "26590ab49fd0e5e16175819ab5c6f13ffcf835d4676d95f1a9ba8c154cfabf91",
+    "other-theories-verification.json": "6ba4811985ca2051a779b87ea7b80fe58ddb59c5e86c6e17d39479d1b7d5f2ef",
     "regularity-classification-verification.json": "7f25f0ae569530ee5a7f71848e8bceb545ea9ecd7dd50a7898e362d0adece9d0",
     "relative-image-verification.json": "77de36bd2b4e74e8a76f0f05bbac78cf556f5ec121becbdad2e716202addbe3d",
     "root-borel-verification.json": "4528981e7cdb4198a82036d383fcedfa675898503ec4309a77b14563032ad954",
@@ -5125,10 +5423,10 @@
     "tools/package_e7_relative_images.py": "e11c39eae18d54c8b3e26ae812359cded5d25e94da3dfd2e8842e2641d42cad0",
     "tools/verify_bc_mixture_degrees.py": "b37e4aee9e569d59c84bdd6ca9fb3ab598098fb332db2a3b40c3416b9ddef355",
     "tools/verify_cayley_literature.py": "56066228924290a6b31fa5f94897665625e9e96f2619193212ed82a13341a811",
-    "tools/verify_documentation.py": "449faa12c2f713dd45c6b4bea60e8b521179b01ef4e2d7d3d2a4783a2ca05bd1",
+    "tools/verify_documentation.py": "cac9c5ebbc5d2ebfe31452f2bd66992ed12fa0dfa0e76f41458a12d4f5faf073",
     "tools/verify_e6_adjoint_deformation.py": "c1a8c12d12e410d41cab05d3d0c3fd26a48c20ef8c33d12c25de1eadd91fb46e",
     "tools/verify_equivariant.py": "360a4b0825394205da56515b31b77abf25fa0de751901b360431faed370cf498",
-    "tools/verify_exceptional_degree_release.py": "8d92dfbdbfbec07bca16a54cb0a080aea4d0502a96d63bf7c39892c0abd1e640",
+    "tools/verify_exceptional_degree_release.py": "743901ad409c0ef2183d8044b6e3a3d01095c7af1517d1c259bcc91d3f5f2d86",
     "tools/verify_exterior_regularity.py": "453130eb8b8cd3f8a53f7a9ddf1fb299c80e320d0dd03eff04d9b6fb73fa3ad3",
     "tools/verify_f4_minimal_degree.py": "8b7b895c0aecccaaf8451203289efed9f9a322dfc7103be525e4902fcba4486e",
     "tools/verify_f4_mixture_degree.py": "45a15eb0f884de3127a1d0b30eca6e5cc7ccd70a9842b7801ee183fd2a53d2fe",
@@ -5139,7 +5437,7 @@
     "tools/verify_half_spin_degree.py": "733805ad3a709862ddd25b9628530555204429b0b7d53833a5fad07b0c54b171",
     "tools/verify_half_spin_rank_degrees.py": "e46e37af63bed412041bc12b7b218359787ba081967a38145e7a924dce2d319f",
     "tools/verify_mixed_regularity.py": "37d932df901247a3b1028d741f3c5e81a1c03c2c342415ecf8de8cc85508f2c5",
-    "tools/verify_other_theories.py": "7d66fb405073b691fd94754b2add1d121804a9dd7f2e2bc5d09fcc8f0a95ab87",
+    "tools/verify_other_theories.py": "0ae9b13e5f22d6ffbfb1fd7f3ed986346b6d210bf126b21b4f9cd125e7f75642",
     "tools/verify_regularity_classification.py": "e9e66ecc61bb8308db6f8f9729bf7b2bbc19f344a6978e87f7fc0088e563c8b1",
     "tools/verify_relative_images.py": "0bad330a58ad84df9daeb54933cee539ac0175e3d543c6ae581139989e444e9a",
     "tools/verify_spin_cayley_degree.py": "4fc0d8fd0607f6271291dd3b47e1ecaa3b0acba648b5ac68cc0f369324509b25",
