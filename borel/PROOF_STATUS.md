@@ -1,5 +1,31 @@
 # Proof and literature status of the integral image notes
 
+The [simple-group branching note](SIMPLE_GROUP_CAYLEY_BRANCHING.md) proves
+that fundamental representations of every simply connected simple group
+have no regular points in their zero fibers, directly from Steinberg's
+fundamental-character coordinates and trace differentiation. The statement
+descends when the representation descends. Central points of an irreducible
+map's zero fiber are reduced and isolated. A Levi branching criterion gives
+necessary semisimple-target block bounds in A-D and a hook-Schur extension.
+More substantially, for exterior^k of SL_(2k), on every target stratum
+with centralizer S(GL_k x product GL_(r_j)), sum r_j=k, there are exactly
+2 M full-fiber components meeting the regular locus, each of multiplicity
+one, unless 1+I^2 lambda^2=0, when there are M components of multiplicity two.
+Here M=k!/(product r_j!).
+Here I=binomial(2k-2,k-1) and lambda is the eigenvalue repeated k times;
+the remaining eigenvalues differ from lambda and have multiplicities r_j.
+An exact quadratic after elimination proves the count in every rank.
+Actual exterior matrices independently check 270 trace pairings in SL_4
+and SL_6, in both regimes and every remaining target multiplicity partition.
+Ordered-root orbits are independently enumerated through k=7.
+Weyl weights check 20 B/C/D representations;
+113 symbolic block derivatives and 78 hook expansions also agree.
+These are written deductions from known inputs, not established priority.
+The count is of positive-dimensional special-fiber components, not generic
+degree. Target multiplicities strictly below k, analogous symplectic strata,
+exceptional Levi classifications, and components wholly in the nonregular
+locus remain open here.
+
 The [general critical-potential theorem](GENERAL_CAYLEY_FIBER_CRITICAL.md)
 now treats semisimple targets across group types. For K=Z_G(h), the full
 fiber is scheme-theoretically inside K and is locally the critical scheme

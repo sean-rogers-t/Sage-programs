@@ -6,7 +6,7 @@
   "source_bindings_checked": 24,
   "symbolic_all_parameter_SL3_integral_block_reductions": true,
   "constant_loop_flag_descent_counterexample_verified": true,
-  "ledger_entries": 147,
+  "ledger_entries": 149,
   "open_questions": 22,
   "scope": "Report consistency, normalized source/raw hashes and exact symbolic SL3 integral reductions; not an external proof review, priority certificate or new runtime release.",
   "source_sha256": {
@@ -47,6 +47,6 @@
     "experiments/other_theories_sl3_classification.py": "13aa603978091a3c44521379fb591199170bb86e863835551f09b12a31b134bd",
     "experiments/other_theories_symplectic_equivariant_pilot.py": "e29173ab35cfd71067575cde5cf7e7b675ed86e96ed725a70e39170beb961404",
     "experiments/other_theories_symplectic_k_pilot.py": "5cd5a8dd5bfd7297b3ebcef327621ece4d9b81a5becb08c577d4ffda25b8998f",
-    "tools/verify_other_theories.py": "e85158ec71b21af642a4588d2d00c23a3edd3b95b554465a20e8bb70b7553532"
+    "tools/verify_other_theories.py": "e70508117dc60c3c8e56623b1a866c8539e0da7583e76da979868061881e4dc1"
   }
 }

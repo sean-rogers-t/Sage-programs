@@ -180,6 +180,10 @@
       "python_blocks_executed": 0
     },
     {
+      "file": "SIMPLE_GROUP_CAYLEY_BRANCHING.md",
+      "python_blocks_executed": 0
+    },
+    {
       "file": "REGULARITY_CLASSIFICATION.md",
       "python_blocks_executed": 0
     },
@@ -608,7 +612,7 @@
       "python_blocks_executed": 0
     }
   ],
-  "local_links_and_anchors_checked": 1842,
+  "local_links_and_anchors_checked": 1851,
   "python_blocks_executed": 54,
   "scope": "Python fences executed in reading order in a fresh namespace per document; local links and anchors checked. Shell snippets and external URLs were not automatically executed or crawled."
 }
