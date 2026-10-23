@@ -29,6 +29,30 @@ def main():
     version=sage_borel.__version__
     regression=read('character-verification.json')
     docs=read('documentation-verification.json')
+    spectral=read('spectral-branching-verification.json')
+    spectral_audit=read('spectral-branching-audit.json')
+    assert [r['accepted'] for r in spectral['character']['shape_tests']]==[False,False,True]
+    assert spectral['character']['eigenvalue_multiplicities']==[1,1]
+    assert spectral['character']['spectral_target_maps_zero']
+    assert all(spectral['ideals'].values())
+    assert not spectral['all_exceptional_classification']
+    assert not spectral['new_exceptional_case_claim']
+    assert not spectral['simple_group_counterexample_claim']
+    realization=spectral['reductive_realization']
+    assert realization['representation_dimension']==36
+    assert realization['full_differential_rank']==2
+    assert realization['regular_fiber_local_dimension']==9
+    assert realization['regular_fiber_tangent_dimension']==10
+    assert not realization['group_is_simple']
+    assert not spectral_audit['uses_Sage']
+    assert all(spectral_audit['checks'].values())
+    assert spectral_audit['reductive_realization']['dimension']==36
+    assert spectral_audit['reductive_realization']['differential_rank']==2
+    assert spectral_audit['reductive_realization']['trace_form_nondegenerate']
+    for record in (spectral,spectral_audit):
+        assert not record['literature_priority_claim']
+        for name,expected in record['source_sha256'].items():
+            assert digest(ROOT/name)==expected,name
     cubic=read('cubic-levi-refinements-verification.json')
     cubic_audit=read('cubic-levi-refinements-audit.json')
     assert cubic['remaining_two_mechanism_tests_resolved']
@@ -1290,7 +1314,24 @@ def main():
     paths += [ROOT/name for name in ('CUBIC_LEVI_REFINEMENTS.md',
         'cubic-levi-refinements-verification.json','cubic-levi-refinements-audit.json',
         'tools/verify_cubic_levi_refinements.py','tools/audit_cubic_levi_refinements.py')]
+    paths += [ROOT/name for name in ('SPECTRAL_BRANCHING_FIBERS.md',
+        'spectral-branching-verification.json','spectral-branching-audit.json',
+        'tools/verify_spectral_branching_fibers.py','tools/audit_spectral_branching_fibers.py')]
     report=dict(result='passed',version=version,
+        spectral_branching=dict(arbitrary_matrix_size_written_theorem=True,
+            semisimple_eigenvalue_block_excess='2*d-1',ordinary_branch_excess=0,
+            noncollision_and_boundary_hypotheses_required=True,
+            same_support_nonreduced_control=True,
+            reductive_representation_counterexample_dimension=36,
+            counterexample_group='SL2 x SL3 x Gm',
+            counterexample_regular_fiber_local_dimension=9,
+            counterexample_regular_fiber_tangent_dimension=10,
+            simple_group_counterexample_claim=False,
+            E6_suspension_recovered_with_boundary=True,
+            new_exceptional_case_claim=False,literature_priority_claim=False,
+            certificate='spectral-branching-verification.json',
+            independent_audit='spectral-branching-audit.json',
+            scope='Sufficient coefficient-sensitive branching criterion and an actual reductive representation obstruction. No all-exceptional classification or simple-group counterexample.'),
         cubic_levi_refinements=dict(product_transfer_written_proof=True,
             Fricke_controlled_boundary_written_proof=True,universal_relative_algebra_rank=5,
             rank_five_is_not_Springer_degree=True,

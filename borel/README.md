@@ -12,6 +12,7 @@ the mathematical guide for the Borel/Springer construction.
 
 | Question | Guide |
 | --- | --- |
+| Can one criterion handle arbitrarily many cubic couplings and predict smooth excess? | [Bipartite character pencils, spectral quadrics of dimension 2d-1, and a persistent-collision obstruction](SPECTRAL_BRANCHING_FIBERS.md) |
 | Can we resolve the two remaining E6 cubic refinement mechanisms structurally? | [Product transfer, a universal Fricke critical algebra, and boundary control; generic regular dimensions 10 and 6](CUBIC_LEVI_REFINEMENTS.md) |
 | Can weight norms and character couplings prove structural fiber theorems? | [Charge-sensitive degree bounds, restricted adjoint cubic shapes, all-Levi E6 minimal smoothness, and an exact suspension theorem](BRANCHING_NORM_FIBERS.md) |
 | Does the classical adjoint dimension formula extend to exceptional groups? | [No: E6 has two extra quotient dimensions; a uniform root-length obstruction and contact-grading transfer explain the outcomes](EXCEPTIONAL_ADJOINT_CONTACT_FIBERS.md) |

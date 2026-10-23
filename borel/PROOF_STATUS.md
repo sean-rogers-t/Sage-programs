@@ -1,5 +1,23 @@
 # Proof and literature status of the integral image notes
 
+The [spectral branching criterion](SPECTRAL_BRANCHING_FIBERS.md) treats
+arbitrarily large bipartite cubic character pencils g(x,z)+u^t(A+xB)v.
+With semisimple spectral splitting, no persistent stationary-eigenvalue
+collision, and a separately checked nondominant boundary image, it proves
+generic regular-fiber smoothness. A contributing eigenspace of dimension
+d adds 2d-1 quotient dimensions; the ordinary branch adds zero. These are
+conditional hypotheses on actual coefficients, not consequences of a
+coupling graph alone. Two potentials with identical support have smooth
+versus generically nonreduced fibers. The latter is realized by an explicit
+36-dimensional representation of SL2 times SL3 times C*: its regular
+Springer fiber is nonreduced over every nonzero central target. This group
+is reductive, not simple; no simple-adjoint counterexample is claimed.
+Independent Sage/SymPy ideal and direct weight-trace checks pass,
+and the criterion recovers the existing E6 suspension with exact boundary
+control. No new exceptional embedding is declared settled. The next gate
+is a root-theoretic implication establishing these spectral/boundary
+hypotheses for actual adjoint restrictions. Priority remains unverified.
+
 The [cubic refinement theorem](CUBIC_LEVI_REFINEMENTS.md) now resolves
 the two outstanding E6 mechanism tests. For the specified A1^2+A2 and
 A1^3 Levi embeddings, generic regular adjoint Springer fibers are

@@ -1,0 +1,151 @@
+{
+  "result": "passed",
+  "character": {
+    "shape_tests": [
+      {
+        "nodes": [
+          2,
+          3,
+          5
+        ],
+        "accepted": false,
+        "reason": "non-pair leaf monomial",
+        "exponent": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "nodes": [
+          2,
+          3,
+          5,
+          6
+        ],
+        "accepted": false,
+        "reason": "non-pair leaf monomial",
+        "exponent": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "nodes": [
+          1,
+          2,
+          3,
+          5,
+          6
+        ],
+        "accepted": true,
+        "left": [
+          0,
+          3
+        ],
+        "right": [
+          2,
+          4
+        ],
+        "free": [],
+        "pair_count": 2,
+        "edges": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "quadratic_center_coefficient_is_Laurent_unit": true,
+        "full_central_charges_retained": true,
+        "spectral_and_boundary_hypotheses_certified": false
+      }
+    ],
+    "E6_matrix": [
+      [
+        "1",
+        "z*r1 + 1/(z^2)"
+      ],
+      [
+        "1/z*r1 + (z^2)",
+        "1"
+      ]
+    ],
+    "determinant": "-r1^2 + (-z^6 - 1)/(z^3)*r1",
+    "semisimple_on_S_nonzero": true,
+    "eigenvalue_multiplicities": [
+      1,
+      1
+    ],
+    "spectral_target_maps_zero": true
+  },
+  "ideals": {
+    "two_pair_generic_ideal_is_disjoint_branch_intersection": true,
+    "active_coordinate_localization_exact": true,
+    "collision_nilpotent_uv_nonzero": true,
+    "collision_nilpotent_uv_square_zero": true,
+    "E6_boundary_target_zero_in_quotient_ring": true,
+    "arbitrary_m_claim_comes_from_written_proof": true
+  },
+  "reductive_realization": {
+    "group": "SL2 x SL3 x Gm",
+    "representation_dimension": 36,
+    "trace_Gram": [
+      [
+        30,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        36,
+        -18,
+        0
+      ],
+      [
+        0,
+        -18,
+        36,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "regular_semisimple_source": true,
+    "central_target_symbolic": true,
+    "full_differential_rank": 2,
+    "regular_fiber_local_dimension": 9,
+    "regular_fiber_tangent_dimension": 10,
+    "group_is_simple": false,
+    "representation_is_adjoint": false
+  },
+  "all_exceptional_classification": false,
+  "new_exceptional_case_claim": false,
+  "simple_group_counterexample_claim": false,
+  "public_API_changed": false,
+  "literature_priority_claim": false,
+  "source_sha256": {
+    "SPECTRAL_BRANCHING_FIBERS.md": "789a4c9d951659de781ba20ccd4e65c5114981125aed4740e96beb1efdaa5ed3",
+    "tools/verify_spectral_branching_fibers.py": "8ae0f1ebc4bd09246d5b753d51fb721b65c4596ae204f82ddc141b4d9bc7ddfc",
+    "branching-norm-fibers-verification.json": "1375f28c548a219a8b0824d73d421692159c16b91b64dc7674aa08ef0e7d48bd",
+    "GENERAL_CAYLEY_FIBER_CRITICAL.md": "1cffec1488cc51c792939382111003bf82394fb195c62c6c97670c6aee2a1483"
+  }
+}
