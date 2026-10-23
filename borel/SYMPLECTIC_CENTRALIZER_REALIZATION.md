@@ -160,8 +160,11 @@ closed subvariety t U(H), of dimension
 
     dim Sp_(2m)-rank Sp_(2m)=2m^2.                         (7)
 
-This containment does not yet establish component status, local
-multiplicity, or the dimension of the whole fiber.
+This containment alone does not establish component status, local
+multiplicity, or the dimension of the whole fiber. The subsequent
+[component theorem](SYMPLECTIC_FIBER_COMPONENT.md) proves that its
+target-centralizer sweep is a generically reduced component; it also
+finds singular nonreduced structure already in rank one.
 
 ## 5. Why odd polynomials exhaust the equivariant maps
 
@@ -219,9 +222,8 @@ the odd powers allowed by the Lie algebra, with unbounded orders as
 m grows, and includes total collapse. This is not just a type A Levi
 embedded in a symplectic group.
 
-The next step is the full-fiber component problem for the explicit
-zero spectrum Q_0. Compute Z_G(theta(t)), compare it with H, and
-derive transverse equations to decide whether t U(H), or its target-
-centralizer conjugation sweep, is a component and with what multiplicity.
-That would extend the type A geometric theorem; the realization result
-alone does not imply it.
+The [follow-up proof](SYMPLECTIC_FIBER_COMPONENT.md) now settles the
+component problem for Q_0 and its generic multiplicity. It formulates
+a conjecture about reduced support at the remaining singular points,
+allowing the embedded infinitesimal structure found in Sp_4. The
+realization argument alone does not imply these stronger statements.

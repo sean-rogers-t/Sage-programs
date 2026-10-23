@@ -1,5 +1,23 @@
 # Proof and literature status of the integral image notes
 
+The [symplectic component theorem](SYMPLECTIC_FIBER_COMPONENT.md) proves that
+the target-centralizer sweep C=Z_G(theta(t)).(t U(H)) in the primitive
+middle-exterior zero model is a full-fiber component of dimension
+dim Z_G(theta(t))-2m and generic multiplicity one in every rank. Its
+completed local ring is a power-series ring at regular-unipotent points.
+A perfect mixed character pairing L=E E^T with determinant one eliminates
+all transverse parameters. This uses known regular adjoint-quotient
+smoothness and does not assume absence of target collisions. Exact
+cyclotomic checks through m=40 find none, giving C=t U(H) in those cases;
+the all-rank noncollision assertion is still unproved. In Sp_4 the full
+fiber has an embedded infinitesimal thickening at the semisimple point,
+with local ring C[[x,y,z,w]]/(wx,wy,wz,x^2+yz-w^2), w^2 nonzero and w^3=0.
+The conjecture that the reduced formal germ equals C at every point is
+proved for m=1 and on the regular locus in all ranks, but remains open
+at higher-rank singular strata. Original primitive matrices verify 1396
+differential pairings and ten symbolic pairings for the singular model.
+Novelty has not been established.
+
 The [symplectic realization theorem](SYMPLECTIC_CENTRALIZER_REALIZATION.md)
 extends realization to genuine type C centralizers. In the fixed irreducible
 primitive middle-exterior representation V_(omega_(2m)) of Sp_(4m), every
@@ -12,8 +30,9 @@ squarefree root-of-unity spectrum. Independent actual primitive-kernel
 matrices in dimensions 5 and 42 check 174 ambient trace pairings; coefficient
 matrices are checked exactly through m=10. Classical character identities,
 Cayley coordinates and nilpotent centralizers are inputs; novelty is
-unverified. No type C full-fiber component or multiplicity theorem follows
-yet. These are complex group-map statements, not integral Borel-image claims.
+unverified. The realization argument alone does not give the component
+theorem above. These are complex group-map statements, not integral
+Borel-image claims.
 
 The [middle-exterior full-fiber theorem](MIDDLE_EXTERIOR_FIBER_COMPONENT.md)
 now identifies the zero model's component and generic scheme structure in

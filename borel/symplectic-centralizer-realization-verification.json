@@ -126,7 +126,7 @@
   "full_fiber_component_theorem": false,
   "scope": "Finite exact primitive-kernel trace corroboration of the separate written all-rank proof; shared Sage arithmetic and signed-wedge helpers; no external audit or novelty certificate.",
   "source_sha256": {
-    "SYMPLECTIC_CENTRALIZER_REALIZATION.md": "0bb9a55fa5b418a5e99ff1dc9128e1d4c25c8a38e8b9fb71f64a2d959fa92de8",
+    "SYMPLECTIC_CENTRALIZER_REALIZATION.md": "b3c87d6057f63404dd5eb1b54945bf24f35abf2c3873fcf1f9263d41108b4753",
     "tools/verify_symplectic_centralizer_realization.py": "fbaf9477120867e1168914e62b1139e8c578197c95363253a1b3dd3e77fd1fff",
     "tools/verify_type_a_character_degeneration.py": "446748b54d7a71aaed000610d0236389e820d443c155a406acbb0526b78dbf87"
   }
