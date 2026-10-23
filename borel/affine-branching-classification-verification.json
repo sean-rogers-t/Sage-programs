@@ -82852,7 +82852,7 @@
   "E8_all_fundamentals_classified": true,
   "nonaffinity_is_not_a_fiber_singularity_proof": true,
   "source_sha256": {
-    "AFFINE_BRANCHING_CLASSIFICATION.md": "a10587db8ee321dbeb87c81a158a58046867cf155ad182cfbdbb6ee935c5700f",
+    "AFFINE_BRANCHING_CLASSIFICATION.md": "0a9bfa8ba2293c69e61f1baf57f8a5a93a7b819aff5cbe9c408b5f49af2947e5",
     "tools/verify_affine_branching_classification.py": "f8856d3e1f39d2661e5a5b4d61d74b522d528811864f9c5bc803e0f6294153b5"
   }
 }

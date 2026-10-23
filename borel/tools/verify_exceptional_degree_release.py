@@ -29,6 +29,33 @@ def main():
     version=sage_borel.__version__
     regression=read('character-verification.json')
     docs=read('documentation-verification.json')
+    quadratic_branching=read('quadratic-branching-fibers-verification.json')
+    adjoint_matrix_audit=read('type-a-adjoint-fibers-audit.json')
+    assert len(quadratic_branching['scheme_controls'])==8
+    assert len(quadratic_branching['type_A_block_partitions'])==58
+    assert len(quadratic_branching['dominance_checks'])==24
+    assert len(quadratic_branching['classical_root_restrictions'])==347
+    assert sum(not r['quadratic'] for r in quadratic_branching['classical_root_restrictions'])==37
+    assert not quadratic_branching['quadratic_theorem_requires_constant_rank']
+    assert quadratic_branching['generic_smoothness_includes_rank_drop_loci']
+    assert quadratic_branching['type_A_nonemptiness_proof_is_all_rank']
+    assert not quadratic_branching['classical_transfer_nonemptiness_classified']
+    assert not quadratic_branching['cubic_control_is_actual_representation']
+    assert not quadratic_branching['literature_priority_claim']
+    assert not quadratic_branching['public_API_changed']
+    assert not adjoint_matrix_audit['uses_Sage']
+    assert len(adjoint_matrix_audit['original_adjoint_matrix_checks'])==8
+    assert adjoint_matrix_audit['trace_form_pairings']==865
+    assert adjoint_matrix_audit['trace_pairings']==142
+    assert adjoint_matrix_audit['differential_pairings']==2882
+    assert sum(r['nonsemisimple_source'] for r in adjoint_matrix_audit['original_adjoint_matrix_checks'])==1
+    for row in adjoint_matrix_audit['original_adjoint_matrix_checks']:
+        assert row['fiber_tangent_dimension']==2*row['double_blocks']
+        assert row['full_differential_rank']==row['N']**2-1-row['fiber_tangent_dimension']
+        assert row['source_centralizer_dimension']==row['N']-1
+    for report in (quadratic_branching,adjoint_matrix_audit):
+        for name,expected in report['source_sha256'].items():
+            assert digest(ROOT/name)==expected,name
     affine_classification=read('affine-branching-classification-verification.json')
     affine_classification_audit=read('affine-branching-classification-audit.json')
     assert len(affine_classification['classical_comparisons'])==2453
@@ -1174,12 +1201,26 @@ def main():
     paths += [ROOT/name for name in ('AFFINE_BRANCHING_CLASSIFICATION.md',
         'affine-branching-classification-verification.json','affine-branching-classification-audit.json',
         'tools/verify_affine_branching_classification.py','tools/audit_affine_branching_certificates.py')]
+    paths += [ROOT/name for name in ('QUADRATIC_BRANCHING_FIBERS.md',
+        'quadratic-branching-fibers-verification.json','type-a-adjoint-fibers-audit.json',
+        'tools/verify_quadratic_branching_fibers.py','tools/audit_type_a_adjoint_fibers.py')]
     report=dict(result='passed',version=version,
         general_cayley_fiber_critical=critical_fiber,
         simple_group_branching=simple_branching,
         symplectic_target_strata=symplectic_strata,
         spin_fiber_excess=spin_excess,
         affine_branching_fibers=affine_branching,
+        quadratic_branching_fibers=dict(generic_smoothness_without_constant_rank=True,
+            dimension_formula='dim K-rank G+ell-k-q',
+            type_A_adjoint_all_rank_nonemptiness='all blocks at most two and at least one singleton',
+            type_A_adjoint_dimension='twice the number of double blocks',
+            scheme_controls=8,type_A_partitions=58,dominance_checks=24,
+            classical_root_restrictions=347,cubic_exclusions=37,
+            original_adjoint_matrix_cases=8,original_trace_form_pairings=865,
+            original_Springer_trace_pairings=142,original_full_differential_pairings=2882,
+            independent_audit='type-a-adjoint-fibers-audit.json',
+            certificate='quadratic-branching-fibers-verification.json',
+            scope='Written quadratic theorem includes rank changes. Complete generic regular-fiber criterion for SL_N adjoint; classical B/C/D quadratic coverage, with B1/D2 residual cubic exceptions. Wholly nonregular fibers, classical transfer nonemptiness beyond A, counts, exceptional target equations and literature priority remain separate. Runtime unchanged.'),
         affine_branching_classification=dict(classical_all_rank_written_proof=True,
             classical_full_character_checks=2453,exceptional_pairs=3373,
             exceptional_affine_pairs=133,exceptional_nonaffine_pairs=3240,

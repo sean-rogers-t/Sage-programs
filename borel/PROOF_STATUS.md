@@ -1,7 +1,27 @@
 # Proof and literature status of the integral image notes
 
+The [quadratic branching theorem](QUADRATIC_BRANCHING_FIBERS.md) now proves
+generic Morse-Bott behavior for every character quadratic in the semisimple
+Levi fundamental characters, with no constant-rank hypothesis. For
+X=V(Qx+f), the nonsmooth-locus target image has dimension below s: on a
+compatible rank-k stratum of dimension d, its tangent dimension and the
+mixed-derivative rank p force d+p<s. Generic smoothness then applies to
+the remaining source. Contributing regular Springer fibers have dimension
+dim K-rank G+ell-k-q, where q is the codimension of the component's
+parameter image. For SL_N adjoint, generic regular fibers are nonempty
+exactly when every target block has size one or two and there is at least
+one singleton; with t double blocks their dimension is 2t. Excluded proper
+Levis have no regular fiber points for any target in that stratum. This
+does not classify wholly nonregular components. The adjoint is quadratic
+on every type C Levi; in B and D the only cubic exceptions are residual
+B1 or D2 with a nontrivial SL block. Those exceptions remain unresolved
+geometrically. Eight exact scheme controls, 58 type A partitions, 24
+dominance checks, 347 root restrictions and a Sage-free original-adjoint
+matrix audit corroborate the written proofs. Standard inputs and deductions
+are separated; literature priority is unverified and the public API is unchanged.
+
 The [fundamental affine-branching classification](AFFINE_BRANCHING_CLASSIFICATION.md)
-now determines exactly when the preceding generic-fiber criterion applies
+now determines exactly when the earlier affine generic-fiber criterion applies
 for every fundamental representation of a simple complex simply connected
 group and every proper standard Levi. The classical A-D formulas have
 written all-rank proofs, including the D4 half-spin chirality exception.
@@ -16,7 +36,7 @@ theory and a complete finite exceptional proof, not a priority claim.
 Nonaffinity does not prove singularity or nonreducedness of a Springer fiber.
 Coefficient-zero codimensions and dominance still need to be determined
 to compute dimensions and nonemptiness in newly covered affine cases;
-extending the geometric criterion to nonlinear branching is the next gate.
+the quadratic extension is now proved above. Cubic branching is the next gate.
 
 The [affine Levi-branching criterion](AFFINE_BRANCHING_FIBERS.md) now proves
 generic smoothness of the regular Springer fiber whenever the restricted

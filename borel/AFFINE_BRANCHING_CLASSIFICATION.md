@@ -343,10 +343,9 @@ coefficient incidence map. Actual central characters must still be retained
 to compute those data. It also does not address wholly nonregular fiber
 components, special target parameters, or integral Borel-image lattices.
 
-**Next structural gate:** extend the smoothness criterion to restricted
-characters with quadratic dependence on the semisimple quotient variables.
-The first target is a theorem using the rank and degeneration of the
-quadratic coefficient matrix over the central torus, with a precise test
-for generic Morse-Bott behavior or a representation-theoretic counterexample.
-That would enlarge the geometric theorem beyond the now-classified affine
-cases, rather than merely add more examples to this completed table.
+**Subsequent progress:** the [quadratic branching theorem](QUADRATIC_BRANCHING_FIBERS.md)
+now extends generic smoothness to every quadratic restricted character,
+including changing matrix rank. It also gives an all-rank SL_N adjoint
+regular-fiber theorem and classical adjoint coverage, with explicit cubic
+exceptions in types B and D. Those cubic families are the next structural
+test; nonaffinity and failure of quadraticity still do not prove singularity.

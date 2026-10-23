@@ -9,8 +9,8 @@
   "cartan_matrices_independently_specified": true,
   "norms_and_Weyl_dimensions_recomputed_with_fractions": true,
   "source_sha256": {
-    "AFFINE_BRANCHING_CLASSIFICATION.md": "a10587db8ee321dbeb87c81a158a58046867cf155ad182cfbdbb6ee935c5700f",
-    "affine-branching-classification-verification.json": "3cd15b556b4df743d62b0e7f760c7e0aaec033a00eb4b2468ed25aa583ec39eb",
+    "AFFINE_BRANCHING_CLASSIFICATION.md": "0a9bfa8ba2293c69e61f1baf57f8a5a93a7b819aff5cbe9c408b5f49af2947e5",
+    "affine-branching-classification-verification.json": "08246616a1d8b5404862ad25d66d71a5892e03b3c3d0b52cf3a911c9872f2069",
     "tools/audit_affine_branching_certificates.py": "7d56ef1b5373f66a5e7c38d3c8d567ec4c27bfdda5bdd11ef60f54ee2f8da2a1"
   }
 }
