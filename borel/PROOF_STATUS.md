@@ -1,5 +1,26 @@
 # Proof and literature status of the integral image notes
 
+The [exceptional contact-fiber note](EXCEPTIONAL_ADJOINT_CONTACT_FIBERS.md)
+now proves an adjoint excess example: for E6 and its A5 contact Levi,
+every nonzero central target has a nonempty smooth regular fiber of
+pure dimension 32, with quotient-critical scheme A^2. The classical
+baseline dim K-rank G is 30 here. The central mu2 quotient exchanges
+the two cover sheets; they are not separate components on the actual
+Levi quotient. A general linear-coupling transfer proves the scheme
+description. A separate inherited-root-norm theorem excludes regular
+fiber points whenever a Levi factor has a fundamental adjoint highest
+root of maximal ambient length. In simply laced groups this includes
+every D_(m>=4) or E factor, even in disconnected derived Levis.
+Published contact branching gives empty regular parts for the F4/C3,
+E7/D6 and E8/E7 contact strata; the G2/A1 contact stratum has nonempty
+smooth generic regular fibers of dimension two. This is not an all-Levi
+exceptional classification. Native character checks and an independent
+Sage-free root/module reconstruction agree for all five gradings.
+Two separate exact root-basis evaluations confirm E6 differential rank
+46, hence kernel dimension 32. The branching input is published; the
+fiber deductions have no established novelty claim. Whole fibers and
+arbitrary exceptional strata remain separate; the public API is unchanged.
+
 The [classical adjoint fiber theorem](CLASSICAL_ADJOINT_FIBERS.md) closes
 the B1/D2 cubic gaps and completes generic regular-fiber smoothness,
 nonemptiness and dimension for every proper Levi in types A-D. In B/C/D

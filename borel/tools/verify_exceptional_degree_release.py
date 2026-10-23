@@ -29,6 +29,24 @@ def main():
     version=sage_borel.__version__
     regression=read('character-verification.json')
     docs=read('documentation-verification.json')
+    contact=read('exceptional-adjoint-contact-verification.json')
+    contact_audit=read('exceptional-adjoint-contact-audit.json')
+    assert len(contact['contact_gradings'])==len(contact_audit['contact_gradings'])==5
+    assert [row['V_dimension'] for row in contact['contact_gradings']]==[4,14,20,32,56]
+    assert [row['trace_normalization'] for row in contact_audit['contact_gradings']]==[16,36,48,72,120]
+    assert not contact_audit['uses_Sage']
+    assert contact['E6_nonzero_contact_fiber_regular_dimension']==32
+    assert contact['E6_actual_quotient_critical_scheme']=='A^2'
+    assert contact['E6_root_trace_audit']['full_differential_rank']==46
+    assert contact_audit['E6_independent_point']['full_differential_rank']==46
+    assert contact_audit['E6_independent_point']['kernel_dimension']==32
+    assert contact['exact_ideals']['G2_generic_fiber_nonempty_finite_smooth']
+    assert not contact['classical_dimension_formula_extends_unchanged']
+    for record in (contact,contact_audit):
+        assert not record['all_exceptional_Levis_classified']
+        assert not record['literature_priority_claim']
+        for name,expected in record['source_sha256'].items():
+            assert digest(ROOT/name)==expected,name
     classical_adjoint=read('classical-adjoint-fibers-verification.json')
     assert not classical_adjoint['uses_Sage']
     assert classical_adjoint['classical_all_rank_smoothness_written_proof']
@@ -1222,7 +1240,22 @@ def main():
         'tools/verify_quadratic_branching_fibers.py','tools/audit_type_a_adjoint_fibers.py')]
     paths += [ROOT/name for name in ('CLASSICAL_ADJOINT_FIBERS.md',
         'classical-adjoint-fibers-verification.json','tools/verify_classical_adjoint_fibers.py')]
+    paths += [ROOT/name for name in ('EXCEPTIONAL_ADJOINT_CONTACT_FIBERS.md',
+        'exceptional-adjoint-contact-verification.json','exceptional-adjoint-contact-audit.json',
+        'tools/verify_exceptional_adjoint_contact.py','tools/audit_exceptional_adjoint_contact.py')]
     report=dict(result='passed',version=version,
+        exceptional_adjoint_contact=dict(contact_gradings_checked=5,
+            independent_native_module_and_root_reconstruction=True,
+            E6_actual_quotient_critical_scheme='A^2',E6_regular_fiber_dimension=32,
+            E6_excess_over_orbit_dimension=2,E6_full_differential_rank=46,
+            root_length_obstruction_written_proof=True,
+            linear_coupling_transfer_written_proof=True,
+            empty_contact_regular_parts=['F4/C3','E7/D6','E8/E7'],
+            G2_contact_generic_regular_dimension=2,
+            all_exceptional_Levis_classified=False,literature_priority_claim=False,
+            certificate='exceptional-adjoint-contact-verification.json',
+            independent_audit='exceptional-adjoint-contact-audit.json',
+            scope='Published contact branching; written fiber deductions and central descent. E6 refutes unchanged classical adjoint dimension, not smoothness. Whole fibers and other exceptional Levis remain separate; public API unchanged.'),
         classical_adjoint_fibers=dict(all_rank_generic_smoothness=True,
             all_rank_generic_nonemptiness_classified=True,
             generic_regular_dimension='dim K-rank G',

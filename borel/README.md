@@ -12,6 +12,7 @@ the mathematical guide for the Borel/Springer construction.
 
 | Question | Guide |
 | --- | --- |
+| Does the classical adjoint dimension formula extend to exceptional groups? | [No: E6 has two extra quotient dimensions; a uniform root-length obstruction and contact-grading transfer explain the outcomes](EXCEPTIONAL_ADJOINT_CONTACT_FIBERS.md) |
 | What are the generic regular fibers of the adjoint Springer maps in every classical rank? | [Complete smoothness, nonemptiness and dimension theorem; square-substitution criterion](CLASSICAL_ADJOINT_FIBERS.md) |
 | When does Levi branching prove generic smoothness and predict excess dimension? | [Affine branching theorem, singular-coefficient exclusion and uniform A/C consequences](AFFINE_BRANCHING_FIBERS.md) |
 | Exactly which fundamental representations and Levis satisfy that affine hypothesis? | [All-rank classical classification and complete exceptional certificates](AFFINE_BRANCHING_CLASSIFICATION.md) |
