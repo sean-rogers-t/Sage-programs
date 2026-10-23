@@ -1,5 +1,22 @@
 # Proof and literature status of the integral image notes
 
+The [cubic refinement theorem](CUBIC_LEVI_REFINEMENTS.md) now resolves
+the two outstanding E6 mechanism tests. For the specified A1^2+A2 and
+A1^3 Levi embeddings, generic regular adjoint Springer fibers are
+nonempty smooth of pure dimensions 10 and 6. Both arise by restricting
+one common character polynomial. The first uses an exact product-of-
+quadratics transfer; the second uses a Fricke relative critical algebra
+free of rank five together with a separate vanishing-cubic boundary
+argument. That rank five is not a Springer degree or target-fiber count.
+The boundary rank-two critical value is constant; its target image is
+a line, while the rank-one strata have dimension two. All boundary
+images are therefore nondominant in the three-dimensional target.
+Independent native polynomial and root checks agree; finite-field
+points corroborate the written characteristic-zero proofs. Other Levi
+embeddings and the all-adjoint conjecture remain unresolved. Published
+Fricke geometry and quotient theory are separated from these deductions;
+novelty is unverified.
+
 The [branching norm and fiber note](BRANCHING_NORM_FIBERS.md) adds a
 charge-sensitive bound on character-polynomial monomials, proved by
 weight convexity and triangular inversion. In simply laced groups,
@@ -13,8 +30,8 @@ Levis with no A1 or at most two factors are quadratic. A separate exact
 suspension theorem handles characters beyond degree two. It gives the
 E6/A2+A1+A2 quotient equation 3w^2+2cw-3=0 after central mu6 descent,
 where c=144t for h=tH. Generic nonzero targets have two regular
-K-orbits, each of dimension 14. The A1^3 and A1^2+A2 mechanism tests
-remain unresolved here. Characteristic-zero trace calculations and
+K-orbits, each of dimension 14. The then-open A1^3 and A1^2+A2 tests
+are now resolved by the cubic refinement theorem above. Characteristic-zero trace calculations and
 independent native root/subset models corroborate the statements;
 the native point check is over F_1009 and is not a characteristic-zero
 proof. Published inputs, deductions, and the pending novelty question

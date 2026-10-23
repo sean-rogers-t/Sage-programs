@@ -1,0 +1,78 @@
+{
+  "result": "passed",
+  "identities": {
+    "master_matches_both_central_charge_records": true,
+    "product_two_quadratics_identity": true,
+    "boundary_determinant_zero": true,
+    "boundary_critical_value": -2,
+    "boundary_rank_one_locus_finite": true,
+    "five_relative_hessian_determinants": [
+      8,
+      -32,
+      -32,
+      -32,
+      -32
+    ],
+    "target_dominance_hessian_diagonal": [
+      2,
+      2,
+      2,
+      -18,
+      -18,
+      -18
+    ]
+  },
+  "independent_root_points": [
+    {
+      "refined_factors": 2,
+      "prime": 1009,
+      "torus_coroot_parameters": [
+        1,
+        687,
+        687,
+        729,
+        22,
+        1004
+      ],
+      "central_target_coefficients": [
+        338,
+        338
+      ],
+      "cartan_rank": 6,
+      "root_rank": 62,
+      "full_rank": 68,
+      "kernel_dimension": 10
+    },
+    {
+      "refined_factors": 3,
+      "prime": 1009,
+      "torus_coroot_parameters": [
+        1,
+        259,
+        259,
+        64,
+        614,
+        561
+      ],
+      "central_target_coefficients": [
+        352,
+        352,
+        239
+      ],
+      "cartan_rank": 6,
+      "root_rank": 66,
+      "full_rank": 72,
+      "kernel_dimension": 6
+    }
+  ],
+  "remaining_two_mechanism_tests_resolved": true,
+  "all_exceptional_Levis_resolved": false,
+  "Fricke_rank_five_is_not_Springer_degree": true,
+  "literature_priority_claim": false,
+  "source_sha256": {
+    "CUBIC_LEVI_REFINEMENTS.md": "ee71f608ab03e7d9c6349b8b832e59df21482fcb5c141775267b11d8a806b815",
+    "tools/verify_cubic_levi_refinements.py": "778e6c4bef836afe377806de91599d524f7eac448b8df283b683c82056583a79",
+    "branching-norm-fibers-verification.json": "1375f28c548a219a8b0824d73d421692159c16b91b64dc7674aa08ef0e7d48bd",
+    "BRANCHING_NORM_FIBERS.md": "b9e3e2788fcf50a97cfd085b54d833e840e30994caaf7a4967c96439c3a6c911"
+  }
+}

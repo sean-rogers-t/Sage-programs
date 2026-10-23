@@ -1063,7 +1063,7 @@
   "literature_priority_claim": false,
   "public_API_changed": false,
   "source_sha256": {
-    "BRANCHING_NORM_FIBERS.md": "ed92c8d7fad78f54b5b5ca4b48d2496d7ce0c9314934ace2c601a784aae342bc",
+    "BRANCHING_NORM_FIBERS.md": "b9e3e2788fcf50a97cfd085b54d833e840e30994caaf7a4967c96439c3a6c911",
     "tools/verify_branching_norm_fibers.py": "edd3b3b6dc11d6f2e09ad624e7cee4fceb76c066118d4926fd635fb2a8d3c02f",
     "tools/verify_affine_branching_classification.py": "f8856d3e1f39d2661e5a5b4d61d74b522d528811864f9c5bc803e0f6294153b5",
     "tools/verify_quadratic_branching_fibers.py": "bf8fdef78c6c31aa8d494c001f80cac20ac85dc3ac4fb0ecb90890f97e157c59",

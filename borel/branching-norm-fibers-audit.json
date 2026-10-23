@@ -78,9 +78,9 @@
   "all_exceptional_adjoint_Levis_resolved": false,
   "literature_priority_claim": false,
   "source_sha256": {
-    "BRANCHING_NORM_FIBERS.md": "ed92c8d7fad78f54b5b5ca4b48d2496d7ce0c9314934ace2c601a784aae342bc",
+    "BRANCHING_NORM_FIBERS.md": "b9e3e2788fcf50a97cfd085b54d833e840e30994caaf7a4967c96439c3a6c911",
     "tools/audit_branching_norm_fibers.py": "a7ccf69961962ffb6075392ae8c17883626f02dbc4eba9eafa0cdd7df350d3fa",
     "tools/audit_affine_branching_certificates.py": "7d56ef1b5373f66a5e7c38d3c8d567ec4c27bfdda5bdd11ef60f54ee2f8da2a1",
-    "branching-norm-fibers-verification.json": "13fd8f4274c8392f5d7eaf98acba1e74c687d2dd8cbf220ef19b12c9cddc6db3"
+    "branching-norm-fibers-verification.json": "1375f28c548a219a8b0824d73d421692159c16b91b64dc7674aa08ef0e7d48bd"
   }
 }

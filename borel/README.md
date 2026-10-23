@@ -12,6 +12,7 @@ the mathematical guide for the Borel/Springer construction.
 
 | Question | Guide |
 | --- | --- |
+| Can we resolve the two remaining E6 cubic refinement mechanisms structurally? | [Product transfer, a universal Fricke critical algebra, and boundary control; generic regular dimensions 10 and 6](CUBIC_LEVI_REFINEMENTS.md) |
 | Can weight norms and character couplings prove structural fiber theorems? | [Charge-sensitive degree bounds, restricted adjoint cubic shapes, all-Levi E6 minimal smoothness, and an exact suspension theorem](BRANCHING_NORM_FIBERS.md) |
 | Does the classical adjoint dimension formula extend to exceptional groups? | [No: E6 has two extra quotient dimensions; a uniform root-length obstruction and contact-grading transfer explain the outcomes](EXCEPTIONAL_ADJOINT_CONTACT_FIBERS.md) |
 | What are the generic regular fibers of the adjoint Springer maps in every classical rank? | [Complete smoothness, nonemptiness and dimension theorem; square-substitution criterion](CLASSICAL_ADJOINT_FIBERS.md) |

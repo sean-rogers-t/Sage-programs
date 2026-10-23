@@ -4,6 +4,10 @@ Date: 2026-10-23. Characteristic-zero deductions with exact independent
 corroboration. Published ingredients are identified below; priority is not
 established. This implements the theorem-first continuation of GEO-50/51.
 
+Subsequent progress: the [cubic refinement theorem](CUBIC_LEVI_REFINEMENTS.md)
+now resolves the A1^3 and A1^2+A2 mechanism tests identified below.
+It does not complete the all-exceptional classification.
+
 ## 1. Scope, dependency audit, and the question
 
 G is simple complex simply connected, initially simply laced. V is an
@@ -205,13 +209,13 @@ Use Bourbaki node numbering. The exact charge-preserving tests are:
 
 | G and retained nodes | Derived Levi | Purpose and outcome |
 | --- | --- | --- |
-| E6, {2,3,5} | A1+A1+A1 | Confirms a genuine three-factor cubic; no fiber smoothness conclusion is claimed here. |
-| E6, {2,3,5,6} | A1+A1+A2 | Confirms the mixed cubic; no fiber smoothness conclusion is claimed here. |
+| E6, {2,3,5} | A1+A1+A1 | Genuine three-factor cubic; subsequently resolved by the Fricke boundary argument in the cubic refinement note. |
+| E6, {2,3,5,6} | A1+A1+A2 | Mixed cubic; subsequently resolved by the product transfer in the cubic refinement note. |
 | E6, {1,2,3,5,6} | A2+A1+A2 | Cubic terms pair into the suspension below, giving an exact theorem. |
 
 These are three discriminating tests, not an exceptional all-Levi table.
-The first two remain unresolved by this note; do not infer failure from
-their cubic degree.
+Their cubic degrees did not prove failure: the subsequent refinement
+note establishes nonempty smooth generic regular fibers in both cases.
 
 For the third Levi, set H=(2,3,4,6,4,2) in the E6 simple-coroot basis,
 K=Z_G(H), and h=tH, t!=0. On the cover SL3 times SL2 times SL3 times C*,
@@ -303,9 +307,9 @@ suspension identities and the actual mu6 quotient algebra. See the
 corroboration; the norm and transfer arguments are the general proofs.
 
 The next gate is the interaction of THREE or more A-factors with an
-A1 factor, starting from the two cubic mechanisms left above. Seek a
-branching condition reducing these to an exact suspension or proving
-that the nonsmooth incidence locus has nondominant target image.
+A1 factor. The subsequent cubic refinement note closes the two tests
+above; seek an embedding-sensitive condition explaining when these
+product and Fricke reductions extend to other branching configurations.
 The all-adjoint generic-smoothness statement remains a conjectural
 target, and excess dimensions remain allowed. Do not replace this
 gap with an unrestricted exceptional table. Nonregular source points,

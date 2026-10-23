@@ -83,7 +83,7 @@ def main():
     assert sp.simplify((theta(lower*upper)-theta(lower))[1,0])==u-1
     ledger=(ROOT/'RESEARCH_LEDGER.md').read_text(encoding='utf-8')
     ids=re.findall(r'^\| ((?:BASE|SRC|IMG|GEO|CASE|LIMIT|PART|API|OPEN)-[0-9]+) \|',ledger,re.M)
-    assert len(ids)==len(set(ids))==166
+    assert len(ids)==len(set(ids))==168
     assert sum(i.startswith('OPEN') for i in ids)==22
     paths=[ROOT/name for name in NOTES]+[ROOT/'experiments'/name for name in REPORTS]
     paths += [ROOT/name for name in set(bound)]+[Path(__file__)]
@@ -91,7 +91,7 @@ def main():
                 proof_notes_and_program=len(NOTES),source_bindings_checked=len(bound),
                 symbolic_all_parameter_SL3_integral_block_reductions=True,
                 constant_loop_flag_descent_counterexample_verified=True,
-                ledger_entries=166,open_questions=22,
+                ledger_entries=168,open_questions=22,
                 scope='Report consistency, normalized source/raw hashes and exact symbolic SL3 integral reductions; not an external proof review, priority certificate or new runtime release.',
                 source_sha256={p.relative_to(ROOT).as_posix():digest(p) for p in sorted(set(paths))})
     (ROOT/'other-theories-verification.json').write_text(json.dumps(report,indent=2)+'\n')

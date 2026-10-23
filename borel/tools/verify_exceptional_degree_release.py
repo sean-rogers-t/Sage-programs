@@ -29,6 +29,25 @@ def main():
     version=sage_borel.__version__
     regression=read('character-verification.json')
     docs=read('documentation-verification.json')
+    cubic=read('cubic-levi-refinements-verification.json')
+    cubic_audit=read('cubic-levi-refinements-audit.json')
+    assert cubic['remaining_two_mechanism_tests_resolved']
+    assert cubic['Fricke_rank_five_is_not_Springer_degree']
+    assert cubic['identities']['boundary_critical_value']==-2
+    assert cubic['identities']['five_relative_hessian_determinants']==[8,-32,-32,-32,-32]
+    assert cubic['identities']['target_dominance_hessian_diagonal']==[2,2,2,-18,-18,-18]
+    assert [r['kernel_dimension'] for r in cubic['independent_root_points']]==[10,6]
+    assert not cubic_audit['uses_Sage']
+    assert cubic_audit['universal_fricke']['S_pairs_checked']==15
+    assert cubic_audit['universal_fricke']['rank']==5
+    assert cubic_audit['universal_fricke']['rank_is_over_central_parameters_not_target_parameters']
+    assert cubic_audit['product_transfer']['product_transfer_on_both_nonzero_targets']
+    assert [r['full_rank'] for r in cubic_audit['native_root_checks']]==[68,72]
+    for record in (cubic,cubic_audit):
+        assert not record['all_exceptional_Levis_resolved']
+        assert not record['literature_priority_claim']
+        for name,expected in record['source_sha256'].items():
+            assert digest(ROOT/name)==expected,name
     norm_fibers=read('branching-norm-fibers-verification.json')
     norm_audit=read('branching-norm-fibers-audit.json')
     assert len(norm_fibers['adjoint_mechanism_tests'])==3
@@ -1268,13 +1287,26 @@ def main():
     paths += [ROOT/name for name in ('BRANCHING_NORM_FIBERS.md',
         'branching-norm-fibers-verification.json','branching-norm-fibers-audit.json',
         'tools/verify_branching_norm_fibers.py','tools/audit_branching_norm_fibers.py')]
+    paths += [ROOT/name for name in ('CUBIC_LEVI_REFINEMENTS.md',
+        'cubic-levi-refinements-verification.json','cubic-levi-refinements-audit.json',
+        'tools/verify_cubic_levi_refinements.py','tools/audit_cubic_levi_refinements.py')]
     report=dict(result='passed',version=version,
+        cubic_levi_refinements=dict(product_transfer_written_proof=True,
+            Fricke_controlled_boundary_written_proof=True,universal_relative_algebra_rank=5,
+            rank_five_is_not_Springer_degree=True,
+            specified_E6_refinements=['A1^2+A2','A1^3'],
+            generic_regular_fibers_nonempty_smooth=True,generic_regular_dimensions=[10,6],
+            original_three_cubic_mechanism_tests_resolved=True,
+            all_exceptional_Levis_resolved=False,literature_priority_claim=False,
+            certificate='cubic-levi-refinements-verification.json',
+            independent_audit='cubic-levi-refinements-audit.json',
+            scope='Exact product reduction and universal Fricke algebra with explicit boundary-image exclusion. Embedding-sensitive statements; no whole-fiber or generic-degree claim.'),
         branching_norm_fibers=dict(charge_sensitive_degree_bound_written_proof=True,
             simply_laced_low_radius_all_Levi_quadraticity=True,
             E6_minimal_all_Levi_generic_regular_smoothness=True,
             adjoint_cubic_shape_written_proof=True,
             exact_nonzero_target_suspension_written_proof=True,
-            adjoint_mechanism_tests=3,unresolved_test_mechanisms=['A1^3','A1^2+A2'],
+            adjoint_mechanism_tests=3,then_unresolved_tests_now_resolved=['A1^3','A1^2+A2'],
             E6_A2A1A2_actual_quotient='3*w^2+2*c*w-3=0, c=144*t',
             E6_A2A1A2_generic_regular_orbits=2,E6_A2A1A2_orbit_dimension=14,
             all_exceptional_adjoint_Levis_resolved=False,literature_priority_claim=False,
