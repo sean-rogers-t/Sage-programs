@@ -29,6 +29,15 @@ def main():
     version=sage_borel.__version__
     regression=read('character-verification.json')
     docs=read('documentation-verification.json')
+    root_borel=read('root-borel-verification.json')
+    assert root_borel['test_methods']==8
+    assert root_borel['classical_standard_matrix_cases']==12
+    assert root_borel['exceptional_adjoint_trace_cases']==15
+    assert root_borel['exceptional_minimal_conjugation_cases']==4
+    assert root_borel['E8_dense_identity']['positive_roots']==120
+    assert root_borel['E8_dense_identity']['full_adjoint_trace_agrees']
+    for name,expected in root_borel['source_sha256'].items():
+        assert digest(ROOT/name)==expected,name
     borel_reconstruction=read('borel-reconstruction-verification.json')
     assert borel_reconstruction['test_methods']==8
     assert borel_reconstruction['symbolic_full_representation_projection_cases']==9
@@ -983,9 +992,11 @@ def main():
         'documentation-verification.json','geometry-wheel-verification.json')]+[Path(__file__).resolve()]
     paths += [ROOT/'borel-coordinates-verification.json']
     paths += [ROOT/'borel-reconstruction-verification.json']
+    paths += [ROOT/'root-borel-verification.json']
     report=dict(result='passed',version=version,
         borel_coordinate_API=borel_coordinates,
         borel_reconstruction_API=borel_reconstruction,
+        automatic_root_borel_API=root_borel,
         general_degree_audit=general_degree,
         e6_adjoint_deformation=e6_deformation,
         f4_minimal_degree=f4_degree,

@@ -1,9 +1,9 @@
 {
   "result": "passed",
   "version": "0.22.0",
-  "tests": 67,
+  "tests": 75,
   "command": "sage -python tools/verify_geometry_wheel.py",
   "isolated_import_verified": true,
   "wheel": "sage_borel-0.22.0-py3-none-any.whl",
-  "wheel_sha256": "0d7f2989c64a61e26e9880b4f3022f319bdab93757995e9f29384f32be7be1a4"
+  "wheel_sha256": "943ca8b76c628251b8ce6073c76c9b156ae71194fd8c81162fd259df2e1a4ba8"
 }

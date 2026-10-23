@@ -1,7 +1,7 @@
 {
   "result": "passed",
   "new_test_methods": 16,
-  "full_regression_methods": 200,
+  "full_regression_methods": 208,
   "type_A": {
     "group": "SL10",
     "parabolic": "P1",
@@ -9,7 +9,7 @@
     "fixed_points": 10,
     "theory": "K",
     "exact_restriction_roundtrip": true,
-    "seconds": 0.0336
+    "seconds": 0.0541
   },
   "type_C": {
     "group": "Sp18",
@@ -37,7 +37,7 @@
     ],
     "index_exponent": 153,
     "symbolic_matrix_avoided": true,
-    "seconds": 0.0035
+    "seconds": 0.0069
   },
   "symbolic_rank_three_unimodular_reduction": true,
   "symbolic_doubling_unimodular_certificates": [
@@ -73,7 +73,7 @@
   "API_scope": "Type A all-parabolic input evaluation and literal integrality; automatic complete source generators only on full flags and P1. Type C projective integral image/cokernel.",
   "source_sha256": {
     "src/sage_borel/equivariant.py": "e4555d0b3308a294e685211a6a7db18f8cfe5e5ae509e8a85b4603d10c4ff793",
-    "src/sage_borel/__init__.py": "90f2bfd19e86dd00d149eb913e7d93ff744a8e834d35c14d432600e987711564",
+    "src/sage_borel/__init__.py": "dd678287ede5d2bbfd72619401054b523f5624fba701c121849e03ab99d49935",
     "tests/test_equivariant.py": "b5d1bb431e8f017068477b13647703bde899bf47987532fcc6fd2ef94ab41ae8",
     "CLASSICAL_EQUIVARIANT.md": "783385ee065297aad67051fecffb914af4d0eed5ee3ca482bc26dbad6454b8af",
     "SYMPLECTIC_K_FITTING.md": "a5a6058763e7c552fe1abdf949f137138a1a157fe30e38aa49aa8533886e9be2",
@@ -87,6 +87,6 @@
     "SYMPLECTIC_K_ORDINARY_SMITH.md": "f43c2ddf91ad6f727480904cf25ee1fed0faeaac6ad0a1992b1b07b21975e064",
     "tools/verify_symplectic_ordinary.py": "5d45b650d2c8cc66695ea14b56304abdb9c9f892a4262fb6b305a30c62d410bf",
     "symplectic-ordinary-verification.json": "ed39417606bd1ff121dc29583c6471e916f3a5bc7d2d0f8e79be90ca8271ea1e",
-    "character-verification.json": "6786f7d6f36b2fd54f8bdb325c05593da4a1fcdf11e2ad6ae73c34bfa057e1a1"
+    "character-verification.json": "e28a6dbfbcfd3ed980a070a4de6793eba6d90320c32c9437a53bab048c614909"
   }
 }

@@ -36,7 +36,7 @@ projective model before B/D quadrics and isotropic Grassmannians. The
 [current sequence](OTHER_THEORIES_PROGRAM.md#current-focus-equivariant-images-in-the-classical-a-d-families)
 retains the Spin/SO lattice distinction; it adds no completed theorem.
 The Spin parity classification is shelved at the user's request. The expanded
-ledger has 136 entries, including 20 open questions. The proposal itself
+ledger has 137 entries, including 20 open questions. The proposal itself
 adds no theorem; subsequent progress is tracked here and in its README.
 
 The current focus is the geometry and representation-dependent degrees
@@ -122,8 +122,12 @@ fixed-t unipotent fibers. Sp4 has two collapse divisors; at their crossings
 mixed terms distinguish rank three from rank two and the image is not
 closed. GEO-27 now reconstructs these triangular maps from torus data and
 root commutators, with a uniform proof and independent checks for other
-representations. Automatic root-data adapters across finite types and
-general singular-fiber classifications remain separate goals.
+representations. GEO-28 supplies automatic finite-type root-data adapters
+and general character integration, including exact evaluation on root
+hypertori by a proved finite-jet bound. Tests extend through dense E8
+adjoint coordinates. The next goal is a structural vertical-rank criterion
+using sparse mixed terms, starting with G2; general singular-fiber
+classifications remain separate.
 Full-group inverse presentations remain a later goal toward branch and
 non-finite target equations.
 Boundary scheme structure and maximal finite target loci remain open
@@ -302,6 +306,8 @@ theorems have a>=1,k>=2. Changes of integral source are explicit, not implicit.
 | GEO-26 | Defining SL3 and Sp4 Springer maps on B=T U have explicit triangular root-coordinate formulas and complete fixed-t fiber classifications. SL3 never collapses along U. Sp4 collapses precisely on z1 z2=-1 or z1+z2=0, with affine-line fibers except for affine-plane fibers at their crossings with b=0. | Written characteristic-zero deduction and API. The crossing image is not closed; mixed ab terms retain rank three when b!=0. T-equivariance gives the general triangular leading factors q_alpha=e^alpha alpha(theta)/(e^alpha-1), with regular extension and q_alpha(1)=1. Independent all-variable full trace Gram solves in dimensions 8 and 10, symbolic stratum ranks and exact fiber parametrizations verify the implementation. Published trace-projection/equivariance/unipotent inputs are separated from the coordinate deductions. Rational point API; defining representations only. No full B/G differential, target branch-locus, external-review or novelty claim. | [Formulas, proof and API](BOREL_COORDINATES.md), [exact checks](borel-coordinates-verification.json) |
 
 | GEO-27 | A conjugation-equivariant regular map G -> g is reconstructed on B=T U from its torus restriction and positive-root brackets by a height-triangular fixed-vector solve. For genuine Springer maps, the apparent root-character poles cancel. | Uniform characteristic-zero written deduction from equivariance and standard root-space theory, not a novelty claim. The generic recurrence uses N+1 formal coordinates and no matrices of the representation. Ready SL3/Sp4 adapters support named representations, supplied characters and torus maps; nine symbolic full-representation Gram solves and separate SL2/SL4 low-level checks agree. SL3 adjoint has ranks two/one at diag(1,-1,-1) according as b!=0/b=0. Sp4 omega_2 adds z1^2+1 and z2^2+1 to the vertical determinant. Custom-character positivity, arbitrary torus-input extension to G, full singular-fiber classifications and automatic all-type adapters are not certified. | [Theorem, API and exact examples](BOREL_RECONSTRUCTION.md), [independent verification](borel-reconstruction-verification.json) |
+
+| GEO-28 | Automatic Chevalley data and the general character API reconstruct Borel Springer coordinates in finite irreducible types. Exact torus jets of precision H+1, where H is maximum positive-root height, recover every coordinate on root hypertori. | Written characteristic-zero precision proof and a sparse exact rational evaluator, retaining the simply connected weight lattice and simple-coroot output. Symbolic expansion is separately budgeted. Independent classical matrices cover A3/B3/C3/D4, a larger symmetric-square trace solve, fifteen exceptional adjoint traces, four exceptional minimal conjugation checks, and a dense 120-coordinate E8 identity-torus case. Exceptional checks share Sage Chevalley constants; no external-review, separate-CAS or novelty claim. Root factors reuse the geometry API. Singular-fiber/rank-stratum classification, other isogeny-form adapters and affine extensions are not supplied. | [Proof, conventions, API and next goal](ROOT_BOREL_API.md), [exact source-bound audit](root-borel-verification.json) |
 
 GEO-07 also implies that no nontrivial irreducible representation of a
 nontrivial central quotient SL_n/C preserves torus regularity: the only

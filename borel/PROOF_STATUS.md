@@ -1,5 +1,22 @@
 # Proof and literature status of the integral image notes
 
+The [automatic root Borel API](ROOT_BOREL_API.md) connects the general
+SpringerCharacterMap to finite irreducible Chevalley root data, retaining
+fundamental-weight torus and simple-coroot toral coordinates. Sparse
+recurrence evaluates on all rational torus points. A written finite-jet
+lemma proves that highest-root-height plus one precision suffices at
+root hypertori, including t=1; no numerical limiting argument is used.
+Full symbolic coordinates are separately budgeted. Independent standard
+matrix checks cover A3/B3/C3/D4; full adjoint trace checks cover all five
+exceptional types, and conjugation checks cover G2/F4/E6/E7 minimal maps.
+A dense E8 adjoint case with all 120 root parameters nonzero agrees with
+the separate 248-dimensional trace calculation. Exceptional checks share
+Sage's Chevalley constants; the independence claim concerns the different
+computations, not an external review or separate root-data implementation.
+The recurrence and jet lemma are deductions from known equivariance and
+root-space inputs, with no novelty claim. Full singular-fiber/branch-locus
+classification, affine groups and other isogeny-form adapters remain open here.
+
 The [torus/root reconstruction theorem](BOREL_RECONSTRUCTION.md) is a
 uniform characteristic-zero written deduction: equivariance forces
 Ad(tu)theta(tu)=theta(tu), and root height makes this a triangular system

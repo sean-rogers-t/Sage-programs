@@ -20,7 +20,7 @@
   "scope": "Fixed-t vertical maps; independent constructions in Sage, not external review. No full B/G critical or target branch-locus classification.",
   "source_sha256": {
     "src/sage_borel/borel_coordinates.py": "126b35b80a871636fb282d507d92a5121330a43cc69ffa7c33d81f32bb603882",
-    "src/sage_borel/__init__.py": "90f2bfd19e86dd00d149eb913e7d93ff744a8e834d35c14d432600e987711564",
+    "src/sage_borel/__init__.py": "dd678287ede5d2bbfd72619401054b523f5624fba701c121849e03ab99d49935",
     "tests/test_borel_coordinates.py": "29abe8e6de127fc7115ea3279e1c7bcec708e978895ba40c04fef883c817f5fd",
     "BOREL_COORDINATES.md": "7267d9c0cba415e5fe2e8189f202c2c773a99f53c72a81c72f1baf9c642665d2",
     "tools/verify_borel_coordinates.py": "3e8f520d8c76440c844827c5ca243463a6b7639cfa650541da740aaf0ff6ed0f"
