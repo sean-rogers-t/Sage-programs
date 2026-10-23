@@ -1,5 +1,29 @@
 # Proof and literature status of the integral image notes
 
+The [symplectic target-stratum theorem](SYMPLECTIC_TARGET_STRATA.md) now
+treats every semisimple h with dim ker(h)=2m for the primitive middle
+representation of Sp_(4m). If K=Sp_(2m) x product GL_(r_j), sum r_j=m,
+there are exactly 2^m m!/(product r_j!) full-fiber components meeting the
+regular locus. All have dimension 2m^2+sum r_j(r_j-1) and generic
+multiplicity one; their regular fiber germs are smooth. There is no
+exceptional nonzero target value producing a double component in these
+strata. The first-block equations force a fixed squarefree reciprocal
+spectrum, and a perfect mixed pairing eliminates every transverse variable.
+For V_(omega_n) of Sp_(2n), an all-rank coefficient recurrence also proves
+that any semisimple image of a regular element has kernel dimension at
+most 2 floor(n/2). In odd rank n=2m+1, the maximal permitted kernel with
+distinct nonzero target pairs leaves an explicit one-variable potential;
+its root counts and multiplicities are not classified. These are written
+deductions from known character/quotient inputs, not established priority.
+Independent primitive matrices check 494 full Lie-algebra trace pairings
+in Sp_4, Sp_6 and Sp_8, including all 14 external quotient assignments
+for the even test ranks and two odd residual-equation checks. Symbolic
+first-block ideal checks cover 136 rank/block pairs, with signed assignments
+enumerated through m=5. Components and embedded structure wholly in the
+nonregular locus remain outside the theorem; the previous Sp_4 embedded
+thickening is unchanged. No generic-degree or central-quotient component
+count is inferred.
+
 The [simple-group branching note](SIMPLE_GROUP_CAYLEY_BRANCHING.md) proves
 that fundamental representations of every simply connected simple group
 have no regular points in their zero fibers, directly from Steinberg's

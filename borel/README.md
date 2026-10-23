@@ -14,6 +14,7 @@ the mathematical guide for the Borel/Springer construction.
 | --- | --- |
 | Is there a general character criterion for fiber components and multiplicities? | [Corrected quotient potentials, exact local Jacobian algebras, linear elimination and the limits at nonregular points](GENERAL_CAYLEY_FIBER_CRITICAL.md) |
 | What can we prove uniformly for simple groups and whole target strata? | [All-type fundamental zero fibers, classical target bounds, and exact middle-exterior component counts and multiplicities](SIMPLE_GROUP_CAYLEY_BRANCHING.md) |
+| Does the component formula extend to primitive symplectic representations? | [All even-rank equality strata: signed component counts, multiplicity one, a stronger kernel bound, and the odd-rank residual equation](SYMPLECTIC_TARGET_STRATA.md) |
 | What is the full fiber in the symplectic zero model? | [All-rank component and generic reducedness; a singular embedded thickening and the reduced-germ conjecture](SYMPLECTIC_FIBER_COMPONENT.md) |
 | Does the realization theorem extend beyond type A? | [Every odd nilpotent map occurs on a symplectic centralizer in the fixed primitive middle-exterior family](SYMPLECTIC_CENTRALIZER_REALIZATION.md) |
 | Are the collapsed unipotent varieties actual full-fiber components? | [Middle-exterior component theorem: parity of the block size determines enlargement and multiplicity](MIDDLE_EXTERIOR_FIBER_COMPONENT.md) |
