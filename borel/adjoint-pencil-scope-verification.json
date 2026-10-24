@@ -805,7 +805,7 @@
   "generic_degree_of_full_Springer_map_claim": false,
   "literature_priority_claim": false,
   "source_sha256": {
-    "ADJOINT_PENCIL_SCOPE.md": "48f9dc51c999061abaec9725470e10f680b6b8160f740252d1ec8d977626caed",
+    "ADJOINT_PENCIL_SCOPE.md": "d925c39fb6cc06d24924011f563a98ea6f8ea37051b08e83457d4735fb81d2cb",
     "tools/verify_adjoint_pencil_scope.py": "3d762d3c087ae97e641d7308db1cb6eaa4f8822ebb58af7e4cc154ea9deaf546",
     "tools/verify_branching_norm_fibers.py": "edd3b3b6dc11d6f2e09ad624e7cee4fceb76c066118d4926fd635fb2a8d3c02f",
     "GENERAL_CAYLEY_FIBER_CRITICAL.md": "1cffec1488cc51c792939382111003bf82394fb195c62c6c97670c6aee2a1483"

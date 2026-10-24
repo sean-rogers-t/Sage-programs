@@ -268,5 +268,10 @@ highest-root argument forces such terms in E7 and E8, so this is a
 root-theoretically motivated change of method. A useful next theorem
 would give an elimination criterion for several coupled multipliers,
 with the actual E8 omission-of-node-4 character as the discriminating
-test. E8, arbitrary affine reparametrizations, other Levi embeddings and
-the all-simple-adjoint smoothness conjecture remain unresolved here.
+test. This next step is now completed in
+[coupled multiplier fibers](MULTIPLIER_BRANCHING_FIBERS.md): simultaneous
+unit-matrix elimination and a one-variable quotient theorem prove the
+E8 length-six quotient, its ten exceptional nonzero targets, and generic
+regular orbit dimension 28. Arbitrary affine reparametrizations, other
+Levi embeddings and the all-simple-adjoint smoothness conjecture remain
+unresolved here.

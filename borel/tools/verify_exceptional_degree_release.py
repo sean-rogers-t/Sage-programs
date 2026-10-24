@@ -29,6 +29,27 @@ def main():
     version=sage_borel.__version__
     regression=read('character-verification.json')
     docs=read('documentation-verification.json')
+    multipliers=read('multiplier-branching-verification.json')
+    multiplier_audit=read('multiplier-branching-audit.json')
+    assert multipliers['helper']['central_matrix_derivative_retained']
+    assert len(multipliers['helper']['negative_cases'])==2
+    assert multipliers['symbolic']['no_source_boundary_removed']
+    assert multipliers['quotient']['degree']==6
+    assert multipliers['quotient']['every_exceptional_fiber_one_double_four_simple']
+    assert multipliers['quotient']['nonzero_exceptional_targets']==10
+    assert multipliers['root_point']['trace_norm']==1800
+    assert multipliers['root_point']['full_rank']==220
+    assert not multiplier_audit['uses_Sage']
+    assert multiplier_audit['independent_character']['cover_degree']==30
+    assert multiplier_audit['symbolic']['universal_nonzero_target_ideal_equality']
+    assert multiplier_audit['symbolic']['only_target_inverted']
+    assert multiplier_audit['root_point']['kernel_dimension']==28
+    for record in (multipliers,multiplier_audit):
+        assert not record['all_exceptional_Levis_resolved']
+        assert not record['full_map_generic_degree_claim']
+        assert not record['literature_priority_claim']
+        for name,expected in record['source_sha256'].items():
+            assert digest(ROOT/name)==expected,name
     pencil_scope=read('adjoint-pencil-scope-verification.json')
     pencil_scope_audit=read('adjoint-pencil-scope-audit.json')
     assert [r['highest_weight_node'] for r in pencil_scope['highest_root_obstructions']]==[2,1,8]
@@ -1339,7 +1360,21 @@ def main():
     paths += [ROOT/name for name in ('ADJOINT_PENCIL_SCOPE.md',
         'adjoint-pencil-scope-verification.json','adjoint-pencil-scope-audit.json',
         'tools/verify_adjoint_pencil_scope.py','tools/audit_adjoint_pencil_scope.py')]
+    paths += [ROOT/name for name in ('MULTIPLIER_BRANCHING_FIBERS.md',
+        'multiplier-branching-verification.json','multiplier-branching-audit.json',
+        'tools/linear_character_elimination.py','tools/verify_multiplier_branching_fibers.py',
+        'tools/audit_multiplier_branching_fibers.py')]
     report=dict(result='passed',version=version,
+        coupled_multipliers=dict(unit_matrix_elimination_written_proof=True,
+            unique_matching_sufficient_criterion=True,
+            polynomial_residual_degree='max(2*deg(A)+2*deg(B),4*deg(B)+1)',
+            E8_Levi='A2+A1+A4, omit node 4',E8_target_normalization='c=1800*t',
+            E8_generic_regular_orbits=6,E8_regular_orbit_dimension=28,
+            E8_nonzero_exceptional_targets=10,E8_exceptional_quotient='one double and four simple',
+            direct_root_differential_rank=220,all_exceptional_Levis_resolved=False,
+            full_map_generic_degree_claim=False,literature_priority_claim=False,
+            certificate='multiplier-branching-verification.json',
+            independent_audit='multiplier-branching-audit.json'),
         adjoint_pencil_scope=dict(original_coordinate_all_A_class='E6 omit node 4',
             arbitrary_affine_changes_classified=False,multiplier_elimination_written_proof=True,
             anchored_product_transfer_written_proof=True,

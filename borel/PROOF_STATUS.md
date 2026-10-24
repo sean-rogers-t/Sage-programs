@@ -1,5 +1,23 @@
 # Proof and literature status of the integral image notes
 
+The [coupled multiplier theorem](MULTIPLIER_BRANCHING_FIBERS.md) now gives
+scheme-preserving simultaneous elimination over the entire central torus
+when the constraint matrix has Laurent-unit determinant. A unique perfect
+matching of single-monomial coefficients is a sufficient branching test.
+A separate polynomial-potential theorem gives an exact one-variable
+quotient and degree max(2 deg A+2 deg B,4 deg B+1) under explicit
+squarefreeness and coprimality hypotheses. These are conditional general
+tools, not a classification of representation characters.
+For E8 adjoint and the Levi omitting Bourbaki node 4, they prove the
+length-six quotient in Theorem 3, with c=1800t. Generic nonzero central
+targets have six smooth regular K-orbits, each dimension 28. Exactly ten
+nonzero targets give one double and four simple quotient points. Native
+universal-target ideal equality retains those nilpotents; a separate
+240-root check gives rank 220 and kernel 28. Other E8 Levis, whole fibers,
+the zero target and all-adjoint generic smoothness remain unresolved.
+The standard inputs and written deductions are separated; priority is
+unverified. Public APIs and PDFs are unchanged.
+
 The [adjoint pencil scope theorem](ADJOINT_PENCIL_SCOPE.md) proves that,
 for simply laced G with all-A derived Levi and an A1 center character,
 the original-fundamental-coordinate pair-pencil shape with another
@@ -12,8 +30,9 @@ c^2+36!=0 the regular adjoint Springer fiber consists of two K-orbits,
 each smooth of dimension 20; at c^2+36=0 the quotient is nonreduced.
 Independent root/subset reconstruction, original derivative checks and
 central descent agree. An F_1033 root evaluation has rank 113 and kernel
-20 and is corroboration of the characteristic-zero proof. E8 and the
-all-adjoint conjecture remain open; priority is unverified.
+20 and is corroboration of the characteristic-zero proof. The E8 candidate
+is now settled above; the all-adjoint conjecture remains open, and
+priority is unverified.
 
 The [spectral branching criterion](SPECTRAL_BRANCHING_FIBERS.md) treats
 arbitrarily large bipartite cubic character pencils g(x,z)+u^t(A+xB)v.

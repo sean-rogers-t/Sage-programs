@@ -1,0 +1,52 @@
+{
+  "result": "passed",
+  "uses_Sage": false,
+  "independent_character": {
+    "type": "E8",
+    "nodes": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      8
+    ],
+    "dimension": 248,
+    "all_charges_reconstructed_by_subset_models": true,
+    "cover_degree": 30
+  },
+  "symbolic": {
+    "original_derivatives_and_reduced_potential": true,
+    "central_mu30_action_and_graph": true,
+    "universal_nonzero_target_ideal_equality": true,
+    "only_target_inverted": true,
+    "no_hidden_roots_at_divided_coordinates": true,
+    "discriminant_verified": true,
+    "independent_rational_ramification_identity": true,
+    "degree": 6,
+    "exceptional_nonzero_targets": 10,
+    "regular_orbit_dimension": 28
+  },
+  "root_point": {
+    "prime": 32003,
+    "all_240_roots_reconstructed": true,
+    "trace_norm": 1800,
+    "original_trace_target_verified": true,
+    "Cartan_rank": 8,
+    "root_rank": 212,
+    "full_rank": 220,
+    "kernel_dimension": 28,
+    "no_source_root_value_equals_one": true
+  },
+  "all_exceptional_Levis_resolved": false,
+  "full_map_generic_degree_claim": false,
+  "literature_priority_claim": false,
+  "source_sha256": {
+    "MULTIPLIER_BRANCHING_FIBERS.md": "4ae12e6117dc8a1a45ac0930c40e10bcf14c759dc17353bce0586a08f9adb16e",
+    "tools/audit_multiplier_branching_fibers.py": "79fb95c4e7ba1b29dafc77486a7b37a2542c54ee77af6e0a28366b4812f56c36",
+    "tools/audit_affine_branching_certificates.py": "7d56ef1b5373f66a5e7c38d3c8d567ec4c27bfdda5bdd11ef60f54ee2f8da2a1",
+    "tools/audit_branching_norm_fibers.py": "a7ccf69961962ffb6075392ae8c17883626f02dbc4eba9eafa0cdd7df350d3fa",
+    "multiplier-branching-verification.json": "d9ac15f58b9f5049c1f3c29dadfca8fb58f65bdad3aa0b7d182e85a2e4627fb9"
+  }
+}

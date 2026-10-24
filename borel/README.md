@@ -13,6 +13,7 @@ the mathematical guide for the Borel/Springer construction.
 | Question | Guide |
 | --- | --- |
 | Do adjoint root identities extend the pencil criterion beyond E6? | [Its original-coordinate scope is only E6; exact multiplier elimination proves the E7 A1+A2+A3 fiber theorem](ADJOINT_PENCIL_SCOPE.md) |
+| Can coupled linear character constraints determine the E8 adjoint fibers? | [General unit-matrix elimination and a polynomial quotient criterion; E8 node 4 has six generic regular orbits of dimension 28](MULTIPLIER_BRANCHING_FIBERS.md) |
 | Can one criterion handle arbitrarily many cubic couplings and predict smooth excess? | [Bipartite character pencils, spectral quadrics of dimension 2d-1, and a persistent-collision obstruction](SPECTRAL_BRANCHING_FIBERS.md) |
 | Can we resolve the two remaining E6 cubic refinement mechanisms structurally? | [Product transfer, a universal Fricke critical algebra, and boundary control; generic regular dimensions 10 and 6](CUBIC_LEVI_REFINEMENTS.md) |
 | Can weight norms and character couplings prove structural fiber theorems? | [Charge-sensitive degree bounds, restricted adjoint cubic shapes, all-Levi E6 minimal smoothness, and an exact suspension theorem](BRANCHING_NORM_FIBERS.md) |
