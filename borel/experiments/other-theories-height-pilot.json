@@ -1,0 +1,2330 @@
+{
+  "result": "passed",
+  "date": "2026-10-22",
+  "precision": 130,
+  "cases": [
+    {
+      "height": 1,
+      "formal_inverse_first_difference_degree": 2,
+      "inverse_mod2_exponents": [
+        1,
+        2,
+        3,
+        6,
+        7,
+        8,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        18,
+        19,
+        22,
+        23,
+        24,
+        26,
+        27,
+        30,
+        31,
+        32,
+        33,
+        35,
+        38,
+        40,
+        41,
+        44,
+        45,
+        49,
+        50,
+        52,
+        53,
+        54,
+        56,
+        59,
+        61,
+        62,
+        63,
+        67,
+        68,
+        70,
+        71,
+        72,
+        77,
+        78,
+        79,
+        86,
+        88,
+        90,
+        92,
+        95,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        109,
+        110,
+        112,
+        113,
+        114,
+        116,
+        117,
+        119,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128
+      ],
+      "checks": [
+        {
+          "symplectic_rank": 1,
+          "projective_dimension": 1,
+          "image_rank": 1,
+          "nilpotence_order": 1
+        },
+        {
+          "symplectic_rank": 2,
+          "projective_dimension": 3,
+          "image_rank": 2,
+          "nilpotence_order": 2
+        },
+        {
+          "symplectic_rank": 3,
+          "projective_dimension": 5,
+          "image_rank": 3,
+          "nilpotence_order": 3
+        },
+        {
+          "symplectic_rank": 4,
+          "projective_dimension": 7,
+          "image_rank": 4,
+          "nilpotence_order": 4
+        },
+        {
+          "symplectic_rank": 5,
+          "projective_dimension": 9,
+          "image_rank": 5,
+          "nilpotence_order": 5
+        },
+        {
+          "symplectic_rank": 6,
+          "projective_dimension": 11,
+          "image_rank": 6,
+          "nilpotence_order": 6
+        },
+        {
+          "symplectic_rank": 7,
+          "projective_dimension": 13,
+          "image_rank": 7,
+          "nilpotence_order": 7
+        },
+        {
+          "symplectic_rank": 8,
+          "projective_dimension": 15,
+          "image_rank": 8,
+          "nilpotence_order": 8
+        },
+        {
+          "symplectic_rank": 9,
+          "projective_dimension": 17,
+          "image_rank": 9,
+          "nilpotence_order": 9
+        },
+        {
+          "symplectic_rank": 10,
+          "projective_dimension": 19,
+          "image_rank": 10,
+          "nilpotence_order": 10
+        },
+        {
+          "symplectic_rank": 11,
+          "projective_dimension": 21,
+          "image_rank": 11,
+          "nilpotence_order": 11
+        },
+        {
+          "symplectic_rank": 12,
+          "projective_dimension": 23,
+          "image_rank": 12,
+          "nilpotence_order": 12
+        },
+        {
+          "symplectic_rank": 13,
+          "projective_dimension": 25,
+          "image_rank": 13,
+          "nilpotence_order": 13
+        },
+        {
+          "symplectic_rank": 14,
+          "projective_dimension": 27,
+          "image_rank": 14,
+          "nilpotence_order": 14
+        },
+        {
+          "symplectic_rank": 15,
+          "projective_dimension": 29,
+          "image_rank": 15,
+          "nilpotence_order": 15
+        },
+        {
+          "symplectic_rank": 16,
+          "projective_dimension": 31,
+          "image_rank": 16,
+          "nilpotence_order": 16
+        },
+        {
+          "symplectic_rank": 17,
+          "projective_dimension": 33,
+          "image_rank": 17,
+          "nilpotence_order": 17
+        },
+        {
+          "symplectic_rank": 18,
+          "projective_dimension": 35,
+          "image_rank": 18,
+          "nilpotence_order": 18
+        },
+        {
+          "symplectic_rank": 19,
+          "projective_dimension": 37,
+          "image_rank": 19,
+          "nilpotence_order": 19
+        },
+        {
+          "symplectic_rank": 20,
+          "projective_dimension": 39,
+          "image_rank": 20,
+          "nilpotence_order": 20
+        },
+        {
+          "symplectic_rank": 21,
+          "projective_dimension": 41,
+          "image_rank": 21,
+          "nilpotence_order": 21
+        },
+        {
+          "symplectic_rank": 22,
+          "projective_dimension": 43,
+          "image_rank": 22,
+          "nilpotence_order": 22
+        },
+        {
+          "symplectic_rank": 23,
+          "projective_dimension": 45,
+          "image_rank": 23,
+          "nilpotence_order": 23
+        },
+        {
+          "symplectic_rank": 24,
+          "projective_dimension": 47,
+          "image_rank": 24,
+          "nilpotence_order": 24
+        },
+        {
+          "symplectic_rank": 25,
+          "projective_dimension": 49,
+          "image_rank": 25,
+          "nilpotence_order": 25
+        },
+        {
+          "symplectic_rank": 26,
+          "projective_dimension": 51,
+          "image_rank": 26,
+          "nilpotence_order": 26
+        },
+        {
+          "symplectic_rank": 27,
+          "projective_dimension": 53,
+          "image_rank": 27,
+          "nilpotence_order": 27
+        },
+        {
+          "symplectic_rank": 28,
+          "projective_dimension": 55,
+          "image_rank": 28,
+          "nilpotence_order": 28
+        },
+        {
+          "symplectic_rank": 29,
+          "projective_dimension": 57,
+          "image_rank": 29,
+          "nilpotence_order": 29
+        },
+        {
+          "symplectic_rank": 30,
+          "projective_dimension": 59,
+          "image_rank": 30,
+          "nilpotence_order": 30
+        },
+        {
+          "symplectic_rank": 31,
+          "projective_dimension": 61,
+          "image_rank": 31,
+          "nilpotence_order": 31
+        },
+        {
+          "symplectic_rank": 32,
+          "projective_dimension": 63,
+          "image_rank": 32,
+          "nilpotence_order": 32
+        },
+        {
+          "symplectic_rank": 33,
+          "projective_dimension": 65,
+          "image_rank": 33,
+          "nilpotence_order": 33
+        },
+        {
+          "symplectic_rank": 34,
+          "projective_dimension": 67,
+          "image_rank": 34,
+          "nilpotence_order": 34
+        },
+        {
+          "symplectic_rank": 35,
+          "projective_dimension": 69,
+          "image_rank": 35,
+          "nilpotence_order": 35
+        },
+        {
+          "symplectic_rank": 36,
+          "projective_dimension": 71,
+          "image_rank": 36,
+          "nilpotence_order": 36
+        },
+        {
+          "symplectic_rank": 37,
+          "projective_dimension": 73,
+          "image_rank": 37,
+          "nilpotence_order": 37
+        },
+        {
+          "symplectic_rank": 38,
+          "projective_dimension": 75,
+          "image_rank": 38,
+          "nilpotence_order": 38
+        },
+        {
+          "symplectic_rank": 39,
+          "projective_dimension": 77,
+          "image_rank": 39,
+          "nilpotence_order": 39
+        },
+        {
+          "symplectic_rank": 40,
+          "projective_dimension": 79,
+          "image_rank": 40,
+          "nilpotence_order": 40
+        },
+        {
+          "symplectic_rank": 41,
+          "projective_dimension": 81,
+          "image_rank": 41,
+          "nilpotence_order": 41
+        },
+        {
+          "symplectic_rank": 42,
+          "projective_dimension": 83,
+          "image_rank": 42,
+          "nilpotence_order": 42
+        },
+        {
+          "symplectic_rank": 43,
+          "projective_dimension": 85,
+          "image_rank": 43,
+          "nilpotence_order": 43
+        },
+        {
+          "symplectic_rank": 44,
+          "projective_dimension": 87,
+          "image_rank": 44,
+          "nilpotence_order": 44
+        },
+        {
+          "symplectic_rank": 45,
+          "projective_dimension": 89,
+          "image_rank": 45,
+          "nilpotence_order": 45
+        },
+        {
+          "symplectic_rank": 46,
+          "projective_dimension": 91,
+          "image_rank": 46,
+          "nilpotence_order": 46
+        },
+        {
+          "symplectic_rank": 47,
+          "projective_dimension": 93,
+          "image_rank": 47,
+          "nilpotence_order": 47
+        },
+        {
+          "symplectic_rank": 48,
+          "projective_dimension": 95,
+          "image_rank": 48,
+          "nilpotence_order": 48
+        },
+        {
+          "symplectic_rank": 49,
+          "projective_dimension": 97,
+          "image_rank": 49,
+          "nilpotence_order": 49
+        },
+        {
+          "symplectic_rank": 50,
+          "projective_dimension": 99,
+          "image_rank": 50,
+          "nilpotence_order": 50
+        },
+        {
+          "symplectic_rank": 51,
+          "projective_dimension": 101,
+          "image_rank": 51,
+          "nilpotence_order": 51
+        },
+        {
+          "symplectic_rank": 52,
+          "projective_dimension": 103,
+          "image_rank": 52,
+          "nilpotence_order": 52
+        },
+        {
+          "symplectic_rank": 53,
+          "projective_dimension": 105,
+          "image_rank": 53,
+          "nilpotence_order": 53
+        },
+        {
+          "symplectic_rank": 54,
+          "projective_dimension": 107,
+          "image_rank": 54,
+          "nilpotence_order": 54
+        },
+        {
+          "symplectic_rank": 55,
+          "projective_dimension": 109,
+          "image_rank": 55,
+          "nilpotence_order": 55
+        },
+        {
+          "symplectic_rank": 56,
+          "projective_dimension": 111,
+          "image_rank": 56,
+          "nilpotence_order": 56
+        },
+        {
+          "symplectic_rank": 57,
+          "projective_dimension": 113,
+          "image_rank": 57,
+          "nilpotence_order": 57
+        },
+        {
+          "symplectic_rank": 58,
+          "projective_dimension": 115,
+          "image_rank": 58,
+          "nilpotence_order": 58
+        },
+        {
+          "symplectic_rank": 59,
+          "projective_dimension": 117,
+          "image_rank": 59,
+          "nilpotence_order": 59
+        },
+        {
+          "symplectic_rank": 60,
+          "projective_dimension": 119,
+          "image_rank": 60,
+          "nilpotence_order": 60
+        },
+        {
+          "symplectic_rank": 61,
+          "projective_dimension": 121,
+          "image_rank": 61,
+          "nilpotence_order": 61
+        },
+        {
+          "symplectic_rank": 62,
+          "projective_dimension": 123,
+          "image_rank": 62,
+          "nilpotence_order": 62
+        },
+        {
+          "symplectic_rank": 63,
+          "projective_dimension": 125,
+          "image_rank": 63,
+          "nilpotence_order": 63
+        },
+        {
+          "symplectic_rank": 64,
+          "projective_dimension": 127,
+          "image_rank": 64,
+          "nilpotence_order": 64
+        }
+      ]
+    },
+    {
+      "height": 2,
+      "formal_inverse_first_difference_degree": 4,
+      "inverse_mod2_exponents": [
+        1,
+        4,
+        10,
+        16,
+        22,
+        34,
+        40,
+        46,
+        64,
+        70,
+        82,
+        88,
+        94,
+        112
+      ],
+      "checks": [
+        {
+          "symplectic_rank": 1,
+          "projective_dimension": 1,
+          "image_rank": 1,
+          "nilpotence_order": 1
+        },
+        {
+          "symplectic_rank": 2,
+          "projective_dimension": 3,
+          "image_rank": 1,
+          "nilpotence_order": 1
+        },
+        {
+          "symplectic_rank": 3,
+          "projective_dimension": 5,
+          "image_rank": 2,
+          "nilpotence_order": 2
+        },
+        {
+          "symplectic_rank": 4,
+          "projective_dimension": 7,
+          "image_rank": 2,
+          "nilpotence_order": 2
+        },
+        {
+          "symplectic_rank": 5,
+          "projective_dimension": 9,
+          "image_rank": 3,
+          "nilpotence_order": 3
+        },
+        {
+          "symplectic_rank": 6,
+          "projective_dimension": 11,
+          "image_rank": 3,
+          "nilpotence_order": 3
+        },
+        {
+          "symplectic_rank": 7,
+          "projective_dimension": 13,
+          "image_rank": 4,
+          "nilpotence_order": 4
+        },
+        {
+          "symplectic_rank": 8,
+          "projective_dimension": 15,
+          "image_rank": 4,
+          "nilpotence_order": 4
+        },
+        {
+          "symplectic_rank": 9,
+          "projective_dimension": 17,
+          "image_rank": 5,
+          "nilpotence_order": 5
+        },
+        {
+          "symplectic_rank": 10,
+          "projective_dimension": 19,
+          "image_rank": 5,
+          "nilpotence_order": 5
+        },
+        {
+          "symplectic_rank": 11,
+          "projective_dimension": 21,
+          "image_rank": 6,
+          "nilpotence_order": 6
+        },
+        {
+          "symplectic_rank": 12,
+          "projective_dimension": 23,
+          "image_rank": 6,
+          "nilpotence_order": 6
+        },
+        {
+          "symplectic_rank": 13,
+          "projective_dimension": 25,
+          "image_rank": 7,
+          "nilpotence_order": 7
+        },
+        {
+          "symplectic_rank": 14,
+          "projective_dimension": 27,
+          "image_rank": 7,
+          "nilpotence_order": 7
+        },
+        {
+          "symplectic_rank": 15,
+          "projective_dimension": 29,
+          "image_rank": 8,
+          "nilpotence_order": 8
+        },
+        {
+          "symplectic_rank": 16,
+          "projective_dimension": 31,
+          "image_rank": 8,
+          "nilpotence_order": 8
+        },
+        {
+          "symplectic_rank": 17,
+          "projective_dimension": 33,
+          "image_rank": 9,
+          "nilpotence_order": 9
+        },
+        {
+          "symplectic_rank": 18,
+          "projective_dimension": 35,
+          "image_rank": 9,
+          "nilpotence_order": 9
+        },
+        {
+          "symplectic_rank": 19,
+          "projective_dimension": 37,
+          "image_rank": 10,
+          "nilpotence_order": 10
+        },
+        {
+          "symplectic_rank": 20,
+          "projective_dimension": 39,
+          "image_rank": 10,
+          "nilpotence_order": 10
+        },
+        {
+          "symplectic_rank": 21,
+          "projective_dimension": 41,
+          "image_rank": 11,
+          "nilpotence_order": 11
+        },
+        {
+          "symplectic_rank": 22,
+          "projective_dimension": 43,
+          "image_rank": 11,
+          "nilpotence_order": 11
+        },
+        {
+          "symplectic_rank": 23,
+          "projective_dimension": 45,
+          "image_rank": 12,
+          "nilpotence_order": 12
+        },
+        {
+          "symplectic_rank": 24,
+          "projective_dimension": 47,
+          "image_rank": 12,
+          "nilpotence_order": 12
+        },
+        {
+          "symplectic_rank": 25,
+          "projective_dimension": 49,
+          "image_rank": 13,
+          "nilpotence_order": 13
+        },
+        {
+          "symplectic_rank": 26,
+          "projective_dimension": 51,
+          "image_rank": 13,
+          "nilpotence_order": 13
+        },
+        {
+          "symplectic_rank": 27,
+          "projective_dimension": 53,
+          "image_rank": 14,
+          "nilpotence_order": 14
+        },
+        {
+          "symplectic_rank": 28,
+          "projective_dimension": 55,
+          "image_rank": 14,
+          "nilpotence_order": 14
+        },
+        {
+          "symplectic_rank": 29,
+          "projective_dimension": 57,
+          "image_rank": 15,
+          "nilpotence_order": 15
+        },
+        {
+          "symplectic_rank": 30,
+          "projective_dimension": 59,
+          "image_rank": 15,
+          "nilpotence_order": 15
+        },
+        {
+          "symplectic_rank": 31,
+          "projective_dimension": 61,
+          "image_rank": 16,
+          "nilpotence_order": 16
+        },
+        {
+          "symplectic_rank": 32,
+          "projective_dimension": 63,
+          "image_rank": 16,
+          "nilpotence_order": 16
+        },
+        {
+          "symplectic_rank": 33,
+          "projective_dimension": 65,
+          "image_rank": 17,
+          "nilpotence_order": 17
+        },
+        {
+          "symplectic_rank": 34,
+          "projective_dimension": 67,
+          "image_rank": 17,
+          "nilpotence_order": 17
+        },
+        {
+          "symplectic_rank": 35,
+          "projective_dimension": 69,
+          "image_rank": 18,
+          "nilpotence_order": 18
+        },
+        {
+          "symplectic_rank": 36,
+          "projective_dimension": 71,
+          "image_rank": 18,
+          "nilpotence_order": 18
+        },
+        {
+          "symplectic_rank": 37,
+          "projective_dimension": 73,
+          "image_rank": 19,
+          "nilpotence_order": 19
+        },
+        {
+          "symplectic_rank": 38,
+          "projective_dimension": 75,
+          "image_rank": 19,
+          "nilpotence_order": 19
+        },
+        {
+          "symplectic_rank": 39,
+          "projective_dimension": 77,
+          "image_rank": 20,
+          "nilpotence_order": 20
+        },
+        {
+          "symplectic_rank": 40,
+          "projective_dimension": 79,
+          "image_rank": 20,
+          "nilpotence_order": 20
+        },
+        {
+          "symplectic_rank": 41,
+          "projective_dimension": 81,
+          "image_rank": 21,
+          "nilpotence_order": 21
+        },
+        {
+          "symplectic_rank": 42,
+          "projective_dimension": 83,
+          "image_rank": 21,
+          "nilpotence_order": 21
+        },
+        {
+          "symplectic_rank": 43,
+          "projective_dimension": 85,
+          "image_rank": 22,
+          "nilpotence_order": 22
+        },
+        {
+          "symplectic_rank": 44,
+          "projective_dimension": 87,
+          "image_rank": 22,
+          "nilpotence_order": 22
+        },
+        {
+          "symplectic_rank": 45,
+          "projective_dimension": 89,
+          "image_rank": 23,
+          "nilpotence_order": 23
+        },
+        {
+          "symplectic_rank": 46,
+          "projective_dimension": 91,
+          "image_rank": 23,
+          "nilpotence_order": 23
+        },
+        {
+          "symplectic_rank": 47,
+          "projective_dimension": 93,
+          "image_rank": 24,
+          "nilpotence_order": 24
+        },
+        {
+          "symplectic_rank": 48,
+          "projective_dimension": 95,
+          "image_rank": 24,
+          "nilpotence_order": 24
+        },
+        {
+          "symplectic_rank": 49,
+          "projective_dimension": 97,
+          "image_rank": 25,
+          "nilpotence_order": 25
+        },
+        {
+          "symplectic_rank": 50,
+          "projective_dimension": 99,
+          "image_rank": 25,
+          "nilpotence_order": 25
+        },
+        {
+          "symplectic_rank": 51,
+          "projective_dimension": 101,
+          "image_rank": 26,
+          "nilpotence_order": 26
+        },
+        {
+          "symplectic_rank": 52,
+          "projective_dimension": 103,
+          "image_rank": 26,
+          "nilpotence_order": 26
+        },
+        {
+          "symplectic_rank": 53,
+          "projective_dimension": 105,
+          "image_rank": 27,
+          "nilpotence_order": 27
+        },
+        {
+          "symplectic_rank": 54,
+          "projective_dimension": 107,
+          "image_rank": 27,
+          "nilpotence_order": 27
+        },
+        {
+          "symplectic_rank": 55,
+          "projective_dimension": 109,
+          "image_rank": 28,
+          "nilpotence_order": 28
+        },
+        {
+          "symplectic_rank": 56,
+          "projective_dimension": 111,
+          "image_rank": 28,
+          "nilpotence_order": 28
+        },
+        {
+          "symplectic_rank": 57,
+          "projective_dimension": 113,
+          "image_rank": 29,
+          "nilpotence_order": 29
+        },
+        {
+          "symplectic_rank": 58,
+          "projective_dimension": 115,
+          "image_rank": 29,
+          "nilpotence_order": 29
+        },
+        {
+          "symplectic_rank": 59,
+          "projective_dimension": 117,
+          "image_rank": 30,
+          "nilpotence_order": 30
+        },
+        {
+          "symplectic_rank": 60,
+          "projective_dimension": 119,
+          "image_rank": 30,
+          "nilpotence_order": 30
+        },
+        {
+          "symplectic_rank": 61,
+          "projective_dimension": 121,
+          "image_rank": 31,
+          "nilpotence_order": 31
+        },
+        {
+          "symplectic_rank": 62,
+          "projective_dimension": 123,
+          "image_rank": 31,
+          "nilpotence_order": 31
+        },
+        {
+          "symplectic_rank": 63,
+          "projective_dimension": 125,
+          "image_rank": 32,
+          "nilpotence_order": 32
+        },
+        {
+          "symplectic_rank": 64,
+          "projective_dimension": 127,
+          "image_rank": 32,
+          "nilpotence_order": 32
+        }
+      ]
+    },
+    {
+      "height": 3,
+      "formal_inverse_first_difference_degree": 8,
+      "inverse_mod2_exponents": [
+        1,
+        8,
+        36,
+        64
+      ],
+      "checks": [
+        {
+          "symplectic_rank": 1,
+          "projective_dimension": 1,
+          "image_rank": 1,
+          "nilpotence_order": 1
+        },
+        {
+          "symplectic_rank": 2,
+          "projective_dimension": 3,
+          "image_rank": 1,
+          "nilpotence_order": 1
+        },
+        {
+          "symplectic_rank": 3,
+          "projective_dimension": 5,
+          "image_rank": 1,
+          "nilpotence_order": 1
+        },
+        {
+          "symplectic_rank": 4,
+          "projective_dimension": 7,
+          "image_rank": 1,
+          "nilpotence_order": 1
+        },
+        {
+          "symplectic_rank": 5,
+          "projective_dimension": 9,
+          "image_rank": 2,
+          "nilpotence_order": 2
+        },
+        {
+          "symplectic_rank": 6,
+          "projective_dimension": 11,
+          "image_rank": 2,
+          "nilpotence_order": 2
+        },
+        {
+          "symplectic_rank": 7,
+          "projective_dimension": 13,
+          "image_rank": 2,
+          "nilpotence_order": 2
+        },
+        {
+          "symplectic_rank": 8,
+          "projective_dimension": 15,
+          "image_rank": 2,
+          "nilpotence_order": 2
+        },
+        {
+          "symplectic_rank": 9,
+          "projective_dimension": 17,
+          "image_rank": 3,
+          "nilpotence_order": 3
+        },
+        {
+          "symplectic_rank": 10,
+          "projective_dimension": 19,
+          "image_rank": 3,
+          "nilpotence_order": 3
+        },
+        {
+          "symplectic_rank": 11,
+          "projective_dimension": 21,
+          "image_rank": 3,
+          "nilpotence_order": 3
+        },
+        {
+          "symplectic_rank": 12,
+          "projective_dimension": 23,
+          "image_rank": 3,
+          "nilpotence_order": 3
+        },
+        {
+          "symplectic_rank": 13,
+          "projective_dimension": 25,
+          "image_rank": 4,
+          "nilpotence_order": 4
+        },
+        {
+          "symplectic_rank": 14,
+          "projective_dimension": 27,
+          "image_rank": 4,
+          "nilpotence_order": 4
+        },
+        {
+          "symplectic_rank": 15,
+          "projective_dimension": 29,
+          "image_rank": 4,
+          "nilpotence_order": 4
+        },
+        {
+          "symplectic_rank": 16,
+          "projective_dimension": 31,
+          "image_rank": 4,
+          "nilpotence_order": 4
+        },
+        {
+          "symplectic_rank": 17,
+          "projective_dimension": 33,
+          "image_rank": 5,
+          "nilpotence_order": 5
+        },
+        {
+          "symplectic_rank": 18,
+          "projective_dimension": 35,
+          "image_rank": 5,
+          "nilpotence_order": 5
+        },
+        {
+          "symplectic_rank": 19,
+          "projective_dimension": 37,
+          "image_rank": 5,
+          "nilpotence_order": 5
+        },
+        {
+          "symplectic_rank": 20,
+          "projective_dimension": 39,
+          "image_rank": 5,
+          "nilpotence_order": 5
+        },
+        {
+          "symplectic_rank": 21,
+          "projective_dimension": 41,
+          "image_rank": 6,
+          "nilpotence_order": 6
+        },
+        {
+          "symplectic_rank": 22,
+          "projective_dimension": 43,
+          "image_rank": 6,
+          "nilpotence_order": 6
+        },
+        {
+          "symplectic_rank": 23,
+          "projective_dimension": 45,
+          "image_rank": 6,
+          "nilpotence_order": 6
+        },
+        {
+          "symplectic_rank": 24,
+          "projective_dimension": 47,
+          "image_rank": 6,
+          "nilpotence_order": 6
+        },
+        {
+          "symplectic_rank": 25,
+          "projective_dimension": 49,
+          "image_rank": 7,
+          "nilpotence_order": 7
+        },
+        {
+          "symplectic_rank": 26,
+          "projective_dimension": 51,
+          "image_rank": 7,
+          "nilpotence_order": 7
+        },
+        {
+          "symplectic_rank": 27,
+          "projective_dimension": 53,
+          "image_rank": 7,
+          "nilpotence_order": 7
+        },
+        {
+          "symplectic_rank": 28,
+          "projective_dimension": 55,
+          "image_rank": 7,
+          "nilpotence_order": 7
+        },
+        {
+          "symplectic_rank": 29,
+          "projective_dimension": 57,
+          "image_rank": 8,
+          "nilpotence_order": 8
+        },
+        {
+          "symplectic_rank": 30,
+          "projective_dimension": 59,
+          "image_rank": 8,
+          "nilpotence_order": 8
+        },
+        {
+          "symplectic_rank": 31,
+          "projective_dimension": 61,
+          "image_rank": 8,
+          "nilpotence_order": 8
+        },
+        {
+          "symplectic_rank": 32,
+          "projective_dimension": 63,
+          "image_rank": 8,
+          "nilpotence_order": 8
+        },
+        {
+          "symplectic_rank": 33,
+          "projective_dimension": 65,
+          "image_rank": 9,
+          "nilpotence_order": 9
+        },
+        {
+          "symplectic_rank": 34,
+          "projective_dimension": 67,
+          "image_rank": 9,
+          "nilpotence_order": 9
+        },
+        {
+          "symplectic_rank": 35,
+          "projective_dimension": 69,
+          "image_rank": 9,
+          "nilpotence_order": 9
+        },
+        {
+          "symplectic_rank": 36,
+          "projective_dimension": 71,
+          "image_rank": 9,
+          "nilpotence_order": 9
+        },
+        {
+          "symplectic_rank": 37,
+          "projective_dimension": 73,
+          "image_rank": 10,
+          "nilpotence_order": 10
+        },
+        {
+          "symplectic_rank": 38,
+          "projective_dimension": 75,
+          "image_rank": 10,
+          "nilpotence_order": 10
+        },
+        {
+          "symplectic_rank": 39,
+          "projective_dimension": 77,
+          "image_rank": 10,
+          "nilpotence_order": 10
+        },
+        {
+          "symplectic_rank": 40,
+          "projective_dimension": 79,
+          "image_rank": 10,
+          "nilpotence_order": 10
+        },
+        {
+          "symplectic_rank": 41,
+          "projective_dimension": 81,
+          "image_rank": 11,
+          "nilpotence_order": 11
+        },
+        {
+          "symplectic_rank": 42,
+          "projective_dimension": 83,
+          "image_rank": 11,
+          "nilpotence_order": 11
+        },
+        {
+          "symplectic_rank": 43,
+          "projective_dimension": 85,
+          "image_rank": 11,
+          "nilpotence_order": 11
+        },
+        {
+          "symplectic_rank": 44,
+          "projective_dimension": 87,
+          "image_rank": 11,
+          "nilpotence_order": 11
+        },
+        {
+          "symplectic_rank": 45,
+          "projective_dimension": 89,
+          "image_rank": 12,
+          "nilpotence_order": 12
+        },
+        {
+          "symplectic_rank": 46,
+          "projective_dimension": 91,
+          "image_rank": 12,
+          "nilpotence_order": 12
+        },
+        {
+          "symplectic_rank": 47,
+          "projective_dimension": 93,
+          "image_rank": 12,
+          "nilpotence_order": 12
+        },
+        {
+          "symplectic_rank": 48,
+          "projective_dimension": 95,
+          "image_rank": 12,
+          "nilpotence_order": 12
+        },
+        {
+          "symplectic_rank": 49,
+          "projective_dimension": 97,
+          "image_rank": 13,
+          "nilpotence_order": 13
+        },
+        {
+          "symplectic_rank": 50,
+          "projective_dimension": 99,
+          "image_rank": 13,
+          "nilpotence_order": 13
+        },
+        {
+          "symplectic_rank": 51,
+          "projective_dimension": 101,
+          "image_rank": 13,
+          "nilpotence_order": 13
+        },
+        {
+          "symplectic_rank": 52,
+          "projective_dimension": 103,
+          "image_rank": 13,
+          "nilpotence_order": 13
+        },
+        {
+          "symplectic_rank": 53,
+          "projective_dimension": 105,
+          "image_rank": 14,
+          "nilpotence_order": 14
+        },
+        {
+          "symplectic_rank": 54,
+          "projective_dimension": 107,
+          "image_rank": 14,
+          "nilpotence_order": 14
+        },
+        {
+          "symplectic_rank": 55,
+          "projective_dimension": 109,
+          "image_rank": 14,
+          "nilpotence_order": 14
+        },
+        {
+          "symplectic_rank": 56,
+          "projective_dimension": 111,
+          "image_rank": 14,
+          "nilpotence_order": 14
+        },
+        {
+          "symplectic_rank": 57,
+          "projective_dimension": 113,
+          "image_rank": 15,
+          "nilpotence_order": 15
+        },
+        {
+          "symplectic_rank": 58,
+          "projective_dimension": 115,
+          "image_rank": 15,
+          "nilpotence_order": 15
+        },
+        {
+          "symplectic_rank": 59,
+          "projective_dimension": 117,
+          "image_rank": 15,
+          "nilpotence_order": 15
+        },
+        {
+          "symplectic_rank": 60,
+          "projective_dimension": 119,
+          "image_rank": 15,
+          "nilpotence_order": 15
+        },
+        {
+          "symplectic_rank": 61,
+          "projective_dimension": 121,
+          "image_rank": 16,
+          "nilpotence_order": 16
+        },
+        {
+          "symplectic_rank": 62,
+          "projective_dimension": 123,
+          "image_rank": 16,
+          "nilpotence_order": 16
+        },
+        {
+          "symplectic_rank": 63,
+          "projective_dimension": 125,
+          "image_rank": 16,
+          "nilpotence_order": 16
+        },
+        {
+          "symplectic_rank": 64,
+          "projective_dimension": 127,
+          "image_rank": 16,
+          "nilpotence_order": 16
+        }
+      ]
+    },
+    {
+      "height": 4,
+      "formal_inverse_first_difference_degree": 16,
+      "inverse_mod2_exponents": [
+        1,
+        16
+      ],
+      "checks": [
+        {
+          "symplectic_rank": 1,
+          "projective_dimension": 1,
+          "image_rank": 1,
+          "nilpotence_order": 1
+        },
+        {
+          "symplectic_rank": 2,
+          "projective_dimension": 3,
+          "image_rank": 1,
+          "nilpotence_order": 1
+        },
+        {
+          "symplectic_rank": 3,
+          "projective_dimension": 5,
+          "image_rank": 1,
+          "nilpotence_order": 1
+        },
+        {
+          "symplectic_rank": 4,
+          "projective_dimension": 7,
+          "image_rank": 1,
+          "nilpotence_order": 1
+        },
+        {
+          "symplectic_rank": 5,
+          "projective_dimension": 9,
+          "image_rank": 1,
+          "nilpotence_order": 1
+        },
+        {
+          "symplectic_rank": 6,
+          "projective_dimension": 11,
+          "image_rank": 1,
+          "nilpotence_order": 1
+        },
+        {
+          "symplectic_rank": 7,
+          "projective_dimension": 13,
+          "image_rank": 1,
+          "nilpotence_order": 1
+        },
+        {
+          "symplectic_rank": 8,
+          "projective_dimension": 15,
+          "image_rank": 1,
+          "nilpotence_order": 1
+        },
+        {
+          "symplectic_rank": 9,
+          "projective_dimension": 17,
+          "image_rank": 2,
+          "nilpotence_order": 2
+        },
+        {
+          "symplectic_rank": 10,
+          "projective_dimension": 19,
+          "image_rank": 2,
+          "nilpotence_order": 2
+        },
+        {
+          "symplectic_rank": 11,
+          "projective_dimension": 21,
+          "image_rank": 2,
+          "nilpotence_order": 2
+        },
+        {
+          "symplectic_rank": 12,
+          "projective_dimension": 23,
+          "image_rank": 2,
+          "nilpotence_order": 2
+        },
+        {
+          "symplectic_rank": 13,
+          "projective_dimension": 25,
+          "image_rank": 2,
+          "nilpotence_order": 2
+        },
+        {
+          "symplectic_rank": 14,
+          "projective_dimension": 27,
+          "image_rank": 2,
+          "nilpotence_order": 2
+        },
+        {
+          "symplectic_rank": 15,
+          "projective_dimension": 29,
+          "image_rank": 2,
+          "nilpotence_order": 2
+        },
+        {
+          "symplectic_rank": 16,
+          "projective_dimension": 31,
+          "image_rank": 2,
+          "nilpotence_order": 2
+        },
+        {
+          "symplectic_rank": 17,
+          "projective_dimension": 33,
+          "image_rank": 3,
+          "nilpotence_order": 3
+        },
+        {
+          "symplectic_rank": 18,
+          "projective_dimension": 35,
+          "image_rank": 3,
+          "nilpotence_order": 3
+        },
+        {
+          "symplectic_rank": 19,
+          "projective_dimension": 37,
+          "image_rank": 3,
+          "nilpotence_order": 3
+        },
+        {
+          "symplectic_rank": 20,
+          "projective_dimension": 39,
+          "image_rank": 3,
+          "nilpotence_order": 3
+        },
+        {
+          "symplectic_rank": 21,
+          "projective_dimension": 41,
+          "image_rank": 3,
+          "nilpotence_order": 3
+        },
+        {
+          "symplectic_rank": 22,
+          "projective_dimension": 43,
+          "image_rank": 3,
+          "nilpotence_order": 3
+        },
+        {
+          "symplectic_rank": 23,
+          "projective_dimension": 45,
+          "image_rank": 3,
+          "nilpotence_order": 3
+        },
+        {
+          "symplectic_rank": 24,
+          "projective_dimension": 47,
+          "image_rank": 3,
+          "nilpotence_order": 3
+        },
+        {
+          "symplectic_rank": 25,
+          "projective_dimension": 49,
+          "image_rank": 4,
+          "nilpotence_order": 4
+        },
+        {
+          "symplectic_rank": 26,
+          "projective_dimension": 51,
+          "image_rank": 4,
+          "nilpotence_order": 4
+        },
+        {
+          "symplectic_rank": 27,
+          "projective_dimension": 53,
+          "image_rank": 4,
+          "nilpotence_order": 4
+        },
+        {
+          "symplectic_rank": 28,
+          "projective_dimension": 55,
+          "image_rank": 4,
+          "nilpotence_order": 4
+        },
+        {
+          "symplectic_rank": 29,
+          "projective_dimension": 57,
+          "image_rank": 4,
+          "nilpotence_order": 4
+        },
+        {
+          "symplectic_rank": 30,
+          "projective_dimension": 59,
+          "image_rank": 4,
+          "nilpotence_order": 4
+        },
+        {
+          "symplectic_rank": 31,
+          "projective_dimension": 61,
+          "image_rank": 4,
+          "nilpotence_order": 4
+        },
+        {
+          "symplectic_rank": 32,
+          "projective_dimension": 63,
+          "image_rank": 4,
+          "nilpotence_order": 4
+        },
+        {
+          "symplectic_rank": 33,
+          "projective_dimension": 65,
+          "image_rank": 5,
+          "nilpotence_order": 5
+        },
+        {
+          "symplectic_rank": 34,
+          "projective_dimension": 67,
+          "image_rank": 5,
+          "nilpotence_order": 5
+        },
+        {
+          "symplectic_rank": 35,
+          "projective_dimension": 69,
+          "image_rank": 5,
+          "nilpotence_order": 5
+        },
+        {
+          "symplectic_rank": 36,
+          "projective_dimension": 71,
+          "image_rank": 5,
+          "nilpotence_order": 5
+        },
+        {
+          "symplectic_rank": 37,
+          "projective_dimension": 73,
+          "image_rank": 5,
+          "nilpotence_order": 5
+        },
+        {
+          "symplectic_rank": 38,
+          "projective_dimension": 75,
+          "image_rank": 5,
+          "nilpotence_order": 5
+        },
+        {
+          "symplectic_rank": 39,
+          "projective_dimension": 77,
+          "image_rank": 5,
+          "nilpotence_order": 5
+        },
+        {
+          "symplectic_rank": 40,
+          "projective_dimension": 79,
+          "image_rank": 5,
+          "nilpotence_order": 5
+        },
+        {
+          "symplectic_rank": 41,
+          "projective_dimension": 81,
+          "image_rank": 6,
+          "nilpotence_order": 6
+        },
+        {
+          "symplectic_rank": 42,
+          "projective_dimension": 83,
+          "image_rank": 6,
+          "nilpotence_order": 6
+        },
+        {
+          "symplectic_rank": 43,
+          "projective_dimension": 85,
+          "image_rank": 6,
+          "nilpotence_order": 6
+        },
+        {
+          "symplectic_rank": 44,
+          "projective_dimension": 87,
+          "image_rank": 6,
+          "nilpotence_order": 6
+        },
+        {
+          "symplectic_rank": 45,
+          "projective_dimension": 89,
+          "image_rank": 6,
+          "nilpotence_order": 6
+        },
+        {
+          "symplectic_rank": 46,
+          "projective_dimension": 91,
+          "image_rank": 6,
+          "nilpotence_order": 6
+        },
+        {
+          "symplectic_rank": 47,
+          "projective_dimension": 93,
+          "image_rank": 6,
+          "nilpotence_order": 6
+        },
+        {
+          "symplectic_rank": 48,
+          "projective_dimension": 95,
+          "image_rank": 6,
+          "nilpotence_order": 6
+        },
+        {
+          "symplectic_rank": 49,
+          "projective_dimension": 97,
+          "image_rank": 7,
+          "nilpotence_order": 7
+        },
+        {
+          "symplectic_rank": 50,
+          "projective_dimension": 99,
+          "image_rank": 7,
+          "nilpotence_order": 7
+        },
+        {
+          "symplectic_rank": 51,
+          "projective_dimension": 101,
+          "image_rank": 7,
+          "nilpotence_order": 7
+        },
+        {
+          "symplectic_rank": 52,
+          "projective_dimension": 103,
+          "image_rank": 7,
+          "nilpotence_order": 7
+        },
+        {
+          "symplectic_rank": 53,
+          "projective_dimension": 105,
+          "image_rank": 7,
+          "nilpotence_order": 7
+        },
+        {
+          "symplectic_rank": 54,
+          "projective_dimension": 107,
+          "image_rank": 7,
+          "nilpotence_order": 7
+        },
+        {
+          "symplectic_rank": 55,
+          "projective_dimension": 109,
+          "image_rank": 7,
+          "nilpotence_order": 7
+        },
+        {
+          "symplectic_rank": 56,
+          "projective_dimension": 111,
+          "image_rank": 7,
+          "nilpotence_order": 7
+        },
+        {
+          "symplectic_rank": 57,
+          "projective_dimension": 113,
+          "image_rank": 8,
+          "nilpotence_order": 8
+        },
+        {
+          "symplectic_rank": 58,
+          "projective_dimension": 115,
+          "image_rank": 8,
+          "nilpotence_order": 8
+        },
+        {
+          "symplectic_rank": 59,
+          "projective_dimension": 117,
+          "image_rank": 8,
+          "nilpotence_order": 8
+        },
+        {
+          "symplectic_rank": 60,
+          "projective_dimension": 119,
+          "image_rank": 8,
+          "nilpotence_order": 8
+        },
+        {
+          "symplectic_rank": 61,
+          "projective_dimension": 121,
+          "image_rank": 8,
+          "nilpotence_order": 8
+        },
+        {
+          "symplectic_rank": 62,
+          "projective_dimension": 123,
+          "image_rank": 8,
+          "nilpotence_order": 8
+        },
+        {
+          "symplectic_rank": 63,
+          "projective_dimension": 125,
+          "image_rank": 8,
+          "nilpotence_order": 8
+        },
+        {
+          "symplectic_rank": 64,
+          "projective_dimension": 127,
+          "image_rank": 8,
+          "nilpotence_order": 8
+        }
+      ]
+    },
+    {
+      "height": 5,
+      "formal_inverse_first_difference_degree": 32,
+      "inverse_mod2_exponents": [
+        1,
+        32
+      ],
+      "checks": [
+        {
+          "symplectic_rank": 1,
+          "projective_dimension": 1,
+          "image_rank": 1,
+          "nilpotence_order": 1
+        },
+        {
+          "symplectic_rank": 2,
+          "projective_dimension": 3,
+          "image_rank": 1,
+          "nilpotence_order": 1
+        },
+        {
+          "symplectic_rank": 3,
+          "projective_dimension": 5,
+          "image_rank": 1,
+          "nilpotence_order": 1
+        },
+        {
+          "symplectic_rank": 4,
+          "projective_dimension": 7,
+          "image_rank": 1,
+          "nilpotence_order": 1
+        },
+        {
+          "symplectic_rank": 5,
+          "projective_dimension": 9,
+          "image_rank": 1,
+          "nilpotence_order": 1
+        },
+        {
+          "symplectic_rank": 6,
+          "projective_dimension": 11,
+          "image_rank": 1,
+          "nilpotence_order": 1
+        },
+        {
+          "symplectic_rank": 7,
+          "projective_dimension": 13,
+          "image_rank": 1,
+          "nilpotence_order": 1
+        },
+        {
+          "symplectic_rank": 8,
+          "projective_dimension": 15,
+          "image_rank": 1,
+          "nilpotence_order": 1
+        },
+        {
+          "symplectic_rank": 9,
+          "projective_dimension": 17,
+          "image_rank": 1,
+          "nilpotence_order": 1
+        },
+        {
+          "symplectic_rank": 10,
+          "projective_dimension": 19,
+          "image_rank": 1,
+          "nilpotence_order": 1
+        },
+        {
+          "symplectic_rank": 11,
+          "projective_dimension": 21,
+          "image_rank": 1,
+          "nilpotence_order": 1
+        },
+        {
+          "symplectic_rank": 12,
+          "projective_dimension": 23,
+          "image_rank": 1,
+          "nilpotence_order": 1
+        },
+        {
+          "symplectic_rank": 13,
+          "projective_dimension": 25,
+          "image_rank": 1,
+          "nilpotence_order": 1
+        },
+        {
+          "symplectic_rank": 14,
+          "projective_dimension": 27,
+          "image_rank": 1,
+          "nilpotence_order": 1
+        },
+        {
+          "symplectic_rank": 15,
+          "projective_dimension": 29,
+          "image_rank": 1,
+          "nilpotence_order": 1
+        },
+        {
+          "symplectic_rank": 16,
+          "projective_dimension": 31,
+          "image_rank": 1,
+          "nilpotence_order": 1
+        },
+        {
+          "symplectic_rank": 17,
+          "projective_dimension": 33,
+          "image_rank": 2,
+          "nilpotence_order": 2
+        },
+        {
+          "symplectic_rank": 18,
+          "projective_dimension": 35,
+          "image_rank": 2,
+          "nilpotence_order": 2
+        },
+        {
+          "symplectic_rank": 19,
+          "projective_dimension": 37,
+          "image_rank": 2,
+          "nilpotence_order": 2
+        },
+        {
+          "symplectic_rank": 20,
+          "projective_dimension": 39,
+          "image_rank": 2,
+          "nilpotence_order": 2
+        },
+        {
+          "symplectic_rank": 21,
+          "projective_dimension": 41,
+          "image_rank": 2,
+          "nilpotence_order": 2
+        },
+        {
+          "symplectic_rank": 22,
+          "projective_dimension": 43,
+          "image_rank": 2,
+          "nilpotence_order": 2
+        },
+        {
+          "symplectic_rank": 23,
+          "projective_dimension": 45,
+          "image_rank": 2,
+          "nilpotence_order": 2
+        },
+        {
+          "symplectic_rank": 24,
+          "projective_dimension": 47,
+          "image_rank": 2,
+          "nilpotence_order": 2
+        },
+        {
+          "symplectic_rank": 25,
+          "projective_dimension": 49,
+          "image_rank": 2,
+          "nilpotence_order": 2
+        },
+        {
+          "symplectic_rank": 26,
+          "projective_dimension": 51,
+          "image_rank": 2,
+          "nilpotence_order": 2
+        },
+        {
+          "symplectic_rank": 27,
+          "projective_dimension": 53,
+          "image_rank": 2,
+          "nilpotence_order": 2
+        },
+        {
+          "symplectic_rank": 28,
+          "projective_dimension": 55,
+          "image_rank": 2,
+          "nilpotence_order": 2
+        },
+        {
+          "symplectic_rank": 29,
+          "projective_dimension": 57,
+          "image_rank": 2,
+          "nilpotence_order": 2
+        },
+        {
+          "symplectic_rank": 30,
+          "projective_dimension": 59,
+          "image_rank": 2,
+          "nilpotence_order": 2
+        },
+        {
+          "symplectic_rank": 31,
+          "projective_dimension": 61,
+          "image_rank": 2,
+          "nilpotence_order": 2
+        },
+        {
+          "symplectic_rank": 32,
+          "projective_dimension": 63,
+          "image_rank": 2,
+          "nilpotence_order": 2
+        },
+        {
+          "symplectic_rank": 33,
+          "projective_dimension": 65,
+          "image_rank": 3,
+          "nilpotence_order": 3
+        },
+        {
+          "symplectic_rank": 34,
+          "projective_dimension": 67,
+          "image_rank": 3,
+          "nilpotence_order": 3
+        },
+        {
+          "symplectic_rank": 35,
+          "projective_dimension": 69,
+          "image_rank": 3,
+          "nilpotence_order": 3
+        },
+        {
+          "symplectic_rank": 36,
+          "projective_dimension": 71,
+          "image_rank": 3,
+          "nilpotence_order": 3
+        },
+        {
+          "symplectic_rank": 37,
+          "projective_dimension": 73,
+          "image_rank": 3,
+          "nilpotence_order": 3
+        },
+        {
+          "symplectic_rank": 38,
+          "projective_dimension": 75,
+          "image_rank": 3,
+          "nilpotence_order": 3
+        },
+        {
+          "symplectic_rank": 39,
+          "projective_dimension": 77,
+          "image_rank": 3,
+          "nilpotence_order": 3
+        },
+        {
+          "symplectic_rank": 40,
+          "projective_dimension": 79,
+          "image_rank": 3,
+          "nilpotence_order": 3
+        },
+        {
+          "symplectic_rank": 41,
+          "projective_dimension": 81,
+          "image_rank": 3,
+          "nilpotence_order": 3
+        },
+        {
+          "symplectic_rank": 42,
+          "projective_dimension": 83,
+          "image_rank": 3,
+          "nilpotence_order": 3
+        },
+        {
+          "symplectic_rank": 43,
+          "projective_dimension": 85,
+          "image_rank": 3,
+          "nilpotence_order": 3
+        },
+        {
+          "symplectic_rank": 44,
+          "projective_dimension": 87,
+          "image_rank": 3,
+          "nilpotence_order": 3
+        },
+        {
+          "symplectic_rank": 45,
+          "projective_dimension": 89,
+          "image_rank": 3,
+          "nilpotence_order": 3
+        },
+        {
+          "symplectic_rank": 46,
+          "projective_dimension": 91,
+          "image_rank": 3,
+          "nilpotence_order": 3
+        },
+        {
+          "symplectic_rank": 47,
+          "projective_dimension": 93,
+          "image_rank": 3,
+          "nilpotence_order": 3
+        },
+        {
+          "symplectic_rank": 48,
+          "projective_dimension": 95,
+          "image_rank": 3,
+          "nilpotence_order": 3
+        },
+        {
+          "symplectic_rank": 49,
+          "projective_dimension": 97,
+          "image_rank": 4,
+          "nilpotence_order": 4
+        },
+        {
+          "symplectic_rank": 50,
+          "projective_dimension": 99,
+          "image_rank": 4,
+          "nilpotence_order": 4
+        },
+        {
+          "symplectic_rank": 51,
+          "projective_dimension": 101,
+          "image_rank": 4,
+          "nilpotence_order": 4
+        },
+        {
+          "symplectic_rank": 52,
+          "projective_dimension": 103,
+          "image_rank": 4,
+          "nilpotence_order": 4
+        },
+        {
+          "symplectic_rank": 53,
+          "projective_dimension": 105,
+          "image_rank": 4,
+          "nilpotence_order": 4
+        },
+        {
+          "symplectic_rank": 54,
+          "projective_dimension": 107,
+          "image_rank": 4,
+          "nilpotence_order": 4
+        },
+        {
+          "symplectic_rank": 55,
+          "projective_dimension": 109,
+          "image_rank": 4,
+          "nilpotence_order": 4
+        },
+        {
+          "symplectic_rank": 56,
+          "projective_dimension": 111,
+          "image_rank": 4,
+          "nilpotence_order": 4
+        },
+        {
+          "symplectic_rank": 57,
+          "projective_dimension": 113,
+          "image_rank": 4,
+          "nilpotence_order": 4
+        },
+        {
+          "symplectic_rank": 58,
+          "projective_dimension": 115,
+          "image_rank": 4,
+          "nilpotence_order": 4
+        },
+        {
+          "symplectic_rank": 59,
+          "projective_dimension": 117,
+          "image_rank": 4,
+          "nilpotence_order": 4
+        },
+        {
+          "symplectic_rank": 60,
+          "projective_dimension": 119,
+          "image_rank": 4,
+          "nilpotence_order": 4
+        },
+        {
+          "symplectic_rank": 61,
+          "projective_dimension": 121,
+          "image_rank": 4,
+          "nilpotence_order": 4
+        },
+        {
+          "symplectic_rank": 62,
+          "projective_dimension": 123,
+          "image_rank": 4,
+          "nilpotence_order": 4
+        },
+        {
+          "symplectic_rank": 63,
+          "projective_dimension": 125,
+          "image_rank": 4,
+          "nilpotence_order": 4
+        },
+        {
+          "symplectic_rank": 64,
+          "projective_dimension": 127,
+          "image_rank": 4,
+          "nilpotence_order": 4
+        }
+      ]
+    }
+  ],
+  "supersingular_elliptic_curve": "y^2+y=x^3 over F2",
+  "independent_height_two_checks": [
+    {
+      "projective_dimension": 1,
+      "image_rank": 1
+    },
+    {
+      "projective_dimension": 3,
+      "image_rank": 1
+    },
+    {
+      "projective_dimension": 5,
+      "image_rank": 2
+    },
+    {
+      "projective_dimension": 7,
+      "image_rank": 2
+    },
+    {
+      "projective_dimension": 9,
+      "image_rank": 3
+    },
+    {
+      "projective_dimension": 11,
+      "image_rank": 3
+    },
+    {
+      "projective_dimension": 13,
+      "image_rank": 4
+    },
+    {
+      "projective_dimension": 15,
+      "image_rank": 4
+    },
+    {
+      "projective_dimension": 17,
+      "image_rank": 5
+    },
+    {
+      "projective_dimension": 19,
+      "image_rank": 5
+    },
+    {
+      "projective_dimension": 21,
+      "image_rank": 6
+    },
+    {
+      "projective_dimension": 23,
+      "image_rank": 6
+    },
+    {
+      "projective_dimension": 25,
+      "image_rank": 7
+    },
+    {
+      "projective_dimension": 27,
+      "image_rank": 7
+    },
+    {
+      "projective_dimension": 29,
+      "image_rank": 8
+    },
+    {
+      "projective_dimension": 31,
+      "image_rank": 8
+    },
+    {
+      "projective_dimension": 33,
+      "image_rank": 9
+    },
+    {
+      "projective_dimension": 35,
+      "image_rank": 9
+    },
+    {
+      "projective_dimension": 37,
+      "image_rank": 10
+    },
+    {
+      "projective_dimension": 39,
+      "image_rank": 10
+    },
+    {
+      "projective_dimension": 41,
+      "image_rank": 11
+    },
+    {
+      "projective_dimension": 43,
+      "image_rank": 11
+    },
+    {
+      "projective_dimension": 45,
+      "image_rank": 12
+    },
+    {
+      "projective_dimension": 47,
+      "image_rank": 12
+    },
+    {
+      "projective_dimension": 49,
+      "image_rank": 13
+    },
+    {
+      "projective_dimension": 51,
+      "image_rank": 13
+    },
+    {
+      "projective_dimension": 53,
+      "image_rank": 14
+    },
+    {
+      "projective_dimension": 55,
+      "image_rank": 14
+    },
+    {
+      "projective_dimension": 57,
+      "image_rank": 15
+    },
+    {
+      "projective_dimension": 59,
+      "image_rank": 15
+    },
+    {
+      "projective_dimension": 61,
+      "image_rank": 16
+    },
+    {
+      "projective_dimension": 63,
+      "image_rank": 16
+    },
+    {
+      "projective_dimension": 65,
+      "image_rank": 17
+    },
+    {
+      "projective_dimension": 67,
+      "image_rank": 17
+    },
+    {
+      "projective_dimension": 69,
+      "image_rank": 18
+    },
+    {
+      "projective_dimension": 71,
+      "image_rank": 18
+    },
+    {
+      "projective_dimension": 73,
+      "image_rank": 19
+    },
+    {
+      "projective_dimension": 75,
+      "image_rank": 19
+    },
+    {
+      "projective_dimension": 77,
+      "image_rank": 20
+    },
+    {
+      "projective_dimension": 79,
+      "image_rank": 20
+    },
+    {
+      "projective_dimension": 81,
+      "image_rank": 21
+    },
+    {
+      "projective_dimension": 83,
+      "image_rank": 21
+    },
+    {
+      "projective_dimension": 85,
+      "image_rank": 22
+    },
+    {
+      "projective_dimension": 87,
+      "image_rank": 22
+    },
+    {
+      "projective_dimension": 89,
+      "image_rank": 23
+    },
+    {
+      "projective_dimension": 91,
+      "image_rank": 23
+    },
+    {
+      "projective_dimension": 93,
+      "image_rank": 24
+    },
+    {
+      "projective_dimension": 95,
+      "image_rank": 24
+    },
+    {
+      "projective_dimension": 97,
+      "image_rank": 25
+    },
+    {
+      "projective_dimension": 99,
+      "image_rank": 25
+    },
+    {
+      "projective_dimension": 101,
+      "image_rank": 26
+    },
+    {
+      "projective_dimension": 103,
+      "image_rank": 26
+    },
+    {
+      "projective_dimension": 105,
+      "image_rank": 27
+    },
+    {
+      "projective_dimension": 107,
+      "image_rank": 27
+    },
+    {
+      "projective_dimension": 109,
+      "image_rank": 28
+    },
+    {
+      "projective_dimension": 111,
+      "image_rank": 28
+    },
+    {
+      "projective_dimension": 113,
+      "image_rank": 29
+    },
+    {
+      "projective_dimension": 115,
+      "image_rank": 29
+    },
+    {
+      "projective_dimension": 117,
+      "image_rank": 30
+    },
+    {
+      "projective_dimension": 119,
+      "image_rank": 30
+    },
+    {
+      "projective_dimension": 121,
+      "image_rank": 31
+    },
+    {
+      "projective_dimension": 123,
+      "image_rank": 31
+    },
+    {
+      "projective_dimension": 125,
+      "image_rank": 32
+    },
+    {
+      "projective_dimension": 127,
+      "image_rank": 32
+    }
+  ],
+  "scope": "Finite formal-series corroboration of the written valuation/nilpotence proof. The general theorem assumes a unit leading coefficient of the 2-series at degree 2^h.",
+  "source_sha256": {
+    "experiments/other_theories_height_pilot.py": "11aba9ebe67d1c089603368feada647a6a7b0d0201b749b3b2f556fcd8a84283"
+  }
+}

@@ -1,0 +1,330 @@
+{
+  "result": "passed",
+  "date": "2026-10-23",
+  "sage_version": "9.5",
+  "unimodular_pairings": [
+    {
+      "m": 1,
+      "determinant": 1,
+      "factorization_verified": true
+    },
+    {
+      "m": 2,
+      "determinant": 1,
+      "factorization_verified": true
+    },
+    {
+      "m": 3,
+      "determinant": 1,
+      "factorization_verified": true
+    },
+    {
+      "m": 4,
+      "determinant": 1,
+      "factorization_verified": true
+    },
+    {
+      "m": 5,
+      "determinant": 1,
+      "factorization_verified": true
+    },
+    {
+      "m": 6,
+      "determinant": 1,
+      "factorization_verified": true
+    },
+    {
+      "m": 7,
+      "determinant": 1,
+      "factorization_verified": true
+    },
+    {
+      "m": 8,
+      "determinant": 1,
+      "factorization_verified": true
+    },
+    {
+      "m": 9,
+      "determinant": 1,
+      "factorization_verified": true
+    },
+    {
+      "m": 10,
+      "determinant": 1,
+      "factorization_verified": true
+    },
+    {
+      "m": 11,
+      "determinant": 1,
+      "factorization_verified": true
+    },
+    {
+      "m": 12,
+      "determinant": 1,
+      "factorization_verified": true
+    },
+    {
+      "m": 13,
+      "determinant": 1,
+      "factorization_verified": true
+    },
+    {
+      "m": 14,
+      "determinant": 1,
+      "factorization_verified": true
+    },
+    {
+      "m": 15,
+      "determinant": 1,
+      "factorization_verified": true
+    },
+    {
+      "m": 16,
+      "determinant": 1,
+      "factorization_verified": true
+    },
+    {
+      "m": 17,
+      "determinant": 1,
+      "factorization_verified": true
+    },
+    {
+      "m": 18,
+      "determinant": 1,
+      "factorization_verified": true
+    },
+    {
+      "m": 19,
+      "determinant": 1,
+      "factorization_verified": true
+    },
+    {
+      "m": 20,
+      "determinant": 1,
+      "factorization_verified": true
+    }
+  ],
+  "cyclotomic_target_checks": [
+    {
+      "m": 1,
+      "equal_external_pairs": 0
+    },
+    {
+      "m": 2,
+      "equal_external_pairs": 0
+    },
+    {
+      "m": 3,
+      "equal_external_pairs": 0
+    },
+    {
+      "m": 4,
+      "equal_external_pairs": 0
+    },
+    {
+      "m": 5,
+      "equal_external_pairs": 0
+    },
+    {
+      "m": 6,
+      "equal_external_pairs": 0
+    },
+    {
+      "m": 7,
+      "equal_external_pairs": 0
+    },
+    {
+      "m": 8,
+      "equal_external_pairs": 0
+    },
+    {
+      "m": 9,
+      "equal_external_pairs": 0
+    },
+    {
+      "m": 10,
+      "equal_external_pairs": 0
+    },
+    {
+      "m": 11,
+      "equal_external_pairs": 0
+    },
+    {
+      "m": 12,
+      "equal_external_pairs": 0
+    },
+    {
+      "m": 13,
+      "equal_external_pairs": 0
+    },
+    {
+      "m": 14,
+      "equal_external_pairs": 0
+    },
+    {
+      "m": 15,
+      "equal_external_pairs": 0
+    },
+    {
+      "m": 16,
+      "equal_external_pairs": 0
+    },
+    {
+      "m": 17,
+      "equal_external_pairs": 0
+    },
+    {
+      "m": 18,
+      "equal_external_pairs": 0
+    },
+    {
+      "m": 19,
+      "equal_external_pairs": 0
+    },
+    {
+      "m": 20,
+      "equal_external_pairs": 0
+    },
+    {
+      "m": 21,
+      "equal_external_pairs": 0
+    },
+    {
+      "m": 22,
+      "equal_external_pairs": 0
+    },
+    {
+      "m": 23,
+      "equal_external_pairs": 0
+    },
+    {
+      "m": 24,
+      "equal_external_pairs": 0
+    },
+    {
+      "m": 25,
+      "equal_external_pairs": 0
+    },
+    {
+      "m": 26,
+      "equal_external_pairs": 0
+    },
+    {
+      "m": 27,
+      "equal_external_pairs": 0
+    },
+    {
+      "m": 28,
+      "equal_external_pairs": 0
+    },
+    {
+      "m": 29,
+      "equal_external_pairs": 0
+    },
+    {
+      "m": 30,
+      "equal_external_pairs": 0
+    },
+    {
+      "m": 31,
+      "equal_external_pairs": 0
+    },
+    {
+      "m": 32,
+      "equal_external_pairs": 0
+    },
+    {
+      "m": 33,
+      "equal_external_pairs": 0
+    },
+    {
+      "m": 34,
+      "equal_external_pairs": 0
+    },
+    {
+      "m": 35,
+      "equal_external_pairs": 0
+    },
+    {
+      "m": 36,
+      "equal_external_pairs": 0
+    },
+    {
+      "m": 37,
+      "equal_external_pairs": 0
+    },
+    {
+      "m": 38,
+      "equal_external_pairs": 0
+    },
+    {
+      "m": 39,
+      "equal_external_pairs": 0
+    },
+    {
+      "m": 40,
+      "equal_external_pairs": 0
+    }
+  ],
+  "full_differential_checks": [
+    {
+      "m": 1,
+      "target_centralizer_dimension": 4,
+      "component_dimension": 2,
+      "differential_rank": 8,
+      "ambient_dimension": 10
+    },
+    {
+      "m": 2,
+      "target_centralizer_dimension": 12,
+      "component_dimension": 8,
+      "differential_rank": 28,
+      "ambient_dimension": 36
+    },
+    {
+      "m": 3,
+      "target_centralizer_dimension": 24,
+      "component_dimension": 18,
+      "differential_rank": 60,
+      "ambient_dimension": 78
+    },
+    {
+      "m": 4,
+      "target_centralizer_dimension": 40,
+      "component_dimension": 32,
+      "differential_rank": 104,
+      "ambient_dimension": 136
+    }
+  ],
+  "actual_primitive_trace_checks": [
+    {
+      "m": 1,
+      "primitive_dimension": 5,
+      "pairings": 100,
+      "rank": 8
+    },
+    {
+      "m": 2,
+      "primitive_dimension": 42,
+      "pairings": 1296,
+      "rank": 28
+    }
+  ],
+  "rank_one_singular_model": {
+    "radical_verified": true,
+    "nilpotence_order": 3,
+    "nonzero_socle_verified": true,
+    "dimension": 2,
+    "symbolic_primitive_trace_pairings": 10
+  },
+  "arbitrary_rank_component_proof": "Written separately; finite checks are corroboration.",
+  "global_reduced_germ_conjecture_proved": false,
+  "target_noncollision_all_rank_proved": false,
+  "scope": "Exact rational primitive traces and polynomial derivatives; cyclotomic target comparisons; exact singular ideal. Shared Sage and wedge helpers, no external audit or novelty claim.",
+  "source_sha256": {
+    "SYMPLECTIC_FIBER_COMPONENT.md": "74c2fbd69bba8896482be2a1feb913842873b2a921458b0cc63e079c697e2b69",
+    "tools/verify_symplectic_fiber_component.py": "e2de830893c03ebb33f8c192f74a55e346ff2d745149d0e71b1ce9e9829b3886",
+    "tools/verify_symplectic_centralizer_realization.py": "fbaf9477120867e1168914e62b1139e8c578197c95363253a1b3dd3e77fd1fff",
+    "tools/verify_type_a_character_degeneration.py": "446748b54d7a71aaed000610d0236389e820d443c155a406acbb0526b78dbf87"
+  }
+}

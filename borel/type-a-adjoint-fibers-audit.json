@@ -1,0 +1,184 @@
+{
+  "result": "passed",
+  "date": "2026-10-23",
+  "uses_Sage": false,
+  "original_adjoint_matrix_checks": [
+    {
+      "N": 3,
+      "representation_dimension": 8,
+      "double_blocks": 0,
+      "singletons": 3,
+      "nonsemisimple_source": false,
+      "target_eigenvalues": [
+        "133/72",
+        "169/54",
+        "-1075/216"
+      ],
+      "expected_tangent_dimension": 0,
+      "original_matrix_trace_pairings": 8,
+      "original_matrix_differential_pairings": 64,
+      "full_differential_rank": 8,
+      "fiber_tangent_dimension": 0,
+      "source_centralizer_dimension": 2,
+      "determinant_one": true,
+      "independent_original_representation": true
+    },
+    {
+      "N": 4,
+      "representation_dimension": 15,
+      "double_blocks": 0,
+      "singletons": 4,
+      "nonsemisimple_source": false,
+      "target_eigenvalues": [
+        "2191/384",
+        "5201/576",
+        "9415/768",
+        "-62195/2304"
+      ],
+      "expected_tangent_dimension": 0,
+      "original_matrix_trace_pairings": 15,
+      "original_matrix_differential_pairings": 225,
+      "full_differential_rank": 15,
+      "fiber_tangent_dimension": 0,
+      "source_centralizer_dimension": 3,
+      "determinant_one": true,
+      "independent_original_representation": true
+    },
+    {
+      "N": 5,
+      "representation_dimension": 24,
+      "double_blocks": 0,
+      "singletons": 5,
+      "nonsemisimple_source": false,
+      "target_eigenvalues": [
+        "3769/160",
+        "25861/720",
+        "77061/1600",
+        "120723/2000",
+        "-12095923/72000"
+      ],
+      "expected_tangent_dimension": 0,
+      "original_matrix_trace_pairings": 24,
+      "original_matrix_differential_pairings": 576,
+      "full_differential_rank": 24,
+      "fiber_tangent_dimension": 0,
+      "source_centralizer_dimension": 4,
+      "determinant_one": true,
+      "independent_original_representation": true
+    },
+    {
+      "N": 3,
+      "representation_dimension": 8,
+      "double_blocks": 1,
+      "singletons": 1,
+      "nonsemisimple_source": false,
+      "target_eigenvalues": [
+        "-1365/512",
+        "1365/256"
+      ],
+      "expected_tangent_dimension": 2,
+      "original_matrix_trace_pairings": 8,
+      "original_matrix_differential_pairings": 64,
+      "full_differential_rank": 6,
+      "fiber_tangent_dimension": 2,
+      "source_centralizer_dimension": 2,
+      "determinant_one": true,
+      "independent_original_representation": true
+    },
+    {
+      "N": 4,
+      "representation_dimension": 15,
+      "double_blocks": 1,
+      "singletons": 2,
+      "nonsemisimple_source": false,
+      "target_eigenvalues": [
+        "-1077375/32768",
+        "4875/1024",
+        "999375/16384"
+      ],
+      "expected_tangent_dimension": 2,
+      "original_matrix_trace_pairings": 15,
+      "original_matrix_differential_pairings": 225,
+      "full_differential_rank": 13,
+      "fiber_tangent_dimension": 2,
+      "source_centralizer_dimension": 3,
+      "determinant_one": true,
+      "independent_original_representation": true
+    },
+    {
+      "N": 5,
+      "representation_dimension": 24,
+      "double_blocks": 1,
+      "singletons": 3,
+      "nonsemisimple_source": false,
+      "target_eigenvalues": [
+        "-30441179/32768",
+        "12021/512",
+        "4007/128",
+        "29543611/16384"
+      ],
+      "expected_tangent_dimension": 2,
+      "original_matrix_trace_pairings": 24,
+      "original_matrix_differential_pairings": 576,
+      "full_differential_rank": 22,
+      "fiber_tangent_dimension": 2,
+      "source_centralizer_dimension": 4,
+      "determinant_one": true,
+      "independent_original_representation": true
+    },
+    {
+      "N": 5,
+      "representation_dimension": 24,
+      "double_blocks": 2,
+      "singletons": 1,
+      "nonsemisimple_source": false,
+      "target_eigenvalues": [
+        "3069/640",
+        "-1244991/40960",
+        "209715/4096"
+      ],
+      "expected_tangent_dimension": 4,
+      "original_matrix_trace_pairings": 24,
+      "original_matrix_differential_pairings": 576,
+      "full_differential_rank": 20,
+      "fiber_tangent_dimension": 4,
+      "source_centralizer_dimension": 4,
+      "determinant_one": true,
+      "independent_original_representation": true
+    },
+    {
+      "N": 5,
+      "representation_dimension": 24,
+      "double_blocks": 2,
+      "singletons": 1,
+      "nonsemisimple_source": true,
+      "target_eigenvalues": [
+        "1023/320",
+        "-1179519/40960",
+        "209715/4096"
+      ],
+      "expected_tangent_dimension": 4,
+      "original_matrix_trace_pairings": 24,
+      "original_matrix_differential_pairings": 576,
+      "full_differential_rank": 20,
+      "fiber_tangent_dimension": 4,
+      "source_centralizer_dimension": 4,
+      "determinant_one": true,
+      "independent_original_representation": true
+    }
+  ],
+  "trace_form_pairings": 865,
+  "trace_pairings": 142,
+  "differential_pairings": 2882,
+  "regular_zero_fiber_control": {
+    "N": 4,
+    "centralizer_dimension": 3,
+    "target_centralizer": "SL4; not a proper Levi",
+    "adjoint_not_fundamental": true
+  },
+  "scope": "Exact original Ad/ad matrices and full group differentials at eight rational points, including one regular nonsemisimple source. Corroborates the separate all-rank proofs, not a numerical extrapolation.",
+  "source_sha256": {
+    "QUADRATIC_BRANCHING_FIBERS.md": "8cfaf1048c51b42778b4be668f7d79166424dce3cac4956511740e3582d4ae3a",
+    "tools/audit_type_a_adjoint_fibers.py": "668b88e48365b51aa2cd76638af733a09de5c8197d5e71b22477a8bab8352bf2"
+  }
+}

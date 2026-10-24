@@ -13,16 +13,18 @@ question rather than become the default endpoint of the project.
 
 The [research proposal](../articles/research-program-proposal/README.md) now
 includes extension track E. The following projects are adopted research
-directions, not implemented backends or new general theorems.
+directions. The [October exploration](OTHER_THEORIES_PROGRAM.md) now
+contains precise deductions and research prototypes; production backends
+remain a separate implementation step. Spin parity is shelved.
 
 | Project | First target | Dependency or limitation |
 | --- | --- | --- |
 | E1: equivariant cohomology | First literal-source pilot complete: SL4/P1 has a degree-five specialization kernel Z/2 | General criteria for the kernel and a generic backend remain open; automatic faithful specialization is false |
-| E2: K-theory | Restricted associated-bundle image and a filtered comparison with ordinary cohomology | The literal source lies in R(L); Springer polynomial grading need not equal the augmentation/gamma filtration |
-| E3: oriented cohomology | A compatible source and specialization theorem, starting with connective K-theory | Use a formal group algebra and explicit coefficients/completion; additive generation is not a theorem for every formal group law |
-| E4: quantum cohomology | A multiplicative lift with q=0 recovery, then its kernel/image | Define the source and generator lifts; ordinary quotient relations generally deform |
+| E2: K-theory | Common-kernel/support-filtration theorem, complete SL3 formulas and independent G2 calculations | Package the actual embedded images; total Smith factors can change and are not gamma-filtration factors |
+| E3: oriented cohomology | Specified MU/CK lift, universal determinant, symplectic height and largest-factor formulas | Higher Fitting ideals and modular specialization kernels remain; no claim about every formal-group source construction |
+| E4: quantum cohomology | Complete flat defining SL/Sp projective lifts with faithful q=0 recovery | General partial flags need source/lift choices; ordinary quotient relations generally deform |
 | E5: affine Grassmannians | Transport an E4 image through the localized Peterson correspondence | The target uses Pontryagin homology; record quotient and localization losses |
-| E6: affine/Kac–Moody flags | Degree-bounded nil-Hecke calculations and a separate definition/obstruction for a Springer analogue | Published flag-cohomology operators extend; ordinary finite-dimensional faithful trace projection does not |
+| E6: affine/Kac–Moody flags | All-rank A/C divisor contents, evaluation/level images and a pointwise loop morphism by base change | More loop generators, central/rotation directions and affine-flag source/descent remain; raw loop maps do not require an infinite matrix trace |
 
 Published starting points include
 [equivariant oriented characteristic maps](https://arxiv.org/abs/1409.7111),
@@ -34,7 +36,12 @@ and [Kostant–Kumar's nil-Hecke construction](https://doi.org/10.1073/pnas.83.6
 The prospective contribution is the representation-dependent image theory,
 not the ambient frameworks. Exact literature comparisons remain necessary.
 
-Activate E1 first, followed by E2/E3 and then E4/E5. E6's characteristic-map
+The next implementation is E2/E3: primitive representation data and a
+K/CK image API, beginning with the complete SL3 and G2 benchmarks. The
+equivariant K determinant theorem now connects the old E6/E7 quotient
+coordinates and Cayley root factors to this program. Higher Fitting data
+are the next mathematical question there; rederiving the zeroth
+determinant would repeat a completed deduction. E6's characteristic-map
 calculations can proceed independently of its foundational Springer question.
 The ledger preserves OPEN-14/15 and adds OPEN-17 through OPEN-20 for the
 new questions. Other isogeny forms and reductive groups remain OPEN-10.
@@ -204,8 +211,9 @@ start with a Grassmannian family and published
 [quantum Pieri rules](https://arxiv.org/abs/0809.4966).
 The ordinary Springer-image formulas do not automatically define a quantum
 Springer map or prove corresponding integral image results.
-Track E4 now specifies a source/lift/specialization milestone before those
-image claims. Once a lift exists, E5 asks for its image under the published
+The [projective benchmark](OTHER_THEORIES_QUANTUM.md) now completes that
+source/lift/specialization milestone for defining SL and Sp families.
+Other partial flags still need it. Once a lift exists, E5 asks for its image under the published
 localized Peterson correspondence, with the quotient and inverted classes
 explicit. This route does not require first inventing a trace Springer
 morphism on an infinite-dimensional group.

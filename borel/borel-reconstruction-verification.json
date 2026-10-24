@@ -1,0 +1,40 @@
+{
+  "result": "passed",
+  "sage_version": "9.5",
+  "test_methods": 8,
+  "ready_backends": [
+    "SL3",
+    "Sp4"
+  ],
+  "characteristic": 0,
+  "symbolic_full_representation_projection_cases": 9,
+  "low_level_additional_defining_matrix_checks": [
+    "SL2",
+    "SL4"
+  ],
+  "independently_built_representations": [
+    "defining",
+    "dual",
+    "symmetric square",
+    "exterior square",
+    "adjoint",
+    "direct sum"
+  ],
+  "independent_arithmetic": "Different constructions inside Sage; not a separate CAS or external review.",
+  "representation_matrices_used_by_runtime": false,
+  "regular_extension_checked": true,
+  "changed_collapse_loci_checked": true,
+  "printed_Sp4_omega2_determinant_verified": true,
+  "general_recurrence_proof": "BOREL_RECONSTRUCTION.md",
+  "scope": "Uniform characteristic-zero recurrence for consistent finite root data and a genuine equivariant regular map. Ready coordinate adapters SL3/Sp4. No arbitrary-character positivity certification or general singular-fiber classification.",
+  "novelty_claim": false,
+  "source_sha256": {
+    "src/sage_borel/borel_reconstruction.py": "2a85bf2b353d191055f7a1123e83a5a1d79d58211414d7e8b1170e33a1639348",
+    "src/sage_borel/borel_coordinates.py": "126b35b80a871636fb282d507d92a5121330a43cc69ffa7c33d81f32bb603882",
+    "src/sage_borel/__init__.py": "dd678287ede5d2bbfd72619401054b523f5624fba701c121849e03ab99d49935",
+    "tests/test_borel_reconstruction.py": "722d3a640f6799e5c46d941a7d26827b6757fc2111bcd661d08f329bf2d9b722",
+    "tests/test_borel_coordinates.py": "29abe8e6de127fc7115ea3279e1c7bcec708e978895ba40c04fef883c817f5fd",
+    "BOREL_RECONSTRUCTION.md": "d8304f00ff8655c6f2a4ae78adaf8bd3d37aac447e08d6020d0c865fe2559b66",
+    "tools/verify_borel_reconstruction.py": "039aab59bbe082f224b56d0fed8803fd4727396500d96e879251031cbd8f6850"
+  }
+}

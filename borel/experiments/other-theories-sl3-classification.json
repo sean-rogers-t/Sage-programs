@@ -1,0 +1,1250 @@
+{
+  "result": "passed",
+  "date": "2026-10-22",
+  "cases": [
+    {
+      "highest_weights": [
+        [
+          0,
+          1
+        ]
+      ],
+      "dimension": 3,
+      "source_form": "Q",
+      "source_scale": 1,
+      "trace_index": "1",
+      "cubic_index": "-1",
+      "correction_parameter": 1,
+      "gcd_parameter": 1,
+      "full_flag_smith_factors": [
+        1,
+        1,
+        3,
+        3,
+        3,
+        3
+      ],
+      "projective_smith_factors": [
+        1,
+        3,
+        3
+      ],
+      "actual_character_Demazure_matrices_agree": true
+    },
+    {
+      "highest_weights": [
+        [
+          0,
+          2
+        ]
+      ],
+      "dimension": 6,
+      "source_form": "Q",
+      "source_scale": 5,
+      "trace_index": "5",
+      "cubic_index": "-7",
+      "correction_parameter": 6,
+      "gcd_parameter": 1,
+      "full_flag_smith_factors": [
+        1,
+        1,
+        3,
+        375,
+        375,
+        375
+      ],
+      "projective_smith_factors": [
+        1,
+        3,
+        375
+      ],
+      "actual_character_Demazure_matrices_agree": true
+    },
+    {
+      "highest_weights": [
+        [
+          0,
+          3
+        ]
+      ],
+      "dimension": 10,
+      "source_form": "P",
+      "source_scale": 15,
+      "trace_index": "15",
+      "cubic_index": "-27",
+      "correction_parameter": 21,
+      "gcd_parameter": 3,
+      "full_flag_smith_factors": [
+        1,
+        3,
+        3,
+        1125,
+        1125,
+        3375
+      ],
+      "projective_smith_factors": [
+        1,
+        3,
+        1125
+      ],
+      "actual_character_Demazure_matrices_agree": true
+    },
+    {
+      "highest_weights": [
+        [
+          0,
+          4
+        ]
+      ],
+      "dimension": 15,
+      "source_form": "Q",
+      "source_scale": 35,
+      "trace_index": "35",
+      "cubic_index": "-77",
+      "correction_parameter": 56,
+      "gcd_parameter": 7,
+      "full_flag_smith_factors": [
+        1,
+        7,
+        21,
+        18375,
+        18375,
+        128625
+      ],
+      "projective_smith_factors": [
+        1,
+        21,
+        18375
+      ],
+      "actual_character_Demazure_matrices_agree": true
+    },
+    {
+      "highest_weights": [
+        [
+          0,
+          5
+        ]
+      ],
+      "dimension": 21,
+      "source_form": "Q",
+      "source_scale": 70,
+      "trace_index": "70",
+      "cubic_index": "-182",
+      "correction_parameter": 126,
+      "gcd_parameter": 14,
+      "full_flag_smith_factors": [
+        1,
+        14,
+        42,
+        73500,
+        73500,
+        1029000
+      ],
+      "projective_smith_factors": [
+        1,
+        42,
+        73500
+      ],
+      "actual_character_Demazure_matrices_agree": true
+    },
+    {
+      "highest_weights": [
+        [
+          1,
+          0
+        ]
+      ],
+      "dimension": 3,
+      "source_form": "Q",
+      "source_scale": 1,
+      "trace_index": "1",
+      "cubic_index": "1",
+      "correction_parameter": 0,
+      "gcd_parameter": 1,
+      "full_flag_smith_factors": [
+        1,
+        1,
+        3,
+        3,
+        3,
+        3
+      ],
+      "projective_smith_factors": [
+        1,
+        3,
+        3
+      ],
+      "actual_character_Demazure_matrices_agree": true
+    },
+    {
+      "highest_weights": [
+        [
+          1,
+          1
+        ]
+      ],
+      "dimension": 8,
+      "source_form": "P",
+      "source_scale": 6,
+      "trace_index": "6",
+      "cubic_index": "0",
+      "correction_parameter": 3,
+      "gcd_parameter": 3,
+      "full_flag_smith_factors": [
+        1,
+        3,
+        3,
+        72,
+        72,
+        216
+      ],
+      "projective_smith_factors": [
+        1,
+        3,
+        72
+      ],
+      "actual_character_Demazure_matrices_agree": true
+    },
+    {
+      "highest_weights": [
+        [
+          1,
+          2
+        ]
+      ],
+      "dimension": 15,
+      "source_form": "Q",
+      "source_scale": 20,
+      "trace_index": "20",
+      "cubic_index": "-14",
+      "correction_parameter": 17,
+      "gcd_parameter": 1,
+      "full_flag_smith_factors": [
+        1,
+        1,
+        3,
+        24000,
+        24000,
+        24000
+      ],
+      "projective_smith_factors": [
+        1,
+        3,
+        24000
+      ],
+      "actual_character_Demazure_matrices_agree": true
+    },
+    {
+      "highest_weights": [
+        [
+          1,
+          3
+        ]
+      ],
+      "dimension": 24,
+      "source_form": "Q",
+      "source_scale": 50,
+      "trace_index": "50",
+      "cubic_index": "-64",
+      "correction_parameter": 57,
+      "gcd_parameter": 1,
+      "full_flag_smith_factors": [
+        1,
+        1,
+        3,
+        375000,
+        375000,
+        375000
+      ],
+      "projective_smith_factors": [
+        1,
+        3,
+        375000
+      ],
+      "actual_character_Demazure_matrices_agree": true
+    },
+    {
+      "highest_weights": [
+        [
+          1,
+          4
+        ]
+      ],
+      "dimension": 35,
+      "source_form": "P",
+      "source_scale": 105,
+      "trace_index": "105",
+      "cubic_index": "-189",
+      "correction_parameter": 147,
+      "gcd_parameter": 21,
+      "full_flag_smith_factors": [
+        1,
+        21,
+        21,
+        55125,
+        55125,
+        1157625
+      ],
+      "projective_smith_factors": [
+        1,
+        21,
+        55125
+      ],
+      "actual_character_Demazure_matrices_agree": true
+    },
+    {
+      "highest_weights": [
+        [
+          1,
+          5
+        ]
+      ],
+      "dimension": 48,
+      "source_form": "Q",
+      "source_scale": 196,
+      "trace_index": "196",
+      "cubic_index": "-448",
+      "correction_parameter": 322,
+      "gcd_parameter": 14,
+      "full_flag_smith_factors": [
+        1,
+        14,
+        42,
+        1613472,
+        1613472,
+        22588608
+      ],
+      "projective_smith_factors": [
+        1,
+        42,
+        1613472
+      ],
+      "actual_character_Demazure_matrices_agree": true
+    },
+    {
+      "highest_weights": [
+        [
+          2,
+          0
+        ]
+      ],
+      "dimension": 6,
+      "source_form": "Q",
+      "source_scale": 5,
+      "trace_index": "5",
+      "cubic_index": "7",
+      "correction_parameter": -1,
+      "gcd_parameter": 1,
+      "full_flag_smith_factors": [
+        1,
+        1,
+        3,
+        375,
+        375,
+        375
+      ],
+      "projective_smith_factors": [
+        1,
+        3,
+        375
+      ],
+      "actual_character_Demazure_matrices_agree": true
+    },
+    {
+      "highest_weights": [
+        [
+          2,
+          1
+        ]
+      ],
+      "dimension": 15,
+      "source_form": "Q",
+      "source_scale": 20,
+      "trace_index": "20",
+      "cubic_index": "14",
+      "correction_parameter": 3,
+      "gcd_parameter": 1,
+      "full_flag_smith_factors": [
+        1,
+        1,
+        3,
+        24000,
+        24000,
+        24000
+      ],
+      "projective_smith_factors": [
+        1,
+        3,
+        24000
+      ],
+      "actual_character_Demazure_matrices_agree": true
+    },
+    {
+      "highest_weights": [
+        [
+          2,
+          2
+        ]
+      ],
+      "dimension": 27,
+      "source_form": "P",
+      "source_scale": 54,
+      "trace_index": "54",
+      "cubic_index": "0",
+      "correction_parameter": 27,
+      "gcd_parameter": 27,
+      "full_flag_smith_factors": [
+        1,
+        27,
+        27,
+        5832,
+        5832,
+        157464
+      ],
+      "projective_smith_factors": [
+        1,
+        27,
+        5832
+      ],
+      "actual_character_Demazure_matrices_agree": true
+    },
+    {
+      "highest_weights": [
+        [
+          2,
+          3
+        ]
+      ],
+      "dimension": 42,
+      "source_form": "Q",
+      "source_scale": 119,
+      "trace_index": "119",
+      "cubic_index": "-77",
+      "correction_parameter": 98,
+      "gcd_parameter": 7,
+      "full_flag_smith_factors": [
+        1,
+        7,
+        21,
+        722211,
+        722211,
+        5055477
+      ],
+      "projective_smith_factors": [
+        1,
+        21,
+        722211
+      ],
+      "actual_character_Demazure_matrices_agree": true
+    },
+    {
+      "highest_weights": [
+        [
+          2,
+          4
+        ]
+      ],
+      "dimension": 60,
+      "source_form": "Q",
+      "source_scale": 230,
+      "trace_index": "230",
+      "cubic_index": "-286",
+      "correction_parameter": 258,
+      "gcd_parameter": 2,
+      "full_flag_smith_factors": [
+        1,
+        2,
+        6,
+        18250500,
+        18250500,
+        36501000
+      ],
+      "projective_smith_factors": [
+        1,
+        6,
+        18250500
+      ],
+      "actual_character_Demazure_matrices_agree": true
+    },
+    {
+      "highest_weights": [
+        [
+          2,
+          5
+        ]
+      ],
+      "dimension": 81,
+      "source_form": "P",
+      "source_scale": 405,
+      "trace_index": "405",
+      "cubic_index": "-729",
+      "correction_parameter": 567,
+      "gcd_parameter": 81,
+      "full_flag_smith_factors": [
+        1,
+        81,
+        81,
+        820125,
+        820125,
+        66430125
+      ],
+      "projective_smith_factors": [
+        1,
+        81,
+        820125
+      ],
+      "actual_character_Demazure_matrices_agree": true
+    },
+    {
+      "highest_weights": [
+        [
+          3,
+          0
+        ]
+      ],
+      "dimension": 10,
+      "source_form": "P",
+      "source_scale": 15,
+      "trace_index": "15",
+      "cubic_index": "27",
+      "correction_parameter": -6,
+      "gcd_parameter": 3,
+      "full_flag_smith_factors": [
+        1,
+        3,
+        3,
+        1125,
+        1125,
+        3375
+      ],
+      "projective_smith_factors": [
+        1,
+        3,
+        1125
+      ],
+      "actual_character_Demazure_matrices_agree": true
+    },
+    {
+      "highest_weights": [
+        [
+          3,
+          1
+        ]
+      ],
+      "dimension": 24,
+      "source_form": "Q",
+      "source_scale": 50,
+      "trace_index": "50",
+      "cubic_index": "64",
+      "correction_parameter": -7,
+      "gcd_parameter": 1,
+      "full_flag_smith_factors": [
+        1,
+        1,
+        3,
+        375000,
+        375000,
+        375000
+      ],
+      "projective_smith_factors": [
+        1,
+        3,
+        375000
+      ],
+      "actual_character_Demazure_matrices_agree": true
+    },
+    {
+      "highest_weights": [
+        [
+          3,
+          2
+        ]
+      ],
+      "dimension": 42,
+      "source_form": "Q",
+      "source_scale": 119,
+      "trace_index": "119",
+      "cubic_index": "77",
+      "correction_parameter": 21,
+      "gcd_parameter": 7,
+      "full_flag_smith_factors": [
+        1,
+        7,
+        21,
+        722211,
+        722211,
+        5055477
+      ],
+      "projective_smith_factors": [
+        1,
+        21,
+        722211
+      ],
+      "actual_character_Demazure_matrices_agree": true
+    },
+    {
+      "highest_weights": [
+        [
+          3,
+          3
+        ]
+      ],
+      "dimension": 64,
+      "source_form": "P",
+      "source_scale": 240,
+      "trace_index": "240",
+      "cubic_index": "0",
+      "correction_parameter": 120,
+      "gcd_parameter": 120,
+      "full_flag_smith_factors": [
+        1,
+        120,
+        120,
+        115200,
+        115200,
+        13824000
+      ],
+      "projective_smith_factors": [
+        1,
+        120,
+        115200
+      ],
+      "actual_character_Demazure_matrices_agree": true
+    },
+    {
+      "highest_weights": [
+        [
+          3,
+          4
+        ]
+      ],
+      "dimension": 90,
+      "source_form": "Q",
+      "source_scale": 435,
+      "trace_index": "435",
+      "cubic_index": "-273",
+      "correction_parameter": 354,
+      "gcd_parameter": 3,
+      "full_flag_smith_factors": [
+        1,
+        3,
+        9,
+        82312875,
+        82312875,
+        246938625
+      ],
+      "projective_smith_factors": [
+        1,
+        9,
+        82312875
+      ],
+      "actual_character_Demazure_matrices_agree": true
+    },
+    {
+      "highest_weights": [
+        [
+          3,
+          5
+        ]
+      ],
+      "dimension": 120,
+      "source_form": "Q",
+      "source_scale": 730,
+      "trace_index": "730",
+      "cubic_index": "-896",
+      "correction_parameter": 813,
+      "gcd_parameter": 1,
+      "full_flag_smith_factors": [
+        1,
+        1,
+        3,
+        1167051000,
+        1167051000,
+        1167051000
+      ],
+      "projective_smith_factors": [
+        1,
+        3,
+        1167051000
+      ],
+      "actual_character_Demazure_matrices_agree": true
+    },
+    {
+      "highest_weights": [
+        [
+          4,
+          0
+        ]
+      ],
+      "dimension": 15,
+      "source_form": "Q",
+      "source_scale": 35,
+      "trace_index": "35",
+      "cubic_index": "77",
+      "correction_parameter": -21,
+      "gcd_parameter": 7,
+      "full_flag_smith_factors": [
+        1,
+        7,
+        21,
+        18375,
+        18375,
+        128625
+      ],
+      "projective_smith_factors": [
+        1,
+        21,
+        18375
+      ],
+      "actual_character_Demazure_matrices_agree": true
+    },
+    {
+      "highest_weights": [
+        [
+          4,
+          1
+        ]
+      ],
+      "dimension": 35,
+      "source_form": "P",
+      "source_scale": 105,
+      "trace_index": "105",
+      "cubic_index": "189",
+      "correction_parameter": -42,
+      "gcd_parameter": 21,
+      "full_flag_smith_factors": [
+        1,
+        21,
+        21,
+        55125,
+        55125,
+        1157625
+      ],
+      "projective_smith_factors": [
+        1,
+        21,
+        55125
+      ],
+      "actual_character_Demazure_matrices_agree": true
+    },
+    {
+      "highest_weights": [
+        [
+          4,
+          2
+        ]
+      ],
+      "dimension": 60,
+      "source_form": "Q",
+      "source_scale": 230,
+      "trace_index": "230",
+      "cubic_index": "286",
+      "correction_parameter": -28,
+      "gcd_parameter": 2,
+      "full_flag_smith_factors": [
+        1,
+        2,
+        6,
+        18250500,
+        18250500,
+        36501000
+      ],
+      "projective_smith_factors": [
+        1,
+        6,
+        18250500
+      ],
+      "actual_character_Demazure_matrices_agree": true
+    },
+    {
+      "highest_weights": [
+        [
+          4,
+          3
+        ]
+      ],
+      "dimension": 90,
+      "source_form": "Q",
+      "source_scale": 435,
+      "trace_index": "435",
+      "cubic_index": "273",
+      "correction_parameter": 81,
+      "gcd_parameter": 3,
+      "full_flag_smith_factors": [
+        1,
+        3,
+        9,
+        82312875,
+        82312875,
+        246938625
+      ],
+      "projective_smith_factors": [
+        1,
+        9,
+        82312875
+      ],
+      "actual_character_Demazure_matrices_agree": true
+    },
+    {
+      "highest_weights": [
+        [
+          4,
+          4
+        ]
+      ],
+      "dimension": 125,
+      "source_form": "P",
+      "source_scale": 750,
+      "trace_index": "750",
+      "cubic_index": "0",
+      "correction_parameter": 375,
+      "gcd_parameter": 375,
+      "full_flag_smith_factors": [
+        1,
+        375,
+        375,
+        1125000,
+        1125000,
+        421875000
+      ],
+      "projective_smith_factors": [
+        1,
+        375,
+        1125000
+      ],
+      "actual_character_Demazure_matrices_agree": true
+    },
+    {
+      "highest_weights": [
+        [
+          4,
+          5
+        ]
+      ],
+      "dimension": 165,
+      "source_form": "Q",
+      "source_scale": 1210,
+      "trace_index": "1210",
+      "cubic_index": "-748",
+      "correction_parameter": 979,
+      "gcd_parameter": 11,
+      "full_flag_smith_factors": [
+        1,
+        11,
+        33,
+        483153000,
+        483153000,
+        5314683000
+      ],
+      "projective_smith_factors": [
+        1,
+        33,
+        483153000
+      ],
+      "actual_character_Demazure_matrices_agree": true
+    },
+    {
+      "highest_weights": [
+        [
+          5,
+          0
+        ]
+      ],
+      "dimension": 21,
+      "source_form": "Q",
+      "source_scale": 70,
+      "trace_index": "70",
+      "cubic_index": "182",
+      "correction_parameter": -56,
+      "gcd_parameter": 14,
+      "full_flag_smith_factors": [
+        1,
+        14,
+        42,
+        73500,
+        73500,
+        1029000
+      ],
+      "projective_smith_factors": [
+        1,
+        42,
+        73500
+      ],
+      "actual_character_Demazure_matrices_agree": true
+    },
+    {
+      "highest_weights": [
+        [
+          5,
+          1
+        ]
+      ],
+      "dimension": 48,
+      "source_form": "Q",
+      "source_scale": 196,
+      "trace_index": "196",
+      "cubic_index": "448",
+      "correction_parameter": -126,
+      "gcd_parameter": 14,
+      "full_flag_smith_factors": [
+        1,
+        14,
+        42,
+        1613472,
+        1613472,
+        22588608
+      ],
+      "projective_smith_factors": [
+        1,
+        42,
+        1613472
+      ],
+      "actual_character_Demazure_matrices_agree": true
+    },
+    {
+      "highest_weights": [
+        [
+          5,
+          2
+        ]
+      ],
+      "dimension": 81,
+      "source_form": "P",
+      "source_scale": 405,
+      "trace_index": "405",
+      "cubic_index": "729",
+      "correction_parameter": -162,
+      "gcd_parameter": 81,
+      "full_flag_smith_factors": [
+        1,
+        81,
+        81,
+        820125,
+        820125,
+        66430125
+      ],
+      "projective_smith_factors": [
+        1,
+        81,
+        820125
+      ],
+      "actual_character_Demazure_matrices_agree": true
+    },
+    {
+      "highest_weights": [
+        [
+          5,
+          3
+        ]
+      ],
+      "dimension": 120,
+      "source_form": "Q",
+      "source_scale": 730,
+      "trace_index": "730",
+      "cubic_index": "896",
+      "correction_parameter": -83,
+      "gcd_parameter": 1,
+      "full_flag_smith_factors": [
+        1,
+        1,
+        3,
+        1167051000,
+        1167051000,
+        1167051000
+      ],
+      "projective_smith_factors": [
+        1,
+        3,
+        1167051000
+      ],
+      "actual_character_Demazure_matrices_agree": true
+    },
+    {
+      "highest_weights": [
+        [
+          5,
+          4
+        ]
+      ],
+      "dimension": 165,
+      "source_form": "Q",
+      "source_scale": 1210,
+      "trace_index": "1210",
+      "cubic_index": "748",
+      "correction_parameter": 231,
+      "gcd_parameter": 11,
+      "full_flag_smith_factors": [
+        1,
+        11,
+        33,
+        483153000,
+        483153000,
+        5314683000
+      ],
+      "projective_smith_factors": [
+        1,
+        33,
+        483153000
+      ],
+      "actual_character_Demazure_matrices_agree": true
+    },
+    {
+      "highest_weights": [
+        [
+          5,
+          5
+        ]
+      ],
+      "dimension": 216,
+      "source_form": "P",
+      "source_scale": 1890,
+      "trace_index": "1890",
+      "cubic_index": "0",
+      "correction_parameter": 945,
+      "gcd_parameter": 945,
+      "full_flag_smith_factors": [
+        1,
+        945,
+        945,
+        7144200,
+        7144200,
+        6751269000
+      ],
+      "projective_smith_factors": [
+        1,
+        945,
+        7144200
+      ],
+      "actual_character_Demazure_matrices_agree": true
+    },
+    {
+      "highest_weights": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "dimension": 18,
+      "source_form": "Q",
+      "source_scale": 9,
+      "trace_index": "9",
+      "cubic_index": "11",
+      "correction_parameter": -1,
+      "gcd_parameter": 1,
+      "full_flag_smith_factors": [
+        1,
+        1,
+        3,
+        2187,
+        2187,
+        2187
+      ],
+      "projective_smith_factors": [
+        1,
+        3,
+        2187
+      ],
+      "actual_character_Demazure_matrices_agree": true
+    },
+    {
+      "highest_weights": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "dimension": 18,
+      "source_form": "Q",
+      "source_scale": 9,
+      "trace_index": "9",
+      "cubic_index": "-3",
+      "correction_parameter": 6,
+      "gcd_parameter": 3,
+      "full_flag_smith_factors": [
+        1,
+        3,
+        9,
+        729,
+        729,
+        2187
+      ],
+      "projective_smith_factors": [
+        1,
+        9,
+        729
+      ],
+      "actual_character_Demazure_matrices_agree": true
+    },
+    {
+      "highest_weights": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "dimension": 6,
+      "source_form": "Q",
+      "source_scale": 2,
+      "trace_index": "2",
+      "cubic_index": "0",
+      "correction_parameter": 1,
+      "gcd_parameter": 1,
+      "full_flag_smith_factors": [
+        1,
+        1,
+        3,
+        24,
+        24,
+        24
+      ],
+      "projective_smith_factors": [
+        1,
+        3,
+        24
+      ],
+      "actual_character_Demazure_matrices_agree": true
+    },
+    {
+      "highest_weights": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "dimension": 11,
+      "source_form": "Q",
+      "source_scale": 7,
+      "trace_index": "7",
+      "cubic_index": "1",
+      "correction_parameter": 3,
+      "gcd_parameter": 1,
+      "full_flag_smith_factors": [
+        1,
+        1,
+        3,
+        1029,
+        1029,
+        1029
+      ],
+      "projective_smith_factors": [
+        1,
+        3,
+        1029
+      ],
+      "actual_character_Demazure_matrices_agree": true
+    },
+    {
+      "highest_weights": [
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "dimension": 12,
+      "source_form": "Q",
+      "source_scale": 10,
+      "trace_index": "10",
+      "cubic_index": "0",
+      "correction_parameter": 5,
+      "gcd_parameter": 5,
+      "full_flag_smith_factors": [
+        1,
+        5,
+        15,
+        600,
+        600,
+        3000
+      ],
+      "projective_smith_factors": [
+        1,
+        15,
+        600
+      ],
+      "actual_character_Demazure_matrices_agree": true
+    },
+    {
+      "highest_weights": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "dimension": 16,
+      "source_form": "P",
+      "source_scale": 6,
+      "trace_index": "12",
+      "cubic_index": "0",
+      "correction_parameter": 3,
+      "gcd_parameter": 3,
+      "full_flag_smith_factors": [
+        1,
+        3,
+        3,
+        72,
+        72,
+        216
+      ],
+      "projective_smith_factors": [
+        1,
+        3,
+        72
+      ],
+      "actual_character_Demazure_matrices_agree": true
+    }
+  ],
+  "representation_cases": 41,
+  "proper_flag_images_checked": 123,
+  "scope": "Finite complete actual-character image checks corroborate the separately written all-representation SL3 proof; cubic indices come from moments independently of cotangent recursion.",
+  "source_sha256": {
+    "experiments/other_theories_sl3_classification.py": "13aa603978091a3c44521379fb591199170bb86e863835551f09b12a31b134bd",
+    "experiments/other_theories_k_pilot.py": "7affb322dc5cede152b334fed1fe10fae3767eee19fd0dbe8f3bd720151c6386"
+  }
+}

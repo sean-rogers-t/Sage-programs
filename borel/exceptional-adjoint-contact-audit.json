@@ -1,0 +1,77 @@
+{
+  "result": "passed",
+  "date": "2026-10-23",
+  "uses_Sage": false,
+  "independent_module_models": [
+    "SL2 symmetric cube",
+    "SL6 exterior cube",
+    "Sp6 primitive exterior cube",
+    "Spin12 signed half-spin weights",
+    "E7 minuscule Weyl orbit"
+  ],
+  "contact_gradings": [
+    {
+      "type": "G2",
+      "roots": 12,
+      "V_dimension": 4,
+      "all_graded_weights_reconstructed": true,
+      "trace_normalization": 16,
+      "cocharacter_cover_index": 2
+    },
+    {
+      "type": "F4",
+      "roots": 48,
+      "V_dimension": 14,
+      "all_graded_weights_reconstructed": true,
+      "trace_normalization": 36,
+      "cocharacter_cover_index": 2
+    },
+    {
+      "type": "E6",
+      "roots": 72,
+      "V_dimension": 20,
+      "all_graded_weights_reconstructed": true,
+      "trace_normalization": 48,
+      "cocharacter_cover_index": 2
+    },
+    {
+      "type": "E7",
+      "roots": 126,
+      "V_dimension": 32,
+      "all_graded_weights_reconstructed": true,
+      "trace_normalization": 72,
+      "cocharacter_cover_index": 2
+    },
+    {
+      "type": "E8",
+      "roots": 240,
+      "V_dimension": 56,
+      "all_graded_weights_reconstructed": true,
+      "trace_normalization": 120,
+      "cocharacter_cover_index": 2
+    }
+  ],
+  "E6_independent_point": {
+    "normalized_target_reconstructed": true,
+    "source_regular": true,
+    "Cartan_differential_rank": 4,
+    "root_direction_rank": 42,
+    "full_differential_rank": 46,
+    "kernel_dimension": 32,
+    "arithmetic": "exact Q(i,sqrt(3)); independently enumerated roots"
+  },
+  "controls": {
+    "nonreduced_residual_structure_preserved": true,
+    "G2_target_square_identity": true,
+    "nonreduced_control_is_actual_character": false
+  },
+  "shared_conventions": "Bourbaki numbering and standard contact module names; no Sage root or character arithmetic",
+  "all_exceptional_Levis_classified": false,
+  "literature_priority_claim": false,
+  "source_sha256": {
+    "EXCEPTIONAL_ADJOINT_CONTACT_FIBERS.md": "b091b15355cbd411736539ef60ea50361caa208ef210e4d4975432f5472084b4",
+    "tools/audit_exceptional_adjoint_contact.py": "228b327eaeddd32880ffb1caddb67240a950cbdd408d688a385a2e77250dde0b",
+    "tools/audit_affine_branching_certificates.py": "7d56ef1b5373f66a5e7c38d3c8d567ec4c27bfdda5bdd11ef60f54ee2f8da2a1",
+    "exceptional-adjoint-contact-verification.json": "fd0c53c1808738ed28f05db6263c68b3adfc779bcf5d24527fed21fa7d61dcf4"
+  }
+}

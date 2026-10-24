@@ -1,0 +1,29 @@
+{
+  "result": "passed",
+  "uses_Sage": false,
+  "checks": {
+    "E6_spectral_projectors_verified": true,
+    "E6_boundary_identity_exact": true,
+    "moving_eigenvalue_chain_rule_verified": true,
+    "fixed_x_derivative_is_insufficient": true,
+    "same_support_good_bad_control": true,
+    "persistent_collision_nilpotent_verified": true,
+    "active_chart_ideal_equality": true,
+    "repeated_semisimple_distinguished_from_Jordan": true,
+    "arbitrary_size_statement_is_written_proof_not_rank_sweep": true
+  },
+  "reductive_realization": {
+    "dimension": 36,
+    "Laurent_character_expanded_independently": true,
+    "trace_form_nondegenerate": true,
+    "central_target_symbolic": true,
+    "differential_rank": 2,
+    "group_is_simple": false
+  },
+  "simple_group_counterexample_claim": false,
+  "literature_priority_claim": false,
+  "source_sha256": {
+    "SPECTRAL_BRANCHING_FIBERS.md": "0adc75c50fccb3c50d2cec0cead8ee9beddbf6fb8ec994a8f1f1ba957d53101b",
+    "tools/audit_spectral_branching_fibers.py": "e52d6d3a39f588dab0700e4056a75ac472cf495086ddf8124e3cab87c98aea2d"
+  }
+}

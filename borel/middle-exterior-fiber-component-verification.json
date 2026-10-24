@@ -1,0 +1,176 @@
+{
+  "result": "passed",
+  "date": "2026-10-23",
+  "sage_version": "9.5",
+  "differential_checks": [
+    {
+      "m": 2,
+      "component_dimension": 2,
+      "tangent_dimension": 2,
+      "differential_rank": 13,
+      "target_centralizer_dimension": 5
+    },
+    {
+      "m": 3,
+      "component_dimension": 8,
+      "tangent_dimension": 9,
+      "differential_rank": 26,
+      "target_centralizer_dimension": 13
+    },
+    {
+      "m": 4,
+      "component_dimension": 12,
+      "tangent_dimension": 12,
+      "differential_rank": 51,
+      "target_centralizer_dimension": 19
+    },
+    {
+      "m": 5,
+      "component_dimension": 24,
+      "tangent_dimension": 25,
+      "differential_rank": 74,
+      "target_centralizer_dimension": 33
+    },
+    {
+      "m": 6,
+      "component_dimension": 30,
+      "tangent_dimension": 30,
+      "differential_rank": 113,
+      "target_centralizer_dimension": 41
+    }
+  ],
+  "independent_exterior_derivatives": [
+    {
+      "m": 2,
+      "exterior_dimension": 6,
+      "pairings": 225,
+      "rank": 13
+    },
+    {
+      "m": 3,
+      "exterior_dimension": 20,
+      "pairings": 1225,
+      "rank": 26
+    },
+    {
+      "m": 4,
+      "exterior_dimension": 70,
+      "pairings": 3969,
+      "rank": 51
+    }
+  ],
+  "exact_transverse_curve_checks": [
+    {
+      "m": 2,
+      "residual": "1 - s^4",
+      "order_at_one": 1,
+      "direct_exterior_trace_checked": true
+    },
+    {
+      "m": 3,
+      "residual": "1 - 2*s^3 + s^6",
+      "order_at_one": 2,
+      "direct_exterior_trace_checked": true
+    },
+    {
+      "m": 4,
+      "residual": "1 - s^8",
+      "order_at_one": 1,
+      "direct_exterior_trace_checked": false
+    },
+    {
+      "m": 5,
+      "residual": "1 - 2*s^5 + s^10",
+      "order_at_one": 2,
+      "direct_exterior_trace_checked": false
+    },
+    {
+      "m": 6,
+      "residual": "1 - s^12",
+      "order_at_one": 1,
+      "direct_exterior_trace_checked": false
+    },
+    {
+      "m": 7,
+      "residual": "1 - 2*s^7 + s^14",
+      "order_at_one": 2,
+      "direct_exterior_trace_checked": false
+    },
+    {
+      "m": 8,
+      "residual": "1 - s^16",
+      "order_at_one": 1,
+      "direct_exterior_trace_checked": false
+    }
+  ],
+  "cyclotomic_collision_checks": [
+    {
+      "m": 2,
+      "equal_pairs": 0
+    },
+    {
+      "m": 3,
+      "equal_pairs": 1
+    },
+    {
+      "m": 4,
+      "equal_pairs": 0
+    },
+    {
+      "m": 5,
+      "equal_pairs": 2
+    },
+    {
+      "m": 6,
+      "equal_pairs": 0
+    },
+    {
+      "m": 7,
+      "equal_pairs": 3
+    },
+    {
+      "m": 8,
+      "equal_pairs": 0
+    },
+    {
+      "m": 9,
+      "equal_pairs": 4
+    },
+    {
+      "m": 10,
+      "equal_pairs": 0
+    },
+    {
+      "m": 11,
+      "equal_pairs": 5
+    },
+    {
+      "m": 12,
+      "equal_pairs": 0
+    },
+    {
+      "m": 13,
+      "equal_pairs": 6
+    },
+    {
+      "m": 14,
+      "equal_pairs": 0
+    },
+    {
+      "m": 15,
+      "equal_pairs": 7
+    },
+    {
+      "m": 16,
+      "equal_pairs": 0
+    }
+  ],
+  "scheme_multiplicity_scope": "The double multiplicity uses the written local elimination proof; tangent ranks alone do not prove it.",
+  "scope": "Exact finite corroboration, original wedge traces versus polynomial differentiation, and exact curve identities. Separate arbitrary-rank local scheme proof; shared Sage arithmetic, no external audit or novelty claim.",
+  "source_sha256": {
+    "MIDDLE_EXTERIOR_FIBER_COMPONENT.md": "b7eeb554a5439c0df9aa0617e34d14edbe1fad26ecd788b54a57ebe90ac7864a",
+    "tools/verify_middle_exterior_fiber_component.py": "8646057c983799681b567729faa1e9cb1a373a73a411e6be1ade7ab2e9fc7174",
+    "tools/verify_irreducible_centralizer_realization.py": "def7fdf655827255fb14fa679f61af92f572f51e60ff35f14c63a0e11f047a9d",
+    "tools/verify_type_a_character_degeneration.py": "446748b54d7a71aaed000610d0236389e820d443c155a406acbb0526b78dbf87"
+  }
+}

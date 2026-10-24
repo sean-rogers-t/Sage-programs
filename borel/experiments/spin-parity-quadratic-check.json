@@ -1,0 +1,35 @@
+{
+  "result": "passed",
+  "date": "2026-10-22",
+  "cases": [
+    {
+      "rank": 3,
+      "first_failure_degree": 4
+    },
+    {
+      "rank": 4,
+      "first_failure_degree": null
+    },
+    {
+      "rank": 7,
+      "first_failure_degree": 11
+    },
+    {
+      "rank": 8,
+      "first_failure_degree": 16
+    },
+    {
+      "rank": 11,
+      "first_failure_degree": null
+    },
+    {
+      "rank": 12,
+      "first_failure_degree": 34
+    }
+  ],
+  "method": "Integral quadratic Schur-P straightening in squarefree special-class monomials; generate image by z and 2*tau_j; Hermite and derivative relation matrices",
+  "independence": "Does not use Schur-Q diagonal image lattices, one-box Pieri matrices, polynomial saturation or saved image bases. Shares Sage exact arithmetic and the classical integral Grassmannian presentation.",
+  "source_sha256": {
+    "experiments/check_spin_parity_quadratic.py": "ebf55995d582577c43d18765203770769db2b0cf0a468fd72b44cfaff4d71a81"
+  }
+}

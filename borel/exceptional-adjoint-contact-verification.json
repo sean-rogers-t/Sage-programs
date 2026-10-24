@@ -1,0 +1,5744 @@
+{
+  "result": "passed",
+  "date": "2026-10-23",
+  "sage_version": "9.5",
+  "contact_gradings": [
+    {
+      "type": "G2",
+      "omitted_node": 2,
+      "derived_type": "A1",
+      "derived_standard_nodes": [
+        1
+      ],
+      "grading_cocharacter": [
+        1,
+        2
+      ],
+      "V_highest": [
+        3
+      ],
+      "V_dimension": 4,
+      "trace_normalization": 16,
+      "central_cover_degree": 2,
+      "grades": {
+        "-2": [
+          {
+            "weight": [
+              0
+            ],
+            "multiplicity": 1
+          }
+        ],
+        "-1": [
+          {
+            "weight": [
+              -3
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              3
+            ],
+            "multiplicity": 1
+          }
+        ],
+        "0": [
+          {
+            "weight": [
+              -2
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0
+            ],
+            "multiplicity": 2
+          },
+          {
+            "weight": [
+              2
+            ],
+            "multiplicity": 1
+          }
+        ],
+        "1": [
+          {
+            "weight": [
+              -3
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              3
+            ],
+            "multiplicity": 1
+          }
+        ],
+        "2": [
+          {
+            "weight": [
+              0
+            ],
+            "multiplicity": 1
+          }
+        ]
+      }
+    },
+    {
+      "type": "F4",
+      "omitted_node": 1,
+      "derived_type": "C3",
+      "derived_standard_nodes": [
+        4,
+        3,
+        2
+      ],
+      "grading_cocharacter": [
+        2,
+        3,
+        2,
+        1
+      ],
+      "V_highest": [
+        0,
+        0,
+        1
+      ],
+      "V_dimension": 14,
+      "trace_normalization": 36,
+      "central_cover_degree": 2,
+      "grades": {
+        "-2": [
+          {
+            "weight": [
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          }
+        ],
+        "-1": [
+          {
+            "weight": [
+              -2,
+              0,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -2,
+              2,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -2,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -1,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              1,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              2,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              -1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              2,
+              -2,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              2,
+              0,
+              -1
+            ],
+            "multiplicity": 1
+          }
+        ],
+        "0": [
+          {
+            "weight": [
+              -2,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -2,
+              1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -2,
+              2,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              -1,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              0,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              1,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              2,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -2,
+              2
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 4
+          },
+          {
+            "weight": [
+              0,
+              1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              2,
+              -2
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              -2,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              -1,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              0,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              1,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              2,
+              -2,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              2,
+              -1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              2,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          }
+        ],
+        "1": [
+          {
+            "weight": [
+              -2,
+              0,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -2,
+              2,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -2,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -1,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              1,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              2,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              -1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              2,
+              -2,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              2,
+              0,
+              -1
+            ],
+            "multiplicity": 1
+          }
+        ],
+        "2": [
+          {
+            "weight": [
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          }
+        ]
+      }
+    },
+    {
+      "type": "E6",
+      "omitted_node": 2,
+      "derived_type": "A5",
+      "derived_standard_nodes": [
+        1,
+        3,
+        4,
+        5,
+        6
+      ],
+      "grading_cocharacter": [
+        1,
+        2,
+        2,
+        3,
+        2,
+        1
+      ],
+      "V_highest": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "V_dimension": 20,
+      "trace_normalization": 48,
+      "central_cover_degree": 2,
+      "grades": {
+        "-2": [
+          {
+            "weight": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          }
+        ],
+        "-1": [
+          {
+            "weight": [
+              -1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              0,
+              1,
+              -1,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              0,
+              1,
+              0,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              1,
+              -1,
+              0,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              1,
+              -1,
+              1,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              1,
+              0,
+              -1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -1,
+              0,
+              0,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -1,
+              0,
+              1,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -1,
+              1,
+              -1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              -1,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              1,
+              -1,
+              1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              1,
+              0,
+              -1,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              1,
+              0,
+              0,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              -1,
+              0,
+              1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              -1,
+              1,
+              -1,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              -1,
+              1,
+              0,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              0,
+              -1,
+              0,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              0,
+              -1,
+              1,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              0,
+              0,
+              -1,
+              0
+            ],
+            "multiplicity": 1
+          }
+        ],
+        "0": [
+          {
+            "weight": [
+              -2,
+              1,
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              -1,
+              1,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              0,
+              -1,
+              1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              0,
+              0,
+              -1,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              0,
+              0,
+              0,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              1,
+              0,
+              0,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              1,
+              0,
+              1,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              1,
+              1,
+              -1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              2,
+              -1,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -1,
+              1,
+              0,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -1,
+              1,
+              1,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -1,
+              2,
+              -1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              -1,
+              1,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              -1,
+              2,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              0,
+              -1,
+              2
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 6
+          },
+          {
+            "weight": [
+              0,
+              0,
+              0,
+              1,
+              -2
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              1,
+              -2,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              1,
+              -1,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              1,
+              -2,
+              1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              1,
+              -1,
+              -1,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              1,
+              -1,
+              0,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              -2,
+              1,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              -1,
+              -1,
+              1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              -1,
+              0,
+              -1,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              -1,
+              0,
+              0,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              0,
+              0,
+              0,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              0,
+              0,
+              1,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              0,
+              1,
+              -1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              1,
+              -1,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              2,
+              -1,
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          }
+        ],
+        "1": [
+          {
+            "weight": [
+              -1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              0,
+              1,
+              -1,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              0,
+              1,
+              0,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              1,
+              -1,
+              0,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              1,
+              -1,
+              1,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              1,
+              0,
+              -1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -1,
+              0,
+              0,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -1,
+              0,
+              1,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -1,
+              1,
+              -1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              -1,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              1,
+              -1,
+              1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              1,
+              0,
+              -1,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              1,
+              0,
+              0,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              -1,
+              0,
+              1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              -1,
+              1,
+              -1,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              -1,
+              1,
+              0,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              0,
+              -1,
+              0,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              0,
+              -1,
+              1,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              0,
+              0,
+              -1,
+              0
+            ],
+            "multiplicity": 1
+          }
+        ],
+        "2": [
+          {
+            "weight": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          }
+        ]
+      }
+    },
+    {
+      "type": "E7",
+      "omitted_node": 1,
+      "derived_type": "D6",
+      "derived_standard_nodes": [
+        7,
+        6,
+        5,
+        4,
+        2,
+        3
+      ],
+      "grading_cocharacter": [
+        2,
+        2,
+        3,
+        4,
+        3,
+        2,
+        1
+      ],
+      "V_highest": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "V_dimension": 32,
+      "trace_normalization": 72,
+      "central_cover_degree": 2,
+      "grades": {
+        "-2": [
+          {
+            "weight": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          }
+        ],
+        "-1": [
+          {
+            "weight": [
+              -1,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              0,
+              0,
+              1,
+              -1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              0,
+              1,
+              -1,
+              0,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              0,
+              1,
+              0,
+              0,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              1,
+              -1,
+              0,
+              0,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              1,
+              -1,
+              1,
+              0,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              1,
+              0,
+              -1,
+              1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              1,
+              0,
+              0,
+              -1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -1,
+              0,
+              0,
+              0,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -1,
+              0,
+              1,
+              0,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -1,
+              1,
+              -1,
+              1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -1,
+              1,
+              0,
+              -1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              -1,
+              0,
+              1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              -1,
+              1,
+              -1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              0,
+              -1,
+              0,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              0,
+              1,
+              0,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              1,
+              -1,
+              1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              1,
+              0,
+              -1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              1,
+              -1,
+              0,
+              1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              1,
+              -1,
+              1,
+              -1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              1,
+              0,
+              -1,
+              0,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              -1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              -1,
+              0,
+              1,
+              -1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              -1,
+              1,
+              -1,
+              0,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              -1,
+              1,
+              0,
+              0,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              0,
+              -1,
+              0,
+              0,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              0,
+              -1,
+              1,
+              0,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              0,
+              0,
+              -1,
+              1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              0,
+              0,
+              0,
+              -1,
+              0
+            ],
+            "multiplicity": 1
+          }
+        ],
+        "0": [
+          {
+            "weight": [
+              -2,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              -1,
+              1,
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              0,
+              -1,
+              1,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              0,
+              0,
+              -1,
+              1,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              0,
+              0,
+              0,
+              -1,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              0,
+              0,
+              0,
+              1,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              0,
+              0,
+              1,
+              -1,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              0,
+              1,
+              -1,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              1,
+              -1,
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              1,
+              -1,
+              1,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              1,
+              0,
+              -1,
+              1,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              1,
+              0,
+              0,
+              -1,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              1,
+              0,
+              0,
+              1,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              1,
+              0,
+              1,
+              -1,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              1,
+              1,
+              -1,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              2,
+              -1,
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -1,
+              0,
+              1,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -1,
+              1,
+              -1,
+              1,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -1,
+              1,
+              0,
+              -1,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -1,
+              1,
+              0,
+              1,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -1,
+              1,
+              1,
+              -1,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -1,
+              2,
+              -1,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              -1,
+              0,
+              1,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              -1,
+              1,
+              -1,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              -1,
+              1,
+              1,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              -1,
+              2,
+              -1,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              0,
+              -1,
+              0,
+              2
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              0,
+              -1,
+              2,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 7
+          },
+          {
+            "weight": [
+              0,
+              0,
+              0,
+              1,
+              -2,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              0,
+              1,
+              0,
+              -2
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              1,
+              -2,
+              1,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              1,
+              -1,
+              -1,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              1,
+              -1,
+              1,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              1,
+              0,
+              -1,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              1,
+              -2,
+              1,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              1,
+              -1,
+              -1,
+              1,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              1,
+              -1,
+              0,
+              -1,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              1,
+              -1,
+              0,
+              1,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              1,
+              -1,
+              1,
+              -1,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              1,
+              0,
+              -1,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              -2,
+              1,
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              -1,
+              -1,
+              1,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              -1,
+              0,
+              -1,
+              1,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              -1,
+              0,
+              0,
+              -1,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              -1,
+              0,
+              0,
+              1,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              -1,
+              0,
+              1,
+              -1,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              -1,
+              1,
+              -1,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              -1,
+              1,
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              0,
+              -1,
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              0,
+              -1,
+              1,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              0,
+              0,
+              -1,
+              1,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              0,
+              0,
+              0,
+              -1,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              0,
+              0,
+              0,
+              1,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              0,
+              0,
+              1,
+              -1,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              0,
+              1,
+              -1,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              1,
+              -1,
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              2,
+              -1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          }
+        ],
+        "1": [
+          {
+            "weight": [
+              -1,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              0,
+              0,
+              1,
+              -1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              0,
+              1,
+              -1,
+              0,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              0,
+              1,
+              0,
+              0,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              1,
+              -1,
+              0,
+              0,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              1,
+              -1,
+              1,
+              0,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              1,
+              0,
+              -1,
+              1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              1,
+              0,
+              0,
+              -1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -1,
+              0,
+              0,
+              0,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -1,
+              0,
+              1,
+              0,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -1,
+              1,
+              -1,
+              1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -1,
+              1,
+              0,
+              -1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              -1,
+              0,
+              1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              -1,
+              1,
+              -1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              0,
+              -1,
+              0,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              0,
+              1,
+              0,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              1,
+              -1,
+              1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              1,
+              0,
+              -1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              1,
+              -1,
+              0,
+              1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              1,
+              -1,
+              1,
+              -1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              1,
+              0,
+              -1,
+              0,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              -1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              -1,
+              0,
+              1,
+              -1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              -1,
+              1,
+              -1,
+              0,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              -1,
+              1,
+              0,
+              0,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              0,
+              -1,
+              0,
+              0,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              0,
+              -1,
+              1,
+              0,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              0,
+              0,
+              -1,
+              1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              0,
+              0,
+              0,
+              -1,
+              0
+            ],
+            "multiplicity": 1
+          }
+        ],
+        "2": [
+          {
+            "weight": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          }
+        ]
+      }
+    },
+    {
+      "type": "E8",
+      "omitted_node": 8,
+      "derived_type": "E7",
+      "derived_standard_nodes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "grading_cocharacter": [
+        2,
+        3,
+        4,
+        6,
+        5,
+        4,
+        3,
+        2
+      ],
+      "V_highest": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "V_dimension": 56,
+      "trace_normalization": 120,
+      "central_cover_degree": 2,
+      "grades": {
+        "-2": [
+          {
+            "weight": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          }
+        ],
+        "-1": [
+          {
+            "weight": [
+              -1,
+              -1,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              -1,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              0,
+              0,
+              0,
+              1,
+              -1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              0,
+              0,
+              1,
+              -1,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              0,
+              1,
+              -1,
+              1,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              0,
+              1,
+              0,
+              -1,
+              1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              0,
+              1,
+              0,
+              0,
+              -1,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              0,
+              1,
+              0,
+              0,
+              0,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              1,
+              1,
+              -1,
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -1,
+              -1,
+              1,
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -1,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -1,
+              0,
+              0,
+              1,
+              -1,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -1,
+              0,
+              0,
+              1,
+              0,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -1,
+              0,
+              1,
+              -1,
+              0,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -1,
+              0,
+              1,
+              -1,
+              1,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -1,
+              0,
+              1,
+              0,
+              -1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -1,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              -1,
+              0,
+              1,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              -1,
+              1,
+              -1,
+              1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              -1,
+              1,
+              0,
+              -1,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              -1,
+              1,
+              0,
+              0,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              0,
+              -1,
+              1,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              0,
+              0,
+              -1,
+              1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              -1,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              -1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              0,
+              1,
+              -1,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              1,
+              -1,
+              0,
+              0,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              1,
+              -1,
+              0,
+              1,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              1,
+              -1,
+              1,
+              -1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              1,
+              0,
+              -1,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              1,
+              -1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              1,
+              0,
+              -1,
+              0,
+              1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              1,
+              0,
+              -1,
+              1,
+              -1,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              1,
+              0,
+              -1,
+              1,
+              0,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              1,
+              0,
+              0,
+              -1,
+              0,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              1,
+              0,
+              0,
+              -1,
+              1,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              -1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              1,
+              1,
+              -1,
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              -1,
+              -1,
+              1,
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              -1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              0,
+              -1,
+              0,
+              0,
+              0,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              0,
+              -1,
+              0,
+              0,
+              1,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              0,
+              -1,
+              0,
+              1,
+              -1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              0,
+              -1,
+              1,
+              -1,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              0,
+              0,
+              -1,
+              1,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              0,
+              0,
+              0,
+              -1,
+              1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              -1,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              1,
+              -1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              1,
+              0,
+              -1,
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          }
+        ],
+        "0": [
+          {
+            "weight": [
+              -2,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              -1,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              -1,
+              0,
+              1,
+              -1,
+              1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              -1,
+              0,
+              1,
+              0,
+              -1,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              -1,
+              0,
+              1,
+              0,
+              0,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              -1,
+              1,
+              0,
+              0,
+              0,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              -1,
+              1,
+              0,
+              0,
+              1,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              -1,
+              1,
+              0,
+              1,
+              -1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              -1,
+              1,
+              1,
+              -1,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              0,
+              -1,
+              1,
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              0,
+              0,
+              0,
+              1,
+              -1,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              0,
+              0,
+              0,
+              1,
+              0,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              0,
+              0,
+              1,
+              -1,
+              0,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              0,
+              0,
+              1,
+              -1,
+              1,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              0,
+              0,
+              1,
+              0,
+              -1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              0,
+              1,
+              -1,
+              0,
+              1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              0,
+              1,
+              -1,
+              1,
+              -1,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              0,
+              1,
+              -1,
+              1,
+              0,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              0,
+              1,
+              0,
+              -1,
+              0,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              0,
+              1,
+              0,
+              -1,
+              1,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              0,
+              1,
+              0,
+              0,
+              -1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              0,
+              2,
+              -1,
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              1,
+              0,
+              -1,
+              1,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              1,
+              0,
+              0,
+              -1,
+              1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              1,
+              0,
+              0,
+              0,
+              -1,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              1,
+              1,
+              -1,
+              0,
+              0,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              1,
+              1,
+              -1,
+              0,
+              1,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              1,
+              1,
+              -1,
+              1,
+              -1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              1,
+              1,
+              0,
+              -1,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -2,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -1,
+              -1,
+              1,
+              0,
+              0,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -1,
+              -1,
+              1,
+              0,
+              1,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -1,
+              -1,
+              1,
+              1,
+              -1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -1,
+              -1,
+              2,
+              -1,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -1,
+              0,
+              0,
+              0,
+              1,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -1,
+              0,
+              0,
+              1,
+              -1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -1,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -1,
+              0,
+              1,
+              -1,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -1,
+              0,
+              1,
+              -1,
+              1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -1,
+              0,
+              1,
+              0,
+              -1,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -1,
+              0,
+              1,
+              0,
+              0,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -1,
+              1,
+              -1,
+              1,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -1,
+              1,
+              0,
+              -1,
+              1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -1,
+              1,
+              0,
+              0,
+              -1,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -1,
+              1,
+              0,
+              0,
+              0,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              -1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              -1,
+              0,
+              1,
+              -1,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              -1,
+              0,
+              1,
+              0,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              -1,
+              1,
+              -1,
+              0,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              -1,
+              1,
+              -1,
+              1,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              -1,
+              1,
+              0,
+              -1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              -1,
+              1,
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              0,
+              -1,
+              1,
+              0,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              0,
+              -1,
+              1,
+              1,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              0,
+              -1,
+              2,
+              -1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              0,
+              0,
+              -1,
+              1,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              0,
+              0,
+              -1,
+              2,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              -1,
+              2
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 8
+          },
+          {
+            "weight": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              -2
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              -2,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              -1,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              0,
+              1,
+              -2,
+              1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              0,
+              1,
+              -1,
+              -1,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              0,
+              1,
+              -1,
+              0,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              1,
+              -1,
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              1,
+              -1,
+              0,
+              1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              1,
+              -1,
+              1,
+              -1,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              1,
+              -1,
+              1,
+              0,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              1,
+              0,
+              -1,
+              0,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              1,
+              0,
+              -1,
+              1,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              1,
+              0,
+              0,
+              -1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              1,
+              -1,
+              0,
+              0,
+              0,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              1,
+              -1,
+              0,
+              0,
+              1,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              1,
+              -1,
+              0,
+              1,
+              -1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              1,
+              -1,
+              1,
+              -1,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              1,
+              0,
+              -1,
+              0,
+              0,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              1,
+              0,
+              -1,
+              0,
+              1,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              1,
+              0,
+              -1,
+              1,
+              -1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              1,
+              0,
+              -1,
+              1,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              1,
+              0,
+              0,
+              -1,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              1,
+              0,
+              0,
+              -1,
+              1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              -1,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              1,
+              1,
+              -2,
+              1,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              1,
+              1,
+              -1,
+              -1,
+              1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              1,
+              1,
+              -1,
+              0,
+              -1,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              1,
+              1,
+              -1,
+              0,
+              0,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              2,
+              0,
+              -1,
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              -1,
+              -1,
+              0,
+              1,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              -1,
+              -1,
+              1,
+              -1,
+              1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              -1,
+              -1,
+              1,
+              0,
+              -1,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              -1,
+              -1,
+              1,
+              0,
+              0,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              -1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              -1,
+              0,
+              0,
+              0,
+              1,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              -1,
+              0,
+              0,
+              1,
+              -1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              -1,
+              0,
+              1,
+              -1,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              0,
+              -2,
+              1,
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              0,
+              -1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              0,
+              -1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              0,
+              -1,
+              0,
+              1,
+              -1,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              0,
+              -1,
+              0,
+              1,
+              0,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              0,
+              -1,
+              1,
+              -1,
+              0,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              0,
+              -1,
+              1,
+              -1,
+              1,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              0,
+              -1,
+              1,
+              0,
+              -1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              0,
+              0,
+              -1,
+              0,
+              1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              0,
+              0,
+              -1,
+              1,
+              -1,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              0,
+              0,
+              -1,
+              1,
+              0,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              0,
+              0,
+              0,
+              -1,
+              0,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              0,
+              0,
+              0,
+              -1,
+              1,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              -1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              0,
+              1,
+              -1,
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              1,
+              -1,
+              -1,
+              1,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              1,
+              -1,
+              0,
+              -1,
+              1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              1,
+              -1,
+              0,
+              0,
+              -1,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              1,
+              -1,
+              0,
+              0,
+              0,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              1,
+              0,
+              -1,
+              0,
+              0,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              1,
+              0,
+              -1,
+              0,
+              1,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              1,
+              0,
+              -1,
+              1,
+              -1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              1,
+              0,
+              0,
+              -1,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              2,
+              0,
+              -1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          }
+        ],
+        "1": [
+          {
+            "weight": [
+              -1,
+              -1,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              -1,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              0,
+              0,
+              0,
+              1,
+              -1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              0,
+              0,
+              1,
+              -1,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              0,
+              1,
+              -1,
+              1,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              0,
+              1,
+              0,
+              -1,
+              1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              0,
+              1,
+              0,
+              0,
+              -1,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              0,
+              1,
+              0,
+              0,
+              0,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              -1,
+              1,
+              1,
+              -1,
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -1,
+              -1,
+              1,
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -1,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -1,
+              0,
+              0,
+              1,
+              -1,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -1,
+              0,
+              0,
+              1,
+              0,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -1,
+              0,
+              1,
+              -1,
+              0,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -1,
+              0,
+              1,
+              -1,
+              1,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -1,
+              0,
+              1,
+              0,
+              -1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              -1,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              -1,
+              0,
+              1,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              -1,
+              1,
+              -1,
+              1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              -1,
+              1,
+              0,
+              -1,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              -1,
+              1,
+              0,
+              0,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              0,
+              -1,
+              1,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              0,
+              0,
+              -1,
+              1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              -1,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              -1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              0,
+              1,
+              -1,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              1,
+              -1,
+              0,
+              0,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              1,
+              -1,
+              0,
+              1,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              1,
+              -1,
+              1,
+              -1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              0,
+              1,
+              0,
+              -1,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              1,
+              -1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              1,
+              0,
+              -1,
+              0,
+              1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              1,
+              0,
+              -1,
+              1,
+              -1,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              1,
+              0,
+              -1,
+              1,
+              0,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              1,
+              0,
+              0,
+              -1,
+              0,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              1,
+              0,
+              0,
+              -1,
+              1,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              -1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              0,
+              1,
+              1,
+              -1,
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              -1,
+              -1,
+              1,
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              -1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              0,
+              -1,
+              0,
+              0,
+              0,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              0,
+              -1,
+              0,
+              0,
+              1,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              0,
+              -1,
+              0,
+              1,
+              -1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              0,
+              -1,
+              1,
+              -1,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              0,
+              0,
+              -1,
+              1,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              0,
+              0,
+              0,
+              -1,
+              1,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              -1,
+              1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              -1
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              1,
+              -1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          },
+          {
+            "weight": [
+              1,
+              1,
+              0,
+              -1,
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          }
+        ],
+        "2": [
+          {
+            "weight": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "multiplicity": 1
+          }
+        ]
+      }
+    }
+  ],
+  "exact_ideals": {
+    "E6_exact_ideal": true,
+    "E6_quotient_dimension_on_cover": 2,
+    "E6_cover_critical_scheme_smooth": true,
+    "E6_deck_action_checked": true,
+    "E6_free_coordinates": [
+      "x2",
+      "x4"
+    ],
+    "G2_relative_curve_smooth": true,
+    "G2_generic_fiber_nonempty_finite_smooth": true
+  },
+  "E6_root_trace_audit": {
+    "method": "root-basis adjoint eigenvalues and equivariant root derivatives",
+    "root_eigenvalues": 72,
+    "source_regular_semisimple": true,
+    "cyclotomic_field": 12,
+    "SL6_eigenvalues": [
+      "2",
+      "2*zeta12^2 - 2",
+      "-2*zeta12^2",
+      "1/2",
+      "1/2*zeta12^2 - 1/2",
+      "-1/2*zeta12^2"
+    ],
+    "central_z": "zeta12^3",
+    "target_scalar": "65/192*zeta12^3",
+    "trace_normalization": 48,
+    "normalized_target_checked": true,
+    "target_centralizer_dimension": 36,
+    "Cartan_differential_rank": 4,
+    "root_direction_rank": 42,
+    "full_differential_rank": 46,
+    "fiber_tangent_dimension": 32
+  },
+  "E6_nonzero_contact_fiber_regular_dimension": 32,
+  "E6_actual_quotient_critical_scheme": "A^2",
+  "all_exceptional_Levis_classified": false,
+  "classical_dimension_formula_extends_unchanged": false,
+  "public_API_changed": false,
+  "literature_priority_claim": false,
+  "source_sha256": {
+    "EXCEPTIONAL_ADJOINT_CONTACT_FIBERS.md": "b091b15355cbd411736539ef60ea50361caa208ef210e4d4975432f5472084b4",
+    "tools/verify_exceptional_adjoint_contact.py": "4f63551c675a5f9339174694756ed83f3625f737e2ddd84bb16b7816997a9a41",
+    "tools/verify_affine_branching_classification.py": "f8856d3e1f39d2661e5a5b4d61d74b522d528811864f9c5bc803e0f6294153b5",
+    "GENERAL_CAYLEY_FIBER_CRITICAL.md": "1cffec1488cc51c792939382111003bf82394fb195c62c6c97670c6aee2a1483"
+  }
+}

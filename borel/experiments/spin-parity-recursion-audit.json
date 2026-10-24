@@ -1,0 +1,103 @@
+{
+  "result": "passed",
+  "date": "2026-10-22",
+  "cases": [
+    {
+      "rank": 1,
+      "entire_kernel_preserved": true,
+      "first_failure_degree": null,
+      "degrees_checked": 2,
+      "native_lattices_verified": true
+    },
+    {
+      "rank": 2,
+      "entire_kernel_preserved": true,
+      "first_failure_degree": null,
+      "degrees_checked": 4,
+      "native_lattices_verified": true
+    },
+    {
+      "rank": 3,
+      "entire_kernel_preserved": false,
+      "first_failure_degree": 4,
+      "degrees_checked": 4,
+      "native_lattices_verified": true
+    },
+    {
+      "rank": 4,
+      "entire_kernel_preserved": true,
+      "first_failure_degree": null,
+      "degrees_checked": 11,
+      "native_lattices_verified": true
+    },
+    {
+      "rank": 5,
+      "entire_kernel_preserved": true,
+      "first_failure_degree": null,
+      "degrees_checked": 16,
+      "native_lattices_verified": true
+    },
+    {
+      "rank": 6,
+      "entire_kernel_preserved": true,
+      "first_failure_degree": null,
+      "degrees_checked": 22,
+      "native_lattices_verified": true
+    },
+    {
+      "rank": 7,
+      "entire_kernel_preserved": false,
+      "first_failure_degree": 11,
+      "degrees_checked": 11,
+      "native_lattices_verified": true
+    },
+    {
+      "rank": 8,
+      "entire_kernel_preserved": false,
+      "first_failure_degree": 16,
+      "degrees_checked": 16,
+      "native_lattices_verified": true
+    },
+    {
+      "rank": 9,
+      "entire_kernel_preserved": true,
+      "first_failure_degree": null,
+      "degrees_checked": 46,
+      "native_lattices_verified": true
+    },
+    {
+      "rank": 10,
+      "entire_kernel_preserved": true,
+      "first_failure_degree": null,
+      "degrees_checked": 56,
+      "native_lattices_verified": true
+    },
+    {
+      "rank": 11,
+      "entire_kernel_preserved": true,
+      "first_failure_degree": null,
+      "degrees_checked": 67,
+      "native_lattices_verified": true
+    },
+    {
+      "rank": 12,
+      "entire_kernel_preserved": false,
+      "first_failure_degree": 34,
+      "degrees_checked": 34,
+      "native_lattices_verified": true
+    }
+  ],
+  "lowering_proof": {
+    "symbolic_commutator_coefficients": true,
+    "strict_partitions_checked": 1022,
+    "infinite_quadratic_derivation_identities_checked": 9,
+    "all_rank_argument": "The symbolic coefficients and the written operator proof establish all n; finite commutators are corroboration."
+  },
+  "method": "Native SymPy Hermite determinants, exact triangular coordinates and bit relation identities",
+  "shared_inputs": "Classical Schur-Q lattice and one-box Pieri rule; supplied lattice/derivative certificates independently verified, not trusted. No Sage or polynomial saturation.",
+  "arbitrary_rank_closed_classification_complete": false,
+  "source_sha256": {
+    "experiments/audit_spin_parity_recursion.py": "3b59c3d853cd2e72166937534123fbce5ac3fea2ddcf68611186ac1e9e9faed6",
+    "experiments/spin-parity-recursion.json": "9c35f7322242fa104df9aa4ba02047910874990fe9e90bebeb73577eecc20ea9"
+  }
+}

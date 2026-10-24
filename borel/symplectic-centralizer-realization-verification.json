@@ -1,0 +1,133 @@
+{
+  "result": "passed",
+  "date": "2026-10-23",
+  "sage_version": "9.5",
+  "coefficient_isomorphisms": [
+    {
+      "m": 1,
+      "index": 2,
+      "determinant": "1"
+    },
+    {
+      "m": 2,
+      "index": 14,
+      "determinant": "-4/49"
+    },
+    {
+      "m": 3,
+      "index": 132,
+      "determinant": "-8/35937"
+    },
+    {
+      "m": 4,
+      "index": 1430,
+      "determinant": "4096/261351000625"
+    },
+    {
+      "m": 5,
+      "index": 16796,
+      "determinant": "32768/1305357212703620999"
+    },
+    {
+      "m": 6,
+      "index": 208012,
+      "determinant": "-16777216/19777454323720091605435816729"
+    },
+    {
+      "m": 7,
+      "index": 2674440,
+      "determinant": "-268435456/466659492997669850196648857271845390625"
+    },
+    {
+      "m": 8,
+      "index": 35357670,
+      "determinant": "72057594037927936/9541774305225277099712612245414249912578720540814625390625"
+    },
+    {
+      "m": 9,
+      "index": 477638700,
+      "determinant": "9223372036854775808/4935778328933858988887947707597593490017554250327131279145153045654296875"
+    },
+    {
+      "m": 10,
+      "index": 6564120420,
+      "determinant": "-1208925819614629174706176/141633335621327760478680650353345126459678902817088047715480318187652422054241580451181640625"
+    }
+  ],
+  "actual_primitive_cases": [
+    {
+      "m": 1,
+      "label": "power_1",
+      "primitive_dimension": 5,
+      "scalar": "1",
+      "spectral_polynomial": "z^2 + z + 1",
+      "ambient_tangent_pairings": 10,
+      "centralizer_dimension": 4
+    },
+    {
+      "m": 1,
+      "label": "mixed",
+      "primitive_dimension": 5,
+      "scalar": "1",
+      "spectral_polynomial": "z^2 + z + 1",
+      "ambient_tangent_pairings": 10,
+      "centralizer_dimension": 4
+    },
+    {
+      "m": 1,
+      "label": "zero",
+      "primitive_dimension": 5,
+      "scalar": "1",
+      "spectral_polynomial": "z^2 + 1",
+      "ambient_tangent_pairings": 10,
+      "centralizer_dimension": 4
+    },
+    {
+      "m": 2,
+      "label": "power_1",
+      "primitive_dimension": 42,
+      "scalar": "1",
+      "spectral_polynomial": "z^4 + 7/2*z^3 + 11/4*z^2 + 7/2*z + 1",
+      "ambient_tangent_pairings": 36,
+      "centralizer_dimension": 12
+    },
+    {
+      "m": 2,
+      "label": "power_3",
+      "primitive_dimension": 42,
+      "scalar": "1",
+      "spectral_polynomial": "z^4 + 7/2*z^3 - 3/4*z^2 + 7/2*z + 1",
+      "ambient_tangent_pairings": 36,
+      "centralizer_dimension": 12
+    },
+    {
+      "m": 2,
+      "label": "mixed",
+      "primitive_dimension": 42,
+      "scalar": "1",
+      "spectral_polynomial": "z^4 + 21/2*z^3 - 3/4*z^2 + 21/2*z + 1",
+      "ambient_tangent_pairings": 36,
+      "centralizer_dimension": 12
+    },
+    {
+      "m": 2,
+      "label": "zero",
+      "primitive_dimension": 42,
+      "scalar": "1",
+      "spectral_polynomial": "z^4 + z^2 + 1",
+      "ambient_tangent_pairings": 36,
+      "centralizer_dimension": 12
+    }
+  ],
+  "actual_primitive_tangent_pairings": 174,
+  "contraction_kernels_and_invariance_checked": true,
+  "trace_indices_and_exact_centralizers_checked": true,
+  "used_runtime_character_or_borel_api": false,
+  "full_fiber_component_theorem": false,
+  "scope": "Finite exact primitive-kernel trace corroboration of the separate written all-rank proof; shared Sage arithmetic and signed-wedge helpers; no external audit or novelty certificate.",
+  "source_sha256": {
+    "SYMPLECTIC_CENTRALIZER_REALIZATION.md": "b3c87d6057f63404dd5eb1b54945bf24f35abf2c3873fcf1f9263d41108b4753",
+    "tools/verify_symplectic_centralizer_realization.py": "fbaf9477120867e1168914e62b1139e8c578197c95363253a1b3dd3e77fd1fff",
+    "tools/verify_type_a_character_degeneration.py": "446748b54d7a71aaed000610d0236389e820d443c155a406acbb0526b78dbf87"
+  }
+}

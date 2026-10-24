@@ -1,0 +1,406 @@
+{
+  "result": "passed",
+  "date": "2026-10-22",
+  "coefficient_ring": "Z_(2)",
+  "parabolic": "B",
+  "independent_arithmetic": "Python exact triangular inclusion and full row rank modulo two prove lattice equality, using the diagonal power-of-two sublattice; no HNF routine, FLINT or Sage. SymPy is used only for Pfaffian polynomial identities.",
+  "independent_derivative_factorization": true,
+  "schur_P_pfaffian_lowering_checks": 94,
+  "closed_numerical_rank_classification_proved": false,
+  "cases": [
+    {
+      "rank": 15,
+      "first_failure_degree": 37,
+      "tested_through_degree": 37,
+      "entire_kernel_decision": true,
+      "entire_kernel_preserved": false,
+      "degree_rows": [
+        {
+          "degree": 1,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 2,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 3,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 4,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 5,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 6,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 7,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 8,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 9,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 10,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 11,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 12,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 13,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 14,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 15,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 16,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 17,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 18,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 19,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 20,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 21,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 22,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 23,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 24,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 25,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 26,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 27,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 28,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 29,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 30,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 31,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 32,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 33,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 34,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 35,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 36,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 37,
+          "obstruction_rank": 1,
+          "independent_derivative_defect": 1
+        }
+      ],
+      "first_failure_witness": {
+        "boundary_schubert_terms": [
+          {
+            "partition": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              16
+            ],
+            "coefficient": 8
+          },
+          {
+            "partition": [
+              1,
+              2,
+              4,
+              6,
+              8,
+              16
+            ],
+            "coefficient": 4
+          },
+          {
+            "partition": [
+              1,
+              2,
+              5,
+              6,
+              7,
+              16
+            ],
+            "coefficient": 8
+          },
+          {
+            "partition": [
+              1,
+              2,
+              6,
+              12,
+              16
+            ],
+            "coefficient": 4
+          },
+          {
+            "partition": [
+              1,
+              3,
+              4,
+              6,
+              7,
+              16
+            ],
+            "coefficient": 8
+          },
+          {
+            "partition": [
+              1,
+              4,
+              6,
+              10,
+              16
+            ],
+            "coefficient": 4
+          },
+          {
+            "partition": [
+              1,
+              6,
+              14,
+              16
+            ],
+            "coefficient": 4
+          },
+          {
+            "partition": [
+              2,
+              4,
+              6,
+              9,
+              16
+            ],
+            "coefficient": 4
+          },
+          {
+            "partition": [
+              2,
+              5,
+              6,
+              8,
+              16
+            ],
+            "coefficient": 4
+          },
+          {
+            "partition": [
+              2,
+              6,
+              13,
+              16
+            ],
+            "coefficient": 4
+          },
+          {
+            "partition": [
+              3,
+              4,
+              6,
+              8,
+              16
+            ],
+            "coefficient": 4
+          },
+          {
+            "partition": [
+              3,
+              5,
+              6,
+              7,
+              16
+            ],
+            "coefficient": 8
+          },
+          {
+            "partition": [
+              3,
+              6,
+              12,
+              16
+            ],
+            "coefficient": 12
+          },
+          {
+            "partition": [
+              4,
+              6,
+              11,
+              16
+            ],
+            "coefficient": 4
+          },
+          {
+            "partition": [
+              5,
+              6,
+              10,
+              16
+            ],
+            "coefficient": 4
+          },
+          {
+            "partition": [
+              5,
+              7,
+              9,
+              16
+            ],
+            "coefficient": 8
+          },
+          {
+            "partition": [
+              6,
+              7,
+              8,
+              16
+            ],
+            "coefficient": 4
+          },
+          {
+            "partition": [
+              6,
+              15,
+              16
+            ],
+            "coefficient": 4
+          },
+          {
+            "partition": [
+              8,
+              13,
+              16
+            ],
+            "coefficient": 4
+          }
+        ],
+        "twice_lowered_boundary_image_coordinates_mod2": [
+          292
+        ],
+        "coordinate_basis": "Top-left block of the preceding adjacent-rank lattice certificate"
+      }
+    }
+  ],
+  "source_sha256": {
+    "experiments/audit_spin_parity_boundary.py": "9196d7978d914a92dc550011c6fe2b68242bac33c3e34c4dd10e6e1311fb7eee",
+    "experiments/audit_spin_parity_recursion.py": "3b59c3d853cd2e72166937534123fbce5ac3fea2ddcf68611186ac1e9e9faed6"
+  },
+  "raw_sha256": {
+    "experiments/spin-parity-boundary-rank15.json": "89d67c0f6f6c7b90a2ca3d83c0acfe6b4852425bb6088ea6016adac2090b9a93",
+    "experiments/spin-parity-boundary-rank15-certificates.json.gz": "2882b3917758b275abbddaef4931fce766577bf93908cb22887e2db1ddd9fe18"
+  }
+}

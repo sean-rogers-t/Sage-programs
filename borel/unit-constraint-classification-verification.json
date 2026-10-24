@@ -1,0 +1,3112 @@
+{
+  "result": "passed",
+  "summary": {
+    "E6": {
+      "counts": {
+        "all_A": 60,
+        "quadratic": 49,
+        "cubic": 11,
+        "non_A": 3
+      },
+      "maximum_pair_counts": {
+        "0": 5,
+        "1": 6
+      },
+      "residual_degrees": {
+        "4": 11
+      }
+    },
+    "E7": {
+      "counts": {
+        "all_A": 120,
+        "quadratic": 88,
+        "cubic": 32,
+        "non_A": 7
+      },
+      "maximum_pair_counts": {
+        "0": 12,
+        "1": 19,
+        "2": 1
+      },
+      "residual_degrees": {
+        "4": 32
+      }
+    },
+    "E8": {
+      "counts": {
+        "all_A": 240,
+        "quadratic": 147,
+        "cubic": 93,
+        "non_A": 15
+      },
+      "maximum_pair_counts": {
+        "0": 28,
+        "1": 60,
+        "2": 5
+      },
+      "residual_degrees": {
+        "4": 93
+      }
+    }
+  },
+  "case_archive": "unit-constraint-cases.json.gz",
+  "case_archive_sha256": "41cca61200d57d5830b790d8d4649aa8628369da36d0c084b33a5a27e4e8e5de",
+  "E6_Weyl_transfers": [
+    {
+      "seed": [
+        2,
+        3,
+        5,
+        6
+      ],
+      "target": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "word": [
+        1,
+        3,
+        4,
+        2,
+        5,
+        4,
+        3,
+        1,
+        6,
+        5,
+        4,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "seed": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "target": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "word": []
+    },
+    {
+      "seed": [
+        2,
+        3,
+        5,
+        6
+      ],
+      "target": [
+        1,
+        2,
+        3,
+        6
+      ],
+      "word": [
+        1,
+        3,
+        4,
+        2,
+        5,
+        4,
+        3,
+        1,
+        6,
+        5,
+        4,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "seed": [
+        2,
+        3,
+        5,
+        6
+      ],
+      "target": [
+        1,
+        2,
+        4,
+        6
+      ],
+      "word": [
+        1,
+        3,
+        4,
+        2,
+        5,
+        4,
+        6,
+        5
+      ]
+    },
+    {
+      "seed": [
+        2,
+        3,
+        5
+      ],
+      "target": [
+        1,
+        2,
+        5
+      ],
+      "word": [
+        1,
+        3
+      ]
+    },
+    {
+      "seed": [
+        2,
+        3,
+        5,
+        6
+      ],
+      "target": [
+        1,
+        2,
+        5,
+        6
+      ],
+      "word": [
+        1,
+        3
+      ]
+    },
+    {
+      "seed": [
+        2,
+        3,
+        5
+      ],
+      "target": [
+        1,
+        2,
+        6
+      ],
+      "word": [
+        1,
+        3,
+        6,
+        5
+      ]
+    },
+    {
+      "seed": [
+        2,
+        3,
+        5
+      ],
+      "target": [
+        1,
+        4,
+        6
+      ],
+      "word": [
+        1,
+        3,
+        6,
+        5,
+        4,
+        2
+      ]
+    },
+    {
+      "seed": [
+        2,
+        3,
+        5
+      ],
+      "target": [
+        2,
+        3,
+        5
+      ],
+      "word": []
+    },
+    {
+      "seed": [
+        2,
+        3,
+        5,
+        6
+      ],
+      "target": [
+        2,
+        3,
+        5,
+        6
+      ],
+      "word": []
+    },
+    {
+      "seed": [
+        2,
+        3,
+        5
+      ],
+      "target": [
+        2,
+        3,
+        6
+      ],
+      "word": [
+        6,
+        5
+      ]
+    }
+  ],
+  "all_E6_proper_Levi_generic_regular_fibers_smooth_or_empty": true,
+  "cases": [
+    {
+      "type": "E6",
+      "nodes": [
+        1,
+        2,
+        5
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 0,
+      "remaining_nodes": [
+        2,
+        5
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E6",
+      "nodes": [
+        1,
+        2,
+        6
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 0,
+      "remaining_nodes": [
+        2,
+        6
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E6",
+      "nodes": [
+        1,
+        4,
+        6
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 0,
+      "remaining_nodes": [
+        4,
+        6
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E6",
+      "nodes": [
+        2,
+        3,
+        5
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 0,
+      "remaining_nodes": [
+        3,
+        5
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E6",
+      "nodes": [
+        2,
+        3,
+        6
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 0,
+      "remaining_nodes": [
+        3,
+        6
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E6",
+      "nodes": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "factors": [
+        "A2",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        2,
+        5
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E6",
+      "nodes": [
+        1,
+        2,
+        3,
+        6
+      ],
+      "factors": [
+        "A2",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        2,
+        6
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E6",
+      "nodes": [
+        1,
+        2,
+        4,
+        6
+      ],
+      "factors": [
+        "A1",
+        "A2",
+        "A1"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        1,
+        6
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E6",
+      "nodes": [
+        1,
+        2,
+        5,
+        6
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A2"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        1,
+        2
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E6",
+      "nodes": [
+        2,
+        3,
+        5,
+        6
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A2"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        2,
+        3
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E6",
+      "nodes": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "factors": [
+        "A2",
+        "A1",
+        "A2"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        2,
+        5,
+        6
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        1,
+        2,
+        5
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 0,
+      "remaining_nodes": [
+        2,
+        5
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        1,
+        2,
+        6
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 0,
+      "remaining_nodes": [
+        2,
+        6
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        1,
+        2,
+        7
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 0,
+      "remaining_nodes": [
+        2,
+        7
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        1,
+        4,
+        6
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 0,
+      "remaining_nodes": [
+        4,
+        6
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        1,
+        4,
+        7
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 0,
+      "remaining_nodes": [
+        4,
+        7
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        1,
+        5,
+        7
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 0,
+      "remaining_nodes": [
+        5,
+        7
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        2,
+        3,
+        5
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 0,
+      "remaining_nodes": [
+        3,
+        5
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        2,
+        3,
+        6
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 0,
+      "remaining_nodes": [
+        3,
+        6
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        2,
+        3,
+        7
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 0,
+      "remaining_nodes": [
+        3,
+        7
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        3,
+        5,
+        7
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 0,
+      "remaining_nodes": [
+        5,
+        7
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "factors": [
+        "A2",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        2,
+        5
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        1,
+        2,
+        3,
+        6
+      ],
+      "factors": [
+        "A2",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        2,
+        6
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        1,
+        2,
+        3,
+        7
+      ],
+      "factors": [
+        "A2",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        2,
+        7
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        1,
+        2,
+        4,
+        6
+      ],
+      "factors": [
+        "A1",
+        "A2",
+        "A1"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        1,
+        6
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        1,
+        2,
+        4,
+        7
+      ],
+      "factors": [
+        "A1",
+        "A2",
+        "A1"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        1,
+        7
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        1,
+        2,
+        5,
+        6
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A2"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        1,
+        2
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        1,
+        2,
+        5,
+        7
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 0,
+      "remaining_nodes": [
+        2,
+        5,
+        7
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        1,
+        2,
+        6,
+        7
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A2"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        1,
+        2
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        1,
+        3,
+        5,
+        7
+      ],
+      "factors": [
+        "A2",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        5,
+        7
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        1,
+        4,
+        5,
+        7
+      ],
+      "factors": [
+        "A1",
+        "A2",
+        "A1"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        1,
+        7
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        1,
+        4,
+        6,
+        7
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A2"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        1,
+        4
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        2,
+        3,
+        5,
+        6
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A2"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        2,
+        3
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        2,
+        3,
+        5,
+        7
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 0,
+      "remaining_nodes": [
+        3,
+        5,
+        7
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        2,
+        3,
+        6,
+        7
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A2"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        2,
+        3
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "factors": [
+        "A2",
+        "A1",
+        "A2"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        2,
+        5,
+        6
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        1,
+        2,
+        3,
+        5,
+        7
+      ],
+      "factors": [
+        "A2",
+        "A1",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        2,
+        5,
+        7
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        1,
+        2,
+        3,
+        6,
+        7
+      ],
+      "factors": [
+        "A2",
+        "A1",
+        "A2"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        2,
+        6,
+        7
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        1,
+        2,
+        4,
+        5,
+        7
+      ],
+      "factors": [
+        "A1",
+        "A3",
+        "A1"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        1,
+        4,
+        7
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        1,
+        2,
+        4,
+        6,
+        7
+      ],
+      "factors": [
+        "A1",
+        "A2",
+        "A2"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        1,
+        6,
+        7
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        1,
+        2,
+        5,
+        6,
+        7
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A3"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        1,
+        2,
+        6
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        2,
+        3,
+        5,
+        6,
+        7
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A3"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        2,
+        3,
+        6
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7
+      ],
+      "factors": [
+        "A2",
+        "A1",
+        "A3"
+      ],
+      "maximum_pairs": 2,
+      "remaining_nodes": [
+        2,
+        3
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        5
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 0,
+      "remaining_nodes": [
+        2,
+        5
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        6
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 0,
+      "remaining_nodes": [
+        2,
+        6
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        7
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 0,
+      "remaining_nodes": [
+        2,
+        7
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        8
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 0,
+      "remaining_nodes": [
+        2,
+        8
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        4,
+        6
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 0,
+      "remaining_nodes": [
+        4,
+        6
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        4,
+        7
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 0,
+      "remaining_nodes": [
+        4,
+        7
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        4,
+        8
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 0,
+      "remaining_nodes": [
+        4,
+        8
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        5,
+        7
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 0,
+      "remaining_nodes": [
+        5,
+        7
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        5,
+        8
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 0,
+      "remaining_nodes": [
+        5,
+        8
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        6,
+        8
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 0,
+      "remaining_nodes": [
+        6,
+        8
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        2,
+        3,
+        5
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 0,
+      "remaining_nodes": [
+        3,
+        5
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        2,
+        3,
+        6
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 0,
+      "remaining_nodes": [
+        3,
+        6
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        2,
+        3,
+        7
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 0,
+      "remaining_nodes": [
+        3,
+        7
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        2,
+        3,
+        8
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 0,
+      "remaining_nodes": [
+        3,
+        8
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        2,
+        5,
+        7
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 0,
+      "remaining_nodes": [
+        5,
+        7
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        2,
+        5,
+        8
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 0,
+      "remaining_nodes": [
+        5,
+        8
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        2,
+        6,
+        8
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 0,
+      "remaining_nodes": [
+        6,
+        8
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        3,
+        5,
+        7
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 0,
+      "remaining_nodes": [
+        5,
+        7
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        3,
+        5,
+        8
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 0,
+      "remaining_nodes": [
+        5,
+        8
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        3,
+        6,
+        8
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 0,
+      "remaining_nodes": [
+        6,
+        8
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        4,
+        6,
+        8
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 0,
+      "remaining_nodes": [
+        6,
+        8
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "factors": [
+        "A2",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        2,
+        5
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        3,
+        6
+      ],
+      "factors": [
+        "A2",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        2,
+        6
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        3,
+        7
+      ],
+      "factors": [
+        "A2",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        2,
+        7
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        3,
+        8
+      ],
+      "factors": [
+        "A2",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        2,
+        8
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        4,
+        6
+      ],
+      "factors": [
+        "A1",
+        "A2",
+        "A1"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        1,
+        6
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        4,
+        7
+      ],
+      "factors": [
+        "A1",
+        "A2",
+        "A1"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        1,
+        7
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "factors": [
+        "A1",
+        "A2",
+        "A1"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        1,
+        8
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        5,
+        6
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A2"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        1,
+        2
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        5,
+        7
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 0,
+      "remaining_nodes": [
+        2,
+        5,
+        7
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        5,
+        8
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 0,
+      "remaining_nodes": [
+        2,
+        5,
+        8
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        6,
+        7
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A2"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        1,
+        2
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        6,
+        8
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 0,
+      "remaining_nodes": [
+        2,
+        6,
+        8
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        7,
+        8
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A2"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        1,
+        2
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        3,
+        5,
+        7
+      ],
+      "factors": [
+        "A2",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        5,
+        7
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        3,
+        5,
+        8
+      ],
+      "factors": [
+        "A2",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        5,
+        8
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        3,
+        6,
+        8
+      ],
+      "factors": [
+        "A2",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        6,
+        8
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        4,
+        5,
+        7
+      ],
+      "factors": [
+        "A1",
+        "A2",
+        "A1"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        1,
+        7
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        4,
+        5,
+        8
+      ],
+      "factors": [
+        "A1",
+        "A2",
+        "A1"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        1,
+        8
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        4,
+        6,
+        7
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A2"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        1,
+        4
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        4,
+        6,
+        8
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 0,
+      "remaining_nodes": [
+        4,
+        6,
+        8
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        4,
+        7,
+        8
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A2"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        1,
+        4
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        5,
+        6,
+        8
+      ],
+      "factors": [
+        "A1",
+        "A2",
+        "A1"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        1,
+        8
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        5,
+        7,
+        8
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A2"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        1,
+        5
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        2,
+        3,
+        5,
+        6
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A2"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        2,
+        3
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        2,
+        3,
+        5,
+        7
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 0,
+      "remaining_nodes": [
+        3,
+        5,
+        7
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        2,
+        3,
+        5,
+        8
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 0,
+      "remaining_nodes": [
+        3,
+        5,
+        8
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        2,
+        3,
+        6,
+        7
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A2"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        2,
+        3
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        2,
+        3,
+        6,
+        8
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 0,
+      "remaining_nodes": [
+        3,
+        6,
+        8
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        2,
+        3,
+        7,
+        8
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A2"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        2,
+        3
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "factors": [
+        "A2",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        6,
+        8
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        2,
+        5,
+        6,
+        8
+      ],
+      "factors": [
+        "A1",
+        "A2",
+        "A1"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        2,
+        8
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        2,
+        5,
+        7,
+        8
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A2"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        2,
+        5
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        3,
+        4,
+        6,
+        8
+      ],
+      "factors": [
+        "A2",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        6,
+        8
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        3,
+        5,
+        6,
+        8
+      ],
+      "factors": [
+        "A1",
+        "A2",
+        "A1"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        3,
+        8
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        3,
+        5,
+        7,
+        8
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A2"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        3,
+        5
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "factors": [
+        "A2",
+        "A1",
+        "A2"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        2,
+        5,
+        6
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        3,
+        5,
+        7
+      ],
+      "factors": [
+        "A2",
+        "A1",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        2,
+        5,
+        7
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        3,
+        5,
+        8
+      ],
+      "factors": [
+        "A2",
+        "A1",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        2,
+        5,
+        8
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        3,
+        6,
+        7
+      ],
+      "factors": [
+        "A2",
+        "A1",
+        "A2"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        2,
+        6,
+        7
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        3,
+        6,
+        8
+      ],
+      "factors": [
+        "A2",
+        "A1",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        2,
+        6,
+        8
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        3,
+        7,
+        8
+      ],
+      "factors": [
+        "A2",
+        "A1",
+        "A2"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        2,
+        7,
+        8
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        4,
+        5,
+        7
+      ],
+      "factors": [
+        "A1",
+        "A3",
+        "A1"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        1,
+        4,
+        7
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        4,
+        5,
+        8
+      ],
+      "factors": [
+        "A1",
+        "A3",
+        "A1"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        1,
+        4,
+        8
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        4,
+        6,
+        7
+      ],
+      "factors": [
+        "A1",
+        "A2",
+        "A2"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        1,
+        6,
+        7
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        4,
+        6,
+        8
+      ],
+      "factors": [
+        "A1",
+        "A2",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        1,
+        6,
+        8
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        4,
+        7,
+        8
+      ],
+      "factors": [
+        "A1",
+        "A2",
+        "A2"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        1,
+        7,
+        8
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        5,
+        6,
+        7
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A3"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        1,
+        2,
+        6
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        5,
+        6,
+        8
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A2",
+        "A1"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        1,
+        2,
+        8
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        5,
+        7,
+        8
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A1",
+        "A2"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        1,
+        2,
+        5
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        6,
+        7,
+        8
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A3"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        1,
+        2,
+        7
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        3,
+        4,
+        6,
+        8
+      ],
+      "factors": [
+        "A3",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        3,
+        6,
+        8
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        3,
+        5,
+        6,
+        8
+      ],
+      "factors": [
+        "A2",
+        "A2",
+        "A1"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        5,
+        6,
+        8
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        3,
+        5,
+        7,
+        8
+      ],
+      "factors": [
+        "A2",
+        "A1",
+        "A2"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        5,
+        7,
+        8
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        4,
+        5,
+        6,
+        8
+      ],
+      "factors": [
+        "A1",
+        "A3",
+        "A1"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        1,
+        5,
+        8
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        4,
+        5,
+        7,
+        8
+      ],
+      "factors": [
+        "A1",
+        "A2",
+        "A2"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        1,
+        7,
+        8
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        4,
+        6,
+        7,
+        8
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A3"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        1,
+        4,
+        7
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        2,
+        3,
+        4,
+        6,
+        8
+      ],
+      "factors": [
+        "A3",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        4,
+        6,
+        8
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        2,
+        3,
+        5,
+        6,
+        7
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A3"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        2,
+        3,
+        6
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        2,
+        3,
+        5,
+        6,
+        8
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A2",
+        "A1"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        2,
+        3,
+        8
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        2,
+        3,
+        5,
+        7,
+        8
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A1",
+        "A2"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        2,
+        3,
+        5
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        2,
+        3,
+        6,
+        7,
+        8
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A3"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        2,
+        3,
+        7
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        8
+      ],
+      "factors": [
+        "A4",
+        "A1",
+        "A1"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        3,
+        4,
+        6,
+        8
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7
+      ],
+      "factors": [
+        "A2",
+        "A1",
+        "A3"
+      ],
+      "maximum_pairs": 2,
+      "remaining_nodes": [
+        2,
+        3
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        8
+      ],
+      "factors": [
+        "A2",
+        "A1",
+        "A2",
+        "A1"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        2,
+        5,
+        6,
+        8
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        3,
+        5,
+        7,
+        8
+      ],
+      "factors": [
+        "A2",
+        "A1",
+        "A1",
+        "A2"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        2,
+        5,
+        7,
+        8
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        3,
+        6,
+        7,
+        8
+      ],
+      "factors": [
+        "A2",
+        "A1",
+        "A3"
+      ],
+      "maximum_pairs": 2,
+      "remaining_nodes": [
+        2,
+        3
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        8
+      ],
+      "factors": [
+        "A1",
+        "A4",
+        "A1"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        1,
+        4,
+        5,
+        8
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        8
+      ],
+      "factors": [
+        "A1",
+        "A3",
+        "A2"
+      ],
+      "maximum_pairs": 2,
+      "remaining_nodes": [
+        1,
+        7
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        4,
+        6,
+        7,
+        8
+      ],
+      "factors": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "maximum_pairs": 2,
+      "remaining_nodes": [
+        1,
+        2
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        5,
+        6,
+        7,
+        8
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A4"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        1,
+        2,
+        6,
+        7
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        2,
+        3,
+        5,
+        6,
+        7,
+        8
+      ],
+      "factors": [
+        "A1",
+        "A1",
+        "A4"
+      ],
+      "maximum_pairs": 1,
+      "remaining_nodes": [
+        2,
+        3,
+        6,
+        7
+      ],
+      "residual_degree": 4
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8
+      ],
+      "factors": [
+        "A2",
+        "A1",
+        "A4"
+      ],
+      "maximum_pairs": 2,
+      "remaining_nodes": [
+        2,
+        6,
+        8
+      ],
+      "residual_degree": 4
+    }
+  ],
+  "original_coordinate_exhaustive": true,
+  "recursive_reduction_classified": false,
+  "all_adjoint_generic_smoothness_proved": false,
+  "literature_priority_claim": false,
+  "source_sha256": {
+    "EXCEPTIONAL_QUARTIC_REDUCTION.md": "6fa25de2b4fe0a9d577c98774eb86100390880243c554f4730ce01552420e315",
+    "tools/unit_constraint_systems.py": "4ee8347146fae2059ba24ee9fd07e00b33ce44b26246267b07a6a941dab85b1f",
+    "tools/verify_unit_constraint_classification.py": "efb79db6e4c687f6a18c9bfbb3787945ada401252cf0ec075bbfbee66333d398",
+    "tools/linear_character_elimination.py": "bd7afc06ac567e5a20f4528b3c82c55fa5c49bd919f0b8971bb291174b5be1c5",
+    "tools/verify_branching_norm_fibers.py": "edd3b3b6dc11d6f2e09ad624e7cee4fceb76c066118d4926fd635fb2a8d3c02f",
+    "QUADRATIC_BRANCHING_FIBERS.md": "8cfaf1048c51b42778b4be668f7d79166424dce3cac4956511740e3582d4ae3a",
+    "EXCEPTIONAL_ADJOINT_CONTACT_FIBERS.md": "b091b15355cbd411736539ef60ea50361caa208ef210e4d4975432f5472084b4",
+    "CUBIC_LEVI_REFINEMENTS.md": "ee71f608ab03e7d9c6349b8b832e59df21482fcb5c141775267b11d8a806b815",
+    "BRANCHING_NORM_FIBERS.md": "b9e3e2788fcf50a97cfd085b54d833e840e30994caaf7a4967c96439c3a6c911"
+  }
+}

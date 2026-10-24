@@ -1,0 +1,80 @@
+{
+  "result": "passed",
+  "degree": 11,
+  "uniform_family_size": 112,
+  "E6_subgroups_lemma": true,
+  "orbit_size": 56,
+  "quadratic_Frobenius_identities_verified": true,
+  "half_sum_derivative_identity_verified": true,
+  "initial_kernel_rank_mod2": 461,
+  "primitive_kernel_rank_mod2": 462,
+  "rational_kernel_rank": 462,
+  "saturation_quotient_order": 2,
+  "mod2_syzygy_dimension": 1,
+  "good_Levi_count": 108,
+  "exceptional_noncubic_lifting_cases": [
+    {
+      "retained_nodes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "fixed_linear_forms": [],
+      "cubic_restriction": "a1^2*a2 + a1*a2^2 + a1^2*a3 + a1*a3^2 + a2^2*a4 + a2*a4^2 + a2^2*a6 + a5^2*a6 + a2*a6^2 + a5*a6^2",
+      "cubic_does_not_lift": true
+    },
+    {
+      "retained_nodes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "fixed_linear_forms": [
+        "a2 + a5"
+      ],
+      "cubic_restriction": "a1^2*a3 + a1*a3^2 + a1^2*a5 + a4^2*a5 + a1*a5^2 + a4*a5^2",
+      "cubic_does_not_lift": true
+    },
+    {
+      "retained_nodes": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "fixed_linear_forms": [
+        "a2 + a3"
+      ],
+      "cubic_restriction": "a3^2*a4 + a3*a4^2 + a3^2*a6 + a5^2*a6 + a3*a6^2 + a5*a6^2",
+      "cubic_does_not_lift": true
+    },
+    {
+      "retained_nodes": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "fixed_linear_forms": [
+        "a2 + a3",
+        "a2 + a5"
+      ],
+      "cubic_restriction": "a4^2*a5 + a4*a5^2",
+      "cubic_does_not_lift": true
+    }
+  ],
+  "seconds": 23.515,
+  "scope": "Noncircular degree-eleven invariant-kernel stability, with a general rank-one saturation lemma proved in the note. No Smith multiplicity input and no all-degree E7 structural theorem.",
+  "certificate_archive": "experiments/e7-degree11-lifting-certificates.json.gz",
+  "certificate_archive_sha256": "d6c57f3488ae62098f3294a1acc21627bc181b833359dec0b5dd9d96f4ce4302",
+  "source_sha256": {
+    "experiments/e7_degree11_lifting.py": "afceadf6a96c3c8ddff2a0f2521d4d2c018b6d30f62603ae6d4c0119c38d39fc",
+    "experiments/e7_full_flag_kernel.py": "c45140aa3d176d34ebc63b9faf638c6fdae192f8a2ff23bf31bf38cbbb8ee8a3"
+  }
+}

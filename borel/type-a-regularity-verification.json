@@ -1,0 +1,4597 @@
+{
+  "result": "passed",
+  "date": "2026-10-22",
+  "group": "SL_n(C)",
+  "uniform_theorem": "Nontrivial irreducible torus/global regularity preservation iff highest weight omega_1 or omega_(n-1)",
+  "proof": "TYPE_A_REGULARITY.md, Sections 2-5; not extrapolation from finite checks",
+  "finite_n_range": [
+    2,
+    6
+  ],
+  "all_normalized_partitions_through_size": 7,
+  "additional_symmetric_powers": [
+    8,
+    9,
+    10
+  ],
+  "character_cases": 149,
+  "independent_Jacobi_Trudi_character_and_derivative_checks": 149,
+  "exact_simple_coroot_trace_solves": 149,
+  "algebraic_witness_polynomials": 134,
+  "endpoint_cases": 9,
+  "interior_fundamental_cases": 6,
+  "symmetric_power_cases": 50,
+  "symmetric_power_complete_factor_checks": 50,
+  "nontrivial_central_quotient_descent_cases": 82,
+  "SL3_symmetric_square_example": {
+    "raw_torus": [
+      1,
+      2,
+      -2
+    ],
+    "raw_image": [
+      "-4/15",
+      "8/15",
+      "-4/15"
+    ],
+    "determinant_scaling": "c^3=-1/4, image scales by c^2"
+  },
+  "inherited_exterior_proof": "EXTERIOR_REGULARITY.md",
+  "root_existence": "Nonconstant polynomial over QQ; q(0)>0 and q(x)>0 for x>0. No approximate roots are used.",
+  "witnesses": [
+    {
+      "n": 2,
+      "partition": [
+        2,
+        0
+      ],
+      "highest_weight": [
+        2
+      ],
+      "dimension": 3,
+      "trace_index": "4",
+      "root_polynomial_coefficients_ascending": [
+        2,
+        2
+      ],
+      "remaining_coordinates": [
+        1
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        2
+      ]
+    },
+    {
+      "n": 2,
+      "partition": [
+        3,
+        0
+      ],
+      "highest_weight": [
+        3
+      ],
+      "dimension": 4,
+      "trace_index": "10",
+      "root_polynomial_coefficients_ascending": [
+        3,
+        4,
+        3
+      ],
+      "remaining_coordinates": [
+        1
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        2
+      ]
+    },
+    {
+      "n": 2,
+      "partition": [
+        4,
+        0
+      ],
+      "highest_weight": [
+        4
+      ],
+      "dimension": 5,
+      "trace_index": "20",
+      "root_polynomial_coefficients_ascending": [
+        4,
+        6,
+        6,
+        4
+      ],
+      "remaining_coordinates": [
+        1
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        2
+      ]
+    },
+    {
+      "n": 2,
+      "partition": [
+        5,
+        0
+      ],
+      "highest_weight": [
+        5
+      ],
+      "dimension": 6,
+      "trace_index": "35",
+      "root_polynomial_coefficients_ascending": [
+        5,
+        8,
+        9,
+        8,
+        5
+      ],
+      "remaining_coordinates": [
+        1
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        2
+      ]
+    },
+    {
+      "n": 2,
+      "partition": [
+        6,
+        0
+      ],
+      "highest_weight": [
+        6
+      ],
+      "dimension": 7,
+      "trace_index": "56",
+      "root_polynomial_coefficients_ascending": [
+        6,
+        10,
+        12,
+        12,
+        10,
+        6
+      ],
+      "remaining_coordinates": [
+        1
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        2
+      ]
+    },
+    {
+      "n": 2,
+      "partition": [
+        7,
+        0
+      ],
+      "highest_weight": [
+        7
+      ],
+      "dimension": 8,
+      "trace_index": "84",
+      "root_polynomial_coefficients_ascending": [
+        7,
+        12,
+        15,
+        16,
+        15,
+        12,
+        7
+      ],
+      "remaining_coordinates": [
+        1
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        2
+      ]
+    },
+    {
+      "n": 2,
+      "partition": [
+        8,
+        0
+      ],
+      "highest_weight": [
+        8
+      ],
+      "dimension": 9,
+      "trace_index": "120",
+      "root_polynomial_coefficients_ascending": [
+        8,
+        14,
+        18,
+        20,
+        20,
+        18,
+        14,
+        8
+      ],
+      "remaining_coordinates": [
+        1
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        2
+      ]
+    },
+    {
+      "n": 2,
+      "partition": [
+        9,
+        0
+      ],
+      "highest_weight": [
+        9
+      ],
+      "dimension": 10,
+      "trace_index": "165",
+      "root_polynomial_coefficients_ascending": [
+        9,
+        16,
+        21,
+        24,
+        25,
+        24,
+        21,
+        16,
+        9
+      ],
+      "remaining_coordinates": [
+        1
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        2
+      ]
+    },
+    {
+      "n": 2,
+      "partition": [
+        10,
+        0
+      ],
+      "highest_weight": [
+        10
+      ],
+      "dimension": 11,
+      "trace_index": "220",
+      "root_polynomial_coefficients_ascending": [
+        10,
+        18,
+        24,
+        28,
+        30,
+        30,
+        28,
+        24,
+        18,
+        10
+      ],
+      "remaining_coordinates": [
+        1
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        2
+      ]
+    },
+    {
+      "n": 3,
+      "partition": [
+        2,
+        0,
+        0
+      ],
+      "highest_weight": [
+        2,
+        0
+      ],
+      "dimension": 6,
+      "trace_index": "5",
+      "root_polynomial_coefficients_ascending": [
+        4,
+        2
+      ],
+      "remaining_coordinates": [
+        1,
+        2
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        3
+      ]
+    },
+    {
+      "n": 3,
+      "partition": [
+        2,
+        1,
+        0
+      ],
+      "highest_weight": [
+        1,
+        1
+      ],
+      "dimension": 8,
+      "trace_index": "6",
+      "root_polynomial_coefficients_ascending": [
+        8,
+        5
+      ],
+      "remaining_coordinates": [
+        1,
+        2
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        3
+      ]
+    },
+    {
+      "n": 3,
+      "partition": [
+        3,
+        0,
+        0
+      ],
+      "highest_weight": [
+        3,
+        0
+      ],
+      "dimension": 10,
+      "trace_index": "15",
+      "root_polynomial_coefficients_ascending": [
+        11,
+        8,
+        3
+      ],
+      "remaining_coordinates": [
+        1,
+        2
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        3
+      ]
+    },
+    {
+      "n": 3,
+      "partition": [
+        2,
+        2,
+        0
+      ],
+      "highest_weight": [
+        0,
+        2
+      ],
+      "dimension": 6,
+      "trace_index": "5",
+      "root_polynomial_coefficients_ascending": [
+        8,
+        10
+      ],
+      "remaining_coordinates": [
+        1,
+        2
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        3
+      ]
+    },
+    {
+      "n": 3,
+      "partition": [
+        3,
+        1,
+        0
+      ],
+      "highest_weight": [
+        2,
+        1
+      ],
+      "dimension": 15,
+      "trace_index": "20",
+      "root_polynomial_coefficients_ascending": [
+        22,
+        20,
+        8
+      ],
+      "remaining_coordinates": [
+        1,
+        2
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        3
+      ]
+    },
+    {
+      "n": 3,
+      "partition": [
+        4,
+        0,
+        0
+      ],
+      "highest_weight": [
+        4,
+        0
+      ],
+      "dimension": 15,
+      "trace_index": "35",
+      "root_polynomial_coefficients_ascending": [
+        26,
+        22,
+        12,
+        4
+      ],
+      "remaining_coordinates": [
+        1,
+        2
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        3
+      ]
+    },
+    {
+      "n": 3,
+      "partition": [
+        3,
+        2,
+        0
+      ],
+      "highest_weight": [
+        1,
+        2
+      ],
+      "dimension": 15,
+      "trace_index": "20",
+      "root_polynomial_coefficients_ascending": [
+        28,
+        40,
+        17
+      ],
+      "remaining_coordinates": [
+        1,
+        2
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        3
+      ]
+    },
+    {
+      "n": 3,
+      "partition": [
+        4,
+        1,
+        0
+      ],
+      "highest_weight": [
+        3,
+        1
+      ],
+      "dimension": 24,
+      "trace_index": "50",
+      "root_polynomial_coefficients_ascending": [
+        52,
+        55,
+        32,
+        11
+      ],
+      "remaining_coordinates": [
+        1,
+        2
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        3
+      ]
+    },
+    {
+      "n": 3,
+      "partition": [
+        5,
+        0,
+        0
+      ],
+      "highest_weight": [
+        5,
+        0
+      ],
+      "dimension": 21,
+      "trace_index": "70",
+      "root_polynomial_coefficients_ascending": [
+        57,
+        52,
+        33,
+        16,
+        5
+      ],
+      "remaining_coordinates": [
+        1,
+        2
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        3
+      ]
+    },
+    {
+      "n": 3,
+      "partition": [
+        3,
+        3,
+        0
+      ],
+      "highest_weight": [
+        0,
+        3
+      ],
+      "dimension": 10,
+      "trace_index": "15",
+      "root_polynomial_coefficients_ascending": [
+        24,
+        40,
+        34
+      ],
+      "remaining_coordinates": [
+        1,
+        2
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        3
+      ]
+    },
+    {
+      "n": 3,
+      "partition": [
+        4,
+        2,
+        0
+      ],
+      "highest_weight": [
+        2,
+        2
+      ],
+      "dimension": 27,
+      "trace_index": "54",
+      "root_polynomial_coefficients_ascending": [
+        72,
+        110,
+        68,
+        24
+      ],
+      "remaining_coordinates": [
+        1,
+        2
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        3
+      ]
+    },
+    {
+      "n": 3,
+      "partition": [
+        5,
+        1,
+        0
+      ],
+      "highest_weight": [
+        4,
+        1
+      ],
+      "dimension": 35,
+      "trace_index": "105",
+      "root_polynomial_coefficients_ascending": [
+        114,
+        130,
+        88,
+        44,
+        14
+      ],
+      "remaining_coordinates": [
+        1,
+        2
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        3
+      ]
+    },
+    {
+      "n": 3,
+      "partition": [
+        6,
+        0,
+        0
+      ],
+      "highest_weight": [
+        6,
+        0
+      ],
+      "dimension": 28,
+      "trace_index": "126",
+      "root_polynomial_coefficients_ascending": [
+        120,
+        114,
+        78,
+        44,
+        20,
+        6
+      ],
+      "remaining_coordinates": [
+        1,
+        2
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        3
+      ]
+    },
+    {
+      "n": 3,
+      "partition": [
+        4,
+        3,
+        0
+      ],
+      "highest_weight": [
+        1,
+        3
+      ],
+      "dimension": 24,
+      "trace_index": "50",
+      "root_polynomial_coefficients_ascending": [
+        80,
+        140,
+        136,
+        49
+      ],
+      "remaining_coordinates": [
+        1,
+        2
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        3
+      ]
+    },
+    {
+      "n": 3,
+      "partition": [
+        5,
+        2,
+        0
+      ],
+      "highest_weight": [
+        3,
+        2
+      ],
+      "dimension": 42,
+      "trace_index": "119",
+      "root_polynomial_coefficients_ascending": [
+        164,
+        260,
+        187,
+        96,
+        31
+      ],
+      "remaining_coordinates": [
+        1,
+        2
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        3
+      ]
+    },
+    {
+      "n": 3,
+      "partition": [
+        6,
+        1,
+        0
+      ],
+      "highest_weight": [
+        5,
+        1
+      ],
+      "dimension": 48,
+      "trace_index": "196",
+      "root_polynomial_coefficients_ascending": [
+        240,
+        285,
+        208,
+        121,
+        56,
+        17
+      ],
+      "remaining_coordinates": [
+        1,
+        2
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        3
+      ]
+    },
+    {
+      "n": 3,
+      "partition": [
+        7,
+        0,
+        0
+      ],
+      "highest_weight": [
+        7,
+        0
+      ],
+      "dimension": 36,
+      "trace_index": "210",
+      "root_polynomial_coefficients_ascending": [
+        247,
+        240,
+        171,
+        104,
+        55,
+        24,
+        7
+      ],
+      "remaining_coordinates": [
+        1,
+        2
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        3
+      ]
+    },
+    {
+      "n": 3,
+      "partition": [
+        8,
+        0,
+        0
+      ],
+      "highest_weight": [
+        8,
+        0
+      ],
+      "dimension": 45,
+      "trace_index": "330",
+      "root_polynomial_coefficients_ascending": [
+        502,
+        494,
+        360,
+        228,
+        130,
+        66,
+        28,
+        8
+      ],
+      "remaining_coordinates": [
+        1,
+        2
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        3
+      ]
+    },
+    {
+      "n": 3,
+      "partition": [
+        9,
+        0,
+        0
+      ],
+      "highest_weight": [
+        9,
+        0
+      ],
+      "dimension": 55,
+      "trace_index": "495",
+      "root_polynomial_coefficients_ascending": [
+        1013,
+        1004,
+        741,
+        480,
+        285,
+        156,
+        77,
+        32,
+        9
+      ],
+      "remaining_coordinates": [
+        1,
+        2
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        3
+      ]
+    },
+    {
+      "n": 3,
+      "partition": [
+        10,
+        0,
+        0
+      ],
+      "highest_weight": [
+        10,
+        0
+      ],
+      "dimension": 66,
+      "trace_index": "715",
+      "root_polynomial_coefficients_ascending": [
+        2036,
+        2026,
+        1506,
+        988,
+        600,
+        342,
+        182,
+        88,
+        36,
+        10
+      ],
+      "remaining_coordinates": [
+        1,
+        2
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        3
+      ]
+    },
+    {
+      "n": 4,
+      "partition": [
+        2,
+        0,
+        0,
+        0
+      ],
+      "highest_weight": [
+        2,
+        0,
+        0
+      ],
+      "dimension": 10,
+      "trace_index": "6",
+      "root_polynomial_coefficients_ascending": [
+        7,
+        2
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        4
+      ]
+    },
+    {
+      "n": 4,
+      "partition": [
+        2,
+        1,
+        0,
+        0
+      ],
+      "highest_weight": [
+        1,
+        1,
+        0
+      ],
+      "dimension": 20,
+      "trace_index": "13",
+      "root_polynomial_coefficients_ascending": [
+        35,
+        11
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        4
+      ]
+    },
+    {
+      "n": 4,
+      "partition": [
+        3,
+        0,
+        0,
+        0
+      ],
+      "highest_weight": [
+        3,
+        0,
+        0
+      ],
+      "dimension": 20,
+      "trace_index": "21",
+      "root_polynomial_coefficients_ascending": [
+        32,
+        14,
+        3
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        4
+      ]
+    },
+    {
+      "n": 4,
+      "partition": [
+        2,
+        1,
+        1,
+        0
+      ],
+      "highest_weight": [
+        1,
+        0,
+        1
+      ],
+      "dimension": 15,
+      "trace_index": "8",
+      "root_polynomial_coefficients_ascending": [
+        42,
+        17
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        4
+      ]
+    },
+    {
+      "n": 4,
+      "partition": [
+        2,
+        2,
+        0,
+        0
+      ],
+      "highest_weight": [
+        0,
+        2,
+        0
+      ],
+      "dimension": 20,
+      "trace_index": "16",
+      "root_polynomial_coefficients_ascending": [
+        68,
+        43
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        4
+      ]
+    },
+    {
+      "n": 4,
+      "partition": [
+        3,
+        1,
+        0,
+        0
+      ],
+      "highest_weight": [
+        2,
+        1,
+        0
+      ],
+      "dimension": 45,
+      "trace_index": "48",
+      "root_polynomial_coefficients_ascending": [
+        160,
+        77,
+        17
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        4
+      ]
+    },
+    {
+      "n": 4,
+      "partition": [
+        4,
+        0,
+        0,
+        0
+      ],
+      "highest_weight": [
+        4,
+        0,
+        0
+      ],
+      "dimension": 35,
+      "trace_index": "56",
+      "root_polynomial_coefficients_ascending": [
+        122,
+        64,
+        21,
+        4
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        4
+      ]
+    },
+    {
+      "n": 4,
+      "partition": [
+        2,
+        2,
+        1,
+        0
+      ],
+      "highest_weight": [
+        0,
+        1,
+        1
+      ],
+      "dimension": 20,
+      "trace_index": "13",
+      "root_polynomial_coefficients_ascending": [
+        96,
+        85
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        4
+      ]
+    },
+    {
+      "n": 4,
+      "partition": [
+        3,
+        1,
+        1,
+        0
+      ],
+      "highest_weight": [
+        2,
+        0,
+        1
+      ],
+      "dimension": 36,
+      "trace_index": "33",
+      "root_polynomial_coefficients_ascending": [
+        192,
+        119,
+        28
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        4
+      ]
+    },
+    {
+      "n": 4,
+      "partition": [
+        3,
+        2,
+        0,
+        0
+      ],
+      "highest_weight": [
+        1,
+        2,
+        0
+      ],
+      "dimension": 60,
+      "trace_index": "71",
+      "root_polynomial_coefficients_ascending": [
+        397,
+        301,
+        68
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        4
+      ]
+    },
+    {
+      "n": 4,
+      "partition": [
+        4,
+        1,
+        0,
+        0
+      ],
+      "highest_weight": [
+        3,
+        1,
+        0
+      ],
+      "dimension": 84,
+      "trace_index": "133",
+      "root_polynomial_coefficients_ascending": [
+        610,
+        352,
+        119,
+        23
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        4
+      ]
+    },
+    {
+      "n": 4,
+      "partition": [
+        5,
+        0,
+        0,
+        0
+      ],
+      "highest_weight": [
+        5,
+        0,
+        0
+      ],
+      "dimension": 56,
+      "trace_index": "126",
+      "root_polynomial_coefficients_ascending": [
+        423,
+        244,
+        96,
+        28,
+        5
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        4
+      ]
+    },
+    {
+      "n": 4,
+      "partition": [
+        2,
+        2,
+        2,
+        0
+      ],
+      "highest_weight": [
+        0,
+        0,
+        2
+      ],
+      "dimension": 10,
+      "trace_index": "6",
+      "root_polynomial_coefficients_ascending": [
+        72,
+        102
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        4
+      ]
+    },
+    {
+      "n": 4,
+      "partition": [
+        3,
+        2,
+        1,
+        0
+      ],
+      "highest_weight": [
+        1,
+        1,
+        1
+      ],
+      "dimension": 64,
+      "trace_index": "64",
+      "root_polynomial_coefficients_ascending": [
+        570,
+        595,
+        145
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        4
+      ]
+    },
+    {
+      "n": 4,
+      "partition": [
+        3,
+        3,
+        0,
+        0
+      ],
+      "highest_weight": [
+        0,
+        3,
+        0
+      ],
+      "dimension": 50,
+      "trace_index": "70",
+      "root_polynomial_coefficients_ascending": [
+        603,
+        556,
+        238
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        4
+      ]
+    },
+    {
+      "n": 4,
+      "partition": [
+        4,
+        1,
+        1,
+        0
+      ],
+      "highest_weight": [
+        3,
+        0,
+        1
+      ],
+      "dimension": 70,
+      "trace_index": "98",
+      "root_polynomial_coefficients_ascending": [
+        732,
+        544,
+        196,
+        39
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        4
+      ]
+    },
+    {
+      "n": 4,
+      "partition": [
+        4,
+        2,
+        0,
+        0
+      ],
+      "highest_weight": [
+        2,
+        2,
+        0
+      ],
+      "dimension": 126,
+      "trace_index": "210",
+      "root_polynomial_coefficients_ascending": [
+        1653,
+        1376,
+        476,
+        93
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        4
+      ]
+    },
+    {
+      "n": 4,
+      "partition": [
+        5,
+        1,
+        0,
+        0
+      ],
+      "highest_weight": [
+        4,
+        1,
+        0
+      ],
+      "dimension": 140,
+      "trace_index": "308",
+      "root_polynomial_coefficients_ascending": [
+        2115,
+        1342,
+        544,
+        161,
+        29
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        4
+      ]
+    },
+    {
+      "n": 4,
+      "partition": [
+        6,
+        0,
+        0,
+        0
+      ],
+      "highest_weight": [
+        6,
+        0,
+        0
+      ],
+      "dimension": 84,
+      "trace_index": "252",
+      "root_polynomial_coefficients_ascending": [
+        1389,
+        846,
+        366,
+        128,
+        35,
+        6
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        4
+      ]
+    },
+    {
+      "n": 4,
+      "partition": [
+        3,
+        2,
+        2,
+        0
+      ],
+      "highest_weight": [
+        1,
+        0,
+        2
+      ],
+      "dimension": 36,
+      "trace_index": "33",
+      "root_polynomial_coefficients_ascending": [
+        468,
+        714,
+        187
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        4
+      ]
+    },
+    {
+      "n": 4,
+      "partition": [
+        3,
+        3,
+        1,
+        0
+      ],
+      "highest_weight": [
+        0,
+        2,
+        1
+      ],
+      "dimension": 60,
+      "trace_index": "71",
+      "root_polynomial_coefficients_ascending": [
+        918,
+        1156,
+        557
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        4
+      ]
+    },
+    {
+      "n": 4,
+      "partition": [
+        4,
+        2,
+        1,
+        0
+      ],
+      "highest_weight": [
+        2,
+        1,
+        1
+      ],
+      "dimension": 140,
+      "trace_index": "203",
+      "root_polynomial_coefficients_ascending": [
+        2394,
+        2720,
+        1015,
+        205
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        4
+      ]
+    },
+    {
+      "n": 4,
+      "partition": [
+        4,
+        3,
+        0,
+        0
+      ],
+      "highest_weight": [
+        1,
+        3,
+        0
+      ],
+      "dimension": 140,
+      "trace_index": "259",
+      "root_polynomial_coefficients_ascending": [
+        3275,
+        3227,
+        1666,
+        328
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        4
+      ]
+    },
+    {
+      "n": 4,
+      "partition": [
+        5,
+        1,
+        1,
+        0
+      ],
+      "highest_weight": [
+        4,
+        0,
+        1
+      ],
+      "dimension": 120,
+      "trace_index": "238",
+      "root_polynomial_coefficients_ascending": [
+        2538,
+        2074,
+        896,
+        273,
+        50
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        4
+      ]
+    },
+    {
+      "n": 4,
+      "partition": [
+        5,
+        2,
+        0,
+        0
+      ],
+      "highest_weight": [
+        3,
+        2,
+        0
+      ],
+      "dimension": 224,
+      "trace_index": "504",
+      "root_polynomial_coefficients_ascending": [
+        5978,
+        5246,
+        2176,
+        651,
+        118
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        4
+      ]
+    },
+    {
+      "n": 4,
+      "partition": [
+        6,
+        1,
+        0,
+        0
+      ],
+      "highest_weight": [
+        5,
+        1,
+        0
+      ],
+      "dimension": 216,
+      "trace_index": "630",
+      "root_polynomial_coefficients_ascending": [
+        6945,
+        4653,
+        2074,
+        736,
+        203,
+        35
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        4
+      ]
+    },
+    {
+      "n": 4,
+      "partition": [
+        7,
+        0,
+        0,
+        0
+      ],
+      "highest_weight": [
+        7,
+        0,
+        0
+      ],
+      "dimension": 120,
+      "trace_index": "462",
+      "root_polynomial_coefficients_ascending": [
+        4414,
+        2778,
+        1269,
+        488,
+        160,
+        42,
+        7
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        4
+      ]
+    },
+    {
+      "n": 4,
+      "partition": [
+        8,
+        0,
+        0,
+        0
+      ],
+      "highest_weight": [
+        8,
+        0,
+        0
+      ],
+      "dimension": 165,
+      "trace_index": "792",
+      "root_polynomial_coefficients_ascending": [
+        13744,
+        8828,
+        4167,
+        1692,
+        610,
+        192,
+        49,
+        8
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        4
+      ]
+    },
+    {
+      "n": 4,
+      "partition": [
+        9,
+        0,
+        0,
+        0
+      ],
+      "highest_weight": [
+        9,
+        0,
+        0
+      ],
+      "dimension": 220,
+      "trace_index": "1287",
+      "root_polynomial_coefficients_ascending": [
+        42245,
+        27488,
+        13242,
+        5556,
+        2115,
+        732,
+        224,
+        56,
+        9
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        4
+      ]
+    },
+    {
+      "n": 4,
+      "partition": [
+        10,
+        0,
+        0,
+        0
+      ],
+      "highest_weight": [
+        10,
+        0,
+        0
+      ],
+      "dimension": 286,
+      "trace_index": "2002",
+      "root_polynomial_coefficients_ascending": [
+        128771,
+        84490,
+        41232,
+        17656,
+        6945,
+        2538,
+        854,
+        256,
+        63,
+        10
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        4
+      ]
+    },
+    {
+      "n": 5,
+      "partition": [
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "highest_weight": [
+        2,
+        0,
+        0,
+        0
+      ],
+      "dimension": 15,
+      "trace_index": "7",
+      "root_polynomial_coefficients_ascending": [
+        11,
+        2
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        5
+      ]
+    },
+    {
+      "n": 5,
+      "partition": [
+        2,
+        1,
+        0,
+        0,
+        0
+      ],
+      "highest_weight": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "dimension": 40,
+      "trace_index": "22",
+      "root_polynomial_coefficients_ascending": [
+        99,
+        19
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        5
+      ]
+    },
+    {
+      "n": 5,
+      "partition": [
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "highest_weight": [
+        3,
+        0,
+        0,
+        0
+      ],
+      "dimension": 35,
+      "trace_index": "28",
+      "root_polynomial_coefficients_ascending": [
+        76,
+        22,
+        3
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        5
+      ]
+    },
+    {
+      "n": 5,
+      "partition": [
+        2,
+        1,
+        1,
+        0,
+        0
+      ],
+      "highest_weight": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "dimension": 45,
+      "trace_index": "24",
+      "root_polynomial_coefficients_ascending": [
+        286,
+        61
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        5
+      ]
+    },
+    {
+      "n": 5,
+      "partition": [
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "highest_weight": [
+        0,
+        2,
+        0,
+        0
+      ],
+      "dimension": 50,
+      "trace_index": "35",
+      "root_polynomial_coefficients_ascending": [
+        320,
+        119
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        5
+      ]
+    },
+    {
+      "n": 5,
+      "partition": [
+        3,
+        1,
+        0,
+        0,
+        0
+      ],
+      "highest_weight": [
+        2,
+        1,
+        0,
+        0
+      ],
+      "dimension": 105,
+      "trace_index": "91",
+      "root_polynomial_coefficients_ascending": [
+        684,
+        209,
+        29
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        5
+      ]
+    },
+    {
+      "n": 5,
+      "partition": [
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      "highest_weight": [
+        4,
+        0,
+        0,
+        0
+      ],
+      "dimension": 70,
+      "trace_index": "84",
+      "root_polynomial_coefficients_ascending": [
+        426,
+        152,
+        33,
+        4
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        5
+      ]
+    },
+    {
+      "n": 5,
+      "partition": [
+        2,
+        1,
+        1,
+        1,
+        0
+      ],
+      "highest_weight": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "dimension": 24,
+      "trace_index": "10",
+      "root_polynomial_coefficients_ascending": [
+        264,
+        74
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        5
+      ]
+    },
+    {
+      "n": 5,
+      "partition": [
+        2,
+        2,
+        1,
+        0,
+        0
+      ],
+      "highest_weight": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "dimension": 75,
+      "trace_index": "50",
+      "root_polynomial_coefficients_ascending": [
+        1096,
+        501
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        5
+      ]
+    },
+    {
+      "n": 5,
+      "partition": [
+        3,
+        1,
+        1,
+        0,
+        0
+      ],
+      "highest_weight": [
+        2,
+        0,
+        1,
+        0
+      ],
+      "dimension": 126,
+      "trace_index": "105",
+      "root_polynomial_coefficients_ascending": [
+        1976,
+        671,
+        96
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        5
+      ]
+    },
+    {
+      "n": 5,
+      "partition": [
+        3,
+        2,
+        0,
+        0,
+        0
+      ],
+      "highest_weight": [
+        1,
+        2,
+        0,
+        0
+      ],
+      "dimension": 175,
+      "trace_index": "175",
+      "root_polynomial_coefficients_ascending": [
+        2829,
+        1309,
+        184
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        5
+      ]
+    },
+    {
+      "n": 5,
+      "partition": [
+        4,
+        1,
+        0,
+        0,
+        0
+      ],
+      "highest_weight": [
+        3,
+        1,
+        0,
+        0
+      ],
+      "dimension": 224,
+      "trace_index": "280",
+      "root_polynomial_coefficients_ascending": [
+        3834,
+        1444,
+        319,
+        39
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        5
+      ]
+    },
+    {
+      "n": 5,
+      "partition": [
+        5,
+        0,
+        0,
+        0,
+        0
+      ],
+      "highest_weight": [
+        5,
+        0,
+        0,
+        0
+      ],
+      "dimension": 126,
+      "trace_index": "210",
+      "root_polynomial_coefficients_ascending": [
+        2127,
+        852,
+        228,
+        44,
+        5
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        5
+      ]
+    },
+    {
+      "n": 5,
+      "partition": [
+        2,
+        2,
+        1,
+        1,
+        0
+      ],
+      "highest_weight": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "dimension": 45,
+      "trace_index": "24",
+      "root_polynomial_coefficients_ascending": [
+        1056,
+        666
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        5
+      ]
+    },
+    {
+      "n": 5,
+      "partition": [
+        2,
+        2,
+        2,
+        0,
+        0
+      ],
+      "highest_weight": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "dimension": 50,
+      "trace_index": "35",
+      "root_polynomial_coefficients_ascending": [
+        1544,
+        1130
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        5
+      ]
+    },
+    {
+      "n": 5,
+      "partition": [
+        3,
+        1,
+        1,
+        1,
+        0
+      ],
+      "highest_weight": [
+        2,
+        0,
+        0,
+        1
+      ],
+      "dimension": 70,
+      "trace_index": "49",
+      "root_polynomial_coefficients_ascending": [
+        1824,
+        814,
+        124
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        5
+      ]
+    },
+    {
+      "n": 5,
+      "partition": [
+        3,
+        2,
+        1,
+        0,
+        0
+      ],
+      "highest_weight": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "dimension": 280,
+      "trace_index": "266",
+      "root_polynomial_coefficients_ascending": [
+        9870,
+        5511,
+        801
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        5
+      ]
+    },
+    {
+      "n": 5,
+      "partition": [
+        3,
+        3,
+        0,
+        0,
+        0
+      ],
+      "highest_weight": [
+        0,
+        3,
+        0,
+        0
+      ],
+      "dimension": 175,
+      "trace_index": "210",
+      "root_polynomial_coefficients_ascending": [
+        6799,
+        3888,
+        974
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        5
+      ]
+    },
+    {
+      "n": 5,
+      "partition": [
+        4,
+        1,
+        1,
+        0,
+        0
+      ],
+      "highest_weight": [
+        3,
+        0,
+        1,
+        0
+      ],
+      "dimension": 280,
+      "trace_index": "336",
+      "root_polynomial_coefficients_ascending": [
+        11076,
+        4636,
+        1056,
+        131
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        5
+      ]
+    },
+    {
+      "n": 5,
+      "partition": [
+        4,
+        2,
+        0,
+        0,
+        0
+      ],
+      "highest_weight": [
+        2,
+        2,
+        0,
+        0
+      ],
+      "dimension": 420,
+      "trace_index": "574",
+      "root_polynomial_coefficients_ascending": [
+        17361,
+        9044,
+        2024,
+        249
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        5
+      ]
+    },
+    {
+      "n": 5,
+      "partition": [
+        5,
+        1,
+        0,
+        0,
+        0
+      ],
+      "highest_weight": [
+        4,
+        1,
+        0,
+        0
+      ],
+      "dimension": 420,
+      "trace_index": "714",
+      "root_polynomial_coefficients_ascending": [
+        19143,
+        8094,
+        2204,
+        429,
+        49
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        5
+      ]
+    },
+    {
+      "n": 5,
+      "partition": [
+        6,
+        0,
+        0,
+        0,
+        0
+      ],
+      "highest_weight": [
+        6,
+        0,
+        0,
+        0
+      ],
+      "dimension": 210,
+      "trace_index": "462",
+      "root_polynomial_coefficients_ascending": [
+        9897,
+        4254,
+        1278,
+        304,
+        55,
+        6
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        5
+      ]
+    },
+    {
+      "n": 5,
+      "partition": [
+        2,
+        2,
+        2,
+        1,
+        0
+      ],
+      "highest_weight": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "dimension": 40,
+      "trace_index": "22",
+      "root_polynomial_coefficients_ascending": [
+        1824,
+        1924
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        5
+      ]
+    },
+    {
+      "n": 5,
+      "partition": [
+        3,
+        2,
+        1,
+        1,
+        0
+      ],
+      "highest_weight": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "dimension": 175,
+      "trace_index": "140",
+      "root_polynomial_coefficients_ascending": [
+        9576,
+        7326,
+        1142
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        5
+      ]
+    },
+    {
+      "n": 5,
+      "partition": [
+        3,
+        2,
+        2,
+        0,
+        0
+      ],
+      "highest_weight": [
+        1,
+        0,
+        2,
+        0
+      ],
+      "dimension": 210,
+      "trace_index": "203",
+      "root_polynomial_coefficients_ascending": [
+        15276,
+        12430,
+        1855
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        5
+      ]
+    },
+    {
+      "n": 5,
+      "partition": [
+        3,
+        3,
+        1,
+        0,
+        0
+      ],
+      "highest_weight": [
+        0,
+        2,
+        1,
+        0
+      ],
+      "dimension": 315,
+      "trace_index": "357",
+      "root_polynomial_coefficients_ascending": [
+        25274,
+        17408,
+        4713
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        5
+      ]
+    },
+    {
+      "n": 5,
+      "partition": [
+        4,
+        1,
+        1,
+        1,
+        0
+      ],
+      "highest_weight": [
+        3,
+        0,
+        0,
+        1
+      ],
+      "dimension": 160,
+      "trace_index": "168",
+      "root_polynomial_coefficients_ascending": [
+        10224,
+        5624,
+        1364,
+        174
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        5
+      ]
+    },
+    {
+      "n": 5,
+      "partition": [
+        4,
+        2,
+        1,
+        0,
+        0
+      ],
+      "highest_weight": [
+        2,
+        1,
+        1,
+        0
+      ],
+      "dimension": 700,
+      "trace_index": "910",
+      "root_polynomial_coefficients_ascending": [
+        61174,
+        38076,
+        8811,
+        1101
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        5
+      ]
+    },
+    {
+      "n": 5,
+      "partition": [
+        4,
+        3,
+        0,
+        0,
+        0
+      ],
+      "highest_weight": [
+        1,
+        3,
+        0,
+        0
+      ],
+      "dimension": 560,
+      "trace_index": "868",
+      "root_polynomial_coefficients_ascending": [
+        54651,
+        34011,
+        10714,
+        1324
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        5
+      ]
+    },
+    {
+      "n": 5,
+      "partition": [
+        5,
+        1,
+        1,
+        0,
+        0
+      ],
+      "highest_weight": [
+        4,
+        0,
+        1,
+        0
+      ],
+      "dimension": 540,
+      "trace_index": "882",
+      "root_polynomial_coefficients_ascending": [
+        55302,
+        25986,
+        7296,
+        1441,
+        166
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        5
+      ]
+    },
+    {
+      "n": 5,
+      "partition": [
+        5,
+        2,
+        0,
+        0,
+        0
+      ],
+      "highest_weight": [
+        3,
+        2,
+        0,
+        0
+      ],
+      "dimension": 840,
+      "trace_index": "1512",
+      "root_polynomial_coefficients_ascending": [
+        90650,
+        50694,
+        13984,
+        2739,
+        314
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        5
+      ]
+    },
+    {
+      "n": 5,
+      "partition": [
+        6,
+        1,
+        0,
+        0,
+        0
+      ],
+      "highest_weight": [
+        5,
+        1,
+        0,
+        0
+      ],
+      "dimension": 720,
+      "trace_index": "1596",
+      "root_polynomial_coefficients_ascending": [
+        89073,
+        40413,
+        12354,
+        2964,
+        539,
+        59
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        5
+      ]
+    },
+    {
+      "n": 5,
+      "partition": [
+        7,
+        0,
+        0,
+        0,
+        0
+      ],
+      "highest_weight": [
+        7,
+        0,
+        0,
+        0
+      ],
+      "dimension": 330,
+      "trace_index": "924",
+      "root_polynomial_coefficients_ascending": [
+        44002,
+        19794,
+        6381,
+        1704,
+        380,
+        66,
+        7
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        5
+      ]
+    },
+    {
+      "n": 5,
+      "partition": [
+        8,
+        0,
+        0,
+        0,
+        0
+      ],
+      "highest_weight": [
+        8,
+        0,
+        0,
+        0
+      ],
+      "dimension": 495,
+      "trace_index": "1716",
+      "root_polynomial_coefficients_ascending": [
+        189752,
+        88004,
+        29691,
+        8508,
+        2130,
+        456,
+        77,
+        8
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        5
+      ]
+    },
+    {
+      "n": 5,
+      "partition": [
+        9,
+        0,
+        0,
+        0,
+        0
+      ],
+      "highest_weight": [
+        9,
+        0,
+        0,
+        0
+      ],
+      "dimension": 715,
+      "trace_index": "3003",
+      "root_polynomial_coefficients_ascending": [
+        801253,
+        379504,
+        132006,
+        39588,
+        10635,
+        2556,
+        532,
+        88,
+        9
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        5
+      ]
+    },
+    {
+      "n": 5,
+      "partition": [
+        10,
+        0,
+        0,
+        0,
+        0
+      ],
+      "highest_weight": [
+        10,
+        0,
+        0,
+        0
+      ],
+      "dimension": 1001,
+      "trace_index": "5005",
+      "root_polynomial_coefficients_ascending": [
+        3333783,
+        1602506,
+        569256,
+        176008,
+        49485,
+        12762,
+        2982,
+        608,
+        99,
+        10
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        5
+      ]
+    },
+    {
+      "n": 6,
+      "partition": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "highest_weight": [
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "dimension": 21,
+      "trace_index": "8",
+      "root_polynomial_coefficients_ascending": [
+        16,
+        2
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        6
+      ]
+    },
+    {
+      "n": 6,
+      "partition": [
+        2,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "highest_weight": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "dimension": 70,
+      "trace_index": "33",
+      "root_polynomial_coefficients_ascending": [
+        224,
+        29
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        6
+      ]
+    },
+    {
+      "n": 6,
+      "partition": [
+        3,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "highest_weight": [
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "dimension": 56,
+      "trace_index": "36",
+      "root_polynomial_coefficients_ascending": [
+        156,
+        32,
+        3
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        6
+      ]
+    },
+    {
+      "n": 6,
+      "partition": [
+        2,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "highest_weight": [
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "dimension": 105,
+      "trace_index": "52",
+      "root_polynomial_coefficients_ascending": [
+        1136,
+        156
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        6
+      ]
+    },
+    {
+      "n": 6,
+      "partition": [
+        2,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "highest_weight": [
+        0,
+        2,
+        0,
+        0,
+        0
+      ],
+      "dimension": 105,
+      "trace_index": "64",
+      "root_polynomial_coefficients_ascending": [
+        1090,
+        264
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        6
+      ]
+    },
+    {
+      "n": 6,
+      "partition": [
+        3,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "highest_weight": [
+        2,
+        1,
+        0,
+        0,
+        0
+      ],
+      "dimension": 210,
+      "trace_index": "152",
+      "root_polynomial_coefficients_ascending": [
+        2184,
+        464,
+        44
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        6
+      ]
+    },
+    {
+      "n": 6,
+      "partition": [
+        4,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "highest_weight": [
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      "dimension": 126,
+      "trace_index": "120",
+      "root_polynomial_coefficients_ascending": [
+        1206,
+        312,
+        48,
+        4
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        6
+      ]
+    },
+    {
+      "n": 6,
+      "partition": [
+        2,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "highest_weight": [
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "dimension": 84,
+      "trace_index": "38",
+      "root_polynomial_coefficients_ascending": [
+        2464,
+        379
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        6
+      ]
+    },
+    {
+      "n": 6,
+      "partition": [
+        2,
+        2,
+        1,
+        0,
+        0,
+        0
+      ],
+      "highest_weight": [
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "dimension": 210,
+      "trace_index": "131",
+      "root_polynomial_coefficients_ascending": [
+        6601,
+        1876
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        6
+      ]
+    },
+    {
+      "n": 6,
+      "partition": [
+        3,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "highest_weight": [
+        2,
+        0,
+        1,
+        0,
+        0
+      ],
+      "dimension": 336,
+      "trace_index": "248",
+      "root_polynomial_coefficients_ascending": [
+        11076,
+        2496,
+        241
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        6
+      ]
+    },
+    {
+      "n": 6,
+      "partition": [
+        3,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "highest_weight": [
+        1,
+        2,
+        0,
+        0,
+        0
+      ],
+      "dimension": 420,
+      "trace_index": "358",
+      "root_polynomial_coefficients_ascending": [
+        13599,
+        4224,
+        404
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        6
+      ]
+    },
+    {
+      "n": 6,
+      "partition": [
+        4,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "highest_weight": [
+        3,
+        1,
+        0,
+        0,
+        0
+      ],
+      "dimension": 504,
+      "trace_index": "516",
+      "root_polynomial_coefficients_ascending": [
+        16884,
+        4524,
+        704,
+        59
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        6
+      ]
+    },
+    {
+      "n": 6,
+      "partition": [
+        5,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "highest_weight": [
+        5,
+        0,
+        0,
+        0,
+        0
+      ],
+      "dimension": 252,
+      "trace_index": "330",
+      "root_polynomial_coefficients_ascending": [
+        8157,
+        2412,
+        468,
+        64,
+        5
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        6
+      ]
+    },
+    {
+      "n": 6,
+      "partition": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "highest_weight": [
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "dimension": 35,
+      "trace_index": "12",
+      "root_polynomial_coefficients_ascending": [
+        1920,
+        394
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        6
+      ]
+    },
+    {
+      "n": 6,
+      "partition": [
+        2,
+        2,
+        1,
+        1,
+        0,
+        0
+      ],
+      "highest_weight": [
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "dimension": 189,
+      "trace_index": "108",
+      "root_polynomial_coefficients_ascending": [
+        15006,
+        5066
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        6
+      ]
+    },
+    {
+      "n": 6,
+      "partition": [
+        2,
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "highest_weight": [
+        0,
+        0,
+        2,
+        0,
+        0
+      ],
+      "dimension": 175,
+      "trace_index": "120",
+      "root_polynomial_coefficients_ascending": [
+        15024,
+        6610
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        6
+      ]
+    },
+    {
+      "n": 6,
+      "partition": [
+        3,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "highest_weight": [
+        2,
+        0,
+        0,
+        1,
+        0
+      ],
+      "dimension": 280,
+      "trace_index": "192",
+      "root_polynomial_coefficients_ascending": [
+        24024,
+        6064,
+        604
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        6
+      ]
+    },
+    {
+      "n": 6,
+      "partition": [
+        3,
+        2,
+        1,
+        0,
+        0,
+        0
+      ],
+      "highest_weight": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "dimension": 896,
+      "trace_index": "768",
+      "root_polynomial_coefficients_ascending": [
+        84000,
+        30016,
+        2926
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        6
+      ]
+    },
+    {
+      "n": 6,
+      "partition": [
+        3,
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "highest_weight": [
+        0,
+        3,
+        0,
+        0,
+        0
+      ],
+      "dimension": 490,
+      "trace_index": "504",
+      "root_polynomial_coefficients_ascending": [
+        47544,
+        18408,
+        2994
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        6
+      ]
+    },
+    {
+      "n": 6,
+      "partition": [
+        4,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "highest_weight": [
+        3,
+        0,
+        1,
+        0,
+        0
+      ],
+      "dimension": 840,
+      "trace_index": "864",
+      "root_polynomial_coefficients_ascending": [
+        85626,
+        24336,
+        3856,
+        326
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        6
+      ]
+    },
+    {
+      "n": 6,
+      "partition": [
+        4,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "highest_weight": [
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "dimension": 1134,
+      "trace_index": "1296",
+      "root_polynomial_coefficients_ascending": [
+        115176,
+        41184,
+        6464,
+        544
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        6
+      ]
+    },
+    {
+      "n": 6,
+      "partition": [
+        5,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "highest_weight": [
+        4,
+        1,
+        0,
+        0,
+        0
+      ],
+      "dimension": 1050,
+      "trace_index": "1440",
+      "root_polynomial_coefficients_ascending": [
+        114198,
+        34974,
+        6864,
+        944,
+        74
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        6
+      ]
+    },
+    {
+      "n": 6,
+      "partition": [
+        6,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "highest_weight": [
+        6,
+        0,
+        0,
+        0,
+        0
+      ],
+      "dimension": 462,
+      "trace_index": "792",
+      "root_polynomial_coefficients_ascending": [
+        50682,
+        16314,
+        3618,
+        624,
+        80,
+        6
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        6
+      ]
+    },
+    {
+      "n": 6,
+      "partition": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        0
+      ],
+      "highest_weight": [
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "dimension": 84,
+      "trace_index": "38",
+      "root_polynomial_coefficients_ascending": [
+        11880,
+        5516
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        6
+      ]
+    },
+    {
+      "n": 6,
+      "partition": [
+        2,
+        2,
+        2,
+        1,
+        0,
+        0
+      ],
+      "highest_weight": [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "dimension": 210,
+      "trace_index": "131",
+      "root_polynomial_coefficients_ascending": [
+        42224,
+        23429
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        6
+      ]
+    },
+    {
+      "n": 6,
+      "partition": [
+        3,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "highest_weight": [
+        2,
+        0,
+        0,
+        0,
+        1
+      ],
+      "dimension": 120,
+      "trace_index": "68",
+      "root_polynomial_coefficients_ascending": [
+        18720,
+        6304,
+        668
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        6
+      ]
+    },
+    {
+      "n": 6,
+      "partition": [
+        3,
+        2,
+        1,
+        1,
+        0,
+        0
+      ],
+      "highest_weight": [
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "dimension": 840,
+      "trace_index": "668",
+      "root_polynomial_coefficients_ascending": [
+        192476,
+        81056,
+        8167
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        6
+      ]
+    },
+    {
+      "n": 6,
+      "partition": [
+        3,
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "highest_weight": [
+        1,
+        0,
+        2,
+        0,
+        0
+      ],
+      "dimension": 840,
+      "trace_index": "764",
+      "root_polynomial_coefficients_ascending": [
+        210471,
+        105760,
+        10460
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        6
+      ]
+    },
+    {
+      "n": 6,
+      "partition": [
+        3,
+        3,
+        1,
+        0,
+        0,
+        0
+      ],
+      "highest_weight": [
+        0,
+        2,
+        1,
+        0,
+        0
+      ],
+      "dimension": 1176,
+      "trace_index": "1204",
+      "root_polynomial_coefficients_ascending": [
+        314244,
+        140028,
+        24213
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        6
+      ]
+    },
+    {
+      "n": 6,
+      "partition": [
+        4,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "highest_weight": [
+        3,
+        0,
+        0,
+        1,
+        0
+      ],
+      "dimension": 720,
+      "trace_index": "696",
+      "root_polynomial_coefficients_ascending": [
+        185724,
+        59124,
+        9664,
+        829
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        6
+      ]
+    },
+    {
+      "n": 6,
+      "partition": [
+        4,
+        2,
+        1,
+        0,
+        0,
+        0
+      ],
+      "highest_weight": [
+        2,
+        1,
+        1,
+        0,
+        0
+      ],
+      "dimension": 2520,
+      "trace_index": "2868",
+      "root_polynomial_coefficients_ascending": [
+        719209,
+        292656,
+        46816,
+        3976
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        6
+      ]
+    },
+    {
+      "n": 6,
+      "partition": [
+        4,
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "highest_weight": [
+        1,
+        3,
+        0,
+        0,
+        0
+      ],
+      "dimension": 1764,
+      "trace_index": "2310",
+      "root_polynomial_coefficients_ascending": [
+        528276,
+        226371,
+        47904,
+        4044
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        6
+      ]
+    },
+    {
+      "n": 6,
+      "partition": [
+        5,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "highest_weight": [
+        4,
+        0,
+        1,
+        0,
+        0
+      ],
+      "dimension": 1800,
+      "trace_index": "2460",
+      "root_polynomial_coefficients_ascending": [
+        579147,
+        188136,
+        37596,
+        5216,
+        411
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        6
+      ]
+    },
+    {
+      "n": 6,
+      "partition": [
+        5,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "highest_weight": [
+        3,
+        2,
+        0,
+        0,
+        0
+      ],
+      "dimension": 2520,
+      "trace_index": "3732",
+      "root_polynomial_coefficients_ascending": [
+        815420,
+        318384,
+        63024,
+        8704,
+        684
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        6
+      ]
+    },
+    {
+      "n": 6,
+      "partition": [
+        6,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "highest_weight": [
+        5,
+        1,
+        0,
+        0,
+        0
+      ],
+      "dimension": 1980,
+      "trace_index": "3498",
+      "root_polynomial_coefficients_ascending": [
+        709548,
+        236553,
+        53064,
+        9204,
+        1184,
+        89
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        6
+      ]
+    },
+    {
+      "n": 6,
+      "partition": [
+        7,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "highest_weight": [
+        7,
+        0,
+        0,
+        0,
+        0
+      ],
+      "dimension": 792,
+      "trace_index": "1716",
+      "root_polynomial_coefficients_ascending": [
+        297412,
+        101364,
+        24471,
+        4824,
+        780,
+        96,
+        7
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        6
+      ]
+    },
+    {
+      "n": 6,
+      "partition": [
+        8,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "highest_weight": [
+        8,
+        0,
+        0,
+        0,
+        0
+      ],
+      "dimension": 1287,
+      "trace_index": "3432",
+      "root_polynomial_coefficients_ascending": [
+        1676812,
+        594824,
+        152046,
+        32628,
+        6030,
+        936,
+        112,
+        8
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        6
+      ]
+    },
+    {
+      "n": 6,
+      "partition": [
+        9,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "highest_weight": [
+        9,
+        0,
+        0,
+        0,
+        0
+      ],
+      "dimension": 2002,
+      "trace_index": "6435",
+      "root_polynomial_coefficients_ascending": [
+        9185313,
+        3353624,
+        892236,
+        202728,
+        40785,
+        7236,
+        1092,
+        128,
+        9
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        6
+      ]
+    },
+    {
+      "n": 6,
+      "partition": [
+        10,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "highest_weight": [
+        10,
+        0,
+        0,
+        0,
+        0
+      ],
+      "dimension": 3003,
+      "trace_index": "11440",
+      "root_polynomial_coefficients_ascending": [
+        49260348,
+        18370626,
+        5030436,
+        1189648,
+        253410,
+        48942,
+        8442,
+        1248,
+        144,
+        10
+      ],
+      "remaining_coordinates": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "determinant_normalization": "c^n = 1/((n-1)! x), z=c(1,2,...,n-1,x)",
+      "image_collision": [
+        1,
+        6
+      ]
+    }
+  ],
+  "runtime_API_changed": false,
+  "novelty_claim": false,
+  "source_sha256": {
+    "TYPE_A_REGULARITY.md": "51b3ea0447dfdd9fefb8af5fe84092dea71742c3e94e9f6007fb5bc4628aa0f1",
+    "tools/verify_type_a_regularity.py": "febfd9569f20b4f1ed6691453d9c0c98ef7ac748fd18c4b0de7c1de6f215d1b1",
+    "EXTERIOR_REGULARITY.md": "9ef0eb76f3fdc4fe29ada0220401fdf18e7a74e3efe0ce7a796f7615d2546125",
+    "exterior-regularity-verification.json": "09033f8df68b8a03f5870c48b6aea60dcae976311305ca02d57bf60cbbabc8dd"
+  }
+}

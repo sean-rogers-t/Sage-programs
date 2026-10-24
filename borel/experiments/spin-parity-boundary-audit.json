@@ -1,0 +1,1020 @@
+{
+  "result": "passed",
+  "date": "2026-10-22",
+  "coefficient_ring": "Z_(2)",
+  "parabolic": "B",
+  "independent_arithmetic": "Python exact triangular inclusion and full row rank modulo two prove lattice equality, using the diagonal power-of-two sublattice; no HNF routine, FLINT or Sage. SymPy is used only for Pfaffian polynomial identities.",
+  "independent_derivative_factorization": true,
+  "schur_P_pfaffian_lowering_checks": 94,
+  "closed_numerical_rank_classification_proved": false,
+  "cases": [
+    {
+      "rank": 3,
+      "first_failure_degree": 4,
+      "tested_through_degree": 4,
+      "entire_kernel_decision": true,
+      "entire_kernel_preserved": false,
+      "degree_rows": [
+        {
+          "degree": 1,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 2,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 3,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 4,
+          "obstruction_rank": 1,
+          "independent_derivative_defect": 1
+        }
+      ],
+      "first_failure_witness": {
+        "boundary_schubert_terms": [
+          {
+            "partition": [
+              4
+            ],
+            "coefficient": 1
+          }
+        ],
+        "twice_lowered_boundary_image_coordinates_mod2": [
+          1
+        ],
+        "coordinate_basis": "Top-left block of the preceding adjacent-rank lattice certificate"
+      }
+    },
+    {
+      "rank": 4,
+      "first_failure_degree": null,
+      "tested_through_degree": 11,
+      "entire_kernel_decision": true,
+      "entire_kernel_preserved": true,
+      "degree_rows": [
+        {
+          "degree": 1,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 2,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 3,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 4,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 5,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 6,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 7,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 8,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 9,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 10,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 11,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        }
+      ],
+      "first_failure_witness": null
+    },
+    {
+      "rank": 7,
+      "first_failure_degree": 11,
+      "tested_through_degree": 11,
+      "entire_kernel_decision": true,
+      "entire_kernel_preserved": false,
+      "degree_rows": [
+        {
+          "degree": 1,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 2,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 3,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 4,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 5,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 6,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 7,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 8,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 9,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 10,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 11,
+          "obstruction_rank": 1,
+          "independent_derivative_defect": 1
+        }
+      ],
+      "first_failure_witness": {
+        "boundary_schubert_terms": [
+          {
+            "partition": [
+              1,
+              2,
+              8
+            ],
+            "coefficient": 2
+          }
+        ],
+        "twice_lowered_boundary_image_coordinates_mod2": [
+          5
+        ],
+        "coordinate_basis": "Top-left block of the preceding adjacent-rank lattice certificate"
+      }
+    },
+    {
+      "rank": 8,
+      "first_failure_degree": 16,
+      "tested_through_degree": 16,
+      "entire_kernel_decision": true,
+      "entire_kernel_preserved": false,
+      "degree_rows": [
+        {
+          "degree": 1,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 2,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 3,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 4,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 5,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 6,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 7,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 8,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 9,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 10,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 11,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 12,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 13,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 14,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 15,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 16,
+          "obstruction_rank": 1,
+          "independent_derivative_defect": 1
+        }
+      ],
+      "first_failure_witness": {
+        "boundary_schubert_terms": [
+          {
+            "partition": [
+              1,
+              2,
+              4,
+              9
+            ],
+            "coefficient": 2
+          },
+          {
+            "partition": [
+              1,
+              6,
+              9
+            ],
+            "coefficient": 2
+          },
+          {
+            "partition": [
+              2,
+              5,
+              9
+            ],
+            "coefficient": 2
+          },
+          {
+            "partition": [
+              3,
+              4,
+              9
+            ],
+            "coefficient": 2
+          }
+        ],
+        "twice_lowered_boundary_image_coordinates_mod2": [
+          12
+        ],
+        "coordinate_basis": "Top-left block of the preceding adjacent-rank lattice certificate"
+      }
+    },
+    {
+      "rank": 11,
+      "first_failure_degree": null,
+      "tested_through_degree": 67,
+      "entire_kernel_decision": true,
+      "entire_kernel_preserved": true,
+      "degree_rows": [
+        {
+          "degree": 1,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 2,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 3,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 4,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 5,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 6,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 7,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 8,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 9,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 10,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 11,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 12,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 13,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 14,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 15,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 16,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 17,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 18,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 19,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 20,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 21,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 22,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 23,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 24,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 25,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 26,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 27,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 28,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 29,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 30,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 31,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 32,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 33,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 34,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 35,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 36,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 37,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 38,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 39,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 40,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 41,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 42,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 43,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 44,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 45,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 46,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 47,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 48,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 49,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 50,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 51,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 52,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 53,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 54,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 55,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 56,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 57,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 58,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 59,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 60,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 61,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 62,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 63,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 64,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 65,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 66,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 67,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        }
+      ],
+      "first_failure_witness": null
+    },
+    {
+      "rank": 12,
+      "first_failure_degree": 34,
+      "tested_through_degree": 34,
+      "entire_kernel_decision": true,
+      "entire_kernel_preserved": false,
+      "degree_rows": [
+        {
+          "degree": 1,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 2,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 3,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 4,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 5,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 6,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 7,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 8,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 9,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 10,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 11,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 12,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 13,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 14,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 15,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 16,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 17,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 18,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 19,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 20,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 21,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 22,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 23,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 24,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 25,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 26,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 27,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 28,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 29,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 30,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 31,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 32,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 33,
+          "obstruction_rank": 0,
+          "independent_derivative_defect": 0
+        },
+        {
+          "degree": 34,
+          "obstruction_rank": 1,
+          "independent_derivative_defect": 1
+        }
+      ],
+      "first_failure_witness": {
+        "boundary_schubert_terms": [
+          {
+            "partition": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              13
+            ],
+            "coefficient": 8
+          },
+          {
+            "partition": [
+              1,
+              2,
+              4,
+              6,
+              8,
+              13
+            ],
+            "coefficient": 4
+          },
+          {
+            "partition": [
+              1,
+              2,
+              5,
+              6,
+              7,
+              13
+            ],
+            "coefficient": 8
+          },
+          {
+            "partition": [
+              1,
+              2,
+              6,
+              12,
+              13
+            ],
+            "coefficient": 4
+          },
+          {
+            "partition": [
+              1,
+              3,
+              4,
+              6,
+              7,
+              13
+            ],
+            "coefficient": 8
+          },
+          {
+            "partition": [
+              1,
+              4,
+              6,
+              10,
+              13
+            ],
+            "coefficient": 4
+          },
+          {
+            "partition": [
+              2,
+              4,
+              6,
+              9,
+              13
+            ],
+            "coefficient": 4
+          },
+          {
+            "partition": [
+              2,
+              5,
+              6,
+              8,
+              13
+            ],
+            "coefficient": 4
+          },
+          {
+            "partition": [
+              3,
+              4,
+              6,
+              8,
+              13
+            ],
+            "coefficient": 4
+          },
+          {
+            "partition": [
+              3,
+              5,
+              6,
+              7,
+              13
+            ],
+            "coefficient": 8
+          },
+          {
+            "partition": [
+              3,
+              6,
+              12,
+              13
+            ],
+            "coefficient": 12
+          },
+          {
+            "partition": [
+              4,
+              6,
+              11,
+              13
+            ],
+            "coefficient": 4
+          },
+          {
+            "partition": [
+              5,
+              6,
+              10,
+              13
+            ],
+            "coefficient": 4
+          },
+          {
+            "partition": [
+              5,
+              7,
+              9,
+              13
+            ],
+            "coefficient": 8
+          },
+          {
+            "partition": [
+              6,
+              7,
+              8,
+              13
+            ],
+            "coefficient": 4
+          }
+        ],
+        "twice_lowered_boundary_image_coordinates_mod2": [
+          109
+        ],
+        "coordinate_basis": "Top-left block of the preceding adjacent-rank lattice certificate"
+      }
+    }
+  ],
+  "source_sha256": {
+    "experiments/audit_spin_parity_boundary.py": "9196d7978d914a92dc550011c6fe2b68242bac33c3e34c4dd10e6e1311fb7eee",
+    "experiments/audit_spin_parity_recursion.py": "3b59c3d853cd2e72166937534123fbce5ac3fea2ddcf68611186ac1e9e9faed6"
+  },
+  "raw_sha256": {
+    "experiments/spin-parity-boundary.json": "b210789db453a9ddfcd6c339cf387368359b99e7a3c8dbe700966bd3f47a2125",
+    "experiments/spin-parity-boundary-certificates.json.gz": "8e5c940355d734fc363759f9ccfa9ca43543d180d0d9854039c9d00974e2c536"
+  }
+}

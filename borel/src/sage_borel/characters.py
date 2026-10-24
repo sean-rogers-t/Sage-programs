@@ -259,6 +259,11 @@ class SpringerCharacterMap:
         """Evaluate a rational fundamental-weight polynomial under theta*."""
         return self.torus_ring(self.ring(polynomial)(*self.theta))
 
+    def borel_reconstruction(self):
+        """Reconstruct on the Borel subgroup using automatic Chevalley root data."""
+        from .root_borel import RootBorelMap
+        return RootBorelMap(self)
+
     def is_integral(self, polynomial):
         """Exact finite Laurent test; no Levi-invariance assumption."""
         return all(QQ(c).denominator() == 1

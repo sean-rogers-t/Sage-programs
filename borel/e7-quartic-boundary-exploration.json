@@ -1,0 +1,24 @@
+{
+  "status": "exploratory",
+  "computed_singular_locus_dimension": 1,
+  "basis_size": 242,
+  "selected_leading_monomials": [
+    "x^5",
+    "y^5",
+    "w^2*B^4",
+    "w^3*C^3",
+    "A^6",
+    "B^5*C"
+  ],
+  "source_algorithm": "Singular modStd, exactness=1, over QQ",
+  "prime101_dimension_corroboration": 1,
+  "independent_reverse_ideal_inclusion_complete": false,
+  "companion_generic_smoothness_promoted": false,
+  "archive": "e7-quartic-boundary-candidate.json.gz",
+  "archive_sha256": "bb7b041fec5d693b0534a89f1ac17b238635bec294d68f0a9f2378a3656486a1",
+  "next_gate": "Verify six polynomial memberships in the original Jacobian-minor ideal; their leading supports then prove dimension at most one without another Groebner computation.",
+  "source_sha256": {
+    "E7_SYMMETRIC_PENCIL.md": "f62d9941081df6e1865ecb0092041d85ec78c93a29f1673aa3a5be78c389f312",
+    "tools/explore_e7_cayley_quartic.py": "854d2c72ba0e91812095a905e6ee3d5eaf696fa407b34b869bc997e222e8ea78"
+  }
+}
