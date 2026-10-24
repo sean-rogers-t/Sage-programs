@@ -1,5 +1,18 @@
 # Proof and literature status of the integral image notes
 
+The [E7 multiplier-boundary proof](E7_MULTIPLIER_BOUNDARY.md) groups all
+32 cubic standard Levis into seven Weyl classes, each represented inside
+the earlier node-4 maximal Levi. This is a classification of embeddings,
+not automatic inheritance of smoothness under refinement. A general
+nonunit-multiplier criterion reduces generic fibers to a rational torus
+gradient when both its zero divisor and multiplier boundary are controlled.
+It proves nonempty smooth regular-source E7 adjoint fibers of dimension 16
+for the three A3+A1+A1 embeddings. Coverage is now 99 of 127 proper standard
+E7 Levis; five cubic classes containing 28 embeddings remain open. Two exact
+implementations independently verify the root characters, full Weyl orbits,
+original target derivatives, boundary support and Hessian dominance witness.
+No full-map degree, all-Levi theorem or literature-priority claim follows.
+
 The [quartic reduction and E6 completion](EXCEPTIONAL_QUARTIC_REDUCTION.md)
 prove a uniform simply laced all-A adjoint reduction: endpoint-product
 or A1-square completion leaves degree at most four, with a factorized

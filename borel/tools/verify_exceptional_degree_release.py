@@ -29,6 +29,29 @@ def main():
     version=sage_borel.__version__
     regression=read('character-verification.json')
     docs=read('documentation-verification.json')
+    e7_boundary=read('e7-multiplier-boundary-verification.json')
+    e7_boundary_audit=read('e7-multiplier-boundary-audit.json')
+    assert e7_boundary['cubic_cases']==32 and e7_boundary['cubic_classes']==7
+    assert e7_boundary['resolved_proper_standard_cases']==99
+    assert e7_boundary['remaining_cubic_cases']==28 and e7_boundary['remaining_cubic_classes']==5
+    assert e7_boundary['common_maximal_Levi_refinement']
+    assert e7_boundary['application']['regular_fiber_dimension']==16
+    assert e7_boundary['application']['generic_regular_fibers_nonempty_smooth']
+    assert e7_boundary['application']['original_target_derivatives_verified']
+    assert not e7_boundary_audit['uses_Sage']
+    assert e7_boundary_audit['weyl']['full_Weyl_orbits_reenumerated']==7
+    assert e7_boundary_audit['weyl']['explicit_words_verified']==32
+    assert e7_boundary_audit['weyl']['all_32_characters_reconstructed']
+    assert e7_boundary_audit['algebra']['original_derivatives_preserved']
+    assert e7_boundary_audit['algebra']['full_logarithmic_hessian_schur_complement_verified']
+    assert e7_boundary_audit['algebra']['boundary_dimension']==1
+    assert e7_boundary_audit['algebra']['torus_hessian_determinant']=='-9125752/16875'
+    assert digest(ROOT/'unit-constraint-cases.json.gz')==e7_boundary['case_archive_sha256']
+    for record in (e7_boundary,e7_boundary_audit):
+        assert not record['all_E7_Levis_resolved']
+        assert not record['full_map_degree_claim'] and not record['literature_priority_claim']
+        for name,expected in record['source_sha256'].items():
+            assert digest(ROOT/name)==expected,name
     unit_class=read('unit-constraint-classification-verification.json')
     unit_audit=read('unit-constraint-classification-audit.json')
     assert digest(ROOT/unit_class['case_archive'])==unit_class['case_archive_sha256']
@@ -1387,7 +1410,19 @@ def main():
         'unit-constraint-classification-verification.json','unit-constraint-classification-audit.json',
         'unit-constraint-cases.json.gz','tools/unit_constraint_systems.py',
         'tools/verify_unit_constraint_classification.py','tools/audit_unit_constraint_classification.py')]
+    paths += [ROOT/name for name in ('E7_MULTIPLIER_BOUNDARY.md',
+        'e7-multiplier-boundary-verification.json','e7-multiplier-boundary-audit.json',
+        'tools/verify_e7_multiplier_boundary.py','tools/audit_e7_multiplier_boundary.py')]
     report=dict(result='passed',version=version,
+        E7_multiplier_boundary=dict(cubic_Weyl_classes=7,cubic_standard_embeddings=32,
+            common_maximal_Levi_refinement=True,nonunit_multiplier_boundary_criterion=True,
+            new_Levi_type='A3+A1+A1',new_standard_embeddings=3,
+            generic_regular_fibers_nonempty_smooth=True,regular_fiber_dimension=16,
+            resolved_standard_Levis=99,total_proper_standard_Levis=127,
+            remaining_cubic_classes=5,remaining_cubic_embeddings=28,
+            all_E7_Levis_resolved=False,full_map_degree_claim=False,literature_priority_claim=False,
+            certificate='e7-multiplier-boundary-verification.json',
+            independent_audit='e7-multiplier-boundary-audit.json'),
         exceptional_quartic_reduction=dict(uniform_all_A_factor_elimination=True,
             proper_E_type_subsets=445,all_A_subsets=420,quadratic_subsets=284,cubic_subsets=136,
             original_coordinate_simultaneous_classification_complete=True,
