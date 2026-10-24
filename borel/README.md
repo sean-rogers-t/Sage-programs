@@ -12,6 +12,7 @@ the mathematical guide for the Borel/Springer construction.
 
 | Question | Guide |
 | --- | --- |
+| Can a matrix-pencil criterion control the next E7 refinements? | [Rank-stratum theorem and the complete A1^4 family; the A2+A1^3 companion and its precise remaining certificate](E7_SYMMETRIC_PENCIL.md) |
 | Do adjoint root identities extend the pencil criterion beyond E6? | [Its original-coordinate scope is only E6; exact multiplier elimination proves the E7 A1+A2+A3 fiber theorem](ADJOINT_PENCIL_SCOPE.md) |
 | Can coupled linear character constraints determine the E8 adjoint fibers? | [General unit-matrix elimination and a polynomial quotient criterion; E8 node 4 has six generic regular orbits of dimension 28](MULTIPLIER_BRANCHING_FIBERS.md) |
 | How far does elimination cover the remaining exceptional Levis? | [Uniform quartic reduction and E6 completion](EXCEPTIONAL_QUARTIC_REDUCTION.md); [seven E7 cubic Weyl families, a controlled nonunit-multiplier theorem, and the A3+A1+A1 family](E7_MULTIPLIER_BOUNDARY.md) |

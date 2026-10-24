@@ -29,6 +29,34 @@ def main():
     version=sage_borel.__version__
     regression=read('character-verification.json')
     docs=read('documentation-verification.json')
+    e7_pencil=read('e7-symmetric-pencil-verification.json')
+    e7_pencil_audit=read('e7-symmetric-pencil-audit.json')
+    e7_candidate=json.loads((ROOT/'e7-quartic-boundary-exploration.json').read_text())
+    assert e7_pencil['resolved_proper_standard_Levis']==101
+    assert e7_pencil['remaining_cubic_embeddings']==26 and e7_pencil['remaining_cubic_families']==4
+    assert e7_pencil['symmetric_pencil']['rank_stratum_bounds_verified']
+    assert e7_pencil['symmetric_pencil']['regular_fiber_dimension']==8
+    assert e7_pencil['symmetric_pencil']['collision_polynomials_coprime']
+    assert not e7_pencil_audit['uses_Sage']
+    assert e7_pencil_audit['symmetric_pencil']['full_character_independently_reconstructed']
+    assert e7_pencil_audit['symmetric_pencil']['rank_one_curves_and_sign_changes']
+    assert e7_pencil_audit['symmetric_pencil']['ordinary_logarithmic_hessian_diagonal']==-24
+    assert not e7_pencil['companion']['generic_smoothness_claim']
+    assert not e7_pencil_audit['companion']['generic_smoothness_claim']
+    assert e7_pencil_audit['candidate']['original_Jacobian_ideal_reconstructed']
+    assert e7_pencil_audit['candidate']['selected_leading_support_dimension']==1
+    assert not e7_pencil_audit['candidate']['selected_memberships_verified']
+    assert e7_candidate['status']=='exploratory'
+    assert e7_candidate['computed_singular_locus_dimension']==1
+    assert not e7_candidate['independent_reverse_ideal_inclusion_complete']
+    assert not e7_candidate['companion_generic_smoothness_promoted']
+    assert digest(ROOT/e7_candidate['archive'])==e7_candidate['archive_sha256']
+    for record in (e7_pencil,e7_pencil_audit):
+        assert not record['all_E7_Levis_resolved']
+        assert not record['full_map_degree_claim'] and not record['literature_priority_claim']
+    for record in (e7_pencil,e7_pencil_audit,e7_candidate):
+        for name,expected in record['source_sha256'].items():
+            assert digest(ROOT/name)==expected,name
     e7_boundary=read('e7-multiplier-boundary-verification.json')
     e7_boundary_audit=read('e7-multiplier-boundary-audit.json')
     assert e7_boundary['cubic_cases']==32 and e7_boundary['cubic_classes']==7
@@ -1413,7 +1441,22 @@ def main():
     paths += [ROOT/name for name in ('E7_MULTIPLIER_BOUNDARY.md',
         'e7-multiplier-boundary-verification.json','e7-multiplier-boundary-audit.json',
         'tools/verify_e7_multiplier_boundary.py','tools/audit_e7_multiplier_boundary.py')]
+    paths += [ROOT/name for name in ('E7_SYMMETRIC_PENCIL.md',
+        'e7-symmetric-pencil-verification.json','e7-symmetric-pencil-audit.json',
+        'e7-quartic-boundary-exploration.json','e7-quartic-boundary-candidate.json.gz',
+        'tools/verify_e7_symmetric_pencil.py','tools/audit_e7_symmetric_pencil.py',
+        'tools/explore_e7_cayley_quartic.py')]
     report=dict(result='passed',version=version,
+        E7_symmetric_pencil=dict(rank_stratum_criterion=True,invertible_leading_matrix_required=False,
+            new_Levi_type='A1^4',new_standard_embeddings=2,regular_fiber_dimension=8,
+            generic_regular_fibers_nonempty_smooth=True,resolved_standard_Levis=101,
+            remaining_cubic_embeddings=26,remaining_cubic_families=4,
+            companion_Levi_type='A2+A1^3',companion_exact_reduction_checked=True,
+            companion_independent_dimension_certificate_complete=False,
+            companion_generic_smoothness_promoted=False,all_E7_Levis_resolved=False,
+            full_map_degree_claim=False,literature_priority_claim=False,
+            certificate='e7-symmetric-pencil-verification.json',
+            independent_audit='e7-symmetric-pencil-audit.json'),
         E7_multiplier_boundary=dict(cubic_Weyl_classes=7,cubic_standard_embeddings=32,
             common_maximal_Levi_refinement=True,nonunit_multiplier_boundary_criterion=True,
             new_Levi_type='A3+A1+A1',new_standard_embeddings=3,

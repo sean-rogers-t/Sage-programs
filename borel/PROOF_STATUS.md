@@ -1,5 +1,19 @@
 # Proof and literature status of the integral image notes
 
+The [symmetric-pencil rank criterion](E7_SYMMETRIC_PENCIL.md) proves
+generic smooth finite critical fibers under explicit collision and low-rank
+dimension bounds, without an invertible leading matrix or global spectral
+splitting. It proves nonempty smooth regular-source E7 adjoint fibers of
+dimension 8 for both A1^4 embeddings. Coverage is now 101 of 127 proper
+standard Levis, with 26 cubic embeddings in four Weyl families remaining.
+The A2+A1^3 companion has an independently verified quartic reduction over
+a Cayley cubic surface, a dominance witness and a computed dimension-one
+singular locus. Its six-polynomial ideal-membership certificate is still
+pending; it is NOT counted as an independently audited fiber theorem.
+The stored candidate and explicit next gate prevent confusing a computed
+standard basis with a completed independent inclusion proof. No novelty,
+whole-fiber or full-map degree claim is made.
+
 The [E7 multiplier-boundary proof](E7_MULTIPLIER_BOUNDARY.md) groups all
 32 cubic standard Levis into seven Weyl classes, each represented inside
 the earlier node-4 maximal Levi. This is a classification of embeddings,

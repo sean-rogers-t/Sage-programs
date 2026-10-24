@@ -1,0 +1,68 @@
+{
+  "result": "passed",
+  "uses_Sage": false,
+  "symmetric_pencil": {
+    "full_character_independently_reconstructed": true,
+    "collision_coprimality": true,
+    "rank_one_curves_and_sign_changes": true,
+    "low_rank_dimension_bound": 2,
+    "original_derivatives_verified": true,
+    "root_trace_matrix": [
+      [
+        216,
+        288,
+        144
+      ],
+      [
+        288,
+        432,
+        216
+      ],
+      [
+        144,
+        216,
+        144
+      ]
+    ],
+    "ordinary_logarithmic_hessian_diagonal": -24,
+    "relative_hessian_determinant": -432,
+    "all_A1_four_embeddings": [
+      [
+        1,
+        2,
+        5,
+        7
+      ],
+      [
+        2,
+        3,
+        5,
+        7
+      ]
+    ],
+    "regular_fiber_dimension": 8
+  },
+  "companion": {
+    "exact_character_and_residual": true,
+    "original_target_derivatives": true,
+    "generic_smoothness_claim": false,
+    "conditional_dominance_hessian_determinant": 192
+  },
+  "candidate": {
+    "original_Jacobian_ideal_reconstructed": true,
+    "selected_leading_support_dimension": 1,
+    "selected_memberships_verified": false,
+    "companion_generic_smoothness_claim": false
+  },
+  "all_E7_Levis_resolved": false,
+  "full_map_degree_claim": false,
+  "literature_priority_claim": false,
+  "source_sha256": {
+    "E7_SYMMETRIC_PENCIL.md": "f62d9941081df6e1865ecb0092041d85ec78c93a29f1673aa3a5be78c389f312",
+    "tools/audit_e7_symmetric_pencil.py": "64c0ebe5df268886f28bf498f799e93c6b5987292482d74a7bbb3943fa5a8564",
+    "tools/audit_affine_branching_certificates.py": "7d56ef1b5373f66a5e7c38d3c8d567ec4c27bfdda5bdd11ef60f54ee2f8da2a1",
+    "tools/audit_branching_norm_fibers.py": "a7ccf69961962ffb6075392ae8c17883626f02dbc4eba9eafa0cdd7df350d3fa",
+    "e7-symmetric-pencil-verification.json": "6e9687820a07e2a11a6e791fd7df04ede510f6545bf4026e597c3acac7d241ba",
+    "e7-quartic-boundary-exploration.json": "70a25badeb03ddc1cc532e8e543abed67277bf86712be288eea11822a7abbb80"
+  }
+}
