@@ -5,6 +5,13 @@ linear algebra and quotient geometry are inputs; novelty is unverified.
 This supplies a sufficient branching criterion, not an exceptional-group
 classification or a new assertion that every branching graph qualifies.
 
+Subsequent [adjoint scope and multiplier results](ADJOINT_PENCIL_SCOPE.md)
+show that the original-coordinate all-A adjoint pencil class below occurs
+only for the E6 Levi omitting node 4. The E7 successor instead requires
+eliminating a linear character constraint. The theorem here remains valid
+under its stated hypotheses; it is not a broad raw-coordinate exceptional
+adjoint classification.
+
 ## 1. What the criterion reads from a character
 
 Let G be complex simple simply connected, rho an actual nontrivial

@@ -18,6 +18,7 @@ from sage.env import SAGE_VERSION
 ROOT = Path(__file__).resolve().parents[1]
 DOCUMENTS = ("../README.md", "../articles/README.md",
              "SPECTRAL_BRANCHING_FIBERS.md",
+             "ADJOINT_PENCIL_SCOPE.md",
              "../articles/classical-equivariant-exposition/README.md",
              "../articles/research-program-proposal/README.md",
              "README.md", "RESEARCH_LEDGER.md", "AGENTS.md",

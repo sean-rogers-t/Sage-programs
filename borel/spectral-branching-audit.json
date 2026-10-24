@@ -23,7 +23,7 @@
   "simple_group_counterexample_claim": false,
   "literature_priority_claim": false,
   "source_sha256": {
-    "SPECTRAL_BRANCHING_FIBERS.md": "789a4c9d951659de781ba20ccd4e65c5114981125aed4740e96beb1efdaa5ed3",
+    "SPECTRAL_BRANCHING_FIBERS.md": "0adc75c50fccb3c50d2cec0cead8ee9beddbf6fb8ec994a8f1f1ba957d53101b",
     "tools/audit_spectral_branching_fibers.py": "e52d6d3a39f588dab0700e4056a75ac472cf495086ddf8124e3cab87c98aea2d"
   }
 }

@@ -1,5 +1,20 @@
 # Proof and literature status of the integral image notes
 
+The [adjoint pencil scope theorem](ADJOINT_PENCIL_SCOPE.md) proves that,
+for simply laced G with all-A derived Levi and an A1 center character,
+the original-fundamental-coordinate pair-pencil shape with another
+derived factor occurs only for E6 omitting node 4. This does not classify
+arbitrary affine coordinate changes. The proof uses omitted-node incidence
+and the ambient highest root, not a rank sweep. For E7 omitting node 4,
+an exact multiplier elimination and anchored product transfer instead
+give the actual quotient scheme 3W^2-cW-3=0, c=432t. For c!=0 and
+c^2+36!=0 the regular adjoint Springer fiber consists of two K-orbits,
+each smooth of dimension 20; at c^2+36=0 the quotient is nonreduced.
+Independent root/subset reconstruction, original derivative checks and
+central descent agree. An F_1033 root evaluation has rank 113 and kernel
+20 and is corroboration of the characteristic-zero proof. E8 and the
+all-adjoint conjecture remain open; priority is unverified.
+
 The [spectral branching criterion](SPECTRAL_BRANCHING_FIBERS.md) treats
 arbitrarily large bipartite cubic character pencils g(x,z)+u^t(A+xB)v.
 With semisimple spectral splitting, no persistent stationary-eigenvalue
@@ -14,9 +29,10 @@ Springer fiber is nonreduced over every nonzero central target. This group
 is reductive, not simple; no simple-adjoint counterexample is claimed.
 Independent Sage/SymPy ideal and direct weight-trace checks pass,
 and the criterion recovers the existing E6 suspension with exact boundary
-control. No new exceptional embedding is declared settled. The next gate
-is a root-theoretic implication establishing these spectral/boundary
-hypotheses for actual adjoint restrictions. Priority remains unverified.
+control. That criterion alone settled no additional exceptional embedding.
+Its next gate was a root-theoretic implication establishing these spectral/boundary
+hypotheses. The subsequent scope theorem above resolves the raw-coordinate
+class and shows why linear constraints must be admitted. Priority remains unverified.
 
 The [cubic refinement theorem](CUBIC_LEVI_REFINEMENTS.md) now resolves
 the two outstanding E6 mechanism tests. For the specified A1^2+A2 and

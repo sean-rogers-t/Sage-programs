@@ -16,6 +16,10 @@
       "python_blocks_executed": 0
     },
     {
+      "file": "ADJOINT_PENCIL_SCOPE.md",
+      "python_blocks_executed": 0
+    },
+    {
       "file": "../articles/classical-equivariant-exposition/README.md",
       "python_blocks_executed": 0
     },
@@ -652,7 +656,7 @@
       "python_blocks_executed": 0
     }
   ],
-  "local_links_and_anchors_checked": 1969,
+  "local_links_and_anchors_checked": 1982,
   "python_blocks_executed": 54,
   "scope": "Python fences executed in reading order in a fresh namespace per document; local links and anchors checked. Shell snippets and external URLs were not automatically executed or crawled."
 }

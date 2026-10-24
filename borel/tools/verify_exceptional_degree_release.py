@@ -29,6 +29,25 @@ def main():
     version=sage_borel.__version__
     regression=read('character-verification.json')
     docs=read('documentation-verification.json')
+    pencil_scope=read('adjoint-pencil-scope-verification.json')
+    pencil_scope_audit=read('adjoint-pencil-scope-audit.json')
+    assert [r['highest_weight_node'] for r in pencil_scope['highest_root_obstructions']]==[2,1,8]
+    assert pencil_scope['E7']['actual_quotient']=='3*w^2-c*w-3'
+    assert pencil_scope['E7']['universal_nonzero_target_ideal_equality']
+    assert pencil_scope['independent_original_root_point']['full_rank']==113
+    assert pencil_scope['independent_original_root_point']['trace_norm']==432
+    assert not pencil_scope_audit['uses_Sage']
+    assert [r['cover_degree'] for r in pencil_scope_audit['independently_reconstructed_characters']]==[6,12,30]
+    assert pencil_scope_audit['symbolic']['mu12_action_on_original_character']
+    assert pencil_scope_audit['symbolic']['generic_regular_orbits']==2
+    assert pencil_scope_audit['symbolic']['regular_orbit_dimension']==20
+    assert pencil_scope_audit['original_root_point']['full_rank']==113
+    for record in (pencil_scope,pencil_scope_audit):
+        assert not record['arbitrary_affine_changes_classified']
+        assert not record['all_exceptional_Levis_resolved']
+        assert not record['literature_priority_claim']
+        for name,expected in record['source_sha256'].items():
+            assert digest(ROOT/name)==expected,name
     spectral=read('spectral-branching-verification.json')
     spectral_audit=read('spectral-branching-audit.json')
     assert [r['accepted'] for r in spectral['character']['shape_tests']]==[False,False,True]
@@ -1317,7 +1336,19 @@ def main():
     paths += [ROOT/name for name in ('SPECTRAL_BRANCHING_FIBERS.md',
         'spectral-branching-verification.json','spectral-branching-audit.json',
         'tools/verify_spectral_branching_fibers.py','tools/audit_spectral_branching_fibers.py')]
+    paths += [ROOT/name for name in ('ADJOINT_PENCIL_SCOPE.md',
+        'adjoint-pencil-scope-verification.json','adjoint-pencil-scope-audit.json',
+        'tools/verify_adjoint_pencil_scope.py','tools/audit_adjoint_pencil_scope.py')]
     report=dict(result='passed',version=version,
+        adjoint_pencil_scope=dict(original_coordinate_all_A_class='E6 omit node 4',
+            arbitrary_affine_changes_classified=False,multiplier_elimination_written_proof=True,
+            anchored_product_transfer_written_proof=True,
+            E7_Levi='A1+A2+A3, omit node 4',E7_actual_quotient='3*W^2-c*W-3, c=432*t',
+            E7_generic_regular_orbits=2,E7_regular_orbit_dimension=20,
+            E7_nonzero_double_point_targets='c^2+36=0',
+            direct_root_differential_rank=113,all_exceptional_Levis_resolved=False,
+            literature_priority_claim=False,certificate='adjoint-pencil-scope-verification.json',
+            independent_audit='adjoint-pencil-scope-audit.json'),
         spectral_branching=dict(arbitrary_matrix_size_written_theorem=True,
             semisimple_eigenvalue_block_excess='2*d-1',ordinary_branch_excess=0,
             noncollision_and_boundary_hypotheses_required=True,

@@ -143,7 +143,7 @@
   "public_API_changed": false,
   "literature_priority_claim": false,
   "source_sha256": {
-    "SPECTRAL_BRANCHING_FIBERS.md": "789a4c9d951659de781ba20ccd4e65c5114981125aed4740e96beb1efdaa5ed3",
+    "SPECTRAL_BRANCHING_FIBERS.md": "0adc75c50fccb3c50d2cec0cead8ee9beddbf6fb8ec994a8f1f1ba957d53101b",
     "tools/verify_spectral_branching_fibers.py": "8ae0f1ebc4bd09246d5b753d51fb721b65c4596ae204f82ddc141b4d9bc7ddfc",
     "branching-norm-fibers-verification.json": "1375f28c548a219a8b0824d73d421692159c16b91b64dc7674aa08ef0e7d48bd",
     "GENERAL_CAYLEY_FIBER_CRITICAL.md": "1cffec1488cc51c792939382111003bf82394fb195c62c6c97670c6aee2a1483"
