@@ -29,6 +29,25 @@ def main():
     version=sage_borel.__version__
     regression=read('character-verification.json')
     docs=read('documentation-verification.json')
+    unit_class=read('unit-constraint-classification-verification.json')
+    unit_audit=read('unit-constraint-classification-audit.json')
+    assert digest(ROOT/unit_class['case_archive'])==unit_class['case_archive_sha256']
+    assert [unit_class['summary'][k]['counts']['cubic'] for k in ('E6','E7','E8')]==[11,32,93]
+    assert len(unit_class['cases'])==136
+    assert len(unit_class['E6_Weyl_transfers'])==11
+    assert unit_class['all_E6_proper_Levi_generic_regular_fibers_smooth_or_empty']
+    assert not unit_audit['uses_Sage']
+    assert unit_audit['all_445_proper_standard_subsets_enumerated']
+    assert unit_audit['cases_audited']==136
+    assert unit_audit['maximum_remaining_variables']==4
+    assert unit_audit['E6_explicit_Weyl_transfers_verified']==11
+    assert unit_audit['all_original_target_derivatives']
+    for record in (unit_class,unit_audit):
+        assert not record['recursive_reduction_classified']
+        assert not record['all_adjoint_generic_smoothness_proved']
+        assert not record['literature_priority_claim']
+        for name,expected in record['source_sha256'].items():
+            assert digest(ROOT/name)==expected,name
     multipliers=read('multiplier-branching-verification.json')
     multiplier_audit=read('multiplier-branching-audit.json')
     assert multipliers['helper']['central_matrix_derivative_retained']
@@ -1364,7 +1383,19 @@ def main():
         'multiplier-branching-verification.json','multiplier-branching-audit.json',
         'tools/linear_character_elimination.py','tools/verify_multiplier_branching_fibers.py',
         'tools/audit_multiplier_branching_fibers.py')]
+    paths += [ROOT/name for name in ('EXCEPTIONAL_QUARTIC_REDUCTION.md',
+        'unit-constraint-classification-verification.json','unit-constraint-classification-audit.json',
+        'unit-constraint-cases.json.gz','tools/unit_constraint_systems.py',
+        'tools/verify_unit_constraint_classification.py','tools/audit_unit_constraint_classification.py')]
     report=dict(result='passed',version=version,
+        exceptional_quartic_reduction=dict(uniform_all_A_factor_elimination=True,
+            proper_E_type_subsets=445,all_A_subsets=420,quadratic_subsets=284,cubic_subsets=136,
+            original_coordinate_simultaneous_classification_complete=True,
+            maximum_remaining_affine_variables=4,E6_all_proper_Levi_generic_smooth_or_empty=True,
+            E6_cubic_embeddings_covered_by_explicit_Weyl_words=11,
+            E7_E8_all_Levi_smoothness_proved=False,recursive_reduction_classified=False,
+            literature_priority_claim=False,certificate='unit-constraint-classification-verification.json',
+            independent_audit='unit-constraint-classification-audit.json'),
         coupled_multipliers=dict(unit_matrix_elimination_written_proof=True,
             unique_matching_sufficient_criterion=True,
             polynomial_residual_degree='max(2*deg(A)+2*deg(B),4*deg(B)+1)',

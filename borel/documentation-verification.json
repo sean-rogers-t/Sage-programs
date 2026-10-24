@@ -24,6 +24,10 @@
       "python_blocks_executed": 0
     },
     {
+      "file": "EXCEPTIONAL_QUARTIC_REDUCTION.md",
+      "python_blocks_executed": 0
+    },
+    {
       "file": "../articles/classical-equivariant-exposition/README.md",
       "python_blocks_executed": 0
     },
@@ -660,7 +664,7 @@
       "python_blocks_executed": 0
     }
   ],
-  "local_links_and_anchors_checked": 1999,
+  "local_links_and_anchors_checked": 2018,
   "python_blocks_executed": 54,
   "scope": "Python fences executed in reading order in a fresh namespace per document; local links and anchors checked. Shell snippets and external URLs were not automatically executed or crawled."
 }

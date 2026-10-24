@@ -47,6 +47,6 @@
     "tools/audit_multiplier_branching_fibers.py": "79fb95c4e7ba1b29dafc77486a7b37a2542c54ee77af6e0a28366b4812f56c36",
     "tools/audit_affine_branching_certificates.py": "7d56ef1b5373f66a5e7c38d3c8d567ec4c27bfdda5bdd11ef60f54ee2f8da2a1",
     "tools/audit_branching_norm_fibers.py": "a7ccf69961962ffb6075392ae8c17883626f02dbc4eba9eafa0cdd7df350d3fa",
-    "multiplier-branching-verification.json": "d9ac15f58b9f5049c1f3c29dadfca8fb58f65bdad3aa0b7d182e85a2e4627fb9"
+    "multiplier-branching-verification.json": "99840277ddffde22786fefd8f15f23dd2abcd92c92710dca92a0998051b74d2f"
   }
 }

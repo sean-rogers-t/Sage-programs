@@ -1,5 +1,21 @@
 # Proof and literature status of the integral image notes
 
+The [quartic reduction and E6 completion](EXCEPTIONAL_QUARTIC_REDUCTION.md)
+prove a uniform simply laced all-A adjoint reduction: endpoint-product
+or A1-square completion leaves degree at most four, with a factorized
+quartic part and all original target equations retained. A complete
+original-coordinate multiplier search covers all 136 cubic standard
+Levis in E6/E7/E8 and reduces each to at most four affine variables.
+This bounds the residual problem; it does not prove arbitrary quartic
+fibers smooth. Explicit Weyl words transfer the three earlier E6 cubic
+seed proofs to all eleven cubic embeddings. Together with the quadratic
+and D-factor obstruction theorems this proves generic regular-fiber
+smoothness or emptiness for EVERY proper E6 Levi. Genericity is within
+each centralizer stratum, not at every target. E7/E8 all-Levi smoothness,
+arbitrary coordinate changes, recursive optimization, nonregular fibers
+and literature priority remain unresolved. Native reconstruction and
+exact derivative checks audit the finite coverage and Weyl transfers.
+
 The [coupled multiplier theorem](MULTIPLIER_BRANCHING_FIBERS.md) now gives
 scheme-preserving simultaneous elimination over the entire central torus
 when the constraint matrix has Laurent-unit determinant. A unique perfect

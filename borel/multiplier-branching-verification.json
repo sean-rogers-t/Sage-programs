@@ -345,7 +345,7 @@
   "literature_priority_claim": false,
   "source_sha256": {
     "MULTIPLIER_BRANCHING_FIBERS.md": "4ae12e6117dc8a1a45ac0930c40e10bcf14c759dc17353bce0586a08f9adb16e",
-    "tools/linear_character_elimination.py": "33199a046584c81a67591ac08c3ec3278ebea8d198faa108d1e5744b8a8da8d8",
+    "tools/linear_character_elimination.py": "bd7afc06ac567e5a20f4528b3c82c55fa5c49bd919f0b8971bb291174b5be1c5",
     "tools/verify_multiplier_branching_fibers.py": "6c1cc11d5b8d4dd13a0f761be3a970091dd0c8ffca1a2698f5f58134332d853e",
     "tools/verify_branching_norm_fibers.py": "edd3b3b6dc11d6f2e09ad624e7cee4fceb76c066118d4926fd635fb2a8d3c02f",
     "GENERAL_CAYLEY_FIBER_CRITICAL.md": "1cffec1488cc51c792939382111003bf82394fb195c62c6c97670c6aee2a1483"
