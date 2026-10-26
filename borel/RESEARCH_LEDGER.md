@@ -1,6 +1,6 @@
 # Springer and Borel research ledger
 
-Updated 2026-10-23. The research priority is **generalizable statements**:
+Updated 2026-10-26. The research priority is **generalizable statements**:
 uniform formulas, structural explanations, sharp hypotheses and counterexamples.
 Individual group calculations serve as tests of those statements and remain
 valuable exact results with their own stated scope.
@@ -11,11 +11,219 @@ the literature. Literature priority is separate from mathematical validity.
 The supporting proofs and [proof/source audit](PROOF_STATUS.md) determine the
 precise hypotheses; this ledger does not replace them or re-audit them.
 
+The [current fiber-program review](CAYLEY_FIBER_REVIEW.md) states the active
+goal: explain generic regular-source Springer fibers from Levi branching.
+BASE-07 isolates the standard geometric criterion; verifying its hypotheses
+from roots and central characters is the research problem. GEO-71/72 now
+give a [common binary criterion](BINARY_BRANCHING_FIBERS.md) and two E7
+applications, raising coverage to 123/127. The user has now stopped
+automatic case-by-case Levi completion. The active task is a direct proof
+or disproof of the [uniform adjoint conjecture](UNIFORM_ADJOINT_PROOF_TARGET.md).
+Its trace-form attempt and exact missing rank bound are recorded there.
+The continuation rules out the stronger larger-centralizer shortcut:
+Sp4 adjoint has an exceptional nonzero central target with exactly the
+specified GL2 centralizer and a regular-source transverse triple point.
+This tests a uniform proof route; it adds no coverage and does not
+disprove generic smoothness. The dimension bound remains unresolved.
+GEO-73 now proves [uniform central rigidity](CENTRAL_RIGIDITY_FIBERS.md):
+the character is constant on every reduced semisimple-fiber component,
+and generic fibers have finite image in the Levi abelianization. This
+holds for every nondegenerate trace representation, including nonregular
+source points; it does not remove nilpotents or prove generic smoothness.
+The subsequent proof-method audit gives an abstract potential whose
+finite central scheme image remains a double point at every nonzero
+target. Even generic scalar central specialization can therefore lose
+fiber structure (length 16 becomes 15). This is an exact limitation of
+the trace/gradient argument, not an adjoint counterexample or a new
+coverage result; see section 5 of the GEO-73 note.
+A quartic three-variable variant has the same failure, showing that
+the earlier degree bound alone cannot close the general proof.
+GEO-74 now proves the actual adjoint cubic-coefficient restrictions uniformly
+in simply laced types: mixed cubic coefficients are single Laurent units;
+A1-triple coefficients are independent primitive binomials attached to D4
+subsystems and isolated centralizer A1 factors. Their trace coordinates
+give an exact scheme-preserving elimination of the corresponding central
+torus variables on the stated fibers. This is structural progress, not
+a proof of smoothness of the remaining coupled critical equations.
+GEO-75 extends the coefficient description to every external quadratic
+and cubic term: their weights are simplices or cross-polytopes, giving
+standard A/D characters of isolated centralizer factors. All centralizer
+root functions e^beta-1 are units on the relevant actual fibers. There,
+individual nonlinear-coefficient divisors are smooth or have transverse
+D2 crossings. A common centralizer character system proves reducedness
+of EVERY simultaneous nonlinear-coefficient zero scheme on this open.
+It does not prove reducedness or generic smoothness of the coupled
+affine critical scheme; the main conjecture is still open.
+The subsequent rank attempt changes only the linear term of an existing
+adjoint model and obtains an honest reductive-Levi representation with
+generic nonreduced fibers. Its nonlinear coefficients and constant term
+are unchanged. Thus that coefficient data cannot imply the rank bound.
+The exact adjoint linear multiplicities prevent this particular resonance;
+a uniform nonresonance argument using the full character remains missing.
+This is recorded as a limitation of GEO-75, not as new adjoint coverage
+or another completed step toward the main smoothness theorem.
+The 25 October differential-identity attempt also remains unsuccessful:
+the flat root-length Laplacian identity survives the nonreduced control,
+and invariant torus derivations do not give the ordinary quotient
+Jacobian ideal at the discriminant. The full Weyl symmetry needed to
+distinguish the adjoint character has not yet supplied the rank bound.
+The active note records this failed route without adding a result ID.
+The subsequent bracket argument supplies an exact Casimir expression
+for the differential but no target relation: its commutator consequence
+is the existing equivariance identity, and its first-order automorphism
+constraints are already accounted for by tangent vectors to G. The
+differential kernel need not be a Lie subalgebra. These limitations are
+proved and checked in the active note and existing Sp4 audit; there is
+no new generic-smoothness claim or ledger entry.
+The higher-order follow-up derives the corrected effective quartic after
+eliminating nondegenerate Hessian variables, including central variables.
+It agrees with the original Sp4 triple-point ideal and the exact smooth
+E6 excess. This is an application of the standard splitting lemma, not a
+new uniform theorem. The remaining obstruction is still to exclude a
+dominant incidence component with nonconstant residual potential; no
+such image bound follows from the jet calculation. No new ID is added.
+The generic-target attempt now retains the full fiber algebra over C(c).
+It distinguishes legitimate target localization from source localization,
+which can delete the entire E6 excess fiber. The altered-Levi control branch
+also has a separable central image and smooth generic component points,
+but a persistent embedded nilpotent at their intersection. Thus those
+weaker properties cannot prove the adjoint conjecture. The full generic
+algebra's regularity at ALL points remains open; no new ID is added.
+The weaker reducedness attempt also remains open. Its two requirements
+are multiplicity one at minimal primes (R_0) and no embedded primes (S_1).
+Neither follows uniformly from the current root arguments. An equivalent
+certificate is a nonzero target polynomial p killing the nilradical of
+the relative incidence algebra; none has been constructed uniformly.
+The active note records the failed depth argument without claiming a theorem.
+The subsequent bounded search tests two full E8 adjoint characters for
+a nilpotent counterexample. It proves the entire relative critical scheme
+of one candidate smooth, including its central boundary. The other has
+a finite etale rank-38 relative algebra over the CENTRAL SOURCE function
+field, with independent symbolic/modular corroboration; that screen alone
+left its central boundary untested. This is not a Springer degree or a generic-target calculation.
+No counterexample or uniform theorem is obtained. The active note and
+[search audit](adjoint-nilpotent-search-audit.json) record the exact scope;
+no new result ID or exceptional census is added for this bounded search.
+The boundary continuation rules out six entire source curves over the
+generic two-dimensional target by exact dimension bounds. At that stage
+only two exclusions had independent original-ideal membership replays;
+the later continuation below completes all six. A tracked basis proves a finite free presentation
+on a certified source open, leaving ten additional denominator factors
+as possible nilpotent supports. These are certificate factors, not a
+classification of singular fibers. The candidate and general conjecture
+remain unresolved; flatness on the larger target-allowed source open is
+the proposed structural next target. Details and limits are in the active
+note, without a new uniform-theorem entry.
+The flatness attempt finds genuine non-finiteness at allowed central
+source points: exact critical-fiber lengths drop from generic 38 to 37,
+independently corroborated modulo good primes. This rules out a finite
+rank-38 extension there, but does NOT disprove flatness. Standard local
+complete-intersection arguments prove flatness and reducedness of the
+total scheme above the checked zero-dimensional fibers. No proof that
+all allowed fibers are zero dimensional was obtained. A second tracked
+presentation leaves three shared curves and a finite intersection set;
+those loci remain in the problem. The candidate's generic-target
+reducedness and the uniform conjecture are still open. The exact
+non-finiteness argument and the incomplete proof gate are recorded in
+the active note; no new uniform-theorem entry is added.
+The subsequent Schur-pencil argument resolves that zero-dimensionality
+gap on the ENTIRE allowed central open. Its highest form and constant
+leading coefficients make every plane-pencil member squarefree. A
+compact centered-block identity and two uniform quartics exclude all
+vertical critical curves, including every exceptional parameter and
+intersection. Sage and an independent characteristic-zero SymPy audit
+verify the full-potential identities. Thus the relative algebra there
+is flat, reduced, and pure two-dimensional by standard algebra. The
+prior boundary exclusions make the generic-target algebra finite etale
+or zero, proving generic regular-source smoothness for this candidate.
+The older six boundary certificates now also have a complete independent
+audit: 60 original-ideal memberships on four boundaries and two full-potential
+involutions preserving the actual gradient schemes. The source-open proof
+is independently checked in full. This closes that audit gap.
+The candidate's generic-target degree and nonemptiness, and the uniform
+all-simple conjecture, remain open. This closes the authorized test using
+a structural argument; it does not restart the exceptional census.
+E7 completion is paused; another finite coverage increase is not the goal.
+GEO-76 now identifies the root subsystem behind every cubic interaction:
+D_(m+3) for A1,A1,A_m, or E_(m+4) for A1,A2,A_m with 2<=m<=4.
+This follows uniformly from the root norm budget and standard Dynkin theory;
+it does not separate overlapping interactions in the full adjoint character.
+GEO-77 excludes a dominant singular-incidence image wherever the actual
+relative critical fiber is smooth, including positive excess. The remaining
+adjoint-specific obstruction is the image of points singular in BOTH schemes.
+Two exact engines check the root and control identities. Neither result
+settles the main conjecture, adds Levi coverage, or establishes novelty.
+The direct differential route now has a general limitation: the whole
+algebra of Weyl-invariant flat constant-coefficient logarithmic operators
+acts scalarly on the ambient root orbit, so none of its joint eigenvalue
+equations distinguish the adjoint character from the altered-multiplicity
+control. This does not concern radial group Casimirs or replace actual
+ambient Weyl invariance. The singular-image bound remains unproved.
+The overlap continuation proves GEO-78, a normal-form singular-image
+bound for f=(1-sum u_i v_i)(x^2-delta)+Q with delta not identically zero.
+It explains the correct linear coefficient in the existing E6 control
+through an omitted-root reflection. No general adjoint normal-form
+reduction has been proved. Rank-two directional overlap identities are
+syzygies; actual SL4 overlap cancellation disproves separate-subsystem
+criticality. The uniform conjecture and coverage remain unchanged.
+BASE-08 now supplies the classical full radial Casimir equation and
+its Schur transport; the altered E6 control fails this stronger identity.
+LIMIT-15 rules out determinant-only scalar reconstruction for the
+existing E8 block by an exact nonzero differential wedge and a genuine
+Schur pole. Neither result controls the remaining singular target image.
+The precise gap is the additional term in the differentiated incidence
+identity (84); no vanishing or nonzero target annihilator is established.
+LIMIT-16 now shows this gap is substantive: an abstract cubic potential
+satisfies the radial equation with a logarithmic-gradient coefficient,
+yet its singular-block embedded component dominates the target. The
+exact equations without H inversion and the root formula for b are
+recorded in the active note. This is a limitation of the proposed
+criterion, not an adjoint counterexample. The full compatibility of
+character and discriminant from the same root system is the missing
+input; scalar-radial-only arguments are stopped.
+The subsequent full-character/discriminant attempt proves the uniform
+Jacobian-square formula from Steinberg's theorem; it gives etale
+ambient character coordinates, not smoothness of the critical scheme.
+LIMIT-17 rules out propagating criticality to higher Adams characters
+even for the actual SL3 adjoint model over the generic central parameter.
+The root polynomial and its Newton identities remain valid, but cannot
+be imposed as extra critical equations. Actual generic-target reducedness
+and the full singular-image bound remain unproved in general.
+GEO-79 now gives an explicit all-Levi, all-rank type A nilradical theorem:
+on the finite central cover N^2=0 and every central target coordinate
+annihilates N. Only partitions (2,...,2) have nonzero relative-incidence
+nilradical; their generic nonzero target fibers are empty. This uses
+the full adjoint two-trace factorization and exact ideal decompositions,
+not a reduction of the scheme or a generic-source localization. The
+original SL4 incidence is genuinely nonreduced, excluding global
+radicality as a shortcut. Type A generic smoothness was already proved
+by the quadratic theorem; no new coverage or novelty is claimed. The
+remaining exceptional target-annihilator problem is still unresolved.
+The next attempt produces LIMIT-18 rather than an annihilator: the full
+E6 root-discriminant radial field fails to preserve the critical ideal
+on a target-dominating regular-semisimple branch, and no nonzero target
+multiple repairs that failure. Native symbolic and independent ambient
+root calculations agree. Central norms supply no replacement without
+an already established module annihilator and nonzero norm; the existing
+positive-excess and altered-character controls expose those gaps. The
+exceptional generic-target reducedness claim remains unproved. There is
+no new positive theorem or coverage increase in this attempt.
+The 26 October direct generator-relation approach gives GEO-80: an exact
+intersection, entire nilradical and colon formula for every aligned
+quadratic coupling with delta!=0. Its target annihilator is the explicit
+elimination ideal (delta/rad(delta),c-DQ) intersect C[c], retaining
+repeated-factor multiplicities. The full E6 aligned adjoint restriction
+has a nonzero square-zero nilradical annihilated by its central target
+coordinate. Original Laurent gradient ideals and exact membership
+identities pass independent checks. Generic smoothness for this family
+was already proved in GEO-78; this adds the direct module/certificate
+description, with no new coverage or novelty claim. No comparable whole
+ideal decomposition for the remaining exceptional couplings is proved.
 The [research proposal and progress inventory](../articles/research-program-proposal/README.md)
-organizes these questions into four core aims and extension track E, with
-proof routes and milestone gates. Its priority is the local arithmetic of
-integral images, followed by effective generic degrees and regularity criteria;
-an integral geometric explanation of Smith filtrations is a supporting aim.
+records the broader program in four core aims and extension track E, with
+proof routes and milestone gates. Its earlier priority was the local arithmetic
+of integral images, followed by effective generic degrees and regularity
+criteria; those tracks remain background to the current fiber investigation.
 The [classical expository paper](../articles/classical-equivariant-exposition/README.md)
 introduces the Bruhat and ring presentations, states the integral A-D
 results and explains the equivariant/K-theoretic image program.
@@ -36,7 +244,7 @@ projective model before B/D quadrics and isotropic Grassmannians. The
 [current sequence](OTHER_THEORIES_PROGRAM.md#current-focus-equivariant-images-in-the-classical-a-d-families)
 retains the Spin/SO lattice distinction; it adds no completed theorem.
 The Spin parity classification is shelved at the user's request. The expanded
-ledger has 172 entries, including 22 open questions. The proposal itself
+ledger has 190 entries, including 22 open questions. The proposal itself
 adds no theorem; subsequent progress is tracked here and in its README.
 
 The current focus is the geometry and representation-dependent degrees
@@ -235,14 +443,23 @@ GEO-66 groups the 32 E7 cubic embeddings into seven Weyl families, all
 represented inside the node-4 maximal Levi. GEO-67 gives a general
 nonunit-multiplier criterion with controlled boundary, and GEO-68 applies
 it to A3+A1+A1: nonempty smooth generic regular fibers of dimension 16.
-E7 coverage is now 99 of 127 proper standard Levis; 28 cubic embeddings
-in five Weyl families remain unresolved. Refinement alone does not
+At that stage E7 coverage was 99 of 127 proper standard Levis, with 28 cubic
+embeddings in five Weyl families unresolved. Refinement alone does not
 transfer generic smoothness from a larger Levi.
 GEO-69/70 further prove a symmetric-pencil rank-stratum criterion and the
 complete A1^4 family, with nonempty smooth generic regular fibers of
-dimension 8. The current E7 count is 101 of 127; 26 cubic embeddings in
-four families remain. PART-07 isolates the A2+A1^3 companion's exact
+dimension 8. At that stage the E7 count was 101 of 127, with 26 cubic
+embeddings in four families remaining. PART-07 isolates the A2+A1^3 companion's exact
 quartic reduction and pending six-polynomial membership certificate.
+The 24 October review leaves these counts unchanged. Its standard
+bad-image criterion and literature audit distinguish established geometry
+from the unproved all-simple-adjoint conjecture. The companion certificate
+is a secondary task. GEO-71/72 meet the review's next structural milestone:
+a binary critical-equation criterion with verified content, separability,
+boundary and trace-ramification hypotheses covers the cubic A1^3 and
+A2+A1^2 Weyl families. Their 22 embeddings have nonempty smooth generic
+regular-source fibers of dimensions 6 and 10 respectively. E7 coverage is
+now 123/127, leaving A2^2+A1 (three embeddings) and A2+A1^3 (one).
 General recursive elimination and arbitrary coordinate changes remain
 open, as do E7/E8 all-Levi smoothness. Other exceptional embeddings,
 representations, whole fibers and special-target strata remain separate.
@@ -316,6 +533,8 @@ that rational image has full rank.
 | BASE-04 | The generalized Cayley map has the same generic degree as its map T/W -> t/W; its full differential determinant enters harmonic localization. | Published input from Kostant--Michor. Our explicit coordinates and determinant factors make these constructions calculable. | [Geometry and published locators](SPRINGER_GEOMETRY.md) |
 | BASE-05 | Integral theta/eta Schubert calculus, quaternionic flag descriptions and integral Leray--Hirsch. | Published inputs to the Smith and joint-image arguments; the ambient theories are not new results here. | [Source audit](PROOF_STATUS.md), [joint-image audit](TYPE_C_JOINT_AUDIT.md) |
 | BASE-06 | K-theoretic characteristic maps, oriented flag presentations, primitive K-classes, quantum rings, loop-space Hopf models and Peterson correspondences. | Published inputs to the other-theories exploration. The ambient frameworks and the K-theoretic Peterson theorem are already established; this project specifies representation-dependent images within them. | [Sources and status](OTHER_THEORIES_PROGRAM.md), [primitive character data](OTHER_THEORIES_COTANGENT.md) |
+| BASE-07 | Generic fibers of a finite-type complex scheme X -> A^s are smooth, allowing emptiness, if and only if the image of the nonsmooth locus of X has nondense closure. | Standard consequence of characteristic-zero generic smoothness, generic flatness and flat-plus-smooth-fibers. Applied to X=V(partial_x chi) and mu=D_z chi, this isolates the representation-dependent task. It does not prove the all-simple-adjoint conjecture, nonemptiness or zero excess. | [Proof and sources](CAYLEY_FIBER_REVIEW.md#2-a-uniform-criterion-and-which-part-is-already-standard), [exact controls](cayley-fiber-review-audit.json) |
+| BASE-08 | The adjoint character satisfies V(Phi)=2h^vee Phi-Psi for the radial Casimir drift V and the root-length-weighted root sum Psi. In simply laced type this is V(Phi)=2(h^vee-1)Phi+2 rank(G). | Classical Weyl-character/Casimir input, attributed to Samelson Section 3.7. Descent to the localized Levi quotient and transport to the Schur scalar are elementary written corollaries; the internal Levi discriminant remains. The equation excludes the altered E6 control but does not imply the remaining singular-image bound. Independent coefficientwise root-string and Sage rational-evaluation checks, with separate Schur linear solves. No new representation-theoretic theorem or novelty claim. | [Identity, derivation and exact gap](UNIFORM_ADJOINT_PROOF_TARGET.md#the-identity-supplied-by-the-full-root-character), [native audit](adjoint-radial-schur-audit.json), [Sage verification](adjoint-radial-schur-verification.json) |
 
 ## General source and representation results
 
@@ -469,7 +688,17 @@ theorems have a>=1,k>=2. Changes of integral source are explicit, not implicit.
 | GEO-67 | For psi=(1-y^2)Q(x,z)+v(Ax+B)+C on a torus of dimension at least two, a controlled nonunit multiplier reduces generic critical fibers to D K=c, with K=Q(-B/A,z). They are smooth finite, possibly empty, and nonempty if D K is dominant. | A is nonzero, C constant, K nonzero; every component of its zero divisor off A=0 must be a translated codimension-one subtorus, and the full relative-critical boundary over A=0 must have nondense target image. Exact scheme elimination and fixed annihilator lines exclude the two boundaries. An invertible logarithmic Hessian proves dominance. Conditional theorem; no unrestricted quartic or global finiteness claim, and priority unverified. | [Theorem 2 and proof](E7_MULTIPLIER_BOUNDARY.md#2-a-general-transfer-with-a-nonunit-multiplier) |
 | GEO-68 | For E7 adjoint and Levi type A3+A1+A1, generic central targets with that centralizer have nonempty smooth regular-source Springer fibers of pure dimension 16. | Applies GEO-67 with K=(R^2-1)(R^2-S^2)/R^2, R=r+r^-1, S=t+t^-1. The nonunit boundary has dimension one against two target parameters; the zero divisor has fixed subtorus normals. Exact logarithmic Hessian determinant -9125752/16875 proves dominance. Weyl transfer covers all three embeddings. E7 coverage becomes 99/127, with five cubic classes (28 embeddings) still open. No orbit count, full-map degree or novelty claim. | [E7 application and normalization](E7_MULTIPLIER_BOUNDARY.md#3-the-e7-character-and-exact-reduction), [independent audit](e7-multiplier-boundary-audit.json) |
 | GEO-69 | Symmetric quadratic character pencils g(x,z)+(1/2)u^t Q(x,z)u have smooth finite generic critical fibers under explicit collision and lower-rank dimension bounds. | Q is symmetric affine in x; g is quadratic in x with unit leading coefficient. With d=det Q and e=g_x, require dim V(d,e)<s, dim V(d,d_x,e)+1<s, and dimension of the full low-rank critical locus <s. Scheme-preserving congruence controls corank one, and the bounds exclude every other bad target image. No invertible Q_1 or global eigensplitting is needed. Dominance of the ordinary gradient gives nonemptiness. This is a conditional general criterion, not an unrestricted pencil theorem; priority unverified. | [Theorem 1 and proof](E7_SYMMETRIC_PENCIL.md#1-a-criterion-retaining-all-rank-strata) |
-| GEO-70 | For E7 adjoint and Levi type A1^4, generic central targets with that centralizer have nonempty smooth regular-source fibers of pure dimension 8. | Both standard embeddings 1257 and 2357 are covered. The full character has a symmetric three-by-three pencil over three independent trace parameters. Exact collision-polynomial coprimality and a four-curve description of the normalized rank-one base prove GEO-69's bounds. The ordinary logarithmic Hessian is -24 times the identity. Independent root, polynomial and normalization audits pass. Current E7 coverage is 101/127, leaving four cubic families with 26 embeddings. No generic-degree or novelty claim. | [E7 theorem](E7_SYMMETRIC_PENCIL.md#2-the-complete-a14-e7-family), [verification](e7-symmetric-pencil-verification.json), [native audit](e7-symmetric-pencil-audit.json) |
+| GEO-70 | For E7 adjoint and Levi type A1^4, generic central targets with that centralizer have nonempty smooth regular-source fibers of pure dimension 8. | Both standard embeddings 1257 and 2357 are covered. The full character has a symmetric three-by-three pencil over three independent trace parameters. Exact collision-polynomial coprimality and a four-curve description of the normalized rank-one base prove GEO-69's bounds. The ordinary logarithmic Hessian is -24 times the identity. Independent root, polynomial and normalization audits pass. E7 coverage at that stage was 101/127, leaving four cubic families with 26 embeddings. No generic-degree or novelty claim. | [E7 theorem](E7_SYMMETRIC_PENCIL.md#2-the-complete-a14-e7-family), [verification](e7-symmetric-pencil-verification.json), [native audit](e7-symmetric-pencil-audit.json) |
+| GEO-71 | A relative-critical scheme for phi=a(y,z)x^2+b(y,z)x+c(y,z) has smooth finite generic fibers over any s-dimensional affine target if a,b are coprime, P=4a^2 c_y-2ab b_y+b^2 a_y is nonzero and squarefree off a=0, and dim V(a,b,a_y,b_y,c_y)<=s-2. | The base is a product of affine spaces and tori of dimension s>=2 over C. Exact elimination identifies the a-nonzero locus with a reduced hypersurface; the boundary has dimension at most s-1. Dominance is additional for nonemptiness. Finite trace covers require a separate nondense-image proof for their ramification locus. Standard hypersurface and generic-smoothness inputs; sufficient criterion, not an unrestricted character classification or novelty claim. | [Theorem 1 and proof](BINARY_BRANCHING_FIBERS.md#1-a-common-criterion) |
+| GEO-72 | For the E7 adjoint Springer map, the cubic A1^3 and A2+A1^2 Weyl families have nonempty smooth generic regular-source fibers of pure dimensions 6 and 10. | Simply connected complex E7, trace normalization, generic central targets with the stated Levi centralizer. Seeds 125 and 1235 cover ten and twelve standard embeddings, respectively. Root characters, primitive squarefree degree-five elimination polynomials, all boundary bounds, original central derivatives and logarithmic Hessians verify GEO-71. Independent Sage and native Cartan/SymPy audits pass. Coverage becomes 123/127; A2^2+A1 (three) and A2+A1^3 (one) remain. No claim about nonregular fibers, full-map degree, the all-simple conjecture or literature priority. | [Theorems 2 and 3](BINARY_BRANCHING_FIBERS.md), [verification](binary-branching-verification.json), [native audit](binary-branching-audit.json) |
+| GEO-73 | Uniform central rigidity: the representation character is constant on every reduced irreducible component of a semisimple Springer fiber, and its Levi-abelianization image lies in a coset of the subtorus defined by integer target relations. Outside finitely many rational target hyperplanes that image is finite; in central dimension one it is finite for every nonzero target. The finite Artinian image splits the actual fiber into finitely many pieces retaining nilpotents. | Connected complex reductive G, rational rho with nondegenerate trace form, semisimple h with fixed Levi centralizer K; actual character/cocharacter lattices of K/[K,K]. Includes nonregular source points. Written residue/constructibility proof, independent generic isotropic-image proof, exact controls. Constancy is only on reductions; finite scheme images do not imply finite morphisms, reducedness, smoothness or effective hyperplane lists. Standard-input deduction; no novelty claim and no new Levi coverage. | [Theorem and two proof routes](CENTRAL_RIGIDITY_FIBERS.md), [exact audit](central-rigidity-audit.json) |
+| GEO-74 | Uniform adjoint cubic coefficients: mixed-factor cubics have one Laurent-unit coefficient; A1-triple cubics have primitive independent coefficients q+q^(-1), attached to D4 subsystems and isolated A1 factors of the derived-Levi centralizer. The full character has a unit quadratic term in each u=q+q^(-1). On centralizer-exact fibers, the corresponding q-to-u maps are etale and the target equations admit an explicit inverse-preserving scheme elimination. | Simply laced simple simply connected G, adjoint representation, proper all-A Levi. Written root-length/string/integrality proof in arbitrary rank; direct root reconstruction corroborates the existing 136 exceptional cubic records independently of character-polynomial inversion. Retains finite central descent and nilpotents. G2/F4 and generic smoothness of the remaining coupled equations are not established. No new Levi coverage or priority claim. | [Uniform theorem and proof](UNIFORM_ADJOINT_PROOF_TARGET.md), [direct-root audit](cubic-root-coefficients-audit.json) |
+| GEO-75 | Every external nonlinear adjoint coefficient for a proper all-A Levi in simply laced G is a standard A-type character with a central twist, a D-type vector character, a unit or an inverse-character pair. Their root factors are isolated in the derived-Levi centralizer. Centralizer root functions e^beta-1 are units on actual centralizer-exact fibers. In common centralizer character coordinates all nonlinear coefficients are units times coordinates, squarefree two-coordinate products or central binomials. Every simultaneous nonlinear-coefficient zero scheme on this open is reduced, etale locally a coordinate-subspace union over a smooth torus coset. | Uniform root-pairing/equivariance proof using Steinberg's quotient and squarefree monomial ideals. Native root reconstruction checks 1,036 coefficient weight sets in 136 existing records and common coordinate frames. A subsequent exact control doubles only an actual model's linear coefficient: identical nonlinear data then coexist with generic nonreduced fibers for an honest reductive-Levi representation. This is not an adjoint counterexample. The mod-2 nonresonance lemma has restricted pencil hypotheses. No general rank bound, new coverage, integral splitting or priority claim follows. | [Theorem, failed rank inference and remaining gap](UNIFORM_ADJOINT_PROOF_TARGET.md), [root and local-algebra audit](cubic-root-coefficients-audit.json) |
+| GEO-76 | Every external cubic in a simply laced adjoint restriction to a proper all-A Levi uses endpoint weights on A1,A1,A_m or A1,A2,A_m (2<=m<=4). The coupled simple roots together with minus a constituent-highest ambient root form D_(m+3) or E_(m+4), respectively. Every carrier root occurs once in the full adjoint character. | Arbitrary-rank deduction from the earlier norm budget and standard root-subsystem/Dynkin theory. Native weight and Sage root-lattice checks agree on 386 highest roots in the existing 136 records. Does not decompose overlapping carriers, force squarefree Schur pencils, prove a new smoothness family, or establish novelty. | [Proof and exact remaining implication](UNIFORM_ADJOINT_PROOF_TARGET.md#path-1-the-root-subsystem-supporting-each-cubic-interaction), [native audit](adjoint-proof-paths-audit.json), [Sage check](adjoint-proof-paths-verification.json) |
+| GEO-77 | For every Laurent-polynomial potential on A^ell times (C*)^s, singular incidence points that are smooth in their actual fixed-central-parameter critical fiber have target image of dimension less than s. Thus generic nonsmooth target fibers can occur only at points singular both in the incidence and in the relative critical fiber. | Written rank proof using flatness stratification, symmetry of the affine Hessian, and characteristic-zero image dimensions. Covers positive and varying excess without assuming a regular sequence or deleting coefficient-zero source strata. Exact E6 excess, Sp4 special-target, altered-Levi nilpotent and reduced three-axis controls. The remaining adjoint-specific bad-image bound is unproved; standard-input deduction, no novelty or new Levi coverage claim. | [Theorem and proof](UNIFORM_ADJOINT_PROOF_TARGET.md#paths-2-and-3-smooth-relative-critical-fibers-cannot-cause-a-dominant-bad-image), [native audit](adjoint-proof-paths-audit.json), [Sage check](adjoint-proof-paths-verification.json) |
+| GEO-78 | For f=(1-sum u_i v_i)(x^2-delta(z))+Q(z), delta a nonzero Laurent polynomial on an s-dimensional torus, the entire singular-incidence image is contained in DQ(V(delta)) union (DQ-Ddelta)(V(delta)); its closure has dimension at most s-1. Actual generic target fibers are smooth, allowing emptiness and positive excess. | Written arbitrary-m,s chart proof, retaining repeated factors and nilpotents. The existing E6 coefficient identity is forced by an omitted-root reflection and fits this form; the altered Levi character does not. Native and Sage/Singular checks corroborate root identities, full coefficient changes and original chart ideals. No proof that general overlapping adjoint carriers admit this form; no new Levi coverage or novelty claim. Rank-two directional syzygies and a proper-centralizer SL4 cancellation control identify failed shortcuts. | [Theorem, proof and exact overlap gap](UNIFORM_ADJOINT_PROOF_TARGET.md#theorem-the-singular-image-for-an-aligned-quadratic-coupling), [native audit](adjoint-proof-paths-audit.json), [Sage check](adjoint-proof-paths-verification.json) |
+| GEO-79 | For every proper Levi of SL_n with full adjoint character, the relative critical algebra on its finite central cover has nilradical N satisfying N^2=0 and mu_j N=0 for every central target coordinate. N is nonzero exactly for all-two-block partitions with at least two blocks; there N=(L)/(LD), Ann(N)=D, and the generic nonzero target fiber is empty. Other partitions have reduced relative incidence. | Written all-rank proof from End(V)=1+Ad, Laurent unit elimination and radical ideal intersections. Independent SymPy and Sage/Singular checks include a defining-matrix adjoint trace, original Laurent ideals, radicals and annihilators. The actual SL4 incidence is nonreduced. Type A generic smoothness already followed from the quadratic theorem: no new coverage or literature-priority claim. Exceptional generic-target nilpotent annihilation remains unproved. | [Full proof and limits](UNIFORM_ADJOINT_PROOF_TARGET.md#25-october-an-explicit-nilradical-certificate-in-every-type-a-levi), [native audit](type-a-incidence-nilradical-audit.json), [independent verification](type-a-incidence-nilradical-verification.json) |
+| GEO-80 | For f=w(x^2-delta)+Q, w=1-sum u_i v_i and nonzero Laurent delta, the full critical ideal J equals (x,u,v) intersect (x^2-delta,w) intersect (x,delta). If d is the squarefree part of delta and a=delta/d, its entire nilradical is generated by d*w*u_i,d*w*v_i and (J:sqrt(J))=(x,a). The exact target annihilator is (a,c-DQ) intersect C[c], a nonzero ideal retaining multiplicities. | Written arbitrary-pair and arbitrary-central-dimension proof with explicit generator-membership identities and no boundary inversion. Full E6 A2+A1+A2 root character gives nonzero N with N^2=0 and mu*N=0. Independent root reconstructions and original Laurent ideal radicals/colons agree. Delta=0 admits dominant embedded nilpotents and is excluded; the altered linear coefficient also violates the form. GEO-78 already proved generic smoothness for this family: no new coverage or priority claim. No normal form or annihilator is established for all exceptional couplings. | [Theorem, membership certificates and gap](UNIFORM_ADJOINT_PROOF_TARGET.md#26-october-a-direct-generator-relation-annihilator-for-aligned-couplings), [native audit](aligned-critical-annihilator-audit.json), [independent verification](aligned-critical-annihilator-verification.json) |
 
 GEO-07 also implies that no nontrivial irreducible representation of a
 nontrivial central quotient SL_n/C preserves torus regularity: the only
@@ -515,6 +744,10 @@ substitutes for a uniform theorem.
 | LIMIT-12 | An ordinarily integral rationally normalized generator automatically gives an integral K/character source. | False. On Sp4/P1 the normalized coordinate epsilon_1 maps to h in H, but its associated rational K-class is v-v^2/2+v^3/2. The literal generator 2epsilon_1 is integral. The full-source hypothesis of IMG-27/28 cannot be dropped on that basis. | [Normalization counterexample](OTHER_THEORIES_FINITE.md#1-a-direct-k-theory-map-already-exists) |
 | LIMIT-13 | All fixed-t Springer fibers are affine spaces, or a vanishing centralizer linear term forces the translated map to vanish. | Both are false. For standard plus dual on SL_(4k), t=iI gives a translated map polynomially equivalent to (i/2)Y^2. In SL4 the zero fiber is reduced with two four-dimensional components meeting in dimension three. Full 8-dimensional trace projection and exact ideal decomposition agree. The accompanying literature assessment identifies KM 4.12/4.13 and established nilpotent-map/square-zero theory; the general fiber reduction and type A normal form are written deductions, not novelty claims. Further rank tables are paused pending a substantive representation-realization question. | [Assessment, proofs and revised research gate](CAYLEY_FIBER_ASSESSMENT.md), [symbolic check](cayley-fiber-assessment-verification.json) |
 | LIMIT-14 | A bipartite cubic coupling graph, or even full monomial support and a simple pencil spectrum, forces smooth generic target fibers. | False: x^2+x+z+(x+1)uv has smooth fibers, while x^2+2x+z+(x+1)uv has identical support and a persistent nonzero nilpotent uv. The latter is the character of an explicit 36-dimensional representation of SL2 x SL3 x Gm. Its regular Springer fiber is nonreduced at a regular semisimple point over every nonzero central target; local dimension 9, tangent dimension 10. Independent weight traces give rank two. The group is reductive, not simple, and the representation is not adjoint; the simple-adjoint conjecture remains open. | [Persistent-collision obstruction](SPECTRAL_BRANCHING_FIBERS.md#3-a-sharp-obstruction-the-graph-alone-is-insufficient) |
+| LIMIT-15 | For every actual adjoint quadratic reduction, the scalar term or completed Schur scalar is determined algebraically by the block determinant and central parameters alone. | False for the existing E8 block q=(a,b): over C(t,r), dS wedge dD has value 515/6 at (t,r,x,y)=(2,3,1,0), proving algebraic independence; dQ wedge dD is also nonzero. At (2,3,-1/2,0), D=0, D_x=6 and N=12, giving a genuine Schur pole, invariant under regular invertible affine changes of this block. The quadratic equations are inconsistent there. No adjoint-fiber counterexample, new coverage, or exclusion of other blocks is claimed. | [Precise obstruction](UNIFORM_ADJOINT_PROOF_TARGET.md#the-determinant-alone-does-not-determine-the-residual-scalar), [native audit](adjoint-radial-schur-audit.json), [Sage verification](adjoint-radial-schur-verification.json) |
+| LIMIT-16 | The scalar radial affine eigenidentity, its derivatives, and a logarithmic-gradient central coefficient force the singular quadratic-block incidence image to be nondense. | False for an abstract cubic Laurent potential: with s=z+z^(-1), u=z-z^(-1), f=s(1+yq^2)-c/kappa and V=(kappa*s/u)D_z, one has V(f)=kappa*f+c but the actual ideal is (q^2,qy). Its embedded nilpotent component q=y=0 lies on H=0 and maps dominantly by mu=u; the generic target fiber remains nonreduced. For positive even kappa the drift is the logarithmic derivative of the inversion-invariant unit u^kappa. Written proof with independent SymPy and Sage/Singular checks. This is NOT an adjoint character or a counterexample to the group conjecture; compatibility with the full ambient root discriminant remains unexploited. | [Singular-block identities and obstruction](UNIFORM_ADJOINT_PROOF_TARGET.md#25-october-applying-the-radial-equation-on-the-singular-quadratic-block), [native audit](adjoint-singular-radial-audit.json), [independent verification](adjoint-singular-radial-verification.json) |
+| LIMIT-17 | Derived criticality of the actual adjoint character propagates to the higher Adams characters after the external-root discriminant is inverted. | False on the generic critical incidence for SL3 with derived Levi SL2: Phi=x^2+Sx, S=z^3+z^(-3), R=z^3-z^(-3). At x=-S/2, partial_x Phi_2=-3*S*R^2/2, mu=-3*S*R/2, and E_ext=9*S^2/4 are generically nonzero. Adding the second Adams gradient gives the unit ideal over C(z). Independent root-product/Newton and defining-matrix/ideal checks. This disproves a proposed spectral inference, not the adjoint smoothness conjecture, and adds no Levi coverage. | [Full-character attempt and precise gap](UNIFORM_ADJOINT_PROOF_TARGET.md#25-october-the-full-character-and-its-root-discriminant), [native audit](adjoint-character-discriminant-audit.json), [independent verification](adjoint-character-discriminant-verification.json) |
+| LIMIT-18 | The full root-discriminant radial field descends to the adjoint critical algebra after multiplying or localizing by some nonzero target polynomial. | False for the actual E6 adjoint character and existing A2+A1+A2 Levi: on a=b=u=v=0, x=-S/2, the target mu=-3SR/2 is dominant and V(Phi_x)=2*(S^2+320)/(3*S) is nonzero. The full external discriminant is nonzero generically and the source is regular semisimple. Hence every nonzero p(mu)V has a nonzero critical-generator remainder on this branch. Independent root reconstruction and Sage ambient-root evaluation give 1647/52 at z=2. This excludes the proposed radial descent, not the existence of a different nilradical annihilator. Central norms also require missing module information. No new positive theorem, coverage or novelty claim. | [Proof and remaining annihilator gap](UNIFORM_ADJOINT_PROOF_TARGET.md#25-october-target-annihilator-attempt-and-an-exceptional-radial-obstruction), [native audit](adjoint-annihilator-routes-audit.json), [independent verification](adjoint-annihilator-routes-verification.json) |
 
 ## Partial results and conditional routes
 
@@ -580,7 +813,7 @@ ranking, and partial progress below does not close an entire question.
 | OPEN-19 | What unlocalized affine image lattice is recovered from a specified quantum lift under Peterson? | IMG-32 now supplies two quantum families. Their localized transport follows from the published cohomological/K-theoretic correspondences; explicit unlocalized recovery and localization losses need separate arguments. This is distinct from IMG-33's ordinary affine cup-cohomology construction. | [Quantum/Peterson scope](OTHER_THEORIES_QUANTUM.md), [direct affine route](OTHER_THEORIES_AFFINE.md) |
 | OPEN-20 | How far do loop characteristic images extend, including central/rotation directions and affine-flag sources? | IMG-33 gives closed A/C contents and finite-parabolic convolution. Plain and twisted pointwise loop Springer maps already follow by base change of finite theta; an explicit constant-loop counterexample blocks naive right-Iwahori descent. Higher loop generators, other groups, central/rotation extensions and a compatible affine-flag polynomial-character source remain. Ordinary infinite matrix traces are unnecessary for the raw loop map. | [Affine image theorems and pointwise loop distinction](OTHER_THEORIES_AFFINE.md), [folding compatibility](OTHER_THEORIES_FOLDING.md) |
 | OPEN-21 | In the symplectic primitive middle-exterior zero model, does the reduced completed local fiber equal the component C at every point of C? | Conjectured: no extra reduced branches meet C, while singular infinitesimal thickening is allowed. GEO-34 proves this on the regular-unipotent locus in every rank and at all points for m=1; higher-rank singular strata remain unresolved. Local isolation of t in the torus fiber is a sufficient route. First test the m=2 singular strata. The separate all-rank noncollision question would simplify C to t U(H); finite exact checks through m=40 are not a proof. | [Precise conjecture and test](SYMPLECTIC_FIBER_COMPONENT.md#6-conjecture-and-a-concrete-test) |
-| OPEN-22 | Which branching conditions determine generic regular-fiber smoothness, nonemptiness and excess dimension? | GEO-46/49 complete the classical adjoint generic theorem; GEO-52 gives all-Levi E6 minimal smoothness. GEO-65 now completes every proper E6 adjoint Levi by quadratic/obstruction arguments and explicit Weyl transfer of the cubic seed proofs. GEO-59/62 settle E7/E8 node 4. GEO-63/64 give a uniform quartic reduction and complete first-step constraint classification, bounding the 136 cubic E6/E7/E8 cases by four residual affine variables. GEO-66 completes E7 Weyl grouping; GEO-67/68 give a controlled nonunit-multiplier theorem and the A3+A1+A1 family. GEO-69/70 settle A1^4 using a general symmetric-pencil rank-stratum criterion. E7 coverage is 101/127, leaving 26 cubic embeddings in four families. PART-07 records the exact A2+A1^3 quartic model and the pending six-polynomial membership certificate for its dimension bound; complete that independent certificate before promoting the companion theorem. E7/E8 all-Levi smoothness, arbitrary affine changes, recursive optimization and the full exceptional classification remain open here. | [E7 families and next gate](E7_MULTIPLIER_BOUNDARY.md), [quartic reduction and E6 completion](EXCEPTIONAL_QUARTIC_REDUCTION.md), [coupled multipliers](MULTIPLIER_BRANCHING_FIBERS.md), [spectral criterion](SPECTRAL_BRANCHING_FIBERS.md), [norm criteria](BRANCHING_NORM_FIBERS.md) |
+| OPEN-22 | Which branching conditions determine generic regular-fiber smoothness, nonemptiness and excess dimension? | GEO-46/49 complete the classical adjoint generic theorem; GEO-52 gives all-Levi E6 minimal smoothness. GEO-65 completes every proper E6 adjoint Levi by quadratic/obstruction arguments and explicit Weyl transfer of the cubic seed proofs. GEO-59/62 settle E7/E8 node 4. GEO-63/64 give a uniform quartic reduction and complete first-step constraint classification, bounding the 136 cubic E6/E7/E8 cases by four residual affine variables. GEO-66 completes E7 Weyl grouping; GEO-67/68 settle A3+A1+A1 and GEO-69/70 settle A1^4 through general boundary/rank criteria. GEO-71/72 supply a shared binary criterion for the cubic A1^3 and A2+A1^2 families. E7 coverage is now 123/127, leaving A2^2+A1 (three embeddings) and A2+A1^3 (one). Further case completion is paused by the user. The active target is a direct proof or disproof of generic regular-source smoothness for all simple adjoint maps; GEO-76 identifies the root subsystems supporting cubic interactions; GEO-77 excludes singular-incidence points smooth in their actual relative critical fiber. The remaining bound concerns points singular in both schemes and is still unproved. BASE-07 remains the standard geometric mechanism; the all-simple-adjoint/all-proper-Levi assertion is a conjecture and zero excess is false by GEO-51. PART-07's six memberships remain unverified and must be checked before promoting that family. No general E7/E8 completion or literature priority is claimed. | [Binary criterion and next test](BINARY_BRANCHING_FIBERS.md), [Review](CAYLEY_FIBER_REVIEW.md), [E7 families](E7_MULTIPLIER_BOUNDARY.md), [quartic reduction and E6 completion](EXCEPTIONAL_QUARTIC_REDUCTION.md), [coupled multipliers](MULTIPLIER_BRANCHING_FIBERS.md), [norm criteria](BRANCHING_NORM_FIBERS.md) |
 
 ## Resolved questions and earlier routes
 

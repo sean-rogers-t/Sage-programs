@@ -1,0 +1,59 @@
+{
+  "result": "passed",
+  "uses_Sage": false,
+  "boundaries": [
+    {
+      "boundary": "t=r",
+      "membership_identities": 15,
+      "dimension_upper_bound": 1,
+      "target_image_dimension_upper_bound": 1
+    },
+    {
+      "boundary": "t=-r",
+      "membership_identities": 15,
+      "dimension_upper_bound": 1,
+      "target_image_dimension_upper_bound": 1
+    },
+    {
+      "boundary": "t*r=1",
+      "membership_identities": 15,
+      "dimension_upper_bound": 1,
+      "target_image_dimension_upper_bound": 1
+    },
+    {
+      "boundary": "t*r=-1",
+      "method": "original-potential involution and full gradient chain rule",
+      "reference_boundary": "t*r=1",
+      "dimension_upper_bound": 1,
+      "target_image_dimension_upper_bound": 1
+    },
+    {
+      "boundary": "t^2+1=0",
+      "membership_identities": 15,
+      "dimension_upper_bound": 1,
+      "target_image_dimension_upper_bound": 1
+    },
+    {
+      "boundary": "r^2+1=0",
+      "method": "original-potential involution and full gradient chain rule",
+      "reference_boundary": "t^2+1=0",
+      "dimension_upper_bound": 1,
+      "target_image_dimension_upper_bound": 1
+    }
+  ],
+  "independently_replayed_count": 6,
+  "partial_audit": false,
+  "direct_membership_boundaries": 4,
+  "potential_involution_boundaries": 2,
+  "original_gradients_reconstructed": true,
+  "rational_memberships_checked_after_exact_denominator_clearing": true,
+  "every_membership_identity_verified": true,
+  "dimension_bounds_do_not_assume_witnesses_are_groebner_basis": true,
+  "target_nondominance_proved_for_six_boundaries": true,
+  "entire_remaining_boundary_resolved": false,
+  "source_sha256": {
+    "audit_adjoint_boundary_exclusions.py": "0a4aab71a942daa8f6c724473231aaccb76dc3e46d595f073ddc186dc5f86282",
+    "adjoint-boundary-dimension-certificates.json.gz": "bc53a890a466d7dda705a050ba0e21234f1a48a40ff77f187272e4ec3e1b7b6f",
+    "adjoint-nilpotent-source-screen.json": "0f084d865f3e85fb22287bbe143c18811db1259697045b09a2c4e4c2be631711"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "result": "passed",
+  "date": "2026-10-24",
+  "uses_Sage": false,
+  "controls": {
+    "nonreduced_source_nondominant_bad_image": true,
+    "rank_drop_branch_retained_and_generically_reduced": true,
+    "persistent_double_structure_detected": true,
+    "same_support_persistent_collision_nilpotent": true,
+    "smooth_excess_not_a_maximal_minor_singularity": true,
+    "smooth_source_has_special_branch_targets": true,
+    "unit_elimination_preserves_original_central_derivative": true,
+    "trace_gradient_and_target_normalization": true
+  },
+  "control_count": 8,
+  "selected_certificate_polynomials": [
+    {
+      "degree": 5,
+      "terms": 43
+    },
+    {
+      "degree": 5,
+      "terms": 44
+    },
+    {
+      "degree": 6,
+      "terms": 44
+    },
+    {
+      "degree": 6,
+      "terms": 37
+    },
+    {
+      "degree": 6,
+      "terms": 59
+    },
+    {
+      "degree": 6,
+      "terms": 56
+    }
+  ],
+  "E7_resolved": 101,
+  "E7_unresolved": 26,
+  "selected_memberships_verified": false,
+  "new_group_classification": false,
+  "all_simple_adjoint_conjecture_proved": false,
+  "literature_priority_claim": false,
+  "scope": "Exact illustrative ideal and trace checks plus archive/status consistency; general proof and literature review are written separately.",
+  "source_sha256": {
+    "CAYLEY_FIBER_REVIEW.md": "b34af4a73eabf370ce4b718c498dd469c9c99e02aeb26c35fa1624a8427ea70a",
+    "tools/audit_cayley_fiber_review.py": "55a339a1c4b99b02606c9b11be909b17bc038e0a55ae00c108fff568be9a35f3",
+    "GENERAL_CAYLEY_FIBER_CRITICAL.md": "1cffec1488cc51c792939382111003bf82394fb195c62c6c97670c6aee2a1483",
+    "AFFINE_BRANCHING_FIBERS.md": "43c2ec3acdc861cef1702c2022d430a51d9dce62d42ce4954d5362f0f4f99aff",
+    "QUADRATIC_BRANCHING_FIBERS.md": "8cfaf1048c51b42778b4be668f7d79166424dce3cac4956511740e3582d4ae3a",
+    "MULTIPLIER_BRANCHING_FIBERS.md": "4ae12e6117dc8a1a45ac0930c40e10bcf14c759dc17353bce0586a08f9adb16e",
+    "SPECTRAL_BRANCHING_FIBERS.md": "0adc75c50fccb3c50d2cec0cead8ee9beddbf6fb8ec994a8f1f1ba957d53101b",
+    "E7_MULTIPLIER_BOUNDARY.md": "8ec5eb17f7cb438fa1b3fdb775668939d9824a5c3ffc0c2229a422cc829fb15d",
+    "E7_SYMMETRIC_PENCIL.md": "f62d9941081df6e1865ecb0092041d85ec78c93a29f1673aa3a5be78c389f312",
+    "e7-quartic-boundary-exploration.json": "70a25badeb03ddc1cc532e8e543abed67277bf86712be288eea11822a7abbb80",
+    "e7-symmetric-pencil-verification.json": "6e9687820a07e2a11a6e791fd7df04ede510f6545bf4026e597c3acac7d241ba"
+  }
+}

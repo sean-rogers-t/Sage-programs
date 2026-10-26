@@ -7,6 +7,14 @@ not a published erratum and do not modify the source articles.
 
 ## Research program proposal
 
+The [Springer-Cayley exposition](springer-cayley-exposition/README.md)
+explains the geometric program through 24 October 2026: explicit torus maps,
+regularity and harmonic separation, degrees and boundary corrections, and
+the character-critical description of fibers. Its eleven-page LaTeX/PDF
+states the classical theorem, current 123/127 E7 coverage, the exact four
+remaining E7 cases, and the broader unresolved conjecture. Published inputs
+and repository deductions are distinguished throughout.
+
 The [classical expository paper](classical-equivariant-exposition/README.md)
 develops the Bruhat and representation-ring background, the published
 Springer-Borel maps, the normalized integral A-D results, and the

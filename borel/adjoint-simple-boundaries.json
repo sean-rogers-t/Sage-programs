@@ -1,0 +1,47 @@
+{
+  "status": "completed",
+  "records": [
+    {
+      "boundary": "t=r",
+      "dimension": 1,
+      "groebner_generators": 72,
+      "cannot_dominate_two_dimensional_target": true,
+      "elapsed_seconds": 0.43792556500000046
+    },
+    {
+      "boundary": "t=-r",
+      "dimension": 1,
+      "groebner_generators": 72,
+      "cannot_dominate_two_dimensional_target": true,
+      "elapsed_seconds": 0.5104045850000034
+    },
+    {
+      "boundary": "t*r=1",
+      "dimension": 1,
+      "groebner_generators": 153,
+      "cannot_dominate_two_dimensional_target": true,
+      "elapsed_seconds": 4.927464794999992
+    },
+    {
+      "boundary": "t*r=-1",
+      "dimension": 1,
+      "groebner_generators": 153,
+      "cannot_dominate_two_dimensional_target": true,
+      "elapsed_seconds": 5.105977249000006
+    },
+    {
+      "boundary": "t^2+1=0",
+      "dimension": 1,
+      "groebner_generators": 125,
+      "cannot_dominate_two_dimensional_target": true,
+      "elapsed_seconds": 6.321215889000001
+    },
+    {
+      "boundary": "r^2+1=0",
+      "dimension": 1,
+      "groebner_generators": 169,
+      "cannot_dominate_two_dimensional_target": true,
+      "elapsed_seconds": 42.02033311699998
+    }
+  ]
+}

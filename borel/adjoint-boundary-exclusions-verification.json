@@ -1,0 +1,16 @@
+{
+  "result": "passed",
+  "boundary_count": 6,
+  "direct_membership_boundaries": 4,
+  "potential_involution_boundaries": 2,
+  "every_dimension_upper_bound": 1,
+  "all_target_images_nondominant": true,
+  "full_remaining_boundary_resolved": false,
+  "uniform_conjecture_proved": false,
+  "certificate_file": "adjoint-boundary-dimension-certificates.json.gz",
+  "source_sha256": {
+    "verify_adjoint_boundary_exclusions.py": "4a4339a5738be9822348847c95e28a95396a4082fb51d0e7e57cf791a4666c34",
+    "adjoint-nilpotent-source-screen.json": "0f084d865f3e85fb22287bbe143c18811db1259697045b09a2c4e4c2be631711",
+    "adjoint-boundary-dimension-certificates.json.gz": "bc53a890a466d7dda705a050ba0e21234f1a48a40ff77f187272e4ec3e1b7b6f"
+  }
+}

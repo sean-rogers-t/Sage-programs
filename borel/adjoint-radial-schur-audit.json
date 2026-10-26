@@ -1,0 +1,120 @@
+{
+  "result": "passed",
+  "engine": "Python fractions, root strings and SymPy",
+  "root_identities": {
+    "A3": {
+      "root_count": 12,
+      "casimir_eigenvalue": "8",
+      "root_length_squares": [
+        "2"
+      ],
+      "coefficientwise_radial_identity": true
+    },
+    "B3": {
+      "root_count": 18,
+      "casimir_eigenvalue": "10",
+      "root_length_squares": [
+        "1",
+        "2"
+      ],
+      "coefficientwise_radial_identity": true
+    },
+    "C3": {
+      "root_count": 18,
+      "casimir_eigenvalue": "8",
+      "root_length_squares": [
+        "1",
+        "2"
+      ],
+      "coefficientwise_radial_identity": true
+    },
+    "D4": {
+      "root_count": 24,
+      "casimir_eigenvalue": "12",
+      "root_length_squares": [
+        "2"
+      ],
+      "coefficientwise_radial_identity": true
+    },
+    "G2": {
+      "root_count": 12,
+      "casimir_eigenvalue": "8",
+      "root_length_squares": [
+        "2",
+        "2/3"
+      ],
+      "coefficientwise_radial_identity": true
+    },
+    "F4": {
+      "root_count": 48,
+      "casimir_eigenvalue": "18",
+      "root_length_squares": [
+        "1",
+        "2"
+      ],
+      "coefficientwise_radial_identity": true
+    },
+    "E6": {
+      "root_count": 72,
+      "casimir_eigenvalue": "24",
+      "root_length_squares": [
+        "2"
+      ],
+      "coefficientwise_radial_identity": true,
+      "altered_Levi_radial_defect": "51958967157800573/5821210127040"
+    },
+    "E7": {
+      "root_count": 126,
+      "casimir_eigenvalue": "36",
+      "root_length_squares": [
+        "2"
+      ],
+      "coefficientwise_radial_identity": true
+    },
+    "E8": {
+      "root_count": 240,
+      "casimir_eigenvalue": "60",
+      "root_length_squares": [
+        "2"
+      ],
+      "coefficientwise_radial_identity": true
+    }
+  },
+  "schur": {
+    "E8_Q_D_wedge": "-525/2",
+    "E8_R_D_wedge": "515/6",
+    "E8_regular_block_point": {
+      "t": 2,
+      "r": 3,
+      "x": 1,
+      "y": 0,
+      "D": "-9/4",
+      "N": "27/4"
+    },
+    "E8_pole_point": {
+      "t": 2,
+      "r": 3,
+      "x": "-1/2",
+      "y": 0,
+      "D": 0,
+      "N": 12,
+      "D_x": 6
+    },
+    "E8_pole_point_quadratic_equations_inconsistent": true,
+    "E8_R_D_algebraically_independent_over_central_function_field": true,
+    "universal_Schur_envelope_derivative_verified": true,
+    "SL2_radial_derivation_regular_on_quotient_discriminant": true,
+    "any_alternative_quadratic_block_excluded": false,
+    "main_conjecture_counterexample": false
+  },
+  "radial_character_identity_is_classical": true,
+  "general_singular_image_bound_proved": false,
+  "new_Levi_coverage": false,
+  "proof_scope": "Written all-type identity and Schur transport; finite checks are corroboration, not a new smoothness theorem.",
+  "source_sha256": {
+    "tools/audit_adjoint_radial_schur.py": "4b66fe3b81d4049beb5eeaecb1658711ee3b9e46afca3a65a397bdc2c4607a70",
+    "tools/audit_affine_branching_certificates.py": "7d56ef1b5373f66a5e7c38d3c8d567ec4c27bfdda5bdd11ef60f54ee2f8da2a1",
+    "adjoint-nilpotent-source-screen.json": "0f084d865f3e85fb22287bbe143c18811db1259697045b09a2c4e4c2be631711",
+    "UNIFORM_ADJOINT_PROOF_TARGET.md": "3f2e4b74cc19dfb216a65ecd4db03bf76705c17a0639292b816ec3100f53ef80"
+  }
+}

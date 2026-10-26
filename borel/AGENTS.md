@@ -3,6 +3,18 @@
 The user's priority is generalizable mathematics: uniform formulas,
 structural explanations, exact hypotheses and counterexamples.
 
+## Active user direction, 24 October 2026
+
+The user explicitly stopped further case-by-case Levi completion after
+repeatedly asking for general theorems. Work directly on the uniform
+adjoint Springer-fiber conjecture in UNIFORM_ADJOINT_PROOF_TARGET.md.
+Do not make the remaining E7 cases, E8 enumeration, another conditional
+criterion tailored to a few embeddings, a new API, or another exposition
+the default next task. Existing case results are evidence to test a
+general proof, not the measure of progress. A failed proof attempt must
+name its exact gap; it must not silently become another case calculation.
+The user may explicitly change this priority later.
+
 - When completing research work, suggest a next step and explain its goal,
   why it advances the program, and what would count as progress. Avoid
   extending a case calculation merely because more cases can be computed.

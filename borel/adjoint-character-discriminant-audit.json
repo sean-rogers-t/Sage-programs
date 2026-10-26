@@ -1,0 +1,31 @@
+{
+  "result": "passed",
+  "engine": "SymPy root products and Newton recurrence",
+  "checks": {
+    "A2_character_from_roots": true,
+    "A2_full_and_external_spectral_products": true,
+    "A2_Jacobian_square_equals_four_external_discriminant": true,
+    "Newton_moments_checked": 4,
+    "A2_second_Adams_derived_gradient_remainder": "-3*S*R^2/2",
+    "A2_exact_specialization": {
+      "z": "2",
+      "x": "-65/16",
+      "mu": "-12285/128",
+      "external_discriminant": "38025/256",
+      "second_Adams_gradient": "-773955/1024"
+    },
+    "criticality_propagates_to_Adams_characters": false,
+    "failure_on_generic_critical_incidence": true,
+    "internal_discriminant_retained": true,
+    "abstract_control_has_etale_chart_with_potential_coordinate": true
+  },
+  "uniform_Jacobian_formula_is_Steinberg_corollary": true,
+  "uniform_adjoint_conjecture_proved": false,
+  "new_Levi_coverage": false,
+  "adjoint_counterexample": false,
+  "novelty_claim": false,
+  "source_sha256": {
+    "tools/audit_adjoint_character_discriminant.py": "be1d0e6fc84852baf531ae1000acaa58b398552dd651cacffd5b0fadd794f40d",
+    "UNIFORM_ADJOINT_PROOF_TARGET.md": "3f2e4b74cc19dfb216a65ecd4db03bf76705c17a0639292b816ec3100f53ef80"
+  }
+}

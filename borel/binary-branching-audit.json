@@ -1,0 +1,87 @@
+{
+  "result": "passed",
+  "uses_Sage": false,
+  "roots": {
+    "seven_A1_root_character": true,
+    "cover_indices": [
+      8,
+      12
+    ],
+    "central_trace_matrices": [
+      [
+        [
+          72,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          72,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          72,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          72
+        ]
+      ],
+      [
+        [
+          432,
+          216,
+          0
+        ],
+        [
+          216,
+          144,
+          0
+        ],
+        [
+          0,
+          0,
+          72
+        ]
+      ]
+    ]
+  },
+  "symbolic": {
+    "original_characters_reconstructed": 2,
+    "original_target_derivatives": true,
+    "primitive_and_squarefree_certificates": true,
+    "boundary_identities": true,
+    "direct_logarithmic_hessians": true,
+    "ramification_target_hyperplane": true
+  },
+  "Weyl": {
+    "Weyl_words_checked": 22,
+    "entire_subsystems_compared": true,
+    "coverage_complete_within_two_cubic_classes": true
+  },
+  "generic_regular_fiber_dimensions": [
+    6,
+    10
+  ],
+  "new_standard_embeddings": 22,
+  "resolved_proper_standard_Levis": 123,
+  "remaining_embeddings": 4,
+  "companion_memberships_verified": false,
+  "all_simple_adjoint_conjecture_proved": false,
+  "full_map_degree_claim": false,
+  "literature_priority_claim": false,
+  "source_sha256": {
+    "BINARY_BRANCHING_FIBERS.md": "c878fa2ddc45f2592278eea707e4795cefe7b6ff91f689eea0bdd95d4cc77dc2",
+    "tools/audit_binary_branching_fibers.py": "3291c0f71928b30bd0a403d8c6c0fe6ddc4d941cadae728521aa82d5704b14b7",
+    "tools/audit_affine_branching_certificates.py": "7d56ef1b5373f66a5e7c38d3c8d567ec4c27bfdda5bdd11ef60f54ee2f8da2a1",
+    "tools/audit_branching_norm_fibers.py": "a7ccf69961962ffb6075392ae8c17883626f02dbc4eba9eafa0cdd7df350d3fa",
+    "binary-branching-verification.json": "dffaae07ccaab34cf17c2ed8c4ab8e5f1b1ee997a8bccaf94c3e477ab3acc4fe"
+  }
+}

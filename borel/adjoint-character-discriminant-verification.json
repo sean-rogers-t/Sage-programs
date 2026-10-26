@@ -1,0 +1,23 @@
+{
+  "result": "passed",
+  "engine": "Sage defining matrices, determinants and exact ideals",
+  "checks": {
+    "A2_adjoint_constructed_on_eight_matrix_basis_elements": true,
+    "full_and_external_matrix_determinants_verified": true,
+    "Jacobian_square_identity": true,
+    "internal_discriminant_retained": true,
+    "independent_power_trace_checks": 4,
+    "second_Adams_gradient_at_specialization": "-773955/1024",
+    "generic_critical_plus_second_Adams_gradient_is_unit_ideal": true,
+    "criticality_propagates_to_Adams_characters": false
+  },
+  "native_audit_imported": false,
+  "uniform_adjoint_conjecture_proved": false,
+  "new_Levi_coverage": false,
+  "adjoint_counterexample": false,
+  "novelty_claim": false,
+  "source_sha256": {
+    "tools/verify_adjoint_character_discriminant.py": "9e5ee76b96e1cf43e0cb2cab44f5cad4097c09c010909d7183242bddf7f8bb1a",
+    "UNIFORM_ADJOINT_PROOF_TARGET.md": "3f2e4b74cc19dfb216a65ecd4db03bf76705c17a0639292b816ec3100f53ef80"
+  }
+}

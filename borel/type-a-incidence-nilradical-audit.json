@@ -1,0 +1,45 @@
+{
+  "result": "passed",
+  "engine": "SymPy coefficient identities and root exponent dictionaries",
+  "checks": {
+    "full_type_A_root_sum_dimensions": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "root_counts": [
+      2,
+      6,
+      12,
+      20,
+      30,
+      42,
+      56,
+      72,
+      90
+    ],
+    "universal_linear_elimination_checks": 6,
+    "all_boundary_coefficients_retained": true,
+    "SL4_actual_incidence_nonreduced": true,
+    "SL4_nilradical_generator": "x*(z^4-1)",
+    "SL4_central_target_nonzero_nilpotent": true,
+    "SL4_target_annihilates_nilradical": true,
+    "SL5_singleton_incidence_squarefree": true,
+    "singleton_equal_square_component_nonvanishing_curves": 20
+  },
+  "all_type_A_nilradical_theorem_written": true,
+  "generic_type_A_reducedness_already_followed_from_quadratic_theorem": true,
+  "uniform_all_simple_reducedness_proved": false,
+  "new_Levi_coverage": false,
+  "novelty_claim": false,
+  "source_sha256": {
+    "tools/audit_type_a_incidence_nilradical.py": "de43cd43f02c49bd7df896421ee5001dcf3ddab0041f9c486f32a056a77439b7",
+    "UNIFORM_ADJOINT_PROOF_TARGET.md": "3f2e4b74cc19dfb216a65ecd4db03bf76705c17a0639292b816ec3100f53ef80"
+  }
+}

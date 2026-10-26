@@ -1,0 +1,47 @@
+{
+  "result": "passed",
+  "engine": "Sage root lattice and Singular ideals",
+  "independent_of_native_weight_coordinates": true,
+  "carrier_counts": {
+    "D4": 156,
+    "D5": 152,
+    "D6": 26,
+    "D7": 8,
+    "E6": 32,
+    "E7": 10,
+    "E8": 2
+  },
+  "flat_invariant_operator_control": {
+    "2": 48,
+    "4": 72,
+    "6": 168,
+    "8": 552
+  },
+  "geometric_proof_is_written": true,
+  "overlap": {
+    "root_string_identities": 72,
+    "A2_directional_syzygies": 1440,
+    "SL4_matrix_trace_and_exact_number_field_check": true,
+    "aligned_quadratic_original_ideal_chart_checks": [
+      1,
+      2
+    ],
+    "aligned_quadratic_singular_scheme_target_factorization": true,
+    "E6_full_coefficient_alignment": true,
+    "zero_discriminant_nilpotent_control": true,
+    "E6_reflection_forces_k_equals_one": true,
+    "general_remaining_bad_image_bound_proved": false
+  },
+  "E6_actual_generic_ideal_equal": true,
+  "nonlinear_smooth_excess_decomposition_verified": true,
+  "reduced_singular_axes_decomposition_verified": true,
+  "altered_Levi_nilpotent_verified": true,
+  "nonreduced_incidence_target_annihilator_verified": true,
+  "uniform_adjoint_conjecture_proved": false,
+  "new_Levi_coverage": false,
+  "source_sha256": {
+    "tools/verify_adjoint_proof_paths.py": "b6a3d8ecb03c407098686b6dcb3092fe22c187f3aac4dbfb459fceaaf0005921",
+    "UNIFORM_ADJOINT_PROOF_TARGET.md": "3f2e4b74cc19dfb216a65ecd4db03bf76705c17a0639292b816ec3100f53ef80",
+    "adjoint-proof-paths-audit.json": "8138d4c594c6644f7ffbf35a4088074746a1ac40efabb5b4ea0e755a7aaefc0c"
+  }
+}

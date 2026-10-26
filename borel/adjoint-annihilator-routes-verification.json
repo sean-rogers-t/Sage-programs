@@ -1,0 +1,25 @@
+{
+  "result": "passed",
+  "engine": "Sage ambient E6 roots over an exact number field and Singular ideals",
+  "checks": {
+    "independent_Sage_E6_roots": 72,
+    "E6_full_root_trace_and_external_discriminant_verified": true,
+    "E6_root_metric_verified": true,
+    "E6_radial_defect_exact": "1647/52",
+    "E6_full_critical_branch_and_dominant_target_verified": true,
+    "E6_regular_semisimple_source_verified": true,
+    "E6_radial_eigenidentity_retained": true,
+    "altered_Levi_etale_center_retains_embedded_nilpotent": true,
+    "E6_contact_positive_excess_retained": true
+  },
+  "native_audit_imported": false,
+  "exceptional_target_annihilator_derived": false,
+  "uniform_generic_reducedness_proved": false,
+  "adjoint_counterexample": false,
+  "new_Levi_coverage": false,
+  "novelty_claim": false,
+  "source_sha256": {
+    "tools/verify_adjoint_annihilator_routes.py": "24e34b96a5d9ac1423889c76a53a3f3e8b8c3787aa01587bffe65e9e07cad7a2",
+    "UNIFORM_ADJOINT_PROOF_TARGET.md": "3f2e4b74cc19dfb216a65ecd4db03bf76705c17a0639292b816ec3100f53ef80"
+  }
+}

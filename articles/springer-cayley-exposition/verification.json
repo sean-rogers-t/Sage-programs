@@ -1,0 +1,36 @@
+{
+  "result": "passed",
+  "date": "2026-10-24",
+  "pages": 11,
+  "words_by_page": [
+    419,
+    375,
+    493,
+    342,
+    438,
+    393,
+    498,
+    377,
+    415,
+    249,
+    168
+  ],
+  "total_words": 4167,
+  "single_manuscript_page_per_pdf_page": true,
+  "page_layout": "SinglePage",
+  "unresolved_references": false,
+  "overfull_boxes": false,
+  "source_records_checked": 21,
+  "E7_resolved": 123,
+  "E7_unresolved": 4,
+  "E7_unresolved_Weyl_families": 2,
+  "companion_memberships_verified": false,
+  "all_simple_adjoint_conjecture_proved": false,
+  "scope": "PDF/text/layout and citation checks, source provenance, and current E7 status consistency; not a new proof verification.",
+  "source_sha256": {
+    "main.tex": "41420bfec2288cce033f8175e88f3ad807ffb30d61f8abd80ddcef4f81c6d372",
+    "verify_note.py": "fb932303a96ee5db497cd7c3a8055423bd49186a5a75a3dbe2cef4c4b26c43fb",
+    "source-manifest.json": "82017f933c7850d7688bf25dac6d7ec2136bb981f497f8443a8af1f572617739",
+    "output/pdf/Springer_Cayley_maps_progress_and_open_questions.pdf": "fa02796e83f518d112b059ac1f02e697a7dfd0ced44bfd1d6221d7254de8b665"
+  }
+}

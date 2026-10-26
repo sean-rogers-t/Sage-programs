@@ -1,0 +1,41 @@
+{
+  "result": "passed",
+  "uses_Sage": false,
+  "control_count": 8,
+  "controls": {
+    "divisorial_residues_and_pole_order_controls": true,
+    "resonant_subtorus_and_rational_target_hyperplane": true,
+    "universal_mixed_Hessian_isotropy_identity": true,
+    "generic_central_rigidity_does_not_remove_nilpotents": true,
+    "smooth_excess_with_fixed_central_position": true,
+    "SL2_scheme_level_constancy_is_false": true,
+    "finite_central_algebra_splits_with_nilpotents_retained": true,
+    "generic_nonreduced_central_image_Milnor_algebra_control": true
+  },
+  "uniform_written_theorem": true,
+  "covers_all_simple_types": true,
+  "covers_nonregular_source_points": true,
+  "semisimple_targets_only": true,
+  "constancy_on_reduced_components": true,
+  "generic_abelianization_image_finite": true,
+  "finite_scheme_image_and_actual_fiber_decomposition_proved": true,
+  "finite_rational_hyperplane_existence_proved": true,
+  "hyperplanes_effectively_computed_in_general": false,
+  "independent_geometric_routes": [
+    "divisorial residues and constructibility",
+    "isotropic critical image"
+  ],
+  "generic_smoothness_proved": false,
+  "scheme_level_constancy_claim": false,
+  "generic_reduced_central_image_follows_from_trace_identity": false,
+  "new_control_is_adjoint_counterexample": false,
+  "quartic_degree_bound_alone_suffices": false,
+  "new_Levi_coverage": false,
+  "literature_priority_claim": false,
+  "proof_note": "CENTRAL_RIGIDITY_FIBERS.md",
+  "scope": "Exact corroboration and controls; the geometric arguments are written proofs, not certified by these tests.",
+  "source_sha256": {
+    "tools/audit_central_rigidity.py": "56c79abbe9aced79f9bdf8bf5910449eeca3084cdb2a9531f8976f19c3dace41",
+    "CENTRAL_RIGIDITY_FIBERS.md": "90fe45022d8ed726459a2549c3a02d2684e251aade9c6c8243bc65bceec67f25"
+  }
+}

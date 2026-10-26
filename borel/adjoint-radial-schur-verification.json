@@ -1,0 +1,100 @@
+{
+  "result": "passed",
+  "engine": "Sage ambient root lattices, rational evaluation and linear solves",
+  "root_identities": {
+    "A3": {
+      "root_count": 12,
+      "casimir_eigenvalue": "8",
+      "root_length_squares": [
+        "2"
+      ],
+      "exact_torus_evaluations": 2
+    },
+    "B3": {
+      "root_count": 18,
+      "casimir_eigenvalue": "10",
+      "root_length_squares": [
+        "1",
+        "2"
+      ],
+      "exact_torus_evaluations": 2
+    },
+    "C3": {
+      "root_count": 18,
+      "casimir_eigenvalue": "8",
+      "root_length_squares": [
+        "1",
+        "2"
+      ],
+      "exact_torus_evaluations": 2
+    },
+    "D4": {
+      "root_count": 24,
+      "casimir_eigenvalue": "12",
+      "root_length_squares": [
+        "2"
+      ],
+      "exact_torus_evaluations": 2
+    },
+    "G2": {
+      "root_count": 12,
+      "casimir_eigenvalue": "8",
+      "root_length_squares": [
+        "2",
+        "2/3"
+      ],
+      "exact_torus_evaluations": 2
+    },
+    "F4": {
+      "root_count": 48,
+      "casimir_eigenvalue": "18",
+      "root_length_squares": [
+        "1",
+        "2"
+      ],
+      "exact_torus_evaluations": 2
+    },
+    "E6": {
+      "root_count": 72,
+      "casimir_eigenvalue": "24",
+      "root_length_squares": [
+        "2"
+      ],
+      "exact_torus_evaluations": 2,
+      "altered_Levi_radial_defect": "51958967157800573/5821210127040"
+    },
+    "E7": {
+      "root_count": 126,
+      "casimir_eigenvalue": "36",
+      "root_length_squares": [
+        "2"
+      ],
+      "exact_torus_evaluations": 2
+    },
+    "E8": {
+      "root_count": 240,
+      "casimir_eigenvalue": "60",
+      "root_length_squares": [
+        "2"
+      ],
+      "exact_torus_evaluations": 2
+    }
+  },
+  "schur": {
+    "E8_R_D_wedge": "515/6",
+    "E8_Q_D_wedge": "-525/2",
+    "E8_simple_pole_verified": true,
+    "E8_pole_point_quadratic_equations_inconsistent": true,
+    "universal_Schur_envelope_derivative_verified": true,
+    "SL2_radial_derivation_regular_on_quotient_discriminant": true
+  },
+  "independent_of_native_root_strings": true,
+  "general_singular_image_bound_proved": false,
+  "new_Levi_coverage": false,
+  "source_sha256": {
+    "tools/verify_adjoint_radial_schur.py": "715c5cb3ae9f8454a2800ab3d24ababd68b9430a461158c6d2a08ef1abe25810",
+    "adjoint-radial-schur-audit.json": "5a2d6cadff648a0537a9e939048a224561708ee3c0fcc7b0326fd899babf8e3c",
+    "adjoint-nilpotent-source-screen.json": "0f084d865f3e85fb22287bbe143c18811db1259697045b09a2c4e4c2be631711",
+    "UNIFORM_ADJOINT_PROOF_TARGET.md": "3f2e4b74cc19dfb216a65ecd4db03bf76705c17a0639292b816ec3100f53ef80"
+  }
+}

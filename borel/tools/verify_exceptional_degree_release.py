@@ -29,6 +29,369 @@ def main():
     version=sage_borel.__version__
     regression=read('character-verification.json')
     docs=read('documentation-verification.json')
+    exposition_root=ROOT.parent/'articles/springer-cayley-exposition'
+    exposition=read('../articles/springer-cayley-exposition/verification.json')
+    assert exposition['pages']==11 and exposition['single_manuscript_page_per_pdf_page']
+    assert exposition['page_layout']=='SinglePage'
+    assert not exposition['unresolved_references'] and not exposition['overfull_boxes']
+    assert exposition['E7_resolved']==123 and exposition['E7_unresolved']==4
+    assert exposition['E7_unresolved_Weyl_families']==2
+    assert not exposition['companion_memberships_verified']
+    assert not exposition['all_simple_adjoint_conjecture_proved']
+    for name,expected in exposition['source_sha256'].items():
+        assert digest(exposition_root/name)==expected,name
+    exposition_sources=json.loads((exposition_root/'source-manifest.json').read_text())
+    exposition_live_source_drift={}
+    for name,expected in exposition_sources['source_sha256'].items():
+        actual=digest(ROOT.parent/name)
+        # Preserve the dated PDF's source manifest. These two status files
+        # evolve independently; record drift rather than rewriting provenance.
+        if name in ('borel/PROOF_STATUS.md','borel/RESEARCH_LEDGER.md') and actual!=expected:
+            exposition_live_source_drift[name]=dict(artifact_snapshot=expected,current=actual)
+        else:
+            assert actual==expected,name
+    binary=read('binary-branching-verification.json')
+    binary_audit=read('binary-branching-audit.json')
+    for record in (binary,binary_audit):
+        assert record['new_standard_embeddings']==22
+        assert record['resolved_proper_standard_Levis']==123
+        assert record['remaining_embeddings']==4
+        assert not record['all_simple_adjoint_conjecture_proved']
+        assert not record['full_map_degree_claim']
+        assert not record['literature_priority_claim']
+        for name,expected in record['source_sha256'].items():
+            assert digest(ROOT/name)==expected,name
+    assert binary['remaining_Weyl_classes']==2
+    assert binary['regular_fiber_dimensions']=={'A1^3 cubic class':6,'A2+A1^2 cubic class':10}
+    assert not binary['companion_membership_certificate_used']
+    assert not binary['all_E7_Levis_resolved']
+    assert not binary_audit['uses_Sage']
+    assert not binary_audit['companion_memberships_verified']
+    assert binary_audit['generic_regular_fiber_dimensions']==[6,10]
+    assert binary_audit['roots']['seven_A1_root_character']
+    assert binary_audit['roots']['cover_indices']==[8,12]
+    assert binary_audit['symbolic']['original_characters_reconstructed']==2
+    assert all(binary_audit['symbolic'][key] for key in (
+        'original_target_derivatives','primitive_and_squarefree_certificates',
+        'boundary_identities','direct_logarithmic_hessians','ramification_target_hyperplane'))
+    assert binary_audit['Weyl']['Weyl_words_checked']==22
+    assert binary_audit['Weyl']['entire_subsystems_compared']
+    assert binary_audit['Weyl']['coverage_complete_within_two_cubic_classes']
+    fiber_review=read('cayley-fiber-review-audit.json')
+    assert fiber_review['control_count']==8 and all(fiber_review['controls'].values())
+    assert not fiber_review['uses_Sage']
+    assert fiber_review['E7_resolved']==101 and fiber_review['E7_unresolved']==26
+    assert not fiber_review['selected_memberships_verified']
+    assert not fiber_review['new_group_classification']
+    assert not fiber_review['all_simple_adjoint_conjecture_proved']
+    assert not fiber_review['literature_priority_claim']
+    for name,expected in fiber_review['source_sha256'].items():
+        assert digest(ROOT/name)==expected,name
+    uniform_obstruction=read('uniform-adjoint-obstruction-audit.json')
+    assert uniform_obstruction['proposed_stronger_lemma_false']
+    assert not uniform_obstruction['generic_conjecture_disproved']
+    assert not uniform_obstruction['all_simple_adjoint_conjecture_proved']
+    assert not uniform_obstruction['new_Levi_coverage']
+    assert uniform_obstruction['transverse_length']==3
+    assert uniform_obstruction['adjoint_differential_rank']==7
+    assert uniform_obstruction['source_regular_semisimple']
+    assert uniform_obstruction['local_scheme_exact']
+    assert uniform_obstruction['adjoint_Casimir_sandwich_formula_verified']
+    assert uniform_obstruction['conjugation_Casimir_formula_verified']
+    assert uniform_obstruction['full_equivariance_operator_identity_verified']
+    assert uniform_obstruction['kernel_Lie_subalgebra_shortcut_false']
+    assert uniform_obstruction['kernel_control_coroot_eigenvalue']=='-7/4'
+    higher=uniform_obstruction['higher_order']
+    assert higher['corrected_quartic_symbolic_check']
+    assert higher['Sp4_raw_quartic']=='0'
+    assert higher['Sp4_effective_quartic']=='3*x^4/2'
+    assert higher['Sp4_implicit_expansion_matches_exact_local_ideal']
+    assert higher['E6_excess_residual_constant_to_all_orders']
+    assert higher['four_jet_vanishing_not_sufficient']
+    assert not higher['generic_bad_image_bound_proved']
+    generic=uniform_obstruction['generic_target']
+    assert generic['Sp4_generic_fiber_jacobian_unit']
+    assert generic['Sp4_independent_branch_separation']
+    assert generic['E6_original_generic_ideal_verified']
+    assert generic['E6_smooth_excess_dimension']==2
+    assert generic['source_coefficient_localization_can_erase_dominant_fiber']
+    assert generic['altered_Levi_central_polynomial_squarefree']
+    assert generic['altered_Levi_components_generically_smooth']
+    assert generic['altered_Levi_primary_decomposition_verified']
+    assert not generic['generic_adjoint_smoothness_proved']
+    assert not generic['new_Levi_coverage']
+    reduced=uniform_obstruction['reducedness']
+    assert reduced['complete_intersection_does_not_force_R0']
+    assert reduced['existing_embedded_control_R0_without_S1']
+    assert reduced['target_torsion_control_annihilator']=='c-1'
+    assert reduced['target_torsion_control_generic_ring_zero']
+    assert reduced['Sp4_relative_incidence_squarefree']
+    assert reduced['E6_relative_incidence_radical']
+    assert reduced['E6_displayed_full_gradient_not_regular_sequence']
+    assert not reduced['all_adjoint_R0_proved']
+    assert not reduced['all_adjoint_S1_proved']
+    assert not reduced['uniform_generic_reducedness_proved']
+    assert not reduced['new_Levi_coverage']
+    for name,expected in uniform_obstruction['source_sha256'].items():
+        assert digest(ROOT/name)==expected,name
+    nilpotent_search=read('adjoint-nilpotent-search-audit.json')
+    assert nilpotent_search['result']=='passed'
+    assert not nilpotent_search['counterexample_found']
+    assert not nilpotent_search['uniform_conjecture_proved']
+    assert nilpotent_search['first_model']['entire_relative_critical_surface_smooth']
+    assert nilpotent_search['first_model']['all_central_boundaries_retained']
+    assert not nilpotent_search['second_model_source_screen_alone_resolves_boundary']
+    assert nilpotent_search['independent_source_screen']['standard_monomials']==38
+    assert nilpotent_search['independent_source_screen']['jacobian_ideal_unit']
+    for name,expected in nilpotent_search['sha256'].items():
+        assert sha256((ROOT/name).read_bytes()).hexdigest()==expected,name
+    source_screen=json.loads((ROOT/'adjoint-nilpotent-source-screen.json').read_text())
+    assert source_screen['generic_relative_algebra_finite_etale_by_spreading']
+    assert source_screen['monic_generic_basis_specializes_exactly']
+    assert source_screen['source_boundary_not_tested']
+    assert not source_screen['target_generic_claim']
+    boundary_direct=json.loads((ROOT/'adjoint-simple-boundaries.json').read_text())
+    assert boundary_direct['status']=='completed'
+    assert len(boundary_direct['records'])==6
+    assert all(r['dimension']==1 and r['cannot_dominate_two_dimensional_target']
+               for r in boundary_direct['records'])
+    boundary_audit=read('adjoint-boundary-exclusions-audit.json')
+    assert boundary_audit['independently_replayed_count']==6
+    assert not boundary_audit['partial_audit']
+    assert boundary_audit['direct_membership_boundaries']==4
+    assert boundary_audit['potential_involution_boundaries']==2
+    assert boundary_audit['target_nondominance_proved_for_six_boundaries']
+    assert not boundary_audit['entire_remaining_boundary_resolved']
+    for name,expected in boundary_audit['source_sha256'].items():
+        path=ROOT/'tools'/name if name.endswith('.py') else ROOT/name
+        assert sha256(path.read_bytes()).hexdigest()==expected,name
+    boundary_certificate=read('adjoint-boundary-exclusions-verification.json')
+    assert boundary_certificate['boundary_count']==6
+    assert boundary_certificate['direct_membership_boundaries']==4
+    assert boundary_certificate['potential_involution_boundaries']==2
+    for name,expected in boundary_certificate['source_sha256'].items():
+        path=ROOT/'tools'/name if name.endswith('.py') else ROOT/name
+        assert sha256(path.read_bytes()).hexdigest()==expected,name
+    boundary_lift=json.loads((ROOT/'adjoint-central-boundary-lift-forward.json').read_text())
+    assert boundary_lift['both_ideal_inclusions_checked']
+    assert boundary_lift['monic_basis_generators']==28
+    assert len(boundary_lift['denominator_factors'])==18
+    assert sha256((ROOT/boundary_lift['certificate_file']).read_bytes()).hexdigest()==boundary_lift['certificate_sha256']
+    reverse_lift=json.loads((ROOT/'adjoint-central-boundary-lift-reverse.json').read_text())
+    assert reverse_lift['both_ideal_inclusions_checked']
+    assert reverse_lift['monic_basis_generators']==28
+    assert sha256((ROOT/reverse_lift['certificate_file']).read_bytes()).hexdigest()==reverse_lift['certificate_sha256']
+    flatness_audit=read('adjoint-central-flatness-audit.json')
+    assert flatness_audit['result']=='passed'
+    assert [r['length'] for r in flatness_audit['checks']]==[37,37,38]
+    assert flatness_audit['finite_over_entire_b_open_ruled_out']
+    assert not flatness_audit['whole_open_flatness_proved']
+    assert not flatness_audit['generic_target_reducedness_proved']
+    for name,expected in flatness_audit['source_sha256'].items():
+        path=ROOT/'tools'/name if name.endswith('.py') else ROOT/name
+        assert sha256(path.read_bytes()).hexdigest()==expected,name
+    for filename in ('adjoint-central-flatness-screen.json','adjoint-central-flatness-curve-screen.json'):
+        for name,expected in json.loads((ROOT/filename).read_text())['source_sha256'].items():
+            path=ROOT/'tools'/name if name.endswith('.py') else ROOT/name
+            assert sha256(path.read_bytes()).hexdigest()==expected,name
+    intersections=json.loads((ROOT/'adjoint-central-flatness-cover-intersections.json').read_text())
+    assert intersections['residual_pairs']==22
+    assert all(r['dimension']==0 for r in intersections['records'])
+    # The earlier screens retain their historical limited scope. The following
+    # structural proof now controls every fiber on the allowed source open.
+    quasifinite=read('adjoint-quasifinite-verification.json')
+    quasifinite_audit=read('adjoint-quasifinite-audit.json')
+    assert quasifinite['all_allowed_critical_fibers_zero_dimensional']
+    assert quasifinite['relative_algebra_flat_and_reduced_on_b_open']
+    assert quasifinite['relative_scheme_pure_dimension']==2
+    assert quasifinite['generic_target_finite_etale_or_zero_by_dimension_argument']
+    assert quasifinite['generic_target_smoothness_proved']
+    assert not quasifinite['uniform_adjoint_conjecture_proved']
+    assert quasifinite['compact_center_identity_verified']
+    assert quasifinite_audit['compact_center_identity_independently_verified']
+    assert quasifinite_audit['centered_line_obstruction_membership_verified']
+    assert len(quasifinite_audit['rank_zero_branches'])==8
+    assert not quasifinite_audit['uses_Sage'] and not quasifinite_audit['uses_modular_specialization']
+    for report in (quasifinite,quasifinite_audit):
+        for name,expected in report['source_sha256'].items():
+            assert sha256((ROOT/name).read_bytes()).hexdigest()==expected,name
+    proof_paths=read('adjoint-proof-paths-audit.json')
+    proof_paths_sage=read('adjoint-proof-paths-verification.json')
+    assert proof_paths['carriers']['cubic_highest_roots']==386
+    assert proof_paths['carriers']['existing_character_records']==136
+    assert proof_paths['carriers']['counts']==proof_paths_sage['carrier_counts']
+    assert proof_paths['smooth_relative_fiber_bad_image_exclusion_proved_in_note']
+    assert not proof_paths['root_carriers_force_squarefree_schur_pencils']
+    assert proof_paths['controls']['E6_original_generic_ideal_recovered']
+    assert proof_paths['controls']['E6_entire_pencil_zero_on_dominant_source_stratum']
+    assert proof_paths['controls']['reduced_singular_axes_control']
+    assert not proof_paths['geometric_argument_verified_by_computer']
+    assert proof_paths_sage['E6_actual_generic_ideal_equal']
+    assert proof_paths_sage['independent_of_native_weight_coordinates']
+    assert not proof_paths['invariant_operators']['flat_invariant_operators_force_equal_root_multiplicities']
+    assert proof_paths_sage['flat_invariant_operator_control']==proof_paths['invariant_operators']['root_moment_eigenvalues']
+    assert proof_paths['overlap']['E6_full_coefficient_alignment']
+    assert proof_paths_sage['overlap']['E6_reflection_forces_k_equals_one']
+    assert proof_paths['overlap']['SL4_proper_centralizer_overlap_cancellation']
+    assert proof_paths_sage['overlap']['SL4_matrix_trace_and_exact_number_field_check']
+    for key in ('root_string_identities','A2_directional_syzygies','aligned_quadratic_original_ideal_chart_checks'):
+        assert proof_paths['overlap'][key]==proof_paths_sage['overlap'][key]
+    for report in (proof_paths,proof_paths_sage):
+        assert report['overlap']['zero_discriminant_nilpotent_control']
+        assert report['overlap']['aligned_quadratic_singular_scheme_target_factorization']
+        assert not report['overlap']['general_remaining_bad_image_bound_proved']
+    for report in (proof_paths,proof_paths_sage):
+        assert not report['uniform_adjoint_conjecture_proved']
+        assert not report['new_Levi_coverage']
+        for name,expected in report['source_sha256'].items():
+            assert digest(ROOT/name)==expected,name
+    assert sha256((ROOT/'unit-constraint-cases.json.gz').read_bytes()).hexdigest()==proof_paths['archive_sha256']
+    radial=read('adjoint-radial-schur-audit.json')
+    radial_sage=read('adjoint-radial-schur-verification.json')
+    assert radial['radial_character_identity_is_classical']
+    assert radial_sage['independent_of_native_root_strings']
+    assert set(radial['root_identities'])==set(radial_sage['root_identities'])=={'A3','B3','C3','D4','G2','F4','E6','E7','E8'}
+    for kind,row in radial['root_identities'].items():
+        assert row['coefficientwise_radial_identity']
+        for key in ('root_count','casimir_eigenvalue','root_length_squares'):
+            assert row[key]==radial_sage['root_identities'][kind][key]
+    assert radial['root_identities']['E6']['altered_Levi_radial_defect']==radial_sage['root_identities']['E6']['altered_Levi_radial_defect']
+    for report in (radial,radial_sage):
+        assert report['schur']['E8_R_D_wedge']=='515/6'
+        assert report['schur']['E8_Q_D_wedge']=='-525/2'
+        assert report['schur']['universal_Schur_envelope_derivative_verified']
+        assert report['schur']['SL2_radial_derivation_regular_on_quotient_discriminant']
+        assert report['schur']['E8_pole_point_quadratic_equations_inconsistent']
+        assert not report['general_singular_image_bound_proved'] and not report['new_Levi_coverage']
+        for name,expected in report['source_sha256'].items():assert digest(ROOT/name)==expected,name
+    singular_radial=read('adjoint-singular-radial-audit.json')
+    singular_radial_sage=read('adjoint-singular-radial-verification.json')
+    assert singular_radial['differential']['unrestricted_full_matrix_identity']
+    assert singular_radial['differential']['external_root_pair_logarithmic_derivative']
+    assert singular_radial['control']['bad_image_dominant']
+    assert singular_radial['control']['actual_incidence_ideal']==['q^2','q*y']
+    assert not singular_radial['control']['actual_adjoint_character']
+    assert singular_radial_sage['checks']['nonzero_generic_fiber_nilpotent']
+    assert singular_radial_sage['checks']['localization_keeps_generic_fiber']
+    assert singular_radial_sage['checks']['generic_bad_support_length']==2
+    assert not singular_radial_sage['native_audit_imported']
+    for report in (singular_radial,singular_radial_sage):
+        assert not report['abstract_radial_identity_suffices']
+        assert not report['uniform_adjoint_conjecture_proved']
+        assert not report['adjoint_counterexample'] and not report['new_Levi_coverage']
+        for name,expected in report['source_sha256'].items():assert digest(ROOT/name)==expected,name
+    character_discriminant=read('adjoint-character-discriminant-audit.json')
+    character_discriminant_sage=read('adjoint-character-discriminant-verification.json')
+    assert character_discriminant['uniform_Jacobian_formula_is_Steinberg_corollary']
+    assert character_discriminant['checks']['A2_Jacobian_square_equals_four_external_discriminant']
+    assert character_discriminant['checks']['failure_on_generic_critical_incidence']
+    assert character_discriminant_sage['checks']['full_and_external_matrix_determinants_verified']
+    assert character_discriminant_sage['checks']['generic_critical_plus_second_Adams_gradient_is_unit_ideal']
+    assert not character_discriminant_sage['native_audit_imported']
+    for report in (character_discriminant,character_discriminant_sage):
+        assert not report['checks']['criticality_propagates_to_Adams_characters']
+        assert report['checks']['internal_discriminant_retained']
+        assert not report['uniform_adjoint_conjecture_proved']
+        assert not report['adjoint_counterexample'] and not report['new_Levi_coverage']
+        for name,expected in report['source_sha256'].items():assert digest(ROOT/name)==expected,name
+    type_a_nil=read('type-a-incidence-nilradical-audit.json')
+    type_a_nil_sage=read('type-a-incidence-nilradical-verification.json')
+    assert type_a_nil['checks']['SL4_actual_incidence_nonreduced']
+    assert type_a_nil['checks']['SL4_target_annihilates_nilradical']
+    assert type_a_nil_sage['checks']['SL4_original_Laurent_ideal_radical_verified']
+    assert type_a_nil_sage['checks']['SL4_nilpotent_and_target_annihilator_verified']
+    assert type_a_nil_sage['checks']['SL4_generic_target_ideal_is_unit']
+    assert not type_a_nil_sage['native_audit_imported']
+    for report in (type_a_nil,type_a_nil_sage):
+        assert report['all_type_A_nilradical_theorem_written']
+        assert report['generic_type_A_reducedness_already_followed_from_quadratic_theorem']
+        assert not report['uniform_all_simple_reducedness_proved']
+        assert not report['new_Levi_coverage'] and not report['novelty_claim']
+        for name,expected in report['source_sha256'].items():assert digest(ROOT/name)==expected,name
+    annihilator_routes=read('adjoint-annihilator-routes-audit.json')
+    annihilator_routes_sage=read('adjoint-annihilator-routes-verification.json')
+    assert annihilator_routes['checks']['E6_full_root_character_reconstructed']
+    assert annihilator_routes['checks']['no_nonzero_target_multiple_repairs_radial_descent']
+    assert annihilator_routes['checks']['E6_exact_defect_at_z2']=='1647/52'
+    assert annihilator_routes_sage['checks']['E6_radial_defect_exact']=='1647/52'
+    assert annihilator_routes_sage['checks']['E6_regular_semisimple_source_verified']
+    assert annihilator_routes_sage['checks']['altered_Levi_etale_center_retains_embedded_nilpotent']
+    assert not annihilator_routes_sage['native_audit_imported']
+    for report in (annihilator_routes,annihilator_routes_sage):
+        assert report['checks']['E6_radial_eigenidentity_retained']
+        assert not report['exceptional_target_annihilator_derived']
+        assert not report['uniform_generic_reducedness_proved']
+        assert not report['adjoint_counterexample'] and not report['new_Levi_coverage']
+        for name,expected in report['source_sha256'].items():assert digest(ROOT/name)==expected,name
+    aligned_nil=read('aligned-critical-annihilator-audit.json')
+    aligned_nil_sage=read('aligned-critical-annihilator-verification.json')
+    assert aligned_nil['checks']['E6_explicit_original_ideal_membership_certificate']
+    assert aligned_nil['checks']['entire_three_ideal_intersection_verified']
+    assert aligned_nil['checks']['squarefree_support_polynomial_alone_fails']
+    assert aligned_nil_sage['E6']['original_Laurent_gradient_radical_verified']
+    assert aligned_nil_sage['E6']['original_Laurent_annihilator_colon_verified']
+    assert aligned_nil_sage['E6']['central_target_annihilates_entire_nilradical']
+    assert aligned_nil_sage['excluded_delta_zero_embedded_control_verified']
+    assert aligned_nil_sage['E6_contact_positive_excess_retained']
+    assert aligned_nil_sage['altered_Levi_embedded_nilpotent_retained']
+    assert not aligned_nil_sage['native_audit_imported']
+    for report in (aligned_nil,aligned_nil_sage):
+        assert report['aligned_family_exact_annihilator_proved_in_note']
+        assert report['generic_smoothness_coverage_already_known']
+        assert not report['all_exceptional_annihilators_proved']
+        assert not report['new_Levi_coverage'] and not report['novelty_claim']
+        for name,expected in report['source_sha256'].items():assert digest(ROOT/name)==expected,name
+    rigidity=read('central-rigidity-audit.json')
+    assert rigidity['control_count']==8 and all(rigidity['controls'].values())
+    assert rigidity['generic_reduced_central_image_follows_from_trace_identity'] is False
+    assert rigidity['new_control_is_adjoint_counterexample'] is False
+    assert rigidity['covers_all_simple_types']
+    assert rigidity['covers_nonregular_source_points']
+    assert rigidity['constancy_on_reduced_components']
+    assert rigidity['finite_scheme_image_and_actual_fiber_decomposition_proved']
+    assert rigidity['generic_abelianization_image_finite']
+    assert rigidity['finite_rational_hyperplane_existence_proved']
+    assert not rigidity['generic_smoothness_proved']
+    assert not rigidity['scheme_level_constancy_claim']
+    assert not rigidity['new_Levi_coverage']
+    assert not rigidity['literature_priority_claim']
+    for name,expected in rigidity['source_sha256'].items():
+        assert digest(ROOT/name)==expected,name
+    cubic_roots=read('cubic-root-coefficients-audit.json')
+    assert cubic_roots['finite_cubic_character_records_checked']==136
+    assert cubic_roots['root_checks']['mixed_cubic_monomials']==230
+    assert cubic_roots['root_checks']['D4_subsystems_checked']==78
+    assert cubic_roots['root_checks']['orthogonal_charge_pairs']==48
+    assert cubic_roots['independent_of_stored_character_polynomial_inversion']
+    assert cubic_roots['full_character_unit_quadratic_coefficients_verified']
+    assert cubic_roots['scheme_elimination_inverse_verified']
+    assert cubic_roots['root_checks']['nonlinear_coefficient_weight_sets']==1036
+    assert cubic_roots['all_nonlinear_coefficient_simplex_or_cross_polytope_structure_verified']
+    assert cubic_roots['isolated_centralizer_factors_verified']
+    assert cubic_roots['individual_coefficient_boundary_formulas_verified']
+    assert cubic_roots['common_fundamental_character_coordinate_frames_verified']
+    assert cubic_roots['squarefree_coordinate_ideal_decompositions_verified']
+    assert cubic_roots['simultaneous_coefficient_zero_schemes_reduced_proved']
+    resonance=cubic_roots['linear_resonance_control']
+    assert resonance['same_all_nonlinear_coefficients'] and resonance['same_constant_term']
+    assert resonance['actual_reductive_Levi_representation']
+    assert resonance['representation_dimension']==82 and resonance['central_trace_norm']==180
+    assert resonance['both_local_ideal_inclusions_verified']
+    assert resonance['all_original_derivatives_replayed_in_nonreduced_ring']
+    assert resonance['flat_root_laplacian_identity_preserved']
+    assert not resonance['full_ambient_Weyl_invariance_preserved']
+    assert resonance['invariant_derivations_not_ordinary_quotient_derivatives']
+    assert resonance['sl2_adjoint_regular_unipotent_derivative']==4
+    assert not resonance['ambient_simple_adjoint_representation']
+    assert not resonance['generic_adjoint_conjecture_disproved']
+    assert not resonance['coefficient_boundary_structure_alone_implies_rank_bound']
+    assert not cubic_roots['simultaneous_boundary_transversality_proved']
+    assert not cubic_roots['generic_adjoint_smoothness_proved']
+    assert not cubic_roots['new_Levi_coverage']
+    assert not cubic_roots['literature_priority_claim']
+    for key in ('source_sha256','raw_sha256'):
+        for name,expected in cubic_roots[key].items():
+            assert digest(ROOT/name)==expected,name
     e7_pencil=read('e7-symmetric-pencil-verification.json')
     e7_pencil_audit=read('e7-symmetric-pencil-audit.json')
     e7_candidate=json.loads((ROOT/'e7-quartic-boundary-exploration.json').read_text())
@@ -1446,7 +1809,140 @@ def main():
         'e7-quartic-boundary-exploration.json','e7-quartic-boundary-candidate.json.gz',
         'tools/verify_e7_symmetric_pencil.py','tools/audit_e7_symmetric_pencil.py',
         'tools/explore_e7_cayley_quartic.py')]
+    paths += [ROOT/name for name in ('CAYLEY_FIBER_REVIEW.md',
+        'tools/audit_cayley_fiber_review.py','cayley-fiber-review-audit.json')]
+    paths += [ROOT/name for name in ('BINARY_BRANCHING_FIBERS.md',
+        'tools/verify_binary_branching_fibers.py','tools/audit_binary_branching_fibers.py',
+        'binary-branching-verification.json','binary-branching-audit.json')]
+    paths += [ROOT/'../articles/springer-cayley-exposition'/name for name in ('README.md','main.tex','verify_note.py',
+        'source-manifest.json','verification.json',
+        'output/pdf/Springer_Cayley_maps_progress_and_open_questions.pdf')]
+    paths += [ROOT/'UNIFORM_ADJOINT_PROOF_TARGET.md',ROOT/'AGENTS.md']
+    paths += [ROOT/'tools/audit_uniform_adjoint_obstruction.py',
+              ROOT/'uniform-adjoint-obstruction-audit.json']
+    paths += [ROOT/name for name in ('tools/search_adjoint_nilpotents.py',
+        'tools/audit_adjoint_nilpotent_search.py','adjoint-nilpotent-search-audit.json',
+        'adjoint-nilpotent-source-screen.json','adjoint-nilpotent-specialized-screen.json')]
+    paths += [ROOT/name for name in ('tools/explore_adjoint_central_boundary.py',
+        'tools/verify_adjoint_boundary_exclusions.py','tools/audit_adjoint_boundary_exclusions.py',
+        'adjoint-simple-boundaries.json','adjoint-central-boundary-exploration.json',
+        'adjoint-central-boundary-lift-forward.json','adjoint-central-membership-forward.json.gz',
+        'adjoint-boundary-dimension-certificates.json.gz','adjoint-boundary-exclusions-audit.json',
+        'adjoint-boundary-exclusions-verification.json')]
+    paths += [ROOT/name for name in ('tools/test_adjoint_central_flatness.py',
+        'tools/audit_adjoint_central_flatness.py','adjoint-central-flatness-audit.json',
+        'adjoint-central-flatness-screen.json','adjoint-central-flatness-curve-screen.json',
+        'adjoint-central-flatness-cover-intersections.json',
+        'adjoint-central-boundary-lift-reverse.json','adjoint-central-membership-reverse.json.gz')]
+    paths += [ROOT/name for name in ('tools/verify_adjoint_quasifinite.py',
+        'tools/audit_adjoint_quasifinite.py','adjoint-quasifinite-verification.json',
+        'adjoint-quasifinite-audit.json')]
+    paths += [ROOT/name for name in ('tools/audit_adjoint_proof_paths.py',
+        'tools/verify_adjoint_proof_paths.py','adjoint-proof-paths-audit.json',
+        'adjoint-proof-paths-verification.json')]
+    paths += [ROOT/name for name in ('tools/audit_adjoint_radial_schur.py',
+        'tools/verify_adjoint_radial_schur.py','adjoint-radial-schur-audit.json',
+        'adjoint-radial-schur-verification.json')]
+    paths += [ROOT/name for name in ('tools/audit_adjoint_singular_radial.py',
+        'tools/verify_adjoint_singular_radial.py','adjoint-singular-radial-audit.json',
+        'adjoint-singular-radial-verification.json')]
+    paths += [ROOT/name for name in ('tools/audit_adjoint_character_discriminant.py',
+        'tools/verify_adjoint_character_discriminant.py','adjoint-character-discriminant-audit.json',
+        'adjoint-character-discriminant-verification.json')]
+    paths += [ROOT/name for name in ('tools/audit_type_a_incidence_nilradical.py',
+        'tools/verify_type_a_incidence_nilradical.py','type-a-incidence-nilradical-audit.json',
+        'type-a-incidence-nilradical-verification.json')]
+    paths += [ROOT/name for name in ('tools/audit_adjoint_annihilator_routes.py',
+        'tools/verify_adjoint_annihilator_routes.py','adjoint-annihilator-routes-audit.json',
+        'adjoint-annihilator-routes-verification.json')]
+    paths += [ROOT/name for name in ('tools/audit_aligned_critical_annihilator.py',
+        'tools/verify_aligned_critical_annihilator.py','aligned-critical-annihilator-audit.json',
+        'aligned-critical-annihilator-verification.json')]
+    paths += [ROOT/name for name in ('CENTRAL_RIGIDITY_FIBERS.md',
+        'tools/audit_central_rigidity.py','central-rigidity-audit.json')]
+    paths += [ROOT/name for name in ('tools/audit_cubic_root_coefficients.py',
+        'cubic-root-coefficients-audit.json')]
     report=dict(result='passed',version=version,
+        active_research_target=dict(uniform_simple_adjoint_conjecture=True,
+            automatic_Levi_case_completion_paused=True,
+            general_proof_complete=False,exceptional_census_resumed=False,
+            authorized_E8_test_candidate_completed=True,
+            larger_centralizer_shortcut_disproved=True,
+            actual_adjoint_exceptional_triple_point_verified=True,
+            uniform_central_rigidity_proved=True,
+            rigidity_constancy_on_reductions=True,
+            finite_central_scheme_image_proved=True,
+            simply_laced_cubic_coefficient_structure_proved=True,
+            central_trace_coordinate_scheme_elimination_proved=True,
+            nonlinear_coefficient_centralizer_character_structure_proved=True,
+            individual_coefficient_boundary_shape_proved=True,
+            simultaneous_coefficient_zero_schemes_reduced_proved=True,
+            coefficient_only_rank_argument_disproved=True,
+            full_adjoint_nonresonance_still_unproved=True,
+            cubic_root_carrier_classification_proved=True,
+            smooth_relative_fiber_bad_image_exclusion_proved=True,
+            overlapping_carrier_bad_image_bound_proved=False,
+            all_flat_invariant_operator_shortcut_excluded=True,
+            classical_radial_character_identity_verified=True,
+            radial_identity_Schur_transport_written=True,
+            determinant_only_scalar_reconstruction_for_fixed_E8_block_disproved=True,
+            radial_identity_forces_singular_image_rank_defect=False,
+            singular_block_radial_conormal_identity_written=True,
+            scalar_radial_sufficiency_disproved_by_abstract_control=True,
+            singular_block_control_is_adjoint_character=False,
+            singular_block_control_generic_nilpotents_independently_verified=True,
+            external_discriminant_Jacobian_square_Steinberg_corollary_written=True,
+            criticality_propagation_to_higher_Adams_characters_disproved=True,
+            full_character_discriminant_singular_image_bound_proved=False,
+            all_type_A_relative_incidence_nilradical_described=True,
+            type_A_central_target_coordinates_annihilate_nilradical=True,
+            type_A_generic_reducedness_previously_quadratic_corollary=True,
+            actual_adjoint_relative_incidence_always_reduced=False,
+            uniform_all_simple_generic_target_reducedness_proved=False,
+            E6_radial_critical_ideal_descent_after_target_scaling_disproved=True,
+            all_exceptional_nilradical_target_annihilators_derived=False,
+            aligned_family_exact_nilradical_and_colon_proved=True,
+            aligned_family_exact_target_annihilator_proved=True,
+            aligned_E6_full_critical_ideal_target_annihilator_derived=True,
+            aligned_generic_smoothness_coverage_previously_known=True,
+            finite_central_image_alone_suffices_for_norm_certificate=False,
+            simultaneous_boundary_transversality_proved=False,
+            note='UNIFORM_ADJOINT_PROOF_TARGET.md'),
+        E8_adjoint_quasifinite_candidate=dict(retained_nodes=[1,2,3,5,6,8],
+            derived_Levi_type='A2+A1+A2+A1',
+            every_nonempty_allowed_central_fiber_zero_dimensional=True,
+            all_parameter_intersections_retained=True,
+            relative_scheme_flat_reduced_pure_dimension_two=True,
+            generic_target_finite_etale_or_zero=True,
+            regular_source_generic_smoothness_for_this_Levi=True,
+            independent_exact_characteristic_zero_identity_audit=True,
+            earlier_boundary_independent_replays_completed=6,
+            earlier_boundary_independent_replays_total=6,
+            boundary_direct_membership_certificates=4,boundary_original_potential_involutions=2,
+            generic_target_degree_computed=False,nonemptiness_proved=False,
+            all_special_targets_smooth=False,uniform_simple_adjoint_conjecture_proved=False,
+            novelty_claim=False,certificate='adjoint-quasifinite-verification.json',
+            independent_audit='adjoint-quasifinite-audit.json'),
+        springer_cayley_exposition=dict(pages=11,E7_resolved=123,E7_unresolved=4,
+            source_manifest_verified=True,single_manuscript_page_per_pdf_page=True,
+            dated_source_manifest_preserved=True,current_status_source_drift=exposition_live_source_drift,
+            new_mathematical_claim=False,literature_priority_claim=False,
+            artifact_verification='../articles/springer-cayley-exposition/verification.json'),
+        binary_branching=dict(common_critical_equation_criterion=True,
+            generic_regular_fibers_nonempty_smooth=True,
+            new_cubic_Weyl_classes=['A1^3','A2+A1^2'],
+            new_standard_embeddings=22,regular_fiber_dimensions=[6,10],
+            resolved_standard_Levis=123,remaining_embeddings=4,remaining_Weyl_classes=2,
+            companion_memberships_verified=False,all_simple_adjoint_conjecture_proved=False,
+            full_map_degree_claim=False,literature_priority_claim=False,
+            certificate='binary-branching-verification.json',
+            independent_audit='binary-branching-audit.json'),
+        fiber_review_checkpoint=dict(standard_bad_image_criterion=True,
+            independent_exact_controls=8,E7_resolved=101,E7_unresolved=26,
+            selected_memberships_verified=False,new_group_classification=False,
+            all_simple_adjoint_conjecture_proved=False,literature_priority_claim=False,
+            next_milestone='Common root/central-charge criterion for multiple unresolved families',
+            audit='cayley-fiber-review-audit.json'),
         E7_symmetric_pencil=dict(rank_stratum_criterion=True,invertible_leading_matrix_required=False,
             new_Levi_type='A1^4',new_standard_embeddings=2,regular_fiber_dimension=8,
             generic_regular_fibers_nonempty_smooth=True,resolved_standard_Levis=101,

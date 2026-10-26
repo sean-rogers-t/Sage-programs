@@ -1,0 +1,18 @@
+{
+  "status": "exploratory_denominators_only",
+  "denominator_factors": [
+    "r",
+    "r^2 + 1",
+    "t",
+    "t + r",
+    "t - r",
+    "t*r + 1",
+    "t*r - 1",
+    "t^2 + 1",
+    "t^4*r^2 + 2*t^3*r^3 + t^2*r^4 - 2*t^3*r - 2*t*r^3 + t^2 + 2*t*r + r^2",
+    "t^4*r^2 - 2*t^3*r^3 + t^2*r^4 + 2*t^3*r + 2*t*r^3 + t^2 - 2*t*r + r^2",
+    "t^8*r^4 - 2*t^6*r^6 + t^4*r^8 + 64/9*t^6*r^4 + 64/9*t^4*r^6 - 2*t^6*r^2 - 12*t^4*r^4 - 2*t^2*r^6 + 64/9*t^4*r^2 + 64/9*t^2*r^4 + t^4 - 2*t^2*r^2 + r^4"
+  ],
+  "original_ideal_boundary_certified": false,
+  "elapsed_seconds": 21.279413921999996
+}

@@ -1,0 +1,28 @@
+{
+  "result": "passed",
+  "engine": "Sage defining matrices and Singular exact ideal operations",
+  "checks": {
+    "abstract_ideal_intersections_and_nilradicals": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "SL4_fifteen_dimensional_adjoint_matrix_trace": true,
+    "SL4_original_Laurent_ideal_radical_verified": true,
+    "SL4_nilpotent_and_target_annihilator_verified": true,
+    "SL4_generic_target_ideal_is_unit": true,
+    "SL5_defining_matrix_elimination_and_radical_verified": true,
+    "source_parameter_function_fields_not_used_for_radicality": true
+  },
+  "native_audit_imported": false,
+  "all_type_A_nilradical_theorem_written": true,
+  "generic_type_A_reducedness_already_followed_from_quadratic_theorem": true,
+  "uniform_all_simple_reducedness_proved": false,
+  "new_Levi_coverage": false,
+  "novelty_claim": false,
+  "source_sha256": {
+    "tools/verify_type_a_incidence_nilradical.py": "09a6e62e0cb76f33de1911fbcaaf54899384ad17788b11b7bb1ef0f7260a392b",
+    "UNIFORM_ADJOINT_PROOF_TARGET.md": "3f2e4b74cc19dfb216a65ecd4db03bf76705c17a0639292b816ec3100f53ef80"
+  }
+}

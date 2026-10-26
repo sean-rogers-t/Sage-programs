@@ -1,0 +1,85 @@
+{
+  "result": "passed",
+  "group": "Sp4(C)",
+  "representation": "adjoint",
+  "proposed_stronger_lemma_false": true,
+  "generic_conjecture_disproved": false,
+  "all_simple_adjoint_conjecture_proved": false,
+  "new_Levi_coverage": false,
+  "character_from_defining_Sym2": true,
+  "local_scheme_exact": true,
+  "transverse_local_algebra": "C[[x]]/(x^3)",
+  "transverse_length": 3,
+  "square_class_nonzero": true,
+  "incidence_local_equation": "a*x=0",
+  "central_target": "h=lambda*diag(1,1,-1,-1), lambda^2=-1/48",
+  "target_killing_norm": "-1/2",
+  "target_centralizer": "GL2",
+  "source_regular_semisimple": true,
+  "source_centralizer_dimension": 2,
+  "target_centralizer_dimension": 4,
+  "adjoint_differential_rank": 7,
+  "quotient_hessian": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "trace_form_pairings": 100,
+  "trace_definition_pairings": 10,
+  "differential_pairings": 100,
+  "adjoint_Casimir_sandwich_formula_verified": true,
+  "conjugation_Casimir_formula_verified": true,
+  "full_equivariance_operator_identity_verified": true,
+  "kernel_Lie_subalgebra_shortcut_false": true,
+  "kernel_control_target": "-5/16*diag(1,1,-1,-1)",
+  "kernel_control_coroot_eigenvalue": "-7/4",
+  "full_completed_local_ring": "C[[u1,u2,x]]/(x^3)",
+  "higher_order": {
+    "corrected_quartic_symbolic_check": true,
+    "Sp4_raw_quartic": "0",
+    "Sp4_effective_quartic": "3*x^4/2",
+    "Sp4_implicit_expansion_matches_exact_local_ideal": true,
+    "E6_excess_residual_constant_to_all_orders": true,
+    "altered_Levi_control_effective_quartic": "-S(z0)^2*u^2*v^2/4",
+    "four_jet_vanishing_not_sufficient": true,
+    "generic_bad_image_bound_proved": false
+  },
+  "generic_target": {
+    "target_field": "Q(c); certificates remain valid over C(c)",
+    "Sp4_generic_fiber_jacobian_unit": true,
+    "Sp4_independent_branch_separation": true,
+    "E6_original_generic_ideal_verified": true,
+    "E6_smooth_excess_dimension": 2,
+    "source_coefficient_localization_can_erase_dominant_fiber": true,
+    "altered_Levi_central_polynomial_squarefree": true,
+    "altered_Levi_components_generically_smooth": true,
+    "altered_Levi_embedded_nilpotent": "u*v; annihilator (u,v)",
+    "altered_Levi_primary_decomposition_verified": true,
+    "generic_adjoint_smoothness_proved": false,
+    "new_Levi_coverage": false
+  },
+  "reducedness": {
+    "complete_intersection_does_not_force_R0": true,
+    "existing_abstract_control_generic_ring": "Q(c)[x]/(x^2)",
+    "existing_embedded_control_R0_without_S1": true,
+    "target_torsion_control_annihilator": "c-1",
+    "target_torsion_control_generic_ring_zero": true,
+    "Sp4_relative_incidence_squarefree": true,
+    "E6_relative_incidence_radical": true,
+    "E6_displayed_full_gradient_not_regular_sequence": true,
+    "all_adjoint_R0_proved": false,
+    "all_adjoint_S1_proved": false,
+    "uniform_generic_reducedness_proved": false,
+    "new_Levi_coverage": false
+  },
+  "proof_note": "UNIFORM_ADJOINT_PROOF_TARGET.md",
+  "source_sha256": {
+    "tools/audit_uniform_adjoint_obstruction.py": "57a9d463de6c982b6e6ef29720b63fb749762a36e520149834074378c6487212",
+    "UNIFORM_ADJOINT_PROOF_TARGET.md": "3f2e4b74cc19dfb216a65ecd4db03bf76705c17a0639292b816ec3100f53ef80"
+  }
+}

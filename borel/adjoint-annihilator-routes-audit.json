@@ -1,0 +1,26 @@
+{
+  "result": "passed",
+  "engine": "SymPy and independent root exponent reconstruction",
+  "checks": {
+    "E6_full_root_character_reconstructed": true,
+    "E6_root_count": 72,
+    "E6_external_discriminant_slice": "-R^6*(S-x)^2*(S-x^3+3*x)^6",
+    "E6_radial_gradient_defect": "2*(S^2+320)/(3*S)",
+    "E6_exact_defect_at_z2": "1647/52",
+    "E6_radial_eigenidentity_retained": true,
+    "E6_branch_target_dominant": true,
+    "no_nonzero_target_multiple_repairs_radial_descent": true,
+    "A2_radial_gradient_defect": "2*(S^2-4)/(3*S)",
+    "E6_contact_source_norm_zero": true,
+    "altered_Levi_central_polynomial_generically_squarefree": true
+  },
+  "exceptional_target_annihilator_derived": false,
+  "uniform_generic_reducedness_proved": false,
+  "adjoint_counterexample": false,
+  "new_Levi_coverage": false,
+  "novelty_claim": false,
+  "source_sha256": {
+    "tools/audit_adjoint_annihilator_routes.py": "914b8480778d8c21e8cfa8bc268c8bd343c8566ea50e907598bdf7244ec2add6",
+    "UNIFORM_ADJOINT_PROOF_TARGET.md": "3f2e4b74cc19dfb216a65ecd4db03bf76705c17a0639292b816ec3100f53ef80"
+  }
+}

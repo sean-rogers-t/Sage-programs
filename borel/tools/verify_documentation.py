@@ -17,6 +17,11 @@ from sage.env import SAGE_VERSION
 
 ROOT = Path(__file__).resolve().parents[1]
 DOCUMENTS = ("../README.md", "../articles/README.md",
+             "CAYLEY_FIBER_REVIEW.md",
+             "BINARY_BRANCHING_FIBERS.md",
+             "UNIFORM_ADJOINT_PROOF_TARGET.md",
+             "CENTRAL_RIGIDITY_FIBERS.md",
+             "../articles/springer-cayley-exposition/README.md",
              "SPECTRAL_BRANCHING_FIBERS.md",
              "ADJOINT_PENCIL_SCOPE.md",
              "MULTIPLIER_BRANCHING_FIBERS.md",
