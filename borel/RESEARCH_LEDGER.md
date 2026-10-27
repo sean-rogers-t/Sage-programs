@@ -1,6 +1,6 @@
 # Springer and Borel research ledger
 
-Updated 2026-10-26. The research priority is **generalizable statements**:
+Updated 2026-10-27. The research priority is **generalizable statements**:
 uniform formulas, structural explanations, sharp hypotheses and counterexamples.
 Individual group calculations serve as tests of those statements and remain
 valuable exact results with their own stated scope.
@@ -12,6 +12,14 @@ characteristic-zero certificate implications. A fresh native check enumerates
 internal proof review with explicit computational dependencies, not external
 peer review or a new uniform proof. Independent mathematical review is the
 recommended next step.
+
+The [review package](review/adjoint-generic-fibers/README.md) is now prepared
+against pushed proof commit 4c21f18, with an explanatory certificate guide,
+a file manifest and isolated replay commands. This packages GEO-90/91;
+it adds no theorem or external-review endorsement. In particular the
+finite-prime memberships depend on one pinned exact F4 engine, whereas
+the native audit independently checks the specified polynomial identities
+and monomial dimension/degree counts.
 
 Current exceptional coverage: A-D, G2, F4, E6 and E7 are covered by the
 recorded adjoint generic regular-fiber proofs. GEO-86 certifies the E8

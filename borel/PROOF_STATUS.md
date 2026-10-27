@@ -2,6 +2,15 @@
 
 ## Current direction: exceptional case completion resumed
 
+27 October: the [independent-review package](review/adjoint-generic-fibers/README.md)
+now separates the consolidated theorem, final E8 proof, exact data and
+software replay from the mathematical review obligations. Its
+[certificate guide](review/adjoint-generic-fibers/CERTIFICATE_GUIDE.md)
+explicitly records that the 59 memberships per prime are checked by
+replaying one pinned F4 engine, not by stored multiplier vectors or a
+second independent membership engine. Packaging is not external review
+or a new mathematical result. The proof snapshot is commit 4c21f18.
+
 **Consolidation audit (GEO-91):** the
 [complete theorem and dependency map](ADJOINT_GENERIC_FIBER_THEOREM.md)
 state the common actual-scheme argument and every case dependency in one

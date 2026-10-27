@@ -18,6 +18,8 @@ from sage.env import SAGE_VERSION
 ROOT = Path(__file__).resolve().parents[1]
 DOCUMENTS = ("../README.md", "../articles/README.md",
              "ADJOINT_GENERIC_FIBER_THEOREM.md",
+             "review/adjoint-generic-fibers/README.md",
+             "review/adjoint-generic-fibers/CERTIFICATE_GUIDE.md",
              "CAYLEY_FIBER_REVIEW.md",
              "BINARY_BRANCHING_FIBERS.md",
              "UNIFORM_ADJOINT_PROOF_TARGET.md",

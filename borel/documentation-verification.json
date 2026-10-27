@@ -16,6 +16,14 @@
       "python_blocks_executed": 0
     },
     {
+      "file": "review/adjoint-generic-fibers/README.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "review/adjoint-generic-fibers/CERTIFICATE_GUIDE.md",
+      "python_blocks_executed": 0
+    },
+    {
       "file": "CAYLEY_FIBER_REVIEW.md",
       "python_blocks_executed": 0
     },
@@ -736,7 +744,7 @@
       "python_blocks_executed": 0
     }
   ],
-  "local_links_and_anchors_checked": 2359,
+  "local_links_and_anchors_checked": 2371,
   "python_blocks_executed": 54,
   "scope": "Python fences executed in reading order in a fresh namespace per document; local links and anchors checked. Shell snippets and external URLs were not automatically executed or crawled."
 }

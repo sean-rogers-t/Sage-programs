@@ -1,0 +1,428 @@
+{
+  "format_version": 1,
+  "prepared": "2026-10-27",
+  "proof_commit": "4c21f18ea0c5df4350d86131176739b60f35ac6e",
+  "scope": "Consolidated proof dependencies and final E8 replay inputs; not the full historical repository.",
+  "new_review_files": [
+    "review/adjoint-generic-fibers/README.md",
+    "review/adjoint-generic-fibers/CERTIFICATE_GUIDE.md",
+    "review/adjoint-generic-fibers/run_review.py",
+    "tools/build_adjoint_review_package.py"
+  ],
+  "files": [
+    {
+      "path": "ADJOINT_GENERIC_FIBER_THEOREM.md",
+      "bytes": 16229,
+      "sha256": "5d2c6537f49cbae9f66a5d972af38c42f99eeb19f938b3b32f3c0379da82e836",
+      "hash_mode": "text-LF"
+    },
+    {
+      "path": "ADJOINT_PENCIL_SCOPE.md",
+      "bytes": 13682,
+      "sha256": "d925c39fb6cc06d24924011f563a98ea6f8ea37051b08e83457d4735fb81d2cb",
+      "hash_mode": "text-LF"
+    },
+    {
+      "path": "BINARY_BRANCHING_FIBERS.md",
+      "bytes": 13508,
+      "sha256": "c878fa2ddc45f2592278eea707e4795cefe7b6ff91f689eea0bdd95d4cc77dc2",
+      "hash_mode": "text-LF"
+    },
+    {
+      "path": "BRANCHING_NORM_FIBERS.md",
+      "bytes": 16709,
+      "sha256": "b9e3e2788fcf50a97cfd085b54d833e840e30994caaf7a4967c96439c3a6c911",
+      "hash_mode": "text-LF"
+    },
+    {
+      "path": "CLASSICAL_ADJOINT_FIBERS.md",
+      "bytes": 20101,
+      "sha256": "3d44edc9e44c875e2711fb87a3e1cd318f64a2b9a6373fcd3f4d8b5abf8df4da",
+      "hash_mode": "text-LF"
+    },
+    {
+      "path": "CUBIC_LEVI_REFINEMENTS.md",
+      "bytes": 13474,
+      "sha256": "ee71f608ab03e7d9c6349b8b832e59df21482fcb5c141775267b11d8a806b815",
+      "hash_mode": "text-LF"
+    },
+    {
+      "path": "E7_FINAL_FAMILIES.md",
+      "bytes": 12673,
+      "sha256": "b7ee8c255be6d841e944f43dc3800109b4a93ce04262de69824a8c8e9bbccb33",
+      "hash_mode": "text-LF"
+    },
+    {
+      "path": "E7_MULTIPLIER_BOUNDARY.md",
+      "bytes": 10004,
+      "sha256": "8ec5eb17f7cb438fa1b3fdb775668939d9824a5c3ffc0c2229a422cc829fb15d",
+      "hash_mode": "text-LF"
+    },
+    {
+      "path": "E7_SYMMETRIC_PENCIL.md",
+      "bytes": 11767,
+      "sha256": "f62d9941081df6e1865ecb0092041d85ec78c93a29f1673aa3a5be78c389f312",
+      "hash_mode": "text-LF"
+    },
+    {
+      "path": "E8_A1_TRIPLE.md",
+      "bytes": 12780,
+      "sha256": "c757caede7164755f0a5df8ac2d26b2a42b76df5c158ef78745f8a605818f192",
+      "hash_mode": "text-LF"
+    },
+    {
+      "path": "E8_A2_A1_PAIR.md",
+      "bytes": 14214,
+      "sha256": "ad03d2cb0bdc747b49147bab2304281fec107fde711de70fc36245b31bdd96a8",
+      "hash_mode": "text-LF"
+    },
+    {
+      "path": "E8_FINAL_CASES.md",
+      "bytes": 17337,
+      "sha256": "5b626f24a270308b33f8a21f6f6623db1f59d98b6902999ed3b2a309cc42c1b1",
+      "hash_mode": "text-LF"
+    },
+    {
+      "path": "E8_LAST_ADJOINT_FIBER.md",
+      "bytes": 13154,
+      "sha256": "c423c7ae68b7058ad23749c18ddca7519ed04c1e7257fe073f27cbbcb1498a4b",
+      "hash_mode": "text-LF"
+    },
+    {
+      "path": "E8_WEYL_TRANSFERS.md",
+      "bytes": 9325,
+      "sha256": "1c7c03dd73e0f818896ae8abba97d106be927d12eeaa5ba069310d7765ba8121",
+      "hash_mode": "text-LF"
+    },
+    {
+      "path": "EXCEPTIONAL_ADJOINT_CONTACT_FIBERS.md",
+      "bytes": 13917,
+      "sha256": "b091b15355cbd411736539ef60ea50361caa208ef210e4d4975432f5472084b4",
+      "hash_mode": "text-LF"
+    },
+    {
+      "path": "EXCEPTIONAL_QUARTIC_REDUCTION.md",
+      "bytes": 13341,
+      "sha256": "6fa25de2b4fe0a9d577c98774eb86100390880243c554f4730ce01552420e315",
+      "hash_mode": "text-LF"
+    },
+    {
+      "path": "F4_ADJOINT_FIBERS.md",
+      "bytes": 7344,
+      "sha256": "9001f2083fd9bb2f7464330848466496d9bdc79691283fc1fbfe191051c205c6",
+      "hash_mode": "text-LF"
+    },
+    {
+      "path": "G2_ADJOINT_FIBERS.md",
+      "bytes": 4304,
+      "sha256": "9b56159a9adc90b32b57d7963f84c617cd1df259d0d62d80ae107b7067763c44",
+      "hash_mode": "text-LF"
+    },
+    {
+      "path": "GENERAL_CAYLEY_FIBER_CRITICAL.md",
+      "bytes": 17839,
+      "sha256": "1cffec1488cc51c792939382111003bf82394fb195c62c6c97670c6aee2a1483",
+      "hash_mode": "text-LF"
+    },
+    {
+      "path": "MULTIPLIER_BRANCHING_FIBERS.md",
+      "bytes": 14829,
+      "sha256": "4ae12e6117dc8a1a45ac0930c40e10bcf14c759dc17353bce0586a08f9adb16e",
+      "hash_mode": "text-LF"
+    },
+    {
+      "path": "QUADRATIC_BRANCHING_FIBERS.md",
+      "bytes": 18939,
+      "sha256": "8cfaf1048c51b42778b4be668f7d79166424dce3cac4956511740e3582d4ae3a",
+      "hash_mode": "text-LF"
+    },
+    {
+      "path": "UNIFORM_ADJOINT_PROOF_TARGET.md",
+      "bytes": 202191,
+      "sha256": "3f2e4b74cc19dfb216a65ecd4db03bf76705c17a0639292b816ec3100f53ef80",
+      "hash_mode": "text-LF"
+    },
+    {
+      "path": "adjoint-theorem-audit.json",
+      "bytes": 6587,
+      "sha256": "97c7e3598eb542bc001d229ea98008a66d5e35cae19095f352e4f0d2d2e930f2",
+      "hash_mode": "text-LF"
+    },
+    {
+      "path": "e7-companion-geometry-audit.json",
+      "bytes": 1175,
+      "sha256": "f5e6f9e53340e7d94ae00f67b02cc58789dff83f27a226485541b2b079fbd240",
+      "hash_mode": "text-LF"
+    },
+    {
+      "path": "e7-companion-membership-verification.json",
+      "bytes": 1487,
+      "sha256": "ffd4a22193b9ac181a98fa7225b2589fb48cf33e422ef21686b99262ad37d412",
+      "hash_mode": "text-LF"
+    },
+    {
+      "path": "e7-homogeneous-membership-certificate.json.gz",
+      "bytes": 5513214,
+      "sha256": "b628db2ef367db161b246be44c418e2436c97560e994b724e35422e04e160be0",
+      "hash_mode": "raw"
+    },
+    {
+      "path": "e7-multiplier-boundary-verification.json",
+      "bytes": 16554,
+      "sha256": "1884c6849bec2a63078a7f138791ded7bf27c02075f91dc725cba6b99969cb29",
+      "hash_mode": "text-LF"
+    },
+    {
+      "path": "e7-quartic-boundary-candidate.json.gz",
+      "bytes": 81617,
+      "sha256": "bb7b041fec5d693b0534a89f1ac17b238635bec294d68f0a9f2378a3656486a1",
+      "hash_mode": "raw"
+    },
+    {
+      "path": "e8-a1-four-32003-certificate.json.gz",
+      "bytes": 220069,
+      "sha256": "a8c307b40ff42fd16442d3a13d966dd8166d631db4771c210649753f601a4a82",
+      "hash_mode": "raw"
+    },
+    {
+      "path": "e8-a1-four-32003-verification.json",
+      "bytes": 709,
+      "sha256": "5f8ac8bb723c2e483f63ddcb376db97b3fac37366492614a369343562e09f699",
+      "hash_mode": "text-LF"
+    },
+    {
+      "path": "e8-a1-four-32009-certificate.json.gz",
+      "bytes": 219249,
+      "sha256": "da19343b59211036d6a827fa2d4160c03469d4a5716cfad977363b9f0db04de3",
+      "hash_mode": "raw"
+    },
+    {
+      "path": "e8-a1-four-32009-verification.json",
+      "bytes": 709,
+      "sha256": "8c06440b236af46e6d276ea026dd3fb5aaabef0a0838b7608107e7269d683f37",
+      "hash_mode": "text-LF"
+    },
+    {
+      "path": "e8-final-cases-audit.json",
+      "bytes": 1664,
+      "sha256": "c5274cb5c4cf7c920a0bed203a42d8186a780de93733fedf79cf34b8b31693e9",
+      "hash_mode": "text-LF"
+    },
+    {
+      "path": "e8-final-cases-verification.json",
+      "bytes": 2680894,
+      "sha256": "ec5ec28fee42427be7077f4630fb457c89204fffa5a1e9092a2e478824fe5ba2",
+      "hash_mode": "text-LF"
+    },
+    {
+      "path": "e8-final-character-models.json",
+      "bytes": 64793,
+      "sha256": "f8cf9051731b8e8ae7d77f0e0f2fd17f5c16c4f4fa6e917b1a84a69ab0e73ade",
+      "hash_mode": "text-LF"
+    },
+    {
+      "path": "e8-last-32003-certificate.json.gz",
+      "bytes": 342114,
+      "sha256": "e291e7a65160ce2e784540b49924472b70709dead9c204cfa30fa7b06afef5db",
+      "hash_mode": "raw"
+    },
+    {
+      "path": "e8-last-32003-verification.json",
+      "bytes": 1566,
+      "sha256": "bc24e168997677045334764bb21dc21f09944aa6ebac0792596e643c90ed69e3",
+      "hash_mode": "text-LF"
+    },
+    {
+      "path": "e8-last-32009-certificate.json.gz",
+      "bytes": 342287,
+      "sha256": "e4d43a824c2b31a822edb839728f21a8a95c9f3f2ec3af889904cd9749615643",
+      "hash_mode": "raw"
+    },
+    {
+      "path": "e8-last-32009-verification.json",
+      "bytes": 1567,
+      "sha256": "58c2fe6a8e0e627b73e53872bded4c66da6e19f83742bce034de56544659ea10",
+      "hash_mode": "text-LF"
+    },
+    {
+      "path": "e8-last-case-audit.json",
+      "bytes": 14039,
+      "sha256": "981e8024bf5f0a35ec0d3ee59ff1d122c24c6725f371d2ab3343a44b8cdcfa63",
+      "hash_mode": "text-LF"
+    },
+    {
+      "path": "e8-weyl-transfers-verification.json",
+      "bytes": 34692,
+      "sha256": "0aaf1364d880258de51595c9ea3a50e367f5caea621b6633a912e769538ac3bd",
+      "hash_mode": "text-LF"
+    },
+    {
+      "path": "f4-adjoint-fibers-audit.json",
+      "bytes": 693,
+      "sha256": "fd8326d8877d64be760e51213562add237f3ce53f491da40a6709f48cf23d15a",
+      "hash_mode": "text-LF"
+    },
+    {
+      "path": "f4-adjoint-fibers-verification.json",
+      "bytes": 69131,
+      "sha256": "2bc48ae3c7c3fea3864fc3027c013b6bdf119676450700405f043e74afa79b84",
+      "hash_mode": "text-LF"
+    },
+    {
+      "path": "g2-adjoint-fibers-verification.json",
+      "bytes": 913,
+      "sha256": "3516519a0989ab1faff30644deb87611847e1516d9b150e05d5d398e07b93c52",
+      "hash_mode": "text-LF"
+    },
+    {
+      "path": "review/adjoint-generic-fibers/CERTIFICATE_GUIDE.md",
+      "bytes": 7351,
+      "sha256": "6c8a7b118c4c5679d5e20ae72cade639f0ebb6297a6013cc503838dc0a5c2caa",
+      "hash_mode": "text-LF"
+    },
+    {
+      "path": "review/adjoint-generic-fibers/README.md",
+      "bytes": 7248,
+      "sha256": "13acf8083807df421b417044a15c425707332b7bffda2b617d183f64157335b0",
+      "hash_mode": "text-LF"
+    },
+    {
+      "path": "review/adjoint-generic-fibers/run_review.py",
+      "bytes": 3920,
+      "sha256": "86d7cb193ac960935833c1b3f2a9ac89d061186baa9237262cc105868691ed9f",
+      "hash_mode": "text-LF"
+    },
+    {
+      "path": "tools/audit_adjoint_theorem.py",
+      "bytes": 9927,
+      "sha256": "8844b671c1da18799f9d0b549e90440fa1d6f771dbc1b2017a78b99b7c9e4312",
+      "hash_mode": "text-LF"
+    },
+    {
+      "path": "tools/audit_e7_companion_geometry.py",
+      "bytes": 2762,
+      "sha256": "c079441de935fbb800567fafb3ac1855802b24b4928672649a420b0c85aa5c30",
+      "hash_mode": "text-LF"
+    },
+    {
+      "path": "tools/audit_e8_final_cases.py",
+      "bytes": 7950,
+      "sha256": "c577bc98a2d63f4352e702e9021c1bf845c7eb110d4eec158b0b92ab21beab7a",
+      "hash_mode": "text-LF"
+    },
+    {
+      "path": "tools/audit_e8_last_case.py",
+      "bytes": 7517,
+      "sha256": "9927300ccecee2a5ce3aa3b25fa0211729472aad078c5f07e373fe27a5ea5338",
+      "hash_mode": "text-LF"
+    },
+    {
+      "path": "tools/audit_f4_adjoint_fibers.py",
+      "bytes": 6073,
+      "sha256": "25e8c0dbfef75db119ba638aa89748ad7ce4cf8db2448d3731e36af045ef93c4",
+      "hash_mode": "text-LF"
+    },
+    {
+      "path": "tools/build_adjoint_review_package.py",
+      "bytes": 3986,
+      "sha256": "8193feee523561238e163fe00138aef147be5b8c5cb66b1ba0173136b5b86192",
+      "hash_mode": "text-LF"
+    },
+    {
+      "path": "tools/build_e8_last_certificate_engine.sh",
+      "bytes": 1185,
+      "sha256": "7d613924c9c4ba25f92119f0ebfcaec787d2a4204eba4d4c532f3b0a50e158c6",
+      "hash_mode": "text-LF"
+    },
+    {
+      "path": "tools/e8_last_f4_driver.c",
+      "bytes": 2374,
+      "sha256": "5663c218fa89e57010b9dcf34bef7ae3d830f10dcefefcfe1e0da8366a8edb74",
+      "hash_mode": "text-LF"
+    },
+    {
+      "path": "tools/explore_f4_completion.py",
+      "bytes": 2363,
+      "sha256": "a5155a9c5b917ae66f92b893a7f5509a1ba92570d83d3f0d6279ba2c0573fd09",
+      "hash_mode": "text-LF"
+    },
+    {
+      "path": "tools/linear_character_elimination.py",
+      "bytes": 2966,
+      "sha256": "bd7afc06ac567e5a20f4528b3c82c55fa5c49bd919f0b8971bb291174b5be1c5",
+      "hash_mode": "text-LF"
+    },
+    {
+      "path": "tools/unit_constraint_systems.py",
+      "bytes": 2765,
+      "sha256": "4ee8347146fae2059ba24ee9fd07e00b33ce44b26246267b07a6a941dab85b1f",
+      "hash_mode": "text-LF"
+    },
+    {
+      "path": "tools/verify_branching_norm_fibers.py",
+      "bytes": 9179,
+      "sha256": "edd3b3b6dc11d6f2e09ad624e7cee4fceb76c066118d4926fd635fb2a8d3c02f",
+      "hash_mode": "text-LF"
+    },
+    {
+      "path": "tools/verify_e7_companion_membership.py",
+      "bytes": 4259,
+      "sha256": "ae6d75539e1fc35bb998ff16c20baeebd424e3ee153e82c251c973c8b5db7331",
+      "hash_mode": "text-LF"
+    },
+    {
+      "path": "tools/verify_e7_multiplier_boundary.py",
+      "bytes": 6725,
+      "sha256": "7244efe9d66624593eb8053b01629a5e09a278f6e53f8e84c307c4219eee5c96",
+      "hash_mode": "text-LF"
+    },
+    {
+      "path": "tools/verify_e8_a1_four_certificate.py",
+      "bytes": 3268,
+      "sha256": "796af8072991b13be92dbc237bcaa1352426be581c8f3ec144066efb4f138035",
+      "hash_mode": "text-LF"
+    },
+    {
+      "path": "tools/verify_e8_final_cases.py",
+      "bytes": 12871,
+      "sha256": "1c9210504663bbc0b781ae3de4934d2150283d43926bf369c25c137e8c2ef937",
+      "hash_mode": "text-LF"
+    },
+    {
+      "path": "tools/verify_e8_last_case.py",
+      "bytes": 6993,
+      "sha256": "5097862fdd085ef32140afefcff1a32fafc2b6bc4fe5c580b904092cfaf05282",
+      "hash_mode": "text-LF"
+    },
+    {
+      "path": "tools/verify_e8_weyl_transfers.py",
+      "bytes": 6257,
+      "sha256": "dff944ad3f47ba8fd0633c577c0ea0e34e11ec0f481bc617330a2b3d7078d092",
+      "hash_mode": "text-LF"
+    },
+    {
+      "path": "tools/verify_f4_adjoint_fibers.py",
+      "bytes": 4147,
+      "sha256": "4c334cee1c1a22d43a0fc54ac15094c289ca5997b5406d39f10a7e56db3faf6f",
+      "hash_mode": "text-LF"
+    },
+    {
+      "path": "tools/verify_g2_adjoint_fibers.py",
+      "bytes": 2537,
+      "sha256": "b4301ca48163362cc4e18f5686d6f18d9f5d91baabdd4930e16a06c6d16e6e76",
+      "hash_mode": "text-LF"
+    },
+    {
+      "path": "tools/verify_unit_constraint_classification.py",
+      "bytes": 7308,
+      "sha256": "efb79db6e4c687f6a18c9bfbb3787945ada401252cf0ec075bbfbee66333d398",
+      "hash_mode": "text-LF"
+    },
+    {
+      "path": "unit-constraint-classification-verification.json",
+      "bytes": 44056,
+      "sha256": "0b1d330b6ec7d67b3934d1a1741d861e1b604e8d7f69d0ffe22a588f38e47cec",
+      "hash_mode": "text-LF"
+    }
+  ]
+}

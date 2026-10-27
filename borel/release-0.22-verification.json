@@ -1,6 +1,15 @@
 {
   "result": "passed",
   "version": "0.22.0",
+  "adjoint_review_package": {
+    "proof_commit": "4c21f18ea0c5df4350d86131176739b60f35ac6e",
+    "input_files": 69,
+    "archived_bytes_checked": true,
+    "extracted_full_replay_passed": true,
+    "fresh_pinned_engine_build_passed": true,
+    "external_review_obtained": false,
+    "guide": "review/adjoint-generic-fibers/README.md"
+  },
   "adjoint_theorem_consolidation": {
     "standard_E_subsets": 445,
     "cubic_transfers": 136,
@@ -117,11 +126,11 @@
     "current_status_source_drift": {
       "borel/PROOF_STATUS.md": {
         "artifact_snapshot": "718d33489b7a2110561c6e65b355e6d47fdd4383abc8a3604044301fef4900b1",
-        "current": "96a303e4adff4dd9a2fbd6a533cc6980e0e5fc87eb0ce77e41d986d030bc8b6a"
+        "current": "614339033d5e30aa5f43a4d38d1f417af1168cf55f9d82453a9895bb4cd383a3"
       },
       "borel/RESEARCH_LEDGER.md": {
         "artifact_snapshot": "ffb1b2320d94c3d9a8180e3831747f7066e6a33441333dc70a51a1e89f66a089",
-        "current": "5e5e0c3870f5b73e8211e76b383c1e56337ee5ef2c0c379296243eadef5a0350"
+        "current": "0bb74ea4fcbd55a96d1e3569fe6e20484811915669c671d7a0374543d1b2c701"
       }
     },
     "new_mathematical_claim": false,
@@ -11556,7 +11565,7 @@
   "standard_monomial_counts_rechecked": "Singular vdim and independent integer exponent-slice recursion",
   "regression_tests": 208,
   "documentation_examples": 54,
-  "local_links_and_anchors": 2359,
+  "local_links_and_anchors": 2371,
   "isolated_wheel_tests": 75,
   "wheel_sha256": "943ca8b76c628251b8ce6073c76c9b156ae71194fd8c81162fd259df2e1a4ba8",
   "wheel_sources_and_data_match": true,
@@ -11810,11 +11819,11 @@
     "OTHER_THEORIES_QUANTUM.md": "97c5dad8add109648feb25bcd0fb35efc6d5eaa52d9b49dc52f7f30fadd70712",
     "OTHER_THEORIES_SL3.md": "e9fc1b6a3092532b08513193c6d6e87ea338948ae42de3031296438f822f6c99",
     "OTHER_THEORIES_TYPE_A.md": "54269c7e04730b556364b0beff633aae7b2a39620983875969b11c38ad3280e3",
-    "PROOF_STATUS.md": "96a303e4adff4dd9a2fbd6a533cc6980e0e5fc87eb0ce77e41d986d030bc8b6a",
+    "PROOF_STATUS.md": "614339033d5e30aa5f43a4d38d1f417af1168cf55f9d82453a9895bb4cd383a3",
     "QUADRATIC_BRANCHING_FIBERS.md": "8cfaf1048c51b42778b4be668f7d79166424dce3cac4956511740e3582d4ae3a",
     "README.md": "eba6fc3ecd588d613f16732ebe97c1397e4927c18bf67ba77d4a963e860b68c9",
     "REGULARITY_CLASSIFICATION.md": "5f22fb431145bf438148d74544beb51da78e6cae03c80745c2c9768d8922cf54",
-    "RESEARCH_LEDGER.md": "5e5e0c3870f5b73e8211e76b383c1e56337ee5ef2c0c379296243eadef5a0350",
+    "RESEARCH_LEDGER.md": "0bb74ea4fcbd55a96d1e3569fe6e20484811915669c671d7a0374543d1b2c701",
     "SHARED_SQUARE_COUPLINGS.md": "b85f2da48683991f190badef8e707691aa6a1d3877b5d826464a04be77fa84da",
     "SPECTRAL_BRANCHING_FIBERS.md": "0adc75c50fccb3c50d2cec0cead8ee9beddbf6fb8ec994a8f1f1ba957d53101b",
     "SPIN_CAYLEY_DEGREES.md": "b38d93a60bed0c20ab7147e53aac2805644f8fcc49f04445a002edfca3a6ad67",
@@ -11888,7 +11897,7 @@
     "cubic-levi-refinements-audit.json": "9fa4e113b1e7db3c4b39fa9e21e40ae20dc382d1d6e4c4f6c66981ee2ac473c5",
     "cubic-levi-refinements-verification.json": "bc481931f26c5548335cde52c1c0767974ff51c9c61978cce3f18b8ac6995efa",
     "cubic-root-coefficients-audit.json": "f8ba367fdc7ce84ee08787e04e6c1b807dd7ba19c537d996c60793d30d78bbc6",
-    "documentation-verification.json": "1b6941e62e0d781c6bfcf374db960e639412dd9a1546a4f44c6a6cb263a2f21f",
+    "documentation-verification.json": "f6dc99b285408a3566ea055c525a2143a1a36a1c9a7b9bae6db624244e0ab27c",
     "e6-adjoint-deformation-verification.json": "bffa1a623b82690b298598b33c6069628011031c03cfd57d572473a9d54ede13",
     "e7-companion-geometry-audit.json": "f5e6f9e53340e7d94ae00f67b02cc58789dff83f27a226485541b2b079fbd240",
     "e7-companion-membership-verification.json": "ffd4a22193b9ac181a98fa7225b2589fb48cf33e422ef21686b99262ad37d412",
@@ -12261,6 +12270,11 @@
     "quadratic-branching-fibers-verification.json": "2797613a8253acdee4e900c8fbfd5ecb2d3818d5c084d33d7a9a63b530fd9176",
     "regularity-classification-verification.json": "7f25f0ae569530ee5a7f71848e8bceb545ea9ecd7dd50a7898e362d0adece9d0",
     "relative-image-verification.json": "77de36bd2b4e74e8a76f0f05bbac78cf556f5ec121becbdad2e716202addbe3d",
+    "review/adjoint-generic-fibers/CERTIFICATE_GUIDE.md": "6c8a7b118c4c5679d5e20ae72cade639f0ebb6297a6013cc503838dc0a5c2caa",
+    "review/adjoint-generic-fibers/README.md": "13acf8083807df421b417044a15c425707332b7bffda2b617d183f64157335b0",
+    "review/adjoint-generic-fibers/package-manifest.json": "abfb8702a6d73fd58712c831d1c5c57d0b0fbaf57444459bb357e5b7f54cc60d",
+    "review/adjoint-generic-fibers/package-verification.json": "804780cd96d462c325d1ae06e39ad5570b0ac23e3f4aa055358ad2df898ae3f1",
+    "review/adjoint-generic-fibers/run_review.py": "86d7cb193ac960935833c1b3f2a9ac89d061186baa9237262cc105868691ed9f",
     "root-borel-verification.json": "4528981e7cdb4198a82036d383fcedfa675898503ec4309a77b14563032ad954",
     "shared-square-couplings-audit.json": "c194ceaa9ae6a277943316207df3194c4b39b251fce03d4ea1dbfb9ca4340e3c",
     "shared-square-couplings-verification.json": "6881a0749123563d31713550fc94eed7178aee7980c579cdbd49dd1a6a903aa4",
@@ -12359,6 +12373,7 @@
     "tools/audit_uniform_adjoint_obstruction.py": "57a9d463de6c982b6e6ef29720b63fb749762a36e520149834074378c6487212",
     "tools/audit_unit_constraint_classification.py": "a01624e581588b1001b8018eab64a45b48476c24ad95300e0dd845296d9cdfdd",
     "tools/audit_weyl_jet_obstruction.py": "91479966871401a422988d195161a46cb4411b92fffcc5f6780d9f2c7885ef94",
+    "tools/build_adjoint_review_package.py": "8193feee523561238e163fe00138aef147be5b8c5cb66b1ba0173136b5b86192",
     "tools/build_e8_last_certificate_engine.sh": "7d613924c9c4ba25f92119f0ebfcaec787d2a4204eba4d4c532f3b0a50e158c6",
     "tools/e8_last_f4_driver.c": "5663c218fa89e57010b9dcf34bef7ae3d830f10dcefefcfe1e0da8366a8edb74",
     "tools/explore_adjoint_central_boundary.py": "65e5d88ecb46f617481cbba79024bc7a057618ab9f9faa270b344e8fb0b79710",
@@ -12390,7 +12405,7 @@
     "tools/verify_cayley_literature.py": "56066228924290a6b31fa5f94897665625e9e96f2619193212ed82a13341a811",
     "tools/verify_classical_adjoint_fibers.py": "f49779584d71493992fca95ec9d76049ce1d5b5ac72040d3914ef640a4960fa9",
     "tools/verify_cubic_levi_refinements.py": "778e6c4bef836afe377806de91599d524f7eac448b8df283b683c82056583a79",
-    "tools/verify_documentation.py": "860212e0cbdf41f7b61dabfc77d7e82d503a8ad7cf38202c11672e4d666d0be7",
+    "tools/verify_documentation.py": "bda2e1c54f89a55a7929826a2388626ade89d8677530c28c4e68d2b1f0afd394",
     "tools/verify_e6_adjoint_deformation.py": "c1a8c12d12e410d41cab05d3d0c3fd26a48c20ef8c33d12c25de1eadd91fb46e",
     "tools/verify_e7_companion_membership.py": "ae6d75539e1fc35bb998ff16c20baeebd424e3ee153e82c251c973c8b5db7331",
     "tools/verify_e7_final_families.py": "150899e00c9bcc62dc2132f8bea118c8867cc62948f9a1ce0f0f072c10c20b5d",
@@ -12404,7 +12419,7 @@
     "tools/verify_e8_weyl_transfers.py": "dff944ad3f47ba8fd0633c577c0ea0e34e11ec0f481bc617330a2b3d7078d092",
     "tools/verify_equivariant.py": "360a4b0825394205da56515b31b77abf25fa0de751901b360431faed370cf498",
     "tools/verify_exceptional_adjoint_contact.py": "4f63551c675a5f9339174694756ed83f3625f737e2ddd84bb16b7816997a9a41",
-    "tools/verify_exceptional_degree_release.py": "3616201c555627837bbefcd4d4b1a8e74f8395e28339b522994b00b9e1a94890",
+    "tools/verify_exceptional_degree_release.py": "97de1cf0fb271647957e13d0b77e36c7ba976161e04e2fc57e9818d98e40b119",
     "tools/verify_exterior_regularity.py": "453130eb8b8cd3f8a53f7a9ddf1fb299c80e320d0dd03eff04d9b6fb73fa3ad3",
     "tools/verify_f4_adjoint_fibers.py": "4c334cee1c1a22d43a0fc54ac15094c289ca5997b5406d39f10a7e56db3faf6f",
     "tools/verify_f4_minimal_degree.py": "8b7b895c0aecccaaf8451203289efed9f9a322dfc7103be525e4902fcba4486e",

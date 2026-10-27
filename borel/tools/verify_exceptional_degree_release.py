@@ -29,6 +29,15 @@ def main():
     version=sage_borel.__version__
     regression=read('character-verification.json')
     docs=read('documentation-verification.json')
+    review_package=read('review/adjoint-generic-fibers/package-verification.json')
+    review_manifest=json.loads((ROOT/'review/adjoint-generic-fibers/package-manifest.json').read_text())
+    assert review_package['archived_bytes_checked']
+    assert review_package['replay_from_extracted_archive']
+    assert review_package['fresh_pinned_engine_build_passed']
+    assert review_package['proof_commit']==review_manifest['proof_commit']
+    assert review_package['input_files']==len(review_manifest['files'])
+    for entry in review_manifest['files']:
+        assert digest(ROOT/entry['path'])==entry['sha256'],entry['path']
     theorem_audit=read('adjoint-theorem-audit.json')
     assert theorem_audit['proper_E_subsets_independently_enumerated']==445
     assert theorem_audit['cubic_standard_subset_transfers_replayed']==136
@@ -2025,7 +2034,19 @@ def main():
         'cubic-root-coefficients-audit.json')]
     paths += [ROOT/name for name in ('ADJOINT_GENERIC_FIBER_THEOREM.md',
         'tools/audit_adjoint_theorem.py','adjoint-theorem-audit.json')]
+    paths += [ROOT/name for name in (
+        'review/adjoint-generic-fibers/README.md',
+        'review/adjoint-generic-fibers/CERTIFICATE_GUIDE.md',
+        'review/adjoint-generic-fibers/run_review.py',
+        'review/adjoint-generic-fibers/package-manifest.json',
+        'review/adjoint-generic-fibers/package-verification.json',
+        'tools/build_adjoint_review_package.py')]
     report=dict(result='passed',version=version,
+        adjoint_review_package=dict(proof_commit=review_package['proof_commit'],
+            input_files=review_package['input_files'],
+            archived_bytes_checked=True, extracted_full_replay_passed=True,
+            fresh_pinned_engine_build_passed=True, external_review_obtained=False,
+            guide='review/adjoint-generic-fibers/README.md'),
         adjoint_theorem_consolidation=dict(standard_E_subsets=445,cubic_transfers=136,
             scheme_controls_checked=True,dependency_bindings_checked=True,
             external_peer_review=False,heavy_historical_memberships_rerun=False,
