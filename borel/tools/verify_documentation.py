@@ -18,6 +18,7 @@ from sage.env import SAGE_VERSION
 ROOT = Path(__file__).resolve().parents[1]
 DOCUMENTS = ("../README.md", "../articles/README.md",
              "TYPE_A_K_SPECIALIZATION.md",
+             "TYPE_A_K_PRIMARY_LAYERS.md",
              "CLASSICAL_POLYNOMIAL_ADJOINT_BLOCKS.md",
              "ADJOINT_GENERIC_FIBER_THEOREM.md",
              "E8_DEGREE_TRANSFER_AUDIT.md",

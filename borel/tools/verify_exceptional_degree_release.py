@@ -37,6 +37,17 @@ def main():
     assert type_a_specialization['fixed_point_checks']==68
     assert type_a_specialization_audit['SL3_kernel_factors']==[3,3]
     assert len(type_a_specialization['cases'])==5
+    primary_layers=read('type-a-k-primary-layers-audit.json')
+    for name,expected in primary_layers['source_sha256'].items():
+        assert digest(ROOT/name)==expected,name
+    assert len(primary_layers['prime_power_family_checks'])==7
+    for p in (3,4,5,7,8,9):
+        trace_slice=read('experiments/type-a-k-trace-slice-%d.json'%p)
+        expected_row=next(row for row in primary_layers['prime_power_family_checks'] if row['m']==p)
+        assert trace_slice['kernel_factors']==expected_row['kernel_factors']
+        assert trace_slice['alternate_order_verified']
+        for name,expected in trace_slice['source_sha256'].items():
+            assert digest(ROOT/name)==expected,name
     review_package=read('review/adjoint-generic-fibers/package-verification.json')
     review_manifest=json.loads((ROOT/'review/adjoint-generic-fibers/package-manifest.json').read_text())
     assert review_package['archived_bytes_checked']
@@ -2125,8 +2136,15 @@ def main():
         'tools/verify_type_a_k_specialization.py','type-a-k-specialization-audit.json',
         'type-a-k-specialization-verification.json')]
     paths += [ROOT/('experiments/type-a-k-specialization-%d.json'%n) for n in range(2,7)]
+    paths += [ROOT/name for name in ('TYPE_A_K_PRIMARY_LAYERS.md',
+        'tools/audit_type_a_k_primary_layers.py','experiments/type_a_k_slices.py',
+        'type-a-k-primary-layers-audit.json')]
+    paths += [ROOT/('experiments/type-a-k-trace-slice-%d.json'%p) for p in (3,4,5,7,8,9)]
+    paths += [ROOT/('experiments/type-a-k-slice-%d.json'%n) for n in (7,8)]
     report=dict(result='passed',version=version,
         type_a_projective_K_specialization=dict(
+            prime_power_uniform_quotient_lower_bound='Delta_(p^s) surjects onto sum_e (Z/p^e)^((p-1)p^(e-1)), p^s>=3',
+            full_m_annihilator_proved=False,
             all_rank_written_classification=True,faithful_exactly_m_equals_2=True,
             defect_prime_support_for_m_ge_3='prime divisors of m',
             complete_finite_presentations=list(range(2,7)),
