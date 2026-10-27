@@ -1,0 +1,36 @@
+{
+  "result": "passed",
+  "independent_model": "Euclidean E8: 112 integral plus 128 half-integral roots, scaled by 2; full signed-root orbit BFS",
+  "independent_census": {
+    "quadratic": 147,
+    "cubic": 93,
+    "non_A": 15
+  },
+  "full_orbits_reenumerated": 10,
+  "full_orbit_sizes": [
+    37800,
+    302400,
+    113400,
+    403200,
+    604800,
+    453600,
+    362880,
+    604800,
+    604800,
+    241920
+  ],
+  "explicit_words_checked": 93,
+  "root_lattice_and_Killing_isometries": true,
+  "Lie_center_transfer_checked": true,
+  "resolved_classes": 3,
+  "unresolved_classes": 7,
+  "covered_standard_subsets": 169,
+  "unresolved_standard_subsets": 86,
+  "all_simple_adjoint_conjecture_proved": false,
+  "scope": "Independent conjugacy/count/isometry audit; does not rerun the three seed polynomial proofs or establish smoothness for the seven remaining classes.",
+  "source_sha256": {
+    "tools/audit_e8_weyl_transfers.py": "2c9c842a7435d07140e9de6f91158970c8b432e3b3e7526eac1e994a8ab9176f",
+    "E8_WEYL_TRANSFERS.md": "1c7c03dd73e0f818896ae8abba97d106be927d12eeaa5ba069310d7765ba8121",
+    "e8-weyl-transfers-verification.json": "0aaf1364d880258de51595c9ea3a50e367f5caea621b6633a912e769538ac3bd"
+  }
+}

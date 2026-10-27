@@ -1,0 +1,63 @@
+{
+  "result": "passed",
+  "engine": "Sage Weyl characters and Singular ideals over QQ(c)",
+  "checks": {
+    "representation_dimension": 640,
+    "positive_irreducible_decomposition": true,
+    "full_character_from_independent_Sage_weights": true,
+    "trace_form_HH": 10368,
+    "original_localized_gradient_target_ideal_equal_double_structure": true,
+    "nilradical_generated_by_x": true,
+    "nilradical_square_zero_nonzero": true,
+    "exact_nilradical_annihilator_equals_reduction_ideal": true,
+    "generic_covered_chart_length": 48,
+    "reduced_covered_chart_length": 24,
+    "target_polynomial_separable": true,
+    "all_source_chart_units_justified": true,
+    "adjoint_long_root_jet_projectors": [
+      {
+        "type": "A2",
+        "roots": 6,
+        "long_roots": 6
+      },
+      {
+        "type": "G2",
+        "roots": 12,
+        "long_roots": 6
+      },
+      {
+        "type": "F4",
+        "roots": 48,
+        "long_roots": 24
+      },
+      {
+        "type": "E6",
+        "roots": 72,
+        "long_roots": 72
+      },
+      {
+        "type": "E7",
+        "roots": 126,
+        "long_roots": 126
+      },
+      {
+        "type": "E8",
+        "roots": 240,
+        "long_roots": 240
+      }
+    ]
+  },
+  "native_audit_imported": false,
+  "actual_simple_group_representation": true,
+  "representation_is_reducible": true,
+  "representation_is_adjoint": false,
+  "genericity_is_within_proper_Levi_central_stratum": true,
+  "infinite_tensor_power_family_proved_in_note": true,
+  "uniform_adjoint_conjecture_disproved": false,
+  "new_adjoint_coverage": false,
+  "literature_priority_claim": false,
+  "source_sha256": {
+    "tools/verify_weyl_jet_obstruction.py": "bdb6c6af526473c7eb3b6c44eca13f48d3328f7897fc55753863bca73f9a24ab",
+    "WEYL_JET_OBSTRUCTION.md": "0e48ac6782f5200fcad9d6254ee571eda0d91e1a93cc2b68b8cfa0eb4d4fdde7"
+  }
+}

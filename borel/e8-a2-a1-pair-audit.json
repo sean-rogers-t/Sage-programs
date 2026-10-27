@@ -1,0 +1,62 @@
+{
+  "result": "passed",
+  "independent_full_root_character": true,
+  "all_elimination_chain_rules": true,
+  "gcd_alpha_beta_is_one": true,
+  "primitive_quintic": true,
+  "squarefree_specialization": true,
+  "two_complex_boundary_components_checked": true,
+  "k_zero_intersections_retained": true,
+  "exceptional_base_dimension_bound": 2,
+  "full_boundary_dimension_bound": 3,
+  "actual_commuting_E8_roots": 6,
+  "central_root_directions": [
+    [
+      0,
+      1,
+      -1,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      -1
+    ],
+    [
+      0,
+      1,
+      0,
+      -1
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "all_six_ramification_wall_factorizations": true,
+  "Vandermonde_jacobian": true,
+  "residual_hessian_determinant": 112,
+  "central_schur_determinant": 48384,
+  "nonempty_smooth_generic_regular_fiber_dimension": 10,
+  "scope": "Exact independent root, coefficient, boundary and ramification checks; geometric implications are in the written proof. No full-map degree or literature novelty assertion.",
+  "source_sha256": {
+    "E8_A2_A1_PAIR.md": "ad03d2cb0bdc747b49147bab2304281fec107fde711de70fc36245b31bdd96a8",
+    "tools/audit_e8_a2_a1_pair.py": "98cd915a4788090ee762e29ddadc4d9792213f526de1ac6dd935e015166614f5",
+    "e8-a2-a1-pair-verification.json": "3ca95c664d29e0c96c3f9130ed17fcd3c32b6ecac7c654f8a9a5fe75a89c34c4"
+  }
+}

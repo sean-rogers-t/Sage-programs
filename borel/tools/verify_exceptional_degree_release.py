@@ -29,6 +29,88 @@ def main():
     version=sage_borel.__version__
     regression=read('character-verification.json')
     docs=read('documentation-verification.json')
+    theorem_audit=read('adjoint-theorem-audit.json')
+    assert theorem_audit['proper_E_subsets_independently_enumerated']==445
+    assert theorem_audit['cubic_standard_subset_transfers_replayed']==136
+    assert theorem_audit['reports_bound']==8
+    assert all(theorem_audit['exact_scheme_controls'].values())
+    for name,expected in theorem_audit['source_sha256'].items():
+        assert digest(ROOT/name)==expected,name
+    e7_final=read('e7-final-families-verification.json')
+    e7_final_audit=read('e7-final-families-audit.json')
+    g2_complete=read('g2-adjoint-fibers-verification.json')
+    f4_complete=read('f4-adjoint-fibers-verification.json')
+    f4_audit=read('f4-adjoint-fibers-audit.json')
+    e7_membership=read('e7-companion-membership-verification.json')
+    e7_geometry=read('e7-companion-geometry-audit.json')
+    e8_weyl=read('e8-weyl-transfers-verification.json')
+    e8_weyl_audit=read('e8-weyl-transfers-audit.json')
+    e8_triple=read('e8-a1-triple-verification.json')
+    e8_triple_audit=read('e8-a1-triple-audit.json')
+    e8_pair=read('e8-a2-a1-pair-verification.json')
+    e8_pair_audit=read('e8-a2-a1-pair-audit.json')
+    e8_final=read('e8-final-cases-verification.json')
+    e8_final_audit=read('e8-final-cases-audit.json')
+    e8_four=[read('e8-a1-four-%d-verification.json'%p) for p in (32003,32009)]
+    # Earlier reports below remain dated checkpoints. This is the current
+    # last-case certificate, which supersedes their open completion flags.
+    e8_complete=[read('e8-last-%d-verification.json'%p) for p in (32003,32009)]
+    e8_complete_audit=read('e8-last-case-audit.json')
+    for record in e8_complete+[e8_complete_audit]:
+        assert record['covered_proper_E8_standard_subsets']==255
+        assert record['remaining_Weyl_classes']==0
+        assert record['characteristic_zero_affine_singular_dimension_bound']==2
+        for name,expected in record['source_sha256'].items():assert digest(ROOT/name)==expected,name
+        for name,expected in record['raw_sha256'].items():assert digest(ROOT/name)==expected,name
+    for record in e8_complete:
+        assert record['original_ideal_memberships_replayed']
+        assert record['homogeneous_degree_upper_bound']==record['accounted_infinity_degree']==21
+    assert e8_final['covered_proper_E8_standard_subsets']==247
+    assert e8_final['remaining_Weyl_classes']==1 and e8_final['remaining_standard_subsets']==8
+    assert e8_final['unresolved_classes']==['A2+A1^3'] and not e8_final['all_E8_Levis_resolved']
+    assert len(e8_final['newly_completed_classes'])==4
+    assert e8_final_audit['native_full_root_characters']==5
+    assert e8_final_audit['independent_actual_scheme_eliminations']==5
+    assert e8_final_audit['multiplier_homogeneous_dimension']==3
+    for record in [e8_final,e8_final_audit]+e8_four:
+        for name,expected in record['source_sha256'].items():assert digest(ROOT/name)==expected,name
+        for name,expected in record.get('raw_sha256',{}).items():assert digest(ROOT/name)==expected,name
+    e8_last=json.loads((ROOT/'e8-last-case-exploration.json').read_text())
+    assert not e8_last['characteristic_zero_bound_proved'] and not e8_last['all_E8_completion_claim']
+    assert e8_last['affine_jacobian_deficiency_dimension']==1 and e8_last['prime']==32003
+    for name,expected in e8_last['source_sha256'].items():assert digest(ROOT/name)==expected,name
+    assert e8_pair['new_standard_subsets']==28 and e8_pair['regular_fiber_dimension']==10
+    assert e8_pair['covered_proper_E8_standard_subsets']==218
+    assert e8_pair['remaining_Weyl_classes']==5 and e8_pair['remaining_standard_subsets']==37
+    assert e8_pair_audit['two_complex_boundary_components_checked']
+    assert e8_pair_audit['k_zero_intersections_retained']
+    assert e8_pair_audit['all_six_ramification_wall_factorizations']
+    assert e8_pair_audit['actual_commuting_E8_roots']==6
+    assert e8_pair_audit['central_schur_determinant']==48384
+    assert e8_triple['new_standard_subsets']==21 and e8_triple['regular_fiber_dimension']==6
+    assert e8_triple['covered_proper_E8_standard_subsets']==190
+    assert e8_triple['remaining_Weyl_classes']==6 and e8_triple['remaining_standard_subsets']==65
+    assert e8_triple_audit['entire_boundary_control'] and e8_triple_audit['exact_boundary_ideal_identity']
+    assert e8_triple_audit['central_logarithmic_hessian_determinant']==-870912
+    assert e8_weyl['cubic_Weyl_classes']==10 and e8_weyl['unresolved_cubic_classes']==7
+    assert e8_weyl['covered_proper_standard_subsets']==169
+    assert e8_weyl['unresolved_standard_subsets']==86
+    assert e8_weyl_audit['explicit_words_checked']==93
+    assert e8_weyl_audit['full_orbits_reenumerated']==10
+    assert e8_weyl_audit['unresolved_classes']==7
+    assert not e8_weyl['all_simple_adjoint_conjecture_proved']
+    assert e7_membership['original_affine_ideal_memberships']==6
+    assert e7_membership['independent_prime']!=e7_membership['generation_prime']
+    assert e7_geometry['monomial_dimension_bound']==1
+    for name,expected in e7_membership['raw_sha256'].items():assert digest(ROOT/name)==expected,name
+    assert f4_complete['all_proper_F4_Levis_covered'] and f4_audit['independent_root_characters']==15
+    assert g2_complete['all_proper_G2_Levis_covered']
+    assert g2_complete['proper_standard_Levis']==3
+    assert e7_final['covered_standard_E7_Levis']==127 and e7_final['all_E7_Levis_resolved']
+    assert e7_final['a2a2a1']['regular_fiber_dimension']==14
+    for record in (e7_final,e7_final_audit,g2_complete,f4_complete,f4_audit,e7_membership,e7_geometry,e8_weyl,e8_weyl_audit,e8_triple,e8_triple_audit,e8_pair,e8_pair_audit):
+        for name,expected in record['source_sha256'].items():
+            assert digest(ROOT/name)==expected,name
     exposition_root=ROOT.parent/'articles/springer-cayley-exposition'
     exposition=read('../articles/springer-cayley-exposition/verification.json')
     assert exposition['pages']==11 and exposition['single_manuscript_page_per_pdf_page']
@@ -341,6 +423,45 @@ def main():
         assert not report['all_exceptional_annihilators_proved']
         assert not report['new_Levi_coverage'] and not report['novelty_claim']
         for name,expected in report['source_sha256'].items():assert digest(ROOT/name)==expected,name
+    shared=read('shared-square-couplings-audit.json')
+    shared_sage=read('shared-square-couplings-verification.json')
+    assert shared['checks']['central_derivative_chain_rule']
+    assert shared['checks']['E8_quadratic_factor_ranks']==[4,4]
+    assert shared_sage['checks']['smooth_component_dimensions']==[0,1,1]
+    assert shared_sage['checks']['original_coupled_generic_ideal_exact_decomposition']
+    assert shared_sage['checks']['opposite_simple_zero_embedded_annihilator_verified']
+    assert shared_sage['checks']['zero_total_constant_reduced_singular_control']
+    assert not shared_sage['native_audit_imported']
+    for record in (shared,shared_sage):
+        assert record['shared_square_family_theorem_in_note']
+        assert record['checks']['universal_affine_shared_variable_normal_form_disproved']
+        assert not record['full_root_normal_form_for_remaining_cases_proved']
+        assert not record['new_exceptional_group_coverage']
+        assert not record['uniform_conjecture_proved']
+        assert not record['literature_priority_claim']
+        for name,expected in record['source_sha256'].items():assert digest(ROOT/name)==expected,name
+    jets=read('weyl-jet-obstruction-audit.json')
+    jets_sage=read('weyl-jet-obstruction-verification.json')
+    assert jets['checks']['full_Weyl_invariance_verified']
+    assert jets['checks']['first_two_derived_jets_vanish']
+    assert jets['checks']['third_derived_jet_nonzero']
+    assert jets_sage['checks']['positive_irreducible_decomposition']
+    assert jets_sage['checks']['original_localized_gradient_target_ideal_equal_double_structure']
+    assert jets_sage['checks']['nilradical_square_zero_nonzero']
+    assert jets_sage['checks']['generic_covered_chart_length']==48
+    assert jets_sage['checks']['reduced_covered_chart_length']==24
+    assert not jets_sage['native_audit_imported']
+    for record in (jets,jets_sage):
+        assert record['checks']['representation_dimension']==640
+        assert record['checks']['trace_form_HH']==10368
+        assert len(record['checks']['adjoint_long_root_jet_projectors'])==6
+        assert record['actual_simple_group_representation'] and record['representation_is_reducible']
+        assert record['genericity_is_within_proper_Levi_central_stratum']
+        assert record['infinite_tensor_power_family_proved_in_note']
+        assert not record['representation_is_adjoint']
+        assert not record['uniform_adjoint_conjecture_disproved']
+        assert not record['new_adjoint_coverage'] and not record['literature_priority_claim']
+        for name,expected in record['source_sha256'].items():assert digest(ROOT/name)==expected,name
     rigidity=read('central-rigidity-audit.json')
     assert rigidity['control_count']==8 and all(rigidity['controls'].values())
     assert rigidity['generic_reduced_central_image_follows_from_trace_identity'] is False
@@ -1858,14 +1979,70 @@ def main():
     paths += [ROOT/name for name in ('tools/audit_aligned_critical_annihilator.py',
         'tools/verify_aligned_critical_annihilator.py','aligned-critical-annihilator-audit.json',
         'aligned-critical-annihilator-verification.json')]
+    paths += [ROOT/name for name in ('SHARED_SQUARE_COUPLINGS.md',
+        'tools/audit_shared_square_couplings.py','tools/verify_shared_square_couplings.py',
+        'shared-square-couplings-audit.json','shared-square-couplings-verification.json')]
+    paths += [ROOT/name for name in ('WEYL_JET_OBSTRUCTION.md',
+        'tools/audit_weyl_jet_obstruction.py','tools/verify_weyl_jet_obstruction.py',
+        'weyl-jet-obstruction-audit.json','weyl-jet-obstruction-verification.json')]
+    paths += [ROOT/name for name in ('E7_FINAL_FAMILIES.md',
+        'tools/audit_e7_final_families.py','tools/verify_e7_final_families.py',
+        'e7-final-families-audit.json','e7-final-families-verification.json')]
+    paths += [ROOT/name for name in ('E8_WEYL_TRANSFERS.md',
+        'tools/verify_e8_weyl_transfers.py','tools/audit_e8_weyl_transfers.py',
+        'e8-weyl-transfers-verification.json','e8-weyl-transfers-audit.json')]
+    paths += [ROOT/name for name in ('E8_A1_TRIPLE.md',
+        'tools/verify_e8_a1_triple.py','tools/audit_e8_a1_triple.py',
+        'e8-a1-triple-verification.json','e8-a1-triple-audit.json')]
+    paths += [ROOT/name for name in ('E8_A2_A1_PAIR.md',
+        'tools/verify_e8_a2_a1_pair.py','tools/audit_e8_a2_a1_pair.py',
+        'e8-a2-a1-pair-verification.json','e8-a2-a1-pair-audit.json')]
+    paths += [ROOT/name for name in ('E8_FINAL_CASES.md','e8-final-character-models.json',
+        'tools/verify_e8_final_cases.py','tools/audit_e8_final_cases.py',
+        'tools/verify_e8_a1_four_certificate.py','e8-final-cases-verification.json',
+        'e8-final-cases-audit.json','e8-a1-four-32003-certificate.json.gz',
+        'e8-a1-four-32009-certificate.json.gz','e8-a1-four-32003-verification.json',
+        'e8-a1-four-32009-verification.json','tools/explore_e8_last_affine.py',
+        'e8-last-case-exploration.json')]
+    paths += [ROOT/name for name in ('E8_LAST_ADJOINT_FIBER.md',
+        'tools/verify_e8_last_case.py','tools/audit_e8_last_case.py',
+        'tools/e8_last_f4_driver.c','tools/build_e8_last_certificate_engine.sh',
+        'e8-last-32003-certificate.json.gz','e8-last-32009-certificate.json.gz',
+        'e8-last-32003-verification.json','e8-last-32009-verification.json',
+        'e8-last-case-audit.json')]
+    paths += [ROOT/name for name in ('tools/verify_e7_companion_membership.py',
+        'tools/audit_e7_companion_geometry.py','tools/explore_e7_homogeneous_certificate.py',
+        'e7-homogeneous-membership-certificate.json.gz',
+        'e7-companion-membership-verification.json','e7-companion-geometry-audit.json')]
+    paths += [ROOT/name for name in ('G2_ADJOINT_FIBERS.md',
+        'tools/verify_g2_adjoint_fibers.py','g2-adjoint-fibers-verification.json')]
+    paths += [ROOT/name for name in ('F4_ADJOINT_FIBERS.md','tools/explore_f4_completion.py',
+        'tools/verify_f4_adjoint_fibers.py','tools/audit_f4_adjoint_fibers.py',
+        'f4-adjoint-fibers-verification.json','f4-adjoint-fibers-audit.json')]
     paths += [ROOT/name for name in ('CENTRAL_RIGIDITY_FIBERS.md',
         'tools/audit_central_rigidity.py','central-rigidity-audit.json')]
     paths += [ROOT/name for name in ('tools/audit_cubic_root_coefficients.py',
         'cubic-root-coefficients-audit.json')]
+    paths += [ROOT/name for name in ('ADJOINT_GENERIC_FIBER_THEOREM.md',
+        'tools/audit_adjoint_theorem.py','adjoint-theorem-audit.json')]
     report=dict(result='passed',version=version,
-        active_research_target=dict(uniform_simple_adjoint_conjecture=True,
-            automatic_Levi_case_completion_paused=True,
-            general_proof_complete=False,exceptional_census_resumed=False,
+        adjoint_theorem_consolidation=dict(standard_E_subsets=445,cubic_transfers=136,
+            scheme_controls_checked=True,dependency_bindings_checked=True,
+            external_peer_review=False,heavy_historical_memberships_rerun=False,
+            note='ADJOINT_GENERIC_FIBER_THEOREM.md'),
+        active_research_target=dict(uniform_simple_adjoint_conjecture=False,
+            automatic_Levi_case_completion_paused=False,
+            general_proof_complete=True,proof_method='classical and exceptional cases',
+            uniform_root_theoretic_proof_complete=False,exceptional_case_completion_resumed=True,
+            all_simple_adjoint_generic_regular_fiber_theorem_proved=True,
+            current_E7_standard_Levis_covered=127,all_proper_E7_Levis_covered=True,
+            current_E8_standard_Levis_covered=255,current_E8_unresolved_Weyl_classes=0,
+            all_proper_E8_Levis_covered=True,E8_last_affine_singular_dimension_bound=2,
+            E8_four_further_classes_generic_smooth_or_empty_proved=True,
+            E8_A1_triple_generic_nonempty_smooth_regular_fibers_proved=True,
+            E8_A2_A1_pair_generic_nonempty_smooth_regular_fibers_proved=True,
+            all_proper_G2_Levis_covered=True,
+            all_proper_F4_Levis_covered=True,
             authorized_E8_test_candidate_completed=True,
             larger_centralizer_shortcut_disproved=True,
             actual_adjoint_exceptional_triple_point_verified=True,
@@ -1898,16 +2075,23 @@ def main():
             type_A_central_target_coordinates_annihilate_nilradical=True,
             type_A_generic_reducedness_previously_quadratic_corollary=True,
             actual_adjoint_relative_incidence_always_reduced=False,
-            uniform_all_simple_generic_target_reducedness_proved=False,
+            uniform_all_simple_generic_target_reducedness_proved=True,
+            generic_target_reducedness_scope='proper-Levi centralizer-exact targets, regular source',
             E6_radial_critical_ideal_descent_after_target_scaling_disproved=True,
             all_exceptional_nilradical_target_annihilators_derived=False,
             aligned_family_exact_nilradical_and_colon_proved=True,
             aligned_family_exact_target_annihilator_proved=True,
             aligned_E6_full_critical_ideal_target_annihilator_derived=True,
             aligned_generic_smoothness_coverage_previously_known=True,
+            shared_square_couplings_generic_smoothness_proved=True,
+            shared_square_couplings_new_group_coverage=False,
+            universal_affine_shared_variable_normal_form_disproved=True,
+            Weyl_symmetry_actual_simple_representation_sufficiency_disproved=True,
+            adjoint_long_root_jet_projectors_verified=True,
+            root_jet_projectors_imply_uniform_smoothness_proved=False,
             finite_central_image_alone_suffices_for_norm_certificate=False,
             simultaneous_boundary_transversality_proved=False,
-            note='UNIFORM_ADJOINT_PROOF_TARGET.md'),
+            note='E8_LAST_ADJOINT_FIBER.md'),
         E8_adjoint_quasifinite_candidate=dict(retained_nodes=[1,2,3,5,6,8],
             derived_Levi_type='A2+A1+A2+A1',
             every_nonempty_allowed_central_fiber_zero_dimensional=True,

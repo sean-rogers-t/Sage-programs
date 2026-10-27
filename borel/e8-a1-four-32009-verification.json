@@ -1,0 +1,19 @@
+{
+  "result": "passed",
+  "prime": 32009,
+  "selected_members": 41,
+  "partial_basis_size": 5074,
+  "degree_bound": 12,
+  "original_ideal_memberships_replayed": true,
+  "homogeneous_dimension_upper_bound": 4,
+  "characteristic_zero_affine_dimension_upper_bound": 3,
+  "coordinate_supports_enumerated": 512,
+  "seconds": 237.955,
+  "source_sha256": {
+    "tools/verify_e8_a1_four_certificate.py": "796af8072991b13be92dbc237bcaa1352426be581c8f3ec144066efb4f138035",
+    "e8-final-character-models.json": "f8cf9051731b8e8ae7d77f0e0f2fd17f5c16c4f4fa6e917b1a84a69ab0e73ade"
+  },
+  "raw_sha256": {
+    "e8-a1-four-32009-certificate.json.gz": "da19343b59211036d6a827fa2d4160c03469d4a5716cfad977363b9f0db04de3"
+  }
+}

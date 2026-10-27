@@ -1,0 +1,34 @@
+{
+  "result": "passed",
+  "engine": "SymPy exact polynomial and rational-function arithmetic",
+  "checks": {
+    "symbolic_block_counts": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "all_active_subset_target_factorizations": true,
+    "central_derivative_chain_rule": true,
+    "opposite_simple_zero_gluing_has_generic_embedded_nilpotent": true,
+    "positive_dimensional_sheets_retained": true,
+    "existing_E6_form_is_one_block_specialization": true,
+    "existing_E8_top_form_factorization_verified": true,
+    "E8_quadratic_factor_ranks": [
+      4,
+      4
+    ],
+    "universal_affine_shared_variable_normal_form_disproved": true
+  },
+  "shared_square_family_theorem_in_note": true,
+  "full_root_normal_form_for_remaining_cases_proved": false,
+  "new_exceptional_group_coverage": false,
+  "uniform_conjecture_proved": false,
+  "literature_priority_claim": false,
+  "source_sha256": {
+    "tools/audit_shared_square_couplings.py": "9a6cd095df5570d1b1d30e965e6cefe206cc294af2017c87b581d36644644739",
+    "SHARED_SQUARE_COUPLINGS.md": "b85f2da48683991f190badef8e707691aa6a1d3877b5d826464a04be77fa84da",
+    "adjoint-nilpotent-source-screen.json": "0f084d865f3e85fb22287bbe143c18811db1259697045b09a2c4e4c2be631711"
+  }
+}

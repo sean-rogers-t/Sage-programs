@@ -1,0 +1,43 @@
+{
+  "result": "passed",
+  "prime": 32003,
+  "selected_original_ideal_members": 59,
+  "original_ideal_memberships_replayed": true,
+  "explicit_rational_member_degree": 30,
+  "exact_rational_infinity_inclusions": true,
+  "normal_linear_determinant_at_test_point": 61600,
+  "infinity_components_degrees": [
+    1,
+    6,
+    6,
+    6
+  ],
+  "infinity_generic_multiplicity_lower_bounds": [
+    3,
+    1,
+    1,
+    1
+  ],
+  "homogeneous_dimension_upper_bound": 4,
+  "homogeneous_degree_upper_bound": 21,
+  "accounted_infinity_degree": 21,
+  "characteristic_zero_affine_singular_dimension_bound": 2,
+  "regular_fiber_dimension_if_nonempty": 12,
+  "covered_proper_E8_standard_subsets": 255,
+  "remaining_Weyl_classes": 0,
+  "remaining_standard_subsets": 0,
+  "all_E8_proper_Levis_resolved": true,
+  "nonemptiness_claim": false,
+  "literature_priority_claim": false,
+  "seconds": 105.28,
+  "source_sha256": {
+    "E8_LAST_ADJOINT_FIBER.md": "c423c7ae68b7058ad23749c18ddca7519ed04c1e7257fe073f27cbbcb1498a4b",
+    "tools/verify_e8_last_case.py": "5097862fdd085ef32140afefcff1a32fafc2b6bc4fe5c580b904092cfaf05282",
+    "tools/e8_last_f4_driver.c": "5663c218fa89e57010b9dcf34bef7ae3d830f10dcefefcfe1e0da8366a8edb74",
+    "tools/build_e8_last_certificate_engine.sh": "7d613924c9c4ba25f92119f0ebfcaec787d2a4204eba4d4c532f3b0a50e158c6",
+    "e8-final-character-models.json": "f8cf9051731b8e8ae7d77f0e0f2fd17f5c16c4f4fa6e917b1a84a69ab0e73ade"
+  },
+  "raw_sha256": {
+    "e8-last-32003-certificate.json.gz": "e291e7a65160ce2e784540b49924472b70709dead9c204cfa30fa7b06afef5db"
+  }
+}

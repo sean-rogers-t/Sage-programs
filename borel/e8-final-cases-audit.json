@@ -1,0 +1,53 @@
+{
+  "result": "passed",
+  "native_full_root_characters": 5,
+  "independent_actual_scheme_eliminations": 5,
+  "binary_identities_over_Q": true,
+  "A1_four_independent_support_checks": [
+    {
+      "prime": 32003,
+      "selected_members": 41,
+      "independent_monomial_dimension": 4
+    },
+    {
+      "prime": 32009,
+      "selected_members": 41,
+      "independent_monomial_dimension": 4
+    }
+  ],
+  "independently_recomputed_rational_boundary_bases": [
+    {
+      "chart": 0,
+      "dimension": 2,
+      "basis_size": 73
+    },
+    {
+      "chart": 0,
+      "dimension": 1,
+      "basis_size": 45
+    },
+    {
+      "chart": 1,
+      "dimension": 2,
+      "basis_size": 78
+    },
+    {
+      "chart": 1,
+      "dimension": 1,
+      "basis_size": 49
+    }
+  ],
+  "multiplier_homogeneous_dimension": 3,
+  "multiplier_independent_prime": 32009,
+  "geometry_audited": "E8_FINAL_CASES.md; no reduction of the actual fiber schemes",
+  "all_E8_Levis_resolved": false,
+  "literature_priority_claim": false,
+  "source_sha256": {
+    "tools/audit_e8_final_cases.py": "c577bc98a2d63f4352e702e9021c1bf845c7eb110d4eec158b0b92ab21beab7a",
+    "e8-final-character-models.json": "f8cf9051731b8e8ae7d77f0e0f2fd17f5c16c4f4fa6e917b1a84a69ab0e73ade",
+    "e8-final-cases-verification.json": "ec5ec28fee42427be7077f4630fb457c89204fffa5a1e9092a2e478824fe5ba2",
+    "E8_FINAL_CASES.md": "5b626f24a270308b33f8a21f6f6623db1f59d98b6902999ed3b2a309cc42c1b1",
+    "e8-a1-four-32003-verification.json": "5f8ac8bb723c2e483f63ddcb376db97b3fac37366492614a369343562e09f699",
+    "e8-a1-four-32009-verification.json": "8c06440b236af46e6d276ea026dd3fb5aaabef0a0838b7608107e7269d683f37"
+  }
+}

@@ -1,6 +1,119 @@
 # Proof and literature status of the Springer and Borel program
 
-## Current direction: direct uniform proof attempt
+## Current direction: exceptional case completion resumed
+
+**Consolidation audit (GEO-91):** the
+[complete theorem and dependency map](ADJOINT_GENERIC_FIBER_THEOREM.md)
+state the common actual-scheme argument and every case dependency in one
+place. A fresh native check enumerates all 445 proper E6/E7/E8 standard
+subsets and replays all 136 cubic transfers on entire root subsystems.
+It also checks current certificate bindings and exact controls for embedded
+nilpotents, smooth excess and invalid affine modular specialization.
+No additional proof gap was identified. This is an internal review of the
+case proof, not external peer review, a rerun of every historical computation,
+or a uniform root-theoretic argument. The next step is independent
+mathematical review of the consolidated proof and decisive E8 certificate.
+
+**Current result (GEO-90): the adjoint generic regular-fiber theorem is
+complete by cases for every simple, simply connected complex group and
+every proper Levi.** The final E8 A2+A1^3 class is proved by a
+[characteristic-zero degree argument](E8_LAST_ADJOINT_FIBER.md): four
+known components at infinity account for degree 21, matching the
+homogeneous certificate upper bound. The original affine singular locus
+therefore has dimension at most two. All 255 proper E8 standard subsets
+are covered. Both finite-field member lists are replayed from the original
+ideal; native polynomial arithmetic and monomial counts independently
+audit the geometry. Empty generic fibers remain allowed; generic
+nonemptiness, special-target smoothness and a uniform root-theoretic
+proof are separate questions. The chronological checkpoints below retain
+their original scope and are superseded by GEO-90 where they say the
+all-simple conjecture remains open.
+
+On 26 October the user explicitly authorized finishing the proof by cases.
+The [remaining E7 family note](E7_FINAL_FAMILIES.md) proves generic smooth,
+nonempty regular-source fibers of dimension 14 for A2+A2+A1 (GEO-82).
+The full root-derived quadratic block, a degree-nine squarefree Schur
+numerator, all three determinant divisors, and the rank-zero target line
+are checked independently in Sage and native root/SymPy arithmetic.
+This covers three further standard subsets. The A2+A1^3 case is now also
+complete (GEO-85): six original-ideal memberships are proved using a
+homogeneous Hilbert-function certificate, with exact rational Buchberger
+checks and separate finite-field ideal comparisons at primes 32003 and
+32009 using different algorithms. A native root/Jacobian audit verifies
+the geometric inputs and dimension-one leading-monomial bound. This gives
+E7 coverage 127/127. At that checkpoint the all-simple-adjoint conjecture
+was incomplete: E8 was the only remaining group without complete
+proper-Levi coverage; GEO-90 now completes it.
+
+The [E8 Weyl-transfer audit](E8_WEYL_TRANSFERS.md) certifies exactly
+ten cubic Levi conjugacy classes. At that checkpoint, three E8 seed
+proofs covered three whole classes, containing seven standard subsets.
+Together with 147 quadratic and 15 non-A obstruction cases, this covered
+169/255 proper standard subsets, leaving seven classes and 86 subsets.
+Independent Sage root-line and native
+Euclidean signed-root enumerations agree on all 3,729,600 orbit elements
+and check explicit words for all 93 cubic standard subsets. Conjugation
+transfers the actual scheme fibers, their regular source open, and their
+centralizer-exact target opens. No new seed smoothness theorem or
+all-E8 completion is claimed (GEO-86).
+
+GEO-87 now closes the [E8 A1^3 class](E8_A1_TRIPLE.md). The full adjoint
+character on an orthogonal A1^8 cover satisfies a five-parameter binary
+criterion: its quintic is primitive and squarefree, and the entire
+singular elimination boundary has dimension at most four against five
+central targets. An exact logarithmic Hessian proves dominance.
+Generic actual regular-source fibers are nonempty, smooth and pure
+six-dimensional. Independent Sage and Euclidean-root/SymPy calculations
+verify the full character, ideal identity, all boundary estimates and
+dominance inputs. Weyl transfer covers 21 further standard subsets.
+This raised E8 coverage to 190/255, leaving six classes and 65 subsets.
+Generic degree and special-target smoothness are not established.
+
+GEO-88 closes the [E8 A2+A1^2 class](E8_A2_A1_PAIR.md), adding 28 standard
+subsets. The full character has a constant-unit paired A2 elimination
+and a binary residual potential over C*_u x A^3. Exact primitivity and
+squarefreeness certificates and both complex elimination-boundary
+components give a dimension-three bad-image bound against four targets.
+All six SL4 torus-quotient ramification walls are independently identified
+with actual E8 roots outside the Levi and force forbidden root target
+hyperplanes. A central Schur determinant of 48384 proves dominance.
+Generic actual regular-source fibers are nonempty, smooth and pure
+ten-dimensional. This checkpoint covered 218/255, with five classes and
+37 subsets remaining. Generic degree and all-special-target smoothness
+remain unproved. Independent native-root/SymPy and Sage checks agree.
+
+GEO-89 closes four of those five remaining classes: A1^4, A2^2+A1,
+A3+A1^2, and A3+A2+A1. The [case proof and exact boundaries](E8_FINAL_CASES.md)
+use a binary septic, a quadratic-block nonic with both rank-one charts
+and every rank-zero stratum, and two homogeneous Jacobian-dimension
+certificates. The finite-field certificates imply characteristic-zero
+bounds by homogeneous Hilbert-function specialization; they are not
+sampled affine fiber evidence. Native root expansion and independent
+SymPy computations check the character and boundary data. Central trace
+ramification is excluded only by justified target hyperplanes.
+**The GEO-89 checkpoint covered 247/255; A2+A1^3 represented the eight
+remaining subsets, now settled by GEO-90.** Generic smoothness allows emptiness; these four cases do
+not yet have a nonemptiness classification. The last full character and
+unit elimination are verified, but its affine singular-image bound
+was then unproved. The [new degree certificate](E8_LAST_ADJOINT_FIBER.md)
+supplies that bound and the all-E8 completion.
+
+The [G2 completion](G2_ADJOINT_FIBERS.md) proves the assertion for all three
+proper standard Levi subsets (GEO-83). The short-root and long-root A1
+incidence curves are smooth everywhere; explicit logarithmic Hessians
+prove dominance. Native simple-root sums and Sage ambient roots agree,
+and exact Laurent singular ideals are the unit ideal. Generic actual
+regular fibers have dimension two for either A1 Levi and zero for T.
+
+The [F4 completion](F4_ADJOINT_FIBERS.md) covers all fifteen proper standard
+subsets (GEO-84): ten full characters are quadratic; the five cubic cases
+reduce to three explicit models. Primitive squarefree Laurent equations
+and a complete rank-one boundary argument establish generic smoothness,
+allowing emptiness. All fifteen characters were independently reconstructed
+with native roots and exterior/spin character models. This does not classify
+nonemptiness and does not complete E8.
+
+## Earlier direction: direct uniform proof attempt
 
 On 24 October the user explicitly stopped further automatic Levi-by-Levi
 completion. The [active theorem target](UNIFORM_ADJOINT_PROOF_TARGET.md)
@@ -18,6 +131,39 @@ are linked from the active target note. Historical next-step suggestions
 below and in the dated exposition are superseded by this instruction.
 
 ## Structural proof paths: cubic carriers and smooth excess
+
+The [full-Weyl first-jet test](WEYL_JET_OBSTRUCTION.md) now gives
+LIMIT-20: an actual reducible 640-dimensional representation of SL3,
+with full ambient Weyl symmetry, has generic nonreduced regular-source
+fibers over the proper GL2 centralizer stratum. At the exhibited regular
+semisimple points the completed fiber is C[[o1,o2,x]]/(x^2). A positive
+irreducible decomposition, independently enumerated weights, exact trace
+normalization, and original gradient/target ideals over QQ(c) verify the
+construction. Every tensor power has the same local obstruction, by a
+written all-power trace formula. This is NOT an adjoint counterexample
+and does not concern generic targets in the entire Lie algebra.
+Thus full Weyl symmetry and actual-character positivity alone cannot
+supply the missing first-jet implication. The note derives elementary
+long-root third/fourth derivative identities that recover e^(+/-alpha)
+from the ACTUAL adjoint character in every simple type. Turning them
+into valid ideal syzygies, especially on the internal Weyl discriminant,
+remains unproved. No new adjoint smoothness coverage or novelty is claimed.
+
+The [shared-variable continuation](SHARED_SQUARE_COUPLINGS.md) proves
+GEO-81: for any number of blocks (1-sum u_i v_i)(x^2-delta_i)+Q
+sharing x, generic actual target fibers are smooth when every nonzero
+delta_i has vanishing first derivative on its zero locus (in particular,
+when each is a square). Quadratic charts cover x!=0 or sum w_i!=0;
+the remaining boundary target factors through a proper central divisor.
+The proof retains embedded structure and positive excess. Independent
+original-ideal computations over QQ(c) verify disjoint smooth components
+of dimensions 0,1,1. Opposite simple-zero deltas instead give a persistent
+embedded nilpotent, so independent one-block results do not glue freely.
+LIMIT-19 also excludes a universal AFFINE shared-variable normal form:
+the existing E8 model has squarefree quartic highest form, while this
+family has a repeated linear factor. Nonlinear/local reductions remain
+possible but unproved. No new exceptional coverage or uniform theorem
+is claimed; root coefficient compatibility is still the missing input.
 
 The [26 October direct generator-relation argument](UNIFORM_ADJOINT_PROOF_TARGET.md#26-october-a-direct-generator-relation-annihilator-for-aligned-couplings)
 now computes the ENTIRE nilradical and its exact annihilator for the

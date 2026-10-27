@@ -1,0 +1,17 @@
+{
+  "result": "passed",
+  "checks": {
+    "root_reconstruction": true,
+    "full_reduction_and_chain_rule": true,
+    "numerator_squarefree_over_Q": true,
+    "degree_preserving_squarefree_specialization": true,
+    "all_three_boundary_divisors": true,
+    "rank_zero_target_line": true,
+    "dominance_schur_determinant": "11664/5"
+  },
+  "scope": "Exact characteristic-zero identities and independent root reconstruction; geometric argument is in the proof note, no priority claim.",
+  "source_sha256": {
+    "E7_FINAL_FAMILIES.md": "b7ee8c255be6d841e944f43dc3800109b4a93ce04262de69824a8c8e9bbccb33",
+    "tools/audit_e7_final_families.py": "36df11f9f2a4578381ce126856761ac2c35a5330e9b3d7af2515af2bff3dc71c"
+  }
+}

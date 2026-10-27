@@ -1,0 +1,23 @@
+{
+  "result": "passed",
+  "uses_Sage": false,
+  "full_adjoint_character_reconstructed": true,
+  "original_target_derivatives": true,
+  "original_Jacobian_minor_ideal_reconstructed": true,
+  "monomial_dimension_bound": 1,
+  "torus_trace_map_rank_two_except_four_fixed_points": true,
+  "zero_target_on_trace_ramification": true,
+  "finite_torus_isogeny_degree": 3,
+  "relative_hessian_determinant": -216,
+  "central_hessian_determinant": 192,
+  "independent_membership_report": "e7-companion-membership-verification.json",
+  "membership_arithmetic_replayed_here": false,
+  "regular_fiber_dimension": 12,
+  "all_E7_proper_Levis_covered": true,
+  "scope": "Independent native root and polynomial input audit plus geometric witnesses; membership itself is certified by the separate exact homogeneous Hilbert-function verifier.",
+  "source_sha256": {
+    "E7_FINAL_FAMILIES.md": "b7ee8c255be6d841e944f43dc3800109b4a93ce04262de69824a8c8e9bbccb33",
+    "tools/audit_e7_companion_geometry.py": "c079441de935fbb800567fafb3ac1855802b24b4928672649a420b0c85aa5c30",
+    "e7-companion-membership-verification.json": "ffd4a22193b9ac181a98fa7225b2589fb48cf33e422ef21686b99262ad37d412"
+  }
+}

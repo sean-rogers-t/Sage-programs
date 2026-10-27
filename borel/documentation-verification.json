@@ -12,6 +12,10 @@
       "python_blocks_executed": 0
     },
     {
+      "file": "ADJOINT_GENERIC_FIBER_THEOREM.md",
+      "python_blocks_executed": 0
+    },
+    {
       "file": "CAYLEY_FIBER_REVIEW.md",
       "python_blocks_executed": 0
     },
@@ -21,6 +25,14 @@
     },
     {
       "file": "UNIFORM_ADJOINT_PROOF_TARGET.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "SHARED_SQUARE_COUPLINGS.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "WEYL_JET_OBSTRUCTION.md",
       "python_blocks_executed": 0
     },
     {
@@ -53,6 +65,38 @@
     },
     {
       "file": "E7_SYMMETRIC_PENCIL.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "E7_FINAL_FAMILIES.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "E8_WEYL_TRANSFERS.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "E8_A1_TRIPLE.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "E8_A2_A1_PAIR.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "E8_FINAL_CASES.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "E8_LAST_ADJOINT_FIBER.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "G2_ADJOINT_FIBERS.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "F4_ADJOINT_FIBERS.md",
       "python_blocks_executed": 0
     },
     {
@@ -692,7 +736,7 @@
       "python_blocks_executed": 0
     }
   ],
-  "local_links_and_anchors_checked": 2207,
+  "local_links_and_anchors_checked": 2359,
   "python_blocks_executed": 54,
   "scope": "Python fences executed in reading order in a fresh namespace per document; local links and anchors checked. Shell snippets and external URLs were not automatically executed or crawled."
 }

@@ -1,0 +1,36 @@
+{
+  "result": "passed",
+  "cases": [
+    {
+      "simple_node": 1,
+      "central_cocharacter": [
+        1,
+        2
+      ],
+      "trace_norm": 16,
+      "full_character": true,
+      "whole_incidence_smooth": true,
+      "central_logarithmic_hessian": 10
+    },
+    {
+      "simple_node": 2,
+      "central_cocharacter": [
+        2,
+        3
+      ],
+      "trace_norm": 48,
+      "full_character": true,
+      "whole_incidence_smooth": true,
+      "central_logarithmic_hessian": -32
+    }
+  ],
+  "root_enumerations_agree": true,
+  "torus_killing_determinant": "192",
+  "proper_standard_Levis": 3,
+  "all_proper_G2_Levis_covered": true,
+  "literature_priority_claim": false,
+  "source_sha256": {
+    "G2_ADJOINT_FIBERS.md": "9b56159a9adc90b32b57d7963f84c617cd1df259d0d62d80ae107b7067763c44",
+    "tools/verify_g2_adjoint_fibers.py": "b4301ca48163362cc4e18f5686d6f18d9f5d91baabdd4930e16a06c6d16e6e76"
+  }
+}

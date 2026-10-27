@@ -3,7 +3,15 @@
 The user's priority is generalizable mathematics: uniform formulas,
 structural explanations, exact hypotheses and counterexamples.
 
-## Active user direction, 24 October 2026
+## Active user direction, 26 October 2026
+
+The user has now explicitly resumed case-by-case completion: "Let's finish
+the proof by cases that's fine." Complete the remaining exceptional adjoint
+generic regular-fiber cases, keeping exact boundaries and independent
+certificates. This supersedes the pause below. The uniform conjecture remains
+the goal; do not call a partial coverage increase a complete proof.
+
+## Historical user direction, 24 October 2026
 
 The user explicitly stopped further case-by-case Levi completion after
 repeatedly asking for general theorems. Work directly on the uniform
