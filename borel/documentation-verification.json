@@ -12,7 +12,27 @@
       "python_blocks_executed": 0
     },
     {
+      "file": "TYPE_A_K_SPECIALIZATION.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "CLASSICAL_POLYNOMIAL_ADJOINT_BLOCKS.md",
+      "python_blocks_executed": 0
+    },
+    {
       "file": "ADJOINT_GENERIC_FIBER_THEOREM.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "E8_DEGREE_TRANSFER_AUDIT.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "ADJOINT_NONEMPTINESS_CRITICAL_VALUES.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "CHARACTER_COMPOSITION_FIBERS.md",
       "python_blocks_executed": 0
     },
     {
@@ -744,7 +764,7 @@
       "python_blocks_executed": 0
     }
   ],
-  "local_links_and_anchors_checked": 2371,
+  "local_links_and_anchors_checked": 2428,
   "python_blocks_executed": 54,
   "scope": "Python fences executed in reading order in a fresh namespace per document; local links and anchors checked. Shell snippets and external URLs were not automatically executed or crawled."
 }

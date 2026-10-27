@@ -1,0 +1,208 @@
+{
+  "date": "2026-10-27",
+  "scope": "Twelve identified citing works, original KM, two graph follow-ups; not an exhaustive worldwide citation census",
+  "repository_head": "aa3d13fb63b8f0ef8bbca518f5648adb154a41ed",
+  "uncommitted_research_notes_present": true,
+  "sources": [
+    {
+      "key": "KM",
+      "url": "https://www.mat.univie.ac.at/~michor/kostant.pdf",
+      "locator": "Original; sections 2-5",
+      "file": "KM.pdf",
+      "sha256": "6559776e91b0c6b907ea884733eee6c3c30ffd12f0ba11ac2e49871c859f8dfa",
+      "pages": 33
+    },
+    {
+      "key": "LPR-groups",
+      "url": "https://arxiv.org/pdf/math/0409004v2",
+      "locator": "Theorems 1.28, 1.31; section 10",
+      "file": "LPR-groups.pdf",
+      "sha256": "f6402a9358e766f5cb557bc96fecb94c902855532fd6f7c1f73879bea85e8cb1",
+      "pages": 45
+    },
+    {
+      "key": "LPR-degree",
+      "url": "https://arxiv.org/pdf/math/0608473v1",
+      "locator": "Theorems 2-3; sections 3-6",
+      "file": "LPR-degree.pdf",
+      "sha256": "ab021e58f89293c720334d2febe3b4d4dc4bb8495a9c6cef29bc653791bfbc99",
+      "pages": 8
+    },
+    {
+      "key": "AG",
+      "url": "https://sites.math.rutgers.edu/~goodman/pub/invarvf.pdf",
+      "locator": "Author version 28 March 2003; sections 4-5",
+      "file": "AG.pdf",
+      "sha256": "4b867be5596e8d6bbc7c76df3a30b1942d2f1dd1f7a1c3c01544b964a17f916f",
+      "pages": 19
+    },
+    {
+      "key": "BG",
+      "url": "https://files.ele-math.com/articles/mia-06-37.pdf",
+      "locator": "Journal version; sections 1-4",
+      "file": "BG.pdf",
+      "sha256": "a5e26f4524472a285022f29b5b99a45f650c16c2c9f78516c3b3b3e3c96d7a8d",
+      "pages": 15
+    },
+    {
+      "key": "Agricola",
+      "url": "https://arxiv.org/pdf/math/0606705",
+      "locator": "Preprint; bibliography KM01; no substantive map use located",
+      "file": "Agricola.pdf",
+      "sha256": "3823436cd77983daf94ae7c555f70af39772a2b46ed78149b654bd6466f7c85c",
+      "pages": 61
+    },
+    {
+      "key": "Agricola-journal",
+      "url": "https://www.dml.cz/bitstream/handle/10338.dmlcz/108020/ArchMathRetro_042-2006-5_1.pdf",
+      "locator": "Journal version; bibliography KM01; same identified work as Agricola",
+      "file": "Agricola-journal.pdf",
+      "sha256": "f3da10c1b573f6b3bb855225ee40d9f1d6e34526172ac8ff1452acc92eb014ed",
+      "pages": 81
+    },
+    {
+      "key": "Hopf",
+      "url": "https://arxiv.org/pdf/math/0701010v2",
+      "locator": "Appendix C, PDF pp52-53",
+      "file": "Hopf.pdf",
+      "sha256": "b8f62c4dd05707e7dde6311fb61c9add1636858d550ad703bdac92bcf5027472",
+      "pages": 63
+    },
+    {
+      "key": "Star",
+      "url": "https://arxiv.org/pdf/hep-th/0112092v2",
+      "locator": "Appendix A, PDF pp32-34",
+      "file": "Star.pdf",
+      "sha256": "998d3a781c0c60683fd97ba8d0774312b2f9aa908edef5c5923fea1183d22da5",
+      "pages": 37
+    },
+    {
+      "key": "Walk",
+      "url": "https://strathprints.strath.ac.uk/50879/1/Estrada_laPena_LAA_2014_Maximum_walk_entropy_implies_walk_regularity.pdf",
+      "locator": "Theorems 2.1-2.2; Remark 4.5(b)",
+      "file": "Walk.pdf",
+      "sha256": "451a8252b2c3eaab5e082f3313545fff924ba75d651585e2dcb0bdec7bbadf08",
+      "pages": 9
+    },
+    {
+      "key": "Double",
+      "url": "https://pure.mpg.de/rest/items/item_3372386/component/file_3372387/content",
+      "locator": "Published PDF p19, footnote18",
+      "file": "Double.pdf",
+      "sha256": "dec5fbb9042316c161f6d1fb6c30628381501dcc2ac8d499ec83afff9fe214f5",
+      "pages": 100
+    },
+    {
+      "key": "Tree",
+      "url": "https://uhra.herts.ac.uk/id/eprint/10467/1/1-s2.0-S0550321323000731-main.pdf",
+      "locator": "Published PDF pp19-20, footnote16",
+      "file": "Tree.pdf",
+      "sha256": "51fbbefb44117ef6ca20253b79b5fd3861484db04fc96ed4cfee8d83366ef428",
+      "pages": 57
+    },
+    {
+      "key": "LuYe",
+      "url": "https://arxiv.org/pdf/2411.02071v2",
+      "locator": "18 July 2025; sections4-6; additional direct citer",
+      "file": "LuYe.pdf",
+      "sha256": "8c70b518b91dc24c0cadf3ceb476e8e4930ca32d81fbc10a2a1993418803ad30",
+      "pages": 22
+    },
+    {
+      "key": "KKS",
+      "url": "https://arxiv.org/pdf/1708.09700v4",
+      "locator": "Follow-up; introduction and Theorem2",
+      "file": "KKS.pdf",
+      "sha256": "1f8ea69da1e26d3e84665acf6b102914bf710176471d34eadaaa456588347f8d",
+      "pages": 7
+    },
+    {
+      "key": "BD",
+      "url": "https://arxiv.org/pdf/2007.08956v2",
+      "locator": "Follow-up; Theorems3-4",
+      "file": "BD.pdf",
+      "sha256": "c5c4fea37eda5f4cd5fcb81aeec8f58b7dab30d690e7213847d78195734d282f",
+      "pages": 10
+    },
+    {
+      "key": "rogers-thesis-drive.pdf",
+      "access": "Existing local research source",
+      "file": "rogers-thesis-drive.pdf",
+      "sha256": "ccf1cbe2b661faf18807bd7b4a494bf7e36106c9f17cb7ecc540acabc77916f8",
+      "pages": 100
+    },
+    {
+      "key": "springer-arxiv.pdf",
+      "access": "Existing local research source",
+      "file": "springer-arxiv.pdf",
+      "sha256": "e2cfb849c0cafd0500b9667724b52ab3a3e0818d75cb3d99524c6405c2f54829",
+      "pages": 10
+    },
+    {
+      "key": "kumar76.pdf",
+      "access": "Existing local research source",
+      "file": "kumar76.pdf",
+      "sha256": "3ea3abb89e8ee9d03261671bac6fc8401879da56393e1f937cc67bd5c61b597f",
+      "pages": 21
+    },
+    {
+      "key": "kumar81.pdf",
+      "access": "Existing local research source",
+      "file": "kumar81.pdf",
+      "sha256": "6cd1d4e06dc1c715165441fcd66958788752fc2c8ff0de5ff1e8228d2c8fe0b3",
+      "pages": 23
+    },
+    {
+      "key": "kumar86.pdf",
+      "access": "Existing local research source",
+      "file": "kumar86.pdf",
+      "sha256": "973adeabbff3fef2be81daeb870d6ea33ba3aefa4187bd9ace91b786884645c6",
+      "pages": 30
+    }
+  ],
+  "research_note_snapshot": [
+    {
+      "path": "borel/PROOF_STATUS.md",
+      "sha256": "b2fdc32d47a1b1f9e8ef393eca69a521b0c81e194395f421e21b34a5a6b8f68c"
+    },
+    {
+      "path": "borel/RESEARCH_LEDGER.md",
+      "sha256": "b735d983a6d3fe883a4940299911a3948a818a9020cbc9b9cc49d5e8f566b5a2"
+    },
+    {
+      "path": "borel/ADJOINT_GENERIC_FIBER_THEOREM.md",
+      "sha256": "5d2c6537f49cbae9f66a5d972af38c42f99eeb19f938b3b32f3c0379da82e836"
+    },
+    {
+      "path": "borel/ADJOINT_NONEMPTINESS_CRITICAL_VALUES.md",
+      "sha256": "ad9d5d9fdaee38339273967484734fdbec4bb06009977e786ed4437bc53fa2ba"
+    },
+    {
+      "path": "borel/CHARACTER_COMPOSITION_FIBERS.md",
+      "sha256": "9e06fe846995bff67965c84ebbec6d5aff87dfa5fe1b56da91237b5d1f8412cd"
+    },
+    {
+      "path": "borel/E8_DEGREE_TRANSFER_AUDIT.md",
+      "sha256": "5584bc1c49acc5c0424a8449230002c80c2163e54a905185d789b743ae974e83"
+    },
+    {
+      "path": "borel/REGULARITY_CLASSIFICATION.md",
+      "sha256": "5f22fb431145bf438148d74544beb51da78e6cae03c80745c2c9768d8922cf54"
+    },
+    {
+      "path": "borel/SYMPLECTIC_HARMONIC_LOCALIZATION.md",
+      "sha256": "531dddfb6c54c9f43a9da1b189e90723f944332c5b9d556e2dda0791fff4810d"
+    },
+    {
+      "path": "borel/CAYLEY_LITERATURE_AUDIT.md",
+      "sha256": "40400efaf20ae78fd1eecacb20bd20578ff25574dcc1af9a3444288ba7c6ef99"
+    }
+  ],
+  "limitations": [
+    "No external mathematical review performed",
+    "No full rerun of E8 certificates or exceptional map-degree proofs",
+    "Accessible Rogers preprint, not final journal PDF",
+    "Citation indexes incomplete; preprints deduplicated",
+    "Relevant Cayley passages and context read, not every proof in all articles"
+  ]
+}

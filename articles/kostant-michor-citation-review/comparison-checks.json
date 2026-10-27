@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "arithmetic": "exact rational and symbolic characteristic zero",
+  "scope": "Displayed matrix comparisons only; no claim of full proof re-verification",
+  "sympy_version": "1.12",
+  "checks": {
+    "sl3_classical_cayley_determinant": "-(t + 1)**2*(2*t - 1)/((t - 1)**2*(2*t + 1))",
+    "sp4_source_positive_root_values": [
+      "-4",
+      "-1",
+      "4",
+      "1/4"
+    ],
+    "sp4_target_positive_root_values": [
+      "0",
+      "3/2",
+      "3/2",
+      "3/2"
+    ],
+    "jordan_nilpotent_factor": {
+      "translated": 2,
+      "at_identity": 1
+    },
+    "symplectic_scalar_identity": {
+      "n": 2,
+      "m_checked": [
+        1,
+        2,
+        3
+      ],
+      "D": "24",
+      "delta": "2/3"
+    }
+  }
+}

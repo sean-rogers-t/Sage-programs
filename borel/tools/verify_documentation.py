@@ -17,7 +17,12 @@ from sage.env import SAGE_VERSION
 
 ROOT = Path(__file__).resolve().parents[1]
 DOCUMENTS = ("../README.md", "../articles/README.md",
+             "TYPE_A_K_SPECIALIZATION.md",
+             "CLASSICAL_POLYNOMIAL_ADJOINT_BLOCKS.md",
              "ADJOINT_GENERIC_FIBER_THEOREM.md",
+             "E8_DEGREE_TRANSFER_AUDIT.md",
+             "ADJOINT_NONEMPTINESS_CRITICAL_VALUES.md",
+             "CHARACTER_COMPOSITION_FIBERS.md",
              "review/adjoint-generic-fibers/README.md",
              "review/adjoint-generic-fibers/CERTIFICATE_GUIDE.md",
              "CAYLEY_FIBER_REVIEW.md",

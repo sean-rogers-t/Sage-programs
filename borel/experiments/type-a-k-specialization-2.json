@@ -1,0 +1,41 @@
+{
+  "result": "passed",
+  "n": 2,
+  "order": "dp",
+  "closure_rounds": 1,
+  "image_generators": 2,
+  "relations": 1,
+  "specialization_kernel_factors": [],
+  "ordinary_smith": [
+    1,
+    2
+  ],
+  "full_module_closure": true,
+  "presentation": [
+    [
+      "1",
+      "0"
+    ],
+    [
+      "0",
+      "2"
+    ]
+  ],
+  "syzygies": [
+    [
+      "0"
+    ],
+    [
+      "0"
+    ]
+  ],
+  "source_sha256": {
+    "experiments/type_a_k_specialization.py": "7d415062038eb7c0067bc2a10b338d0c086936c0d447b2c55d301216f8ccfbc4"
+  },
+  "alternate_order_check": {
+    "order": "Dp",
+    "image_generators": 2,
+    "relations": 1,
+    "same_kernel_and_ordinary_factors": true
+  }
+}

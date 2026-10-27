@@ -1,0 +1,38 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[margin=0.85in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,amsmath,amssymb,amsthm,booktabs,longtable,array,microtype,enumitem}
+\usepackage[table]{xcolor}
+\usepackage[colorlinks=true,linkcolor=blue!55!black,urlcolor=blue!55!black,citecolor=blue!55!black,pdfpagelayout=SinglePage]{hyperref}
+\usepackage{fancyhdr}
+\pagestyle{fancy}\fancyhf{}\fancyhead[L]{\small Springer--Cayley literature review}\fancyhead[R]{\small 27 October 2026}\fancyfoot[C]{\thepage}
+\setlength{\headheight}{14pt}\setlength{\parskip}{4pt}\setlength{\parindent}{0pt}
+\setlist{topsep=3pt,itemsep=2pt,leftmargin=1.5em}
+\newcommand{\C}{\mathbb C}\newcommand{\g}{\mathfrak g}\newcommand{\tfr}{\mathfrak t}
+\newcommand{\Ad}{\operatorname{Ad}}\newcommand{\tr}{\operatorname{tr}}
+\newcommand{\Lie}{\operatorname{Lie}}\newcommand{\reg}{\mathrm{reg}}\newcommand{\dd}{\mathrm d}
+\newcommand{\status}[1]{\textbf{Status:} #1.}
+\newcommand{\source}[1]{\textbf{Source and location:} #1.}
+\title{What the Kostant--Michor citation trail actually tells us\\[5pt]\large Cayley maps, related theorems, and a focused research program}
+\author{Research report prepared for Sean Rogers}\date{27 October 2026}
+\begin{document}\maketitle
+\begin{abstract}
+This report examines twelve identified citing works, the original Kostant--Michor paper, and two later papers needed to correct the graph-theoretic branch of the citation trail. It distinguishes trace-projection Springer morphisms, classical matrix Cayley transforms, arbitrary equivariant rational maps, and local coordinates. The strongest connections concern invariant gradients, harmonic localization, and the actual fibers of prescribed Springer maps. Our recent results are described at their repository proof status, with remaining review obligations explicit. The recommended next theorem is a structural classical classification of generic nonemptiness and excess under polynomial operations on the adjoint character.
+\end{abstract}
+\section{Conclusions and scope}
+The citation list contains several different mathematical stories. It should not be treated as a list of open problems awaiting our Springer-map calculations.
+\begin{enumerate}
+\item \textbf{The closest connections are substantive.} Lemire--Popov--Reichstein study equivariant birational geometry and degree; Agricola--Goodman study invariant vector fields and harmonic separation; Lu--Ye classify representations admitting the classical matrix transform. They provide useful tools and boundaries on novelty claims.
+\item \textbf{Our strongest current extension concerns a fixed map and actual fibers.} The repository contains a case proof of generic smoothness of regular adjoint Springer fibers over centralizer-exact Levi strata, followed by nonemptiness and representation-composition results. These differ from global regularity preservation, birationality, and integral Borel images.
+\item \textbf{The harmonic connection is concrete.} For the symplectic determinant-character family, separation works after a smaller localization than the full Jacobian localization. Sufficiency is largely a consequence of known separation; sharpness is the additional argument to review.
+\item \textbf{Other citations have weaker implications.} The physics papers use optional local coordinates or a metaplectic formula. The graph paper uses an exponential inequality; later papers correct its broad claims. The torsion survey has a bibliographic citation without a located map-dependent argument.
+\end{enumerate}
+\textbf{Coverage.} The twelve profiles cover the eleven previously identified works, including the dissertation, plus Lu--Ye, an additional direct citer found in this audit. Preprint and journal versions count once. Citation indexes were used for discovery and accessible full texts for verification. Index coverage is incomplete and sometimes duplicates versions: this is not a claim to have found every citation worldwide. The relevant arguments and surrounding hypotheses were examined, not every proof in the long physics and differential-geometry papers.
+
+\textbf{Evidence labels.} ``Published'' means located in the cited work. ``Repository deduction'' means a written argument in our project, not external approval or an established priority claim. ``Elementary comparison'' means an argument supplied here. ``Proposed'' means unfinished work. The manifest records source versions and local proof-note hashes. Nothing below establishes a new minimum Cayley degree or an application resolving a physics problem.
+{\small\setlength{\parskip}{0pt}\tableofcontents}\newpage
+\input{framework}
+\input{profiles}
+\input{research}
+\input{references}
+\end{document}

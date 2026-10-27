@@ -1,0 +1,188 @@
+\section{Paper-by-paper analysis: the algebraic connections}
+\subsection{Lemire--Popov--Reichstein: \emph{Cayley groups}}
+\source{\cite{LPRgroups}, arXiv v2, Theorems 1.28 and 1.31; §10, especially Example 10.4, Proposition 10.7, and Definition 10.9. Journal numbering can differ}
+
+\textbf{Actual use.} This paper relates equivariant birationality to Weyl-group character lattices and classifies simple Cayley groups. Trace projection is a source of dominant equivariant morphisms, but the permitted rational maps form a much larger class. The paper also discusses clearing invariant denominators and already defines Cayley degree; that definition should not be credited exclusively to the later degree paper.
+
+\textbf{What this means for us.} Our torus formulas give a controlled family inside their broader problem. Complete classification of our family's degrees would not classify all equivariant rational maps. Likewise, the root and weight lattices in our Borel work and those in stable birational classification have a common origin but encode different obstructions. A Smith factor in cohomology is not automatically a birational obstruction.
+
+The distinction between $\operatorname{Spin}_n$ and $\operatorname{SO}_n$ matters. A finite central quotient preserves certain local geometric properties in characteristic zero but changes the character lattice and can change degree. A statement about a matrix image cannot silently become a birational statement about its simply connected cover.
+
+\textbf{Possible extension.} Characterize which low-degree Weyl-equivariant rational maps can arise, after invariant scalar modification, from a character gradient. Equivariance is insufficient: the corresponding invariant one-form must be exact, and actual representations impose nonnegative integral multiplicities. Our composition theorem treats a special exact family, not all denominator-clearing operations.
+
+\textbf{Assessment.} High conceptual relevance, but a difficult realization problem. Use the paper to make degree and lattice claims precise rather than promise to solve its classification questions from our fiber theorem.
+
+\subsection{Lemire--Popov--Reichstein: \emph{On the Cayley degree of an algebraic group}}
+\source{\cite{LPRdegree}, Theorems 2--3; §3, Lemma 2 and Corollary 2; §§4--6}
+
+\textbf{Actual use.} They prove $\operatorname{Cay}(\mathrm{SL}_n)\le n-2$ for $n\ge3$ and $\operatorname{Cay}(G_2)=2$. Their torus reduction identifies the degree of an equivariant map with its Weyl-equivariant torus-map degree. The $G_2$ construction uses rational torus coordinates, a quadric, and projection; it does not assert that a preferred trace-projection representation has degree two. Their final example also treats a higher-degree torus formula.
+
+\textbf{Our comparison.} For any specified representation,
+\[
+\deg\theta_\rho=[\C(G):\theta_\rho^*\C(\g)],\qquad
+\operatorname{Cay}(G)\le\deg\theta_\rho.
+\]
+The first number measures our map; the second minimizes over all admissible rational maps. Boundary corrections in our exceptional computations determine the first number. They improve an upper bound for the second only if they beat an existing bound. They give no lower bound without excluding \emph{every} smaller-degree rational map.
+
+Our degree records include $1080$ and $2754$ for the simply connected $E_6$ minimal and adjoint maps, and $7272$ and $33664$ for their $E_7$ counterparts. These are repository calculations with specified lattice-cover factors and boundary corrections. They are not values of $\operatorname{Cay}(E_6)$ or $\operatorname{Cay}(E_7)$, or assertions about all fibers. This review does not rerun those proofs.
+
+\textbf{Proposed extension.} A deformation theorem could explain when generic degree is constant in a character-gradient family and how contributions at infinity change it. It would require a specified compactification, scheme multiplicities at infinity, and central-isogeny factors. This is closer to our tools than universal Cayley-degree lower bounds. It is separate from the recommended next classical nonemptiness theorem. Historical minimum-degree questions should not be labelled currently open without a further status search.
+
+\subsection{Agricola--Goodman: invariant vector fields on symmetric spaces}
+\source{\cite{AG}, author version of 28 March 2003, §4.1, Theorem 4.1; §4.2, Theorems 4.2--4.3; §5.2, Theorem 5.3}
+
+\textbf{Actual use.} For semisimple simply connected $G$, gradients of fundamental characters freely generate conjugation-invariant vector fields over $\C[G]^G$. For $\mathrm{SL}_n$ explicit generators are
+\[
+\Phi_k(g)=g^k-\frac{\tr(g^k)}n I,\qquad 1\le k\le n-1.
+\]
+The paper gives commutator formulas and an invariant differential operator yielding harmonic separation for $\mathrm{SL}_2$. Its symmetric-space ``flat'' vector fields concern a lifting condition, not flatness of our fiber families.
+
+\textbf{Exact bridge.} Write $\chi_\rho=F(\chi_1,\ldots,\chi_r)$ in fundamental characters. With the trace-form normalization,
+\begin{equation}\label{eq:chain}
+I_\rho\theta_\rho=\sum_i I_i
+\frac{\partial F}{\partial\chi_i}\theta_i.
+\end{equation}
+This is the chain rule applied to known invariant-gradient theory. Implementing it is useful, but is not a new basis theorem. An arbitrary invariant linear combination of gradients need not itself be a character gradient: its coefficient one-form must satisfy integrability.
+
+\textbf{Where our work goes further, subject to review.} We ask how these coefficients control the actual target-fiber scheme. For $F=f(\chi_{\Ad})$, our representation-composition theorem turns the chain rule into a criterion for retaining or erasing dominating critical components. The chain rule is published background; the component-survival deductions are ours. Persistent nilpotents make reduced-support computations insufficient.
+
+\textbf{Proposed extension.} Classify constant adjoint-character values on central critical components from classical block data. This is a structural question in unbounded rank. It uses the known gradient module to explain geometry, rather than re-proving that module's existence. A later operator question is whether the fixed harmonic decomposition admits annihilating operators without unnecessary Jacobian poles. Multiplication alone does not remove inverse-differential poles.
+
+\subsection{Lu--Ye: \emph{The Cayley Transform on Representations}}
+\source{\cite{LY}, v2, 18 July 2025; Definitions 4.1 and 4.5, Theorem 4.9, §5, and Theorems 6.13 and 6.15}
+
+\textbf{Actual use.} They ask when the classical transform applied to $\dd\rho(\g)$ lands in $\rho(G)$. They give power-closure and weight-geometric criteria, then representation classifications in the complex simple and compact settings. Familiar orthogonal and symplectic images, low-rank identifications, and type-$D_4$ half-spin representations occur. Kostant--Michor is cited, including in the unipotent-group discussion.
+
+\textbf{A genuinely different property.} Their applicability condition concerns a rational matrix formula. Our regularity question concerns the global trace-projection morphism. Neither property implies the other, as the following elementary comparisons show.
+
+For defining $\mathrm{SL}_3$,
+\[
+\theta(g)=g-\tfrac13\tr(g)I.
+\]
+Subtracting a scalar leaves the matrix centralizer unchanged, so regularity is preserved. But for $X=t\operatorname{diag}(1,1,-2)$,
+\[
+\det((I+X)(I-X)^{-1})=
+\frac{(1+t)^2(1-2t)}{(1-t)^2(1+2t)}
+\]
+is not identically one. The classical formula does not generically land in $\mathrm{SL}_3$.
+
+Conversely, defining $\mathrm{Sp}_4$ admits the classical transform, but its trace projection is $(g-g^{-1})/2$. The torus element
+\[
+g=\operatorname{diag}(2,-1/2,1/2,-2)
+\]
+is regular semisimple, whereas its image
+\[
+\theta(g)=\operatorname{diag}(3/4,3/4,-3/4,-3/4)
+\]
+is nonregular in $\mathfrak{sp}_4$. The accompanying script checks this using exact matrices and root values.
+
+\textbf{Research implication.} A regularity-classification paper must explicitly compare these two properties and distinguish $G$ from its matrix image when the representation has a central kernel. A joint description of classical applicability, trace-projection regularity, and harmonic localization would be meaningful. Another isolated representation calculation would not provide it.
+
+\section{The inequality branch}
+\subsection{Borwein--Girgensohn: \emph{A class of exponential inequalities}}
+\source{\cite{BG}, introduction and theorem of §2; extensions in §§3--4}
+
+\textbf{Actual use.} This paper improves the real estimate in Kostant--Michor. For real $x_i$ with $\sum_i x_i\ge0$ it proves
+\begin{equation}\label{eq:BG}
+\sum_{i=1}^N x_i e^{x_i}\ge\frac{C_N}{N}\sum_i x_i^2,
+\qquad C_N=\max\{2,e(1-1/N)\}.
+\end{equation}
+There are other norm and integral versions. The paper does not classify complex fibers or representations.
+
+\textbf{Immediate application.} Let $H$ lie in a real Cartan where the weights $\mu_i$ of $\rho$, repeated with multiplicity, are real. Semisimplicity gives $\sum_i\mu_i(H)=0$. Then
+\[
+B_\rho(\theta_\rho(e^H),H)=\sum_i\mu_i(H)e^{\mu_i(H)},\quad
+B_\rho(H,H)=\sum_i\mu_i(H)^2.
+\]
+Substitution in \eqref{eq:BG} gives a quantitative coercive estimate. This is a direct application of the published inequality, not a new Springer-map theorem.
+
+For a self-dual weight multiset, pairing $a=\mu(H)$ with $-a$ and using $a\sinh a\ge a^2$ gives the elementary stronger bound
+\[
+B_\rho(\theta_\rho(e^H),H)\ge B_\rho(H,H).
+\]
+The Hessian of $H\mapsto\chi_\rho(e^H)$ is likewise at least $B_\rho$, since each paired contribution has $\cosh\mu(H)\ge1$. This supplies real strong monotonicity, not a new classification.
+
+\textbf{Limit.} Complex weights and exponentials do not retain this positivity. Cancellations can create singular or nonreduced fibers. These estimates therefore do not supply the missing uniform exceptional identity. A real numerical-continuation application is plausible, but is a separate objective with additional quantitative work.
+
+\subsection{Estrada--de la Pe\~na: maximum walk entropy}
+\source{\cite{Walk}, Theorems 2.1--2.2 and §4, especially Remark 4.5(b); follow-ups \cite{KKS,BD}}
+
+\textbf{Actual use.} This studies entropy of the normalized diagonal of $e^{\beta A}$ for an adjacency matrix $A$. The Kostant--Michor connection is an exponential inequality, sharpened by Borwein--Girgensohn. It does not construct a group-to-algebra map. The Cayley--Hamilton theorem mentioned nearby is a different result.
+
+\textbf{Published correction.} Kloster--Kr\'al'--Sullivan exhibit a non-walk-regular, non-degree-regular graph on 24 vertices with maximal walk entropy at some $\beta>0$, and identify a flaw in the earlier proof. Ballini--Deniskin prove the characterization for every nonzero algebraic $\beta$, including $\beta=1$, using Lindemann--Weierstrass. Thus the unrestricted-temperature claim fails; one must not say that the temperature-one statement is false.
+
+\textbf{Independent warning.} A uniform positive entropy gap as $\beta\downarrow0$ is impossible for a fixed nonregular graph: $e^{\beta A}\to I$, normalized diagonal entries tend to $1/n$, and entropy tends to $\log n$. This checks the overstrong formulation of Theorem 2.2(c) without using the later counterexample.
+
+\textbf{Ramification.} There is no established route from our complex fiber theorem to a new graph-entropy theorem. The inequality is the actual connection, and the graph question has its own corrected literature. Record it accurately and leave it outside the main agenda.
+
+\section{Local coordinates, quantization, and physics}
+\subsection{Cari\~nena et al.: \emph{Hopf algebras in dynamical systems theory}}
+\source{\cite{Hopf}, Appendix C, equations (C.2)--(C.3), PDF pages 52--53 of v2}
+
+\textbf{Actual use.} In the discussion of differential equations on Lie groups, a local map $f:\g\to G$ may be exponential or a suitable Cayley parametrization. Pullback converts a group-valued equation to one on the algebra, with the Darboux derivative controlling the conversion. This is a local-coordinate use, not global fiber classification.
+
+\textbf{Our available contribution.} Identity differential at $e$ gives a unique formal inverse to $\theta_\rho$, and an analytic local inverse. Equivariance follows from uniqueness. Our weight and root-commutator formulas can produce such coordinates without convenient representation matrices. Existence is the inverse-function theorem, not new mathematics.
+
+For $F_\rho(X)=\theta_\rho(e^X)$, direct expansion gives
+\[
+B_\rho(F_\rho(X),Y)=B_\rho(X,Y)
++\tfrac12\tr(\dd\rho(X)^2\dd\rho(Y))+O(X^3).
+\]
+If the quadratic term is $A_2(X)$, the inverse begins $X=Z-A_2(Z)+O(Z^3)$. Our Borel-coordinate recurrence can organize higher terms. A useful application would require error or convergence bounds and a demonstrated integrator benefit. Smooth positive-dimensional fibers away from the identity do not define coordinate charts.
+
+\textbf{Assessment.} A plausible later application; lower priority than a structural geometric theorem.
+
+\subsection{Gracia-Bond\'ia et al.: \emph{Infinitely many star products to play with}}
+\source{\cite{Star}, Appendix A, equations (A.12)--(A.14), PDF pages 32--34 of v2}
+
+\textbf{Actual use.} A metaplectic-symbol formula uses $(I-S)(I+S)^{-1}$ in a Gaussian and $\det(I+S)^{-1/2}$ in its amplitude, with a sign or phase from the metaplectic cover. The boundary $\det(I+S)=0$ needs distributional treatment. This is a concrete classical Cayley application.
+
+\textbf{Overlap.} The same divisor $D(g)=\det(I+g)$ occurs in our symplectic harmonic-localization theorem. Both constructions simplify in classical Cayley coordinates. However, the metaplectic caustic and the full critical locus of our polynomial map need not coincide: the latter has an additional factor even on $D\ne0$.
+
+\textbf{Possible extension and cost.} A character-dependent scalar rescaling might suggest alternative symbols. Substitution into the Gaussian is not a proof: composition under the star product, phase, normalization, and distributional extension all need new analysis. Our localization result supplies none of these automatically. This is a potential collaboration project with a real shared boundary, not an immediate quantization corollary.
+
+\subsection{Borsten et al.: \emph{Double Copy from Homotopy Algebras}}
+\source{\cite{Double}, §3.2, PDF page 19, footnote 18}
+
+\textbf{Actual use.} The nonlinear sigma-model discussion uses exponential coordinates and mentions the Cayley alternative. Its treatment is independent of the choice under the stated equivariance condition. The homotopy-algebra construction does not depend on classifying global Cayley fibers.
+
+\textbf{Comparison.} Our formal inverse supplies another local parametrization. That is a coordinate option. Global algebraic multiplicity and remote singular fibers are invisible to a finite perturbative expansion at the identity. A meaningful application would identify an improved quantity, such as interaction-vertex complexity, and justify the field redefinition.
+
+\textbf{Assessment.} No current result of ours resolves an open double-copy assertion located here. The useful outcome is a precise boundary on the connection, not a claim about scattering amplitudes.
+
+\subsection{Borsten et al.: tree-level to loop-level color--kinematics duality}
+\source{\cite{Tree}, §4.1, PDF pages 19--20, footnote 16}
+
+\textbf{Actual use.} Cayley coordinates are again an alternative to exponential coordinates for a group-valued sigma-model field. The main result concerns passing from tree-level duality to loop-level duality up to counterterms. The coordinate choice is ancillary.
+
+\textbf{Ramification.} Our formulas might reorganize vertices, but smoothness of a complex group fiber does not remove quantum counterterms, prove loop equivalence, or justify a measure-level field redefinition. Those are separate arguments. Even a simple rational inverse would not automatically settle them.
+
+\textbf{Assessment.} Keep the exact citation, but no new project is justified here by our present theorem alone.
+
+\section{The survey citation and your original work}
+\subsection{Agricola: the Srn\'i lectures on geometries with torsion}
+\source{\cite{Agricola}, journal PDF and arXiv version; bibliography entry [KM01]}
+
+\textbf{What was found.} Both versions include Kostant--Michor in the bibliography. The audit did not locate a body argument using its map. The survey concerns torsion, spin geometry, and Dirac operators. ``Cayley plane'' is not a Cayley transform.
+
+\textbf{Interpretation.} This is a verified bibliographic citation without an identified substantive map application. We cannot infer that our fibers extend a torsion or Dirac theorem because spin representations or Kostant's name occur in both subjects. The cubic Dirac operator is another line of work.
+
+\textbf{Assessment.} A project here first needs a specific map-dependent assertion. The citation alone is not evidence for one.
+
+\subsection{Rogers: dissertation, explicit formulas, and Springer--Borel maps}
+\source{\cite{Thesis}, Chapter 3, printed pages 26--30; \cite{Rogers}; cohomology applications in \cite{Kumar,KumarRogers,KumarXie}}
+
+\textbf{Actual use.} The dissertation imports basic Springer-map properties, the differential, and quotient degree from Kostant--Michor, then develops torus formulas and representation-ring applications. The explicit-determination paper gives the weight sum in fundamental-weight/simple-coroot conventions. The Kumar series uses pullback to define the polynomial representation source and then applies the Borel homomorphism.
+
+\textbf{The durable computational bridge.} Write each weight as the column of its values on the simple coroots, with multiplicity $m_\mu$, and set
+\[
+M_\rho=\sum_\mu m_\mu\mu\mu^{\mathsf T},\qquad
+v_\rho(t)=\sum_\mu m_\mu\mu e^\mu(t).
+\]
+For $\theta_\rho(t)=\sum_i c_i(t)\alpha_i^\vee$,
+\begin{equation}\label{eq:weights}M_\rho c(t)=v_\rho(t).\end{equation}
+Infinitesimal faithfulness makes $M_\rho$ invertible. Thus one computes the map from characters without full representation matrices. Differentiation gives the torus differential; equivariance controls root directions, with extension across denominator loci requiring justification.
+
+\textbf{Our extension.} We use this same map to study fibers, critical images, and representation dependence, and separately to study integral sources and Borel images. These are two branches of one construction, not one theorem. Function-field degree does not determine a Smith form; a complex representation-ring surjection does not establish fiber smoothness.
+
+\textbf{Source corrections.} Two Chapter 3 passages require correction: a Jacobian notation error and an overstatement about Jordan decomposition. Appendix~\ref{sec:errata} gives exact checks. The historical dissertation is unchanged. This is not evidence that its downstream results all fail. The accessible preprint of \cite{Rogers}, rather than an inaccessible final journal PDF, was used for that paper's comparison.

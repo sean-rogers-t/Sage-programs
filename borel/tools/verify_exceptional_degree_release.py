@@ -29,6 +29,14 @@ def main():
     version=sage_borel.__version__
     regression=read('character-verification.json')
     docs=read('documentation-verification.json')
+    type_a_specialization=read('type-a-k-specialization-verification.json')
+    type_a_specialization_audit=read('type-a-k-specialization-audit.json')
+    for record in (type_a_specialization,type_a_specialization_audit):
+        for name,expected in record['source_sha256'].items():
+            assert digest(ROOT/name)==expected,name
+    assert type_a_specialization['fixed_point_checks']==68
+    assert type_a_specialization_audit['SL3_kernel_factors']==[3,3]
+    assert len(type_a_specialization['cases'])==5
     review_package=read('review/adjoint-generic-fibers/package-verification.json')
     review_manifest=json.loads((ROOT/'review/adjoint-generic-fibers/package-manifest.json').read_text())
     assert review_package['archived_bytes_checked']
@@ -65,6 +73,68 @@ def main():
     # last-case certificate, which supersedes their open completion flags.
     e8_complete=[read('e8-last-%d-verification.json'%p) for p in (32003,32009)]
     e8_complete_audit=read('e8-last-case-audit.json')
+    e8_transfer=read('e8-degree-transfer-audit.json')
+    critical_value_audit=read('critical-value-symmetry-audit.json')
+    critical_value_check=read('critical-value-symmetry-verification.json')
+    classical_poly=read('classical-polynomial-blocks-audit.json')
+    classical_poly_check=read('classical-polynomial-blocks-verification.json')
+    for record in (classical_poly,classical_poly_check):
+        for name,expected in record['source_sha256'].items():
+            assert digest(ROOT/name)==expected,name
+    assert len(classical_poly['block_companion_checks'])==8
+    assert len(classical_poly['four_block_constants'])==11
+    assert classical_poly['D5_double_zero_boundary']
+    assert len(classical_poly_check['root_checks'])==6
+    assert classical_poly_check['D5_boundary']['nilpotent_retained']
+    assert classical_poly_check['D5_boundary']['target_nilpotent']
+    assert len(classical_poly_check['full_block_ideal_checks'])==6
+    assert all(row['two_sided_ideal_equality'] for row in classical_poly_check['full_block_ideal_checks'])
+    assert len(classical_poly_check['full_residual_ideal_checks'])==5
+    assert all(row['full_ideal_equals_branch_intersection'] for row in classical_poly_check['full_residual_ideal_checks'])
+    for record in (critical_value_audit,critical_value_check):
+        assert record['E8_original_derived_hessian_determinant']==216
+        assert record['E8_original_central_schur_determinant']==-69120
+        assert record['E8_original_full_hessian_determinant']==-14929920
+        assert record['type_A_composition_completed_square_and_unit_elimination']
+        assert not record['literature_priority_claim']
+        for name,expected in record['source_sha256'].items():
+            assert digest(ROOT/name)==expected,name
+    assert critical_value_audit['E8_full_roots_rebuilt']==240
+    assert critical_value_audit['E8_last_generic_nonemptiness_witness']
+    assert critical_value_audit['type_A_composition_all_rank_nonconstant_restriction']
+    assert critical_value_audit['BCD_four_block_companion_identity']
+    direct_controls=critical_value_audit['BCD_direct_adjoint_matrix_controls']
+    assert [row['type'] for row in direct_controls]==['B4','C4','D4']
+    assert [row['adjoint_dimension'] for row in direct_controls]==[36,36,28]
+    assert [row['adjoint_character'] for row in direct_controls]==[-1,0,0]
+    assert [row['target_scalar'] for row in direct_controls]==['3/14','-3/20','1/4']
+    assert all(row['all_trace_projection_pairings_checked'] and
+               row['regular_semisimple_matrix_source'] for row in direct_controls)
+    assert critical_value_check['BCD_four_block_reciprocal_Newton_check']
+    for record in (critical_value_audit,critical_value_check):
+        assert record['BCD_four_block_constant_values']==['-q/(2*q-1)','0','0']
+    assert len(critical_value_audit['rational_support_vs_log_hessian'])==11
+    assert critical_value_audit['E6_contact_excess']==2
+    assert critical_value_audit['E6_composition_original_ideal_target_power_certificates']==list(range(2,7))
+    assert critical_value_check['E6_composed_target_squared_in_original_ideal']
+    assert critical_value_check['E6_composed_target_not_in_original_ideal']
+    assert critical_value_check['E6_shifted_adjoint_tensor_square_dimension']==6400
+    assert critical_value_check['type_A_composition_nonconstant_restriction']
+    assert len(critical_value_check['adjoint_zero_character_checks'])==20
+    for key,record in [('exceptional_involution_root_checks',critical_value_audit),
+                       ('exceptional_involution_character_checks',critical_value_check)]:
+        rows={row['type']:row for row in record[key]}
+        assert rows['E6']['hessian_rank_counts']=={'6':28,'1':36}
+        assert rows['E7']['hessian_rank_counts']=={'7':128}
+        assert rows['E8']['hessian_rank_counts']=={'8':256}
+    assert e8_transfer['original_generators_rebuilt']==38
+    assert e8_transfer['independent_original_input_matches_both_certificates']
+    assert e8_transfer['generic_linear_component_length']==3
+    assert len(e8_transfer['sextic_smooth_witnesses'])==3
+    assert all(row['full_jacobian_rank']==4 for row in e8_transfer['sextic_smooth_witnesses'])
+    assert not e8_transfer['finite_field_memberships_independently_replayed']
+    for key in ('source_sha256','raw_sha256'):
+        for name,expected in e8_transfer[key].items():assert digest(ROOT/name)==expected,name
     for record in e8_complete+[e8_complete_audit]:
         assert record['covered_proper_E8_standard_subsets']==255
         assert record['remaining_Weyl_classes']==0
@@ -2034,6 +2104,12 @@ def main():
         'cubic-root-coefficients-audit.json')]
     paths += [ROOT/name for name in ('ADJOINT_GENERIC_FIBER_THEOREM.md',
         'tools/audit_adjoint_theorem.py','adjoint-theorem-audit.json')]
+    paths += [ROOT/name for name in ('E8_DEGREE_TRANSFER_AUDIT.md',
+        'tools/audit_e8_degree_transfer.py','e8-degree-transfer-audit.json')]
+    paths += [ROOT/name for name in ('ADJOINT_NONEMPTINESS_CRITICAL_VALUES.md',
+        'CHARACTER_COMPOSITION_FIBERS.md','tools/audit_critical_value_symmetry.py',
+        'tools/verify_critical_value_symmetry.py','critical-value-symmetry-audit.json',
+        'critical-value-symmetry-verification.json')]
     paths += [ROOT/name for name in (
         'review/adjoint-generic-fibers/README.md',
         'review/adjoint-generic-fibers/CERTIFICATE_GUIDE.md',
@@ -2041,7 +2117,65 @@ def main():
         'review/adjoint-generic-fibers/package-manifest.json',
         'review/adjoint-generic-fibers/package-verification.json',
         'tools/build_adjoint_review_package.py')]
+    paths += [ROOT/name for name in ('CLASSICAL_POLYNOMIAL_ADJOINT_BLOCKS.md',
+        'tools/audit_classical_polynomial_blocks.py','tools/verify_classical_polynomial_blocks.py',
+        'classical-polynomial-blocks-audit.json','classical-polynomial-blocks-verification.json')]
+    paths += [ROOT/name for name in ('TYPE_A_K_SPECIALIZATION.md',
+        'experiments/type_a_k_specialization.py','tools/audit_type_a_k_specialization.py',
+        'tools/verify_type_a_k_specialization.py','type-a-k-specialization-audit.json',
+        'type-a-k-specialization-verification.json')]
+    paths += [ROOT/('experiments/type-a-k-specialization-%d.json'%n) for n in range(2,7)]
     report=dict(result='passed',version=version,
+        type_a_projective_K_specialization=dict(
+            all_rank_written_classification=True,faithful_exactly_m_equals_2=True,
+            defect_prime_support_for_m_ge_3='prime divisors of m',
+            complete_finite_presentations=list(range(2,7)),
+            independent_native_identities=True,external_review=False,
+            literature_priority_claim=False,note='TYPE_A_K_SPECIALIZATION.md'),
+        classical_polynomial_adjoint_blocks=dict(
+            all_rank_written_classification=True,
+            constant_dominant_components_classified=True,
+            generic_transverse_excess=0,
+            independent_root_checks=6,
+            full_block_ideal_equalities=6,
+            full_residual_ideal_decompositions=5,
+            component_exhaustion_audited=True,
+            nonreduced_D5_boundary_retained=True,
+            external_review=False,literature_priority_claim=False,
+            note='CLASSICAL_POLYNOMIAL_ADJOINT_BLOCKS.md'),
+        critical_value_nonemptiness=dict(
+            written_clean_component_linear_image_theorem=True,
+            exact_torus_lemma_proof_routes=2,
+            generic_nonemptiness_stabilizer_criterion=True,
+            full_root_data_classification_complete=False,
+            simply_laced_A1_Levi_all_rank_corollary=True,
+            E7_E8_A1_factors_Morse_corollary=True,
+            E8_A1_four_nonempty_pure_dimension=8,
+            E8_last_nonempty_pure_dimension=12,
+            independent_original_E8_character_Hessian_checks=True,
+            semisimple_all_Levi_adjoint_extension=True,
+            general_proof_mechanically_verified=False,
+            note='ADJOINT_NONEMPTINESS_CRITICAL_VALUES.md'),
+        polynomial_character_fibers=dict(
+            written_generic_smoothness_closure_theorem=True,
+            componentwise_nonemptiness_survival_rule=True,
+            type_A_all_rank_nonemptiness_and_dimensions_preserved=True,
+            BCD_four_block_all_rank_constant_values_and_survival=True,
+            BCD_direct_adjoint_trace_projection_checks=True,
+            CD_four_block_pure_adjoint_tensor_erasure=True,
+            E6_shifted_adjoint_contact_stratum_erased=True,
+            E6_erasure_original_ideal_certificate=True,
+            nonconstant_bad_component_persists=True,
+            arbitrary_representation_extension=False,
+            zero_target_extension=False,
+            new_generic_map_degree=False,
+            literature_priority_claim=False,
+            note='CHARACTER_COMPOSITION_FIBERS.md'),
+        E8_focused_degree_transfer_audit=dict(original_generators=38,
+            infinity_generic_multiplicities=[3,1,1,1],
+            independent_finite_field_membership_engine=False,
+            written_central_isogeny_corollary=True,
+            note='E8_DEGREE_TRANSFER_AUDIT.md'),
         adjoint_review_package=dict(proof_commit=review_package['proof_commit'],
             input_files=review_package['input_files'],
             archived_bytes_checked=True, extracted_full_replay_passed=True,
@@ -2052,6 +2186,8 @@ def main():
             external_peer_review=False,heavy_historical_memberships_rerun=False,
             note='ADJOINT_GENERIC_FIBER_THEOREM.md'),
         active_research_target=dict(uniform_simple_adjoint_conjecture=False,
+            structural_nonemptiness_and_excess=True,
+            polynomial_adjoint_representation_extensions=True,
             automatic_Levi_case_completion_paused=False,
             general_proof_complete=True,proof_method='classical and exceptional cases',
             uniform_root_theoretic_proof_complete=False,exceptional_case_completion_resumed=True,

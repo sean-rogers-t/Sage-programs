@@ -1,0 +1,153 @@
+{
+  "result": "passed",
+  "date": "2026-10-27",
+  "method": "Full ambient root characters and exact cyclotomic arithmetic; independent Singular ideal membership",
+  "root_checks": [
+    {
+      "case": "B3 singleton residual B2",
+      "rank": 3,
+      "adjoint_dimension": 21,
+      "chi": "0",
+      "theta": [
+        "3/10*zeta12^2 - 3/20",
+        "0",
+        "0"
+      ],
+      "all_root_regularities_checked": true,
+      "direct_tensor_convolution": true
+    },
+    {
+      "case": "D4 singleton residual D3",
+      "rank": 4,
+      "adjoint_dimension": 28,
+      "chi": "0",
+      "theta": [
+        "5/12*zeta12^3",
+        "0",
+        "0",
+        "0"
+      ],
+      "all_root_regularities_checked": true,
+      "direct_tensor_convolution": true
+    },
+    {
+      "case": "B2 singleton residual B1",
+      "rank": 2,
+      "adjoint_dimension": 10,
+      "chi": "1",
+      "theta": [
+        "7/6*zeta12^2 - 7/12",
+        "0"
+      ],
+      "all_root_regularities_checked": true,
+      "direct_tensor_convolution": true
+    },
+    {
+      "case": "C2 two-block constant branch",
+      "rank": 2,
+      "adjoint_dimension": 10,
+      "chi": "1",
+      "theta": [
+        "-3/16*zeta12^2 + 9/16",
+        "-3/16*zeta12^2 + 9/16"
+      ],
+      "all_root_regularities_checked": true,
+      "direct_tensor_convolution": true
+    },
+    {
+      "case": "C5 four-block residual C1",
+      "rank": 5,
+      "adjoint_dimension": 55,
+      "chi": "-1",
+      "theta": [
+        "5/32",
+        "5/32",
+        "5/32",
+        "5/32",
+        "0"
+      ],
+      "all_root_regularities_checked": true,
+      "direct_tensor_convolution": false
+    },
+    {
+      "case": "D6 four-block residual D2",
+      "rank": 6,
+      "adjoint_dimension": 66,
+      "chi": "-2",
+      "theta": [
+        "-3/16",
+        "-3/16",
+        "-3/16",
+        "-3/16",
+        "0",
+        "0"
+      ],
+      "all_root_regularities_checked": true,
+      "direct_tensor_convolution": false
+    }
+  ],
+  "D5_boundary": {
+    "nilpotent_retained": true,
+    "target_nilpotent": true,
+    "constant_value": -3
+  },
+  "full_block_ideal_checks": [
+    {
+      "size": 2,
+      "epsilon": -1,
+      "two_sided_ideal_equality": true
+    },
+    {
+      "size": 2,
+      "epsilon": 1,
+      "two_sided_ideal_equality": true
+    },
+    {
+      "size": 3,
+      "epsilon": -1,
+      "two_sided_ideal_equality": true
+    },
+    {
+      "size": 3,
+      "epsilon": 1,
+      "two_sided_ideal_equality": true
+    },
+    {
+      "size": 4,
+      "epsilon": -1,
+      "two_sided_ideal_equality": true
+    },
+    {
+      "size": 4,
+      "epsilon": 1,
+      "two_sided_ideal_equality": true
+    }
+  ],
+  "full_residual_ideal_checks": [
+    {
+      "type": "B1",
+      "full_ideal_equals_branch_intersection": true
+    },
+    {
+      "type": "B2",
+      "full_ideal_equals_branch_intersection": true
+    },
+    {
+      "type": "C1",
+      "full_ideal_equals_branch_intersection": true
+    },
+    {
+      "type": "D2",
+      "full_ideal_equals_branch_intersection": true
+    },
+    {
+      "type": "D3",
+      "full_ideal_equals_branch_intersection": true
+    }
+  ],
+  "scope": "Finite independent checks of decisive new branches and boundary; general classification requires the written proof",
+  "source_sha256": {
+    "CLASSICAL_POLYNOMIAL_ADJOINT_BLOCKS.md": "5a0c754a835501da8c95db8cc716eaf966bfca9b278756d5a018d64eb03f7ace",
+    "tools/verify_classical_polynomial_blocks.py": "cd46daed4fa9f158639db7ba1c9cff08a636395574f75012192a1418d663051c"
+  }
+}

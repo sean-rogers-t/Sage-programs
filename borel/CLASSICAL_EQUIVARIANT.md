@@ -89,6 +89,14 @@ kernel. The known SL4 cohomological specialization defect remains
 in [the pilot](EQUIVARIANT_IMAGE_PILOT.md). Evaluating its generators
 is different from classifying that module.
 
+The subsequent [specialization theorem](TYPE_A_K_SPECIALIZATION.md)
+settles faithful specialization for defining SL_m/P1 in every rank:
+it holds exactly for m=2; otherwise the defect has precisely the primes
+dividing m. Research scripts certify complete image modules through m=6,
+but no public module-presentation API has been added. The verification also
+records a pre-existing Sage 9.5 one-variable Laurent coercion error in the
+SL2 K restriction path; the direct SL2 mathematical presentation is valid.
+
 ## 3. Why the restriction calculation works
 
 The minimal right cosets are permutations increasing inside each Levi

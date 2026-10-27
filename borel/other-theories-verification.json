@@ -6,7 +6,7 @@
   "source_bindings_checked": 24,
   "symbolic_all_parameter_SL3_integral_block_reductions": true,
   "constant_loop_flag_descent_counterexample_verified": true,
-  "ledger_entries": 213,
+  "ledger_entries": 220,
   "open_questions": 22,
   "scope": "Report consistency, normalized source/raw hashes and exact symbolic SL3 integral reductions; not an external proof review, priority certificate or new runtime release.",
   "source_sha256": {
@@ -47,6 +47,6 @@
     "OTHER_THEORIES_QUANTUM.md": "97c5dad8add109648feb25bcd0fb35efc6d5eaa52d9b49dc52f7f30fadd70712",
     "OTHER_THEORIES_SL3.md": "e9fc1b6a3092532b08513193c6d6e87ea338948ae42de3031296438f822f6c99",
     "OTHER_THEORIES_TYPE_A.md": "54269c7e04730b556364b0beff633aae7b2a39620983875969b11c38ad3280e3",
-    "tools/verify_other_theories.py": "d7dfb004f929ef47fb454e375fd3368f882d35c8cc7ab613b986b944e9c24cdf"
+    "tools/verify_other_theories.py": "d312097665f966d709d9b2ee50fb5979f0dc89cdb51d564208729d4afb1558b8"
   }
 }

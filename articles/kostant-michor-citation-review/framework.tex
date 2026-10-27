@@ -1,0 +1,35 @@
+\section{Four meanings of Cayley map}
+Let $G$ be a connected complex semisimple group, $T\subset G$ a maximal torus, and $W$ its Weyl group. Let $\rho:G\to\mathrm{GL}(V)$ have injective differential. Put
+\[
+B_\rho(X,Y)=\tr(\dd\rho(X)\dd\rho(Y)).
+\]
+The normalized Springer--Cayley morphism is characterized by
+\begin{equation}\label{eq:theta}
+B_\rho(\theta_\rho(g),X)=\tr(\rho(g)\dd\rho(X)).
+\end{equation}
+It is regular and conjugation-equivariant, with $\theta_\rho(e)=0$ and $\dd\theta_{\rho,e}=1$. For simple $G$, fix an invariant form $B$ and write $B_\rho=I_\rho B$. This scalar must be retained when comparing representations. For the adjoint map take $B$ to be the Killing form, so $I_{\Ad}=1$.
+\begin{description}[style=nextline]
+\item[Trace projection.] Equation \eqref{eq:theta}, defined everywhere and generally of degree greater than one.
+\item[Classical matrix transform.] On suitable matrix groups,
+\[
+C(g)=(g-I)(g+I)^{-1},\qquad C^{-1}(X)=(I+X)(I-X)^{-1}.
+\]
+These are rational inverses on specified opens. Applicability depends on the representation.
+\item[Equivariant rational Cayley map.] An arbitrary dominant $G$-equivariant rational map $G\dashrightarrow\g$. Its smallest possible degree is $\operatorname{Cay}(G)$. It need not come from a character or be regular everywhere.
+\item[Local coordinate map.] An analytic or formal map $\g\to G$ with invertible differential. The exponential and a local inverse to \eqref{eq:theta} are examples. A formal inverse does not imply a rational inverse.
+\end{description}
+An element $g$ is regular when $\dim Z_G(g)=\operatorname{rank}G$. The analogous condition defines regular elements of $\g$. A regular morphism need not preserve regular elements.
+
+For a parabolic $P$ with Levi $L$, the Kumar construction is
+\begin{equation}\label{eq:borel}
+\underbrace{\operatorname{Rep}^{\C}_{\rho\text{-poly}}(L)}_{\theta_{\rho,T}^*\C[\tfr]^{W_L}}
+\xrightarrow{(\theta_{\rho,T}^*)^{-1}}\C[\tfr]^{W_L}
+\xrightarrow{\beta^P}H^*(G/P,\C).
+\end{equation}
+The first arrow is the inverse of an injective algebra map \emph{on its image}, not a geometric inverse to $\theta_{\rho,T}$. Integral versions require a specified lattice and normalization before applying $\beta^P$. Smooth group fibers do not determine Smith factors of a Borel image.
+
+\subsection{The Kostant--Michor baseline}
+\source{\cite{KM}, §§2--5, especially Theorem 3.2, Corollary 3.3, and §§4.11--4.13}
+Kostant--Michor develop trace projection, its differential, quotient degree, orbit behavior, and harmonic separation. For the harmonic space $\mathcal H$ on $\g$ and $\Psi=\det\dd\theta$, their construction gives separation using $\theta^*\mathcal H$ after Jacobian localization. The corresponding global multiplication isomorphism is tied to preservation of regular elements. They establish the standard $\mathrm{SL}_n$ case. Their treatment of hyperbolic elements includes the real exponential estimate later improved by Borwein--Girgensohn.
+
+Our extension questions concern smaller opens supporting this \emph{fixed pulled-back} harmonic space, and actual regular fibers over prescribed nonregular target strata. Existence of some harmonic complement does not settle either question. Conversely, generic smoothness over a Levi center does not give global regularity preservation or global harmonic multiplication.

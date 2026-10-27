@@ -1,0 +1,127 @@
+{
+  "result": "passed",
+  "fixed_point_checks": 68,
+  "schubert_expansions": 14,
+  "API_rank_range": [
+    3,
+    6
+  ],
+  "SL2_API_limitation": "Existing Sage 9.5 univariate Laurent coercion; SL2 checked by direct presentation, API unchanged.",
+  "cases": [
+    {
+      "n": 2,
+      "kernel_factors": [],
+      "local_checks": [
+        {
+          "p": 2,
+          "minimal_local_generators": 2,
+          "generic_rank": 2
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "kernel_factors": [
+        3,
+        3
+      ],
+      "local_checks": [
+        {
+          "p": 3,
+          "minimal_local_generators": 5,
+          "generic_rank": 3
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "kernel_factors": [
+        2,
+        4,
+        4
+      ],
+      "local_checks": [
+        {
+          "p": 2,
+          "minimal_local_generators": 7,
+          "generic_rank": 4
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "kernel_factors": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "local_checks": [
+        {
+          "p": 5,
+          "minimal_local_generators": 25,
+          "generic_rank": 5
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "kernel_factors": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "local_checks": [
+        {
+          "p": 2,
+          "minimal_local_generators": 12,
+          "generic_rank": 6
+        },
+        {
+          "p": 3,
+          "minimal_local_generators": 22,
+          "generic_rank": 6
+        }
+      ]
+    }
+  ],
+  "scope": "Independent character/Schubert inputs and exact certificate checks; syzygy completeness relies on the recorded strong integral standard-basis calculation.",
+  "source_sha256": {
+    "TYPE_A_K_SPECIALIZATION.md": "9f0f30c6ba880c27392663b43346a145e04eac050ea225d3223c523a2546febc",
+    "tools/verify_type_a_k_specialization.py": "2661eb34a945b44db460d2f8de3cb9bc8de280eb452b66e8cd26721ae97ecaeb",
+    "experiments/type-a-k-specialization-2.json": "83bded3d296ac9f9e358650eab7b1f54b94f97f0401e8b36c32ae4ce7b64674a",
+    "experiments/type-a-k-specialization-3.json": "fcf5658a65178a8dd43f8f03c62a937690ea295e623de7ca1686e046784ef6ff",
+    "experiments/type-a-k-specialization-4.json": "3c607907e9b39b7c132e1878339a43e69d06ac45328749684db15dd69d5aeb64",
+    "experiments/type-a-k-specialization-5.json": "9b37686bda798d9e4bc1d133f5bac1535acbac1ba9339fbc12141ac23ab572d7",
+    "experiments/type-a-k-specialization-6.json": "eb0a0556daa7a7f44439cac96fabebac4e9f005152a1911b60eefad67a0096fd"
+  }
+}

@@ -1,0 +1,321 @@
+{
+  "result": "passed",
+  "rational_support_vs_log_hessian": [
+    {
+      "function": "w + z",
+      "variables": [
+        "z",
+        "w"
+      ],
+      "rank": 2
+    },
+    {
+      "function": "w/z + z/w",
+      "variables": [
+        "z",
+        "w"
+      ],
+      "rank": 1
+    },
+    {
+      "function": "(w + z)/(-w + z)",
+      "variables": [
+        "z",
+        "w"
+      ],
+      "rank": 1
+    },
+    {
+      "function": "1/(w + z)",
+      "variables": [
+        "z",
+        "w"
+      ],
+      "rank": 2
+    },
+    {
+      "function": "(w + z + 1)/(w*z)",
+      "variables": [
+        "z",
+        "w"
+      ],
+      "rank": 2
+    },
+    {
+      "function": "(-w**2 + z**2)/(-w + z)",
+      "variables": [
+        "z",
+        "w"
+      ],
+      "rank": 2
+    },
+    {
+      "function": "1",
+      "variables": [
+        "z",
+        "w"
+      ],
+      "rank": 0
+    },
+    {
+      "function": "v + z/w",
+      "variables": [
+        "z",
+        "w",
+        "v"
+      ],
+      "rank": 2
+    },
+    {
+      "function": "v + (w + z)/(-w + z)",
+      "variables": [
+        "z",
+        "w",
+        "v"
+      ],
+      "rank": 2
+    },
+    {
+      "function": "(v + w + z)/(v*w*z + 1)",
+      "variables": [
+        "z",
+        "w",
+        "v"
+      ],
+      "rank": 3
+    },
+    {
+      "function": "w + z + 1/z - 1/w",
+      "variables": [
+        "z",
+        "w"
+      ],
+      "rank": 2
+    }
+  ],
+  "nonlinear_constraint_conormal_inverse": true,
+  "rank_drop_component_retained": true,
+  "E6_contact_excess": 2,
+  "SL4_nonclean_point_control": true,
+  "componentwise_stabilizer_control": true,
+  "algebraic_critical_value_equation": "t^2-4*(z+w-1)^3/9",
+  "E6_composition_original_ideal_target_power_certificates": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "SL3_nonconstant_critical_value_composition_control": true,
+  "type_A_composition_completed_square_and_unit_elimination": true,
+  "type_A_composition_all_rank_nonconstant_restriction": true,
+  "BCD_four_block_companion_identity": true,
+  "BCD_four_block_constant_values": [
+    "-q/(2*q-1)",
+    "0",
+    "0"
+  ],
+  "BCD_direct_adjoint_matrix_controls": [
+    {
+      "type": "B4",
+      "adjoint_dimension": 36,
+      "adjoint_character": -1,
+      "target_scalar": "3/14",
+      "all_trace_projection_pairings_checked": true,
+      "regular_semisimple_matrix_source": true
+    },
+    {
+      "type": "C4",
+      "adjoint_dimension": 36,
+      "adjoint_character": 0,
+      "target_scalar": "-3/20",
+      "all_trace_projection_pairings_checked": true,
+      "regular_semisimple_matrix_source": true
+    },
+    {
+      "type": "D4",
+      "adjoint_dimension": 28,
+      "adjoint_character": 0,
+      "target_scalar": "1/4",
+      "all_trace_projection_pairings_checked": true,
+      "regular_semisimple_matrix_source": true
+    }
+  ],
+  "type_A_involution_hessian_checks": [
+    {
+      "N": 2,
+      "sign_multiplicities_checked": 3
+    },
+    {
+      "N": 3,
+      "sign_multiplicities_checked": 4
+    },
+    {
+      "N": 4,
+      "sign_multiplicities_checked": 5
+    },
+    {
+      "N": 5,
+      "sign_multiplicities_checked": 6
+    },
+    {
+      "N": 6,
+      "sign_multiplicities_checked": 7
+    },
+    {
+      "N": 7,
+      "sign_multiplicities_checked": 8
+    },
+    {
+      "N": 8,
+      "sign_multiplicities_checked": 9
+    },
+    {
+      "N": 9,
+      "sign_multiplicities_checked": 10
+    },
+    {
+      "N": 10,
+      "sign_multiplicities_checked": 11
+    },
+    {
+      "N": 11,
+      "sign_multiplicities_checked": 12
+    },
+    {
+      "N": 12,
+      "sign_multiplicities_checked": 13
+    }
+  ],
+  "exceptional_involution_root_checks": [
+    {
+      "type": "E6",
+      "characters_checked": 64,
+      "hessian_rank_counts": {
+        "6": 28,
+        "1": 36
+      },
+      "centralizer_root_counts": {
+        "72": 1,
+        "40": 27,
+        "32": 36
+      }
+    },
+    {
+      "type": "E7",
+      "characters_checked": 128,
+      "hessian_rank_counts": {
+        "7": 128
+      },
+      "centralizer_root_counts": {
+        "126": 1,
+        "72": 28,
+        "62": 63,
+        "56": 36
+      }
+    },
+    {
+      "type": "E8",
+      "characters_checked": 256,
+      "hessian_rank_counts": {
+        "8": 256
+      },
+      "centralizer_root_counts": {
+        "240": 1,
+        "128": 120,
+        "112": 135
+      }
+    }
+  ],
+  "simply_laced_root_checks": [
+    {
+      "type": "A2",
+      "roots": 6,
+      "simple_roots_checked": 2
+    },
+    {
+      "type": "A3",
+      "roots": 12,
+      "simple_roots_checked": 3
+    },
+    {
+      "type": "A4",
+      "roots": 20,
+      "simple_roots_checked": 4
+    },
+    {
+      "type": "A5",
+      "roots": 30,
+      "simple_roots_checked": 5
+    },
+    {
+      "type": "A6",
+      "roots": 42,
+      "simple_roots_checked": 6
+    },
+    {
+      "type": "A7",
+      "roots": 56,
+      "simple_roots_checked": 7
+    },
+    {
+      "type": "A8",
+      "roots": 72,
+      "simple_roots_checked": 8
+    },
+    {
+      "type": "D4",
+      "roots": 24,
+      "simple_roots_checked": 4
+    },
+    {
+      "type": "D5",
+      "roots": 40,
+      "simple_roots_checked": 5
+    },
+    {
+      "type": "D6",
+      "roots": 60,
+      "simple_roots_checked": 6
+    },
+    {
+      "type": "D7",
+      "roots": 84,
+      "simple_roots_checked": 7
+    },
+    {
+      "type": "D8",
+      "roots": 112,
+      "simple_roots_checked": 8
+    },
+    {
+      "type": "E6",
+      "roots": 72,
+      "simple_roots_checked": 6
+    },
+    {
+      "type": "E7",
+      "roots": 126,
+      "simple_roots_checked": 7
+    },
+    {
+      "type": "E8",
+      "roots": 240,
+      "simple_roots_checked": 8
+    }
+  ],
+  "E8_full_roots_rebuilt": 240,
+  "E8_original_derived_hessian_determinant": 216,
+  "E8_original_central_schur_determinant": -69120,
+  "E8_original_full_hessian_determinant": -14929920,
+  "E8_residual_central_schur_determinant": -7680,
+  "E8_last_generic_nonemptiness_witness": true,
+  "scope": "Independent exact controls and full-root character witness; the general stabilizer criterion is a written proof, not mechanically verified.",
+  "literature_priority_claim": false,
+  "source_sha256": {
+    "tools/audit_critical_value_symmetry.py": "598476471b8e86831e1f8af8496ed11c0298d0343808571bddf6a85da4594b65",
+    "ADJOINT_NONEMPTINESS_CRITICAL_VALUES.md": "ad9d5d9fdaee38339273967484734fdbec4bb06009977e786ed4437bc53fa2ba",
+    "CHARACTER_COMPOSITION_FIBERS.md": "9e06fe846995bff67965c84ebbec6d5aff87dfa5fe1b56da91237b5d1f8412cd",
+    "e8-final-character-models.json": "f8cf9051731b8e8ae7d77f0e0f2fd17f5c16c4f4fa6e917b1a84a69ab0e73ade"
+  }
+}

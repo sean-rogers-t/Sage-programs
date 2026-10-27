@@ -3,7 +3,16 @@
 The user's priority is generalizable mathematics: uniform formulas,
 structural explanations, exact hypotheses and counterexamples.
 
-## Active user direction, 26 October 2026
+## Active user direction, 27 October 2026
+
+The user has shelved the Cayley-fiber work and returned to Springer--Borel
+images, explicitly selecting equivariant/K-theory specialization. Implement
+the all-rank defining type A projective specialization program, with the
+symplectic projective positive control and the SL4 cohomological negative
+control. Aim for structural theorems, not further case censuses. No PDF,
+new public API, or automatic commit/push is requested in this phase.
+
+## Historical user direction, 26 October 2026
 
 The user has now explicitly resumed case-by-case completion: "Let's finish
 the proof by cases that's fine." Complete the remaining exceptional adjoint

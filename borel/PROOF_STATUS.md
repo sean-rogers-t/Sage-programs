@@ -1,6 +1,142 @@
 # Proof and literature status of the Springer and Borel program
 
-## Current direction: exceptional case completion resumed
+## Active: equivariant Springer K-image specialization
+
+27 October, IMG-37: [the all-rank type A projective theorem](TYPE_A_K_SPECIALIZATION.md)
+classifies faithful specialization for the full literal defining SL_m/P1
+source. It is faithful exactly for m=2. For m>=3 the kernel is finite,
+has nonzero p-primary part exactly for primes dividing m, and is killed
+by m^(m-1). The proof recovers the generic characteristic-p ambient image
+from f_2 or f_2,f_4, then applies a local-freeness/determinant obstruction.
+It does not extrapolate from finite Smith tables. The homological and
+determinant tools are standard; this is their repository application.
+
+Complete integral image-module closure and syzygies give kernels for
+m=2,...,6, including (Z/3)^2 for SL3 and Z/2 plus (Z/4)^2 for SL4.
+Independent SymPy SL3 multiplication relations and modular identities,
+Sage character/Schubert checks, and a second integral standard-basis order
+corroborate the proof. The Sp faithful-specialization and SL4 cohomological
+failure controls are retained. No external review or priority claim.
+The existing SL2 Sage 9.5 Laurent-coercion API limitation is recorded;
+the direct mathematical SL2 presentation passes. No runtime API changed.
+
+Remaining: arbitrary-rank exponents/multiplicities and compact local
+presentations, other parabolics and representations. The Cayley-fiber
+classification below is shelved at the user's request, not reopened.
+
+## Classical polynomial-adjoint classification completed
+
+27 October, GEO-97: [the block theorem](CLASSICAL_POLYNOMIAL_ADJOINT_BLOCKS.md)
+extends the already completed GEO-49 adjoint classification to every actual
+character f(chi_Ad) with nondegenerate trace form. A uniform A*T=B reduction
+classifies constant dominant components, including the singular A=B=0
+charts. Nonempty generic actual regular fibers have zero transverse excess
+and dimension dim K-rank G. All permitted patterns have a surviving
+nonconstant component except all-four-block families and B3/GL1 SO5,
+D4/GL1 SO6; their explicit constant values give the exact f' test.
+
+The singular two-block denominator strata and residual collisions are
+excluded by image-dimension arguments, not deleted. A D5/GL2 SO6 double-zero
+branch retains nilpotents but has zero central image. Separate native
+companion/Newton and Sage full-root/ideal checks pass. The all-rank geometry
+is a written proof, not mechanically verified or externally reviewed.
+Published inputs are the trace/character identities; GEO-49, GEO-93 and
+GEO-95 are earlier repository theorem inputs. No priority claim is made.
+
+Correction to the recent report/roadmap: ordinary classical ADJOINT
+nonemptiness and dimension were already complete at GEO-49. The unfinished
+extension was polynomial-adjoint representation dependence, now addressed
+by GEO-97. Arbitrary irreducibles, exceptional constant components, special
+targets and orbit counts remain separate. The focused internal
+[component-exhaustion audit](CLASSICAL_POLYNOMIAL_ADJOINT_BLOCKS.md#8-focused-component-exhaustion-audit)
+now verifies the actual hypersurface presentation, all residual branch
+intersections, finite-cover transfer and regular group lifts. Six two-sided
+block-ideal equalities and five full residual-ideal decompositions pass;
+the theorem's table is unchanged. Quotient covers are not assumed etale,
+and the D5 central coordinate remains nonzero nilpotent, despite having
+reduced image zero. Next: review the GEO-49/93/95 dependency chain,
+especially the general dominance and composition arguments.
+
+## Current direction: structural nonemptiness and excess
+
+**Three-hour continuation, 27 October (GEO-93--96):** the
+[critical-value theorem](ADJOINT_NONEMPTINESS_CRITICAL_VALUES.md) proves
+that every generically actual-smooth critical component has a rational
+linear central image closure, equal to the annihilator of the connected
+horizontal stabilizer of its critical-value variety. Combined with the
+completed adjoint theorem, this is an exact generic-nonemptiness criterion
+and gives excess as dim Y_i-dim Z(K)^0. Two proof routes audit the exact
+torus lemma. It reduces the problem to component geometry and symmetries;
+a complete root-theoretic classification remains open. It does not remove
+nonreduced components or reprove the earlier smoothness theorem.
+
+Root-derived corollaries include nonempty pure two-dimensional generic
+regular fibers for every simply laced A1 Levi, a uniform Morse witness
+for all A1^k Levis in E7/E8, and nonempty pure dimensions eight and twelve
+for the previously smooth-or-empty E8 A1^4 and A2+A1^3 families. The last
+witness is checked in the full 240-root character over characteristic zero,
+with independent native and Sage calculations. No new map degree follows.
+
+The [character-composition theorem](CHARACTER_COMPOSITION_FIBERS.md)
+extends proper-Levi generic smoothness to every actual polynomial in the
+adjoint character with nondegenerate trace form. A dominating component
+survives exactly unless its constant character value is a zero of f'.
+All-rank type A nonemptiness and dimensions survive these operations.
+In contrast, (Ad_E6 plus two trivial summands) tensor-powered at least
+twice has empty nonzero contact-stratum regular fibers, while pure
+adjoint tensor powers retain the known excess two. The original-ideal
+certificate retains nilpotents. The published chain rule is an input;
+these fiber consequences are written deductions, without a priority claim.
+An explicit integrated product of linear factors gives a character with
+nonnegative integer coefficients whose derivative vanishes at any chosen
+finite set of nonpositive rational values. Hence the survival rule can
+be realized by actual representation operations, not only formal scalars.
+
+GEO-96 gives a direct all-q matrix check of the representation effect:
+for the GL4^q Levi in B_(4q), C_(4q), D_(4q), the adjoint character is
+constant on every actual regular fiber over the exact central stratum,
+with values -q/(2q-1), 0, 0 respectively. The cyclic quartic equation
+proves this without distinct-eigenvalue assumptions. The adjoint generic
+fibers have dimension 12q. Pure adjoint tensor powers of order at least
+two erase this stratum in C and D; an explicitly positive shifted
+adjoint tensor construction does so in B. If f' at the stated constant
+is nonzero, the whole regular fiber is the old fiber with a constant
+target rescaling. This is an unbounded-rank family, not a complete B/C/D
+classification for polynomial characters.
+
+A separate zero-target argument extends the adjoint smoothness theorem
+to every connected complex semisimple G and every Levi, including full
+simple factors. For a simple full factor the regular zero fiber is smooth
+and is nonempty exactly in type A. This closes the zero-target caveat in
+GEO-92. It does not give the same zero-target assertion for character
+polynomial compositions, which can introduce nonreduced character levels.
+
+The [native audit](critical-value-symmetry-audit.json) and
+[Sage verification](critical-value-symmetry-verification.json) check the
+decisive identities and scheme controls using separate implementations.
+The general proofs were audited mathematically, not mechanically verified
+or externally peer reviewed. The next structural task is to determine
+critical-value stabilizers and constant values from the adjoint root
+decomposition; this would classify nonemptiness and representation changes
+without returning to a table of individually solved target fibers.
+
+## Earlier checkpoints and their stated scope
+
+**Fresh focused audit (GEO-92, 27 October):**
+[the E8 degree and group-transfer audit](E8_DEGREE_TRANSFER_AUDIT.md)
+found no fatal gap in those two arguments. A separate rational implementation
+rebuilds all 38 original generators, proves exact generic length three at
+the linear infinity component, and finds rank-four smooth points on all
+three sextics. The trace-model bad locus must be pulled back to the original
+torus before taking its central target image. The finite-prime memberships
+still depend on one pinned F4 engine; they were not independently reimplemented
+in this audit. A formal central-isogeny corollary extends the completed
+theorem to all connected complex groups with simple Lie algebra. This is
+not a new nonemptiness, map-degree or uniform root-theoretic theorem.
+That checkpoint recommended equivariant image specialization as one option.
+The user instead selected the Cayley nonemptiness/excess direction above.
+Explicit multiplier certificates remain an optional bounded verification
+task. The pinned review package is unchanged.
 
 27 October: the [independent-review package](review/adjoint-generic-fibers/README.md)
 now separates the consolidated theorem, final E8 proof, exact data and

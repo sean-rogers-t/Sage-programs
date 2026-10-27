@@ -146,8 +146,9 @@ two adjacent minor ideals. Each half-block ideal has the initial-column
 Schur generators proved in the companion note.
 
 This is a general structural formula. It does not identify the
-specialized ideals' primary decompositions or give closed numerical
-Smith multiplicities in all ordinary ranks. Generic Hankel primary
+specialized ideals' primary decompositions. Closed numerical Smith
+multiplicities in all ordinary ranks were subsequently proved in IMG-31,
+as linked below. Generic Hankel primary
 decompositions need not survive the moment substitution as primary
 decompositions; intersections and primary components do not generally
 commute with arbitrary base change.
@@ -252,7 +253,7 @@ arbitrary-rank quantifier.
 What is resolved: the balanced-product formula in every rank, the
 quartic integral containment, and explicit rank-eight/nine ideal lists.
 What remains: arithmetic primary structure after the moment substitution,
-minimal or simpler generators of larger half-block ideals, and closed
-ordinary Smith multiplicities. Larger isotropic flags and B/D quadric
+minimal or simpler generators of larger half-block ideals. Closed
+ordinary Smith multiplicities are complete in IMG-31. Larger isotropic flags and B/D quadric
 targets remain separate work. The new API optimization follows (4);
 large expansions in individual spectral variables may still be costly.

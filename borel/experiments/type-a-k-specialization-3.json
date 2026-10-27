@@ -1,0 +1,85 @@
+{
+  "result": "passed",
+  "n": 3,
+  "order": "dp",
+  "closure_rounds": 2,
+  "image_generators": 6,
+  "relations": 3,
+  "specialization_kernel_factors": [
+    3,
+    3
+  ],
+  "ordinary_smith": [
+    1,
+    3,
+    3
+  ],
+  "full_module_closure": true,
+  "presentation": [
+    [
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "3",
+      "0",
+      "c1",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "9",
+      "3",
+      "3*c1",
+      "c1^2"
+    ]
+  ],
+  "syzygies": [
+    [
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "c1",
+      "0",
+      "0"
+    ],
+    [
+      "1",
+      "c1",
+      "0"
+    ],
+    [
+      "-3",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "-3",
+      "c1"
+    ],
+    [
+      "0",
+      "0",
+      "-3"
+    ]
+  ],
+  "source_sha256": {
+    "experiments/type_a_k_specialization.py": "7d415062038eb7c0067bc2a10b338d0c086936c0d447b2c55d301216f8ccfbc4"
+  },
+  "alternate_order_check": {
+    "order": "Dp",
+    "image_generators": 6,
+    "relations": 3,
+    "same_kernel_and_ordinary_factors": true
+  }
+}
