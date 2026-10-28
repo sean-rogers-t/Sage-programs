@@ -1,28 +1,67 @@
 # Springer and Borel research ledger
 
-Updated 2026-10-27. The research priority is **generalizable statements**:
+Updated 2026-10-28. The research priority is **generalizable statements**:
 uniform formulas, structural explanations, sharp hypotheses and counterexamples.
 Individual group calculations serve as tests of those statements and remain
 valuable exact results with their own stated scope.
 
-Active direction, 27 October: equivariant/K-theory Springer-image
-specialization; the Cayley-fiber work is shelved. IMG-37 proves that the
-full literal defining SL_m/P1 K-image specializes faithfully exactly for
-m=2. For m>=3 the finite defect has precisely the primes dividing m.
-The [proof](TYPE_A_K_SPECIALIZATION.md) uses a general local-freeness
-criterion and determinant obstruction, with complete integral finite
-presentations for m=2,...,6 and independent checks. Arbitrary-rank defect
-exponents/multiplicities and nonprojective flags remain open. The
-symplectic ordinary Smith formula was already completed at IMG-31.
+Active direction: equivariant/K-theory Springer-image specialization; the
+Cayley-fiber work is shelved. IMG-37 classifies faithful specialization
+for the full literal defining SL_m/P1 source: exactly m=2. For m>=3 the
+finite defect has precisely the primes dividing m.
 
-IMG-38 continues this with a uniform prime-power lower bound:
-Delta_(p^s) surjects onto the sum of (Z/p^e)^((p-1)p^(e-1)),
-e=1,...,s, for p^s>=3. The
-[coefficient-family proof](TYPE_A_K_PRIMARY_LAYERS.md) identifies its
-complete image module and exact Tor kernel. It does not prove the proposed
-annihilator m Delta_m=0, nor the full multiplicities. A general module
-counterexample explains why ordinary Smith factors and the determinant
-criterion alone cannot supply that stronger conclusion.
+**28 October, IMG-40:** [a closed partition formula](TYPE_A_K_STABLE_MULTIPLICITIES.md)
+now determines every p-primary factor in weights d<=p, and d=p+1 for odd
+p, uniformly in m:
+(Delta_m)_d localized at p is (Z/p^v_p(m))^a_d, with
+a_d=sum_(k>=2) P_k(d-2^k+1). A universal moment source and two exact
+subset-hyperplane annihilators explain the multiplicities. Integral
+saturation and an injective mass specialization retain the actual image.
+A divided-power argument extends saturation to d=p; the first Witt
+coordinate correction preserves the defect, including the root boundary m=p.
+A bilinear gluing and Bockstein argument proves the next degree for odd p,
+with a corrected integral basis. The square f_1^2 kills the entire defect.
+A fixed tensor certificate also proves (m/p)[q_1 q_(p+1)-m q_(p+2)]=0
+for all odd p|m, without yet giving the full multiplicity correction. The established
+Artin transfer carries the formula to full flags and parabolics at primes
+not dividing the gcd of their Levi block sizes.
+The full degree-three piece is also determined at the small primes.
+Degrees beyond these ranges remain unresolved; the stable formula
+demonstrably fails unchanged at m=10, p=5, d=7. Independent jet and dual-constraint checks pass; external
+review and priority remain unestablished.
+
+**28 October, IMG-39:** [the integral difference-trace recurrence](TYPE_A_K_INTEGRAL_RECURRENCE.md)
+now proves m Delta_m=0 in EVERY rank. It constructs all homogeneous
+coefficient-ideal lifts using Newton sums, integral Hasse translation,
+and the known periodic binomial-content formula. This closes the uniform
+overflow and full annihilator gaps, including mixed-prime ranks. The
+proof applies more generally to the full jet source of any monic
+polynomial specializing to (X-a)^m over an augmented Z-algebra. A native
+integer replay and an independent companion-matrix/symbolic check pass;
+external review and literature priority remain unestablished.
+The coefficient-family theorem also gives the m upper bound for the
+projective equivariant cohomological root-polynomial image; it does not
+prove sharpness for that different coefficient family.
+
+An integral degree-three class now proves the FULL exponent exactly m
+for EVERY m>=3. Its exact order is detected independently by a Q/Z
+functional and maximal minors; IMG-37's nonzero 2-primary part completes
+the m=2 mod 4 case. A free integral Artin-source extension gives the full-flag defect
+as (m-1)! copies of the projective defect, with graded shifts. For Levi
+block sizes n_i the same cofree-source argument transfers p-locally when
+p does not divide gcd(n_i), and integrally when gcd(n_i)=1; in the latter
+case the ungraded group is (m-1)!/(product n_i!) copies of Delta_m.
+Integral relative traces give an m*gcd(n_i) bound for every parabolic,
+without claiming sharpness at the excluded primes. The prime-power
+largest-order quotient (Z/m)^phi(m) splits noncanonically. Full Smith
+multiplicities, excluded parabolic
+primes and other representations remain open.
+
+The earlier [relation criterion](TYPE_A_K_ANNIHILATOR.md),
+[homogeneous descent and finite certificates](TYPE_A_K_GRADED_LIFTS.md),
+and [prime-power lower-bound proof](TYPE_A_K_PRIMARY_LAYERS.md) remain
+valid intermediate results. Their historical negative proof flags do
+not describe the new trace argument. No API or PDF was changed.
 
 GEO-97 completes [the classical polynomial-adjoint block classification](CLASSICAL_POLYNOMIAL_ADJOINT_BLOCKS.md).
 The ordinary adjoint classification was already complete at GEO-49; the
@@ -726,9 +765,13 @@ theorems have a>=1,k>=2. Changes of integral source are explicit, not implicit.
 
 | IMG-36 | Defining Sp_(2n)/P1 has a uniform doubled half-size integral cokernel, Schur generators and a single balanced-product formula for every Fitting ideal; complete explicit lists extend through rank nine. | Write P(s)=E(s^2)+sO(s^2). The cokernel is two copies of coker(2H) and one R/(2) in odd rank. H is monic polynomial multiplication. A unimodular coefficient pairing makes it Hankel. Known Hankel product/monic Groebner theorems plus an integer lift prove I_a(H)I_b(H) is contained in its more balanced product, over every coefficient ring. Thus Fitt_i=2^(n-i) I_floor(ell/2)(H) I_ceil(ell/2)(H), ell=n-i-(n mod 2). Initial-column Schur generators give each factor. Explicit quartic lists settle n=8,9, with 70 universal Z identities and 68 original-inclusion checks. The result applies published Hankel theory; priority is not established. Global cyclic decompositions remain limited to n<=3. The closed ordinary binary-digit multiplicities are now proved in IMG-31; primary structure after equivariant moment substitution remains separate. | [Doubled presentation](SYMPLECTIC_K_FITTING.md), [Schur generators](SYMPLECTIC_K_MINORS.md), [integral Hankel proof](SYMPLECTIC_K_BALANCING.md), [checks](symplectic-balancing-verification.json) |
 
-| IMG-37 | The full literal defining SL_m/P1 equivariant K-image specializes faithfully exactly for m=2; for m>=3 its finite defect has exactly the primes dividing m. | Written all-rank deduction. The image contains m^(m-1) times the ambient module. Generic characteristic-p recovery via f_2 or f_2,f_4, together with a local-freeness/determinant obstruction, proves nonvanishing at every p dividing m. Complete integral closure/syzygies give m=2,...,6, including Delta_3=(Z/3)^2 and Delta_4=Z/2 plus (Z/4)^2. Native exact identities and Sage character/Schubert checks corroborate; no external review or priority claim. All-rank exponents/multiplicities, other parabolics and representations remain open. | [Proof and scope](TYPE_A_K_SPECIALIZATION.md), [native audit](type-a-k-specialization-audit.json), [verification](type-a-k-specialization-verification.json) |
+| IMG-37 | The full literal defining SL_m/P1 equivariant K-image specializes faithfully exactly for m=2; for m>=3 its finite defect has exactly the primes dividing m. | Written all-rank deduction. The image contains m^(m-1) times the ambient module. Generic characteristic-p recovery via f_2 or f_2,f_4, together with a local-freeness/determinant obstruction, proves nonvanishing at every p dividing m. Complete integral closure/syzygies give m=2,...,6, including Delta_3=(Z/3)^2 and Delta_4=Z/2 plus (Z/4)^2. Native exact identities and Sage character/Schubert checks corroborate; no external review or priority claim. IMG-39 now supplies the all-rank m-annihilator and exact exponent m for every m>=3. Full multiplicities, sharp bounds at excluded parabolic primes and other representations remain open. | [Proof and scope](TYPE_A_K_SPECIALIZATION.md), [native audit](type-a-k-specialization-audit.json), [verification](type-a-k-specialization-verification.json) |
 
-| IMG-38 | For every prime power m=p^s>=3, the defining SL_m/P1 specialization defect surjects onto the sum of (Z/p^e)^((p-1)p^(e-1)), e=1,...,s. | Uniform p-local coefficient-family theorem: the complete image is spanned by 1, h_j=(m/j)v^j-a v^(j-1), and a^2 v^j in B[v]/(v^m-av^(m-1)-(-1)^m a); its exact defect has the displayed factors. The augmented-image quotient lemma transfers this as a lower bound to the full defect. The full defect has exponent at least m and at least m-1 cyclic factors; no direct summand or exact full exponent/multiplicity formula is claimed. A separate general module family has ordinary exponent p and defect p^r, isolating the need for additional Springer relations. Independent native identities and complete integral slice presentations corroborate; no external-review or priority claim. | [Proof and missing step](TYPE_A_K_PRIMARY_LAYERS.md), [native audit](type-a-k-primary-layers-audit.json), [slice computation](experiments/type_a_k_slices.py) |
+| IMG-38 | For every prime power m=p^s>=3, the defining SL_m/P1 specialization defect surjects onto the sum of (Z/p^e)^((p-1)p^(e-1)), e=1,...,s. | Uniform p-local coefficient-family theorem: the complete image is spanned by 1, h_j=(m/j)v^j-a v^(j-1), and a^2 v^j in B[v]/(v^m-av^(m-1)-(-1)^m a); its exact defect has the displayed factors. The augmented-image quotient lemma transfers this as a lower bound to the full defect. The full defect has exponent at least m and at least m-1 cyclic factors; no direct summand or full multiplicity formula follows from this quotient alone. IMG-39 now supplies the matching upper bound, so the full prime-power exponent is exactly m. A separate general module family has ordinary exponent p and defect p^r, isolating the need for additional Springer relations. Independent native identities and complete integral slice presentations corroborate; no external-review or priority claim. | [Proof and missing step](TYPE_A_K_PRIMARY_LAYERS.md), [native audit](type-a-k-primary-layers-audit.json), [slice computation](experiments/type_a_k_slices.py) |
+
+| IMG-39 | For every m>=2, m annihilates the full defining SL_m/P1 Springer K-specialization defect; the exponent is exactly m for every m>=3. | Written all-rank integral recurrence. More generally the full jet image of any monic F specializing to (X-a)^m over an augmented Z-algebra has specialization kernel killed by m. Difference trace, integral Hasse translation and known binomial-content periodicity construct all homogeneous lifts. A complete integral ordinary relation list has weights at most 2m-2, also for mixed m. A Z-linear transfer has both composites equal to m. Integral free Artin base change gives the full-flag defect as (m-1)! copies; a parabolic transfer holds at p not dividing the gcd g of Levi block sizes, integrally if g=1, when the defect is (m-1)!/(product n_i!) copies of the projective one. Relative group traces give an m*g annihilator for every parabolic. For prime powers the largest-order quotient (Z/m)^phi(m) splits noncanonically. Independent native integer witnesses, companion-matrix checks and an independently constructed SL3 full-flag control pass. An independent degree-three source relation has order m except m/2 when m=2 mod 4; IMG-37 completes the 2-primary lower bound in that case. A Q/Z functional and a separate maximal-minor calculation certify the order. Full multiplicities, sharp bounds at excluded parabolic primes and other representations remain unresolved; no external-review or priority claim. | [Theorem and recurrence](TYPE_A_K_INTEGRAL_RECURRENCE.md), [integer audit](type-a-k-integral-recurrence-audit.json), [independent trace check](type-a-k-trace-verification.json), [symbolic order audit](type-a-k-degree-three-audit.json) |
+
+| IMG-40 | For every p dividing m and d<=p (also d=p+1 for odd p), the full defining SL_m/P1 K-specialization defect in weight d has exactly a_d copies of Z/p^v_p(m), where a_d=sum_(k>=2) P_k(d-2^k+1). | Written uniform stable-range deduction. The variable-mass moment defect is killed by M; polarization identifies the full source and coefficient ideal with subset-hyperplane spaces. Their duals give partition sectors beginning at 3,7,15,... . Equal characteristic-zero and modular ranks, including a divided-power argument at d=p, prove integral saturation; a first Witt-coordinate comparison retains the elementary source at d=p, including m=p, and nilpotence plus freeness justifies passage to the actual mass-m image. Bilinear gluing and independent Bockstein classes extend the formula to d=p+1 for odd p, including the root boundary, with one Witt-corrected basis class. Dual partition bases and primitive binary-moment classes are explicit. The whole degree-three piece is cyclic of order m, except m/2 for m=2 mod 4. The Newton quadratic identity proves f_1^2 kills the entire defect in every rank and degree; a uniform degree-seven class shows f_1 itself need not kill it. A fixed independently replayed tensor certificate also proves (m/p)[q_1 q_(p+1)-m q_(p+2)]=0 for every odd p|m. Separate elementary-jet and native apolar audits corroborate. The m=10, p=5, d=7 piece has three factors 5 rather than the four predicted outside the range; the existing Artin transfer gives full-flag/good-prime parabolic multiplicities in the same range; full multiplicities beyond it remain open. No external-review or priority claim. | [Proof and scope](TYPE_A_K_STABLE_MULTIPLICITIES.md), [jet verification](type-a-k-stable-multiplicities-verification.json), [native audit](type-a-k-stable-multiplicities-audit.json) |
 
 ## General Springer and Cayley geometry
 
@@ -942,7 +985,7 @@ ranking, and partial progress below does not close an entire question.
 | OPEN-11 | What are the target branch loci and nonproperness loci of the explicit Springer quotient maps? | Compute the images/closures of critical loci and account for fibers escaping to the boundary. GEO-16 determines the maximal finite target locus of the full polynomial-spin group map and gives the branch criterion on its finite presentation. Equality of generic degrees does not transfer this finite-locus theorem to the adjoint quotient. A Spin_4 example explicitly separates genuine branching from a scalar-model artifact. | GEO-03/16, CASE-07/08 |
 | OPEN-12 | Which invariant localizations suffice for the fixed Springer-pulled harmonic space of a generalized Cayley map? | GEO-13 supplies the written simple-group global-regularity classification, with external review and priority still unverified. KM already equates global harmonic separation with global regularity preservation and gives full-Jacobian localization. GEO-12 gives the sharp determinant localization for the Sp determinant-power family. The remaining question here is minimal localization for other generalized Cayley maps and extension across critical points that preserve regularity. Arbitrary alternative harmonic complements are outside the user-selected scope; no new global positive case is claimed by localization. | BASE-04, GEO-12/13; [classification](REGULARITY_CLASSIFICATION.md), [sharp symplectic localization](SYMPLECTIC_HARMONIC_LOCALIZATION.md), [source audit](CAYLEY_LITERATURE_AUDIT.md) |
 | OPEN-13 | Which uniform exceptional image patterns survive beyond the currently checked parabolics? | The finite relative E7 classification is complete: IMG-20 covers all 127 proper parabolics, with the original uniform polynomial on 112 and separate formulas on fifteen. IMG-19 proves a common even-block formula with a halved-block correction, also expressible using C3 Weyl polynomials. A geometric folding explanation, structural proofs of the equal index corrections and first-gap pattern, and extensions to other root data remain open here. In F4/E8 the root and weight lattices agree, so the meaningful next comparison concerns ambient or representation-scaled images rather than a nontrivial Q/X quotient. No arbitrary-rank or literature-priority claim follows from the completed E7 table. LIMIT-07 still blocks the earlier six-generator E6 source shortcut. | CASE-02/04/05, IMG-13/19/20, SRC-09; [complete E7 theorem](E7_ALL_PARABOLICS.md) |
-| OPEN-14 | What are the higher equivariant image/Fitting invariants and faithful-specialization criteria? | IMG-10/LIMIT-06 settle a cohomological defect benchmark; IMG-34 gives rational determinants and a type A tensor-scalar family. IMG-36 now gives all-rank doubled blocks, Schur generators and integral balanced-product Fitting formulas, with explicit lists through n=9. API-08 implements these. IMG-31 completes the ordinary multiplicities for this family. IMG-37 now classifies faithful defining SL_m/P1 K-specialization: exactly m=2; otherwise its defect has precisely the primes dividing m. Complete image presentations are certified through m=6. IMG-38 proves explicit prime-power quotient factors for m=p^s>=3, including exponent at least m; m Delta_m=0 remains conjectural. All-rank defect multiplicities/presentations, arithmetic primary structure after equivariant moment substitution, general representations and larger isotropic flags remain. Generic Hankel primary decompositions have not been carried through arbitrary specialization. | [Classical API](CLASSICAL_EQUIVARIANT.md), [Hankel proof](SYMPLECTIC_K_BALANCING.md), [rational theorem](OTHER_THEORIES_EQUIVARIANT_K.md), [specialization defect](EQUIVARIANT_IMAGE_PILOT.md) |
+| OPEN-14 | What are the higher equivariant image/Fitting invariants and faithful-specialization criteria? | IMG-10/LIMIT-06 settle a cohomological defect benchmark; IMG-34 gives rational determinants and a type A tensor-scalar family. IMG-36 gives all-rank doubled blocks, Schur generators and integral balanced-product Fitting formulas; API-08 implements these. IMG-31 completes the ordinary symplectic multiplicities. IMG-37 classifies faithful defining SL_m/P1 K-specialization: exactly m=2; otherwise the defect has precisely the primes dividing m. IMG-38 supplies prime-power quotient factors. IMG-39 now proves m Delta_m=0 by an all-rank integral trace recurrence, exact exponent m for every m>=3, and a full-flag/parabolic free-source transfer, with an m*gcd(n_i) bound for all parabolics. IMG-40 determines the complete p-primary pieces in weights d<=p (and d=p+1 for odd p) by a partition formula, and proves f_1^2 Delta_m=0 in every weight. Still open are full type A defect multiplicities/presentations beyond that range, sharp bounds at excluded parabolic primes, arithmetic primary structure after equivariant moment substitution, general representations and larger flags. Generic Hankel primary decompositions have not been carried through arbitrary specialization. | [Classical API](CLASSICAL_EQUIVARIANT.md), [Hankel proof](SYMPLECTIC_K_BALANCING.md), [rational theorem](OTHER_THEORIES_EQUIVARIANT_K.md), [uniform annihilator](TYPE_A_K_INTEGRAL_RECURRENCE.md) |
 | OPEN-15 | Which quantum image lifts beyond the projective benchmarks are geometrically justified and flat? | IMG-32 completes defining SL/Sp projective families, with complete kernels and faithful q=0 specialization. The free full-flag source has a divisor lift. Partial flags with relations or generators at quantum degrees need specified compatible lifts; neither uniqueness nor flatness follows from the benchmarks. | [Source choices and proofs](OTHER_THEORIES_QUANTUM.md) |
 | OPEN-16 | How do these representation-map degrees compare with minimum Cayley degrees? | Identify applicable published minima/bounds and clarify what varying rho can achieve. CASE-08 gives degrees of particular maps, not minima over all equivariant rational maps. The 22 October audit verifies Popov's historical Problems 2.2-2.4 but does not verify their 2026 openness; later stable/real Cayley classifications address different questions. | [Degree scope](EXCEPTIONAL_DEGREES.md), [literature-status audit](CAYLEY_LITERATURE_AUDIT.md) |
 | OPEN-17 | Can embedded K Smith factors and CK Fitting ideals be classified from (Lambda_rho,tau_rho)? | IMG-27 settles the common kernel, support filtration and total index. IMG-35 gives complete SL3 formulas; IMG-31 now gives the complete ordinary symplectic projective Smith list in every rank. Larger symplectic flags, other representations and other groups remain. LIMIT-11 disproves a lattice-only classification. | [Finite comparison](OTHER_THEORIES_FINITE.md), [SL3 completion](OTHER_THEORIES_SL3.md), [closed symplectic projective formula](SYMPLECTIC_K_ORDINARY_SMITH.md) |

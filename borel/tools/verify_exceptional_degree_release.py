@@ -37,6 +37,52 @@ def main():
     assert type_a_specialization['fixed_point_checks']==68
     assert type_a_specialization_audit['SL3_kernel_factors']==[3,3]
     assert len(type_a_specialization['cases'])==5
+    integral_recurrence=read('type-a-k-integral-recurrence-audit.json')
+    trace_recurrence=read('type-a-k-trace-verification.json')
+    flag_transfer=read('type-a-k-flag-transfer-verification.json')
+    degree_three=read('type-a-k-degree-three-audit.json')
+    stable_multiplicities=read('type-a-k-stable-multiplicities-verification.json')
+    stable_multiplicities_audit=read('type-a-k-stable-multiplicities-audit.json')
+    assert len(stable_multiplicities['cases'])==7
+    assert len(stable_multiplicities_audit['apolar_spaces'])==29
+    assert len(stable_multiplicities_audit['prime_boundary_direct_moment_ranks'])==32
+    for record in (stable_multiplicities,stable_multiplicities_audit):
+        tensor=record['tensor_gluing_certificate']
+        assert tensor['compatibility_rank']==17 and tensor['compatibility_nonunit_smith']==[2]
+        assert tensor['ambient_invariant_dimension']==11 and tensor['ambient_restriction_nonunit_smith']==[]
+        assert tensor['coefficient_condition_rank']==10 and tensor['coefficient_condition_nonunit_smith']==[]
+        assert tensor['coefficient_kernel']=='span(u0*v0^2)'
+    assert stable_multiplicities['cubic_prime_three_certificate']['three_saturated']
+    assert stable_multiplicities_audit['multiplicity_sequence_through_20'][:11]==[0,0,0,1,1,2,2,4,4,6,7]
+    assert stable_multiplicities['cases'][-1]['degrees'][-1]['p_primary']==[5,5,5]
+    for record in (stable_multiplicities,stable_multiplicities_audit):
+        for name,expected in record['source_sha256'].items():
+            assert digest(ROOT/name)==expected,name
+    assert integral_recurrence['integer_coefficient_ideal_witnesses']==18
+    assert integral_recurrence['independent_root_variable_replays']==7
+    assert trace_recurrence['symbolic_rank_hasse_identities']==286
+    assert trace_recurrence['independent_full_flag_abelian_factor_replay']==[3]*4
+    assert flag_transfer['specialization_kernel_factors']==[3]*4
+    assert degree_three['integral_unscaled_source_identity']
+    assert degree_three['independent_integral_minor_index_ratio']=='m'
+    assert len(degree_three['symbolic_residue_families'])==12
+    for record in (integral_recurrence,trace_recurrence,flag_transfer,degree_three):
+        for name,expected in record['source_sha256'].items():
+            assert digest(ROOT/name)==expected,name
+    # Historical reports below certify their finite methods only. Their
+    # negative uniform-proof flags are superseded by the new written trace
+    # theorem, not silently changed into evidence for an all-rank proof.
+    graded_lifts=read('type-a-k-graded-lifts-audit.json')
+    assert not graded_lifts['uniform_overflow_annihilation_proved']
+    assert graded_lifts['full_defect_annihilator_certified_ranks']==[3,4,7]
+    for name,expected in graded_lifts['source_sha256'].items():
+        assert digest(ROOT/name)==expected,name
+    annihilator=read('type-a-k-annihilator-audit.json')
+    assert not annihilator['arbitrary_rank_annihilator_proved']
+    assert [row['m'] for row in annihilator['full_image_cases']]==list(range(2,7))
+    for record in (annihilator,read('type-a-k-annihilator-witnesses.json')):
+        for name,expected in record['source_sha256'].items():
+            assert digest(ROOT/name)==expected,name
     primary_layers=read('type-a-k-primary-layers-audit.json')
     for name,expected in primary_layers['source_sha256'].items():
         assert digest(ROOT/name)==expected,name
@@ -2141,10 +2187,62 @@ def main():
         'type-a-k-primary-layers-audit.json')]
     paths += [ROOT/('experiments/type-a-k-trace-slice-%d.json'%p) for p in (3,4,5,7,8,9)]
     paths += [ROOT/('experiments/type-a-k-slice-%d.json'%n) for n in (7,8)]
+    paths += [ROOT/name for name in ('TYPE_A_K_ANNIHILATOR.md',
+        'tools/build_type_a_k_annihilator.py','tools/audit_type_a_k_annihilator.py',
+        'type-a-k-annihilator-witnesses.json','type-a-k-annihilator-audit.json')]
+    paths += [ROOT/name for name in ('TYPE_A_K_GRADED_LIFTS.md',
+        'experiments/type_a_k_graded_lifts.py','tools/audit_type_a_k_graded_lifts.py',
+        'type-a-k-graded-lifts-audit.json')]
+    paths += [ROOT/('experiments/type-a-k-graded-lifts-%d.json.gz'%m) for m in (3,4,7)]
+    paths += [ROOT/name for name in ('TYPE_A_K_INTEGRAL_RECURRENCE.md',
+        'experiments/type_a_k_integral_recurrence.py',
+        'experiments/type-a-k-integral-recurrence.json.gz',
+        'tools/audit_type_a_k_integral_recurrence.py',
+        'tools/verify_type_a_k_trace.py','tools/verify_type_a_k_flag_transfer.py',
+        'type-a-k-integral-recurrence-audit.json','type-a-k-trace-verification.json',
+        'type-a-k-flag-transfer-verification.json',
+        'tools/audit_type_a_k_degree_three.py','type-a-k-degree-three-audit.json')]
+    paths += [ROOT/name for name in ('TYPE_A_K_STABLE_MULTIPLICITIES.md',
+        'tools/verify_type_a_k_stable_multiplicities.py',
+        'tools/audit_type_a_k_stable_multiplicities.py',
+        'type-a-k-stable-multiplicities-verification.json',
+        'type-a-k-stable-multiplicities-audit.json')]
     report=dict(result='passed',version=version,
         type_a_projective_K_specialization=dict(
             prime_power_uniform_quotient_lower_bound='Delta_(p^s) surjects onto sum_e (Z/p^e)^((p-1)p^(e-1)), p^s>=3',
-            full_m_annihilator_proved=False,
+            full_m_annihilator_proved=True,
+            annihilator_proof='Written all-rank difference-trace and integral content recurrence, IMG-39',
+            full_m_annihilator_explicit_finite_witnesses=list(range(2,7)),
+            complete_ordinary_relation_lifting_criterion=True,
+            uniform_integral_lifts_proved=True,
+            homogeneous_full_source_descent_proved=True,
+            independent_graded_lift_ranks=[3,4,7],
+            exact_exponent_at_m7=7,
+            uniform_overflow_annihilation_proved=True,
+            exact_exponent_prime_powers_and_squarefree_m_ge_3=True,
+            exact_exponent_all_mixed_repeated_prime_ranks_proved=True,
+            exact_exponent_all_m_ge_3='m',
+            degree_three_order_detector_proved=True,
+            projective_cohomological_root_source_m_upper_bound_written=True,
+            projective_cohomological_exact_exponent_claimed=False,
+            full_flag_defect_artin_transfer_proved=True,
+            coprime_levi_block_defect_multiple_proved=True,
+            parabolic_m_times_block_gcd_annihilator_proved=True,
+            parabolic_m_annihilator_at_excluded_primes_proved=False,
+            prime_power_largest_order_free_summand_proved=True,
+            integral_relation_weight_bound_all_m='2*m-2',
+            full_smith_multiplicities_proved=False,
+            stable_smith_multiplicities_d_at_most_p_proved=True,
+            odd_primary_degree_p_plus_one_formula_including_root_boundary=True,
+            first_witt_corrected_partition_basis=True,
+            first_source_generator_squared_annihilates_entire_defect=True,
+            odd_prime_cubic_obstruction_vanishes_with_exact_tensor_certificate=True,
+            degree_p_plus_two_class_annihilator='m/p on q_1*q_(p+1)-m*q_(p+2)',
+            stable_partition_formula='sum_(k>=2) P_k(d-2^k+1)',
+            stable_nonzero_primary_factors_all_have_order='p^v_p(m)',
+            complete_degree_three_piece_proved=True,
+            unchanged_stable_formula_above_residue_characteristic=False,
+            first_source_generator_annihilates_entire_defect=False,
             all_rank_written_classification=True,faithful_exactly_m_equals_2=True,
             defect_prime_support_for_m_ge_3='prime divisors of m',
             complete_finite_presentations=list(range(2,7)),

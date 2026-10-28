@@ -2,6 +2,91 @@
 
 ## Active: equivariant Springer K-image specialization
 
+28 October, IMG-40: [the partition formula](TYPE_A_K_STABLE_MULTIPLICITIES.md)
+determines the complete p-primary piece in EVERY weight d<=p, and also
+d=p+1 for odd p, uniformly for p|m and arbitrary s=v_p(m): it is (Z/p^s)^a_d, where
+a_d=sum_(k>=2) P_k(d-2^k+1), and P_k counts partitions with parts at most k.
+No smaller-order p-factors occur in that range. A universal moment image,
+subset-hyperplane duality, integral saturation (with a divided-power proof
+at d=p), and an injective mass-specialization argument retain the actual
+image. First Witt-coordinate comparisons handle d=p and (for odd p)
+d=p+1, including m=p. The latter uses bilinear gluing and two independent
+Bockstein classes to retain the full coefficient ideal; one basis class
+requires an integral Witt correction.
+Independent elementary-jet lattices and native dual-constraint calculations
+corroborate it. The complete degree-three piece is also cyclic of order m,
+except order m/2 when m=2 modulo 4. General multiplicities beyond the
+stated ranges remain open: an m=10, p=5, d=7 control disproves the unchanged extension of the
+stable formula. Multiplication by the first generator does not kill the
+whole defect; a uniform degree-seven class detects that failure for p>7.
+Its square DOES annihilate the entire defect in every rank and degree, by
+the integral Newton quadratic identity and m Delta_m=0. For every odd
+p|m, (m/p)[q_1 q_(p+1)-m q_(p+2)]=0 integrally. Its cubic obstruction
+vanishes by an all-prime argument using a fixed tensor-gluing certificate
+independently built in Sage and native Python. This last statement is an
+order bound for one class, not the full degree-p+2 Smith formula.
+The established Artin transfer gives full-flag and good-prime parabolic
+multiplicity formulas in the same range; excluded Levi-block primes
+remain excluded.
+These are written deductions with internal checks, not an external review
+or a literature-priority claim. No API, PDF, commit or push is part of this phase.
+
+28 October, IMG-39: [the integral difference-trace recurrence](TYPE_A_K_INTEGRAL_RECURRENCE.md)
+proves m Delta_m=0 for EVERY m>=2. This settles the earlier arbitrary-rank
+annihilator and overflow gaps. A monic polynomial specializing to (X-a)^m
+has the same bound for its full jet-generated image over any augmented
+Z-algebra. Newton moments of L-X stay in the source, integral Hasse
+translation identifies their trace modulo the coefficient ideal, and the
+known periodic binomial-content formula constructs every homogeneous
+lift by extended Euclid. No rational membership or rank extrapolation
+occurs. A native integer replay and a separate symbolic companion-matrix
+check pass. The written proof, rather than those finite checks, establishes
+the general theorem; external review and priority remain unestablished.
+The same coefficient-family theorem gives an m upper bound for the
+projective equivariant cohomological root-polynomial image, using its
+standard projective-bundle presentation. Sharpness and identification
+with the K-defect are not asserted for that coefficient family.
+
+A separate degree-three source class now proves exact exponent m for
+EVERY m>=3. An explicit Q/Z functional and an independent integral
+minor-index calculation detect its order: m, except m/2 when m=2 mod 4.
+IMG-37's nonzero 2-primary part completes that last case. This also
+settles the mixed-prime sharp-exponent gap. Full Smith multiplicities
+remain undetermined. An integral Artin-basis base change gives
+the full-flag defect as (m-1)! copies of the projective defect, with the
+usual graded shifts. For Levi block sizes n_i, a separate integral
+Artin-basis argument transfers the defect at primes not dividing gcd(n_i),
+and integrally when that gcd is 1. In the latter case the whole ungraded
+group is (m-1)!/(product n_i!) copies of the projective defect. Integral
+relative traces give the weaker m*gcd(n_i) annihilator for every
+parabolic; removing its extra factor at the excluded primes remains open.
+Other representations are not covered. For prime-power m the largest-order quotient
+(Z/m)^phi(m) splits noncanonically; its multiplicity need not be sharp.
+The map on specialized images has an explicit Z-linear
+transfer whose two composites are multiplication by m; it is not a
+global containment mA subset J.
+
+Historical 27 October stage: [homogeneous full-source descent](TYPE_A_K_GRADED_LIFTS.md) identifies
+the actual K-specialization defect with the universal coefficient model at
+the homogeneous origin. The proof uses a nonzerodivisor argument for c_m-1
+and integral translation. All prime-power annihilator generators have
+weight at most 2m-2. Independent integer-polynomial certificates cover all
+21 relations at m=7 (12 overflow), proving exact exponent 7 using IMG-38.
+At that stage the uniform overflow theorem and the arbitrary-rank
+m-annihilator were unproved; IMG-39 now settles them. No complete m=7
+Smith multiplicities are claimed.
+
+Earlier 27 October continuation: [the full annihilator attempt](TYPE_A_K_ANNIHILATOR.md)
+reduces m Delta_m=0 to explicit full-source lifts of a complete finite
+ordinary relation ideal. For prime powers only quadratic source relations
+are required. The f_1^2 relation vanishes and the f_1 f_2 relation is
+killed by m by explicit uniform identities in the applicable prime-power
+ranks. That attempt did not prove the complete family of lifts. Separate exact integer
+witnesses reconfirm m Delta_m=0 for the existing complete ranks 2,...,6.
+First-order cancellation merely raises the parameter filtration; a cubic
+control shows that second-order vanishing is insufficient. No new general
+annihilator or exponent theorem was claimed by that attempt.
+
 Continuation, IMG-38: [the prime-power theorem](TYPE_A_K_PRIMARY_LAYERS.md)
 proves Delta_(p^s) surjects onto the direct sum of
 (Z/p^e)^((p-1)p^(e-1)), e=1,...,s, for every p^s>=3.
@@ -13,7 +98,8 @@ a direct-summand claim. Independent native identities/finite abelian
 kernels and integral standard-basis checks pass. A general module family
 has ordinary exponent p but defect exponent p^r, so the earlier
 determinant mechanism cannot prove the conjecture m Delta_m=0 by itself.
-That conjecture and the full primary multiplicities remain unproved.
+IMG-39 now proves that conjecture; the full primary multiplicities remain
+unproved.
 The attempted full m=7 computation was stopped near 10 GB before any
 certificate; only explicitly labeled coefficient slices were computed.
 
@@ -35,8 +121,8 @@ failure controls are retained. No external review or priority claim.
 The existing SL2 Sage 9.5 Laurent-coercion API limitation is recorded;
 the direct mathematical SL2 presentation passes. No runtime API changed.
 
-Remaining: arbitrary-rank exponents/multiplicities and compact local
-presentations, other parabolics and representations. The Cayley-fiber
+Remaining: full Smith multiplicities and compact local presentations, excluded
+parabolic primes and other representations. The Cayley-fiber
 classification below is shelved at the user's request, not reopened.
 
 ## Classical polynomial-adjoint classification completed

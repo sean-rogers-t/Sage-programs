@@ -1,0 +1,98 @@
+{
+  "result": "passed",
+  "method": "Independent integral companion-matrix powers and symbolic-rank binomial checks.",
+  "cases": [
+    {
+      "m": 2,
+      "moments_checked": 6,
+      "coefficient_ring": "Z[L,c_1,...,c_m]",
+      "f_m_retained_until_root_quotient": true
+    },
+    {
+      "m": 3,
+      "moments_checked": 8,
+      "coefficient_ring": "Z[L,c_1,...,c_m]",
+      "f_m_retained_until_root_quotient": true
+    },
+    {
+      "m": 4,
+      "moments_checked": 10,
+      "coefficient_ring": "Z[L,c_1,...,c_m]",
+      "f_m_retained_until_root_quotient": true
+    },
+    {
+      "m": 5,
+      "moments_checked": 12,
+      "coefficient_ring": "Z[L,c_1,...,c_m]",
+      "f_m_retained_until_root_quotient": true
+    },
+    {
+      "m": 6,
+      "moments_checked": 14,
+      "coefficient_ring": "Z[L,c_1,...,c_m]",
+      "f_m_retained_until_root_quotient": true
+    },
+    {
+      "m": 7,
+      "moments_checked": 16,
+      "coefficient_ring": "Z[L,c_1,...,c_m]",
+      "f_m_retained_until_root_quotient": true
+    },
+    {
+      "m": 8,
+      "moments_checked": 18,
+      "coefficient_ring": "Z[L,c_1,...,c_m]",
+      "f_m_retained_until_root_quotient": true
+    },
+    {
+      "m": 9,
+      "moments_checked": 20,
+      "coefficient_ring": "Z[L,c_1,...,c_m]",
+      "f_m_retained_until_root_quotient": true
+    },
+    {
+      "m": 10,
+      "moments_checked": 22,
+      "coefficient_ring": "Z[L,c_1,...,c_m]",
+      "f_m_retained_until_root_quotient": true
+    },
+    {
+      "m": 11,
+      "moments_checked": 24,
+      "coefficient_ring": "Z[L,c_1,...,c_m]",
+      "f_m_retained_until_root_quotient": true
+    },
+    {
+      "m": 12,
+      "moments_checked": 26,
+      "coefficient_ring": "Z[L,c_1,...,c_m]",
+      "f_m_retained_until_root_quotient": true
+    }
+  ],
+  "symbolic_rank_hasse_identities": 286,
+  "invariant_shortcut_counterexample_smith": [
+    3,
+    9
+  ],
+  "independent_full_flag_abelian_factor_replay": [
+    3,
+    3,
+    3,
+    3
+  ],
+  "written_proof_scope": {
+    "machine_formalized": false,
+    "external_review": false,
+    "actual_image_used": true,
+    "no_reduced_fiber_replacement": true,
+    "no_base_change_injectivity_assumed": true,
+    "arbitrary_words_covered_by_written_proof": true,
+    "arbitrary_coefficient_family_requires_augmentation_to_Z_and_coalesced_polynomial": true
+  },
+  "source_sha256": {
+    "TYPE_A_K_INTEGRAL_RECURRENCE.md": "b97764ed08626225e584221339d3583929a54f905567d5281940b1b1b3eec87e",
+    "tools/verify_type_a_k_trace.py": "04c4e3be69eb9919b711f7c848bacad83fb9898540423304ac338c3a6d566b7c",
+    "type-a-k-flag-transfer-verification.json": "dd3cab463d522d4d300b63a247c3a762c35641d3132c6183a0f63ebbd6ca1c2c",
+    "tools/verify_type_a_k_flag_transfer.py": "352d23c1b39672965bfd4a2c6c34b684eb4a65c23bfced4d5f3277c006250811"
+  }
+}

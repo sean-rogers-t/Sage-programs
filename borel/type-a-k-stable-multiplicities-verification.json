@@ -1,0 +1,1205 @@
+{
+  "result": "passed",
+  "cases": [
+    {
+      "m": 25,
+      "p": 5,
+      "v_p_m": 2,
+      "degrees": [
+        {
+          "degree": 1,
+          "ambient_rank": 2,
+          "full_integer_factors": [],
+          "p_primary": [],
+          "partition_multiplicity": 0,
+          "in_theorem_range": true,
+          "explicit_partition_basis": {
+            "integral_representatives": 0,
+            "source_generation_index_valuation": 0
+          }
+        },
+        {
+          "degree": 2,
+          "ambient_rank": 4,
+          "full_integer_factors": [],
+          "p_primary": [],
+          "partition_multiplicity": 0,
+          "in_theorem_range": true,
+          "explicit_partition_basis": {
+            "integral_representatives": 0,
+            "source_generation_index_valuation": 0
+          }
+        },
+        {
+          "degree": 3,
+          "ambient_rank": 7,
+          "full_integer_factors": [
+            25
+          ],
+          "p_primary": [
+            25
+          ],
+          "partition_multiplicity": 1,
+          "in_theorem_range": true,
+          "explicit_partition_basis": {
+            "integral_representatives": 1,
+            "source_generation_index_valuation": 0
+          }
+        },
+        {
+          "degree": 4,
+          "ambient_rank": 12,
+          "full_integer_factors": [
+            25
+          ],
+          "p_primary": [
+            25
+          ],
+          "partition_multiplicity": 1,
+          "in_theorem_range": true,
+          "explicit_partition_basis": {
+            "integral_representatives": 1,
+            "source_generation_index_valuation": 0
+          }
+        },
+        {
+          "degree": 5,
+          "ambient_rank": 19,
+          "full_integer_factors": [
+            25,
+            25
+          ],
+          "p_primary": [
+            25,
+            25
+          ],
+          "partition_multiplicity": 2,
+          "in_theorem_range": true,
+          "explicit_partition_basis": {
+            "integral_representatives": 2,
+            "source_generation_index_valuation": 0
+          }
+        },
+        {
+          "degree": 6,
+          "ambient_rank": 30,
+          "full_integer_factors": [
+            25,
+            25
+          ],
+          "p_primary": [
+            25,
+            25
+          ],
+          "partition_multiplicity": 2,
+          "in_theorem_range": true,
+          "explicit_partition_basis": {
+            "integral_representatives": 2,
+            "source_generation_index_valuation": 0
+          }
+        },
+        {
+          "degree": 7,
+          "ambient_rank": 45,
+          "full_integer_factors": [
+            5,
+            25,
+            25,
+            25
+          ],
+          "p_primary": [
+            5,
+            25,
+            25,
+            25
+          ],
+          "partition_multiplicity": 4,
+          "in_theorem_range": false,
+          "explicit_partition_basis": null
+        }
+      ],
+      "root_boundary_included": false,
+      "boundary_control": true,
+      "first_reduced_order_class": {
+        "degree": 7,
+        "full_order": 5,
+        "proved_annihilator": 5,
+        "full_smith_formula_in_this_degree_claimed": false
+      },
+      "nonannihilation_by_first_generator": null
+    },
+    {
+      "m": 14,
+      "p": 7,
+      "v_p_m": 1,
+      "degrees": [
+        {
+          "degree": 1,
+          "ambient_rank": 2,
+          "full_integer_factors": [],
+          "p_primary": [],
+          "partition_multiplicity": 0,
+          "in_theorem_range": true,
+          "explicit_partition_basis": {
+            "integral_representatives": 0,
+            "source_generation_index_valuation": 0
+          }
+        },
+        {
+          "degree": 2,
+          "ambient_rank": 4,
+          "full_integer_factors": [],
+          "p_primary": [],
+          "partition_multiplicity": 0,
+          "in_theorem_range": true,
+          "explicit_partition_basis": {
+            "integral_representatives": 0,
+            "source_generation_index_valuation": 0
+          }
+        },
+        {
+          "degree": 3,
+          "ambient_rank": 7,
+          "full_integer_factors": [
+            7
+          ],
+          "p_primary": [
+            7
+          ],
+          "partition_multiplicity": 1,
+          "in_theorem_range": true,
+          "explicit_partition_basis": {
+            "integral_representatives": 1,
+            "source_generation_index_valuation": 0
+          }
+        },
+        {
+          "degree": 4,
+          "ambient_rank": 12,
+          "full_integer_factors": [
+            14
+          ],
+          "p_primary": [
+            7
+          ],
+          "partition_multiplicity": 1,
+          "in_theorem_range": true,
+          "explicit_partition_basis": {
+            "integral_representatives": 1,
+            "source_generation_index_valuation": 0
+          }
+        },
+        {
+          "degree": 5,
+          "ambient_rank": 19,
+          "full_integer_factors": [
+            7,
+            7
+          ],
+          "p_primary": [
+            7,
+            7
+          ],
+          "partition_multiplicity": 2,
+          "in_theorem_range": true,
+          "explicit_partition_basis": {
+            "integral_representatives": 2,
+            "source_generation_index_valuation": 0
+          }
+        },
+        {
+          "degree": 6,
+          "ambient_rank": 30,
+          "full_integer_factors": [
+            14,
+            14
+          ],
+          "p_primary": [
+            7,
+            7
+          ],
+          "partition_multiplicity": 2,
+          "in_theorem_range": true,
+          "explicit_partition_basis": {
+            "integral_representatives": 2,
+            "source_generation_index_valuation": 0
+          }
+        },
+        {
+          "degree": 7,
+          "ambient_rank": 45,
+          "full_integer_factors": [
+            7,
+            7,
+            7,
+            7
+          ],
+          "p_primary": [
+            7,
+            7,
+            7,
+            7
+          ],
+          "partition_multiplicity": 4,
+          "in_theorem_range": true,
+          "explicit_partition_basis": {
+            "integral_representatives": 4,
+            "source_generation_index_valuation": 0
+          }
+        },
+        {
+          "degree": 8,
+          "ambient_rank": 67,
+          "full_integer_factors": [
+            7,
+            14,
+            14,
+            14
+          ],
+          "p_primary": [
+            7,
+            7,
+            7,
+            7
+          ],
+          "partition_multiplicity": 4,
+          "in_theorem_range": true,
+          "explicit_partition_basis": {
+            "integral_representatives": 4,
+            "source_generation_index_valuation": 0
+          }
+        }
+      ],
+      "root_boundary_included": false,
+      "boundary_control": false,
+      "first_reduced_order_class": null,
+      "nonannihilation_by_first_generator": null
+    },
+    {
+      "m": 22,
+      "p": 11,
+      "v_p_m": 1,
+      "degrees": [
+        {
+          "degree": 1,
+          "ambient_rank": 2,
+          "full_integer_factors": [],
+          "p_primary": [],
+          "partition_multiplicity": 0,
+          "in_theorem_range": true,
+          "explicit_partition_basis": {
+            "integral_representatives": 0,
+            "source_generation_index_valuation": 0
+          }
+        },
+        {
+          "degree": 2,
+          "ambient_rank": 4,
+          "full_integer_factors": [],
+          "p_primary": [],
+          "partition_multiplicity": 0,
+          "in_theorem_range": true,
+          "explicit_partition_basis": {
+            "integral_representatives": 0,
+            "source_generation_index_valuation": 0
+          }
+        },
+        {
+          "degree": 3,
+          "ambient_rank": 7,
+          "full_integer_factors": [
+            11
+          ],
+          "p_primary": [
+            11
+          ],
+          "partition_multiplicity": 1,
+          "in_theorem_range": true,
+          "explicit_partition_basis": {
+            "integral_representatives": 1,
+            "source_generation_index_valuation": 0
+          }
+        },
+        {
+          "degree": 4,
+          "ambient_rank": 12,
+          "full_integer_factors": [
+            22
+          ],
+          "p_primary": [
+            11
+          ],
+          "partition_multiplicity": 1,
+          "in_theorem_range": true,
+          "explicit_partition_basis": {
+            "integral_representatives": 1,
+            "source_generation_index_valuation": 0
+          }
+        },
+        {
+          "degree": 5,
+          "ambient_rank": 19,
+          "full_integer_factors": [
+            11,
+            11
+          ],
+          "p_primary": [
+            11,
+            11
+          ],
+          "partition_multiplicity": 2,
+          "in_theorem_range": true,
+          "explicit_partition_basis": {
+            "integral_representatives": 2,
+            "source_generation_index_valuation": 0
+          }
+        },
+        {
+          "degree": 6,
+          "ambient_rank": 30,
+          "full_integer_factors": [
+            22,
+            22
+          ],
+          "p_primary": [
+            11,
+            11
+          ],
+          "partition_multiplicity": 2,
+          "in_theorem_range": true,
+          "explicit_partition_basis": {
+            "integral_representatives": 2,
+            "source_generation_index_valuation": 0
+          }
+        },
+        {
+          "degree": 7,
+          "ambient_rank": 45,
+          "full_integer_factors": [
+            11,
+            11,
+            11,
+            11
+          ],
+          "p_primary": [
+            11,
+            11,
+            11,
+            11
+          ],
+          "partition_multiplicity": 4,
+          "in_theorem_range": true,
+          "explicit_partition_basis": {
+            "integral_representatives": 4,
+            "source_generation_index_valuation": 0
+          }
+        },
+        {
+          "degree": 8,
+          "ambient_rank": 67,
+          "full_integer_factors": [
+            11,
+            22,
+            22,
+            22
+          ],
+          "p_primary": [
+            11,
+            11,
+            11,
+            11
+          ],
+          "partition_multiplicity": 4,
+          "in_theorem_range": true,
+          "explicit_partition_basis": {
+            "integral_representatives": 4,
+            "source_generation_index_valuation": 0
+          }
+        },
+        {
+          "degree": 9,
+          "ambient_rank": 97,
+          "full_integer_factors": [
+            11,
+            11,
+            11,
+            11,
+            11,
+            11
+          ],
+          "p_primary": [
+            11,
+            11,
+            11,
+            11,
+            11,
+            11
+          ],
+          "partition_multiplicity": 6,
+          "in_theorem_range": true,
+          "explicit_partition_basis": {
+            "integral_representatives": 6,
+            "source_generation_index_valuation": 0
+          }
+        },
+        {
+          "degree": 10,
+          "ambient_rank": 139,
+          "full_integer_factors": [
+            11,
+            11,
+            11,
+            22,
+            22,
+            22,
+            22
+          ],
+          "p_primary": [
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11
+          ],
+          "partition_multiplicity": 7,
+          "in_theorem_range": true,
+          "explicit_partition_basis": {
+            "integral_representatives": 7,
+            "source_generation_index_valuation": 0
+          }
+        },
+        {
+          "degree": 11,
+          "ambient_rank": 195,
+          "full_integer_factors": [
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11
+          ],
+          "p_primary": [
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11
+          ],
+          "partition_multiplicity": 9,
+          "in_theorem_range": true,
+          "explicit_partition_basis": {
+            "integral_representatives": 9,
+            "source_generation_index_valuation": 0
+          }
+        },
+        {
+          "degree": 12,
+          "ambient_rank": 272,
+          "full_integer_factors": [
+            11,
+            11,
+            11,
+            11,
+            11,
+            22,
+            22,
+            22,
+            22,
+            22
+          ],
+          "p_primary": [
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11
+          ],
+          "partition_multiplicity": 10,
+          "in_theorem_range": true,
+          "explicit_partition_basis": {
+            "integral_representatives": 10,
+            "source_generation_index_valuation": 0
+          }
+        }
+      ],
+      "root_boundary_included": false,
+      "boundary_control": false,
+      "first_reduced_order_class": null,
+      "nonannihilation_by_first_generator": {
+        "degree": 7,
+        "full_order": 11,
+        "p_primary_order": 11
+      }
+    },
+    {
+      "m": 121,
+      "p": 11,
+      "v_p_m": 2,
+      "degrees": [
+        {
+          "degree": 1,
+          "ambient_rank": 2,
+          "full_integer_factors": [],
+          "p_primary": [],
+          "partition_multiplicity": 0,
+          "in_theorem_range": true,
+          "explicit_partition_basis": {
+            "integral_representatives": 0,
+            "source_generation_index_valuation": 0
+          }
+        },
+        {
+          "degree": 2,
+          "ambient_rank": 4,
+          "full_integer_factors": [],
+          "p_primary": [],
+          "partition_multiplicity": 0,
+          "in_theorem_range": true,
+          "explicit_partition_basis": {
+            "integral_representatives": 0,
+            "source_generation_index_valuation": 0
+          }
+        },
+        {
+          "degree": 3,
+          "ambient_rank": 7,
+          "full_integer_factors": [
+            121
+          ],
+          "p_primary": [
+            121
+          ],
+          "partition_multiplicity": 1,
+          "in_theorem_range": true,
+          "explicit_partition_basis": {
+            "integral_representatives": 1,
+            "source_generation_index_valuation": 0
+          }
+        },
+        {
+          "degree": 4,
+          "ambient_rank": 12,
+          "full_integer_factors": [
+            121
+          ],
+          "p_primary": [
+            121
+          ],
+          "partition_multiplicity": 1,
+          "in_theorem_range": true,
+          "explicit_partition_basis": {
+            "integral_representatives": 1,
+            "source_generation_index_valuation": 0
+          }
+        },
+        {
+          "degree": 5,
+          "ambient_rank": 19,
+          "full_integer_factors": [
+            121,
+            121
+          ],
+          "p_primary": [
+            121,
+            121
+          ],
+          "partition_multiplicity": 2,
+          "in_theorem_range": true,
+          "explicit_partition_basis": {
+            "integral_representatives": 2,
+            "source_generation_index_valuation": 0
+          }
+        },
+        {
+          "degree": 6,
+          "ambient_rank": 30,
+          "full_integer_factors": [
+            121,
+            121
+          ],
+          "p_primary": [
+            121,
+            121
+          ],
+          "partition_multiplicity": 2,
+          "in_theorem_range": true,
+          "explicit_partition_basis": {
+            "integral_representatives": 2,
+            "source_generation_index_valuation": 0
+          }
+        },
+        {
+          "degree": 7,
+          "ambient_rank": 45,
+          "full_integer_factors": [
+            121,
+            121,
+            121,
+            121
+          ],
+          "p_primary": [
+            121,
+            121,
+            121,
+            121
+          ],
+          "partition_multiplicity": 4,
+          "in_theorem_range": true,
+          "explicit_partition_basis": {
+            "integral_representatives": 4,
+            "source_generation_index_valuation": 0
+          }
+        },
+        {
+          "degree": 8,
+          "ambient_rank": 67,
+          "full_integer_factors": [
+            121,
+            121,
+            121,
+            121
+          ],
+          "p_primary": [
+            121,
+            121,
+            121,
+            121
+          ],
+          "partition_multiplicity": 4,
+          "in_theorem_range": true,
+          "explicit_partition_basis": {
+            "integral_representatives": 4,
+            "source_generation_index_valuation": 0
+          }
+        },
+        {
+          "degree": 9,
+          "ambient_rank": 97,
+          "full_integer_factors": [
+            121,
+            121,
+            121,
+            121,
+            121,
+            121
+          ],
+          "p_primary": [
+            121,
+            121,
+            121,
+            121,
+            121,
+            121
+          ],
+          "partition_multiplicity": 6,
+          "in_theorem_range": true,
+          "explicit_partition_basis": {
+            "integral_representatives": 6,
+            "source_generation_index_valuation": 0
+          }
+        },
+        {
+          "degree": 10,
+          "ambient_rank": 139,
+          "full_integer_factors": [
+            121,
+            121,
+            121,
+            121,
+            121,
+            121,
+            121
+          ],
+          "p_primary": [
+            121,
+            121,
+            121,
+            121,
+            121,
+            121,
+            121
+          ],
+          "partition_multiplicity": 7,
+          "in_theorem_range": true,
+          "explicit_partition_basis": {
+            "integral_representatives": 7,
+            "source_generation_index_valuation": 0
+          }
+        },
+        {
+          "degree": 11,
+          "ambient_rank": 195,
+          "full_integer_factors": [
+            121,
+            121,
+            121,
+            121,
+            121,
+            121,
+            121,
+            121,
+            121
+          ],
+          "p_primary": [
+            121,
+            121,
+            121,
+            121,
+            121,
+            121,
+            121,
+            121,
+            121
+          ],
+          "partition_multiplicity": 9,
+          "in_theorem_range": true,
+          "explicit_partition_basis": {
+            "integral_representatives": 9,
+            "source_generation_index_valuation": 0
+          }
+        },
+        {
+          "degree": 12,
+          "ambient_rank": 272,
+          "full_integer_factors": [
+            121,
+            121,
+            121,
+            121,
+            121,
+            121,
+            121,
+            121,
+            121,
+            121
+          ],
+          "p_primary": [
+            121,
+            121,
+            121,
+            121,
+            121,
+            121,
+            121,
+            121,
+            121,
+            121
+          ],
+          "partition_multiplicity": 10,
+          "in_theorem_range": true,
+          "explicit_partition_basis": {
+            "integral_representatives": 10,
+            "source_generation_index_valuation": 0
+          }
+        }
+      ],
+      "root_boundary_included": false,
+      "boundary_control": false,
+      "first_reduced_order_class": null,
+      "nonannihilation_by_first_generator": {
+        "degree": 7,
+        "full_order": 121,
+        "p_primary_order": 121
+      }
+    },
+    {
+      "m": 7,
+      "p": 7,
+      "v_p_m": 1,
+      "degrees": [
+        {
+          "degree": 1,
+          "ambient_rank": 2,
+          "full_integer_factors": [],
+          "p_primary": [],
+          "partition_multiplicity": 0,
+          "in_theorem_range": true,
+          "explicit_partition_basis": {
+            "integral_representatives": 0,
+            "source_generation_index_valuation": 0
+          }
+        },
+        {
+          "degree": 2,
+          "ambient_rank": 4,
+          "full_integer_factors": [],
+          "p_primary": [],
+          "partition_multiplicity": 0,
+          "in_theorem_range": true,
+          "explicit_partition_basis": {
+            "integral_representatives": 0,
+            "source_generation_index_valuation": 0
+          }
+        },
+        {
+          "degree": 3,
+          "ambient_rank": 7,
+          "full_integer_factors": [
+            7
+          ],
+          "p_primary": [
+            7
+          ],
+          "partition_multiplicity": 1,
+          "in_theorem_range": true,
+          "explicit_partition_basis": {
+            "integral_representatives": 1,
+            "source_generation_index_valuation": 0
+          }
+        },
+        {
+          "degree": 4,
+          "ambient_rank": 12,
+          "full_integer_factors": [
+            7
+          ],
+          "p_primary": [
+            7
+          ],
+          "partition_multiplicity": 1,
+          "in_theorem_range": true,
+          "explicit_partition_basis": {
+            "integral_representatives": 1,
+            "source_generation_index_valuation": 0
+          }
+        },
+        {
+          "degree": 5,
+          "ambient_rank": 19,
+          "full_integer_factors": [
+            7,
+            7
+          ],
+          "p_primary": [
+            7,
+            7
+          ],
+          "partition_multiplicity": 2,
+          "in_theorem_range": true,
+          "explicit_partition_basis": {
+            "integral_representatives": 2,
+            "source_generation_index_valuation": 0
+          }
+        },
+        {
+          "degree": 6,
+          "ambient_rank": 30,
+          "full_integer_factors": [
+            7,
+            7
+          ],
+          "p_primary": [
+            7,
+            7
+          ],
+          "partition_multiplicity": 2,
+          "in_theorem_range": true,
+          "explicit_partition_basis": {
+            "integral_representatives": 2,
+            "source_generation_index_valuation": 0
+          }
+        },
+        {
+          "degree": 7,
+          "ambient_rank": 44,
+          "full_integer_factors": [
+            7,
+            7,
+            7,
+            7
+          ],
+          "p_primary": [
+            7,
+            7,
+            7,
+            7
+          ],
+          "partition_multiplicity": 4,
+          "in_theorem_range": true,
+          "explicit_partition_basis": {
+            "integral_representatives": 4,
+            "source_generation_index_valuation": 0
+          }
+        },
+        {
+          "degree": 8,
+          "ambient_rank": 64,
+          "full_integer_factors": [
+            7,
+            7,
+            7,
+            7
+          ],
+          "p_primary": [
+            7,
+            7,
+            7,
+            7
+          ],
+          "partition_multiplicity": 4,
+          "in_theorem_range": true,
+          "explicit_partition_basis": {
+            "integral_representatives": 4,
+            "source_generation_index_valuation": 0
+          }
+        }
+      ],
+      "root_boundary_included": true,
+      "boundary_control": false,
+      "first_reduced_order_class": null,
+      "nonannihilation_by_first_generator": null
+    },
+    {
+      "m": 3,
+      "p": 3,
+      "v_p_m": 1,
+      "degrees": [
+        {
+          "degree": 1,
+          "ambient_rank": 2,
+          "full_integer_factors": [],
+          "p_primary": [],
+          "partition_multiplicity": 0,
+          "in_theorem_range": true,
+          "explicit_partition_basis": {
+            "integral_representatives": 0,
+            "source_generation_index_valuation": 0
+          }
+        },
+        {
+          "degree": 2,
+          "ambient_rank": 4,
+          "full_integer_factors": [],
+          "p_primary": [],
+          "partition_multiplicity": 0,
+          "in_theorem_range": true,
+          "explicit_partition_basis": {
+            "integral_representatives": 0,
+            "source_generation_index_valuation": 0
+          }
+        },
+        {
+          "degree": 3,
+          "ambient_rank": 6,
+          "full_integer_factors": [
+            3
+          ],
+          "p_primary": [
+            3
+          ],
+          "partition_multiplicity": 1,
+          "in_theorem_range": true,
+          "explicit_partition_basis": {
+            "integral_representatives": 1,
+            "source_generation_index_valuation": 0
+          }
+        },
+        {
+          "degree": 4,
+          "ambient_rank": 9,
+          "full_integer_factors": [
+            3
+          ],
+          "p_primary": [
+            3
+          ],
+          "partition_multiplicity": 1,
+          "in_theorem_range": true,
+          "explicit_partition_basis": {
+            "integral_representatives": 1,
+            "source_generation_index_valuation": 0
+          }
+        }
+      ],
+      "root_boundary_included": true,
+      "boundary_control": false,
+      "first_reduced_order_class": null,
+      "nonannihilation_by_first_generator": null
+    },
+    {
+      "m": 10,
+      "p": 5,
+      "v_p_m": 1,
+      "degrees": [
+        {
+          "degree": 1,
+          "ambient_rank": 2,
+          "full_integer_factors": [],
+          "p_primary": [],
+          "partition_multiplicity": 0,
+          "in_theorem_range": true,
+          "explicit_partition_basis": {
+            "integral_representatives": 0,
+            "source_generation_index_valuation": 0
+          }
+        },
+        {
+          "degree": 2,
+          "ambient_rank": 4,
+          "full_integer_factors": [],
+          "p_primary": [],
+          "partition_multiplicity": 0,
+          "in_theorem_range": true,
+          "explicit_partition_basis": {
+            "integral_representatives": 0,
+            "source_generation_index_valuation": 0
+          }
+        },
+        {
+          "degree": 3,
+          "ambient_rank": 7,
+          "full_integer_factors": [
+            5
+          ],
+          "p_primary": [
+            5
+          ],
+          "partition_multiplicity": 1,
+          "in_theorem_range": true,
+          "explicit_partition_basis": {
+            "integral_representatives": 1,
+            "source_generation_index_valuation": 0
+          }
+        },
+        {
+          "degree": 4,
+          "ambient_rank": 12,
+          "full_integer_factors": [
+            10
+          ],
+          "p_primary": [
+            5
+          ],
+          "partition_multiplicity": 1,
+          "in_theorem_range": true,
+          "explicit_partition_basis": {
+            "integral_representatives": 1,
+            "source_generation_index_valuation": 0
+          }
+        },
+        {
+          "degree": 5,
+          "ambient_rank": 19,
+          "full_integer_factors": [
+            5,
+            5
+          ],
+          "p_primary": [
+            5,
+            5
+          ],
+          "partition_multiplicity": 2,
+          "in_theorem_range": true,
+          "explicit_partition_basis": {
+            "integral_representatives": 2,
+            "source_generation_index_valuation": 0
+          }
+        },
+        {
+          "degree": 6,
+          "ambient_rank": 30,
+          "full_integer_factors": [
+            10,
+            10
+          ],
+          "p_primary": [
+            5,
+            5
+          ],
+          "partition_multiplicity": 2,
+          "in_theorem_range": true,
+          "explicit_partition_basis": {
+            "integral_representatives": 2,
+            "source_generation_index_valuation": 0
+          }
+        },
+        {
+          "degree": 7,
+          "ambient_rank": 45,
+          "full_integer_factors": [
+            5,
+            5,
+            5
+          ],
+          "p_primary": [
+            5,
+            5,
+            5
+          ],
+          "partition_multiplicity": 4,
+          "in_theorem_range": false,
+          "explicit_partition_basis": null
+        }
+      ],
+      "root_boundary_included": false,
+      "boundary_control": true,
+      "first_reduced_order_class": {
+        "degree": 7,
+        "full_order": 1,
+        "proved_annihilator": 2,
+        "full_smith_formula_in_this_degree_claimed": false
+      },
+      "nonannihilation_by_first_generator": null
+    }
+  ],
+  "tensor_gluing_certificate": {
+    "family_dimension": 28,
+    "ambient_invariant_dimension": 11,
+    "compatibility_shape": [
+      110,
+      28
+    ],
+    "compatibility_rank": 17,
+    "compatibility_nonunit_smith": [
+      2
+    ],
+    "ambient_restriction_nonunit_smith": [],
+    "coefficient_condition_rank": 10,
+    "coefficient_condition_nonunit_smith": [],
+    "coefficient_kernel": "span(u0*v0^2)",
+    "method": "Independent Sage polynomial substitution, invariant orbit sums, exact integer Smith forms."
+  },
+  "cubic_prime_three_certificate": {
+    "prime": 3,
+    "weight": 5,
+    "coefficient_degree": 3,
+    "source_rank": 16,
+    "ideal_rank": 15,
+    "source_nonunit_smith": [
+      2
+    ],
+    "ideal_nonunit_smith": [
+      2
+    ],
+    "three_saturated": true
+  },
+  "method": "Exhaustive homogeneous elementary-jet lattices over ZZ; full coefficient ideal in each checked degree; integral Smith quotients.",
+  "moment_or_apolar_builder_imported": false,
+  "all_rank_claim_from_finite_checks": false,
+  "uniform_cubic_annihilator_uses_exact_parameter_independent_tensor_certificate": true,
+  "full_degree_p_plus_two_multiplicity_formula": false,
+  "unrestricted_degrees_above_p_claimed": false,
+  "prime_boundary_claimed": true,
+  "degree_p_plus_one_claimed_for_odd_p_including_root_boundary": true,
+  "public_api_changed": false,
+  "external_review": false,
+  "source_sha256": {
+    "TYPE_A_K_STABLE_MULTIPLICITIES.md": "1e828e154b3cac8141c12a96471d01e913b0636539ea4c5e5992c7da1897c508",
+    "tools/verify_type_a_k_stable_multiplicities.py": "d6e4d4b0f3c59cddb8b5a170ab40f213ab6e67528c929754a0480796fc69c927"
+  }
+}

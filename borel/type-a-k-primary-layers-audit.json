@@ -247,7 +247,7 @@
   ],
   "scope": "Independent exact identities and finite abelian kernels; uniform completeness and quotient transfer are proved in the note.",
   "source_sha256": {
-    "TYPE_A_K_PRIMARY_LAYERS.md": "c003467229f67ea87768f1191c60a7039a247004a8214a243ffd541240b80590",
+    "TYPE_A_K_PRIMARY_LAYERS.md": "8675c7c9eb2617c5df0dccd49f71fc1925e16adf53075549d7abab50baffa92e",
     "tools/audit_type_a_k_primary_layers.py": "4ccabac273e8fe1967a22eb05fdb123d90bcee1cae5f75c5a084a8a8ddad9b37"
   }
 }

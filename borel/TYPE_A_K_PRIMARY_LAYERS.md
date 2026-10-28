@@ -24,10 +24,14 @@ enumeration. For m=5 the full kernel has twenty factors 5 while this
 quotient has four; the lower bound need not be sharp. For m=4 it matches
 the previously certified full kernel Z/2 plus (Z/4)^2.
 
-**Still conjectural:** m Delta_m=0 for every m>=2. Complete full-image
-calculations through m=6 satisfy this. The preceding theorem does not
-prove an upper bound of that strength. Section 5 explains exactly why the
-previous determinant mechanism alone cannot do so.
+**Update, 28 October:** [IMG-39](TYPE_A_K_INTEGRAL_RECURRENCE.md) proves
+m Delta_m=0 for every m>=2 by an integral difference-trace recurrence.
+Together with the quotient above, this proves exact exponent m for prime
+powers m>=3. Its largest-order quotient (Z/m)^phi(m) now splits, since it
+is free over Z/m; splitting of the entire mixed-exponent quotient is not
+asserted. The upper bound was conjectural when this note was written.
+Section 5 explains why the earlier determinant mechanism alone could not
+prove it.
 
 ## 2. Base change gives quotient defects, not upper bounds
 
@@ -201,7 +205,15 @@ its resulting lower bound are repository deductions, not externally
 reviewed results or established novelty claims. No new literature
 classification of these defects is asserted.
 
-Next: prove or disprove m Delta_m=0 from the full multiplicative source
+Update, 28 October: [IMG-39](TYPE_A_K_INTEGRAL_RECURRENCE.md) now proves
+m Delta_m=0 in every rank using an integral difference-trace recurrence.
+Thus the prime-power lower bound here gives the EXACT full exponent m;
+IMG-39's independent degree-three argument also settles every mixed m.
+The largest-order quotient (Z/m)^phi(m) now splits, but the whole
+mixed-exponent quotient is not asserted to split and full multiplicities
+remain unknown.
+
+Historical next target: prove or disprove m Delta_m=0 from the full multiplicative source
 relations. The precise missing step is a mechanism controlling the full
 augmentation kernel, not merely its quotients under coefficient changes.
 The prime-power family calculation gives a rigorous lower bound and a compact

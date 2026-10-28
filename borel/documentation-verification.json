@@ -20,6 +20,22 @@
       "python_blocks_executed": 0
     },
     {
+      "file": "TYPE_A_K_ANNIHILATOR.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "TYPE_A_K_GRADED_LIFTS.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "TYPE_A_K_INTEGRAL_RECURRENCE.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "TYPE_A_K_STABLE_MULTIPLICITIES.md",
+      "python_blocks_executed": 0
+    },
+    {
       "file": "CLASSICAL_POLYNOMIAL_ADJOINT_BLOCKS.md",
       "python_blocks_executed": 0
     },
@@ -768,7 +784,7 @@
       "python_blocks_executed": 0
     }
   ],
-  "local_links_and_anchors_checked": 2434,
+  "local_links_and_anchors_checked": 2480,
   "python_blocks_executed": 54,
   "scope": "Python fences executed in reading order in a fresh namespace per document; local links and anchors checked. Shell snippets and external URLs were not automatically executed or crawled."
 }

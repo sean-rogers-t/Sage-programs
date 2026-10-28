@@ -1,0 +1,49 @@
+{
+  "result": "passed",
+  "full_image_cases": [
+    {
+      "m": 2,
+      "primitive_full_kernel_basis": true,
+      "explicit_annihilation_identity": true,
+      "kernel_rank": 0
+    },
+    {
+      "m": 3,
+      "primitive_full_kernel_basis": true,
+      "explicit_annihilation_identity": true,
+      "kernel_rank": 3
+    },
+    {
+      "m": 4,
+      "primitive_full_kernel_basis": true,
+      "explicit_annihilation_identity": true,
+      "kernel_rank": 4
+    },
+    {
+      "m": 5,
+      "primitive_full_kernel_basis": true,
+      "explicit_annihilation_identity": true,
+      "kernel_rank": 27
+    },
+    {
+      "m": 6,
+      "primitive_full_kernel_basis": true,
+      "explicit_annihilation_identity": true,
+      "kernel_rank": 46
+    }
+  ],
+  "ordinary_content_ranks": 63,
+  "local_basis_checks": 102,
+  "quadratic_table_checks": 75909,
+  "cubic_second_order_control": true,
+  "two_uniform_low_degree_lifts_symbolically_verified": true,
+  "arbitrary_rank_annihilator_proved": false,
+  "source_sha256": {
+    "TYPE_A_K_ANNIHILATOR.md": "fbb59cc16945d021f5ea67fd604a6b88aabcb72f08f61a0948e697c9aeacf94f",
+    "tools/audit_type_a_k_annihilator.py": "6728750593c343313c04d20ae7f9602ebb69fdce8eaa7fbf1b2baf9ad15c6b64",
+    "type-a-k-annihilator-witnesses.json": "044ef2a443cb4bbfbfb06419937c5be52186e2eb7f43c6e562b111ec3991f0db"
+  },
+  "historical_method_date": "2026-10-27",
+  "superseded_by": "TYPE_A_K_INTEGRAL_RECURRENCE.md",
+  "scope": "Independent finite integer witnesses and arithmetic checks. This earlier method does not prove the uniform annihilator; the subsequent trace recurrence does. The negative flag records this method only."
+}

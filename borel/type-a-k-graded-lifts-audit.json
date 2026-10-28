@@ -1,0 +1,45 @@
+{
+  "result": "passed",
+  "cases": [
+    {
+      "m": 3,
+      "auxiliary_identities": 21,
+      "overflow": 2,
+      "lower": 1,
+      "all_pairs_covered": true
+    },
+    {
+      "m": 4,
+      "auxiliary_identities": 63,
+      "overflow": 4,
+      "lower": 2,
+      "all_pairs_covered": true
+    },
+    {
+      "m": 7,
+      "auxiliary_identities": 793,
+      "overflow": 12,
+      "lower": 9,
+      "all_pairs_covered": true
+    }
+  ],
+  "integer_polynomial_identities": 907,
+  "translation_coefficient_checks": 20447,
+  "full_defect_annihilator_certified_ranks": [
+    3,
+    4,
+    7
+  ],
+  "uniform_overflow_annihilation_proved": false,
+  "source_sha256": {
+    "experiments/type-a-k-graded-lifts-3.json.gz": "44cbfd9c366def4ac76dc71c690d39e001ac19cf9b67df54291887c511f0da23",
+    "experiments/type-a-k-graded-lifts-4.json.gz": "6fe13b272ea709f2a2e73a0c9963d4fea76e46a5dbbd0e1ca6ae136358bd5252",
+    "experiments/type-a-k-graded-lifts-7.json.gz": "f036d11531da4d16d9c53b3da5ef9a9375b13e4cc1bfe26fbe83f9bf8fff6d9c",
+    "tools/audit_type_a_k_graded_lifts.py": "ccb9b13016ec22a7fe219da9cdb7575d7f25e5e99d16b9316b8096aa3a2867b3",
+    "experiments/type_a_k_graded_lifts.py": "251e92bc8b50d2a016ff9d2e6c58cd14c8b23b9b99314fac30593f97a435ca36",
+    "TYPE_A_K_GRADED_LIFTS.md": "d62b205c5a1c3625aeca1e58c0353f62da34001b3bcbe38d62567ab6472e3eaa"
+  },
+  "historical_method_date": "2026-10-27",
+  "superseded_by": "TYPE_A_K_INTEGRAL_RECURRENCE.md",
+  "scope": "Independent finite replay of integer polynomial identities in the full universal source. This earlier method does not prove arbitrary-rank witnesses; the subsequent trace recurrence does. The negative flag records this method only."
+}

@@ -1,0 +1,1276 @@
+{
+  "result": "passed",
+  "apolar_spaces": [
+    {
+      "k": 1,
+      "degree": 1,
+      "source_rank": 2,
+      "ideal_rank": 1,
+      "sector_rank": 0,
+      "primes": [
+        2,
+        3
+      ]
+    },
+    {
+      "k": 1,
+      "degree": 2,
+      "source_rank": 2,
+      "ideal_rank": 1,
+      "sector_rank": 0,
+      "primes": [
+        3,
+        5
+      ]
+    },
+    {
+      "k": 1,
+      "degree": 3,
+      "source_rank": 2,
+      "ideal_rank": 1,
+      "sector_rank": 0,
+      "primes": [
+        5,
+        7
+      ]
+    },
+    {
+      "k": 1,
+      "degree": 4,
+      "source_rank": 2,
+      "ideal_rank": 1,
+      "sector_rank": 0,
+      "primes": [
+        5,
+        7
+      ]
+    },
+    {
+      "k": 1,
+      "degree": 5,
+      "source_rank": 2,
+      "ideal_rank": 1,
+      "sector_rank": 0,
+      "primes": [
+        7,
+        11
+      ]
+    },
+    {
+      "k": 1,
+      "degree": 6,
+      "source_rank": 2,
+      "ideal_rank": 1,
+      "sector_rank": 0,
+      "primes": [
+        7,
+        11
+      ]
+    },
+    {
+      "k": 1,
+      "degree": 7,
+      "source_rank": 2,
+      "ideal_rank": 1,
+      "sector_rank": 0,
+      "primes": [
+        11,
+        13
+      ]
+    },
+    {
+      "k": 1,
+      "degree": 8,
+      "source_rank": 2,
+      "ideal_rank": 1,
+      "sector_rank": 0,
+      "primes": [
+        11,
+        13
+      ]
+    },
+    {
+      "k": 2,
+      "degree": 1,
+      "source_rank": 2,
+      "ideal_rank": 1,
+      "sector_rank": 0,
+      "primes": [
+        3,
+        5
+      ]
+    },
+    {
+      "k": 2,
+      "degree": 2,
+      "source_rank": 4,
+      "ideal_rank": 3,
+      "sector_rank": 0,
+      "primes": [
+        3,
+        5
+      ]
+    },
+    {
+      "k": 2,
+      "degree": 3,
+      "source_rank": 6,
+      "ideal_rank": 4,
+      "sector_rank": 1,
+      "primes": [
+        5,
+        7
+      ]
+    },
+    {
+      "k": 2,
+      "degree": 4,
+      "source_rank": 8,
+      "ideal_rank": 6,
+      "sector_rank": 1,
+      "primes": [
+        5,
+        7
+      ]
+    },
+    {
+      "k": 2,
+      "degree": 5,
+      "source_rank": 10,
+      "ideal_rank": 7,
+      "sector_rank": 2,
+      "primes": [
+        7,
+        11
+      ]
+    },
+    {
+      "k": 2,
+      "degree": 6,
+      "source_rank": 12,
+      "ideal_rank": 9,
+      "sector_rank": 2,
+      "primes": [
+        7,
+        11
+      ]
+    },
+    {
+      "k": 2,
+      "degree": 7,
+      "source_rank": 14,
+      "ideal_rank": 10,
+      "sector_rank": 3,
+      "primes": [
+        11,
+        13
+      ]
+    },
+    {
+      "k": 2,
+      "degree": 8,
+      "source_rank": 16,
+      "ideal_rank": 12,
+      "sector_rank": 3,
+      "primes": [
+        11,
+        13
+      ]
+    },
+    {
+      "k": 2,
+      "degree": 9,
+      "source_rank": 18,
+      "ideal_rank": 13,
+      "sector_rank": 4,
+      "primes": [
+        11,
+        13
+      ]
+    },
+    {
+      "k": 2,
+      "degree": 10,
+      "source_rank": 20,
+      "ideal_rank": 15,
+      "sector_rank": 4,
+      "primes": [
+        11,
+        13
+      ]
+    },
+    {
+      "k": 3,
+      "degree": 3,
+      "source_rank": 7,
+      "ideal_rank": 6,
+      "sector_rank": 0,
+      "primes": [
+        5,
+        7
+      ]
+    },
+    {
+      "k": 3,
+      "degree": 4,
+      "source_rank": 11,
+      "ideal_rank": 10,
+      "sector_rank": 0,
+      "primes": [
+        5,
+        7
+      ]
+    },
+    {
+      "k": 3,
+      "degree": 5,
+      "source_rank": 16,
+      "ideal_rank": 15,
+      "sector_rank": 0,
+      "primes": [
+        7,
+        11
+      ]
+    },
+    {
+      "k": 3,
+      "degree": 6,
+      "source_rank": 23,
+      "ideal_rank": 22,
+      "sector_rank": 0,
+      "primes": [
+        7,
+        11
+      ]
+    },
+    {
+      "k": 3,
+      "degree": 7,
+      "source_rank": 31,
+      "ideal_rank": 29,
+      "sector_rank": 1,
+      "primes": [
+        11,
+        13
+      ]
+    },
+    {
+      "k": 3,
+      "degree": 8,
+      "source_rank": 40,
+      "ideal_rank": 38,
+      "sector_rank": 1,
+      "primes": [
+        11,
+        13
+      ]
+    },
+    {
+      "k": 3,
+      "degree": 9,
+      "source_rank": 51,
+      "ideal_rank": 48,
+      "sector_rank": 2,
+      "primes": [
+        11,
+        13
+      ]
+    },
+    {
+      "k": 3,
+      "degree": 10,
+      "source_rank": 63,
+      "ideal_rank": 59,
+      "sector_rank": 3,
+      "primes": [
+        11,
+        13
+      ]
+    },
+    {
+      "k": 4,
+      "degree": 6,
+      "source_rank": 27,
+      "ideal_rank": 26,
+      "sector_rank": 0,
+      "primes": [
+        7,
+        11
+      ]
+    },
+    {
+      "k": 4,
+      "degree": 7,
+      "source_rank": 38,
+      "ideal_rank": 37,
+      "sector_rank": 0,
+      "primes": [
+        11,
+        13
+      ]
+    },
+    {
+      "k": 4,
+      "degree": 8,
+      "source_rank": 53,
+      "ideal_rank": 52,
+      "sector_rank": 0,
+      "primes": [
+        11,
+        13
+      ]
+    }
+  ],
+  "moment_trace": {
+    "hasse_identities": 8,
+    "symbolic_mass_kernel_trace_identities": 3
+  },
+  "primitive_classes": [
+    {
+      "k": 2,
+      "threshold": 3,
+      "binary_exponents": [
+        1,
+        2
+      ],
+      "coefficient": 1,
+      "differential_pairing": 2
+    },
+    {
+      "k": 3,
+      "threshold": 7,
+      "binary_exponents": [
+        1,
+        2,
+        4
+      ],
+      "coefficient": 1,
+      "differential_pairing": 48
+    },
+    {
+      "k": 4,
+      "threshold": 15,
+      "binary_exponents": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "coefficient": 1,
+      "differential_pairing": 1935360
+    }
+  ],
+  "complete_cubic_piece": {
+    "symbolic_source_identities": 2,
+    "residue_families": [
+      {
+        "residue_mod_12": 0,
+        "generator_multiple": 1
+      },
+      {
+        "residue_mod_12": 1,
+        "generator_multiple": 3
+      },
+      {
+        "residue_mod_12": 2,
+        "generator_multiple": 1
+      },
+      {
+        "residue_mod_12": 3,
+        "generator_multiple": 1
+      },
+      {
+        "residue_mod_12": 4,
+        "generator_multiple": 3
+      },
+      {
+        "residue_mod_12": 5,
+        "generator_multiple": 1
+      },
+      {
+        "residue_mod_12": 6,
+        "generator_multiple": 1
+      },
+      {
+        "residue_mod_12": 7,
+        "generator_multiple": 3
+      },
+      {
+        "residue_mod_12": 8,
+        "generator_multiple": 1
+      },
+      {
+        "residue_mod_12": 9,
+        "generator_multiple": 1
+      },
+      {
+        "residue_mod_12": 10,
+        "generator_multiple": 3
+      },
+      {
+        "residue_mod_12": 11,
+        "generator_multiple": 1
+      }
+    ],
+    "order_input": "IMG-39 degree-three functional and maximal-minor proof",
+    "new_claim": "R_m generates the complete cubic defect; f_1 kills it"
+  },
+  "explicit_partition_basis_pairings": [
+    {
+      "k": 2,
+      "degree": 3,
+      "rank": 1,
+      "normalized_pairing_determinant": 1
+    },
+    {
+      "k": 2,
+      "degree": 4,
+      "rank": 1,
+      "normalized_pairing_determinant": 1
+    },
+    {
+      "k": 2,
+      "degree": 5,
+      "rank": 2,
+      "normalized_pairing_determinant": 1
+    },
+    {
+      "k": 2,
+      "degree": 6,
+      "rank": 2,
+      "normalized_pairing_determinant": 1
+    },
+    {
+      "k": 2,
+      "degree": 7,
+      "rank": 3,
+      "normalized_pairing_determinant": 1
+    },
+    {
+      "k": 2,
+      "degree": 8,
+      "rank": 3,
+      "normalized_pairing_determinant": 1
+    },
+    {
+      "k": 2,
+      "degree": 9,
+      "rank": 4,
+      "normalized_pairing_determinant": 1
+    },
+    {
+      "k": 2,
+      "degree": 10,
+      "rank": 4,
+      "normalized_pairing_determinant": 1
+    },
+    {
+      "k": 3,
+      "degree": 7,
+      "rank": 1,
+      "normalized_pairing_determinant": 1
+    },
+    {
+      "k": 3,
+      "degree": 8,
+      "rank": 1,
+      "normalized_pairing_determinant": 1
+    },
+    {
+      "k": 3,
+      "degree": 9,
+      "rank": 2,
+      "normalized_pairing_determinant": 1
+    },
+    {
+      "k": 3,
+      "degree": 10,
+      "rank": 3,
+      "normalized_pairing_determinant": 1
+    },
+    {
+      "k": 4,
+      "degree": 15,
+      "rank": 1,
+      "normalized_pairing_determinant": 1
+    },
+    {
+      "k": 4,
+      "degree": 16,
+      "rank": 1,
+      "normalized_pairing_determinant": 1
+    },
+    {
+      "k": 4,
+      "degree": 17,
+      "rank": 2,
+      "normalized_pairing_determinant": 1
+    }
+  ],
+  "first_prime_degree_comparison": {
+    "cases": [
+      {
+        "m": 2,
+        "p": 2,
+        "degree": 2,
+        "elementary": [],
+        "moment": [],
+        "root_equation_in_elementary_model": true
+      },
+      {
+        "m": 3,
+        "p": 3,
+        "degree": 3,
+        "elementary": [
+          3
+        ],
+        "moment": [
+          3
+        ],
+        "root_equation_in_elementary_model": true
+      },
+      {
+        "m": 6,
+        "p": 3,
+        "degree": 3,
+        "elementary": [
+          3
+        ],
+        "moment": [
+          3
+        ],
+        "root_equation_in_elementary_model": false
+      },
+      {
+        "m": 9,
+        "p": 3,
+        "degree": 3,
+        "elementary": [
+          9
+        ],
+        "moment": [
+          9
+        ],
+        "root_equation_in_elementary_model": false
+      },
+      {
+        "m": 5,
+        "p": 5,
+        "degree": 5,
+        "elementary": [
+          5,
+          5
+        ],
+        "moment": [
+          5,
+          5
+        ],
+        "root_equation_in_elementary_model": true
+      },
+      {
+        "m": 25,
+        "p": 5,
+        "degree": 5,
+        "elementary": [
+          25,
+          25
+        ],
+        "moment": [
+          25,
+          25
+        ],
+        "root_equation_in_elementary_model": false
+      }
+    ],
+    "symbolic_families": [
+      {
+        "p": 2,
+        "all_m_divisible_by_p_symbolic": true,
+        "integral_first_coordinate_and_frobenius_lift": true
+      },
+      {
+        "p": 3,
+        "all_m_divisible_by_p_symbolic": true,
+        "integral_first_coordinate_and_frobenius_lift": true
+      },
+      {
+        "p": 5,
+        "all_m_divisible_by_p_symbolic": true,
+        "integral_first_coordinate_and_frobenius_lift": true
+      },
+      {
+        "p": 7,
+        "all_m_divisible_by_p_symbolic": true,
+        "integral_first_coordinate_and_frobenius_lift": true
+      }
+    ],
+    "multiplicity_formula_at_d_equals_p_claimed": true
+  },
+  "square_zero_first_generator": {
+    "symbolic_every_rank_newton_identity": true,
+    "combined_with_proved_m_annihilator": true,
+    "first_generator_squared_annihilates_entire_defect": true
+  },
+  "prime_boundary_direct_moment_ranks": [
+    {
+      "p": 2,
+      "degree": 2,
+      "coefficient_degree": 1,
+      "ambient_rank": 3,
+      "rational_ranks": [
+        2,
+        1
+      ],
+      "modular_ranks": [
+        2,
+        1
+      ],
+      "both_images_p_saturated": true
+    },
+    {
+      "p": 3,
+      "degree": 3,
+      "coefficient_degree": 1,
+      "ambient_rank": 4,
+      "rational_ranks": [
+        2,
+        1
+      ],
+      "modular_ranks": [
+        2,
+        1
+      ],
+      "both_images_p_saturated": true
+    },
+    {
+      "p": 3,
+      "degree": 3,
+      "coefficient_degree": 2,
+      "ambient_rank": 6,
+      "rational_ranks": [
+        6,
+        4
+      ],
+      "modular_ranks": [
+        6,
+        4
+      ],
+      "both_images_p_saturated": true
+    },
+    {
+      "p": 5,
+      "degree": 5,
+      "coefficient_degree": 1,
+      "ambient_rank": 6,
+      "rational_ranks": [
+        2,
+        1
+      ],
+      "modular_ranks": [
+        2,
+        1
+      ],
+      "both_images_p_saturated": true
+    },
+    {
+      "p": 5,
+      "degree": 5,
+      "coefficient_degree": 2,
+      "ambient_rank": 12,
+      "rational_ranks": [
+        10,
+        7
+      ],
+      "modular_ranks": [
+        10,
+        7
+      ],
+      "both_images_p_saturated": true
+    },
+    {
+      "p": 5,
+      "degree": 5,
+      "coefficient_degree": 3,
+      "ambient_rank": 16,
+      "rational_ranks": [
+        16,
+        15
+      ],
+      "modular_ranks": [
+        16,
+        15
+      ],
+      "both_images_p_saturated": true
+    },
+    {
+      "p": 5,
+      "degree": 5,
+      "coefficient_degree": 4,
+      "ambient_rank": 18,
+      "rational_ranks": [
+        18,
+        17
+      ],
+      "modular_ranks": [
+        18,
+        17
+      ],
+      "both_images_p_saturated": true
+    },
+    {
+      "p": 7,
+      "degree": 7,
+      "coefficient_degree": 1,
+      "ambient_rank": 8,
+      "rational_ranks": [
+        2,
+        1
+      ],
+      "modular_ranks": [
+        2,
+        1
+      ],
+      "both_images_p_saturated": true
+    },
+    {
+      "p": 7,
+      "degree": 7,
+      "coefficient_degree": 2,
+      "ambient_rank": 20,
+      "rational_ranks": [
+        14,
+        10
+      ],
+      "modular_ranks": [
+        14,
+        10
+      ],
+      "both_images_p_saturated": true
+    },
+    {
+      "p": 7,
+      "degree": 7,
+      "coefficient_degree": 3,
+      "ambient_rank": 31,
+      "rational_ranks": [
+        31,
+        29
+      ],
+      "modular_ranks": [
+        31,
+        29
+      ],
+      "both_images_p_saturated": true
+    },
+    {
+      "p": 7,
+      "degree": 7,
+      "coefficient_degree": 4,
+      "ambient_rank": 38,
+      "rational_ranks": [
+        38,
+        37
+      ],
+      "modular_ranks": [
+        38,
+        37
+      ],
+      "both_images_p_saturated": true
+    },
+    {
+      "p": 7,
+      "degree": 7,
+      "coefficient_degree": 5,
+      "ambient_rank": 42,
+      "rational_ranks": [
+        42,
+        41
+      ],
+      "modular_ranks": [
+        42,
+        41
+      ],
+      "both_images_p_saturated": true
+    },
+    {
+      "p": 7,
+      "degree": 7,
+      "coefficient_degree": 6,
+      "ambient_rank": 44,
+      "rational_ranks": [
+        44,
+        43
+      ],
+      "modular_ranks": [
+        44,
+        43
+      ],
+      "both_images_p_saturated": true
+    },
+    {
+      "p": 3,
+      "degree": 4,
+      "coefficient_degree": 1,
+      "ambient_rank": 5,
+      "rational_ranks": [
+        2,
+        1
+      ],
+      "modular_ranks": [
+        2,
+        1
+      ],
+      "both_images_p_saturated": true
+    },
+    {
+      "p": 3,
+      "degree": 4,
+      "coefficient_degree": 2,
+      "ambient_rank": 9,
+      "rational_ranks": [
+        8,
+        6
+      ],
+      "modular_ranks": [
+        8,
+        6
+      ],
+      "both_images_p_saturated": true
+    },
+    {
+      "p": 3,
+      "degree": 4,
+      "coefficient_degree": 3,
+      "ambient_rank": 11,
+      "rational_ranks": [
+        11,
+        10
+      ],
+      "modular_ranks": [
+        11,
+        10
+      ],
+      "both_images_p_saturated": true
+    },
+    {
+      "p": 5,
+      "degree": 6,
+      "coefficient_degree": 1,
+      "ambient_rank": 7,
+      "rational_ranks": [
+        2,
+        1
+      ],
+      "modular_ranks": [
+        2,
+        1
+      ],
+      "both_images_p_saturated": true
+    },
+    {
+      "p": 5,
+      "degree": 6,
+      "coefficient_degree": 2,
+      "ambient_rank": 16,
+      "rational_ranks": [
+        12,
+        9
+      ],
+      "modular_ranks": [
+        12,
+        9
+      ],
+      "both_images_p_saturated": true
+    },
+    {
+      "p": 5,
+      "degree": 6,
+      "coefficient_degree": 3,
+      "ambient_rank": 23,
+      "rational_ranks": [
+        23,
+        22
+      ],
+      "modular_ranks": [
+        23,
+        22
+      ],
+      "both_images_p_saturated": true
+    },
+    {
+      "p": 5,
+      "degree": 6,
+      "coefficient_degree": 4,
+      "ambient_rank": 27,
+      "rational_ranks": [
+        27,
+        26
+      ],
+      "modular_ranks": [
+        27,
+        26
+      ],
+      "both_images_p_saturated": true
+    },
+    {
+      "p": 5,
+      "degree": 6,
+      "coefficient_degree": 5,
+      "ambient_rank": 29,
+      "rational_ranks": [
+        29,
+        28
+      ],
+      "modular_ranks": [
+        29,
+        28
+      ],
+      "both_images_p_saturated": true
+    },
+    {
+      "p": 7,
+      "degree": 8,
+      "coefficient_degree": 1,
+      "ambient_rank": 9,
+      "rational_ranks": [
+        2,
+        1
+      ],
+      "modular_ranks": [
+        2,
+        1
+      ],
+      "both_images_p_saturated": true
+    },
+    {
+      "p": 7,
+      "degree": 8,
+      "coefficient_degree": 2,
+      "ambient_rank": 25,
+      "rational_ranks": [
+        16,
+        12
+      ],
+      "modular_ranks": [
+        16,
+        12
+      ],
+      "both_images_p_saturated": true
+    },
+    {
+      "p": 7,
+      "degree": 8,
+      "coefficient_degree": 3,
+      "ambient_rank": 41,
+      "rational_ranks": [
+        40,
+        38
+      ],
+      "modular_ranks": [
+        40,
+        38
+      ],
+      "both_images_p_saturated": true
+    },
+    {
+      "p": 7,
+      "degree": 8,
+      "coefficient_degree": 4,
+      "ambient_rank": 53,
+      "rational_ranks": [
+        53,
+        52
+      ],
+      "modular_ranks": [
+        53,
+        52
+      ],
+      "both_images_p_saturated": true
+    },
+    {
+      "p": 7,
+      "degree": 8,
+      "coefficient_degree": 5,
+      "ambient_rank": 60,
+      "rational_ranks": [
+        60,
+        59
+      ],
+      "modular_ranks": [
+        60,
+        59
+      ],
+      "both_images_p_saturated": true
+    },
+    {
+      "p": 7,
+      "degree": 8,
+      "coefficient_degree": 6,
+      "ambient_rank": 64,
+      "rational_ranks": [
+        64,
+        63
+      ],
+      "modular_ranks": [
+        64,
+        63
+      ],
+      "both_images_p_saturated": true
+    },
+    {
+      "p": 7,
+      "degree": 8,
+      "coefficient_degree": 7,
+      "ambient_rank": 66,
+      "rational_ranks": [
+        66,
+        65
+      ],
+      "modular_ranks": [
+        66,
+        65
+      ],
+      "both_images_p_saturated": true
+    },
+    {
+      "p": 3,
+      "degree": 5,
+      "coefficient_degree": 1,
+      "ambient_rank": 6,
+      "rational_ranks": [
+        2,
+        1
+      ],
+      "modular_ranks": [
+        2,
+        1
+      ],
+      "both_images_p_saturated": true
+    },
+    {
+      "p": 3,
+      "degree": 5,
+      "coefficient_degree": 2,
+      "ambient_rank": 12,
+      "rational_ranks": [
+        10,
+        7
+      ],
+      "modular_ranks": [
+        10,
+        7
+      ],
+      "both_images_p_saturated": true
+    },
+    {
+      "p": 3,
+      "degree": 5,
+      "coefficient_degree": 3,
+      "ambient_rank": 16,
+      "rational_ranks": [
+        16,
+        15
+      ],
+      "modular_ranks": [
+        16,
+        15
+      ],
+      "both_images_p_saturated": true
+    },
+    {
+      "p": 3,
+      "degree": 5,
+      "coefficient_degree": 4,
+      "ambient_rank": 18,
+      "rational_ranks": [
+        18,
+        17
+      ],
+      "modular_ranks": [
+        18,
+        17
+      ],
+      "both_images_p_saturated": true
+    }
+  ],
+  "first_witt_quadratic_relations": [
+    {
+      "p": 3,
+      "symbolic_all_m_divisible_by_p": true,
+      "integral_coefficients": {
+        "2": 1
+      },
+      "full_polynomial_identity_verified": true
+    },
+    {
+      "p": 5,
+      "symbolic_all_m_divisible_by_p": true,
+      "integral_coefficients": {
+        "2": 3,
+        "3": -2
+      },
+      "full_polynomial_identity_verified": true
+    },
+    {
+      "p": 7,
+      "symbolic_all_m_divisible_by_p": true,
+      "integral_coefficients": {
+        "2": 4,
+        "3": -8,
+        "4": 5
+      },
+      "full_polynomial_identity_verified": true
+    },
+    {
+      "p": 11,
+      "symbolic_all_m_divisible_by_p": true,
+      "integral_coefficients": {
+        "2": 6,
+        "3": -20,
+        "4": 45,
+        "5": -72,
+        "6": 42
+      },
+      "full_polynomial_identity_verified": true
+    }
+  ],
+  "first_mixed_degree_comparison": {
+    "symbolic_families": [
+      {
+        "p": 3,
+        "bockstein_source_identity": true,
+        "bockstein_divided_difference": true,
+        "root_boundary_redundant_scalar_coordinate": true
+      },
+      {
+        "p": 5,
+        "bockstein_source_identity": true,
+        "bockstein_divided_difference": true,
+        "root_boundary_redundant_scalar_coordinate": true
+      },
+      {
+        "p": 7,
+        "bockstein_source_identity": true,
+        "bockstein_divided_difference": true,
+        "root_boundary_redundant_scalar_coordinate": true
+      },
+      {
+        "p": 11,
+        "bockstein_source_identity": true,
+        "bockstein_divided_difference": true,
+        "root_boundary_redundant_scalar_coordinate": true
+      }
+    ],
+    "independent_actual_images": [
+      {
+        "m": 3,
+        "p": 3,
+        "degree": 4,
+        "elementary": [
+          3
+        ],
+        "moment": [
+          3
+        ],
+        "root_equation_in_elementary_model": true
+      },
+      {
+        "m": 6,
+        "p": 3,
+        "degree": 4,
+        "elementary": [
+          3
+        ],
+        "moment": [
+          3
+        ],
+        "root_equation_in_elementary_model": false
+      },
+      {
+        "m": 9,
+        "p": 3,
+        "degree": 4,
+        "elementary": [
+          9
+        ],
+        "moment": [
+          9
+        ],
+        "root_equation_in_elementary_model": false
+      }
+    ],
+    "first_reduced_order_class_checks": [
+      {
+        "m": 6,
+        "p": 3,
+        "degree": 5,
+        "p_primary_factors": [
+          3
+        ],
+        "correction_class_order": 1,
+        "annihilator": 2
+      },
+      {
+        "m": 9,
+        "p": 3,
+        "degree": 5,
+        "p_primary_factors": [
+          3,
+          9
+        ],
+        "correction_class_order": 3,
+        "annihilator": 3
+      }
+    ]
+  },
+  "tensor_gluing_certificate": {
+    "family_dimension": 28,
+    "ambient_invariant_dimension": 11,
+    "compatibility_shape": [
+      110,
+      28
+    ],
+    "compatibility_rank": 17,
+    "compatibility_nonunit_smith": [
+      2
+    ],
+    "ambient_restriction_nonunit_smith": [],
+    "coefficient_condition_rank": 10,
+    "coefficient_condition_nonunit_smith": [],
+    "coefficient_kernel": "span(u0*v0^2)",
+    "method": "Native coefficient-dictionary tensor substitutions and SymPy integer Smith forms."
+  },
+  "multiplicity_sequence_through_20": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    2,
+    2,
+    4,
+    4,
+    6,
+    7,
+    9,
+    10,
+    13,
+    14,
+    18,
+    20,
+    24,
+    27,
+    33,
+    36
+  ],
+  "method": "Native Python/SymPy restriction constraints, separate rational and modular row elimination, symbolic mass identities, subset-product coefficients.",
+  "sage_or_elementary_jet_builder_imported": false,
+  "all_rank_claim_from_finite_checks": false,
+  "uniform_cubic_annihilator_uses_exact_parameter_independent_tensor_certificate": true,
+  "full_degree_p_plus_two_multiplicity_formula": false,
+  "external_review": false,
+  "source_sha256": {
+    "TYPE_A_K_STABLE_MULTIPLICITIES.md": "1e828e154b3cac8141c12a96471d01e913b0636539ea4c5e5992c7da1897c508",
+    "tools/audit_type_a_k_stable_multiplicities.py": "f2f706074f3a590e7a8cd894081179747c5a285b2f3a5a55ae105fe61a043447"
+  }
+}

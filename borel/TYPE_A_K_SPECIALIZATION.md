@@ -36,10 +36,14 @@ and its prime support is EXACTLY the set of primes dividing m:
 
     (Delta_m)_(p) != 0  if and only if  p divides m.
 
-Furthermore m^(m-1) annihilates Delta_m. Hence faithful specialization
+Furthermore m annihilates Delta_m by the subsequent
+[integral trace recurrence](TYPE_A_K_INTEGRAL_RECURRENCE.md), IMG-39.
+The original argument in this note gives the weaker m^(m-1) bound.
+Hence faithful specialization
 holds in this defining projective type A family exactly when m=2.
-The bound is not claimed sharp. The theorem does not give all p-primary
-exponents or multiplicities in arbitrary rank.
+The new bound is sharp for EVERY m>=3: IMG-39 supplies an explicit
+degree-three order detector and uses the nonzero 2-primary part here
+when m=2 mod 4. Full Smith multiplicities remain undetermined.
 
 This contrasts with the defining Sp_(2n)/P1 K-image, which specializes
 faithfully in every rank. It is compatible with the existing ordinary
@@ -274,12 +278,20 @@ this precise statement. Much search material concerns nilpotent Springer
 VARIETIES, a different problem. This was a limited literature check, not
 an exhaustive novelty audit or external mathematical review.
 
-Remaining: arbitrary-rank p-primary exponents and multiplicities of
+Update, 28 October: IMG-39 settles the uniform m-annihilator, gives an
+integral recurrence for every homogeneous relation, and transfers the
+defect to the full flag by a free root-source extension. If the Levi
+block sizes have gcd 1, the partial-flag defect is likewise a known
+number of copies of Delta_m. More generally there is a p-local transfer
+away from that gcd and an m*gcd(n_i) annihilator for every parabolic.
+
+Remaining: arbitrary-rank p-primary multiplicities;
+the full structure of
 Delta_m; a compact uniform presentation of the image and its relations;
-nonprojective parabolics; and other representations. The local-freeness
+sharp bounds at the excluded parabolic primes; and other representations. The local-freeness
 and determinant criteria apply more generally, but the modular L-recovery
-proof uses the defining projective type A source. No transfer to arbitrary
-flags is claimed. No public API or PDF change is included.
+proof uses the defining projective type A source. The precise flag
+transfer hypotheses are in IMG-39. No public API or PDF change is included.
 
 The next theorem target is the p-primary size of Delta_m, starting by
 deriving a uniform presentation near the augmentation prime. This now
