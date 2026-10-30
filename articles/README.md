@@ -7,6 +7,15 @@ not a published erratum and do not modify the source articles.
 
 ## Research program proposal
 
+The [comprehensive research statement](research-statement/README.md), dated
+29 October 2026, brings the published foundations and current working results
+together in a detailed LaTeX/PDF for mathematical collaborators. It covers
+ordinary integral images and their new explicit bases, exceptional relative
+comparisons, equivariant/K-theory specialization, other-theory extensions,
+and the completed adjoint generic-fiber case theorem. Its status inventory
+and prioritized proof targets supersede the progress counts in the older
+expositions below without changing those historical documents.
+
 The [Springer-Cayley exposition](springer-cayley-exposition/README.md)
 explains the geometric program through 24 October 2026: explicit torus maps,
 regularity and harmonic separation, degrees and boundary corrections, and

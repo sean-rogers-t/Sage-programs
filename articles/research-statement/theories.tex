@@ -1,0 +1,157 @@
+\section{K-theory: the same source, a different embedded image}
+The original polynomial characters already belong to a representation ring, so they have a natural K-theoretic image. Let $\kappa_P:R(L)\to K^0(G/P)$ be the associated-bundle homomorphism. For the full literal source define
+\[
+ \eta_\rho^P:A_{\rho,L}\to K^0(G/P),\qquad
+ f\longmapsto\kappa_P(\Theta_\rho^*f),\qquad J_K=\im\eta_\rho^P.
+\]
+This restricts a classical characteristic map; it is not a new construction of the ambient K-ring. The question is the arithmetic of the selected representation-dependent subring.
+
+\begin{theorem}[Finite-theory comparison; repository deduction]
+For the full literal source on a simple simply connected complex group, $\beta^P$ and $\eta_\rho^P$ have the same integral kernel. The induced isomorphism $J_H\simeq J_K$ is strict for polynomial degree on $J_H$ and the induced support filtration on $J_K$, with
+\[
+ \operatorname{gr}J_K=J_H\subseteq H^{2*}(G/P;\Z).
+\]
+\end{theorem}
+The filtration is the topological/support filtration, not an asserted equality with the representation-ring gamma filtration. Over $\Q$, positive-degree global invariants pull back to virtual $G$-characters of dimension zero and therefore vanish after the associated-bundle map. The first derivative $d\Theta_1=\mathrm{id}$ makes the induced map triangular with identity leading term. The finite filtration gives an isomorphism over $\Q$; torsion-freeness of the ambient groups retains the kernel and leading-term statements integrally for the specified source.
+
+This theorem does not identify the integral cokernels of the two embeddings. Filtered extensions can change Smith factors even when associated-graded lattices agree. It explains why ordinary cohomological results remain relevant while new K-theoretic arithmetic is possible. The total index in a full-rank setting is controlled by the associated graded; individual invariant factors require more information.
+
+For example, the defining symplectic representation on $\Sp(2n)/P_1\simeq\mathbb P^{2n-1}$ has
+\[
+ K=\Z[v]/v^{2n},\qquad L=1+v,\qquad b=L-L^{-1},\qquad J_K=\Z[b].
+\]
+The literal generator is integral. Dividing it by two would give a rational class and change the question. Ordinary here means \emph{nonequivariant K-theory}, not singular cohomology.
+
+\begin{theorem}[Symplectic projective Smith factors; repository deduction]
+Write $n=2r+\eps$ with $\eps\in\{0,1\}$, and let $s_2(a)$ count the ones in the binary expansion of $a$. For $0\le j<r$, put
+\[
+ a_{n,j}=\begin{cases}
+ 4+8j+s_2(r-j-1)-s_2(r+j),&n=2r,\\
+ 8+8j+s_2(r-j-1)-s_2(r+j+1),&n=2r+1.
+ \end{cases}
+\]
+The inclusion $\Z[b]\subset K$ has $n$ unit factors, one factor $2$ if $\eps=1$, and two factors $2^{a_{n,j}}$ for every $j$.
+\end{theorem}
+For $n=1$ the list is $(1,2)$; for $n=2$ it is $(1,1,8,8)$. The latter has the same total index as the cohomological diagonal $1,2,4,8$, but a different Smith list. The proof reduces to a Hankel moment matrix, identifies its moments with a finite binomial continued fraction, and applies integral 2-local orthogonal-polynomial diagonalization. The continued fraction and Hankel method are published inputs, not new constructions of this program.
+
+Beyond the lattice, the normalized first-order character class in the augmentation cotangent space supplies additional representation data for K-theory. The pair consisting of $\Lambda_\rho$ and that normalized character class is sufficient for the embedded comparison developed in the repository. It is not an injective classification of representations or images. Tensor powers and direct sums test this distinction: matching a torus lattice alone need not imply matching an embedded K-image.
+
+\status{See \record{OTHER_THEORIES_FINITE.md}{the filtered comparison}, \record{OTHER_THEORIES_COTANGENT.md}{the character-cotangent comparison}, and \record{SYMPLECTIC_K_ORDINARY_SMITH.md}{the closed projective formula}. Associated-bundle and equivariant characteristic-map foundations are classical; \cite{GR} is one reference. These particular image statements are internally checked deductions.}
+
+\section{Equivariance and the specialization defect}
+Equivariant theories retain parameters for the torus action. In cohomology the coefficient ring is $H_T^*(\mathrm{pt};\Z)=\Sym_\Z X$; in K-theory it is $R(T)=\Z[X]$. Forgetting equivariance sends additive parameters to zero or multiplicative characters to one. Although the ambient flag theory has well-controlled specialization, a selected image need not specialize faithfully.
+
+If $J_T\subset A_T$ is the equivariant image and $I_T$ the augmentation ideal of its coefficient ring, the relevant map is
+\[
+ J_T/I_TJ_T\longrightarrow J_0\subset A_T/I_TA_T.
+\]
+Its kernel is
+\[
+ \Delta=(J_T\cap I_TA_T)/I_TJ_T.
+\]
+This measures the failure of forming the embedded image to commute with specialization. A source element can become zero in the specialized ambient ring without already being an augmentation multiple inside the source image. Rationalization can erase the defect entirely.
+
+\subsection{The defining type A projective family}
+Take $G=\SL_m$, $P=P_1$, and the defining representation. Put
+\[
+ R_T=\Z[t_1^{\pm1},\ldots,t_m^{\pm1}]/(\prod t_i-1),\quad
+ A_T=R_T[L]/\prod_{i=1}^m(L-t_i),\quad I_T=(t_i-1).
+\]
+The line-class convention is fixed by this presentation. Define all jets
+\[
+ f_j=[u^{m-j}]\prod_{i=1}^m(L+u-t_i),\qquad
+ J_T=R_T[f_1,\ldots,f_{m-1}].
+\]
+These are the images of the full literal root-polynomial Levi source. The identity $\Theta^*(x_i-x_j)=t_i-t_j$ connects the jets directly to the original Springer map. Let $\Delta_m$ be the kernel of specialization to its ordinary K-image.
+
+\begin{theorem}[Uniform specialization bound and sharp exponent]
+For every $m\ge2$, $m\Delta_m=0$. Specialization is faithful exactly when $m=2$. For every $m\ge3$, $\Delta_m$ has exponent exactly $m$, and its nonzero primary parts occur at precisely the primes dividing $m$.
+\end{theorem}
+The assertion is about the full multiplicative image, including products whose total degree exceeds the defining polynomial degree. It is not merely a bound on a span of jets or on a low-degree truncation. In particular $m\Delta_m=0$ says that the extra specialized classes are $m$-torsion; it does not say that $m(A_T/J_T)=0$.
+
+The proof is a general coefficient-family argument. For a monic $F(X)$ of degree $m$ over an augmented $\Z$-algebra $S$, suppose $F$ specializes to $(X-a)^m$. Define $A=S[L]/F(L)$ and let $J$ be generated by every nontrivial jet of $F(L+u)$. Integral difference traces and Hasse translation construct witnesses for
+\[
+ m(J\cap IA)\subseteq IJ.
+\]
+The recurrence uses the monic relation $F(L)=0$ to handle overflow products uniformly. Universal integral identities can then be evaluated in the determinant-one coefficient family without assuming that images commute with base change. The sharper lower bound uses explicit torsion detectors; a separate 2-primary argument is needed when $m=2\pmod4$.
+
+The full-flag transfer gives, ungraded, $(m-1)!$ copies of the projective defect, with graded shifts retained in the precise statement. For a parabolic with Levi block sizes $n_i$, the same free-source transfer works locally at primes not dividing $\gcd(n_i)$, and integrally when that gcd is one. An $m\gcd(n_i)$ annihilator holds in the general recorded parabolic scope, but sharpness at the excluded primes is not proved.
+
+\subsection{What equivariant structure adds}
+Over a multivariable coefficient ring, a single Smith list is generally not the correct invariant. Presentation matrices and their Fitting ideals record rank drops and torsion support under specialization. The symplectic projective work produces doubled-block and Hankel models, integral Schur generators, and balanced-product formulas for all Fitting ideals in that family. These are stronger than a determinant alone, but are not a classification of primary decompositions after arbitrary substitution.
+
+A cohomological negative control is the literal defining $\SL_4/P_1$ source: specialization already has a $\Z/2$ kernel in polynomial degree five. It must not be conflated with $\Delta_m$ above, which lives in K-theory. Both examples show that the apparent simplicity of the ambient flag theory does not force faithful specialization of the selected representation image.
+
+\status{See \record{TYPE_A_K_SPECIALIZATION.md}{the actual source and faithfulness theorem}, \record{TYPE_A_K_INTEGRAL_RECURRENCE.md}{the uniform recurrence}, \record{CLASSICAL_EQUIVARIANT.md}{equivariant methods}, and \record{EQUIVARIANT_IMAGE_PILOT.md}{the cohomological control}. The recurrence and exact exponent are repository proofs, not consequences of a finite rank survey.}
+
+\section{Partition multiplicities and the limit of the present K-theory theorem}
+The exponent theorem does not determine how many cyclic summands occur. The refined problem asks for the complete primary multiplicities of $\Delta_m$ in the grading transported from its universal homogeneous model. Let $P_k(n)$ count partitions of $n$ into parts at most $k$, with $P_k(0)=1$ and $P_k(n)=0$ for negative $n$. Define
+\[
+ a_d=\sum_{k\ge2}P_k(d-(2^k-1)),\qquad
+ \sum_{d\ge0}a_dq^d=\sum_{k\ge2}\frac{q^{2^k-1}}{\prod_{i=1}^k(1-q^i)}.
+\]
+The initial values are $0,0,0,1,1,2,2,4,4,6,7$ for $d=0,\ldots,10$.
+
+\begin{theorem}[Established primary ranges; repository deductions]
+Let $p\mid m$ and $s=v_p(m)$. For $d\le p$,
+\[
+ (\Delta_m)_{d,(p)}\simeq(\Z/p^s)^{a_d}.
+\]
+The same formula holds for $d=p+1$ when $p$ is odd. At $d=p+2$, for odd $p$ and $m>p$, it becomes
+\[
+ (\Delta_m)_{p+2,(p)}\simeq
+ (\Z/p^s)^{a_{p+2}-1}\oplus\Z/p^{s-1}.
+\]
+At $d=p+3$, for $p\ge5$ and $m>p$, the uncorrected formula returns:
+\[
+ (\Delta_m)_{p+3,(p)}\simeq(\Z/p^s)^{a_{p+3}}.
+\]
+At the distinct boundary $m=p$, the last two established degrees instead have $(\Z/p)^{a_d-2}$, with the same respective restrictions on $p$. A factor of order $p^0$ is trivial.
+\end{theorem}
+The prime boundary and the root boundary are different. The prime boundary is the passage from degrees below $p$ to degrees where Newton/Witt coordinate changes involve $p$. The root boundary $m=p$ additionally changes the coefficient family and its root equation. Treating it as a generic $m>p$ case would give the wrong answer.
+
+The stable partition formula arises from a universal moment source and dual constraints indexed by subset hyperplanes. Integral saturation is proved in the initial range, including a divided-power argument at $d=p$. The first Witt corrections track both changes to the source and changes to the coefficient ideal. At $p+2$, smaller-order torsion appears; at $p+3$, a common ambient torsion block cancels relatively, while an added Witt source direction must still be retained. The theorem therefore depends on exact image calculations, not just the Hilbert function of a rational moment algebra.
+
+There is a useful all-degree recurrence for high coefficient degrees after inverting the relevant excess factorial. It settles the nonpolarizable sectors needed for the proposed first Frobenius band $p\le d<2p$ at odd primes. What remains is the uniform low-coefficient tensor-obstruction comparison, followed by the full elementary Witt comparison and boundary analysis. The complete band is not proved. Higher 2-primary pieces are especially important because arguments dividing by two cannot address them.
+
+An explicit order-five relative obstruction in coefficient degree three and weight twelve disproves a blanket relative-saturation principle. This is a constraint on the proof strategy, not an inconvenience to remove by localization. A successful general theorem must explain when such torsion cancels in the actual specialization defect and when it survives.
+
+The research value of this direction is a representation-dependent base-change theorem with sharp integral failure terms. The ambient K-theory and the combinatorics of partitions are established subjects. The target contribution is the exact arithmetic of their interaction through the Springer source. A credible generalization must retain the full image, rather than a convenient linear approximation to it.
+
+\status{The chain of proofs is \record{TYPE_A_K_STABLE_MULTIPLICITIES.md}{the stable range}, \record{TYPE_A_K_FIRST_CORRECTION.md}{the first correction}, \record{TYPE_A_K_NEXT_LAYER_OBSTRUCTION.md}{the moment obstruction}, and \record{TYPE_A_K_NEXT_ELEMENTARY.md}{the next elementary layer}. Historical paragraphs in earlier notes are superseded only in these explicitly completed degrees.}
+
+\section{Oriented, quantum, and affine extensions}
+The finite ordinary and equivariant work supplies several entry points to other theories. The objective is not to rebuild their ambient Schubert calculus, which is already extensively developed. It is to specify and analyze the representation-dependent image within it.
+
+\subsection{Oriented theories}
+An oriented theory has a formal group law controlling first Chern classes of tensor products. Additive cohomology and multiplicative K-theory are different specializations. Formal Demazure and formal group-ring frameworks provide published characteristic maps under their stated coefficient and torsion hypotheses \cite{CPZ,CZZ}. Our finite-theory notes define a specified universal lift and compare its images under specialization. Torsion-free comparisons do not imply modular injectivity: additional kernels can be measured by a $\operatorname{Tor}_1$ term.
+
+The existing type A and symplectic projective calculations provide controlled height and Fitting-ideal benchmarks. A broader project should begin with a precise coefficient ring, formal group law, and source, then ask which integral image data survive. It should not assume that the torus degree-one theorem for the additive trace construction automatically classifies every possible formal-group-law lift. Higher-generator Levi sources introduce relation-lifting questions absent in a one-generator pilot.
+
+\subsection{Quantum images}
+On the full flag, a polynomial source on linear generators admits a specified divisor lift using quantum multiplication. On a partial flag, higher generators and relations require separate justification. The old ordinary kernel generally changes: on $\mathbb P^1$, the image of a square of a divisor is a nonzero quantum parameter.
+
+For the defining $\SL_m/P_1$ literal source, the recorded lift sends its elementary generators to $\binom mj h^j$ in $\Z[q,h]/(h^m-q)$. Put $g_0=1$ and $g_r=m/\gcd(m,r)$ for $0<r<m$. The complete image is
+\[
+ J_q=\bigoplus_{r=0}^{m-1}g_r\Z[q]h^r.
+\]
+It specializes faithfully at $q=0$. With $y_r=g_rh^r$, multiplication is
+\[
+ y_ay_b=\frac{g_ag_b}{g_{(a+b)\bmod m}}
+ q^{\lfloor(a+b)/m\rfloor}y_{(a+b)\bmod m}.
+\]
+Primewise divisibility of the coefficients proves closure. This is an elementary but complete image benchmark, not a quantum theory for all parabolics. The symplectic projective family supplies a second specified benchmark. More interesting partial flags require a canonical lift or an explicit explanation of the choices, and then a proof of flatness or a description of its failure.
+
+\subsection{Two different affine routes}
+The Peterson correspondence relates localized quantum cohomology to a quotient of affine Grassmannian \emph{homology}, with Pontryagin product \cite{LS}. Transporting a specified quantum image through that correspondence is meaningful, but recovering an unlocalized integral image requires additional work. Localization can erase precisely the arithmetic under study.
+
+A separate ordinary cup-cohomology construction uses evaluation and level. For a compact form $K$, the topological affine flag $LK/T$ identifies with $\Omega K\times K/T$. Pull back the finite image by evaluation and adjoin a chosen multiple $k\eta$ of the loop-space degree-two class. The level $k$ is additional data, not automatically determined by the normalized Springer map. In type $\SL_n$, if $c_{n,d}$ is the content of $\eta^d$, then
+\[
+ v_p(c_{n,d})=v_p\!\left(\left\lfloor\frac{d}{p^{a_p}}\right\rfloor!\right),
+ \qquad a_p=\max\{a\ge0:p^a<n\}.
+\]
+This follows by optimizing the valuations of multinomial coefficients in the integral symmetric-function Hopf model. The content of $(k\eta)^d$ is $k^dc_{n,d}$. It describes a selected affine image and does not classify the full affine flag ring. Published evaluation/divisor formulas are used in fixing the convention \cite{MM}.
+
+Pointwise application of a finite Springer map already gives a map on loops, and diagram-compatible cases give twisted versions. A naive descent to an affine flag quotient fails: right multiplication by an Iwahori element is not conjugation equivariance. Central and rotation directions introduce further questions. Thus a raw loop map, an affine-flag characteristic image, and an affine Kac--Moody trace-projection construction are three different tasks.
+
+\status{See \record{OTHER_THEORIES_FINITE.md}{oriented comparisons}, \record{OTHER_THEORIES_HEIGHT.md}{height benchmarks}, \record{OTHER_THEORIES_QUANTUM.md}{quantum images}, and \record{OTHER_THEORIES_AFFINE.md}{the affine construction}. Published ambient theories are cited above; broader image classifications and descent statements remain research directions.}

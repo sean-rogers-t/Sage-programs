@@ -1,0 +1,217 @@
+{
+  "date": "2026-10-29",
+  "baseline": "9f6c000a4a97a5f7540424ba1f8f2881cc55a2ae",
+  "claims": [
+    {
+      "claim": "Published maps",
+      "status": "published",
+      "scope": "Rogers formula and Kumar polynomial-character construction; original papers cited separately.",
+      "source": "borel/MATHEMATICS.md",
+      "sha256": "57a69b506def0e86637c3f8b01398335ecd5aad6799f50f31e6aa9544e756ccc"
+    },
+    {
+      "claim": "Full torus and Levi source",
+      "status": "repository-proof",
+      "scope": "Simple simply connected, faithful differential; torus generation is not Levi linear generation.",
+      "source": "borel/TRACE_SOURCE_THEOREM.md",
+      "sha256": "abd6f95a3e54042477a6b3df606509751ae2c59728718079ba948ee3e4c971d8"
+    },
+    {
+      "claim": "Irreducible source classification",
+      "status": "repository-proof",
+      "scope": "All finite simple types; direct sums excluded from the closed formula.",
+      "source": "borel/IRREDUCIBLE_CHARACTER_LATTICES.md",
+      "sha256": "133ef33c0327ffd6ab92c9c0dd1f910c4352457a07ac96ec32758967a735937b"
+    },
+    {
+      "claim": "Full-source exponent bound",
+      "status": "repository-deduction-from-published-inputs",
+      "scope": "Literal full Levi source; torsion-index machinery is published.",
+      "source": "borel/LOCAL_IMAGE_BOUND.md",
+      "sha256": "fca120f8cd869906de166d3f643a105462de62bf2cd02359137055ae1bde30c6"
+    },
+    {
+      "claim": "Normalized B factors",
+      "status": "repository-proof",
+      "scope": "All allowed single-tail blocks; index in selected saturation.",
+      "source": "borel/TYPE_B_GENERAL_SMITH.md",
+      "sha256": "14b078851a27e303db9fbbbbd1e71fd4d0018968eca089c394e28dca746021ee"
+    },
+    {
+      "claim": "D square row equality",
+      "status": "repository-proof",
+      "scope": "Normalized square sector, all allowed blocks.",
+      "source": "borel/TYPE_D_SQUARE_THEOREM.md",
+      "sha256": "0d5f541a21e17d9e5560fb72ce789d3f1114e44405403f33a0c25a9ce446fb05"
+    },
+    {
+      "claim": "Full D factors",
+      "status": "repository-proof",
+      "scope": "Euler gluing included; literal source requires separate scaling.",
+      "source": "borel/TYPE_D_EVEN_GLUING_THEOREM.md",
+      "sha256": "3224ef056357ecb6713adf003841e37692356c66a3a065fc44f5a66756fa6f58"
+    },
+    {
+      "claim": "Adapted B/D classes",
+      "status": "repository-proof",
+      "scope": "Constructive deduction from primitive prefixes, with finite independent controls.",
+      "source": "borel/CLASSICAL_ADAPTED_SMITH_BASIS.md",
+      "sha256": "b458ee991048b6b02d7843f16fc111c677e528da579971166939f04a6e283fd4"
+    },
+    {
+      "claim": "Full D basis",
+      "status": "repository-proof",
+      "scope": "Unit gluing and multiplication retained.",
+      "source": "borel/TYPE_D_EXPLICIT_INTEGRAL_BASIS.md",
+      "sha256": "4981a94f937a7a78f6e6897eae196f00581ccc73fcddc5f899a1ea1ecda83c42"
+    },
+    {
+      "claim": "Denominator formula",
+      "status": "repository-proof-and-conjecture",
+      "scope": "Formula, inclusion and top layer proved; intermediate higher-block equality conjectural.",
+      "source": "borel/CLASSICAL_SATURATION_GENERATORS.md",
+      "sha256": "4ac37abf339d01343cb9b634c09f20365650bdb6647dd5716abc315c05452b83"
+    },
+    {
+      "claim": "Two-variable generators",
+      "status": "repository-proof",
+      "scope": "All larger blocks; multiplication rules are not a complete defining ideal.",
+      "source": "borel/CLASSICAL_TWO_HEAD_GENERATORS.md",
+      "sha256": "391df345530ee16834791bc43ec02d5e286918a6388296e2e7807b101afa1c90"
+    },
+    {
+      "claim": "C joint images",
+      "status": "repository-deduction-from-published-inputs",
+      "scope": "Specified normalized two-step generators.",
+      "source": "borel/TYPE_C_JOINT_PRIMITIVITY.md",
+      "sha256": "2ff5b025cd077955b25082a6058db0673cc01c13c6e5df613dc5683f54dc45bf"
+    },
+    {
+      "claim": "B/D joint images",
+      "status": "repository-proof-with-open-ambient-problem",
+      "scope": "Relative sum primitive; full ambient factors open.",
+      "source": "borel/ORTHOGONAL_JOINT_IMAGES.md",
+      "sha256": "6085f04da94f4174f85eddc1d405982ebb928eeeacba0c30479bb87420a23d98"
+    },
+    {
+      "claim": "E6 relative images",
+      "status": "computer-assisted-repository-proof",
+      "scope": "Together with E6_ROOT_WEIGHT_COMPARISON: all 63 proper standard parabolics, not ambient quotients.",
+      "source": "borel/E6_REMAINING_CASES.md",
+      "sha256": "772da5acdc38a961562f9218d0380ca97c249321f0982298c4966df865bba3a8"
+    },
+    {
+      "claim": "E7 relative images",
+      "status": "computer-assisted-repository-proof",
+      "scope": "All 127 proper standard parabolics; not ambient quotients.",
+      "source": "borel/E7_ALL_PARABOLICS.md",
+      "sha256": "c06015d92533ae76ef5a2b97788d17157afddbd99d43714af03635b66331707a"
+    },
+    {
+      "claim": "G2 full flag",
+      "status": "exact-finite-calculation-and-kernel-proof",
+      "scope": "Absolute literal minimal/adjoint full-flag image.",
+      "source": "borel/G2_FULL_FLAG.md",
+      "sha256": "aa1b11f2df5797a97936bb2f8fb8eb166c0427b5ff7c11e15a8c4c061aac2647"
+    },
+    {
+      "claim": "Filtered K comparison",
+      "status": "repository-proof",
+      "scope": "Full literal source; support filtration, not gamma filtration.",
+      "source": "borel/OTHER_THEORIES_FINITE.md",
+      "sha256": "28a14010ff7a87c6ab0e10114d1f52d2517b2a32f50288caa03fef9831204470"
+    },
+    {
+      "claim": "Symplectic ordinary K factors",
+      "status": "repository-deduction-from-published-inputs",
+      "scope": "Projective defining family; nonequivariant K-theory.",
+      "source": "borel/SYMPLECTIC_K_ORDINARY_SMITH.md",
+      "sha256": "f43c2ddf91ad6f727480904cf25ee1fed0faeaac6ad0a1992b1b07b21975e064"
+    },
+    {
+      "claim": "Specialization exponent",
+      "status": "repository-proof",
+      "scope": "All m; full multiplicative jet source, not just its linear span.",
+      "source": "borel/TYPE_A_K_INTEGRAL_RECURRENCE.md",
+      "sha256": "b97764ed08626225e584221339d3583929a54f905567d5281940b1b1b3eec87e"
+    },
+    {
+      "claim": "Stable partition factors",
+      "status": "repository-proof-in-bounded-degree-range",
+      "scope": "d<=p, also p+1 for odd p; transported grading.",
+      "source": "borel/TYPE_A_K_STABLE_MULTIPLICITIES.md",
+      "sha256": "1e43fec1bd146ffdf5d0ad6c18137cf45311cb8c8d43bf02fbaca07ec0c25eef"
+    },
+    {
+      "claim": "First correction",
+      "status": "repository-proof-in-bounded-degree-range",
+      "scope": "p+2 for odd p; root boundary distinct.",
+      "source": "borel/TYPE_A_K_FIRST_CORRECTION.md",
+      "sha256": "c963221f4464452b6fb548e897814ac033e19bb885ea2d89f022faa64d177b7b"
+    },
+    {
+      "claim": "Next elementary degree",
+      "status": "repository-proof-in-bounded-degree-range",
+      "scope": "p+3 for p>=5; full first Frobenius band remains open.",
+      "source": "borel/TYPE_A_K_NEXT_ELEMENTARY.md",
+      "sha256": "9703b04904eb994bc145c0738ffb01e51d1db4c21b873aca571cd98e3c416116"
+    },
+    {
+      "claim": "Quantum images",
+      "status": "repository-deduction-from-published-inputs",
+      "scope": "Specified projective lifts, not all partial flags.",
+      "source": "borel/OTHER_THEORIES_QUANTUM.md",
+      "sha256": "97c5dad8add109648feb25bcd0fb35efc6d5eaa52d9b49dc52f7f30fadd70712"
+    },
+    {
+      "claim": "Affine images",
+      "status": "repository-deduction-from-published-inputs",
+      "scope": "Evaluation-and-level cup-cohomology construction, distinct from Peterson transport.",
+      "source": "borel/OTHER_THEORIES_AFFINE.md",
+      "sha256": "81300eca9da4cd3eea45c991049f074dace2966ff0698e4a9b395b979d846524"
+    },
+    {
+      "claim": "Exceptional degrees",
+      "status": "computer-assisted-repository-proof",
+      "scope": "Specific normalized maps and correct torus lattices; not minimum Cayley degree.",
+      "source": "borel/EXCEPTIONAL_DEGREES.md",
+      "sha256": "446c3e73ab0bb992d60586131b86275866af0a8f123690aa30f468c6936082ad"
+    },
+    {
+      "claim": "Regularity classification",
+      "status": "repository-proof",
+      "scope": "Actual representations of simple groups; external review still needed.",
+      "source": "borel/REGULARITY_CLASSIFICATION.md",
+      "sha256": "5f22fb431145bf438148d74544beb51da78e6cae03c80745c2c9768d8922cf54"
+    },
+    {
+      "claim": "Symplectic harmonic localization",
+      "status": "repository-deduction-from-published-inputs",
+      "scope": "Fixed pulled harmonic space and invariant principal localizations.",
+      "source": "borel/SYMPLECTIC_HARMONIC_LOCALIZATION.md",
+      "sha256": "531dddfb6c54c9f43a9da1b189e90723f944332c5b9d556e2dda0791fff4810d"
+    },
+    {
+      "claim": "Adjoint generic regular fibers",
+      "status": "computer-assisted-repository-proof",
+      "scope": "Actual schemes, generic centralizer-exact targets; emptiness and positive excess allowed.",
+      "source": "borel/ADJOINT_GENERIC_FIBER_THEOREM.md",
+      "sha256": "5d2c6537f49cbae9f66a5d972af38c42f99eeb19f938b3b32f3c0379da82e836"
+    },
+    {
+      "claim": "E8 certificate audit",
+      "status": "internal-audit-with-explicit-engine-dependency",
+      "scope": "Native checks do not independently reproduce every membership-engine result.",
+      "source": "borel/E8_DEGREE_TRANSFER_AUDIT.md",
+      "sha256": "5584bc1c49acc5c0424a8449230002c80c2163e54a905185d789b743ae974e83"
+    },
+    {
+      "claim": "Classical polynomial-adjoint blocks",
+      "status": "repository-proof",
+      "scope": "Actual polynomial characters, generic proper-Levi targets; not arbitrary representations.",
+      "source": "borel/CLASSICAL_POLYNOMIAL_ADJOINT_BLOCKS.md",
+      "sha256": "5a0c754a835501da8c95db8cc716eaf966bfca9b278756d5a018d64eb03f7ace"
+    }
+  ],
+  "caveat": "Status inventory and source cross-check, not external review or fresh independent proof."
+}

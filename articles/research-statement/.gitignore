@@ -1,0 +1,6 @@
+tmp/
+output/pdf/main.pdf
+output/pdf/*.log
+output/pdf/*.aux
+output/pdf/*.toc
+output/pdf/*.out

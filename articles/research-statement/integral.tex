@@ -1,0 +1,240 @@
+\section{Integral images: the objects and the general bound}
+Suppose $J_d\subset H^{2d}(G/P;\Z)$ is the image of a specified integral source in degree $d$. Its saturation is
+\[
+ S_d=\Sat(J_d)=(J_d\otimes\Q)\cap H^{2d}(G/P;\Z).
+\]
+There are integral bases in which $J_d\hookrightarrow S_d$ is diagonal with positive entries $s_1\mid\cdots\mid s_r$. These are its Smith factors, and
+$S_d/J_d\simeq\bigoplus_i\Z/s_i$. A unit factor records a primitive direction. If $J_d$ has smaller rational rank than the ambient group, $H^{2d}/J_d$ also has a free summand. That free summand is not counted by the nonzero Smith factors.
+
+For example, $\Z[2h]\subset\Z[h]/(h^{N+1})$ has factor $2^d$ in degree $2d$. Over $\Q$ the image is the whole ring; over $\Z$ it misses primitive classes. This example already shows why a complex surjectivity theorem cannot answer the integral question.
+
+\subsection{Literal and normalized sources}
+There are two legitimate but different arithmetic problems. The \emph{literal} source consists of polynomials whose Springer pullbacks are integral virtual characters. The \emph{normalized} classical source uses the convenient generators $e_i(\bar h^2)$ and, in D, $\prod\bar h_j$ from the papers. Since $\bar h=(h-h^{-1})/2$, these need not themselves be integral characters. For the specified SO/Sp tail forms, the literal generators are $4^i e_i$ and $2^k p$. Thus in polynomial degree $d$ the literal image is $2^d$ times the normalized image. This statement has a specified character lattice and does not automatically describe every Spin source.
+
+\begin{theorem}[Prime-local full-source bound; repository deduction]
+For simple simply connected $G$, let $t_G$ be its torsion index for $X$, let $e_\rho=\exp(X/\Lambda_\rho)$, and let $J_{\rho,L}^d$ be the full literal image. Then
+\[
+ t_G e_\rho^d H^{2d}(G/P;\Z)\subseteq J_{\rho,L}^d
+ \subseteq H^{2d}(G/P;\Z).
+\]
+In particular the image is the whole group after localization at any prime not dividing $t_Ge_\rho$.
+\end{theorem}
+The torsion-index characteristic-map argument is established machinery. The additional source inclusion is $e_\rho X\subseteq\Lambda_\rho$. Applying divided differences to a torsion-index top representative supplies the parabolic invariant representatives without a spurious factor $|W_L|$. The theorem bounds all bad-prime exponents but rarely determines them sharply. It applies to the full literal Levi source, not to every selected smaller tail algebra.
+
+An exact type A benchmark is the defining representation of $\SL_m$ on $\mathbb P^{m-1}$. The full linear source is $Q$, the root lattice. With $h$ the positive hyperplane class, the full literal degree-$d$ image is
+\[
+ J_H^d=\frac{m}{\gcd(m,d)}\Z h^d\quad(1\le d<m),
+ \qquad J_H^0=\Z.
+\]
+The Levi-invariant elementary generators map to $\binom mj h^j$. Their products have precisely the displayed gcd content. Even this familiar variety therefore has nontrivial representation-dependent arithmetic. The formula concerns the full root-polynomial source; substituting a single generator would change the problem.
+
+\status{See \record{LOCAL_IMAGE_BOUND.md}{the bound and projective calculation}, \record{LOCAL_IMAGE_AUDIT.md}{its audit}, and \record{INTEGRAL_LITERATURE.md}{normalization conventions}. Torsion-index and characteristic-map inputs are published; compare \cite{CPZ}. The sharp source-specific formulas are repository deductions.}
+
+\section{Complete classical Smith formulas}
+\subsection{Type C as the primitive reference}
+For the normalized residual symplectic square generators on $\IG(a,2n)$, the selected image is primitive in its rational span. Its nonzero Smith factors are all one. This is the type C counterpart of the B/D calculation, but its arithmetic answer is simpler. Quaternionic Grassmannian geometry and integral Schur classes give the reference lattice. The B/C comparison then records the powers of two introduced by the change in root lengths and Schubert normalization.
+
+\subsection{Type B in every rank}
+Set $n=a+k$, $\ell=\min(a,k)$, $A=\max(a,k)$, $r=\lfloor n/2\rfloor$, and $c=\lceil n/2\rceil$. Use the normalized tail generators $q_i=e_i(x_{a+1}^2,\ldots,x_n^2)$ on $\OG(a,2n+1)$. Let $\gb vu$ denote a Gaussian binomial, zero outside $0\le u\le v$, and put
+\[
+ U_{N,L}(q)=\sum_{j=0}^{\lfloor L/2\rfloor}
+ q^{j(\lceil N/2\rceil-L+j)}
+ \gb{\lfloor N/2\rfloor}{j}
+ \gb{\lceil N/2\rceil-j}{L-2j},\qquad U_{0,0}=1.
+\]
+\begin{theorem}[Normalized B multiplicities; repository deduction]
+If $M_{n,\ell,e}(m)$ counts the factor $2^e$ in source weight $m$, then
+\[
+ \sum_m M_{n,\ell,e}(m)q^m
+ =q^{ec}\gb re U_{n-2e,\ell-e}(q),\qquad 0\le e\le\ell.
+\]
+Source weight $m$ means polynomial degree $2m$ and cohomological degree $4m$. There are no image classes in odd polynomial degree.
+\end{theorem}
+This is a formula for all ranks and degrees in the stated single-tail problem. The positive Gaussian expression has earlier counting interpretations; the additional assertion is its identification with integral Springer-image multiplicities. It does not assign a Smith exponent directly to every original Schur generator.
+
+The proof starts with a type C coefficient-row lattice $M_m$ and a filtration $P_t(m)$ generated by rows of defect at most $t$. The B row lattice is $\sum_t2^tP_t(m)$. To infer Smith factors one must prove each prefix primitive over $\Z$. A rank count over $\Q$ would not suffice. The integral proof combines Schur-product rows, a geometric upper bound from a square-zero incidence problem, and a triangular unimodular minor. Once every prefix is primitive, a common adapted basis diagonalizes the weighted filtration. Its rank jumps are the displayed multiplicities.
+
+\subsection{Type D and Euler gluing}
+The type D source contains both squares and the Euler generator $p=x_{a+1}\cdots x_n$, with $p^2=q_k$. Its square-sector row lattice agrees with the corresponding B row lattice, not merely with its Smith list. The Euler sector is related to a shifted smaller-block problem. The remaining issue is the integral position of the two rationally independent sectors.
+
+Define
+\[
+ B_{a,k,e}(q)=q^{e\lceil(a+k)/2\rceil}
+ \gb{\lfloor(a+k)/2\rfloor}{e}
+ U_{a+k-2e,\min(a,k)-e}(q).
+\]
+Outside its allowed exponent range this is zero; set $B_{0,k,0}=1$. For even $k=2h$ put
+\[
+ I_{a,2h}(q)=q^{h(\lfloor a/2\rfloor+1)}
+ \gb{h+\lceil a/2\rceil-1}{h},
+\]
+and put $I_{a,k}=0$ for odd $k$.
+\begin{theorem}[Full normalized D multiplicities; repository deduction]
+For $a\ge1$, $k\ge2$, if $M_D(a,k;e,d)$ counts factors $2^e$ in polynomial degree $d$, then
+\[
+ \sum_d M_D(a,k;e,d)z^d
+ =B_{a,k,e}(z^2)+z^kB_{a-1,k,e}(z^2)
+ +(\delta_{e,1}-\delta_{e,0})I_{a,k}(z^2).
+\]
+All gluing takes place at unit levels of the two sector lattices; there is no additional positive-level gluing.
+\end{theorem}
+The correction converts the appropriate unit factors into factors two. Omitting this step would leave the full D theorem incomplete even if each sector were separately understood. The theorem has now been proved in the repository; the earlier small-block cases are independent controls, not the boundary of current coverage. Literal SO vector-character factors are obtained by the stated degree scaling. Arbitrary Spin sources require their own source comparison.
+
+\status{See \record{TYPE_B_GENERAL_SMITH.md}{the all-rank B proof}, \record{TYPE_B_GENERAL_AUDIT.md}{its audit}, \record{TYPE_D_SQUARE_THEOREM.md}{the D square comparison}, and \record{TYPE_D_EVEN_GLUING_THEOREM.md}{the full D theorem}. The general results use published integral Schubert geometry and symmetric functions. They remain unpublished deductions, not externally reviewed theorems.}
+
+\section{From multiplicities to classes and multiplication}
+A Smith list tells us the sizes of quotient groups but not which integral cohomology classes represent them. The current ordinary work extracts that additional structure. Put the smaller block at the head and write
+\[
+ R=H^{2*}(\Gr(\ell,n);\Z)
+ =\Z[e_1,\ldots,e_\ell]/(h_{A+1},\ldots,h_{A+\ell}),\quad n=A+\ell.
+\]
+Here $e_i,h_i$ are elementary and complete symmetric functions in variables $y_1,\ldots,y_\ell$ of weight one. The map $\phi$ sends these symmetric polynomials to the normalized square image, so weights are doubled in polynomial degree. After the finite kernel has been taken, $R$ embeds through $\phi$ into its rational image.
+
+\subsection{A simultaneous basis}
+The primitive-prefix proof provides one unimodular row basis $V$ adapted to every $P_t$. If a row enters at level $e_\gamma$, the coordinate-dual basis element $f_\gamma$, given by the corresponding column of $V^{-1}$ in Schur coordinates, yields
+\[
+ b_\gamma=\frac{\phi(f_\gamma)}{2^{e_\gamma}}.
+\]
+These are primitive integral classes in the saturation. ``Dual'' here means dual to coefficient coordinates; it is not the Poincare pairing. This distinction matters when transporting products.
+
+If $f_\alpha f_\beta=\sum_\gamma C_{\alpha\beta}^\gamma f_\gamma$ in $R$, then
+\[
+ b_\alpha b_\beta
+ =\sum_\gamma 2^{e_\gamma-e_\alpha-e_\beta}
+ C_{\alpha\beta}^\gamma b_\gamma.
+\]
+The coefficients are integers because the saturation of a rational subalgebra in torsion-free integral cohomology is a ring. This gives an exact multiplication algorithm with a proof of integrality, rather than a Smith diagonalization disconnected from the product. The square-sector B/D row equality transports this saturated ring structure between the two cases.
+
+For the full D source, start with the adapted bases in the square and Euler sectors and then perform the unit-level gluing. Binary row reduction identifies the glued unit directions; integral lifts and complementary rows complete a unimodular basis. Products must still use $p^2=q_k$ and the correct smaller Euler rectangle. The two-sector decomposition is additive, not a product decomposition of rings.
+
+\subsection{A divided-power part of the saturation}
+Let $c=\lceil n/2\rceil$. If every part of a partition $\nu$ lies between $c$ and $A$ and its length is at most $\ell$, set
+\[
+ z_\nu=\frac{\phi(m_\nu)}{2^{\ell(\nu)}}.
+\]
+These classes form a primitive truncated divided-power subring. Writing $m_j(\nu)$ for the multiplicity of part $j$, their products are
+\[
+ z_\nu z_\mu=
+ \left(\prod_j\binom{m_j(\nu)+m_j(\mu)}{m_j(\nu)}\right)
+ z_{\nu\cup\mu}
+\]
+when the combined length is at most $\ell$, and zero otherwise. Collisions of high powers on one root vanish because $2c\ge n$ and each root has $n$th power zero in the full-flag model. The intersection with the original image multiplies $z_\nu$ by $2^{\ell(\nu)}$.
+
+This makes part of the arithmetic tangible. A factor $2^e$ is represented by an actual class obtained by dividing a source polynomial by $2^e$, and its products obey integral divided-power coefficients. It also indicates why ordinary powers and rational differential operators can obscure the relevant arithmetic.
+
+\status{These constructions are in \record{CLASSICAL_ADAPTED_SMITH_BASIS.md}{the adapted-basis note} and \record{TYPE_D_EXPLICIT_INTEGRAL_BASIS.md}{the full D basis note}. Separate Sage/native calculations check embeddings and products. Native Chevalley calculations supply a second route to actual Schubert coefficients; they do not replace the uniform proof.}
+
+\section{Geometric denominators and the current generator conjecture}
+Choose a maximal-rank square-zero endomorphism $N$ of $\C^n$ and define closed defect varieties
+\[
+ W_t=\{U\in\Gr(\ell,n):\rank(N:U\to\C^n/U)\le t\}.
+\]
+Thus $W_0$ is the locus of $N$-stable planes. Set $K_0=R$ and
+\[
+ K_e=\ker\bigl(R\longrightarrow H^*(W_{e-1};\Z)\bigr),
+ \quad 1\le e\le\ell,\qquad K_{\ell+1}=0.
+\]
+All rings retain their integral structure. The restriction kernel concerns the particular defect variety, not an arbitrary Springer or Spaltenstein variety with a similar partition label.
+
+\begin{theorem}[Denominator formula; repository deduction]
+Under the B/D square-image identification, the complete saturation is
+\[
+ S=\sum_{e=0}^{\ell}2^{-e}K_e\subset R_\Q.
+\]
+Let $J_e$ be the ideal generated by $m_\nu$ with $\ell(\nu)\ge e$ and every part at least $c=\lceil n/2\rceil$. Then
+\[
+ J_e\subseteq K_e\quad\text{for every }e,\qquad
+ J_\ell=K_\ell=(e_\ell^c).
+\]
+\end{theorem}
+The prefix theorem identifies $K_e$ as the exact annihilator of the preceding coefficient-row prefix. This is the reason the filtration controls denominators. The inclusion for high monomials follows by pullback to an integral incidence/splitting model: with at least $e$ high parts, not all can occupy the $e-1$ surviving residual directions, and the remaining term vanishes by root nilpotence. The top-layer equality follows by primitivity and the matching top-defect rank.
+
+\begin{conjecture}[Short integral generators]
+For all $A\ge\ell$ and every $e$, one has $J_e=K_e$ in $R$.
+\end{conjecture}
+This is a presentation conjecture, not a missing Smith-count conjecture. The abstract multiplicities and geometric denominator formula are already known within the program. Equality would express every layer through elementary symmetric-function data and give a compact generating set for the saturated image. A recurrence reduces the high parts to $c,c+1,\ldots,c+\ell-1$; the candidate ring consequently has at most $\binom{2\ell}{\ell}$ module generators over $R$, independently of $A$.
+
+\subsection{The completed two-variable theorem}
+For $\ell=2$, $n=A+2$, set $u=y_1+y_2$, $v=y_1y_2$, and $p_j=y_1^j+y_2^j$. Then
+\[
+ R=\Z[u,v]/(h_{n-1},h_n),\qquad
+ K_1=(p_c,p_{c+1},v^c),\qquad K_2=(v^c).
+\]
+The entire saturation is
+\[
+ S=R+Rz+Rw+Rt,\qquad z=p_c/2,\quad w=p_{c+1}/2,\quad t=v^c/4.
+\]
+The three extra homogeneous algebra generators are necessary, with weights $c,c+1,2c$. Their products include
+\[
+ z^2=2t,\quad zw=ut,\quad w^2=2vt,\quad zt=wt=t^2=0.
+\]
+Together with $2z=p_c$, $2w=p_{c+1}$, $4t=v^c$, these are useful multiplication rules; they are not being claimed as a complete defining ideal, since further $R$-linear relations remain.
+
+The key proof is integral straightening. The identities
+\[
+ h_{2c-1}=p_ch_{c-1},\quad h_{2c}=p_ch_c-v^c,\quad
+ h_{2c-2}=p_ch_{c-2}+v^{c-1}
+\]
+reduce the quotient by $J_1$ to a monic Groebner basis built from $v^jp_{c-j}$. Adjacent reductions follow from the power-sum recurrence; the boundary coefficient $2$ is reduced by a monic power of $v$, not divided out. The resulting free integral quotient has the known defect-variety rank. Since $J_1\subseteq K_1$ and the ranks agree, freeness proves equality over $\Z$.
+
+\subsection{A uniform next proof route}
+Let $V=\Z[z]/z^n$ and let $T$ act by multiplication by $z$. The rectangular Schur basis identifies $R$, as a lattice, with $\bigwedge^\ell V$ through alternants. Put
+\[
+ A(a)=\sum_{j=c}^{n-1}a_jT^j,\qquad
+ U(a)=\bigwedge^\ell(1+A(a)).
+\]
+Since $A(a)A(b)=0$, coefficients of total $a$-degree at least $e$ give exactly the multiplication operators by the high monomials generating $J_e$. The missing theorem is that their sum of integral images is primitive with the known $K_e$ rank. This reformulation preserves divided-power coefficients and is suitable for a uniform straightening proof. Replacing the family by one generic matrix or working only over $\Q$ would leave the essential gap.
+
+\status{See \record{CLASSICAL_SATURATION_GENERATORS.md}{the denominator theorem and conjecture} and \record{CLASSICAL_TWO_HEAD_GENERATORS.md}{the two-variable proof}. The remaining range is $\ell\ge3$, $1\le e<\ell$. Nine exact finite ideal checks are supporting evidence only. Truncated-symmetric and current-algebra literature \cite{AR,Galetto,BO,BW} provides promising comparisons, not an already verified integral identification with these $K_e$.}
+
+\section{Joint images and exceptional arithmetic}
+\subsection{Several Levi blocks}
+On a symplectic two-step flag with positive block sizes $a,b,k$, use normalized generators $c_j=e_j(x_{\rm middle})$ and $q_i=e_i(x_{\rm tail}^2)$. Let $L_1$, $L_2$ be their separate images and $J$ the algebra generated jointly. The repository deduction from integral flag geometry is that $J$ is primitive in ambient cohomology, $L_1+L_2$ is primitive in $J$ and in ambient cohomology, and $L_1\cap L_2=\Z$. An integral basis simultaneously contains bases for both separate images. Mixed products contribute new free directions, not torsion in this sum quotient.
+
+For the analogous normalized B/D flags, the sum is still primitive inside the joint image and the intersection is $\Z$, but ambient saturation can fail. Ambient torsion is 2-primary; its complete multiplicities remain open. These are therefore genuine extensions of the single-tail problem, rather than automatic consequences of the completed Grassmannian formulas. A multistep generalization must specify all generators and their integral positions.
+
+\subsection{Relative exceptional images}
+For a proper retained set $I$, define unscaled characteristic images
+\[
+ M_I^d=\beta^{P_I}((\Sym_\Z^dQ)^{W_I}),\qquad
+ N_I^d=\beta^{P_I}((\Sym_\Z^dX)^{W_I}).
+\]
+The finite quotient $N_I^d/M_I^d$ compares two embedded full-source images. It is not the ambient quotient $H^{2d}(G/P_I;\Z)/N_I^d$. This distinction is the principal qualification to the exceptional completeness statements.
+
+In E6 all 63 proper standard parabolics have complete relative formulas. Sixty have a common expression. Define
+\begin{align*}
+ C_1(q)&=q+q^2+q^7+q^8+q^9+2q^{10}+q^{11}+q^{12}+q^{14},\\
+ C_2(q)&=q^3+q^4+q^6+q^7+q^9+q^{11}+q^{12}+q^{13}+q^{15}+q^{16},\\
+ C_3(q)&=q^5+q^8,
+\end{align*}
+and $D(q)=[2]_q[4]_q[5]_q[6]_q[8]_q$, where $[j]_q=1+\cdots+q^{j-1}$. If $I$ does not contain $\{1,3,5,6\}$ in Bourbaki numbering, the multiplicity of $3^a$ is
+\[
+ [q^d]\frac{C_a(q)D(q)}{P_{W_I}(q)},\qquad a=1,2,3.
+\]
+The three excluded retained sets have separate completed formulas. For the minimal 27-dimensional and adjoint 78-dimensional representations, the full literal degree-$d$ images are $6^dM_I^d$ and $24^dN_I^d$, respectively. The scalar comparison and the nontrivial root/weight quotient are distinct parts of this answer.
+
+In E7 all 127 proper standard parabolics satisfy
+\[
+ 2N_I^d\subseteq M_I^d\subseteq N_I^d,\qquad
+ N_I^d/M_I^d\simeq(\Z/2)^{m_{I,d}}.
+\]
+For the 112 sets omitting at least one of $2,5,7$,
+\[
+ \sum_d m_{I,d}q^d=\frac{qP_{W(E7)}(q)}{(1+q)P_{W_I}(q)}.
+\]
+The remaining fifteen have explicit completed multiplicity polynomials, including the D6, D5+A1, D4+A1 and even-block families. The first relative gap occurs in degree one for 112 sets, degree two for twelve, degree four for two, and degree eight for D6. Completeness uses full integral invariant sources, including generators missed by earlier bounded searches. A source Hilbert/leading-monoid argument proves generation in all degrees; it is not inferred from stopping at a chosen degree cutoff.
+
+\subsection{An absolute benchmark and the remaining exceptional work}
+For G2/B, the minimal literal source is $\Z[6\omega_1,2\omega_2]$. Its image has presentation
+\[
+ J_{7,T}\simeq\Z[X_1,Y_1]/(X_1^2-3X_1Y_1+3Y_1^2,Y_1^6).
+\]
+In polynomial degrees $0$ through $6$, the Smith lists are
+\[
+ (1),\ (2,6),\ (12,12),\ (24,144),\ (288,288),\ (576,1728),\ (3456).
+\]
+The adjoint lists are multiplied by $4^d$ in degree $d$. These are absolute ambient image factors. A monic normal-form argument proves the integral kernel, and independent BGG/Chevalley routes check the embeddings.
+
+For F4 and E8 the root and weight lattices agree, so a nontrivial $Q/X$ comparison cannot be the next target. Their relevant arithmetic questions concern representation scaling, full Levi invariant sources, and ambient image cokernels. The irreducible linear-source formula is already uniform; a uniform full ambient-image classification is not. In E6/E7, a geometric explanation of the finite relative patterns remains worthwhile, but should be formulated as a new structural theorem rather than another calculation of the same table.
+
+\status{Sources: \record{TYPE_C_JOINT_PRIMITIVITY.md}{C joint theorem}, \record{ORTHOGONAL_JOINT_IMAGES.md}{B/D joint theorem}, \record{E6_ROOT_WEIGHT_COMPARISON.md}{E6 transfer}, \record{E6_REMAINING_CASES.md}{E6 completion}, \record{E7_ALL_PARABOLICS.md}{E7 completion}, and \record{G2_FULL_FLAG.md}{G2 full flag}. All are repository deductions or finite computer-assisted results with their individual scopes; no general ambient exceptional classification is claimed.}
