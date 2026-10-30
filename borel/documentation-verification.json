@@ -8,6 +8,178 @@
       "python_blocks_executed": 0
     },
     {
+      "file": "../articles/README.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "CLASSICAL_ADAPTED_SMITH_BASIS.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "TYPE_D_EXPLICIT_INTEGRAL_BASIS.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "CLASSICAL_SATURATION_GENERATORS.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "CLASSICAL_TWO_HEAD_GENERATORS.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "TYPE_A_K_SPECIALIZATION.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "TYPE_A_K_PRIMARY_LAYERS.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "TYPE_A_K_ANNIHILATOR.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "TYPE_A_K_GRADED_LIFTS.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "TYPE_A_K_INTEGRAL_RECURRENCE.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "TYPE_A_K_STABLE_MULTIPLICITIES.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "TYPE_A_K_FIRST_CORRECTION.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "TYPE_A_K_NEXT_LAYER_OBSTRUCTION.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "TYPE_A_K_NEXT_ELEMENTARY.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "CLASSICAL_POLYNOMIAL_ADJOINT_BLOCKS.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "ADJOINT_GENERIC_FIBER_THEOREM.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "E8_DEGREE_TRANSFER_AUDIT.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "ADJOINT_NONEMPTINESS_CRITICAL_VALUES.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "CHARACTER_COMPOSITION_FIBERS.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "review/adjoint-generic-fibers/README.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "review/adjoint-generic-fibers/CERTIFICATE_GUIDE.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "CAYLEY_FIBER_REVIEW.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "BINARY_BRANCHING_FIBERS.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "UNIFORM_ADJOINT_PROOF_TARGET.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "SHARED_SQUARE_COUPLINGS.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "WEYL_JET_OBSTRUCTION.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "CENTRAL_RIGIDITY_FIBERS.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "../articles/springer-cayley-exposition/README.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "SPECTRAL_BRANCHING_FIBERS.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "ADJOINT_PENCIL_SCOPE.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "MULTIPLIER_BRANCHING_FIBERS.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "EXCEPTIONAL_QUARTIC_REDUCTION.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "E7_MULTIPLIER_BOUNDARY.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "E7_SYMMETRIC_PENCIL.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "E7_FINAL_FAMILIES.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "E8_WEYL_TRANSFERS.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "E8_A1_TRIPLE.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "E8_A2_A1_PAIR.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "E8_FINAL_CASES.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "E8_LAST_ADJOINT_FIBER.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "G2_ADJOINT_FIBERS.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "F4_ADJOINT_FIBERS.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "../articles/classical-equivariant-exposition/README.md",
+      "python_blocks_executed": 0
+    },
+    {
       "file": "../articles/research-program-proposal/README.md",
       "python_blocks_executed": 0
     },
@@ -21,6 +193,198 @@
     },
     {
       "file": "AGENTS.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "CLASSICAL_EQUIVARIANT.md",
+      "python_blocks_executed": 2
+    },
+    {
+      "file": "SYMPLECTIC_K_FITTING.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "SYMPLECTIC_K_MINORS.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "SYMPLECTIC_K_BALANCING.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "SYMPLECTIC_K_ORDINARY_SMITH.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "CAYLEY_LITERATURE_AUDIT.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "EXTERIOR_REGULARITY.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "TYPE_A_REGULARITY.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "TYPE_C_FUNDAMENTAL_REGULARITY.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "TYPE_C_REGULARITY.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "TYPE_B_REGULARITY.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "MIXED_REGULARITY.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "SYMPLECTIC_HARMONIC_LOCALIZATION.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "SYMPLECTIC_CAYLEY_DEGREES.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "SPIN_CAYLEY_DEGREES.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "SPIN_POLYNOMIAL_CAYLEY_DEGREES.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "SPIN_CAYLEY_GEOMETRY.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "HALF_SPIN_CAYLEY.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "HALF_SPIN_BOUNDARY.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "HALF_SPIN_DEGREE.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "HALF_SPIN_RANK_DEGREES.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "GENERAL_CAYLEY_DEGREE.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "E6_ADJOINT_DEFORMATION.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "F4_MINIMAL_DEGREE.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "F4_MIXTURE_DEGREES.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "BC_MIXTURE_DEGREES.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "BOREL_COORDINATES.md",
+      "python_blocks_executed": 1
+    },
+    {
+      "file": "BOREL_RECONSTRUCTION.md",
+      "python_blocks_executed": 1
+    },
+    {
+      "file": "ROOT_BOREL_API.md",
+      "python_blocks_executed": 2
+    },
+    {
+      "file": "G2_BOREL_RANK.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "CAYLEY_FIBER_ASSESSMENT.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "TYPE_A_CHARACTER_DEGENERATION.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "IRREDUCIBLE_CENTRALIZER_REALIZATION.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "MIDDLE_EXTERIOR_FIBER_COMPONENT.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "SYMPLECTIC_CENTRALIZER_REALIZATION.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "SYMPLECTIC_FIBER_COMPONENT.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "GENERAL_CAYLEY_FIBER_CRITICAL.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "SIMPLE_GROUP_CAYLEY_BRANCHING.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "SYMPLECTIC_TARGET_STRATA.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "SPIN_FIBER_EXCESS.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "AFFINE_BRANCHING_FIBERS.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "AFFINE_BRANCHING_CLASSIFICATION.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "QUADRATIC_BRANCHING_FIBERS.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "CLASSICAL_ADJOINT_FIBERS.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "EXCEPTIONAL_ADJOINT_CONTACT_FIBERS.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "BRANCHING_NORM_FIBERS.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "CUBIC_LEVI_REFINEMENTS.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "REGULARITY_CLASSIFICATION.md",
       "python_blocks_executed": 0
     },
     {
@@ -110,6 +474,70 @@
     {
       "file": "E7_RELATIVE_IMAGE_API.md",
       "python_blocks_executed": 4
+    },
+    {
+      "file": "E7_QUADRATIC_DERIVATION.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "E7_DEGREE11_LIFTING.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "CENTRAL_PARITY_KERNEL.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "SPIN_PARITY_EXTENSION.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "SPIN_PARITY_RECURSION.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "SPIN_PARITY_BOUNDARY.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "OTHER_THEORIES_PROGRAM.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "OTHER_THEORIES_FINITE.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "OTHER_THEORIES_SL3.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "OTHER_THEORIES_TYPE_A.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "OTHER_THEORIES_HEIGHT.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "OTHER_THEORIES_COTANGENT.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "OTHER_THEORIES_EQUIVARIANT_K.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "OTHER_THEORIES_QUANTUM.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "OTHER_THEORIES_AFFINE.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "OTHER_THEORIES_FOLDING.md",
+      "python_blocks_executed": 0
     },
     {
       "file": "MATHEMATICS.md",
@@ -384,7 +812,7 @@
       "python_blocks_executed": 0
     }
   ],
-  "local_links_and_anchors_checked": 1297,
-  "python_blocks_executed": 48,
+  "local_links_and_anchors_checked": 2574,
+  "python_blocks_executed": 54,
   "scope": "Python fences executed in reading order in a fresh namespace per document; local links and anchors checked. Shell snippets and external URLs were not automatically executed or crawled."
 }

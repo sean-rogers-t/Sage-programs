@@ -1,0 +1,78 @@
+{
+  "result": "passed",
+  "method": "Recursive symbolic source witnesses; no matrix membership solver",
+  "cases": [
+    {
+      "excess": 1,
+      "coefficient_degree": 3,
+      "weight": 4,
+      "witness_count": 4
+    },
+    {
+      "excess": 2,
+      "coefficient_degree": 4,
+      "weight": 6,
+      "witness_count": 9
+    },
+    {
+      "excess": 3,
+      "coefficient_degree": 5,
+      "weight": 8,
+      "witness_count": 20
+    },
+    {
+      "excess": 4,
+      "coefficient_degree": 6,
+      "weight": 10,
+      "witness_count": 39
+    },
+    {
+      "excess": 3,
+      "coefficient_degree": 7,
+      "weight": 10,
+      "witness_count": 28
+    },
+    {
+      "excess": 5,
+      "coefficient_degree": 7,
+      "weight": 12,
+      "witness_count": 74
+    },
+    {
+      "excess": 2,
+      "coefficient_degree": 3,
+      "weight": 5,
+      "witness_count": 7
+    },
+    {
+      "excess": 3,
+      "coefficient_degree": 4,
+      "weight": 7,
+      "witness_count": 16
+    },
+    {
+      "excess": 4,
+      "coefficient_degree": 5,
+      "weight": 9,
+      "witness_count": 32
+    },
+    {
+      "excess": 5,
+      "coefficient_degree": 6,
+      "weight": 11,
+      "witness_count": 62
+    }
+  ],
+  "total_witnesses": 291,
+  "all_positive_coefficient_targets_have_literal_ideal_witnesses": true,
+  "denominator_prime_bound": "max(2,e); no division by M or representation rank",
+  "boundary_cases_k_equal_e_plus_one": 4,
+  "all_rank_claim_from_finite_checks": false,
+  "source_sha256": {
+    "TYPE_A_K_NEXT_LAYER_OBSTRUCTION.md": "6409a0474e65c9b07f927008ef50a9e3d0827b959a9862329a0943402fcbb048",
+    "tools/build_type_a_k_high_coefficient.py": "fe1c05f35c81199d6fbeaa3f48622badb459c4e5d7d7fc8180bc7dd2a6a9dc42"
+  },
+  "raw_sha256": {
+    "experiments/type-a-k-high-coefficient-witnesses.json.gz": "6b2bd4f5c0150b4fd5e670c9227a56ab33a875aeb4a12727502e6718b40780a7"
+  }
+}

@@ -1,0 +1,133 @@
+\section{The generalized Cayley side: information before the Borel quotient}
+The trace-projection map in this program is the generalized Cayley map studied by Kostant--Michor. Their work relates its degree to the induced map on adjoint quotients and uses its differential in a harmonic-separation problem \cite{KM}. The geometric branch of the present program retains positive-degree global invariant functions, which the Borel map kills. It therefore studies additional information in the same original representation-dependent morphism.
+
+\subsection{Quotient coordinates and the full differential}
+For basic invariants $f_1,\ldots,f_r\in\C[\mathfrak t]^W$, the functions $f_i(\Theta_\rho(t))$ describe $T/W\to\mathfrak t/W$. Fundamental characters give affine coordinates on $T/W$ for a simply connected semisimple group \cite{Steinberg}. The exceptional API implements exact higher coordinates and checks invariant degrees and independence, rather than identifying a few low-degree expressions with a complete invariant system.
+
+In logarithmic torus coordinates, the derivative matrix is
+\[
+ J_T(t)=M_\rho^{-1}\sum_\mu m_\mu\mu\mu^t e^\mu(t).
+\]
+This is only the Cartan block. Equivariance determines each root-direction eigenvalue, yielding the full left-trivialized Cayley determinant
+\[
+ \Psi_\rho|_T=\det J_T\prod_{\alpha>0}
+ e^\alpha\left(\frac{\alpha(\Theta_\rho)}{e^\alpha-1}\right)^2.
+\]
+The apparent quotients extend as Laurent polynomials, because they are entries of the regular differential. The formula initially follows on a dense torus open and then extends. It is a direct deduction from the explicit torus map and equivariance. Its zero set is a \emph{source} critical locus; it is not already a computation of the target branch or nonproperness locus.
+
+The same equivariance permits reconstruction of Borel-coordinate formulas from torus data and root commutators. Character-based recurrences extend the initial $\SL_3$ and $\Sp_4$ calculations to other representations and root data. Their value is a uniform mechanism for root coordinates and collapse tests. Singular root coefficients mark places where unipotent directions can cease to be determined by first-order data; those loci require the higher recurrence, not a generic division by a root coefficient.
+
+\subsection{Generic degrees and boundary corrections}
+For a dominant generically finite map, degree means the characteristic-zero extension degree of rational-function fields. In this setting
+\[
+ \deg\theta_\rho=\deg(T\to\mathfrak t)=\deg(T/W\to\mathfrak t/W).
+\]
+The two Weyl quotient degrees cancel; one does not divide the torus degree by $|W|$. For an adjoint character the Newton calculation often takes place on the root-lattice torus, so a central covering factor must be restored for the simply connected group.
+
+The recorded exceptional calculations are:
+\begin{center}
+\begin{tabular}{lrrrr}
+\toprule
+Representation & Volume & Boundary & Cover & Degree\\\midrule
+E6 minimal, $27$ &1080&0&1&1080\\
+E6 adjoint, $78$ &2808&1890&3&2754\\
+E7 minimal, $56$ &9792&2520&1&7272\\
+E7 adjoint, $133$ &21312&4480&2&33664\\\bottomrule
+\end{tabular}
+\end{center}
+The degree is $(\text{volume}-\text{boundary})\times\text{cover}$. A raw Newton volume is wrong in three of these cases. The E6 correction $1890$ also has a deformation reconstruction, supplying a different check on the intersection calculation. F4 minimal degree $96$, F4 minimal/adjoint mixtures, and defining/adjoint mixtures in B/C have separate recorded boundary formulas and exceptional coefficient ratios. These extend the method to coherent families, but do not constitute an arbitrary-representation boundary algorithm.
+
+The unresolved structural issue is how to derive all contributing face schemes and their normal multiplicities from representation data. A facet character alone may not determine the correction. Toric intersection theory is the published foundation; the representation-specific boundary calculations are the additional work. These degrees are degrees of particular regular maps, not the minimum Cayley degree over all dominant rational equivariant maps. Historical minimum-degree questions therefore cannot be declared solved by this table.
+
+\status{See \record{SPRINGER_GEOMETRY.md}{quotients and differential}, \record{EXCEPTIONAL_DEGREES.md}{exceptional degrees}, \record{GENERAL_CAYLEY_DEGREE.md}{boundary criteria}, \record{F4_MIXTURE_DEGREES.md}{F4 mixtures}, and \record{BC_MIXTURE_DEGREES.md}{B/C mixtures}. Exact certificate checks support the stated cases; external review and literature priority remain separate.}
+
+\section{Regularity preservation and harmonic separation}
+An element is regular if its centralizer has dimension $\rank G$. Torus regularity means regular semisimple points of $T$ map to regular points of $\mathfrak t$. Global regularity preservation also includes regular nonsemisimple group elements. These are distinct conditions, and neither is the same as generic smoothness of a specified fiber family.
+
+The repository has a uniform classification for actual nontrivial finite-dimensional representations of simple simply connected complex groups, allowing direct sums and trivial summands. For $\SL_N$, $N\ge3$, the globally preserving representations are copies of the defining module, or copies of its dual, with optional trivial summands; mixing the two nontrivial types is excluded. For $\SL_2$, only copies of the defining module plus trivial summands preserve global regularity. No global positive cases occur in the remaining simple types under these hypotheses.
+
+There is a larger torus-preserving symplectic family. Write $D(g)=\det(I+g)$ in the defining symplectic module. Actual characters of the form $A D^m+B$, with $A,m$ positive integers and $B$ chosen so the expression is an actual character, preserve torus regularity. In rank at least two they fail global preservation. The same torus family occurs for $\SL_2=\Sp_2$, but global preservation is more restrictive. The classification does not cover arbitrary virtual characters with negative nontrivial multiplicities, positive characteristic, or general reductive products.
+
+The argument exploits positivity of actual weight multiplicities on real root directions, Laurent factorization of root-coordinate functions, and compatibility across the root system. Positivity is a hypothesis with content, not a property of arbitrary invariant potentials. The standard defining $\SL_N$ example is already treated by Kostant--Michor; the broader classification is a working deduction and requires focused external review.
+
+\subsection{A sharp localization that does not require global regularity}
+Let $G=\Sp(2n)$, $n\ge2$, and let $\theta_m$ be the normalized map for a determinant-power character. Put $A_G=\C[G]$, $R_G=A_G^G$, and $\mathcal H_m=\theta_m^*\operatorname{Harm}(\mathfrak g)$. The harmonic space is a vector space, not a subalgebra. The recorded theorem is
+\[
+ R_G[D^{-1}]\otimes_\C\mathcal H_m\xrightarrow{\sim} A_G[D^{-1}].
+\]
+Among nonzero invariant principal localizations by $f$, this multiplication map is an isomorphism exactly when $D$ divides $f$. Thus the determinant divisor is the minimal support to remove within that specified class of localizations. The full normalized Jacobian is
+\[
+ \Psi_m(g)=\left(\frac{D(g)}{4^n}\right)^{(nm-1)(2n+1)}
+ \left(1-nm+\frac m2\tr(g)\right).
+\]
+Separation holds across the extra critical divisor in the last factor. This refines the needed localization for this fixed pulled-back harmonic space; it does not contradict the global regularity obstruction or remove poles from every inverse-differential construction. The proof uses the classical Cayley isomorphism on $D\ne0$ and known Lie-algebra harmonic separation.
+
+\status{See \record{REGULARITY_CLASSIFICATION.md}{the complete classification}, \record{SYMPLECTIC_HARMONIC_LOCALIZATION.md}{the sharp localization}, and \record{CAYLEY_LITERATURE_AUDIT.md}{the literature audit}. These results concern the generalized Cayley map itself. They do not propose an unrelated replacement harmonic complement.}
+
+\section{Actual adjoint fibers: the completed case theorem}
+Let $G$ be simple and simply connected, $\mathfrak g=\Lie(G)$, and $B_{\rm Kill}$ its Killing form. Define
+\[
+ B_{\rm Kill}(\theta_{\mathrm{Ad}}(g),X)
+ =\tr(\Ad(g)\operatorname{ad}X).
+\]
+For a proper Levi subgroup $K$ with Lie algebra $\mathfrak k$, put
+\[
+ Z_K^\circ=\{h\in\mathfrak z(\mathfrak k):Z_G(h)=K\}.
+\]
+\begin{theorem}[Generic adjoint regular-source fibers; completed repository case proof]
+For every such $G,K$, there is a dense Zariski open $U_K\subset Z_K^\circ$ such that the actual scheme
+\[
+ \theta_{\mathrm{Ad}}^{-1}(h)\cap G_{\reg}
+\]
+is smooth for every $h\in U_K$. Empty fibers and smooth positive-dimensional transverse factors are allowed. After further shrinking, this is a smooth family over $U_K$.
+\end{theorem}
+The statement includes all finite simple types, including E8. It retains nilpotents in the equations and regular nonsemisimple source points. It does not replace a fiber by its reduced support. It does not assert that every centralizer-exact target is good, or that the fiber is nonempty, or that its dimension always equals $\dim K-\rank G$.
+
+\subsection{The common scheme reduction}
+Equivariance gives $(\Ad(g)-1)\theta(g)=0$. On the fiber over $h$, this places the centralizer equations in the fiber ideal, so the actual fiber lies in $K$. On a finite central etale cover $[K,K]\times Z(K)^\circ\to K$, use fundamental characters $x_1,\ldots,x_\ell$ of the derived group and central torus coordinates $z_1,\ldots,z_s$. Let $\Phi(x,z)$ be the \emph{full} restricted adjoint character. Define
+\[
+ Y=V(\partial_{x_1}\Phi,\ldots,\partial_{x_\ell}\Phi),\qquad
+ \mu_j=z_j\partial_{z_j}\Phi.
+\]
+The transverse scheme over a target $c$ is cut out by these equations and $\mu_j=c_j$. On the regular source, the adjoint quotient is smooth, and the completed local ring of the group fiber is the completed transverse ring with $\dim K-\rank G$ formal smooth variables adjoined. The finite central cover is etale; later Weyl trace substitutions can ramify and require separate treatment.
+
+The uniform obstruction is therefore
+\[
+ \overline{\mu(\operatorname{Sing}Y)}\subsetneq\mathfrak z(\mathfrak k),
+\]
+where $\operatorname{Sing}Y$ means the nonsmooth locus of the actual scheme. Standard generic smoothness applies only after this image is excluded. It cannot remove a persistent nonreduced component that dominates the target.
+
+\subsection{What a certificate means in this proof}
+For exceptional cases, a certificate is finite exact algebraic evidence for a precisely stated step: original polynomial generators, ideal membership witnesses or certified leading terms, dimensions or degrees, and the hypotheses linking those data to a characteristic-zero statement. It is not a numerical sample or a second name for the theorem. A monomial dimension count checks an initial ideal once that initial ideal has been justified. A finite-prime computation needs a valid characteristic-zero implication; it does not supply one by itself.
+
+The consolidated proof handles all 255 proper E8 standard subsets through Weyl transfers and the remaining critical models. A fresh audit rechecked transfers, original critical generators, and the passage to actual group fibers. The last degree-at-infinity argument has an explicit finite-prime membership dependency on a pinned exact engine. Native checks independently verify specified identities and monomial counts, but do not independently reproduce every engine membership. That limitation should be disclosed to a reviewer rather than hidden by the phrase ``independently checked.''
+
+Three controls remain indispensable. A special $\Sp_4$ centralizer-exact target has a singular transverse fiber, so genericity is essential. An E6 contact example has transverse excess two, so universal quasifiniteness is false. Altered characters and an actual nonadjoint $\SL_3$ representation give persistent nilpotent behavior, so Weyl symmetry and positivity alone do not prove the adjoint theorem. The case proof is complete in its recorded scope; a uniform root-theoretic replacement is still unresolved.
+
+\status{Precise theorem and dependencies: \record{ADJOINT_GENERIC_FIBER_THEOREM.md}{the consolidation}; \record{E8_DEGREE_TRANSFER_AUDIT.md}{the fresh E8 audit}; \record{review/adjoint-generic-fibers/README.md}{the review package}. This is a computer-assisted working proof, not external mathematical certification.}
+
+\section{Nonemptiness, excess, and representation changes}
+Smoothness allowing empty fibers leaves an important classification problem: which components actually dominate a central target stratum, and how large are their fibers? The repository derives a critical-value/stabilizer criterion and a rational-linear description of the relevant central images. These are structural tools, but finding all components directly from roots remains unresolved in general.
+
+For actual representation characters polynomial in the adjoint character, write $\chi_\sigma=f(\chi_{\mathrm{Ad}})$ and assume the trace normalization is nondegenerate. The chain rule gives
+\[
+ \theta_\sigma=
+ \frac{f'(\chi_{\mathrm{Ad}})}{f'(\dim G)}\theta_{\mathrm{Ad}}.
+\]
+On a fiber over a nonzero central target the numerator scalar is a unit. On a dominant component with constant adjoint-character value $b$, the component survives exactly when $f'(b)\ne0$. Smoothness and excess are then transported by the proved component criterion. This is not a classification of arbitrary irreducible representations; actual polynomial characters are a specified family.
+
+\subsection{Classical block classification}
+For $\SL_N$ with proper Levi block sizes $b_i$, generic nonemptiness in this polynomial-adjoint family occurs exactly when every $b_i\le2$ and at least one block is a singleton. The dimension is $\sum_i b_i(b_i-1)$. In B/C/D, write the matrix Levi pattern as $\prod_i\GL_{b_i}\times H_m$, with $\sum b_i+m=n$ and residual $H_m$ orthogonal or symplectic. Absorb $\SO_2$ into a $\GL_1$ block in D.
+
+If some $b_i>4$, or if $m>2$ in B, $m>1$ in C, or $m>3$ in D, the regular fiber is empty over centralizer-exact targets. Within those bounds, all patterns other than the all-four-block families and two small residual exceptions have a dominant component with nonconstant adjoint character, and therefore remain generically nonempty for every admissible $f$. The exceptional patterns have explicit finite constant-value sets; the criterion is that $f'$ not vanish on all those values. The two isolated patterns are B3 with $\GL_1\times\SO_5$ and D4 with $\GL_1\times\SO_6$, both governed by $f'(0)$.
+
+Whenever nonempty, the generic fibers are smooth of dimension
+\[
+ \sum_i b_i(b_i-1)+2m^2\quad\text{in B/C},\qquad
+ \sum_i b_i(b_i-1)+2m(m-1)\quad\text{in D}.
+\]
+Thus the transverse excess is zero throughout this classical family. On $\GL_4^q$ with no residual factor, the constant value is $-q/(2q-1)$ in B and zero in C/D. In particular pure adjoint tensor powers of order at least two erase the C/D strata. The exceptional E6 contact stratum behaves differently and demonstrates why this classical zero-excess conclusion cannot be promoted to every simple group.
+
+There is also a recorded extension of adjoint generic smoothness to semisimple groups and all Levi factors, using a separate regular zero-fiber calculation and finite central descent. It is not an automatic reductive extension, since the adjoint trace form is degenerate on a central torus. The present exposition keeps the proper-Levi simple theorem as its principal statement because that is the scope of the original conjecture and its review package.
+
+\status{See \record{ADJOINT_NONEMPTINESS_CRITICAL_VALUES.md}{the structural criterion and zero targets}, \record{CHARACTER_COMPOSITION_FIBERS.md}{polynomial-character survival}, and \record{CLASSICAL_POLYNOMIAL_ADJOINT_BLOCKS.md}{the full classical table and boundary audit}. The latter table, rather than an inferred extrapolation from the examples here, gives the complete constant-value tests.}

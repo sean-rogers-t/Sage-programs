@@ -1,0 +1,17 @@
+{
+  "result": "passed",
+  "weight": 12,
+  "coefficient_degree": 3,
+  "exact_relative_order": 5,
+  "ideal_generators_checked": 90,
+  "ideal_identity_terms": 78,
+  "functional_value": "4889/5",
+  "all_degree_saturation_claim_refuted": true,
+  "actual_elementary_claim": false,
+  "source_sha256": {
+    "TYPE_A_K_NEXT_LAYER_OBSTRUCTION.md": "6409a0474e65c9b07f927008ef50a9e3d0827b959a9862329a0943402fcbb048",
+    "tools/build_type_a_k_relative_obstruction.py": "4d5f7404b92a2665c882a7991b5b8b2705c981bd84cdb7a7d1b8c78a16b5a4e2",
+    "tools/verify_type_a_k_stable_multiplicities.py": "d6e4d4b0f3c59cddb8b5a170ab40f213ab6e67528c929754a0480796fc69c927",
+    "experiments/type-a-k-relative-five-obstruction.json": "d8f07059331b824957f256923ca0f1fc026198165a8f65a05217146065cab027"
+  }
+}

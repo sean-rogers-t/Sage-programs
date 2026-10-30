@@ -1,0 +1,27 @@
+{
+  "result": "passed",
+  "date": "2026-10-22",
+  "rank": 7,
+  "prime": 32003,
+  "chirality": 1,
+  "model": "original_product_character",
+  "target": [
+    1,
+    2,
+    3,
+    5,
+    7,
+    11,
+    17
+  ],
+  "fiber_length": 1692,
+  "elapsed_seconds": 438.068843092,
+  "command": "PYTHONPATH=src:tools sage -python tools/explore_half_spin_rank6_product.py 32003 1 7",
+  "captured_stdout": "Starting product character 32003 1 7\nLength 1692 seconds 438.068843092\n",
+  "reducedness_certified": false,
+  "full_Groebner_basis_saved": false,
+  "scope": "Recorded completed exploratory command output; reproducible source retained. This exact specialized length is not a proof of generic degree or a reducedness certificate.",
+  "source_sha256": {
+    "tools/explore_half_spin_rank6_product.py": "4c5393dd48cb45e59eabb18a8988c50bede7513b6ccb01b97527071bdc01e070"
+  }
+}

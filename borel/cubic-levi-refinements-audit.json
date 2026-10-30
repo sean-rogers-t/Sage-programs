@@ -1,0 +1,54 @@
+{
+  "result": "passed",
+  "uses_Sage": false,
+  "universal_fricke": {
+    "monic_basis_over_polynomial_parameter_ring": true,
+    "S_pairs_checked": 15,
+    "free_basis": [
+      "1",
+      "X",
+      "Y",
+      "Z",
+      "Z^2"
+    ],
+    "rank": 5,
+    "rank_is_over_central_parameters_not_target_parameters": true
+  },
+  "product_transfer": {
+    "product_transfer_on_both_nonzero_targets": true,
+    "radical_not_taken": true,
+    "model": "S=z+z^-1, T=p+p^-1; universal powers handled by the written proof"
+  },
+  "normal_form": {
+    "master_expansion": true,
+    "base_unit_relative_gradient_identity": true,
+    "both_boundary_components_checked": true
+  },
+  "native_root_checks": [
+    {
+      "refinements": 2,
+      "prime": 1009,
+      "full_rank": 68,
+      "kernel_dimension": 10,
+      "target_centralizer_checked": true,
+      "central_cover_degree": 12
+    },
+    {
+      "refinements": 3,
+      "prime": 1009,
+      "full_rank": 72,
+      "kernel_dimension": 6,
+      "target_centralizer_checked": true,
+      "central_cover_degree": 24
+    }
+  ],
+  "all_exceptional_Levis_resolved": false,
+  "literature_priority_claim": false,
+  "source_sha256": {
+    "CUBIC_LEVI_REFINEMENTS.md": "ee71f608ab03e7d9c6349b8b832e59df21482fcb5c141775267b11d8a806b815",
+    "tools/audit_cubic_levi_refinements.py": "06b3c79b9ae929d27dbc2e2de5706febaafda9f4e18d2cfebd95d9b08455a9ce",
+    "tools/audit_affine_branching_certificates.py": "7d56ef1b5373f66a5e7c38d3c8d567ec4c27bfdda5bdd11ef60f54ee2f8da2a1",
+    "tools/audit_branching_norm_fibers.py": "a7ccf69961962ffb6075392ae8c17883626f02dbc4eba9eafa0cdd7df350d3fa",
+    "cubic-levi-refinements-verification.json": "bc481931f26c5548335cde52c1c0767974ff51c9c61978cce3f18b8ac6995efa"
+  }
+}

@@ -7,6 +7,30 @@ not a published erratum and do not modify the source articles.
 
 ## Research program proposal
 
+The [comprehensive research statement](research-statement/README.md), dated
+29 October 2026, brings the published foundations and current working results
+together in a detailed LaTeX/PDF for mathematical collaborators. It covers
+ordinary integral images and their new explicit bases, exceptional relative
+comparisons, equivariant/K-theory specialization, other-theory extensions,
+and the completed adjoint generic-fiber case theorem. Its status inventory
+and prioritized proof targets supersede the progress counts in the older
+expositions below without changing those historical documents.
+
+The [Springer-Cayley exposition](springer-cayley-exposition/README.md)
+explains the geometric program through 24 October 2026: explicit torus maps,
+regularity and harmonic separation, degrees and boundary corrections, and
+the character-critical description of fibers. Its eleven-page LaTeX/PDF
+states the classical theorem, current 123/127 E7 coverage, the exact four
+remaining E7 cases, and the broader unresolved conjecture. Published inputs
+and repository deductions are distinguished throughout.
+
+The [classical expository paper](classical-equivariant-exposition/README.md)
+develops the Bruhat and representation-ring background, the published
+Springer-Borel maps, the normalized integral A-D results, and the
+equivariant cohomology/K-theory extension program. It includes a
+twelve-page PDF, editable LaTeX and checked examples, with published
+inputs, repository deductions and proposed work distinguished.
+
 The [research proposal and progress inventory](research-program-proposal/README.md)
 connects the source papers and completed work to four core research aims:
 integral images, generic degrees, regularity and geometric Smith filtrations.

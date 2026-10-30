@@ -1,0 +1,286 @@
+{
+  "result": "passed",
+  "SL4_actual_saturation": "(u,(z-1)^2,z*zi-1)",
+  "nonclean_affine_target_control": "c1+c2=1",
+  "nonlinear_conormal_inverse": true,
+  "E6_composed_target_squared_in_original_ideal": true,
+  "E6_composed_target_not_in_original_ideal": true,
+  "E6_shifted_adjoint_tensor_square_dimension": 6400,
+  "type_A_composition_completed_square_and_unit_elimination": true,
+  "type_A_composition_nonconstant_restriction": true,
+  "BCD_four_block_reciprocal_Newton_check": true,
+  "BCD_four_block_constant_values": [
+    "-q/(2*q-1)",
+    "0",
+    "0"
+  ],
+  "rational_support_hessian_ranks": [
+    1,
+    2,
+    3,
+    2,
+    2
+  ],
+  "E8_field": "Q(i)",
+  "E8_original_derived_hessian_determinant": 216,
+  "E8_original_central_schur_determinant": -69120,
+  "E8_original_full_hessian_determinant": -14929920,
+  "exceptional_involution_character_checks": [
+    {
+      "type": "E6",
+      "hessian_rank_counts": {
+        "6": 28,
+        "1": 36
+      },
+      "characters_checked": 64
+    },
+    {
+      "type": "E7",
+      "hessian_rank_counts": {
+        "7": 128
+      },
+      "characters_checked": 128
+    },
+    {
+      "type": "E8",
+      "hessian_rank_counts": {
+        "8": 256
+      },
+      "characters_checked": 256
+    }
+  ],
+  "adjoint_zero_character_checks": [
+    {
+      "type": "A1",
+      "adjoint_labels": [
+        2
+      ],
+      "character": "x1^2-1",
+      "dimension": 3
+    },
+    {
+      "type": "A2",
+      "adjoint_labels": [
+        1,
+        1
+      ],
+      "character": "x1*xr-1",
+      "dimension": 8
+    },
+    {
+      "type": "A3",
+      "adjoint_labels": [
+        1,
+        0,
+        1
+      ],
+      "character": "x1*xr-1",
+      "dimension": 15
+    },
+    {
+      "type": "A4",
+      "adjoint_labels": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "character": "x1*xr-1",
+      "dimension": 24
+    },
+    {
+      "type": "A5",
+      "adjoint_labels": [
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "character": "x1*xr-1",
+      "dimension": 35
+    },
+    {
+      "type": "A6",
+      "adjoint_labels": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "character": "x1*xr-1",
+      "dimension": 48
+    },
+    {
+      "type": "C2",
+      "adjoint_labels": [
+        2,
+        0
+      ],
+      "character": "x1^2-x2-1",
+      "dimension": 10
+    },
+    {
+      "type": "C3",
+      "adjoint_labels": [
+        2,
+        0,
+        0
+      ],
+      "character": "x1^2-x2-1",
+      "dimension": 21
+    },
+    {
+      "type": "C4",
+      "adjoint_labels": [
+        2,
+        0,
+        0,
+        0
+      ],
+      "character": "x1^2-x2-1",
+      "dimension": 36
+    },
+    {
+      "type": "C5",
+      "adjoint_labels": [
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "character": "x1^2-x2-1",
+      "dimension": 55
+    },
+    {
+      "type": "C6",
+      "adjoint_labels": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "character": "x1^2-x2-1",
+      "dimension": 78
+    },
+    {
+      "type": "B3",
+      "adjoint_labels": [
+        0,
+        1,
+        0
+      ],
+      "character": "x2",
+      "dimension": 21
+    },
+    {
+      "type": "B4",
+      "adjoint_labels": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "character": "x2",
+      "dimension": 36
+    },
+    {
+      "type": "D4",
+      "adjoint_labels": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "character": "x2",
+      "dimension": 28
+    },
+    {
+      "type": "D5",
+      "adjoint_labels": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "character": "x2",
+      "dimension": 45
+    },
+    {
+      "type": "G2",
+      "adjoint_labels": [
+        0,
+        1
+      ],
+      "character": "x2",
+      "dimension": 14
+    },
+    {
+      "type": "F4",
+      "adjoint_labels": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "character": "x1",
+      "dimension": 52
+    },
+    {
+      "type": "E6",
+      "adjoint_labels": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "character": "x2",
+      "dimension": 78
+    },
+    {
+      "type": "E7",
+      "adjoint_labels": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "character": "x1",
+      "dimension": 133
+    },
+    {
+      "type": "E8",
+      "adjoint_labels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "character": "x8",
+      "dimension": 248
+    }
+  ],
+  "scope": "Independent Sage exact controls, original-character E8 witness and Weyl-character zero-fiber identities; no mechanical verification of the geometric proof.",
+  "literature_priority_claim": false,
+  "source_sha256": {
+    "tools/verify_critical_value_symmetry.py": "52adc7c48cd9e4a394f2278b1fdd6db0b321b725c8823b0e8844fb08586e6976",
+    "ADJOINT_NONEMPTINESS_CRITICAL_VALUES.md": "ad9d5d9fdaee38339273967484734fdbec4bb06009977e786ed4437bc53fa2ba",
+    "CHARACTER_COMPOSITION_FIBERS.md": "9e06fe846995bff67965c84ebbec6d5aff87dfa5fe1b56da91237b5d1f8412cd",
+    "e8-final-character-models.json": "f8cf9051731b8e8ae7d77f0e0f2fd17f5c16c4f4fa6e917b1a84a69ab0e73ade"
+  }
+}

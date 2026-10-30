@@ -1,0 +1,378 @@
+{
+  "audit_date": "2026-10-22",
+  "scope": "Eight brief bibliography entries, their linked notebook, and targeted backward/forward literature discovery. Claim-specific audit, not a line-by-line proof audit of all cited papers.",
+  "brief_sha256": "b5a7021b089fd0a65a3317ebac5be8b859f50e7acd327cf7743dc5b45b86cfb0",
+  "sources": [
+    {
+      "key": "KM",
+      "url": "https://arxiv.org/pdf/math/0109066",
+      "local_original": null,
+      "pages": 33,
+      "sha256": "9071162efa0acafa0f309739851df947411edcc30723b8e315f9aff08965fbe8"
+    },
+    {
+      "key": "R",
+      "url": "https://arxiv.org/pdf/1701.01538",
+      "local_original": "C:\\Users\\Sean\\OneDrive\\Documents\\ChatGPT\\Career\\research-review\\Sage-programs-articles\\articles\\Rogers_Springer_morphism_PREPRINT_arXiv_1701.01538v1.pdf",
+      "pages": 10,
+      "sha256": "e2cfb849c0cafd0500b9667724b52ab3a3e0818d75cb3d99524c6405c2f54829"
+    },
+    {
+      "key": "K",
+      "url": "https://kumar.math.unc.edu/papers/kumar76.pdf",
+      "local_original": "C:\\Users\\Sean\\OneDrive\\Documents\\ChatGPT\\Career\\research-review\\Sage-programs-articles\\articles\\Kumar_Levi_subgroups_flag_varieties_I_MathAnn_2016.pdf",
+      "pages": 21,
+      "sha256": "3ea3abb89e8ee9d03261671bac6fc8401879da56393e1f937cc67bd5c61b597f"
+    },
+    {
+      "key": "KR",
+      "url": "https://kumar.math.unc.edu/papers/kumar81.pdf",
+      "local_original": "C:\\Users\\Sean\\OneDrive\\Documents\\ChatGPT\\Career\\research-review\\Sage-programs-articles\\articles\\Kumar_Rogers_Levi_subgroups_flag_varieties_II_JAlgebra_2020.pdf",
+      "pages": 23,
+      "sha256": "6cd1d4e06dc1c715165441fcd66958788752fc2c8ff0de5ff1e8228d2c8fe0b3"
+    },
+    {
+      "key": "KX",
+      "url": "https://kumar.math.unc.edu/papers/kumar86.pdf",
+      "local_original": "C:\\Users\\Sean\\OneDrive\\Documents\\ChatGPT\\Career\\research-review\\Sage-programs-articles\\articles\\Kumar_Xie_Levi_subgroups_flag_varieties_III_JPAA_2024.pdf",
+      "pages": 30,
+      "sha256": "973adeabbff3fef2be81daeb870d6ea33ba3aefa4187bd9ace91b786884645c6"
+    },
+    {
+      "key": "LPR",
+      "url": "https://arxiv.org/pdf/math/0608473",
+      "local_original": null,
+      "pages": 8,
+      "sha256": "ab021e58f89293c720334d2febe3b4d4dc4bb8495a9c6cef29bc653791bfbc99"
+    },
+    {
+      "key": "P",
+      "url": "https://arxiv.org/pdf/math/0702533",
+      "local_original": null,
+      "pages": 3,
+      "sha256": "e61c49c03a561e05d3ab0da572423cbcb782092b49859071eabba35f82a550fb"
+    },
+    {
+      "key": "LY",
+      "url": "https://arxiv.org/pdf/2411.02071v2",
+      "local_original": null,
+      "pages": 22,
+      "sha256": "8c70b518b91dc24c0cadf3ceb476e8e4930ca32d81fbc10a2a1993418803ad30"
+    }
+  ],
+  "notebook": {
+    "url": "https://colab.research.google.com/drive/1WdrZseCHoRlWADOng7SwfefXqgbmz3CL",
+    "download_url": "https://drive.google.com/uc?export=download&id=1WdrZseCHoRlWADOng7SwfefXqgbmz3CL",
+    "sha256": "ad0b5a895934ca40a2939fdf066b60995868c2f17f47146c22f30b61b8587682",
+    "cells": 30,
+    "execution_counts_all_null": true,
+    "cell3_sha256": "f07991ab6d72c9c0569ab39a56cdf63f8d52b70797f05d187d2e4df32318edc5",
+    "cell3_cartan": [
+      [
+        2,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        -1,
+        0,
+        2,
+        -1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        -1,
+        -1,
+        2,
+        -1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        -1,
+        2,
+        -1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        -1,
+        2,
+        -1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        2,
+        -1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        2
+      ]
+    ],
+    "cell3_SInv": [
+      [
+        4,
+        5,
+        7,
+        10,
+        8,
+        6,
+        4,
+        2
+      ],
+      [
+        5,
+        8,
+        10,
+        15,
+        12,
+        9,
+        6,
+        3
+      ],
+      [
+        7,
+        10,
+        14,
+        20,
+        16,
+        12,
+        8,
+        4
+      ],
+      [
+        10,
+        15,
+        20,
+        30,
+        24,
+        18,
+        12,
+        6
+      ],
+      [
+        8,
+        12,
+        16,
+        24,
+        20,
+        15,
+        10,
+        5
+      ],
+      [
+        6,
+        9,
+        12,
+        18,
+        15,
+        12,
+        8,
+        4
+      ],
+      [
+        4,
+        6,
+        8,
+        12,
+        10,
+        8,
+        6,
+        3
+      ],
+      [
+        5,
+        8,
+        10,
+        15,
+        12,
+        9,
+        6,
+        3
+      ]
+    ],
+    "cell3_SInvDenominator": 1,
+    "cell20_X": [
+      [
+        5,
+        0,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        -1,
+        0,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        -1,
+        0,
+        -2,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        -1,
+        0,
+        -2,
+        -3,
+        2,
+        1,
+        0
+      ],
+      [
+        -1,
+        0,
+        -2,
+        -3,
+        -4,
+        1,
+        0
+      ],
+      [
+        -1,
+        0,
+        -2,
+        -3,
+        -4,
+        -5,
+        0
+      ],
+      [
+        -3,
+        -6,
+        -6,
+        -9,
+        -6,
+        -3,
+        0
+      ],
+      [
+        2,
+        3,
+        4,
+        6,
+        5,
+        4,
+        3
+      ]
+    ],
+    "external_data": "/content/drive/My Drive/Colab Notebooks/E8MCR.txt",
+    "not_executed": true
+  },
+  "forward_discovery": {
+    "provider": "OpenAlex; metadata used only for discovery, primary papers checked for mathematical claims",
+    "snapshot_counts": {
+      "KM": 12,
+      "CG": 37,
+      "R": 2,
+      "K": 3,
+      "KR": 1,
+      "KX": 0,
+      "LY": 0,
+      "LPR": 3
+    },
+    "known_omission": "Lu-Ye explicitly cites KM and Cayley Groups, but did not appear in either returned OpenAlex citing list; counts are not exhaustive bibliographies."
+  },
+  "status_limits": [
+    "No complete representation classification preserving regularity was located. This does not establish novelty or openness.",
+    "No primary resolution of Popov Problems 2.2-2.4 was located. Their status in 2026 remains unverified.",
+    "Rogers source is the arXiv preprint, not the final journal PDF.",
+    "Notebook was inspected statically; full rerun and its external Drive data were not available in this audit."
+  ],
+  "additional_sources": [
+    {
+      "key": "AG",
+      "url": "https://arxiv.org/pdf/math/0207161v2",
+      "locators": "Sections 4-5, Theorems 4.1, 5.2, 5.3",
+      "sha256": "a46f590d8b8da767ce986bc72d9c0e6be814323c075c0ebed1e8461a4cc43e68"
+    },
+    {
+      "key": "CG",
+      "url": "https://arxiv.org/abs/math/0409004",
+      "locators": "Introduction and classification statements; Section 10 and Example 10.5",
+      "sha256": "f6402a9358e766f5cb557bc96fecb94c902855532fd6f7c1f73879bea85e8cb1"
+    },
+    {
+      "key": "BC",
+      "url": "https://arxiv.org/abs/1207.1329v5",
+      "locators": "Introduction, Theorems 1.3-1.4 and scope",
+      "sha256": "1b41d753f897a3741745b182551e67bc12ce72346ffd65ef7c1977639633182a"
+    },
+    {
+      "key": "BD",
+      "url": "https://arxiv.org/abs/1212.1065v4",
+      "locators": "Introduction, Theorems 1.2-1.3 and Questions 1.4-1.5",
+      "sha256": "2a87249122358bb8e31e1c867d7a5b6a4003ff267b6f109d3030e952dcbc4a84"
+    },
+    {
+      "key": "J",
+      "url": "https://arxiv.org/abs/1307.5522",
+      "locators": "Cayley-related appendix passages and references",
+      "sha256": "05b7919139f37ab7fb7a885eaacf19825c225ab9ac123e8e9a5fc22073abce26"
+    }
+  ],
+  "additional_screened_author_manuscript": {
+    "url": "https://www.math.brown.edu/bhassett/papers/EGquadrics/EGquadrics.pdf",
+    "title": "Equivariant geometry of low-dimensional quadrics",
+    "manuscript_date": "2025-05-23",
+    "scope": "Introduction and stable-linearization context; not a full proof audit"
+  },
+  "search_families": [
+    "Cayley degree, SL5 / SL_5 / SL(5), and Popov Problems 2.2-2.4",
+    "generalized Cayley map, regular orbits, preserves regularity, representation",
+    "harmonic decomposition, conjugation, Richardson, Agricola Goodman",
+    "Representation ring of Levi subgroups versus cohomology ring of flag varieties I/II/III",
+    "OpenAlex citing lists for KM, R, K, KR, KX, LY, LPR and Cayley groups; Semantic Scholar degree-preprint citations",
+    "Author publication lists of Reichstein, Borovoi and Popov"
+  ]
+}

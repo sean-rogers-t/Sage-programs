@@ -1,0 +1,198 @@
+{
+  "result": "passed",
+  "scope": "Finite exact implementation checks of the written all-rank trace recurrence.",
+  "universal_annihilator_status": "written proof; not inferred from finite checks",
+  "source_image_preserved": true,
+  "integer_coefficient_ideal_witnesses": 18,
+  "independent_root_variable_replays": 7,
+  "content_recurrence_checks": 60297,
+  "hasse_binomial_checks": 135746,
+  "cases": [
+    {
+      "m": 3,
+      "kind": "lower",
+      "indices": [
+        1,
+        1
+      ],
+      "degree": 2,
+      "term_count": 2
+    },
+    {
+      "m": 3,
+      "kind": "overflow",
+      "indices": [
+        1,
+        2
+      ],
+      "degree": 3,
+      "term_count": 6
+    },
+    {
+      "m": 3,
+      "kind": "overflow",
+      "indices": [
+        2,
+        2
+      ],
+      "degree": 4,
+      "term_count": 7
+    },
+    {
+      "m": 4,
+      "kind": "overflow",
+      "indices": [
+        2,
+        3
+      ],
+      "degree": 5,
+      "term_count": 19
+    },
+    {
+      "m": 6,
+      "kind": "lower",
+      "indices": [
+        2,
+        2
+      ],
+      "degree": 4,
+      "term_count": 8
+    },
+    {
+      "m": 6,
+      "kind": "overflow",
+      "indices": [
+        2,
+        4
+      ],
+      "degree": 6,
+      "term_count": 34
+    },
+    {
+      "m": 6,
+      "kind": "overflow",
+      "indices": [
+        5,
+        5
+      ],
+      "degree": 10,
+      "term_count": 322
+    },
+    {
+      "m": 7,
+      "kind": "overflow",
+      "indices": [
+        6,
+        6
+      ],
+      "degree": 12,
+      "term_count": 846
+    },
+    {
+      "m": 8,
+      "kind": "overflow",
+      "indices": [
+        3,
+        5
+      ],
+      "degree": 8,
+      "term_count": 104
+    },
+    {
+      "m": 9,
+      "kind": "overflow",
+      "indices": [
+        4,
+        5
+      ],
+      "degree": 9,
+      "term_count": 174
+    },
+    {
+      "m": 10,
+      "kind": "overflow",
+      "indices": [
+        4,
+        6
+      ],
+      "degree": 10,
+      "term_count": 276
+    },
+    {
+      "m": 3,
+      "kind": "overflow",
+      "indices": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "degree": 8,
+      "term_count": 56
+    },
+    {
+      "m": 4,
+      "kind": "overflow",
+      "indices": [
+        3,
+        3,
+        3
+      ],
+      "degree": 9,
+      "term_count": 136
+    },
+    {
+      "m": 6,
+      "kind": "lower",
+      "indices": [
+        1,
+        1,
+        1
+      ],
+      "degree": 3,
+      "term_count": 6
+    },
+    {
+      "m": 6,
+      "kind": "replacement",
+      "indices": [
+        2
+      ],
+      "degree": 2,
+      "term_count": 2
+    },
+    {
+      "m": 6,
+      "kind": "basis_lower",
+      "indices": [
+        2,
+        3
+      ],
+      "degree": 5,
+      "term_count": 28
+    },
+    {
+      "m": 6,
+      "kind": "basis_overflow",
+      "indices": [
+        2,
+        5
+      ],
+      "degree": 7,
+      "term_count": 68
+    },
+    {
+      "m": 4,
+      "kind": "relation",
+      "indices": [],
+      "degree": 3,
+      "term_count": 7
+    }
+  ],
+  "source_sha256": {
+    "TYPE_A_K_INTEGRAL_RECURRENCE.md": "b97764ed08626225e584221339d3583929a54f905567d5281940b1b1b3eec87e",
+    "experiments/type_a_k_integral_recurrence.py": "317d4eed24d3e35ef71f6017913efc0034b3bf4db32b50dbd7b3b75899839628",
+    "experiments/type-a-k-integral-recurrence.json.gz": "ed207443c23b88aeaae3de8f13e4661c88a196ae09f278d72a55c40ab27be45e",
+    "tools/audit_type_a_k_integral_recurrence.py": "442ec4a63d2e51844c67c39757221c1a48bc3985673e66cb64fbcd38789068c8"
+  }
+}

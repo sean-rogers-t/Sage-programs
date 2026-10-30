@@ -1,0 +1,86 @@
+{
+  "result": "passed",
+  "uses_Sage": false,
+  "independent_character_reconstructions": [
+    {
+      "type": "E6",
+      "nodes": [
+        2,
+        3,
+        5
+      ],
+      "dimension": 78,
+      "all_charges_reconstructed_by_subset_models": true,
+      "cover_degree": 24
+    },
+    {
+      "type": "E6",
+      "nodes": [
+        2,
+        3,
+        5,
+        6
+      ],
+      "dimension": 78,
+      "all_charges_reconstructed_by_subset_models": true,
+      "cover_degree": 12
+    },
+    {
+      "type": "E6",
+      "nodes": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "dimension": 78,
+      "all_charges_reconstructed_by_subset_models": true,
+      "cover_degree": 6
+    },
+    {
+      "type": "E6",
+      "nodes": [
+        2,
+        3,
+        5
+      ],
+      "dimension": 27,
+      "all_charges_reconstructed_by_subset_models": true,
+      "cover_degree": 24
+    }
+  ],
+  "norm_checks": {
+    "exceptional_minimum_fundamental_norms": {
+      "E6": "4/3",
+      "E7": "3/2",
+      "E8": "2"
+    },
+    "A_pair_formula_checked_through_rank": 16,
+    "both_E6_minimal_norms": "4/3",
+    "all_rank_A_statement_uses_written_formula": true
+  },
+  "symbolic_transfer": {
+    "exact_coordinate_identity": true,
+    "scalar_target_equation": true,
+    "mu6_action_invariance": true,
+    "actual_quotient_discriminant": "4*(c^2+9)",
+    "generic_regular_K_orbits": 2
+  },
+  "independent_finite_root_control": {
+    "prime": 1009,
+    "cartan_rank": 6,
+    "root_rank": 58,
+    "full_rank": 64,
+    "kernel_dimension": 14,
+    "scope": "Independent finite-field point corroboration; not a characteristic-zero proof or fiber count."
+  },
+  "all_exceptional_adjoint_Levis_resolved": false,
+  "literature_priority_claim": false,
+  "source_sha256": {
+    "BRANCHING_NORM_FIBERS.md": "b9e3e2788fcf50a97cfd085b54d833e840e30994caaf7a4967c96439c3a6c911",
+    "tools/audit_branching_norm_fibers.py": "a7ccf69961962ffb6075392ae8c17883626f02dbc4eba9eafa0cdd7df350d3fa",
+    "tools/audit_affine_branching_certificates.py": "7d56ef1b5373f66a5e7c38d3c8d567ec4c27bfdda5bdd11ef60f54ee2f8da2a1",
+    "branching-norm-fibers-verification.json": "1375f28c548a219a8b0824d73d421692159c16b91b64dc7674aa08ef0e7d48bd"
+  }
+}

@@ -1,0 +1,518 @@
+{
+  "result": "passed",
+  "Spin7": {
+    "type": "B",
+    "rank": 3,
+    "retained_nodes": [],
+    "maximum_degree": 4,
+    "degrees": [
+      {
+        "degree": 0,
+        "source_rank": 1,
+        "integral_kernel_rank": 0
+      },
+      {
+        "degree": 1,
+        "source_rank": 3,
+        "integral_kernel_rank": 0,
+        "actual_source_preserved": true,
+        "actual_integral_kernel_preserved": true
+      },
+      {
+        "degree": 2,
+        "source_rank": 6,
+        "integral_kernel_rank": 1,
+        "actual_source_preserved": true,
+        "actual_integral_kernel_preserved": true
+      },
+      {
+        "degree": 3,
+        "source_rank": 10,
+        "integral_kernel_rank": 3,
+        "actual_source_preserved": true,
+        "actual_integral_kernel_preserved": true
+      },
+      {
+        "degree": 4,
+        "source_rank": 15,
+        "integral_kernel_rank": 7,
+        "actual_source_preserved": true,
+        "actual_integral_kernel_preserved": false
+      }
+    ],
+    "witness": {
+      "polynomial": [
+        [
+          [
+            0,
+            0,
+            4
+          ],
+          "1"
+        ],
+        [
+          [
+            1,
+            2,
+            1
+          ],
+          "-1"
+        ],
+        [
+          [
+            1,
+            3,
+            0
+          ],
+          "1"
+        ],
+        [
+          [
+            2,
+            1,
+            1
+          ],
+          "1"
+        ],
+        [
+          [
+            2,
+            2,
+            0
+          ],
+          "-2"
+        ],
+        [
+          [
+            3,
+            1,
+            0
+          ],
+          "2"
+        ],
+        [
+          [
+            4,
+            0,
+            0
+          ],
+          "-1"
+        ]
+      ],
+      "derivative": [
+        [
+          [
+            0,
+            0,
+            3
+          ],
+          "4"
+        ],
+        [
+          [
+            1,
+            2,
+            0
+          ],
+          "-1"
+        ],
+        [
+          [
+            2,
+            1,
+            0
+          ],
+          "1"
+        ]
+      ],
+      "derivative_Schubert_terms": [
+        {
+          "word": [
+            1,
+            2,
+            3
+          ],
+          "coefficient": "4"
+        },
+        {
+          "word": [
+            3,
+            1,
+            2
+          ],
+          "coefficient": "-2"
+        },
+        {
+          "word": [
+            3,
+            2,
+            3
+          ],
+          "coefficient": "4"
+        }
+      ],
+      "previous_integral_kernel": [
+        [
+          [
+            [
+              0,
+              0,
+              3
+            ],
+            "2"
+          ],
+          [
+            [
+              0,
+              2,
+              1
+            ],
+            "-1"
+          ],
+          [
+            [
+              0,
+              3,
+              0
+            ],
+            "1"
+          ],
+          [
+            [
+              1,
+              1,
+              1
+            ],
+            "-1"
+          ],
+          [
+            [
+              1,
+              2,
+              0
+            ],
+            "-1"
+          ],
+          [
+            [
+              2,
+              0,
+              1
+            ],
+            "1"
+          ],
+          [
+            [
+              2,
+              1,
+              0
+            ],
+            "1"
+          ]
+        ],
+        [
+          [
+            [
+              0,
+              1,
+              2
+            ],
+            "2"
+          ],
+          [
+            [
+              0,
+              2,
+              1
+            ],
+            "-2"
+          ],
+          [
+            [
+              0,
+              3,
+              0
+            ],
+            "1"
+          ],
+          [
+            [
+              1,
+              2,
+              0
+            ],
+            "-1"
+          ],
+          [
+            [
+              2,
+              1,
+              0
+            ],
+            "1"
+          ]
+        ],
+        [
+          [
+            [
+              1,
+              0,
+              2
+            ],
+            "2"
+          ],
+          [
+            [
+              1,
+              1,
+              1
+            ],
+            "-2"
+          ],
+          [
+            [
+              1,
+              2,
+              0
+            ],
+            "1"
+          ],
+          [
+            [
+              2,
+              1,
+              0
+            ],
+            "-1"
+          ],
+          [
+            [
+              3,
+              0,
+              0
+            ],
+            "1"
+          ]
+        ]
+      ]
+    }
+  },
+  "type_C_checks": [
+    {
+      "type": "C",
+      "rank": 3,
+      "retained_nodes": [],
+      "maximum_degree": 10,
+      "degrees": [
+        {
+          "degree": 0,
+          "source_rank": 1,
+          "integral_kernel_rank": 0
+        },
+        {
+          "degree": 1,
+          "source_rank": 3,
+          "integral_kernel_rank": 0,
+          "actual_source_preserved": true,
+          "actual_integral_kernel_preserved": true
+        },
+        {
+          "degree": 2,
+          "source_rank": 6,
+          "integral_kernel_rank": 1,
+          "actual_source_preserved": true,
+          "actual_integral_kernel_preserved": true
+        },
+        {
+          "degree": 3,
+          "source_rank": 10,
+          "integral_kernel_rank": 3,
+          "actual_source_preserved": true,
+          "actual_integral_kernel_preserved": true
+        },
+        {
+          "degree": 4,
+          "source_rank": 15,
+          "integral_kernel_rank": 7,
+          "actual_source_preserved": true,
+          "actual_integral_kernel_preserved": true
+        },
+        {
+          "degree": 5,
+          "source_rank": 21,
+          "integral_kernel_rank": 13,
+          "actual_source_preserved": true,
+          "actual_integral_kernel_preserved": true
+        },
+        {
+          "degree": 6,
+          "source_rank": 28,
+          "integral_kernel_rank": 21,
+          "actual_source_preserved": true,
+          "actual_integral_kernel_preserved": true
+        },
+        {
+          "degree": 7,
+          "source_rank": 36,
+          "integral_kernel_rank": 31,
+          "actual_source_preserved": true,
+          "actual_integral_kernel_preserved": true
+        },
+        {
+          "degree": 8,
+          "source_rank": 45,
+          "integral_kernel_rank": 42,
+          "actual_source_preserved": true,
+          "actual_integral_kernel_preserved": true
+        },
+        {
+          "degree": 9,
+          "source_rank": 55,
+          "integral_kernel_rank": 54,
+          "actual_source_preserved": true,
+          "actual_integral_kernel_preserved": true
+        },
+        {
+          "degree": 10,
+          "source_rank": 66,
+          "integral_kernel_rank": 66,
+          "actual_source_preserved": true,
+          "actual_integral_kernel_preserved": true
+        }
+      ],
+      "witness": null
+    },
+    {
+      "type": "C",
+      "rank": 3,
+      "retained_nodes": [
+        2,
+        3
+      ],
+      "maximum_degree": 6,
+      "degrees": [
+        {
+          "degree": 0,
+          "source_rank": 1,
+          "integral_kernel_rank": 0
+        },
+        {
+          "degree": 1,
+          "source_rank": 1,
+          "integral_kernel_rank": 0,
+          "actual_source_preserved": true,
+          "actual_integral_kernel_preserved": true
+        },
+        {
+          "degree": 2,
+          "source_rank": 2,
+          "integral_kernel_rank": 1,
+          "actual_source_preserved": true,
+          "actual_integral_kernel_preserved": true
+        },
+        {
+          "degree": 3,
+          "source_rank": 2,
+          "integral_kernel_rank": 1,
+          "actual_source_preserved": true,
+          "actual_integral_kernel_preserved": true
+        },
+        {
+          "degree": 4,
+          "source_rank": 4,
+          "integral_kernel_rank": 3,
+          "actual_source_preserved": true,
+          "actual_integral_kernel_preserved": true
+        },
+        {
+          "degree": 5,
+          "source_rank": 4,
+          "integral_kernel_rank": 3,
+          "actual_source_preserved": true,
+          "actual_integral_kernel_preserved": true
+        },
+        {
+          "degree": 6,
+          "source_rank": 6,
+          "integral_kernel_rank": 6,
+          "actual_source_preserved": true,
+          "actual_integral_kernel_preserved": true
+        }
+      ],
+      "witness": null
+    },
+    {
+      "type": "C",
+      "rank": 3,
+      "retained_nodes": [
+        1,
+        2
+      ],
+      "maximum_degree": 7,
+      "degrees": [
+        {
+          "degree": 0,
+          "source_rank": 1,
+          "integral_kernel_rank": 0
+        },
+        {
+          "degree": 1,
+          "source_rank": 1,
+          "integral_kernel_rank": 0,
+          "actual_source_preserved": true,
+          "actual_integral_kernel_preserved": true
+        },
+        {
+          "degree": 2,
+          "source_rank": 2,
+          "integral_kernel_rank": 1,
+          "actual_source_preserved": true,
+          "actual_integral_kernel_preserved": true
+        },
+        {
+          "degree": 3,
+          "source_rank": 3,
+          "integral_kernel_rank": 1,
+          "actual_source_preserved": true,
+          "actual_integral_kernel_preserved": true
+        },
+        {
+          "degree": 4,
+          "source_rank": 4,
+          "integral_kernel_rank": 3,
+          "actual_source_preserved": true,
+          "actual_integral_kernel_preserved": true
+        },
+        {
+          "degree": 5,
+          "source_rank": 5,
+          "integral_kernel_rank": 4,
+          "actual_source_preserved": true,
+          "actual_integral_kernel_preserved": true
+        },
+        {
+          "degree": 6,
+          "source_rank": 7,
+          "integral_kernel_rank": 6,
+          "actual_source_preserved": true,
+          "actual_integral_kernel_preserved": true
+        },
+        {
+          "degree": 7,
+          "source_rank": 8,
+          "integral_kernel_rank": 8,
+          "actual_source_preserved": true,
+          "actual_integral_kernel_preserved": true
+        }
+      ],
+      "witness": null
+    }
+  ],
+  "seconds": 3.485,
+  "scope": "Complete actual ZZ reflection/BGG kernel tests in the listed degrees, including a Spin7/B counterexample in degree four. Type C all-rank and all-parabolic stability is proved from the classical presentation in the note; finite checks are corroboration.",
+  "source_sha256": {
+    "experiments/central_parity_kernel.py": "48a76ccd8df9f07aa7f197a553bb24b375edc942003c1bbb2271b8189fcaae7f",
+    "src/sage_borel/core.py": "c21a7b8893c5155efc71123264d698b7504dd89d8657b0612f57e0cb05118751",
+    "src/sage_borel/expansion.py": "ecaf6a4439b8ff916dfc54716f9a3d1fc6bc03fbb17e8f30b08351480573cc46"
+  }
+}

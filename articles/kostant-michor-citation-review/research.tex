@@ -1,0 +1,157 @@
+\section{What our current results actually add}
+\subsection{Regularity preservation: a separate classification}
+\status{repository uniform argument with internal checks; not externally reviewed or established novel}
+
+For simple simply connected complex groups and actual nontrivial representations, allowing direct sums and trivial summands, the current classification note asserts that global regularity preservation occurs only for copies of the defining representation of $\mathrm{SL}_N$, or copies of its dual, with optional trivial summands. For $N\ge3$ a mixture of defining and dual nontrivial summands is excluded. The low-rank identifications are understood.
+
+Torus regularity is weaker. In the symplectic family it also permits actual characters $A\det(I+g)^m+B$ with positive integers $A,m$ and an integer $B$ making the character actual. For rank at least two these do not preserve global regularity. The remaining simple types have no positive entries in the note's table. Virtual characters, positive characteristic, and general reductive products are not classified.
+
+This is the classification to compare with Lu--Ye, not the adjoint fiber theorem below. Its proof uses positive weight multiplicities and root-hypertorus factorization; it does not follow just from a list of irreducibles. Its novelty and completeness require focused review, and this report has not independently re-proved that table.
+
+\subsection{The adjoint generic regular-fiber theorem}
+\status{repository case proof and internal audits; external mathematical review remains necessary}
+
+Let $G$ be simple and simply connected, and $\theta=\theta_{\Ad}$ use the Killing form. For a proper Levi $K$, put
+\[
+Z_K^\circ=\{h\in\mathfrak z(\mathfrak k):Z_G(h)=K\}.
+\]
+The consolidated repository theorem asserts a dense open $U_K\subset Z_K^\circ$ such that
+\begin{equation}\label{eq:main}
+\theta^{-1}(h)\cap G_\reg
+\quad\text{is smooth as its actual scheme for every }h\in U_K.
+\end{equation}
+The case proof covers $A$--$D$, $G_2,F_4,E_6,E_7,E_8$. Empty fibers and positive-dimensional transverse factors are permitted; regular nonsemisimple source points remain included. A separate note extends the adjoint assertion to semisimple groups and full-factor zero targets. That extension cannot automatically be transferred to other characters.
+
+This differs from ordinary generic smoothness over the whole target: a Levi center is a special lower-dimensional locus that singular or nonreduced components could dominate. It also differs from regularity preservation, since $h$ is generally nonregular in $\g$. Smoothness in \eqref{eq:main} does not imply invertibility of $\dd\theta$ along the fiber.
+
+\textbf{Common mechanism.} On a finite central cover of $K$, choose coordinates $x_1,\ldots,x_\ell$ given by fundamental characters on the derived quotient, and central torus coordinates $z_1,\ldots,z_s$. Write the full restricted adjoint character as $\Phi(x,z)$ and $D_j=z_j\partial_{z_j}$. Then
+\[
+Y=V(\Phi_{x_1},\ldots,\Phi_{x_\ell}),\qquad
+\mu=(D_1\Phi,\ldots,D_s\Phi).
+\]
+The central fiber equations are $\Phi_{x_i}=0$ and $D_j\Phi=c_j$, where $c$ is an invertible linear reparametrization of $h$. At the relevant regular points the completed group-fiber ring is the completed critical-fiber ring with $\dim K-\operatorname{rank}G$ formal smooth variables adjoined. Equality of ideals and descent through the central cover are essential; agreement of point sets would lose nilpotents.
+
+\textbf{Review boundary.} The final $E_8$ proof includes exact algebraic certificates. A fresh audit independently rebuilt characteristic-zero identities and portions of the degree argument. Some finite-prime ideal memberships still rely on one pinned F4 engine, rather than independent stored multiplier certificates. This is a specific review obligation. A certificate is replayable evidence for specified algebraic claims, not a substitute for checking their geometric implications.
+
+\subsection{Nonemptiness, excess, and representation composition}
+\status{repository deductions GEO-93--96; the ordinary adjoint classification was already complete at GEO-49}
+
+For a generically actual-smooth critical component $Y_i$, our critical-value theorem identifies
+\[
+\overline{\mu(Y_i)}=(\Lie H_i)^\perp.
+\]
+Here $H_i$ is the connected horizontal stabilizer of the critical-value variety recording $(z,\Phi)$: translations in the central torus that preserve that variety and fix its scalar-value coordinate. Dominance is equivalent to trivial connected stabilizer. On a dominant component, transverse excess is $\dim Y_i-s$. This is a criterion, not a root-theoretic classification of the components or stabilizers. Its actual-smoothness hypothesis cannot be dropped.
+
+For an actual representation $\sigma$ with $\chi_\sigma=f(\chi_\rho)$ and $f'(\dim\rho)\ne0$, normalization and the chain rule give
+\begin{equation}\label{eq:composition}
+\theta_\sigma=\frac{f'(\chi_\rho)}{f'(\dim\rho)}\theta_\rho.
+\end{equation}
+The formula itself is published-background calculus. The further proper-Levi result for $\rho=\Ad$ says that a dominating component survives generically unless $\chi_{\Ad}$ is constant there with value $b$ and $f'(b)=0$. Nonconstant components are not erased in this way. Thus changing representation can change nonemptiness despite equivariance and identical local normalization at the identity.
+
+An unbounded-rank family is already available: the $\mathrm{GL}_4^q$ Levi pattern in $B_{4q},C_{4q},D_{4q}$ has constant values
+\[
+-\frac{q}{2q-1},\qquad 0,\qquad 0,
+\]
+respectively, and adjoint generic regular fibers of dimension $12q$. This denotes the matrix block pattern; the finite central cover remains relevant for simply connected groups. Pure adjoint tensor powers of order at least two erase these nonzero-target strata in $C,D$; a positive shifted-adjoint construction does so in $B$. This is not the classification for arbitrary block partitions.
+
+The $E_6$ contact example is a separate control: its smooth generic group fiber has dimension $32$ and transverse excess two. A shifted adjoint tensor construction can erase it. Thus universal quasifiniteness cannot replace our target theorem.
+
+\subsection{Sharp harmonic localization}
+\status{repository deduction; sufficiency follows formally from known separation, while sharpness and the Jacobian have separate arguments}
+
+Let $G=\mathrm{Sp}_{2n}$, $n\ge2$, $D(g)=\det(I+g)$, and $m\ge1$. The determinant-character family has normalized map
+\[
+\theta_m(g)=\frac{2}{4^{nm}}D(g)^{m-1}(g-I)\operatorname{adj}(g+I).
+\]
+For the graded harmonic vector space $\mathcal H\subset\C[\g]$, set $\mathcal H_m=\theta_m^*\mathcal H$. The repository proves multiplication gives
+\begin{equation}\label{eq:harm}
+\C[G]^G[D^{-1}]\otimes_\C\mathcal H_m
+\ \xrightarrow{\sim}\ \C[G][D^{-1}],
+\end{equation}
+and asserts the analogous localization at a nonzero invariant $f$ works exactly when $D\mid f$. This is a module and $G$-representation decomposition; the harmonic space is not being called an algebra.
+
+The sufficiency mechanism is simple. In classical Cayley coordinates $X=(g-I)(g+I)^{-1}$, let $\delta=\det(I-X)$. Then
+\[
+D=4^n/\delta,\qquad\theta_m=2\delta^{-m}X.
+\]
+A homogeneous harmonic of degree $d$ is rescaled by the invariant unit $2^d\delta^{-md}$. Known Kostant separation therefore survives localization. Local invertibility of $\theta_m$ everywhere on this open is unnecessary.
+
+The full normalized Jacobian is
+\[
+\Psi_m(g)=\left(\frac{D(g)}{4^n}\right)^{(nm-1)(2n+1)}
+\left(1-nm+\frac m2\tr g\right).
+\]
+Thus multiplication can cross the additional critical divisor in parentheses. This refines full-Jacobian localization without contradicting the global regularity criterion. It does not remove poles from inverse-differential vector fields. Sharpness of the support $D=0$, rather than the unit-rescaling observation, is the additional theorem to review.
+
+\section{A focused research program}
+\subsection{First: secure the theorem already written}
+The next deliverable should be a concise external-review packet containing \eqref{eq:main}, the actual-ideal reduction, the dependency map, and the final $E_8$ proof. Its questions should be precise:
+\begin{enumerate}
+\item Does the critical presentation preserve the group-fiber scheme, including regular nonsemisimple points and central-cover descent?
+\item Do the degree bounds and boundary certificates exclude every required exceptional component, with valid characteristic-zero inference?
+\item Is generic smoothness used only after excluding dominating nonreduced components, rather than assuming that exclusion?
+\end{enumerate}
+The existing package separates algebraic evidence from geometry. A bounded improvement would export ideal-membership multipliers or obtain a second exact check for the engine-dependent step. This improves verifiability, not theorem coverage. No external review has been performed or solicited by this report.
+
+\subsection{Second: a classical classification theorem}
+\textbf{Target.} For arbitrary classical Levi block patterns, classify the components of the full adjoint critical scheme dominating the central target. Express their dimensions, horizontal stabilizers, and constant character values in the block data. Deduce precisely which survive $\chi\mapsto f(\chi)$ for actual polynomial character constructions.
+
+At the time of this review, the unfinished target was the polynomial-adjoint extension: ordinary adjoint nonemptiness and zero excess were already classified in all classical ranks at GEO-49. The all-rank type-$A$ polynomial result and $\mathrm{GL}_4^q$ family were anchors for that extension. Success would take a partition or signed block datum as input and return nonemptiness and excess without separately solving every Levi. The representation-erasure theorem would then become a structural consequence.
+\begin{enumerate}
+\item Write uniform restricted adjoint characters in classical block variables, keeping all linear and constant terms. Establish original-ideal equations in coordinates that retain repeated eigenvalues.
+\item Characterize block configurations forcing a constant character on a dominant component; prove the converse or isolate a counterexample to it.
+\item Determine stabilizers and dimensions. Invoke the critical-value criterion only after checking actual smoothness.
+\item Apply \eqref{eq:composition}, separating surviving constant, erased constant, and nonconstant components. Verify the proposed polynomials really come from representations.
+\end{enumerate}
+\textbf{Stopping rule.} A failed block criterion must be reported with its exact obstruction. It must not turn into another sequence of unrelated exceptional cases. Exceptional groups should test a mechanism already formulated in general terms.
+
+\subsection{Third: sharpen the harmonic question}
+A focused follow-up would classify the minimal invariant open supporting multiplication by a specified pulled-back harmonic space. Our symplectic family demonstrates that this open can exceed the Jacobian-nonsingular open. A general result needs an orbit-separation obstruction for necessity and an algebraic spanning argument for sufficiency. Existence of some other harmonic complement is a different problem.
+
+This stays close to Kostant--Michor's separation objective. Agricola--Goodman's operators offer a meaningful comparison, but an operator theorem is additional work. We should not call this the solution of an explicitly posed general classification problem unless that formulation is actually located in a source.
+
+\subsection{What to defer, and why}
+\begin{longtable}{>{\raggedright\arraybackslash}p{0.25\linewidth}>{\raggedright\arraybackslash}p{0.36\linewidth}>{\raggedright\arraybackslash}p{0.30\linewidth}}
+\toprule Direction & Missing ingredient & Recommendation\\\midrule
+Minimum Cayley degree & Lower bounds for all equivariant rational maps & Separate from fixed-map computations.\\
+Uniform exceptional proof & A new full-character identity excluding dominant nonreduced components & Wait for an actual identity.\\
+Numerical Lie methods & Convergence, conditioning, and a demonstrated benefit & Later local-inverse application.\\
+Metaplectic extensions & Phase, composition, and distributional analysis & Require a specific analytic target.\\
+Double-copy applications & A meaningful invariant gain from reparametrization & No immediate project justified.\\
+Graph entropy or torsion & A map-dependent statement linked to our theorem & Do not pursue on citation evidence alone.\\\bottomrule
+\end{longtable}
+
+\section{Novelty and claim boundaries}
+The reviewed works do not present the same explicit proper-Levi actual-fiber theorem or the proposed block classification. This is weaker than proving that no such result exists anywhere. A submission needs a further targeted comparison with Springer isomorphisms, invariant differential operators, character critical loci, and equivariant morphisms. Absence from the citation corpus is not a priority proof.
+
+\textbf{Published inputs or elementary consequences:} trace projection; degree comparison with the quotient; the invariant-gradient basis; the chain rule; local formal inversion; harmonic separation after invertible homogeneous rescaling on a classical Cayley open. These are not new theorems of our project.
+
+\textbf{Candidates for our contributions:} scheme-level adjoint regular-fiber smoothness by cases; the critical-value stabilizer criterion under its hypotheses; representation-survival and erasure consequences; and sharp invariant support for the fixed symplectic harmonic construction. Each requires its own proof and literature comparison. Computational certificates do not establish novelty.
+
+\textbf{Not established here:} a new minimum Cayley degree; arbitrary-representation generic smoothness; a uniform replacement of the exceptional case proof; the complete polynomial-adjoint block classification; or a result resolving graph, quantization, or double-copy questions. One structural theorem with exact hypotheses and a reviewable proof would be a stronger next advance than another table.
+
+\appendix
+\section{Two dissertation corrections}\label{sec:errata}
+The original PDF was visually checked at the pages below. These are corrections to those passages, not a conclusion about every downstream theorem.
+\subsection{Printed page 27, Theorem 3.1(4): differential discriminant}
+The passage describes the invertibility locus of $\dd\theta_\lambda$ using $\theta_\lambda(h)\ne0$. The scalar required is
+\[
+\Psi_\lambda(h)=\det(\dd\theta_{\lambda,h}),
+\]
+in compatible tangent frames. At the identity of a semisimple group, $\theta_\lambda(e)=0$ but $\dd\theta_{\lambda,e}=1$, so the printed condition cannot hold. The preceding item introduces $\Psi_\lambda$, making a notation substitution the natural correction. Its zero locus is the differential-singular locus, possibly empty.
+
+\subsection{Printed page 30, opening paragraph: Jordan decomposition}
+For $g=g_sg_u$, the semisimple assertion $\theta(g_s)=\theta(g)_s$ is the relevant Kostant--Michor statement. The nilpotent part of $\theta(g)$ is not generally $\theta(g_u)$. The translated map is $u\mapsto\theta(su)-\theta(s)$ and depends on $s$.
+
+Take defining $\mathrm{SL}_3$, $s=\operatorname{diag}(2,2,1/4)$ and $u=I+E_{12}$. They commute and have determinant one. Since $\theta(g)=g-\tr(g)I/3$,
+\[
+\theta(su)-\theta(s)=2E_{12},\qquad \theta(u)=E_{12}.
+\]
+The former is the nilpotent part of $\theta(su)$. This disproves the stronger printed assertion and retains the semisimple one. The accompanying rational-matrix script verifies the identities.
+
+\section{Audit trail}
+\nolinkurl{source-manifest.json} records retrieved full texts, versions, hashes, and the local research notes used for comparison. Source PDFs remain outside the repository report; the bibliography links to accessible versions. Inclusion does not imply an author's endorsement of our interpretation.
+
+The script \nolinkurl{check_comparisons.py} checks the two Lu--Ye examples, the Jordan counterexample, symplectic root values, and the scalar identity on an exact torus. Its results are in \nolinkurl{comparison-checks.json}. These checks corroborate the displayed comparisons; they do not replay all existing proofs.
+
+The status snapshot includes uncommitted research notes, identified by individual hashes. Existing proofs and certificate bindings were not rewritten. This report and its source are supplied in an ordinary single-page PDF layout.

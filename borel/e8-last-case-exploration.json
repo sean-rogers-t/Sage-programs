@@ -1,0 +1,36 @@
+{
+  "status": "partial: finite-field evidence, not a characteristic-zero proof",
+  "seed": [
+    1,
+    2,
+    3,
+    5,
+    7
+  ],
+  "levi_type": "A2+A1^3",
+  "prime": 32003,
+  "affine_jacobian_deficiency_dimension": 1,
+  "basis_polynomials": 2384,
+  "characteristic_zero_bound_proved": false,
+  "all_E8_completion_claim": false,
+  "failed_simple_annihilator_tests": {
+    "powers": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "polynomials": [
+      "(a^2-4)(2C-AB)",
+      "(a^2-4)(A^2-4)(B^2-4)(C^2-4)",
+      "(2C-AB)(2B-AC)(2A-BC)"
+    ],
+    "interpretation": "Nonzero normal forms; no conclusion for higher powers or other annihilators"
+  },
+  "local_cache_relative_to_borel": "../../e8-five-cases-cache-2026-10-26",
+  "cached_basis_sha256": "ee6f53c6fc5999232df7e532af4e56eb4d8b40e13c1b9a0207dacbcd23733d80",
+  "source_sha256": {
+    "tools/explore_e8_last_affine.py": "5a1ea81e0c7b938d1e54aaa4fe4d46e33f89e0eebf1254ba7cacce739af81d54",
+    "e8-final-character-models.json": "f8cf9051731b8e8ae7d77f0e0f2fd17f5c16c4f4fa6e917b1a84a69ab0e73ade"
+  }
+}

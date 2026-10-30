@@ -1,0 +1,35 @@
+{
+  "status": "membership_certified",
+  "variable_order": [
+    "y",
+    "v",
+    "u",
+    "x"
+  ],
+  "denominator_factors": [
+    "r",
+    "r + 1",
+    "r - 1",
+    "r^2 + 1",
+    "t",
+    "t + r",
+    "t - r",
+    "t*r + 1",
+    "t*r - 1",
+    "t^2 + 1",
+    "t^2 - 1/3",
+    "t^2*r^2 - 4*r^2 + 3",
+    "t^4*r^2 + 1/2*t^4 - 5/2*t^2*r^2 + 1/2*t^2 + 1/2*r^2",
+    "t^4*r^2 + 2*t^3*r^3 + t^2*r^4 - 2*t^3*r - 2*t*r^3 + t^2 + 2*t*r + r^2",
+    "t^4*r^2 + t^2*r^4 + 2*t^2*r^2 - 2*r^4 - 3*t^2 + r^2",
+    "t^4*r^2 - 2*t^3*r^3 + t^2*r^4 + 2*t^3*r + 2*t*r^3 + t^2 - 2*t*r + r^2",
+    "t^4*r^2 - t^2*r^4 - 28/9*t^2*r^2 - t^2 + r^2",
+    "t^8*r^4 - 2*t^6*r^6 + t^4*r^8 + 64/9*t^6*r^4 + 64/9*t^4*r^6 - 2*t^6*r^2 - 12*t^4*r^4 - 2*t^2*r^6 + 64/9*t^4*r^2 + 64/9*t^2*r^4 + t^4 - 2*t^2*r^2 + r^4"
+  ],
+  "original_ideal_equals_monic_model_off_denominators": true,
+  "elapsed_seconds": 36.132818293,
+  "certificate_file": "adjoint-central-membership-reverse.json.gz",
+  "certificate_sha256": "bfdb7aa538a6f6209635d97dc120368fcb203707975e25e2dfe76ca21635a213",
+  "both_ideal_inclusions_checked": true,
+  "monic_basis_generators": 28
+}

@@ -1,0 +1,1836 @@
+{
+  "result": "passed",
+  "uses_Sage": false,
+  "cases_audited": 136,
+  "all_445_proper_standard_subsets_enumerated": true,
+  "counts": {
+    "E6": {
+      "all_A": 60,
+      "quadratic": 49,
+      "cubic": 11,
+      "non_A": 3
+    },
+    "E7": {
+      "all_A": 120,
+      "quadratic": 88,
+      "cubic": 32,
+      "non_A": 7
+    },
+    "E8": {
+      "all_A": 240,
+      "quadratic": 147,
+      "cubic": 93,
+      "non_A": 15
+    }
+  },
+  "maximum_remaining_variables": 4,
+  "all_residuals_quartic": true,
+  "independent_subset_character_reconstruction": true,
+  "independent_symbolic_determinants": true,
+  "all_original_target_derivatives": true,
+  "E6_explicit_Weyl_transfers_verified": 11,
+  "all_E6_proper_Levi_coverage_verified": true,
+  "recursive_reduction_classified": false,
+  "all_adjoint_generic_smoothness_proved": false,
+  "literature_priority_claim": false,
+  "cases": [
+    {
+      "type": "E6",
+      "nodes": [
+        1,
+        2,
+        5
+      ],
+      "maximum_pairs": 0,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E6",
+      "nodes": [
+        1,
+        2,
+        6
+      ],
+      "maximum_pairs": 0,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E6",
+      "nodes": [
+        1,
+        4,
+        6
+      ],
+      "maximum_pairs": 0,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E6",
+      "nodes": [
+        2,
+        3,
+        5
+      ],
+      "maximum_pairs": 0,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E6",
+      "nodes": [
+        2,
+        3,
+        6
+      ],
+      "maximum_pairs": 0,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E6",
+      "nodes": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E6",
+      "nodes": [
+        1,
+        2,
+        3,
+        6
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E6",
+      "nodes": [
+        1,
+        2,
+        4,
+        6
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E6",
+      "nodes": [
+        1,
+        2,
+        5,
+        6
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E6",
+      "nodes": [
+        2,
+        3,
+        5,
+        6
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E6",
+      "nodes": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 3,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        1,
+        2,
+        5
+      ],
+      "maximum_pairs": 0,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        1,
+        2,
+        6
+      ],
+      "maximum_pairs": 0,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        1,
+        2,
+        7
+      ],
+      "maximum_pairs": 0,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        1,
+        4,
+        6
+      ],
+      "maximum_pairs": 0,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        1,
+        4,
+        7
+      ],
+      "maximum_pairs": 0,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        1,
+        5,
+        7
+      ],
+      "maximum_pairs": 0,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        2,
+        3,
+        5
+      ],
+      "maximum_pairs": 0,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        2,
+        3,
+        6
+      ],
+      "maximum_pairs": 0,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        2,
+        3,
+        7
+      ],
+      "maximum_pairs": 0,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        3,
+        5,
+        7
+      ],
+      "maximum_pairs": 0,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        1,
+        2,
+        3,
+        6
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        1,
+        2,
+        3,
+        7
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        1,
+        2,
+        4,
+        6
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        1,
+        2,
+        4,
+        7
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        1,
+        2,
+        5,
+        6
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        1,
+        2,
+        5,
+        7
+      ],
+      "maximum_pairs": 0,
+      "remaining_variables": 3,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        1,
+        2,
+        6,
+        7
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        1,
+        3,
+        5,
+        7
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        1,
+        4,
+        5,
+        7
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        1,
+        4,
+        6,
+        7
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        2,
+        3,
+        5,
+        6
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        2,
+        3,
+        5,
+        7
+      ],
+      "maximum_pairs": 0,
+      "remaining_variables": 3,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        2,
+        3,
+        6,
+        7
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 3,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        1,
+        2,
+        3,
+        5,
+        7
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 3,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        1,
+        2,
+        3,
+        6,
+        7
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 3,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        1,
+        2,
+        4,
+        5,
+        7
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 3,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        1,
+        2,
+        4,
+        6,
+        7
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 3,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        1,
+        2,
+        5,
+        6,
+        7
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 3,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        2,
+        3,
+        5,
+        6,
+        7
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 3,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7
+      ],
+      "maximum_pairs": 2,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        5
+      ],
+      "maximum_pairs": 0,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        6
+      ],
+      "maximum_pairs": 0,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        7
+      ],
+      "maximum_pairs": 0,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        8
+      ],
+      "maximum_pairs": 0,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        4,
+        6
+      ],
+      "maximum_pairs": 0,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        4,
+        7
+      ],
+      "maximum_pairs": 0,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        4,
+        8
+      ],
+      "maximum_pairs": 0,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        5,
+        7
+      ],
+      "maximum_pairs": 0,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        5,
+        8
+      ],
+      "maximum_pairs": 0,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        6,
+        8
+      ],
+      "maximum_pairs": 0,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        2,
+        3,
+        5
+      ],
+      "maximum_pairs": 0,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        2,
+        3,
+        6
+      ],
+      "maximum_pairs": 0,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        2,
+        3,
+        7
+      ],
+      "maximum_pairs": 0,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        2,
+        3,
+        8
+      ],
+      "maximum_pairs": 0,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        2,
+        5,
+        7
+      ],
+      "maximum_pairs": 0,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        2,
+        5,
+        8
+      ],
+      "maximum_pairs": 0,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        2,
+        6,
+        8
+      ],
+      "maximum_pairs": 0,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        3,
+        5,
+        7
+      ],
+      "maximum_pairs": 0,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        3,
+        5,
+        8
+      ],
+      "maximum_pairs": 0,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        3,
+        6,
+        8
+      ],
+      "maximum_pairs": 0,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        4,
+        6,
+        8
+      ],
+      "maximum_pairs": 0,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        3,
+        6
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        3,
+        7
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        3,
+        8
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        4,
+        6
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        4,
+        7
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        5,
+        6
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        5,
+        7
+      ],
+      "maximum_pairs": 0,
+      "remaining_variables": 3,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        5,
+        8
+      ],
+      "maximum_pairs": 0,
+      "remaining_variables": 3,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        6,
+        7
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        6,
+        8
+      ],
+      "maximum_pairs": 0,
+      "remaining_variables": 3,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        7,
+        8
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        3,
+        5,
+        7
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        3,
+        5,
+        8
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        3,
+        6,
+        8
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        4,
+        5,
+        7
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        4,
+        5,
+        8
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        4,
+        6,
+        7
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        4,
+        6,
+        8
+      ],
+      "maximum_pairs": 0,
+      "remaining_variables": 3,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        4,
+        7,
+        8
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        5,
+        6,
+        8
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        5,
+        7,
+        8
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        2,
+        3,
+        5,
+        6
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        2,
+        3,
+        5,
+        7
+      ],
+      "maximum_pairs": 0,
+      "remaining_variables": 3,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        2,
+        3,
+        5,
+        8
+      ],
+      "maximum_pairs": 0,
+      "remaining_variables": 3,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        2,
+        3,
+        6,
+        7
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        2,
+        3,
+        6,
+        8
+      ],
+      "maximum_pairs": 0,
+      "remaining_variables": 3,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        2,
+        3,
+        7,
+        8
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        2,
+        5,
+        6,
+        8
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        2,
+        5,
+        7,
+        8
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        3,
+        4,
+        6,
+        8
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        3,
+        5,
+        6,
+        8
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        3,
+        5,
+        7,
+        8
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 3,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        3,
+        5,
+        7
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 3,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        3,
+        5,
+        8
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 3,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        3,
+        6,
+        7
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 3,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        3,
+        6,
+        8
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 3,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        3,
+        7,
+        8
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 3,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        4,
+        5,
+        7
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 3,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        4,
+        5,
+        8
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 3,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        4,
+        6,
+        7
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 3,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        4,
+        6,
+        8
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 3,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        4,
+        7,
+        8
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 3,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        5,
+        6,
+        7
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 3,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        5,
+        6,
+        8
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 3,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        5,
+        7,
+        8
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 3,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        6,
+        7,
+        8
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 3,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        3,
+        4,
+        6,
+        8
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 3,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        3,
+        5,
+        6,
+        8
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 3,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        3,
+        5,
+        7,
+        8
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 3,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        4,
+        5,
+        6,
+        8
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 3,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        4,
+        5,
+        7,
+        8
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 3,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        4,
+        6,
+        7,
+        8
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 3,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        2,
+        3,
+        4,
+        6,
+        8
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 3,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        2,
+        3,
+        5,
+        6,
+        7
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 3,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        2,
+        3,
+        5,
+        6,
+        8
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 3,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        2,
+        3,
+        5,
+        7,
+        8
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 3,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        2,
+        3,
+        6,
+        7,
+        8
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 3,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        8
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 4,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7
+      ],
+      "maximum_pairs": 2,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        8
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 4,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        3,
+        5,
+        7,
+        8
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 4,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        3,
+        6,
+        7,
+        8
+      ],
+      "maximum_pairs": 2,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        8
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 4,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        8
+      ],
+      "maximum_pairs": 2,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        4,
+        6,
+        7,
+        8
+      ],
+      "maximum_pairs": 2,
+      "remaining_variables": 2,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        5,
+        6,
+        7,
+        8
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 4,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        2,
+        3,
+        5,
+        6,
+        7,
+        8
+      ],
+      "maximum_pairs": 1,
+      "remaining_variables": 4,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8
+      ],
+      "maximum_pairs": 2,
+      "remaining_variables": 3,
+      "degree": 4,
+      "every_original_derivative_checked": true
+    }
+  ],
+  "source_sha256": {
+    "EXCEPTIONAL_QUARTIC_REDUCTION.md": "6fa25de2b4fe0a9d577c98774eb86100390880243c554f4730ce01552420e315",
+    "tools/audit_unit_constraint_classification.py": "a01624e581588b1001b8018eab64a45b48476c24ad95300e0dd845296d9cdfdd",
+    "tools/audit_affine_branching_certificates.py": "7d56ef1b5373f66a5e7c38d3c8d567ec4c27bfdda5bdd11ef60f54ee2f8da2a1",
+    "tools/audit_branching_norm_fibers.py": "a7ccf69961962ffb6075392ae8c17883626f02dbc4eba9eafa0cdd7df350d3fa",
+    "unit-constraint-classification-verification.json": "0b1d330b6ec7d67b3934d1a1741d861e1b604e8d7f69d0ffe22a588f38e47cec"
+  }
+}

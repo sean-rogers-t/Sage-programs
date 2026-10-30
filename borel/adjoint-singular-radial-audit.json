@@ -1,0 +1,41 @@
+{
+  "result": "passed",
+  "engine": "SymPy rational identities and monomial intersection",
+  "differential": {
+    "unrestricted_block_derivative_identity": true,
+    "unrestricted_full_matrix_identity": true,
+    "external_root_pair_logarithmic_derivative": true
+  },
+  "control": {
+    "radial_affine_eigenidentity": true,
+    "inversion_symmetric_Laurent_potential": true,
+    "logarithmic_gradient_coefficient": true,
+    "actual_incidence_ideal": [
+      "q^2",
+      "q*y"
+    ],
+    "primary_decomposition": [
+      "(q)",
+      "(q^2,y)"
+    ],
+    "nonzero_nilpotent": "q",
+    "singular_support": "q=y=0",
+    "quadratic_block_rank_on_bad_support": 0,
+    "target_on_bad_support": "z-z^(-1)",
+    "target_logarithmic_derivative": "z+z^(-1)",
+    "bad_image_contains_open": "h*(h^2+4) != 0",
+    "differentiated_radial_rhs": "k*(z+z^(-1))^2/(z-z^(-1))",
+    "bad_image_dominant": true,
+    "normal_equations_must_be_retained": true,
+    "actual_adjoint_character": false
+  },
+  "abstract_radial_identity_suffices": false,
+  "uniform_adjoint_conjecture_proved": false,
+  "adjoint_counterexample": false,
+  "new_Levi_coverage": false,
+  "geometric_argument_verified_by_computer": false,
+  "source_sha256": {
+    "tools/audit_adjoint_singular_radial.py": "6f4bf2db221d6620f26588e0fc68a83c165a908d35fc7a331da05dce0eafdca6",
+    "UNIFORM_ADJOINT_PROOF_TARGET.md": "3f2e4b74cc19dfb216a65ecd4db03bf76705c17a0639292b816ec3100f53ef80"
+  }
+}

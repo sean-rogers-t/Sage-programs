@@ -1,0 +1,101 @@
+{
+  "result": "passed",
+  "scope": "Symbolic identities and a Q/Z order detector in every rank m>=3; written completeness of the degree-three coefficient-ideal generators is audited in the note.",
+  "integral_unscaled_source_identity": true,
+  "exact_order_detector": "[c_1^2 L] has order m in (A/IJ)_3",
+  "coefficient_ideal_generator_values": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "cubic_root_equation_retained": true,
+  "independent_integral_minor_index_ratio": "m",
+  "symbolic_residue_families": [
+    {
+      "residue_mod_12": 0,
+      "g": 2,
+      "symbolic_q": "6*k - 1",
+      "exact_gcd": 1
+    },
+    {
+      "residue_mod_12": 1,
+      "g": 1,
+      "symbolic_q": "12*k - 1",
+      "exact_gcd": 1
+    },
+    {
+      "residue_mod_12": 2,
+      "g": 6,
+      "symbolic_q": "2*k",
+      "exact_gcd": 2
+    },
+    {
+      "residue_mod_12": 3,
+      "g": 1,
+      "symbolic_q": "12*k + 1",
+      "exact_gcd": 1
+    },
+    {
+      "residue_mod_12": 4,
+      "g": 2,
+      "symbolic_q": "6*k + 1",
+      "exact_gcd": 1
+    },
+    {
+      "residue_mod_12": 5,
+      "g": 3,
+      "symbolic_q": "4*k + 1",
+      "exact_gcd": 1
+    },
+    {
+      "residue_mod_12": 6,
+      "g": 2,
+      "symbolic_q": "6*k + 2",
+      "exact_gcd": 2
+    },
+    {
+      "residue_mod_12": 7,
+      "g": 1,
+      "symbolic_q": "12*k + 5",
+      "exact_gcd": 1
+    },
+    {
+      "residue_mod_12": 8,
+      "g": 6,
+      "symbolic_q": "2*k + 1",
+      "exact_gcd": 1
+    },
+    {
+      "residue_mod_12": 9,
+      "g": 1,
+      "symbolic_q": "12*k + 7",
+      "exact_gcd": 1
+    },
+    {
+      "residue_mod_12": 10,
+      "g": 2,
+      "symbolic_q": "6*k + 4",
+      "exact_gcd": 2
+    },
+    {
+      "residue_mod_12": 11,
+      "g": 3,
+      "symbolic_q": "4*k + 3",
+      "exact_gcd": 1
+    }
+  ],
+  "source_class_order": "m if m is not 2 mod 4; m/2 otherwise",
+  "full_exponent_all_m_ge_3": "m, using the written upper bound and IMG-37 nonzero 2-primary part in the 2 mod 4 case",
+  "recurrence_builder_imported": false,
+  "finite_smith_tables_used": false,
+  "external_review": false,
+  "machine_formalized_general_proof": false,
+  "source_sha256": {
+    "TYPE_A_K_INTEGRAL_RECURRENCE.md": "b97764ed08626225e584221339d3583929a54f905567d5281940b1b1b3eec87e",
+    "tools/audit_type_a_k_degree_three.py": "80256174df1f7098dd2d4e6f40c8b89f36b3b9ebe212bc1dd65452ea229eee64"
+  }
+}

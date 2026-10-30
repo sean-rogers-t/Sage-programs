@@ -1,0 +1,94 @@
+{
+  "result": "passed",
+  "search_scope": "two selected E8 adjoint models",
+  "full_characters_independently_reconstructed": true,
+  "every_original_derivative_replayed": true,
+  "exact_unit_elimination": true,
+  "first_model": {
+    "nodes": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      8
+    ],
+    "reduced_potential": "b*((w^-1-w)*y+r-r^-1)+h(y,w,r)",
+    "leading_y_coefficient_of_h": "-w^2",
+    "relative_ideal": [
+      "(w^-1-w)*y+r-r^-1",
+      "b*(w^-1-w)+h_y"
+    ],
+    "boundary": [
+      {
+        "w": -1,
+        "r": -1,
+        "polynomial": "-2*(2*y + 1)*(y**2 + y - 1)",
+        "squarefree": true,
+        "bezout": [
+          "18*y/25 + 9/25",
+          "-6*y**2/25 - 6*y/25 + 7/50"
+        ],
+        "jacobian_minor": "2*derivative(boundary_polynomial,y)"
+      },
+      {
+        "w": -1,
+        "r": 1,
+        "polynomial": "-2*(2*y - 1)*(y**2 - y - 1)",
+        "squarefree": true,
+        "bezout": [
+          "18*y/25 - 9/25",
+          "-6*y**2/25 + 6*y/25 + 7/50"
+        ],
+        "jacobian_minor": "2*derivative(boundary_polynomial,y)"
+      },
+      {
+        "w": 1,
+        "r": -1,
+        "polynomial": "-2*(2*y - 1)*(y**2 - y - 1)",
+        "squarefree": true,
+        "bezout": [
+          "18*y/25 - 9/25",
+          "-6*y**2/25 + 6*y/25 + 7/50"
+        ],
+        "jacobian_minor": "2*derivative(boundary_polynomial,y)"
+      },
+      {
+        "w": 1,
+        "r": 1,
+        "polynomial": "-2*(2*y + 1)*(y**2 + y - 1)",
+        "squarefree": true,
+        "bezout": [
+          "18*y/25 + 9/25",
+          "-6*y**2/25 - 6*y/25 + 7/50"
+        ],
+        "jacobian_minor": "2*derivative(boundary_polynomial,y)"
+      }
+    ],
+    "open_dimension": 2,
+    "boundary_dimension": 1,
+    "complete_intersection_prime_by_written_argument": true,
+    "entire_relative_critical_surface_smooth": true,
+    "all_central_boundaries_retained": true,
+    "generic_target_reduced_or_empty": true
+  },
+  "counterexample_found": false,
+  "uniform_conjecture_proved": false,
+  "second_model_source_screen_alone_resolves_boundary": false,
+  "independent_source_screen": {
+    "independent_engine": "SymPy",
+    "prime": 65521,
+    "specialized_basis_recomputed": true,
+    "standard_monomials": 38,
+    "hessian_remainder_recomputed": true,
+    "jacobian_ideal_unit": true,
+    "central_boundary_tested": false
+  },
+  "sha256": {
+    "tools/audit_adjoint_nilpotent_search.py": "65cec42754440ace64935524065beea7939a7b15345c2af3777c4a8606fd355f",
+    "unit-constraint-cases.json.gz": "41cca61200d57d5830b790d8d4649aa8628369da36d0c084b33a5a27e4e8e5de",
+    "UNIFORM_ADJOINT_PROOF_TARGET.md": "3f2e4b74cc19dfb216a65ecd4db03bf76705c17a0639292b816ec3100f53ef80",
+    "tools/search_adjoint_nilpotents.py": "9c5b7930cb3495cf233222e300cf56064eecfa45db86ce34beddd30c9e251511",
+    "adjoint-nilpotent-source-screen.json": "0f084d865f3e85fb22287bbe143c18811db1259697045b09a2c4e4c2be631711"
+  }
+}

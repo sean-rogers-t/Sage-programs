@@ -1,0 +1,172 @@
+{
+  "result": "passed",
+  "date": "2026-10-23",
+  "sage_version": "9.5",
+  "original_matrix_checks": [
+    {
+      "rank": 2,
+      "spin_dimension": 4,
+      "seed": 2,
+      "target_scalar": "5/4*ii",
+      "trace_pairings": 10,
+      "differential_pairings": 100,
+      "differential_rank": 8,
+      "source_centralizer_dimension": 2,
+      "target_centralizer_dimension": 4,
+      "proposed_fiber_dimension": 2,
+      "actual_tangent_dimension": 2,
+      "excess": 0
+    },
+    {
+      "rank": 2,
+      "spin_dimension": 4,
+      "seed": 5,
+      "target_scalar": "13/5*ii",
+      "trace_pairings": 10,
+      "differential_pairings": 100,
+      "differential_rank": 8,
+      "source_centralizer_dimension": 2,
+      "target_centralizer_dimension": 4,
+      "proposed_fiber_dimension": 2,
+      "actual_tangent_dimension": 2,
+      "excess": 0
+    },
+    {
+      "rank": 3,
+      "spin_dimension": 8,
+      "seed": 2,
+      "target_scalar": "25/12*ii",
+      "trace_pairings": 21,
+      "differential_pairings": 441,
+      "differential_rank": 12,
+      "source_centralizer_dimension": 3,
+      "target_centralizer_dimension": 11,
+      "proposed_fiber_dimension": 8,
+      "actual_tangent_dimension": 9,
+      "excess": 1
+    },
+    {
+      "rank": 3,
+      "spin_dimension": 8,
+      "seed": 5,
+      "target_scalar": "481/60*ii",
+      "trace_pairings": 21,
+      "differential_pairings": 441,
+      "differential_rank": 12,
+      "source_centralizer_dimension": 3,
+      "target_centralizer_dimension": 11,
+      "proposed_fiber_dimension": 8,
+      "actual_tangent_dimension": 9,
+      "excess": 1
+    },
+    {
+      "rank": 4,
+      "spin_dimension": 16,
+      "seed": 2,
+      "target_scalar": "425/96*ii",
+      "trace_pairings": 36,
+      "differential_pairings": 1296,
+      "differential_rank": 16,
+      "source_centralizer_dimension": 4,
+      "target_centralizer_dimension": 22,
+      "proposed_fiber_dimension": 18,
+      "actual_tangent_dimension": 20,
+      "excess": 2
+    },
+    {
+      "rank": 4,
+      "spin_dimension": 16,
+      "seed": 5,
+      "target_scalar": "2405/84*ii",
+      "trace_pairings": 36,
+      "differential_pairings": 1296,
+      "differential_rank": 16,
+      "source_centralizer_dimension": 4,
+      "target_centralizer_dimension": 22,
+      "proposed_fiber_dimension": 18,
+      "actual_tangent_dimension": 20,
+      "excess": 2
+    },
+    {
+      "rank": 5,
+      "spin_dimension": 32,
+      "seed": 2,
+      "target_scalar": "1105/96*ii",
+      "trace_pairings": 55,
+      "differential_pairings": 3025,
+      "differential_rank": 20,
+      "source_centralizer_dimension": 5,
+      "target_centralizer_dimension": 37,
+      "proposed_fiber_dimension": 32,
+      "actual_tangent_dimension": 35,
+      "excess": 3
+    },
+    {
+      "rank": 5,
+      "spin_dimension": 32,
+      "seed": 5,
+      "target_scalar": "156325/1344*ii",
+      "trace_pairings": 55,
+      "differential_pairings": 3025,
+      "differential_rank": 20,
+      "source_centralizer_dimension": 5,
+      "target_centralizer_dimension": 37,
+      "proposed_fiber_dimension": 32,
+      "actual_tangent_dimension": 35,
+      "excess": 3
+    }
+  ],
+  "symbolic_critical_scheme": {
+    "critical_ideal": "(z^2+1, 2*y+c*z)",
+    "reduced": true,
+    "normal_hessian_determinant": -4,
+    "unused_coordinates": "n-2",
+    "generic_target_field": "QQ(c)",
+    "all_nonzero_complex_targets_proved_in_note": true
+  },
+  "independent_weyl_characters": [
+    {
+      "rank": 2,
+      "dimension": 4,
+      "evaluation_points": 2
+    },
+    {
+      "rank": 3,
+      "dimension": 8,
+      "evaluation_points": 2
+    },
+    {
+      "rank": 4,
+      "dimension": 16,
+      "evaluation_points": 2
+    },
+    {
+      "rank": 5,
+      "dimension": 32,
+      "evaluation_points": 2
+    },
+    {
+      "rank": 6,
+      "dimension": 64,
+      "evaluation_points": 2
+    },
+    {
+      "rank": 7,
+      "dimension": 128,
+      "evaluation_points": 2
+    }
+  ],
+  "total_trace_pairings": 244,
+  "total_differential_pairings": 9724,
+  "all_rank_proof_in_note": true,
+  "generic_morse_candidate_refuted": true,
+  "generic_reducedness_refuted": false,
+  "nonregular_fibers_classified": false,
+  "source_sha256": {
+    "SPIN_FIBER_EXCESS.md": "f1e8fdc39d76751bb6dd0f2bda13820014b43847ed4476d96abe97c1c2e94553",
+    "tools/verify_spin_fiber_excess.py": "9ed9181e77674a22f30ec2581d57afb976394f463c43231c034a95e50e65f34a",
+    "tools/verify_spin_cayley_geometry.py": "848fa6492ca8f8893e227ccd3efc8ce579a86b3c65929024e4c283054168c00f",
+    "tools/verify_spin_polynomial_degree.py": "5e61ef2d30a131ef1def08bfc5cb27d8df9ac2cca6566f0f1c15a5d420fde828",
+    "GENERAL_CAYLEY_FIBER_CRITICAL.md": "1cffec1488cc51c792939382111003bf82394fb195c62c6c97670c6aee2a1483"
+  }
+}

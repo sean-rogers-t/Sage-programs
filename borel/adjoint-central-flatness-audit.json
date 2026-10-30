@@ -1,0 +1,41 @@
+{
+  "result": "passed",
+  "independent_engine": "SymPy",
+  "checks": [
+    {
+      "prime": 65521,
+      "t": 37303,
+      "r": 2,
+      "length": 37,
+      "curve": "t^4*r^2 + 2*t^3*r^3 + t^2*r^4 - 2*t^3*r - 2*t*r^3 + t^2 + 2*t*r + r^2",
+      "basis_recomputed_and_equal": true
+    },
+    {
+      "prime": 65521,
+      "t": 53138,
+      "r": 2,
+      "length": 37,
+      "curve": "t^4*r^2 - 2*t^3*r^3 + t^2*r^4 + 2*t^3*r + 2*t*r^3 + t^2 - 2*t*r + r^2",
+      "basis_recomputed_and_equal": true
+    },
+    {
+      "prime": 65537,
+      "t": 57075,
+      "r": 2,
+      "length": 38,
+      "curve": "t^8*r^4 - 2*t^6*r^6 + t^4*r^8 + 64/9*t^6*r^4 + 64/9*t^4*r^6 - 2*t^6*r^2 - 12*t^4*r^4 - 2*t^2*r^6 + 64/9*t^4*r^2 + 64/9*t^2*r^4 + t^4 - 2*t^2*r^2 + r^4",
+      "basis_recomputed_and_equal": true
+    }
+  ],
+  "generic_relative_rank": 38,
+  "finite_over_entire_b_open_ruled_out": true,
+  "characteristic_zero_claim_source": "Sage number-field Groebner bases",
+  "independent_check_scope": "Modular recomputation and exact basis comparison",
+  "whole_open_flatness_proved": false,
+  "generic_target_reducedness_proved": false,
+  "source_sha256": {
+    "audit_adjoint_central_flatness.py": "678a1547d645e76900dc4790951f094b51510b22ab5a5748c868829235c0d809",
+    "adjoint-nilpotent-source-screen.json": "0f084d865f3e85fb22287bbe143c18811db1259697045b09a2c4e4c2be631711",
+    "adjoint-central-flatness-curve-screen.json": "043a2193f209fc0d749cf7c7d4ffb1ea816e649f034614b7a1a6dc4bf527e9f6"
+  }
+}

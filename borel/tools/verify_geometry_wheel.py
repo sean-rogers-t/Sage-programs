@@ -22,6 +22,9 @@ def main():
             archive.extractall(target)
         tests = target/'wheel_tests'
         tests.mkdir()
+        shutil.copyfile(ROOT/'tests/test_borel_coordinates.py', tests/'test_borel_coordinates.py')
+        shutil.copyfile(ROOT/'tests/test_borel_reconstruction.py', tests/'test_borel_reconstruction.py')
+        shutil.copyfile(ROOT/'tests/test_root_borel.py', tests/'test_root_borel.py')
         shutil.copyfile(ROOT/'tests/test_geometry.py', tests/'test_geometry.py')
         shutil.copyfile(ROOT/'tests/test_e6_geometry.py', tests/'test_e6_geometry.py')
         shutil.copyfile(ROOT/'tests/test_e7_geometry.py', tests/'test_e7_geometry.py')
@@ -29,6 +32,7 @@ def main():
         shutil.copyfile(ROOT/'tests/test_relative_images.py', tests/'test_relative_images.py')
         shutil.copyfile(ROOT/'tests/test_e6_relative_images.py', tests/'test_e6_relative_images.py')
         shutil.copyfile(ROOT/'tests/test_g2_full_flag.py', tests/'test_g2_full_flag.py')
+        shutil.copyfile(ROOT/'tests/test_equivariant.py', tests/'test_equivariant.py')
         (tests/'data').mkdir()
         shutil.copyfile(ROOT/'tests/data/e7_relative_audited_bases.json',
                         tests/'data/e7_relative_audited_bases.json')

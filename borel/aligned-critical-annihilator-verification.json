@@ -1,0 +1,58 @@
+{
+  "result": "passed",
+  "engine": "Sage ambient roots and Singular original-ideal operations",
+  "family_checks": [
+    {
+      "pairs": 1,
+      "delta": "s",
+      "radical_and_colon_verified": true,
+      "exact_nilpotence_index": 1
+    },
+    {
+      "pairs": 1,
+      "delta": "s^2",
+      "radical_and_colon_verified": true,
+      "exact_nilpotence_index": 2
+    },
+    {
+      "pairs": 1,
+      "delta": "s^2*t^3",
+      "radical_and_colon_verified": true,
+      "exact_nilpotence_index": 3
+    },
+    {
+      "pairs": 2,
+      "delta": "s^2*t^3",
+      "radical_and_colon_verified": true,
+      "exact_nilpotence_index": 3
+    },
+    {
+      "pairs": 3,
+      "delta": "s^2",
+      "radical_and_colon_verified": true,
+      "exact_nilpotence_index": 2
+    }
+  ],
+  "E6": {
+    "full_E6_character_from_ambient_roots": true,
+    "original_Laurent_gradient_radical_verified": true,
+    "original_Laurent_annihilator_colon_verified": true,
+    "nonzero_nilradical_square_zero": true,
+    "central_target_annihilates_entire_nilradical": true,
+    "global_unit_free_coordinate_change_verified": true
+  },
+  "native_audit_imported": false,
+  "excluded_delta_zero_embedded_control_verified": true,
+  "mixed_target_support_polynomial_alone_fails": true,
+  "E6_contact_positive_excess_retained": true,
+  "altered_Levi_embedded_nilpotent_retained": true,
+  "aligned_family_exact_annihilator_proved_in_note": true,
+  "all_exceptional_annihilators_proved": false,
+  "new_Levi_coverage": false,
+  "generic_smoothness_coverage_already_known": true,
+  "novelty_claim": false,
+  "source_sha256": {
+    "tools/verify_aligned_critical_annihilator.py": "ea0c380013eea97be4ba563cbbbe8e1e8e107c2d49cb94bb11191aca03cc1318",
+    "UNIFORM_ADJOINT_PROOF_TARGET.md": "3f2e4b74cc19dfb216a65ecd4db03bf76705c17a0639292b816ec3100f53ef80"
+  }
+}

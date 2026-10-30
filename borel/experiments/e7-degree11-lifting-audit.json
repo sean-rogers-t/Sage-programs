@@ -1,0 +1,335 @@
+{
+  "result": "passed",
+  "degree": 11,
+  "uniform_family_size": 112,
+  "initial_kernel_rank_mod2": 461,
+  "primitive_kernel_rank_mod2": 462,
+  "mod2_syzygy_dimension": 1,
+  "quadratic_Frobenius_identities_verified": true,
+  "half_sum_derivative_identity_verified": true,
+  "good_Levi_count": 108,
+  "exceptional_noncubic_lifting_cases": [
+    {
+      "retained_nodes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "cubic_restriction": [
+        [
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            2
+          ],
+          1
+        ],
+        [
+          [
+            0,
+            0,
+            0,
+            0,
+            2,
+            1
+          ],
+          1
+        ],
+        [
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            2
+          ],
+          1
+        ],
+        [
+          [
+            0,
+            1,
+            0,
+            2,
+            0,
+            0
+          ],
+          1
+        ],
+        [
+          [
+            0,
+            2,
+            0,
+            0,
+            0,
+            1
+          ],
+          1
+        ],
+        [
+          [
+            0,
+            2,
+            0,
+            1,
+            0,
+            0
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            0,
+            2,
+            0,
+            0,
+            0
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          1
+        ]
+      ],
+      "cubic_does_not_lift": true
+    },
+    {
+      "retained_nodes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "cubic_restriction": [
+        [
+          [
+            0,
+            1,
+            0,
+            2,
+            0,
+            0
+          ],
+          1
+        ],
+        [
+          [
+            0,
+            2,
+            0,
+            1,
+            0,
+            0
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            0,
+            2,
+            0,
+            0,
+            0
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          1
+        ]
+      ],
+      "cubic_does_not_lift": true
+    },
+    {
+      "retained_nodes": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "cubic_restriction": [
+        [
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            2
+          ],
+          1
+        ],
+        [
+          [
+            0,
+            0,
+            0,
+            0,
+            2,
+            1
+          ],
+          1
+        ],
+        [
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            2
+          ],
+          1
+        ],
+        [
+          [
+            0,
+            1,
+            0,
+            2,
+            0,
+            0
+          ],
+          1
+        ],
+        [
+          [
+            0,
+            2,
+            0,
+            0,
+            0,
+            1
+          ],
+          1
+        ],
+        [
+          [
+            0,
+            2,
+            0,
+            1,
+            0,
+            0
+          ],
+          1
+        ]
+      ],
+      "cubic_does_not_lift": true
+    },
+    {
+      "retained_nodes": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "cubic_restriction": [
+        [
+          [
+            0,
+            1,
+            0,
+            2,
+            0,
+            0
+          ],
+          1
+        ],
+        [
+          [
+            0,
+            2,
+            0,
+            1,
+            0,
+            0
+          ],
+          1
+        ]
+      ],
+      "cubic_does_not_lift": true
+    }
+  ],
+  "seconds": 5.86,
+  "engine": "Native 27-form integer moments, exact integer half-sum, own bit ranks and linear-ideal restriction; SymPy only for 6x6 inverse; no Sage or runtime imports",
+  "scope": "Independently verifies the coefficient identities, primitive full kernel, one-dimensional saturation defect and four cubic nonlifting obstructions used in the uniform degree-eleven proof. Reads no relative Smith table and does not prove an all-degree E7 structural result.",
+  "source_sha256": {
+    "experiments/audit_e7_degree11_lifting.py": "2c073f30828e2ca2909a44f6f8cb3948869627bbb584a761ef165cc27ad3ea4f",
+    "experiments/e7-degree11-lifting.json": "ea1d514b453eef6252de70fae16bc93efadc4bce3d8cd2ee7554bde13bcfc7d9"
+  },
+  "raw_sha256": {
+    "experiments/e7-degree11-lifting-certificates.json.gz": "d6c57f3488ae62098f3294a1acc21627bc181b833359dec0b5dd9d96f4ce4302"
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "result": "passed",
+  "date": "2026-10-22",
+  "cases": [
+    {
+      "rank": 2,
+      "degree_through": 20,
+      "affine_Weyl_elements_enumerated": 561,
+      "degrees": [
+        {
+          "degree": 1,
+          "Schubert_rows": 1,
+          "nonzero_divisor_rows": 1,
+          "content": "1"
+        },
+        {
+          "degree": 2,
+          "Schubert_rows": 1,
+          "nonzero_divisor_rows": 1,
+          "content": "2"
+        },
+        {
+          "degree": 3,
+          "Schubert_rows": 2,
+          "nonzero_divisor_rows": 2,
+          "content": "2"
+        },
+        {
+          "degree": 4,
+          "Schubert_rows": 2,
+          "nonzero_divisor_rows": 2,
+          "content": "8"
+        },
+        {
+          "degree": 5,
+          "Schubert_rows": 2,
+          "nonzero_divisor_rows": 2,
+          "content": "40"
+        },
+        {
+          "degree": 6,
+          "Schubert_rows": 3,
+          "nonzero_divisor_rows": 3,
+          "content": "80"
+        },
+        {
+          "degree": 7,
+          "Schubert_rows": 3,
+          "nonzero_divisor_rows": 3,
+          "content": "560"
+        },
+        {
+          "degree": 8,
+          "Schubert_rows": 3,
+          "nonzero_divisor_rows": 3,
+          "content": "4480"
+        },
+        {
+          "degree": 9,
+          "Schubert_rows": 4,
+          "nonzero_divisor_rows": 4,
+          "content": "13440"
+        },
+        {
+          "degree": 10,
+          "Schubert_rows": 4,
+          "nonzero_divisor_rows": 4,
+          "content": "134400"
+        },
+        {
+          "degree": 11,
+          "Schubert_rows": 4,
+          "nonzero_divisor_rows": 4,
+          "content": "1478400"
+        },
+        {
+          "degree": 12,
+          "Schubert_rows": 5,
+          "nonzero_divisor_rows": 5,
+          "content": "5913600"
+        },
+        {
+          "degree": 13,
+          "Schubert_rows": 5,
+          "nonzero_divisor_rows": 5,
+          "content": "76876800"
+        },
+        {
+          "degree": 14,
+          "Schubert_rows": 5,
+          "nonzero_divisor_rows": 5,
+          "content": "1076275200"
+        },
+        {
+          "degree": 15,
+          "Schubert_rows": 6,
+          "nonzero_divisor_rows": 6,
+          "content": "5381376000"
+        },
+        {
+          "degree": 16,
+          "Schubert_rows": 6,
+          "nonzero_divisor_rows": 6,
+          "content": "86102016000"
+        },
+        {
+          "degree": 17,
+          "Schubert_rows": 6,
+          "nonzero_divisor_rows": 6,
+          "content": "1463734272000"
+        },
+        {
+          "degree": 18,
+          "Schubert_rows": 7,
+          "nonzero_divisor_rows": 7,
+          "content": "8782405632000"
+        },
+        {
+          "degree": 19,
+          "Schubert_rows": 7,
+          "nonzero_divisor_rows": 7,
+          "content": "166865707008000"
+        },
+        {
+          "degree": 20,
+          "Schubert_rows": 7,
+          "nonzero_divisor_rows": 7,
+          "content": "3337314140160000"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "degree_through": 12,
+      "affine_Weyl_elements_enumerated": 1070,
+      "degrees": [
+        {
+          "degree": 1,
+          "Schubert_rows": 1,
+          "nonzero_divisor_rows": 1,
+          "content": "1"
+        },
+        {
+          "degree": 2,
+          "Schubert_rows": 1,
+          "nonzero_divisor_rows": 1,
+          "content": "2"
+        },
+        {
+          "degree": 3,
+          "Schubert_rows": 2,
+          "nonzero_divisor_rows": 2,
+          "content": "2"
+        },
+        {
+          "degree": 4,
+          "Schubert_rows": 2,
+          "nonzero_divisor_rows": 2,
+          "content": "8"
+        },
+        {
+          "degree": 5,
+          "Schubert_rows": 3,
+          "nonzero_divisor_rows": 3,
+          "content": "8"
+        },
+        {
+          "degree": 6,
+          "Schubert_rows": 4,
+          "nonzero_divisor_rows": 4,
+          "content": "16"
+        },
+        {
+          "degree": 7,
+          "Schubert_rows": 4,
+          "nonzero_divisor_rows": 4,
+          "content": "112"
+        },
+        {
+          "degree": 8,
+          "Schubert_rows": 5,
+          "nonzero_divisor_rows": 5,
+          "content": "896"
+        },
+        {
+          "degree": 9,
+          "Schubert_rows": 6,
+          "nonzero_divisor_rows": 6,
+          "content": "2688"
+        },
+        {
+          "degree": 10,
+          "Schubert_rows": 7,
+          "nonzero_divisor_rows": 7,
+          "content": "5376"
+        },
+        {
+          "degree": 11,
+          "Schubert_rows": 8,
+          "nonzero_divisor_rows": 8,
+          "content": "59136"
+        },
+        {
+          "degree": 12,
+          "Schubert_rows": 9,
+          "nonzero_divisor_rows": 9,
+          "content": "236544"
+        }
+      ]
+    }
+  ],
+  "independent_method": "Real-coroot affine Chevalley multiplication on Grassmannian minimal cosets; no Schur P coproduct or factorial formula used",
+  "source_sha256": {
+    "experiments/audit_other_theories_affine_c.py": "8e1f6ec69fe2ac310ee0af631a380ba4aae78749386f5602e4eff000f22fb777"
+  },
+  "raw_sha256": {
+    "experiments/other-theories-affine-pilot.json": "2e9e79c6dd738fc93d08365bd9795a9c89f7d91f3a0c154c15d194bd053d1af3"
+  }
+}

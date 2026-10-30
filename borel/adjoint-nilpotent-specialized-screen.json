@@ -1,0 +1,25 @@
+{
+  "status": "source_specialized_screen",
+  "type": "E8",
+  "nodes": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    8
+  ],
+  "potential": "-x^2*u*v - x^2*u*y - 2/3*x*u^2*y - x^2*v*y - 3/2*x*v^2*y - x^2*y^2 - 2/3*x*u*y^2 - 3/2*x*v*y^2 - u*v*y^2 - 1/3*x^2*u - 2*x*u^2 - 3*x^2*v - 5/2*x*u*v - 1/2*x*v^2 - 10/3*x^2*y - 6*x*u*y - 4/3*u^2*y - 3/2*x*v*y - 10/3*u*v*y - 3/4*v^2*y - 5/2*x*y^2 - 1/3*u*y^2 - 3*v*y^2 - 20/3*x*u - 4*u^2 - 5/3*x*v - u*v - 1/4*v^2 - 25/3*x*y - 5*u*y - 5/4*v*y - 4*u + 23/12*v - 3",
+  "dimension": 0,
+  "vector_space_dimension": 38,
+  "radical_test_completed": true,
+  "target_generic_claim": false,
+  "source_boundary_not_tested": true,
+  "elapsed_seconds": 17.82647042900001,
+  "source_sha256": {
+    "search_adjoint_nilpotents.py": "9c5b7930cb3495cf233222e300cf56064eecfa45db86ce34beddd30c9e251511",
+    "unit-constraint-cases.json.gz": "41cca61200d57d5830b790d8d4649aa8628369da36d0c084b33a5a27e4e8e5de"
+  },
+  "radical_generators_outside_ideal": [],
+  "specialized_relative_ideal_radical": true
+}

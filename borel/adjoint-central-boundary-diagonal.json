@@ -1,0 +1,9 @@
+{
+  "status": "completed",
+  "boundary": "t=r",
+  "dimension": 1,
+  "target_image_dimension_at_most": 1,
+  "cannot_dominate_two_dimensional_target": true,
+  "groebner_generators": 72,
+  "elapsed_seconds": 0.4584375559999927
+}

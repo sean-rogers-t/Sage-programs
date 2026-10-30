@@ -1,0 +1,243 @@
+{
+  "result": "passed",
+  "method": "Native B signed permutations and Chevalley divisor multiplication, including short coroot coefficient 2; full coefficient rows compared with recorded BGG.",
+  "actual_B": [
+    {
+      "n": 5,
+      "a": 3,
+      "k": 2,
+      "polynomial_degree": 0,
+      "source_columns": 1,
+      "coefficient_rows": 1,
+      "exact_match": true
+    },
+    {
+      "n": 5,
+      "a": 3,
+      "k": 2,
+      "polynomial_degree": 2,
+      "source_columns": 1,
+      "coefficient_rows": 2,
+      "exact_match": true
+    },
+    {
+      "n": 5,
+      "a": 3,
+      "k": 2,
+      "polynomial_degree": 4,
+      "source_columns": 2,
+      "coefficient_rows": 4,
+      "exact_match": true
+    },
+    {
+      "n": 5,
+      "a": 3,
+      "k": 2,
+      "polynomial_degree": 6,
+      "source_columns": 2,
+      "coefficient_rows": 3,
+      "exact_match": true
+    },
+    {
+      "n": 5,
+      "a": 3,
+      "k": 2,
+      "polynomial_degree": 8,
+      "source_columns": 2,
+      "coefficient_rows": 5,
+      "exact_match": true
+    },
+    {
+      "n": 5,
+      "a": 3,
+      "k": 2,
+      "polynomial_degree": 10,
+      "source_columns": 1,
+      "coefficient_rows": 2,
+      "exact_match": true
+    },
+    {
+      "n": 5,
+      "a": 3,
+      "k": 2,
+      "polynomial_degree": 12,
+      "source_columns": 1,
+      "coefficient_rows": 1,
+      "exact_match": true
+    },
+    {
+      "n": 6,
+      "a": 4,
+      "k": 2,
+      "polynomial_degree": 0,
+      "source_columns": 1,
+      "coefficient_rows": 1,
+      "exact_match": true
+    },
+    {
+      "n": 6,
+      "a": 4,
+      "k": 2,
+      "polynomial_degree": 2,
+      "source_columns": 1,
+      "coefficient_rows": 2,
+      "exact_match": true
+    },
+    {
+      "n": 6,
+      "a": 4,
+      "k": 2,
+      "polynomial_degree": 4,
+      "source_columns": 2,
+      "coefficient_rows": 5,
+      "exact_match": true
+    },
+    {
+      "n": 6,
+      "a": 4,
+      "k": 2,
+      "polynomial_degree": 6,
+      "source_columns": 2,
+      "coefficient_rows": 5,
+      "exact_match": true
+    },
+    {
+      "n": 6,
+      "a": 4,
+      "k": 2,
+      "polynomial_degree": 8,
+      "source_columns": 3,
+      "coefficient_rows": 9,
+      "exact_match": true
+    },
+    {
+      "n": 6,
+      "a": 4,
+      "k": 2,
+      "polynomial_degree": 10,
+      "source_columns": 2,
+      "coefficient_rows": 5,
+      "exact_match": true
+    },
+    {
+      "n": 6,
+      "a": 4,
+      "k": 2,
+      "polynomial_degree": 12,
+      "source_columns": 2,
+      "coefficient_rows": 6,
+      "exact_match": true
+    },
+    {
+      "n": 6,
+      "a": 4,
+      "k": 2,
+      "polynomial_degree": 14,
+      "source_columns": 1,
+      "coefficient_rows": 2,
+      "exact_match": true
+    },
+    {
+      "n": 6,
+      "a": 4,
+      "k": 2,
+      "polynomial_degree": 16,
+      "source_columns": 1,
+      "coefficient_rows": 1,
+      "exact_match": true
+    },
+    {
+      "n": 6,
+      "a": 3,
+      "k": 3,
+      "polynomial_degree": 0,
+      "source_columns": 1,
+      "coefficient_rows": 1,
+      "exact_match": true
+    },
+    {
+      "n": 6,
+      "a": 3,
+      "k": 3,
+      "polynomial_degree": 2,
+      "source_columns": 1,
+      "coefficient_rows": 2,
+      "exact_match": true
+    },
+    {
+      "n": 6,
+      "a": 3,
+      "k": 3,
+      "polynomial_degree": 4,
+      "source_columns": 2,
+      "coefficient_rows": 4,
+      "exact_match": true
+    },
+    {
+      "n": 6,
+      "a": 3,
+      "k": 3,
+      "polynomial_degree": 6,
+      "source_columns": 3,
+      "coefficient_rows": 6,
+      "exact_match": true
+    },
+    {
+      "n": 6,
+      "a": 3,
+      "k": 3,
+      "polynomial_degree": 8,
+      "source_columns": 3,
+      "coefficient_rows": 6,
+      "exact_match": true
+    },
+    {
+      "n": 6,
+      "a": 3,
+      "k": 3,
+      "polynomial_degree": 10,
+      "source_columns": 3,
+      "coefficient_rows": 7,
+      "exact_match": true
+    },
+    {
+      "n": 6,
+      "a": 3,
+      "k": 3,
+      "polynomial_degree": 12,
+      "source_columns": 3,
+      "coefficient_rows": 7,
+      "exact_match": true
+    },
+    {
+      "n": 6,
+      "a": 3,
+      "k": 3,
+      "polynomial_degree": 14,
+      "source_columns": 2,
+      "coefficient_rows": 3,
+      "exact_match": true
+    },
+    {
+      "n": 6,
+      "a": 3,
+      "k": 3,
+      "polynomial_degree": 16,
+      "source_columns": 1,
+      "coefficient_rows": 1,
+      "exact_match": true
+    },
+    {
+      "n": 6,
+      "a": 3,
+      "k": 3,
+      "polynomial_degree": 18,
+      "source_columns": 1,
+      "coefficient_rows": 1,
+      "exact_match": true
+    }
+  ],
+  "independent_actual_embedding": true,
+  "source_sha256": "cffd0017242a4c796e5c89e20da38a20d987d5d62460c1685a06d7e53343f436",
+  "input_sha256": "16cc7a959ec59493febe0e4b3c38a311a72e170c767025cf05c3a88a17a07bfb"
+}

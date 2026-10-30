@@ -1,0 +1,156 @@
+\section{The central question and the shape of the program}
+
+The starting point is the relationship between representations and Schubert calculus. For a general linear group, polynomial representations and Grassmannian cohomology are related by an explicit ring map: a Schur character maps to its corresponding Schubert class when the partition fits the Grassmannian rectangle, and to zero otherwise. This gives a concrete connection between tensor products and intersection products. The Springer--Borel construction asks how to retain such a connection for other reductive groups, where there is no equally immediate notion of a polynomial character.
+
+The published answer uses a representation-dependent Springer morphism to transport polynomials on a Cartan subalgebra into characters on a maximal torus. Taking Levi invariants and applying the Borel characteristic map gives a homomorphism to flag cohomology. The present program studies the information hidden by working only over the complex numbers: integral source lattices, divisibility of image classes, finite-rank relations, and the behavior of these images in other cohomology theories. A second branch studies the geometry of the same morphism before the Borel quotient: its degree, differential, regularity, and fibers.
+
+These branches have a common input but different outputs. Integral-image questions ask which cohomology classes can be represented by specified polynomial characters. Cayley-map questions ask what the representation-dependent map does to points and schemes. A calculation of a generic degree does not determine a Smith normal form; a classification of integral source lattices does not determine the singularities of a fiber. A useful research statement must keep both the connection and the distinction visible.
+
+\subsection{Three successive problems}
+For a representation $\rho$ and a parabolic $P$ with Levi $L$, the arithmetic part has three stages:
+\[
+ \rho\quad\longmapsto\quad\Lambda_\rho
+ \quad\longmapsto\quad A_{\rho,L}=\Sym_\Z(\Lambda_\rho)^{W_L}
+ \quad\longmapsto\quad J_{\rho,L}=\beta^P(A_{\rho,L}).
+\]
+The first stage is now controlled by a general theorem, with a closed formula for irreducible representations in every finite simple type. The second involves integral invariant theory: even if the torus source is a symmetric algebra, its Levi invariants can need higher generators and integral relations. The third is an embedded-lattice problem in integral Schubert cohomology. Neither the rational rank nor an abstract presentation of the source settles it.
+
+The most developed ordinary results are complete Smith-factor formulas for the specified normalized single-tail images in types B and D, a primitive type C reference image, and complete relative root/weight comparisons in E6 and E7. The newest work makes the classical formulas constructive: adapted bases identify individual divisible classes, and geometric restriction kernels organize all their denominators. A short generating theorem is proved when the smaller block has size two. Its higher-block extension is the immediate structural problem.
+
+\subsection{What this statement claims}
+The principal current claims are stated with their hypotheses below. ``Complete'' always refers to a specified object: for example, all factors of a selected normalized image, or all relative root/weight factors, rather than every integral image associated with a group. Exact finite computations can establish a finite calculation; they corroborate but do not establish an arbitrary-rank theorem. Where a proof is computer-assisted, its algebraic certificate and its geometric interpretation are separate dependencies.
+
+The research opportunity is to turn explicit maps into structural information. The intended progression is from a character formula to an integral lattice, from a lattice to a filtration, and from a filtration to a geometric or algebraic explanation. Further examples are useful when they test one of these transitions. They are not the principal objective.
+
+\status{This overview synthesizes the \record{RESEARCH_LEDGER.md}{research ledger} and \record{PROOF_STATUS.md}{proof-status record} at the pinned baseline. It introduces no additional theorem. Published foundations are distinguished in the following sections.}
+
+\section{Notation, flag geometry, and the two kinds of coordinates}
+Let $G$ be a connected complex reductive algebraic group, $T\subset B\subset G$ a maximal torus and Borel subgroup, and $P\supseteq B$ a standard parabolic with Levi subgroup $L\supset T$. Write
+\[
+ X=X^*(T),\qquad Q=\Z\Phi\subset X,\qquad
+ W=N_G(T)/T,\qquad W_L=N_L(T)/T.
+\]
+Here $\Phi$ is the root system and $Q$ the root lattice. For a simply connected simple group, $X$ is the full weight lattice. We use $P$ for a parabolic, rather than also using it for the weight lattice. A simple root is $\alpha_i$, its coroot is $\alpha_i^\vee$, and the fundamental weights satisfy $\omega_j(\alpha_i^\vee)=\delta_{ij}$.
+
+A weight $\mu$ has two uses. The symbol $e^\mu$ denotes its multiplicative torus character, an element of $\Z[X]$. Its differential, also denoted $\mu$, is an additive linear coordinate on $\mathfrak t=\Lie(T)$. Thus $e^{\mu+\nu}=e^\mu e^\nu$ in the character ring, while $\mu+\nu$ is addition of linear functions in $\Sym(X)$. Their relationship through the Springer map is not the exponential map.
+
+\subsection{Parabolics and classical parameters}
+A retained set $I$ of simple nodes generates the Levi Weyl group $W_I$. Omitting one node gives a maximal parabolic; omitting several gives a partial flag with several steps. The empty retained set gives $G/B$, and the full retained set gives a point. Consequently an all-parabolic statement in rank $r$ has $2^r-1$ proper standard cases, including the full flag.
+
+For the families in Parts II and III, write $a=n-k$. The varieties and matrix Levi patterns are
+\[
+\begin{array}{c|c|c}
+\text{type}&G/P_{n-k}&\text{matrix Levi pattern}\\\hline
+C_n&\IG(a,2n)&\GL(a)\times\Sp(2k)\\
+B_n&\OG(a,2n+1)&\GL(a)\times\SO(2k+1)\\
+D_n&\OG(a,2n)&\GL(a)\times\SO(2k).
+\end{array}
+\]
+The parameter $n$ is the ambient rank, $a$ the isotropic subspace dimension, and $k$ the residual classical rank. The type D results below use $a\ge1$, $k\ge2$, and the appropriate simple-rank range. Maximal isotropic components require their own conventions. When the group is Spin, the Levi is the inverse image of the matrix Levi under the central isogeny; it must not be identified with the displayed product without retaining that cover.
+
+This distinction explains why the published work uses orthogonal groups even though later uniform theorems are formulated for simply connected simple groups. The flag varieties can agree under a central isogeny, while the allowed characters and integral source lattices differ. Lie type alone does not specify an integral representation-ring problem.
+
+\subsection{Bruhat decomposition and integral coordinates}
+Let $W^P$ be the minimal representatives for $W/W_L$. The Bruhat cells are affine spaces indexed by $W^P$; their closures and the opposite Schubert varieties give an integral basis
+\[
+ \eps_w=[\overline{B^-wP/P}]\in H^{2\ell(w)}(G/P;\Z).
+\]
+The cell decomposition implies that this cohomology is torsion-free and concentrated in even degrees. Thus torsion in an image quotient is arithmetic of the chosen image, not torsion in the ambient cohomology. For a Grassmannian $\Gr(\ell,n)$, the same basis is indexed by partitions $\lambda\subseteq(n-\ell)^\ell$.
+
+We use polynomial degree $d$ for cohomological degree $2d$. A second, explicitly declared grading occurs for square generators: a variable $y_i$ representing $x_i^2$ has \emph{source weight} one but polynomial degree two, hence cohomological degree four. In the K-theory specialization formulas, a grading is transported from a universal homogeneous model; it is not an intrinsic grading of the K-ring. Keeping these conventions separate prevents apparent disagreements between formulas.
+
+The Borel presentation over $\Q$ is
+\[
+ H^{2*}(G/P;\Q)\simeq
+ \Sym_\Q(X_\Q)^{W_L}/\bigl(\Sym_\Q(X_\Q)^W_+\bigr).
+\]
+The ideal is generated in the Levi-invariant ring by the indicated positive-degree global invariants. Over $\Z$, this presentation cannot be used without additional hypotheses. Divided differences
+$\partial_i f=(f-s_i f)/\alpha_i$ and integral Schubert coordinates supply an exact alternative. The Chevalley formula gives a second way to compute divisor products. Comparing these two routes is particularly useful at the primes at which invariant-ring shortcuts fail.
+
+\status{Bruhat decomposition, Schubert bases, characteristic maps, and divided differences are published foundations; see Brion \cite{Brion} and the sources collected in \record{MATHEMATICS.md}{the mathematical framework}. Their use here is background, not a new contribution.}
+
+\section{The published Springer--Borel construction and its extensions}
+Let $\rho:G\to\GL(V)$ have faithful differential and nondegenerate trace form
+\[
+ B_\rho(X,Y)=\tr(d\rho(X)d\rho(Y)).
+\]
+For a simple complex group and a nontrivial actual representation, this form is nondegenerate. Trace-orthogonal projection defines a conjugation-equivariant regular map $\theta_\rho:G\to\mathfrak g$ by
+\[
+ B_\rho(\theta_\rho(g),X)=\tr(\rho(g)d\rho(X)).
+\]
+In the semisimple normalization, $\theta_\rho(1)=0$ and $d\theta_\rho|_1=\mathrm{id}$. Write $\Theta_\rho=\theta_\rho|_T:T\to\mathfrak t$.
+
+\subsection{Explicit determination}
+If the weights are columns $\mu=(\mu(\alpha_i^\vee))_i$ with multiplicities $m_\mu$, put
+\[
+ M_\rho=\sum_\mu m_\mu\mu\mu^t,\qquad
+ v_\rho(t)=\sum_\mu m_\mu e^\mu(t)\mu.
+\]
+In the simple-coroot basis, the coefficient column of $\Theta_\rho(t)$ is $M_\rho^{-1}v_\rho(t)$. This is Rogers's explicit weight-moment method \cite{Rogers}. Its practical consequence is that the map can be reconstructed from weights and multiplicities, independently of a printed coordinate table. The repository copy consulted is the 2017 preprint; the final journal version was not available for a line-by-line comparison.
+
+\subsection{The map of Kumar}
+The polynomial-character ring and characteristic homomorphism are
+\[
+ \Rep_{\rho\text{-poly}}^\C(L)
+ =\Theta_\rho^*\bigl(\Sym_\C(\mathfrak t^*)^{W_L}\bigr),\qquad
+ \xi_\rho^P=\beta_\C^P\circ(\Theta_\rho^*)^{-1}.
+\]
+Part I constructs this map and proves surjectivity for the full complex Levi polynomial source \cite{Kumar}. The inverse is defined on the image of an injective pullback. It is not a rational inverse of $T\to\mathfrak t$. Our integral questions refine this construction by specifying which transported polynomials pull back to integral virtual characters.
+
+Part II studies the residual symplectic and odd orthogonal sources and proves stable injectivity as $n\to\infty$ with $k$ fixed \cite{KR}. Part III supplies the even orthogonal counterpart and exceptional maximal-parabolic computations, excluding E8 \cite{KX}. In the papers' tail coordinates $\bar h_j=(h_j-h_j^{-1})/2$, the square generators are $e_i(\bar h_1^2,\ldots,\bar h_k^2)$; type D also has $p=\prod\bar h_j$, with $p^2=e_k$. The published Chern-class expression for a square generator is
+\[
+ e_i\longmapsto c_i^2+2\sum_{j=1}^i(-1)^j c_{i+j}c_{i-j},
+ \qquad c_0=1,
+\]
+with the quotient-bundle conventions of those papers. Stable injectivity does not assert finite-rank injectivity or integral saturation.
+
+\subsection{What the subsequent work adds}
+The earlier combinatorial proof project supplies alternative finite and stable arguments in A, C, and D, including the Euler generator. It does not claim that the published main theorems lacked proofs. The later integral work asks a different question: after selecting a $\Z$-form, how far is its finite image from the full integral lattice in its rational span? The answer requires information erased by complexification.
+
+The exceptional-table review independently regenerated the weights and matrix inverses for F4, E6, and E7. It agreed with the F4 and E7 torus formulas and proposed replacing the six denominators $6$ by $18$ in Part III's E6 Lemma 7.1, with unchanged numerators. Additional Schubert-table corrections are recorded separately. These remain proposed corrections supported by reproduction files, not a published erratum. The purpose of including this history is provenance: the present calculations descend from the published weight method, while their correctness is tested without importing the original tables.
+
+The Sage library grew from the original evaluation programs into general character, BGG, Schubert-product, inverse-Borel, lattice-comparison, and exceptional-map routines. ``Inverse Borel'' means finding polynomial representatives for specified cohomology classes when they lie in the chosen image; it does not invert the Borel map uniquely. Reducing in the coinvariant quotient and reusing Weyl data made larger computations feasible. These are mathematical infrastructure and reproducibility improvements; their existence alone is not a claim of a new theorem.
+
+\status{Published formulas and stable results are attributed above. Alternative proofs, corrections, and implementation are indexed in the \href{https://github.com/sean-rogers-t/Sage-programs/blob/9f6c000/articles/README.md}{article collection}. Each correction should be reviewed against its stated source version before being circulated as an erratum.}
+
+\section{A general integral source theorem}
+Assume now that $G$ is simple and simply connected and $\rho$ has faithful differential. Define
+\[
+ \mathcal C_\rho=\{f\in\Sym_\Q(X_\Q):\Theta_\rho^*f\in\Z[X]\},\qquad
+ \Lambda_\rho=\mathcal C_\rho\cap X_\Q.
+\]
+Integral virtual characters are intended, so negative coefficients are allowed. Integrality is a condition on the character, not on its expression in a chosen rational coordinate list.
+
+\begin{theorem}[Full torus source; repository deduction]
+The lattice $\Lambda_\rho$ has finite index in $X$, and
+\[
+ \mathcal C_\rho=\Sym_\Z(\Lambda_\rho),\qquad
+ A_{\rho,L}=\Sym_\Z(\Lambda_\rho)^{W_L}.
+\]
+These equalities include inhomogeneous polynomials. The Borel image of $A_{\rho,L}$ lies in $H^{2*}(G/P;\Z)$.
+\end{theorem}
+
+Here is the central integral argument. Choose a basis of the full linear lattice and write its Laurent pullbacks as columns of an integer coefficient matrix $C$. By definition these columns form a primitive sublattice: an integral Laurent polynomial in their rational span already comes from a lattice element. Thus $C$ has full column rank modulo every prime. Row reduction modulo a prime produces Laurent polynomials with independent leading exponents. The weight-moment formula shows that a nonzero coefficient minor corresponds to linearly independent exponent vectors over $\Q$. Distinct monomials in the reduced generators therefore have distinct leading terms. They are algebraically independent in every residue characteristic, even when an exponent determinant is divisible by that characteristic.
+
+If a rational polynomial in these generators had an integral pullback and a nontrivial denominator, reduction at a prime dividing a least denominator would contradict that independence. This proves the symmetric-algebra assertion. Differentiating an integral Laurent pullback at the identity gives an integral weight; since $d\Theta_1=\mathrm{id}$, this also proves $\Lambda_\rho\subset X$. Finally, full-flag characteristic integrality and primitive Schubert pullback from $G/P$ prove the parabolic assertion. No averaging by $|W_L|$ is used.
+
+\subsection{Closed formula for irreducibles}
+Normalize the invariant inner product so long roots have squared length two. For a nonzero dominant weight $\lambda$, let $\varrho$ be the half-sum of positive roots and define
+\[
+ I_\lambda=\frac{\dim V(\lambda)}{\dim\mathfrak g}
+ (\lambda,\lambda+2\varrho),\qquad D_\lambda=\sum_\mu\Z(m_\mu\mu).
+\]
+This is the Dynkin-index convention with $I_{\mathrm{Ad}}=2h^\vee$; see \cite{Panyushev}. For a lattice $M$, put $M^*=\{v:(v,M)\subseteq\Z\}$.
+
+\begin{theorem}[Multiplicity-weighted lattice; repository deduction]
+For every nontrivial irreducible representation of every finite simple type,
+\[
+ D_\lambda=Q+\Z\lambda,\qquad
+ \Lambda_\lambda=I_\lambda(Q+\Z\lambda)^*.
+\]
+\end{theorem}
+The nontrivial point is the multiplicity-weighted equality, not the usual span of all weights. Along a shortest Dynkin path from the support of $\lambda$ to any chosen simple node, successive lowering steps give multiplicity-one weights. The path is forced because the finite Dynkin diagram is a tree. Differences of consecutive weights yield each simple root, while the highest weight itself has multiplicity one. This proves $Q+\Z\lambda\subseteq D_\lambda$; the reverse inclusion follows from the common weight coset. Trace duality then gives $\Lambda_\lambda$.
+
+For E6 and E7 this becomes $I_\lambda X$ for trivial central character and $I_\lambda Q$ otherwise. For E8 it is $I_\lambda X=I_\lambda Q$; for G2 and F4 it is $I_\lambda Q_{\rm long}$ under the specified metric identification. The theorem eliminates a separate weight enumeration for the linear source of each irreducible. It does not eliminate integral invariant theory after taking $W_L$ invariants. Nor does the closed irreducible formula automatically classify direct sums: multiplicities at overlapping weights combine before the coefficient lattice is formed. Repeated copies of one representation leave the normalized map unchanged.
+
+\status{Full proofs and internal literature audits: \record{TRACE_SOURCE_THEOREM.md}{torus source}, \record{TRACE_SOURCE_AUDIT.md}{source audit}, \record{IRREDUCIBLE_CHARACTER_LATTICES.md}{irreducible classification}, and \record{IRREDUCIBLE_LATTICE_AUDIT.md}{classification audit}. These are general repository deductions from published trace and highest-weight theory, with priority unresolved.}

@@ -1,0 +1,813 @@
+{
+  "result": "passed",
+  "diagram_checks": [
+    {
+      "type": "E6",
+      "necessary_incidence_candidates": [
+        [
+          1,
+          2,
+          3,
+          5,
+          6
+        ]
+      ]
+    },
+    {
+      "type": "E7",
+      "necessary_incidence_candidates": [
+        [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7
+        ]
+      ]
+    },
+    {
+      "type": "E8",
+      "necessary_incidence_candidates": [
+        [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8
+        ]
+      ]
+    }
+  ],
+  "charge_records": [
+    {
+      "type": "E6",
+      "nodes": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "factors": [
+        "A2",
+        "A1",
+        "A2"
+      ],
+      "factor_orders": [
+        [
+          0,
+          2
+        ],
+        [
+          1
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "central_cocharacters": [
+        [
+          2,
+          3,
+          4,
+          6,
+          4,
+          2
+        ]
+      ],
+      "cover_degree": 6,
+      "highest": null,
+      "dimension": 78,
+      "terms": [
+        {
+          "charge": [
+            -3
+          ],
+          "exponent": [
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "coefficient": 1
+        },
+        {
+          "charge": [
+            -2
+          ],
+          "exponent": [
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "coefficient": 1
+        },
+        {
+          "charge": [
+            -1
+          ],
+          "exponent": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "coefficient": 1
+        },
+        {
+          "charge": [
+            0
+          ],
+          "exponent": [
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "coefficient": 1
+        },
+        {
+          "charge": [
+            0
+          ],
+          "exponent": [
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "coefficient": 1
+        },
+        {
+          "charge": [
+            0
+          ],
+          "exponent": [
+            0,
+            2,
+            0,
+            0,
+            0
+          ],
+          "coefficient": 1
+        },
+        {
+          "charge": [
+            0
+          ],
+          "exponent": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": -2
+        },
+        {
+          "charge": [
+            1
+          ],
+          "exponent": [
+            1,
+            1,
+            0,
+            0,
+            1
+          ],
+          "coefficient": 1
+        },
+        {
+          "charge": [
+            2
+          ],
+          "exponent": [
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "coefficient": 1
+        },
+        {
+          "charge": [
+            3
+          ],
+          "exponent": [
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "coefficient": 1
+        }
+      ],
+      "max_degree": 3,
+      "reconstructed_every_central_charge": true
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7
+      ],
+      "factors": [
+        "A2",
+        "A1",
+        "A3"
+      ],
+      "factor_orders": [
+        [
+          0,
+          2
+        ],
+        [
+          1
+        ],
+        [
+          3,
+          4,
+          5
+        ]
+      ],
+      "central_cocharacters": [
+        [
+          4,
+          6,
+          8,
+          12,
+          9,
+          6,
+          3
+        ]
+      ],
+      "cover_degree": 12,
+      "highest": null,
+      "dimension": 133,
+      "terms": [
+        {
+          "charge": [
+            -4
+          ],
+          "exponent": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "coefficient": 1
+        },
+        {
+          "charge": [
+            -3
+          ],
+          "exponent": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "coefficient": 1
+        },
+        {
+          "charge": [
+            -2
+          ],
+          "exponent": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "coefficient": 1
+        },
+        {
+          "charge": [
+            -1
+          ],
+          "exponent": [
+            0,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "coefficient": 1
+        },
+        {
+          "charge": [
+            0
+          ],
+          "exponent": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "coefficient": 1
+        },
+        {
+          "charge": [
+            0
+          ],
+          "exponent": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "coefficient": 1
+        },
+        {
+          "charge": [
+            0
+          ],
+          "exponent": [
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": 1
+        },
+        {
+          "charge": [
+            0
+          ],
+          "exponent": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": -2
+        },
+        {
+          "charge": [
+            1
+          ],
+          "exponent": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "coefficient": 1
+        },
+        {
+          "charge": [
+            2
+          ],
+          "exponent": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "coefficient": 1
+        },
+        {
+          "charge": [
+            3
+          ],
+          "exponent": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "coefficient": 1
+        },
+        {
+          "charge": [
+            4
+          ],
+          "exponent": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": 1
+        }
+      ],
+      "max_degree": 3,
+      "reconstructed_every_central_charge": true
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8
+      ],
+      "factors": [
+        "A2",
+        "A1",
+        "A4"
+      ],
+      "factor_orders": [
+        [
+          0,
+          2
+        ],
+        [
+          1
+        ],
+        [
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "central_cocharacters": [
+        [
+          10,
+          15,
+          20,
+          30,
+          24,
+          18,
+          12,
+          6
+        ]
+      ],
+      "cover_degree": 30,
+      "highest": null,
+      "dimension": 248,
+      "terms": [
+        {
+          "charge": [
+            -6
+          ],
+          "exponent": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "coefficient": 1
+        },
+        {
+          "charge": [
+            -5
+          ],
+          "exponent": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": 1
+        },
+        {
+          "charge": [
+            -4
+          ],
+          "exponent": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "coefficient": 1
+        },
+        {
+          "charge": [
+            -3
+          ],
+          "exponent": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "coefficient": 1
+        },
+        {
+          "charge": [
+            -2
+          ],
+          "exponent": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "coefficient": 1
+        },
+        {
+          "charge": [
+            -1
+          ],
+          "exponent": [
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "coefficient": 1
+        },
+        {
+          "charge": [
+            0
+          ],
+          "exponent": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "coefficient": 1
+        },
+        {
+          "charge": [
+            0
+          ],
+          "exponent": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": 1
+        },
+        {
+          "charge": [
+            0
+          ],
+          "exponent": [
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": 1
+        },
+        {
+          "charge": [
+            0
+          ],
+          "exponent": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": -2
+        },
+        {
+          "charge": [
+            1
+          ],
+          "exponent": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "coefficient": 1
+        },
+        {
+          "charge": [
+            2
+          ],
+          "exponent": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "coefficient": 1
+        },
+        {
+          "charge": [
+            3
+          ],
+          "exponent": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "coefficient": 1
+        },
+        {
+          "charge": [
+            4
+          ],
+          "exponent": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "coefficient": 1
+        },
+        {
+          "charge": [
+            5
+          ],
+          "exponent": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": 1
+        },
+        {
+          "charge": [
+            6
+          ],
+          "exponent": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "coefficient": 1
+        }
+      ],
+      "max_degree": 3,
+      "reconstructed_every_central_charge": true
+    }
+  ],
+  "highest_root_obstructions": [
+    {
+      "type": "E6",
+      "simple_coefficients": [
+        1,
+        2,
+        2,
+        3,
+        2,
+        1
+      ],
+      "highest_weight_node": 2,
+      "omitted_node_coefficient": 3
+    },
+    {
+      "type": "E7",
+      "simple_coefficients": [
+        2,
+        2,
+        3,
+        4,
+        3,
+        2,
+        1
+      ],
+      "highest_weight_node": 1,
+      "omitted_node_coefficient": 4
+    },
+    {
+      "type": "E8",
+      "simple_coefficients": [
+        2,
+        3,
+        4,
+        6,
+        5,
+        4,
+        3,
+        2
+      ],
+      "highest_weight_node": 8,
+      "omitted_node_coefficient": 6
+    }
+  ],
+  "E7": {
+    "original_character_matches_formula": true,
+    "multiplier_constraint_exact": true,
+    "completed_product_identity": true,
+    "original_derivatives_checked": true,
+    "universal_nonzero_target_ideal_equality": true,
+    "scalar_target": "3*(z^12-z^-12)",
+    "actual_quotient": "3*w^2-c*w-3",
+    "exceptional_nonzero_targets": "c^2+36=0"
+  },
+  "independent_original_root_point": {
+    "prime": 1033,
+    "central_parameter": 6,
+    "target_c": 485,
+    "torus_coroot_parameters": [
+      406,
+      242,
+      249,
+      317,
+      583,
+      171,
+      3
+    ],
+    "trace_norm": 432,
+    "no_source_root_value_equals_one": true,
+    "Cartan_rank": 7,
+    "root_rank": 106,
+    "full_rank": 113,
+    "kernel_dimension": 20
+  },
+  "raw_shape_classification": "E6, omit node 4; original fundamental coordinates only",
+  "arbitrary_affine_changes_classified": false,
+  "all_exceptional_Levis_resolved": false,
+  "generic_degree_of_full_Springer_map_claim": false,
+  "literature_priority_claim": false,
+  "source_sha256": {
+    "ADJOINT_PENCIL_SCOPE.md": "d925c39fb6cc06d24924011f563a98ea6f8ea37051b08e83457d4735fb81d2cb",
+    "tools/verify_adjoint_pencil_scope.py": "3d762d3c087ae97e641d7308db1cb6eaa4f8822ebb58af7e4cc154ea9deaf546",
+    "tools/verify_branching_norm_fibers.py": "edd3b3b6dc11d6f2e09ad624e7cee4fceb76c066118d4926fd635fb2a8d3c02f",
+    "GENERAL_CAYLEY_FIBER_CRITICAL.md": "1cffec1488cc51c792939382111003bf82394fb195c62c6c97670c6aee2a1483"
+  }
+}

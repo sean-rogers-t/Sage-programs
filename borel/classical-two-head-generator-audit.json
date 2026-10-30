@@ -1,0 +1,142 @@
+{
+  "result": "passed",
+  "scope": "Monic integer reductions and independent Hilbert counts for n=4,...,18; arbitrary rank follows from the written recurrence and adjacent-pair proof.",
+  "cases": [
+    {
+      "n": 4,
+      "c": 2,
+      "monic_S_pairs": 3,
+      "quotient_rank": 3,
+      "recurrence_identities": true,
+      "all_products": true,
+      "hilbert_matches": true
+    },
+    {
+      "n": 5,
+      "c": 3,
+      "monic_S_pairs": 3,
+      "quotient_rank": 5,
+      "recurrence_identities": true,
+      "all_products": true,
+      "hilbert_matches": true
+    },
+    {
+      "n": 6,
+      "c": 3,
+      "monic_S_pairs": 6,
+      "quotient_rank": 6,
+      "recurrence_identities": true,
+      "all_products": true,
+      "hilbert_matches": true
+    },
+    {
+      "n": 7,
+      "c": 4,
+      "monic_S_pairs": 6,
+      "quotient_rank": 9,
+      "recurrence_identities": true,
+      "all_products": true,
+      "hilbert_matches": true
+    },
+    {
+      "n": 8,
+      "c": 4,
+      "monic_S_pairs": 10,
+      "quotient_rank": 10,
+      "recurrence_identities": true,
+      "all_products": true,
+      "hilbert_matches": true
+    },
+    {
+      "n": 9,
+      "c": 5,
+      "monic_S_pairs": 10,
+      "quotient_rank": 14,
+      "recurrence_identities": true,
+      "all_products": true,
+      "hilbert_matches": true
+    },
+    {
+      "n": 10,
+      "c": 5,
+      "monic_S_pairs": 15,
+      "quotient_rank": 15,
+      "recurrence_identities": true,
+      "all_products": true,
+      "hilbert_matches": true
+    },
+    {
+      "n": 11,
+      "c": 6,
+      "monic_S_pairs": 15,
+      "quotient_rank": 20,
+      "recurrence_identities": true,
+      "all_products": true,
+      "hilbert_matches": true
+    },
+    {
+      "n": 12,
+      "c": 6,
+      "monic_S_pairs": 21,
+      "quotient_rank": 21,
+      "recurrence_identities": true,
+      "all_products": true,
+      "hilbert_matches": true
+    },
+    {
+      "n": 13,
+      "c": 7,
+      "monic_S_pairs": 21,
+      "quotient_rank": 27,
+      "recurrence_identities": true,
+      "all_products": true,
+      "hilbert_matches": true
+    },
+    {
+      "n": 14,
+      "c": 7,
+      "monic_S_pairs": 28,
+      "quotient_rank": 28,
+      "recurrence_identities": true,
+      "all_products": true,
+      "hilbert_matches": true
+    },
+    {
+      "n": 15,
+      "c": 8,
+      "monic_S_pairs": 28,
+      "quotient_rank": 35,
+      "recurrence_identities": true,
+      "all_products": true,
+      "hilbert_matches": true
+    },
+    {
+      "n": 16,
+      "c": 8,
+      "monic_S_pairs": 36,
+      "quotient_rank": 36,
+      "recurrence_identities": true,
+      "all_products": true,
+      "hilbert_matches": true
+    },
+    {
+      "n": 17,
+      "c": 9,
+      "monic_S_pairs": 36,
+      "quotient_rank": 44,
+      "recurrence_identities": true,
+      "all_products": true,
+      "hilbert_matches": true
+    },
+    {
+      "n": 18,
+      "c": 9,
+      "monic_S_pairs": 45,
+      "quotient_rank": 45,
+      "recurrence_identities": true,
+      "all_products": true,
+      "hilbert_matches": true
+    }
+  ],
+  "source_sha256": "09abcbd91e917d62cca8b4748c824454896eb69bc6501157d5e379972bcbf26b"
+}

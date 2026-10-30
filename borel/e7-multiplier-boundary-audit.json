@@ -1,0 +1,42 @@
+{
+  "result": "passed",
+  "uses_Sage": false,
+  "weyl": {
+    "independent_census": true,
+    "full_Weyl_orbits_reenumerated": 7,
+    "explicit_words_verified": 32,
+    "all_32_characters_reconstructed": true,
+    "all_A3_A1_A1_standard_embeddings_covered": true
+  },
+  "algebra": {
+    "independent_character": true,
+    "original_derivatives_preserved": true,
+    "boundary_support_points": 5,
+    "boundary_dimension": 1,
+    "root_trace_matrix": [
+      [
+        216,
+        144
+      ],
+      [
+        144,
+        144
+      ]
+    ],
+    "full_logarithmic_hessian_schur_complement_verified": true,
+    "relative_hessian_determinant": "-1225/24",
+    "torus_hessian_determinant": "-9125752/16875",
+    "generic_regular_fiber_dimension": 16
+  },
+  "all_E7_Levis_resolved": false,
+  "full_map_degree_claim": false,
+  "literature_priority_claim": false,
+  "source_sha256": {
+    "E7_MULTIPLIER_BOUNDARY.md": "8ec5eb17f7cb438fa1b3fdb775668939d9824a5c3ffc0c2229a422cc829fb15d",
+    "tools/audit_e7_multiplier_boundary.py": "d4521c30a7094485a2eef3b6a32d98de77de58dd14f2951b4416b52e5908b509",
+    "tools/audit_affine_branching_certificates.py": "7d56ef1b5373f66a5e7c38d3c8d567ec4c27bfdda5bdd11ef60f54ee2f8da2a1",
+    "tools/audit_branching_norm_fibers.py": "a7ccf69961962ffb6075392ae8c17883626f02dbc4eba9eafa0cdd7df350d3fa",
+    "tools/audit_unit_constraint_classification.py": "a01624e581588b1001b8018eab64a45b48476c24ad95300e0dd845296d9cdfdd",
+    "e7-multiplier-boundary-verification.json": "1884c6849bec2a63078a7f138791ded7bf27c02075f91dc725cba6b99969cb29"
+  }
+}

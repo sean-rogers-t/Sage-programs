@@ -1,0 +1,253 @@
+{
+  "result": "passed",
+  "prime_power_family_checks": [
+    {
+      "m": 3,
+      "p": 3,
+      "exponent": 1,
+      "product_identities": 3,
+      "kernel_order": "9",
+      "kernel_factors": [
+        3,
+        3
+      ],
+      "full_image_membership_identities": true
+    },
+    {
+      "m": 4,
+      "p": 2,
+      "exponent": 2,
+      "product_identities": 6,
+      "kernel_order": "32",
+      "kernel_factors": [
+        2,
+        4,
+        4
+      ],
+      "full_image_membership_identities": true
+    },
+    {
+      "m": 5,
+      "p": 5,
+      "exponent": 1,
+      "product_identities": 10,
+      "kernel_order": "625",
+      "kernel_factors": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "full_image_membership_identities": true
+    },
+    {
+      "m": 7,
+      "p": 7,
+      "exponent": 1,
+      "product_identities": 21,
+      "kernel_order": "117649",
+      "kernel_factors": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "full_image_membership_identities": true
+    },
+    {
+      "m": 8,
+      "p": 2,
+      "exponent": 3,
+      "product_identities": 28,
+      "kernel_order": "131072",
+      "kernel_factors": [
+        2,
+        4,
+        4,
+        8,
+        8,
+        8,
+        8
+      ],
+      "full_image_membership_identities": true
+    },
+    {
+      "m": 9,
+      "p": 3,
+      "exponent": 2,
+      "product_identities": 36,
+      "kernel_order": "4782969",
+      "kernel_factors": [
+        3,
+        3,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9
+      ],
+      "full_image_membership_identities": true
+    },
+    {
+      "m": 16,
+      "p": 2,
+      "exponent": 4,
+      "product_identities": 120,
+      "kernel_order": "562949953421312",
+      "kernel_factors": [
+        2,
+        4,
+        4,
+        8,
+        8,
+        8,
+        8,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16
+      ],
+      "full_image_membership_identities": true
+    }
+  ],
+  "general_module_controls": [
+    {
+      "p": 2,
+      "rank": 2,
+      "ordinary_exponent": 2,
+      "defect_exponent": 4
+    },
+    {
+      "p": 2,
+      "rank": 3,
+      "ordinary_exponent": 2,
+      "defect_exponent": 8
+    },
+    {
+      "p": 2,
+      "rank": 4,
+      "ordinary_exponent": 2,
+      "defect_exponent": 16
+    },
+    {
+      "p": 2,
+      "rank": 5,
+      "ordinary_exponent": 2,
+      "defect_exponent": 32
+    },
+    {
+      "p": 2,
+      "rank": 6,
+      "ordinary_exponent": 2,
+      "defect_exponent": 64
+    },
+    {
+      "p": 2,
+      "rank": 7,
+      "ordinary_exponent": 2,
+      "defect_exponent": 128
+    },
+    {
+      "p": 2,
+      "rank": 8,
+      "ordinary_exponent": 2,
+      "defect_exponent": 256
+    },
+    {
+      "p": 3,
+      "rank": 2,
+      "ordinary_exponent": 3,
+      "defect_exponent": 9
+    },
+    {
+      "p": 3,
+      "rank": 3,
+      "ordinary_exponent": 3,
+      "defect_exponent": 27
+    },
+    {
+      "p": 3,
+      "rank": 4,
+      "ordinary_exponent": 3,
+      "defect_exponent": 81
+    },
+    {
+      "p": 3,
+      "rank": 5,
+      "ordinary_exponent": 3,
+      "defect_exponent": 243
+    },
+    {
+      "p": 3,
+      "rank": 6,
+      "ordinary_exponent": 3,
+      "defect_exponent": 729
+    },
+    {
+      "p": 3,
+      "rank": 7,
+      "ordinary_exponent": 3,
+      "defect_exponent": 2187
+    },
+    {
+      "p": 3,
+      "rank": 8,
+      "ordinary_exponent": 3,
+      "defect_exponent": 6561
+    },
+    {
+      "p": 5,
+      "rank": 2,
+      "ordinary_exponent": 5,
+      "defect_exponent": 25
+    },
+    {
+      "p": 5,
+      "rank": 3,
+      "ordinary_exponent": 5,
+      "defect_exponent": 125
+    },
+    {
+      "p": 5,
+      "rank": 4,
+      "ordinary_exponent": 5,
+      "defect_exponent": 625
+    },
+    {
+      "p": 5,
+      "rank": 5,
+      "ordinary_exponent": 5,
+      "defect_exponent": 3125
+    },
+    {
+      "p": 5,
+      "rank": 6,
+      "ordinary_exponent": 5,
+      "defect_exponent": 15625
+    },
+    {
+      "p": 5,
+      "rank": 7,
+      "ordinary_exponent": 5,
+      "defect_exponent": 78125
+    },
+    {
+      "p": 5,
+      "rank": 8,
+      "ordinary_exponent": 5,
+      "defect_exponent": 390625
+    }
+  ],
+  "scope": "Independent exact identities and finite abelian kernels; uniform completeness and quotient transfer are proved in the note.",
+  "source_sha256": {
+    "TYPE_A_K_PRIMARY_LAYERS.md": "8675c7c9eb2617c5df0dccd49f71fc1925e16adf53075549d7abab50baffa92e",
+    "tools/audit_type_a_k_primary_layers.py": "4ccabac273e8fe1967a22eb05fdb123d90bcee1cae5f75c5a084a8a8ddad9b37"
+  }
+}

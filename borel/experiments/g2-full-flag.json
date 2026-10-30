@@ -968,10 +968,10 @@
   ],
   "integral_kernel_proof": "Monic relations with coprime leading monomials; free rank-12 quotient; all 12 basis images rationally independent. Hence no additional integer kernel. Source completeness is the earlier full torus-source theorem.",
   "scope": "Complete absolute embedded images in all degrees for minimal and adjoint G2/B; no literature-priority claim.",
-  "seconds": 1.385,
+  "seconds": 0.68,
   "source_sha256": {
     "experiments/g2_full_flag.py": "cd24ada7b7d283d4919e0672b62178bca74f80e040c96dfb1cb017f04433c9ab",
-    "src/sage_borel/characters.py": "91f09485c079c14c66e9753920c74e774a7cbfe5fc1a871bbae7925e189662dc",
+    "src/sage_borel/characters.py": "99a77451324b4ab09aed65952cc3cce50dbc93e650333d35a6f79bbe5618e419",
     "G2_CHARACTER_FORM.md": "d022c600f115dd92bd8ede95afc22378ef5ba57822ec56d07ee8ecfbaf5e9109",
     "experiments/g2-character-form-audit.json": "0b1d1bae01a1a8d8f3ac39109089e13d4bc0001a69436c910d87d13297c004f5"
   }

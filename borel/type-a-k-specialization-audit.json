@@ -1,0 +1,28 @@
+{
+  "result": "passed",
+  "SL3_pair_products": 15,
+  "SL3_kernel_factors": [
+    3,
+    3
+  ],
+  "modular_identity_checks": 223,
+  "rank_range": [
+    3,
+    128
+  ],
+  "symplectic_augmentation_ranks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "scope": "Independent exact identities; all-rank geometric argument is written, not machine-proved.",
+  "source_sha256": {
+    "TYPE_A_K_SPECIALIZATION.md": "90cc4e8f691de5fc423a7fe8cff47af7fed9248f5a38b1dcd461f83d5ee383c0",
+    "tools/audit_type_a_k_specialization.py": "31227a315d598bd99da48af72c6bbf96e591c156dd08b310506c60ead27467b3"
+  }
+}

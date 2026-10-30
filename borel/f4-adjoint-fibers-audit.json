@@ -1,0 +1,18 @@
+{
+  "result": "passed",
+  "independent_root_characters": 15,
+  "native_exterior_and_spin_models": true,
+  "checks": {
+    "all_five_cubic_models": true,
+    "full_Laurent_squarefreeness": true,
+    "exact_boundary_resultant": true,
+    "double_root_inconsistency": true
+  },
+  "all_proper_F4_Levis_covered": true,
+  "literature_priority_claim": false,
+  "source_sha256": {
+    "F4_ADJOINT_FIBERS.md": "9001f2083fd9bb2f7464330848466496d9bdc79691283fc1fbfe191051c205c6",
+    "tools/audit_f4_adjoint_fibers.py": "25e8c0dbfef75db119ba638aa89748ad7ce4cf8db2448d3731e36af045ef93c4",
+    "f4-adjoint-fibers-verification.json": "2bc48ae3c7c3fea3864fc3027c013b6bdf119676450700405f043e74afa79b84"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-24",
+  "base_commit": "98f7a6937288d89899f1d672b04ba656173136b7",
+  "includes_uncommitted_sources": true,
+  "scope": "Dated synthesis of repository proofs and status; no fresh all-proof or exhaustive literature audit.",
+  "source_sha256": {
+    "articles/PROVENANCE.json": "bb911b13ffc29537e3ade71c44ae7e4f4ca1303744f0f494c81f3bf74696d618",
+    "articles/springer-cayley-exposition/main.tex": "41420bfec2288cce033f8175e88f3ad807ffb30d61f8abd80ddcef4f81c6d372",
+    "articles/springer-cayley-exposition/verify_note.py": "fb932303a96ee5db497cd7c3a8055423bd49186a5a75a3dbe2cef4c4b26c43fb",
+    "borel/BC_MIXTURE_DEGREES.md": "c997836b0f3e52fcb4a98ba72aa09b34ee7fa0d14d96cebb08f3a4dec8ac8913",
+    "borel/binary-branching-audit.json": "b9aad67874f84538fcd7c19d55e1ee488c7a716583f1197a6921bf40c1e96de4",
+    "borel/binary-branching-verification.json": "dffaae07ccaab34cf17c2ed8c4ab8e5f1b1ee997a8bccaf94c3e477ab3acc4fe",
+    "borel/BINARY_BRANCHING_FIBERS.md": "c878fa2ddc45f2592278eea707e4795cefe7b6ff91f689eea0bdd95d4cc77dc2",
+    "borel/CAYLEY_FIBER_REVIEW.md": "b34af4a73eabf370ce4b718c498dd469c9c99e02aeb26c35fa1624a8427ea70a",
+    "borel/CLASSICAL_ADJOINT_FIBERS.md": "3d44edc9e44c875e2711fb87a3e1cd318f64a2b9a6373fcd3f4d8b5abf8df4da",
+    "borel/E7_SYMMETRIC_PENCIL.md": "f62d9941081df6e1865ecb0092041d85ec78c93a29f1673aa3a5be78c389f312",
+    "borel/EXCEPTIONAL_DEGREES.md": "446c3e73ab0bb992d60586131b86275866af0a8f123690aa30f468c6936082ad",
+    "borel/EXCEPTIONAL_QUARTIC_REDUCTION.md": "6fa25de2b4fe0a9d577c98774eb86100390880243c554f4730ce01552420e315",
+    "borel/F4_MINIMAL_DEGREE.md": "8fe8140e92f24afbb906601b2931be7bb9d6788d551aedd4f598d29e4633526d",
+    "borel/F4_MIXTURE_DEGREES.md": "a14616ba689f3e74d6d201b23ec2a749b64c554a1214d04c8ee55133cb84e802",
+    "borel/GENERAL_CAYLEY_DEGREE.md": "972be7cd38688f360f5e16872fbeae28df386f96fcfcbc7c72ff3e04f664f72a",
+    "borel/GENERAL_CAYLEY_FIBER_CRITICAL.md": "1cffec1488cc51c792939382111003bf82394fb195c62c6c97670c6aee2a1483",
+    "borel/HALF_SPIN_RANK_DEGREES.md": "31fe0a968e9850d3ec07a7585c5f8b3d601e141d7df5608edab6fc68eceed278",
+    "borel/MULTIPLIER_BRANCHING_FIBERS.md": "4ae12e6117dc8a1a45ac0930c40e10bcf14c759dc17353bce0586a08f9adb16e",
+    "borel/PROOF_STATUS.md": "718d33489b7a2110561c6e65b355e6d47fdd4383abc8a3604044301fef4900b1",
+    "borel/QUADRATIC_BRANCHING_FIBERS.md": "8cfaf1048c51b42778b4be668f7d79166424dce3cac4956511740e3582d4ae3a",
+    "borel/REGULARITY_CLASSIFICATION.md": "5f22fb431145bf438148d74544beb51da78e6cae03c80745c2c9768d8922cf54",
+    "borel/RESEARCH_LEDGER.md": "ffb1b2320d94c3d9a8180e3831747f7066e6a33441333dc70a51a1e89f66a089",
+    "borel/SPRINGER_GEOMETRY.md": "821c6d2ddc2a49e1e1195a1a3c2cbecc73c7854f36ff2ba639d299da69d8a7b3",
+    "borel/SYMPLECTIC_HARMONIC_LOCALIZATION.md": "531dddfb6c54c9f43a9da1b189e90723f944332c5b9d556e2dda0791fff4810d"
+  },
+  "primary_sources_consulted": [
+    "https://www.mat.univie.ac.at/~michor/kostant.pdf",
+    "https://arxiv.org/abs/1701.01538",
+    "https://www.numdam.org/item/PMIHES_1965__25__49_0/"
+  ]
+}

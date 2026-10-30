@@ -1,0 +1,142 @@
+{
+  "result": "passed",
+  "date": "2026-10-26",
+  "uses_Sage": false,
+  "exceptional_E_coverage": {
+    "E6": {
+      "roots": 72,
+      "proper_subsets": 63,
+      "counts": {
+        "quadratic": 49,
+        "cubic": 11,
+        "non_A": 3
+      },
+      "cubic_word_replays": 11,
+      "seed_multiplicities": {
+        "2356": 5,
+        "12356": 1,
+        "235": 5
+      },
+      "proof_dependencies": {
+        "235": "CUBIC_LEVI_REFINEMENTS.md",
+        "2356": "CUBIC_LEVI_REFINEMENTS.md",
+        "12356": "BRANCHING_NORM_FIBERS.md"
+      },
+      "complete_standard_subset_coverage": true
+    },
+    "E7": {
+      "roots": 126,
+      "proper_subsets": 127,
+      "counts": {
+        "quadratic": 88,
+        "cubic": 32,
+        "non_A": 7
+      },
+      "cubic_word_replays": 32,
+      "seed_multiplicities": {
+        "1235": 12,
+        "12356": 3,
+        "123567": 1,
+        "12357": 1,
+        "12457": 3,
+        "125": 10,
+        "1257": 2
+      },
+      "proof_dependencies": {
+        "125": "BINARY_BRANCHING_FIBERS.md",
+        "1235": "BINARY_BRANCHING_FIBERS.md",
+        "1257": "E7_SYMMETRIC_PENCIL.md",
+        "12457": "E7_MULTIPLIER_BOUNDARY.md",
+        "123567": "ADJOINT_PENCIL_SCOPE.md",
+        "12356": "E7_FINAL_FAMILIES.md",
+        "12357": "E7_FINAL_FAMILIES.md"
+      },
+      "complete_standard_subset_coverage": true
+    },
+    "E8": {
+      "roots": 240,
+      "proper_subsets": 255,
+      "counts": {
+        "quadratic": 147,
+        "cubic": 93,
+        "non_A": 15
+      },
+      "cubic_word_replays": 93,
+      "seed_multiplicities": {
+        "125": 21,
+        "1235": 28,
+        "1257": 7,
+        "12356": 8,
+        "12357": 8,
+        "12457": 10,
+        "123468": 4,
+        "123567": 4,
+        "123568": 2,
+        "1235678": 1
+      },
+      "proof_dependencies": {
+        "125": "E8_A1_TRIPLE.md",
+        "1235": "E8_A2_A1_PAIR.md",
+        "1257": "E8_FINAL_CASES.md",
+        "12356": "E8_FINAL_CASES.md",
+        "12357": "E8_LAST_ADJOINT_FIBER.md",
+        "12457": "E8_FINAL_CASES.md",
+        "123468": "UNIFORM_ADJOINT_PROOF_TARGET.md",
+        "123567": "E8_FINAL_CASES.md",
+        "123568": "UNIFORM_ADJOINT_PROOF_TARGET.md",
+        "1235678": "MULTIPLIER_BRANCHING_FIBERS.md"
+      },
+      "complete_standard_subset_coverage": true
+    }
+  },
+  "proper_E_subsets_independently_enumerated": 445,
+  "cubic_standard_subset_transfers_replayed": 136,
+  "reports_bound": 8,
+  "unique_dependency_bindings_checked": 27,
+  "exact_scheme_controls": {
+    "embedded_nilpotent_detected": true,
+    "actual_target_localization_eliminates_supported_nilpotent": true,
+    "smooth_excess_not_rejected_by_redundant_minors": true,
+    "affine_modular_dimension_shortcut_rejected": true
+  },
+  "historical_heavy_membership_calculations_rerun": false,
+  "full_Weyl_orbits_reenumerated": false,
+  "external_peer_review": false,
+  "geometric_proof_audit": "ADJOINT_GENERIC_FIBER_THEOREM.md",
+  "scope": "Fresh coverage and full-subsystem word replay; exact control ideals; saved certificate bindings. Written scheme/geometric audit is a separate mathematical argument.",
+  "source_sha256": {
+    "ADJOINT_GENERIC_FIBER_THEOREM.md": "5d2c6537f49cbae9f66a5d972af38c42f99eeb19f938b3b32f3c0379da82e836",
+    "ADJOINT_PENCIL_SCOPE.md": "d925c39fb6cc06d24924011f563a98ea6f8ea37051b08e83457d4735fb81d2cb",
+    "BINARY_BRANCHING_FIBERS.md": "c878fa2ddc45f2592278eea707e4795cefe7b6ff91f689eea0bdd95d4cc77dc2",
+    "BRANCHING_NORM_FIBERS.md": "b9e3e2788fcf50a97cfd085b54d833e840e30994caaf7a4967c96439c3a6c911",
+    "CLASSICAL_ADJOINT_FIBERS.md": "3d44edc9e44c875e2711fb87a3e1cd318f64a2b9a6373fcd3f4d8b5abf8df4da",
+    "CUBIC_LEVI_REFINEMENTS.md": "ee71f608ab03e7d9c6349b8b832e59df21482fcb5c141775267b11d8a806b815",
+    "E7_FINAL_FAMILIES.md": "b7ee8c255be6d841e944f43dc3800109b4a93ce04262de69824a8c8e9bbccb33",
+    "E7_MULTIPLIER_BOUNDARY.md": "8ec5eb17f7cb438fa1b3fdb775668939d9824a5c3ffc0c2229a422cc829fb15d",
+    "E7_SYMMETRIC_PENCIL.md": "f62d9941081df6e1865ecb0092041d85ec78c93a29f1673aa3a5be78c389f312",
+    "E8_A1_TRIPLE.md": "c757caede7164755f0a5df8ac2d26b2a42b76df5c158ef78745f8a605818f192",
+    "E8_A2_A1_PAIR.md": "ad03d2cb0bdc747b49147bab2304281fec107fde711de70fc36245b31bdd96a8",
+    "E8_FINAL_CASES.md": "5b626f24a270308b33f8a21f6f6623db1f59d98b6902999ed3b2a309cc42c1b1",
+    "E8_LAST_ADJOINT_FIBER.md": "c423c7ae68b7058ad23749c18ddca7519ed04c1e7257fe073f27cbbcb1498a4b",
+    "EXCEPTIONAL_ADJOINT_CONTACT_FIBERS.md": "b091b15355cbd411736539ef60ea50361caa208ef210e4d4975432f5472084b4",
+    "EXCEPTIONAL_QUARTIC_REDUCTION.md": "6fa25de2b4fe0a9d577c98774eb86100390880243c554f4730ce01552420e315",
+    "F4_ADJOINT_FIBERS.md": "9001f2083fd9bb2f7464330848466496d9bdc79691283fc1fbfe191051c205c6",
+    "G2_ADJOINT_FIBERS.md": "9b56159a9adc90b32b57d7963f84c617cd1df259d0d62d80ae107b7067763c44",
+    "GENERAL_CAYLEY_FIBER_CRITICAL.md": "1cffec1488cc51c792939382111003bf82394fb195c62c6c97670c6aee2a1483",
+    "MULTIPLIER_BRANCHING_FIBERS.md": "4ae12e6117dc8a1a45ac0930c40e10bcf14c759dc17353bce0586a08f9adb16e",
+    "QUADRATIC_BRANCHING_FIBERS.md": "8cfaf1048c51b42778b4be668f7d79166424dce3cac4956511740e3582d4ae3a",
+    "UNIFORM_ADJOINT_PROOF_TARGET.md": "3f2e4b74cc19dfb216a65ecd4db03bf76705c17a0639292b816ec3100f53ef80",
+    "e7-companion-geometry-audit.json": "f5e6f9e53340e7d94ae00f67b02cc58789dff83f27a226485541b2b079fbd240",
+    "e7-companion-membership-verification.json": "ffd4a22193b9ac181a98fa7225b2589fb48cf33e422ef21686b99262ad37d412",
+    "e7-multiplier-boundary-verification.json": "1884c6849bec2a63078a7f138791ded7bf27c02075f91dc725cba6b99969cb29",
+    "e8-final-cases-audit.json": "c5274cb5c4cf7c920a0bed203a42d8186a780de93733fedf79cf34b8b31693e9",
+    "e8-last-32003-verification.json": "bc24e168997677045334764bb21dc21f09944aa6ebac0792596e643c90ed69e3",
+    "e8-last-32009-verification.json": "58c2fe6a8e0e627b73e53872bded4c66da6e19f83742bce034de56544659ea10",
+    "e8-last-case-audit.json": "981e8024bf5f0a35ec0d3ee59ff1d122c24c6725f371d2ab3343a44b8cdcfa63",
+    "e8-weyl-transfers-verification.json": "0aaf1364d880258de51595c9ea3a50e367f5caea621b6633a912e769538ac3bd",
+    "f4-adjoint-fibers-audit.json": "fd8326d8877d64be760e51213562add237f3ce53f491da40a6709f48cf23d15a",
+    "g2-adjoint-fibers-verification.json": "3516519a0989ab1faff30644deb87611847e1516d9b150e05d5d398e07b93c52",
+    "tools/audit_adjoint_theorem.py": "8844b671c1da18799f9d0b549e90440fa1d6f771dbc1b2017a78b99b7c9e4312",
+    "unit-constraint-classification-verification.json": "0b1d330b6ec7d67b3934d1a1741d861e1b604e8d7f69d0ffe22a588f38e47cec"
+  }
+}

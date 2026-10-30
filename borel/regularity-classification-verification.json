@@ -1,0 +1,1671 @@
+{
+  "result": "passed",
+  "date": "2026-10-22",
+  "sage_version": "9.5",
+  "arbitrary_rank_proof": "REGULARITY_CLASSIFICATION.md, Sections 2-7",
+  "scope": "All connected complex simple groups and nontrivial actual finite-dimensional rational representations; finite checks corroborate a written proof, not an exhaustive representation search.",
+  "all_simply_connected_rows_classified": true,
+  "central_quotients_corollary": true,
+  "root_system_cases": 32,
+  "root_lattice_weight_lattice_checks": 1942,
+  "abstract_endpoint_patterns": {
+    "root_string_paths": 2,
+    "fork_orientations": 8,
+    "passing_fork_orientations": 0
+  },
+  "A_independent_GT_Freudenthal_cases": 48,
+  "A_positive_reducible_trace_controls": 8,
+  "A_mixed_exact_witnesses": 4,
+  "remaining_classical_exceptional_exact_witnesses": 30,
+  "positive_root_wall_trace_checks": 2146,
+  "rank_one_determinant_character_controls": 8,
+  "root_systems": [
+    {
+      "type": "A2",
+      "rank": 2,
+      "roots": 6,
+      "nonprimitive_roots": 0
+    },
+    {
+      "type": "A3",
+      "rank": 3,
+      "roots": 12,
+      "nonprimitive_roots": 0
+    },
+    {
+      "type": "A4",
+      "rank": 4,
+      "roots": 20,
+      "nonprimitive_roots": 0
+    },
+    {
+      "type": "A5",
+      "rank": 5,
+      "roots": 30,
+      "nonprimitive_roots": 0
+    },
+    {
+      "type": "A6",
+      "rank": 6,
+      "roots": 42,
+      "nonprimitive_roots": 0
+    },
+    {
+      "type": "A7",
+      "rank": 7,
+      "roots": 56,
+      "nonprimitive_roots": 0
+    },
+    {
+      "type": "B3",
+      "rank": 3,
+      "roots": 18,
+      "nonprimitive_roots": 0,
+      "root_string_simple_nodes": [
+        3,
+        2
+      ]
+    },
+    {
+      "type": "B4",
+      "rank": 4,
+      "roots": 32,
+      "nonprimitive_roots": 0,
+      "root_string_simple_nodes": [
+        4,
+        3
+      ]
+    },
+    {
+      "type": "B5",
+      "rank": 5,
+      "roots": 50,
+      "nonprimitive_roots": 0,
+      "root_string_simple_nodes": [
+        5,
+        4
+      ]
+    },
+    {
+      "type": "B6",
+      "rank": 6,
+      "roots": 72,
+      "nonprimitive_roots": 0,
+      "root_string_simple_nodes": [
+        6,
+        5
+      ]
+    },
+    {
+      "type": "B7",
+      "rank": 7,
+      "roots": 98,
+      "nonprimitive_roots": 0,
+      "root_string_simple_nodes": [
+        7,
+        6
+      ]
+    },
+    {
+      "type": "B8",
+      "rank": 8,
+      "roots": 128,
+      "nonprimitive_roots": 0,
+      "root_string_simple_nodes": [
+        8,
+        7
+      ]
+    },
+    {
+      "type": "C2",
+      "rank": 2,
+      "roots": 8,
+      "nonprimitive_roots": 4
+    },
+    {
+      "type": "C3",
+      "rank": 3,
+      "roots": 18,
+      "nonprimitive_roots": 6
+    },
+    {
+      "type": "C4",
+      "rank": 4,
+      "roots": 32,
+      "nonprimitive_roots": 8
+    },
+    {
+      "type": "C5",
+      "rank": 5,
+      "roots": 50,
+      "nonprimitive_roots": 10
+    },
+    {
+      "type": "C6",
+      "rank": 6,
+      "roots": 72,
+      "nonprimitive_roots": 12
+    },
+    {
+      "type": "C7",
+      "rank": 7,
+      "roots": 98,
+      "nonprimitive_roots": 14
+    },
+    {
+      "type": "C8",
+      "rank": 8,
+      "roots": 128,
+      "nonprimitive_roots": 16
+    },
+    {
+      "type": "D4",
+      "rank": 4,
+      "roots": 24,
+      "nonprimitive_roots": 0,
+      "fork_nodes": [
+        2,
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "type": "D5",
+      "rank": 5,
+      "roots": 40,
+      "nonprimitive_roots": 0,
+      "fork_nodes": [
+        3,
+        2,
+        4,
+        5
+      ]
+    },
+    {
+      "type": "D6",
+      "rank": 6,
+      "roots": 60,
+      "nonprimitive_roots": 0,
+      "fork_nodes": [
+        4,
+        3,
+        5,
+        6
+      ]
+    },
+    {
+      "type": "D7",
+      "rank": 7,
+      "roots": 84,
+      "nonprimitive_roots": 0,
+      "fork_nodes": [
+        5,
+        4,
+        6,
+        7
+      ]
+    },
+    {
+      "type": "D8",
+      "rank": 8,
+      "roots": 112,
+      "nonprimitive_roots": 0,
+      "fork_nodes": [
+        6,
+        5,
+        7,
+        8
+      ]
+    },
+    {
+      "type": "D9",
+      "rank": 9,
+      "roots": 144,
+      "nonprimitive_roots": 0,
+      "fork_nodes": [
+        7,
+        6,
+        8,
+        9
+      ]
+    },
+    {
+      "type": "G2",
+      "rank": 2,
+      "roots": 12,
+      "nonprimitive_roots": 0,
+      "root_string_simple_nodes": [
+        1,
+        2
+      ]
+    },
+    {
+      "type": "F4",
+      "rank": 4,
+      "roots": 48,
+      "nonprimitive_roots": 0,
+      "root_string_simple_nodes": [
+        3,
+        2
+      ]
+    },
+    {
+      "type": "E6",
+      "rank": 6,
+      "roots": 72,
+      "nonprimitive_roots": 0,
+      "fork_nodes": [
+        4,
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "type": "E7",
+      "rank": 7,
+      "roots": 126,
+      "nonprimitive_roots": 0,
+      "fork_nodes": [
+        4,
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "type": "E8",
+      "rank": 8,
+      "roots": 240,
+      "nonprimitive_roots": 0,
+      "fork_nodes": [
+        4,
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "type": "A1",
+      "rank": 1,
+      "roots": 2,
+      "nonprimitive_roots": 2
+    },
+    {
+      "type": "B2",
+      "rank": 2,
+      "roots": 8,
+      "nonprimitive_roots": 4
+    }
+  ],
+  "A_character_cases": [
+    {
+      "N": 3,
+      "labels": [
+        0,
+        1
+      ],
+      "dimension": 3,
+      "highest_root_nonorthogonal_weight_support": 2,
+      "endpoint": true
+    },
+    {
+      "N": 3,
+      "labels": [
+        0,
+        2
+      ],
+      "dimension": 6,
+      "highest_root_nonorthogonal_weight_support": 4,
+      "endpoint": false
+    },
+    {
+      "N": 3,
+      "labels": [
+        1,
+        0
+      ],
+      "dimension": 3,
+      "highest_root_nonorthogonal_weight_support": 2,
+      "endpoint": true
+    },
+    {
+      "N": 3,
+      "labels": [
+        1,
+        1
+      ],
+      "dimension": 8,
+      "highest_root_nonorthogonal_weight_support": 6,
+      "endpoint": false
+    },
+    {
+      "N": 3,
+      "labels": [
+        2,
+        0
+      ],
+      "dimension": 6,
+      "highest_root_nonorthogonal_weight_support": 4,
+      "endpoint": false
+    },
+    {
+      "N": 4,
+      "labels": [
+        0,
+        0,
+        1
+      ],
+      "dimension": 4,
+      "highest_root_nonorthogonal_weight_support": 2,
+      "endpoint": true
+    },
+    {
+      "N": 4,
+      "labels": [
+        0,
+        0,
+        2
+      ],
+      "dimension": 10,
+      "highest_root_nonorthogonal_weight_support": 6,
+      "endpoint": false
+    },
+    {
+      "N": 4,
+      "labels": [
+        0,
+        1,
+        0
+      ],
+      "dimension": 6,
+      "highest_root_nonorthogonal_weight_support": 4,
+      "endpoint": false
+    },
+    {
+      "N": 4,
+      "labels": [
+        0,
+        1,
+        1
+      ],
+      "dimension": 20,
+      "highest_root_nonorthogonal_weight_support": 12,
+      "endpoint": false
+    },
+    {
+      "N": 4,
+      "labels": [
+        0,
+        2,
+        0
+      ],
+      "dimension": 20,
+      "highest_root_nonorthogonal_weight_support": 14,
+      "endpoint": false
+    },
+    {
+      "N": 4,
+      "labels": [
+        1,
+        0,
+        0
+      ],
+      "dimension": 4,
+      "highest_root_nonorthogonal_weight_support": 2,
+      "endpoint": true
+    },
+    {
+      "N": 4,
+      "labels": [
+        1,
+        0,
+        1
+      ],
+      "dimension": 15,
+      "highest_root_nonorthogonal_weight_support": 10,
+      "endpoint": false
+    },
+    {
+      "N": 4,
+      "labels": [
+        1,
+        1,
+        0
+      ],
+      "dimension": 20,
+      "highest_root_nonorthogonal_weight_support": 12,
+      "endpoint": false
+    },
+    {
+      "N": 4,
+      "labels": [
+        2,
+        0,
+        0
+      ],
+      "dimension": 10,
+      "highest_root_nonorthogonal_weight_support": 6,
+      "endpoint": false
+    },
+    {
+      "N": 5,
+      "labels": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "dimension": 5,
+      "highest_root_nonorthogonal_weight_support": 2,
+      "endpoint": true
+    },
+    {
+      "N": 5,
+      "labels": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "dimension": 15,
+      "highest_root_nonorthogonal_weight_support": 8,
+      "endpoint": false
+    },
+    {
+      "N": 5,
+      "labels": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "dimension": 10,
+      "highest_root_nonorthogonal_weight_support": 6,
+      "endpoint": false
+    },
+    {
+      "N": 5,
+      "labels": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "dimension": 40,
+      "highest_root_nonorthogonal_weight_support": 20,
+      "endpoint": false
+    },
+    {
+      "N": 5,
+      "labels": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "dimension": 50,
+      "highest_root_nonorthogonal_weight_support": 32,
+      "endpoint": false
+    },
+    {
+      "N": 5,
+      "labels": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "dimension": 10,
+      "highest_root_nonorthogonal_weight_support": 6,
+      "endpoint": false
+    },
+    {
+      "N": 5,
+      "labels": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "dimension": 45,
+      "highest_root_nonorthogonal_weight_support": 26,
+      "endpoint": false
+    },
+    {
+      "N": 5,
+      "labels": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "dimension": 75,
+      "highest_root_nonorthogonal_weight_support": 38,
+      "endpoint": false
+    },
+    {
+      "N": 5,
+      "labels": [
+        0,
+        2,
+        0,
+        0
+      ],
+      "dimension": 50,
+      "highest_root_nonorthogonal_weight_support": 32,
+      "endpoint": false
+    },
+    {
+      "N": 5,
+      "labels": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "dimension": 5,
+      "highest_root_nonorthogonal_weight_support": 2,
+      "endpoint": true
+    },
+    {
+      "N": 5,
+      "labels": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "dimension": 24,
+      "highest_root_nonorthogonal_weight_support": 14,
+      "endpoint": false
+    },
+    {
+      "N": 5,
+      "labels": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "dimension": 45,
+      "highest_root_nonorthogonal_weight_support": 26,
+      "endpoint": false
+    },
+    {
+      "N": 5,
+      "labels": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "dimension": 40,
+      "highest_root_nonorthogonal_weight_support": 20,
+      "endpoint": false
+    },
+    {
+      "N": 5,
+      "labels": [
+        2,
+        0,
+        0,
+        0
+      ],
+      "dimension": 15,
+      "highest_root_nonorthogonal_weight_support": 8,
+      "endpoint": false
+    },
+    {
+      "N": 6,
+      "labels": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "dimension": 6,
+      "highest_root_nonorthogonal_weight_support": 2,
+      "endpoint": true
+    },
+    {
+      "N": 6,
+      "labels": [
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      "dimension": 21,
+      "highest_root_nonorthogonal_weight_support": 10,
+      "endpoint": false
+    },
+    {
+      "N": 6,
+      "labels": [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "dimension": 15,
+      "highest_root_nonorthogonal_weight_support": 8,
+      "endpoint": false
+    },
+    {
+      "N": 6,
+      "labels": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "dimension": 70,
+      "highest_root_nonorthogonal_weight_support": 30,
+      "endpoint": false
+    },
+    {
+      "N": 6,
+      "labels": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      "dimension": 105,
+      "highest_root_nonorthogonal_weight_support": 60,
+      "endpoint": false
+    },
+    {
+      "N": 6,
+      "labels": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "dimension": 20,
+      "highest_root_nonorthogonal_weight_support": 12,
+      "endpoint": false
+    },
+    {
+      "N": 6,
+      "labels": [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "dimension": 105,
+      "highest_root_nonorthogonal_weight_support": 52,
+      "endpoint": false
+    },
+    {
+      "N": 6,
+      "labels": [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "dimension": 210,
+      "highest_root_nonorthogonal_weight_support": 90,
+      "endpoint": false
+    },
+    {
+      "N": 6,
+      "labels": [
+        0,
+        0,
+        2,
+        0,
+        0
+      ],
+      "dimension": 175,
+      "highest_root_nonorthogonal_weight_support": 102,
+      "endpoint": false
+    },
+    {
+      "N": 6,
+      "labels": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "dimension": 15,
+      "highest_root_nonorthogonal_weight_support": 8,
+      "endpoint": false
+    },
+    {
+      "N": 6,
+      "labels": [
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "dimension": 84,
+      "highest_root_nonorthogonal_weight_support": 46,
+      "endpoint": false
+    },
+    {
+      "N": 6,
+      "labels": [
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "dimension": 189,
+      "highest_root_nonorthogonal_weight_support": 90,
+      "endpoint": false
+    },
+    {
+      "N": 6,
+      "labels": [
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "dimension": 210,
+      "highest_root_nonorthogonal_weight_support": 90,
+      "endpoint": false
+    },
+    {
+      "N": 6,
+      "labels": [
+        0,
+        2,
+        0,
+        0,
+        0
+      ],
+      "dimension": 105,
+      "highest_root_nonorthogonal_weight_support": 60,
+      "endpoint": false
+    },
+    {
+      "N": 6,
+      "labels": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "dimension": 6,
+      "highest_root_nonorthogonal_weight_support": 2,
+      "endpoint": true
+    },
+    {
+      "N": 6,
+      "labels": [
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "dimension": 35,
+      "highest_root_nonorthogonal_weight_support": 18,
+      "endpoint": false
+    },
+    {
+      "N": 6,
+      "labels": [
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "dimension": 84,
+      "highest_root_nonorthogonal_weight_support": 46,
+      "endpoint": false
+    },
+    {
+      "N": 6,
+      "labels": [
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "dimension": 105,
+      "highest_root_nonorthogonal_weight_support": 52,
+      "endpoint": false
+    },
+    {
+      "N": 6,
+      "labels": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "dimension": 70,
+      "highest_root_nonorthogonal_weight_support": 30,
+      "endpoint": false
+    },
+    {
+      "N": 6,
+      "labels": [
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "dimension": 21,
+      "highest_root_nonorthogonal_weight_support": 10,
+      "endpoint": false
+    }
+  ],
+  "A_positive_controls": [
+    {
+      "N": 3,
+      "orientation": "defining",
+      "copy_multiplicity": 3,
+      "trivial_multiplicity": 2
+    },
+    {
+      "N": 3,
+      "orientation": "dual",
+      "copy_multiplicity": 3,
+      "trivial_multiplicity": 2
+    },
+    {
+      "N": 4,
+      "orientation": "defining",
+      "copy_multiplicity": 3,
+      "trivial_multiplicity": 2
+    },
+    {
+      "N": 4,
+      "orientation": "dual",
+      "copy_multiplicity": 3,
+      "trivial_multiplicity": 2
+    },
+    {
+      "N": 5,
+      "orientation": "defining",
+      "copy_multiplicity": 3,
+      "trivial_multiplicity": 2
+    },
+    {
+      "N": 5,
+      "orientation": "dual",
+      "copy_multiplicity": 3,
+      "trivial_multiplicity": 2
+    },
+    {
+      "N": 6,
+      "orientation": "defining",
+      "copy_multiplicity": 3,
+      "trivial_multiplicity": 2
+    },
+    {
+      "N": 6,
+      "orientation": "dual",
+      "copy_multiplicity": 3,
+      "trivial_multiplicity": 2
+    }
+  ],
+  "A_mixed_witnesses": [
+    {
+      "N": 3,
+      "vanishing_simple_root": 1,
+      "variable_fundamental_character": 2,
+      "fixed_fundamental_characters": [
+        "2",
+        null
+      ],
+      "root_polynomial": "X + 1",
+      "number_algebra_degree": 1,
+      "specializations_tried": 2,
+      "regular_input_roots_checked": 3,
+      "full_trace_Gram_solve_checked": true
+    },
+    {
+      "N": 4,
+      "vanishing_simple_root": 1,
+      "variable_fundamental_character": 2,
+      "fixed_fundamental_characters": [
+        "2",
+        null,
+        "5"
+      ],
+      "root_polynomial": "X + 1",
+      "number_algebra_degree": 1,
+      "specializations_tried": 2,
+      "regular_input_roots_checked": 6,
+      "full_trace_Gram_solve_checked": true
+    },
+    {
+      "N": 5,
+      "vanishing_simple_root": 1,
+      "variable_fundamental_character": 2,
+      "fixed_fundamental_characters": [
+        "2",
+        null,
+        "5",
+        "7"
+      ],
+      "root_polynomial": "X + 1",
+      "number_algebra_degree": 1,
+      "specializations_tried": 2,
+      "regular_input_roots_checked": 10,
+      "full_trace_Gram_solve_checked": true
+    },
+    {
+      "N": 6,
+      "vanishing_simple_root": 1,
+      "variable_fundamental_character": 2,
+      "fixed_fundamental_characters": [
+        "2",
+        null,
+        "5",
+        "7",
+        "11"
+      ],
+      "root_polynomial": "X + 1",
+      "number_algebra_degree": 1,
+      "specializations_tried": 2,
+      "regular_input_roots_checked": 15,
+      "full_trace_Gram_solve_checked": true
+    }
+  ],
+  "other_exact_witnesses": [
+    {
+      "type": "D4",
+      "representation": "vector",
+      "dimension": 8,
+      "positive_wall_trace_checks": 22,
+      "vanishing_simple_root": 1,
+      "variable_fundamental_character": 2,
+      "fixed_fundamental_characters": [
+        "2",
+        null,
+        "5",
+        "7"
+      ],
+      "root_polynomial": "X + 1",
+      "number_algebra_degree": 1,
+      "specializations_tried": 2,
+      "regular_input_roots_checked": 12,
+      "full_trace_Gram_solve_checked": true
+    },
+    {
+      "type": "D4",
+      "representation": "half_spin_minus",
+      "dimension": 8,
+      "positive_wall_trace_checks": 22,
+      "vanishing_simple_root": 1,
+      "variable_fundamental_character": 2,
+      "fixed_fundamental_characters": [
+        "2",
+        null,
+        "5",
+        "7"
+      ],
+      "root_polynomial": "X + 49",
+      "number_algebra_degree": 1,
+      "specializations_tried": 2,
+      "regular_input_roots_checked": 12,
+      "full_trace_Gram_solve_checked": true
+    },
+    {
+      "type": "D4",
+      "representation": "half_spin_plus",
+      "dimension": 8,
+      "positive_wall_trace_checks": 22,
+      "vanishing_simple_root": 1,
+      "variable_fundamental_character": 2,
+      "fixed_fundamental_characters": [
+        "2",
+        null,
+        "5",
+        "7"
+      ],
+      "root_polynomial": "X + 25",
+      "number_algebra_degree": 1,
+      "specializations_tried": 2,
+      "regular_input_roots_checked": 12,
+      "full_trace_Gram_solve_checked": true
+    },
+    {
+      "type": "D4",
+      "representation": "adjoint",
+      "dimension": 28,
+      "positive_wall_trace_checks": 22,
+      "vanishing_simple_root": 1,
+      "variable_fundamental_character": 1,
+      "fixed_fundamental_characters": [
+        null,
+        "3",
+        "5",
+        "7"
+      ],
+      "root_polynomial": "X^2 + 416/15*X + 3",
+      "number_algebra_degree": 2,
+      "specializations_tried": 1,
+      "regular_input_roots_checked": 12,
+      "full_trace_Gram_solve_checked": true
+    },
+    {
+      "type": "D4",
+      "representation": "vector_plus_half_spin",
+      "dimension": 16,
+      "positive_wall_trace_checks": 22,
+      "vanishing_simple_root": 1,
+      "variable_fundamental_character": 2,
+      "fixed_fundamental_characters": [
+        "2",
+        null,
+        "5",
+        "7"
+      ],
+      "root_polynomial": "X + 5",
+      "number_algebra_degree": 1,
+      "specializations_tried": 2,
+      "regular_input_roots_checked": 12,
+      "full_trace_Gram_solve_checked": true
+    },
+    {
+      "type": "D5",
+      "representation": "vector",
+      "dimension": 10,
+      "positive_wall_trace_checks": 38,
+      "vanishing_simple_root": 1,
+      "variable_fundamental_character": 2,
+      "fixed_fundamental_characters": [
+        "2",
+        null,
+        "5",
+        "7",
+        "11"
+      ],
+      "root_polynomial": "X + 1",
+      "number_algebra_degree": 1,
+      "specializations_tried": 2,
+      "regular_input_roots_checked": 20,
+      "full_trace_Gram_solve_checked": true
+    },
+    {
+      "type": "D5",
+      "representation": "half_spin_minus",
+      "dimension": 16,
+      "positive_wall_trace_checks": 38,
+      "vanishing_simple_root": 1,
+      "variable_fundamental_character": 2,
+      "fixed_fundamental_characters": [
+        "2",
+        null,
+        "5",
+        "7",
+        "11"
+      ],
+      "root_polynomial": "X + 245/33",
+      "number_algebra_degree": 1,
+      "specializations_tried": 2,
+      "regular_input_roots_checked": 20,
+      "full_trace_Gram_solve_checked": true
+    },
+    {
+      "type": "D5",
+      "representation": "half_spin_plus",
+      "dimension": 16,
+      "positive_wall_trace_checks": 38,
+      "vanishing_simple_root": 1,
+      "variable_fundamental_character": 2,
+      "fixed_fundamental_characters": [
+        "2",
+        null,
+        "5",
+        "7",
+        "11"
+      ],
+      "root_polynomial": "X + 165/49",
+      "number_algebra_degree": 1,
+      "specializations_tried": 2,
+      "regular_input_roots_checked": 20,
+      "full_trace_Gram_solve_checked": true
+    },
+    {
+      "type": "D5",
+      "representation": "adjoint",
+      "dimension": 45,
+      "positive_wall_trace_checks": 38,
+      "vanishing_simple_root": 1,
+      "variable_fundamental_character": 1,
+      "fixed_fundamental_characters": [
+        null,
+        "3",
+        "5",
+        "7",
+        "11"
+      ],
+      "root_polynomial": "X^2 + 1316/33*X + 3",
+      "number_algebra_degree": 2,
+      "specializations_tried": 1,
+      "regular_input_roots_checked": 20,
+      "full_trace_Gram_solve_checked": true
+    },
+    {
+      "type": "D5",
+      "representation": "vector_plus_half_spin",
+      "dimension": 26,
+      "positive_wall_trace_checks": 38,
+      "vanishing_simple_root": 1,
+      "variable_fundamental_character": 2,
+      "fixed_fundamental_characters": [
+        "2",
+        null,
+        "5",
+        "7",
+        "11"
+      ],
+      "root_polynomial": "X + 3355/1267",
+      "number_algebra_degree": 1,
+      "specializations_tried": 2,
+      "regular_input_roots_checked": 20,
+      "full_trace_Gram_solve_checked": true
+    },
+    {
+      "type": "D8",
+      "representation": "vector",
+      "dimension": 16,
+      "positive_wall_trace_checks": 110,
+      "vanishing_simple_root": 1,
+      "variable_fundamental_character": 2,
+      "fixed_fundamental_characters": [
+        "2",
+        null,
+        "5",
+        "7",
+        "11",
+        "13",
+        "17",
+        "19"
+      ],
+      "root_polynomial": "X + 1",
+      "number_algebra_degree": 1,
+      "specializations_tried": 2,
+      "regular_input_roots_checked": 56,
+      "full_trace_Gram_solve_checked": true
+    },
+    {
+      "type": "D8",
+      "representation": "half_spin_minus",
+      "dimension": 128,
+      "positive_wall_trace_checks": 110,
+      "vanishing_simple_root": 1,
+      "variable_fundamental_character": 2,
+      "fixed_fundamental_characters": [
+        "2",
+        null,
+        "5",
+        "7",
+        "11",
+        "13",
+        "17",
+        "19"
+      ],
+      "root_polynomial": "X + 4899655/979621",
+      "number_algebra_degree": 1,
+      "specializations_tried": 2,
+      "regular_input_roots_checked": 56,
+      "full_trace_Gram_solve_checked": true
+    },
+    {
+      "type": "D8",
+      "representation": "half_spin_plus",
+      "dimension": 128,
+      "positive_wall_trace_checks": 110,
+      "vanishing_simple_root": 1,
+      "variable_fundamental_character": 2,
+      "fixed_fundamental_characters": [
+        "2",
+        null,
+        "5",
+        "7",
+        "11",
+        "13",
+        "17",
+        "19"
+      ],
+      "root_polynomial": "X + 4898105/979931",
+      "number_algebra_degree": 1,
+      "specializations_tried": 2,
+      "regular_input_roots_checked": 56,
+      "full_trace_Gram_solve_checked": true
+    },
+    {
+      "type": "D8",
+      "representation": "adjoint",
+      "dimension": 120,
+      "positive_wall_trace_checks": 110,
+      "vanishing_simple_root": 1,
+      "variable_fundamental_character": 1,
+      "fixed_fundamental_characters": [
+        null,
+        "3",
+        "5",
+        "7",
+        "11",
+        "13",
+        "17",
+        "19"
+      ],
+      "root_polynomial": "X^2 + 4052816/57057*X + 3",
+      "number_algebra_degree": 2,
+      "specializations_tried": 1,
+      "regular_input_roots_checked": 56,
+      "full_trace_Gram_solve_checked": true
+    },
+    {
+      "type": "D8",
+      "representation": "vector_plus_half_spin",
+      "dimension": 144,
+      "positive_wall_trace_checks": 110,
+      "vanishing_simple_root": 1,
+      "variable_fundamental_character": 2,
+      "fixed_fundamental_characters": [
+        "2",
+        null,
+        "5",
+        "7",
+        "11",
+        "13",
+        "17",
+        "19"
+      ],
+      "root_polynomial": "X + 52785325/10991469",
+      "number_algebra_degree": 1,
+      "specializations_tried": 2,
+      "regular_input_roots_checked": 56,
+      "full_trace_Gram_solve_checked": true
+    },
+    {
+      "type": "G2",
+      "representation": "minimal",
+      "dimension": 7,
+      "positive_wall_trace_checks": 10,
+      "vanishing_simple_root": 1,
+      "variable_fundamental_character": 1,
+      "fixed_fundamental_characters": [
+        null,
+        "3"
+      ],
+      "root_polynomial": "X^2 + 2*X + 3",
+      "number_algebra_degree": 2,
+      "specializations_tried": 1,
+      "regular_input_roots_checked": 6,
+      "full_trace_Gram_solve_checked": true
+    },
+    {
+      "type": "G2",
+      "representation": "adjoint",
+      "dimension": 14,
+      "positive_wall_trace_checks": 10,
+      "vanishing_simple_root": 1,
+      "variable_fundamental_character": 1,
+      "fixed_fundamental_characters": [
+        null,
+        "3"
+      ],
+      "root_polynomial": "X^4 + 1/2*X^3 + 4*X^2 + 3/2*X + 9",
+      "number_algebra_degree": 4,
+      "specializations_tried": 1,
+      "regular_input_roots_checked": 6,
+      "full_trace_Gram_solve_checked": true
+    },
+    {
+      "type": "G2",
+      "representation": "minimal_plus_adjoint",
+      "dimension": 21,
+      "positive_wall_trace_checks": 10,
+      "vanishing_simple_root": 1,
+      "variable_fundamental_character": 1,
+      "fixed_fundamental_characters": [
+        null,
+        "3"
+      ],
+      "root_polynomial": "X^4 + X^3 + 5*X^2 + 3*X + 9",
+      "number_algebra_degree": 4,
+      "specializations_tried": 1,
+      "regular_input_roots_checked": 6,
+      "full_trace_Gram_solve_checked": true
+    },
+    {
+      "type": "F4",
+      "representation": "minimal",
+      "dimension": 26,
+      "positive_wall_trace_checks": 46,
+      "vanishing_simple_root": 1,
+      "variable_fundamental_character": 2,
+      "fixed_fundamental_characters": [
+        "2",
+        null,
+        "5",
+        "7"
+      ],
+      "root_polynomial": "X + 445/61",
+      "number_algebra_degree": 1,
+      "specializations_tried": 2,
+      "regular_input_roots_checked": 24,
+      "full_trace_Gram_solve_checked": true
+    },
+    {
+      "type": "F4",
+      "representation": "adjoint",
+      "dimension": 52,
+      "positive_wall_trace_checks": 46,
+      "vanishing_simple_root": 1,
+      "variable_fundamental_character": 1,
+      "fixed_fundamental_characters": [
+        null,
+        "3",
+        "5",
+        "7"
+      ],
+      "root_polynomial": "X^2 + 22598/525*X + 3",
+      "number_algebra_degree": 2,
+      "specializations_tried": 1,
+      "regular_input_roots_checked": 24,
+      "full_trace_Gram_solve_checked": true
+    },
+    {
+      "type": "F4",
+      "representation": "minimal_plus_adjoint",
+      "dimension": 78,
+      "positive_wall_trace_checks": 46,
+      "vanishing_simple_root": 1,
+      "variable_fundamental_character": 1,
+      "fixed_fundamental_characters": [
+        null,
+        "3",
+        "5",
+        "7"
+      ],
+      "root_polynomial": "X^2 + 27308/525*X + 3",
+      "number_algebra_degree": 2,
+      "specializations_tried": 1,
+      "regular_input_roots_checked": 24,
+      "full_trace_Gram_solve_checked": true
+    },
+    {
+      "type": "E6",
+      "representation": "minimal",
+      "dimension": 27,
+      "positive_wall_trace_checks": 70,
+      "vanishing_simple_root": 1,
+      "variable_fundamental_character": 2,
+      "fixed_fundamental_characters": [
+        "2",
+        null,
+        "5",
+        "7",
+        "11",
+        "13"
+      ],
+      "root_polynomial": "X^2 + 19502/715*X + 7",
+      "number_algebra_degree": 2,
+      "specializations_tried": 2,
+      "regular_input_roots_checked": 36,
+      "full_trace_Gram_solve_checked": true
+    },
+    {
+      "type": "E6",
+      "representation": "adjoint",
+      "dimension": 78,
+      "positive_wall_trace_checks": 70,
+      "vanishing_simple_root": 1,
+      "variable_fundamental_character": 1,
+      "fixed_fundamental_characters": [
+        null,
+        "3",
+        "5",
+        "7",
+        "11",
+        "13"
+      ],
+      "root_polynomial": "X^2 + 37678/715*X + 5",
+      "number_algebra_degree": 2,
+      "specializations_tried": 1,
+      "regular_input_roots_checked": 36,
+      "full_trace_Gram_solve_checked": true
+    },
+    {
+      "type": "E6",
+      "representation": "minimal_plus_adjoint",
+      "dimension": 105,
+      "positive_wall_trace_checks": 70,
+      "vanishing_simple_root": 1,
+      "variable_fundamental_character": 1,
+      "fixed_fundamental_characters": [
+        null,
+        "3",
+        "5",
+        "7",
+        "11",
+        "13"
+      ],
+      "root_polynomial": "X^2 + 966103/15015*X + 5",
+      "number_algebra_degree": 2,
+      "specializations_tried": 1,
+      "regular_input_roots_checked": 36,
+      "full_trace_Gram_solve_checked": true
+    },
+    {
+      "type": "E6",
+      "representation": "dual_minimal",
+      "dimension": 27,
+      "positive_wall_trace_checks": 70,
+      "vanishing_simple_root": 1,
+      "variable_fundamental_character": 2,
+      "fixed_fundamental_characters": [
+        "2",
+        null,
+        "5",
+        "7",
+        "11",
+        "13"
+      ],
+      "root_polynomial": "X^2 + 15166/1001*X + 7",
+      "number_algebra_degree": 2,
+      "specializations_tried": 2,
+      "regular_input_roots_checked": 36,
+      "full_trace_Gram_solve_checked": true
+    },
+    {
+      "type": "E7",
+      "representation": "minimal",
+      "dimension": 56,
+      "positive_wall_trace_checks": 124,
+      "vanishing_simple_root": 1,
+      "variable_fundamental_character": 2,
+      "fixed_fundamental_characters": [
+        "2",
+        null,
+        "5",
+        "7",
+        "11",
+        "13",
+        "17"
+      ],
+      "root_polynomial": "X^2 + 56505/2431*X + 7",
+      "number_algebra_degree": 2,
+      "specializations_tried": 2,
+      "regular_input_roots_checked": 63,
+      "full_trace_Gram_solve_checked": true
+    },
+    {
+      "type": "E7",
+      "representation": "adjoint",
+      "dimension": 133,
+      "positive_wall_trace_checks": 124,
+      "vanishing_simple_root": 1,
+      "variable_fundamental_character": 1,
+      "fixed_fundamental_characters": [
+        null,
+        "3",
+        "5",
+        "7",
+        "11",
+        "13",
+        "17"
+      ],
+      "root_polynomial": "X^2 + 7428912/85085*X + 5",
+      "number_algebra_degree": 2,
+      "specializations_tried": 1,
+      "regular_input_roots_checked": 63,
+      "full_trace_Gram_solve_checked": true
+    },
+    {
+      "type": "E7",
+      "representation": "minimal_plus_adjoint",
+      "dimension": 189,
+      "positive_wall_trace_checks": 124,
+      "vanishing_simple_root": 1,
+      "variable_fundamental_character": 1,
+      "fixed_fundamental_characters": [
+        null,
+        "3",
+        "5",
+        "7",
+        "11",
+        "13",
+        "17"
+      ],
+      "root_polynomial": "X^2 + 9513022/85085*X + 5",
+      "number_algebra_degree": 2,
+      "specializations_tried": 1,
+      "regular_input_roots_checked": 63,
+      "full_trace_Gram_solve_checked": true
+    },
+    {
+      "type": "E8",
+      "representation": "adjoint",
+      "dimension": 248,
+      "positive_wall_trace_checks": 238,
+      "vanishing_simple_root": 1,
+      "variable_fundamental_character": 1,
+      "fixed_fundamental_characters": [
+        null,
+        "3",
+        "5",
+        "7",
+        "11",
+        "13",
+        "17",
+        "19"
+      ],
+      "root_polynomial": "X^2 + 233913308/1616615*X + 5",
+      "number_algebra_degree": 2,
+      "specializations_tried": 1,
+      "regular_input_roots_checked": 120,
+      "full_trace_Gram_solve_checked": true
+    },
+    {
+      "type": "E8",
+      "representation": "two_adjoint_plus_trivial",
+      "dimension": 497,
+      "positive_wall_trace_checks": 238,
+      "vanishing_simple_root": 1,
+      "variable_fundamental_character": 1,
+      "fixed_fundamental_characters": [
+        null,
+        "3",
+        "5",
+        "7",
+        "11",
+        "13",
+        "17",
+        "19"
+      ],
+      "root_polynomial": "X^2 + 233913308/1616615*X + 5",
+      "number_algebra_degree": 2,
+      "specializations_tried": 1,
+      "regular_input_roots_checked": 120,
+      "full_trace_Gram_solve_checked": true
+    }
+  ],
+  "rank_one_controls": [
+    {
+      "tensor_power": 1,
+      "character": "x + 2",
+      "trivial_multiplicity": 2,
+      "boundary_image_rank": 1
+    },
+    {
+      "tensor_power": 2,
+      "character": "x^2 + 4*x + 4",
+      "trivial_multiplicity": 5,
+      "boundary_image_rank": 0
+    },
+    {
+      "tensor_power": 3,
+      "character": "x^3 + 6*x^2 + 12*x + 8",
+      "trivial_multiplicity": 14,
+      "boundary_image_rank": 0
+    },
+    {
+      "tensor_power": 4,
+      "character": "x^4 + 8*x^3 + 24*x^2 + 32*x + 16",
+      "trivial_multiplicity": 42,
+      "boundary_image_rank": 0
+    },
+    {
+      "tensor_power": 5,
+      "character": "x^5 + 10*x^4 + 40*x^3 + 80*x^2 + 80*x + 32",
+      "trivial_multiplicity": 132,
+      "boundary_image_rank": 0
+    },
+    {
+      "tensor_power": 6,
+      "character": "x^6 + 12*x^5 + 60*x^4 + 160*x^3 + 240*x^2 + 192*x + 64",
+      "trivial_multiplicity": 429,
+      "boundary_image_rank": 0
+    },
+    {
+      "tensor_power": 7,
+      "character": "x^7 + 14*x^6 + 84*x^5 + 280*x^4 + 560*x^3 + 672*x^2 + 448*x + 128",
+      "trivial_multiplicity": 1430,
+      "boundary_image_rank": 0
+    },
+    {
+      "tensor_power": 8,
+      "character": "x^8 + 16*x^7 + 112*x^6 + 448*x^5 + 1120*x^4 + 1792*x^3 + 1792*x^2 + 1024*x + 256",
+      "trivial_multiplicity": 4862,
+      "boundary_image_rank": 0
+    }
+  ],
+  "novelty_claim": false,
+  "externally_reviewed": false,
+  "runtime_API_changed": false,
+  "source_sha256": {
+    "REGULARITY_CLASSIFICATION.md": "5f22fb431145bf438148d74544beb51da78e6cae03c80745c2c9768d8922cf54",
+    "tools/verify_regularity_classification.py": "e9e66ecc61bb8308db6f8f9729bf7b2bbc19f344a6978e87f7fc0088e563c8b1",
+    "tools/verify_type_a_regularity.py": "febfd9569f20b4f1ed6691453d9c0c98ef7ac748fd18c4b0de7c1de6f215d1b1",
+    "MIXED_REGULARITY.md": "7c76b0df76abe38631ebed8eb9d71795905a7224f58e22e6a495f89a0a9257a9",
+    "mixed-regularity-verification.json": "98684d563c2af2d09b7a01ee3f2d77e4a42d9cf4620cdd5358df94066d1fd1ec"
+  }
+}

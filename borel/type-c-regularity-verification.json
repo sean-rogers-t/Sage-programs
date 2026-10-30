@@ -1,0 +1,4139 @@
+{
+  "result": "passed",
+  "date": "2026-10-22",
+  "sage_version": "9.5",
+  "group": "Sp_(2n)(C)",
+  "theorem": "No nontrivial irreducible preserves torus/global regularity for n>=2; n=1 only defining is positive",
+  "arbitrary_rank_proof": "TYPE_C_REGULARITY.md, Section 1a (central--Weyl) and Sections 2-5 (branching)",
+  "finite_all_partitions_n_range": [
+    1,
+    4
+  ],
+  "finite_all_partitions_maximum_size": 6,
+  "additional_rank_five_symmetric_degrees": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "additional_rank_five_mixed_partitions": 4,
+  "character_cases": 79,
+  "Freudenthal_weight_and_alternant_comparisons": 79,
+  "rank_one_string_reconstructions": 79,
+  "direct_trace_coordinate_checks": 256,
+  "symmetric_monomial_character_comparisons": 30,
+  "inherited_fundamental_cases": 11,
+  "nonfundamental_exact_algebraic_witnesses": 68,
+  "total_distinct_weights_in_cases": 16785,
+  "maximum_grid_trials_used": 1,
+  "universal_Qi_trace_checks": 73,
+  "universal_witnesses": [
+    {
+      "n": 2,
+      "partition": [
+        1,
+        0
+      ],
+      "central_scalar": -1,
+      "torus": [
+        "2",
+        "-2"
+      ],
+      "image": [
+        "3/4",
+        "-3/4"
+      ],
+      "vanishing_root": "epsilon_1+epsilon_2"
+    },
+    {
+      "n": 2,
+      "partition": [
+        1,
+        1
+      ],
+      "central_scalar": 1,
+      "torus": [
+        "2",
+        "-2"
+      ],
+      "image": [
+        "-15/16",
+        "-15/16"
+      ],
+      "vanishing_root": "epsilon_1-epsilon_2"
+    },
+    {
+      "n": 2,
+      "partition": [
+        2,
+        0
+      ],
+      "central_scalar": 1,
+      "torus": [
+        "2",
+        "-2"
+      ],
+      "image": [
+        "5/16",
+        "5/16"
+      ],
+      "vanishing_root": "epsilon_1-epsilon_2"
+    },
+    {
+      "n": 2,
+      "partition": [
+        2,
+        1
+      ],
+      "central_scalar": -1,
+      "torus": [
+        "2",
+        "-2"
+      ],
+      "image": [
+        "-25/64",
+        "25/64"
+      ],
+      "vanishing_root": "epsilon_1+epsilon_2"
+    },
+    {
+      "n": 2,
+      "partition": [
+        3,
+        0
+      ],
+      "central_scalar": -1,
+      "torus": [
+        "2",
+        "-2"
+      ],
+      "image": [
+        "19/56",
+        "-19/56"
+      ],
+      "vanishing_root": "epsilon_1+epsilon_2"
+    },
+    {
+      "n": 2,
+      "partition": [
+        2,
+        2
+      ],
+      "central_scalar": 1,
+      "torus": [
+        "2",
+        "-2"
+      ],
+      "image": [
+        "285/224",
+        "285/224"
+      ],
+      "vanishing_root": "epsilon_1-epsilon_2"
+    },
+    {
+      "n": 2,
+      "partition": [
+        3,
+        1
+      ],
+      "central_scalar": 1,
+      "torus": [
+        "2",
+        "-2"
+      ],
+      "image": [
+        "-95/224",
+        "-95/224"
+      ],
+      "vanishing_root": "epsilon_1-epsilon_2"
+    },
+    {
+      "n": 2,
+      "partition": [
+        4,
+        0
+      ],
+      "central_scalar": 1,
+      "torus": [
+        "2",
+        "-2"
+      ],
+      "image": [
+        "255/896",
+        "255/896"
+      ],
+      "vanishing_root": "epsilon_1-epsilon_2"
+    },
+    {
+      "n": 2,
+      "partition": [
+        3,
+        2
+      ],
+      "central_scalar": -1,
+      "torus": [
+        "2",
+        "-2"
+      ],
+      "image": [
+        "1371/3712",
+        "-1371/3712"
+      ],
+      "vanishing_root": "epsilon_1+epsilon_2"
+    },
+    {
+      "n": 2,
+      "partition": [
+        4,
+        1
+      ],
+      "central_scalar": -1,
+      "torus": [
+        "2",
+        "-2"
+      ],
+      "image": [
+        "-1275/3584",
+        "1275/3584"
+      ],
+      "vanishing_root": "epsilon_1+epsilon_2"
+    },
+    {
+      "n": 2,
+      "partition": [
+        5,
+        0
+      ],
+      "central_scalar": -1,
+      "torus": [
+        "2",
+        "-2"
+      ],
+      "image": [
+        "971/2688",
+        "-971/2688"
+      ],
+      "vanishing_root": "epsilon_1+epsilon_2"
+    },
+    {
+      "n": 2,
+      "partition": [
+        3,
+        3
+      ],
+      "central_scalar": 1,
+      "torus": [
+        "2",
+        "-2"
+      ],
+      "image": [
+        "-1645/768",
+        "-1645/768"
+      ],
+      "vanishing_root": "epsilon_1-epsilon_2"
+    },
+    {
+      "n": 2,
+      "partition": [
+        4,
+        2
+      ],
+      "central_scalar": 1,
+      "torus": [
+        "2",
+        "-2"
+      ],
+      "image": [
+        "1645/2304",
+        "1645/2304"
+      ],
+      "vanishing_root": "epsilon_1-epsilon_2"
+    },
+    {
+      "n": 2,
+      "partition": [
+        5,
+        1
+      ],
+      "central_scalar": 1,
+      "torus": [
+        "2",
+        "-2"
+      ],
+      "image": [
+        "-4855/10752",
+        "-4855/10752"
+      ],
+      "vanishing_root": "epsilon_1-epsilon_2"
+    },
+    {
+      "n": 2,
+      "partition": [
+        6,
+        0
+      ],
+      "central_scalar": 1,
+      "torus": [
+        "2",
+        "-2"
+      ],
+      "image": [
+        "4175/10752",
+        "4175/10752"
+      ],
+      "vanishing_root": "epsilon_1-epsilon_2"
+    },
+    {
+      "n": 3,
+      "partition": [
+        1,
+        0,
+        0
+      ],
+      "central_scalar": -1,
+      "torus": [
+        "2",
+        "-2",
+        "i"
+      ],
+      "image": [
+        "3/4",
+        "-3/4",
+        "i"
+      ],
+      "vanishing_root": "epsilon_1+epsilon_2"
+    },
+    {
+      "n": 3,
+      "partition": [
+        1,
+        1,
+        0
+      ],
+      "central_scalar": 1,
+      "torus": [
+        "2",
+        "-2",
+        "i"
+      ],
+      "image": [
+        "-15/32",
+        "-15/32",
+        "0"
+      ],
+      "vanishing_root": "epsilon_1-epsilon_2"
+    },
+    {
+      "n": 3,
+      "partition": [
+        2,
+        0,
+        0
+      ],
+      "central_scalar": 1,
+      "torus": [
+        "2",
+        "-2",
+        "i"
+      ],
+      "image": [
+        "15/64",
+        "15/64",
+        "0"
+      ],
+      "vanishing_root": "epsilon_1-epsilon_2"
+    },
+    {
+      "n": 3,
+      "partition": [
+        1,
+        1,
+        1
+      ],
+      "central_scalar": -1,
+      "torus": [
+        "2",
+        "-2",
+        "i"
+      ],
+      "image": [
+        "3/20",
+        "-3/20",
+        "-21/20*i"
+      ],
+      "vanishing_root": "epsilon_1+epsilon_2"
+    },
+    {
+      "n": 3,
+      "partition": [
+        2,
+        1,
+        0
+      ],
+      "central_scalar": -1,
+      "torus": [
+        "2",
+        "-2",
+        "i"
+      ],
+      "image": [
+        "-75/512",
+        "75/512",
+        "0"
+      ],
+      "vanishing_root": "epsilon_1+epsilon_2"
+    },
+    {
+      "n": 3,
+      "partition": [
+        3,
+        0,
+        0
+      ],
+      "central_scalar": -1,
+      "torus": [
+        "2",
+        "-2",
+        "i"
+      ],
+      "image": [
+        "17/96",
+        "-17/96",
+        "1/16*i"
+      ],
+      "vanishing_root": "epsilon_1+epsilon_2"
+    },
+    {
+      "n": 3,
+      "partition": [
+        2,
+        1,
+        1
+      ],
+      "central_scalar": 1,
+      "torus": [
+        "2",
+        "-2",
+        "i"
+      ],
+      "image": [
+        "3/64",
+        "3/64",
+        "0"
+      ],
+      "vanishing_root": "epsilon_1-epsilon_2"
+    },
+    {
+      "n": 3,
+      "partition": [
+        2,
+        2,
+        0
+      ],
+      "central_scalar": 1,
+      "torus": [
+        "2",
+        "-2",
+        "i"
+      ],
+      "image": [
+        "15/64",
+        "15/64",
+        "0"
+      ],
+      "vanishing_root": "epsilon_1-epsilon_2"
+    },
+    {
+      "n": 3,
+      "partition": [
+        3,
+        1,
+        0
+      ],
+      "central_scalar": 1,
+      "torus": [
+        "2",
+        "-2",
+        "i"
+      ],
+      "image": [
+        "-85/768",
+        "-85/768",
+        "0"
+      ],
+      "vanishing_root": "epsilon_1-epsilon_2"
+    },
+    {
+      "n": 3,
+      "partition": [
+        4,
+        0,
+        0
+      ],
+      "central_scalar": 1,
+      "torus": [
+        "2",
+        "-2",
+        "i"
+      ],
+      "image": [
+        "15/128",
+        "15/128",
+        "0"
+      ],
+      "vanishing_root": "epsilon_1-epsilon_2"
+    },
+    {
+      "n": 3,
+      "partition": [
+        2,
+        2,
+        1
+      ],
+      "central_scalar": -1,
+      "torus": [
+        "2",
+        "-2",
+        "i"
+      ],
+      "image": [
+        "1/124",
+        "-1/124",
+        "11/48*i"
+      ],
+      "vanishing_root": "epsilon_1+epsilon_2"
+    },
+    {
+      "n": 3,
+      "partition": [
+        3,
+        1,
+        1
+      ],
+      "central_scalar": -1,
+      "torus": [
+        "2",
+        "-2",
+        "i"
+      ],
+      "image": [
+        "17/480",
+        "-17/480",
+        "-21/320*i"
+      ],
+      "vanishing_root": "epsilon_1+epsilon_2"
+    },
+    {
+      "n": 3,
+      "partition": [
+        3,
+        2,
+        0
+      ],
+      "central_scalar": -1,
+      "torus": [
+        "2",
+        "-2",
+        "i"
+      ],
+      "image": [
+        "183/4160",
+        "-183/4160",
+        "-3/130*i"
+      ],
+      "vanishing_root": "epsilon_1+epsilon_2"
+    },
+    {
+      "n": 3,
+      "partition": [
+        4,
+        1,
+        0
+      ],
+      "central_scalar": -1,
+      "torus": [
+        "2",
+        "-2",
+        "i"
+      ],
+      "image": [
+        "-75/1024",
+        "75/1024",
+        "0"
+      ],
+      "vanishing_root": "epsilon_1+epsilon_2"
+    },
+    {
+      "n": 3,
+      "partition": [
+        5,
+        0,
+        0
+      ],
+      "central_scalar": -1,
+      "torus": [
+        "2",
+        "-2",
+        "i"
+      ],
+      "image": [
+        "167/1408",
+        "-167/1408",
+        "37/1056*i"
+      ],
+      "vanishing_root": "epsilon_1+epsilon_2"
+    },
+    {
+      "n": 3,
+      "partition": [
+        2,
+        2,
+        2
+      ],
+      "central_scalar": 1,
+      "torus": [
+        "2",
+        "-2",
+        "i"
+      ],
+      "image": [
+        "-85/384",
+        "-85/384",
+        "0"
+      ],
+      "vanishing_root": "epsilon_1-epsilon_2"
+    },
+    {
+      "n": 3,
+      "partition": [
+        3,
+        2,
+        1
+      ],
+      "central_scalar": 1,
+      "torus": [
+        "2",
+        "-2",
+        "i"
+      ],
+      "image": [
+        "0",
+        "0",
+        "0"
+      ],
+      "vanishing_root": "epsilon_1-epsilon_2"
+    },
+    {
+      "n": 3,
+      "partition": [
+        3,
+        3,
+        0
+      ],
+      "central_scalar": 1,
+      "torus": [
+        "2",
+        "-2",
+        "i"
+      ],
+      "image": [
+        "-195/1024",
+        "-195/1024",
+        "0"
+      ],
+      "vanishing_root": "epsilon_1-epsilon_2"
+    },
+    {
+      "n": 3,
+      "partition": [
+        4,
+        1,
+        1
+      ],
+      "central_scalar": 1,
+      "torus": [
+        "2",
+        "-2",
+        "i"
+      ],
+      "image": [
+        "3/128",
+        "3/128",
+        "0"
+      ],
+      "vanishing_root": "epsilon_1-epsilon_2"
+    },
+    {
+      "n": 3,
+      "partition": [
+        4,
+        2,
+        0
+      ],
+      "central_scalar": 1,
+      "torus": [
+        "2",
+        "-2",
+        "i"
+      ],
+      "image": [
+        "10965/146432",
+        "10965/146432",
+        "0"
+      ],
+      "vanishing_root": "epsilon_1-epsilon_2"
+    },
+    {
+      "n": 3,
+      "partition": [
+        5,
+        1,
+        0
+      ],
+      "central_scalar": 1,
+      "torus": [
+        "2",
+        "-2",
+        "i"
+      ],
+      "image": [
+        "-835/11264",
+        "-835/11264",
+        "0"
+      ],
+      "vanishing_root": "epsilon_1-epsilon_2"
+    },
+    {
+      "n": 3,
+      "partition": [
+        6,
+        0,
+        0
+      ],
+      "central_scalar": 1,
+      "torus": [
+        "2",
+        "-2",
+        "i"
+      ],
+      "image": [
+        "325/3072",
+        "325/3072",
+        "0"
+      ],
+      "vanishing_root": "epsilon_1-epsilon_2"
+    },
+    {
+      "n": 4,
+      "partition": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "central_scalar": -1,
+      "torus": [
+        "2",
+        "-2",
+        "3",
+        "-3"
+      ],
+      "image": [
+        "3/4",
+        "-3/4",
+        "4/3",
+        "-4/3"
+      ],
+      "vanishing_root": "epsilon_1+epsilon_2"
+    },
+    {
+      "n": 4,
+      "partition": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "central_scalar": 1,
+      "torus": [
+        "2",
+        "-2",
+        "3",
+        "-3"
+      ],
+      "image": [
+        "-5/16",
+        "-5/16",
+        "-20/27",
+        "-20/27"
+      ],
+      "vanishing_root": "epsilon_1-epsilon_2"
+    },
+    {
+      "n": 4,
+      "partition": [
+        2,
+        0,
+        0,
+        0
+      ],
+      "central_scalar": 1,
+      "torus": [
+        "2",
+        "-2",
+        "3",
+        "-3"
+      ],
+      "image": [
+        "3/16",
+        "3/16",
+        "4/9",
+        "4/9"
+      ],
+      "vanishing_root": "epsilon_1-epsilon_2"
+    },
+    {
+      "n": 4,
+      "partition": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "central_scalar": -1,
+      "torus": [
+        "2",
+        "-2",
+        "3",
+        "-3"
+      ],
+      "image": [
+        "-41/84",
+        "41/84",
+        "-17/42",
+        "17/42"
+      ],
+      "vanishing_root": "epsilon_1+epsilon_2"
+    },
+    {
+      "n": 4,
+      "partition": [
+        2,
+        1,
+        0,
+        0
+      ],
+      "central_scalar": -1,
+      "torus": [
+        "2",
+        "-2",
+        "3",
+        "-3"
+      ],
+      "image": [
+        "-5/64",
+        "5/64",
+        "-20/81",
+        "20/81"
+      ],
+      "vanishing_root": "epsilon_1+epsilon_2"
+    },
+    {
+      "n": 4,
+      "partition": [
+        3,
+        0,
+        0,
+        0
+      ],
+      "central_scalar": -1,
+      "torus": [
+        "2",
+        "-2",
+        "3",
+        "-3"
+      ],
+      "image": [
+        "67/264",
+        "-67/264",
+        "169/297",
+        "-169/297"
+      ],
+      "vanishing_root": "epsilon_1+epsilon_2"
+    },
+    {
+      "n": 4,
+      "partition": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "central_scalar": 1,
+      "torus": [
+        "2",
+        "-2",
+        "3",
+        "-3"
+      ],
+      "image": [
+        "65/48",
+        "65/48",
+        "5/3",
+        "5/3"
+      ],
+      "vanishing_root": "epsilon_1-epsilon_2"
+    },
+    {
+      "n": 4,
+      "partition": [
+        2,
+        1,
+        1,
+        0
+      ],
+      "central_scalar": 1,
+      "torus": [
+        "2",
+        "-2",
+        "3",
+        "-3"
+      ],
+      "image": [
+        "-41/336",
+        "-41/336",
+        "-17/126",
+        "-17/126"
+      ],
+      "vanishing_root": "epsilon_1-epsilon_2"
+    },
+    {
+      "n": 4,
+      "partition": [
+        2,
+        2,
+        0,
+        0
+      ],
+      "central_scalar": 1,
+      "torus": [
+        "2",
+        "-2",
+        "3",
+        "-3"
+      ],
+      "image": [
+        "2495/7392",
+        "2495/7392",
+        "4990/6237",
+        "4990/6237"
+      ],
+      "vanishing_root": "epsilon_1-epsilon_2"
+    },
+    {
+      "n": 4,
+      "partition": [
+        3,
+        1,
+        0,
+        0
+      ],
+      "central_scalar": 1,
+      "torus": [
+        "2",
+        "-2",
+        "3",
+        "-3"
+      ],
+      "image": [
+        "-335/3168",
+        "-335/3168",
+        "-845/2673",
+        "-845/2673"
+      ],
+      "vanishing_root": "epsilon_1-epsilon_2"
+    },
+    {
+      "n": 4,
+      "partition": [
+        4,
+        0,
+        0,
+        0
+      ],
+      "central_scalar": 1,
+      "torus": [
+        "2",
+        "-2",
+        "3",
+        "-3"
+      ],
+      "image": [
+        "317/2112",
+        "317/2112",
+        "809/1782",
+        "809/1782"
+      ],
+      "vanishing_root": "epsilon_1-epsilon_2"
+    },
+    {
+      "n": 4,
+      "partition": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "central_scalar": -1,
+      "torus": [
+        "2",
+        "-2",
+        "3",
+        "-3"
+      ],
+      "image": [
+        "65/192",
+        "-65/192",
+        "5/9",
+        "-5/9"
+      ],
+      "vanishing_root": "epsilon_1+epsilon_2"
+    },
+    {
+      "n": 4,
+      "partition": [
+        2,
+        2,
+        1,
+        0
+      ],
+      "central_scalar": -1,
+      "torus": [
+        "2",
+        "-2",
+        "3",
+        "-3"
+      ],
+      "image": [
+        "6643/48708",
+        "-6643/48708",
+        "91/1804",
+        "-91/1804"
+      ],
+      "vanishing_root": "epsilon_1+epsilon_2"
+    },
+    {
+      "n": 4,
+      "partition": [
+        3,
+        1,
+        1,
+        0
+      ],
+      "central_scalar": -1,
+      "torus": [
+        "2",
+        "-2",
+        "3",
+        "-3"
+      ],
+      "image": [
+        "-2747/16632",
+        "2747/16632",
+        "-2873/16632",
+        "2873/16632"
+      ],
+      "vanishing_root": "epsilon_1+epsilon_2"
+    },
+    {
+      "n": 4,
+      "partition": [
+        3,
+        2,
+        0,
+        0
+      ],
+      "central_scalar": -1,
+      "torus": [
+        "2",
+        "-2",
+        "3",
+        "-3"
+      ],
+      "image": [
+        "16721/197568",
+        "-16721/197568",
+        "60241/250047",
+        "-60241/250047"
+      ],
+      "vanishing_root": "epsilon_1+epsilon_2"
+    },
+    {
+      "n": 4,
+      "partition": [
+        4,
+        1,
+        0,
+        0
+      ],
+      "central_scalar": -1,
+      "torus": [
+        "2",
+        "-2",
+        "3",
+        "-3"
+      ],
+      "image": [
+        "-1585/25344",
+        "1585/25344",
+        "-4045/16038",
+        "4045/16038"
+      ],
+      "vanishing_root": "epsilon_1+epsilon_2"
+    },
+    {
+      "n": 4,
+      "partition": [
+        5,
+        0,
+        0,
+        0
+      ],
+      "central_scalar": -1,
+      "torus": [
+        "2",
+        "-2",
+        "3",
+        "-3"
+      ],
+      "image": [
+        "4571/19008",
+        "-4571/19008",
+        "31451/46332",
+        "-31451/46332"
+      ],
+      "vanishing_root": "epsilon_1+epsilon_2"
+    },
+    {
+      "n": 4,
+      "partition": [
+        2,
+        2,
+        1,
+        1
+      ],
+      "central_scalar": 1,
+      "torus": [
+        "2",
+        "-2",
+        "3",
+        "-3"
+      ],
+      "image": [
+        "-153235/209088",
+        "-153235/209088",
+        "-29815/26136",
+        "-29815/26136"
+      ],
+      "vanishing_root": "epsilon_1-epsilon_2"
+    },
+    {
+      "n": 4,
+      "partition": [
+        2,
+        2,
+        2,
+        0
+      ],
+      "central_scalar": 1,
+      "torus": [
+        "2",
+        "-2",
+        "3",
+        "-3"
+      ],
+      "image": [
+        "157/270",
+        "157/270",
+        "1319/1620",
+        "1319/1620"
+      ],
+      "vanishing_root": "epsilon_1-epsilon_2"
+    },
+    {
+      "n": 4,
+      "partition": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "central_scalar": 1,
+      "torus": [
+        "2",
+        "-2",
+        "3",
+        "-3"
+      ],
+      "image": [
+        "4355/9504",
+        "4355/9504",
+        "845/1188",
+        "845/1188"
+      ],
+      "vanishing_root": "epsilon_1-epsilon_2"
+    },
+    {
+      "n": 4,
+      "partition": [
+        3,
+        2,
+        1,
+        0
+      ],
+      "central_scalar": 1,
+      "torus": [
+        "2",
+        "-2",
+        "3",
+        "-3"
+      ],
+      "image": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "vanishing_root": "epsilon_1-epsilon_2"
+    },
+    {
+      "n": 4,
+      "partition": [
+        3,
+        3,
+        0,
+        0
+      ],
+      "central_scalar": 1,
+      "torus": [
+        "2",
+        "-2",
+        "3",
+        "-3"
+      ],
+      "image": [
+        "-518171/1257984",
+        "-518171/1257984",
+        "-100391/88452",
+        "-100391/88452"
+      ],
+      "vanishing_root": "epsilon_1-epsilon_2"
+    },
+    {
+      "n": 4,
+      "partition": [
+        4,
+        1,
+        1,
+        0
+      ],
+      "central_scalar": 1,
+      "torus": [
+        "2",
+        "-2",
+        "3",
+        "-3"
+      ],
+      "image": [
+        "-12997/133056",
+        "-12997/133056",
+        "-13753/99792",
+        "-13753/99792"
+      ],
+      "vanishing_root": "epsilon_1-epsilon_2"
+    },
+    {
+      "n": 4,
+      "partition": [
+        4,
+        2,
+        0,
+        0
+      ],
+      "central_scalar": 1,
+      "torus": [
+        "2",
+        "-2",
+        "3",
+        "-3"
+      ],
+      "image": [
+        "194755/1161216",
+        "194755/1161216",
+        "497365/1061424",
+        "497365/1061424"
+      ],
+      "vanishing_root": "epsilon_1-epsilon_2"
+    },
+    {
+      "n": 4,
+      "partition": [
+        5,
+        1,
+        0,
+        0
+      ],
+      "central_scalar": 1,
+      "torus": [
+        "2",
+        "-2",
+        "3",
+        "-3"
+      ],
+      "image": [
+        "-22855/228096",
+        "-22855/228096",
+        "-157255/416988",
+        "-157255/416988"
+      ],
+      "vanishing_root": "epsilon_1-epsilon_2"
+    },
+    {
+      "n": 4,
+      "partition": [
+        6,
+        0,
+        0,
+        0
+      ],
+      "central_scalar": 1,
+      "torus": [
+        "2",
+        "-2",
+        "3",
+        "-3"
+      ],
+      "image": [
+        "1371455/6918912",
+        "1371455/6918912",
+        "737735/972972",
+        "737735/972972"
+      ],
+      "vanishing_root": "epsilon_1-epsilon_2"
+    },
+    {
+      "n": 5,
+      "partition": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "central_scalar": -1,
+      "torus": [
+        "2",
+        "-2",
+        "3",
+        "-3",
+        "i"
+      ],
+      "image": [
+        "3/4",
+        "-3/4",
+        "4/3",
+        "-4/3",
+        "i"
+      ],
+      "vanishing_root": "epsilon_1+epsilon_2"
+    },
+    {
+      "n": 5,
+      "partition": [
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "central_scalar": 1,
+      "torus": [
+        "2",
+        "-2",
+        "3",
+        "-3",
+        "i"
+      ],
+      "image": [
+        "5/32",
+        "5/32",
+        "10/27",
+        "10/27",
+        "0"
+      ],
+      "vanishing_root": "epsilon_1-epsilon_2"
+    },
+    {
+      "n": 5,
+      "partition": [
+        2,
+        1,
+        0,
+        0,
+        0
+      ],
+      "central_scalar": -1,
+      "torus": [
+        "2",
+        "-2",
+        "3",
+        "-3",
+        "i"
+      ],
+      "image": [
+        "-25/512",
+        "25/512",
+        "-25/162",
+        "25/162",
+        "0"
+      ],
+      "vanishing_root": "epsilon_1+epsilon_2"
+    },
+    {
+      "n": 5,
+      "partition": [
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "central_scalar": -1,
+      "torus": [
+        "2",
+        "-2",
+        "3",
+        "-3",
+        "i"
+      ],
+      "image": [
+        "317/1872",
+        "-317/1872",
+        "809/2106",
+        "-809/2106",
+        "409/2808*i"
+      ],
+      "vanishing_root": "epsilon_1+epsilon_2"
+    },
+    {
+      "n": 5,
+      "partition": [
+        2,
+        1,
+        1,
+        0,
+        0
+      ],
+      "central_scalar": 1,
+      "torus": [
+        "2",
+        "-2",
+        "3",
+        "-3",
+        "i"
+      ],
+      "image": [
+        "-365/7776",
+        "-365/7776",
+        "-65/1458",
+        "-65/1458",
+        "0"
+      ],
+      "vanishing_root": "epsilon_1-epsilon_2"
+    },
+    {
+      "n": 5,
+      "partition": [
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "central_scalar": 1,
+      "torus": [
+        "2",
+        "-2",
+        "3",
+        "-3",
+        "i"
+      ],
+      "image": [
+        "2315/14976",
+        "2315/14976",
+        "2315/6318",
+        "2315/6318",
+        "0"
+      ],
+      "vanishing_root": "epsilon_1-epsilon_2"
+    },
+    {
+      "n": 5,
+      "partition": [
+        3,
+        1,
+        0,
+        0,
+        0
+      ],
+      "central_scalar": 1,
+      "torus": [
+        "2",
+        "-2",
+        "3",
+        "-3",
+        "i"
+      ],
+      "image": [
+        "-1585/29952",
+        "-1585/29952",
+        "-4045/25272",
+        "-4045/25272",
+        "0"
+      ],
+      "vanishing_root": "epsilon_1-epsilon_2"
+    },
+    {
+      "n": 5,
+      "partition": [
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      "central_scalar": 1,
+      "torus": [
+        "2",
+        "-2",
+        "3",
+        "-3",
+        "i"
+      ],
+      "image": [
+        "115/1344",
+        "115/1344",
+        "3865/14742",
+        "3865/14742",
+        "0"
+      ],
+      "vanishing_root": "epsilon_1-epsilon_2"
+    },
+    {
+      "n": 5,
+      "partition": [
+        5,
+        0,
+        0,
+        0,
+        0
+      ],
+      "central_scalar": -1,
+      "torus": [
+        "2",
+        "-2",
+        "3",
+        "-3",
+        "i"
+      ],
+      "image": [
+        "274291/2358720",
+        "-274291/2358720",
+        "147547/442260",
+        "-147547/442260",
+        "147841/1769040*i"
+      ],
+      "vanishing_root": "epsilon_1+epsilon_2"
+    },
+    {
+      "n": 5,
+      "partition": [
+        6,
+        0,
+        0,
+        0,
+        0
+      ],
+      "central_scalar": 1,
+      "torus": [
+        "2",
+        "-2",
+        "3",
+        "-3",
+        "i"
+      ],
+      "image": [
+        "180545/2156544",
+        "180545/2156544",
+        "98765/303264",
+        "98765/303264",
+        "0"
+      ],
+      "vanishing_root": "epsilon_1-epsilon_2"
+    }
+  ],
+  "same_central_parity_reducible_checks": 8,
+  "same_central_parity_reducible_witnesses": [
+    {
+      "n": 2,
+      "central_scalar": -1,
+      "torus": [
+        "2",
+        "-2"
+      ],
+      "image": [
+        "63/176",
+        "-63/176"
+      ],
+      "vanishing_root": "epsilon_1+epsilon_2",
+      "representation": "Sym^1 + Sym^3"
+    },
+    {
+      "n": 2,
+      "central_scalar": 1,
+      "torus": [
+        "2",
+        "-2"
+      ],
+      "image": [
+        "285/992",
+        "285/992"
+      ],
+      "vanishing_root": "epsilon_1-epsilon_2",
+      "representation": "Sym^2 + Sym^4 + 3 trivial"
+    },
+    {
+      "n": 3,
+      "central_scalar": -1,
+      "torus": [
+        "2",
+        "-2",
+        "i"
+      ],
+      "image": [
+        "57/296",
+        "-57/296",
+        "13/148*i"
+      ],
+      "vanishing_root": "epsilon_1+epsilon_2",
+      "representation": "Sym^1 + Sym^3"
+    },
+    {
+      "n": 3,
+      "central_scalar": 1,
+      "torus": [
+        "2",
+        "-2",
+        "i"
+      ],
+      "image": [
+        "255/2048",
+        "255/2048",
+        "0"
+      ],
+      "vanishing_root": "epsilon_1-epsilon_2",
+      "representation": "Sym^2 + Sym^4 + 3 trivial"
+    },
+    {
+      "n": 4,
+      "central_scalar": -1,
+      "torus": [
+        "2",
+        "-2",
+        "3",
+        "-3"
+      ],
+      "image": [
+        "353/1344",
+        "-353/1344",
+        "881/1512",
+        "-881/1512"
+      ],
+      "vanishing_root": "epsilon_1+epsilon_2",
+      "representation": "Sym^1 + Sym^3"
+    },
+    {
+      "n": 4,
+      "central_scalar": 1,
+      "torus": [
+        "2",
+        "-2",
+        "3",
+        "-3"
+      ],
+      "image": [
+        "335/2208",
+        "335/2208",
+        "845/1863",
+        "845/1863"
+      ],
+      "vanishing_root": "epsilon_1-epsilon_2",
+      "representation": "Sym^2 + Sym^4 + 3 trivial"
+    },
+    {
+      "n": 5,
+      "central_scalar": -1,
+      "torus": [
+        "2",
+        "-2",
+        "3",
+        "-3",
+        "i"
+      ],
+      "image": [
+        "335/1896",
+        "-335/1896",
+        "845/2133",
+        "-845/2133",
+        "445/2844*i"
+      ],
+      "vanishing_root": "epsilon_1+epsilon_2",
+      "representation": "Sym^1 + Sym^3"
+    },
+    {
+      "n": 5,
+      "central_scalar": 1,
+      "torus": [
+        "2",
+        "-2",
+        "3",
+        "-3",
+        "i"
+      ],
+      "image": [
+        "1585/18048",
+        "1585/18048",
+        "4045/15228",
+        "4045/15228",
+        "0"
+      ],
+      "vanishing_root": "epsilon_1-epsilon_2",
+      "representation": "Sym^2 + Sym^4 + 3 trivial"
+    }
+  ],
+  "witnesses": [
+    {
+      "n": 1,
+      "partition": [
+        2
+      ],
+      "dimension": 3,
+      "trace_index": "4",
+      "other_torus_coordinates": [],
+      "other_pair_sums": [],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "-1",
+        "0",
+        "1"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "0",
+        "2"
+      ],
+      "witness_polynomial_at_minus_two": "-4",
+      "witness_polynomial_at_two": "4",
+      "quadratic_algebra_dimension": 2,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 1,
+      "partition": [
+        3
+      ],
+      "dimension": 4,
+      "trace_index": "10",
+      "other_torus_coordinates": [],
+      "other_pair_sums": [],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "0",
+        "-2",
+        "0",
+        "1"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "-2",
+        "0",
+        "3"
+      ],
+      "witness_polynomial_at_minus_two": "10",
+      "witness_polynomial_at_two": "10",
+      "quadratic_algebra_dimension": 4,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 1,
+      "partition": [
+        4
+      ],
+      "dimension": 5,
+      "trace_index": "20",
+      "other_torus_coordinates": [],
+      "other_pair_sums": [],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "1",
+        "0",
+        "-3",
+        "0",
+        "1"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "0",
+        "-6",
+        "0",
+        "4"
+      ],
+      "witness_polynomial_at_minus_two": "-20",
+      "witness_polynomial_at_two": "20",
+      "quadratic_algebra_dimension": 6,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 1,
+      "partition": [
+        5
+      ],
+      "dimension": 6,
+      "trace_index": "35",
+      "other_torus_coordinates": [],
+      "other_pair_sums": [],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "0",
+        "3",
+        "0",
+        "-4",
+        "0",
+        "1"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "3",
+        "0",
+        "-12",
+        "0",
+        "5"
+      ],
+      "witness_polynomial_at_minus_two": "35",
+      "witness_polynomial_at_two": "35",
+      "quadratic_algebra_dimension": 8,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 1,
+      "partition": [
+        6
+      ],
+      "dimension": 7,
+      "trace_index": "56",
+      "other_torus_coordinates": [],
+      "other_pair_sums": [],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "-1",
+        "0",
+        "6",
+        "0",
+        "-5",
+        "0",
+        "1"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "0",
+        "12",
+        "0",
+        "-20",
+        "0",
+        "6"
+      ],
+      "witness_polynomial_at_minus_two": "-56",
+      "witness_polynomial_at_two": "56",
+      "quadratic_algebra_dimension": 10,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 2,
+      "partition": [
+        2,
+        0
+      ],
+      "dimension": 10,
+      "trace_index": "6",
+      "other_torus_coordinates": [
+        2
+      ],
+      "other_pair_sums": [
+        "5/2"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "17/4",
+        "5/2",
+        "1"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "5/2",
+        "2"
+      ],
+      "witness_polynomial_at_minus_two": "-3/2",
+      "witness_polynomial_at_two": "13/2",
+      "quadratic_algebra_dimension": 2,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 2,
+      "partition": [
+        2,
+        1
+      ],
+      "dimension": 16,
+      "trace_index": "12",
+      "other_torus_coordinates": [
+        2
+      ],
+      "other_pair_sums": [
+        "5/2"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "0",
+        "25/4",
+        "5/2"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "25/4",
+        "5"
+      ],
+      "witness_polynomial_at_minus_two": "-15/4",
+      "witness_polynomial_at_two": "65/4",
+      "quadratic_algebra_dimension": 2,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 2,
+      "partition": [
+        3,
+        0
+      ],
+      "dimension": 20,
+      "trace_index": "21",
+      "other_torus_coordinates": [
+        2
+      ],
+      "other_pair_sums": [
+        "5/2"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "65/8",
+        "13/4",
+        "5/2",
+        "1"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "13/4",
+        "5",
+        "3"
+      ],
+      "witness_polynomial_at_minus_two": "21/4",
+      "witness_polynomial_at_two": "101/4",
+      "quadratic_algebra_dimension": 4,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 2,
+      "partition": [
+        2,
+        2
+      ],
+      "dimension": 14,
+      "trace_index": "14",
+      "other_torus_coordinates": [
+        2
+      ],
+      "other_pair_sums": [
+        "5/2"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "-17/4",
+        "5/2",
+        "21/4"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "5/2",
+        "21/2"
+      ],
+      "witness_polynomial_at_minus_two": "-37/2",
+      "witness_polynomial_at_two": "47/2",
+      "quadratic_algebra_dimension": 2,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 2,
+      "partition": [
+        3,
+        1
+      ],
+      "dimension": 35,
+      "trace_index": "42",
+      "other_torus_coordinates": [
+        2
+      ],
+      "other_pair_sums": [
+        "5/2"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "-1",
+        "65/8",
+        "25/4",
+        "5/2"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "65/8",
+        "25/2",
+        "15/2"
+      ],
+      "witness_polynomial_at_minus_two": "105/8",
+      "witness_polynomial_at_two": "505/8",
+      "quadratic_algebra_dimension": 4,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 2,
+      "partition": [
+        4,
+        0
+      ],
+      "dimension": 35,
+      "trace_index": "56",
+      "other_torus_coordinates": [
+        2
+      ],
+      "other_pair_sums": [
+        "5/2"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "273/16",
+        "45/8",
+        "9/4",
+        "5/2",
+        "1"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "45/8",
+        "9/2",
+        "15/2",
+        "4"
+      ],
+      "witness_polynomial_at_minus_two": "-43/8",
+      "witness_polynomial_at_two": "613/8",
+      "quadratic_algebra_dimension": 6,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 2,
+      "partition": [
+        3,
+        2
+      ],
+      "dimension": 40,
+      "trace_index": "58",
+      "other_torus_coordinates": [
+        2
+      ],
+      "other_pair_sums": [
+        "5/2"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "-85/8",
+        "-17/4",
+        "105/8",
+        "21/4"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "-17/4",
+        "105/4",
+        "63/4"
+      ],
+      "witness_polynomial_at_minus_two": "25/4",
+      "witness_polynomial_at_two": "445/4",
+      "quadratic_algebra_dimension": 4,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 2,
+      "partition": [
+        4,
+        1
+      ],
+      "dimension": 64,
+      "trace_index": "112",
+      "other_torus_coordinates": [
+        2
+      ],
+      "other_pair_sums": [
+        "5/2"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "0",
+        "225/16",
+        "45/8",
+        "25/4",
+        "5/2"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "225/16",
+        "45/4",
+        "75/4",
+        "10"
+      ],
+      "witness_polynomial_at_minus_two": "-215/16",
+      "witness_polynomial_at_two": "3065/16",
+      "quadratic_algebra_dimension": 6,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 2,
+      "partition": [
+        5,
+        0
+      ],
+      "dimension": 56,
+      "trace_index": "126",
+      "other_torus_coordinates": [
+        2
+      ],
+      "other_pair_sums": [
+        "5/2"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "1105/32",
+        "221/16",
+        "25/8",
+        "5/4",
+        "5/2",
+        "1"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "221/16",
+        "25/4",
+        "15/4",
+        "10",
+        "5"
+      ],
+      "witness_polynomial_at_minus_two": "261/16",
+      "witness_polynomial_at_two": "3221/16",
+      "quadratic_algebra_dimension": 8,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 2,
+      "partition": [
+        3,
+        3
+      ],
+      "dimension": 30,
+      "trace_index": "54",
+      "other_torus_coordinates": [
+        2
+      ],
+      "other_pair_sums": [
+        "5/2"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "-17/4",
+        "-75/4",
+        "21/4",
+        "85/8"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "-75/4",
+        "21/2",
+        "255/8"
+      ],
+      "witness_polynomial_at_minus_two": "351/4",
+      "witness_polynomial_at_two": "519/4",
+      "quadratic_algebra_dimension": 4,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 2,
+      "partition": [
+        4,
+        2
+      ],
+      "dimension": 81,
+      "trace_index": "162",
+      "other_torus_coordinates": [
+        2
+      ],
+      "other_pair_sums": [
+        "5/2"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "-273/16",
+        "-105/8",
+        "189/16",
+        "105/8",
+        "21/4"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "-105/8",
+        "189/8",
+        "315/8",
+        "21"
+      ],
+      "witness_polynomial_at_minus_two": "-567/8",
+      "witness_polynomial_at_two": "2877/8",
+      "quadratic_algebra_dimension": 6,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 2,
+      "partition": [
+        5,
+        1
+      ],
+      "dimension": 105,
+      "trace_index": "252",
+      "other_torus_coordinates": [
+        2
+      ],
+      "other_pair_sums": [
+        "5/2"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "1",
+        "1105/32",
+        "125/16",
+        "25/8",
+        "25/4",
+        "5/2"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "1105/32",
+        "125/8",
+        "75/8",
+        "25",
+        "25/2"
+      ],
+      "witness_polynomial_at_minus_two": "1305/32",
+      "witness_polynomial_at_two": "16105/32",
+      "quadratic_algebra_dimension": 8,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 2,
+      "partition": [
+        6,
+        0
+      ],
+      "dimension": 84,
+      "trace_index": "252",
+      "other_torus_coordinates": [
+        2
+      ],
+      "other_pair_sums": [
+        "5/2"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "4369/64",
+        "925/32",
+        "185/16",
+        "5/8",
+        "1/4",
+        "5/2",
+        "1"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "925/32",
+        "185/8",
+        "15/8",
+        "1",
+        "25/2",
+        "6"
+      ],
+      "witness_polynomial_at_minus_two": "-315/32",
+      "witness_polynomial_at_two": "15445/32",
+      "quadratic_algebra_dimension": 10,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 3,
+      "partition": [
+        2,
+        0,
+        0
+      ],
+      "dimension": 21,
+      "trace_index": "8",
+      "other_torus_coordinates": [
+        2,
+        5
+      ],
+      "other_pair_sums": [
+        "5/2",
+        "26/5"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "4329/100",
+        "77/10",
+        "1"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "77/10",
+        "2"
+      ],
+      "witness_polynomial_at_minus_two": "37/10",
+      "witness_polynomial_at_two": "117/10",
+      "quadratic_algebra_dimension": 2,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 3,
+      "partition": [
+        2,
+        1,
+        0
+      ],
+      "dimension": 64,
+      "trace_index": "32",
+      "other_torus_coordinates": [
+        2,
+        5
+      ],
+      "other_pair_sums": [
+        "5/2",
+        "26/5"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "1001/10",
+        "5929/100",
+        "77/10"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "5929/100",
+        "77/5"
+      ],
+      "witness_polynomial_at_minus_two": "2849/100",
+      "witness_polynomial_at_two": "9009/100",
+      "quadratic_algebra_dimension": 2,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 3,
+      "partition": [
+        3,
+        0,
+        0
+      ],
+      "dimension": 56,
+      "trace_index": "36",
+      "other_torus_coordinates": [
+        2,
+        6
+      ],
+      "other_pair_sums": [
+        "5/2",
+        "37/6"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "9425/27",
+        "2005/36",
+        "26/3",
+        "1"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "2005/36",
+        "52/3",
+        "3"
+      ],
+      "witness_polynomial_at_minus_two": "1189/36",
+      "witness_polynomial_at_two": "3685/36",
+      "quadratic_algebra_dimension": 4,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 3,
+      "partition": [
+        2,
+        1,
+        1
+      ],
+      "dimension": 70,
+      "trace_index": "40",
+      "other_torus_coordinates": [
+        2,
+        5
+      ],
+      "other_pair_sums": [
+        "5/2",
+        "26/5"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "4429/100",
+        "539/5",
+        "14"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "539/5",
+        "28"
+      ],
+      "witness_polynomial_at_minus_two": "259/5",
+      "witness_polynomial_at_two": "819/5",
+      "quadratic_algebra_dimension": 2,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 3,
+      "partition": [
+        2,
+        2,
+        0
+      ],
+      "dimension": 90,
+      "trace_index": "60",
+      "other_torus_coordinates": [
+        2,
+        5
+      ],
+      "other_pair_sums": [
+        "5/2",
+        "26/5"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "6071/50",
+        "539/5",
+        "4429/100"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "539/5",
+        "4429/50"
+      ],
+      "witness_polynomial_at_minus_two": "-1734/25",
+      "witness_polynomial_at_two": "7124/25",
+      "quadratic_algebra_dimension": 2,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 3,
+      "partition": [
+        3,
+        1,
+        0
+      ],
+      "dimension": 189,
+      "trace_index": "144",
+      "other_torus_coordinates": [
+        2,
+        6
+      ],
+      "other_pair_sums": [
+        "5/2",
+        "37/6"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "369629/432",
+        "26065/54",
+        "676/9",
+        "26/3"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "26065/54",
+        "1352/9",
+        "26"
+      ],
+      "witness_polynomial_at_minus_two": "15457/54",
+      "witness_polynomial_at_two": "47905/54",
+      "quadratic_algebra_dimension": 4,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 3,
+      "partition": [
+        4,
+        0,
+        0
+      ],
+      "dimension": 126,
+      "trace_index": "120",
+      "other_torus_coordinates": [
+        2,
+        7
+      ],
+      "other_pair_sums": [
+        "5/2",
+        "50/7"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "138838121/38416",
+        "1383075/2744",
+        "13745/196",
+        "135/14",
+        "1"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "1383075/2744",
+        "13745/98",
+        "405/14",
+        "4"
+      ],
+      "witness_polynomial_at_minus_two": "843067/2744",
+      "witness_polynomial_at_two": "2558123/2744",
+      "quadratic_algebra_dimension": 6,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 3,
+      "partition": [
+        2,
+        2,
+        1
+      ],
+      "dimension": 126,
+      "trace_index": "93",
+      "other_torus_coordinates": [
+        2,
+        5
+      ],
+      "other_pair_sums": [
+        "5/2",
+        "26/5"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "77/10",
+        "209",
+        "1001/10"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "209",
+        "1001/5"
+      ],
+      "witness_polynomial_at_minus_two": "-957/5",
+      "witness_polynomial_at_two": "3047/5",
+      "quadratic_algebra_dimension": 2,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 3,
+      "partition": [
+        3,
+        1,
+        1
+      ],
+      "dimension": 216,
+      "trace_index": "180",
+      "other_torus_coordinates": [
+        2,
+        6
+      ],
+      "other_pair_sums": [
+        "5/2",
+        "37/6"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "9425/27",
+        "394985/432",
+        "2561/18",
+        "197/12"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "394985/432",
+        "2561/9",
+        "197/4"
+      ],
+      "witness_polynomial_at_minus_two": "234233/432",
+      "witness_polynomial_at_two": "725945/432",
+      "quadratic_algebra_dimension": 4,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 3,
+      "partition": [
+        3,
+        2,
+        0
+      ],
+      "dimension": 350,
+      "trace_index": "325",
+      "other_torus_coordinates": [
+        2,
+        6
+      ],
+      "other_pair_sums": [
+        "5/2",
+        "37/6"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "288509/216",
+        "56353/54",
+        "27001/54",
+        "2077/36"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "56353/54",
+        "27001/27",
+        "2077/12"
+      ],
+      "witness_polynomial_at_minus_two": "-1585/6",
+      "witness_polynomial_at_two": "201743/54",
+      "quadratic_algebra_dimension": 4,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 3,
+      "partition": [
+        4,
+        1,
+        0
+      ],
+      "dimension": 448,
+      "trace_index": "480",
+      "other_torus_coordinates": [
+        2,
+        7
+      ],
+      "other_pair_sums": [
+        "5/2",
+        "50/7"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "172884375/19208",
+        "186715125/38416",
+        "1855575/2744",
+        "18225/196",
+        "135/14"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "186715125/38416",
+        "1855575/1372",
+        "54675/196",
+        "270/7"
+      ],
+      "witness_polynomial_at_minus_two": "113814045/38416",
+      "witness_polynomial_at_two": "345346605/38416",
+      "quadratic_algebra_dimension": 6,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 3,
+      "partition": [
+        5,
+        0,
+        0
+      ],
+      "dimension": 252,
+      "trace_index": "330",
+      "other_torus_coordinates": [
+        2,
+        8
+      ],
+      "other_pair_sums": [
+        "5/2",
+        "65/8"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "1527074725/32768",
+        "23478885/4096",
+        "360485/512",
+        "5541/64",
+        "85/8",
+        "1"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "23478885/4096",
+        "360485/256",
+        "16623/64",
+        "85/2",
+        "5"
+      ],
+      "witness_polynomial_at_minus_two": "15133893/4096",
+      "witness_polynomial_at_two": "40990213/4096",
+      "quadratic_algebra_dimension": 8,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 3,
+      "partition": [
+        2,
+        2,
+        2
+      ],
+      "dimension": 84,
+      "trace_index": "72",
+      "other_torus_coordinates": [
+        2,
+        5
+      ],
+      "other_pair_sums": [
+        "5/2",
+        "26/5"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "-5321/50",
+        "1001/10",
+        "15071/100"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "1001/10",
+        "15071/50"
+      ],
+      "witness_polynomial_at_minus_two": "-25137/50",
+      "witness_polynomial_at_two": "35147/50",
+      "quadratic_algebra_dimension": 2,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 3,
+      "partition": [
+        3,
+        2,
+        1
+      ],
+      "dimension": 512,
+      "trace_index": "512",
+      "other_torus_coordinates": [
+        2,
+        6
+      ],
+      "other_pair_sums": [
+        "5/2",
+        "37/6"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "0",
+        "444925/216",
+        "31265/27",
+        "2405/18"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "444925/216",
+        "62530/27",
+        "2405/6"
+      ],
+      "witness_polynomial_at_minus_two": "-69745/72",
+      "witness_polynomial_at_two": "1791725/216",
+      "quadratic_algebra_dimension": 4,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 3,
+      "partition": [
+        3,
+        3,
+        0
+      ],
+      "dimension": 385,
+      "trace_index": "440",
+      "other_torus_coordinates": [
+        2,
+        6
+      ],
+      "other_pair_sums": [
+        "5/2",
+        "37/6"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "3229421/1728",
+        "241969/216",
+        "402077/432",
+        "9659/27"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "241969/216",
+        "402077/216",
+        "9659/9"
+      ],
+      "witness_polynomial_at_minus_two": "121693/72",
+      "witness_polynomial_at_two": "1973387/216",
+      "quadratic_algebra_dimension": 4,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 3,
+      "partition": [
+        4,
+        1,
+        1
+      ],
+      "dimension": 525,
+      "trace_index": "600",
+      "other_torus_coordinates": [
+        2,
+        7
+      ],
+      "other_pair_sums": [
+        "5/2",
+        "50/7"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "138799705/38416",
+        "45641475/4802",
+        "453585/343",
+        "8910/49",
+        "132/7"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "45641475/4802",
+        "907170/343",
+        "26730/49",
+        "528/7"
+      ],
+      "witness_polynomial_at_minus_two": "27821211/4802",
+      "witness_polynomial_at_two": "84418059/4802",
+      "quadratic_algebra_dimension": 6,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 3,
+      "partition": [
+        4,
+        2,
+        0
+      ],
+      "dimension": 924,
+      "trace_index": "1144",
+      "other_torus_coordinates": [
+        2,
+        7
+      ],
+      "other_pair_sums": [
+        "5/2",
+        "50/7"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "288635129/19208",
+        "211472505/19208",
+        "197007085/38416",
+        "1934955/2744",
+        "14333/196"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "211472505/19208",
+        "197007085/19208",
+        "5804865/2744",
+        "14333/49"
+      ],
+      "witness_polynomial_at_minus_two": "-64953733/19208",
+      "witness_polynomial_at_two": "812971183/19208",
+      "quadratic_algebra_dimension": 6,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 3,
+      "partition": [
+        5,
+        1,
+        0
+      ],
+      "dimension": 924,
+      "trace_index": "1320",
+      "other_torus_coordinates": [
+        2,
+        8
+      ],
+      "other_pair_sums": [
+        "5/2",
+        "65/8"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "7630899769/65536",
+        "1995705225/32768",
+        "30641225/4096",
+        "470985/512",
+        "7225/64",
+        "85/8"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "1995705225/32768",
+        "30641225/2048",
+        "1412955/512",
+        "7225/16",
+        "425/8"
+      ],
+      "witness_polynomial_at_minus_two": "1286380905/32768",
+      "witness_polynomial_at_two": "3484168105/32768",
+      "quadratic_algebra_dimension": 8,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 3,
+      "partition": [
+        6,
+        0,
+        0
+      ],
+      "dimension": 462,
+      "trace_index": "792",
+      "other_torus_coordinates": [
+        2,
+        9
+      ],
+      "other_pair_sums": [
+        "5/2",
+        "82/9"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "24610020170113/34012224",
+        "150049805477/1889568",
+        "914640793/104976",
+        "5570477/5832",
+        "34033/324",
+        "209/18",
+        "1"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "150049805477/1889568",
+        "914640793/52488",
+        "5570477/1944",
+        "34033/81",
+        "1045/18",
+        "6"
+      ],
+      "witness_polynomial_at_minus_two": "100894710029/1889568",
+      "witness_polynomial_at_two": "246031327517/1889568",
+      "quadratic_algebra_dimension": 10,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 4,
+      "partition": [
+        2,
+        0,
+        0,
+        0
+      ],
+      "dimension": 36,
+      "trace_index": "10",
+      "other_torus_coordinates": [
+        2,
+        5,
+        8
+      ],
+      "other_pair_sums": [
+        "5/2",
+        "26/5",
+        "65/8"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "273389/1600",
+        "633/40",
+        "1"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "633/40",
+        "2"
+      ],
+      "witness_polynomial_at_minus_two": "473/40",
+      "witness_polynomial_at_two": "793/40",
+      "quadratic_algebra_dimension": 2,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 4,
+      "partition": [
+        2,
+        1,
+        0,
+        0
+      ],
+      "dimension": 160,
+      "trace_index": "60",
+      "other_torus_coordinates": [
+        2,
+        5,
+        8
+      ],
+      "other_pair_sums": [
+        "5/2",
+        "26/5",
+        "65/8"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "697697/640",
+        "400689/1600",
+        "633/40"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "400689/1600",
+        "633/20"
+      ],
+      "witness_polynomial_at_minus_two": "299409/1600",
+      "witness_polynomial_at_two": "501969/1600",
+      "quadratic_algebra_dimension": 2,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 4,
+      "partition": [
+        3,
+        0,
+        0,
+        0
+      ],
+      "dimension": 120,
+      "trace_index": "55",
+      "other_torus_coordinates": [
+        2,
+        6,
+        10
+      ],
+      "other_pair_sums": [
+        "5/2",
+        "37/6",
+        "101/10"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "37897321/13500",
+        "109907/450",
+        "563/30",
+        "1"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "109907/450",
+        "563/15",
+        "3"
+      ],
+      "witness_polynomial_at_minus_two": "81527/450",
+      "witness_polynomial_at_two": "149087/450",
+      "quadratic_algebra_dimension": 4,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 4,
+      "partition": [
+        2,
+        1,
+        1,
+        0
+      ],
+      "dimension": 315,
+      "trace_index": "140",
+      "other_torus_coordinates": [
+        2,
+        5,
+        8
+      ],
+      "other_pair_sums": [
+        "5/2",
+        "26/5",
+        "65/8"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "3226003/1600",
+        "785553/640",
+        "1241/16"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "785553/640",
+        "1241/8"
+      ],
+      "witness_polynomial_at_minus_two": "586993/640",
+      "witness_polynomial_at_two": "984113/640",
+      "quadratic_algebra_dimension": 2,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 4,
+      "partition": [
+        2,
+        2,
+        0,
+        0
+      ],
+      "dimension": 308,
+      "trace_index": "154",
+      "other_torus_coordinates": [
+        2,
+        5,
+        8
+      ],
+      "other_pair_sums": [
+        "5/2",
+        "26/5",
+        "65/8"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "24498057/6400",
+        "141565/128",
+        "274989/1600"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "141565/128",
+        "274989/800"
+      ],
+      "witness_polynomial_at_minus_two": "1339213/3200",
+      "witness_polynomial_at_two": "5739037/3200",
+      "quadratic_algebra_dimension": 2,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 4,
+      "partition": [
+        3,
+        1,
+        0,
+        0
+      ],
+      "dimension": 594,
+      "trace_index": "330",
+      "other_torus_coordinates": [
+        2,
+        6,
+        10
+      ],
+      "other_pair_sums": [
+        "5/2",
+        "37/6",
+        "101/10"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "133296917/6000",
+        "61877641/13500",
+        "316969/900",
+        "563/30"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "61877641/13500",
+        "316969/450",
+        "563/10"
+      ],
+      "witness_polynomial_at_minus_two": "45899701/13500",
+      "witness_polynomial_at_two": "83935981/13500",
+      "quadratic_algebra_dimension": 4,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 4,
+      "partition": [
+        4,
+        0,
+        0,
+        0
+      ],
+      "dimension": 330,
+      "trace_index": "220",
+      "other_torus_coordinates": [
+        2,
+        7,
+        12
+      ],
+      "other_pair_sums": [
+        "5/2",
+        "50/7",
+        "145/12"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "2884686941635/49787136",
+        "2668269925/592704",
+        "2340139/7056",
+        "1825/84",
+        "1"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "2668269925/592704",
+        "2340139/3528",
+        "1825/28",
+        "4"
+      ],
+      "witness_polynomial_at_minus_two": "2017543093/592704",
+      "witness_polynomial_at_two": "3628049557/592704",
+      "quadratic_algebra_dimension": 6,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 4,
+      "partition": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "dimension": 288,
+      "trace_index": "140",
+      "other_torus_coordinates": [
+        2,
+        5,
+        8
+      ],
+      "other_pair_sums": [
+        "5/2",
+        "26/5",
+        "65/8"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "697697/640",
+        "1537557/800",
+        "2429/20"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "1537557/800",
+        "2429/10"
+      ],
+      "witness_polynomial_at_minus_two": "1148917/800",
+      "witness_polynomial_at_two": "1926197/800",
+      "quadratic_algebra_dimension": 2,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 4,
+      "partition": [
+        2,
+        2,
+        1,
+        0
+      ],
+      "dimension": 792,
+      "trace_index": "451",
+      "other_torus_coordinates": [
+        2,
+        5,
+        8
+      ],
+      "other_pair_sums": [
+        "5/2",
+        "26/5",
+        "65/8"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "5408809/640",
+        "1539825/256",
+        "697697/640"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "1539825/256",
+        "697697/320"
+      ],
+      "witness_polynomial_at_minus_two": "2117549/1280",
+      "witness_polynomial_at_two": "13280701/1280",
+      "quadratic_algebra_dimension": 2,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 4,
+      "partition": [
+        3,
+        1,
+        1,
+        0
+      ],
+      "dimension": 1232,
+      "trace_index": "770",
+      "other_torus_coordinates": [
+        2,
+        6,
+        10
+      ],
+      "other_pair_sums": [
+        "5/2",
+        "37/6",
+        "101/10"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "2356790863/54000",
+        "230694793/9000",
+        "1181737/600",
+        "2099/20"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "230694793/9000",
+        "1181737/300",
+        "6297/20"
+      ],
+      "witness_polynomial_at_minus_two": "171125173/9000",
+      "witness_polynomial_at_two": "312933613/9000",
+      "quadratic_algebra_dimension": 4,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 4,
+      "partition": [
+        3,
+        2,
+        0,
+        0
+      ],
+      "dimension": 1512,
+      "trace_index": "1029",
+      "other_torus_coordinates": [
+        2,
+        6,
+        10
+      ],
+      "other_pair_sums": [
+        "5/2",
+        "37/6",
+        "101/10"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "12905929283/108000",
+        "534145781/18000",
+        "62384341/13500",
+        "110807/450"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "534145781/18000",
+        "62384341/6750",
+        "110807/150"
+      ],
+      "witness_polynomial_at_minus_two": "763849967/54000",
+      "witness_polynomial_at_two": "2760148879/54000",
+      "quadratic_algebra_dimension": 4,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 4,
+      "partition": [
+        4,
+        1,
+        0,
+        0
+      ],
+      "dimension": 1728,
+      "trace_index": "1320",
+      "other_torus_coordinates": [
+        2,
+        7,
+        12
+      ],
+      "other_pair_sums": [
+        "5/2",
+        "50/7",
+        "145/12"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "281007779375/526848",
+        "4869592613125/49787136",
+        "4270753675/592704",
+        "3330625/7056",
+        "1825/84"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "4869592613125/49787136",
+        "4270753675/296352",
+        "3330625/2352",
+        "1825/21"
+      ],
+      "witness_polynomial_at_minus_two": "3682016144725/49787136",
+      "witness_polynomial_at_two": "6621190441525/49787136",
+      "quadratic_algebra_dimension": 6,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 4,
+      "partition": [
+        5,
+        0,
+        0,
+        0
+      ],
+      "dimension": 792,
+      "trace_index": "715",
+      "other_torus_coordinates": [
+        2,
+        8,
+        14
+      ],
+      "other_pair_sums": [
+        "5/2",
+        "65/8",
+        "197/14"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "809195108538679/550731776",
+        "994826358033/9834496",
+        "1192023911/175616",
+        "1358177/3136",
+        "1383/56",
+        "1"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "994826358033/9834496",
+        "1192023911/87808",
+        "4074531/3136",
+        "1383/14",
+        "5"
+      ],
+      "witness_polynomial_at_minus_two": "771938616817/9834496",
+      "witness_polynomial_at_two": "1321509452337/9834496",
+      "quadratic_algebra_dimension": 8,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 4,
+      "partition": [
+        2,
+        2,
+        1,
+        1
+      ],
+      "dimension": 792,
+      "trace_index": "484",
+      "other_torus_coordinates": [
+        2,
+        5,
+        8
+      ],
+      "other_pair_sums": [
+        "5/2",
+        "26/5",
+        "65/8"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "25591613/6400",
+        "3048189/320",
+        "1475507/800"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "3048189/320",
+        "1475507/400"
+      ],
+      "witness_polynomial_at_minus_two": "3436889/1600",
+      "witness_polynomial_at_two": "27045001/1600",
+      "quadratic_algebra_dimension": 2,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 4,
+      "partition": [
+        2,
+        2,
+        2,
+        0
+      ],
+      "dimension": 825,
+      "trace_index": "550",
+      "other_torus_coordinates": [
+        2,
+        5,
+        8
+      ],
+      "other_pair_sums": [
+        "5/2",
+        "26/5",
+        "65/8"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "28003943/3200",
+        "601865/64",
+        "25095213/6400"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "601865/64",
+        "25095213/3200"
+      ],
+      "witness_polynomial_at_minus_two": "-2512147/400",
+      "witness_polynomial_at_two": "20070919/800",
+      "quadratic_algebra_dimension": 2,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 4,
+      "partition": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "dimension": 1155,
+      "trace_index": "770",
+      "other_torus_coordinates": [
+        2,
+        6,
+        10
+      ],
+      "other_pair_sums": [
+        "5/2",
+        "37/6",
+        "101/10"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "133302917/6000",
+        "767040953/18000",
+        "3929177/1200",
+        "6979/40"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "767040953/18000",
+        "3929177/600",
+        "20937/40"
+      ],
+      "witness_polynomial_at_minus_two": "568976933/18000",
+      "witness_polynomial_at_two": "1040478173/18000",
+      "quadratic_algebra_dimension": 4,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 4,
+      "partition": [
+        3,
+        2,
+        1,
+        0
+      ],
+      "dimension": 4096,
+      "trace_index": "3072",
+      "other_torus_coordinates": [
+        2,
+        6,
+        10
+      ],
+      "other_pair_sums": [
+        "5/2",
+        "37/6",
+        "101/10"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "20744087/75",
+        "22859018/125",
+        "12500852/375",
+        "44408/25"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "22859018/125",
+        "25001704/375",
+        "133224/25"
+      ],
+      "witness_polynomial_at_minus_two": "26567086/375",
+      "witness_polynomial_at_two": "126573902/375",
+      "quadratic_algebra_dimension": 4,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 4,
+      "partition": [
+        3,
+        3,
+        0,
+        0
+      ],
+      "dimension": 2184,
+      "trace_index": "1820",
+      "other_torus_coordinates": [
+        2,
+        6,
+        10
+      ],
+      "other_pair_sums": [
+        "5/2",
+        "37/6",
+        "101/10"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "3324517391/7200",
+        "18954953/160",
+        "406230131/18000",
+        "38150671/13500"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "18954953/160",
+        "406230131/9000",
+        "38150671/4500"
+      ],
+      "witness_polynomial_at_minus_two": "2235844849/36000",
+      "witness_polynomial_at_two": "194122821/800",
+      "quadratic_algebra_dimension": 4,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 4,
+      "partition": [
+        4,
+        1,
+        1,
+        0
+      ],
+      "dimension": 3696,
+      "trace_index": "3080",
+      "other_torus_coordinates": [
+        2,
+        7,
+        12
+      ],
+      "other_pair_sums": [
+        "5/2",
+        "50/7",
+        "145/12"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "54131567125351/49787136",
+        "2911082488175/4741632",
+        "2553091649/56448",
+        "1991075/672",
+        "1091/8"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "2911082488175/4741632",
+        "2553091649/28224",
+        "1991075/224",
+        "1091/2"
+      ],
+      "witness_polynomial_at_minus_two": "2201139514463/4741632",
+      "witness_polynomial_at_two": "3958202066687/4741632",
+      "quadratic_algebra_dimension": 6,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 4,
+      "partition": [
+        4,
+        2,
+        0,
+        0
+      ],
+      "dimension": 4914,
+      "trace_index": "4368",
+      "other_torus_coordinates": [
+        2,
+        7,
+        12
+      ],
+      "other_pair_sums": [
+        "5/2",
+        "50/7",
+        "145/12"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "722640913688755/199148544",
+        "3703730766425/4741632",
+        "5525786601673/49787136",
+        "4309385275/592704",
+        "2361307/7056"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "3703730766425/4741632",
+        "5525786601673/24893568",
+        "4309385275/197568",
+        "2361307/1764"
+      ],
+      "witness_polynomial_at_minus_two": "41193445535653/99574272",
+      "witness_polynomial_at_two": "131738688082997/99574272",
+      "quadratic_algebra_dimension": 6,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 4,
+      "partition": [
+        5,
+        1,
+        0,
+        0
+      ],
+      "dimension": 4290,
+      "trace_index": "4290",
+      "other_torus_coordinates": [
+        2,
+        8,
+        14
+      ],
+      "other_pair_sums": [
+        "5/2",
+        "65/8",
+        "197/14"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "2098083384896685/137682944",
+        "1375844853159639/550731776",
+        "1648569068913/9834496",
+        "1878358791/175616",
+        "1912689/3136",
+        "1383/56"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "1375844853159639/550731776",
+        "1648569068913/4917248",
+        "5635076373/175616",
+        "1912689/784",
+        "6915/56"
+      ],
+      "witness_polynomial_at_minus_two": "1067591107057911/550731776",
+      "witness_polynomial_at_two": "1827647572582071/550731776",
+      "quadratic_algebra_dimension": 8,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 4,
+      "partition": [
+        6,
+        0,
+        0,
+        0
+      ],
+      "dimension": 1716,
+      "trace_index": "2002",
+      "other_torus_coordinates": [
+        2,
+        9,
+        16
+      ],
+      "other_pair_sums": [
+        "5/2",
+        "82/9",
+        "257/16"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "397837987557116325625/8916100448256",
+        "169245679857869425/61917364224",
+        "71071641841705/429981696",
+        "29127050785/2985984",
+        "11374681/20736",
+        "3985/144",
+        "1"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "169245679857869425/61917364224",
+        "71071641841705/214990848",
+        "29127050785/995328",
+        "11374681/5184",
+        "19925/144",
+        "6"
+      ],
+      "witness_polynomial_at_minus_two": "134594478793658929/61917364224",
+      "witness_polynomial_at_two": "218666521853315761/61917364224",
+      "quadratic_algebra_dimension": 10,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 5,
+      "partition": [
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "dimension": 55,
+      "trace_index": "12",
+      "other_torus_coordinates": [
+        2,
+        5,
+        8,
+        11
+      ],
+      "other_pair_sums": [
+        "5/2",
+        "26/5",
+        "65/8",
+        "122/11"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "90680309/193600",
+        "11843/440",
+        "1"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "11843/440",
+        "2"
+      ],
+      "witness_polynomial_at_minus_two": "10083/440",
+      "witness_polynomial_at_two": "13603/440",
+      "quadratic_algebra_dimension": 2,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 5,
+      "partition": [
+        2,
+        1,
+        0,
+        0,
+        0
+      ],
+      "dimension": 320,
+      "trace_index": "96",
+      "other_torus_coordinates": [
+        2,
+        5,
+        8,
+        11
+      ],
+      "other_pair_sums": [
+        "5/2",
+        "26/5",
+        "65/8",
+        "122/11"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "2251281721/387200",
+        "140256649/193600",
+        "11843/440"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "140256649/193600",
+        "11843/220"
+      ],
+      "witness_polynomial_at_minus_two": "119412969/193600",
+      "witness_polynomial_at_two": "161100329/193600",
+      "quadratic_algebra_dimension": 2,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 5,
+      "partition": [
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "dimension": 220,
+      "trace_index": "78",
+      "other_torus_coordinates": [
+        2,
+        6,
+        10,
+        14
+      ],
+      "other_pair_sums": [
+        "5/2",
+        "37/6",
+        "101/10",
+        "197/14"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "14717182642/1157625",
+        "15552233/22050",
+        "3448/105",
+        "1"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "15552233/22050",
+        "6896/105",
+        "3"
+      ],
+      "witness_polynomial_at_minus_two": "12920513/22050",
+      "witness_polynomial_at_two": "18713153/22050",
+      "quadratic_algebra_dimension": 4,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 5,
+      "partition": [
+        2,
+        1,
+        1,
+        0,
+        0
+      ],
+      "dimension": 891,
+      "trace_index": "324",
+      "other_torus_coordinates": [
+        2,
+        5,
+        8,
+        11
+      ],
+      "other_pair_sums": [
+        "5/2",
+        "26/5",
+        "65/8",
+        "122/11"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "4963854987/193600",
+        "2647940841/387200",
+        "223587/880"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "2647940841/387200",
+        "223587/440"
+      ],
+      "witness_polynomial_at_minus_two": "2254427721/387200",
+      "witness_polynomial_at_two": "3041453961/387200",
+      "quadratic_algebra_dimension": 2,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 5,
+      "partition": [
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "dimension": 780,
+      "trace_index": "312",
+      "other_torus_coordinates": [
+        2,
+        5,
+        8,
+        11
+      ],
+      "other_pair_sums": [
+        "5/2",
+        "26/5",
+        "65/8",
+        "122/11"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "1146762273/30976",
+        "2261703561/387200",
+        "90873909/193600"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "2261703561/387200",
+        "90873909/96800"
+      ],
+      "witness_polynomial_at_minus_two": "139519299/35200",
+      "witness_polynomial_at_two": "2988694833/387200",
+      "quadratic_algebra_dimension": 2,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 5,
+      "partition": [
+        3,
+        1,
+        0,
+        0,
+        0
+      ],
+      "dimension": 1430,
+      "trace_index": "624",
+      "other_torus_coordinates": [
+        2,
+        6,
+        10,
+        14
+      ],
+      "other_pair_sums": [
+        "5/2",
+        "37/6",
+        "101/10",
+        "197/14"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "771866816681/3704400",
+        "26812049692/1157625",
+        "11888704/11025",
+        "3448/105"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "26812049692/1157625",
+        "23777408/11025",
+        "3448/35"
+      ],
+      "witness_polynomial_at_minus_two": "22274964412/1157625",
+      "witness_polynomial_at_two": "32261475772/1157625",
+      "quadratic_algebra_dimension": 4,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 5,
+      "partition": [
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      "dimension": 715,
+      "trace_index": "364",
+      "other_torus_coordinates": [
+        2,
+        7,
+        12,
+        17
+      ],
+      "other_pair_sums": [
+        "5/2",
+        "50/7",
+        "145/12",
+        "290/17"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "1758076362233898715/4158271385856",
+        "62336932797245/2911954752",
+        "2023439587/2039184",
+        "55385/1428",
+        "1"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "62336932797245/2911954752",
+        "2023439587/1019592",
+        "55385/476",
+        "4"
+      ],
+      "witness_polynomial_at_minus_two": "52041145794317/2911954752",
+      "witness_polynomial_at_two": "75343284740333/2911954752",
+      "quadratic_algebra_dimension": 6,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 5,
+      "partition": [
+        5,
+        0,
+        0,
+        0,
+        0
+      ],
+      "dimension": 2002,
+      "trace_index": "1365",
+      "other_torus_coordinates": [
+        2,
+        8,
+        14,
+        20
+      ],
+      "other_pair_sums": [
+        "5/2",
+        "65/8",
+        "197/14",
+        "401/20"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "29110890047690893189/1721036800000",
+        "4737064423102551/6146560000",
+        "733517300109/21952000",
+        "104213831/78400",
+        "12529/280",
+        "1"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "4737064423102551/6146560000",
+        "733517300109/10976000",
+        "312641493/78400",
+        "12529/70",
+        "5"
+      ],
+      "witness_polynomial_at_minus_two": "4005259972529271/6146560000",
+      "witness_polynomial_at_two": "5665941067685431/6146560000",
+      "quadratic_algebra_dimension": 8,
+      "image_collision": "y_1=0"
+    },
+    {
+      "n": 5,
+      "partition": [
+        6,
+        0,
+        0,
+        0,
+        0
+      ],
+      "dimension": 5005,
+      "trace_index": "4368",
+      "other_torus_coordinates": [
+        2,
+        9,
+        16,
+        23
+      ],
+      "other_pair_sums": [
+        "5/2",
+        "82/9",
+        "257/16",
+        "530/23"
+      ],
+      "trials": 1,
+      "character_slice_coefficients_ascending": [
+        "1052795836507524359625342734473/1319902856270875459584",
+        "13025686971351166529755175/398521393801592832",
+        "156449975969547087913/120326507790336",
+        "1790190536906375/36330467328",
+        "18826088905/10969344",
+        "167975/3312",
+        "1"
+      ],
+      "witness_polynomial_coefficients_ascending": [
+        "13025686971351166529755175/398521393801592832",
+        "156449975969547087913/60163253895168",
+        "1790190536906375/12110155776",
+        "18826088905/2742336",
+        "839875/3312",
+        "6"
+      ],
+      "witness_polynomial_at_minus_two": "11168337971657063990977127/398521393801592832",
+      "witness_polynomial_at_two": "15357563046065539494901223/398521393801592832",
+      "quadratic_algebra_dimension": 10,
+      "image_collision": "y_1=0"
+    }
+  ],
+  "Sp4_adjoint_example": {
+    "first_pair_sum": "-5/4",
+    "second_torus_coordinate": "2",
+    "second_image_coordinate": "15/32"
+  },
+  "runtime_API_changed": false,
+  "novelty_claim": false,
+  "scope": "Exact finite independent corroboration; not an extrapolation proof, external review, degree or integral-image classification.",
+  "source_sha256": {
+    "TYPE_C_REGULARITY.md": "e63c653ad8fae8ee46e988674107b9ddbe95d3736bfa06aad39ff5410e39c5e7",
+    "tools/verify_type_c_regularity.py": "8e4cf0a848fd2cebf687c70a54514c8000bdc9ae3da9466350ee8d7ad4673338",
+    "TYPE_C_FUNDAMENTAL_REGULARITY.md": "6b9ccd58c411fbdf03ce9cbf096e26e788bc6ff9d4897673623a0ebc18f6fd13",
+    "type-c-fundamental-regularity-verification.json": "3fcf237f6cb0803781fd39d8c844552a7e6df52c97e5eb3136e5ea4b59946656"
+  }
+}

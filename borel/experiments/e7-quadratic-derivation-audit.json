@@ -1,0 +1,156 @@
+{
+  "result": "passed",
+  "maximum_degree": 13,
+  "uniform_family_maximum_degree": 10,
+  "uniform_family_size": 112,
+  "primitive_relation_odd_valuations": {
+    "6": 2,
+    "8": 1,
+    "10": 2,
+    "12": 2
+  },
+  "lattice_checks": [
+    {
+      "omitted_node": 2,
+      "odd_index": 7,
+      "quadratic_integral": true,
+      "canonical_derivative": true
+    },
+    {
+      "omitted_node": 5,
+      "odd_index": 15,
+      "quadratic_integral": true,
+      "canonical_derivative": true
+    },
+    {
+      "omitted_node": 7,
+      "odd_index": 3,
+      "quadratic_integral": true,
+      "canonical_derivative": true
+    }
+  ],
+  "engine": "Plain Python 27-form integer moments, NumPy 2^64 congruences and own bit elimination; SymPy only for lattice matrices; no Sage or project imports",
+  "degrees": [
+    {
+      "degree": 0,
+      "kernel_rank": 0,
+      "even_projection_rank": 0,
+      "odd_projection_rank": 0,
+      "derivative_preserves_full_kernel": true,
+      "minimum_exact_binary_precision": 64
+    },
+    {
+      "degree": 1,
+      "kernel_rank": 0,
+      "even_projection_rank": 0,
+      "odd_projection_rank": 0,
+      "derivative_preserves_full_kernel": true,
+      "minimum_exact_binary_precision": 64
+    },
+    {
+      "degree": 2,
+      "kernel_rank": 0,
+      "even_projection_rank": 0,
+      "odd_projection_rank": 0,
+      "derivative_preserves_full_kernel": true,
+      "minimum_exact_binary_precision": 64
+    },
+    {
+      "degree": 3,
+      "kernel_rank": 0,
+      "even_projection_rank": 0,
+      "odd_projection_rank": 0,
+      "derivative_preserves_full_kernel": true,
+      "minimum_exact_binary_precision": 64
+    },
+    {
+      "degree": 4,
+      "kernel_rank": 0,
+      "even_projection_rank": 0,
+      "odd_projection_rank": 0,
+      "derivative_preserves_full_kernel": true,
+      "minimum_exact_binary_precision": 64
+    },
+    {
+      "degree": 5,
+      "kernel_rank": 0,
+      "even_projection_rank": 0,
+      "odd_projection_rank": 0,
+      "derivative_preserves_full_kernel": true,
+      "minimum_exact_binary_precision": 64
+    },
+    {
+      "degree": 6,
+      "kernel_rank": 1,
+      "even_projection_rank": 1,
+      "odd_projection_rank": 0,
+      "derivative_preserves_full_kernel": true,
+      "minimum_exact_binary_precision": 64
+    },
+    {
+      "degree": 7,
+      "kernel_rank": 7,
+      "even_projection_rank": 6,
+      "odd_projection_rank": 1,
+      "derivative_preserves_full_kernel": true,
+      "minimum_exact_binary_precision": 64
+    },
+    {
+      "degree": 8,
+      "kernel_rank": 28,
+      "even_projection_rank": 22,
+      "odd_projection_rank": 6,
+      "derivative_preserves_full_kernel": true,
+      "minimum_exact_binary_precision": 64
+    },
+    {
+      "degree": 9,
+      "kernel_rank": 84,
+      "even_projection_rank": 62,
+      "odd_projection_rank": 22,
+      "derivative_preserves_full_kernel": true,
+      "minimum_exact_binary_precision": 64
+    },
+    {
+      "degree": 10,
+      "kernel_rank": 210,
+      "even_projection_rank": 148,
+      "odd_projection_rank": 62,
+      "derivative_preserves_full_kernel": true,
+      "minimum_exact_binary_precision": 64
+    },
+    {
+      "degree": 11,
+      "kernel_rank": 462,
+      "even_projection_rank": 314,
+      "odd_projection_rank": 148,
+      "derivative_preserves_full_kernel": true,
+      "minimum_exact_binary_precision": 63
+    },
+    {
+      "degree": 12,
+      "kernel_rank": 924,
+      "even_projection_rank": 610,
+      "odd_projection_rank": 314,
+      "derivative_preserves_full_kernel": true,
+      "minimum_exact_binary_precision": 63
+    },
+    {
+      "degree": 13,
+      "kernel_rank": 1716,
+      "even_projection_rank": 1106,
+      "odd_projection_rank": 610,
+      "derivative_preserves_full_kernel": true,
+      "minimum_exact_binary_precision": 63
+    }
+  ],
+  "seconds": 33.704,
+  "scope": "Fresh 27-form weight construction, replayed exact saturation witnesses and derivative membership in the primitive kernel, degrees 0..13; no relative multiplicity input. Lattice splitting, primitive relation parity and unique unsaturated relation multiples through 10 certify the uniform invariant-source argument in the note.",
+  "source_sha256": {
+    "experiments/audit_e7_quadratic_derivation.py": "ecf0e9054c8873ad04f2d33afb2488256458d6ffa68da6531174581bae6daba2",
+    "experiments/e7-quadratic-derivation.json": "7047d542f2aead10a347343a98dcacfd61914e9f88b7ecd77cf5b07b1461addd"
+  },
+  "raw_sha256": {
+    "experiments/e7-quadratic-derivation-certificates.json.gz": "cf65b5ee8ddd8f27bdfd32c0d1d3a6a85bc5c86f922ab703a8b723c98e41a1f5"
+  }
+}

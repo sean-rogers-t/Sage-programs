@@ -1,0 +1,655 @@
+{
+  "result": "passed",
+  "date": "2026-10-22",
+  "sage_version": "9.5",
+  "theorem": "deg(theta_(S tensor m))=2*floor(N/2)*m for Spin_N(C), N>=3",
+  "even_dimension_representation": "full spin S+ direct-sum S-, not a single half-spin",
+  "odd_dimension_representation": "irreducible spin; KM uses two equivalent copies",
+  "finite_flat_over_explicit_open": true,
+  "even_power_SO_degree": "floor(N/2)*m",
+  "scalar_fiber_cases": 48,
+  "independent_weight_fiber_cases": 16,
+  "original_Spin_Laurent_Groebner_fibers": 11,
+  "original_SO_Laurent_Groebner_fibers": 5,
+  "scalar_fibers": [
+    {
+      "rank": 1,
+      "tensor_power": 1,
+      "degree": 2,
+      "squarefree": true,
+      "zero_root_excluded": true
+    },
+    {
+      "rank": 1,
+      "tensor_power": 2,
+      "degree": 4,
+      "squarefree": true,
+      "zero_root_excluded": true
+    },
+    {
+      "rank": 1,
+      "tensor_power": 3,
+      "degree": 6,
+      "squarefree": true,
+      "zero_root_excluded": true
+    },
+    {
+      "rank": 1,
+      "tensor_power": 4,
+      "degree": 8,
+      "squarefree": true,
+      "zero_root_excluded": true
+    },
+    {
+      "rank": 1,
+      "tensor_power": 5,
+      "degree": 10,
+      "squarefree": true,
+      "zero_root_excluded": true
+    },
+    {
+      "rank": 1,
+      "tensor_power": 6,
+      "degree": 12,
+      "squarefree": true,
+      "zero_root_excluded": true
+    },
+    {
+      "rank": 2,
+      "tensor_power": 1,
+      "degree": 4,
+      "squarefree": true,
+      "zero_root_excluded": true
+    },
+    {
+      "rank": 2,
+      "tensor_power": 2,
+      "degree": 8,
+      "squarefree": true,
+      "zero_root_excluded": true
+    },
+    {
+      "rank": 2,
+      "tensor_power": 3,
+      "degree": 12,
+      "squarefree": true,
+      "zero_root_excluded": true
+    },
+    {
+      "rank": 2,
+      "tensor_power": 4,
+      "degree": 16,
+      "squarefree": true,
+      "zero_root_excluded": true
+    },
+    {
+      "rank": 2,
+      "tensor_power": 5,
+      "degree": 20,
+      "squarefree": true,
+      "zero_root_excluded": true
+    },
+    {
+      "rank": 2,
+      "tensor_power": 6,
+      "degree": 24,
+      "squarefree": true,
+      "zero_root_excluded": true
+    },
+    {
+      "rank": 3,
+      "tensor_power": 1,
+      "degree": 6,
+      "squarefree": true,
+      "zero_root_excluded": true
+    },
+    {
+      "rank": 3,
+      "tensor_power": 2,
+      "degree": 12,
+      "squarefree": true,
+      "zero_root_excluded": true
+    },
+    {
+      "rank": 3,
+      "tensor_power": 3,
+      "degree": 18,
+      "squarefree": true,
+      "zero_root_excluded": true
+    },
+    {
+      "rank": 3,
+      "tensor_power": 4,
+      "degree": 24,
+      "squarefree": true,
+      "zero_root_excluded": true
+    },
+    {
+      "rank": 3,
+      "tensor_power": 5,
+      "degree": 30,
+      "squarefree": true,
+      "zero_root_excluded": true
+    },
+    {
+      "rank": 3,
+      "tensor_power": 6,
+      "degree": 36,
+      "squarefree": true,
+      "zero_root_excluded": true
+    },
+    {
+      "rank": 4,
+      "tensor_power": 1,
+      "degree": 8,
+      "squarefree": true,
+      "zero_root_excluded": true
+    },
+    {
+      "rank": 4,
+      "tensor_power": 2,
+      "degree": 16,
+      "squarefree": true,
+      "zero_root_excluded": true
+    },
+    {
+      "rank": 4,
+      "tensor_power": 3,
+      "degree": 24,
+      "squarefree": true,
+      "zero_root_excluded": true
+    },
+    {
+      "rank": 4,
+      "tensor_power": 4,
+      "degree": 32,
+      "squarefree": true,
+      "zero_root_excluded": true
+    },
+    {
+      "rank": 4,
+      "tensor_power": 5,
+      "degree": 40,
+      "squarefree": true,
+      "zero_root_excluded": true
+    },
+    {
+      "rank": 4,
+      "tensor_power": 6,
+      "degree": 48,
+      "squarefree": true,
+      "zero_root_excluded": true
+    },
+    {
+      "rank": 5,
+      "tensor_power": 1,
+      "degree": 10,
+      "squarefree": true,
+      "zero_root_excluded": true
+    },
+    {
+      "rank": 5,
+      "tensor_power": 2,
+      "degree": 20,
+      "squarefree": true,
+      "zero_root_excluded": true
+    },
+    {
+      "rank": 5,
+      "tensor_power": 3,
+      "degree": 30,
+      "squarefree": true,
+      "zero_root_excluded": true
+    },
+    {
+      "rank": 5,
+      "tensor_power": 4,
+      "degree": 40,
+      "squarefree": true,
+      "zero_root_excluded": true
+    },
+    {
+      "rank": 5,
+      "tensor_power": 5,
+      "degree": 50,
+      "squarefree": true,
+      "zero_root_excluded": true
+    },
+    {
+      "rank": 5,
+      "tensor_power": 6,
+      "degree": 60,
+      "squarefree": true,
+      "zero_root_excluded": true
+    },
+    {
+      "rank": 6,
+      "tensor_power": 1,
+      "degree": 12,
+      "squarefree": true,
+      "zero_root_excluded": true
+    },
+    {
+      "rank": 6,
+      "tensor_power": 2,
+      "degree": 24,
+      "squarefree": true,
+      "zero_root_excluded": true
+    },
+    {
+      "rank": 6,
+      "tensor_power": 3,
+      "degree": 36,
+      "squarefree": true,
+      "zero_root_excluded": true
+    },
+    {
+      "rank": 6,
+      "tensor_power": 4,
+      "degree": 48,
+      "squarefree": true,
+      "zero_root_excluded": true
+    },
+    {
+      "rank": 6,
+      "tensor_power": 5,
+      "degree": 60,
+      "squarefree": true,
+      "zero_root_excluded": true
+    },
+    {
+      "rank": 6,
+      "tensor_power": 6,
+      "degree": 72,
+      "squarefree": true,
+      "zero_root_excluded": true
+    },
+    {
+      "rank": 7,
+      "tensor_power": 1,
+      "degree": 14,
+      "squarefree": true,
+      "zero_root_excluded": true
+    },
+    {
+      "rank": 7,
+      "tensor_power": 2,
+      "degree": 28,
+      "squarefree": true,
+      "zero_root_excluded": true
+    },
+    {
+      "rank": 7,
+      "tensor_power": 3,
+      "degree": 42,
+      "squarefree": true,
+      "zero_root_excluded": true
+    },
+    {
+      "rank": 7,
+      "tensor_power": 4,
+      "degree": 56,
+      "squarefree": true,
+      "zero_root_excluded": true
+    },
+    {
+      "rank": 7,
+      "tensor_power": 5,
+      "degree": 70,
+      "squarefree": true,
+      "zero_root_excluded": true
+    },
+    {
+      "rank": 7,
+      "tensor_power": 6,
+      "degree": 84,
+      "squarefree": true,
+      "zero_root_excluded": true
+    },
+    {
+      "rank": 8,
+      "tensor_power": 1,
+      "degree": 16,
+      "squarefree": true,
+      "zero_root_excluded": true
+    },
+    {
+      "rank": 8,
+      "tensor_power": 2,
+      "degree": 32,
+      "squarefree": true,
+      "zero_root_excluded": true
+    },
+    {
+      "rank": 8,
+      "tensor_power": 3,
+      "degree": 48,
+      "squarefree": true,
+      "zero_root_excluded": true
+    },
+    {
+      "rank": 8,
+      "tensor_power": 4,
+      "degree": 64,
+      "squarefree": true,
+      "zero_root_excluded": true
+    },
+    {
+      "rank": 8,
+      "tensor_power": 5,
+      "degree": 80,
+      "squarefree": true,
+      "zero_root_excluded": true
+    },
+    {
+      "rank": 8,
+      "tensor_power": 6,
+      "degree": 96,
+      "squarefree": true,
+      "zero_root_excluded": true
+    }
+  ],
+  "independent_weight_fibers": [
+    {
+      "rank": 1,
+      "tensor_power": 1,
+      "dimension": 2,
+      "weight_count": 2,
+      "fiber_algebra_dimension": 2,
+      "trace_and_cover_verified": true,
+      "central_parity_verified": true
+    },
+    {
+      "rank": 1,
+      "tensor_power": 2,
+      "dimension": 4,
+      "weight_count": 3,
+      "fiber_algebra_dimension": 4,
+      "trace_and_cover_verified": true,
+      "central_parity_verified": true
+    },
+    {
+      "rank": 1,
+      "tensor_power": 3,
+      "dimension": 8,
+      "weight_count": 4,
+      "fiber_algebra_dimension": 6,
+      "trace_and_cover_verified": true,
+      "central_parity_verified": true
+    },
+    {
+      "rank": 1,
+      "tensor_power": 4,
+      "dimension": 16,
+      "weight_count": 5,
+      "fiber_algebra_dimension": 8,
+      "trace_and_cover_verified": true,
+      "central_parity_verified": true
+    },
+    {
+      "rank": 2,
+      "tensor_power": 1,
+      "dimension": 4,
+      "weight_count": 4,
+      "fiber_algebra_dimension": 4,
+      "trace_and_cover_verified": true,
+      "central_parity_verified": true
+    },
+    {
+      "rank": 2,
+      "tensor_power": 2,
+      "dimension": 16,
+      "weight_count": 9,
+      "fiber_algebra_dimension": 8,
+      "trace_and_cover_verified": true,
+      "central_parity_verified": true
+    },
+    {
+      "rank": 2,
+      "tensor_power": 3,
+      "dimension": 64,
+      "weight_count": 16,
+      "fiber_algebra_dimension": 12,
+      "trace_and_cover_verified": true,
+      "central_parity_verified": true
+    },
+    {
+      "rank": 2,
+      "tensor_power": 4,
+      "dimension": 256,
+      "weight_count": 25,
+      "fiber_algebra_dimension": 16,
+      "trace_and_cover_verified": true,
+      "central_parity_verified": true
+    },
+    {
+      "rank": 3,
+      "tensor_power": 1,
+      "dimension": 8,
+      "weight_count": 8,
+      "fiber_algebra_dimension": 6,
+      "trace_and_cover_verified": true,
+      "central_parity_verified": true
+    },
+    {
+      "rank": 3,
+      "tensor_power": 2,
+      "dimension": 64,
+      "weight_count": 27,
+      "fiber_algebra_dimension": 12,
+      "trace_and_cover_verified": true,
+      "central_parity_verified": true
+    },
+    {
+      "rank": 3,
+      "tensor_power": 3,
+      "dimension": 512,
+      "weight_count": 64,
+      "fiber_algebra_dimension": 18,
+      "trace_and_cover_verified": true,
+      "central_parity_verified": true
+    },
+    {
+      "rank": 3,
+      "tensor_power": 4,
+      "dimension": 4096,
+      "weight_count": 125,
+      "fiber_algebra_dimension": 24,
+      "trace_and_cover_verified": true,
+      "central_parity_verified": true
+    },
+    {
+      "rank": 4,
+      "tensor_power": 1,
+      "dimension": 16,
+      "weight_count": 16,
+      "fiber_algebra_dimension": 8,
+      "trace_and_cover_verified": true,
+      "central_parity_verified": true
+    },
+    {
+      "rank": 4,
+      "tensor_power": 2,
+      "dimension": 256,
+      "weight_count": 81,
+      "fiber_algebra_dimension": 16,
+      "trace_and_cover_verified": true,
+      "central_parity_verified": true
+    },
+    {
+      "rank": 4,
+      "tensor_power": 3,
+      "dimension": 4096,
+      "weight_count": 256,
+      "fiber_algebra_dimension": 24,
+      "trace_and_cover_verified": true,
+      "central_parity_verified": true
+    },
+    {
+      "rank": 4,
+      "tensor_power": 4,
+      "dimension": 65536,
+      "weight_count": 625,
+      "fiber_algebra_dimension": 32,
+      "trace_and_cover_verified": true,
+      "central_parity_verified": true
+    }
+  ],
+  "original_Spin_fibers": [
+    {
+      "rank": 1,
+      "tensor_power": 1,
+      "group": "Spin",
+      "torus_fiber_length": 2,
+      "Groebner_basis_size": 3,
+      "saturation": "torus coordinates only",
+      "coefficient_field": "QQ"
+    },
+    {
+      "rank": 1,
+      "tensor_power": 2,
+      "group": "Spin",
+      "torus_fiber_length": 4,
+      "Groebner_basis_size": 6,
+      "saturation": "torus coordinates only",
+      "coefficient_field": "QQ"
+    },
+    {
+      "rank": 1,
+      "tensor_power": 3,
+      "group": "Spin",
+      "torus_fiber_length": 6,
+      "Groebner_basis_size": 6,
+      "saturation": "torus coordinates only",
+      "coefficient_field": "QQ"
+    },
+    {
+      "rank": 1,
+      "tensor_power": 4,
+      "group": "Spin",
+      "torus_fiber_length": 8,
+      "Groebner_basis_size": 6,
+      "saturation": "torus coordinates only",
+      "coefficient_field": "QQ"
+    },
+    {
+      "rank": 2,
+      "tensor_power": 1,
+      "group": "Spin",
+      "torus_fiber_length": 4,
+      "Groebner_basis_size": 4,
+      "saturation": "torus coordinates only",
+      "coefficient_field": "QQ"
+    },
+    {
+      "rank": 2,
+      "tensor_power": 2,
+      "group": "Spin",
+      "torus_fiber_length": 8,
+      "Groebner_basis_size": 10,
+      "saturation": "torus coordinates only",
+      "coefficient_field": "QQ"
+    },
+    {
+      "rank": 2,
+      "tensor_power": 3,
+      "group": "Spin",
+      "torus_fiber_length": 12,
+      "Groebner_basis_size": 13,
+      "saturation": "torus coordinates only",
+      "coefficient_field": "QQ"
+    },
+    {
+      "rank": 2,
+      "tensor_power": 4,
+      "group": "Spin",
+      "torus_fiber_length": 16,
+      "Groebner_basis_size": 14,
+      "saturation": "torus coordinates only",
+      "coefficient_field": "QQ"
+    },
+    {
+      "rank": 3,
+      "tensor_power": 1,
+      "group": "Spin",
+      "torus_fiber_length": 6,
+      "Groebner_basis_size": 11,
+      "saturation": "torus coordinates only",
+      "coefficient_field": "QQ"
+    },
+    {
+      "rank": 3,
+      "tensor_power": 2,
+      "group": "Spin",
+      "torus_fiber_length": 12,
+      "Groebner_basis_size": 15,
+      "saturation": "torus coordinates only",
+      "coefficient_field": "QQ"
+    },
+    {
+      "rank": 4,
+      "tensor_power": 1,
+      "group": "Spin",
+      "torus_fiber_length": 8,
+      "Groebner_basis_size": 16,
+      "saturation": "torus coordinates only",
+      "coefficient_field": "QQ"
+    }
+  ],
+  "original_SO_fibers": [
+    {
+      "rank": 1,
+      "tensor_power": 2,
+      "group": "SO",
+      "torus_fiber_length": 2,
+      "Groebner_basis_size": 2,
+      "saturation": "torus coordinates only",
+      "coefficient_field": "QQ"
+    },
+    {
+      "rank": 1,
+      "tensor_power": 4,
+      "group": "SO",
+      "torus_fiber_length": 4,
+      "Groebner_basis_size": 3,
+      "saturation": "torus coordinates only",
+      "coefficient_field": "QQ"
+    },
+    {
+      "rank": 2,
+      "tensor_power": 2,
+      "group": "SO",
+      "torus_fiber_length": 4,
+      "Groebner_basis_size": 6,
+      "saturation": "torus coordinates only",
+      "coefficient_field": "QQ"
+    },
+    {
+      "rank": 2,
+      "tensor_power": 4,
+      "group": "SO",
+      "torus_fiber_length": 8,
+      "Groebner_basis_size": 7,
+      "saturation": "torus coordinates only",
+      "coefficient_field": "QQ"
+    },
+    {
+      "rank": 3,
+      "tensor_power": 2,
+      "group": "SO",
+      "torus_fiber_length": 6,
+      "Groebner_basis_size": 10,
+      "saturation": "torus coordinates only",
+      "coefficient_field": "QQ"
+    }
+  ],
+  "novelty_claim": false,
+  "externally_reviewed": false,
+  "runtime_API_changed": false,
+  "scope": "Finite exact corroboration of a separate uniform proof from KM formulas. No single-half-spin, minimum-degree or global-finiteness claim.",
+  "source_sha256": {
+    "SPIN_CAYLEY_DEGREES.md": "b38d93a60bed0c20ab7147e53aac2805644f8fcc49f04445a002edfca3a6ad67",
+    "tools/verify_spin_cayley_degree.py": "4fc0d8fd0607f6271291dd3b47e1ecaa3b0acba648b5ac68cc0f369324509b25",
+    "tools/monomial_staircase.py": "3750c1f52486bc126d9d3e95add55457ac1c474fad596b68db18f7f120c99793"
+  }
+}

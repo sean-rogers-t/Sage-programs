@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-29",
+  "result": "passed",
+  "pdf": "output/pdf/Springer_Borel_Cayley_Research_Statement.pdf",
+  "pdf_sha256": "f74bebaf7f466d95c81c7bcd7e881670f246e5468c8fada28d557cbf95712f31",
+  "final_pages": 31,
+  "renderer": "Poppler pdftoppm",
+  "review": "All pages inspected in rendered four-page contact sheets. Formula-heavy pages 13 and 24 also inspected at full rendered size. Following the final bibliography and reading-guide adjustment, pages 30 and 31 were inspected again at 1400-pixel resolution; earlier body pages were unchanged.",
+  "corrections": [
+    "Removed duplicate title-page anchor.",
+    "Made inventory columns ragged-right to remove stretched table text.",
+    "Removed an orphaned reading-guide ending and a nearly empty final page by adjusting the final paragraph and bibliography spacing."
+  ],
+  "checks": {
+    "no_clipped_equations": true,
+    "no_overlapping_text_or_tables": true,
+    "legible_math_and_bibliography": true,
+    "single_letter_page_per_pdf_page": true,
+    "contents_and_page_numbers_present": true,
+    "no_overfull_tex_boxes": true
+  },
+  "limitations": "Visual and editorial verification is not mathematical proof verification. One harmless underfull prose box remains in the compiler log."
+}

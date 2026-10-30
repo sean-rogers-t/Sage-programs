@@ -1,0 +1,32 @@
+{
+  "result": "passed",
+  "engine": "Sage/Singular over QQ(c), c transcendental",
+  "checks": {
+    "original_coupled_generic_ideal_exact_decomposition": true,
+    "smooth_component_dimensions": [
+      0,
+      1,
+      1
+    ],
+    "components_pairwise_disjoint": true,
+    "original_generic_ideal_reduced": true,
+    "opposite_simple_zero_embedded_annihilator_verified": true,
+    "zero_total_constant_reduced_singular_control": true,
+    "existing_E8_squarefree_quartic_top_verified": true,
+    "universal_affine_shared_variable_normal_form_disproved": true,
+    "E6_contact_positive_excess_retained": true,
+    "altered_Levi_nonreduced_control_retained": true,
+    "special_triple_point_not_asserted_smooth": true
+  },
+  "native_audit_imported": false,
+  "shared_square_family_theorem_in_note": true,
+  "full_root_normal_form_for_remaining_cases_proved": false,
+  "new_exceptional_group_coverage": false,
+  "uniform_conjecture_proved": false,
+  "literature_priority_claim": false,
+  "source_sha256": {
+    "tools/verify_shared_square_couplings.py": "40f74b3fabe592152a6a693242d633cdb7ae66190557d6cba3b3218c02d87935",
+    "SHARED_SQUARE_COUPLINGS.md": "b85f2da48683991f190badef8e707691aa6a1d3877b5d826464a04be77fa84da",
+    "adjoint-nilpotent-source-screen.json": "0f084d865f3e85fb22287bbe143c18811db1259697045b09a2c4e4c2be631711"
+  }
+}

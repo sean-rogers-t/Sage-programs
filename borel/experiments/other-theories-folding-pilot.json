@@ -1,0 +1,174 @@
+{
+  "result": "passed",
+  "date": "2026-10-22",
+  "cases": [
+    {
+      "group": "A3",
+      "fixed_group": "C2",
+      "root_node_map": [
+        1,
+        2,
+        1
+      ],
+      "representation_highest_weights": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "restricted_defining_copies": 2,
+      "restricted_trivial_copies": 0,
+      "restriction_weight_matrix": [
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "all_torus_Springer_coordinates_agree": true,
+      "quotient_of_full_fixed_source_by_restricted_source": [
+        1,
+        2
+      ]
+    },
+    {
+      "group": "E6",
+      "fixed_group": "F4",
+      "root_node_map": [
+        4,
+        1,
+        3,
+        2,
+        3,
+        4
+      ],
+      "representation_highest_weights": [
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "restricted_defining_copies": 2,
+      "restricted_trivial_copies": 2,
+      "restriction_weight_matrix": [
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "all_torus_Springer_coordinates_agree": true,
+      "quotient_of_full_fixed_source_by_restricted_source": [
+        1,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "group": "D4",
+      "fixed_group": "G2",
+      "root_node_map": [
+        1,
+        2,
+        1,
+        1
+      ],
+      "representation_highest_weights": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "restricted_defining_copies": 3,
+      "restricted_trivial_copies": 3,
+      "restriction_weight_matrix": [
+        [
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      "all_torus_Springer_coordinates_agree": true,
+      "quotient_of_full_fixed_source_by_restricted_source": [
+        1,
+        3
+      ]
+    }
+  ],
+  "scope": "Exact finite root restriction, actual branching-weight dictionaries, Laurent Springer coordinates and integral source quotients; the uniform fixed-subgroup compatibility is proved separately, not inferred from these three examples.",
+  "source_sha256": {
+    "experiments/other_theories_folding_pilot.py": "fbba273ad94760571b4dbf655d5b8ce22cbc223de91dd8088d03e4abaaef9e59"
+  }
+}

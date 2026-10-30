@@ -1,0 +1,1284 @@
+{
+  "result": "passed",
+  "date": "2026-10-22",
+  "sage_version": "9.5",
+  "arbitrary_rank_proof": "TYPE_B_REGULARITY.md, Sections 2-4",
+  "group": "Spin_(2n+1)(C), n>=2; and all nontrivial SO_(2n+1) representations",
+  "character_cases": 55,
+  "positive_and_witness_alternant_checks": 110,
+  "universal_Qi_trace_checks": 55,
+  "integer_weight_cases": 34,
+  "spinorial_cases": 21,
+  "exterior_monomial_character_checks": 13,
+  "independent_spin_sign_cube_checks": 7,
+  "same_central_parity_reducible_checks": 8,
+  "closed_spin_formula_checks": 8,
+  "finite_Dynkin_height_bounds": {
+    "2": 4,
+    "3": 3,
+    "4": 2,
+    "5": 1
+  },
+  "additional_basic_spin_ranks": [
+    6,
+    7,
+    8
+  ],
+  "rank_one_spin_positive_control": true,
+  "witnesses": [
+    {
+      "rank": 2,
+      "dynkin_labels": [
+        0,
+        1
+      ],
+      "dimension": 4,
+      "central_scalar": -1,
+      "trace_Gram_scalar": "1",
+      "image": [
+        "5/2*ii",
+        "0"
+      ],
+      "vanishing_root": "epsilon_2"
+    },
+    {
+      "rank": 2,
+      "dynkin_labels": [
+        0,
+        2
+      ],
+      "dimension": 10,
+      "central_scalar": 1,
+      "trace_Gram_scalar": "6",
+      "image": [
+        "0",
+        "-5/8"
+      ],
+      "vanishing_root": "epsilon_1"
+    },
+    {
+      "rank": 2,
+      "dynkin_labels": [
+        0,
+        3
+      ],
+      "dimension": 20,
+      "central_scalar": -1,
+      "trace_Gram_scalar": "21",
+      "image": [
+        "-25/28*ii",
+        "0"
+      ],
+      "vanishing_root": "epsilon_2"
+    },
+    {
+      "rank": 2,
+      "dynkin_labels": [
+        0,
+        4
+      ],
+      "dimension": 35,
+      "central_scalar": 1,
+      "trace_Gram_scalar": "56",
+      "image": [
+        "0",
+        "255/448"
+      ],
+      "vanishing_root": "epsilon_1"
+    },
+    {
+      "rank": 2,
+      "dynkin_labels": [
+        1,
+        0
+      ],
+      "dimension": 5,
+      "central_scalar": 1,
+      "trace_Gram_scalar": "2",
+      "image": [
+        "0",
+        "15/8"
+      ],
+      "vanishing_root": "epsilon_1"
+    },
+    {
+      "rank": 2,
+      "dynkin_labels": [
+        1,
+        1
+      ],
+      "dimension": 16,
+      "central_scalar": -1,
+      "trace_Gram_scalar": "12",
+      "image": [
+        "15/32*ii",
+        "0"
+      ],
+      "vanishing_root": "epsilon_2"
+    },
+    {
+      "rank": 2,
+      "dynkin_labels": [
+        1,
+        2
+      ],
+      "dimension": 35,
+      "central_scalar": 1,
+      "trace_Gram_scalar": "42",
+      "image": [
+        "0",
+        "-75/112"
+      ],
+      "vanishing_root": "epsilon_1"
+    },
+    {
+      "rank": 2,
+      "dynkin_labels": [
+        1,
+        3
+      ],
+      "dimension": 64,
+      "central_scalar": -1,
+      "trace_Gram_scalar": "112",
+      "image": [
+        "-765/1792*ii",
+        "0"
+      ],
+      "vanishing_root": "epsilon_2"
+    },
+    {
+      "rank": 2,
+      "dynkin_labels": [
+        2,
+        0
+      ],
+      "dimension": 14,
+      "central_scalar": 1,
+      "trace_Gram_scalar": "14",
+      "image": [
+        "0",
+        "225/112"
+      ],
+      "vanishing_root": "epsilon_1"
+    },
+    {
+      "rank": 2,
+      "dynkin_labels": [
+        2,
+        1
+      ],
+      "dimension": 40,
+      "central_scalar": -1,
+      "trace_Gram_scalar": "58",
+      "image": [
+        "925/1856*ii",
+        "0"
+      ],
+      "vanishing_root": "epsilon_2"
+    },
+    {
+      "rank": 2,
+      "dynkin_labels": [
+        2,
+        2
+      ],
+      "dimension": 81,
+      "central_scalar": 1,
+      "trace_Gram_scalar": "162",
+      "image": [
+        "0",
+        "-3575/3456"
+      ],
+      "vanishing_root": "epsilon_1"
+    },
+    {
+      "rank": 2,
+      "dynkin_labels": [
+        3,
+        0
+      ],
+      "dimension": 30,
+      "central_scalar": 1,
+      "trace_Gram_scalar": "54",
+      "image": [
+        "0",
+        "3575/1152"
+      ],
+      "vanishing_root": "epsilon_1"
+    },
+    {
+      "rank": 2,
+      "dynkin_labels": [
+        3,
+        1
+      ],
+      "dimension": 80,
+      "central_scalar": -1,
+      "trace_Gram_scalar": "188",
+      "image": [
+        "13725/24064*ii",
+        "0"
+      ],
+      "vanishing_root": "epsilon_2"
+    },
+    {
+      "rank": 2,
+      "dynkin_labels": [
+        4,
+        0
+      ],
+      "dimension": 55,
+      "central_scalar": 1,
+      "trace_Gram_scalar": "154",
+      "image": [
+        "0",
+        "28425/4928"
+      ],
+      "vanishing_root": "epsilon_1"
+    },
+    {
+      "rank": 3,
+      "dynkin_labels": [
+        0,
+        0,
+        1
+      ],
+      "dimension": 8,
+      "central_scalar": -1,
+      "trace_Gram_scalar": "2",
+      "image": [
+        "25/6*ii",
+        "0",
+        "0"
+      ],
+      "vanishing_root": "epsilon_2"
+    },
+    {
+      "rank": 3,
+      "dynkin_labels": [
+        0,
+        0,
+        2
+      ],
+      "dimension": 35,
+      "central_scalar": 1,
+      "trace_Gram_scalar": "20",
+      "image": [
+        "0",
+        "-41/24",
+        "-17/9"
+      ],
+      "vanishing_root": "epsilon_1"
+    },
+    {
+      "rank": 3,
+      "dynkin_labels": [
+        0,
+        0,
+        3
+      ],
+      "dimension": 112,
+      "central_scalar": -1,
+      "trace_Gram_scalar": "108",
+      "image": [
+        "-19825/3888*ii",
+        "0",
+        "0"
+      ],
+      "vanishing_root": "epsilon_2"
+    },
+    {
+      "rank": 3,
+      "dynkin_labels": [
+        0,
+        1,
+        0
+      ],
+      "dimension": 21,
+      "central_scalar": 1,
+      "trace_Gram_scalar": "10",
+      "image": [
+        "0",
+        "73/24",
+        "26/9"
+      ],
+      "vanishing_root": "epsilon_1"
+    },
+    {
+      "rank": 3,
+      "dynkin_labels": [
+        0,
+        1,
+        1
+      ],
+      "dimension": 112,
+      "central_scalar": -1,
+      "trace_Gram_scalar": "92",
+      "image": [
+        "175/138*ii",
+        "0",
+        "0"
+      ],
+      "vanishing_root": "epsilon_2"
+    },
+    {
+      "rank": 3,
+      "dynkin_labels": [
+        0,
+        1,
+        2
+      ],
+      "dimension": 378,
+      "central_scalar": 1,
+      "trace_Gram_scalar": "468",
+      "image": [
+        "0",
+        "-11335/2592",
+        "-158155/37908"
+      ],
+      "vanishing_root": "epsilon_1"
+    },
+    {
+      "rank": 3,
+      "dynkin_labels": [
+        0,
+        2,
+        0
+      ],
+      "dimension": 168,
+      "central_scalar": 1,
+      "trace_Gram_scalar": "192",
+      "image": [
+        "0",
+        "76055/6912",
+        "174335/15552"
+      ],
+      "vanishing_root": "epsilon_1"
+    },
+    {
+      "rank": 3,
+      "dynkin_labels": [
+        0,
+        2,
+        1
+      ],
+      "dimension": 720,
+      "central_scalar": -1,
+      "trace_Gram_scalar": "1140",
+      "image": [
+        "2694725/443232*ii",
+        "0",
+        "0"
+      ],
+      "vanishing_root": "epsilon_2"
+    },
+    {
+      "rank": 3,
+      "dynkin_labels": [
+        0,
+        3,
+        0
+      ],
+      "dimension": 825,
+      "central_scalar": 1,
+      "trace_Gram_scalar": "1650",
+      "image": [
+        "0",
+        "35258755/513216",
+        "4401145/64152"
+      ],
+      "vanishing_root": "epsilon_1"
+    },
+    {
+      "rank": 3,
+      "dynkin_labels": [
+        1,
+        0,
+        0
+      ],
+      "dimension": 7,
+      "central_scalar": 1,
+      "trace_Gram_scalar": "2",
+      "image": [
+        "0",
+        "15/8",
+        "40/9"
+      ],
+      "vanishing_root": "epsilon_1"
+    },
+    {
+      "rank": 3,
+      "dynkin_labels": [
+        1,
+        0,
+        1
+      ],
+      "dimension": 48,
+      "central_scalar": -1,
+      "trace_Gram_scalar": "28",
+      "image": [
+        "10225/3024*ii",
+        "0",
+        "0"
+      ],
+      "vanishing_root": "epsilon_2"
+    },
+    {
+      "rank": 3,
+      "dynkin_labels": [
+        1,
+        0,
+        2
+      ],
+      "dimension": 189,
+      "central_scalar": 1,
+      "trace_Gram_scalar": "180",
+      "image": [
+        "0",
+        "-12259/3888",
+        "-13141/2916"
+      ],
+      "vanishing_root": "epsilon_1"
+    },
+    {
+      "rank": 3,
+      "dynkin_labels": [
+        1,
+        1,
+        0
+      ],
+      "dimension": 105,
+      "central_scalar": 1,
+      "trace_Gram_scalar": "90",
+      "image": [
+        "0",
+        "21827/3888",
+        "10049/1458"
+      ],
+      "vanishing_root": "epsilon_1"
+    },
+    {
+      "rank": 3,
+      "dynkin_labels": [
+        1,
+        1,
+        1
+      ],
+      "dimension": 512,
+      "central_scalar": -1,
+      "trace_Gram_scalar": "640",
+      "image": [
+        "2405/864*ii",
+        "0",
+        "0"
+      ],
+      "vanishing_root": "epsilon_2"
+    },
+    {
+      "rank": 3,
+      "dynkin_labels": [
+        1,
+        2,
+        0
+      ],
+      "dimension": 693,
+      "central_scalar": 1,
+      "trace_Gram_scalar": "1122",
+      "image": [
+        "0",
+        "7452935/264384",
+        "36308545/1090584"
+      ],
+      "vanishing_root": "epsilon_1"
+    },
+    {
+      "rank": 3,
+      "dynkin_labels": [
+        2,
+        0,
+        0
+      ],
+      "dimension": 27,
+      "central_scalar": 1,
+      "trace_Gram_scalar": "18",
+      "image": [
+        "0",
+        "1495/432",
+        "7730/729"
+      ],
+      "vanishing_root": "epsilon_1"
+    },
+    {
+      "rank": 3,
+      "dynkin_labels": [
+        2,
+        0,
+        1
+      ],
+      "dimension": 168,
+      "central_scalar": -1,
+      "trace_Gram_scalar": "170",
+      "image": [
+        "739205/132192*ii",
+        "0",
+        "0"
+      ],
+      "vanishing_root": "epsilon_2"
+    },
+    {
+      "rank": 3,
+      "dynkin_labels": [
+        2,
+        1,
+        0
+      ],
+      "dimension": 330,
+      "central_scalar": 1,
+      "trace_Gram_scalar": "440",
+      "image": [
+        "0",
+        "18451699/1368576",
+        "1797523/85536"
+      ],
+      "vanishing_root": "epsilon_1"
+    },
+    {
+      "rank": 3,
+      "dynkin_labels": [
+        3,
+        0,
+        0
+      ],
+      "dimension": 77,
+      "central_scalar": 1,
+      "trace_Gram_scalar": "88",
+      "image": [
+        "0",
+        "1263815/152064",
+        "691355/21384"
+      ],
+      "vanishing_root": "epsilon_1"
+    },
+    {
+      "rank": 4,
+      "dynkin_labels": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "dimension": 16,
+      "central_scalar": -1,
+      "trace_Gram_scalar": "4",
+      "image": [
+        "425/48*ii",
+        "0",
+        "0",
+        "0"
+      ],
+      "vanishing_root": "epsilon_2"
+    },
+    {
+      "rank": 4,
+      "dynkin_labels": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "dimension": 126,
+      "central_scalar": 1,
+      "trace_Gram_scalar": "70",
+      "image": [
+        "0",
+        "-10609/1344",
+        "-4433/504",
+        "-12155/1344"
+      ],
+      "vanishing_root": "epsilon_1"
+    },
+    {
+      "rank": 4,
+      "dynkin_labels": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "dimension": 84,
+      "central_scalar": 1,
+      "trace_Gram_scalar": "42",
+      "image": [
+        "0",
+        "87965/8064",
+        "15665/1512",
+        "80665/8064"
+      ],
+      "vanishing_root": "epsilon_1"
+    },
+    {
+      "rank": 4,
+      "dynkin_labels": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "dimension": 768,
+      "central_scalar": -1,
+      "trace_Gram_scalar": "640",
+      "image": [
+        "1041335/110592*ii",
+        "0",
+        "0",
+        "0"
+      ],
+      "vanishing_root": "epsilon_2"
+    },
+    {
+      "rank": 4,
+      "dynkin_labels": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "dimension": 1980,
+      "central_scalar": 1,
+      "trace_Gram_scalar": "2310",
+      "image": [
+        "0",
+        "411040199/1824768",
+        "316329301/1368576",
+        "421345255/1824768"
+      ],
+      "vanishing_root": "epsilon_1"
+    },
+    {
+      "rank": 4,
+      "dynkin_labels": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "dimension": 36,
+      "central_scalar": 1,
+      "trace_Gram_scalar": "14",
+      "image": [
+        "0",
+        "17405/2688",
+        "515/42",
+        "37825/2688"
+      ],
+      "vanishing_root": "epsilon_1"
+    },
+    {
+      "rank": 4,
+      "dynkin_labels": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "dimension": 432,
+      "central_scalar": -1,
+      "trace_Gram_scalar": "300",
+      "image": [
+        "1933801/82944*ii",
+        "0",
+        "0",
+        "0"
+      ],
+      "vanishing_root": "epsilon_2"
+    },
+    {
+      "rank": 4,
+      "dynkin_labels": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "dimension": 1650,
+      "central_scalar": 1,
+      "trace_Gram_scalar": "1650",
+      "image": [
+        "0",
+        "1709617747/18247680",
+        "69044099/622080",
+        "38714219/331776"
+      ],
+      "vanishing_root": "epsilon_1"
+    },
+    {
+      "rank": 4,
+      "dynkin_labels": [
+        0,
+        2,
+        0,
+        0
+      ],
+      "dimension": 495,
+      "central_scalar": 1,
+      "trace_Gram_scalar": "440",
+      "image": [
+        "0",
+        "291168211/4866048",
+        "63597833/456192",
+        "774681245/4866048"
+      ],
+      "vanishing_root": "epsilon_1"
+    },
+    {
+      "rank": 4,
+      "dynkin_labels": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "dimension": 9,
+      "central_scalar": 1,
+      "trace_Gram_scalar": "2",
+      "image": [
+        "0",
+        "15/8",
+        "40/9",
+        "255/32"
+      ],
+      "vanishing_root": "epsilon_1"
+    },
+    {
+      "rank": 4,
+      "dynkin_labels": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "dimension": 128,
+      "central_scalar": -1,
+      "trace_Gram_scalar": "64",
+      "image": [
+        "1678325/110592*ii",
+        "0",
+        "0",
+        "0"
+      ],
+      "vanishing_root": "epsilon_2"
+    },
+    {
+      "rank": 4,
+      "dynkin_labels": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "dimension": 594,
+      "central_scalar": 1,
+      "trace_Gram_scalar": "462",
+      "image": [
+        "0",
+        "413875325/12773376",
+        "84669325/2395008",
+        "258369995/6386688"
+      ],
+      "vanishing_root": "epsilon_1"
+    },
+    {
+      "rank": 4,
+      "dynkin_labels": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "dimension": 231,
+      "central_scalar": 1,
+      "trace_Gram_scalar": "154",
+      "image": [
+        "0",
+        "81890525/4257792",
+        "2783575/66528",
+        "121153475/2128896"
+      ],
+      "vanishing_root": "epsilon_1"
+    },
+    {
+      "rank": 4,
+      "dynkin_labels": [
+        2,
+        0,
+        0,
+        0
+      ],
+      "dimension": 44,
+      "central_scalar": 1,
+      "trace_Gram_scalar": "22",
+      "image": [
+        "0",
+        "23525/4224",
+        "27025/1782",
+        "272255/8448"
+      ],
+      "vanishing_root": "epsilon_1"
+    },
+    {
+      "rank": 5,
+      "dynkin_labels": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "dimension": 32,
+      "central_scalar": -1,
+      "trace_Gram_scalar": "8",
+      "image": [
+        "1105/48*ii",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "vanishing_root": "epsilon_2"
+    },
+    {
+      "rank": 5,
+      "dynkin_labels": [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "dimension": 330,
+      "central_scalar": 1,
+      "trace_Gram_scalar": "168",
+      "image": [
+        "0",
+        "10569793/161280",
+        "69679/1120",
+        "9680633/161280",
+        "2965729/50400"
+      ],
+      "vanishing_root": "epsilon_1"
+    },
+    {
+      "rank": 5,
+      "dynkin_labels": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "dimension": 165,
+      "central_scalar": 1,
+      "trace_Gram_scalar": "72",
+      "image": [
+        "0",
+        "874177/23040",
+        "853661/12960",
+        "343621/4608",
+        "22555/288"
+      ],
+      "vanishing_root": "epsilon_1"
+    },
+    {
+      "rank": 5,
+      "dynkin_labels": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "dimension": 55,
+      "central_scalar": 1,
+      "trace_Gram_scalar": "18",
+      "image": [
+        "0",
+        "177169/17280",
+        "17741/810",
+        "572237/17280",
+        "53209/1350"
+      ],
+      "vanishing_root": "epsilon_1"
+    },
+    {
+      "rank": 5,
+      "dynkin_labels": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "dimension": 11,
+      "central_scalar": 1,
+      "trace_Gram_scalar": "2",
+      "image": [
+        "0",
+        "15/8",
+        "40/9",
+        "255/32",
+        "312/25"
+      ],
+      "vanishing_root": "epsilon_1"
+    },
+    {
+      "rank": 6,
+      "dynkin_labels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "dimension": 64,
+      "central_scalar": -1,
+      "trace_Gram_scalar": "16",
+      "image": [
+        "40885/576*ii",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "vanishing_root": "epsilon_2"
+    },
+    {
+      "rank": 7,
+      "dynkin_labels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "dimension": 128,
+      "central_scalar": -1,
+      "trace_Gram_scalar": "32",
+      "image": [
+        "1022125/4032*ii",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "vanishing_root": "epsilon_2"
+    },
+    {
+      "rank": 8,
+      "dynkin_labels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "dimension": 256,
+      "central_scalar": -1,
+      "trace_Gram_scalar": "64",
+      "image": [
+        "66438125/64512*ii",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "vanishing_root": "epsilon_2"
+    }
+  ],
+  "reducible_witnesses": [
+    {
+      "rank": 2,
+      "central_scalar": 1,
+      "summands": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "trivial_multiplicity": 3,
+      "image": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "rank": 2,
+      "central_scalar": -1,
+      "summands": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "trivial_multiplicity": 0,
+      "image": [
+        "-35/88*ii",
+        "0"
+      ]
+    },
+    {
+      "rank": 3,
+      "central_scalar": 1,
+      "summands": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2
+        ]
+      ],
+      "trivial_multiplicity": 3,
+      "image": [
+        "0",
+        "-365/264",
+        "-130/99"
+      ]
+    },
+    {
+      "rank": 3,
+      "central_scalar": -1,
+      "summands": [
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          3
+        ]
+      ],
+      "trivial_multiplicity": 0,
+      "image": [
+        "-24625/7344*ii",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "rank": 4,
+      "central_scalar": 1,
+      "summands": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          2
+        ]
+      ],
+      "trivial_multiplicity": 3,
+      "image": [
+        "0",
+        "-52685/6912",
+        "-21845/2592",
+        "-59245/6912"
+      ]
+    },
+    {
+      "rank": 4,
+      "central_scalar": -1,
+      "summands": [
+        [
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "trivial_multiplicity": 0,
+      "image": [
+        "-2937715/55296*ii",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "rank": 5,
+      "central_scalar": 1,
+      "summands": [
+        [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          2
+        ]
+      ],
+      "trivial_multiplicity": 3,
+      "image": [
+        "0",
+        "-13369493/243840",
+        "-1402979/22860",
+        "-3081437/48768",
+        "-487019/7620"
+      ]
+    },
+    {
+      "rank": 5,
+      "central_scalar": -1,
+      "summands": [
+        [
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "trivial_multiplicity": 0,
+      "image": [
+        "-41380541449/33592320*ii",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    }
+  ],
+  "spin_formula_controls": [
+    {
+      "rank": 1,
+      "image": [
+        "2*ii"
+      ]
+    },
+    {
+      "rank": 2,
+      "image": [
+        "5/2*ii",
+        "0"
+      ]
+    },
+    {
+      "rank": 3,
+      "image": [
+        "25/6*ii",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "rank": 4,
+      "image": [
+        "425/48*ii",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "rank": 5,
+      "image": [
+        "1105/48*ii",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "rank": 6,
+      "image": [
+        "40885/576*ii",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "rank": 7,
+      "image": [
+        "1022125/4032*ii",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "rank": 8,
+      "image": [
+        "66438125/64512*ii",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    }
+  ],
+  "runtime_API_changed": false,
+  "novelty_claim": false,
+  "scope": "Exact finite corroboration; not extrapolation, external review or a mixed-parity classification.",
+  "source_sha256": {
+    "TYPE_B_REGULARITY.md": "6552d6db88c3db8ff4deb3db8a64f32bc612b0c10e75ca9c592d6abd16608662",
+    "tools/verify_type_b_regularity.py": "c05421d3ff3763ac7c7d09fafd2f2b6e07de2dc853a98ac9bfececbe985c6e5d"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "result": "passed",
+  "uses_Sage": false,
+  "theorem_scope": "Simply laced simple G, adjoint representation, proper all-A Levi; proof is uniform, checks are finite.",
+  "finite_cubic_character_records_checked": 136,
+  "records_by_type": {
+    "E6": 11,
+    "E7": 32,
+    "E8": 93
+  },
+  "root_checks": {
+    "degree_3_simplex_2_weights": 78,
+    "common_frame_1_fundamental_factors": 514,
+    "nonlinear_coefficient_weight_sets": 1036,
+    "degree_2_cross_polytope_1_axes": 58,
+    "common_frame_central_binomial": 58,
+    "common_centralizer_coordinate_frames_checked": 136,
+    "pure_A1_cubic_pairs": 78,
+    "D4_subsystems_checked": 78,
+    "maximum_simultaneous_binomials": 4,
+    "degree_3_simplex_1_weights": 230,
+    "common_frame_unit": 376,
+    "degree_2_simplex_1_weights": 146,
+    "mixed_cubic_monomials": 230,
+    "degree_2_cross_polytope_2_axes": 88,
+    "common_frame_2_fundamental_factors": 88,
+    "degree_2_simplex_2_weights": 185,
+    "orthogonal_charge_pairs": 48,
+    "degree_2_cross_polytope_4_axes": 63,
+    "degree_2_cross_polytope_3_axes": 28,
+    "degree_2_simplex_4_weights": 112,
+    "degree_2_simplex_3_weights": 48
+  },
+  "independent_of_stored_character_polynomial_inversion": true,
+  "unit_or_binomial_cubic_coefficients_verified": true,
+  "D4_and_centralizer_A1_structure_verified": true,
+  "integral_coroot_character_pairings_verified": true,
+  "exact_etale_coordinate_identities_verified": true,
+  "full_character_unit_quadratic_coefficients_verified": true,
+  "scheme_elimination_inverse_verified": true,
+  "all_nonlinear_coefficient_simplex_or_cross_polytope_structure_verified": true,
+  "isolated_centralizer_factors_verified": true,
+  "individual_coefficient_boundary_formulas_verified": true,
+  "common_fundamental_character_coordinate_frames_verified": true,
+  "squarefree_coordinate_ideal_decompositions_verified": true,
+  "simultaneous_coefficient_zero_schemes_reduced_proved": true,
+  "linear_resonance_control": {
+    "same_all_nonlinear_coefficients": true,
+    "same_constant_term": true,
+    "altered_linear_coefficient": "S*x -> 2*S*x; S=z^3+z^(-3)",
+    "actual_reductive_Levi_representation": true,
+    "representation_dimension": 82,
+    "ambient_simple_adjoint_representation": false,
+    "local_ideal": "(u^2*v,u*v^2)",
+    "nonzero_nilpotent": "u*v",
+    "both_local_ideal_inclusions_verified": true,
+    "all_original_derivatives_replayed_in_nonreduced_ring": true,
+    "generic_bad_target_map": "-6*(z^6-z^(-6))",
+    "central_trace_norm": 180,
+    "flat_root_laplacian_identity_preserved": true,
+    "full_ambient_Weyl_invariance_preserved": false,
+    "Weyl_invariance_failure": {
+      "weight": [
+        0,
+        -1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "simple_node": 4,
+      "reflected_weight": [
+        0,
+        0,
+        1,
+        -1,
+        1,
+        0
+      ]
+    },
+    "invariant_derivations_not_ordinary_quotient_derivatives": true,
+    "sl2_adjoint_regular_unipotent_derivative": 4,
+    "generic_adjoint_conjecture_disproved": false,
+    "coefficient_boundary_structure_alone_implies_rank_bound": false
+  },
+  "simultaneous_boundary_transversality_proved": false,
+  "generic_adjoint_smoothness_proved": false,
+  "new_Levi_coverage": false,
+  "literature_priority_claim": false,
+  "proof_note": "UNIFORM_ADJOINT_PROOF_TARGET.md",
+  "source_sha256": {
+    "tools/audit_cubic_root_coefficients.py": "141e07e0de8eab736a7558fbf26b454b1a341e713af17f5e293d417f11e3cc8a",
+    "UNIFORM_ADJOINT_PROOF_TARGET.md": "3f2e4b74cc19dfb216a65ecd4db03bf76705c17a0639292b816ec3100f53ef80",
+    "tools/audit_affine_branching_certificates.py": "7d56ef1b5373f66a5e7c38d3c8d567ec4c27bfdda5bdd11ef60f54ee2f8da2a1"
+  },
+  "raw_sha256": {
+    "unit-constraint-cases.json.gz": "41cca61200d57d5830b790d8d4649aa8628369da36d0c084b33a5a27e4e8e5de"
+  }
+}

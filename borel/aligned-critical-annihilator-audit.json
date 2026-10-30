@@ -1,0 +1,30 @@
+{
+  "result": "passed",
+  "engine": "SymPy explicit syzygies and elimination, separate Cartan roots",
+  "checks": {
+    "universal_syzygies_pair_counts": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "entire_three_ideal_intersection_verified": true,
+    "mixed_multiplicity_exact_target_polynomial": "(c-1)*(c+1)^2",
+    "squarefree_support_polynomial_alone_fails": true,
+    "sufficient_power_and_exact_nilpotence_checked": true,
+    "E6_full_character_root_reconstruction": true,
+    "E6_global_polynomial_change_and_original_derivative_chain_rule": true,
+    "E6_explicit_original_ideal_membership_certificate": true,
+    "E6_delta_zeros_exactly_double": true
+  },
+  "aligned_family_exact_annihilator_proved_in_note": true,
+  "all_exceptional_annihilators_proved": false,
+  "new_Levi_coverage": false,
+  "generic_smoothness_coverage_already_known": true,
+  "novelty_claim": false,
+  "source_sha256": {
+    "tools/audit_aligned_critical_annihilator.py": "f44a5fbd450e42529cc9ee619ec1076cad490f006b60ea5cf31105b91bcc9bd6",
+    "UNIFORM_ADJOINT_PROOF_TARGET.md": "3f2e4b74cc19dfb216a65ecd4db03bf76705c17a0639292b816ec3100f53ef80"
+  }
+}

@@ -1,0 +1,44 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[margin=0.95in,headheight=15pt]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,amsmath,amssymb,amsthm,mathtools,microtype}
+\usepackage{booktabs,longtable,tabularx,array,enumitem,xcolor,fancyhdr}
+\definecolor{navy}{RGB}{24,54,79}
+\usepackage[colorlinks=true,allcolors=navy]{hyperref}
+\hypersetup{pdftitle={Springer--Borel images and generalized Cayley maps: research statement},pdfauthor={Research program of Sean Rogers},pdfpagelayout=SinglePage,pdfpagemode=UseNone,pdfstartview=Fit}
+\pagestyle{fancy}\fancyhf{}\fancyhead[L]{\small Springer--Borel images and Cayley maps}\fancyhead[R]{\small Research statement}\fancyfoot[L]{\footnotesize 29 October 2026}\fancyfoot[R]{\thepage}
+\setlength{\parskip}{4pt}\setlength{\emergencystretch}{3em}
+\setlist{itemsep=3pt,topsep=4pt,leftmargin=1.5em}
+\newcommand{\Z}{\mathbb Z}\newcommand{\Q}{\mathbb Q}\newcommand{\C}{\mathbb C}
+\newcommand{\Sym}{\operatorname{Sym}}\newcommand{\Rep}{\operatorname{Rep}}\newcommand{\im}{\operatorname{im}}\newcommand{\Sat}{\operatorname{Sat}}\newcommand{\rank}{\operatorname{rank}}\newcommand{\tr}{\operatorname{tr}}\newcommand{\Gr}{\operatorname{Gr}}\newcommand{\OG}{\operatorname{OG}}\newcommand{\IG}{\operatorname{IG}}\newcommand{\SL}{\operatorname{SL}}\newcommand{\SO}{\operatorname{SO}}\newcommand{\Sp}{\operatorname{Sp}}\newcommand{\Spin}{\operatorname{Spin}}\newcommand{\GL}{\operatorname{GL}}\newcommand{\reg}{\mathrm{reg}}\newcommand{\Ad}{\operatorname{Ad}}\newcommand{\Lie}{\operatorname{Lie}}\newcommand{\eps}{\epsilon}\newcommand{\Fitt}{\operatorname{Fitt}}
+\newcommand{\gb}[2]{\genfrac{[}{]}{0pt}{}{#1}{#2}_q}
+\newcommand{\record}[2]{\href{https://github.com/sean-rogers-t/Sage-programs/blob/9f6c000a4a97a5f7540424ba1f8f2881cc55a2ae/borel/#1}{#2}}
+\newtheorem{theorem}{Theorem}[section]\newtheorem{proposition}[theorem]{Proposition}\newtheorem{corollary}[theorem]{Corollary}\theoremstyle{definition}\newtheorem{definition}[theorem]{Definition}\newtheorem{problem}[theorem]{Problem}\newtheorem{conjecture}[theorem]{Conjecture}\newtheorem{example}[theorem]{Example}
+\newcommand{\status}[1]{\par\noindent\textbf{Status and sources.} #1\par}
+\begin{document}
+\hypersetup{pageanchor=false}
+\begin{titlepage}
+\vspace*{0.6in}
+{\Huge\bfseries Springer--Borel images\par and generalized Cayley maps\par}
+\vspace{0.3in}
+{\Large Integral structures, geometric fibers,\par and extensions of a representation-theoretic program\par}
+\vspace{0.4in}
+{\large Research program of Sean Rogers\par}
+{\large A detailed statement for mathematical collaborators\par}
+\vspace{0.2in}
+29 October 2026
+\vfill
+\noindent This statement connects the published work of Rogers, Kumar--Rogers, and Kumar--Xie with subsequent working results and research directions. It uses the notation of the Kumar papers wherever possible. The completed working results are \emph{unpublished repository deductions}: internal audits and exact calculations support them, but do not constitute external peer review or establish priority. A theorem below carries that status unless expressly identified as published.
+\par\medskip
+\noindent Proof-note baseline: \texttt{9f6c000}. Historical expositions are preserved; their superseded open-case counts do not govern the status reported here. The document is an exposition and research statement, not a replacement for the complete proofs or a journal submission.
+\end{titlepage}
+\hypersetup{pageanchor=true}
+\tableofcontents
+\clearpage
+\input{foundations}
+\input{integral}
+\input{theories}
+\input{geometry}
+\input{program}
+\input{references}
+\end{document}

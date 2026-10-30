@@ -1,0 +1,1488 @@
+{
+  "result": "passed",
+  "date": "2026-10-22",
+  "sage_version": "9.5",
+  "arbitrary_rank_proof": "SYMPLECTIC_HARMONIC_LOCALIZATION.md, Sections 2-5 and 7",
+  "group": "Sp_(2n)(C), n>=2",
+  "coefficient_field": "C; exact rational finite checks",
+  "harmonic_localization": "C[G][D^-1] = C[G]^G[D^-1] tensor theta_m^*Harm(g), module isomorphism",
+  "minimal_invariant_principal_localization": "For nonzero invariant f, iff D divides f",
+  "full_Cayley_determinant": "(D/4^n)^((nm-1)(2n+1)) (1-nm+(m/2)tr(g))",
+  "full_matrix_differential_checks": 48,
+  "independent_Cayley_coordinate_Jacobian_checks": 24,
+  "regular_critical_corank_one_checks": 12,
+  "actual_exterior_tensor_differential_checks": 12,
+  "low_degree_harmonic_checks": {
+    "group": "Sp4",
+    "degrees": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "dimensions": [
+      1,
+      10,
+      54,
+      210
+    ],
+    "genuine_invariant_differential_kernel_bases": true,
+    "separation_matrix_checks": 2,
+    "actual_exterior_trace_pullback_evaluations": 1650,
+    "scope": "Finite degrees below the next basic invariant differential order four; full theorem uses known Kostant separation."
+  },
+  "explicit_necessity_conjugacy_pairs": 15,
+  "torus_boundary_audit": {
+    "regular_torus_subspace_checks": [
+      {
+        "rank": 2,
+        "tensor_power": 1,
+        "pattern": "positive",
+        "centralizer_subspaces_equal": true
+      },
+      {
+        "rank": 2,
+        "tensor_power": 2,
+        "pattern": "positive",
+        "centralizer_subspaces_equal": true
+      },
+      {
+        "rank": 2,
+        "tensor_power": 3,
+        "pattern": "positive",
+        "centralizer_subspaces_equal": true
+      },
+      {
+        "rank": 2,
+        "tensor_power": 1,
+        "pattern": "negative",
+        "centralizer_subspaces_equal": true
+      },
+      {
+        "rank": 2,
+        "tensor_power": 2,
+        "pattern": "negative",
+        "centralizer_subspaces_equal": true
+      },
+      {
+        "rank": 2,
+        "tensor_power": 3,
+        "pattern": "negative",
+        "centralizer_subspaces_equal": true
+      },
+      {
+        "rank": 2,
+        "tensor_power": 1,
+        "pattern": "reciprocal",
+        "centralizer_subspaces_equal": true
+      },
+      {
+        "rank": 2,
+        "tensor_power": 2,
+        "pattern": "reciprocal",
+        "centralizer_subspaces_equal": true
+      },
+      {
+        "rank": 2,
+        "tensor_power": 3,
+        "pattern": "reciprocal",
+        "centralizer_subspaces_equal": true
+      },
+      {
+        "rank": 2,
+        "tensor_power": 1,
+        "pattern": "mixed_sign",
+        "centralizer_subspaces_equal": true
+      },
+      {
+        "rank": 2,
+        "tensor_power": 2,
+        "pattern": "mixed_sign",
+        "centralizer_subspaces_equal": true
+      },
+      {
+        "rank": 2,
+        "tensor_power": 3,
+        "pattern": "mixed_sign",
+        "centralizer_subspaces_equal": true
+      },
+      {
+        "rank": 3,
+        "tensor_power": 1,
+        "pattern": "positive",
+        "centralizer_subspaces_equal": true
+      },
+      {
+        "rank": 3,
+        "tensor_power": 2,
+        "pattern": "positive",
+        "centralizer_subspaces_equal": true
+      },
+      {
+        "rank": 3,
+        "tensor_power": 3,
+        "pattern": "positive",
+        "centralizer_subspaces_equal": true
+      },
+      {
+        "rank": 3,
+        "tensor_power": 1,
+        "pattern": "negative",
+        "centralizer_subspaces_equal": true
+      },
+      {
+        "rank": 3,
+        "tensor_power": 2,
+        "pattern": "negative",
+        "centralizer_subspaces_equal": true
+      },
+      {
+        "rank": 3,
+        "tensor_power": 3,
+        "pattern": "negative",
+        "centralizer_subspaces_equal": true
+      },
+      {
+        "rank": 3,
+        "tensor_power": 1,
+        "pattern": "reciprocal",
+        "centralizer_subspaces_equal": true
+      },
+      {
+        "rank": 3,
+        "tensor_power": 2,
+        "pattern": "reciprocal",
+        "centralizer_subspaces_equal": true
+      },
+      {
+        "rank": 3,
+        "tensor_power": 3,
+        "pattern": "reciprocal",
+        "centralizer_subspaces_equal": true
+      },
+      {
+        "rank": 3,
+        "tensor_power": 1,
+        "pattern": "mixed_sign",
+        "centralizer_subspaces_equal": true
+      },
+      {
+        "rank": 3,
+        "tensor_power": 2,
+        "pattern": "mixed_sign",
+        "centralizer_subspaces_equal": true
+      },
+      {
+        "rank": 3,
+        "tensor_power": 3,
+        "pattern": "mixed_sign",
+        "centralizer_subspaces_equal": true
+      },
+      {
+        "rank": 4,
+        "tensor_power": 1,
+        "pattern": "positive",
+        "centralizer_subspaces_equal": true
+      },
+      {
+        "rank": 4,
+        "tensor_power": 2,
+        "pattern": "positive",
+        "centralizer_subspaces_equal": true
+      },
+      {
+        "rank": 4,
+        "tensor_power": 3,
+        "pattern": "positive",
+        "centralizer_subspaces_equal": true
+      },
+      {
+        "rank": 4,
+        "tensor_power": 1,
+        "pattern": "negative",
+        "centralizer_subspaces_equal": true
+      },
+      {
+        "rank": 4,
+        "tensor_power": 2,
+        "pattern": "negative",
+        "centralizer_subspaces_equal": true
+      },
+      {
+        "rank": 4,
+        "tensor_power": 3,
+        "pattern": "negative",
+        "centralizer_subspaces_equal": true
+      },
+      {
+        "rank": 4,
+        "tensor_power": 1,
+        "pattern": "reciprocal",
+        "centralizer_subspaces_equal": true
+      },
+      {
+        "rank": 4,
+        "tensor_power": 2,
+        "pattern": "reciprocal",
+        "centralizer_subspaces_equal": true
+      },
+      {
+        "rank": 4,
+        "tensor_power": 3,
+        "pattern": "reciprocal",
+        "centralizer_subspaces_equal": true
+      },
+      {
+        "rank": 4,
+        "tensor_power": 1,
+        "pattern": "mixed_sign",
+        "centralizer_subspaces_equal": true
+      },
+      {
+        "rank": 4,
+        "tensor_power": 2,
+        "pattern": "mixed_sign",
+        "centralizer_subspaces_equal": true
+      },
+      {
+        "rank": 4,
+        "tensor_power": 3,
+        "pattern": "mixed_sign",
+        "centralizer_subspaces_equal": true
+      },
+      {
+        "rank": 5,
+        "tensor_power": 1,
+        "pattern": "positive",
+        "centralizer_subspaces_equal": true
+      },
+      {
+        "rank": 5,
+        "tensor_power": 2,
+        "pattern": "positive",
+        "centralizer_subspaces_equal": true
+      },
+      {
+        "rank": 5,
+        "tensor_power": 3,
+        "pattern": "positive",
+        "centralizer_subspaces_equal": true
+      },
+      {
+        "rank": 5,
+        "tensor_power": 1,
+        "pattern": "negative",
+        "centralizer_subspaces_equal": true
+      },
+      {
+        "rank": 5,
+        "tensor_power": 2,
+        "pattern": "negative",
+        "centralizer_subspaces_equal": true
+      },
+      {
+        "rank": 5,
+        "tensor_power": 3,
+        "pattern": "negative",
+        "centralizer_subspaces_equal": true
+      },
+      {
+        "rank": 5,
+        "tensor_power": 1,
+        "pattern": "reciprocal",
+        "centralizer_subspaces_equal": true
+      },
+      {
+        "rank": 5,
+        "tensor_power": 2,
+        "pattern": "reciprocal",
+        "centralizer_subspaces_equal": true
+      },
+      {
+        "rank": 5,
+        "tensor_power": 3,
+        "pattern": "reciprocal",
+        "centralizer_subspaces_equal": true
+      },
+      {
+        "rank": 5,
+        "tensor_power": 1,
+        "pattern": "mixed_sign",
+        "centralizer_subspaces_equal": true
+      },
+      {
+        "rank": 5,
+        "tensor_power": 2,
+        "pattern": "mixed_sign",
+        "centralizer_subspaces_equal": true
+      },
+      {
+        "rank": 5,
+        "tensor_power": 3,
+        "pattern": "mixed_sign",
+        "centralizer_subspaces_equal": true
+      }
+    ],
+    "boundary_strata_checks": [
+      {
+        "rank": 2,
+        "tensor_power": 1,
+        "kind": "single_Jordan_minus_one",
+        "source_centralizer_dimension": 2,
+        "image_rank": 1,
+        "image_centralizer_dimension": 6
+      },
+      {
+        "rank": 2,
+        "tensor_power": 2,
+        "kind": "single_Jordan_minus_one",
+        "source_centralizer_dimension": 2,
+        "image_rank": 0,
+        "image_centralizer_dimension": 10
+      },
+      {
+        "rank": 2,
+        "tensor_power": 3,
+        "kind": "single_Jordan_minus_one",
+        "source_centralizer_dimension": 2,
+        "image_rank": 0,
+        "image_centralizer_dimension": 10
+      },
+      {
+        "rank": 2,
+        "tensor_power": 1,
+        "kind": "semisimple_minus_plane",
+        "source_centralizer_dimension": 4,
+        "image_rank": 0,
+        "image_centralizer_dimension": 10
+      },
+      {
+        "rank": 2,
+        "tensor_power": 2,
+        "kind": "semisimple_minus_plane",
+        "source_centralizer_dimension": 4,
+        "image_rank": 0,
+        "image_centralizer_dimension": 10
+      },
+      {
+        "rank": 2,
+        "tensor_power": 3,
+        "kind": "semisimple_minus_plane",
+        "source_centralizer_dimension": 4,
+        "image_rank": 0,
+        "image_centralizer_dimension": 10
+      },
+      {
+        "rank": 2,
+        "tensor_power": 1,
+        "kind": "two_Jordan_minus_one",
+        "source_centralizer_dimension": 4,
+        "image_rank": 0,
+        "image_centralizer_dimension": 10
+      },
+      {
+        "rank": 2,
+        "tensor_power": 2,
+        "kind": "two_Jordan_minus_one",
+        "source_centralizer_dimension": 4,
+        "image_rank": 0,
+        "image_centralizer_dimension": 10
+      },
+      {
+        "rank": 2,
+        "tensor_power": 3,
+        "kind": "two_Jordan_minus_one",
+        "source_centralizer_dimension": 4,
+        "image_rank": 0,
+        "image_centralizer_dimension": 10
+      },
+      {
+        "rank": 3,
+        "tensor_power": 1,
+        "kind": "single_Jordan_minus_one",
+        "source_centralizer_dimension": 3,
+        "image_rank": 1,
+        "image_centralizer_dimension": 15
+      },
+      {
+        "rank": 3,
+        "tensor_power": 2,
+        "kind": "single_Jordan_minus_one",
+        "source_centralizer_dimension": 3,
+        "image_rank": 0,
+        "image_centralizer_dimension": 21
+      },
+      {
+        "rank": 3,
+        "tensor_power": 3,
+        "kind": "single_Jordan_minus_one",
+        "source_centralizer_dimension": 3,
+        "image_rank": 0,
+        "image_centralizer_dimension": 21
+      },
+      {
+        "rank": 3,
+        "tensor_power": 1,
+        "kind": "semisimple_minus_plane",
+        "source_centralizer_dimension": 5,
+        "image_rank": 0,
+        "image_centralizer_dimension": 21
+      },
+      {
+        "rank": 3,
+        "tensor_power": 2,
+        "kind": "semisimple_minus_plane",
+        "source_centralizer_dimension": 5,
+        "image_rank": 0,
+        "image_centralizer_dimension": 21
+      },
+      {
+        "rank": 3,
+        "tensor_power": 3,
+        "kind": "semisimple_minus_plane",
+        "source_centralizer_dimension": 5,
+        "image_rank": 0,
+        "image_centralizer_dimension": 21
+      },
+      {
+        "rank": 3,
+        "tensor_power": 1,
+        "kind": "two_Jordan_minus_one",
+        "source_centralizer_dimension": 5,
+        "image_rank": 0,
+        "image_centralizer_dimension": 21
+      },
+      {
+        "rank": 3,
+        "tensor_power": 2,
+        "kind": "two_Jordan_minus_one",
+        "source_centralizer_dimension": 5,
+        "image_rank": 0,
+        "image_centralizer_dimension": 21
+      },
+      {
+        "rank": 3,
+        "tensor_power": 3,
+        "kind": "two_Jordan_minus_one",
+        "source_centralizer_dimension": 5,
+        "image_rank": 0,
+        "image_centralizer_dimension": 21
+      },
+      {
+        "rank": 4,
+        "tensor_power": 1,
+        "kind": "single_Jordan_minus_one",
+        "source_centralizer_dimension": 4,
+        "image_rank": 1,
+        "image_centralizer_dimension": 28
+      },
+      {
+        "rank": 4,
+        "tensor_power": 2,
+        "kind": "single_Jordan_minus_one",
+        "source_centralizer_dimension": 4,
+        "image_rank": 0,
+        "image_centralizer_dimension": 36
+      },
+      {
+        "rank": 4,
+        "tensor_power": 3,
+        "kind": "single_Jordan_minus_one",
+        "source_centralizer_dimension": 4,
+        "image_rank": 0,
+        "image_centralizer_dimension": 36
+      },
+      {
+        "rank": 4,
+        "tensor_power": 1,
+        "kind": "semisimple_minus_plane",
+        "source_centralizer_dimension": 6,
+        "image_rank": 0,
+        "image_centralizer_dimension": 36
+      },
+      {
+        "rank": 4,
+        "tensor_power": 2,
+        "kind": "semisimple_minus_plane",
+        "source_centralizer_dimension": 6,
+        "image_rank": 0,
+        "image_centralizer_dimension": 36
+      },
+      {
+        "rank": 4,
+        "tensor_power": 3,
+        "kind": "semisimple_minus_plane",
+        "source_centralizer_dimension": 6,
+        "image_rank": 0,
+        "image_centralizer_dimension": 36
+      },
+      {
+        "rank": 4,
+        "tensor_power": 1,
+        "kind": "two_Jordan_minus_one",
+        "source_centralizer_dimension": 6,
+        "image_rank": 0,
+        "image_centralizer_dimension": 36
+      },
+      {
+        "rank": 4,
+        "tensor_power": 2,
+        "kind": "two_Jordan_minus_one",
+        "source_centralizer_dimension": 6,
+        "image_rank": 0,
+        "image_centralizer_dimension": 36
+      },
+      {
+        "rank": 4,
+        "tensor_power": 3,
+        "kind": "two_Jordan_minus_one",
+        "source_centralizer_dimension": 6,
+        "image_rank": 0,
+        "image_centralizer_dimension": 36
+      },
+      {
+        "rank": 5,
+        "tensor_power": 1,
+        "kind": "single_Jordan_minus_one",
+        "source_centralizer_dimension": 5,
+        "image_rank": 1,
+        "image_centralizer_dimension": 45
+      },
+      {
+        "rank": 5,
+        "tensor_power": 2,
+        "kind": "single_Jordan_minus_one",
+        "source_centralizer_dimension": 5,
+        "image_rank": 0,
+        "image_centralizer_dimension": 55
+      },
+      {
+        "rank": 5,
+        "tensor_power": 3,
+        "kind": "single_Jordan_minus_one",
+        "source_centralizer_dimension": 5,
+        "image_rank": 0,
+        "image_centralizer_dimension": 55
+      },
+      {
+        "rank": 5,
+        "tensor_power": 1,
+        "kind": "semisimple_minus_plane",
+        "source_centralizer_dimension": 7,
+        "image_rank": 0,
+        "image_centralizer_dimension": 55
+      },
+      {
+        "rank": 5,
+        "tensor_power": 2,
+        "kind": "semisimple_minus_plane",
+        "source_centralizer_dimension": 7,
+        "image_rank": 0,
+        "image_centralizer_dimension": 55
+      },
+      {
+        "rank": 5,
+        "tensor_power": 3,
+        "kind": "semisimple_minus_plane",
+        "source_centralizer_dimension": 7,
+        "image_rank": 0,
+        "image_centralizer_dimension": 55
+      },
+      {
+        "rank": 5,
+        "tensor_power": 1,
+        "kind": "two_Jordan_minus_one",
+        "source_centralizer_dimension": 7,
+        "image_rank": 0,
+        "image_centralizer_dimension": 55
+      },
+      {
+        "rank": 5,
+        "tensor_power": 2,
+        "kind": "two_Jordan_minus_one",
+        "source_centralizer_dimension": 7,
+        "image_rank": 0,
+        "image_centralizer_dimension": 55
+      },
+      {
+        "rank": 5,
+        "tensor_power": 3,
+        "kind": "two_Jordan_minus_one",
+        "source_centralizer_dimension": 7,
+        "image_rank": 0,
+        "image_centralizer_dimension": 55
+      }
+    ],
+    "actual_boundary_trace_checks": [
+      {
+        "kind": "single_Jordan_minus_one",
+        "tensor_power": 1,
+        "actual_exterior_trace_at_boundary": true
+      },
+      {
+        "kind": "single_Jordan_minus_one",
+        "tensor_power": 2,
+        "actual_exterior_trace_at_boundary": true
+      },
+      {
+        "kind": "single_Jordan_minus_one",
+        "tensor_power": 3,
+        "actual_exterior_trace_at_boundary": true
+      },
+      {
+        "kind": "semisimple_minus_plane",
+        "tensor_power": 1,
+        "actual_exterior_trace_at_boundary": true
+      },
+      {
+        "kind": "semisimple_minus_plane",
+        "tensor_power": 2,
+        "actual_exterior_trace_at_boundary": true
+      },
+      {
+        "kind": "semisimple_minus_plane",
+        "tensor_power": 3,
+        "actual_exterior_trace_at_boundary": true
+      },
+      {
+        "kind": "two_Jordan_minus_one",
+        "tensor_power": 1,
+        "actual_exterior_trace_at_boundary": true
+      },
+      {
+        "kind": "two_Jordan_minus_one",
+        "tensor_power": 2,
+        "actual_exterior_trace_at_boundary": true
+      },
+      {
+        "kind": "two_Jordan_minus_one",
+        "tensor_power": 3,
+        "actual_exterior_trace_at_boundary": true
+      }
+    ],
+    "rank_one_boundary_controls": [
+      {
+        "tensor_power": 1,
+        "image_centralizer_dimension": 1,
+        "globally_positive_control": true
+      },
+      {
+        "tensor_power": 2,
+        "image_centralizer_dimension": 3,
+        "globally_positive_control": false
+      },
+      {
+        "tensor_power": 3,
+        "image_centralizer_dimension": 3,
+        "globally_positive_control": false
+      }
+    ]
+  },
+  "matrix_differentials": [
+    {
+      "rank": 2,
+      "tensor_power": 1,
+      "kind": "identity",
+      "dimension": 10,
+      "Jacobian": "1",
+      "det_I_plus_g": "16",
+      "differential_corank": 0
+    },
+    {
+      "rank": 2,
+      "tensor_power": 1,
+      "kind": "generic",
+      "dimension": 10,
+      "Jacobian": "1863/128",
+      "det_I_plus_g": "24",
+      "differential_corank": 0
+    },
+    {
+      "rank": 2,
+      "tensor_power": 1,
+      "kind": "unipotent",
+      "dimension": 10,
+      "Jacobian": "295245/131072",
+      "det_I_plus_g": "18",
+      "differential_corank": 0
+    },
+    {
+      "rank": 2,
+      "tensor_power": 1,
+      "kind": "critical",
+      "dimension": 10,
+      "Jacobian": "0",
+      "det_I_plus_g": "80/9",
+      "differential_corank": 1
+    },
+    {
+      "rank": 2,
+      "tensor_power": 2,
+      "kind": "identity",
+      "dimension": 10,
+      "Jacobian": "1",
+      "det_I_plus_g": "16",
+      "differential_corank": 0
+    },
+    {
+      "rank": 2,
+      "tensor_power": 2,
+      "kind": "generic",
+      "dimension": 10,
+      "Jacobian": "81310473/65536",
+      "det_I_plus_g": "24",
+      "differential_corank": 0
+    },
+    {
+      "rank": 2,
+      "tensor_power": 2,
+      "kind": "unipotent",
+      "dimension": 10,
+      "Jacobian": "617673396283947/70368744177664",
+      "det_I_plus_g": "18",
+      "differential_corank": 0
+    },
+    {
+      "rank": 2,
+      "tensor_power": 2,
+      "kind": "critical",
+      "dimension": 10,
+      "Jacobian": "0",
+      "det_I_plus_g": "110/9",
+      "differential_corank": 1
+    },
+    {
+      "rank": 2,
+      "tensor_power": 3,
+      "kind": "identity",
+      "dimension": 10,
+      "Jacobian": "1",
+      "det_I_plus_g": "16",
+      "differential_corank": 0
+    },
+    {
+      "rank": 2,
+      "tensor_power": 3,
+      "kind": "generic",
+      "dimension": 10,
+      "Jacobian": "12709329141645/134217728",
+      "det_I_plus_g": "24",
+      "differential_corank": 0
+    },
+    {
+      "rank": 2,
+      "tensor_power": 3,
+      "kind": "unipotent",
+      "dimension": 10,
+      "Jacobian": "5025285913842968121391743/151115727451828646838272",
+      "det_I_plus_g": "18",
+      "differential_corank": 0
+    },
+    {
+      "rank": 2,
+      "tensor_power": 3,
+      "kind": "critical",
+      "dimension": 10,
+      "Jacobian": "0",
+      "det_I_plus_g": "1088/81",
+      "differential_corank": 1
+    },
+    {
+      "rank": 3,
+      "tensor_power": 1,
+      "kind": "identity",
+      "dimension": 21,
+      "Jacobian": "1",
+      "det_I_plus_g": "64",
+      "differential_corank": 0
+    },
+    {
+      "rank": 3,
+      "tensor_power": 1,
+      "kind": "generic",
+      "dimension": 21,
+      "Jacobian": "4335700683295726776123046875/9444732965739290427392",
+      "det_I_plus_g": "150",
+      "differential_corank": 0
+    },
+    {
+      "rank": 3,
+      "tensor_power": 1,
+      "kind": "unipotent",
+      "dimension": 21,
+      "Jacobian": "36669429/65536",
+      "det_I_plus_g": "96",
+      "differential_corank": 0
+    },
+    {
+      "rank": 3,
+      "tensor_power": 1,
+      "kind": "critical",
+      "dimension": 21,
+      "Jacobian": "0",
+      "det_I_plus_g": "110/3",
+      "differential_corank": 1
+    },
+    {
+      "rank": 3,
+      "tensor_power": 2,
+      "kind": "identity",
+      "dimension": 21,
+      "Jacobian": "1",
+      "det_I_plus_g": "64",
+      "differential_corank": 0
+    },
+    {
+      "rank": 3,
+      "tensor_power": 2,
+      "kind": "generic",
+      "dimension": 21,
+      "Jacobian": "8616934643848074049210625409422892317934383754618465900421142578125/191561942608236107294793378393788647952342390272950272",
+      "det_I_plus_g": "150",
+      "differential_corank": 0
+    },
+    {
+      "rank": 3,
+      "tensor_power": 2,
+      "kind": "unipotent",
+      "dimension": 21,
+      "Jacobian": "283512088894331673/68719476736",
+      "det_I_plus_g": "96",
+      "differential_corank": 0
+    },
+    {
+      "rank": 3,
+      "tensor_power": 2,
+      "kind": "critical",
+      "dimension": 21,
+      "Jacobian": "0",
+      "det_I_plus_g": "1771/36",
+      "differential_corank": 1
+    },
+    {
+      "rank": 3,
+      "tensor_power": 3,
+      "kind": "identity",
+      "dimension": 21,
+      "Jacobian": "1",
+      "det_I_plus_g": "64",
+      "differential_corank": 0
+    },
+    {
+      "rank": 3,
+      "tensor_power": 3,
+      "kind": "generic",
+      "dimension": 21,
+      "Jacobian": "57452060032979831830345485763963042866971901828375627022975881083056981513124128468916751444339752197265625/15541351137805832567355695254588151253139254712417116170014499277911234281641667985408",
+      "det_I_plus_g": "150",
+      "differential_corank": 0
+    },
+    {
+      "rank": 3,
+      "tensor_power": 3,
+      "kind": "unipotent",
+      "dimension": 21,
+      "Jacobian": "7850214495410408058202672815/288230376151711744",
+      "det_I_plus_g": "96",
+      "differential_corank": 0
+    },
+    {
+      "rank": 3,
+      "tensor_power": 3,
+      "kind": "critical",
+      "dimension": 21,
+      "Jacobian": "0",
+      "det_I_plus_g": "13090/243",
+      "differential_corank": 1
+    },
+    {
+      "rank": 4,
+      "tensor_power": 1,
+      "kind": "identity",
+      "dimension": 36,
+      "Jacobian": "1",
+      "det_I_plus_g": "256",
+      "differential_corank": 0
+    },
+    {
+      "rank": 4,
+      "tensor_power": 1,
+      "kind": "generic",
+      "dimension": 36,
+      "Jacobian": "122680541848824440370587033159964526837702095508575439453125/348449143727040986586495598010130648530944",
+      "det_I_plus_g": "1080",
+      "differential_corank": 0
+    },
+    {
+      "rank": 4,
+      "tensor_power": 1,
+      "kind": "unipotent",
+      "dimension": 36,
+      "Jacobian": "10300438583633442224396503661409951746463775634765625/348449143727040986586495598010130648530944",
+      "det_I_plus_g": "600",
+      "differential_corank": 0
+    },
+    {
+      "rank": 4,
+      "tensor_power": 1,
+      "kind": "critical",
+      "dimension": 36,
+      "Jacobian": "0",
+      "det_I_plus_g": "93024/625",
+      "differential_corank": 1
+    },
+    {
+      "rank": 4,
+      "tensor_power": 2,
+      "kind": "identity",
+      "dimension": 36,
+      "Jacobian": "1",
+      "det_I_plus_g": "256",
+      "differential_corank": 0
+    },
+    {
+      "rank": 4,
+      "tensor_power": 2,
+      "kind": "generic",
+      "dimension": 36,
+      "Jacobian": "5386324882707082224646661859911568131637956674595418527384818024347039533232722783097905098364556464307639771504909731447696685791015625/266998379490113760299377713271194014325338065294581596243380200977777465722580068752870260867072",
+      "det_I_plus_g": "1080",
+      "differential_corank": 0
+    },
+    {
+      "rank": 4,
+      "tensor_power": 2,
+      "kind": "unipotent",
+      "dimension": 36,
+      "Jacobian": "273569813254542315744889473516917719603568468853442356908399557107753918125847732156774583245351095683872699737548828125/266998379490113760299377713271194014325338065294581596243380200977777465722580068752870260867072",
+      "det_I_plus_g": "600",
+      "differential_corank": 0
+    },
+    {
+      "rank": 4,
+      "tensor_power": 2,
+      "kind": "critical",
+      "dimension": 36,
+      "Jacobian": "0",
+      "det_I_plus_g": "246753/1250",
+      "differential_corank": 1
+    },
+    {
+      "rank": 4,
+      "tensor_power": 3,
+      "kind": "identity",
+      "dimension": 36,
+      "Jacobian": "1",
+      "det_I_plus_g": "256",
+      "differential_corank": 0
+    },
+    {
+      "rank": 4,
+      "tensor_power": 3,
+      "kind": "generic",
+      "dimension": 36,
+      "Jacobian": "763117575016221864490475082930324490957894401185586521078735389673144693993756337887179194575943806092911381710289802801543167531857168228175724734734947443651436774797610328169295001998762018047273159027099609375/818347651974035467503297424206899788054160511510766197370822842024033449101168638720817523081476039287721671031890017752304314136471348263332131897344",
+      "det_I_plus_g": "1080",
+      "differential_corank": 0
+    },
+    {
+      "rank": 4,
+      "tensor_power": 3,
+      "kind": "unipotent",
+      "dimension": 36,
+      "Jacobian": "24374736608899428986429194309886585456083867505208234738397390295128514487332644975021963366200720588782065337190804661080166560572393240242328941828897637122963715228252112865447998046875/818347651974035467503297424206899788054160511510766197370822842024033449101168638720817523081476039287721671031890017752304314136471348263332131897344",
+      "det_I_plus_g": "600",
+      "differential_corank": 0
+    },
+    {
+      "rank": 4,
+      "tensor_power": 3,
+      "kind": "critical",
+      "dimension": 36,
+      "Jacobian": "0",
+      "det_I_plus_g": "3641008/16875",
+      "differential_corank": 1
+    },
+    {
+      "rank": 5,
+      "tensor_power": 1,
+      "kind": "identity",
+      "dimension": 55,
+      "Jacobian": "1",
+      "det_I_plus_g": "1024",
+      "differential_corank": 0
+    },
+    {
+      "rank": 5,
+      "tensor_power": 1,
+      "kind": "generic",
+      "dimension": 55,
+      "Jacobian": "69304335377894265769947164673655486829693775177927198202778076099481800735939147318504145586772542827879681217072446212341674254275858402252197265625/73391955711682288371546268649666782105490079653384995959602842860381532034831513858240593699524021969747968",
+      "det_I_plus_g": "8820",
+      "differential_corank": 0
+    },
+    {
+      "rank": 5,
+      "tensor_power": 1,
+      "kind": "unipotent",
+      "dimension": 55,
+      "Jacobian": "201581071751900881641293389023738732490908914924416847543067429431857817689888179302215576171875/13479973333575319897333507543509815336818572211270286240551805124608",
+      "det_I_plus_g": "4320",
+      "differential_corank": 0
+    },
+    {
+      "rank": 5,
+      "tensor_power": 1,
+      "kind": "critical",
+      "dimension": 55,
+      "Jacobian": "0",
+      "det_I_plus_g": "675584/1125",
+      "differential_corank": 1
+    },
+    {
+      "rank": 5,
+      "tensor_power": 2,
+      "kind": "identity",
+      "dimension": 55,
+      "Jacobian": "1",
+      "det_I_plus_g": "1024",
+      "differential_corank": 0
+    },
+    {
+      "rank": 5,
+      "tensor_power": 2,
+      "kind": "generic",
+      "dimension": 55,
+      "Jacobian": "495085411520031515403378052492968254762339381653581650267827228851643051352629694217903521420743684662238347867451114925855669546223115611671036156861587781678669584739825654532333418281420318001929296186262462129326663693104798058204401679506286011425764914402631140318052647286909136617829609028351711685900227166712284088134765625/104187725513747723032497684230019653080386848786186065006191528308813081840900501117522378138618035792858279853022394381967012525845615079380677438317669219470236837179906477475985598217372094136390078377123228155963917938085569707674435584",
+      "det_I_plus_g": "8820",
+      "differential_corank": 0
+    },
+    {
+      "rank": 5,
+      "tensor_power": 2,
+      "kind": "unipotent",
+      "dimension": 55,
+      "Jacobian": "265038039680686419742673736000259449340372828364246331919029691591581350744162753270389978828961615393554826491973467499907026040064998329422316696829677763448472450785752853319454658276299596764147281646728515625/409173825987017733751648712103449894027080255755383098685411421012016724550584319360408761540738019643860835515945008876152157068235674131666065948672",
+      "det_I_plus_g": "4320",
+      "differential_corank": 0
+    },
+    {
+      "rank": 5,
+      "tensor_power": 2,
+      "kind": "critical",
+      "dimension": 55,
+      "Jacobian": "0",
+      "det_I_plus_g": "40051088/50625",
+      "differential_corank": 1
+    },
+    {
+      "rank": 5,
+      "tensor_power": 3,
+      "kind": "identity",
+      "dimension": 55,
+      "Jacobian": "1",
+      "det_I_plus_g": "1024",
+      "differential_corank": 0
+    },
+    {
+      "rank": 5,
+      "tensor_power": 3,
+      "kind": "generic",
+      "dimension": 55,
+      "Jacobian": "11155469478685887701479042647288789662388089339698187952063487339590807400223351336911990418858834970186844762545669470001604909438013293616530657424987993604476547094306412078831784672026873644568386707483579955584963336799281750650487496831023996946003557243604661995183626057187557804079946348649150943101482750027398057735698128750369711950077440047864654805944939736774982130660024423994032595936662751019167830810302836651936024552787632865447329287308970057860221648349079159867613952883402816951274871826171875/591622449216197258120089391432207181572679374270745984479112414101314701592477848522107674496756100372887295518141911986241641798660763521874054424965681889882724221330887550366991453623858407722364030436647784154711966786382417857735305311987204975806227417098805337249042201223588540680465532198634196097774987618046254796507721237545238070019766545882259089280223674368",
+      "det_I_plus_g": "8820",
+      "differential_corank": 0
+    },
+    {
+      "rank": 5,
+      "tensor_power": 3,
+      "kind": "unipotent",
+      "dimension": 55,
+      "Jacobian": "1124472199914960176268653238737138905411253361902354605011727299688127511134014148990654656937732854631184174113493940582972357517002586901267047919912630912493398048977599099757465930954123051419380153259358065495863317321439368990577009545222442644685987589018556005035627401295037346173368020263438893380225636065006256103515625/49680578953622685924767343630800081768220352547734291556449665216833630485964060362588109082516687294415607382308194342597490561411674060526217192801317796454542559232667196977608489140211150234408415974198927000028571099322113851392",
+      "det_I_plus_g": "4320",
+      "differential_corank": 0
+    },
+    {
+      "rank": 5,
+      "tensor_power": 3,
+      "kind": "critical",
+      "dimension": 55,
+      "Jacobian": "0",
+      "det_I_plus_g": "10625956352/12301875",
+      "differential_corank": 1
+    }
+  ],
+  "Cayley_coordinate_checks": [
+    {
+      "rank": 2,
+      "kind": "identity",
+      "tensor_power": 1
+    },
+    {
+      "rank": 2,
+      "kind": "generic",
+      "tensor_power": 1
+    },
+    {
+      "rank": 2,
+      "kind": "unipotent",
+      "tensor_power": 1
+    },
+    {
+      "rank": 2,
+      "kind": "critical",
+      "tensor_power": 1
+    },
+    {
+      "rank": 2,
+      "kind": "critical",
+      "tensor_power": 2
+    },
+    {
+      "rank": 2,
+      "kind": "critical",
+      "tensor_power": 3
+    },
+    {
+      "rank": 3,
+      "kind": "identity",
+      "tensor_power": 1
+    },
+    {
+      "rank": 3,
+      "kind": "generic",
+      "tensor_power": 1
+    },
+    {
+      "rank": 3,
+      "kind": "unipotent",
+      "tensor_power": 1
+    },
+    {
+      "rank": 3,
+      "kind": "critical",
+      "tensor_power": 1
+    },
+    {
+      "rank": 3,
+      "kind": "critical",
+      "tensor_power": 2
+    },
+    {
+      "rank": 3,
+      "kind": "critical",
+      "tensor_power": 3
+    },
+    {
+      "rank": 4,
+      "kind": "identity",
+      "tensor_power": 1
+    },
+    {
+      "rank": 4,
+      "kind": "generic",
+      "tensor_power": 1
+    },
+    {
+      "rank": 4,
+      "kind": "unipotent",
+      "tensor_power": 1
+    },
+    {
+      "rank": 4,
+      "kind": "critical",
+      "tensor_power": 1
+    },
+    {
+      "rank": 4,
+      "kind": "critical",
+      "tensor_power": 2
+    },
+    {
+      "rank": 4,
+      "kind": "critical",
+      "tensor_power": 3
+    },
+    {
+      "rank": 5,
+      "kind": "identity",
+      "tensor_power": 1
+    },
+    {
+      "rank": 5,
+      "kind": "generic",
+      "tensor_power": 1
+    },
+    {
+      "rank": 5,
+      "kind": "unipotent",
+      "tensor_power": 1
+    },
+    {
+      "rank": 5,
+      "kind": "critical",
+      "tensor_power": 1
+    },
+    {
+      "rank": 5,
+      "kind": "critical",
+      "tensor_power": 2
+    },
+    {
+      "rank": 5,
+      "kind": "critical",
+      "tensor_power": 3
+    }
+  ],
+  "exterior_tensor_checks": [
+    {
+      "tensor_power": 1,
+      "kind": "identity",
+      "representation_dimension": 16,
+      "actual_trace_projection_matches_full_differential": true
+    },
+    {
+      "tensor_power": 1,
+      "kind": "generic",
+      "representation_dimension": 16,
+      "actual_trace_projection_matches_full_differential": true
+    },
+    {
+      "tensor_power": 1,
+      "kind": "unipotent",
+      "representation_dimension": 16,
+      "actual_trace_projection_matches_full_differential": true
+    },
+    {
+      "tensor_power": 1,
+      "kind": "critical",
+      "representation_dimension": 16,
+      "actual_trace_projection_matches_full_differential": true
+    },
+    {
+      "tensor_power": 2,
+      "kind": "identity",
+      "representation_dimension": 256,
+      "actual_trace_projection_matches_full_differential": true
+    },
+    {
+      "tensor_power": 2,
+      "kind": "generic",
+      "representation_dimension": 256,
+      "actual_trace_projection_matches_full_differential": true
+    },
+    {
+      "tensor_power": 2,
+      "kind": "unipotent",
+      "representation_dimension": 256,
+      "actual_trace_projection_matches_full_differential": true
+    },
+    {
+      "tensor_power": 2,
+      "kind": "critical",
+      "representation_dimension": 256,
+      "actual_trace_projection_matches_full_differential": true
+    },
+    {
+      "tensor_power": 3,
+      "kind": "identity",
+      "representation_dimension": 4096,
+      "actual_trace_projection_matches_full_differential": true
+    },
+    {
+      "tensor_power": 3,
+      "kind": "generic",
+      "representation_dimension": 4096,
+      "actual_trace_projection_matches_full_differential": true
+    },
+    {
+      "tensor_power": 3,
+      "kind": "unipotent",
+      "representation_dimension": 4096,
+      "actual_trace_projection_matches_full_differential": true
+    },
+    {
+      "tensor_power": 3,
+      "kind": "critical",
+      "representation_dimension": 4096,
+      "actual_trace_projection_matches_full_differential": true
+    }
+  ],
+  "conjugacy_pairs": [
+    {
+      "rank": 2,
+      "tensor_power": 1,
+      "distinguishing_entry": [
+        2,
+        2
+      ],
+      "first_value": "2",
+      "second_value": "1/2",
+      "equal_Springer_images": true
+    },
+    {
+      "rank": 2,
+      "tensor_power": 2,
+      "distinguishing_entry": [
+        2,
+        2
+      ],
+      "first_value": "2",
+      "second_value": "1/2",
+      "equal_Springer_images": true
+    },
+    {
+      "rank": 2,
+      "tensor_power": 3,
+      "distinguishing_entry": [
+        2,
+        2
+      ],
+      "first_value": "2",
+      "second_value": "1/2",
+      "equal_Springer_images": true
+    },
+    {
+      "rank": 3,
+      "tensor_power": 1,
+      "distinguishing_entry": [
+        2,
+        2
+      ],
+      "first_value": "2",
+      "second_value": "1/2",
+      "equal_Springer_images": true
+    },
+    {
+      "rank": 3,
+      "tensor_power": 2,
+      "distinguishing_entry": [
+        2,
+        2
+      ],
+      "first_value": "2",
+      "second_value": "1/2",
+      "equal_Springer_images": true
+    },
+    {
+      "rank": 3,
+      "tensor_power": 3,
+      "distinguishing_entry": [
+        2,
+        2
+      ],
+      "first_value": "2",
+      "second_value": "1/2",
+      "equal_Springer_images": true
+    },
+    {
+      "rank": 4,
+      "tensor_power": 1,
+      "distinguishing_entry": [
+        2,
+        2
+      ],
+      "first_value": "2",
+      "second_value": "1/2",
+      "equal_Springer_images": true
+    },
+    {
+      "rank": 4,
+      "tensor_power": 2,
+      "distinguishing_entry": [
+        2,
+        2
+      ],
+      "first_value": "2",
+      "second_value": "1/2",
+      "equal_Springer_images": true
+    },
+    {
+      "rank": 4,
+      "tensor_power": 3,
+      "distinguishing_entry": [
+        2,
+        2
+      ],
+      "first_value": "2",
+      "second_value": "1/2",
+      "equal_Springer_images": true
+    },
+    {
+      "rank": 5,
+      "tensor_power": 1,
+      "distinguishing_entry": [
+        2,
+        2
+      ],
+      "first_value": "2",
+      "second_value": "1/2",
+      "equal_Springer_images": true
+    },
+    {
+      "rank": 5,
+      "tensor_power": 2,
+      "distinguishing_entry": [
+        2,
+        2
+      ],
+      "first_value": "2",
+      "second_value": "1/2",
+      "equal_Springer_images": true
+    },
+    {
+      "rank": 5,
+      "tensor_power": 3,
+      "distinguishing_entry": [
+        2,
+        2
+      ],
+      "first_value": "2",
+      "second_value": "1/2",
+      "equal_Springer_images": true
+    },
+    {
+      "rank": 6,
+      "tensor_power": 1,
+      "distinguishing_entry": [
+        2,
+        2
+      ],
+      "first_value": "2",
+      "second_value": "1/2",
+      "equal_Springer_images": true
+    },
+    {
+      "rank": 6,
+      "tensor_power": 2,
+      "distinguishing_entry": [
+        2,
+        2
+      ],
+      "first_value": "2",
+      "second_value": "1/2",
+      "equal_Springer_images": true
+    },
+    {
+      "rank": 6,
+      "tensor_power": 3,
+      "distinguishing_entry": [
+        2,
+        2
+      ],
+      "first_value": "2",
+      "second_value": "1/2",
+      "equal_Springer_images": true
+    }
+  ],
+  "known_input_corollary": true,
+  "novelty_claim": false,
+  "runtime_API_changed": false,
+  "scope": "Exact finite corroboration; uniform decomposition follows from known Kostant separation and Cayley coordinates, not finite exhaustion or an external proof review.",
+  "source_sha256": {
+    "SYMPLECTIC_HARMONIC_LOCALIZATION.md": "531dddfb6c54c9f43a9da1b189e90723f944332c5b9d556e2dda0791fff4810d",
+    "tools/verify_symplectic_harmonic_localization.py": "0d1806016caec7c6eeeb6768ae3299f794d5da923bdb1fbb459d158b124bbb7a",
+    "tools/verify_mixed_regularity.py": "37d932df901247a3b1028d741f3c5e81a1c03c2c342415ecf8de8cc85508f2c5",
+    "MIXED_REGULARITY.md": "7c76b0df76abe38631ebed8eb9d71795905a7224f58e22e6a495f89a0a9257a9"
+  }
+}

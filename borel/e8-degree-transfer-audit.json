@@ -1,0 +1,105 @@
+{
+  "result": "passed",
+  "original_generators_rebuilt": 38,
+  "independent_original_input_matches_both_certificates": true,
+  "normal_orders": [
+    1,
+    1,
+    1,
+    3,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    4,
+    4,
+    4,
+    5,
+    5,
+    5,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    3,
+    5,
+    5,
+    5,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    3,
+    4,
+    4,
+    4,
+    3,
+    3
+  ],
+  "normal_determinant_witness": "61600",
+  "cubic_numerator_witness": "79325621760000",
+  "eliminated_H_cubic_coefficient_witness": "57489/169400",
+  "generic_linear_component_length": 3,
+  "sextic_smooth_witnesses": [
+    {
+      "component": "X_A",
+      "point": [
+        "1",
+        "-6",
+        "2",
+        "3",
+        "0",
+        "16",
+        "-9",
+        "0"
+      ],
+      "full_jacobian_rank": 4
+    },
+    {
+      "component": "X_B",
+      "point": [
+        "1",
+        "-2/3",
+        "2",
+        "3",
+        "16",
+        "0",
+        "-5",
+        "0"
+      ],
+      "full_jacobian_rank": 4
+    },
+    {
+      "component": "X_C",
+      "point": [
+        "1",
+        "2",
+        "3",
+        "-6",
+        "16",
+        "-9",
+        "0",
+        "0"
+      ],
+      "full_jacobian_rank": 4
+    }
+  ],
+  "finite_field_memberships_independently_replayed": false,
+  "scope": "Exact rational local audit; the group transfer is a written geometric argument. No new generic nonemptiness or map degree claim.",
+  "source_sha256": {
+    "tools/audit_e8_degree_transfer.py": "593bcb8958cd2400eeae7eaf2a48c6d8d82cce4b57fb120a2175e1fe8fd565f5",
+    "E8_DEGREE_TRANSFER_AUDIT.md": "5584bc1c49acc5c0424a8449230002c80c2163e54a905185d789b743ae974e83",
+    "E8_LAST_ADJOINT_FIBER.md": "c423c7ae68b7058ad23749c18ddca7519ed04c1e7257fe073f27cbbcb1498a4b",
+    "ADJOINT_GENERIC_FIBER_THEOREM.md": "5d2c6537f49cbae9f66a5d972af38c42f99eeb19f938b3b32f3c0379da82e836"
+  },
+  "raw_sha256": {
+    "e8-last-32003-certificate.json.gz": "e291e7a65160ce2e784540b49924472b70709dead9c204cfa30fa7b06afef5db",
+    "e8-last-32009-certificate.json.gz": "e4d43a824c2b31a822edb839728f21a8a95c9f3f2ec3af889904cd9749615643"
+  }
+}

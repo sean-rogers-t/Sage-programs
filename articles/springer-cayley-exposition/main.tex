@@ -1,0 +1,496 @@
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,amsmath,amssymb,amsthm,booktabs,tabularx,array,enumitem,microtype}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{xurl}
+\usepackage[colorlinks=true,linkcolor=MidnightBlue,urlcolor=MidnightBlue,citecolor=MidnightBlue,pdfpagelayout=SinglePage]{hyperref}
+\usepackage{fancyhdr}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\small Springer--Cayley maps}
+\fancyhead[R]{\small Research exposition, 24 October 2026}
+\fancyfoot[C]{\thepage}
+\setlength{\headheight}{14pt}
+\setlength{\emergencystretch}{2em}
+\setlist{nosep,leftmargin=*}
+\newcommand{\C}{\mathbb C}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\g}{\mathfrak g}
+\newcommand{\h}{\mathfrak t}
+\newcommand{\kk}{\mathfrak k}
+\newcommand{\Ad}{\operatorname{Ad}}
+\newcommand{\tr}{\operatorname{tr}}
+\newcommand{\Lie}{\operatorname{Lie}}
+\newcommand{\reg}{\mathrm{reg}}
+\newcommand{\Crit}{\operatorname{Crit}}
+\newcommand{\Sing}{\operatorname{Sing}}
+\newcommand{\Harm}{\operatorname{Harm}}
+\newcommand{\record}[1]{{\small\nolinkurl{#1}}}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{conjecture}[theorem]{Conjecture}
+\title{\textbf{Springer--Cayley maps}\\[4pt]\large From explicit torus formulas to degrees, regularity, and fibers\\[4pt]\normalsize An expository account and a precise list of unresolved questions}
+\author{Research-program working note}
+\date{24 October 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+A representation of a complex simple group defines a map from the group to its Lie algebra by trace projection. The explicit torus formulas in Rogers's paper make this construction computable; the Kumar papers use its pullback to connect representation rings with flag cohomology. Our subsequent work studies both that arithmetic connection and the geometry of the original map.
+
+This note explains the objects, the established inputs, the deductions currently recorded in the repository, and the remaining gaps. The active problem is the geometry of fibers over semisimple targets with prescribed Levi centralizer. The adjoint case is treated in all classical ranks and for every proper $E_6$ Levi. The latest common critical-equation argument raises the $E_7$ coverage to $123$ of $127$ proper standard Levi subsets. Four subsets in two Weyl families remain unresolved. Neither this finite coverage nor the available degree calculations settle the proposed all-simple-group theorem.
+\end{abstract}
+
+\paragraph{How to read the status labels.}
+A published result is attributed to the cited literature. A \emph{repository theorem} means a written argument with its recorded internal checks; it does not mean external peer review, formal proof verification, or established originality. An unresolved question is unresolved in this program, unless a published open-problem statement is explicitly cited. This exposition synthesizes the current records; it is not a fresh audit of every historical proof. The accompanying source manifest identifies the exact local versions used.
+
+\section{The map and its normalization}
+
+Let $G$ be a connected, simple, simply connected algebraic group over $\C$, with Lie algebra $\g$ and rank $r$. Fix a maximal torus $T$, a Borel subgroup $B\supset T$, and Weyl group $W=N_G(T)/T$. Write $\h=\Lie(T)$, $\Lambda=X^*(T)$ for the weight lattice, and $Q\subset\Lambda$ for the root lattice. We reserve $P$ for a parabolic subgroup. The classical groups in this convention are
+\[
+ A_{N-1}:\mathrm{SL}_N,\quad B_n:\mathrm{Spin}_{2n+1},\quad
+ C_n:\mathrm{Sp}_{2n},\quad D_n:\mathrm{Spin}_{2n}.
+\]
+The orthogonal matrix groups used in some earlier papers have the same Lie algebras but different character lattices. A change of isogeny form can change a degree or an integral source.
+
+Let $\rho:G\to\mathrm{GL}(V)$ be an actual nontrivial finite-dimensional rational representation, with character $\chi_\rho(g)=\tr(\rho(g))$. Actual representations allow direct sums but exclude virtual differences with negative multiplicities. The differential is injective, and
+\begin{equation}\label{eq:trace}
+ B_\rho(X,Y)=\tr(d\rho(X)d\rho(Y))
+\end{equation}
+is nondegenerate. The normalized Springer morphism is defined by
+\begin{equation}\label{eq:theta}
+ B_\rho(\theta_\rho(g),X)=\tr(\rho(g)d\rho(X)),\qquad X\in\g.
+\end{equation}
+This is the generalized Cayley map of Kostant--Michor with the indicated trace normalization \cite{KM}. It is a regular, conjugation-equivariant morphism $\theta_\rho:G\to\g$. For semisimple $G$,
+\[
+ \theta_\rho(1)=0,\qquad d\theta_\rho|_1=\mathrm{id}_{\g}.
+\]
+The derivative identity follows directly by differentiating \eqref{eq:theta}. It implies dominance and generic finiteness, since source and target have equal dimension.
+
+For the defining representation of $\mathrm{SL}_N$,
+\begin{equation}\label{eq:SL}
+ \theta(g)=g-\frac{\tr(g)}{N}I.
+\end{equation}
+This published example is a useful reference point. The adjoint representation gives a different character and generally a different map. Dependence on the representation is central to the program.
+
+The fibers below are fibers of \eqref{eq:theta}. They are \emph{not} the varieties of Borel subgroups appearing in the Springer resolution of the nilpotent cone.
+
+\section{How the torus formula connects the projects}
+
+Let $\omega_1,\ldots,\omega_r$ be fundamental weights and $\alpha_1^\vee,\ldots,\alpha_r^\vee$ the dual simple-coroot basis. Express each weight $\mu$ as a column in the fundamental-weight basis, with multiplicity $m_\mu$. Put $t_i=e^{\omega_i}(t)$; then $e^\mu(t)$ is a Laurent monomial in the $t_i$. Rogers's explicit determination \cite{Rogers} gives
+\begin{equation}\label{eq:weight}
+ M_\rho=\sum_\mu m_\mu\mu\mu^{\mathsf t},\qquad
+ [\theta_\rho(t)]_{\alpha^\vee}
+ =M_\rho^{-1}\sum_\mu m_\mu\mu e^\mu(t).
+\end{equation}
+The matrix $M_\rho$ is the trace form on the Cartan. The same weights determine the character and the map. Independent weight reconstruction therefore checks the normalization as well as the coordinate formulas.
+
+\subsection{The representation-ring and Borel continuation}
+
+For a parabolic $P$ with Levi subgroup $L$, write $W_L$ for its Weyl group. The complexified representation ring is $\C[T]^{W_L}$. The injective pullback
+\[
+ \theta_\rho^*:S(\h^*)^{W_L}\hookrightarrow\C[T]^{W_L}
+\]
+has image $\mathcal R_{\rho,L}^{\mathrm{poly}}$. The polynomial-character map in the Kumar program is
+\begin{equation}\label{eq:borel}
+ \mathcal R_{\rho,L}^{\mathrm{poly}}
+ \xrightarrow{\,(\theta_\rho^*)^{-1}\,}
+ S(\h^*)^{W_L}
+ \xrightarrow{\,\beta^P\,}H^{2*}(G/P;\C).
+\end{equation}
+Polynomial degree $d$ corresponds to cohomological degree $2d$. Parts I--III develop this construction and explicit families \cite{Kumar,KR,KX}. The inverse in \eqref{eq:borel} is defined on an image algebra; it is not a birational inverse $\g\dashrightarrow G$.
+
+Our integral work asks which polynomial inputs pull back to integral characters and which cohomological lattices they generate. With $S_\Q=S(\h_\Q^*)$, define
+\[
+ \mathcal C_\rho=\{f\in S_\Q:\theta_\rho^*f\in\Z[\Lambda]\},
+ \qquad \mathcal A_{\rho,L}=\mathcal C_\rho^{W_L}.
+\]
+The full source, a chosen normalized generator algebra, and the embedded Borel image are distinct. The repository records normalized classical Smith formulas and complete relative root/weight comparisons on all $63$ proper $E_6$ and all $127$ proper $E_7$ parabolics. These do not determine every ambient integral cokernel. Integrality of the image must itself be justified before taking Smith factors.
+
+\subsection{The geometric continuation}
+
+Retain $\theta_\rho$ instead of taking the Borel quotient. If $f_1,\ldots,f_r$ generate $\C[\h]^W$, then $f_i(\theta_\rho(t))$ describe
+\[
+ T/W\longrightarrow\h/W.
+\]
+Positive-degree $G$-invariants vanish in the Borel presentation of flag cohomology. Keeping them reveals information that \eqref{eq:borel} discards: generic degree, critical divisors, branch behavior, and large fibers. This extends the use of the same explicit formula; it does not automatically give further integral-image theorems.
+
+\section{Regularity and harmonic separation}
+
+An element of $G$ or $\g$ is \emph{regular} if its centralizer has dimension $r$. Regularity does not imply semisimplicity. On $T$ it means $e^\alpha(t)\ne1$ for every root; on $\h$ it means $\alpha(h)\ne0$ for every root.
+
+Distinguish preservation on regular semisimple inputs,
+$\theta_\rho(T_{\reg})\subset\h_{\reg}$, from global preservation,
+$\theta_\rho(G_{\reg})\subset\g_{\reg}$, and from invertibility of $d\theta_\rho|_g$. For example, scalar subtraction in \eqref{eq:SL} preserves centralizers, while the map still has critical points.
+
+\begin{theorem}[Repository regularity classification]\label{thm:reg}
+For simple simply connected complex $G$ and actual nontrivial $\rho$, global regularity preservation occurs precisely for $G=\mathrm{SL}_N$ and representations consisting of copies of the defining representation, or copies of its dual, together with trivial summands. For $N\ge3$, a mixture containing both defining and dual summands is excluded. For $\mathrm{SL}_2$, defining and dual are isomorphic.
+\end{theorem}
+
+The torus-only classification has an extra symplectic family. Set $D(g)=\det(I+g)$ in the defining representation of $\mathrm{Sp}_{2n}$. Its torus-preserving actual characters are
+\[
+ A D^m+B,\qquad A,m\in\Z_{>0},
+\]
+where $B\in\Z$ is allowed only if the expression is an actual character. For $n\ge2$, these fail global preservation at regular nonsemisimple inputs. Low-rank identifications, such as $\mathrm{Spin}_5=\mathrm{Sp}_4$, must be retained.
+
+The proof in \record{REGULARITY_CLASSIFICATION.md} uses positive weight multiplicities and root geometry. For primitive roots, preservation forces the zeros of $\alpha(\theta_\rho(t))$ onto the corresponding root hypertorus. Laurent factorization and the identity derivative then make each root coordinate a difference of two monomials. The permitted weight supports exclude the other types; nonprimitive roots require separate arguments. This is a written, internally audited deduction, not a published classification or a priority claim.
+
+For the fixed space $\mathcal H_\rho=\theta_\rho^*\Harm(\g)$, Kostant--Michor relate global preservation to the multiplication isomorphism
+\[
+ \C[G]^G\otimes_\C\mathcal H_\rho\longrightarrow\C[G],
+\]
+and obtain separation after inverting the full Cayley determinant \cite[Theorem 3.2]{KM}. This is a module decomposition, not a tensor product of harmonic subalgebras.
+
+Our symplectic determinant-family note sharpens the localization: inverting $D$ suffices, and among invariant principal localizations the denominator must vanish along $D=0$. The full Jacobian has an extra factor which need not be inverted for this multiplication statement. Sufficiency follows from classical Cayley coordinates and known Lie-algebra separation. The remaining question is the minimal localization for other \emph{fixed Springer-pulled} harmonic spaces.
+
+\section{Degrees, critical determinants, and boundary corrections}
+
+The degree of a specified map is
+\begin{equation}\label{eq:degree}
+ \deg\theta_\rho=[\C(G):\theta_\rho^*\C(\g)].
+\end{equation}
+Kostant--Michor identify it with the degree on adjoint quotients \cite[Corollary 3.3]{KM}. Equivariance also yields
+\[
+ \deg(G\to\g)=\deg(T\to\h)=\deg(T/W\to\h/W).
+\]
+There is no additional division by $|W|$. The torus must belong to the stated group; a character can factor through a smaller lattice.
+
+The following degrees are recorded with characteristic-zero arguments and exact corroboration.
+\begin{center}
+\begin{tabular}{llr}
+\toprule Group & Representation & Generic degree\\
+\midrule
+$F_4$ & minimal, dimension $26$ & $96$\\
+$E_6$ & minimal, dimension $27$ & $1080$\\
+$E_6$ & adjoint, dimension $78$ & $2754$\\
+$E_7$ & minimal, dimension $56$ & $7272$\\
+$E_7$ & adjoint, dimension $133$ & $33664$\\
+\bottomrule
+\end{tabular}
+\end{center}
+These are degrees of particular regular maps, not minimum Cayley degrees among all dominant equivariant rational maps.
+
+The weights suggest a Newton polytope. Its normalized volume is the expected intersection count before boundary degeneracies are included. The $E_6$ adjoint example illustrates both boundary and lattice corrections:
+\[
+ \deg\theta_{\mathrm{Ad}}=3(2808-1890)=2754.
+\]
+Here $2808$ is the root-lattice volume, $1890$ the boundary contribution, and $3=[\Lambda:Q]$ restores the simply connected torus. A separate deformation argument reproduces the $1890$ correction.
+
+There are family results as well. For either half-spin representation of $\mathrm{Spin}_{2r}$, $r\ge3$, the recorded degree is
+\[
+ 2^{r-1}(r^2-3r-2)+4r.
+\]
+For $F_4$ with $a$ minimal and $b$ adjoint summands, $a,b\ge0$, $a+b>0$, it is
+\[
+ \begin{cases}
+ 96,&b=0,\\
+ 240,&b>0,\ a=b,\\
+ 336,&b>0,\ a=5b,\\
+ 384,&b>0,\ a\ne b,\ a\ne5b.
+ \end{cases}
+\]
+The exceptional ratios produce boundary corrections. Arbitrary-rank defining/adjoint mixture formulas are also recorded in types $B$ and $C$. There is no universal boundary algorithm for arbitrary representations.
+
+Differentiation of \eqref{eq:weight} gives the logarithmic torus Jacobian
+\[
+ J_T=M_\rho^{-1}\sum_\mu m_\mu\mu\mu^{\mathsf t}e^\mu.
+\]
+Equivariance supplies the root directions. With left-translated tangent vectors, the full determinant is
+\begin{equation}\label{eq:jac}
+ \Psi_\rho|_T=\det J_T
+ \prod_{\alpha>0}e^\alpha
+ \left(\frac{\alpha(\theta_\rho)}{e^\alpha-1}\right)^2.
+\end{equation}
+The apparent denominators extend regularly. This direct equivariance deduction is recorded in \record{SPRINGER_GEOMETRY.md}.
+
+The zero set of \eqref{eq:jac} is a \emph{source critical locus}. Its image, target branching, and non-finiteness are different questions. Even a finite-flat quotient map can have positive-dimensional group fibers: the $F_4$ minimal map collapses a $16$-dimensional conjugacy class to zero.
+
+\section{From torus data to subgroup and fiber geometry}
+
+The torus restriction is not the whole map. Equivariance and cocharacter limits show that $\theta_\rho$ sends a parabolic into its Lie algebra, a Levi into its Lie algebra, and a unipotent radical into its Lie algebra. Indeed, the defining conjugation limit for a parabolic is preserved by equivariance; the limit $1$ for its unipotent radical becomes $0$. This supplies a conceptual subgroup extension of the torus formula.
+
+The Borel-coordinate implementation reconstructs triangular root-coordinate formulas from torus data and root commutators. Away from a root hypertorus, the root coefficient is fixed by
+\[
+ d\theta_t([X_\alpha,t])=[X_\alpha,\theta(t)].
+\]
+When coefficients vanish, higher commutators matter. A diagonal rank count alone need not describe the nonlinear map on $tU$. The SL$_3$, Sp$_4$, and later root-data checks verify this distinction.
+
+The more general approach studies fibers through the character. Fix a semisimple target $h$ and put
+\[
+ K=Z_G(h),\qquad \kk=\Lie(K),\qquad F_{\rho,h}=\theta_\rho^{-1}(h).
+\]
+Equivariance gives the scheme-theoretic containment $F_{\rho,h}\subset K$: the equations $(\Ad(g)-1)h=0$ follow from $\theta_\rho(g)-h=0$. For a tangent vector $gX$ in $K$,
+\begin{equation}\label{eq:gradient}
+ d\chi_\rho|_g(gX)=B_\rho(\theta_\rho(g),X).
+\end{equation}
+Thus the fiber is a prescribed-gradient problem for the restricted character.
+
+On a finite central cover $S\times T_c\to K$, where $S=[K,K]$, choose fundamental characters $x_1,\ldots,x_\ell$ of $S$ and central torus coordinates $z_1,\ldots,z_s$, with $\ell+s=r$. Write
+\[
+ \phi(x,z)=\chi_\rho|_K,\quad D_j=z_j\frac{\partial}{\partial z_j},
+ \quad c_j=B_\rho(h,H_j).
+\]
+The $H_j$ are the central cocharacters of the cover. The quotient fiber equations are
+\begin{equation}\label{eq:critical}
+ \phi_{x_i}=0\quad(1\le i\le\ell),\qquad
+ D_j\phi=c_j\quad(1\le j\le s).
+\end{equation}
+They are the critical equations of
+\[
+ W_c=\phi-\sum_{j=1}^s c_j\log z_j.
+\]
+The potential is local, but its differential is algebraic. Omitting the logarithmic correction would compute the zero-target problem instead.
+
+\begin{theorem}[Repository critical presentation from standard inputs]\label{thm:critical}
+At a regular source point $g\in F_{\rho,h}$, choose a lift $q$ of its quotient point to the finite central cover. If $Y_c$ is the actual scheme defined by \eqref{eq:critical}, then noncanonically
+\[
+ \widehat{\mathcal O}_{F_{\rho,h},g}
+ \simeq \widehat{\mathcal O}_{Y_c,q}
+ [[u_1,\ldots,u_{\dim K-r}]].
+\]
+The finite central quotient is retained. This is a statement about schemes, including nilpotents.
+\end{theorem}
+
+The argument combines \eqref{eq:gradient} with the smooth regular quotient \cite{Steinberg}. The critical algebra contains the transverse geometry, while $\dim K-r$ counts smooth conjugacy directions. At a nonregular point the correct object is $\Crit(W_c\circ\pi)$ on $K$, not an automatic pullback of $\Crit(W_c)$ from $K/\!/K$. Character calculations thus encode dimensions, multiplicities, and collisions, provided the quotient hypotheses are respected.
+
+\section{The current theorem target and established scope}
+
+For a proper Levi $K$, define
+\[
+ Z_K^\circ=\{h\in\mathfrak z(\kk):Z_G(h)=K\},\qquad
+ F_{\rho,h}^{\reg}=\theta_\rho^{-1}(h)\cap G_{\reg}.
+\]
+Generic means on a dense open subset of this particular $Z_K^\circ$, not just of the whole Lie algebra. When $K\ne T$, these targets are nonregular even though the source points under study are regular.
+
+Set
+\[
+ X=V(\phi_{x_1},\ldots,\phi_{x_\ell}),\qquad
+ \mu:X\to\mathbb A^s,\quad\mu=(D_1\phi,\ldots,D_s\phi).
+\]
+Standard characteristic-zero generic smoothness and generic flatness imply that generic fibers of $\mu$ are smooth, allowing emptiness, precisely when
+\begin{equation}\label{eq:badimage}
+ \overline{\mu(\Sing X)}\ne\mathbb A^s.
+\end{equation}
+Here $X$ is the actual scheme, not its reduction. The difficult task is to prove this image condition from roots and the branching character.
+
+For a component $X_i$ dominating the target, the generic group-fiber dimension is
+\begin{equation}\label{eq:excess}
+ \dim K-r+\dim X_i-s.
+\end{equation}
+The final term is the transverse excess. Smoothness, nonemptiness, and zero excess are three separate conclusions.
+
+\subsection{Classical adjoint representations}
+
+\begin{theorem}[Repository all-rank classical adjoint theorem]
+For $G$ of type $A$, $B$, $C$, or $D$, $\rho=\Ad$, and every proper Levi $K$, the generic $F_{\rho,h}^{\reg}$ is smooth and either empty or of pure dimension $\dim K-r$.
+\end{theorem}
+
+The recorded nonemptiness conditions are explicit. For $\mathrm{SL}_N$, write the Levi using block sizes $b_i$ summing to $N$. Nonemptiness holds exactly when every $b_i\le2$ and at least one $b_i=1$. With $t$ two-blocks, the fiber dimension is $2t$.
+
+For $B_n,C_n,D_n$, write the Levi's defining-matrix image as
+$\prod_i\mathrm{GL}_{b_i}\times H_m$, with $\sum_i b_i+m=n$. In type $D$, absorb $\mathrm{SO}_2$ into the $\mathrm{GL}_1$ factors. Nonemptiness is equivalent to
+\[
+ b_i\le4\ \text{for all }i,\qquad
+ m\le2\ (B),\quad m\le1\ (C),\quad m\le3\ (D).
+\]
+The ranges are $B_n,C_n$ for $n\ge2$, and $D_n$ for $n\ge4$, with low-rank identifications treated separately. Failure of a bound excludes regular-source solutions throughout $Z_K^\circ$, but need not exclude nonregular-source solutions.
+
+The proofs use quadratic branching and controlled square substitutions, including rank changes. Finite-rank computations corroborate them; they do not establish the arbitrary-rank assertion.
+
+\subsection{Exceptional groups and excess}
+
+Generic regular-source smoothness or emptiness is recorded for every proper $E_6$ Levi in the adjoint representation, and also for both minimal $27$-dimensional representations. The minimal-representation result does not itself classify nonemptiness and dimensions.
+
+The exceptional extension cannot require zero excess. For the $E_6$ Levi with derived type $A_5$, the recorded regular fibers over nonzero central targets are smooth of dimension $32$. Here $\dim K-r=30$, so the transverse excess is $2$. Smooth positive-dimensional critical schemes belong in the intended theorem.
+
+Current $E_7$ adjoint coverage is $123/127$ proper standard Levi subsets. There are $2^7-1=127$ proper subsets of a fixed simple-root set, including the empty subset defining $T$. This is not a count of conjugacy classes or representations. Weyl-conjugate subsets are grouped using explicit verified words.
+
+For $E_8$, the node-$4$ omission is treated: generic nonzero central targets have six regular $K$-orbits of dimension $28$, with explicit exceptional-target collisions. There is no all-Levi $E_8$ completion. Likewise, the $G_2$ and $F_4$ degree, determinant, regularity, and selected fiber results must not be relabeled as all-Levi fiber classifications.
+
+\section{The latest common mechanism: binary critical equations}
+
+The two latest $E_7$ families use one criterion, rather than unrelated case formulas.
+
+Let $Z$ be a product of affine spaces and tori over $\C$, of dimension $s\ge2$, with coordinate ring $R$. Consider
+\[
+ \phi(x,y,z)=a(y,z)x^2+b(y,z)x+c(y,z),\qquad a,b,c\in R[y].
+\]
+Put
+\begin{align*}
+ X&=V(2ax+b,\ a_yx^2+b_yx+c_y),\\
+ P_0&=4a^2c_y-2abb_y+b^2a_y,\\
+ E&=V(a,b,a_y,b_y,c_y)\subset\mathbb A^1_y\times Z.
+\end{align*}
+Here $P_0$ denotes a polynomial, not a parabolic.
+
+\begin{theorem}[Repository binary criterion]\label{thm:binary}
+Assume $a\ne0$, $\gcd(a,b)=1$ in $R[y]$, $P_0$ is nonzero and squarefree in $R[y,1/a]$, and $\dim E\le s-2$. Then $X$ is smooth of pure dimension $s$ outside a closed subset of dimension at most $s-1$. Any morphism $X\to\mathbb A^s$ has smooth finite generic fibers, possibly empty. Dominance is an additional requirement for nonemptiness.
+\end{theorem}
+
+\begin{proof}
+On $a\ne0$, solve $x=-b/(2a)$. The residual potential is $c-b^2/(4a)$, whose $y$-derivative is $P_0/(4a^2)$. The actual incidence scheme there is the reduced hypersurface $P_0=0$ in a smooth space of dimension $s+1$. Its nonsmooth locus has dimension at most $s-1$.
+
+On $a=0$, the first equation forces $b=0$. Coprimality gives $\dim V(a,b)\le s-1$. Outside $E$ the remaining equation is a nonzero polynomial in $x$, with finite or empty fibers. Over $E$ at most one free $x$ remains, giving dimension at most $\dim E+1\le s-1$. Thus every excluded locus has nondense image in any $s$-dimensional target. Generic smoothness on the remaining smooth source proves the result.
+\end{proof}
+
+Primitivity in the parameters matters: a degree-preserving squarefree specialization proves separability over the parameter field, but does not alone exclude a repeated parameter-only factor. Both content and specialization are checked.
+
+Trace substitutions require an additional boundary argument. If $w=t+t^{-1}$, then
+\[
+ D_t\phi=(t-t^{-1})\phi_w.
+\]
+At $t=\pm1$, the original central target coordinate is zero. Generic targets therefore avoid this ramification locus. Deleting it without that target equation would not justify the argument.
+
+The applications are:
+\begin{center}
+\begin{tabular}{lccc}
+\toprule
+Cubic Levi Weyl family & Retained-node seed & Subsets & Fiber dimension\\
+\midrule
+$A_1^3$ & $125$ & $10$ & $6$\\
+$A_2+A_1^2$ & $1235$ & $12$ & $10$\\
+\bottomrule
+\end{tabular}
+\end{center}
+Nodes use Bourbaki/Sage numbering, with retained rather than omitted nodes. Both results assert nonempty smooth generic regular-source fibers for the adjoint map of simply connected $E_7$.
+
+After exact eliminations, squarefree specializations are respectively
+\[
+ P_0=\tfrac12 y(y^2-3)(y^2-5),\qquad
+ P_0=8y(y^2-3)(y^2+1).
+\]
+Global content and boundary proofs accompany these witnesses. Degree five here is not the Springer-map degree or an orbit count. Separate logarithmic Hessians prove dominance:
+\[
+ \operatorname{diag}(-216,72,72,72),\qquad
+ \begin{pmatrix}144&-72&0\\-72&144&0\\0&0&72\end{pmatrix}.
+\]
+Both are invertible. Sage and a separate Cartan/SymPy implementation reconstruct the characters and check the identities and all $22$ Weyl transfers. The complete proof and exact covers are in \record{BINARY_BRANCHING_FIBERS.md}.
+
+\section{Exactly what remains unresolved}
+
+\subsection{The immediate $E_7$ gaps}
+
+\begin{center}
+\begin{tabularx}{\textwidth}{@{}lclX@{}}
+\toprule
+Family & Subsets & Seed & Missing step\\
+\midrule
+$A_2^2+A_1$ & $3$ & $12356$ &
+Prove that no nonsmooth residual incidence component dominates the central target. Test the same binary reduction while retaining every elimination boundary.\\[5pt]
+$A_2+A_1^3$ & $1$ & $12357$ &
+A reduction and dominance witness exist. Six exact ideal-membership checks in the proposed singular-locus certificate remain unverified. This family is not counted as proved.\\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+The second is a certification gap in a proposed proof, not evidence of a counterexample. A computed candidate basis is insufficient without the required ideal inclusions. The first family has no completed common-criterion argument in the current record.
+
+Closing these gaps would finish generic regular-source smoothness or emptiness for every proper $E_7$ Levi. It would leave special targets, nonregular source points, and most orbit counts unclassified.
+
+\subsection{The principal general conjecture}
+
+\begin{conjecture}[Program conjecture, not attributed to Kostant--Michor]
+For every simple simply connected complex $G$ and every proper Levi $K\subsetneq G$, the normalized adjoint Springer map has a dense open subset $U_K\subset Z_K^\circ$ such that
+\[
+ \theta_{\mathrm{Ad}}^{-1}(h)\cap G_{\reg}
+ \quad\text{is smooth for every }h\in U_K,
+\]
+allowing empty fibers and positive transverse excess.
+\end{conjecture}
+
+The zero-target case $K=G$ is excluded. Nonsemisimple targets are outside the statement. Classical types and $E_6$ are completed in the repository; $E_7$ is nearly complete; the remaining exceptional coverage is not established here.
+
+A general proof should derive \eqref{eq:badimage} from roots, central charges, and character coefficients. An assertion for arbitrary cubic potentials is too strong. The repository contains a reductive-product representation with generically nonreduced critical fibers, and potentials of identical support with different smoothness behavior. Thus polynomial degree or a coupling graph alone cannot be sufficient. These examples do not disprove the simple-adjoint conjecture.
+
+\subsection{Further geometric questions}
+
+\begin{enumerate}
+\item \textbf{Nonemptiness and excess.} Give a root-theoretic criterion for which incidence components dominate $Z_K^\circ$, and determine $\dim X_i-s$. Smoothness alone supplies neither.
+\item \textbf{Orbit counts and special targets.} When the transverse scheme is finite, determine its length after central descent, discriminant, and collision schemes. An elimination degree at fixed central parameters is not this count.
+\item \textbf{Nonregular source points.} Describe extra components, intersections, embedded nilpotents, and branches where the quotient map is not smooth. The symplectic middle-exterior component conjecture remains unresolved at higher-rank singular strata.
+\item \textbf{General degrees.} Extend boundary methods to arbitrary representations, positive-dimensional face schemes, and further $E_8$ cases. Normal layers can change correction multiplicities even with identical facet characters.
+\item \textbf{Branch and non-finite loci.} Determine target loci from the maps, rather than identify them with the source determinant. Their relationship is only partially described by the current families.
+\item \textbf{Minimal harmonic localization.} Extend the sharp symplectic result to other fixed Springer-pulled harmonic spaces, including extension across critical points that preserve regularity.
+\end{enumerate}
+
+The integral-image, equivariant, $K$-theoretic, quantum, and affine extensions remain separate tracks. Their gaps include ambient image lattices, specialization defects, and justified affine-flag sources. The current fiber conjecture would not settle them automatically. Historical minimum-Cayley-degree problems also need their own current literature-status audit.
+
+\section{What would count as progress next?}
+
+The next bounded task is to apply Theorem~\ref{thm:binary}, or a necessary extension of it, to the $A_2^2+A_1$ family. Success means an exact scheme reduction, control of every discarded locus, and independent character/identity checks. Failure should identify a structural obstruction to the criterion, rather than only a slow calculation.
+
+Next resolve the companion's six outstanding memberships, or replace that certificate with a shorter proof. This would finish the $E_7$ theorem with an explicit dependency chain. A subsequent exceptional computation should test a genuinely broader principle: for example, a coefficient or root condition forcing the bad image \eqref{eq:badimage} to be proper.
+
+Before a publication draft, independent expert review of the broad regularity classification, the all-rank degree arguments, and the incidence criteria remains worthwhile. The present evidence consists of written arguments and exact computational corroboration. It establishes neither literature priority nor external acceptance.
+
+\appendix
+\section{Supporting records and attribution}
+
+The companion manifest binds the exposition to local sources as read on 24 October 2026, including uncommitted work. The following paths are relative to the repository's \record{borel} directory.
+
+\begin{description}[style=nextline]
+\item[Maps and earlier papers]
+\record{SPRINGER_GEOMETRY.md}; the original article PDFs and citations in the articles index.
+\item[Regularity and separation]
+\record{REGULARITY_CLASSIFICATION.md};
+\record{SYMPLECTIC_HARMONIC_LOCALIZATION.md}.
+\item[Degrees]
+\record{EXCEPTIONAL_DEGREES.md};
+\record{GENERAL_CAYLEY_DEGREE.md};
+\record{F4_MINIMAL_DEGREE.md};
+\record{F4_MIXTURE_DEGREES.md};
+\record{HALF_SPIN_RANK_DEGREES.md};
+\record{BC_MIXTURE_DEGREES.md}.
+\item[General fibers and criteria]
+\record{GENERAL_CAYLEY_FIBER_CRITICAL.md};
+\record{CAYLEY_FIBER_REVIEW.md};
+\record{QUADRATIC_BRANCHING_FIBERS.md};
+\record{CLASSICAL_ADJOINT_FIBERS.md}.
+\item[Exceptional progress]
+\record{EXCEPTIONAL_QUARTIC_REDUCTION.md};
+\record{MULTIPLIER_BRANCHING_FIBERS.md};
+\record{E7_SYMMETRIC_PENCIL.md};
+\record{BINARY_BRANCHING_FIBERS.md}.
+\item[Status and checks]
+\record{RESEARCH_LEDGER.md}; \record{PROOF_STATUS.md};
+\record{binary-branching-verification.json};
+\record{binary-branching-audit.json}.
+\end{description}
+
+The published papers supply the maps and cohomological framework; later repository notes supply the deductions summarized here. A local theorem note is not being cited as a published article. Compilation, links, and rendered pages are checked separately from mathematical proofs.
+
+\clearpage
+\begin{thebibliography}{9}
+\bibitem{KM}
+B. Kostant and P. W. Michor,
+\emph{The generalized Cayley map from an algebraic group to its Lie algebra},
+in \emph{The Orbit Method in Geometry and Physics}, Progress in Mathematics 213,
+Birkh\"auser, 2003, 259--296.
+\href{https://www.mat.univie.ac.at/~michor/kostant.pdf}{Author-hosted text}.
+
+\bibitem{Rogers}
+S. Rogers, \emph{An explicit determination of the Springer morphism},
+Communications in Algebra 46 (2018), 4233--4242.
+\href{https://arxiv.org/abs/1701.01538}{Available preprint, arXiv:1701.01538}.
+The repository copy is a preprint, not the final journal PDF.
+
+\bibitem{Kumar}
+S. Kumar, \emph{Representation ring of Levi subgroups versus cohomology ring of flag varieties},
+Mathematische Annalen 366 (2016), 395--415.
+\href{https://doi.org/10.1007/s00208-015-1325-6}{DOI}.
+
+\bibitem{KR}
+S. Kumar and S. Rogers, \emph{Representation ring of Levi subgroups versus cohomology ring of flag varieties II},
+Journal of Algebra 556 (2020), 340--362.
+\href{https://doi.org/10.1016/j.jalgebra.2020.02.029}{DOI}.
+
+\bibitem{KX}
+S. Kumar and J. Xie, \emph{Representation ring of Levi subgroups versus cohomology ring of flag varieties III},
+Journal of Pure and Applied Algebra 228 (2024), 107539.
+\href{https://doi.org/10.1016/j.jpaa.2023.107539}{DOI}.
+
+\bibitem{Steinberg}
+R. Steinberg, \emph{Regular elements of semi-simple algebraic groups},
+Publications Math\'ematiques de l'IH\'ES 25 (1965), 49--80.
+\href{https://www.numdam.org/item/PMIHES_1965__25__49_0/}{Primary source}.
+\end{thebibliography}
+\end{document}

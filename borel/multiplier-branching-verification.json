@@ -1,0 +1,353 @@
+{
+  "result": "passed",
+  "helper": {
+    "coupled_unit_matrix": true,
+    "remaining_affine_chain_rule": true,
+    "central_matrix_derivative_retained": true,
+    "negative_cases": [
+      "Constraint determinant is not a Laurent unit; boundary unresolved",
+      "Multiplier dependence is not affine linear"
+    ]
+  },
+  "charge_record": {
+    "type": "E8",
+    "nodes": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      8
+    ],
+    "factors": [
+      "A2",
+      "A1",
+      "A4"
+    ],
+    "factor_orders": [
+      [
+        0,
+        2
+      ],
+      [
+        1
+      ],
+      [
+        3,
+        4,
+        5,
+        6
+      ]
+    ],
+    "central_cocharacters": [
+      [
+        10,
+        15,
+        20,
+        30,
+        24,
+        18,
+        12,
+        6
+      ]
+    ],
+    "cover_degree": 30,
+    "highest": null,
+    "dimension": 248,
+    "terms": [
+      {
+        "charge": [
+          -6
+        ],
+        "exponent": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "coefficient": 1
+      },
+      {
+        "charge": [
+          -5
+        ],
+        "exponent": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": 1
+      },
+      {
+        "charge": [
+          -4
+        ],
+        "exponent": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "coefficient": 1
+      },
+      {
+        "charge": [
+          -3
+        ],
+        "exponent": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "coefficient": 1
+      },
+      {
+        "charge": [
+          -2
+        ],
+        "exponent": [
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "coefficient": 1
+      },
+      {
+        "charge": [
+          -1
+        ],
+        "exponent": [
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "coefficient": 1
+      },
+      {
+        "charge": [
+          0
+        ],
+        "exponent": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1
+        ],
+        "coefficient": 1
+      },
+      {
+        "charge": [
+          0
+        ],
+        "exponent": [
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": 1
+      },
+      {
+        "charge": [
+          0
+        ],
+        "exponent": [
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": 1
+      },
+      {
+        "charge": [
+          0
+        ],
+        "exponent": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": -2
+      },
+      {
+        "charge": [
+          1
+        ],
+        "exponent": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "coefficient": 1
+      },
+      {
+        "charge": [
+          2
+        ],
+        "exponent": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        "coefficient": 1
+      },
+      {
+        "charge": [
+          3
+        ],
+        "exponent": [
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "coefficient": 1
+      },
+      {
+        "charge": [
+          4
+        ],
+        "exponent": [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "coefficient": 1
+      },
+      {
+        "charge": [
+          5
+        ],
+        "exponent": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": 1
+      },
+      {
+        "charge": [
+          6
+        ],
+        "exponent": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "coefficient": 1
+      }
+    ],
+    "max_degree": 3,
+    "reconstructed_every_central_charge": true
+  },
+  "symbolic": {
+    "character_matches": true,
+    "unit_constraint_determinant": true,
+    "all_original_affine_and_central_derivatives": true,
+    "residual": "-(x^2-1)*(x^2+(z^15+z^-15)*x)-3",
+    "central_action_and_graph_verified": true,
+    "no_source_boundary_removed": true
+  },
+  "quotient": {
+    "degree": 6,
+    "discriminant": "4096*k^5 + 4485075*k^4 + 1691730000*k^3 + 292161500000*k^2 + 23287500000000*k + 683437500000000",
+    "nonzero_exceptional_targets": 10,
+    "every_exceptional_fiber_one_double_four_simple": true,
+    "generic_regular_orbits": 6,
+    "regular_orbit_dimension": 28,
+    "quotient_inverse_checked": true,
+    "excluded_coordinate_values_not_roots": true
+  },
+  "root_point": {
+    "prime": 32003,
+    "central_parameter": 343,
+    "x": 12576,
+    "target_c": 1389,
+    "torus_coroot_parameters": [
+      25901,
+      25092,
+      8964,
+      24544,
+      14731,
+      9837,
+      2455,
+      3055
+    ],
+    "trace_norm": 1800,
+    "no_source_root_value_equals_one": true,
+    "Cartan_rank": 8,
+    "root_rank": 212,
+    "full_rank": 220,
+    "kernel_dimension": 28
+  },
+  "all_exceptional_Levis_resolved": false,
+  "full_map_generic_degree_claim": false,
+  "literature_priority_claim": false,
+  "source_sha256": {
+    "MULTIPLIER_BRANCHING_FIBERS.md": "4ae12e6117dc8a1a45ac0930c40e10bcf14c759dc17353bce0586a08f9adb16e",
+    "tools/linear_character_elimination.py": "bd7afc06ac567e5a20f4528b3c82c55fa5c49bd919f0b8971bb291174b5be1c5",
+    "tools/verify_multiplier_branching_fibers.py": "6c1cc11d5b8d4dd13a0f761be3a970091dd0c8ffca1a2698f5f58134332d853e",
+    "tools/verify_branching_norm_fibers.py": "edd3b3b6dc11d6f2e09ad624e7cee4fceb76c066118d4926fd635fb2a8d3c02f",
+    "GENERAL_CAYLEY_FIBER_CRITICAL.md": "1cffec1488cc51c792939382111003bf82394fb195c62c6c97670c6aee2a1483"
+  }
+}

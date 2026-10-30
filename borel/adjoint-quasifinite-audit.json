@@ -1,0 +1,83 @@
+{
+  "result": "passed",
+  "independent_engine": "SymPy",
+  "coefficient_field": "Q(t,r)",
+  "uses_Sage": false,
+  "uses_modular_specialization": false,
+  "original_potential_reconstructed": true,
+  "schur_identity_verified": true,
+  "squarefree_plane_pencil_hypotheses_verified": true,
+  "determinant_singular_point_classification_identities_verified": true,
+  "centered_line_obstruction_membership_verified": true,
+  "compact_center_identity_independently_verified": true,
+  "rank_zero_branches": [
+    {
+      "axis": "t",
+      "epsilon": -1,
+      "alternate": false,
+      "degree": 4,
+      "leading_coefficient": "1"
+    },
+    {
+      "axis": "t",
+      "epsilon": -1,
+      "alternate": true,
+      "degree": 4,
+      "leading_coefficient": "-1/r**2"
+    },
+    {
+      "axis": "t",
+      "epsilon": 1,
+      "alternate": false,
+      "degree": 4,
+      "leading_coefficient": "-1"
+    },
+    {
+      "axis": "t",
+      "epsilon": 1,
+      "alternate": true,
+      "degree": 4,
+      "leading_coefficient": "r**(-2)"
+    },
+    {
+      "axis": "r",
+      "epsilon": -1,
+      "alternate": false,
+      "degree": 4,
+      "leading_coefficient": "1"
+    },
+    {
+      "axis": "r",
+      "epsilon": -1,
+      "alternate": true,
+      "degree": 4,
+      "leading_coefficient": "-1/t**2"
+    },
+    {
+      "axis": "r",
+      "epsilon": 1,
+      "alternate": false,
+      "degree": 4,
+      "leading_coefficient": "-1"
+    },
+    {
+      "axis": "r",
+      "epsilon": 1,
+      "alternate": true,
+      "degree": 4,
+      "leading_coefficient": "t**(-2)"
+    }
+  ],
+  "all_allowed_critical_fibers_zero_dimensional": true,
+  "relative_algebra_flat_and_reduced_on_b_open": true,
+  "generic_target_reducedness_uses_prior_six_boundary_exclusions": true,
+  "generic_target_finite_etale_or_zero_by_written_dimension_argument": true,
+  "generic_target_smoothness_uses_prior_boundary_exclusions": true,
+  "uniform_adjoint_conjecture_proved": false,
+  "novelty_claim": false,
+  "source_sha256": {
+    "tools/audit_adjoint_quasifinite.py": "e75d1063286d76509a5c192fb2e24fbfa88d2c749e94fea5c594dd2f06680298",
+    "adjoint-quasifinite-verification.json": "25789fddd8e9cdcf81b95095fb6dab5820204aab700a4ee8627c28053f4ce3f9",
+    "adjoint-nilpotent-source-screen.json": "0f084d865f3e85fb22287bbe143c18811db1259697045b09a2c4e4c2be631711"
+  }
+}

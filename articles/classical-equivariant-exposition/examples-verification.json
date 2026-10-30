@@ -1,0 +1,112 @@
+{
+  "result": "passed",
+  "cases": [
+    {
+      "family": "B",
+      "n": 3,
+      "k": 1,
+      "polynomial_degree": 0,
+      "factors": [
+        1
+      ]
+    },
+    {
+      "family": "B",
+      "n": 3,
+      "k": 1,
+      "polynomial_degree": 2,
+      "factors": [
+        1
+      ]
+    },
+    {
+      "family": "B",
+      "n": 3,
+      "k": 1,
+      "polynomial_degree": 4,
+      "factors": [
+        2
+      ]
+    },
+    {
+      "family": "D",
+      "n": 4,
+      "k": 2,
+      "polynomial_degree": 4,
+      "factors": [
+        1,
+        2,
+        2
+      ],
+      "ambient_rank": 4,
+      "free_cokernel_rank": 1
+    },
+    {
+      "family": "A",
+      "group": "SL4",
+      "flag": "P1",
+      "factors_by_degree": [
+        [
+          1
+        ],
+        [
+          4
+        ],
+        [
+          2
+        ],
+        [
+          4
+        ]
+      ]
+    },
+    {
+      "family": "C",
+      "group": "Sp4",
+      "flag": "P1",
+      "K_matrix": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          4,
+          0
+        ],
+        [
+          0,
+          1,
+          -4,
+          8
+        ]
+      ],
+      "K_factors": [
+        1,
+        1,
+        8,
+        8
+      ],
+      "H_factors": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "index": 64
+    }
+  ],
+  "methods": "BGG Schubert image matrices versus closed orthogonal formulas; root-difference source on SL4; direct truncated projective K multiplication",
+  "scope": "Selected displayed examples only; not an independent audit of all general proofs.",
+  "source_sha256": "c33530c9748fa5780e9a4fba12af1d10701b0c459444cb0264f5faeb9b35f2aa",
+  "tex_sha256": "b881fca4568ca6600c4e87ee516dee8f4e6611f24458e886e7062f8f2b939716"
+}

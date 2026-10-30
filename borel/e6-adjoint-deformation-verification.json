@@ -1,0 +1,165 @@
+{
+  "result": "passed",
+  "date": "2026-10-22",
+  "sage_version": "9.5",
+  "geometry": {
+    "root_count": 72,
+    "normalized_volume": 2808,
+    "facet_count": 54,
+    "facet_Weyl_orbits": [
+      27,
+      27
+    ],
+    "facet_height": 1,
+    "facet_cover_degree": 2,
+    "cover_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        -1
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        -1,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        -1,
+        0,
+        0
+      ],
+      [
+        0,
+        -1,
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    "root_layers": [
+      16,
+      40,
+      16
+    ],
+    "facet_difference_lattice_saturated": true,
+    "codimension_two_simplex_faces": 432,
+    "codimension_two_cross_faces": 270,
+    "lower_faces_all_simplices": true,
+    "cross_normal_charts_unimodular": true,
+    "cross_difference_lattice_index": 1,
+    "central_cover_degree": 3,
+    "crossing_critical_points_per_face": 3,
+    "prototype_nodes": [
+      {
+        "point": [
+          1,
+          -1,
+          -1,
+          -1
+        ],
+        "hessian_determinant": "4"
+      },
+      {
+        "point": [
+          1,
+          -1,
+          1,
+          -1
+        ],
+        "hessian_determinant": "4"
+      },
+      {
+        "point": [
+          1,
+          1,
+          -1,
+          1
+        ],
+        "hessian_determinant": "4"
+      }
+    ]
+  },
+  "local": {
+    "cover_curve_strata": 30,
+    "cover_triple_strata": 20,
+    "middle_layer_value": -8,
+    "middle_layer_full_gradient_zero": true,
+    "jet_ranks": [
+      {
+        "fixed": 4,
+        "parity": 0,
+        "rank": 5
+      },
+      {
+        "fixed": 4,
+        "parity": 1,
+        "rank": 5
+      },
+      {
+        "fixed": 5,
+        "parity": 0,
+        "rank": 6
+      },
+      {
+        "fixed": 5,
+        "parity": 1,
+        "rank": 6
+      }
+    ],
+    "curve_generic_critical_points": 1,
+    "product_gradient_checks": [
+      {
+        "product_size": 2,
+        "simple_roots": 1
+      },
+      {
+        "product_size": 3,
+        "simple_roots": 2
+      }
+    ],
+    "crossing_leading_determinant": "h*(b1-b2)",
+    "generic_crossing_escape_count": 0
+  },
+  "boundary_correction": 1890,
+  "limiting_branches": {
+    "open_curves": 810,
+    "triple_points": 1080,
+    "crossings": 0
+  },
+  "root_torus_degree": 918,
+  "simply_connected_degree": 2754,
+  "Segre_formula_used_to_derive_result": false,
+  "novelty_claim": false,
+  "external_review": false,
+  "scope": "Exact finite root/lattice and local-algebra checks support the written deformation proof; no formal proof certificate or generic-degree inference from finite-field samples.",
+  "source_sha256": {
+    "E6_ADJOINT_DEFORMATION.md": "817874bb693723958921414e39838265f0aa7bfd6d8af423e81c54ec87fe72a7",
+    "tools/verify_e6_adjoint_deformation.py": "c1a8c12d12e410d41cab05d3d0c3fd26a48c20ef8c33d12c25de1eadd91fb46e"
+  }
+}

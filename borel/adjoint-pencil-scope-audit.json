@@ -1,0 +1,133 @@
+{
+  "result": "passed",
+  "uses_Sage": false,
+  "independently_reconstructed_characters": [
+    {
+      "type": "E6",
+      "nodes": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "dimension": 78,
+      "all_charges_reconstructed_by_subset_models": true,
+      "cover_degree": 6
+    },
+    {
+      "type": "E7",
+      "nodes": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7
+      ],
+      "dimension": 133,
+      "all_charges_reconstructed_by_subset_models": true,
+      "cover_degree": 12
+    },
+    {
+      "type": "E8",
+      "nodes": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8
+      ],
+      "dimension": 248,
+      "all_charges_reconstructed_by_subset_models": true,
+      "cover_degree": 30
+    }
+  ],
+  "diagram_checks": [
+    {
+      "type": "E6",
+      "candidates": [
+        [
+          1,
+          2,
+          3,
+          5,
+          6
+        ]
+      ]
+    },
+    {
+      "type": "E7",
+      "candidates": [
+        [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7
+        ]
+      ]
+    },
+    {
+      "type": "E8",
+      "candidates": [
+        [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8
+        ]
+      ]
+    }
+  ],
+  "highest_root_checks": [
+    {
+      "type": "E6",
+      "highest_root_checked_by_reflections": true
+    },
+    {
+      "type": "E7",
+      "highest_root_checked_by_reflections": true
+    },
+    {
+      "type": "E8",
+      "highest_root_checked_by_reflections": true
+    }
+  ],
+  "symbolic": {
+    "multiplier_substitution_exact": true,
+    "anchored_product_identity": true,
+    "all_original_derivatives_verified": true,
+    "mu12_action_on_original_character": true,
+    "uniform_nonzero_target_ideal_equality": true,
+    "actual_quotient_discriminant": "c^2+36",
+    "generic_regular_orbits": 2,
+    "regular_orbit_dimension": 20
+  },
+  "original_root_point": {
+    "prime": 1033,
+    "no_source_root_value_equals_one": true,
+    "target_centralizer_checked": true,
+    "Cartan_rank": 7,
+    "root_rank": 106,
+    "full_rank": 113,
+    "kernel_dimension": 20,
+    "trace_norm": 432
+  },
+  "arbitrary_affine_changes_classified": false,
+  "all_exceptional_Levis_resolved": false,
+  "literature_priority_claim": false,
+  "source_sha256": {
+    "ADJOINT_PENCIL_SCOPE.md": "d925c39fb6cc06d24924011f563a98ea6f8ea37051b08e83457d4735fb81d2cb",
+    "tools/audit_adjoint_pencil_scope.py": "422f765f6491dcf43b88c7d8772b39744aa08ce58c25bf4103b796e48c36489e",
+    "tools/audit_affine_branching_certificates.py": "7d56ef1b5373f66a5e7c38d3c8d567ec4c27bfdda5bdd11ef60f54ee2f8da2a1",
+    "tools/audit_branching_norm_fibers.py": "a7ccf69961962ffb6075392ae8c17883626f02dbc4eba9eafa0cdd7df350d3fa",
+    "adjoint-pencil-scope-verification.json": "7db81a1dd53657bddec4f246c3b17f6f0b05244416173cfca24f6933a409a014"
+  }
+}

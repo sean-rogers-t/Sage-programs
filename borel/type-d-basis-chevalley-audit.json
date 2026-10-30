@@ -1,0 +1,233 @@
+{
+  "result": "passed",
+  "method": "Native signed-permutation positive roots and full-flag Chevalley divisor multiplication; exact row multisets agree with BGG.",
+  "actual_D": [
+    {
+      "K": 1,
+      "H": 3,
+      "d": 0,
+      "source_columns": 1,
+      "coefficient_rows": 1,
+      "exact_match": true
+    },
+    {
+      "K": 1,
+      "H": 3,
+      "d": 2,
+      "source_columns": 1,
+      "coefficient_rows": 1,
+      "exact_match": true
+    },
+    {
+      "K": 1,
+      "H": 3,
+      "d": 3,
+      "source_columns": 1,
+      "coefficient_rows": 2,
+      "exact_match": true
+    },
+    {
+      "K": 1,
+      "H": 3,
+      "d": 4,
+      "source_columns": 1,
+      "coefficient_rows": 1,
+      "exact_match": true
+    },
+    {
+      "K": 1,
+      "H": 3,
+      "d": 6,
+      "source_columns": 1,
+      "coefficient_rows": 1,
+      "exact_match": true
+    },
+    {
+      "K": 2,
+      "H": 2,
+      "d": 0,
+      "source_columns": 1,
+      "coefficient_rows": 1,
+      "exact_match": true
+    },
+    {
+      "K": 2,
+      "H": 2,
+      "d": 2,
+      "source_columns": 2,
+      "coefficient_rows": 3,
+      "exact_match": true
+    },
+    {
+      "K": 2,
+      "H": 2,
+      "d": 4,
+      "source_columns": 3,
+      "coefficient_rows": 4,
+      "exact_match": true
+    },
+    {
+      "K": 2,
+      "H": 2,
+      "d": 6,
+      "source_columns": 2,
+      "coefficient_rows": 3,
+      "exact_match": true
+    },
+    {
+      "K": 2,
+      "H": 2,
+      "d": 8,
+      "source_columns": 1,
+      "coefficient_rows": 1,
+      "exact_match": true
+    },
+    {
+      "K": 3,
+      "H": 2,
+      "d": 0,
+      "source_columns": 1,
+      "coefficient_rows": 1,
+      "exact_match": true
+    },
+    {
+      "K": 3,
+      "H": 2,
+      "d": 2,
+      "source_columns": 2,
+      "coefficient_rows": 3,
+      "exact_match": true
+    },
+    {
+      "K": 3,
+      "H": 2,
+      "d": 4,
+      "source_columns": 3,
+      "coefficient_rows": 6,
+      "exact_match": true
+    },
+    {
+      "K": 3,
+      "H": 2,
+      "d": 6,
+      "source_columns": 4,
+      "coefficient_rows": 9,
+      "exact_match": true
+    },
+    {
+      "K": 3,
+      "H": 2,
+      "d": 8,
+      "source_columns": 3,
+      "coefficient_rows": 9,
+      "exact_match": true
+    },
+    {
+      "K": 3,
+      "H": 2,
+      "d": 10,
+      "source_columns": 2,
+      "coefficient_rows": 5,
+      "exact_match": true
+    },
+    {
+      "K": 3,
+      "H": 2,
+      "d": 12,
+      "source_columns": 1,
+      "coefficient_rows": 2,
+      "exact_match": true
+    },
+    {
+      "K": 2,
+      "H": 3,
+      "d": 0,
+      "source_columns": 1,
+      "coefficient_rows": 1,
+      "exact_match": true
+    },
+    {
+      "K": 2,
+      "H": 3,
+      "d": 2,
+      "source_columns": 1,
+      "coefficient_rows": 2,
+      "exact_match": true
+    },
+    {
+      "K": 2,
+      "H": 3,
+      "d": 3,
+      "source_columns": 1,
+      "coefficient_rows": 2,
+      "exact_match": true
+    },
+    {
+      "K": 2,
+      "H": 3,
+      "d": 4,
+      "source_columns": 2,
+      "coefficient_rows": 4,
+      "exact_match": true
+    },
+    {
+      "K": 2,
+      "H": 3,
+      "d": 5,
+      "source_columns": 1,
+      "coefficient_rows": 2,
+      "exact_match": true
+    },
+    {
+      "K": 2,
+      "H": 3,
+      "d": 6,
+      "source_columns": 2,
+      "coefficient_rows": 5,
+      "exact_match": true
+    },
+    {
+      "K": 2,
+      "H": 3,
+      "d": 7,
+      "source_columns": 1,
+      "coefficient_rows": 2,
+      "exact_match": true
+    },
+    {
+      "K": 2,
+      "H": 3,
+      "d": 8,
+      "source_columns": 2,
+      "coefficient_rows": 3,
+      "exact_match": true
+    },
+    {
+      "K": 2,
+      "H": 3,
+      "d": 9,
+      "source_columns": 1,
+      "coefficient_rows": 2,
+      "exact_match": true
+    },
+    {
+      "K": 2,
+      "H": 3,
+      "d": 10,
+      "source_columns": 1,
+      "coefficient_rows": 2,
+      "exact_match": true
+    },
+    {
+      "K": 2,
+      "H": 3,
+      "d": 12,
+      "source_columns": 1,
+      "coefficient_rows": 1,
+      "exact_match": true
+    }
+  ],
+  "independent_actual_embedding": true,
+  "source_sha256": "bacbd54f209854dbcc9865086897fb134b078af5776bed24d22522d58c77af09",
+  "input_sha256": "4280fe38bd9ed5158f5d62ef4a24d19eea00cecba4fac8b9e15fc892de874b12"
+}

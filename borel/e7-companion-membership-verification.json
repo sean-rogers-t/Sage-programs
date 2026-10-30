@@ -1,0 +1,73 @@
+{
+  "result": "passed",
+  "method": "homogeneous Hilbert-function equality over QQ",
+  "exact_rational_Buchberger_check": true,
+  "original_homogeneous_generators_reduce_to_zero": true,
+  "independent_prime": 32009,
+  "generation_prime": 32003,
+  "original_modular_ideal_algorithm": "libsingular:std",
+  "reverse_inclusion_certified_by_homogeneous_Hilbert_functions": true,
+  "original_affine_ideal_memberships": 6,
+  "leading_exponents": [
+    [
+      5,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      5,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      3,
+      0,
+      0,
+      3
+    ],
+    [
+      0,
+      0,
+      0,
+      6,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      5,
+      1
+    ]
+  ],
+  "singular_incidence_dimension_bound": 1,
+  "all_E7_proper_Levis_covered": true,
+  "regular_fiber_dimension": 12,
+  "literature_priority_claim": false,
+  "raw_sha256": {
+    "e7-homogeneous-membership-certificate.json.gz": "b628db2ef367db161b246be44c418e2436c97560e994b724e35422e04e160be0",
+    "e7-quartic-boundary-candidate.json.gz": "bb7b041fec5d693b0534a89f1ac17b238635bec294d68f0a9f2378a3656486a1"
+  },
+  "source_sha256": {
+    "E7_FINAL_FAMILIES.md": "b7ee8c255be6d841e944f43dc3800109b4a93ce04262de69824a8c8e9bbccb33",
+    "tools/verify_e7_companion_membership.py": "ae6d75539e1fc35bb998ff16c20baeebd424e3ee153e82c251c973c8b5db7331"
+  }
+}

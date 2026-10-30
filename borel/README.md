@@ -12,7 +12,62 @@ the mathematical guide for the Borel/Springer construction.
 
 | Question | Guide |
 | --- | --- |
+| Can a matrix-pencil criterion control the next E7 refinements? | [Rank-stratum theorem and the complete A1^4 family; the A2+A1^3 companion and its precise remaining certificate](E7_SYMMETRIC_PENCIL.md) |
+| Do adjoint root identities extend the pencil criterion beyond E6? | [Its original-coordinate scope is only E6; exact multiplier elimination proves the E7 A1+A2+A3 fiber theorem](ADJOINT_PENCIL_SCOPE.md) |
+| Can coupled linear character constraints determine the E8 adjoint fibers? | [General unit-matrix elimination and a polynomial quotient criterion; E8 node 4 has six generic regular orbits of dimension 28](MULTIPLIER_BRANCHING_FIBERS.md) |
+| How far does elimination cover the remaining exceptional Levis? | [Uniform quartic reduction and E6 completion](EXCEPTIONAL_QUARTIC_REDUCTION.md); [seven E7 cubic Weyl families, a controlled nonunit-multiplier theorem, and the A3+A1+A1 family](E7_MULTIPLIER_BOUNDARY.md) |
+| Can one criterion handle arbitrarily many cubic couplings and predict smooth excess? | [Bipartite character pencils, spectral quadrics of dimension 2d-1, and a persistent-collision obstruction](SPECTRAL_BRANCHING_FIBERS.md) |
+| Can we resolve the two remaining E6 cubic refinement mechanisms structurally? | [Product transfer, a universal Fricke critical algebra, and boundary control; generic regular dimensions 10 and 6](CUBIC_LEVI_REFINEMENTS.md) |
+| Can weight norms and character couplings prove structural fiber theorems? | [Charge-sensitive degree bounds, restricted adjoint cubic shapes, all-Levi E6 minimal smoothness, and an exact suspension theorem](BRANCHING_NORM_FIBERS.md) |
+| Does the classical adjoint dimension formula extend to exceptional groups? | [No: E6 has two extra quotient dimensions; a uniform root-length obstruction and contact-grading transfer explain the outcomes](EXCEPTIONAL_ADJOINT_CONTACT_FIBERS.md) |
+| What are the generic regular fibers of the adjoint Springer maps in every classical rank? | [Complete smoothness, nonemptiness and dimension theorem; square-substitution criterion](CLASSICAL_ADJOINT_FIBERS.md) |
+| When does Levi branching prove generic smoothness and predict excess dimension? | [Affine branching theorem, singular-coefficient exclusion and uniform A/C consequences](AFFINE_BRANCHING_FIBERS.md) |
+| Exactly which fundamental representations and Levis satisfy that affine hypothesis? | [All-rank classical classification and complete exceptional certificates](AFFINE_BRANCHING_CLASSIFICATION.md) |
+| Does generic smoothness extend beyond affine branching, including rank changes? | [Quadratic theorem, complete SL_N adjoint regular-fiber criterion, and classical transfer](QUADRATIC_BRANCHING_FIBERS.md) |
+| Do fundamental representations always give isolated quotient-critical points? | [No: an all-rank spin counterexample, smooth excess fibers, and the general unused-coordinate criterion](SPIN_FIBER_EXCESS.md) |
+| Is there a general character criterion for fiber components and multiplicities? | [Corrected quotient potentials, exact local Jacobian algebras, linear elimination and the limits at nonregular points](GENERAL_CAYLEY_FIBER_CRITICAL.md) |
+| What can we prove uniformly for simple groups and whole target strata? | [All-type fundamental zero fibers, classical target bounds, and exact middle-exterior component counts and multiplicities](SIMPLE_GROUP_CAYLEY_BRANCHING.md) |
+| Does the component formula extend to primitive symplectic representations? | [All even-rank equality strata: signed component counts, multiplicity one, a stronger kernel bound, and the odd-rank residual equation](SYMPLECTIC_TARGET_STRATA.md) |
+| What is the full fiber in the symplectic zero model? | [All-rank component and generic reducedness; a singular embedded thickening and the reduced-germ conjecture](SYMPLECTIC_FIBER_COMPONENT.md) |
+| Does the realization theorem extend beyond type A? | [Every odd nilpotent map occurs on a symplectic centralizer in the fixed primitive middle-exterior family](SYMPLECTIC_CENTRALIZER_REALIZATION.md) |
+| Are the collapsed unipotent varieties actual full-fiber components? | [Middle-exterior component theorem: parity of the block size determines enlargement and multiplicity](MIDDLE_EXTERIOR_FIBER_COMPONENT.md) |
+| Can a single irreducible representation realize these degenerations? | [All type A nilpotent polynomial maps occur on proper centralizers in the fixed middle-exterior family](IRREDUCIBLE_CENTRALIZER_REALIZATION.md) |
+| Which degeneration orders can actual representations realize? | [Type A character criterion, closed exterior-mixture classification and every-order realization in even dimension](TYPE_A_CHARACTER_DEGENERATION.md) |
+| Can I reconstruct on B for larger classical and exceptional groups? | [Automatic Chevalley data, general character integration, exact torus-wall evaluation and independent checks through E8](ROOT_BOREL_API.md) |
+| When do mixed root terms recover vertical rank? | [General centralizer rank reduction and the complete G2 minimal/adjoint rank rules](G2_BOREL_RANK.md) |
+| Does the fiber program go beyond known theory? | [Literature assessment, uniform deductions, a reducible-fiber obstruction and the decision to pause more rank tables](CAYLEY_FIBER_ASSESSMENT.md) |
+| Can I reconstruct Borel coordinates from a torus formula for other representations? | [Uniform root-commutator recurrence, SL3/Sp4 character API and independent representation checks](BOREL_RECONSTRUCTION.md) |
+| Can I evaluate the Springer map on B, including unipotent coordinates? | [SL3/Sp4 defining formulas, exact collapse fibers, general triangular mechanism and API](BOREL_COORDINATES.md) |
+| What are the defining-adjoint degrees in arbitrary type B/C rank? | [Closed formulas, binomial boundary corrections, Spin/SO and Sp/PSp distinctions](BC_MIXTURE_DEGREES.md) |
+| How do F4 degrees change for minimal-adjoint direct sums? | [All-multiplicity formula, exceptional ratios a=b and a=5b, and height-two corrections](F4_MIXTURE_DEGREES.md) |
+| What is the F4 minimal Springer degree, and is its torus map finite? | [Degree 96, odd-crosspolytope criterion, finite-flat corollary and independent fibers](F4_MINIMAL_DEGREE.md) |
+| Does the half-spin deformation method transfer to an exceptional group? | [E6 adjoint correction 1890, stationary middle layer and all-orders crossing exclusion](E6_ADJOINT_DEFORMATION.md) |
+| Which degree arguments extend beyond Spin, and what can fail? | [General criteria, normal-layer corrections, exact counterexamples and independent E6 audit](GENERAL_CAYLEY_DEGREE.md) |
+| Can I compute classical equivariant Springer images? | [Type A partial flags in H/K and the integral symplectic projective K-cokernel](CLASSICAL_EQUIVARIANT.md) |
+| What higher type C Fitting formulas are proved? | [Doubled presentation](SYMPLECTIC_K_FITTING.md), [Schur generators](SYMPLECTIC_K_MINORS.md), [all-rank integral Hankel balancing and complete ranks 1-9](SYMPLECTIC_K_BALANCING.md) |
+| What are all ordinary type C projective K Smith factors? | [Closed binary-digit multiplicities, Hankel proof and known inputs](SYMPLECTIC_K_ORDINARY_SMITH.md) |
 | What general results do we have, and which structural questions remain? | [Research ledger: results, partial results, counterexamples and open problems](RESEARCH_LEDGER.md) |
+| Which Springer and Cayley questions are already covered by the literature? | [Audit of all eight brief references, the linked notebook, related work and current-status limits](CAYLEY_LITERATURE_AUDIT.md) |
+| Which exterior-power Springer maps preserve regularity? | [All-rank SL_n classification, uniform rational counterexamples and independent trace checks](EXTERIOR_REGULARITY.md) |
+| Which irreducible SL_n Springer maps preserve regularity? | [Complete highest-weight classification, symmetric-power corollary and independent character checks](TYPE_A_REGULARITY.md) |
+| Which fundamental Sp_(2n) Springer maps preserve regularity? | [All-rank obstruction, constructive character zeros and contraction-kernel verification](TYPE_C_FUNDAMENTAL_REGULARITY.md) |
+| What about every irreducible Sp_(2n) highest weight? | [Universal central--Weyl obstruction, independent branching proof, symmetric powers and central quotients](TYPE_C_REGULARITY.md) |
+| What about type B, including spinorial highest weights? | [All irreducible Spin_(2n+1) and all SO_(2n+1) representations fail regularity for n>=2](TYPE_B_REGULARITY.md) |
+| Can mixing central characters repair regularity? | [Complete B/C answer: symplectic torus-positive characters, nonsemisimple failure, and arbitrary-sum type B obstruction](MIXED_REGULARITY.md) |
+| How much localization does symplectic harmonic separation need? | [Exactly det(1+g): minimal invariant principal localization and full Cayley determinant](SYMPLECTIC_HARMONIC_LOCALIZATION.md) |
+| How do symplectic generalized Cayley degrees change under tensor powers and mixtures? | [Degree 2n deg(F) for actual characters F(det(1+g)), explicit fibers and representation-operation laws](SYMPLECTIC_CAYLEY_DEGREES.md) |
+| How do Spin generalized Cayley degrees change under tensor powers? | [Degree 2m floor(N/2), an explicit fiber presentation, and parity-dependent descent to SO](SPIN_CAYLEY_DEGREES.md) |
+| What happens when even and odd spin characters are mixed? | [Degree 2 floor(N/2) deg(F), precise SO descent, representation operations and collapsed character levels](SPIN_POLYNOMIAL_CAYLEY_DEGREES.md) |
+| Where are polynomial Spin maps finite, and where do their inverses branch? | [Maximal finite target locus, full Jacobian, boundary rank bound and a false discriminant factor](SPIN_CAYLEY_GEOMETRY.md) |
+| What changes for one half-spin representation? | [Pfaffian formula, complete zero fiber in the Cayley chart and a large boundary zero family](HALF_SPIN_CAYLEY.md) |
+| What is the entire half-spin zero fiber, including nonsemisimple points? | [All-rank four-eigenvector criterion and sharp dimension r(2r-1)-12](HALF_SPIN_BOUNDARY.md) |
+| What is the generic degree of either individual half-spin map of Spin_10? | [Degree 148: a toric intersection proof and independent original-weight checks](HALF_SPIN_DEGREE.md) |
+| Is there a half-spin degree formula across ranks? | [Degree 2^(r-1)(r^2-3r-2)+4r on Spin_(2r), with a deformation proof and independent Spin_12 checks](HALF_SPIN_RANK_DEGREES.md) |
+| Is the simple-group regularity table complete, including reducible representations and exceptional types? | [Complete table and uniform primitive-root obstruction, with rank-one and isogeny qualifications](REGULARITY_CLASSIFICATION.md) |
+| What did the exploration of other cohomologies and affine groups produce? | [Research report, theorem inventory, known inputs and prioritized API path](OTHER_THEORIES_PROGRAM.md) |
+| How does the actual Springer-character image change in K-theory? | [General filtered comparison and counterexamples](OTHER_THEORIES_FINITE.md), [complete SL3 formulas](OTHER_THEORIES_SL3.md), [primitive character data](OTHER_THEORIES_COTANGENT.md) |
+| Can the earlier Cayley determinants control equivariant K-images? | [All-parabolic determinant theorem, local Smith patterns and an integral symplectic family](OTHER_THEORIES_EQUIVARIANT_K.md) |
+| What can already be proved for quantum and affine images? | [Flat quantum projective families](OTHER_THEORIES_QUANTUM.md), [all-rank affine A/C divisor contents and evaluation/level images](OTHER_THEORIES_AFFINE.md) |
 | What comes after the complete E6/E7 relative classification? | [Prioritized next milestones, proposed API and structural proof targets](../articles/research-program-proposal/README.md#next-milestones-after-the-e7-completion) |
 | What mathematical map does each method compute? | [Methods and worked examples](METHODS.md) |
 | Why do the Borel, BGG, Chevalley and coinvariant methods work? | [Mathematical framework and conventions](MATHEMATICS.md) |
@@ -26,6 +81,12 @@ the mathematical guide for the Borel/Springer construction.
 | What happens to the E7 root-to-weight factors at 2? | [Explicit P7 simultaneous bases and multiplicity polynomial](E7_ROOT_WEIGHT_COMPARISON.md); exponent 2 on all 64 refinements, with [proof/source audit](E7_ROOT_WEIGHT_AUDIT.md) |
 | What is proved for finer E7/P7 flags? | [Full flag and A6 transfer](E7_FULL_FLAG_COMPARISON.md), [D5 proof](E7_D5_REFINEMENT.md), [D4 completion: all 64 refinements in all degrees](E7_D4_REFINEMENT.md) |
 | What about the other E7 parabolics? | [Complete theorem for all 127 proper E7 parabolics](E7_ALL_PARABOLICS.md), including [D5+A1](E7_D5_A1_COMPARISON.md), [D4+A1](E7_D4_A1_COMPARISON.md) and the [uniform even-block formula](E7_A5_FAMILY.md) |
+| What could explain the E7 multiplicities structurally? | [Quadratic-derivation criterion, bounded 112-case proof and arbitrary-rank type A model](E7_QUADRATIC_DERIVATION.md) |
+| Does the first integral E7 half-sum respect Levi invariants? | [Degree-eleven lifting theorem for all 112 cases and cubic nonlifting obstructions](E7_DEGREE11_LIFTING.md) |
+| When does central parity preserve an entire integral Borel kernel? | [Sufficient integral hypotheses, all-rank type C theorem and Spin7 counterexample](CENTRAL_PARITY_KERNEL.md) |
+| Does the Spin7 obstruction persist for every odd spin group? | [Every-rank quartic theorem, stable Spin9 presentation and complete ranks 3–8](SPIN_PARITY_EXTENSION.md) |
+| Is there an arbitrary-rank recurrence for the odd-spin kernels? | [Integral Pieri lattice recurrence, uniform stable family and remaining classification gap](SPIN_PARITY_RECURSION.md) |
+| Can the remaining odd-spin obstruction be isolated at the rank boundary? | [Exact adjacent-rank boundary criterion and obstruction-rank formula](SPIN_PARITY_BOUNDARY.md) |
 | How do I query all E7 relative Smith factors and compare representations? | [Compressed all-parabolic API, source scaling and minimal/adjoint comparisons](E7_RELATIVE_IMAGE_API.md) |
 | Can I query all E6 relative factors, including 9 and 27? | [All 63 parabolics, representation comparisons and shared-prime scaling](E6_RELATIVE_IMAGE_API.md) |
 | What is the complete literal G2 full-flag image? | [Integral kernel, all Smith factors, API and independent Chevalley audit](G2_FULL_FLAG.md) |

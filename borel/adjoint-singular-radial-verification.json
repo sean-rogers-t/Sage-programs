@@ -1,0 +1,25 @@
+{
+  "result": "passed",
+  "engine": "Sage exact fraction fields and Singular ideal operations",
+  "checks": {
+    "radial_identity": true,
+    "block_and_full_derivative_identities": true,
+    "independent_polynomial_jet_check": true,
+    "primary_intersection_verified": true,
+    "actual_generic_fiber_dimension": 1,
+    "nonzero_generic_fiber_nilpotent": true,
+    "generic_bad_support_length": 2,
+    "localization_keeps_generic_fiber": true,
+    "differentiated_rhs_nonzero": true,
+    "normal_equations_must_be_retained": true
+  },
+  "native_audit_imported": false,
+  "abstract_radial_identity_suffices": false,
+  "uniform_adjoint_conjecture_proved": false,
+  "adjoint_counterexample": false,
+  "new_Levi_coverage": false,
+  "source_sha256": {
+    "tools/verify_adjoint_singular_radial.py": "ab3c1907b0e2dfbab090baefed1993b0749f3d41ed482e95fa3266d575910458",
+    "UNIFORM_ADJOINT_PROOF_TARGET.md": "3f2e4b74cc19dfb216a65ecd4db03bf76705c17a0639292b816ec3100f53ef80"
+  }
+}

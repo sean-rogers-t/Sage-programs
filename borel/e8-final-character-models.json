@@ -1,0 +1,4627 @@
+[
+  {
+    "seed": [
+      1,
+      2,
+      5,
+      7
+    ],
+    "columns": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        2,
+        2,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        1,
+        0
+      ],
+      [
+        1,
+        2,
+        2,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        2,
+        3,
+        4,
+        6,
+        5,
+        4,
+        3,
+        2
+      ]
+    ],
+    "components": [
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ],
+      [
+        5
+      ],
+      [
+        6
+      ],
+      [
+        7
+      ]
+    ],
+    "variables": [
+      "x1",
+      "x2",
+      "x5",
+      "x7",
+      "a0",
+      "a1",
+      "a2",
+      "a3"
+    ],
+    "derived": 4,
+    "central_semisimple": 4,
+    "terms": [
+      {
+        "exponent": [
+          1,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "charge": [],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          1,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        "charge": [],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        "charge": [],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          1,
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        "charge": [],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          1,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        "charge": [],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          1
+        ],
+        "charge": [],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          1,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0
+        ],
+        "charge": [],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "charge": [],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "charge": [],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0
+        ],
+        "charge": [],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1
+        ],
+        "charge": [],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0
+        ],
+        "charge": [],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          1
+        ],
+        "charge": [],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        "charge": [],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "charge": [],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "charge": [],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "charge": [],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        "charge": [],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0
+        ],
+        "charge": [],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0
+        ],
+        "charge": [],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0
+        ],
+        "charge": [],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2
+        ],
+        "charge": [],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "charge": [],
+        "coefficient": -8
+      }
+    ],
+    "polynomial": "x1*x2*x5*a0 + x1*x2*x7*a1 + x5*x7*a0*a1 + x1*x5*x7*a2 + x2*x7*a0*a2 + x2*x5*a1*a2 + x1*a0*a1*a2 + x2*x5*x7*a3 + x1*x7*a0*a3 + x1*x5*a1*a3 + x2*a0*a1*a3 + x1*x2*a2*a3 + x5*a0*a2*a3 + x7*a1*a2*a3 + x1^2 + x2^2 + x5^2 + x7^2 + a0^2 + a1^2 + a2^2 + a3^2 - 8",
+    "residual_variables": [
+      "x1",
+      "x2",
+      "x5",
+      "x7",
+      "a0",
+      "a1",
+      "a2",
+      "a3"
+    ],
+    "residual_terms": [
+      {
+        "exponent": [
+          1,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "charge": [],
+        "coefficient": "1"
+      },
+      {
+        "exponent": [
+          1,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        "charge": [],
+        "coefficient": "1"
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0
+        ],
+        "charge": [],
+        "coefficient": "1"
+      },
+      {
+        "exponent": [
+          1,
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        "charge": [],
+        "coefficient": "1"
+      },
+      {
+        "exponent": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0
+        ],
+        "charge": [],
+        "coefficient": "1"
+      },
+      {
+        "exponent": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "charge": [],
+        "coefficient": "1"
+      },
+      {
+        "exponent": [
+          1,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0
+        ],
+        "charge": [],
+        "coefficient": "1"
+      },
+      {
+        "exponent": [
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "charge": [],
+        "coefficient": "1"
+      },
+      {
+        "exponent": [
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          1
+        ],
+        "charge": [],
+        "coefficient": "1"
+      },
+      {
+        "exponent": [
+          1,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        "charge": [],
+        "coefficient": "1"
+      },
+      {
+        "exponent": [
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1
+        ],
+        "charge": [],
+        "coefficient": "1"
+      },
+      {
+        "exponent": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        "charge": [],
+        "coefficient": "1"
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          1
+        ],
+        "charge": [],
+        "coefficient": "1"
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        "charge": [],
+        "coefficient": "1"
+      },
+      {
+        "exponent": [
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "charge": [],
+        "coefficient": "1"
+      },
+      {
+        "exponent": [
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "charge": [],
+        "coefficient": "1"
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "charge": [],
+        "coefficient": "1"
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        "charge": [],
+        "coefficient": "1"
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0
+        ],
+        "charge": [],
+        "coefficient": "1"
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0
+        ],
+        "charge": [],
+        "coefficient": "1"
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0
+        ],
+        "charge": [],
+        "coefficient": "1"
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2
+        ],
+        "charge": [],
+        "coefficient": "1"
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "charge": [],
+        "coefficient": "-8"
+      }
+    ]
+  },
+  {
+    "seed": [
+      1,
+      2,
+      3,
+      5,
+      6
+    ],
+    "columns": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        2,
+        3,
+        4,
+        6,
+        5,
+        4,
+        3,
+        1
+      ],
+      [
+        2,
+        3,
+        4,
+        6,
+        4,
+        2,
+        0,
+        0
+      ]
+    ],
+    "components": [
+      [
+        0,
+        2
+      ],
+      [
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        5,
+        6
+      ]
+    ],
+    "variables": [
+      "x1",
+      "x2",
+      "x3",
+      "x5",
+      "x6",
+      "a0",
+      "a1",
+      "z0"
+    ],
+    "derived": 5,
+    "central_semisimple": 2,
+    "terms": [
+      {
+        "exponent": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "charge": [
+          -3
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "charge": [
+          -2
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "charge": [
+          -2
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "charge": [
+          -2
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "charge": [
+          -1
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "charge": [
+          -1
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        "charge": [
+          -1
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1
+        ],
+        "charge": [
+          0
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          1,
+          0,
+          1,
+          1,
+          0
+        ],
+        "charge": [
+          0
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "charge": [
+          0
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "charge": [
+          0
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        "charge": [
+          0
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "charge": [
+          0
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "charge": [
+          0
+        ],
+        "coefficient": -3
+      },
+      {
+        "exponent": [
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "charge": [
+          1
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "charge": [
+          1
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "charge": [
+          1
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "charge": [
+          2
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "charge": [
+          2
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        "charge": [
+          2
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "charge": [
+          3
+        ],
+        "coefficient": 1
+      }
+    ],
+    "polynomial": "x1*x2*x6*z0 + x2*x5*a0*z0 + x2*x3*a1*z0 + x3*x5*z0^2 + x1*a0*z0^2 + x6*a1*z0^2 + x2*z0^3 + x3*x6*a0 + x1*x5*a1 + x2*x3*x5*z0^-1 + x1*x2*a0*z0^-1 + x2*x6*a1*z0^-1 + x2^2 + x1*x3 + x5*x6 + a0*a1 + x1*x6*z0^-2 + x5*a0*z0^-2 + x3*a1*z0^-2 - 3 + x2*z0^-3",
+    "residual_variables": [
+      "x2",
+      "x5",
+      "x6",
+      "a0",
+      "a1",
+      "z0"
+    ],
+    "residual_terms": [
+      {
+        "exponent": [
+          2,
+          1,
+          1,
+          0,
+          0
+        ],
+        "charge": [
+          0
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          2,
+          1,
+          0,
+          1,
+          0
+        ],
+        "charge": [
+          -2
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          1,
+          0,
+          2,
+          1,
+          0
+        ],
+        "charge": [
+          1
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          1,
+          0,
+          1,
+          2,
+          0
+        ],
+        "charge": [
+          -1
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          1,
+          2,
+          0,
+          0,
+          1
+        ],
+        "charge": [
+          -1
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          2,
+          0,
+          1,
+          0,
+          1
+        ],
+        "charge": [
+          2
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          2,
+          0,
+          0,
+          1,
+          1
+        ],
+        "charge": [
+          0
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "charge": [
+          0
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          1,
+          1,
+          0,
+          0,
+          2
+        ],
+        "charge": [
+          1
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          1,
+          1,
+          1,
+          0,
+          0
+        ],
+        "charge": [
+          -3
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          1,
+          1,
+          1,
+          0,
+          0
+        ],
+        "charge": [
+          3
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          1,
+          1,
+          0,
+          1,
+          0
+        ],
+        "charge": [
+          1
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          2,
+          1,
+          0
+        ],
+        "charge": [
+          -2
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          1,
+          2,
+          0
+        ],
+        "charge": [
+          2
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          0,
+          2,
+          0,
+          0,
+          1
+        ],
+        "charge": [
+          2
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "charge": [
+          -1
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          1,
+          0,
+          0,
+          1,
+          1
+        ],
+        "charge": [
+          -3
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          1,
+          0,
+          0,
+          1,
+          1
+        ],
+        "charge": [
+          3
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          0,
+          1,
+          0,
+          0,
+          2
+        ],
+        "charge": [
+          -2
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        "charge": [
+          0
+        ],
+        "coefficient": "1"
+      },
+      {
+        "exponent": [
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "charge": [
+          -2
+        ],
+        "coefficient": "1"
+      },
+      {
+        "exponent": [
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "charge": [
+          4
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        "charge": [
+          -4
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        "charge": [
+          2
+        ],
+        "coefficient": "1"
+      },
+      {
+        "exponent": [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "charge": [
+          -3
+        ],
+        "coefficient": "1"
+      },
+      {
+        "exponent": [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "charge": [
+          3
+        ],
+        "coefficient": "1"
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "charge": [
+          0
+        ],
+        "coefficient": "-3"
+      }
+    ]
+  },
+  {
+    "seed": [
+      1,
+      2,
+      3,
+      5,
+      7
+    ],
+    "columns": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        2,
+        3,
+        4,
+        6,
+        5,
+        4,
+        3,
+        2
+      ],
+      [
+        2,
+        3,
+        4,
+        6,
+        0,
+        -6,
+        -3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        1,
+        0
+      ]
+    ],
+    "components": [
+      [
+        0,
+        2
+      ],
+      [
+        1
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ],
+      [
+        5
+      ]
+    ],
+    "variables": [
+      "x1",
+      "x2",
+      "x3",
+      "x5",
+      "x7",
+      "a0",
+      "z0",
+      "z1"
+    ],
+    "derived": 5,
+    "central_semisimple": 1,
+    "terms": [
+      {
+        "exponent": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "charge": [
+          -10,
+          2
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "charge": [
+          -9,
+          2
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "charge": [
+          -9,
+          2
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "charge": [
+          -8,
+          2
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        "charge": [
+          -6,
+          1
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        "charge": [
+          -6,
+          1
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          1,
+          1,
+          1,
+          0,
+          0
+        ],
+        "charge": [
+          -5,
+          1
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          1,
+          0,
+          1,
+          1
+        ],
+        "charge": [
+          -5,
+          1
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          1,
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        "charge": [
+          -4,
+          1
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          1,
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        "charge": [
+          -4,
+          1
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        "charge": [
+          -3,
+          1
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        "charge": [
+          -3,
+          1
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "charge": [
+          -2,
+          0
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "charge": [
+          -1,
+          0
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          1,
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "charge": [
+          -1,
+          0
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          1,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "charge": [
+          0,
+          0
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        "charge": [
+          0,
+          0
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        "charge": [
+          0,
+          0
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          0,
+          2,
+          0,
+          0
+        ],
+        "charge": [
+          0,
+          0
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0
+        ],
+        "charge": [
+          0,
+          0
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          2
+        ],
+        "charge": [
+          0,
+          0
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "charge": [
+          0,
+          0
+        ],
+        "coefficient": -3
+      },
+      {
+        "exponent": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          1
+        ],
+        "charge": [
+          1,
+          0
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          0
+        ],
+        "charge": [
+          1,
+          0
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "charge": [
+          2,
+          0
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        "charge": [
+          3,
+          -1
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        "charge": [
+          3,
+          -1
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          1,
+          1,
+          0,
+          1,
+          0
+        ],
+        "charge": [
+          4,
+          -1
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          1
+        ],
+        "charge": [
+          4,
+          -1
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          1,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        "charge": [
+          5,
+          -1
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          1,
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        "charge": [
+          5,
+          -1
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        "charge": [
+          6,
+          -1
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        "charge": [
+          6,
+          -1
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "charge": [
+          8,
+          -2
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "charge": [
+          9,
+          -2
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "charge": [
+          9,
+          -2
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "charge": [
+          10,
+          -2
+        ],
+        "coefficient": 1
+      }
+    ],
+    "polynomial": "x5*x7*z0^9*z1^-2 + x2*a0*z0^9*z1^-2 + x3*z0^10*z1^-2 + x1*z0^8*z1^-2 + x1*x2*x5*z0^5*z1^-1 + x1*x7*a0*z0^5*z1^-1 + x2*x7*z0^6*z1^-1 + x5*a0*z0^6*z1^-1 + x2*x3*x7*z0^4*z1^-1 + x3*x5*a0*z0^4*z1^-1 + x2*x5*z0^3*z1^-1 + x7*a0*z0^3*z1^-1 + x2*x5*x7*a0 + x3*x5*x7*z0 + x2*x3*a0*z0 + x1*z0^2 + x1*x5*x7*z0^-1 + x1*x2*a0*z0^-1 + x2^2 + x1*x3 + x5^2 + x7^2 + a0^2 - 3 + x1*x2*x7*z0^-4*z1 + x1*x5*a0*z0^-4*z1 + x2*x5*z0^-3*z1 + x7*a0*z0^-3*z1 + x3*z0^-2 + x2*x3*x5*z0^-5*z1 + x3*x7*a0*z0^-5*z1 + x2*x7*z0^-6*z1 + x5*a0*z0^-6*z1 + x5*x7*z0^-9*z1^2 + x2*a0*z0^-9*z1^2 + x3*z0^-8*z1^2 + x1*z0^-10*z1^2",
+    "residual_variables": [
+      "x2",
+      "x5",
+      "x7",
+      "a0",
+      "z0",
+      "z1"
+    ],
+    "residual_terms": [
+      {
+        "exponent": [
+          2,
+          2,
+          0,
+          0
+        ],
+        "charge": [
+          0,
+          0
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          2,
+          1,
+          1,
+          0
+        ],
+        "charge": [
+          9,
+          -2
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          2,
+          1,
+          1,
+          0
+        ],
+        "charge": [
+          -9,
+          2
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          1,
+          2,
+          1,
+          0
+        ],
+        "charge": [
+          6,
+          -1
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          1,
+          2,
+          1,
+          0
+        ],
+        "charge": [
+          -6,
+          1
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          2,
+          0,
+          2,
+          0
+        ],
+        "charge": [
+          0,
+          0
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          1,
+          1,
+          2,
+          0
+        ],
+        "charge": [
+          3,
+          -1
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          1,
+          1,
+          2,
+          0
+        ],
+        "charge": [
+          -3,
+          1
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          0,
+          2,
+          2,
+          0
+        ],
+        "charge": [
+          0,
+          0
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          2,
+          1,
+          0,
+          1
+        ],
+        "charge": [
+          6,
+          -1
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          2,
+          1,
+          0,
+          1
+        ],
+        "charge": [
+          -6,
+          1
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          1,
+          2,
+          0,
+          1
+        ],
+        "charge": [
+          9,
+          -2
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          1,
+          2,
+          0,
+          1
+        ],
+        "charge": [
+          -9,
+          2
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          2,
+          0,
+          1,
+          1
+        ],
+        "charge": [
+          3,
+          -1
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          2,
+          0,
+          1,
+          1
+        ],
+        "charge": [
+          -3,
+          1
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "charge": [
+          0,
+          0
+        ],
+        "coefficient": "-5"
+      },
+      {
+        "exponent": [
+          0,
+          2,
+          1,
+          1
+        ],
+        "charge": [
+          3,
+          -1
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          0,
+          2,
+          1,
+          1
+        ],
+        "charge": [
+          -3,
+          1
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          1,
+          0,
+          2,
+          1
+        ],
+        "charge": [
+          9,
+          -2
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          1,
+          0,
+          2,
+          1
+        ],
+        "charge": [
+          -9,
+          2
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          0,
+          1,
+          2,
+          1
+        ],
+        "charge": [
+          6,
+          -1
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          0,
+          1,
+          2,
+          1
+        ],
+        "charge": [
+          -6,
+          1
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          2,
+          0,
+          0,
+          2
+        ],
+        "charge": [
+          0,
+          0
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          1,
+          1,
+          0,
+          2
+        ],
+        "charge": [
+          3,
+          -1
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          1,
+          1,
+          0,
+          2
+        ],
+        "charge": [
+          -3,
+          1
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          0,
+          2,
+          0,
+          2
+        ],
+        "charge": [
+          0,
+          0
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          1,
+          0,
+          1,
+          2
+        ],
+        "charge": [
+          6,
+          -1
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          1,
+          0,
+          1,
+          2
+        ],
+        "charge": [
+          -6,
+          1
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          0,
+          1,
+          1,
+          2
+        ],
+        "charge": [
+          9,
+          -2
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          0,
+          1,
+          1,
+          2
+        ],
+        "charge": [
+          -9,
+          2
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          2,
+          2
+        ],
+        "charge": [
+          0,
+          0
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "charge": [
+          0,
+          0
+        ],
+        "coefficient": "1"
+      },
+      {
+        "exponent": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "charge": [
+          15,
+          -3
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "charge": [
+          3,
+          -1
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "charge": [
+          -3,
+          1
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "charge": [
+          -15,
+          3
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "charge": [
+          0,
+          0
+        ],
+        "coefficient": "1"
+      },
+      {
+        "exponent": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "charge": [
+          12,
+          -3
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "charge": [
+          6,
+          -1
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "charge": [
+          -6,
+          1
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "charge": [
+          -12,
+          3
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "charge": [
+          9,
+          -2
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "charge": [
+          3,
+          0
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "charge": [
+          -3,
+          0
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "charge": [
+          -9,
+          2
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "charge": [
+          0,
+          0
+        ],
+        "coefficient": "1"
+      },
+      {
+        "exponent": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "charge": [
+          9,
+          -2
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "charge": [
+          3,
+          0
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "charge": [
+          -3,
+          0
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "charge": [
+          -9,
+          2
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "charge": [
+          12,
+          -3
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "charge": [
+          6,
+          -1
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "charge": [
+          -6,
+          1
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "charge": [
+          -12,
+          3
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "charge": [
+          15,
+          -3
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "charge": [
+          3,
+          -1
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "charge": [
+          -3,
+          1
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "charge": [
+          -15,
+          3
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          0,
+          2
+        ],
+        "charge": [
+          0,
+          0
+        ],
+        "coefficient": "1"
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "charge": [
+          18,
+          -4
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "charge": [
+          12,
+          -2
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "charge": [
+          6,
+          -2
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "charge": [
+          0,
+          0
+        ],
+        "coefficient": "-6"
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "charge": [
+          -6,
+          2
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "charge": [
+          -12,
+          2
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "charge": [
+          -18,
+          4
+        ],
+        "coefficient": "-1"
+      }
+    ]
+  },
+  {
+    "seed": [
+      1,
+      2,
+      4,
+      5,
+      7
+    ],
+    "columns": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        2,
+        2,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        3,
+        4,
+        6,
+        5,
+        4,
+        3,
+        2
+      ],
+      [
+        2,
+        3,
+        4,
+        6,
+        5,
+        4,
+        2,
+        0
+      ]
+    ],
+    "components": [
+      [
+        0
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        4
+      ],
+      [
+        5
+      ],
+      [
+        6
+      ]
+    ],
+    "variables": [
+      "x1",
+      "x2",
+      "x4",
+      "x5",
+      "x7",
+      "a0",
+      "a1",
+      "z0"
+    ],
+    "derived": 5,
+    "central_semisimple": 2,
+    "terms": [
+      {
+        "exponent": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "charge": [
+          -2
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "charge": [
+          -2
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        "charge": [
+          -2
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "charge": [
+          -1
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1
+        ],
+        "charge": [
+          -1
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        "charge": [
+          -1
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0
+        ],
+        "charge": [
+          -1
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          1,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        "charge": [
+          0
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "charge": [
+          0
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "charge": [
+          0
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          1,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        "charge": [
+          0
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "charge": [
+          0
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0
+        ],
+        "charge": [
+          0
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0
+        ],
+        "charge": [
+          0
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2
+        ],
+        "charge": [
+          0
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "charge": [
+          0
+        ],
+        "coefficient": -4
+      },
+      {
+        "exponent": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "charge": [
+          1
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "charge": [
+          1
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "charge": [
+          1
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          1
+        ],
+        "charge": [
+          1
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "charge": [
+          2
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "charge": [
+          2
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        "charge": [
+          2
+        ],
+        "coefficient": 1
+      }
+    ],
+    "polynomial": "x1*x7*a0*a1 + x1*x5*x7*z0 + x2*x7*a0*z0 + x1*x2*a1*z0 + x5*a0*a1*z0 + x1*a0*z0^2 + x7*a1*z0^2 + x1*x4*a0 + x4*x7*a1 + x4*z0^2 + x1*x2*x7*z0^-1 + x5*x7*a0*z0^-1 + x1*x5*a1*z0^-1 + x2*a0*a1*z0^-1 + x1^2 + x2*x5 + x7^2 + a0^2 + a1^2 + x1*a0*z0^-2 + x7*a1*z0^-2 - 4 + x4*z0^-2",
+    "residual_variables": [
+      "x1",
+      "x4",
+      "x7",
+      "a0",
+      "a1",
+      "z0"
+    ],
+    "residual_terms": [
+      {
+        "exponent": [
+          2,
+          0,
+          2,
+          0,
+          0
+        ],
+        "charge": [
+          0
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          1,
+          0,
+          2,
+          1,
+          0
+        ],
+        "charge": [
+          -2
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          1,
+          0,
+          2,
+          1,
+          0
+        ],
+        "charge": [
+          2
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          2,
+          2,
+          0
+        ],
+        "charge": [
+          0
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          2,
+          0,
+          1,
+          0,
+          1
+        ],
+        "charge": [
+          -2
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          2,
+          0,
+          1,
+          0,
+          1
+        ],
+        "charge": [
+          2
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        "charge": [
+          0
+        ],
+        "coefficient": "-3"
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          1,
+          2,
+          1
+        ],
+        "charge": [
+          -2
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          1,
+          2,
+          1
+        ],
+        "charge": [
+          2
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          2,
+          0,
+          0,
+          0,
+          2
+        ],
+        "charge": [
+          0
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          1,
+          0,
+          0,
+          1,
+          2
+        ],
+        "charge": [
+          -2
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          1,
+          0,
+          0,
+          1,
+          2
+        ],
+        "charge": [
+          2
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          0,
+          2,
+          2
+        ],
+        "charge": [
+          0
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          1,
+          1,
+          0,
+          1,
+          0
+        ],
+        "charge": [
+          0
+        ],
+        "coefficient": "1"
+      },
+      {
+        "exponent": [
+          0,
+          1,
+          1,
+          0,
+          1
+        ],
+        "charge": [
+          0
+        ],
+        "coefficient": "1"
+      },
+      {
+        "exponent": [
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        "charge": [
+          0
+        ],
+        "coefficient": "1"
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          2,
+          0,
+          0
+        ],
+        "charge": [
+          0
+        ],
+        "coefficient": "1"
+      },
+      {
+        "exponent": [
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        "charge": [
+          -2
+        ],
+        "coefficient": "1"
+      },
+      {
+        "exponent": [
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        "charge": [
+          2
+        ],
+        "coefficient": "1"
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          0,
+          2,
+          0
+        ],
+        "charge": [
+          0
+        ],
+        "coefficient": "1"
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        "charge": [
+          -2
+        ],
+        "coefficient": "1"
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        "charge": [
+          2
+        ],
+        "coefficient": "1"
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          0,
+          0,
+          2
+        ],
+        "charge": [
+          0
+        ],
+        "coefficient": "1"
+      },
+      {
+        "exponent": [
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "charge": [
+          -2
+        ],
+        "coefficient": "1"
+      },
+      {
+        "exponent": [
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "charge": [
+          2
+        ],
+        "coefficient": "1"
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "charge": [
+          0
+        ],
+        "coefficient": "-4"
+      }
+    ]
+  },
+  {
+    "seed": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7
+    ],
+    "columns": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        2,
+        3,
+        4,
+        6,
+        5,
+        4,
+        3,
+        2
+      ],
+      [
+        4,
+        6,
+        8,
+        12,
+        9,
+        6,
+        3,
+        0
+      ]
+    ],
+    "components": [
+      [
+        0,
+        2
+      ],
+      [
+        1
+      ],
+      [
+        3,
+        4,
+        5
+      ],
+      [
+        6
+      ]
+    ],
+    "variables": [
+      "x1",
+      "x2",
+      "x3",
+      "x5",
+      "x6",
+      "x7",
+      "a0",
+      "z0"
+    ],
+    "derived": 6,
+    "central_semisimple": 1,
+    "terms": [
+      {
+        "exponent": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "charge": [
+          -4
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "charge": [
+          -3
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1
+        ],
+        "charge": [
+          -3
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "charge": [
+          -2
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "charge": [
+          -2
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "charge": [
+          -1
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1
+        ],
+        "charge": [
+          -1
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        "charge": [
+          0
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "charge": [
+          0
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "charge": [
+          0
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "charge": [
+          0
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2
+        ],
+        "charge": [
+          0
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "charge": [
+          0
+        ],
+        "coefficient": -3
+      },
+      {
+        "exponent": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "charge": [
+          1
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1
+        ],
+        "charge": [
+          1
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        "charge": [
+          2
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "charge": [
+          2
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "charge": [
+          3
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        "charge": [
+          3
+        ],
+        "coefficient": 1
+      },
+      {
+        "exponent": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "charge": [
+          4
+        ],
+        "coefficient": 1
+      }
+    ],
+    "polynomial": "x2*x3*a0*z0^2 + x2*x5*z0^3 + x7*a0*z0^3 + x1*z0^4 + x1*x2*x7*z0 + x1*x5*a0*z0 + x3*x6*z0^2 + x2*x6*a0 + x2*x3*x5*z0^-1 + x3*x7*a0*z0^-1 + x2^2 + x1*x3 + x5*x7 + a0^2 + x1*x2*a0*z0^-2 + x1*x6*z0^-2 - 3 + x2*x7*z0^-3 + x5*a0*z0^-3 + x3*z0^-4",
+    "residual_variables": [
+      "x2",
+      "x3",
+      "a0",
+      "z0"
+    ],
+    "residual_terms": [
+      {
+        "exponent": [
+          3,
+          0,
+          3
+        ],
+        "charge": [
+          6
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          3,
+          1,
+          1
+        ],
+        "charge": [
+          2
+        ],
+        "coefficient": "1"
+      },
+      {
+        "exponent": [
+          2,
+          1,
+          2
+        ],
+        "charge": [
+          8
+        ],
+        "coefficient": "-2"
+      },
+      {
+        "exponent": [
+          1,
+          1,
+          3
+        ],
+        "charge": [
+          2
+        ],
+        "coefficient": "1"
+      },
+      {
+        "exponent": [
+          2,
+          2,
+          0
+        ],
+        "charge": [
+          4
+        ],
+        "coefficient": "1"
+      },
+      {
+        "exponent": [
+          3,
+          0,
+          1
+        ],
+        "charge": [
+          6
+        ],
+        "coefficient": "1"
+      },
+      {
+        "exponent": [
+          1,
+          2,
+          1
+        ],
+        "charge": [
+          -2
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          1,
+          2,
+          1
+        ],
+        "charge": [
+          10
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          2,
+          0,
+          2
+        ],
+        "charge": [
+          0
+        ],
+        "coefficient": "1"
+      },
+      {
+        "exponent": [
+          0,
+          2,
+          2
+        ],
+        "charge": [
+          4
+        ],
+        "coefficient": "1"
+      },
+      {
+        "exponent": [
+          1,
+          0,
+          3
+        ],
+        "charge": [
+          6
+        ],
+        "coefficient": "1"
+      },
+      {
+        "exponent": [
+          2,
+          1,
+          0
+        ],
+        "charge": [
+          -4
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          2,
+          1,
+          0
+        ],
+        "charge": [
+          8
+        ],
+        "coefficient": "1"
+      },
+      {
+        "exponent": [
+          1,
+          1,
+          1
+        ],
+        "charge": [
+          2
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          0,
+          1,
+          2
+        ],
+        "charge": [
+          -4
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          0,
+          1,
+          2
+        ],
+        "charge": [
+          8
+        ],
+        "coefficient": "1"
+      },
+      {
+        "exponent": [
+          0,
+          2,
+          0
+        ],
+        "charge": [
+          4
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          1,
+          0,
+          1
+        ],
+        "charge": [
+          -6
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          1,
+          0,
+          1
+        ],
+        "charge": [
+          6
+        ],
+        "coefficient": "-2"
+      },
+      {
+        "exponent": [
+          0,
+          1,
+          0
+        ],
+        "charge": [
+          -4
+        ],
+        "coefficient": "1"
+      },
+      {
+        "exponent": [
+          0,
+          1,
+          0
+        ],
+        "charge": [
+          8
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponent": [
+          0,
+          0,
+          0
+        ],
+        "charge": [
+          0
+        ],
+        "coefficient": "-3"
+      }
+    ]
+  }
+]

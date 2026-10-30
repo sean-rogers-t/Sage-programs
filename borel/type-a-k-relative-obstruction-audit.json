@@ -1,0 +1,17 @@
+{
+  "result": "passed",
+  "exact_relative_order": 5,
+  "weight": 12,
+  "coefficient_degree": 3,
+  "literal_integral_ideal_identity": true,
+  "all_ideal_generators_checked": 90,
+  "functional_value": "4889/5",
+  "sage_imported": false,
+  "smith_form_used": false,
+  "actual_elementary_claim": false,
+  "source_sha256": {
+    "TYPE_A_K_NEXT_LAYER_OBSTRUCTION.md": "6409a0474e65c9b07f927008ef50a9e3d0827b959a9862329a0943402fcbb048",
+    "tools/audit_type_a_k_relative_obstruction.py": "81d9e787f3acbd12610e0e2f1c88c86659fb2f4c7b881cdb45e880b73ca228f0",
+    "experiments/type-a-k-relative-five-obstruction.json": "d8f07059331b824957f256923ca0f1fc026198165a8f65a05217146065cab027"
+  }
+}

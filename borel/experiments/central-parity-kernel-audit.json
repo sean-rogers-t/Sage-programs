@@ -1,0 +1,54 @@
+{
+  "result": "passed",
+  "Spin7": {
+    "root_lattice_index": 2,
+    "fundamental_weight_parity": [
+      0,
+      0,
+      1
+    ],
+    "kernel_relation": "-u**4 + 2*u**3*v - 2*u**2*v**2 + u**2*v*z + u*v**3 - u*v**2*z + z**4",
+    "identity": "4F = e2(epsilon^2) + q*(-5u^2+5uv-v^2+2vz+2z^2)",
+    "derivative_mod2": "u**2*v + u*v**2",
+    "primitive_cubic_kernel_rank": 3,
+    "monic_division_remainder": "v^3",
+    "integral_kernel_preservation": false
+  },
+  "classical_identity_checks": [
+    {
+      "number_of_variables": 1,
+      "elementary_translation_formula": true,
+      "square_invariants_killed_mod2": true
+    },
+    {
+      "number_of_variables": 2,
+      "elementary_translation_formula": true,
+      "square_invariants_killed_mod2": true
+    },
+    {
+      "number_of_variables": 3,
+      "elementary_translation_formula": true,
+      "square_invariants_killed_mod2": true
+    },
+    {
+      "number_of_variables": 4,
+      "elementary_translation_formula": true,
+      "square_invariants_killed_mod2": true
+    },
+    {
+      "number_of_variables": 5,
+      "elementary_translation_formula": true,
+      "square_invariants_killed_mod2": true
+    },
+    {
+      "number_of_variables": 6,
+      "elementary_translation_formula": true,
+      "square_invariants_killed_mod2": true
+    }
+  ],
+  "scope": "Exact polynomial proof of the actual Spin7/B kernel failure, independent of BGG. Classical generator derivative identities checked in up to six variables; all-rank type A/C proofs are in the note. No complete classification or novelty claim.",
+  "source_sha256": {
+    "experiments/audit_central_parity_kernel.py": "d252392abedadabec15149aa99a5cc16ff1e553e3c3d6e3aa53941088462986d",
+    "experiments/central-parity-kernel.json": "1cdf01217500eb829178710bd2f70498789b156f75365147189d319e79e59283"
+  }
+}

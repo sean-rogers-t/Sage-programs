@@ -1,0 +1,425 @@
+{
+  "result": "passed",
+  "date": "2026-10-22",
+  "coefficient_ring": "Z_(2)",
+  "source": "Sym of the full Spin weight lattice; E=R[z,c2,...,cn] and S free over E",
+  "method": "integer elimination (r_j,2*t-1), entire reduced ideal, Artin source reduction",
+  "scope": "Entire kernels for the six specified ranks, not an arbitrary-rank classification.",
+  "source_sha256": {
+    "experiments/spin_parity_extension.py": "e7a5f02c7fa0c382ddf6e8c5630fc771890cce2eda7b33478e26c698887baa77"
+  },
+  "cases": [
+    {
+      "rank": 3,
+      "group": "Spin(7)",
+      "parabolic": "B",
+      "entire_kernel_preserved": false,
+      "first_failure_degree": 4,
+      "source_variables": [
+        "z",
+        "c2",
+        "c3"
+      ],
+      "source_weights": [
+        1,
+        2,
+        3
+      ],
+      "integral_lifts": [
+        "2*z^2 - c2",
+        "z^4 - z*c3",
+        "c3^2"
+      ],
+      "reduced_groebner_basis": [
+        "z^4 + z*c3",
+        "c3^2",
+        "c2"
+      ],
+      "symmetric_quotient_rank": 8,
+      "symmetric_hilbert_coefficients": [
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1
+      ],
+      "failures": [
+        {
+          "degree": 4,
+          "integral_relation": "z^4 - z*c3",
+          "derivative_remainder": "c3"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "group": "Spin(9)",
+      "parabolic": "B",
+      "entire_kernel_preserved": true,
+      "first_failure_degree": null,
+      "source_variables": [
+        "z",
+        "c2",
+        "c3",
+        "c4"
+      ],
+      "source_weights": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "integral_lifts": [
+        "2*z^2 - c2",
+        "z^2*c2 - 2*z*c3 + c4",
+        "2*c2*c4 - c3^2",
+        "z^8 + z*c3*c4 - c2^2*c4"
+      ],
+      "reduced_groebner_basis": [
+        "z^8",
+        "c3^2",
+        "c2",
+        "c4"
+      ],
+      "symmetric_quotient_rank": 16,
+      "symmetric_hilbert_coefficients": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1
+      ],
+      "failures": []
+    },
+    {
+      "rank": 5,
+      "group": "Spin(11)",
+      "parabolic": "B",
+      "entire_kernel_preserved": true,
+      "first_failure_degree": null,
+      "source_variables": [
+        "z",
+        "c2",
+        "c3",
+        "c4",
+        "c5"
+      ],
+      "source_weights": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "integral_lifts": [
+        "2*z^2 - c2",
+        "z^2*c2 - 2*z*c3 + c4",
+        "4*z*c5 - 2*c2*c4 + c3^2",
+        "z^4*c4 - z*c3*c4 + c3*c5",
+        "c5^2",
+        "z^8*c3 + z*c2*c4^2 + c2^2*c3*c4 - c2*c3^3 - c2*c4*c5 - c3^2*c5",
+        "z^8*c5 + z*c3*c4*c5 - 2*c2*c3*c4^2 + c3^3*c4",
+        "z^16"
+      ],
+      "reduced_groebner_basis": [
+        "z^16",
+        "z^8*c3",
+        "z^8*c5",
+        "c3^2",
+        "c3*c5",
+        "c5^2",
+        "c2",
+        "c4"
+      ],
+      "symmetric_quotient_rank": 32,
+      "symmetric_hilbert_coefficients": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        1,
+        1,
+        1
+      ],
+      "failures": []
+    },
+    {
+      "rank": 6,
+      "group": "Spin(13)",
+      "parabolic": "B",
+      "entire_kernel_preserved": true,
+      "first_failure_degree": null,
+      "source_variables": [
+        "z",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "c6"
+      ],
+      "source_weights": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "integral_lifts": [
+        "2*z^2 - c2",
+        "z^2*c2 - 2*z*c3 + c4",
+        "4*z*c5 - 2*c2*c4 + c3^2 - 2*c6",
+        "z^4*c4 - z*c3*c4 - c2*c6 + c3*c5",
+        "2*c4*c6 - c5^2",
+        "z^8*c3 + z^2*c3*c6 + z*c2*c4^2 + z*c5^2 + c2^2*c3*c4 - c2*c3^3 - c2*c3*c6 - c2*c4*c5 - 3*c3^2*c5 + c3*c4^2 + c5*c6",
+        "c6^2",
+        "z^8*c5 + z^2*c5*c6 + z*c3*c4*c5 - 2*z*c4^3 - c2*c5*c6 - c3*c4*c6 + 2*c4^2*c5",
+        "z^16 - z^2*c3*c5*c6 + z*c2*c3*c4*c6 + 2*c2*c3^3*c5 - c2*c3^2*c4^2 - c3^4*c4 + c3^2*c5^2 + c4^4"
+      ],
+      "reduced_groebner_basis": [
+        "z^16",
+        "z^8*c3 + z^2*c3*c6 + c5*c6",
+        "z^8*c5 + z^2*c5*c6",
+        "c3^2",
+        "c3*c5",
+        "c5^2",
+        "c6^2",
+        "c2",
+        "c4"
+      ],
+      "symmetric_quotient_rank": 64,
+      "symmetric_hilbert_coefficients": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        3,
+        4,
+        4,
+        4,
+        5,
+        5,
+        5,
+        5,
+        4,
+        4,
+        4,
+        3,
+        2,
+        2,
+        1,
+        1,
+        1
+      ],
+      "failures": []
+    },
+    {
+      "rank": 7,
+      "group": "Spin(15)",
+      "parabolic": "B",
+      "entire_kernel_preserved": false,
+      "first_failure_degree": 11,
+      "source_variables": [
+        "z",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "c6",
+        "c7"
+      ],
+      "source_weights": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "integral_lifts": [
+        "2*z^2 - c2",
+        "z^2*c2 - 2*z*c3 + c4",
+        "4*z*c5 - 2*c2*c4 + c3^2 - 2*c6",
+        "z^4*c4 - z*c3*c4 + 2*z*c7 - c2*c6 + c3*c5",
+        "2*c3*c7 - 2*c4*c6 + c5^2",
+        "z^8*c3 + z^2*c3*c6 + z*c2*c4^2 - z*c3*c7 + 2*z*c4*c6 + c2^2*c3*c4 - c2*c3^3 + 3*c2*c3*c6 - c2*c4*c5 - 7*c3^2*c5 + 3*c3*c4^2 - 4*c4*c7 + c5*c6",
+        "2*c5*c7 - c6^2",
+        "z^8*c5 + z^2*c5*c6 + z*c3*c4*c5 - 2*z*c4^3 - z*c5*c7 + c2^2*c3*c6 - 3*c2*c3^2*c5 + 5*c2*c3*c4^2 + 5*c2*c5*c6 - 2*c3^3*c4 + c3^2*c7 + 3*c3*c4*c6 - 13*c3*c5^2 + 4*c4^2*c5 - 4*c6*c7",
+        "c7^2",
+        "z^16 - z^2*c3*c5*c6 + z*c2*c3*c4*c6 + z*c2*c6*c7 + z*c3*c5*c7 + z*c4^2*c7 + 2*c2*c3^3*c5 - c2*c3^2*c4^2 + 4*c2*c4^2*c6 + 5*c2*c4*c5^2 - c3^4*c4 - 4*c3^2*c4*c6 + 3*c3^2*c5^2 - 14*c3*c4^2*c5 + c3*c6*c7 + 8*c4^4 + c4*c5*c7 + c4*c6^2 - 6*c5^2*c6"
+      ],
+      "reduced_groebner_basis": [
+        "z^16 + c3*c6*c7",
+        "z^8*c3 + z^2*c3*c6 + z*c3*c7 + c5*c6",
+        "z^8*c5 + z^2*c5*c6 + z*c5*c7",
+        "c3^2",
+        "c3*c5",
+        "c5^2",
+        "c6^2",
+        "c7^2",
+        "c2",
+        "c4"
+      ],
+      "symmetric_quotient_rank": 128,
+      "symmetric_hilbert_coefficients": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        3,
+        4,
+        5,
+        5,
+        6,
+        7,
+        7,
+        8,
+        8,
+        8,
+        8,
+        8,
+        7,
+        7,
+        6,
+        5,
+        5,
+        4,
+        3,
+        2,
+        2,
+        1,
+        1,
+        1
+      ],
+      "failures": [
+        {
+          "degree": 11,
+          "integral_relation": "z^8*c3 + z^2*c3*c6 + z*c2*c4^2 - z*c3*c7 + 2*z*c4*c6 + c2^2*c3*c4 - c2*c3^3 + 3*c2*c3*c6 - c2*c4*c5 - 7*c3^2*c5 + 3*c3*c4^2 - 4*c4*c7 + c5*c6",
+          "derivative_remainder": "c3*c7"
+        },
+        {
+          "degree": 13,
+          "integral_relation": "z^8*c5 + z^2*c5*c6 + z*c3*c4*c5 - 2*z*c4^3 - z*c5*c7 + c2^2*c3*c6 - 3*c2*c3^2*c5 + 5*c2*c3*c4^2 + 5*c2*c5*c6 - 2*c3^3*c4 + c3^2*c7 + 3*c3*c4*c6 - 13*c3*c5^2 + 4*c4^2*c5 - 4*c6*c7",
+          "derivative_remainder": "c5*c7"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "group": "Spin(17)",
+      "parabolic": "B",
+      "entire_kernel_preserved": false,
+      "first_failure_degree": 16,
+      "source_variables": [
+        "z",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "c6",
+        "c7",
+        "c8"
+      ],
+      "source_weights": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "integral_lifts": [
+        "2*z^2 - c2",
+        "z^2*c2 - 2*z*c3 + c4",
+        "4*z*c5 - 2*c2*c4 + c3^2 - 2*c6",
+        "z^4*c4 - z*c3*c4 + 2*z*c7 - c2*c6 + c3*c5 - c8",
+        "2*c2*c8 - 2*c3*c7 + 2*c4*c6 - c5^2",
+        "2*c4*c8 - 2*c5*c7 + c6^2",
+        "2*c6*c8 - c7^2",
+        "z^16 + z^8*c8 + z^2*c3*c5*c6 + z*c2*c3*c4*c6 - z*c2*c6*c7 - z*c3*c5*c7 + z*c3*c6^2 + 2*z*c4*c5*c6 + z*c5^3 + 2*c2*c3^3*c5 - c2*c3^2*c4^2 - 7*c2*c3*c5*c6 - 2*c2*c4^2*c6 + 5*c2*c4*c5^2 - c3^4*c4 + 2*c3^3*c7 - 5*c3^2*c4*c6 + 14*c3^2*c5^2 - 17*c3*c4^2*c5 - 10*c3*c5*c8 + 7*c3*c6*c7 + 7*c4^4 + c4^2*c8 + 3*c4*c5*c7 - 3*c5^2*c6"
+      ],
+      "reduced_groebner_basis": [
+        "z^16 + z^8*c8 + z^2*c6*c8 + c3*c6*c7 + z*c7*c8",
+        "c3^2",
+        "c3*c5 + c8",
+        "c5^2",
+        "c6^2",
+        "c7^2",
+        "c3*c8",
+        "c5*c8",
+        "c8^2",
+        "c2",
+        "c4"
+      ],
+      "symmetric_quotient_rank": 256,
+      "symmetric_hilbert_coefficients": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        13,
+        13,
+        14,
+        13,
+        13,
+        13,
+        12,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        2,
+        1,
+        1,
+        1
+      ],
+      "failures": [
+        {
+          "degree": 16,
+          "integral_relation": "z^16 + z^8*c8 + z^2*c3*c5*c6 + z*c2*c3*c4*c6 - z*c2*c6*c7 - z*c3*c5*c7 + z*c3*c6^2 + 2*z*c4*c5*c6 + z*c5^3 + 2*c2*c3^3*c5 - c2*c3^2*c4^2 - 7*c2*c3*c5*c6 - 2*c2*c4^2*c6 + 5*c2*c4*c5^2 - c3^4*c4 + 2*c3^3*c7 - 5*c3^2*c4*c6 + 14*c3^2*c5^2 - 17*c3*c4^2*c5 - 10*c3*c5*c8 + 7*c3*c6*c7 + 7*c4^4 + c4^2*c8 + 3*c4*c5*c7 - 3*c5^2*c6",
+          "derivative_remainder": "c7*c8"
+        }
+      ]
+    }
+  ]
+}

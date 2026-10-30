@@ -1,0 +1,373 @@
+{
+  "result": "passed",
+  "actual_elementary_cases": [
+    {
+      "m": 3,
+      "p": 3,
+      "degree": 5,
+      "ambient_rank": 12,
+      "primary": [],
+      "explicit_representatives_generate": true,
+      "representative_count": 0
+    },
+    {
+      "m": 6,
+      "p": 3,
+      "degree": 5,
+      "ambient_rank": 19,
+      "primary": [
+        3
+      ],
+      "explicit_representatives_generate": true,
+      "representative_count": 2
+    },
+    {
+      "m": 9,
+      "p": 3,
+      "degree": 5,
+      "ambient_rank": 19,
+      "primary": [
+        3,
+        9
+      ],
+      "explicit_representatives_generate": true,
+      "representative_count": 2
+    },
+    {
+      "m": 5,
+      "p": 5,
+      "degree": 7,
+      "ambient_rank": 38,
+      "primary": [
+        5,
+        5
+      ],
+      "explicit_representatives_generate": true,
+      "representative_count": 2
+    },
+    {
+      "m": 10,
+      "p": 5,
+      "degree": 7,
+      "ambient_rank": 45,
+      "primary": [
+        5,
+        5,
+        5
+      ],
+      "explicit_representatives_generate": true,
+      "representative_count": 4
+    },
+    {
+      "m": 25,
+      "p": 5,
+      "degree": 7,
+      "ambient_rank": 45,
+      "primary": [
+        5,
+        25,
+        25,
+        25
+      ],
+      "explicit_representatives_generate": true,
+      "representative_count": 4
+    },
+    {
+      "m": 7,
+      "p": 7,
+      "degree": 9,
+      "ambient_rank": 90,
+      "primary": [
+        7,
+        7,
+        7,
+        7
+      ],
+      "explicit_representatives_generate": true,
+      "representative_count": 4
+    },
+    {
+      "m": 14,
+      "p": 7,
+      "degree": 9,
+      "ambient_rank": 97,
+      "primary": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "explicit_representatives_generate": true,
+      "representative_count": 6
+    },
+    {
+      "m": 49,
+      "p": 7,
+      "degree": 9,
+      "ambient_rank": 97,
+      "primary": [
+        7,
+        49,
+        49,
+        49,
+        49,
+        49
+      ],
+      "explicit_representatives_generate": true,
+      "representative_count": 6
+    },
+    {
+      "m": 22,
+      "p": 11,
+      "degree": 13,
+      "ambient_rank": 373,
+      "primary": [
+        11,
+        11,
+        11,
+        11,
+        11,
+        11,
+        11,
+        11,
+        11,
+        11,
+        11,
+        11
+      ],
+      "explicit_representatives_generate": true,
+      "representative_count": 13
+    }
+  ],
+  "root_boundary_stages": [
+    {
+      "p": 3,
+      "stages": {
+        "auxiliary": [
+          3
+        ],
+        "unrooted": [],
+        "actual": []
+      },
+      "loss_occurs_at_coefficient_deletion": true,
+      "root_equation_preserves_remaining_defect": true
+    },
+    {
+      "p": 5,
+      "stages": {
+        "auxiliary": [
+          5,
+          5,
+          5
+        ],
+        "unrooted": [
+          5,
+          5
+        ],
+        "actual": [
+          5,
+          5
+        ]
+      },
+      "loss_occurs_at_coefficient_deletion": true,
+      "root_equation_preserves_remaining_defect": true
+    },
+    {
+      "p": 7,
+      "stages": {
+        "auxiliary": [
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
+        "unrooted": [
+          7,
+          7,
+          7,
+          7
+        ],
+        "actual": [
+          7,
+          7,
+          7,
+          7
+        ]
+      },
+      "loss_occurs_at_coefficient_deletion": true,
+      "root_equation_preserves_remaining_defect": true
+    }
+  ],
+  "moment_witt_comparisons": [
+    {
+      "m": 3,
+      "p": 3,
+      "old_moment_factors": [
+        3,
+        3
+      ],
+      "new_witt_factors": [
+        3
+      ],
+      "new_direction_image_order_valuations": [
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "full_ideal_class_identities": true,
+      "two_bockstein_classes_independent": true
+    },
+    {
+      "m": 9,
+      "p": 3,
+      "old_moment_factors": [
+        9,
+        9
+      ],
+      "new_witt_factors": [
+        3,
+        9
+      ],
+      "new_direction_image_order_valuations": [
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "full_ideal_class_identities": true,
+      "two_bockstein_classes_independent": true
+    },
+    {
+      "m": 10,
+      "p": 5,
+      "old_moment_factors": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "new_witt_factors": [
+        5,
+        5,
+        5
+      ],
+      "new_direction_image_order_valuations": [
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "full_ideal_class_identities": true,
+      "two_bockstein_classes_independent": true
+    },
+    {
+      "m": 25,
+      "p": 5,
+      "old_moment_factors": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "new_witt_factors": [
+        5,
+        25,
+        25,
+        25
+      ],
+      "new_direction_image_order_valuations": [
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "full_ideal_class_identities": true,
+      "two_bockstein_classes_independent": true
+    },
+    {
+      "m": 49,
+      "p": 7,
+      "old_moment_factors": [
+        49,
+        49,
+        49,
+        49,
+        49,
+        49
+      ],
+      "new_witt_factors": [
+        7,
+        49,
+        49,
+        49,
+        49,
+        49
+      ],
+      "new_direction_image_order_valuations": [
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "full_ideal_class_identities": true,
+      "two_bockstein_classes_independent": true
+    }
+  ],
+  "tensor_certificates": [
+    {
+      "k": 2,
+      "offset": 2,
+      "proper_subsets_only": false,
+      "family_dimension": 12,
+      "ambient_dimension": 10,
+      "compatibility_shape": [
+        4,
+        12
+      ],
+      "compatibility_rank": 2,
+      "compatibility_nonunits": [],
+      "restriction_rank": 10,
+      "restriction_nonunits": [],
+      "gluing_obstruction_dimension": 0,
+      "coefficient_rank": 7,
+      "coefficient_nonunits": [],
+      "coefficient_kernel_dimension": 3
+    },
+    {
+      "k": 3,
+      "offset": 2,
+      "proper_subsets_only": false,
+      "family_dimension": 28,
+      "ambient_dimension": 11,
+      "compatibility_shape": [
+        110,
+        28
+      ],
+      "compatibility_rank": 17,
+      "compatibility_nonunits": [
+        2
+      ],
+      "restriction_rank": 11,
+      "restriction_nonunits": [],
+      "gluing_obstruction_dimension": 0,
+      "coefficient_rank": 10,
+      "coefficient_nonunits": [],
+      "coefficient_kernel_dimension": 1
+    }
+  ],
+  "all_rank_claim_from_finite_checks": false,
+  "source_sha256": {
+    "TYPE_A_K_FIRST_CORRECTION.md": "c963221f4464452b6fb548e897814ac033e19bb885ea2d89f022faa64d177b7b",
+    "tools/verify_type_a_k_first_correction.py": "030ba7f6c615a3c181c8310b5bb4d6564ca762704000e1c94f08873620944cee",
+    "tools/verify_type_a_k_stable_multiplicities.py": "d6e4d4b0f3c59cddb8b5a170ab40f213ab6e67528c929754a0480796fc69c927",
+    "tools/binary_tensor_certificates.py": "9ef0511f70d1a29e328a706e65a153993013f16140971bbdd43f94d93c45a4bb"
+  }
+}

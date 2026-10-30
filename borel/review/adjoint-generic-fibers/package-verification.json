@@ -1,0 +1,22 @@
+{
+  "result": "passed",
+  "proof_commit": "4c21f18ea0c5df4350d86131176739b60f35ac6e",
+  "archive_filename": "adjoint-generic-fiber-review-2026-10-27.zip",
+  "archive_sha256": "60197f4508565914f2f6a40c5aab906bed6323dce97005969f4de3d38ed82a15",
+  "archive_bytes": 7095702,
+  "proof_files_matched_to_commit": 65,
+  "input_files": 69,
+  "archived_bytes_checked": true,
+  "replay_from_extracted_archive": true,
+  "review_not_external": true,
+  "replay_mode": "full",
+  "replay_steps": [
+    "e8-membership-32003",
+    "e8-membership-32009",
+    "e8-native",
+    "coverage"
+  ],
+  "fresh_pinned_engine_build_passed": true,
+  "full_replay_used_existing_pinned_engine": true,
+  "geometric_proof_mechanically_verified": false
+}
