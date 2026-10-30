@@ -1,0 +1,205 @@
+{
+  "result": "passed",
+  "comparisons": [
+    {
+      "m": 5,
+      "p": 5,
+      "degree": 8,
+      "factors": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "five_new_classes_independent": true,
+      "all_ideal_class_identities": true,
+      "exhaustive_and_reduced_lattices_agree": true,
+      "elementary_model": "auxiliary_unrooted"
+    },
+    {
+      "m": 10,
+      "p": 5,
+      "degree": 8,
+      "factors": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "five_new_classes_independent": true,
+      "all_ideal_class_identities": true,
+      "exhaustive_and_reduced_lattices_agree": true,
+      "elementary_model": "actual"
+    },
+    {
+      "m": 25,
+      "p": 5,
+      "degree": 8,
+      "factors": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "five_new_classes_independent": true,
+      "all_ideal_class_identities": true,
+      "exhaustive_and_reduced_lattices_agree": true,
+      "elementary_model": "actual"
+    },
+    {
+      "m": 14,
+      "p": 7,
+      "degree": 10,
+      "factors": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "five_new_classes_independent": true,
+      "all_ideal_class_identities": true,
+      "exhaustive_and_reduced_lattices_agree": true,
+      "elementary_model": "actual"
+    },
+    {
+      "m": 49,
+      "p": 7,
+      "degree": 10,
+      "factors": [
+        49,
+        49,
+        49,
+        49,
+        49,
+        49,
+        49
+      ],
+      "five_new_classes_independent": true,
+      "all_ideal_class_identities": true,
+      "exhaustive_and_reduced_lattices_agree": true,
+      "elementary_model": "actual"
+    }
+  ],
+  "root_boundary_controls": [
+    {
+      "p": 5,
+      "stages": {
+        "auxiliary": [
+          5,
+          5,
+          5,
+          5
+        ],
+        "unrooted": [
+          5,
+          5,
+          5
+        ],
+        "actual": [
+          5,
+          5
+        ]
+      },
+      "root_intersection": [
+        [
+          5,
+          2,
+          4,
+          0
+        ],
+        [
+          0,
+          5,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "literal_source_membership": true,
+      "root_class_functional_value": "1/5",
+      "full_coefficient_ideal_integrality": true
+    },
+    {
+      "p": 7,
+      "stages": {
+        "auxiliary": [
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
+        "unrooted": [
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
+        "actual": [
+          7,
+          7,
+          7,
+          7,
+          7
+        ]
+      },
+      "root_intersection": [
+        [
+          7,
+          4,
+          1,
+          0
+        ],
+        [
+          0,
+          7,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          7,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "literal_source_membership": true,
+      "root_class_functional_value": "1/7",
+      "full_coefficient_ideal_integrality": true
+    }
+  ],
+  "all_rank_claim_from_finite_checks": false,
+  "root_boundary_theorem": true,
+  "source_sha256": {
+    "TYPE_A_K_NEXT_ELEMENTARY.md": "9703b04904eb994bc145c0738ffb01e51d1db4c21b873aca571cd98e3c416116",
+    "TYPE_A_K_NEXT_LAYER_OBSTRUCTION.md": "6409a0474e65c9b07f927008ef50a9e3d0827b959a9862329a0943402fcbb048",
+    "TYPE_A_K_FIRST_CORRECTION.md": "c963221f4464452b6fb548e897814ac033e19bb885ea2d89f022faa64d177b7b",
+    "tools/verify_type_a_k_next_elementary.py": "927b7c41fca31bff80cdd199d3b59342248cc001335317f3d5bc08950f079f78",
+    "tools/verify_type_a_k_first_correction.py": "030ba7f6c615a3c181c8310b5bb4d6564ca762704000e1c94f08873620944cee",
+    "tools/verify_type_a_k_stable_multiplicities.py": "d6e4d4b0f3c59cddb8b5a170ab40f213ab6e67528c929754a0480796fc69c927"
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "result": "passed",
+  "tensor_certificates": [
+    {
+      "k": 3,
+      "offset": 3,
+      "proper_subsets_only": false,
+      "family_dimension": 44,
+      "ambient_dimension": 20,
+      "compatibility_shape": [
+        152,
+        44
+      ],
+      "compatibility_rank": 23,
+      "compatibility_nonunits": [
+        2,
+        2
+      ],
+      "restriction_rank": 20,
+      "restriction_nonunits": [],
+      "gluing_obstruction_dimension": 1,
+      "coefficient_rank": 19,
+      "coefficient_nonunits": [],
+      "coefficient_kernel_dimension": 1
+    },
+    {
+      "k": 3,
+      "offset": 3,
+      "proper_subsets_only": true,
+      "family_dimension": 38,
+      "ambient_dimension": 20,
+      "compatibility_shape": [
+        108,
+        38
+      ],
+      "compatibility_rank": 17,
+      "compatibility_nonunits": [
+        2
+      ],
+      "restriction_rank": 20,
+      "restriction_nonunits": [],
+      "gluing_obstruction_dimension": 1,
+      "coefficient_rank": 19,
+      "coefficient_nonunits": [],
+      "coefficient_kernel_dimension": 1
+    },
+    {
+      "k": 4,
+      "offset": 3,
+      "proper_subsets_only": false,
+      "family_dimension": 80,
+      "ambient_dimension": 21,
+      "compatibility_shape": [
+        2410,
+        80
+      ],
+      "compatibility_rank": 59,
+      "compatibility_nonunits": [],
+      "restriction_rank": 21,
+      "restriction_nonunits": [],
+      "gluing_obstruction_dimension": 0,
+      "coefficient_rank": 20,
+      "coefficient_nonunits": [],
+      "coefficient_kernel_dimension": 1
+    },
+    {
+      "k": 4,
+      "offset": 3,
+      "proper_subsets_only": true,
+      "family_dimension": 73,
+      "ambient_dimension": 21,
+      "compatibility_shape": [
+        2076,
+        73
+      ],
+      "compatibility_rank": 52,
+      "compatibility_nonunits": [],
+      "restriction_rank": 21,
+      "restriction_nonunits": [],
+      "gluing_obstruction_dimension": 0,
+      "coefficient_rank": 20,
+      "coefficient_nonunits": [],
+      "coefficient_kernel_dimension": 1
+    }
+  ],
+  "explicit_obstruction": {
+    "integer_pairwise_compatibility": true,
+    "records": [
+      {
+        "proper_subsets_only": false,
+        "ambient_rank": 20,
+        "augmented_rank": 21,
+        "augmented_nonunits": []
+      },
+      {
+        "proper_subsets_only": true,
+        "ambient_rank": 20,
+        "augmented_rank": 21,
+        "augmented_nonunits": []
+      }
+    ],
+    "obstruction_restricts_to_primitive_proper_obstruction": true
+  },
+  "moment_sectors": [
+    {
+      "p": 5,
+      "degree": 8,
+      "coefficient_degree": 3,
+      "ambient_rank": 41,
+      "source_primary_torsion": [
+        5
+      ],
+      "ideal_primary_torsion": [
+        5
+      ],
+      "relative_primary_torsion": [],
+      "shared_torsion_witness": true,
+      "method": "Exact modular Smith layers through p^2, rational rank, and an integer column-relation witness"
+    },
+    {
+      "p": 5,
+      "degree": 8,
+      "coefficient_degree": 4,
+      "ambient_rank": 53,
+      "source_primary_torsion": [],
+      "ideal_primary_torsion": [],
+      "relative_primary_torsion": [],
+      "shared_torsion_witness": null,
+      "method": "Exact modular Smith layers through p^2, rational rank, and an integer column-relation witness"
+    },
+    {
+      "p": 7,
+      "degree": 10,
+      "coefficient_degree": 3,
+      "ambient_rank": 67,
+      "source_primary_torsion": [
+        7
+      ],
+      "ideal_primary_torsion": [
+        7
+      ],
+      "relative_primary_torsion": [],
+      "shared_torsion_witness": true,
+      "method": "Exact modular Smith layers through p^2, rational rank, and an integer column-relation witness"
+    },
+    {
+      "p": 7,
+      "degree": 10,
+      "coefficient_degree": 4,
+      "ambient_rank": 94,
+      "source_primary_torsion": [],
+      "ideal_primary_torsion": [],
+      "relative_primary_torsion": [],
+      "shared_torsion_witness": null,
+      "method": "Exact modular Smith layers through p^2, rational rank, and an integer column-relation witness"
+    }
+  ],
+  "sage_imported": false,
+  "external_review": false,
+  "actual_elementary_degree_p_plus_three_formula": false,
+  "all_rank_claim_from_finite_checks": false,
+  "source_sha256": {
+    "TYPE_A_K_NEXT_LAYER_OBSTRUCTION.md": "6409a0474e65c9b07f927008ef50a9e3d0827b959a9862329a0943402fcbb048",
+    "tools/audit_type_a_k_next_layer.py": "8d5ba36f859c5bfec21cb81e882045c5eb227112001a2e0aa471953477da768b",
+    "tools/binary_tensor_certificates_native.py": "451f47b72da138ca0aa28fcd33940afb366b0b180e797c60829837aec4d4b702"
+  }
+}

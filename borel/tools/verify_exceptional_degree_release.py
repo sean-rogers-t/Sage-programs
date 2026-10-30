@@ -29,6 +29,9 @@ def main():
     version=sage_borel.__version__
     regression=read('character-verification.json')
     docs=read('documentation-verification.json')
+    classical_basis=read('classical-adapted-basis-release.json')
+    for name,expected in classical_basis['source_sha256'].items():
+        assert digest(ROOT/name)==expected,name
     type_a_specialization=read('type-a-k-specialization-verification.json')
     type_a_specialization_audit=read('type-a-k-specialization-audit.json')
     for record in (type_a_specialization,type_a_specialization_audit):
@@ -43,6 +46,41 @@ def main():
     degree_three=read('type-a-k-degree-three-audit.json')
     stable_multiplicities=read('type-a-k-stable-multiplicities-verification.json')
     stable_multiplicities_audit=read('type-a-k-stable-multiplicities-audit.json')
+    first_correction=read('type-a-k-first-correction-verification.json')
+    first_correction_audit=read('type-a-k-first-correction-audit.json')
+    for record in (first_correction,first_correction_audit):
+        for name,expected in record['source_sha256'].items():
+            assert digest(ROOT/name)==expected,name
+    assert len(first_correction['actual_elementary_cases'])==10
+    assert len(first_correction['root_boundary_stages'])==3
+    assert len(first_correction['moment_witt_comparisons'])==5
+    assert len(first_correction_audit['native_elementary_cases'])==5
+    assert first_correction['tensor_certificates']==first_correction_audit['tensor_certificates']
+    new_type_a_reports = [
+        'type-a-k-next-layer-verification.json','type-a-k-next-layer-audit.json',
+        'type-a-k-high-coefficient-build.json','type-a-k-high-coefficient-verification.json',
+        'type-a-k-relative-obstruction-build.json','type-a-k-relative-obstruction-audit.json',
+        'type-a-k-next-elementary-verification.json','type-a-k-next-elementary-audit.json']
+    next_layer,next_audit,high_build,high_check,negative_build,negative_audit,next_elementary,next_elementary_audit = [read(n) for n in new_type_a_reports]
+    new_type_a_bound_files = set(new_type_a_reports)
+    for record in [next_layer,next_audit,high_build,high_check,negative_build,negative_audit,next_elementary,next_elementary_audit]:
+        for key in ('source_sha256','raw_sha256'):
+            for name,expected in record.get(key,{}).items():
+                assert digest(ROOT/name)==expected,name
+                new_type_a_bound_files.add(name)
+    assert next_layer['tensor_certificates']==next_audit['tensor_certificates']
+    assert next_layer['explicit_obstruction']==next_audit['explicit_obstruction']
+    assert len(next_layer['moment_blocks'])==2 and len(next_audit['moment_sectors'])==4
+    assert len(next_layer['actual_mass_moment_images'])==3
+    assert high_build['total_witnesses']==high_check['exact_symbolic_witnesses']
+    assert high_build['total_witnesses']>=174 and high_build['boundary_cases_k_equal_e_plus_one']==4
+    assert negative_build['exact_relative_order']==negative_audit['exact_relative_order']==5
+    assert negative_build['functional_value']==negative_audit['functional_value']=='4889/5'
+    assert len(next_elementary['comparisons'])==5
+    assert len(next_elementary_audit['native_elementary_cases'])==3
+    assert len(next_elementary_audit['native_root_cases'])==2
+    assert next_elementary['root_boundary_theorem'] and next_elementary_audit['root_boundary_theorem']
+    assert next_elementary_audit['variable_mass_literal_root_membership_identity']
     assert len(stable_multiplicities['cases'])==7
     assert len(stable_multiplicities_audit['apolar_spaces'])==29
     assert len(stable_multiplicities_audit['prime_boundary_direct_moment_ranks'])==32
@@ -2207,8 +2245,29 @@ def main():
         'tools/audit_type_a_k_stable_multiplicities.py',
         'type-a-k-stable-multiplicities-verification.json',
         'type-a-k-stable-multiplicities-audit.json')]
+    paths += [ROOT/name for name in ('TYPE_A_K_FIRST_CORRECTION.md',
+        'tools/verify_type_a_k_first_correction.py','tools/audit_type_a_k_first_correction.py',
+        'tools/binary_tensor_certificates.py','tools/binary_tensor_certificates_native.py',
+        'type-a-k-first-correction-verification.json','type-a-k-first-correction-audit.json')]
+    paths += [ROOT/name for name in new_type_a_bound_files]
+    paths += [ROOT/'classical-adapted-basis-release.json']
+    paths += [ROOT/name for name in classical_basis['source_sha256']]
     report=dict(result='passed',version=version,
+        classical_adapted_basis={k:v for k,v in classical_basis.items() if k!='source_sha256'},
         type_a_projective_K_specialization=dict(
+            first_corrected_degree='p+2 for every odd p dividing m, IMG-41',
+            first_corrected_factors_m_greater_than_p='(Z/p^s)^(a_d-1) plus Z/p^(s-1)',
+            first_corrected_root_boundary='(Z/p)^(a_d-2) when m=p',
+            first_corrected_explicit_basis_verified=True,
+            next_moment_weight='p+3, p>=5: common Z/p ambient torsion cancels relatively, IMG-42',
+            high_coefficient_recurrence='weight k+e, k>=e+1, e>=2, over Z[1/e!]; e=1,k>=3 over Z[1/2]',
+            high_coefficient_explicit_witnesses=high_check['exact_symbolic_witnesses'],
+            first_frobenius_band_nonpolarizable_sectors_saturated=True,
+            all_weight_relative_saturation_refuted='Exact order-five class, coefficient degree 3, weight 12',
+            next_actual_elementary_weight='p+3: (Z/p^s)^a_d for m>p>=5, IMG-43',
+            next_root_boundary_proved=True,
+            next_root_boundary_formula='(Z/p)^(a_d-2) at d=p+3, p>=5',
+            next_root_boundary_membership='Variable-mass degree-three identity puts c_1^2 L in the source after inverting 2',
             prime_power_uniform_quotient_lower_bound='Delta_(p^s) surjects onto sum_e (Z/p^e)^((p-1)p^(e-1)), p^s>=3',
             full_m_annihilator_proved=True,
             annihilator_proof='Written all-rank difference-trace and integral content recurrence, IMG-39',

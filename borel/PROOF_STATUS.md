@@ -1,6 +1,88 @@
 # Proof and literature status of the Springer and Borel program
 
-## Active: equivariant Springer K-image specialization
+## Active: ordinary classical integral bases and multiplication
+
+29 October: the user returned to ordinary cohomology. The
+[adapted-basis construction](CLASSICAL_ADAPTED_SMITH_BASIS.md) uses the
+already completed B prefix theorem to obtain simultaneous integral
+bases, explicit divided B/D square-image classes, and their multiplication.
+The monomial corner is a primitive truncated divided-power subring,
+with original image intersection weighted by 2^length. These are written
+deductions from existing repository theorems and classical symmetric
+functions. Separate Sage and native-integer implementations check the
+construction; neither constitutes external mathematical review.
+The existing complete normalized B/D multiplicity formulas are not
+reclassified as open. The [full D Euler basis](TYPE_D_EXPLICIT_INTEGRAL_BASIS.md)
+is now constructed, including the unit-level gluing and actual products.
+Independent Sage and native arithmetic agree on 124 constructed components,
+28 actual D embeddings, and seven complete product checks.
+
+The [geometric denominator theorem](CLASSICAL_SATURATION_GENERATORS.md)
+identifies the B/D square saturation with sum_e 2^(-e) K_e, where
+K_e is the exact integral kernel of restriction to W_(e-1). High
+monomial symmetric functions of length at least e generate an ideal
+J_e contained in K_e. Equality is proved for e=ell, where
+K_ell=(e_ell^c), c=ceil(n/2). The
+[two-head straightening theorem](CLASSICAL_TWO_HEAD_GENERATORS.md)
+also proves every layer for ell=2, in arbitrary rank: the saturation
+has three additional generators p_c/2,p_(c+1)/2,e_2^c/4 over R.
+Monic integer reduction proves freeness, not just a rational rank match.
+For ell>=3 the intermediate-layer equality remains conjectural. This is
+an ordinary cohomology statement with normalized square generators;
+the literal representation source has the previously recorded degree
+scaling. Literature priority and external review remain unresolved.
+
+## Preceding: equivariant Springer K-image specialization
+
+28 October, IMG-43: [the next elementary layer](TYPE_A_K_NEXT_ELEMENTARY.md)
+now proves (Delta_m)_(p+3),(p)=(Z/p^v_p(m))^a_(p+3) for EVERY p>=5
+with p|m and m>p. An exhaustive weight-three Witt comparison reduces
+to five new directions; an explicit quadratic quotient gives three
+distinct monomial detectors, and two linear detectors give the other
+two. A Bockstein argument retains the known common source torsion.
+Exactly one old order-p subgroup is killed and then restored by its
+Witt root. At m=p, coefficient deletion loses one Z/p uniformly, and
+the root equation loses another: the formula is (Z/p)^(a_(p+3)-2).
+The degree-three identity 2a_1^2 L=q_1q_2-mq_3+2a_2q_1-3a_1a_2+m a_3
+proves the required source membership. A full four-parameter root
+intersection and a Q/Z detector exclude additional losses. The following
+IMG-42 paragraph records the moment stage, whose nonroot elementary
+comparison and root boundary are now completed by IMG-43.
+
+28 October, IMG-42: [the next-layer moment theorem](TYPE_A_K_NEXT_LAYER_OBSTRUCTION.md)
+proves that the only p-torsion of the universal moment ambient/source
+and ambient/coefficient-ideal quotients in weight p+3 (p>=5) is a common
+Z/p in coefficient degree three, killed by M. Their natural map identifies
+these blocks, so the actual mass-m relative moment defect retains the
+partition multiplicities although source base change itself has a kernel.
+A uniform high-coefficient recurrence works in every excess e with
+coefficient degree k>=e+1 over Z[1/e!] for e>=2; the quadratic source is
+saturated over Z[1/2] in every weight. Independent exact tensor,
+lattice, symbolic and recurrence checks corroborate these deductions.
+An explicit relative order-five class in coefficient degree three and
+weight twelve limits the mechanism: relative saturation is not universal.
+IMG-43 subsequently proves the degree-p+3 formula for the ACTUAL
+elementary Springer source, with separate formulas for m>p and m=p. This is a K-theory forget-equivariance
+defect with a transported grading, not a K-to-cohomology specialization.
+
+28 October, IMG-41: [the first correction](TYPE_A_K_FIRST_CORRECTION.md)
+now determines weight p+2 for EVERY odd prime p|m. For m>p it is
+(Z/p^s)^(a_(p+2)-1) plus Z/p^(s-1), s=v_p(m). For m=p it is
+(Z/p)^(a_(p+2)-2). Explicit integral representatives are given. The proof
+extends the fixed tensor certificate by coordinate support, handles all
+nonpolarizable high coefficient degrees integrally, and retains both
+source and coefficient-ideal enlargements under the first Witt change.
+Exactly two order-p subgroups disappear and one new source direction
+restores a full-order factor. At m=p an auxiliary coefficient class is
+lost separately; the subsequent root equation removes only the free
+ordinary image. Actual elementary lattices, a separate moment/Witt
+comparison and a native audit pass. This is an internally checked written
+deduction, not external review or a novelty claim. IMG-43 completes the
+next degree for p>=5; general higher degrees and higher 2-primary
+pieces remain open.
+
+The following IMG-40 paragraph records the preceding stage; its open
+p+2 multiplicity question is now answered by IMG-41 above.
 
 28 October, IMG-40: [the partition formula](TYPE_A_K_STABLE_MULTIPLICITIES.md)
 determines the complete p-primary piece in EVERY weight d<=p, and also

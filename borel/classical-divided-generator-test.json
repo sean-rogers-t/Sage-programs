@@ -1,0 +1,925 @@
+{
+  "status": "completed",
+  "scope": "Finite test of a candidate generator theorem; not a proof.",
+  "cases": [
+    {
+      "A": 3,
+      "ell": 2,
+      "generator_count": 4,
+      "degrees": [
+        {
+          "m": 0,
+          "rank": 1,
+          "candidate_mod2_rank": 1,
+          "spans": true
+        },
+        {
+          "m": 1,
+          "rank": 1,
+          "candidate_mod2_rank": 1,
+          "spans": true
+        },
+        {
+          "m": 2,
+          "rank": 2,
+          "candidate_mod2_rank": 2,
+          "spans": true
+        },
+        {
+          "m": 3,
+          "rank": 2,
+          "candidate_mod2_rank": 2,
+          "spans": true
+        },
+        {
+          "m": 4,
+          "rank": 2,
+          "candidate_mod2_rank": 2,
+          "spans": true
+        },
+        {
+          "m": 5,
+          "rank": 1,
+          "candidate_mod2_rank": 1,
+          "spans": true
+        },
+        {
+          "m": 6,
+          "rank": 1,
+          "candidate_mod2_rank": 1,
+          "spans": true
+        }
+      ],
+      "all_degrees_span": true
+    },
+    {
+      "A": 4,
+      "ell": 2,
+      "generator_count": 8,
+      "degrees": [
+        {
+          "m": 0,
+          "rank": 1,
+          "candidate_mod2_rank": 1,
+          "spans": true
+        },
+        {
+          "m": 1,
+          "rank": 1,
+          "candidate_mod2_rank": 1,
+          "spans": true
+        },
+        {
+          "m": 2,
+          "rank": 2,
+          "candidate_mod2_rank": 2,
+          "spans": true
+        },
+        {
+          "m": 3,
+          "rank": 2,
+          "candidate_mod2_rank": 2,
+          "spans": true
+        },
+        {
+          "m": 4,
+          "rank": 3,
+          "candidate_mod2_rank": 3,
+          "spans": true
+        },
+        {
+          "m": 5,
+          "rank": 2,
+          "candidate_mod2_rank": 2,
+          "spans": true
+        },
+        {
+          "m": 6,
+          "rank": 2,
+          "candidate_mod2_rank": 2,
+          "spans": true
+        },
+        {
+          "m": 7,
+          "rank": 1,
+          "candidate_mod2_rank": 1,
+          "spans": true
+        },
+        {
+          "m": 8,
+          "rank": 1,
+          "candidate_mod2_rank": 1,
+          "spans": true
+        }
+      ],
+      "all_degrees_span": true
+    },
+    {
+      "A": 3,
+      "ell": 3,
+      "generator_count": 10,
+      "degrees": [
+        {
+          "m": 0,
+          "rank": 1,
+          "candidate_mod2_rank": 1,
+          "spans": true
+        },
+        {
+          "m": 1,
+          "rank": 1,
+          "candidate_mod2_rank": 1,
+          "spans": true
+        },
+        {
+          "m": 2,
+          "rank": 2,
+          "candidate_mod2_rank": 2,
+          "spans": true
+        },
+        {
+          "m": 3,
+          "rank": 3,
+          "candidate_mod2_rank": 3,
+          "spans": true
+        },
+        {
+          "m": 4,
+          "rank": 3,
+          "candidate_mod2_rank": 3,
+          "spans": true
+        },
+        {
+          "m": 5,
+          "rank": 3,
+          "candidate_mod2_rank": 3,
+          "spans": true
+        },
+        {
+          "m": 6,
+          "rank": 3,
+          "candidate_mod2_rank": 3,
+          "spans": true
+        },
+        {
+          "m": 7,
+          "rank": 2,
+          "candidate_mod2_rank": 2,
+          "spans": true
+        },
+        {
+          "m": 8,
+          "rank": 1,
+          "candidate_mod2_rank": 1,
+          "spans": true
+        },
+        {
+          "m": 9,
+          "rank": 1,
+          "candidate_mod2_rank": 1,
+          "spans": true
+        }
+      ],
+      "all_degrees_span": true
+    },
+    {
+      "A": 4,
+      "ell": 3,
+      "generator_count": 11,
+      "degrees": [
+        {
+          "m": 0,
+          "rank": 1,
+          "candidate_mod2_rank": 1,
+          "spans": true
+        },
+        {
+          "m": 1,
+          "rank": 1,
+          "candidate_mod2_rank": 1,
+          "spans": true
+        },
+        {
+          "m": 2,
+          "rank": 2,
+          "candidate_mod2_rank": 2,
+          "spans": true
+        },
+        {
+          "m": 3,
+          "rank": 3,
+          "candidate_mod2_rank": 3,
+          "spans": true
+        },
+        {
+          "m": 4,
+          "rank": 4,
+          "candidate_mod2_rank": 4,
+          "spans": true
+        },
+        {
+          "m": 5,
+          "rank": 4,
+          "candidate_mod2_rank": 4,
+          "spans": true
+        },
+        {
+          "m": 6,
+          "rank": 5,
+          "candidate_mod2_rank": 5,
+          "spans": true
+        },
+        {
+          "m": 7,
+          "rank": 4,
+          "candidate_mod2_rank": 4,
+          "spans": true
+        },
+        {
+          "m": 8,
+          "rank": 4,
+          "candidate_mod2_rank": 4,
+          "spans": true
+        },
+        {
+          "m": 9,
+          "rank": 3,
+          "candidate_mod2_rank": 3,
+          "spans": true
+        },
+        {
+          "m": 10,
+          "rank": 2,
+          "candidate_mod2_rank": 2,
+          "spans": true
+        },
+        {
+          "m": 11,
+          "rank": 1,
+          "candidate_mod2_rank": 1,
+          "spans": true
+        },
+        {
+          "m": 12,
+          "rank": 1,
+          "candidate_mod2_rank": 1,
+          "spans": true
+        }
+      ],
+      "all_degrees_span": true
+    },
+    {
+      "A": 5,
+      "ell": 3,
+      "generator_count": 22,
+      "degrees": [
+        {
+          "m": 0,
+          "rank": 1,
+          "candidate_mod2_rank": 1,
+          "spans": true
+        },
+        {
+          "m": 1,
+          "rank": 1,
+          "candidate_mod2_rank": 1,
+          "spans": true
+        },
+        {
+          "m": 2,
+          "rank": 2,
+          "candidate_mod2_rank": 2,
+          "spans": true
+        },
+        {
+          "m": 3,
+          "rank": 3,
+          "candidate_mod2_rank": 3,
+          "spans": true
+        },
+        {
+          "m": 4,
+          "rank": 4,
+          "candidate_mod2_rank": 4,
+          "spans": true
+        },
+        {
+          "m": 5,
+          "rank": 5,
+          "candidate_mod2_rank": 5,
+          "spans": true
+        },
+        {
+          "m": 6,
+          "rank": 6,
+          "candidate_mod2_rank": 6,
+          "spans": true
+        },
+        {
+          "m": 7,
+          "rank": 6,
+          "candidate_mod2_rank": 6,
+          "spans": true
+        },
+        {
+          "m": 8,
+          "rank": 6,
+          "candidate_mod2_rank": 6,
+          "spans": true
+        },
+        {
+          "m": 9,
+          "rank": 6,
+          "candidate_mod2_rank": 6,
+          "spans": true
+        },
+        {
+          "m": 10,
+          "rank": 5,
+          "candidate_mod2_rank": 5,
+          "spans": true
+        },
+        {
+          "m": 11,
+          "rank": 4,
+          "candidate_mod2_rank": 4,
+          "spans": true
+        },
+        {
+          "m": 12,
+          "rank": 3,
+          "candidate_mod2_rank": 3,
+          "spans": true
+        },
+        {
+          "m": 13,
+          "rank": 2,
+          "candidate_mod2_rank": 2,
+          "spans": true
+        },
+        {
+          "m": 14,
+          "rank": 1,
+          "candidate_mod2_rank": 1,
+          "spans": true
+        },
+        {
+          "m": 15,
+          "rank": 1,
+          "candidate_mod2_rank": 1,
+          "spans": true
+        }
+      ],
+      "all_degrees_span": true
+    },
+    {
+      "A": 4,
+      "ell": 4,
+      "generator_count": 26,
+      "degrees": [
+        {
+          "m": 0,
+          "rank": 1,
+          "candidate_mod2_rank": 1,
+          "spans": true
+        },
+        {
+          "m": 1,
+          "rank": 1,
+          "candidate_mod2_rank": 1,
+          "spans": true
+        },
+        {
+          "m": 2,
+          "rank": 2,
+          "candidate_mod2_rank": 2,
+          "spans": true
+        },
+        {
+          "m": 3,
+          "rank": 3,
+          "candidate_mod2_rank": 3,
+          "spans": true
+        },
+        {
+          "m": 4,
+          "rank": 5,
+          "candidate_mod2_rank": 5,
+          "spans": true
+        },
+        {
+          "m": 5,
+          "rank": 5,
+          "candidate_mod2_rank": 5,
+          "spans": true
+        },
+        {
+          "m": 6,
+          "rank": 7,
+          "candidate_mod2_rank": 7,
+          "spans": true
+        },
+        {
+          "m": 7,
+          "rank": 7,
+          "candidate_mod2_rank": 7,
+          "spans": true
+        },
+        {
+          "m": 8,
+          "rank": 8,
+          "candidate_mod2_rank": 8,
+          "spans": true
+        },
+        {
+          "m": 9,
+          "rank": 7,
+          "candidate_mod2_rank": 7,
+          "spans": true
+        },
+        {
+          "m": 10,
+          "rank": 7,
+          "candidate_mod2_rank": 7,
+          "spans": true
+        },
+        {
+          "m": 11,
+          "rank": 5,
+          "candidate_mod2_rank": 5,
+          "spans": true
+        },
+        {
+          "m": 12,
+          "rank": 5,
+          "candidate_mod2_rank": 5,
+          "spans": true
+        },
+        {
+          "m": 13,
+          "rank": 3,
+          "candidate_mod2_rank": 3,
+          "spans": true
+        },
+        {
+          "m": 14,
+          "rank": 2,
+          "candidate_mod2_rank": 2,
+          "spans": true
+        },
+        {
+          "m": 15,
+          "rank": 1,
+          "candidate_mod2_rank": 1,
+          "spans": true
+        },
+        {
+          "m": 16,
+          "rank": 1,
+          "candidate_mod2_rank": 1,
+          "spans": true
+        }
+      ],
+      "all_degrees_span": true
+    },
+    {
+      "A": 5,
+      "ell": 4,
+      "generator_count": 29,
+      "degrees": [
+        {
+          "m": 0,
+          "rank": 1,
+          "candidate_mod2_rank": 1,
+          "spans": true
+        },
+        {
+          "m": 1,
+          "rank": 1,
+          "candidate_mod2_rank": 1,
+          "spans": true
+        },
+        {
+          "m": 2,
+          "rank": 2,
+          "candidate_mod2_rank": 2,
+          "spans": true
+        },
+        {
+          "m": 3,
+          "rank": 3,
+          "candidate_mod2_rank": 3,
+          "spans": true
+        },
+        {
+          "m": 4,
+          "rank": 5,
+          "candidate_mod2_rank": 5,
+          "spans": true
+        },
+        {
+          "m": 5,
+          "rank": 6,
+          "candidate_mod2_rank": 6,
+          "spans": true
+        },
+        {
+          "m": 6,
+          "rank": 8,
+          "candidate_mod2_rank": 8,
+          "spans": true
+        },
+        {
+          "m": 7,
+          "rank": 9,
+          "candidate_mod2_rank": 9,
+          "spans": true
+        },
+        {
+          "m": 8,
+          "rank": 11,
+          "candidate_mod2_rank": 11,
+          "spans": true
+        },
+        {
+          "m": 9,
+          "rank": 11,
+          "candidate_mod2_rank": 11,
+          "spans": true
+        },
+        {
+          "m": 10,
+          "rank": 12,
+          "candidate_mod2_rank": 12,
+          "spans": true
+        },
+        {
+          "m": 11,
+          "rank": 11,
+          "candidate_mod2_rank": 11,
+          "spans": true
+        },
+        {
+          "m": 12,
+          "rank": 11,
+          "candidate_mod2_rank": 11,
+          "spans": true
+        },
+        {
+          "m": 13,
+          "rank": 9,
+          "candidate_mod2_rank": 9,
+          "spans": true
+        },
+        {
+          "m": 14,
+          "rank": 8,
+          "candidate_mod2_rank": 8,
+          "spans": true
+        },
+        {
+          "m": 15,
+          "rank": 6,
+          "candidate_mod2_rank": 6,
+          "spans": true
+        },
+        {
+          "m": 16,
+          "rank": 5,
+          "candidate_mod2_rank": 5,
+          "spans": true
+        },
+        {
+          "m": 17,
+          "rank": 3,
+          "candidate_mod2_rank": 3,
+          "spans": true
+        },
+        {
+          "m": 18,
+          "rank": 2,
+          "candidate_mod2_rank": 2,
+          "spans": true
+        },
+        {
+          "m": 19,
+          "rank": 1,
+          "candidate_mod2_rank": 1,
+          "spans": true
+        },
+        {
+          "m": 20,
+          "rank": 1,
+          "candidate_mod2_rank": 1,
+          "spans": true
+        }
+      ],
+      "all_degrees_span": true
+    },
+    {
+      "A": 5,
+      "ell": 5,
+      "generator_count": 72,
+      "degrees": [
+        {
+          "m": 0,
+          "rank": 1,
+          "candidate_mod2_rank": 1,
+          "spans": true
+        },
+        {
+          "m": 1,
+          "rank": 1,
+          "candidate_mod2_rank": 1,
+          "spans": true
+        },
+        {
+          "m": 2,
+          "rank": 2,
+          "candidate_mod2_rank": 2,
+          "spans": true
+        },
+        {
+          "m": 3,
+          "rank": 3,
+          "candidate_mod2_rank": 3,
+          "spans": true
+        },
+        {
+          "m": 4,
+          "rank": 5,
+          "candidate_mod2_rank": 5,
+          "spans": true
+        },
+        {
+          "m": 5,
+          "rank": 7,
+          "candidate_mod2_rank": 7,
+          "spans": true
+        },
+        {
+          "m": 6,
+          "rank": 9,
+          "candidate_mod2_rank": 9,
+          "spans": true
+        },
+        {
+          "m": 7,
+          "rank": 11,
+          "candidate_mod2_rank": 11,
+          "spans": true
+        },
+        {
+          "m": 8,
+          "rank": 14,
+          "candidate_mod2_rank": 14,
+          "spans": true
+        },
+        {
+          "m": 9,
+          "rank": 16,
+          "candidate_mod2_rank": 16,
+          "spans": true
+        },
+        {
+          "m": 10,
+          "rank": 18,
+          "candidate_mod2_rank": 18,
+          "spans": true
+        },
+        {
+          "m": 11,
+          "rank": 19,
+          "candidate_mod2_rank": 19,
+          "spans": true
+        },
+        {
+          "m": 12,
+          "rank": 20,
+          "candidate_mod2_rank": 20,
+          "spans": true
+        },
+        {
+          "m": 13,
+          "rank": 20,
+          "candidate_mod2_rank": 20,
+          "spans": true
+        },
+        {
+          "m": 14,
+          "rank": 19,
+          "candidate_mod2_rank": 19,
+          "spans": true
+        },
+        {
+          "m": 15,
+          "rank": 18,
+          "candidate_mod2_rank": 18,
+          "spans": true
+        },
+        {
+          "m": 16,
+          "rank": 16,
+          "candidate_mod2_rank": 16,
+          "spans": true
+        },
+        {
+          "m": 17,
+          "rank": 14,
+          "candidate_mod2_rank": 14,
+          "spans": true
+        },
+        {
+          "m": 18,
+          "rank": 11,
+          "candidate_mod2_rank": 11,
+          "spans": true
+        },
+        {
+          "m": 19,
+          "rank": 9,
+          "candidate_mod2_rank": 9,
+          "spans": true
+        },
+        {
+          "m": 20,
+          "rank": 7,
+          "candidate_mod2_rank": 7,
+          "spans": true
+        },
+        {
+          "m": 21,
+          "rank": 5,
+          "candidate_mod2_rank": 5,
+          "spans": true
+        },
+        {
+          "m": 22,
+          "rank": 3,
+          "candidate_mod2_rank": 3,
+          "spans": true
+        },
+        {
+          "m": 23,
+          "rank": 2,
+          "candidate_mod2_rank": 2,
+          "spans": true
+        },
+        {
+          "m": 24,
+          "rank": 1,
+          "candidate_mod2_rank": 1,
+          "spans": true
+        },
+        {
+          "m": 25,
+          "rank": 1,
+          "candidate_mod2_rank": 1,
+          "spans": true
+        }
+      ],
+      "all_degrees_span": true
+    },
+    {
+      "A": 7,
+      "ell": 3,
+      "generator_count": 41,
+      "degrees": [
+        {
+          "m": 0,
+          "rank": 1,
+          "candidate_mod2_rank": 1,
+          "spans": true
+        },
+        {
+          "m": 1,
+          "rank": 1,
+          "candidate_mod2_rank": 1,
+          "spans": true
+        },
+        {
+          "m": 2,
+          "rank": 2,
+          "candidate_mod2_rank": 2,
+          "spans": true
+        },
+        {
+          "m": 3,
+          "rank": 3,
+          "candidate_mod2_rank": 3,
+          "spans": true
+        },
+        {
+          "m": 4,
+          "rank": 4,
+          "candidate_mod2_rank": 4,
+          "spans": true
+        },
+        {
+          "m": 5,
+          "rank": 5,
+          "candidate_mod2_rank": 5,
+          "spans": true
+        },
+        {
+          "m": 6,
+          "rank": 7,
+          "candidate_mod2_rank": 7,
+          "spans": true
+        },
+        {
+          "m": 7,
+          "rank": 8,
+          "candidate_mod2_rank": 8,
+          "spans": true
+        },
+        {
+          "m": 8,
+          "rank": 9,
+          "candidate_mod2_rank": 9,
+          "spans": true
+        },
+        {
+          "m": 9,
+          "rank": 10,
+          "candidate_mod2_rank": 10,
+          "spans": true
+        },
+        {
+          "m": 10,
+          "rank": 10,
+          "candidate_mod2_rank": 10,
+          "spans": true
+        },
+        {
+          "m": 11,
+          "rank": 10,
+          "candidate_mod2_rank": 10,
+          "spans": true
+        },
+        {
+          "m": 12,
+          "rank": 10,
+          "candidate_mod2_rank": 10,
+          "spans": true
+        },
+        {
+          "m": 13,
+          "rank": 9,
+          "candidate_mod2_rank": 9,
+          "spans": true
+        },
+        {
+          "m": 14,
+          "rank": 8,
+          "candidate_mod2_rank": 8,
+          "spans": true
+        },
+        {
+          "m": 15,
+          "rank": 7,
+          "candidate_mod2_rank": 7,
+          "spans": true
+        },
+        {
+          "m": 16,
+          "rank": 5,
+          "candidate_mod2_rank": 5,
+          "spans": true
+        },
+        {
+          "m": 17,
+          "rank": 4,
+          "candidate_mod2_rank": 4,
+          "spans": true
+        },
+        {
+          "m": 18,
+          "rank": 3,
+          "candidate_mod2_rank": 3,
+          "spans": true
+        },
+        {
+          "m": 19,
+          "rank": 2,
+          "candidate_mod2_rank": 2,
+          "spans": true
+        },
+        {
+          "m": 20,
+          "rank": 1,
+          "candidate_mod2_rank": 1,
+          "spans": true
+        },
+        {
+          "m": 21,
+          "rank": 1,
+          "candidate_mod2_rank": 1,
+          "spans": true
+        }
+      ],
+      "all_degrees_span": true
+    }
+  ],
+  "source_sha256": "24ec39e234aab384e4f5080ecefe3bfd20cf2efabd58a1dd1febeb357bea1b16"
+}

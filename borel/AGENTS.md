@@ -3,7 +3,15 @@
 The user's priority is generalizable mathematics: uniform formulas,
 structural explanations, exact hypotheses and counterexamples.
 
-## Active user direction, 27 October 2026
+## Active user direction, 29 October 2026
+
+The user selected a four-hour return to ordinary classical integral
+cohomology. Audit the
+existing B/C/D scope, then pursue explicit adapted integral bases and
+their multiplication, not another rank census. Preserve the uncommitted
+K-theory work. No new public API, PDF, or automatic push is requested.
+
+## Preceding user direction, 27 October 2026
 
 The user has shelved the Cayley-fiber work and returned to Springer--Borel
 images, explicitly selecting equivariant/K-theory specialization. Implement

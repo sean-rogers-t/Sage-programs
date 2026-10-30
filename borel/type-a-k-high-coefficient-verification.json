@@ -1,0 +1,14 @@
+{
+  "result": "passed",
+  "exact_symbolic_witnesses": 291,
+  "native_builder_imported": false,
+  "method": "Independent Sage polynomial substitution of saved rational coefficient lists",
+  "all_rank_claim_from_finite_checks": false,
+  "source_sha256": {
+    "TYPE_A_K_NEXT_LAYER_OBSTRUCTION.md": "6409a0474e65c9b07f927008ef50a9e3d0827b959a9862329a0943402fcbb048",
+    "tools/verify_type_a_k_high_coefficient.py": "8e45efd2f2db9157cbe24d49e559bc8d04505c5e4b0b78a298b21b1c278313a6"
+  },
+  "raw_sha256": {
+    "experiments/type-a-k-high-coefficient-witnesses.json.gz": "6b2bd4f5c0150b4fd5e670c9227a56ab33a875aeb4a12727502e6718b40780a7"
+  }
+}

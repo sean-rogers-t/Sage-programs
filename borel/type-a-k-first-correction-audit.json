@@ -1,0 +1,140 @@
+{
+  "result": "passed",
+  "native_elementary_cases": [
+    {
+      "m": 3,
+      "p": 3,
+      "degree": 5,
+      "ambient_rank": 12,
+      "primary": [],
+      "method": "Independent elementary lattices and exact modular Smith through p^(v_p(m)+1); uses the earlier m-annihilator bound"
+    },
+    {
+      "m": 6,
+      "p": 3,
+      "degree": 5,
+      "ambient_rank": 19,
+      "primary": [
+        3
+      ],
+      "method": "Independent elementary lattices and exact modular Smith through p^(v_p(m)+1); uses the earlier m-annihilator bound"
+    },
+    {
+      "m": 9,
+      "p": 3,
+      "degree": 5,
+      "ambient_rank": 19,
+      "primary": [
+        3,
+        9
+      ],
+      "method": "Independent elementary lattices and exact modular Smith through p^(v_p(m)+1); uses the earlier m-annihilator bound"
+    },
+    {
+      "m": 5,
+      "p": 5,
+      "degree": 7,
+      "ambient_rank": 38,
+      "primary": [
+        5,
+        5
+      ],
+      "method": "Independent elementary lattices and exact modular Smith through p^(v_p(m)+1); uses the earlier m-annihilator bound"
+    },
+    {
+      "m": 10,
+      "p": 5,
+      "degree": 7,
+      "ambient_rank": 45,
+      "primary": [
+        5,
+        5,
+        5
+      ],
+      "method": "Independent elementary lattices and exact modular Smith through p^(v_p(m)+1); uses the earlier m-annihilator bound"
+    }
+  ],
+  "tensor_certificates": [
+    {
+      "k": 2,
+      "offset": 2,
+      "proper_subsets_only": false,
+      "family_dimension": 12,
+      "ambient_dimension": 10,
+      "compatibility_shape": [
+        4,
+        12
+      ],
+      "compatibility_rank": 2,
+      "compatibility_nonunits": [],
+      "restriction_rank": 10,
+      "restriction_nonunits": [],
+      "gluing_obstruction_dimension": 0,
+      "coefficient_rank": 7,
+      "coefficient_nonunits": [],
+      "coefficient_kernel_dimension": 3
+    },
+    {
+      "k": 3,
+      "offset": 2,
+      "proper_subsets_only": false,
+      "family_dimension": 28,
+      "ambient_dimension": 11,
+      "compatibility_shape": [
+        110,
+        28
+      ],
+      "compatibility_rank": 17,
+      "compatibility_nonunits": [
+        2
+      ],
+      "restriction_rank": 11,
+      "restriction_nonunits": [],
+      "gluing_obstruction_dimension": 0,
+      "coefficient_rank": 10,
+      "coefficient_nonunits": [],
+      "coefficient_kernel_dimension": 1
+    }
+  ],
+  "formal_trace": [
+    {
+      "p": 3,
+      "symbolic_mass_trace_identity": true,
+      "formal_certificate_reduction_mod_p_and_mass": true
+    },
+    {
+      "p": 5,
+      "symbolic_mass_trace_identity": true,
+      "formal_certificate_reduction_mod_p_and_mass": true
+    },
+    {
+      "p": 7,
+      "symbolic_mass_trace_identity": true,
+      "formal_certificate_reduction_mod_p_and_mass": true
+    }
+  ],
+  "high_coefficient_elimination": {
+    "rank": 6,
+    "nonunit_smith": [
+      2
+    ],
+    "subsequent_rows_eliminate_recursively_with_unit_pivots": true
+  },
+  "overlap_injectivity": {
+    "rank": 3,
+    "smith": [
+      1,
+      1,
+      1
+    ],
+    "all_characteristics": true
+  },
+  "sage_imported": false,
+  "external_review": false,
+  "all_rank_claim_from_finite_checks": false,
+  "source_sha256": {
+    "TYPE_A_K_FIRST_CORRECTION.md": "c963221f4464452b6fb548e897814ac033e19bb885ea2d89f022faa64d177b7b",
+    "tools/audit_type_a_k_first_correction.py": "e319aabfc539c593085b3cb3a3b2dc4af5e0621cb5bac030427463323032b6b3",
+    "tools/binary_tensor_certificates_native.py": "451f47b72da138ca0aa28fcd33940afb366b0b180e797c60829837aec4d4b702"
+  }
+}

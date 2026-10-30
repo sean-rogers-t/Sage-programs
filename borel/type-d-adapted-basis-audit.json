@@ -1,0 +1,228 @@
+{
+  "status": "passed",
+  "method": "Native Pieri/Frobenius, binary row reduction and integer Hermite; no Sage.",
+  "constructed_matches": 124,
+  "actual_D": [
+    {
+      "K": 1,
+      "H": 3,
+      "d": 0,
+      "primitive": true
+    },
+    {
+      "K": 1,
+      "H": 3,
+      "d": 2,
+      "primitive": true
+    },
+    {
+      "K": 1,
+      "H": 3,
+      "d": 3,
+      "primitive": true
+    },
+    {
+      "K": 1,
+      "H": 3,
+      "d": 4,
+      "primitive": true
+    },
+    {
+      "K": 1,
+      "H": 3,
+      "d": 6,
+      "primitive": true
+    },
+    {
+      "K": 2,
+      "H": 2,
+      "d": 0,
+      "primitive": true
+    },
+    {
+      "K": 2,
+      "H": 2,
+      "d": 2,
+      "primitive": true
+    },
+    {
+      "K": 2,
+      "H": 2,
+      "d": 4,
+      "primitive": true
+    },
+    {
+      "K": 2,
+      "H": 2,
+      "d": 6,
+      "primitive": true
+    },
+    {
+      "K": 2,
+      "H": 2,
+      "d": 8,
+      "primitive": true
+    },
+    {
+      "K": 3,
+      "H": 2,
+      "d": 0,
+      "primitive": true
+    },
+    {
+      "K": 3,
+      "H": 2,
+      "d": 2,
+      "primitive": true
+    },
+    {
+      "K": 3,
+      "H": 2,
+      "d": 4,
+      "primitive": true
+    },
+    {
+      "K": 3,
+      "H": 2,
+      "d": 6,
+      "primitive": true
+    },
+    {
+      "K": 3,
+      "H": 2,
+      "d": 8,
+      "primitive": true
+    },
+    {
+      "K": 3,
+      "H": 2,
+      "d": 10,
+      "primitive": true
+    },
+    {
+      "K": 3,
+      "H": 2,
+      "d": 12,
+      "primitive": true
+    },
+    {
+      "K": 2,
+      "H": 3,
+      "d": 0,
+      "primitive": true
+    },
+    {
+      "K": 2,
+      "H": 3,
+      "d": 2,
+      "primitive": true
+    },
+    {
+      "K": 2,
+      "H": 3,
+      "d": 3,
+      "primitive": true
+    },
+    {
+      "K": 2,
+      "H": 3,
+      "d": 4,
+      "primitive": true
+    },
+    {
+      "K": 2,
+      "H": 3,
+      "d": 5,
+      "primitive": true
+    },
+    {
+      "K": 2,
+      "H": 3,
+      "d": 6,
+      "primitive": true
+    },
+    {
+      "K": 2,
+      "H": 3,
+      "d": 7,
+      "primitive": true
+    },
+    {
+      "K": 2,
+      "H": 3,
+      "d": 8,
+      "primitive": true
+    },
+    {
+      "K": 2,
+      "H": 3,
+      "d": 9,
+      "primitive": true
+    },
+    {
+      "K": 2,
+      "H": 3,
+      "d": 10,
+      "primitive": true
+    },
+    {
+      "K": 2,
+      "H": 3,
+      "d": 12,
+      "primitive": true
+    }
+  ],
+  "multiplication": [
+    {
+      "K": 1,
+      "H": 2,
+      "classes": 4,
+      "nonzero_products": 7,
+      "integral": true
+    },
+    {
+      "K": 1,
+      "H": 3,
+      "classes": 5,
+      "nonzero_products": 8,
+      "integral": true
+    },
+    {
+      "K": 2,
+      "H": 2,
+      "classes": 9,
+      "nonzero_products": 29,
+      "integral": true
+    },
+    {
+      "K": 3,
+      "H": 2,
+      "classes": 16,
+      "nonzero_products": 90,
+      "integral": true
+    },
+    {
+      "K": 2,
+      "H": 3,
+      "classes": 14,
+      "nonzero_products": 51,
+      "integral": true
+    },
+    {
+      "K": 2,
+      "H": 4,
+      "classes": 20,
+      "nonzero_products": 110,
+      "integral": true
+    },
+    {
+      "K": 3,
+      "H": 3,
+      "classes": 30,
+      "nonzero_products": 259,
+      "integral": true
+    }
+  ],
+  "source_sha256": "bd160d10f51bc402113d60de02ed414e4b47539cdf1c338676771060ae08ee59",
+  "input_sha256": "4280fe38bd9ed5158f5d62ef4a24d19eea00cecba4fac8b9e15fc892de874b12"
+}

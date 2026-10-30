@@ -1270,7 +1270,7 @@
   "full_degree_p_plus_two_multiplicity_formula": false,
   "external_review": false,
   "source_sha256": {
-    "TYPE_A_K_STABLE_MULTIPLICITIES.md": "1e828e154b3cac8141c12a96471d01e913b0636539ea4c5e5992c7da1897c508",
+    "TYPE_A_K_STABLE_MULTIPLICITIES.md": "1e43fec1bd146ffdf5d0ad6c18137cf45311cb8c8d43bf02fbaca07ec0c25eef",
     "tools/audit_type_a_k_stable_multiplicities.py": "f2f706074f3a590e7a8cd894081179747c5a285b2f3a5a55ae105fe61a043447"
   }
 }

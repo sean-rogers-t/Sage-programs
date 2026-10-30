@@ -1,5 +1,10 @@
 # A partition formula for the specialization defect through the residue characteristic
 
+**Subsequent completion:** [IMG-41](TYPE_A_K_FIRST_CORRECTION.md) gives the
+full corrected formula in weight p+2 for odd p, including its distinct
+root boundary m=p. The unresolved p+2 statements below describe the
+historical IMG-40 stage and are superseded by that proof.
+
 28 October 2026. IMG-40. This is a continuation of
 [IMG-39](TYPE_A_K_INTEGRAL_RECURRENCE.md), for the defining representation
 of SL_m, P=P1, and the full literal integral root-polynomial Springer

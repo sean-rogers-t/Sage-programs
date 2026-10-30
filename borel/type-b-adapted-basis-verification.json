@@ -1,0 +1,1025 @@
+{
+  "status": "passed",
+  "scope": "Finite checks of a uniform constructive deduction; no external review.",
+  "prefixes": [
+    {
+      "A": 3,
+      "ell": 2,
+      "prefixes": 21
+    },
+    {
+      "A": 2,
+      "ell": 3,
+      "prefixes": 28
+    },
+    {
+      "A": 4,
+      "ell": 2,
+      "prefixes": 27
+    },
+    {
+      "A": 2,
+      "ell": 4,
+      "prefixes": 45
+    },
+    {
+      "A": 3,
+      "ell": 3,
+      "prefixes": 40
+    },
+    {
+      "A": 4,
+      "ell": 3,
+      "prefixes": 52
+    },
+    {
+      "A": 4,
+      "ell": 4,
+      "prefixes": 85
+    },
+    {
+      "A": 5,
+      "ell": 3,
+      "prefixes": 64
+    }
+  ],
+  "multiplication": [
+    {
+      "A": 3,
+      "ell": 2,
+      "nonzero_structure_constants": 36,
+      "integral": true
+    },
+    {
+      "A": 2,
+      "ell": 3,
+      "nonzero_structure_constants": 36,
+      "integral": true
+    },
+    {
+      "A": 4,
+      "ell": 2,
+      "nonzero_structure_constants": 80,
+      "integral": true
+    },
+    {
+      "A": 2,
+      "ell": 4,
+      "nonzero_structure_constants": 79,
+      "integral": true
+    },
+    {
+      "A": 3,
+      "ell": 3,
+      "nonzero_structure_constants": 154,
+      "integral": true
+    },
+    {
+      "A": 4,
+      "ell": 3,
+      "nonzero_structure_constants": 556,
+      "integral": true
+    },
+    {
+      "A": 4,
+      "ell": 4,
+      "nonzero_structure_constants": 2954,
+      "integral": true
+    },
+    {
+      "A": 5,
+      "ell": 3,
+      "nonzero_structure_constants": 1564,
+      "integral": true
+    }
+  ],
+  "actual_embeddings": [
+    {
+      "A": 2,
+      "ell": 3,
+      "m": 0,
+      "rank": 1,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 2,
+      "ell": 3,
+      "m": 1,
+      "rank": 1,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 2,
+      "ell": 3,
+      "m": 2,
+      "rank": 2,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 2,
+      "ell": 3,
+      "m": 3,
+      "rank": 2,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 2,
+      "ell": 3,
+      "m": 4,
+      "rank": 2,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 2,
+      "ell": 3,
+      "m": 5,
+      "rank": 1,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 2,
+      "ell": 3,
+      "m": 6,
+      "rank": 1,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 2,
+      "ell": 4,
+      "m": 0,
+      "rank": 1,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 2,
+      "ell": 4,
+      "m": 1,
+      "rank": 1,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 2,
+      "ell": 4,
+      "m": 2,
+      "rank": 2,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 2,
+      "ell": 4,
+      "m": 3,
+      "rank": 2,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 2,
+      "ell": 4,
+      "m": 4,
+      "rank": 3,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 2,
+      "ell": 4,
+      "m": 5,
+      "rank": 2,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 2,
+      "ell": 4,
+      "m": 6,
+      "rank": 2,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 2,
+      "ell": 4,
+      "m": 7,
+      "rank": 1,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 2,
+      "ell": 4,
+      "m": 8,
+      "rank": 1,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 3,
+      "ell": 3,
+      "m": 0,
+      "rank": 1,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 3,
+      "ell": 3,
+      "m": 1,
+      "rank": 1,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 3,
+      "ell": 3,
+      "m": 2,
+      "rank": 2,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 3,
+      "ell": 3,
+      "m": 3,
+      "rank": 3,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 3,
+      "ell": 3,
+      "m": 4,
+      "rank": 3,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 3,
+      "ell": 3,
+      "m": 5,
+      "rank": 3,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 3,
+      "ell": 3,
+      "m": 6,
+      "rank": 3,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 3,
+      "ell": 3,
+      "m": 7,
+      "rank": 2,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 3,
+      "ell": 3,
+      "m": 8,
+      "rank": 1,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 3,
+      "ell": 3,
+      "m": 9,
+      "rank": 1,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 2,
+      "ell": 5,
+      "m": 0,
+      "rank": 1,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 2,
+      "ell": 5,
+      "m": 1,
+      "rank": 1,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 2,
+      "ell": 5,
+      "m": 2,
+      "rank": 2,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 2,
+      "ell": 5,
+      "m": 3,
+      "rank": 2,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 2,
+      "ell": 5,
+      "m": 4,
+      "rank": 3,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 2,
+      "ell": 5,
+      "m": 5,
+      "rank": 3,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 2,
+      "ell": 5,
+      "m": 6,
+      "rank": 3,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 2,
+      "ell": 5,
+      "m": 10,
+      "rank": 1,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 2,
+      "ell": 5,
+      "m": 7,
+      "rank": 2,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 2,
+      "ell": 5,
+      "m": 8,
+      "rank": 2,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 2,
+      "ell": 5,
+      "m": 9,
+      "rank": 1,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 3,
+      "ell": 4,
+      "m": 0,
+      "rank": 1,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 3,
+      "ell": 4,
+      "m": 1,
+      "rank": 1,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 3,
+      "ell": 4,
+      "m": 2,
+      "rank": 2,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 3,
+      "ell": 4,
+      "m": 3,
+      "rank": 3,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 3,
+      "ell": 4,
+      "m": 4,
+      "rank": 4,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 3,
+      "ell": 4,
+      "m": 5,
+      "rank": 4,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 3,
+      "ell": 4,
+      "m": 6,
+      "rank": 5,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 3,
+      "ell": 4,
+      "m": 7,
+      "rank": 4,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 3,
+      "ell": 4,
+      "m": 8,
+      "rank": 4,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 3,
+      "ell": 4,
+      "m": 9,
+      "rank": 3,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 3,
+      "ell": 4,
+      "m": 12,
+      "rank": 1,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 3,
+      "ell": 4,
+      "m": 10,
+      "rank": 2,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 3,
+      "ell": 4,
+      "m": 11,
+      "rank": 1,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 2,
+      "ell": 6,
+      "m": 0,
+      "rank": 1,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 2,
+      "ell": 6,
+      "m": 1,
+      "rank": 1,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 2,
+      "ell": 6,
+      "m": 2,
+      "rank": 2,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 2,
+      "ell": 6,
+      "m": 3,
+      "rank": 2,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 2,
+      "ell": 6,
+      "m": 4,
+      "rank": 3,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 2,
+      "ell": 6,
+      "m": 5,
+      "rank": 3,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 2,
+      "ell": 6,
+      "m": 6,
+      "rank": 4,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 2,
+      "ell": 6,
+      "m": 7,
+      "rank": 3,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 2,
+      "ell": 6,
+      "m": 8,
+      "rank": 3,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 2,
+      "ell": 6,
+      "m": 9,
+      "rank": 2,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 2,
+      "ell": 6,
+      "m": 12,
+      "rank": 1,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 2,
+      "ell": 6,
+      "m": 10,
+      "rank": 2,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 2,
+      "ell": 6,
+      "m": 11,
+      "rank": 1,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 3,
+      "ell": 5,
+      "m": 0,
+      "rank": 1,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 3,
+      "ell": 5,
+      "m": 1,
+      "rank": 1,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 3,
+      "ell": 5,
+      "m": 2,
+      "rank": 2,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 3,
+      "ell": 5,
+      "m": 3,
+      "rank": 3,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 3,
+      "ell": 5,
+      "m": 4,
+      "rank": 4,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 3,
+      "ell": 5,
+      "m": 5,
+      "rank": 5,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 3,
+      "ell": 5,
+      "m": 6,
+      "rank": 6,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 3,
+      "ell": 5,
+      "m": 15,
+      "rank": 1,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 3,
+      "ell": 5,
+      "m": 7,
+      "rank": 6,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 3,
+      "ell": 5,
+      "m": 8,
+      "rank": 6,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 3,
+      "ell": 5,
+      "m": 9,
+      "rank": 6,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 3,
+      "ell": 5,
+      "m": 10,
+      "rank": 5,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 3,
+      "ell": 5,
+      "m": 11,
+      "rank": 4,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 3,
+      "ell": 5,
+      "m": 12,
+      "rank": 3,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 3,
+      "ell": 5,
+      "m": 13,
+      "rank": 2,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 3,
+      "ell": 5,
+      "m": 14,
+      "rank": 1,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 4,
+      "ell": 4,
+      "m": 0,
+      "rank": 1,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 4,
+      "ell": 4,
+      "m": 1,
+      "rank": 1,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 4,
+      "ell": 4,
+      "m": 2,
+      "rank": 2,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 4,
+      "ell": 4,
+      "m": 3,
+      "rank": 3,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 4,
+      "ell": 4,
+      "m": 4,
+      "rank": 5,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 4,
+      "ell": 4,
+      "m": 5,
+      "rank": 5,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 4,
+      "ell": 4,
+      "m": 6,
+      "rank": 7,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 4,
+      "ell": 4,
+      "m": 16,
+      "rank": 1,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 4,
+      "ell": 4,
+      "m": 7,
+      "rank": 7,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 4,
+      "ell": 4,
+      "m": 8,
+      "rank": 8,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 4,
+      "ell": 4,
+      "m": 9,
+      "rank": 7,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 4,
+      "ell": 4,
+      "m": 10,
+      "rank": 7,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 4,
+      "ell": 4,
+      "m": 11,
+      "rank": 5,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 4,
+      "ell": 4,
+      "m": 12,
+      "rank": 5,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 4,
+      "ell": 4,
+      "m": 13,
+      "rank": 3,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 4,
+      "ell": 4,
+      "m": 14,
+      "rank": 2,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    },
+    {
+      "A": 4,
+      "ell": 4,
+      "m": 15,
+      "rank": 1,
+      "integral": true,
+      "primitive": true,
+      "reconstructed": true
+    }
+  ],
+  "divided_power_corners": [
+    {
+      "A": 2,
+      "ell": 2,
+      "classes": 3,
+      "products": 4
+    },
+    {
+      "A": 3,
+      "ell": 2,
+      "classes": 3,
+      "products": 4
+    },
+    {
+      "A": 4,
+      "ell": 2,
+      "classes": 6,
+      "products": 9
+    },
+    {
+      "A": 3,
+      "ell": 3,
+      "classes": 4,
+      "products": 6
+    },
+    {
+      "A": 4,
+      "ell": 3,
+      "classes": 4,
+      "products": 6
+    },
+    {
+      "A": 5,
+      "ell": 3,
+      "classes": 10,
+      "products": 19
+    },
+    {
+      "A": 4,
+      "ell": 4,
+      "classes": 5,
+      "products": 9
+    },
+    {
+      "A": 5,
+      "ell": 4,
+      "classes": 5,
+      "products": 9
+    },
+    {
+      "A": 5,
+      "ell": 5,
+      "classes": 6,
+      "products": 12
+    },
+    {
+      "A": 7,
+      "ell": 3,
+      "classes": 20,
+      "products": 49
+    }
+  ],
+  "source_sha256": "c2fc31b1c6f8d262c91988a4df16d922b124891f6b97a7149d6b4d8f1b71c303"
+}

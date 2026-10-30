@@ -12,6 +12,22 @@
       "python_blocks_executed": 0
     },
     {
+      "file": "CLASSICAL_ADAPTED_SMITH_BASIS.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "TYPE_D_EXPLICIT_INTEGRAL_BASIS.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "CLASSICAL_SATURATION_GENERATORS.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "CLASSICAL_TWO_HEAD_GENERATORS.md",
+      "python_blocks_executed": 0
+    },
+    {
       "file": "TYPE_A_K_SPECIALIZATION.md",
       "python_blocks_executed": 0
     },
@@ -33,6 +49,18 @@
     },
     {
       "file": "TYPE_A_K_STABLE_MULTIPLICITIES.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "TYPE_A_K_FIRST_CORRECTION.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "TYPE_A_K_NEXT_LAYER_OBSTRUCTION.md",
+      "python_blocks_executed": 0
+    },
+    {
+      "file": "TYPE_A_K_NEXT_ELEMENTARY.md",
       "python_blocks_executed": 0
     },
     {
@@ -784,7 +812,7 @@
       "python_blocks_executed": 0
     }
   ],
-  "local_links_and_anchors_checked": 2480,
+  "local_links_and_anchors_checked": 2573,
   "python_blocks_executed": 54,
   "scope": "Python fences executed in reading order in a fresh namespace per document; local links and anchors checked. Shell snippets and external URLs were not automatically executed or crawled."
 }

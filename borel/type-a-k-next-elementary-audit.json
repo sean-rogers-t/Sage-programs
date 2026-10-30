@@ -1,0 +1,131 @@
+{
+  "result": "passed",
+  "native_elementary_cases": [
+    {
+      "m": 10,
+      "p": 5,
+      "degree": 8,
+      "ambient_rank": 67,
+      "primary": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "method": "Independent elementary lattices and exact modular Smith through p^(v_p(m)+1); uses the earlier m-annihilator bound"
+    },
+    {
+      "m": 25,
+      "p": 5,
+      "degree": 8,
+      "ambient_rank": 67,
+      "primary": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "method": "Independent elementary lattices and exact modular Smith through p^(v_p(m)+1); uses the earlier m-annihilator bound"
+    },
+    {
+      "m": 14,
+      "p": 7,
+      "degree": 10,
+      "ambient_rank": 139,
+      "primary": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "method": "Independent elementary lattices and exact modular Smith through p^(v_p(m)+1); uses the earlier m-annihilator bound"
+    }
+  ],
+  "native_root_cases": [
+    {
+      "m": 5,
+      "p": 5,
+      "degree": 8,
+      "ambient_rank": 53,
+      "primary": [
+        5,
+        5
+      ],
+      "method": "Independent elementary lattices and exact modular Smith through p^(v_p(m)+1); uses the earlier m-annihilator bound"
+    },
+    {
+      "m": 7,
+      "p": 7,
+      "degree": 10,
+      "ambient_rank": 125,
+      "primary": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "method": "Independent elementary lattices and exact modular Smith through p^(v_p(m)+1); uses the earlier m-annihilator bound"
+    }
+  ],
+  "quadratic_reductions": [
+    {
+      "p": 5,
+      "reductions": [
+        "w**3*y*z",
+        "w*y**5*z",
+        "w*y*z**5"
+      ],
+      "distinct_unit_basis_monomials": true
+    },
+    {
+      "p": 7,
+      "reductions": [
+        "3*w**4*y*z",
+        "3*w*y**7*z",
+        "3*w*y*z**7"
+      ],
+      "distinct_unit_basis_monomials": true
+    },
+    {
+      "p": 11,
+      "reductions": [
+        "-4*w**6*y*z",
+        "-4*w*y**11*z",
+        "-4*w*y*z**11"
+      ],
+      "distinct_unit_basis_monomials": true
+    }
+  ],
+  "trace_checks": [
+    {
+      "p": 5,
+      "variable_mass_exact_trace": true,
+      "formal_reduction_mod_p_and_mass": true
+    },
+    {
+      "p": 7,
+      "variable_mass_exact_trace": true,
+      "formal_reduction_mod_p_and_mass": true
+    },
+    {
+      "p": 11,
+      "variable_mass_exact_trace": true,
+      "formal_reduction_mod_p_and_mass": true
+    }
+  ],
+  "sage_imported": false,
+  "root_boundary_theorem": true,
+  "variable_mass_literal_root_membership_identity": true,
+  "all_rank_claim_from_finite_checks": false,
+  "source_sha256": {
+    "TYPE_A_K_NEXT_ELEMENTARY.md": "9703b04904eb994bc145c0738ffb01e51d1db4c21b873aca571cd98e3c416116",
+    "TYPE_A_K_NEXT_LAYER_OBSTRUCTION.md": "6409a0474e65c9b07f927008ef50a9e3d0827b959a9862329a0943402fcbb048",
+    "TYPE_A_K_FIRST_CORRECTION.md": "c963221f4464452b6fb548e897814ac033e19bb885ea2d89f022faa64d177b7b",
+    "tools/audit_type_a_k_next_elementary.py": "17563f6cdf8985b9e77b4d8ed4fa23d1442e5bb6ff1b70c99beb5e73c4523397",
+    "tools/audit_type_a_k_first_correction.py": "e319aabfc539c593085b3cb3a3b2dc4af5e0621cb5bac030427463323032b6b3"
+  }
+}
